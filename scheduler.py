@@ -26,6 +26,8 @@ import config
 import main as engine
 import paper_trader
 import notifier
+import risk_manager
+from signal_combiner import pip_size_of
 
 
 def run_cycle():
@@ -53,8 +55,16 @@ def run_cycle():
     # 4. แจ้งเตือน Telegram เมื่อมีเหตุการณ์ (สัญญาณใหม่ / เทรดปิด)
     lines = []
     for t in paper["opened"]:
+        # คำนวณ lot แนะนำ เผื่อผู้ใช้อยากกดเทรดตามใน MT5 demo ด้วยมือ
+        sl_pips = t["sl_dist"] / pip_size_of(t["pair"])
+        sizing = risk_manager.calculate_position_size(
+            account_balance=config.ACCOUNT_BALANCE_EXAMPLE,
+            stop_loss_pips=sl_pips,
+        )
         lines.append(f"🆕 เปิด paper trade: {t['direction']} {t['pair']} @ {t['entry_price']}\n"
-                     f"   SL {t['sl_price']} / TP {t['tp_price']} (เชื่อมั่น: {t['confidence']})")
+                     f"   SL {t['sl_price']} / TP {t['tp_price']} (เชื่อมั่น: {t['confidence']})\n"
+                     f"   lot แนะนำ: {sizing['recommended_lot_size']} "
+                     f"(ทุน {config.ACCOUNT_BALANCE_EXAMPLE} USD เสี่ยง {sizing['risk_percent']}%)")
     for t in paper["closed"]:
         emoji = "✅" if t["status"] == "won" else "❌"
         lines.append(f"{emoji} ปิด paper trade: {t['direction']} {t['pair']} "
