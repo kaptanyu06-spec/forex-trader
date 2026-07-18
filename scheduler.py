@@ -20,7 +20,9 @@ scheduler.py
 
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+
+THAI_TZ = timezone(timedelta(hours=7))   # เวลาไทย (UTC+7) ใช้ตัดวันในรายงาน
 
 import config
 import main as engine
@@ -30,6 +32,63 @@ import risk_manager
 import broker_oanda
 import broker_capital
 from signal_combiner import pip_size_of
+
+
+def _thai_date(iso_time: str) -> str:
+    """แปลงเวลา ISO (UTC) เป็นวันที่แบบไทย เช่น '18/07' — ไว้เทียบว่าเป็นของวันนี้ไหม"""
+    return datetime.fromisoformat(iso_time).astimezone(THAI_TZ).strftime("%d/%m")
+
+
+def build_daily_report() -> str:
+    """
+    สรุปประจำวันฉบับอ่านง่าย ส่งเข้า Telegram วันละครั้ง (แม้วันที่ไม่มีเทรด)
+    เนื้อหา: เทรดของวันนี้ / ไม้ที่ค้างอยู่ / สถิติสะสมเทียบเป้า 20 ไม้ / ยอดบัญชี demo
+    """
+    trades = paper_trader.load_trades()
+    stats = paper_trader.summarize(trades)
+    today = datetime.now(THAI_TZ).strftime("%d/%m")
+
+    opened_today = [t for t in trades if _thai_date(t["entry_time"]) == today]
+    closed_today = [t for t in trades if t["status"] != "open"
+                    and t.get("exit_time") and _thai_date(t["exit_time"]) == today]
+    open_now = [t for t in trades if t["status"] == "open"]
+
+    lines = [f"📒 รายงานประจำวัน {today}", ""]
+
+    # เทรดของวันนี้
+    if not opened_today and not closed_today:
+        lines.append("วันนี้ไม่มีเทรดใหม่/ปิด (ไม่มีสัญญาณเข้าเงื่อนไข หรือตลาดปิด)")
+    else:
+        for t in opened_today:
+            lines.append(f"🆕 เปิด {t['direction']} {t['pair']} @ {t['entry_price']}")
+        for t in closed_today:
+            emoji = "✅" if t["status"] == "won" else "❌"
+            lines.append(f"{emoji} ปิด {t['direction']} {t['pair']} ({t['net_r']:+}R)")
+
+    # ไม้ที่ยังค้างอยู่
+    if open_now:
+        lines.append("")
+        lines.append(f"ไม้ค้าง {len(open_now)} ไม้: "
+                     + ", ".join(f"{t['direction']} {t['pair']}" for t in open_now))
+
+    # สถิติสะสม + ความคืบหน้าเทียบเป้าที่ตกลงกัน (1 เดือน + ปิด 20 ไม้)
+    lines += [
+        "",
+        f"สะสม: ปิดแล้ว {stats['closed_count']}/20 ไม้ตามเป้า | "
+        f"ชนะ {stats['win_rate_pct']}% | {stats['total_r']:+}R "
+        f"({stats['sim_return_pct']:+}% ของทุนจำลอง)",
+    ]
+
+    # ยอดบัญชี demo จริงจากโบรก (ถ้าตั้งค่าไว้)
+    try:
+        if broker_capital.is_configured():
+            acct = broker_capital.get_account_summary(broker_capital.login())
+            lines.append(f"💰 Capital.com demo: {acct['balance']:,.2f} {acct['currency']}")
+    except Exception:
+        pass   # ดึงยอดไม่ได้ (เช่น เน็ตสะดุด) ไม่ต้องพังทั้งรายงาน
+
+    lines += ["", "(เทรดจำลองเท่านั้น ไม่ใช่คำแนะนำการลงทุน)"]
+    return "\n".join(lines)
 
 
 def run_cycle():
@@ -88,6 +147,11 @@ def run_cycle():
                   f"(เทรดจำลองเท่านั้น ไม่ใช่คำแนะนำการลงทุน)")
         sent = notifier.send(header + "\n".join(lines) + footer)
         print(f"แจ้งเตือน Telegram: {'ส่งแล้ว' if sent else 'ข้าม (ยังไม่ตั้งค่า/ส่งไม่สำเร็จ)'}")
+
+    # 5. รายงานสรุปประจำวัน — ส่งเฉพาะรอบที่ตรงชั่วโมงที่ตั้งไว้ (วันละครั้ง)
+    if datetime.now(timezone.utc).hour == config.DAILY_REPORT_UTC_HOUR:
+        sent = notifier.send(build_daily_report())
+        print(f"รายงานประจำวัน: {'ส่งแล้ว' if sent else 'ข้าม (ยังไม่ตั้งค่า/ส่งไม่สำเร็จ)'}")
 
 
 if __name__ == "__main__":

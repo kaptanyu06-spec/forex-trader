@@ -121,6 +121,10 @@ SCHEDULER_INTERVAL_HOURS = 1
 NEWS_CACHE_HOURS = 3
 NEWS_CACHE_FILE = os.path.join(OUTPUT_DIR, "news_cache.json")
 
+# รายงานสรุปประจำวันทาง Telegram: ส่งในรอบรันของชั่วโมงนี้ (เวลา UTC)
+# 13 UTC = ประมาณ 20:07 เวลาไทย (รอบรันอยู่ที่นาทีที่ 7 ของชั่วโมง)
+DAILY_REPORT_UTC_HOUR = 13
+
 # Telegram Bot สำหรับแจ้งเตือนสัญญาณ (ไม่ใส่ก็ได้ ระบบจะข้ามการแจ้งเตือน)
 # วิธีสมัคร: คุยกับ @BotFather ใน Telegram -> /newbot -> ได้ token
 # แล้วคุยกับ @userinfobot -> ได้ chat id ของตัวเอง
