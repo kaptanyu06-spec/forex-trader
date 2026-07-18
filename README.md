@@ -82,20 +82,23 @@ python scheduler.py
 - ตั้งค่า Telegram ใน `config.py` แล้วจะแจ้งเตือนเข้ามือถือทุกครั้งที่เปิด/ปิดไม้
   (วิธีสมัครบอทอ่านที่หัวไฟล์ `notifier.py` — ใช้เวลา ~2 นาที ฟรี)
 
-**หรือแบบอัตโนมัติเต็มรูปแบบ (ตั้งไว้แล้วในเครื่องนี้)**: มีไฟล์ตั้งเวลาของ macOS อยู่ที่
-`~/Library/LaunchAgents/com.forextrader.scheduler.plist` — ระบบจะรันวิเคราะห์เอง
-ทุก 2 ชั่วโมงโดย **ไม่ต้องเปิด Terminal ค้างไว้** เปิดเครื่อง/ล็อกอินเมื่อไหร่ก็เริ่มทำงานเอง
-ดูบันทึกการทำงานย้อนหลังได้ที่ `output/scheduler.log`
+**แบบอัตโนมัติเต็มรูปแบบ (ที่ใช้อยู่ปัจจุบัน — รันบนคลาวด์ ฟรี)**:
+ระบบรันบน **GitHub Actions** ทุก 2 ชั่วโมง ที่ repo ส่วนตัว
+https://github.com/kaptanyu06-spec/forex-trader — **ไม่ต้องเปิดคอมเลย**
+ผลทุกอย่างแจ้งเข้า Telegram (@KT_Trader_bot) และสมุดเทรดจำลอง
+(`output/paper_trades.json`) ถูกบันทึกกลับเข้า repo ทุกรอบ
 
-คำสั่งจัดการ (พิมพ์ใน Terminal):
-```bash
-# หยุดการรันอัตโนมัติชั่วคราว
-launchctl unload ~/Library/LaunchAgents/com.forextrader.scheduler.plist
-# เปิดกลับมาใหม่
-launchctl load ~/Library/LaunchAgents/com.forextrader.scheduler.plist
-```
+- ดูประวัติการรัน: เข้า repo บนเว็บ -> แท็บ **Actions**
+- สั่งรันทันที: แท็บ Actions -> "Forex Analyzer" -> ปุ่ม **Run workflow**
+- รหัสลับ (NewsAPI, Telegram) เก็บใน GitHub Secrets (เข้ารหัส) + `secrets_local.py`
+  ในเครื่อง ซึ่ง**ไม่ถูกอัปโหลด** (.gitignore กันไว้)
+- ดึงข้อมูล paper trade ล่าสุดมาดูใน Dashboard ในเครื่อง: `git pull` ก่อน
 
-ข้อจำกัด: ถ้าเครื่องหลับ (พับจอ) จะข้ามรอบนั้น แล้วรันต่อเมื่อเครื่องตื่น และตลาดปิดเสาร์-อาทิตย์
+ตัวสำรองในเครื่อง: ไฟล์ launchd `~/Library/LaunchAgents/com.forextrader.scheduler.plist`
+ยังอยู่แต่**ปิดใช้แล้ว** (กันรันซ้ำซ้อนกับคลาวด์) — ถ้าอยากกลับมาใช้:
+`launchctl load ~/Library/LaunchAgents/com.forextrader.scheduler.plist`
+
+ข้อจำกัด: เวลารันบนคลาวด์อาจเลื่อนจากตารางไม่กี่นาที และตลาดปิดเสาร์-อาทิตย์
 
 **เป้าหมายขั้นนี้**: เก็บ paper trade อย่างน้อย 1-3 เดือน แล้วเทียบอัตราชนะ/ผลตอบแทน
 กับผล backtest — ถ้าใกล้เคียงกันจึงค่อยพิจารณาขั้น demo account ผ่าน MT5 ต่อไป
