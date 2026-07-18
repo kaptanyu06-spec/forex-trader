@@ -106,6 +106,8 @@
 
 **รายงานประจำวัน (เพิ่ม 2026-07-18 ตามคำขอผู้ใช้)**: scheduler ส่งสรุปเข้า Telegram วันละครั้ง (รอบ 13 UTC ≈ 20:07 ไทย, ตั้งใน config.DAILY_REPORT_UTC_HOUR) — เทรดวันนี้/ไม้ค้าง/สถิติสะสมเทียบเป้า 20 ไม้/ยอด Capital.com demo — ส่งแม้วันไม่มีเทรด
 
+**งานค้าง (2026-07-18 กลางคืน — ต่อพรุ่งนี้)**: Deploy แดชบอร์ดขึ้น Streamlit Community Cloud — ฝั่ง repo พร้อมหมดแล้ว (analysis_latest.json commit ทุกรอบ, บั๊ก dashboard แก้แล้ว, ทดสอบ workflow ผ่าน) เหลือแค่ผู้ใช้กด deploy ที่ share.streamlit.io แต่ติดขั้นให้สิทธิ์ private repo: ต้องทำ Workspaces (มุมซ้ายบน) -> Connect GitHub account แล้วตามด้วย ชื่อผู้ใช้มุมซ้ายบน -> Settings -> Linked accounts -> Source control -> Connect here -> Authorize streamlit | แผนสำรองถ้ายังติด: เปลี่ยน repo เป็น public (ผู้ใช้ยังไม่ได้ตัดสินใจ — ไม่มีรหัสลับใน repo, คีย์อยู่ใน GitHub Secrets ทั้งหมด)
+
 **ความชอบผู้ใช้ (2026-07-18)**: ถนัด/ชอบหน้าจอ MT5 มากกว่า — ช่วง demo ให้ใช้ MT5 (บัญชี OANDA MT5 demo) เป็นจอดูกราฟคู่ไปกับระบบ | ตอนออกแบบขั้นเงินจริง ให้พิจารณาโหมดกดยืนยัน Telegram + ผู้ใช้กดเทรดเองใน MT5 เป็นตัวเลือกหลัก (ไม่ต้องมี bridge) | บัญชี MT5 demo ที่ผู้ใช้ใช้ดูกราฟอยู่ปัจจุบัน: 10011767709 (แจ้ง 2026-07-18 — ไม่ได้เชื่อมกับระบบ ใช้ดูกราฟอย่างเดียว)
 
 ## 6. กฎ Risk Management ที่ต้องคงไว้เสมอ (Non-negotiable)
