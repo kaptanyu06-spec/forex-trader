@@ -46,6 +46,8 @@
 **ขั้น 5.4 โค้ดเสร็จแล้ว (2026-07-18) — รอผู้ใช้สมัคร OANDA**: เลือก OANDA practice แทน MT5 (Mac ต่อ MT5 Python ไม่ได้) `broker_oanda.py` ต่อเข้า scheduler แล้ว: ทุกสัญญาณที่เปิด paper trade จะส่งออเดอร์เข้าบัญชีทดลอง OANDA อัตโนมัติ (SL/TP ฝากไว้กับโบรก, ขนาดไม้จากกฎเสี่ยง 1%, กันเปิดซ้ำคู่เดิม, ล็อกเฉพาะ practice — ปฏิเสธบัญชีจริง) ถ้ายังไม่ใส่คีย์ระบบข้ามส่วนนี้และทำ paper trading ตามปกติ
 **สิ่งที่ผู้ใช้ต้องทำเพื่อเปิดใช้**: (1) สมัครบัญชีทดลอง oanda.com -> Manage API Access -> สร้าง token (2) ใส่ OANDA_API_KEY + OANDA_ACCOUNT_ID ใน secrets_local.py (ในเครื่อง) และเพิ่มเป็น GitHub Secrets ชื่อเดียวกัน (Settings -> Secrets and variables -> Actions) (3) ทดสอบ `python broker_oanda.py`
 
+**เพิ่ม Capital.com เป็นโบรกทางเลือก (2026-07-18)**: ผู้ใช้ติดปัญหาล็อกอิน OANDA (สมัครผ่านฟอร์ม MT5 demo แล้วตั้งรหัสเว็บ/รีเซ็ตไม่สำเร็จหลายรอบ — ได้บัญชี MT5 demo มาซึ่งใช้กับ REST API ไม่ได้) จึงเพิ่ม `broker_capital.py` อินเทอร์เฟซเดียวกัน scheduler เรียกทั้ง 2 โบรก ใครใส่คีย์อันนั้นทำงาน คีย์ที่ต้องใช้ 3 ค่า: CAPITAL_API_KEY, CAPITAL_IDENTIFIER (อีเมล), CAPITAL_API_PASSWORD (รหัสประจำคีย์ API) — วิธีสมัครอยู่หัวไฟล์ broker_capital.py | หมายเหตุ: ยังไม่เคยยิง API จริงกับ Capital.com — ตอนได้คีย์มาให้ทดสอบ `python broker_capital.py` ก่อน โดยเฉพาะเช็คว่าหน่วย size ของคู่ FX ตรงกับที่คิด (สูตรคิดเป็นหน่วยสกุลเงินหลัก ถ้าโบรกตีความเป็น lot ต้องแก้ calc_size)
+
 **คำตอบจากผู้ใช้ (2026-07-16)**: ใช้ **MT5** | ยังไม่ได้สมัคร NewsAPI key | คู่เงินใช้ตามที่แนะนำ: EURUSD, GBPUSD, USDJPY, AUDUSD
 **ประเด็นสำคัญ**: ผู้ใช้ใช้ Mac แต่ package `MetaTrader5` (Python) รองรับเฉพาะ Windows — ตอนทำขั้น 5.4 ต้องเลือก: Windows VM / เครื่อง Windows แยก / หรือโบรกเกอร์ที่มี REST API (เช่น OANDA)
 

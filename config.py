@@ -152,6 +152,19 @@ OANDA_ACCOUNT_ID = os.environ.get("OANDA_ACCOUNT_ID", "")
 OANDA_ENV = "practice"
 
 # ============================================
+# 7.5 โบรกเกอร์ Capital.com (ทางเลือกแทน OANDA — ใส่คีย์อันไหน อันนั้นทำงาน)
+# ============================================
+# เพิ่มเข้ามาเพราะติดปัญหาล็อกอิน OANDA — Capital.com สมัคร demo ง่ายกว่า
+# วิธีสมัครอยู่ที่หัวไฟล์ broker_capital.py
+#
+# CAPITAL_ENV: "demo" = บัญชีทดลอง (เงินปลอม) เท่านั้น
+# ระบบตั้งใจไม่รองรับ "live" ในตอนนี้ — ต้องผ่าน paper trading 1-3 เดือนก่อน
+CAPITAL_API_KEY = os.environ.get("CAPITAL_API_KEY", "")
+CAPITAL_IDENTIFIER = os.environ.get("CAPITAL_IDENTIFIER", "")     # อีเมลที่ใช้สมัคร
+CAPITAL_API_PASSWORD = os.environ.get("CAPITAL_API_PASSWORD", "") # รหัสผ่านประจำคีย์ API
+CAPITAL_ENV = "demo"
+
+# ============================================
 # 8. โหลดรหัสลับจากไฟล์ในเครื่อง — ต้องอยู่ท้ายไฟล์เสมอ เพื่อทับค่าว่างด้านบน
 # secrets_local.py มีเฉพาะในเครื่องเรา (ไม่ถูกอัปโหลดขึ้น GitHub — อยู่ใน .gitignore)
 # ส่วนบนคลาวด์ (GitHub Actions) ไฟล์นี้ไม่มี ระบบใช้ค่าจาก GitHub Secrets ผ่าน
