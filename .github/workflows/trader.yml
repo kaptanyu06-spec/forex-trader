@@ -1,0 +1,66 @@
+# ============================================================
+# ตารางรันอัตโนมัติบนคลาวด์ (GitHub Actions)
+# ------------------------------------------------------------
+# ทำหน้าที่เดียวกับ launchd บน Mac เดิม: รันวิเคราะห์ + paper trading
+# ทุก 2 ชั่วโมง แล้วแจ้งเตือนเข้า Telegram — แต่รันบนเครื่องของ GitHub
+# เราไม่ต้องเปิดคอมเลย
+#
+# ดูประวัติการรัน: หน้า repo บน GitHub -> แท็บ "Actions"
+# สั่งรันทันทีด้วยมือ: แท็บ Actions -> เลือก workflow นี้ -> "Run workflow"
+# ============================================================
+name: Forex Analyzer (ทุก 2 ชม.)
+
+on:
+  schedule:
+    # นาทีที่ 17 ของทุก 2 ชั่วโมง (เวลา UTC — เวลาไทย = UTC+7)
+    # หมายเหตุ: GitHub อาจรันช้ากว่ากำหนดไม่กี่นาที เป็นเรื่องปกติ
+    - cron: "17 */2 * * *"
+  # ปุ่มกดรันเองจากหน้าเว็บ (ไว้ทดสอบ)
+  workflow_dispatch:
+
+# ให้สิทธิ์บันทึกผล paper trade กลับเข้า repo
+permissions:
+  contents: write
+
+# กันรันซ้อนกัน 2 รอบพร้อมกัน
+concurrency:
+  group: forex-analyzer
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # 1. ดึงโค้ดเวอร์ชันล่าสุด (รวม paper_trades.json รอบก่อน)
+      - uses: actions/checkout@v4
+
+      # 2. เตรียม Python
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      # 3. ติดตั้งไลบรารี (ฉบับย่อ ไม่มี streamlit)
+      - run: pip install -r requirements-cloud.txt
+
+      # 4. รันวิเคราะห์ 1 รอบ — รหัสลับส่งผ่าน GitHub Secrets (เข้ารหัส ปลอดภัย)
+      - name: รันวิเคราะห์ + paper trading
+        env:
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python scheduler.py --once
+
+      # 5. บันทึกสมุดเทรดจำลองกลับเข้า repo (ให้รอบถัดไปเห็นข้อมูลต่อเนื่อง)
+      - name: บันทึก paper trades
+        run: |
+          git config user.name "forex-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f output/paper_trades.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "อัปเดตสมุดเทรดจำลอง [skip ci]"
+            git pull --rebase origin main
+            git push
+          fi

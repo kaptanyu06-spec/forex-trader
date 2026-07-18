@@ -1,0 +1,11 @@
+# รหัสลับ — ห้ามอัปโหลดขึ้น GitHub เด็ดขาด
+secrets_local.py
+
+# ไฟล์ชั่วคราวของ Python
+__pycache__/
+*.pyc
+
+# ผลวิเคราะห์รายรอบ (ไฟล์ใหญ่+เปลี่ยนบ่อย ไม่ต้องเก็บบนคลาวด์)
+# ยกเว้น paper_trades.json ซึ่งเป็นสมุดเทรดจำลอง ต้องเก็บ (ระบุใน workflow)
+output/analysis_*.json
+output/scheduler.log

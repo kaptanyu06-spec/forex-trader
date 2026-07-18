@@ -1,0 +1,6 @@
+# ไลบรารีเฉพาะที่จำเป็นบนคลาวด์ (GitHub Actions) — ไม่รวม streamlit/altair
+# เพราะ Dashboard ใช้ดูในเครื่องเท่านั้น ตัดออกให้คลาวด์ติดตั้งเร็วขึ้นมาก
+requests>=2.31.0
+vaderSentiment>=3.3.2
+pandas>=2.0.0
+yfinance>=0.2.40
