@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0688,
-        "label": "บวกเล็กน้อย",
-        "article_count": 24,
+        "average_score": 0.0459,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "ECB Warns Stablecoins May Drain Bank Deposits—Here's What That Means",
+            "description": "ECB board member Piero Cipollone laid out the three-layer threat banks face from digital payments, and pitched the digital euro as the only structural answer.",
+            "source": "Decrypt",
+            "published_at": "2026-07-17T20:17:44Z",
+            "url": "https://decrypt.co/373767/ecb-warns-stablecoins-drain-bank-deposits",
+            "sentiment_score": -0.2299,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Ursula von der Leyen declines invite to FIFA World Cup final",
@@ -253,10 +263,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0754,
+        "average_score": 0.0557,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
+            "description": "Trump’s tariff program has gone from generating billions to forcing billions in refunds thanks to February's Supreme Court ruling.",
+            "source": "Fortune",
+            "published_at": "2026-07-17T21:28:52Z",
+            "url": "https://fortune.com/2026/07/17/donald-trump-supreme-court-tariffs-brazil-section-301-workaround-global-trade-politics/",
+            "sentiment_score": -0.0399,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gavin Newsom hires anti-Trump big gun as bombshell case into his wife escalates",
+            "description": "Lowell, a powerhouse litigator with decades of experience, has made a name for himself going toe-to-toe with the Trump administration in recent months.",
+            "source": "Dailymail.com",
+            "published_at": "2026-07-17T21:21:13Z",
+            "url": "https://www.dailymail.com/news/article-15985721/gavin-newsom-abbe-lowell-lawsuit-wife.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor",
+            "description": "BlackRock's SGOV ETF nears $100 billion in assets, more than doubling competitor BIL with $28.9 billion in 2026 inflows as investors flock to ultra-short\nThe post BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor appeared first on Cr…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T20:55:29Z",
+            "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Advance Notice of a Meeting",
+            "description": "A closed meeting of the Board of Governors of the Federal Reserve System will be held at 9:00 a.m. on July 21, 2026. Matter(s) considered: Periodic Briefing and Discussion on Financial Markets, Institutions, and Infrastructure.",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-07-17T20:15:00Z",
+            "url": "https://www.federalreserve.gov/aboutthefed/boardmeetings/20260721closed.htm",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "VALUE LINE, INC. DECLARES A QUARTERLY CASH DIVIDEND OF $0.35 PER COMMON SHARE AND RENEWS STOCK REPURCHASE PROGRAM",
+            "description": "NEW YORK, July 17, 2026 (GLOBE NEWSWIRE) -- Value Line, Inc. (NASDAQ – VALU\r\n) announced today that its Board of Directors declared on July 17, 2026 a quarterly cash dividend of $0.35 per common share, payable on August 11, 2026, to stockholders of record on …",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:05:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329280/0/en/VALUE-LINE-INC-DECLARES-A-QUARTERLY-CASH-DIVIDEND-OF-0-35-PER-COMMON-SHARE-AND-RENEWS-STOCK-REPURCHASE-PROGRAM.html",
+            "sentiment_score": 0.6741,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hingham Reports Second Quarter 2026 Results",
+            "description": "HINGHAM, Mass., July 17, 2026 (GLOBE NEWSWIRE) -- HINGHAM INSTITUTION FOR SAVINGS (NASDAQ: HIFS), Hingham, Massachusetts announced results for the quarter ended June 30, 2026.",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:01:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329272/33478/en/Hingham-Reports-Second-Quarter-2026-Results.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US government issues record debt as Treasury market shows signs of stress",
+            "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T19:41:14Z",
+            "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
+            "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bond yields are sending a new signal about Fed rate hikes",
@@ -486,80 +566,10 @@
             "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
             "sentiment_score": -0.3759,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why the Fed may still need to hike rates",
-            "description": "Stocks cut losses on consumer sentiment data, but tech slide remains main driver\nInvesting.com -- In a note to clients on Friday, Bank of America argued that the case for Federal Reserve rate hikes remains strong despite some clients' skepticism, pushing back…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T14:48:09Z",
-            "url": "https://biztoc.com/x/5e1001ef67735af4",
-            "sentiment_score": 0.0686,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack Sees No Conflict in Fed’s Goals, Inflation Her Worry",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said persistently high inflation is her bigger concern as consumer spending holds up and unemployment remains low.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:47:57Z",
-            "url": "https://financialpost.com/pmn/business-pmn/hammack-sees-no-conflict-in-feds-goals-inflation-her-worry",
-            "sentiment_score": -0.3485,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate expected to pass market structure bill next week, impacting crypto sector",
-            "description": "Senate expected to pass market structure bill next week, impacting crypto. Bitcoin reaching $160K by December 31, 2026 priced at 2.6% YES.\nThe post Senate expected to pass market structure bill next week, impacting crypto sector appeared first on Crypto Brief…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:44:59Z",
-            "url": "https://cryptobriefing.com/senate-expected-to-pass-market-structure-bill-next-week-impacting-crypto-sector/",
-            "sentiment_score": 0.1922,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack signals potential rate hikes to tackle high inflation",
-            "description": "Hammack signals potential rate hikes to combat inflation. No change in Fed rates after September 2026 at 61.5% YES.\nThe post Fed’s Hammack signals potential rate hikes to tackle high inflation appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:42:11Z",
-            "url": "https://cryptobriefing.com/feds-hammack-signals-potential-rate-hikes-to-tackle-high-inflation/",
-            "sentiment_score": -0.0129,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection",
-            "description": "Dollar hedging costs hit 2026 lows as global pension funds unwind FX protection. What the institutional shift means for crypto and risk assets.\nThe post Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:31:35Z",
-            "url": "https://cryptobriefing.com/dollar-hedging-costs-lowest-2026/",
-            "sentiment_score": -0.443,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US manufacturing output unchanged in June, but accelerates in second quarter",
-            "description": "US factory output remained steady in June, but saw strong second-quarter growth.  This expansion was fueled by artificial intelligence investments and businesses stocking up.  Motor vehicle and parts production increased, while semiconductor output also rose.…",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T14:30:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-manufacturing-output-unchanged-in-june-but-accelerates-in-second-quarter/articleshow/132463858.cms",
-            "sentiment_score": 0.2819,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Manufacturing Output Stalls, Held Back by Durable Goods",
-            "description": "US manufacturing production stalled in June, dragged down by a decline in durable goods such as machinery.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:27:22Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-manufacturing-output-stalls-held-back-by-durable-goods",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0066,
+      "net_score": -0.0098,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -805,10 +815,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0754,
+        "average_score": 0.0557,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
+            "description": "Trump’s tariff program has gone from generating billions to forcing billions in refunds thanks to February's Supreme Court ruling.",
+            "source": "Fortune",
+            "published_at": "2026-07-17T21:28:52Z",
+            "url": "https://fortune.com/2026/07/17/donald-trump-supreme-court-tariffs-brazil-section-301-workaround-global-trade-politics/",
+            "sentiment_score": -0.0399,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gavin Newsom hires anti-Trump big gun as bombshell case into his wife escalates",
+            "description": "Lowell, a powerhouse litigator with decades of experience, has made a name for himself going toe-to-toe with the Trump administration in recent months.",
+            "source": "Dailymail.com",
+            "published_at": "2026-07-17T21:21:13Z",
+            "url": "https://www.dailymail.com/news/article-15985721/gavin-newsom-abbe-lowell-lawsuit-wife.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor",
+            "description": "BlackRock's SGOV ETF nears $100 billion in assets, more than doubling competitor BIL with $28.9 billion in 2026 inflows as investors flock to ultra-short\nThe post BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor appeared first on Cr…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T20:55:29Z",
+            "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Advance Notice of a Meeting",
+            "description": "A closed meeting of the Board of Governors of the Federal Reserve System will be held at 9:00 a.m. on July 21, 2026. Matter(s) considered: Periodic Briefing and Discussion on Financial Markets, Institutions, and Infrastructure.",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-07-17T20:15:00Z",
+            "url": "https://www.federalreserve.gov/aboutthefed/boardmeetings/20260721closed.htm",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "VALUE LINE, INC. DECLARES A QUARTERLY CASH DIVIDEND OF $0.35 PER COMMON SHARE AND RENEWS STOCK REPURCHASE PROGRAM",
+            "description": "NEW YORK, July 17, 2026 (GLOBE NEWSWIRE) -- Value Line, Inc. (NASDAQ – VALU\r\n) announced today that its Board of Directors declared on July 17, 2026 a quarterly cash dividend of $0.35 per common share, payable on August 11, 2026, to stockholders of record on …",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:05:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329280/0/en/VALUE-LINE-INC-DECLARES-A-QUARTERLY-CASH-DIVIDEND-OF-0-35-PER-COMMON-SHARE-AND-RENEWS-STOCK-REPURCHASE-PROGRAM.html",
+            "sentiment_score": 0.6741,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hingham Reports Second Quarter 2026 Results",
+            "description": "HINGHAM, Mass., July 17, 2026 (GLOBE NEWSWIRE) -- HINGHAM INSTITUTION FOR SAVINGS (NASDAQ: HIFS), Hingham, Massachusetts announced results for the quarter ended June 30, 2026.",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:01:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329272/33478/en/Hingham-Reports-Second-Quarter-2026-Results.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US government issues record debt as Treasury market shows signs of stress",
+            "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T19:41:14Z",
+            "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
+            "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bond yields are sending a new signal about Fed rate hikes",
@@ -1038,80 +1118,10 @@
             "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
             "sentiment_score": -0.3759,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why the Fed may still need to hike rates",
-            "description": "Stocks cut losses on consumer sentiment data, but tech slide remains main driver\nInvesting.com -- In a note to clients on Friday, Bank of America argued that the case for Federal Reserve rate hikes remains strong despite some clients' skepticism, pushing back…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T14:48:09Z",
-            "url": "https://biztoc.com/x/5e1001ef67735af4",
-            "sentiment_score": 0.0686,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack Sees No Conflict in Fed’s Goals, Inflation Her Worry",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said persistently high inflation is her bigger concern as consumer spending holds up and unemployment remains low.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:47:57Z",
-            "url": "https://financialpost.com/pmn/business-pmn/hammack-sees-no-conflict-in-feds-goals-inflation-her-worry",
-            "sentiment_score": -0.3485,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate expected to pass market structure bill next week, impacting crypto sector",
-            "description": "Senate expected to pass market structure bill next week, impacting crypto. Bitcoin reaching $160K by December 31, 2026 priced at 2.6% YES.\nThe post Senate expected to pass market structure bill next week, impacting crypto sector appeared first on Crypto Brief…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:44:59Z",
-            "url": "https://cryptobriefing.com/senate-expected-to-pass-market-structure-bill-next-week-impacting-crypto-sector/",
-            "sentiment_score": 0.1922,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack signals potential rate hikes to tackle high inflation",
-            "description": "Hammack signals potential rate hikes to combat inflation. No change in Fed rates after September 2026 at 61.5% YES.\nThe post Fed’s Hammack signals potential rate hikes to tackle high inflation appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:42:11Z",
-            "url": "https://cryptobriefing.com/feds-hammack-signals-potential-rate-hikes-to-tackle-high-inflation/",
-            "sentiment_score": -0.0129,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection",
-            "description": "Dollar hedging costs hit 2026 lows as global pension funds unwind FX protection. What the institutional shift means for crypto and risk assets.\nThe post Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:31:35Z",
-            "url": "https://cryptobriefing.com/dollar-hedging-costs-lowest-2026/",
-            "sentiment_score": -0.443,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US manufacturing output unchanged in June, but accelerates in second quarter",
-            "description": "US factory output remained steady in June, but saw strong second-quarter growth.  This expansion was fueled by artificial intelligence investments and businesses stocking up.  Motor vehicle and parts production increased, while semiconductor output also rose.…",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T14:30:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-manufacturing-output-unchanged-in-june-but-accelerates-in-second-quarter/articleshow/132463858.cms",
-            "sentiment_score": 0.2819,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Manufacturing Output Stalls, Held Back by Durable Goods",
-            "description": "US manufacturing production stalled in June, dragged down by a decline in durable goods such as machinery.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:27:22Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-manufacturing-output-stalls-held-back-by-durable-goods",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0272,
+      "net_score": 0.0469,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1150,10 +1160,80 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0754,
+        "average_score": 0.0557,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
+            "description": "Trump’s tariff program has gone from generating billions to forcing billions in refunds thanks to February's Supreme Court ruling.",
+            "source": "Fortune",
+            "published_at": "2026-07-17T21:28:52Z",
+            "url": "https://fortune.com/2026/07/17/donald-trump-supreme-court-tariffs-brazil-section-301-workaround-global-trade-politics/",
+            "sentiment_score": -0.0399,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gavin Newsom hires anti-Trump big gun as bombshell case into his wife escalates",
+            "description": "Lowell, a powerhouse litigator with decades of experience, has made a name for himself going toe-to-toe with the Trump administration in recent months.",
+            "source": "Dailymail.com",
+            "published_at": "2026-07-17T21:21:13Z",
+            "url": "https://www.dailymail.com/news/article-15985721/gavin-newsom-abbe-lowell-lawsuit-wife.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor",
+            "description": "BlackRock's SGOV ETF nears $100 billion in assets, more than doubling competitor BIL with $28.9 billion in 2026 inflows as investors flock to ultra-short\nThe post BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor appeared first on Cr…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T20:55:29Z",
+            "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Advance Notice of a Meeting",
+            "description": "A closed meeting of the Board of Governors of the Federal Reserve System will be held at 9:00 a.m. on July 21, 2026. Matter(s) considered: Periodic Briefing and Discussion on Financial Markets, Institutions, and Infrastructure.",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-07-17T20:15:00Z",
+            "url": "https://www.federalreserve.gov/aboutthefed/boardmeetings/20260721closed.htm",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "VALUE LINE, INC. DECLARES A QUARTERLY CASH DIVIDEND OF $0.35 PER COMMON SHARE AND RENEWS STOCK REPURCHASE PROGRAM",
+            "description": "NEW YORK, July 17, 2026 (GLOBE NEWSWIRE) -- Value Line, Inc. (NASDAQ – VALU\r\n) announced today that its Board of Directors declared on July 17, 2026 a quarterly cash dividend of $0.35 per common share, payable on August 11, 2026, to stockholders of record on …",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:05:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329280/0/en/VALUE-LINE-INC-DECLARES-A-QUARTERLY-CASH-DIVIDEND-OF-0-35-PER-COMMON-SHARE-AND-RENEWS-STOCK-REPURCHASE-PROGRAM.html",
+            "sentiment_score": 0.6741,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hingham Reports Second Quarter 2026 Results",
+            "description": "HINGHAM, Mass., July 17, 2026 (GLOBE NEWSWIRE) -- HINGHAM INSTITUTION FOR SAVINGS (NASDAQ: HIFS), Hingham, Massachusetts announced results for the quarter ended June 30, 2026.",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:01:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329272/33478/en/Hingham-Reports-Second-Quarter-2026-Results.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US government issues record debt as Treasury market shows signs of stress",
+            "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T19:41:14Z",
+            "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
+            "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bond yields are sending a new signal about Fed rate hikes",
@@ -1383,84 +1463,24 @@
             "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
             "sentiment_score": -0.3759,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why the Fed may still need to hike rates",
-            "description": "Stocks cut losses on consumer sentiment data, but tech slide remains main driver\nInvesting.com -- In a note to clients on Friday, Bank of America argued that the case for Federal Reserve rate hikes remains strong despite some clients' skepticism, pushing back…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T14:48:09Z",
-            "url": "https://biztoc.com/x/5e1001ef67735af4",
-            "sentiment_score": 0.0686,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack Sees No Conflict in Fed’s Goals, Inflation Her Worry",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said persistently high inflation is her bigger concern as consumer spending holds up and unemployment remains low.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:47:57Z",
-            "url": "https://financialpost.com/pmn/business-pmn/hammack-sees-no-conflict-in-feds-goals-inflation-her-worry",
-            "sentiment_score": -0.3485,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate expected to pass market structure bill next week, impacting crypto sector",
-            "description": "Senate expected to pass market structure bill next week, impacting crypto. Bitcoin reaching $160K by December 31, 2026 priced at 2.6% YES.\nThe post Senate expected to pass market structure bill next week, impacting crypto sector appeared first on Crypto Brief…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:44:59Z",
-            "url": "https://cryptobriefing.com/senate-expected-to-pass-market-structure-bill-next-week-impacting-crypto-sector/",
-            "sentiment_score": 0.1922,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack signals potential rate hikes to tackle high inflation",
-            "description": "Hammack signals potential rate hikes to combat inflation. No change in Fed rates after September 2026 at 61.5% YES.\nThe post Fed’s Hammack signals potential rate hikes to tackle high inflation appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:42:11Z",
-            "url": "https://cryptobriefing.com/feds-hammack-signals-potential-rate-hikes-to-tackle-high-inflation/",
-            "sentiment_score": -0.0129,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection",
-            "description": "Dollar hedging costs hit 2026 lows as global pension funds unwind FX protection. What the institutional shift means for crypto and risk assets.\nThe post Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:31:35Z",
-            "url": "https://cryptobriefing.com/dollar-hedging-costs-lowest-2026/",
-            "sentiment_score": -0.443,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US manufacturing output unchanged in June, but accelerates in second quarter",
-            "description": "US factory output remained steady in June, but saw strong second-quarter growth.  This expansion was fueled by artificial intelligence investments and businesses stocking up.  Motor vehicle and parts production increased, while semiconductor output also rose.…",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T14:30:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-manufacturing-output-unchanged-in-june-but-accelerates-in-second-quarter/articleshow/132463858.cms",
-            "sentiment_score": 0.2819,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Manufacturing Output Stalls, Held Back by Durable Goods",
-            "description": "US manufacturing production stalled in June, dragged down by a decline in durable goods such as machinery.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:27:22Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-manufacturing-output-stalls-held-back-by-durable-goods",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1178,
+        "average_score": 0.1035,
         "label": "บวกเล็กน้อย",
-        "article_count": 27,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Takaichi Defends BOJ Independence",
+            "description": "Prime Minister Sanae Takaichi closed the Diet session on July 17 under pressure from both parliament and financial markets, as lawmakers enacted a revised Imperial House Law while the government moved to clarify that monetary policy tools remain under the sol…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-07-17T19:40:40Z",
+            "url": "https://newsonjapan.com/article/150014.php",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Can You Stomach A Real Micron Stock Crash?",
@@ -1733,7 +1753,7 @@
           }
         ]
       },
-      "net_score": -0.0424,
+      "net_score": -0.0478,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1799,10 +1819,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0754,
+        "average_score": 0.0557,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
+            "description": "Trump’s tariff program has gone from generating billions to forcing billions in refunds thanks to February's Supreme Court ruling.",
+            "source": "Fortune",
+            "published_at": "2026-07-17T21:28:52Z",
+            "url": "https://fortune.com/2026/07/17/donald-trump-supreme-court-tariffs-brazil-section-301-workaround-global-trade-politics/",
+            "sentiment_score": -0.0399,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gavin Newsom hires anti-Trump big gun as bombshell case into his wife escalates",
+            "description": "Lowell, a powerhouse litigator with decades of experience, has made a name for himself going toe-to-toe with the Trump administration in recent months.",
+            "source": "Dailymail.com",
+            "published_at": "2026-07-17T21:21:13Z",
+            "url": "https://www.dailymail.com/news/article-15985721/gavin-newsom-abbe-lowell-lawsuit-wife.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor",
+            "description": "BlackRock's SGOV ETF nears $100 billion in assets, more than doubling competitor BIL with $28.9 billion in 2026 inflows as investors flock to ultra-short\nThe post BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor appeared first on Cr…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T20:55:29Z",
+            "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Advance Notice of a Meeting",
+            "description": "A closed meeting of the Board of Governors of the Federal Reserve System will be held at 9:00 a.m. on July 21, 2026. Matter(s) considered: Periodic Briefing and Discussion on Financial Markets, Institutions, and Infrastructure.",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-07-17T20:15:00Z",
+            "url": "https://www.federalreserve.gov/aboutthefed/boardmeetings/20260721closed.htm",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "VALUE LINE, INC. DECLARES A QUARTERLY CASH DIVIDEND OF $0.35 PER COMMON SHARE AND RENEWS STOCK REPURCHASE PROGRAM",
+            "description": "NEW YORK, July 17, 2026 (GLOBE NEWSWIRE) -- Value Line, Inc. (NASDAQ – VALU\r\n) announced today that its Board of Directors declared on July 17, 2026 a quarterly cash dividend of $0.35 per common share, payable on August 11, 2026, to stockholders of record on …",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:05:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329280/0/en/VALUE-LINE-INC-DECLARES-A-QUARTERLY-CASH-DIVIDEND-OF-0-35-PER-COMMON-SHARE-AND-RENEWS-STOCK-REPURCHASE-PROGRAM.html",
+            "sentiment_score": 0.6741,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hingham Reports Second Quarter 2026 Results",
+            "description": "HINGHAM, Mass., July 17, 2026 (GLOBE NEWSWIRE) -- HINGHAM INSTITUTION FOR SAVINGS (NASDAQ: HIFS), Hingham, Massachusetts announced results for the quarter ended June 30, 2026.",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:01:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329272/33478/en/Hingham-Reports-Second-Quarter-2026-Results.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US government issues record debt as Treasury market shows signs of stress",
+            "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T19:41:14Z",
+            "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
+            "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bond yields are sending a new signal about Fed rate hikes",
@@ -2032,80 +2122,10 @@
             "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
             "sentiment_score": -0.3759,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why the Fed may still need to hike rates",
-            "description": "Stocks cut losses on consumer sentiment data, but tech slide remains main driver\nInvesting.com -- In a note to clients on Friday, Bank of America argued that the case for Federal Reserve rate hikes remains strong despite some clients' skepticism, pushing back…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T14:48:09Z",
-            "url": "https://biztoc.com/x/5e1001ef67735af4",
-            "sentiment_score": 0.0686,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack Sees No Conflict in Fed’s Goals, Inflation Her Worry",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said persistently high inflation is her bigger concern as consumer spending holds up and unemployment remains low.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:47:57Z",
-            "url": "https://financialpost.com/pmn/business-pmn/hammack-sees-no-conflict-in-feds-goals-inflation-her-worry",
-            "sentiment_score": -0.3485,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate expected to pass market structure bill next week, impacting crypto sector",
-            "description": "Senate expected to pass market structure bill next week, impacting crypto. Bitcoin reaching $160K by December 31, 2026 priced at 2.6% YES.\nThe post Senate expected to pass market structure bill next week, impacting crypto sector appeared first on Crypto Brief…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:44:59Z",
-            "url": "https://cryptobriefing.com/senate-expected-to-pass-market-structure-bill-next-week-impacting-crypto-sector/",
-            "sentiment_score": 0.1922,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack signals potential rate hikes to tackle high inflation",
-            "description": "Hammack signals potential rate hikes to combat inflation. No change in Fed rates after September 2026 at 61.5% YES.\nThe post Fed’s Hammack signals potential rate hikes to tackle high inflation appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:42:11Z",
-            "url": "https://cryptobriefing.com/feds-hammack-signals-potential-rate-hikes-to-tackle-high-inflation/",
-            "sentiment_score": -0.0129,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection",
-            "description": "Dollar hedging costs hit 2026 lows as global pension funds unwind FX protection. What the institutional shift means for crypto and risk assets.\nThe post Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:31:35Z",
-            "url": "https://cryptobriefing.com/dollar-hedging-costs-lowest-2026/",
-            "sentiment_score": -0.443,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US manufacturing output unchanged in June, but accelerates in second quarter",
-            "description": "US factory output remained steady in June, but saw strong second-quarter growth.  This expansion was fueled by artificial intelligence investments and businesses stocking up.  Motor vehicle and parts production increased, while semiconductor output also rose.…",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T14:30:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-manufacturing-output-unchanged-in-june-but-accelerates-in-second-quarter/articleshow/132463858.cms",
-            "sentiment_score": 0.2819,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Manufacturing Output Stalls, Held Back by Durable Goods",
-            "description": "US manufacturing production stalled in June, dragged down by a decline in durable goods such as machinery.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:27:22Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-manufacturing-output-stalls-held-back-by-durable-goods",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0315,
+      "net_score": 0.0512,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2381,10 +2401,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0754,
+        "average_score": 0.0557,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
+            "description": "Trump’s tariff program has gone from generating billions to forcing billions in refunds thanks to February's Supreme Court ruling.",
+            "source": "Fortune",
+            "published_at": "2026-07-17T21:28:52Z",
+            "url": "https://fortune.com/2026/07/17/donald-trump-supreme-court-tariffs-brazil-section-301-workaround-global-trade-politics/",
+            "sentiment_score": -0.0399,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gavin Newsom hires anti-Trump big gun as bombshell case into his wife escalates",
+            "description": "Lowell, a powerhouse litigator with decades of experience, has made a name for himself going toe-to-toe with the Trump administration in recent months.",
+            "source": "Dailymail.com",
+            "published_at": "2026-07-17T21:21:13Z",
+            "url": "https://www.dailymail.com/news/article-15985721/gavin-newsom-abbe-lowell-lawsuit-wife.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor",
+            "description": "BlackRock's SGOV ETF nears $100 billion in assets, more than doubling competitor BIL with $28.9 billion in 2026 inflows as investors flock to ultra-short\nThe post BlackRock’s SGOV ETF approaches $100B mark, doubling its nearest competitor appeared first on Cr…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T20:55:29Z",
+            "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Advance Notice of a Meeting",
+            "description": "A closed meeting of the Board of Governors of the Federal Reserve System will be held at 9:00 a.m. on July 21, 2026. Matter(s) considered: Periodic Briefing and Discussion on Financial Markets, Institutions, and Infrastructure.",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-07-17T20:15:00Z",
+            "url": "https://www.federalreserve.gov/aboutthefed/boardmeetings/20260721closed.htm",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "VALUE LINE, INC. DECLARES A QUARTERLY CASH DIVIDEND OF $0.35 PER COMMON SHARE AND RENEWS STOCK REPURCHASE PROGRAM",
+            "description": "NEW YORK, July 17, 2026 (GLOBE NEWSWIRE) -- Value Line, Inc. (NASDAQ – VALU\r\n) announced today that its Board of Directors declared on July 17, 2026 a quarterly cash dividend of $0.35 per common share, payable on August 11, 2026, to stockholders of record on …",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:05:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329280/0/en/VALUE-LINE-INC-DECLARES-A-QUARTERLY-CASH-DIVIDEND-OF-0-35-PER-COMMON-SHARE-AND-RENEWS-STOCK-REPURCHASE-PROGRAM.html",
+            "sentiment_score": 0.6741,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hingham Reports Second Quarter 2026 Results",
+            "description": "HINGHAM, Mass., July 17, 2026 (GLOBE NEWSWIRE) -- HINGHAM INSTITUTION FOR SAVINGS (NASDAQ: HIFS), Hingham, Massachusetts announced results for the quarter ended June 30, 2026.",
+            "source": "GlobeNewswire",
+            "published_at": "2026-07-17T20:01:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/07/17/3329272/33478/en/Hingham-Reports-Second-Quarter-2026-Results.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US government issues record debt as Treasury market shows signs of stress",
+            "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-07-17T19:41:14Z",
+            "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
+            "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bond yields are sending a new signal about Fed rate hikes",
@@ -2614,80 +2704,10 @@
             "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
             "sentiment_score": -0.3759,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why the Fed may still need to hike rates",
-            "description": "Stocks cut losses on consumer sentiment data, but tech slide remains main driver\nInvesting.com -- In a note to clients on Friday, Bank of America argued that the case for Federal Reserve rate hikes remains strong despite some clients' skepticism, pushing back…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T14:48:09Z",
-            "url": "https://biztoc.com/x/5e1001ef67735af4",
-            "sentiment_score": 0.0686,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack Sees No Conflict in Fed’s Goals, Inflation Her Worry",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said persistently high inflation is her bigger concern as consumer spending holds up and unemployment remains low.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:47:57Z",
-            "url": "https://financialpost.com/pmn/business-pmn/hammack-sees-no-conflict-in-feds-goals-inflation-her-worry",
-            "sentiment_score": -0.3485,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate expected to pass market structure bill next week, impacting crypto sector",
-            "description": "Senate expected to pass market structure bill next week, impacting crypto. Bitcoin reaching $160K by December 31, 2026 priced at 2.6% YES.\nThe post Senate expected to pass market structure bill next week, impacting crypto sector appeared first on Crypto Brief…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:44:59Z",
-            "url": "https://cryptobriefing.com/senate-expected-to-pass-market-structure-bill-next-week-impacting-crypto-sector/",
-            "sentiment_score": 0.1922,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack signals potential rate hikes to tackle high inflation",
-            "description": "Hammack signals potential rate hikes to combat inflation. No change in Fed rates after September 2026 at 61.5% YES.\nThe post Fed’s Hammack signals potential rate hikes to tackle high inflation appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:42:11Z",
-            "url": "https://cryptobriefing.com/feds-hammack-signals-potential-rate-hikes-to-tackle-high-inflation/",
-            "sentiment_score": -0.0129,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection",
-            "description": "Dollar hedging costs hit 2026 lows as global pension funds unwind FX protection. What the institutional shift means for crypto and risk assets.\nThe post Dollar hedging costs fall to lowest level of 2026 as pension funds unwind protection appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T14:31:35Z",
-            "url": "https://cryptobriefing.com/dollar-hedging-costs-lowest-2026/",
-            "sentiment_score": -0.443,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US manufacturing output unchanged in June, but accelerates in second quarter",
-            "description": "US factory output remained steady in June, but saw strong second-quarter growth.  This expansion was fueled by artificial intelligence investments and businesses stocking up.  Motor vehicle and parts production increased, while semiconductor output also rose.…",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T14:30:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/us-manufacturing-output-unchanged-in-june-but-accelerates-in-second-quarter/articleshow/132463858.cms",
-            "sentiment_score": 0.2819,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Manufacturing Output Stalls, Held Back by Durable Goods",
-            "description": "US manufacturing production stalled in June, dragged down by a decline in durable goods such as machinery.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:27:22Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-manufacturing-output-stalls-held-back-by-durable-goods",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0762,
+      "net_score": -0.0565,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
