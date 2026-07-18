@@ -8,13 +8,14 @@
 # ดูประวัติการรัน: หน้า repo บน GitHub -> แท็บ "Actions"
 # สั่งรันทันทีด้วยมือ: แท็บ Actions -> เลือก workflow นี้ -> "Run workflow"
 # ============================================================
-name: Forex Analyzer (ทุก 2 ชม.)
+name: Forex Analyzer (ทุก 1 ชม.)
 
 on:
   schedule:
-    # นาทีที่ 17 ของทุก 2 ชั่วโมง (เวลา UTC — เวลาไทย = UTC+7)
+    # นาทีที่ 7 ของทุกชั่วโมง — ตรงจังหวะแท่งเทียน 1h ที่เพิ่งปิด
+    # (ข่าวไม่ได้ดึงใหม่ทุกรอบ — ระบบจำผลข่าวไว้ 3 ชม. ประหยัดโควตา NewsAPI)
     # หมายเหตุ: GitHub อาจรันช้ากว่ากำหนดไม่กี่นาที เป็นเรื่องปกติ
-    - cron: "17 */2 * * *"
+    - cron: "7 * * * *"
   # ปุ่มกดรันเองจากหน้าเว็บ (ไว้ทดสอบ)
   workflow_dispatch:
 
@@ -53,12 +54,12 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python scheduler.py --once
 
-      # 5. บันทึกสมุดเทรดจำลองกลับเข้า repo (ให้รอบถัดไปเห็นข้อมูลต่อเนื่อง)
+      # 5. บันทึกสมุดเทรดจำลอง + ไฟล์จำข่าว กลับเข้า repo (ให้รอบถัดไปเห็นต่อเนื่อง)
       - name: บันทึก paper trades
         run: |
           git config user.name "forex-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add -f output/paper_trades.json || true
+          git add -f output/paper_trades.json output/news_cache.json || true
           if ! git diff --cached --quiet; then
             git commit -m "อัปเดตสมุดเทรดจำลอง [skip ci]"
             git pull --rebase origin main

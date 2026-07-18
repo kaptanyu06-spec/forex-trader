@@ -19,7 +19,7 @@ main.py
 
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 import config
 import news_collector
@@ -30,30 +30,61 @@ import technical_analyzer
 import signal_combiner
 
 
+def load_news_cache():
+    """
+    อ่านผลวิเคราะห์ข่าวจากรอบก่อน ถ้ายัง "สด" อยู่ (ไม่เกิน NEWS_CACHE_HOURS ชม.)
+    คืนค่า dict ของผลข่าว หรือ None ถ้าไม่มี/หมดอายุ -> ให้ไปดึงข่าวใหม่
+    เหตุผล: ระบบรันทุก 1 ชม. แต่ดึงข่าวใหม่ทุก 3 ชม. พอ (ประหยัดโควตา NewsAPI)
+    """
+    try:
+        with open(config.NEWS_CACHE_FILE, encoding="utf-8") as f:
+            cache = json.load(f)
+        fetched_at = datetime.fromisoformat(cache["fetched_at"])
+        age_hours = (datetime.now(timezone.utc) - fetched_at).total_seconds() / 3600
+        if age_hours <= config.NEWS_CACHE_HOURS:
+            print(f"ใช้ผลข่าวจากรอบก่อน (อายุ {age_hours:.1f} ชม. — ยังไม่ต้องดึงใหม่)")
+            return cache["data"]
+    except (OSError, ValueError, KeyError):
+        pass  # ไม่มีไฟล์/ไฟล์เสีย/หมดอายุ -> ดึงข่าวใหม่
+    return None
+
+
+def save_news_cache(sentiment_results: dict):
+    os.makedirs(config.OUTPUT_DIR, exist_ok=True)
+    with open(config.NEWS_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump({
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
+            "data": sentiment_results,
+        }, f, ensure_ascii=False, indent=2)
+
+
 def collect_results() -> list:
     """
     รันการวิเคราะห์ทั้งหมด (ข่าว + เทคนิค + รวมสัญญาณ) แล้วคืนผลลัพธ์เป็น list
     — ฟังก์ชันนี้ถูกเรียกใช้ทั้งจากการรันทาง Terminal (main.py) และจากหน้าเว็บ (dashboard.py)
     """
-    # 1. ดึงข่าว + วิเคราะห์ sentiment (ข้ามได้ถ้ายังไม่มี API key)
-    sentiment_results = {}
-    try:
-        all_pair_news = news_collector.fetch_all_watched_news()
-        for pair_news in all_pair_news:
-            analysis = sentiment_analyzer.analyze_pair_news(pair_news)
+    # 1. ข่าว: ใช้ผลรอบก่อนถ้ายังสด ไม่งั้นดึงใหม่ + วิเคราะห์ sentiment
+    sentiment_results = load_news_cache()
+    if sentiment_results is None:
+        sentiment_results = {}
+        try:
+            all_pair_news = news_collector.fetch_all_watched_news()
+            for pair_news in all_pair_news:
+                analysis = sentiment_analyzer.analyze_pair_news(pair_news)
 
-            # ประเมินความน่าเชื่อถือของสัญญาณข่าว
-            total_articles = (
-                analysis["base_sentiment"]["article_count"]
-                + analysis["quote_sentiment"]["article_count"]
-            )
-            risk_eval = risk_manager.evaluate_signal_risk(analysis["net_score"], total_articles)
-            analysis["signal_risk_evaluation"] = risk_eval
+                # ประเมินความน่าเชื่อถือของสัญญาณข่าว
+                total_articles = (
+                    analysis["base_sentiment"]["article_count"]
+                    + analysis["quote_sentiment"]["article_count"]
+                )
+                risk_eval = risk_manager.evaluate_signal_risk(analysis["net_score"], total_articles)
+                analysis["signal_risk_evaluation"] = risk_eval
 
-            sentiment_results[analysis["pair"]] = analysis
-    except ValueError as e:
-        print(f"\n[ข้ามส่วนข่าว] {e}")
-        print("จะวิเคราะห์เฉพาะส่วน technical ให้แทน\n")
+                sentiment_results[analysis["pair"]] = analysis
+            save_news_cache(sentiment_results)
+        except ValueError as e:
+            print(f"\n[ข้ามส่วนข่าว] {e}")
+            print("จะวิเคราะห์เฉพาะส่วน technical ให้แทน\n")
 
     # 2. ดึงราคา + วิเคราะห์ technical
     print("\nกำลังดึงราคาย้อนหลัง...")
