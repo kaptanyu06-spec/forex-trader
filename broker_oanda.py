@@ -21,9 +21,12 @@ broker_oanda.py
 คำเตือนสำคัญ: ระบบนี้เป็นเครื่องมือประกอบการตัดสินใจเท่านั้น ไม่รับประกันผลกำไร
 """
 
+import math
+
 import requests
 
 import config
+from signal_combiner import pip_size_of
 
 # ที่อยู่เซิร์ฟเวอร์ OANDA — เราใช้เฉพาะ practice (บัญชีทดลอง เงินปลอม)
 PRACTICE_HOST = "https://api-fxpractice.oanda.com"
@@ -71,6 +74,16 @@ def _get(path: str, params: dict = None) -> dict:
 def oanda_instrument(pair: str) -> str:
     """แปลงชื่อคู่เงินของเรา (EURUSD) เป็นรูปแบบ OANDA (EUR_USD)"""
     return f"{pair[:3]}_{pair[3:]}"
+
+
+def price_decimals(pair: str) -> int:
+    """
+    จำนวนทศนิยมของราคาที่ OANDA ยอมรับ ประมาณจากขนาด pip ของคู่เงินนั้น
+    เช่น EURUSD (pip 0.0001) -> 5 ตำแหน่ง, USDJPY (pip 0.01) -> 3, XAUUSD (pip 0.1) -> 2
+    สำคัญ: ถ้าส่งทศนิยมละเอียดเกินที่โบรกรับ ออเดอร์จะถูกปฏิเสธทันที
+    """
+    pip = pip_size_of(pair)
+    return max(1, -int(math.floor(math.log10(pip))) + 1)
 
 
 # ============================================
@@ -142,16 +155,17 @@ def place_market_order(pair: str, action: str, units: int,
         raise ValueError(f"action ต้องเป็น BUY หรือ SELL เท่านั้น (ได้รับ: {action})")
 
     signed_units = abs(units) if action == "BUY" else -abs(units)
+    nd = price_decimals(pair)   # ทศนิยมต้องตรงกับที่โบรกรับ ไม่งั้นโดนปฏิเสธ (เช่น USDJPY = 3)
     order = {
         "order": {
             "type": "MARKET",
             "instrument": oanda_instrument(pair),
             "units": str(signed_units),
-            "stopLossOnFill": {"price": f"{sl_price:.5f}"},
+            "stopLossOnFill": {"price": f"{sl_price:.{nd}f}"},
         }
     }
     if tp_price:
-        order["order"]["takeProfitOnFill"] = {"price": f"{tp_price:.5f}"}
+        order["order"]["takeProfitOnFill"] = {"price": f"{tp_price:.{nd}f}"}
 
     resp = requests.post(
         f"{PRACTICE_HOST}/v3/accounts/{config.OANDA_ACCOUNT_ID}/orders",
@@ -166,6 +180,64 @@ def place_market_order(pair: str, action: str, units: int,
         reason = data["orderCancelTransaction"].get("reason", "ไม่ทราบสาเหตุ")
         raise RuntimeError(f"ออเดอร์ถูกยกเลิกโดยโบรกเกอร์: {reason} (ตลาดปิดอยู่หรือเปล่า?)")
     return data
+
+
+# ============================================
+# ส่วนที่ 4: ต่อกับ scheduler — เทรดตามสัญญาณเข้าบัญชีทดลองอัตโนมัติ
+# ============================================
+
+def calc_units(pair: str, sl_dist: float, balance: float, price: float) -> int:
+    """
+    คำนวณขนาดไม้ (units) จากกฎเสี่ยง 1% ต่อไม้ — กติกาเดียวกับ paper trading
+
+    หลักคิด: ถ้าโดน stop-loss เต็มๆ ต้องเสียไม่เกิน (balance x RISK_PER_TRADE_PERCENT)
+    - คู่ที่ลงท้าย USD (EURUSD, XAUUSD ฯลฯ): ขาดทุนเป็น USD ตรงๆ = units x ระยะ SL
+    - คู่ที่ขึ้นต้น USD (USDJPY): ขาดทุนเป็นเงิน quote (เยน) ต้องแปลงกลับด้วยราคาปัจจุบัน
+    """
+    risk_usd = balance * config.RISK_PER_TRADE_PERCENT / 100
+
+    if pair.endswith("USD"):
+        units = risk_usd / sl_dist
+    elif pair.startswith("USD"):
+        units = risk_usd * price / sl_dist
+    else:
+        raise ValueError(f"ยังไม่รองรับการคำนวณขนาดไม้ของคู่ cross: {pair}")
+
+    return max(1, int(units))   # ปัดลงกันเสี่ยงเกิน, ขั้นต่ำของ OANDA คือ 1 unit
+
+
+def mirror_paper_trades(opened_trades: list) -> list:
+    """
+    ส่งออเดอร์เข้าบัญชีทดลอง OANDA ให้ตรงกับ paper trade ที่เพิ่งเปิดในรอบนี้
+    (SL/TP ฝากไว้กับโบรกเกอร์เลย — โบรกปิดไม้ให้เองเมื่อราคาแตะ ไม่ต้องรอรอบถัดไป)
+
+    คืนรายการข้อความสรุปผล (สำเร็จ/ข้าม/ผิดพลาด) ไว้พิมพ์และส่ง Telegram
+    ถ้ายังไม่ได้ตั้งค่าคีย์ OANDA จะคืนลิสต์ว่าง = ระบบทำ paper trading ต่อตามปกติ
+    """
+    if not is_configured() or not opened_trades:
+        return []
+
+    try:
+        acct = get_account_summary()
+        open_pairs = {t["pair"] for t in get_open_trades()}
+    except Exception as e:
+        return [f"⚠️ OANDA: เชื่อมต่อไม่ได้ ข้ามการส่งออเดอร์รอบนี้ ({e})"]
+
+    notes = []
+    for t in opened_trades:
+        pair = t["pair"]
+        if pair in open_pairs:
+            notes.append(f"⏭️ OANDA: {pair} มีไม้เปิดค้างอยู่แล้ว ไม่เปิดซ้ำ")
+            continue
+        try:
+            units = calc_units(pair, t["sl_dist"], acct["balance"], t["entry_price"])
+            place_market_order(pair, t["direction"], units,
+                               sl_price=t["sl_price"], tp_price=t["tp_price"])
+            notes.append(f"🏦 OANDA demo: เปิด {t['direction']} {pair} "
+                         f"{units:,} units (ทุนปลอม {acct['balance']:,.0f} {acct['currency']})")
+        except Exception as e:
+            notes.append(f"⚠️ OANDA: เปิด {pair} ไม่สำเร็จ — {e}")
+    return notes
 
 
 # ============================================

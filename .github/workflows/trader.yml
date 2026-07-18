@@ -52,6 +52,9 @@ jobs:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # OANDA บัญชีทดลอง (ขั้น 5.4) — ถ้ายังไม่ตั้ง Secrets ระบบจะข้ามส่วนนี้เอง
+          OANDA_API_KEY: ${{ secrets.OANDA_API_KEY }}
+          OANDA_ACCOUNT_ID: ${{ secrets.OANDA_ACCOUNT_ID }}
         run: python scheduler.py --once
 
       # 5. บันทึกสมุดเทรดจำลอง + ไฟล์จำข่าว กลับเข้า repo (ให้รอบถัดไปเห็นต่อเนื่อง)

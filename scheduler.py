@@ -27,6 +27,7 @@ import main as engine
 import paper_trader
 import notifier
 import risk_manager
+import broker_oanda
 from signal_combiner import pip_size_of
 
 
@@ -52,6 +53,12 @@ def run_cycle():
           f"(ชนะ {stats['win_rate_pct']}%) | ผลรวม {stats['total_r']}R "
           f"= {stats['sim_return_pct']}% ของทุนจำลอง")
 
+    # 3.5 ส่งออเดอร์เดียวกันเข้าบัญชีทดลอง OANDA (ขั้น 5.4)
+    #     ถ้ายังไม่ได้ใส่คีย์ OANDA จะได้ลิสต์ว่างกลับมา = ข้ามส่วนนี้เฉยๆ
+    oanda_notes = broker_oanda.mirror_paper_trades(paper["opened"])
+    for note in oanda_notes:
+        print(note)
+
     # 4. แจ้งเตือน Telegram เมื่อมีเหตุการณ์ (สัญญาณใหม่ / เทรดปิด)
     lines = []
     for t in paper["opened"]:
@@ -69,6 +76,7 @@ def run_cycle():
         emoji = "✅" if t["status"] == "won" else "❌"
         lines.append(f"{emoji} ปิด paper trade: {t['direction']} {t['pair']} "
                      f"{'ชนะ' if t['status'] == 'won' else 'แพ้'} ({t['net_r']:+}R)")
+    lines.extend(oanda_notes)   # ผลส่งออเดอร์ demo แจ้งใน Telegram ด้วย
 
     if lines:
         header = f"📊 Forex Analyzer {datetime.now().strftime('%d/%m %H:%M')}\n\n"

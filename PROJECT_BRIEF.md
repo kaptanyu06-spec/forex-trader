@@ -41,7 +41,10 @@
 
 **ขั้น 5.5 เสร็จแล้ว (2026-07-16)**: `scheduler.py` (รันอัตโนมัติทุก 2 ชม. — 12 รอบ/วัน x 8 req = 96 ไม่เกินโควตา NewsAPI 100/วัน), `paper_trader.py` (สมุดเทรดจำลอง: เปิดไม้ตามสัญญาณ เช็ค SL/TP กับราคาจริง กติกาเดียวกับ backtest, เก็บที่ output/paper_trades.json), `notifier.py` (Telegram — ผู้ใช้ยังไม่ได้ตั้งค่า token/chat id), Dashboard มีส่วนแสดงสถิติ paper trading แล้ว
 
-**สถานะปัจจุบัน: เข้าสู่ขั้น Paper Trading (ขั้น 5 ของแผน)** — เก็บผลอย่างน้อย 1-3 เดือน เทียบกับ backtest (เป้า: PF ~1.27, win rate ~40%) ก่อนพิจารณาขั้น 5.4 ต่อ MT5 demo (ติดเรื่อง Mac: ต้องใช้ Windows VM หรือโบรก REST API)
+**สถานะปัจจุบัน: เข้าสู่ขั้น Paper Trading (ขั้น 5 ของแผน)** — เก็บผลอย่างน้อย 1-3 เดือน เทียบกับ backtest (เป้า: PF ~1.27, win rate ~40%) ระบบรันอัตโนมัติทุก 1 ชม. บน GitHub Actions (repo: kaptanyu06-spec/forex-trader)
+
+**ขั้น 5.4 โค้ดเสร็จแล้ว (2026-07-18) — รอผู้ใช้สมัคร OANDA**: เลือก OANDA practice แทน MT5 (Mac ต่อ MT5 Python ไม่ได้) `broker_oanda.py` ต่อเข้า scheduler แล้ว: ทุกสัญญาณที่เปิด paper trade จะส่งออเดอร์เข้าบัญชีทดลอง OANDA อัตโนมัติ (SL/TP ฝากไว้กับโบรก, ขนาดไม้จากกฎเสี่ยง 1%, กันเปิดซ้ำคู่เดิม, ล็อกเฉพาะ practice — ปฏิเสธบัญชีจริง) ถ้ายังไม่ใส่คีย์ระบบข้ามส่วนนี้และทำ paper trading ตามปกติ
+**สิ่งที่ผู้ใช้ต้องทำเพื่อเปิดใช้**: (1) สมัครบัญชีทดลอง oanda.com -> Manage API Access -> สร้าง token (2) ใส่ OANDA_API_KEY + OANDA_ACCOUNT_ID ใน secrets_local.py (ในเครื่อง) และเพิ่มเป็น GitHub Secrets ชื่อเดียวกัน (Settings -> Secrets and variables -> Actions) (3) ทดสอบ `python broker_oanda.py`
 
 **คำตอบจากผู้ใช้ (2026-07-16)**: ใช้ **MT5** | ยังไม่ได้สมัคร NewsAPI key | คู่เงินใช้ตามที่แนะนำ: EURUSD, GBPUSD, USDJPY, AUDUSD
 **ประเด็นสำคัญ**: ผู้ใช้ใช้ Mac แต่ package `MetaTrader5` (Python) รองรับเฉพาะ Windows — ตอนทำขั้น 5.4 ต้องเลือก: Windows VM / เครื่อง Windows แยก / หรือโบรกเกอร์ที่มี REST API (เช่น OANDA)
