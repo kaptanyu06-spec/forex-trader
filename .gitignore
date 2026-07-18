@@ -7,5 +7,7 @@ __pycache__/
 
 # ผลวิเคราะห์รายรอบ (ไฟล์ใหญ่+เปลี่ยนบ่อย ไม่ต้องเก็บบนคลาวด์)
 # ยกเว้น paper_trades.json ซึ่งเป็นสมุดเทรดจำลอง ต้องเก็บ (ระบุใน workflow)
+# และ analysis_latest.json — ผลล่าสุดตัวเดียว ให้แดชบอร์ดบนคลาวด์ใช้
 output/analysis_*.json
+!output/analysis_latest.json
 output/scheduler.log

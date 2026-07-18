@@ -39,11 +39,21 @@ st.set_page_config(page_title="Forex Analyzer", page_icon="📈", layout="wide")
 # ============================================
 
 def list_saved_results() -> list:
-    """คืนรายชื่อไฟล์ผลวิเคราะห์เก่าใน output/ (ใหม่สุดก่อน)"""
+    """
+    คืนรายชื่อไฟล์ผลวิเคราะห์ใน output/ (ใหม่สุดก่อน)
+    เอาเฉพาะ analysis_*.json — ไฟล์อื่นในโฟลเดอร์ (paper_trades, news_cache)
+    ไม่ใช่ผลวิเคราะห์ เปิดแล้วพัง
+    "analysis_latest.json" (ผลล่าสุด — ตัวเดียวที่มีบนคลาวด์) ให้อยู่บนสุดเสมอ
+    """
     if not os.path.isdir(config.OUTPUT_DIR):
         return []
-    files = [f for f in os.listdir(config.OUTPUT_DIR) if f.endswith(".json")]
-    return sorted(files, reverse=True)
+    files = [f for f in os.listdir(config.OUTPUT_DIR)
+             if f.startswith("analysis_") and f.endswith(".json")
+             and f != "analysis_latest.json"]
+    files = sorted(files, reverse=True)
+    if os.path.exists(os.path.join(config.OUTPUT_DIR, "analysis_latest.json")):
+        files.insert(0, "analysis_latest.json")
+    return files
 
 
 def load_result_file(filename: str) -> list:
@@ -109,7 +119,8 @@ if st.sidebar.button("🔄 รันวิเคราะห์ใหม่", ty
     with st.spinner("กำลังดึงข่าวและราคาล่าสุด... (ใช้เวลา ~1 นาที)"):
         results = analysis_engine.collect_results()
         analysis_engine.save_results(results)
-        paper_trader.process_results(results)   # อัปเดตสมุด paper trading ด้วย
+        # หมายเหตุ: ไม่แตะสมุด paper trading จากหน้านี้ — สมุดตัวจริงเป็นหน้าที่
+        # ของระบบอัตโนมัติบน GitHub Actions เท่านั้น (กันข้อมูลชนกัน)
     st.rerun()  # โหลดหน้าใหม่เพื่อให้ไฟล์ล่าสุดขึ้นในรายการ
 
 saved_files = list_saved_results()
@@ -121,10 +132,10 @@ selected_file = st.sidebar.selectbox(
     "ดูผลวิเคราะห์ครั้งไหน",
     saved_files,
     format_func=lambda f: (
+        "ล่าสุด (อัปเดตทุก 1 ชม.)" if f == "analysis_latest.json"
         # แปลงชื่อไฟล์ analysis_20260716_202402.json -> "16/07/2026 20:24"
-        datetime.strptime(f.replace("analysis_", "").replace(".json", ""), "%Y%m%d_%H%M%S")
+        else datetime.strptime(f.replace("analysis_", "").replace(".json", ""), "%Y%m%d_%H%M%S")
         .strftime("%d/%m/%Y %H:%M")
-        if f.startswith("analysis_") else f
     ),
 )
 st.sidebar.caption(f"มีผลวิเคราะห์เก็บไว้ {len(saved_files)} ครั้ง")

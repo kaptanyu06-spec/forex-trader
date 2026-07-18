@@ -188,6 +188,12 @@ def save_results(results: list):
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
+    # สำเนาชื่อคงที่ "ผลล่าสุดเสมอ" — ไฟล์เดียวที่ commit ขึ้น GitHub
+    # เพื่อให้แดชบอร์ดบนคลาวด์ (Streamlit) มีผลวิเคราะห์ล่าสุดใช้เสมอ
+    with open(os.path.join(config.OUTPUT_DIR, "analysis_latest.json"),
+              "w", encoding="utf-8") as f:
+        json.dump(results, f, ensure_ascii=False, indent=2)
+
     print(f"\nบันทึกผลลัพธ์ละเอียดไว้ที่: {filename}")
     cleanup_old_results()
     return filename
@@ -200,7 +206,8 @@ def cleanup_old_results():
     หมายเหตุ: ไม่แตะ paper_trades.json — สมุดเทรดจำลองเก็บถาวร
     """
     import glob
-    files = sorted(glob.glob(os.path.join(config.OUTPUT_DIR, "analysis_*.json")))
+    files = sorted(f for f in glob.glob(os.path.join(config.OUTPUT_DIR, "analysis_*.json"))
+                   if not f.endswith("analysis_latest.json"))   # ไฟล์ "ล่าสุด" เก็บถาวร
     for old_file in files[:-config.KEEP_ANALYSIS_FILES]:
         try:
             os.remove(old_file)
