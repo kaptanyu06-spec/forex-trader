@@ -61,6 +61,7 @@ def build_daily_report() -> str:
     else:
         for t in opened_today:
             lines.append(f"🆕 เปิด {t['direction']} {t['pair']} @ {t['entry_price']}")
+            lines.append(f"    📰 {t.get('news_note', 'ไม่มีข้อมูลข่าว')}")
         for t in closed_today:
             emoji = "✅" if t["status"] == "won" else "❌"
             lines.append(f"{emoji} ปิด {t['direction']} {t['pair']} ({t['net_r']:+}R)")
@@ -132,6 +133,7 @@ def run_cycle():
         )
         lines.append(f"🆕 เปิด paper trade: {t['direction']} {t['pair']} @ {t['entry_price']}\n"
                      f"   SL {t['sl_price']} / TP {t['tp_price']} (เชื่อมั่น: {t['confidence']})\n"
+                     f"   📰 {t.get('news_note', 'ไม่มีข้อมูลข่าว')}\n"
                      f"   lot แนะนำ: {sizing['recommended_lot_size']} "
                      f"(ทุน {config.ACCOUNT_BALANCE_EXAMPLE} USD เสี่ยง {sizing['risk_percent']}%)")
     for t in paper["closed"]:

@@ -52,6 +52,17 @@ def save_trades(trades: list):
 # ส่วนที่ 2: เปิดเทรดจำลองจากสัญญาณ
 # ============================================
 
+def news_note_of(result: dict) -> str:
+    """สรุปฝั่งข่าวของสัญญาณ 1 บรรทัด ไว้แปะติดไม้ (โชว์ใน Telegram/รายงาน)"""
+    ns = result.get("news_sentiment")
+    if not ns:
+        return "ไม่มีข้อมูลข่าว"
+    n = ns["base_sentiment"]["article_count"] + ns["quote_sentiment"]["article_count"]
+    if n == 0:
+        return "ช่วงนี้ไม่มีข่าวเด่น — เข้าจากสัญญาณเทคนิคล้วน"
+    return f"ข่าว {n} ชิ้น: {ns['bias']} (คะแนนสุทธิ {ns['net_score']:+})"
+
+
 def open_trade_from_signal(pair: str, signal: dict) -> dict:
     """สร้างเทรดจำลอง 1 ไม้จากสัญญาณ BUY/SELL ของ signal_combiner"""
     direction = 1 if signal["action"] == "BUY" else -1
@@ -154,6 +165,7 @@ def process_results(results: list) -> dict:
         sig = r["combined_signal"]
         if sig["action"] in ("BUY", "SELL") and r["pair"] not in open_pairs:
             trade = open_trade_from_signal(r["pair"], sig)
+            trade["news_note"] = news_note_of(r)   # เก็บบริบทข่าว ณ ตอนเปิดไม้ไว้ด้วย
             trades.append(trade)
             opened_now.append(trade)
 
