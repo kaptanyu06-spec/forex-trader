@@ -22,7 +22,9 @@ NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
 # - สภาพคล่องสูง สเปรดต่ำ (ต้นทุนต่อออเดอร์ถูกกว่า)
 # - ข่าวภาษาอังกฤษเยอะ -> ส่วนวิเคราะห์ข่าวทำงานได้ดี
 # - พฤติกรรมราคา "เรียบ" กว่าคู่ cross อย่าง AUDNZD ที่แกว่งแคบและข่าวน้อย
-WATCHED_PAIRS = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD"]
+WATCHED_PAIRS = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "XAUUSD"]
+# XAUUSD = ทองคำ (เพิ่ม 2026-07-18 หลัง backtest ผ่าน: PF 1.24, +5.4%/ปี บน 1h)
+# หมายเหตุ: ทองต้องใช้ทุนใหญ่กว่า forex มากถ้าจะเทรดจริงตามกฎ 1% (ดูรายละเอียดใน README)
 
 # คำค้นหาข่าวที่เกี่ยวข้องกับแต่ละสกุลเงิน (ใช้จับคู่กับคู่เงินด้านบน)
 CURRENCY_KEYWORDS = {
@@ -33,6 +35,8 @@ CURRENCY_KEYWORDS = {
     "AUD": ["Reserve Bank of Australia", "RBA rate", "Australia inflation", "Australia GDP"],
     "CAD": ["Bank of Canada", "BOC rate", "Canada inflation", "Canada GDP"],
     "NZD": ["Reserve Bank of New Zealand", "RBNZ rate", "New Zealand inflation"],
+    # XAU = ทองคำ (สินทรัพย์ปลอดภัย — ข่าวที่ขยับราคาทอง)
+    "XAU": ["gold price", "gold demand", "central bank gold", "safe haven gold"],
 }
 
 # ============================================
@@ -88,6 +92,12 @@ BACKTEST_TP_RR = 2.0
 
 # ต้นทุนสเปรดโดยประมาณต่อออเดอร์ (pip) — คู่เงินหลักปกติ ~1 pip
 BACKTEST_SPREAD_PIPS = 1.0
+
+# สเปรดเฉพาะตัว (pip) สำหรับตัวที่แพงกว่าค่ามาตรฐานข้างบน
+# ทองคำ: สเปรด ~$0.35/ออนซ์ = 3.5 pip (1 pip ทอง = $0.10)
+PAIR_SPREAD_PIPS = {
+    "XAUUSD": 3.5,
+}
 
 # ============================================
 # 5. การตั้งค่าอื่นๆ

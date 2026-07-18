@@ -34,7 +34,7 @@ import pandas as pd
 import config
 import price_fetcher
 import technical_analyzer
-from signal_combiner import pip_size_of
+from signal_combiner import pip_size_of, spread_pips_of
 
 
 # ============================================
@@ -116,7 +116,7 @@ def simulate(pair: str, df: pd.DataFrame) -> dict:
     df ต้องมีคอลัมน์: open, high, low, close, signal, atr
     """
     pip = pip_size_of(pair)
-    spread = config.BACKTEST_SPREAD_PIPS * pip     # ต้นทุนต่อออเดอร์ (หน่วยราคา)
+    spread = spread_pips_of(pair) * pip            # ต้นทุนต่อออเดอร์ (หน่วยราคา)
     rr = config.BACKTEST_TP_RR
     risk_pct = config.RISK_PER_TRADE_PERCENT / 100
 

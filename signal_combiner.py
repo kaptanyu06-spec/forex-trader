@@ -25,17 +25,29 @@ signal_combiner.py
     python signal_combiner.py
 """
 
+import config
+
 # เกณฑ์ตัดสินฝั่งข่าว: |net_score| ต้องถึงค่านี้ ข่าวถึงนับว่า "มีทิศทาง"
 NEWS_THRESHOLD = 0.15
 
 
 def pip_size_of(pair: str) -> float:
     """
-    ขนาด 1 pip ของคู่เงิน:
+    ขนาด 1 pip ของแต่ละตัว:
+    - ทองคำ XAUUSD: 1 pip = 0.1 (= 10 เซนต์ต่อออนซ์ ตามธรรมเนียมโบรกส่วนใหญ่
+      ข้อดี: มูลค่า pip ต่อ 1 lot = $10 เท่ากับคู่เงินหลักพอดี สูตร lot ใช้ร่วมกันได้)
     - คู่ที่ลงท้ายด้วย JPY: 1 pip = 0.01 (เพราะราคา quote เป็นหลักร้อย)
     - คู่อื่นๆ: 1 pip = 0.0001
     """
-    return 0.01 if pair.upper().endswith("JPY") else 0.0001
+    p = pair.upper()
+    if p == "XAUUSD":
+        return 0.1
+    return 0.01 if p.endswith("JPY") else 0.0001
+
+
+def spread_pips_of(pair: str) -> float:
+    """สเปรด (pip) ของแต่ละตัว — ทองแพงกว่าคู่เงินหลัก ดูตาราง config.PAIR_SPREAD_PIPS"""
+    return config.PAIR_SPREAD_PIPS.get(pair.upper(), config.BACKTEST_SPREAD_PIPS)
 
 
 def _news_direction(news_analysis: dict | None) -> str:

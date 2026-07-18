@@ -22,7 +22,13 @@ import config
 
 
 def pair_to_yahoo_symbol(pair: str) -> str:
-    """แปลงชื่อคู่เงินของเรา เช่น 'EURUSD' -> สัญลักษณ์ของ Yahoo คือ 'EURUSD=X'"""
+    """
+    แปลงชื่อคู่เงินของเรา เช่น 'EURUSD' -> สัญลักษณ์ของ Yahoo คือ 'EURUSD=X'
+    ยกเว้นทองคำ XAUUSD: Yahoo ไม่มีราคา spot ให้ ใช้ 'GC=F' (ทองฟิวเจอร์ส COMEX)
+    ซึ่งราคาขยับใกล้เคียงกันมาก เหมาะสำหรับวิเคราะห์/paper trading
+    """
+    if pair.upper() == "XAUUSD":
+        return "GC=F"
     return f"{pair}=X"
 
 

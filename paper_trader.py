@@ -28,7 +28,7 @@ import pandas as pd
 
 import config
 import price_fetcher
-from signal_combiner import pip_size_of
+from signal_combiner import pip_size_of, spread_pips_of
 
 
 # ============================================
@@ -56,7 +56,7 @@ def open_trade_from_signal(pair: str, signal: dict) -> dict:
     """สร้างเทรดจำลอง 1 ไม้จากสัญญาณ BUY/SELL ของ signal_combiner"""
     direction = 1 if signal["action"] == "BUY" else -1
     pip = pip_size_of(pair)
-    spread = config.BACKTEST_SPREAD_PIPS * pip
+    spread = spread_pips_of(pair) * pip
     sl_dist = signal["suggested_sl_pips"] * pip
 
     # ราคาเข้า = ราคาปัจจุบัน + ครึ่งสเปรด (เหมือนโดนสเปรดตอนเข้าจริง)
@@ -90,7 +90,7 @@ def check_trade(trade: dict, ohlc: pd.DataFrame) -> bool:
 
     d = 1 if trade["direction"] == "BUY" else -1
     pip = pip_size_of(trade["pair"])
-    spread = config.BACKTEST_SPREAD_PIPS * pip
+    spread = spread_pips_of(trade["pair"]) * pip
 
     for ts, bar in bars.iterrows():
         hit_sl = bar["low"] <= trade["sl_price"] if d == 1 else bar["high"] >= trade["sl_price"]
