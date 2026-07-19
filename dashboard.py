@@ -13,11 +13,11 @@ dashboard.py
 (ผู้ใช้เลือกแนวนี้ 2026-07-19) สีธีมหลักอยู่ที่ .streamlit/config.toml
 
 ชุดกราฟ:
-1. เส้นทุนจำลอง (พื้นที่ไล่เฉด)      — ผลรวมการเทรดตามเวลา
-2. ผลรายไม้ (แท่ง) + R สะสม (เส้น)   — จังหวะแพ้-ชนะ และแนวโน้มสะสม
-3. ผลรวมรายคู่เงิน (แท่งนอน)         — คู่ไหนทำกำไร คู่ไหนถ่วง
-4. ข่าวเอียงทางไหน + จังหวะ RSI      — ภาพรวมตลาดตอนนี้ (มีข้อมูลก่อนไม้ปิด)
-5. ราคา + MA รายคู่ (ใน expander)    — ดูกราฟเทคนิคทีละคู่
+1. กำไรสะสม % เทียบทุน (ติ๊กเลือกคู่ได้) — กำไรตอนนี้กี่ % ของทุน แยกดูรายคู่/รวม
+2. ผลรายไม้ (แท่ง) + R สะสม (เส้น)       — จังหวะแพ้-ชนะ และแนวโน้มสะสม
+3. พาเรโต: เทียบทุกตัว เก่งสุด -> แย่สุด  — แท่งกำไรต่อคู่ + เส้นสะสมเมื่อรวมทีละคู่
+4. ข่าวเอียงทางไหน + จังหวะ RSI          — ภาพรวมตลาดตอนนี้ (มีข้อมูลก่อนไม้ปิด)
+5. ราคา + MA รายคู่ (ใน expander)        — ดูกราฟเทคนิคทีละคู่
 """
 
 import html
@@ -50,6 +50,11 @@ COLOR_MUTED = "#8b94a7"    # เทา = WAIT / ข้อความรอง
 
 SURFACE_CARD = "#121a2b"   # พื้นการ์ด (ตรงกับ secondaryBackgroundColor ใน config.toml)
 GRID_COLOR = "#232d45"     # เส้นตารางในกราฟ (จางๆ)
+
+# สีประจำคู่เงิน (สำหรับกราฟเส้นรายคู่ — ตรวจชุดสีบนพื้นมืดผ่านแล้วเช่นกัน)
+# น้ำเงินสงวนไว้ให้เส้น "รวม" — สีคู่เงินจึงไม่มีน้ำเงิน
+PAIR_COLORS = ["#199e70", "#c98500", "#9085e9", "#d55181", "#d95926"]
+TOTAL_LINE = "รวมที่เลือก"  # ชื่อเส้นผลรวมในกราฟกำไรสะสม
 
 st.set_page_config(page_title="Forex Analyzer", page_icon="📈", layout="wide")
 
@@ -241,34 +246,50 @@ def price_chart(pair: str) -> alt.Chart:
 # กราฟชุดผลการเทรด (ใช้ข้อมูลจากสมุด paper trading)
 # ============================================
 
-def equity_chart(closed: list) -> alt.Chart:
-    """กราฟ 1: เส้นทุนจำลอง — เริ่ม 100% เสี่ยง 1% ต่อไม้ ทบต้นตามลำดับไม้ที่ปิด"""
-    equity = 100.0
-    rows = []
-    for t in sorted(closed, key=lambda t: t.get("exit_time", "")):
-        equity *= (1 + (config.RISK_PER_TRADE_PERCENT / 100) * t["net_r"])
-        rows.append({"เวลา": pd.to_datetime(t["exit_time"]), "ทุน (%)": round(equity, 2)})
+def profit_pct(trades: list) -> float:
+    """กำไรรวมของรายการไม้ที่ให้มา คิดเป็น % ของทุน (เสี่ยง 1% ต่อไม้ แบบไม่ทบต้น)"""
+    return round(sum(t["net_r"] for t in trades) * config.RISK_PER_TRADE_PERCENT, 2)
+
+
+def cum_profit_chart(closed: list, selected_pairs: list) -> alt.Chart:
+    """
+    กราฟ 1: กำไรสะสม % เทียบทุน — เส้น "รวมที่เลือก" (น้ำเงินหนา) + เส้นรายคู่ที่ติ๊กไว้
+    หน่วยเดียวกันทั้งกราฟ: % ของทุน (เสี่ยง 1% ต่อไม้ คิดแบบง่ายไม่ทบต้น)
+    """
+    risk = config.RISK_PER_TRADE_PERCENT
+    trades = sorted([t for t in closed if t["pair"] in selected_pairs],
+                    key=lambda t: t.get("exit_time", ""))
+
+    rows, cum_total, cum_pair = [], 0.0, {}
+    for t in trades:
+        pct = t["net_r"] * risk
+        cum_total += pct
+        cum_pair[t["pair"]] = cum_pair.get(t["pair"], 0.0) + pct
+        when = pd.to_datetime(t["exit_time"])
+        rows.append({"เวลา": when, "ชุด": TOTAL_LINE, "กำไรสะสม (%)": round(cum_total, 2)})
+        rows.append({"เวลา": when, "ชุด": t["pair"], "กำไรสะสม (%)": round(cum_pair[t["pair"]], 2)})
     df = pd.DataFrame(rows)
 
-    area = alt.Chart(df).mark_area(
-        line={"color": COLOR_PRICE, "strokeWidth": 2},
-        color=alt.Gradient(
-            gradient="linear",
-            stops=[alt.GradientStop(color="rgba(57,135,229,0.35)", offset=1),
-                   alt.GradientStop(color="rgba(57,135,229,0.0)", offset=0)],
-            x1=1, x2=1, y1=1, y2=0,
-        ),
-        point={"filled": True, "size": 45, "color": COLOR_PRICE},
-    ).encode(
+    # ลำดับสี: เส้นรวม = น้ำเงิน, คู่เงิน = สีประจำตัว (เรียงตาม config.WATCHED_PAIRS)
+    domain = [TOTAL_LINE] + [p for p in config.WATCHED_PAIRS if p in selected_pairs]
+    colors = [COLOR_PRICE] + [PAIR_COLORS[config.WATCHED_PAIRS.index(p) % len(PAIR_COLORS)]
+                              for p in domain[1:]]
+
+    lines = alt.Chart(df).mark_line(point={"filled": True, "size": 35}).encode(
         x=alt.X("เวลา:T", title=None),
-        y=alt.Y("ทุน (%):Q", title=None, scale=alt.Scale(zero=False)),
-        tooltip=[alt.Tooltip("เวลา:T", format="%d %b %H:%M"),
-                 alt.Tooltip("ทุน (%):Q", format=".2f")],
+        y=alt.Y("กำไรสะสม (%):Q", title=None),
+        color=alt.Color("ชุด:N", sort=domain,
+                        scale=alt.Scale(domain=domain, range=colors),
+                        legend=alt.Legend(orient="top", title=None)),
+        strokeWidth=alt.condition(alt.datum["ชุด"] == TOTAL_LINE,
+                                  alt.value(3), alt.value(1.5)),
+        tooltip=[alt.Tooltip("เวลา:T", format="%d %b %H:%M"), "ชุด:N",
+                 alt.Tooltip("กำไรสะสม (%):Q", format="+.2f")],
     )
-    # เส้นประที่ 100% = จุดเริ่มต้น (เหนือเส้น = กำไร ใต้เส้น = ขาดทุน)
-    base = alt.Chart(pd.DataFrame({"y": [100.0]})).mark_rule(
+    # เส้นประที่ 0% = จุดเริ่มต้น (เหนือเส้น = กำไร ใต้เส้น = ขาดทุน)
+    zero = alt.Chart(pd.DataFrame({"y": [0.0]})).mark_rule(
         strokeDash=[4, 4], color=COLOR_MUTED).encode(y="y:Q")
-    return _dark((area + base).properties(height=230))
+    return _dark((lines + zero).properties(height=250))
 
 
 def trades_r_chart(closed: list) -> alt.Chart:
@@ -300,22 +321,46 @@ def trades_r_chart(closed: list) -> alt.Chart:
     return _dark((bars + cum_line + zero).properties(height=230))
 
 
-def pair_r_chart(closed: list) -> alt.Chart:
-    """กราฟ 3: ผลรวม R รายคู่เงิน (แท่งนอน) — คู่ไหนทำกำไร คู่ไหนถ่วง"""
+def pareto_chart(closed: list) -> alt.Chart:
+    """
+    กราฟ 3: พาเรโต — เทียบทุกตัวว่าใครทำผลงานยังไง
+    แท่ง = กำไร/ขาดทุนของแต่ละคู่ (% ของทุน) เรียงจากเก่งสุดไปแย่สุด
+    เส้นน้ำเงิน = กำไรสะสมเมื่อรวมทีละคู่จากซ้าย (จบที่กำไรรวมทั้งระบบ)
+    แกนเดียว หน่วยเดียวกันทั้งกราฟ (% ของทุน)
+    """
     totals = {}
     for t in closed:
         totals[t["pair"]] = totals.get(t["pair"], 0.0) + t["net_r"]
-    df = pd.DataFrame([{"คู่เงิน": p, "รวม (R)": round(v, 2)} for p, v in totals.items()])
+    risk = config.RISK_PER_TRADE_PERCENT
+    ranked = sorted(totals.items(), key=lambda kv: kv[1], reverse=True)
 
-    bars = alt.Chart(df).mark_bar(height={"band": 0.55}, cornerRadiusEnd=4).encode(
-        y=alt.Y("คู่เงิน:N", title=None, sort="-x"),
-        x=alt.X("รวม (R):Q", title=None),
-        color=alt.condition(alt.datum["รวม (R)"] > 0,
+    rows, cum = [], 0.0
+    for pair, r_sum in ranked:
+        pct = r_sum * risk
+        cum += pct
+        rows.append({"คู่เงิน": pair, "กำไร (%)": round(pct, 2), "สะสม (%)": round(cum, 2),
+                     "จำนวนไม้": sum(1 for t in closed if t["pair"] == pair)})
+    df = pd.DataFrame(rows)
+    order = [r["คู่เงิน"] for r in rows]   # ล็อกลำดับแท่งตามอันดับผลงาน
+
+    bars = alt.Chart(df).mark_bar(width={"band": 0.55}, cornerRadiusEnd=4).encode(
+        x=alt.X("คู่เงิน:N", title=None, sort=order, axis=alt.Axis(labelAngle=0)),
+        y=alt.Y("กำไร (%):Q", title=None),
+        color=alt.condition(alt.datum["กำไร (%)"] > 0,
                             alt.value(COLOR_GOOD), alt.value(COLOR_BAD)),
-        tooltip=["คู่เงิน:N", "รวม (R):Q"],
+        tooltip=["คู่เงิน:N", alt.Tooltip("กำไร (%):Q", format="+.2f"),
+                 alt.Tooltip("สะสม (%):Q", format="+.2f"), "จำนวนไม้:Q"],
     )
-    zero = alt.Chart(pd.DataFrame({"x": [0.0]})).mark_rule(color=COLOR_MUTED).encode(x="x:Q")
-    return _dark((bars + zero).properties(height=230))
+    cum_line = alt.Chart(df).mark_line(
+        strokeWidth=2, color=COLOR_PRICE,
+        point={"filled": True, "size": 45, "color": COLOR_PRICE},
+    ).encode(
+        x=alt.X("คู่เงิน:N", sort=order),
+        y=alt.Y("สะสม (%):Q", title=None),
+        tooltip=["คู่เงิน:N", alt.Tooltip("สะสม (%):Q", format="+.2f")],
+    )
+    zero = alt.Chart(pd.DataFrame({"y": [0.0]})).mark_rule(color=COLOR_MUTED).encode(y="y:Q")
+    return _dark((bars + cum_line + zero).properties(height=250))
 
 
 def sentiment_chart(results: list) -> alt.Chart | None:
@@ -545,16 +590,39 @@ kpi_row([
 ])
 
 if closed_trades:
+    # ---- กราฟสรุปกำไร % เทียบทุน + ติ๊กเลือกคู่ ----
+    section("สรุปกำไร", "% ของทุนจำลอง · เสี่ยง 1% ต่อไม้")
+
+    traded_pairs = [p for p in config.WATCHED_PAIRS
+                    if any(t["pair"] == p for t in closed_trades)]
+    selected_pairs = st.multiselect("ติ๊กเลือกดูรายตัว", traded_pairs,
+                                    default=traded_pairs)
+
+    sel_trades = [t for t in closed_trades if t["pair"] in selected_pairs]
+    sel_pct = profit_pct(sel_trades)
+    sel_color = COLOR_GOOD if sel_pct >= 0 else COLOR_BAD
+    st.markdown(
+        f'<div style="font-size:2rem;font-weight:800;color:{sel_color};margin:2px 0 6px 0">'
+        f'{sel_pct:+.2f}%'
+        f'<span style="font-size:.85rem;font-weight:400;color:#8b94a7;margin-left:10px">'
+        f'กำไร/ขาดทุนจากทุน ({len(sel_trades)} ไม้ที่ปิดแล้ว)</span></div>',
+        unsafe_allow_html=True)
+
+    if sel_trades:
+        chart_note("กำไรสะสม (%) ตามเวลา — เส้นน้ำเงินหนา = รวมที่เลือก · เส้นบาง = รายคู่ · "
+                   "เหนือเส้นประ 0 = กำไร")
+        st.altair_chart(cum_profit_chart(closed_trades, selected_pairs), width="stretch")
+    else:
+        st.caption("ยังไม่ได้เลือกคู่เงิน — ติ๊กเลือกด้านบนอย่างน้อย 1 คู่")
+
     g1, g2 = st.columns(2)
     with g1:
-        chart_note("เส้นทุนจำลอง (%) — เหนือเส้นประ 100 = กำไรสะสม")
-        st.altair_chart(equity_chart(closed_trades), width="stretch")
-    with g2:
         chart_note("ผลรายไม้ (R) — แท่งเขียว = ชนะ · แดง = แพ้ · เส้นน้ำเงิน = R สะสม")
         st.altair_chart(trades_r_chart(closed_trades), width="stretch")
-
-    chart_note("ผลรวมรายคู่เงิน (R) — คู่ไหนทำกำไร คู่ไหนถ่วง")
-    st.altair_chart(pair_r_chart(closed_trades), width="stretch")
+    with g2:
+        chart_note("พาเรโต — แท่ง: กำไรแต่ละคู่ (%) เรียงเก่งสุด → แย่สุด · "
+                   "เส้นน้ำเงิน: รวมสะสมทีละคู่ จบที่กำไรรวมทั้งระบบ")
+        st.altair_chart(pareto_chart(closed_trades), width="stretch")
 elif paper_trades:
     st.caption("มีไม้เปิดค้างอยู่ — กราฟผลเทรดจะปรากฏเมื่อไม้แรกปิด (ชน SL หรือ TP)")
 else:
