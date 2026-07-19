@@ -96,34 +96,72 @@ def _get_pin() -> str:
 
 
 def pin_gate():
-    """แสดงหน้าใส่รหัส แล้วหยุดการวาดส่วนอื่นทั้งหมดจนกว่ารหัสจะถูก"""
+    """
+    หน้าใส่รหัสแบบแป้นตัวเลขบนจอ (ผู้ใช้ขอ — กดเลขบนจอเลย ไม่ต้องใช้คีย์บอร์ดมือถือ)
+    กดครบจำนวนหลักของรหัสแล้วเช็คให้อัตโนมัติ ถูก = เข้า, ผิด = สั่นเตือน+ล้างใหม่
+    หยุดการวาดส่วนอื่นทั้งหมดจนกว่ารหัสจะถูก
+    """
     pin = _get_pin()
     if not pin or st.session_state.get("pin_ok"):
         return
 
-    _, mid, _ = st.columns([1, 1.2, 1])
+    # ปุ่มแป้นเลขให้ใหญ่พอสำหรับนิ้ว (CSS เฉพาะหน้านี้ — หน้าหลักไม่โดนเพราะ st.stop ก่อน)
+    st.markdown("""<style>
+    div[data-testid="stButton"] button {
+        height:60px; font-size:1.35rem; font-weight:700; border-radius:16px;
+        background:#121a2b; border:1px solid rgba(255,255,255,.10);
+    }
+    div[data-testid="stButton"] button:hover { border-color:#3987e5; color:#3987e5; }
+    </style>""", unsafe_allow_html=True)
+
+    buf = st.session_state.get("pin_buf", "")
+
+    _, mid, _ = st.columns([1, 1.1, 1])
     with mid:
         logo = logo_b64()
         logo_img = (f'<img src="data:image/png;base64,{logo}" '
-                    f'style="width:84px;height:84px;border-radius:20px;">' if logo else "")
-        st.markdown(f'''<div style="text-align:center;margin:14vh 0 14px 0;">
+                    f'style="width:76px;height:76px;border-radius:18px;">' if logo else "")
+        # จุดแสดงจำนวนหลักที่กดไป (● = กดแล้ว, ○ = ยังเหลือ)
+        dots = "●" * len(buf) + "○" * max(0, len(pin) - len(buf))
+        st.markdown(f'''<div style="text-align:center;margin:6vh 0 10px 0;">
           {logo_img}
-          <div style="font-size:1.5rem;font-weight:800;margin-top:12px;">Trader Automation</div>
-          <div style="color:#8b94a7;font-size:.85rem;">ใส่รหัส PIN เพื่อเข้าดูแดชบอร์ด</div>
+          <div style="font-size:1.35rem;font-weight:800;margin-top:10px;">Trader Automation</div>
+          <div style="color:#8b94a7;font-size:.82rem;">กดรหัส PIN เพื่อเข้าดูแดชบอร์ด</div>
+          <div style="font-size:1.6rem;letter-spacing:10px;margin:14px 0 4px 0;
+                      color:#3987e5;">{dots}</div>
         </div>''', unsafe_allow_html=True)
 
-        with st.form("pin_form"):
-            entered = st.text_input("รหัส PIN", type="password",
-                                    label_visibility="collapsed", placeholder="รหัส PIN")
-            ok = st.form_submit_button("เข้าสู่ระบบ", type="primary", width="stretch")
-        if ok:
-            # เทียบแบบปลอดภัย (hmac) + หน่วง 1 วิเมื่อผิด กันเดารัวๆ
-            if hmac.compare_digest(entered.strip(), pin):
-                st.session_state["pin_ok"] = True
-                st.rerun()
+        if st.session_state.pop("pin_err", False):
+            st.error("รหัสไม่ถูกต้อง ลองใหม่อีกครั้ง")
+
+        # แป้นตัวเลข 3 คอลัมน์: 1-9, แถวล่าง = ลบ / 0 / ล้าง
+        pressed = None
+        for row in (["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"], ["⌫", "0", "ล้าง"]):
+            cols = st.columns(3)
+            for col, ch in zip(cols, row):
+                if col.button(ch, key=f"pad_{ch}", width="stretch"):
+                    pressed = ch
+
+        if pressed == "⌫":
+            st.session_state["pin_buf"] = buf[:-1]
+            st.rerun()
+        elif pressed == "ล้าง":
+            st.session_state["pin_buf"] = ""
+            st.rerun()
+        elif pressed is not None:
+            buf += pressed
+            # ครบจำนวนหลักแล้ว — เช็คทันที (เทียบแบบปลอดภัย hmac)
+            if len(buf) >= len(pin):
+                if hmac.compare_digest(buf, pin):
+                    st.session_state["pin_ok"] = True
+                    st.session_state["pin_buf"] = ""
+                else:
+                    time.sleep(1)  # หน่วงเมื่อผิด กันนั่งเดารัวๆ
+                    st.session_state["pin_buf"] = ""
+                    st.session_state["pin_err"] = True
             else:
-                time.sleep(1)
-                st.error("รหัสไม่ถูกต้อง ลองใหม่อีกครั้ง")
+                st.session_state["pin_buf"] = buf
+            st.rerun()
     st.stop()
 
 
