@@ -12,12 +12,13 @@ dashboard.py
 หน้าตา: ธีมมืดโทนน้ำเงินเข้ม การ์ด KPI + ไอคอน SVG + ชุดกราฟผลเทรด
 (ผู้ใช้เลือกแนวนี้ 2026-07-19) สีธีมหลักอยู่ที่ .streamlit/config.toml
 
-ชุดกราฟ:
-1. กำไรสะสม % เทียบทุน (ติ๊กเลือกคู่ได้) — กำไรตอนนี้กี่ % ของทุน แยกดูรายคู่/รวม
-2. ผลรายไม้ (แท่ง) + R สะสม (เส้น)       — จังหวะแพ้-ชนะ และแนวโน้มสะสม
-3. พาเรโต: เทียบทุกตัว เก่งสุด -> แย่สุด  — แท่งกำไรต่อคู่ + เส้นสะสมเมื่อรวมทีละคู่
-4. ข่าวเอียงทางไหน + จังหวะ RSI          — ภาพรวมตลาดตอนนี้ (มีข้อมูลก่อนไม้ปิด)
-5. ราคา + MA รายคู่ (ใน expander)        — ดูกราฟเทคนิคทีละคู่
+แบ่ง 2 แท็บ (ผู้ใช้ขอแยกกราฟกำไรออกจากกราฟเทรด 2026-07-19):
+แท็บ "สัญญาณ & ตลาด" — ของเดิม: สัญญาณ, ข่าว+RSI, รายละเอียดรายคู่
+  (กราฟรายคู่เป็นแท่งเทียนเขียว/แดง + MA แบบกราฟเทรดทั่วไปที่ผู้ใช้คุ้นจาก MT5)
+แท็บ "วิเคราะห์กำไร" — กราฟผลเทรดล้วนๆ:
+  1. กำไรสะสม % เทียบทุน (ติ๊กเลือกคู่ได้) + ตัวเลขกำไรรวมใหญ่
+  2. ผลรายไม้ (แท่ง) + R สะสม (เส้น)
+  3. พาเรโต: แท่งกำไรต่อคู่เรียงเก่งสุด -> แย่สุด + เส้นสะสมรวมทีละคู่
 """
 
 import html
@@ -172,12 +173,12 @@ def load_result_file(filename: str) -> list:
 
 @st.cache_data(ttl=3600, show_spinner=False)
 def get_chart_data(pair: str) -> pd.DataFrame:
-    """ดึงราคาสำหรับวาดกราฟ (จำผลไว้ 1 ชั่วโมง จะได้ไม่ดึงซ้ำทุกครั้งที่กดหน้าจอ)"""
+    """ดึงราคา OHLC สำหรับวาดกราฟ (จำผลไว้ 1 ชั่วโมง จะได้ไม่ดึงซ้ำทุกครั้งที่กดหน้าจอ)"""
     ohlc = price_fetcher.fetch_ohlc(pair)
-    df = ohlc[["close"]].copy()
+    df = ohlc[["open", "high", "low", "close"]].copy()
     df["MA เร็ว"] = technical_analyzer.moving_average(ohlc["close"], config.MA_FAST_PERIOD)
     df["MA ช้า"] = technical_analyzer.moving_average(ohlc["close"], config.MA_SLOW_PERIOD)
-    df = df.rename(columns={"close": "ราคาปิด"})
+    df = df.rename(columns={"open": "เปิด", "high": "สูง", "low": "ต่ำ", "close": "ปิด"})
     return df.dropna()
 
 
@@ -191,55 +192,54 @@ def _dark(chart: alt.Chart) -> alt.Chart:
     ).configure_legend(labelColor="#c7cede")
 
 
-def price_chart(pair: str) -> alt.Chart:
-    """กราฟราคาปิด (เส้น + พื้นไล่เฉดใต้เส้น) + เส้น MA สองเส้น — แกนเดียว มี tooltip"""
-    df = get_chart_data(pair).reset_index()
+def price_chart(pair: str, bars: int = 120) -> alt.Chart:
+    """
+    กราฟแท่งเทียน (แบบกราฟเทรดทั่วไปที่ผู้ใช้คุ้นจาก MT5) + เส้น MA สองเส้น
+    เขียว = แท่งขึ้น (ปิด >= เปิด), แดง = แท่งลง | แสดง ~120 แท่งล่าสุด (~5 วันบน 1h)
+    """
+    df = get_chart_data(pair).tail(bars).reset_index()
     df = df.rename(columns={df.columns[0]: "เวลา"})
 
-    # แปลงเป็นรูปแบบยาว (long format) เพื่อให้ altair แยกสีตามชื่อเส้นได้
-    long_df = df.melt(id_vars="เวลา", var_name="เส้น", value_name="ราคา")
+    up = alt.datum["ปิด"] >= alt.datum["เปิด"]
+    candle_color = alt.condition(up, alt.value(COLOR_GOOD), alt.value(COLOR_BAD))
+    y_scale = alt.Scale(zero=False)
 
-    series_order = ["ราคาปิด", "MA เร็ว", "MA ช้า"]
-    colors = [COLOR_PRICE, COLOR_MA_FAST, COLOR_MA_SLOW]
+    base = alt.Chart(df).encode(x=alt.X("เวลา:T", title=None))
 
-    hover = alt.selection_point(fields=["เวลา"], nearest=True, on="mouseover", empty=False)
-
-    # พื้นไล่เฉดใต้เส้นราคา (ฟ้า -> จางหาย) ให้เหมือนแดชบอร์ดตัวอย่าง
-    area = alt.Chart(df).mark_area(
-        line=False,
-        color=alt.Gradient(
-            gradient="linear",
-            stops=[alt.GradientStop(color="rgba(57,135,229,0.35)", offset=1),
-                   alt.GradientStop(color="rgba(57,135,229,0.0)", offset=0)],
-            x1=1, x2=1, y1=1, y2=0,
-        ),
-    ).encode(
-        x=alt.X("เวลา:T", title=None),
-        y=alt.Y("ราคาปิด:Q", title=None, scale=alt.Scale(zero=False)),
+    # ไส้เทียน (เส้นบางจากราคาต่ำสุดถึงสูงสุดของแท่ง)
+    wick = base.mark_rule(strokeWidth=1).encode(
+        y=alt.Y("ต่ำ:Q", title=None, scale=y_scale),
+        y2="สูง:Q",
+        color=candle_color,
+    )
+    # ตัวเทียน (แท่งหนาจากราคาเปิดถึงปิด) + tooltip ครบ เปิด/สูง/ต่ำ/ปิด
+    body = base.mark_bar(size=4).encode(
+        y=alt.Y("เปิด:Q", title=None, scale=y_scale),
+        y2="ปิด:Q",
+        color=candle_color,
+        tooltip=[alt.Tooltip("เวลา:T", format="%d %b %H:%M"),
+                 alt.Tooltip("เปิด:Q", format=".5f"),
+                 alt.Tooltip("สูง:Q", format=".5f"),
+                 alt.Tooltip("ต่ำ:Q", format=".5f"),
+                 alt.Tooltip("ปิด:Q", format=".5f")],
     )
 
-    lines = alt.Chart(long_df).mark_line(strokeWidth=2).encode(
-        x=alt.X("เวลา:T", title=None),
-        y=alt.Y("ราคา:Q", title=None, scale=alt.Scale(zero=False)),
-        color=alt.Color("เส้น:N", sort=series_order,
-                        scale=alt.Scale(domain=series_order, range=colors),
+    # เส้น MA สองเส้นทับบนแท่งเทียน (สีเหลือง/ม่วง มีป้ายบอกใน legend)
+    ma_df = df.melt(id_vars="เวลา", value_vars=["MA เร็ว", "MA ช้า"],
+                    var_name="เส้น", value_name="ราคา")
+    ma_lines = alt.Chart(ma_df).mark_line(strokeWidth=1.8).encode(
+        x="เวลา:T",
+        y=alt.Y("ราคา:Q", title=None, scale=y_scale),
+        color=alt.Color("เส้น:N", sort=["MA เร็ว", "MA ช้า"],
+                        scale=alt.Scale(domain=["MA เร็ว", "MA ช้า"],
+                                        range=[COLOR_MA_FAST, COLOR_MA_SLOW]),
                         legend=alt.Legend(orient="top", title=None)),
-    )
-
-    # จุด + เส้นตั้งตอนเอาเมาส์ชี้ (crosshair + tooltip)
-    points = lines.mark_point(size=64).encode(
-        opacity=alt.condition(hover, alt.value(1), alt.value(0)),
         tooltip=[alt.Tooltip("เวลา:T", format="%d %b %H:%M"),
                  alt.Tooltip("เส้น:N"),
                  alt.Tooltip("ราคา:Q", format=".5f")],
-    ).add_params(hover)
-
-    rule = alt.Chart(long_df).mark_rule(color=COLOR_MUTED).encode(
-        x="เวลา:T",
-        opacity=alt.condition(hover, alt.value(0.4), alt.value(0)),
     )
 
-    return _dark((area + lines + points + rule).properties(height=320))
+    return _dark((wick + body + ma_lines).properties(height=320))
 
 
 # ============================================
@@ -517,189 +517,193 @@ st.markdown(f'''<div style="display:flex;align-items:baseline;gap:12px;flex-wrap
   <span style="color:#8b94a7;font-size:.85rem;">ข่าว + เทคนิค · อัปเดต {updated_txt}</span>
 </div>''', unsafe_allow_html=True)
 
-actions = [r["combined_signal"]["action"] for r in results]
-kpi_row([
-    kpi_card("trend-up", COLOR_GOOD, "สัญญาณ BUY", str(actions.count("BUY")),
-             f"จาก {len(results)} ตัวที่ติดตาม"),
-    kpi_card("trend-down", COLOR_BAD, "สัญญาณ SELL", str(actions.count("SELL")),
-             f"จาก {len(results)} ตัวที่ติดตาม"),
-    kpi_card("pause", COLOR_MUTED, "รอจังหวะ (WAIT)", str(actions.count("WAIT")),
-             "ไม่มีเทรนด์ชัด = ไม่เทรด"),
-])
+# แบ่ง 2 แท็บ: กราฟเทรด/สัญญาณ แยกจากกราฟวิเคราะห์กำไร (ผู้ใช้ขอ 2026-07-19)
+tab_market, tab_profit = st.tabs(["สัญญาณ & ตลาด", "วิเคราะห์กำไร"])
 
-# ตารางสรุปสัญญาณทุกคู่เงิน
-sig_rows = []
-for r in results:
-    sig = r["combined_signal"]
-    tech = r["technical"]
-    price = f'<span class="td-num">{tech["price_now"]}</span>' if tech else "-"
-    sig_rows.append([
-        f"<b>{r['pair']}</b>",
-        PILL.get(sig["action"], sig["action"]),
-        sig["confidence"],
-        price,
-        f'<span class="td-muted">{html.escape(str(sig["reason"]))}</span>',
+with tab_market:
+    actions = [r["combined_signal"]["action"] for r in results]
+    kpi_row([
+        kpi_card("trend-up", COLOR_GOOD, "สัญญาณ BUY", str(actions.count("BUY")),
+                 f"จาก {len(results)} ตัวที่ติดตาม"),
+        kpi_card("trend-down", COLOR_BAD, "สัญญาณ SELL", str(actions.count("SELL")),
+                 f"จาก {len(results)} ตัวที่ติดตาม"),
+        kpi_card("pause", COLOR_MUTED, "รอจังหวะ (WAIT)", str(actions.count("WAIT")),
+                 "ไม่มีเทรนด์ชัด = ไม่เทรด"),
     ])
-card_table(["คู่เงิน", "สัญญาณ", "ความเชื่อมั่น", "ราคาล่าสุด", "เหตุผล"], sig_rows)
 
-# ============================================
-# ส่วนสอง: ภาพรวมตลาดตอนนี้ (กราฟข่าว + RSI — มีข้อมูลตั้งแต่ยังไม่มีไม้ปิด)
-# ============================================
-
-section("ภาพรวมตลาดตอนนี้", "จากรอบวิเคราะห์ที่เลือก")
-
-mkt_left, mkt_right = st.columns(2)
-with mkt_left:
-    chart_note("ข่าวเอียงทางไหน — ขวา (น้ำเงิน) = ข่าวหนุนขึ้น · ซ้าย (แดง) = ข่าวกดลง")
-    c = sentiment_chart(results)
-    if c is not None:
-        st.altair_chart(c, width="stretch")
-    else:
-        st.caption("ไม่มีข้อมูลข่าวในรอบนี้")
-with mkt_right:
-    chart_note("จังหวะ RSI — แท่งยื่นจากเส้น 50: ขวา = โมเมนตัมขึ้น · ซ้าย = โมเมนตัมลง "
-               "(เส้นประ 30/70 = โซนสุดโต่ง)")
-    c = rsi_chart(results)
-    if c is not None:
-        st.altair_chart(c, width="stretch")
-    else:
-        st.caption("ไม่มีข้อมูลราคาในรอบนี้")
-
-# ============================================
-# ส่วนสาม: Paper Trading — การ์ดสถิติ + ชุดกราฟผลเทรด + ตารางไม้
-# ============================================
-
-section("Paper Trading", "เทรดจำลอง — ไม่มีเงินจริง")
-
-paper_trades = paper_trader.load_trades()
-paper_stats = paper_trader.summarize(paper_trades)
-closed_trades = [t for t in paper_trades if t["status"] != "open"]
-
-ret = paper_stats["sim_return_pct"]
-ret_color = COLOR_GOOD if ret >= 0 else COLOR_BAD
-kpi_row([
-    kpi_card("hourglass", COLOR_MA_FAST, "เปิดค้างอยู่", str(paper_stats["open_count"])),
-    kpi_card("target", COLOR_PRICE, "ปิดแล้ว", f"{paper_stats['closed_count']} ไม้",
-             "เป้าพิสูจน์ระบบ: 20 ไม้ใน 1 เดือน",
-             progress=paper_stats["closed_count"] / 20),
-    kpi_card("trophy", COLOR_MA_SLOW, "อัตราชนะ", f"{paper_stats['win_rate_pct']}%",
-             "เป้าจาก backtest: ~40%"),
-    kpi_card("coins", ret_color, "ผลตอบแทนจำลอง",
-             f'<span style="color:{ret_color}">{ret:+}%</span>',
-             "จำลองทุนโดยเสี่ยง 1% ต่อไม้"),
-])
-
-if closed_trades:
-    # ---- กราฟสรุปกำไร % เทียบทุน + ติ๊กเลือกคู่ ----
-    section("สรุปกำไร", "% ของทุนจำลอง · เสี่ยง 1% ต่อไม้")
-
-    traded_pairs = [p for p in config.WATCHED_PAIRS
-                    if any(t["pair"] == p for t in closed_trades)]
-    selected_pairs = st.multiselect("ติ๊กเลือกดูรายตัว", traded_pairs,
-                                    default=traded_pairs)
-
-    sel_trades = [t for t in closed_trades if t["pair"] in selected_pairs]
-    sel_pct = profit_pct(sel_trades)
-    sel_color = COLOR_GOOD if sel_pct >= 0 else COLOR_BAD
-    st.markdown(
-        f'<div style="font-size:2rem;font-weight:800;color:{sel_color};margin:2px 0 6px 0">'
-        f'{sel_pct:+.2f}%'
-        f'<span style="font-size:.85rem;font-weight:400;color:#8b94a7;margin-left:10px">'
-        f'กำไร/ขาดทุนจากทุน ({len(sel_trades)} ไม้ที่ปิดแล้ว)</span></div>',
-        unsafe_allow_html=True)
-
-    if sel_trades:
-        chart_note("กำไรสะสม (%) ตามเวลา — เส้นน้ำเงินหนา = รวมที่เลือก · เส้นบาง = รายคู่ · "
-                   "เหนือเส้นประ 0 = กำไร")
-        st.altair_chart(cum_profit_chart(closed_trades, selected_pairs), width="stretch")
-    else:
-        st.caption("ยังไม่ได้เลือกคู่เงิน — ติ๊กเลือกด้านบนอย่างน้อย 1 คู่")
-
-    g1, g2 = st.columns(2)
-    with g1:
-        chart_note("ผลรายไม้ (R) — แท่งเขียว = ชนะ · แดง = แพ้ · เส้นน้ำเงิน = R สะสม")
-        st.altair_chart(trades_r_chart(closed_trades), width="stretch")
-    with g2:
-        chart_note("พาเรโต — แท่ง: กำไรแต่ละคู่ (%) เรียงเก่งสุด → แย่สุด · "
-                   "เส้นน้ำเงิน: รวมสะสมทีละคู่ จบที่กำไรรวมทั้งระบบ")
-        st.altair_chart(pareto_chart(closed_trades), width="stretch")
-elif paper_trades:
-    st.caption("มีไม้เปิดค้างอยู่ — กราฟผลเทรดจะปรากฏเมื่อไม้แรกปิด (ชน SL หรือ TP)")
-else:
-    st.caption("ยังไม่มีเทรดจำลอง — ระบบจะบันทึกให้อัตโนมัติเมื่อเกิดสัญญาณ BUY/SELL "
-               "และกราฟผลเทรดจะปรากฏที่นี่เมื่อไม้แรกปิด")
-
-if paper_trades:
-    trade_rows = []
-    for t in reversed(paper_trades):       # ใหม่สุดขึ้นก่อน
-        r_val = t.get("net_r", "-")
-        if isinstance(r_val, (int, float)):
-            r_color = COLOR_GOOD if r_val > 0 else COLOR_BAD
-            r_cell = f'<span class="td-num" style="color:{r_color}">{r_val:+.2f}</span>'
-        else:
-            r_cell = "-"
-        trade_rows.append([
-            f"<b>{t['pair']}</b>",
-            PILL.get(t["direction"], t["direction"]),
-            TRADE_PILL.get(t["status"], t["status"]),
-            f'<span class="td-num">{t["entry_price"]}</span>',
-            f'<span class="td-num">{t["sl_price"]}</span>',
-            f'<span class="td-num">{t["tp_price"]}</span>',
-            r_cell,
-            f'<span class="td-muted">{t["entry_time"][:16].replace("T", " ")} UTC</span>',
+    # ตารางสรุปสัญญาณทุกคู่เงิน
+    sig_rows = []
+    for r in results:
+        sig = r["combined_signal"]
+        tech = r["technical"]
+        price = f'<span class="td-num">{tech["price_now"]}</span>' if tech else "-"
+        sig_rows.append([
+            f"<b>{r['pair']}</b>",
+            PILL.get(sig["action"], sig["action"]),
+            sig["confidence"],
+            price,
+            f'<span class="td-muted">{html.escape(str(sig["reason"]))}</span>',
         ])
-    card_table(["คู่เงิน", "ทิศทาง", "สถานะ", "ราคาเข้า", "SL", "TP", "ผล (R)", "เวลาเข้า"],
-               trade_rows)
+    card_table(["คู่เงิน", "สัญญาณ", "ความเชื่อมั่น", "ราคาล่าสุด", "เหตุผล"], sig_rows)
+
+    # ---- ภาพรวมตลาดตอนนี้ (กราฟข่าว + RSI — มีข้อมูลตั้งแต่ยังไม่มีไม้ปิด) ----
+    section("ภาพรวมตลาดตอนนี้", "จากรอบวิเคราะห์ที่เลือก")
+
+    mkt_left, mkt_right = st.columns(2)
+    with mkt_left:
+        chart_note("ข่าวเอียงทางไหน — ขวา (น้ำเงิน) = ข่าวหนุนขึ้น · ซ้าย (แดง) = ข่าวกดลง")
+        c = sentiment_chart(results)
+        if c is not None:
+            st.altair_chart(c, width="stretch")
+        else:
+            st.caption("ไม่มีข้อมูลข่าวในรอบนี้")
+    with mkt_right:
+        chart_note("จังหวะ RSI — แท่งยื่นจากเส้น 50: ขวา = โมเมนตัมขึ้น · ซ้าย = โมเมนตัมลง "
+                   "(เส้นประ 30/70 = โซนสุดโต่ง)")
+        c = rsi_chart(results)
+        if c is not None:
+            st.altair_chart(c, width="stretch")
+        else:
+            st.caption("ไม่มีข้อมูลราคาในรอบนี้")
 
 # ============================================
-# ส่วนล่าง: รายละเอียดรายคู่เงิน (กดเปิดดูทีละคู่)
+# แท็บ "วิเคราะห์กำไร": การ์ดสถิติ + ชุดกราฟผลเทรด + ตารางไม้ (แยกจากกราฟเทรด)
 # ============================================
 
-section("รายละเอียดรายคู่เงิน", "กดเปิดดูทีละคู่")
+with tab_profit:
+    section("Paper Trading", "เทรดจำลอง — ไม่มีเงินจริง")
 
-ACTION_LABEL = {"BUY": "▲ BUY", "SELL": "▼ SELL", "WAIT": "⏸ WAIT"}
-for r in results:
-    sig = r["combined_signal"]
-    with st.expander(f"{r['pair']} — {ACTION_LABEL.get(sig['action'], sig['action'])}"):
-        left, right = st.columns([3, 2])
+    paper_trades = paper_trader.load_trades()
+    paper_stats = paper_trader.summarize(paper_trades)
+    closed_trades = [t for t in paper_trades if t["status"] != "open"]
 
-        # ---- ฝั่งซ้าย: กราฟราคา + MA ----
-        with left:
-            try:
-                st.altair_chart(price_chart(r["pair"]), width="stretch")
-                with st.popover("ดูข้อมูลกราฟเป็นตาราง"):
-                    st.dataframe(get_chart_data(r["pair"]).tail(50))
-            except Exception as e:
-                st.warning(f"วาดกราฟไม่สำเร็จ: {e}")
+    ret = paper_stats["sim_return_pct"]
+    ret_color = COLOR_GOOD if ret >= 0 else COLOR_BAD
+    kpi_row([
+        kpi_card("hourglass", COLOR_MA_FAST, "เปิดค้างอยู่", str(paper_stats["open_count"])),
+        kpi_card("target", COLOR_PRICE, "ปิดแล้ว", f"{paper_stats['closed_count']} ไม้",
+                 "เป้าพิสูจน์ระบบ: 20 ไม้ใน 1 เดือน",
+                 progress=paper_stats["closed_count"] / 20),
+        kpi_card("trophy", COLOR_MA_SLOW, "อัตราชนะ", f"{paper_stats['win_rate_pct']}%",
+                 "เป้าจาก backtest: ~40%"),
+        kpi_card("coins", ret_color, "ผลตอบแทนจำลอง",
+                 f'<span style="color:{ret_color}">{ret:+}%</span>',
+                 "จำลองทุนโดยเสี่ยง 1% ต่อไม้"),
+    ])
 
-        # ---- ฝั่งขวา: รายละเอียดข่าว + เทคนิค ----
-        with right:
-            st.markdown(f"**ข้อสรุป: {sig['action']}**"
-                        + (f" (ความเชื่อมั่น: {sig['confidence']})" if sig["action"] != "WAIT" else ""))
-            st.caption(sig["reason"])
-            if sig["action"] in ("BUY", "SELL"):
-                st.markdown(f"- SL แนะนำ (จาก ATR): **{sig['suggested_sl_pips']} pip**")
+    if closed_trades:
+        # ---- กราฟสรุปกำไร % เทียบทุน + ติ๊กเลือกคู่ ----
+        section("สรุปกำไร", "% ของทุนจำลอง · เสี่ยง 1% ต่อไม้")
 
-            news = r["news_sentiment"]
-            st.markdown("**ข่าว (sentiment)**")
-            if news:
-                st.markdown(f"- {news['bias']}")
-                st.markdown(f"- Net score: `{news['net_score']}` | "
-                            f"ความน่าเชื่อถือ: {news['signal_risk_evaluation']['confidence_level']}")
-                st.markdown(f"- ข่าว {news['base_currency']}: "
-                            f"{news['base_sentiment']['article_count']} ชิ้น | "
-                            f"ข่าว {news['quote_currency']}: "
-                            f"{news['quote_sentiment']['article_count']} ชิ้น")
+        traded_pairs = [p for p in config.WATCHED_PAIRS
+                        if any(t["pair"] == p for t in closed_trades)]
+        selected_pairs = st.multiselect("ติ๊กเลือกดูรายตัว", traded_pairs,
+                                        default=traded_pairs)
+
+        sel_trades = [t for t in closed_trades if t["pair"] in selected_pairs]
+        sel_pct = profit_pct(sel_trades)
+        sel_color = COLOR_GOOD if sel_pct >= 0 else COLOR_BAD
+        st.markdown(
+            f'<div style="font-size:2rem;font-weight:800;color:{sel_color};margin:2px 0 6px 0">'
+            f'{sel_pct:+.2f}%'
+            f'<span style="font-size:.85rem;font-weight:400;color:#8b94a7;margin-left:10px">'
+            f'กำไร/ขาดทุนจากทุน ({len(sel_trades)} ไม้ที่ปิดแล้ว)</span></div>',
+            unsafe_allow_html=True)
+
+        if sel_trades:
+            chart_note("กำไรสะสม (%) ตามเวลา — เส้นน้ำเงินหนา = รวมที่เลือก · เส้นบาง = รายคู่ · "
+                       "เหนือเส้นประ 0 = กำไร")
+            st.altair_chart(cum_profit_chart(closed_trades, selected_pairs), width="stretch")
+        else:
+            st.caption("ยังไม่ได้เลือกคู่เงิน — ติ๊กเลือกด้านบนอย่างน้อย 1 คู่")
+
+        g1, g2 = st.columns(2)
+        with g1:
+            chart_note("ผลรายไม้ (R) — แท่งเขียว = ชนะ · แดง = แพ้ · เส้นน้ำเงิน = R สะสม")
+            st.altair_chart(trades_r_chart(closed_trades), width="stretch")
+        with g2:
+            chart_note("พาเรโต — แท่ง: กำไรแต่ละคู่ (%) เรียงเก่งสุด → แย่สุด · "
+                       "เส้นน้ำเงิน: รวมสะสมทีละคู่ จบที่กำไรรวมทั้งระบบ")
+            st.altair_chart(pareto_chart(closed_trades), width="stretch")
+    elif paper_trades:
+        st.caption("มีไม้เปิดค้างอยู่ — กราฟผลเทรดจะปรากฏเมื่อไม้แรกปิด (ชน SL หรือ TP)")
+    else:
+        st.caption("ยังไม่มีเทรดจำลอง — ระบบจะบันทึกให้อัตโนมัติเมื่อเกิดสัญญาณ BUY/SELL "
+                   "และกราฟผลเทรดจะปรากฏที่นี่เมื่อไม้แรกปิด")
+
+    if paper_trades:
+        trade_rows = []
+        for t in reversed(paper_trades):       # ใหม่สุดขึ้นก่อน
+            r_val = t.get("net_r", "-")
+            if isinstance(r_val, (int, float)):
+                r_color = COLOR_GOOD if r_val > 0 else COLOR_BAD
+                r_cell = f'<span class="td-num" style="color:{r_color}">{r_val:+.2f}</span>'
             else:
-                st.markdown("- ไม่มีข้อมูลข่าวในรอบนี้")
+                r_cell = "-"
+            trade_rows.append([
+                f"<b>{t['pair']}</b>",
+                PILL.get(t["direction"], t["direction"]),
+                TRADE_PILL.get(t["status"], t["status"]),
+                f'<span class="td-num">{t["entry_price"]}</span>',
+                f'<span class="td-num">{t["sl_price"]}</span>',
+                f'<span class="td-num">{t["tp_price"]}</span>',
+                r_cell,
+                f'<span class="td-muted">{t["entry_time"][:16].replace("T", " ")} UTC</span>',
+            ])
+        card_table(["คู่เงิน", "ทิศทาง", "สถานะ", "ราคาเข้า", "SL", "TP", "ผล (R)", "เวลาเข้า"],
+                   trade_rows)
 
-            tech = r["technical"]
-            st.markdown("**เทคนิค (กลยุทธ์: ตามเทรนด์ + รอย่อ)**")
-            if tech:
-                st.markdown(f"- เทรนด์: {tech.get('trend_label', tech.get('technical_bias', '-'))}")
-                st.markdown(f"- MA: {tech['ma_signal']}")
-                st.markdown(f"- RSI: {tech['rsi_signal']}")
-                st.markdown(f"- MACD: {tech['macd_signal']}")
-                st.markdown(f"- Bollinger: {tech['bb_signal']}")
-            else:
-                st.markdown("- ไม่มีข้อมูลราคาในรอบนี้")
+# ============================================
+# ท้ายแท็บ "สัญญาณ & ตลาด": รายละเอียดรายคู่เงิน (กดเปิดดูทีละคู่ — เหมือนเดิม
+# เปลี่ยนเฉพาะกราฟเป็นแท่งเทียนแบบกราฟเทรดทั่วไป)
+# ============================================
+
+with tab_market:
+    section("รายละเอียดรายคู่เงิน", "กดเปิดดูทีละคู่ · กราฟแท่งเทียน ~5 วันล่าสุด")
+
+    ACTION_LABEL = {"BUY": "▲ BUY", "SELL": "▼ SELL", "WAIT": "⏸ WAIT"}
+    for r in results:
+        sig = r["combined_signal"]
+        with st.expander(f"{r['pair']} — {ACTION_LABEL.get(sig['action'], sig['action'])}"):
+            left, right = st.columns([3, 2])
+
+            # ---- ฝั่งซ้าย: กราฟแท่งเทียน + MA ----
+            with left:
+                try:
+                    st.altair_chart(price_chart(r["pair"]), width="stretch")
+                    with st.popover("ดูข้อมูลกราฟเป็นตาราง"):
+                        st.dataframe(get_chart_data(r["pair"]).tail(50))
+                except Exception as e:
+                    st.warning(f"วาดกราฟไม่สำเร็จ: {e}")
+
+            # ---- ฝั่งขวา: รายละเอียดข่าว + เทคนิค ----
+            with right:
+                st.markdown(f"**ข้อสรุป: {sig['action']}**"
+                            + (f" (ความเชื่อมั่น: {sig['confidence']})" if sig["action"] != "WAIT" else ""))
+                st.caption(sig["reason"])
+                if sig["action"] in ("BUY", "SELL"):
+                    st.markdown(f"- SL แนะนำ (จาก ATR): **{sig['suggested_sl_pips']} pip**")
+
+                news = r["news_sentiment"]
+                st.markdown("**ข่าว (sentiment)**")
+                if news:
+                    st.markdown(f"- {news['bias']}")
+                    st.markdown(f"- Net score: `{news['net_score']}` | "
+                                f"ความน่าเชื่อถือ: {news['signal_risk_evaluation']['confidence_level']}")
+                    st.markdown(f"- ข่าว {news['base_currency']}: "
+                                f"{news['base_sentiment']['article_count']} ชิ้น | "
+                                f"ข่าว {news['quote_currency']}: "
+                                f"{news['quote_sentiment']['article_count']} ชิ้น")
+                else:
+                    st.markdown("- ไม่มีข้อมูลข่าวในรอบนี้")
+
+                tech = r["technical"]
+                st.markdown("**เทคนิค (กลยุทธ์: ตามเทรนด์ + รอย่อ)**")
+                if tech:
+                    st.markdown(f"- เทรนด์: {tech.get('trend_label', tech.get('technical_bias', '-'))}")
+                    st.markdown(f"- MA: {tech['ma_signal']}")
+                    st.markdown(f"- RSI: {tech['rsi_signal']}")
+                    st.markdown(f"- MACD: {tech['macd_signal']}")
+                    st.markdown(f"- Bollinger: {tech['bb_signal']}")
+                else:
+                    st.markdown("- ไม่มีข้อมูลราคาในรอบนี้")
