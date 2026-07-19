@@ -15,6 +15,10 @@ import os
 # ค่าจริงอยู่ใน secrets_local.py (ในเครื่อง) หรือ GitHub Secrets (บนคลาวด์)
 NEWSAPI_KEY = os.environ.get("NEWSAPI_KEY", "")
 
+# รหัส PIN หน้าแดชบอร์ด (ปล่อยว่าง = ไม่ล็อก เปิดดูได้เลย)
+# ตั้งค่าจริง: ในเครื่อง -> secrets_local.py | บนคลาวด์ -> Secrets ของ Streamlit
+DASHBOARD_PIN = os.environ.get("DASHBOARD_PIN", "")
+
 # ============================================
 # 2. คู่เงินที่ต้องการติดตาม (แก้ไขเพิ่ม/ลดได้)
 # ============================================

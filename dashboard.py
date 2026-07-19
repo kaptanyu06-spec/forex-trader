@@ -21,9 +21,11 @@ dashboard.py
   3. พาเรโต: แท่งกำไรต่อคู่เรียงเก่งสุด -> แย่สุด + เส้นสะสมรวมทีละคู่
 """
 
+import hmac
 import html
 import json
 import os
+import time
 from datetime import datetime, timedelta, timezone
 
 import altair as alt
@@ -66,6 +68,66 @@ st.set_page_config(page_title="Forex Analyzer",
                    layout="wide")
 if os.path.exists(LOGO_PATH):
     st.logo(LOGO_PATH, size="large")
+
+
+@st.cache_data(show_spinner=False)
+def logo_b64() -> str:
+    """โลโก้ตัวเล็กแบบ base64 สำหรับฝังใน HTML (จำผลไว้ ไม่อ่านไฟล์ซ้ำทุกรอบ)"""
+    import base64
+    if not os.path.exists(LOGO_SMALL_PATH):
+        return ""
+    with open(LOGO_SMALL_PATH, "rb") as f:
+        return base64.b64encode(f.read()).decode()
+
+
+# ============================================
+# ประตูรหัส PIN — ต้องใส่ถูกก่อนถึงเห็นแดชบอร์ด (ผู้ใช้ขอ 2026-07-19)
+# รหัสเก็บนอกโค้ด: Secrets ของ Streamlit Cloud หรือ secrets_local.py ในเครื่อง
+# ถ้ายังไม่ตั้งรหัสไว้เลย = เปิดดูได้ปกติ (กันล็อกตัวเองออกก่อนตั้งค่า)
+# ============================================
+
+def _get_pin() -> str:
+    pin = ""
+    try:
+        pin = str(st.secrets.get("DASHBOARD_PIN", ""))
+    except Exception:
+        pass  # ไม่มีไฟล์ secrets.toml เลย — ใช้ทาง config/env แทน
+    return pin or str(getattr(config, "DASHBOARD_PIN", "") or "")
+
+
+def pin_gate():
+    """แสดงหน้าใส่รหัส แล้วหยุดการวาดส่วนอื่นทั้งหมดจนกว่ารหัสจะถูก"""
+    pin = _get_pin()
+    if not pin or st.session_state.get("pin_ok"):
+        return
+
+    _, mid, _ = st.columns([1, 1.2, 1])
+    with mid:
+        logo = logo_b64()
+        logo_img = (f'<img src="data:image/png;base64,{logo}" '
+                    f'style="width:84px;height:84px;border-radius:20px;">' if logo else "")
+        st.markdown(f'''<div style="text-align:center;margin:14vh 0 14px 0;">
+          {logo_img}
+          <div style="font-size:1.5rem;font-weight:800;margin-top:12px;">Trader Automation</div>
+          <div style="color:#8b94a7;font-size:.85rem;">ใส่รหัส PIN เพื่อเข้าดูแดชบอร์ด</div>
+        </div>''', unsafe_allow_html=True)
+
+        with st.form("pin_form"):
+            entered = st.text_input("รหัส PIN", type="password",
+                                    label_visibility="collapsed", placeholder="รหัส PIN")
+            ok = st.form_submit_button("เข้าสู่ระบบ", type="primary", width="stretch")
+        if ok:
+            # เทียบแบบปลอดภัย (hmac) + หน่วง 1 วิเมื่อผิด กันเดารัวๆ
+            if hmac.compare_digest(entered.strip(), pin):
+                st.session_state["pin_ok"] = True
+                st.rerun()
+            else:
+                time.sleep(1)
+                st.error("รหัสไม่ถูกต้อง ลองใหม่อีกครั้ง")
+    st.stop()
+
+
+pin_gate()
 
 # ============================================
 # ไอคอน SVG ลายเส้น (แบบเดียวกับไอคอนชุด Lucide — วาดด้วย stroke ตามสีที่ครอบ)
@@ -626,17 +688,9 @@ else:
                    + " น. (ไทย)")
 
 
-@st.cache_data(show_spinner=False)
-def _logo_b64() -> str:
-    """โลโก้ตัวเล็กแบบ base64 สำหรับฝังในหัวเรื่อง (จำผลไว้ ไม่อ่านไฟล์ซ้ำทุกรอบ)"""
-    import base64
-    with open(LOGO_SMALL_PATH, "rb") as f:
-        return base64.b64encode(f.read()).decode()
-
-
 logo_html = ""
-if os.path.exists(LOGO_SMALL_PATH):
-    logo_html = (f'<img src="data:image/png;base64,{_logo_b64()}" '
+if logo_b64():
+    logo_html = (f'<img src="data:image/png;base64,{logo_b64()}" '
                  f'style="width:46px;height:46px;border-radius:12px;flex:none;">')
 
 st.markdown(f'''<div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap;">
