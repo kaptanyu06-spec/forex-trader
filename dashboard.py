@@ -608,9 +608,22 @@ results = load_result_file(selected_file)
 # ส่วนบน: หัวเรื่อง + การ์ดสรุปสัญญาณ + ตารางสัญญาณ
 # ============================================
 
-# เวลาอัปเดตของไฟล์ที่กำลังดู (แสดงบนหัวเรื่อง)
-mtime = os.path.getmtime(os.path.join(config.OUTPUT_DIR, selected_file))
-updated_txt = datetime.fromtimestamp(mtime).strftime("%d/%m/%Y %H:%M")
+# เวลาอัปเดตของผลวิเคราะห์ที่กำลังดู — แสดงเป็นเวลาไทยเสมอ
+# ใช้เวลาที่ประทับไว้ในไฟล์ (generated_at, UTC) เป็นหลัก เพราะเวลาแก้ไขไฟล์
+# บนคลาวด์เพี้ยนได้ตอนแอปรีสตาร์ต | ไฟล์เก่าที่ยังไม่มีประทับเวลา ใช้เวลาไฟล์แทน
+from zoneinfo import ZoneInfo
+TH_TZ = ZoneInfo("Asia/Bangkok")
+
+generated_at = results[0].get("generated_at") if results else None
+if generated_at:
+    dt = datetime.fromisoformat(generated_at)
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    updated_txt = dt.astimezone(TH_TZ).strftime("%d/%m/%Y %H:%M") + " น. (ไทย)"
+else:
+    mtime = os.path.getmtime(os.path.join(config.OUTPUT_DIR, selected_file))
+    updated_txt = (datetime.fromtimestamp(mtime, tz=TH_TZ).strftime("%d/%m/%Y %H:%M")
+                   + " น. (ไทย)")
 
 
 @st.cache_data(show_spinner=False)

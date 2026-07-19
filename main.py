@@ -181,6 +181,13 @@ def print_summary(results: list):
 
 def save_results(results: list):
     os.makedirs(config.OUTPUT_DIR, exist_ok=True)
+
+    # ประทับเวลาที่วิเคราะห์เสร็จ (UTC) ลงในผลทุกตัว — แดชบอร์ดใช้แสดง "อัปเดตเมื่อ"
+    # เป็นเวลาไทยได้ตรงจริง (เวลาแก้ไขไฟล์บนคลาวด์เชื่อไม่ได้ เพราะเปลี่ยนตอนแอปรีสตาร์ต)
+    stamp = datetime.now(timezone.utc).isoformat()
+    for r in results:
+        r["generated_at"] = stamp
+
     filename = os.path.join(
         config.OUTPUT_DIR,
         f"analysis_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
