@@ -137,67 +137,76 @@ def pin_gate():
         st.session_state["pin_ok"] = True
         return
 
-    # ปุ่มแป้นเลขให้ใหญ่พอสำหรับนิ้ว (CSS เฉพาะหน้านี้ — หน้าหลักไม่โดนเพราะ st.stop ก่อน)
+    # CSS เฉพาะหน้านี้ (หน้าหลักไม่โดนเพราะ st.stop ก่อน):
+    # - จำกัดความกว้างหน้า ~420px แล้วจัดกลาง = บนคอมดูเหมือนแอปมือถือ
+    # - บังคับแถวปุ่มไม่ให้พับลงแนวตั้งบนจอแคบ (ปกติ Streamlit พับคอลัมน์บนมือถือ
+    #   ทำให้แป้นกลายเป็นปุ่มยาวเรียงลงมา — บั๊กที่ผู้ใช้เจอ 2026-07-19)
     st.markdown("""<style>
+    div[data-testid="stMainBlockContainer"], .main .block-container {
+        max-width:420px !important; margin:0 auto; padding-top:1.5rem;
+    }
+    div[data-testid="stHorizontalBlock"] { flex-wrap:nowrap !important; gap:10px !important; }
+    div[data-testid="stHorizontalBlock"] > div[data-testid="stColumn"],
+    div[data-testid="stHorizontalBlock"] > div {
+        min-width:0 !important; flex:1 1 0 !important;
+    }
     div[data-testid="stButton"] button {
         height:60px; font-size:1.35rem; font-weight:700; border-radius:16px;
-        background:#121a2b; border:1px solid rgba(255,255,255,.10);
+        background:#121a2b; border:1px solid rgba(255,255,255,.10); width:100%;
     }
     div[data-testid="stButton"] button:hover { border-color:#3987e5; color:#3987e5; }
     </style>""", unsafe_allow_html=True)
 
     buf = st.session_state.get("pin_buf", "")
 
-    _, mid, _ = st.columns([1, 1.1, 1])
-    with mid:
-        logo = logo_b64()
-        logo_img = (f'<img src="data:image/png;base64,{logo}" '
-                    f'style="width:76px;height:76px;border-radius:18px;">' if logo else "")
-        # จุดแสดงจำนวนหลักที่กดไป (● = กดแล้ว, ○ = ยังเหลือ)
-        dots = "●" * len(buf) + "○" * max(0, len(pin) - len(buf))
-        st.markdown(f'''<div style="text-align:center;margin:6vh 0 10px 0;">
-          {logo_img}
-          <div style="font-size:1.35rem;font-weight:800;margin-top:10px;">Trader Automation</div>
-          <div style="color:#8b94a7;font-size:.82rem;">กดรหัส PIN เพื่อเข้าดูแดชบอร์ด</div>
-          <div style="font-size:1.6rem;letter-spacing:10px;margin:14px 0 4px 0;
-                      color:#3987e5;">{dots}</div>
-        </div>''', unsafe_allow_html=True)
+    logo = logo_b64()
+    logo_img = (f'<img src="data:image/png;base64,{logo}" '
+                f'style="width:76px;height:76px;border-radius:18px;">' if logo else "")
+    # จุดแสดงจำนวนหลักที่กดไป (● = กดแล้ว, ○ = ยังเหลือ)
+    dots = "●" * len(buf) + "○" * max(0, len(pin) - len(buf))
+    st.markdown(f'''<div style="text-align:center;margin:4vh 0 10px 0;">
+      {logo_img}
+      <div style="font-size:1.35rem;font-weight:800;margin-top:10px;">Trader Automation</div>
+      <div style="color:#8b94a7;font-size:.82rem;">กดรหัส PIN เพื่อเข้าดูแดชบอร์ด</div>
+      <div style="font-size:1.6rem;letter-spacing:10px;margin:14px 0 4px 0;
+                  color:#3987e5;">{dots}</div>
+    </div>''', unsafe_allow_html=True)
 
-        if st.session_state.pop("pin_err", False):
-            st.error("รหัสไม่ถูกต้อง ลองใหม่อีกครั้ง")
+    if st.session_state.pop("pin_err", False):
+        st.error("รหัสไม่ถูกต้อง ลองใหม่อีกครั้ง")
 
-        # แป้นตัวเลข 3 คอลัมน์: 1-9, แถวล่าง = ลบ / 0 / ล้าง
-        pressed = None
-        for row in (["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"], ["⌫", "0", "ล้าง"]):
-            cols = st.columns(3)
-            for col, ch in zip(cols, row):
-                if col.button(ch, key=f"pad_{ch}", width="stretch"):
-                    pressed = ch
+    # แป้นตัวเลข 3 คอลัมน์: 1-9, แถวล่าง = ลบ / 0 / ล้าง
+    pressed = None
+    for row in (["1", "2", "3"], ["4", "5", "6"], ["7", "8", "9"], ["⌫", "0", "ล้าง"]):
+        cols = st.columns(3)
+        for col, ch in zip(cols, row):
+            if col.button(ch, key=f"pad_{ch}", width="stretch"):
+                pressed = ch
 
-        if pressed == "⌫":
-            st.session_state["pin_buf"] = buf[:-1]
-            st.rerun()
-        elif pressed == "ล้าง":
-            st.session_state["pin_buf"] = ""
-            st.rerun()
-        elif pressed is not None:
-            buf += pressed
-            # ครบจำนวนหลักแล้ว — เช็คทันที (เทียบแบบปลอดภัย hmac)
-            if len(buf) >= len(pin):
-                if hmac.compare_digest(buf, pin):
-                    st.session_state["pin_ok"] = True
-                    st.session_state["pin_buf"] = ""
-                    # แนบตั๋วจำเครื่องไว้ใน URL — เปิดกลับมาภายใน 3 ชม. ไม่ต้องกดใหม่
-                    ts = str(int(time.time()))
-                    st.query_params["t"] = ts
-                    st.query_params["k"] = _token_sig(pin, ts)
-                else:
-                    time.sleep(1)  # หน่วงเมื่อผิด กันนั่งเดารัวๆ
-                    st.session_state["pin_buf"] = ""
-                    st.session_state["pin_err"] = True
+    if pressed == "⌫":
+        st.session_state["pin_buf"] = buf[:-1]
+        st.rerun()
+    elif pressed == "ล้าง":
+        st.session_state["pin_buf"] = ""
+        st.rerun()
+    elif pressed is not None:
+        buf += pressed
+        # ครบจำนวนหลักแล้ว — เช็คทันที (เทียบแบบปลอดภัย hmac)
+        if len(buf) >= len(pin):
+            if hmac.compare_digest(buf, pin):
+                st.session_state["pin_ok"] = True
+                st.session_state["pin_buf"] = ""
+                # แนบตั๋วจำเครื่องไว้ใน URL — เปิดกลับมาภายใน 3 ชม. ไม่ต้องกดใหม่
+                ts = str(int(time.time()))
+                st.query_params["t"] = ts
+                st.query_params["k"] = _token_sig(pin, ts)
             else:
-                st.session_state["pin_buf"] = buf
-            st.rerun()
+                time.sleep(1)  # หน่วงเมื่อผิด กันนั่งเดารัวๆ
+                st.session_state["pin_buf"] = ""
+                st.session_state["pin_err"] = True
+        else:
+            st.session_state["pin_buf"] = buf
+        st.rerun()
     st.stop()
 
 
