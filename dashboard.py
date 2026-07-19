@@ -130,6 +130,19 @@ st.markdown("""
 .td-muted { color:#8b94a7; font-size:.8rem; }
 .table-scroll { overflow-x:auto; border-radius:14px; }
 
+/* ---- การ์ดสัญญาณแบบกระชับ (เน้นมือถือ: ไม่ต้องเลื่อนแนวนอน) ---- */
+.sig-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
+            gap:10px; margin:4px 0 6px 0; }
+.sig-card { background:#121a2b; border:1px solid rgba(255,255,255,.08);
+            border-radius:12px; padding:10px 12px; }
+.sig-head { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+.sig-pair { font-weight:700; font-size:.95rem; }
+.sig-meta { color:#8b94a7; font-size:.78rem; margin-top:5px;
+            font-variant-numeric:tabular-nums; }
+.sig-reason { color:#8b94a7; font-size:.74rem; margin-top:5px; line-height:1.35;
+              display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical;
+              overflow:hidden; }
+
 /* ---- หัวข้อส่วน ---- */
 .sec-title { font-size:1.05rem; font-weight:700; margin:20px 0 10px 0;
              display:flex; align-items:center; gap:8px; }
@@ -610,27 +623,35 @@ with tab_market:
                  "ไม่มีเทรนด์ชัด = ไม่เทรด"),
     ])
 
-    # ตารางสรุปสัญญาณทุกคู่เงิน
-    sig_rows = []
+    # การ์ดสัญญาณรายคู่แบบกระชับ (เน้นใช้บนมือถือ — เรียงลงมาเอง ไม่ต้องเลื่อนแนวนอน)
+    sig_cards = []
     for r in results:
         sig = r["combined_signal"]
         tech = r["technical"]
-        price = f'<span class="td-num">{tech["price_now"]}</span>' if tech else "-"
-        sig_rows.append([
-            f"<b>{r['pair']}</b>",
-            PILL.get(sig["action"], sig["action"]),
-            sig["confidence"],
-            price,
-            f'<span class="td-muted">{html.escape(str(sig["reason"]))}</span>',
-        ])
-    card_table(["คู่เงิน", "สัญญาณ", "ความเชื่อมั่น", "ราคาล่าสุด", "เหตุผล"], sig_rows)
+        price = f'{tech["price_now"]}' if tech else "-"
+        conf = f' · เชื่อมั่น: {sig["confidence"]}' if sig["action"] != "WAIT" else ""
+        sig_cards.append(
+            f'<div class="sig-card">'
+            f'<div class="sig-head"><span class="sig-pair">{r["pair"]}</span>'
+            f'{PILL.get(sig["action"], sig["action"])}</div>'
+            f'<div class="sig-meta">ราคา {price}{conf}</div>'
+            f'<div class="sig-reason">{html.escape(str(sig["reason"]))}</div>'
+            f'</div>')
+    st.markdown('<div class="sig-grid">' + "".join(sig_cards) + "</div>",
+                unsafe_allow_html=True)
+    st.caption("เหตุผลเต็ม + กราฟ อยู่ใน 'รายละเอียดรายคู่เงิน' ด้านล่าง")
 
     # ---- ภาพรวมตลาดตอนนี้ (กราฟข่าว + RSI — มีข้อมูลตั้งแต่ยังไม่มีไม้ปิด) ----
-    section("ภาพรวมตลาดตอนนี้", "จากรอบวิเคราะห์ที่เลือก")
+    section("ภาพรวมตลาดตอนนี้", "วิเคราะห์บนแท่ง 1 ชั่วโมง")
+    # สโคปเวลาของสัญญาณ — ตัวเลขจากสถิติ backtest จริง (182 ไม้, v2/1h/1ปี)
+    chart_note("สโคปเวลา: เทรนด์วัดจาก MA 20/50 ชม.ย้อนหลัง · "
+               "ไม้ที่เปิดตามสัญญาณมักรู้ผล (ชน TP/SL) ภายใน ~3-22 ชม. "
+               "มัธยฐาน ~10 ชม. (สถิติจาก backtest 182 ไม้)")
 
     mkt_left, mkt_right = st.columns(2)
     with mkt_left:
-        chart_note("ข่าวเอียงทางไหน — ขวา (น้ำเงิน) = ข่าวหนุนขึ้น · ซ้าย (แดง) = ข่าวกดลง")
+        chart_note("ข่าวเอียงทางไหน — ขวา (น้ำเงิน) = ข่าวหนุนขึ้น · ซ้าย (แดง) = ข่าวกดลง · "
+                   "จากข่าวย้อนหลัง 2 วัน = แรงหนุน/กดระยะสั้น ~1-2 วันข้างหน้า")
         c = sentiment_chart(results)
         if c is not None:
             st.altair_chart(c, width="stretch")
@@ -638,7 +659,8 @@ with tab_market:
             st.caption("ไม่มีข้อมูลข่าวในรอบนี้")
     with mkt_right:
         chart_note("จังหวะ RSI — แท่งยื่นจากเส้น 50: ขวา = โมเมนตัมขึ้น · ซ้าย = โมเมนตัมลง "
-                   "(เส้นประ 30/70 = โซนสุดโต่ง)")
+                   "(เส้นประ 30/70 = โซนสุดโต่ง) · RSI 14 บนแท่ง 1 ชม. = โมเมนตัม "
+                   "~14 ชม.ล่าสุด ใช้จับจังหวะระดับชั่วโมงถึง ~1 วัน")
         c = rsi_chart(results)
         if c is not None:
             st.altair_chart(c, width="stretch")
