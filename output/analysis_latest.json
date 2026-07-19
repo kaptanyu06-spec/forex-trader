@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0459,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 25,
+        "average_score": 0.076,
+        "label": "บวกเล็กน้อย",
+        "article_count": 15,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "ICS Mortgages could be back in the game as dad of Wimbledon wild card bows out",
+            "description": "French hedge fund manager Loïc Féry is exiting parent company Dilosk",
+            "source": "The Irish Times",
+            "published_at": "2026-07-18T05:00:00Z",
+            "url": "https://www.irishtimes.com/business/2026/07/18/ics-mortgages-could-be-back-in-the-game-as-dad-of-wimbledon-wild-card-bows-out/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Tech selloff weighs on European shares ahead of ECB meeting next week",
+            "description": "European stocks edged lower Friday, influenced by a global tech sell-off and Middle East tensions. Investors await the European Central Bank meeting and corporate earnings reports next week. Rising oil prices and subdued reactions to strong results complicate…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T04:54:33Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/tech-selloff-weighs-on-european-shares-ahead-of-ecb-meeting-next-week/articleshow/132474106.cms",
+            "sentiment_score": 0.1917,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "ECB Warns Stablecoins May Drain Bank Deposits—Here's What That Means",
@@ -139,134 +159,114 @@
             "url": "https://financialpost.com/pmn/business-pmn/ecb-set-to-wait-for-september-to-hike-one-last-time-poll-shows",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Stocks Settle Lower as Chipmakers and AI Stocks Slump",
-            "description": "The S&P 500 Index ($SPX ) (SPY ) on Thursday closed down -0.51%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.20%, and the Nasdaq 100 Inde...",
-            "source": "Barchart.com",
-            "published_at": "2026-07-16T20:39:45Z",
-            "url": "https://www.barchart.com/story/news/3325828/stocks-settle-lower-as-chipmakers-and-ai-stocks-slump",
-            "sentiment_score": -0.2072,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "EUR/USD Outlook: Why European Gas Prices Could Become the Euro’s Biggest Driver",
-            "description": "The key risk for euro bulls is that a prolonged energy shock eventually shifts the market’s focus away from higher interest rates and back toward recession r...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-16T14:56:11Z",
-            "url": "https://finance.yahoo.com/markets/currencies/articles/eur-usd-outlook-why-european-145611942.html",
-            "sentiment_score": -0.102,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Stocks Pressured by a Renewed Selloff in Chipmakers",
-            "description": "The S&P 500 Index ($SPX ) (SPY ) today is down -0.46%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.04%, and the Nasdaq 100 Index ($IUXX ) (QQ...",
-            "source": "Barchart.com",
-            "published_at": "2026-07-16T14:07:30Z",
-            "url": "https://www.barchart.com/story/news/3318928/stocks-pressured-by-a-renewed-selloff-in-chipmakers",
-            "sentiment_score": -0.1584,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Bank of England’s Sarah Breeden warns AI infrastructure debt could threaten financial stability",
-            "description": "AI infrastructure debt's unclear repayment path could destabilize financial systems, necessitating urgent regulatory and financial scrutiny.\nThe post Bank of England’s Sarah Breeden warns AI infrastructure debt could threaten financial stability appeared firs…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T13:31:09Z",
-            "url": "https://cryptobriefing.com/boe-breeden-ai-financing-debt-risks/",
-            "sentiment_score": -0.6766,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Chipmakers chip away at stocks, oil hovers at $85",
-            "description": "By Marc Jones LONDON, July 16 (Reuters) - European stocks and Wall Street futures edged lower on Thursday following more tech troubles in Asia, while benign...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-16T12:57:10Z",
-            "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-slump-chipmaker-drag-022037813.html",
-            "sentiment_score": -0.1471,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Japan’s balance-sheet reduction strategy echoes Kevin Warsh’s playbook for tighter money",
-            "description": "Japan's balance-sheet reduction may tighten global liquidity, impacting carry trades and risk assets, potentially leading to market volatility.\nThe post Japan’s balance-sheet reduction strategy echoes Kevin Warsh’s playbook for tighter money appeared first on…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T12:45:26Z",
-            "url": "https://cryptobriefing.com/japan-boj-balance-sheet-reduction-warsh-crypto/",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "EU defence spending: €418 billion in 2025, projected to €454 billion in 2026",
-            "description": "Defence spending by the EU's 27 Member States reached €418 billion in 2025, a 20% increase compared to 2024, according to the European Defence Agency's (EDA) latest Defence Data report released on 16 July 2026. Spending is projected to rise further to €454 bi…",
-            "source": "Globalsecurity.org",
-            "published_at": "2026-07-16T12:00:00Z",
-            "url": "https://www.globalsecurity.org/military/library/news/2026/07/mil-260716-eda01.htm",
-            "sentiment_score": 0.2517,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB to hold rates now but energy price resurgence points to September hike: Reuters poll",
-            "description": "TSMC Q2 profit soars to record high on AI demand, raised guidance; shares dip\nBy Indradip Ghosh\nBENGALURU, July 16 (Reuters) - The European Central Bank will hold interest rates on July 23 but will hike for the second time this year in September as a renewed …",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-16T11:39:38Z",
-            "url": "https://biztoc.com/x/b0da07497caf7d34",
-            "sentiment_score": 0.4275,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Fed and Bank of Korea assess AI’s impact on inflation dynamics",
-            "description": "AI's dual impact on inflation suggests initial economic strain, followed by stabilization, influencing global monetary policies and growth strategies.\nThe post Fed and Bank of Korea assess AI’s impact on inflation dynamics appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T11:06:08Z",
-            "url": "https://cryptobriefing.com/fed-bank-korea-ai-inflation-dynamics/",
-            "sentiment_score": 0.3539,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Chipmakers weigh on stocks, oil edges higher",
-            "description": "LONDON/SYDNEY, July 16 : European markets edged lower on Thursday following more overnight volatility in Asia’s tech-dominated indexes, while benign U.S. inflation data helped keep the dollar and government bond yields under control, as the U.S.-Israeli war o…",
-            "source": "CNA",
-            "published_at": "2026-07-16T09:38:05Z",
-            "url": "https://www.channelnewsasia.com/business/chipmakers-weigh-stocks-oil-edges-higher-6257386",
-            "sentiment_score": -0.1758,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Euro zone yields rise, gap between German and US borrowing costs smallest in a month",
-            "description": "German and US borrowing costs are nearing their narrowest gap in a month.  Euro zone yields rose due to Gulf fighting, increasing inflation fears.  US Treasury yields remained steady after cooler inflation data emerged.  Markets anticipate further European Ce…",
-            "source": "The Times of India",
-            "published_at": "2026-07-16T08:01:39Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/euro-zone-yields-rise-gap-between-german-and-us-borrowing-costs-smallest-in-a-month/articleshow/132433295.cms",
-            "sentiment_score": -0.1627,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Nordea Bank Abp: Half-year results 2026 and decision on mid-year dividend",
-            "description": "HELSINKI, July 16, 2026 /PRNewswire/ -- Nordea Bank Abp Half year financial report 16 July 2026 at 7.30 EET Summary of the quarter Return on equity 15.9% – earnings per share EUR 0.36. Nordea's return on equity for the quarter was 15.9%, reflecting strong per…",
-            "source": "PRNewswire",
-            "published_at": "2026-07-16T05:45:00Z",
-            "url": "https://www.prnewswire.com/news-releases/nordea-bank-abp-half-year-results-2026-and-decision-on-mid-year-dividend-302827222.html",
-            "sentiment_score": 0.2011,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0557,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0026,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Prices Decline as U.S.-Iran Tensions and Fed Rate Hike Expectations Weigh on Market",
+            "description": "Gold prices fell sharply on June 24, 2026, as renewed hostilities between the United States and Iran combined with growing expectations of a Federal Reserve interest rate hike prompted investors to reassess macroeconomic risks, according to market reports. Sp…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-07-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-07-18-gold-decline-us-iran-tensions-fed-rate-hike.html",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated yields lower after data, on track for weekly decline",
+            "description": "Longer-dated U.S. Treasury yields declined on Friday after recent economic data. Markets largely priced out a Federal Reserve rate hike for this month. Import prices increased unexpectedly, while consumer and producer prices showed moderation. Geopolitical wo…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T05:08:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/longer-dated-yields-lower-after-data-on-track-for-weekly-decline/articleshow/132474217.cms",
+            "sentiment_score": -0.0751,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for biggest weekly drop since early June on inflation, rate-hike worries",
+            "description": "Gold prices saw an increase on Friday, driven by escalating U.S.-Iran tensions. These geopolitical events fueled energy prices and inflation concerns, impacting market sentiment. Higher inflation fears reinforced expectations of potential U.S. interest rate h…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T04:57:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-biggest-weekly-drop-since-early-june-on-inflation-rate-hike-worries/articleshow/132474140.cms",
+            "sentiment_score": -0.3517,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Neil Rimer thinks the AI money is coming back out | TechCrunch",
+            "description": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+            "source": "TechCrunch",
+            "published_at": "2026-07-18T04:47:25Z",
+            "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Don’t Blame the Billionaires, Change the Incentives",
+            "description": "If you read enough commentary you’ll find various versions of the idea that our ruination is the result of powerful private interests driving government decisions that benefit them at our expense.  Simply put, rich guys can buy votes that favor them, and only…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-07-18T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/07/george-f-smith/dont-blame-the-billionaires-change-the-incentives/",
+            "sentiment_score": 0.2386,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Investors take to gold dip as Mideast war rages on",
+            "description": "Gold prices are experiencing their steepest weekly decline in six weeks. This drop has encouraged investors to return to the yellow metal. Consumers are also returning to jewelry stores after recent price reductions. Investors are showing caution towards silv…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T03:54:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/investors-take-to-gold-dip-as-mideast-war-rages-on/articleshow/132473460.cms",
+            "sentiment_score": -0.5437,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Credit Card Points Are a Transfer from the Broke to the Comfortable",
+            "description": "Credit card rewards aren’t free money.",
+            "source": "Substack.com",
+            "published_at": "2026-07-18T00:06:10Z",
+            "url": "https://willisallstead.substack.com/p/your-credit-card-points-are-a-transfer",
+            "sentiment_score": 0.5857,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Why is Gold rate crashing to biggest weekly loss? Check latest projections for August",
+            "description": "Gold price has fallen about 25 per cent since the U.S.-backed war ​with Iran began in late February, pressured by expectations that ​war-driven inflation could keep interest rates higher for longer.",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T00:06:06Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-why-is-gold-rate-crashing-to-biggest-weekly-loss-check-latest-projections-for-august/articleshow/132472158.cms",
+            "sentiment_score": -0.4173,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "That $6,000 Disney Trip Actually Costs $9,000. Here’s the Math Nobody Shows You.",
+            "description": "Nearly half of parents borrow to take their kids to Disney, and when the credit card statement finally clears, the trip they booked is not the trip they actu...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-07-17T22:23:14Z",
+            "url": "https://247wallst.com/personal-finance/2026/07/17/that-6000-disney-trip-actually-costs-9000-heres-the-math-nobody-shows-you/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Goldman sends a fresh warning to the oil market",
+            "description": "Oil is the one price nobody votes for, but everybody pays for. It sits underneath the grocery run, the summer road trip, the box that lands on the porch, and...",
+            "source": "TheStreet",
+            "published_at": "2026-07-17T22:17:00Z",
+            "url": "https://www.thestreet.com/markets/goldman-sends-a-fresh-warning-to-the-oil-market",
+            "sentiment_score": -0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
@@ -296,6 +296,16 @@
             "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
             "sentiment_score": 0.0534,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here’s Where New Graduates Have the Most Confidence About Their First Job Prospects",
+            "description": "New grads face a challenging labor market, but many remain confident about careers in healthcare, education, STEM, and finance.",
+            "source": "Investopedia",
+            "published_at": "2026-07-17T20:35:00Z",
+            "url": "https://www.investopedia.com/here-s-where-new-graduates-have-the-most-confidence-about-their-first-job-prospects-12013050",
+            "sentiment_score": 0.694,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -329,12 +339,32 @@
           },
           {
             "currency": "USD",
+            "title": "Hormuz Escalation Pressures Gold as $4,000 Support Comes Into Focus",
+            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T19:50:32Z",
+            "url": "https://finance.yahoo.com/markets/commodities/articles/hormuz-escalation-pressures-gold-4-195032142.html",
+            "sentiment_score": 0.3034,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US government issues record debt as Treasury market shows signs of stress",
             "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
             "source": "Crypto Briefing",
             "published_at": "2026-07-17T19:41:14Z",
             "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
             "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Little Changed as Crude Prices Soar and T-note Yields Fall",
+            "description": "The dollar index (DXY00 ) finished little changed on Friday. The dollar found some support from Friday’s +4% jump in WTI crude oil prices, which raises infla...",
+            "source": "Barchart.com",
+            "published_at": "2026-07-17T19:36:31Z",
+            "url": "https://www.barchart.com/story/news/3341144/dollar-little-changed-as-crude-prices-soar-and-t-note-yields-fall",
+            "sentiment_score": -0.4477,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -346,6 +376,16 @@
             "url": "https://biztoc.com/x/3ef7defd3ccaae6f",
             "sentiment_score": 0.2453,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mortgage Rates Refuse to Fall Despite a Cool Inflation Report— and One Analyst Says 'The Bond Market Is Saying Something Different Than the Fed'",
+            "description": "Mortgage rates are likely to remain elevated despite a cooler-than-expected June inflation report, according to HousingWire Lead Analyst Logan Mohtashami, wh...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T18:01:17Z",
+            "url": "https://finance.yahoo.com/real-estate/articles/mortgage-rates-refuse-fall-despite-180117743.html",
+            "sentiment_score": -0.3412,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -426,150 +466,10 @@
             "url": "https://biztoc.com/x/22f31160254b71d7",
             "sentiment_score": 0.0083,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kimi K3 launch weighs on Bitcoin and major crypto assets",
-            "description": "Moonshot AI's Kimi K3 model rattled semiconductor stocks, dragging Bitcoin below $64K and crypto lower as fear grips markets ahead of the Fed meeting.\nThe post Kimi K3 launch weighs on Bitcoin and major crypto assets appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T16:07:03Z",
-            "url": "https://cryptobriefing.com/moonshot-ai-kimi-k3-crypto-selloff/",
-            "sentiment_score": 0.0124,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Gasoline Prices Head to $4 Again in Heart of Road Trip Season",
-            "description": "It’s the middle of summer driving season, when Americans typically embark on road trips and burn through millions of barrels of gasoline each day. They’ll be paying more for every fill up.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T16:04:31Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-gasoline-prices-head-to-4-again-in-heart-of-road-trip-season",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed official warns of 'broad-based' inflation as firms urge action",
-            "description": "A top Federal Reserve official said Friday that stubbornly high inflation is her bigger concern right now, warning that firms are urging the US central bank to act against rising prices. \"Persistently high inflation is the bigger concern,\" she said.",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T16:03:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-fed-official-warns-of-broad-based-inflation-as-firms-urge-action/articleshow/132465098.cms",
-            "sentiment_score": -0.2095,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Independent Bank Q2 Earnings Call Highlights",
-            "description": "Independent Bank (NASDAQ:INDB) reported second-quarter 2026 net income of $81.8 million, or $1.70 per diluted share, as executives said stronger deposit mome...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T16:03:25Z",
-            "url": "https://www.marketbeat.com/instant-alerts/independent-bank-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "\"Regulatory Arbitrage Within the Firm\" by Dr. Nicola Cetorelli and Assistant Professor Shohini Kundu is a sobering read. In this Federal Reserve Bank of New York Staff Report the authors explored how banks have been shifting risks to comply with post-2007-200…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T15:52:18Z",
-            "url": "https://biztoc.com/x/9bfd57adb3045d5a",
-            "sentiment_score": -0.1862,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
-            "description": "By Sinéad Carew and Samuel Indyk NEW YORK/LONDON, July 17 (Reuters) - Share indexes tumbled around the world on Friday, as heavyweight chip stocks plunged fo...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:45:45Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-stumble-oil-set-weekly-011728443.html",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Can You Stomach A Real Micron Stock Crash?",
-            "description": "Its history of deep, prolonged drawdowns is the risk every shareholder carries today.",
-            "source": "Trefis",
-            "published_at": "2026-07-17T15:33:06Z",
-            "url": "https://www.trefis.com/articles/607715/can-you-stomach-a-real-micron-stock-crash/2026-07-17",
-            "sentiment_score": -0.3633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar steadies on safe-haven demand but set for weekly decline",
-            "description": "LONDON/NEW YORK, July 17 : The dollar was flat on Friday, on track for a weekly decline as tame U.S. inflation data led traders to cut bets on imminent rate hikes from the Federal Reserve. Iran and the United States exchanged intensifying fire in a week-long …",
-            "source": "CNA",
-            "published_at": "2026-07-17T15:29:38Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-steadies-safe-haven-demand-set-weekly-decline-6259896",
-            "sentiment_score": -0.0984,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bull market remains historically strong despite recent tech stock pain: Chart",
-            "description": "The bull market is still alive.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:26:57Z",
-            "url": "https://finance.yahoo.com/markets/article/bull-market-remains-historically-strong-despite-recent-tech-stock-pain-chart-152657879.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest Winner?",
-            "description": "The US crypto regulatory environment is at a critical juncture. Two Senate committees have approved market-structure frameworks, but a full Senate vote on the crypto...\nThe post Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-07-17T15:23:11Z",
-            "url": "https://bitcoinfoundation.org/news/regulation/senate-crypto-bill-negotiations-reach-critical-stage-will-bitcoin-be-the-biggest-winner/",
-            "sentiment_score": 0.1558,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "Banks are engaging in regulatory capital arbitrage making the banking system look safer than it really is.",
-            "source": "Forbes",
-            "published_at": "2026-07-17T15:15:42Z",
-            "url": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/07/17/musical-chairs-with-bank-capital-is-a-fake-safety-net-for-taxpayers/",
-            "sentiment_score": 0.137,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "F.N.B. Q2 Earnings Call Highlights",
-            "description": "F.N.B. (NYSE:FNB) reported stronger second-quarter 2026 earnings, record revenue and continued balance sheet growth, while management lowered its full-year n...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T15:03:41Z",
-            "url": "https://www.marketbeat.com/instant-alerts/fnb-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1716,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Circle Internet Group shares fall over 75% from IPO highs",
-            "description": "Circle Internet Group stock has dropped over 75% from its $299 peak. Here's what's driving the selloff and what investors should watch next.\nThe post Circle Internet Group shares fall over 75% from IPO highs appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T15:03:35Z",
-            "url": "https://cryptobriefing.com/circle-internet-group-shares-fall-ipo-highs/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar Hedging Costs Sink to Their Lowest Level This Year",
-            "description": "The cost of hedging against swings in the dollar has fallen to its lowest level this year, signaling that traders see little chance of a major catalyst disrupting the world’s reserve currency despite an uncertain Federal Reserve outlook and resurgent conflict…",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:52:55Z",
-            "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
-            "sentiment_score": -0.3759,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0098,
+      "net_score": 0.0734,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -608,9 +508,9 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1026,
-        "label": "บวกเล็กน้อย",
-        "article_count": 20,
+        "average_score": 0.2818,
+        "label": "บวกชัดเจน (Bullish)",
+        "article_count": 8,
         "scored_articles": [
           {
             "currency": "GBP",
@@ -691,134 +591,114 @@
             "url": "https://www.dailymail.com/money/mailplus/article-15983459/payout-Thames-Water-CEO-disaster-Britains-future-ALEX-BRUMMER.html",
             "sentiment_score": -0.2887,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "How Did We Get Stuck?",
-            "description": "Much seems to be moving, but little is fundamentally changing. But can it change, or are we stuck in a particular world system?",
-            "source": "Nakedcapitalism.com",
-            "published_at": "2026-07-16T18:00:34Z",
-            "url": "https://www.nakedcapitalism.com/2026/07/how-did-we-get-stuck.html",
-            "sentiment_score": -0.2834,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "US, UK Seek Common Path for Stablecoins, Tokenization in Transatlantic Markets",
-            "description": "The U.S. Treasury Department and HM Treasury have unveiled a joint blueprint for closer regulatory cooperation on digital assets. It features a series of measures designed to align the two countries’ approaches to stablecoins, tokenization and digital financi…",
-            "source": "pymnts.com",
-            "published_at": "2026-07-16T14:52:29Z",
-            "url": "https://www.pymnts.com/cryptocurrency/2026/us-uk-seek-common-path-for-stablecoins-tokenization-in-transatlantic-markets/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England’s Sarah Breeden warns AI infrastructure debt could threaten financial stability",
-            "description": "AI infrastructure debt's unclear repayment path could destabilize financial systems, necessitating urgent regulatory and financial scrutiny.\nThe post Bank of England’s Sarah Breeden warns AI infrastructure debt could threaten financial stability appeared firs…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T13:31:09Z",
-            "url": "https://cryptobriefing.com/boe-breeden-ai-financing-debt-risks/",
-            "sentiment_score": -0.6766,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Policy paper: Meeting minutes - February 2026",
-            "description": "Minutes from Chancellor of the Exchequer Rachel Reeves' meeting with the Governor of the Bank of England discussing the Bank’s latest Financial Stability Report.",
-            "source": "Www.gov.uk",
-            "published_at": "2026-07-16T13:26:08Z",
-            "url": "https://www.gov.uk/government/publications/meeting-minutes-february-2026",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "BOE’s Breeden Says Weak UK Economy Cuts Risk of Sticky Inflation",
-            "description": "Bank of England Deputy Governor Sarah Breeden played down the risk of a spike in inflation spilling into wages and price-setting, indicating she sees little reason to raise interest rates against a weak economic backdrop.",
-            "source": "Financial Post",
-            "published_at": "2026-07-16T08:29:51Z",
-            "url": "https://financialpost.com/pmn/business-pmn/boes-breeden-says-weak-uk-economy-cuts-risk-of-sticky-inflation",
-            "sentiment_score": -0.4838,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Tell HMRC about assets held in trust (IHT418)",
-            "description": "Use this form with form IHT400 if the deceased had a right to benefit from a trust.",
-            "source": "Www.gov.uk",
-            "published_at": "2026-07-16T08:25:59Z",
-            "url": "https://www.gov.uk/guidance/tell-hmrc-about-assets-held-in-trust-iht418",
-            "sentiment_score": 0.6516,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England signals dovish stance as weak economy limits inflation fears, boosting risk asset outlook",
-            "description": "The BoE's dovish stance amid a weak economy may stabilize inflation, potentially enhancing risk asset appeal and influencing digital asset policies.\nThe post Bank of England signals dovish stance as weak economy limits inflation fears, boosting risk asset out…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T08:12:07Z",
-            "url": "https://cryptobriefing.com/boe-breeden-weak-economy-inflation-crypto/",
-            "sentiment_score": -0.4404,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "iFAST Global Bank Expands Worldwide Scan & Pay to China with 1% Cashback",
-            "description": "iFAST Global Bank expands Worldwide Scan & Pay to China through Alipay+ partnership, with 1% cashback on eligible cross-border QR payments....",
-            "source": "GlobeNewswire",
-            "published_at": "2026-07-16T08:00:00Z",
-            "url": "https://www.globenewswire.com/news-release/2026/07/16/3328255/0/en/iFAST-Global-Bank-Expands-Worldwide-Scan-Pay-to-China-with-1-Cashback.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "US Dollar Price Forecast: Retail Sales Could Decide DXY What’s Next for GBP/USD and EUR/USD?",
-            "description": "U.S. retail sales and jobless claims could reshape Fed rate expectations. See the latest outlook for DXY, EUR/USD and GBP/USD.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-16T07:30:19Z",
-            "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-retail-073019273.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK Economy Grows as Services Defy Energy, Political Turmoil",
-            "description": "The UK economy unexpectedly grew in May, suggesting that consumers and businesses were more resilient than feared in the face of political turbulence and higher energy prices.",
-            "source": "Financial Post",
-            "published_at": "2026-07-16T07:03:08Z",
-            "url": "https://financialpost.com/pmn/business-pmn/uk-economy-grows-as-services-defy-energy-political-turmoil",
-            "sentiment_score": -0.1715,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Pound index hits one-year high on reports of Shabana Mahmood as Chancellor",
-            "description": "Mahmood's potential appointment could accelerate UK crypto regulation, impacting institutional investment and shaping post-Brexit financial strategy.\nThe post Pound index hits one-year high on reports of Shabana Mahmood as Chancellor appeared first on Crypto …",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T02:50:56Z",
-            "url": "https://cryptobriefing.com/pound-high-mahmood-chancellor-crypto-impact/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Gold steady as Mideast escalation tempers easing inflation optimism",
-            "description": "Gold prices remained stable as U.S. inflation data showed easing pressures.  However, Middle East conflict escalation drove oil prices higher, reviving energy cost concerns.  U.S. producer prices unexpectedly fell in June, indicating subsiding inflation befor…",
-            "source": "The Times of India",
-            "published_at": "2026-07-16T01:56:52Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-as-mideast-escalation-tempers-easing-inflation-optimism/articleshow/132427678.cms",
-            "sentiment_score": 0.3991,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0557,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0026,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Prices Decline as U.S.-Iran Tensions and Fed Rate Hike Expectations Weigh on Market",
+            "description": "Gold prices fell sharply on June 24, 2026, as renewed hostilities between the United States and Iran combined with growing expectations of a Federal Reserve interest rate hike prompted investors to reassess macroeconomic risks, according to market reports. Sp…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-07-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-07-18-gold-decline-us-iran-tensions-fed-rate-hike.html",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated yields lower after data, on track for weekly decline",
+            "description": "Longer-dated U.S. Treasury yields declined on Friday after recent economic data. Markets largely priced out a Federal Reserve rate hike for this month. Import prices increased unexpectedly, while consumer and producer prices showed moderation. Geopolitical wo…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T05:08:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/longer-dated-yields-lower-after-data-on-track-for-weekly-decline/articleshow/132474217.cms",
+            "sentiment_score": -0.0751,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for biggest weekly drop since early June on inflation, rate-hike worries",
+            "description": "Gold prices saw an increase on Friday, driven by escalating U.S.-Iran tensions. These geopolitical events fueled energy prices and inflation concerns, impacting market sentiment. Higher inflation fears reinforced expectations of potential U.S. interest rate h…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T04:57:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-biggest-weekly-drop-since-early-june-on-inflation-rate-hike-worries/articleshow/132474140.cms",
+            "sentiment_score": -0.3517,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Neil Rimer thinks the AI money is coming back out | TechCrunch",
+            "description": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+            "source": "TechCrunch",
+            "published_at": "2026-07-18T04:47:25Z",
+            "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Don’t Blame the Billionaires, Change the Incentives",
+            "description": "If you read enough commentary you’ll find various versions of the idea that our ruination is the result of powerful private interests driving government decisions that benefit them at our expense.  Simply put, rich guys can buy votes that favor them, and only…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-07-18T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/07/george-f-smith/dont-blame-the-billionaires-change-the-incentives/",
+            "sentiment_score": 0.2386,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Investors take to gold dip as Mideast war rages on",
+            "description": "Gold prices are experiencing their steepest weekly decline in six weeks. This drop has encouraged investors to return to the yellow metal. Consumers are also returning to jewelry stores after recent price reductions. Investors are showing caution towards silv…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T03:54:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/investors-take-to-gold-dip-as-mideast-war-rages-on/articleshow/132473460.cms",
+            "sentiment_score": -0.5437,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Credit Card Points Are a Transfer from the Broke to the Comfortable",
+            "description": "Credit card rewards aren’t free money.",
+            "source": "Substack.com",
+            "published_at": "2026-07-18T00:06:10Z",
+            "url": "https://willisallstead.substack.com/p/your-credit-card-points-are-a-transfer",
+            "sentiment_score": 0.5857,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Why is Gold rate crashing to biggest weekly loss? Check latest projections for August",
+            "description": "Gold price has fallen about 25 per cent since the U.S.-backed war ​with Iran began in late February, pressured by expectations that ​war-driven inflation could keep interest rates higher for longer.",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T00:06:06Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-why-is-gold-rate-crashing-to-biggest-weekly-loss-check-latest-projections-for-august/articleshow/132472158.cms",
+            "sentiment_score": -0.4173,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "That $6,000 Disney Trip Actually Costs $9,000. Here’s the Math Nobody Shows You.",
+            "description": "Nearly half of parents borrow to take their kids to Disney, and when the credit card statement finally clears, the trip they booked is not the trip they actu...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-07-17T22:23:14Z",
+            "url": "https://247wallst.com/personal-finance/2026/07/17/that-6000-disney-trip-actually-costs-9000-heres-the-math-nobody-shows-you/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Goldman sends a fresh warning to the oil market",
+            "description": "Oil is the one price nobody votes for, but everybody pays for. It sits underneath the grocery run, the summer road trip, the box that lands on the porch, and...",
+            "source": "TheStreet",
+            "published_at": "2026-07-17T22:17:00Z",
+            "url": "https://www.thestreet.com/markets/goldman-sends-a-fresh-warning-to-the-oil-market",
+            "sentiment_score": -0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
@@ -848,6 +728,16 @@
             "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
             "sentiment_score": 0.0534,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here’s Where New Graduates Have the Most Confidence About Their First Job Prospects",
+            "description": "New grads face a challenging labor market, but many remain confident about careers in healthcare, education, STEM, and finance.",
+            "source": "Investopedia",
+            "published_at": "2026-07-17T20:35:00Z",
+            "url": "https://www.investopedia.com/here-s-where-new-graduates-have-the-most-confidence-about-their-first-job-prospects-12013050",
+            "sentiment_score": 0.694,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -881,12 +771,32 @@
           },
           {
             "currency": "USD",
+            "title": "Hormuz Escalation Pressures Gold as $4,000 Support Comes Into Focus",
+            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T19:50:32Z",
+            "url": "https://finance.yahoo.com/markets/commodities/articles/hormuz-escalation-pressures-gold-4-195032142.html",
+            "sentiment_score": 0.3034,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US government issues record debt as Treasury market shows signs of stress",
             "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
             "source": "Crypto Briefing",
             "published_at": "2026-07-17T19:41:14Z",
             "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
             "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Little Changed as Crude Prices Soar and T-note Yields Fall",
+            "description": "The dollar index (DXY00 ) finished little changed on Friday. The dollar found some support from Friday’s +4% jump in WTI crude oil prices, which raises infla...",
+            "source": "Barchart.com",
+            "published_at": "2026-07-17T19:36:31Z",
+            "url": "https://www.barchart.com/story/news/3341144/dollar-little-changed-as-crude-prices-soar-and-t-note-yields-fall",
+            "sentiment_score": -0.4477,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -898,6 +808,16 @@
             "url": "https://biztoc.com/x/3ef7defd3ccaae6f",
             "sentiment_score": 0.2453,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mortgage Rates Refuse to Fall Despite a Cool Inflation Report— and One Analyst Says 'The Bond Market Is Saying Something Different Than the Fed'",
+            "description": "Mortgage rates are likely to remain elevated despite a cooler-than-expected June inflation report, according to HousingWire Lead Analyst Logan Mohtashami, wh...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T18:01:17Z",
+            "url": "https://finance.yahoo.com/real-estate/articles/mortgage-rates-refuse-fall-despite-180117743.html",
+            "sentiment_score": -0.3412,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -978,154 +898,14 @@
             "url": "https://biztoc.com/x/22f31160254b71d7",
             "sentiment_score": 0.0083,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kimi K3 launch weighs on Bitcoin and major crypto assets",
-            "description": "Moonshot AI's Kimi K3 model rattled semiconductor stocks, dragging Bitcoin below $64K and crypto lower as fear grips markets ahead of the Fed meeting.\nThe post Kimi K3 launch weighs on Bitcoin and major crypto assets appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T16:07:03Z",
-            "url": "https://cryptobriefing.com/moonshot-ai-kimi-k3-crypto-selloff/",
-            "sentiment_score": 0.0124,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Gasoline Prices Head to $4 Again in Heart of Road Trip Season",
-            "description": "It’s the middle of summer driving season, when Americans typically embark on road trips and burn through millions of barrels of gasoline each day. They’ll be paying more for every fill up.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T16:04:31Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-gasoline-prices-head-to-4-again-in-heart-of-road-trip-season",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed official warns of 'broad-based' inflation as firms urge action",
-            "description": "A top Federal Reserve official said Friday that stubbornly high inflation is her bigger concern right now, warning that firms are urging the US central bank to act against rising prices. \"Persistently high inflation is the bigger concern,\" she said.",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T16:03:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-fed-official-warns-of-broad-based-inflation-as-firms-urge-action/articleshow/132465098.cms",
-            "sentiment_score": -0.2095,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Independent Bank Q2 Earnings Call Highlights",
-            "description": "Independent Bank (NASDAQ:INDB) reported second-quarter 2026 net income of $81.8 million, or $1.70 per diluted share, as executives said stronger deposit mome...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T16:03:25Z",
-            "url": "https://www.marketbeat.com/instant-alerts/independent-bank-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "\"Regulatory Arbitrage Within the Firm\" by Dr. Nicola Cetorelli and Assistant Professor Shohini Kundu is a sobering read. In this Federal Reserve Bank of New York Staff Report the authors explored how banks have been shifting risks to comply with post-2007-200…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T15:52:18Z",
-            "url": "https://biztoc.com/x/9bfd57adb3045d5a",
-            "sentiment_score": -0.1862,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
-            "description": "By Sinéad Carew and Samuel Indyk NEW YORK/LONDON, July 17 (Reuters) - Share indexes tumbled around the world on Friday, as heavyweight chip stocks plunged fo...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:45:45Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-stumble-oil-set-weekly-011728443.html",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Can You Stomach A Real Micron Stock Crash?",
-            "description": "Its history of deep, prolonged drawdowns is the risk every shareholder carries today.",
-            "source": "Trefis",
-            "published_at": "2026-07-17T15:33:06Z",
-            "url": "https://www.trefis.com/articles/607715/can-you-stomach-a-real-micron-stock-crash/2026-07-17",
-            "sentiment_score": -0.3633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar steadies on safe-haven demand but set for weekly decline",
-            "description": "LONDON/NEW YORK, July 17 : The dollar was flat on Friday, on track for a weekly decline as tame U.S. inflation data led traders to cut bets on imminent rate hikes from the Federal Reserve. Iran and the United States exchanged intensifying fire in a week-long …",
-            "source": "CNA",
-            "published_at": "2026-07-17T15:29:38Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-steadies-safe-haven-demand-set-weekly-decline-6259896",
-            "sentiment_score": -0.0984,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bull market remains historically strong despite recent tech stock pain: Chart",
-            "description": "The bull market is still alive.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:26:57Z",
-            "url": "https://finance.yahoo.com/markets/article/bull-market-remains-historically-strong-despite-recent-tech-stock-pain-chart-152657879.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest Winner?",
-            "description": "The US crypto regulatory environment is at a critical juncture. Two Senate committees have approved market-structure frameworks, but a full Senate vote on the crypto...\nThe post Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-07-17T15:23:11Z",
-            "url": "https://bitcoinfoundation.org/news/regulation/senate-crypto-bill-negotiations-reach-critical-stage-will-bitcoin-be-the-biggest-winner/",
-            "sentiment_score": 0.1558,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "Banks are engaging in regulatory capital arbitrage making the banking system look safer than it really is.",
-            "source": "Forbes",
-            "published_at": "2026-07-17T15:15:42Z",
-            "url": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/07/17/musical-chairs-with-bank-capital-is-a-fake-safety-net-for-taxpayers/",
-            "sentiment_score": 0.137,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "F.N.B. Q2 Earnings Call Highlights",
-            "description": "F.N.B. (NYSE:FNB) reported stronger second-quarter 2026 earnings, record revenue and continued balance sheet growth, while management lowered its full-year n...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T15:03:41Z",
-            "url": "https://www.marketbeat.com/instant-alerts/fnb-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1716,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Circle Internet Group shares fall over 75% from IPO highs",
-            "description": "Circle Internet Group stock has dropped over 75% from its $299 peak. Here's what's driving the selloff and what investors should watch next.\nThe post Circle Internet Group shares fall over 75% from IPO highs appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T15:03:35Z",
-            "url": "https://cryptobriefing.com/circle-internet-group-shares-fall-ipo-highs/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar Hedging Costs Sink to Their Lowest Level This Year",
-            "description": "The cost of hedging against swings in the dollar has fallen to its lowest level this year, signaling that traders see little chance of a major catalyst disrupting the world’s reserve currency despite an uncertain Federal Reserve outlook and resurgent conflict…",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:52:55Z",
-            "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
-            "sentiment_score": -0.3759,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0469,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.2792,
+      "bias": "เอียงบวกต่อ GBP (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1160,10 +940,110 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0557,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0026,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Prices Decline as U.S.-Iran Tensions and Fed Rate Hike Expectations Weigh on Market",
+            "description": "Gold prices fell sharply on June 24, 2026, as renewed hostilities between the United States and Iran combined with growing expectations of a Federal Reserve interest rate hike prompted investors to reassess macroeconomic risks, according to market reports. Sp…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-07-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-07-18-gold-decline-us-iran-tensions-fed-rate-hike.html",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated yields lower after data, on track for weekly decline",
+            "description": "Longer-dated U.S. Treasury yields declined on Friday after recent economic data. Markets largely priced out a Federal Reserve rate hike for this month. Import prices increased unexpectedly, while consumer and producer prices showed moderation. Geopolitical wo…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T05:08:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/longer-dated-yields-lower-after-data-on-track-for-weekly-decline/articleshow/132474217.cms",
+            "sentiment_score": -0.0751,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for biggest weekly drop since early June on inflation, rate-hike worries",
+            "description": "Gold prices saw an increase on Friday, driven by escalating U.S.-Iran tensions. These geopolitical events fueled energy prices and inflation concerns, impacting market sentiment. Higher inflation fears reinforced expectations of potential U.S. interest rate h…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T04:57:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-biggest-weekly-drop-since-early-june-on-inflation-rate-hike-worries/articleshow/132474140.cms",
+            "sentiment_score": -0.3517,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Neil Rimer thinks the AI money is coming back out | TechCrunch",
+            "description": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+            "source": "TechCrunch",
+            "published_at": "2026-07-18T04:47:25Z",
+            "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Don’t Blame the Billionaires, Change the Incentives",
+            "description": "If you read enough commentary you’ll find various versions of the idea that our ruination is the result of powerful private interests driving government decisions that benefit them at our expense.  Simply put, rich guys can buy votes that favor them, and only…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-07-18T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/07/george-f-smith/dont-blame-the-billionaires-change-the-incentives/",
+            "sentiment_score": 0.2386,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Investors take to gold dip as Mideast war rages on",
+            "description": "Gold prices are experiencing their steepest weekly decline in six weeks. This drop has encouraged investors to return to the yellow metal. Consumers are also returning to jewelry stores after recent price reductions. Investors are showing caution towards silv…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T03:54:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/investors-take-to-gold-dip-as-mideast-war-rages-on/articleshow/132473460.cms",
+            "sentiment_score": -0.5437,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Credit Card Points Are a Transfer from the Broke to the Comfortable",
+            "description": "Credit card rewards aren’t free money.",
+            "source": "Substack.com",
+            "published_at": "2026-07-18T00:06:10Z",
+            "url": "https://willisallstead.substack.com/p/your-credit-card-points-are-a-transfer",
+            "sentiment_score": 0.5857,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Why is Gold rate crashing to biggest weekly loss? Check latest projections for August",
+            "description": "Gold price has fallen about 25 per cent since the U.S.-backed war ​with Iran began in late February, pressured by expectations that ​war-driven inflation could keep interest rates higher for longer.",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T00:06:06Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-why-is-gold-rate-crashing-to-biggest-weekly-loss-check-latest-projections-for-august/articleshow/132472158.cms",
+            "sentiment_score": -0.4173,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "That $6,000 Disney Trip Actually Costs $9,000. Here’s the Math Nobody Shows You.",
+            "description": "Nearly half of parents borrow to take their kids to Disney, and when the credit card statement finally clears, the trip they booked is not the trip they actu...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-07-17T22:23:14Z",
+            "url": "https://247wallst.com/personal-finance/2026/07/17/that-6000-disney-trip-actually-costs-9000-heres-the-math-nobody-shows-you/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Goldman sends a fresh warning to the oil market",
+            "description": "Oil is the one price nobody votes for, but everybody pays for. It sits underneath the grocery run, the summer road trip, the box that lands on the porch, and...",
+            "source": "TheStreet",
+            "published_at": "2026-07-17T22:17:00Z",
+            "url": "https://www.thestreet.com/markets/goldman-sends-a-fresh-warning-to-the-oil-market",
+            "sentiment_score": -0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
@@ -1193,6 +1073,16 @@
             "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
             "sentiment_score": 0.0534,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here’s Where New Graduates Have the Most Confidence About Their First Job Prospects",
+            "description": "New grads face a challenging labor market, but many remain confident about careers in healthcare, education, STEM, and finance.",
+            "source": "Investopedia",
+            "published_at": "2026-07-17T20:35:00Z",
+            "url": "https://www.investopedia.com/here-s-where-new-graduates-have-the-most-confidence-about-their-first-job-prospects-12013050",
+            "sentiment_score": 0.694,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -1226,12 +1116,32 @@
           },
           {
             "currency": "USD",
+            "title": "Hormuz Escalation Pressures Gold as $4,000 Support Comes Into Focus",
+            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T19:50:32Z",
+            "url": "https://finance.yahoo.com/markets/commodities/articles/hormuz-escalation-pressures-gold-4-195032142.html",
+            "sentiment_score": 0.3034,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US government issues record debt as Treasury market shows signs of stress",
             "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
             "source": "Crypto Briefing",
             "published_at": "2026-07-17T19:41:14Z",
             "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
             "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Little Changed as Crude Prices Soar and T-note Yields Fall",
+            "description": "The dollar index (DXY00 ) finished little changed on Friday. The dollar found some support from Friday’s +4% jump in WTI crude oil prices, which raises infla...",
+            "source": "Barchart.com",
+            "published_at": "2026-07-17T19:36:31Z",
+            "url": "https://www.barchart.com/story/news/3341144/dollar-little-changed-as-crude-prices-soar-and-t-note-yields-fall",
+            "sentiment_score": -0.4477,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -1243,6 +1153,16 @@
             "url": "https://biztoc.com/x/3ef7defd3ccaae6f",
             "sentiment_score": 0.2453,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mortgage Rates Refuse to Fall Despite a Cool Inflation Report— and One Analyst Says 'The Bond Market Is Saying Something Different Than the Fed'",
+            "description": "Mortgage rates are likely to remain elevated despite a cooler-than-expected June inflation report, according to HousingWire Lead Analyst Logan Mohtashami, wh...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T18:01:17Z",
+            "url": "https://finance.yahoo.com/real-estate/articles/mortgage-rates-refuse-fall-despite-180117743.html",
+            "sentiment_score": -0.3412,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -1323,153 +1243,13 @@
             "url": "https://biztoc.com/x/22f31160254b71d7",
             "sentiment_score": 0.0083,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kimi K3 launch weighs on Bitcoin and major crypto assets",
-            "description": "Moonshot AI's Kimi K3 model rattled semiconductor stocks, dragging Bitcoin below $64K and crypto lower as fear grips markets ahead of the Fed meeting.\nThe post Kimi K3 launch weighs on Bitcoin and major crypto assets appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T16:07:03Z",
-            "url": "https://cryptobriefing.com/moonshot-ai-kimi-k3-crypto-selloff/",
-            "sentiment_score": 0.0124,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Gasoline Prices Head to $4 Again in Heart of Road Trip Season",
-            "description": "It’s the middle of summer driving season, when Americans typically embark on road trips and burn through millions of barrels of gasoline each day. They’ll be paying more for every fill up.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T16:04:31Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-gasoline-prices-head-to-4-again-in-heart-of-road-trip-season",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed official warns of 'broad-based' inflation as firms urge action",
-            "description": "A top Federal Reserve official said Friday that stubbornly high inflation is her bigger concern right now, warning that firms are urging the US central bank to act against rising prices. \"Persistently high inflation is the bigger concern,\" she said.",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T16:03:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-fed-official-warns-of-broad-based-inflation-as-firms-urge-action/articleshow/132465098.cms",
-            "sentiment_score": -0.2095,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Independent Bank Q2 Earnings Call Highlights",
-            "description": "Independent Bank (NASDAQ:INDB) reported second-quarter 2026 net income of $81.8 million, or $1.70 per diluted share, as executives said stronger deposit mome...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T16:03:25Z",
-            "url": "https://www.marketbeat.com/instant-alerts/independent-bank-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "\"Regulatory Arbitrage Within the Firm\" by Dr. Nicola Cetorelli and Assistant Professor Shohini Kundu is a sobering read. In this Federal Reserve Bank of New York Staff Report the authors explored how banks have been shifting risks to comply with post-2007-200…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T15:52:18Z",
-            "url": "https://biztoc.com/x/9bfd57adb3045d5a",
-            "sentiment_score": -0.1862,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
-            "description": "By Sinéad Carew and Samuel Indyk NEW YORK/LONDON, July 17 (Reuters) - Share indexes tumbled around the world on Friday, as heavyweight chip stocks plunged fo...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:45:45Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-stumble-oil-set-weekly-011728443.html",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Can You Stomach A Real Micron Stock Crash?",
-            "description": "Its history of deep, prolonged drawdowns is the risk every shareholder carries today.",
-            "source": "Trefis",
-            "published_at": "2026-07-17T15:33:06Z",
-            "url": "https://www.trefis.com/articles/607715/can-you-stomach-a-real-micron-stock-crash/2026-07-17",
-            "sentiment_score": -0.3633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar steadies on safe-haven demand but set for weekly decline",
-            "description": "LONDON/NEW YORK, July 17 : The dollar was flat on Friday, on track for a weekly decline as tame U.S. inflation data led traders to cut bets on imminent rate hikes from the Federal Reserve. Iran and the United States exchanged intensifying fire in a week-long …",
-            "source": "CNA",
-            "published_at": "2026-07-17T15:29:38Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-steadies-safe-haven-demand-set-weekly-decline-6259896",
-            "sentiment_score": -0.0984,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bull market remains historically strong despite recent tech stock pain: Chart",
-            "description": "The bull market is still alive.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:26:57Z",
-            "url": "https://finance.yahoo.com/markets/article/bull-market-remains-historically-strong-despite-recent-tech-stock-pain-chart-152657879.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest Winner?",
-            "description": "The US crypto regulatory environment is at a critical juncture. Two Senate committees have approved market-structure frameworks, but a full Senate vote on the crypto...\nThe post Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-07-17T15:23:11Z",
-            "url": "https://bitcoinfoundation.org/news/regulation/senate-crypto-bill-negotiations-reach-critical-stage-will-bitcoin-be-the-biggest-winner/",
-            "sentiment_score": 0.1558,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "Banks are engaging in regulatory capital arbitrage making the banking system look safer than it really is.",
-            "source": "Forbes",
-            "published_at": "2026-07-17T15:15:42Z",
-            "url": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/07/17/musical-chairs-with-bank-capital-is-a-fake-safety-net-for-taxpayers/",
-            "sentiment_score": 0.137,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "F.N.B. Q2 Earnings Call Highlights",
-            "description": "F.N.B. (NYSE:FNB) reported stronger second-quarter 2026 earnings, record revenue and continued balance sheet growth, while management lowered its full-year n...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T15:03:41Z",
-            "url": "https://www.marketbeat.com/instant-alerts/fnb-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1716,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Circle Internet Group shares fall over 75% from IPO highs",
-            "description": "Circle Internet Group stock has dropped over 75% from its $299 peak. Here's what's driving the selloff and what investors should watch next.\nThe post Circle Internet Group shares fall over 75% from IPO highs appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T15:03:35Z",
-            "url": "https://cryptobriefing.com/circle-internet-group-shares-fall-ipo-highs/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar Hedging Costs Sink to Their Lowest Level This Year",
-            "description": "The cost of hedging against swings in the dollar has fallen to its lowest level this year, signaling that traders see little chance of a major catalyst disrupting the world’s reserve currency despite an uncertain Federal Reserve outlook and resurgent conflict…",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:52:55Z",
-            "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
-            "sentiment_score": -0.3759,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1035,
-        "label": "บวกเล็กน้อย",
-        "article_count": 28,
+        "average_score": 0.0165,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 14,
         "scored_articles": [
           {
             "currency": "JPY",
@@ -1480,6 +1260,16 @@
             "url": "https://newsonjapan.com/article/150014.php",
             "sentiment_score": -0.0888,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Dollar Little Changed as Crude Prices Soar and T-note Yields Fall",
+            "description": "The dollar index (DXY00 ) finished little changed on Friday. The dollar found some support from Friday’s +4% jump in WTI crude oil prices, which raises infla...",
+            "source": "Barchart.com",
+            "published_at": "2026-07-17T19:36:31Z",
+            "url": "https://www.barchart.com/story/news/3341144/dollar-little-changed-as-crude-prices-soar-and-t-note-yields-fall",
+            "sentiment_score": -0.4477,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "JPY",
@@ -1600,160 +1390,10 @@
             "url": "https://cryptobriefing.com/fed-jefferson-inflation-policy-warning/",
             "sentiment_score": 0.1661,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Dollar Boosted by US Economic Strength and Hawkish Fed Comments",
-            "description": "The dollar index (DXY00 ) rose by +0.27% on Thursday. The dollar rallied on Thursday as better-than-expected US economic reports signaled economic strength a...",
-            "source": "Barchart.com",
-            "published_at": "2026-07-16T19:35:38Z",
-            "url": "https://www.barchart.com/story/news/3324388/dollar-boosted-by-us-economic-strength-and-hawkish-fed-comments",
-            "sentiment_score": 0.6317,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s balance-sheet reduction strategy echoes Kevin Warsh’s playbook for tighter money",
-            "description": "Japan's balance-sheet reduction may tighten global liquidity, impacting carry trades and risk assets, potentially leading to market volatility.\nThe post Japan’s balance-sheet reduction strategy echoes Kevin Warsh’s playbook for tighter money appeared first on…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T12:45:26Z",
-            "url": "https://cryptobriefing.com/japan-boj-balance-sheet-reduction-warsh-crypto/",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Sensex today | Stock Market Highlights: Sensex, Nifty end flat as IT gains offset financials drop",
-            "description": "Sensex Today, Nifty 50 | Stock Market Highlights - Find here all the highlights related to Sensex, Nifty, BSE, NSE, share prices and Indian stock markets for 16th July 2026.",
-            "source": "BusinessLine",
-            "published_at": "2026-07-16T10:27:32Z",
-            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-16-july-2026/article71225304.ece",
-            "sentiment_score": 0.5507,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Takaichi Enters Final Diet Showdown As BOJ Pressure Builds",
-            "description": "Prime Minister Sanae Takaichi entered the final stretch of the Diet session on July 16 facing a concentrated test of her leadership, with Imperial House legislation moving through upper house deliberations, opposition parties preparing for intensive questioni…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-07-16T07:40:56Z",
-            "url": "https://newsonjapan.com/article/149994.php",
-            "sentiment_score": -0.0866,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Nikkei Drops as Korea Rate Hike Revives AI Selloff",
-            "description": "Tokyo stocks fell sharply on July 16 as renewed selling in South Korean semiconductor shares spread to Japan’s AI and chip-related names, while household inflation expectations hit a record high and kept pressure on the Bank of Japan to maintain a tightening …",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-07-16T07:36:39Z",
-            "url": "https://newsonjapan.com/article/149992.php",
-            "sentiment_score": 0.2673,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global Market: Japanese bond yields climb as oil surge and fiscal concerns weigh on market",
-            "description": "Japanese government bond yields climbed on Thursday due to rising oil prices. Higher energy costs fueled inflation expectations and investor worries about Japan's fiscal health. A Bank of Japan survey indicated widespread expectations of future price increase…",
-            "source": "The Times of India",
-            "published_at": "2026-07-16T06:57:52Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japanese-bond-yields-climb-as-oil-surge-and-fiscal-concerns-weigh-on-market/articleshow/132431940.cms",
-            "sentiment_score": -0.0534,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan household inflation expectations rise, build case for BOJ rate hikes",
-            "description": "By Leika Kihara\nTOKYO, July 16 (Reuters) - Japanese households' inflation expectations crept up and the ratio of those expecting prices to rise a year from now hit a record high, a quarterly central bank survey showed on Thursday, bolstering the case for furt…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-16T06:51:12Z",
-            "url": "https://biztoc.com/x/ac95542da9991e93",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan household inflation expectations rise, build case for BOJ rate hikes",
-            "description": "TOKYO, July 16 : Japanese households' inflation expectations crept up and the ratio of those expecting prices to rise a year from now hit a record high, a quarterly central bank survey showed on Thursday, bolstering the case for further interest rate hikes.Th…",
-            "source": "CNA",
-            "published_at": "2026-07-16T04:57:56Z",
-            "url": "https://www.channelnewsasia.com/business/japan-household-inflation-expectations-rise-build-case-boj-rate-hikes-6257696",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "More Japanese households see prices rising, BOJ survey shows",
-            "description": "TOKYO, July 16 : Over 90 per cent of Japanese households expect prices to rise a year from now, a central bank survey showed on Thursday, higher than three months ago in a sign of broadening inflationary pressure that could heighten the case for further inter…",
-            "source": "CNA",
-            "published_at": "2026-07-16T04:57:56Z",
-            "url": "https://www.channelnewsasia.com/business/more-japanese-households-see-prices-rising-boj-survey-shows-6257696",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ may face pressure to ramp up bond-buying if yields spike, ex-central bank policymaker says",
-            "description": "Stocks end higher as PPI data, Mag 7 gains offset slide in chips, Iran tensions\nBy Leika Kihara\nTOKYO, July 16 (Reuters) - The Bank of Japan may face political pressure to ramp up bond buying if the benchmark 10-year yield breaks above the key 3% threshold an…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-16T02:31:30Z",
-            "url": "https://biztoc.com/x/f47708cc10ac76a4",
-            "sentiment_score": -0.3156,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "South Korean shares slump 7% on renewed selling in chipmakers, c.bank hikes rates",
-            "description": "South Korean shares experienced a significant decline on Thursday, driven by chipmaker stock sell-offs. The Bank of Korea raised its benchmark interest rate for the first time in over three years. This move aimed to stabilize the nation's weakening currency a…",
-            "source": "The Times of India",
-            "published_at": "2026-07-16T02:30:48Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-slump-7-on-renewed-selling-in-chipmakers-c-bank-hikes-rates/articleshow/132427998.cms",
-            "sentiment_score": 0.3788,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOK hikes rates for first time in 3-1/2 years, signals more",
-            "description": "South Korea's central bank has increased its benchmark interest rate for the first time in three years.  This move aims to stabilize the currency and counter rising inflationary pressures.  The bank anticipates further tightening of monetary policy in the com…",
-            "source": "The Times of India",
-            "published_at": "2026-07-16T02:28:35Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bok-hikes-rates-for-first-time-in-3-1/2-years-signals-more/articleshow/132427964.cms",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s finance minister wants more hands on the JGB wheel",
-            "description": "Japan's push for a diversified JGB investor base could stabilize its bond market, reduce repatriation risks, and enhance economic resilience.\nThe post Japan’s finance minister wants more hands on the JGB wheel appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T02:20:47Z",
-            "url": "https://cryptobriefing.com/japan-finance-minister-katayama-jgb-ownership-diversify/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ may face pressure to ramp up bond-buying if yields spike, ex-central bank policymaker says",
-            "description": "By Leika Kihara\nTOKYO, July 16 (Reuters) - The Bank of Japan may face political pressure to ramp up bond buying if the benchmark 10-year yield breaks above the key 3% threshold and puts Premier Sanae Takaichi's fiscal policy on the line, former central bank p…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-16T02:18:18Z",
-            "url": "https://biztoc.com/x/60a69134fcec3d48",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ may face pressure to ramp up bond-buying if yields spike, ex-central bank policymaker says",
-            "description": "TOKYO, July 16 : The Bank of Japan may face political pressure to ramp up bond buying if the benchmark 10-year yield breaks above the key 3 per cent threshold and puts Premier Sanae Takaichi's fiscal policy on the line, former central bank policymaker Seiji A…",
-            "source": "CNA",
-            "published_at": "2026-07-16T01:56:00Z",
-            "url": "https://www.channelnewsasia.com/business/boj-may-face-pressure-ramp-up-bond-buying-if-yields-spike-ex-central-bank-policymaker-says-6257356",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0478,
+      "net_score": -0.0139,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1792,37 +1432,116 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1069,
-        "label": "บวกเล็กน้อย",
-        "article_count": 2,
+        "average_score": 0.0,
+        "label": "ไม่มีข่าว",
+        "article_count": 0,
+        "scored_articles": []
+      },
+      "quote_sentiment": {
+        "average_score": 0.0026,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 30,
         "scored_articles": [
           {
-            "currency": "AUD",
-            "title": "Private credit markets: Should we be worried? – Stock Takes",
-            "description": "Global regulators warn that rapid private credit growth could test financial stability.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-07-16T20:00:00Z",
-            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/private-credit-markets-should-we-be-worried-stock-takes-july-16-stakes/premium/H2QVCQZM2BDR7AC7HBCOO4P324/",
-            "sentiment_score": 0.2477,
+            "currency": "USD",
+            "title": "Gold Prices Decline as U.S.-Iran Tensions and Fed Rate Hike Expectations Weigh on Market",
+            "description": "Gold prices fell sharply on June 24, 2026, as renewed hostilities between the United States and Iran combined with growing expectations of a Federal Reserve interest rate hike prompted investors to reassess macroeconomic risks, according to market reports. Sp…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-07-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-07-18-gold-decline-us-iran-tensions-fed-rate-hike.html",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated yields lower after data, on track for weekly decline",
+            "description": "Longer-dated U.S. Treasury yields declined on Friday after recent economic data. Markets largely priced out a Federal Reserve rate hike for this month. Import prices increased unexpectedly, while consumer and producer prices showed moderation. Geopolitical wo…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T05:08:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/longer-dated-yields-lower-after-data-on-track-for-weekly-decline/articleshow/132474217.cms",
+            "sentiment_score": -0.0751,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for biggest weekly drop since early June on inflation, rate-hike worries",
+            "description": "Gold prices saw an increase on Friday, driven by escalating U.S.-Iran tensions. These geopolitical events fueled energy prices and inflation concerns, impacting market sentiment. Higher inflation fears reinforced expectations of potential U.S. interest rate h…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T04:57:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-biggest-weekly-drop-since-early-june-on-inflation-rate-hike-worries/articleshow/132474140.cms",
+            "sentiment_score": -0.3517,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Neil Rimer thinks the AI money is coming back out | TechCrunch",
+            "description": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+            "source": "TechCrunch",
+            "published_at": "2026-07-18T04:47:25Z",
+            "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+            "sentiment_score": 0.1482,
             "sentiment_label": "บวกเล็กน้อย"
           },
           {
-            "currency": "AUD",
-            "title": "Australia's ASX 200 Slips 0.15% to 8,828 as Mining Losses Offset Gains in Banks and Communication Stocks Today",
-            "description": "The ASX 200 fell 0.15% as mining stocks offset gains in banking and communication services, despite a Wall Street rally. Global uncertainties, including Middle East tensions and China's GDP, influenced trading.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-07-16T05:05:57Z",
-            "url": "https://www.ibtimes.com.au/asx-200-dips-mining-stocks-global-uncertainty-1872392",
-            "sentiment_score": -0.1746,
-            "sentiment_label": "ลบเล็กน้อย"
-          }
-        ]
-      },
-      "quote_sentiment": {
-        "average_score": 0.0557,
-        "label": "บวกเล็กน้อย",
-        "article_count": 30,
-        "scored_articles": [
+            "currency": "USD",
+            "title": "Don’t Blame the Billionaires, Change the Incentives",
+            "description": "If you read enough commentary you’ll find various versions of the idea that our ruination is the result of powerful private interests driving government decisions that benefit them at our expense.  Simply put, rich guys can buy votes that favor them, and only…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-07-18T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/07/george-f-smith/dont-blame-the-billionaires-change-the-incentives/",
+            "sentiment_score": 0.2386,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Investors take to gold dip as Mideast war rages on",
+            "description": "Gold prices are experiencing their steepest weekly decline in six weeks. This drop has encouraged investors to return to the yellow metal. Consumers are also returning to jewelry stores after recent price reductions. Investors are showing caution towards silv…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T03:54:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/investors-take-to-gold-dip-as-mideast-war-rages-on/articleshow/132473460.cms",
+            "sentiment_score": -0.5437,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Credit Card Points Are a Transfer from the Broke to the Comfortable",
+            "description": "Credit card rewards aren’t free money.",
+            "source": "Substack.com",
+            "published_at": "2026-07-18T00:06:10Z",
+            "url": "https://willisallstead.substack.com/p/your-credit-card-points-are-a-transfer",
+            "sentiment_score": 0.5857,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Why is Gold rate crashing to biggest weekly loss? Check latest projections for August",
+            "description": "Gold price has fallen about 25 per cent since the U.S.-backed war ​with Iran began in late February, pressured by expectations that ​war-driven inflation could keep interest rates higher for longer.",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T00:06:06Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-why-is-gold-rate-crashing-to-biggest-weekly-loss-check-latest-projections-for-august/articleshow/132472158.cms",
+            "sentiment_score": -0.4173,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "That $6,000 Disney Trip Actually Costs $9,000. Here’s the Math Nobody Shows You.",
+            "description": "Nearly half of parents borrow to take their kids to Disney, and when the credit card statement finally clears, the trip they booked is not the trip they actu...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-07-17T22:23:14Z",
+            "url": "https://247wallst.com/personal-finance/2026/07/17/that-6000-disney-trip-actually-costs-9000-heres-the-math-nobody-shows-you/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Goldman sends a fresh warning to the oil market",
+            "description": "Oil is the one price nobody votes for, but everybody pays for. It sits underneath the grocery run, the summer road trip, the box that lands on the porch, and...",
+            "source": "TheStreet",
+            "published_at": "2026-07-17T22:17:00Z",
+            "url": "https://www.thestreet.com/markets/goldman-sends-a-fresh-warning-to-the-oil-market",
+            "sentiment_score": -0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
@@ -1852,6 +1571,16 @@
             "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
             "sentiment_score": 0.0534,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here’s Where New Graduates Have the Most Confidence About Their First Job Prospects",
+            "description": "New grads face a challenging labor market, but many remain confident about careers in healthcare, education, STEM, and finance.",
+            "source": "Investopedia",
+            "published_at": "2026-07-17T20:35:00Z",
+            "url": "https://www.investopedia.com/here-s-where-new-graduates-have-the-most-confidence-about-their-first-job-prospects-12013050",
+            "sentiment_score": 0.694,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -1885,12 +1614,32 @@
           },
           {
             "currency": "USD",
+            "title": "Hormuz Escalation Pressures Gold as $4,000 Support Comes Into Focus",
+            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T19:50:32Z",
+            "url": "https://finance.yahoo.com/markets/commodities/articles/hormuz-escalation-pressures-gold-4-195032142.html",
+            "sentiment_score": 0.3034,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US government issues record debt as Treasury market shows signs of stress",
             "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
             "source": "Crypto Briefing",
             "published_at": "2026-07-17T19:41:14Z",
             "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
             "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Little Changed as Crude Prices Soar and T-note Yields Fall",
+            "description": "The dollar index (DXY00 ) finished little changed on Friday. The dollar found some support from Friday’s +4% jump in WTI crude oil prices, which raises infla...",
+            "source": "Barchart.com",
+            "published_at": "2026-07-17T19:36:31Z",
+            "url": "https://www.barchart.com/story/news/3341144/dollar-little-changed-as-crude-prices-soar-and-t-note-yields-fall",
+            "sentiment_score": -0.4477,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -1902,6 +1651,16 @@
             "url": "https://biztoc.com/x/3ef7defd3ccaae6f",
             "sentiment_score": 0.2453,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mortgage Rates Refuse to Fall Despite a Cool Inflation Report— and One Analyst Says 'The Bond Market Is Saying Something Different Than the Fed'",
+            "description": "Mortgage rates are likely to remain elevated despite a cooler-than-expected June inflation report, according to HousingWire Lead Analyst Logan Mohtashami, wh...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T18:01:17Z",
+            "url": "https://finance.yahoo.com/real-estate/articles/mortgage-rates-refuse-fall-despite-180117743.html",
+            "sentiment_score": -0.3412,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -1982,150 +1741,10 @@
             "url": "https://biztoc.com/x/22f31160254b71d7",
             "sentiment_score": 0.0083,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kimi K3 launch weighs on Bitcoin and major crypto assets",
-            "description": "Moonshot AI's Kimi K3 model rattled semiconductor stocks, dragging Bitcoin below $64K and crypto lower as fear grips markets ahead of the Fed meeting.\nThe post Kimi K3 launch weighs on Bitcoin and major crypto assets appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T16:07:03Z",
-            "url": "https://cryptobriefing.com/moonshot-ai-kimi-k3-crypto-selloff/",
-            "sentiment_score": 0.0124,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Gasoline Prices Head to $4 Again in Heart of Road Trip Season",
-            "description": "It’s the middle of summer driving season, when Americans typically embark on road trips and burn through millions of barrels of gasoline each day. They’ll be paying more for every fill up.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T16:04:31Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-gasoline-prices-head-to-4-again-in-heart-of-road-trip-season",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed official warns of 'broad-based' inflation as firms urge action",
-            "description": "A top Federal Reserve official said Friday that stubbornly high inflation is her bigger concern right now, warning that firms are urging the US central bank to act against rising prices. \"Persistently high inflation is the bigger concern,\" she said.",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T16:03:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-fed-official-warns-of-broad-based-inflation-as-firms-urge-action/articleshow/132465098.cms",
-            "sentiment_score": -0.2095,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Independent Bank Q2 Earnings Call Highlights",
-            "description": "Independent Bank (NASDAQ:INDB) reported second-quarter 2026 net income of $81.8 million, or $1.70 per diluted share, as executives said stronger deposit mome...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T16:03:25Z",
-            "url": "https://www.marketbeat.com/instant-alerts/independent-bank-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "\"Regulatory Arbitrage Within the Firm\" by Dr. Nicola Cetorelli and Assistant Professor Shohini Kundu is a sobering read. In this Federal Reserve Bank of New York Staff Report the authors explored how banks have been shifting risks to comply with post-2007-200…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T15:52:18Z",
-            "url": "https://biztoc.com/x/9bfd57adb3045d5a",
-            "sentiment_score": -0.1862,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
-            "description": "By Sinéad Carew and Samuel Indyk NEW YORK/LONDON, July 17 (Reuters) - Share indexes tumbled around the world on Friday, as heavyweight chip stocks plunged fo...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:45:45Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-stumble-oil-set-weekly-011728443.html",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Can You Stomach A Real Micron Stock Crash?",
-            "description": "Its history of deep, prolonged drawdowns is the risk every shareholder carries today.",
-            "source": "Trefis",
-            "published_at": "2026-07-17T15:33:06Z",
-            "url": "https://www.trefis.com/articles/607715/can-you-stomach-a-real-micron-stock-crash/2026-07-17",
-            "sentiment_score": -0.3633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar steadies on safe-haven demand but set for weekly decline",
-            "description": "LONDON/NEW YORK, July 17 : The dollar was flat on Friday, on track for a weekly decline as tame U.S. inflation data led traders to cut bets on imminent rate hikes from the Federal Reserve. Iran and the United States exchanged intensifying fire in a week-long …",
-            "source": "CNA",
-            "published_at": "2026-07-17T15:29:38Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-steadies-safe-haven-demand-set-weekly-decline-6259896",
-            "sentiment_score": -0.0984,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bull market remains historically strong despite recent tech stock pain: Chart",
-            "description": "The bull market is still alive.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:26:57Z",
-            "url": "https://finance.yahoo.com/markets/article/bull-market-remains-historically-strong-despite-recent-tech-stock-pain-chart-152657879.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest Winner?",
-            "description": "The US crypto regulatory environment is at a critical juncture. Two Senate committees have approved market-structure frameworks, but a full Senate vote on the crypto...\nThe post Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-07-17T15:23:11Z",
-            "url": "https://bitcoinfoundation.org/news/regulation/senate-crypto-bill-negotiations-reach-critical-stage-will-bitcoin-be-the-biggest-winner/",
-            "sentiment_score": 0.1558,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "Banks are engaging in regulatory capital arbitrage making the banking system look safer than it really is.",
-            "source": "Forbes",
-            "published_at": "2026-07-17T15:15:42Z",
-            "url": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/07/17/musical-chairs-with-bank-capital-is-a-fake-safety-net-for-taxpayers/",
-            "sentiment_score": 0.137,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "F.N.B. Q2 Earnings Call Highlights",
-            "description": "F.N.B. (NYSE:FNB) reported stronger second-quarter 2026 earnings, record revenue and continued balance sheet growth, while management lowered its full-year n...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T15:03:41Z",
-            "url": "https://www.marketbeat.com/instant-alerts/fnb-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1716,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Circle Internet Group shares fall over 75% from IPO highs",
-            "description": "Circle Internet Group stock has dropped over 75% from its $299 peak. Here's what's driving the selloff and what investors should watch next.\nThe post Circle Internet Group shares fall over 75% from IPO highs appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T15:03:35Z",
-            "url": "https://cryptobriefing.com/circle-internet-group-shares-fall-ipo-highs/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar Hedging Costs Sink to Their Lowest Level This Year",
-            "description": "The cost of hedging against swings in the dollar has fallen to its lowest level this year, signaling that traders see little chance of a major catalyst disrupting the world’s reserve currency despite an uncertain Federal Reserve outlook and resurgent conflict…",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:52:55Z",
-            "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
-            "sentiment_score": -0.3759,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0512,
+      "net_score": -0.0026,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2164,10 +1783,40 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0008,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 23,
+        "average_score": -0.065,
+        "label": "ลบเล็กน้อย",
+        "article_count": 14,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold Prices Decline as U.S.-Iran Tensions and Fed Rate Hike Expectations Weigh on Market",
+            "description": "Gold prices fell sharply on June 24, 2026, as renewed hostilities between the United States and Iran combined with growing expectations of a Federal Reserve interest rate hike prompted investors to reassess macroeconomic risks, according to market reports. Sp…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-07-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-07-18-gold-decline-us-iran-tensions-fed-rate-hike.html",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "22k gold rate today: Check 24k, 22k, 20k, 18k gold prices (July 18, 2026) at Tanishq, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and IBJA",
+            "description": "Gold rate today: Gold prices remained a key focus for consumers on Saturday, July 18, 2026.  The India Bullion and Jewellers Association provided indicative rates for various gold and silver purities.",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T04:22:12Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/22k-gold-rate-today-check-24k-22k-20k-18k-gold-prices-july-18-2026-at-tanishq-malabar-gold-diamonds-joyalukkas-kalyan-jewellers-and-ibja/articleshow/132473694.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction: Why is Gold rate crashing to biggest weekly loss? Check latest projections for August",
+            "description": "Gold price has fallen about 25 per cent since the U.S.-backed war ​with Iran began in late February, pressured by expectations that ​war-driven inflation could keep interest rates higher for longer.",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T00:06:06Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-why-is-gold-rate-crashing-to-biggest-weekly-loss-check-latest-projections-for-august/articleshow/132472158.cms",
+            "sentiment_score": -0.4173,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "XAU",
             "title": "Today’s News in a Nutshell",
@@ -2277,134 +1926,114 @@
             "url": "https://www.marketbeat.com/instant-alerts/royal-gold-conference-spotlights-record-q1-acquisition-fueled-growth-pipeline-2026-07-16/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
             "sentiment_score": 0.3818,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Regis Resources upgrades FY27 production guidance and cost outlook",
-            "description": "Regis Resources lifted FY27 production guidance and adjusted cost forecasts, while increasing growth capital and exploration spending.\nThe post Regis Resources upgrades FY27 production guidance and cost outlook appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-07-16T23:32:34Z",
-            "url": "https://www.fool.com.au/2026/07/17/regis-resources-upgrades-fy27-production-guidance-and-cost-outlook/",
-            "sentiment_score": 0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Oil prices rebound 20% in July amid renewed US-Iran tensions",
-            "description": "Geopolitical tensions heighten market volatility, influencing oil and gold prices, while economic indicators shape future financial landscapes.\nThe post Oil prices rebound 20% in July amid renewed US-Iran tensions appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T22:17:02Z",
-            "url": "https://cryptobriefing.com/oil-prices-rebound-20-in-july-amid-renewed-us-iran-tensions/",
-            "sentiment_score": -0.4792,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Swatch’s New Gold MoonSwatch Solves the Problem of the Nightmare Royal Pop Launch",
-            "description": "Swatch's latest MoonSwatch is the Mission to the Moon 1969, a limited-edition model with components crafted from Omega’s 18K Moonshine Gold. To get one, you'll have to join a lottery.",
-            "source": "Wired",
-            "published_at": "2026-07-16T15:37:09Z",
-            "url": "https://www.wired.com/story/swatch-gold-moonswatch-solves-the-problem-of-the-nightmare-royal-pop-launch/",
-            "sentiment_score": -0.0184,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Retail sales last month rose less than expected - CNN",
-            "description": "Retail sales last month rose less than expectedCNN US Retail Sales Rise Modestly as Consumers Spend Less on GasBloomberg.com Gold price struggling as U.S. retail sales rise 0.2% in JuneKITCO US retail sales rose 0.2% in June, up 6.7% from a year agoqz.com U.S…",
-            "source": "Slashdot.org",
-            "published_at": "2026-07-16T14:32:34Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184479452",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "We Have A Lift Off! Meet The New Swatch MoonSwatch Mission To The Moon 1969",
-            "description": "Swatch did it again! A new Swatch x Omega MoonSwatch was launched at the same time (09:32 AM EDT / 15:32 CEST) as the Saturn V rocket from the Apollo 11 mission in 1969. Swatch has a good feel for historical relevance and released yet another cool MoonSwatch …",
-            "source": "Fratellowatches.com",
-            "published_at": "2026-07-16T13:56:22Z",
-            "url": "https://www.fratellowatches.com/we-have-a-lift-off-meet-the-new-swatch-moonswatch-mission-to-the-moon-1969/",
-            "sentiment_score": 0.2153,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "SPDR Gold Shares ETF sees $14B outflows since March 1 amid cost concerns",
-            "description": "Investor shift to lower-cost ETFs may signal broader market reevaluation of gold's value and expense, impacting future gold demand trends.\nThe post SPDR Gold Shares ETF sees $14B outflows since March 1 amid cost concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T13:49:01Z",
-            "url": "https://cryptobriefing.com/spdr-gold-shares-etf-sees-14b-outflows-since-march-1-amid-cost-concerns/",
-            "sentiment_score": 0.3502,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold falls below $4,000 as Antalpha sells $142M in holdings",
-            "description": "Antalpha's gold sell-off signals a shift in investor confidence in gold as a safe-haven, influenced by potential U.S. interest rate changes.\nThe post Gold falls below $4,000 as Antalpha sells $142M in holdings appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T13:30:07Z",
-            "url": "https://cryptobriefing.com/gold-falls-below-4000-as-antalpha-sells-142m-in-holdings/",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "New Pacific Metals Reports Results of Updated Carangas Preliminary Economic Assessment: Post-tax $2.65 Billion NPV (5%) and 35.9% IRR; 339.0 Million Oz of Silver Equivalent Produced",
-            "description": "VANCOUVER, BC, July 16, 2026 /PRNewswire/ -- New Pacific Metals Corp. (TSX: NUAG) (NYSE-A: NEWP) (\"New Pacific\" or the \"Company\") is pleased to report the results of its updated preliminary economic assessment technical report titled \"Carangas Project NI 43-1…",
-            "source": "PRNewswire",
-            "published_at": "2026-07-16T12:00:00Z",
-            "url": "https://www.prnewswire.com/news-releases/new-pacific-metals-reports-results-of-updated-carangas-preliminary-economic-assessment-post-tax-2-65-billion-npv-5-and-35-9-irr-339-0-million-oz-of-silver-equivalent-produced-302827198.html",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate today (July 16, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Joyalukkas, Kalyan Jewellers, Malabar Gold & Diamonds, Tanishq & IBJA in Delhi, Mumbai, Hyderabad, other cities",
-            "description": "Gold prices remained a key focus for buyers on July 16, 2026. Tanishq offered 22-carat gold jewellery at Rs 13,180 per gram. Other brands like Malabar, Kalyan, and Joyalukkas priced it at Rs 13,135 per gram. These rates reflect a slight decrease from the prev…",
-            "source": "The Times of India",
-            "published_at": "2026-07-16T08:22:39Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rate-today-july-16-2026-check-24k-22k-20k-and-18k-gold-jewellery-prices-from-joyalukkas-kalyan-jewellers-malabar-gold-diamonds-tanishq-ibja-in-delhi-mumbai-hyderabad-other-cities/articleshow/132433560.cms",
-            "sentiment_score": 0.1084,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Will gold prices extend their record-breaking run?",
-            "description": "Predictions suggest the price of the precious metal will keep hitting new record highs as investors seek a safe bet in turbulent times. Some forecasts say prices could double within five years. In recent years, the price of gold has climbed steadily. Aside fr…",
-            "source": "DW (English)",
-            "published_at": "2026-07-16T08:12:00Z",
-            "url": "https://www.dw.com/en/will-gold-prices-extend-their-record-breaking-run/a-77971997",
-            "sentiment_score": 0.354,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price rises by Rs 400 per tola, silver declines",
-            "description": "KATHMANDU: The price of gold increased modestly in the Nepali market on Thursday, while silver registered a decline. According to the Federation of Nepal Gold and Silver Dealers’ Association, the price of fine gold has been fixed at Rs 285,200 per tola, up by…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-07-16T06:15:01Z",
-            "url": "https://english.khabarhub.com/2026/16/558856/",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Fidelity to boost gold holdings, eyes long-term price rise",
-            "description": "Fidelity's gold strategy may influence market sentiment, potentially driving demand amid geopolitical and economic uncertainties.\nThe post Fidelity to boost gold holdings, eyes long-term price rise appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-16T04:51:46Z",
-            "url": "https://cryptobriefing.com/fidelity-to-boost-gold-holdings-eyes-long-term-price-rise/",
-            "sentiment_score": 0.2658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0557,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0026,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Prices Decline as U.S.-Iran Tensions and Fed Rate Hike Expectations Weigh on Market",
+            "description": "Gold prices fell sharply on June 24, 2026, as renewed hostilities between the United States and Iran combined with growing expectations of a Federal Reserve interest rate hike prompted investors to reassess macroeconomic risks, according to market reports. Sp…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-07-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-07-18-gold-decline-us-iran-tensions-fed-rate-hike.html",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated yields lower after data, on track for weekly decline",
+            "description": "Longer-dated U.S. Treasury yields declined on Friday after recent economic data. Markets largely priced out a Federal Reserve rate hike for this month. Import prices increased unexpectedly, while consumer and producer prices showed moderation. Geopolitical wo…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T05:08:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/longer-dated-yields-lower-after-data-on-track-for-weekly-decline/articleshow/132474217.cms",
+            "sentiment_score": -0.0751,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for biggest weekly drop since early June on inflation, rate-hike worries",
+            "description": "Gold prices saw an increase on Friday, driven by escalating U.S.-Iran tensions. These geopolitical events fueled energy prices and inflation concerns, impacting market sentiment. Higher inflation fears reinforced expectations of potential U.S. interest rate h…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T04:57:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-biggest-weekly-drop-since-early-june-on-inflation-rate-hike-worries/articleshow/132474140.cms",
+            "sentiment_score": -0.3517,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Neil Rimer thinks the AI money is coming back out | TechCrunch",
+            "description": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+            "source": "TechCrunch",
+            "published_at": "2026-07-18T04:47:25Z",
+            "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Don’t Blame the Billionaires, Change the Incentives",
+            "description": "If you read enough commentary you’ll find various versions of the idea that our ruination is the result of powerful private interests driving government decisions that benefit them at our expense.  Simply put, rich guys can buy votes that favor them, and only…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-07-18T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/07/george-f-smith/dont-blame-the-billionaires-change-the-incentives/",
+            "sentiment_score": 0.2386,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Investors take to gold dip as Mideast war rages on",
+            "description": "Gold prices are experiencing their steepest weekly decline in six weeks. This drop has encouraged investors to return to the yellow metal. Consumers are also returning to jewelry stores after recent price reductions. Investors are showing caution towards silv…",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T03:54:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/investors-take-to-gold-dip-as-mideast-war-rages-on/articleshow/132473460.cms",
+            "sentiment_score": -0.5437,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Credit Card Points Are a Transfer from the Broke to the Comfortable",
+            "description": "Credit card rewards aren’t free money.",
+            "source": "Substack.com",
+            "published_at": "2026-07-18T00:06:10Z",
+            "url": "https://willisallstead.substack.com/p/your-credit-card-points-are-a-transfer",
+            "sentiment_score": 0.5857,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Why is Gold rate crashing to biggest weekly loss? Check latest projections for August",
+            "description": "Gold price has fallen about 25 per cent since the U.S.-backed war ​with Iran began in late February, pressured by expectations that ​war-driven inflation could keep interest rates higher for longer.",
+            "source": "The Times of India",
+            "published_at": "2026-07-18T00:06:06Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-why-is-gold-rate-crashing-to-biggest-weekly-loss-check-latest-projections-for-august/articleshow/132472158.cms",
+            "sentiment_score": -0.4173,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "That $6,000 Disney Trip Actually Costs $9,000. Here’s the Math Nobody Shows You.",
+            "description": "Nearly half of parents borrow to take their kids to Disney, and when the credit card statement finally clears, the trip they booked is not the trip they actu...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-07-17T22:23:14Z",
+            "url": "https://247wallst.com/personal-finance/2026/07/17/that-6000-disney-trip-actually-costs-9000-heres-the-math-nobody-shows-you/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Goldman sends a fresh warning to the oil market",
+            "description": "Oil is the one price nobody votes for, but everybody pays for. It sits underneath the grocery run, the summer road trip, the box that lands on the porch, and...",
+            "source": "TheStreet",
+            "published_at": "2026-07-17T22:17:00Z",
+            "url": "https://www.thestreet.com/markets/goldman-sends-a-fresh-warning-to-the-oil-market",
+            "sentiment_score": -0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "After the Supreme Court killed his first tariffs, Trump turns to a new legal workaround to impose 25% tariffs on Brazil and possibly others",
@@ -2434,6 +2063,16 @@
             "url": "https://cryptobriefing.com/blackrock-sgov-etf-100-billion/",
             "sentiment_score": 0.0534,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here’s Where New Graduates Have the Most Confidence About Their First Job Prospects",
+            "description": "New grads face a challenging labor market, but many remain confident about careers in healthcare, education, STEM, and finance.",
+            "source": "Investopedia",
+            "published_at": "2026-07-17T20:35:00Z",
+            "url": "https://www.investopedia.com/here-s-where-new-graduates-have-the-most-confidence-about-their-first-job-prospects-12013050",
+            "sentiment_score": 0.694,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -2467,12 +2106,32 @@
           },
           {
             "currency": "USD",
+            "title": "Hormuz Escalation Pressures Gold as $4,000 Support Comes Into Focus",
+            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T19:50:32Z",
+            "url": "https://finance.yahoo.com/markets/commodities/articles/hormuz-escalation-pressures-gold-4-195032142.html",
+            "sentiment_score": 0.3034,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US government issues record debt as Treasury market shows signs of stress",
             "description": "US national debt hits $39 trillion as interest costs near $1 trillion annually. Here's what rising Treasury yields mean for crypto, stablecoins, and\nThe post US government issues record debt as Treasury market shows signs of stress appeared first on Crypto Br…",
             "source": "Crypto Briefing",
             "published_at": "2026-07-17T19:41:14Z",
             "url": "https://cryptobriefing.com/us-record-debt-treasury-market-risks/",
             "sentiment_score": -0.4684,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Little Changed as Crude Prices Soar and T-note Yields Fall",
+            "description": "The dollar index (DXY00 ) finished little changed on Friday. The dollar found some support from Friday’s +4% jump in WTI crude oil prices, which raises infla...",
+            "source": "Barchart.com",
+            "published_at": "2026-07-17T19:36:31Z",
+            "url": "https://www.barchart.com/story/news/3341144/dollar-little-changed-as-crude-prices-soar-and-t-note-yields-fall",
+            "sentiment_score": -0.4477,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -2484,6 +2143,16 @@
             "url": "https://biztoc.com/x/3ef7defd3ccaae6f",
             "sentiment_score": 0.2453,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mortgage Rates Refuse to Fall Despite a Cool Inflation Report— and One Analyst Says 'The Bond Market Is Saying Something Different Than the Fed'",
+            "description": "Mortgage rates are likely to remain elevated despite a cooler-than-expected June inflation report, according to HousingWire Lead Analyst Logan Mohtashami, wh...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-07-17T18:01:17Z",
+            "url": "https://finance.yahoo.com/real-estate/articles/mortgage-rates-refuse-fall-despite-180117743.html",
+            "sentiment_score": -0.3412,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -2564,150 +2233,10 @@
             "url": "https://biztoc.com/x/22f31160254b71d7",
             "sentiment_score": 0.0083,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kimi K3 launch weighs on Bitcoin and major crypto assets",
-            "description": "Moonshot AI's Kimi K3 model rattled semiconductor stocks, dragging Bitcoin below $64K and crypto lower as fear grips markets ahead of the Fed meeting.\nThe post Kimi K3 launch weighs on Bitcoin and major crypto assets appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T16:07:03Z",
-            "url": "https://cryptobriefing.com/moonshot-ai-kimi-k3-crypto-selloff/",
-            "sentiment_score": 0.0124,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Gasoline Prices Head to $4 Again in Heart of Road Trip Season",
-            "description": "It’s the middle of summer driving season, when Americans typically embark on road trips and burn through millions of barrels of gasoline each day. They’ll be paying more for every fill up.",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T16:04:31Z",
-            "url": "https://financialpost.com/pmn/business-pmn/us-gasoline-prices-head-to-4-again-in-heart-of-road-trip-season",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed official warns of 'broad-based' inflation as firms urge action",
-            "description": "A top Federal Reserve official said Friday that stubbornly high inflation is her bigger concern right now, warning that firms are urging the US central bank to act against rising prices. \"Persistently high inflation is the bigger concern,\" she said.",
-            "source": "The Times of India",
-            "published_at": "2026-07-17T16:03:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-fed-official-warns-of-broad-based-inflation-as-firms-urge-action/articleshow/132465098.cms",
-            "sentiment_score": -0.2095,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Independent Bank Q2 Earnings Call Highlights",
-            "description": "Independent Bank (NASDAQ:INDB) reported second-quarter 2026 net income of $81.8 million, or $1.70 per diluted share, as executives said stronger deposit mome...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T16:03:25Z",
-            "url": "https://www.marketbeat.com/instant-alerts/independent-bank-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "\"Regulatory Arbitrage Within the Firm\" by Dr. Nicola Cetorelli and Assistant Professor Shohini Kundu is a sobering read. In this Federal Reserve Bank of New York Staff Report the authors explored how banks have been shifting risks to comply with post-2007-200…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-17T15:52:18Z",
-            "url": "https://biztoc.com/x/9bfd57adb3045d5a",
-            "sentiment_score": -0.1862,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World stocks fall in semiconductor rout; oil rises on Middle East escalation",
-            "description": "By Sinéad Carew and Samuel Indyk NEW YORK/LONDON, July 17 (Reuters) - Share indexes tumbled around the world on Friday, as heavyweight chip stocks plunged fo...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:45:45Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/stocks-stumble-oil-set-weekly-011728443.html",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Can You Stomach A Real Micron Stock Crash?",
-            "description": "Its history of deep, prolonged drawdowns is the risk every shareholder carries today.",
-            "source": "Trefis",
-            "published_at": "2026-07-17T15:33:06Z",
-            "url": "https://www.trefis.com/articles/607715/can-you-stomach-a-real-micron-stock-crash/2026-07-17",
-            "sentiment_score": -0.3633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar steadies on safe-haven demand but set for weekly decline",
-            "description": "LONDON/NEW YORK, July 17 : The dollar was flat on Friday, on track for a weekly decline as tame U.S. inflation data led traders to cut bets on imminent rate hikes from the Federal Reserve. Iran and the United States exchanged intensifying fire in a week-long …",
-            "source": "CNA",
-            "published_at": "2026-07-17T15:29:38Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-steadies-safe-haven-demand-set-weekly-decline-6259896",
-            "sentiment_score": -0.0984,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bull market remains historically strong despite recent tech stock pain: Chart",
-            "description": "The bull market is still alive.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-07-17T15:26:57Z",
-            "url": "https://finance.yahoo.com/markets/article/bull-market-remains-historically-strong-despite-recent-tech-stock-pain-chart-152657879.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest Winner?",
-            "description": "The US crypto regulatory environment is at a critical juncture. Two Senate committees have approved market-structure frameworks, but a full Senate vote on the crypto...\nThe post Senate Crypto Bill Negotiations Reach Critical Stage: Will Bitcoin Be the Biggest…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-07-17T15:23:11Z",
-            "url": "https://bitcoinfoundation.org/news/regulation/senate-crypto-bill-negotiations-reach-critical-stage-will-bitcoin-be-the-biggest-winner/",
-            "sentiment_score": 0.1558,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Musical Chairs With Bank Capital Is A Fake Safety Net For Taxpayers",
-            "description": "Banks are engaging in regulatory capital arbitrage making the banking system look safer than it really is.",
-            "source": "Forbes",
-            "published_at": "2026-07-17T15:15:42Z",
-            "url": "https://www.forbes.com/sites/mayrarodriguezvalladares/2026/07/17/musical-chairs-with-bank-capital-is-a-fake-safety-net-for-taxpayers/",
-            "sentiment_score": 0.137,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "F.N.B. Q2 Earnings Call Highlights",
-            "description": "F.N.B. (NYSE:FNB) reported stronger second-quarter 2026 earnings, record revenue and continued balance sheet growth, while management lowered its full-year n...",
-            "source": "MarketBeat",
-            "published_at": "2026-07-17T15:03:41Z",
-            "url": "https://www.marketbeat.com/instant-alerts/fnb-q2-earnings-call-highlights-2026-07-17/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.1716,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Circle Internet Group shares fall over 75% from IPO highs",
-            "description": "Circle Internet Group stock has dropped over 75% from its $299 peak. Here's what's driving the selloff and what investors should watch next.\nThe post Circle Internet Group shares fall over 75% from IPO highs appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-07-17T15:03:35Z",
-            "url": "https://cryptobriefing.com/circle-internet-group-shares-fall-ipo-highs/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar Hedging Costs Sink to Their Lowest Level This Year",
-            "description": "The cost of hedging against swings in the dollar has fallen to its lowest level this year, signaling that traders see little chance of a major catalyst disrupting the world’s reserve currency despite an uncertain Federal Reserve outlook and resurgent conflict…",
-            "source": "Financial Post",
-            "published_at": "2026-07-17T14:52:55Z",
-            "url": "https://financialpost.com/pmn/business-pmn/dollar-hedging-costs-sink-to-their-lowest-level-this-year",
-            "sentiment_score": -0.3759,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0565,
+      "net_score": -0.0676,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
