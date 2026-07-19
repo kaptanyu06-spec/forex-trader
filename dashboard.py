@@ -95,6 +95,32 @@ def _get_pin() -> str:
     return pin or str(getattr(config, "DASHBOARD_PIN", "") or "")
 
 
+# "จำเครื่องไว้": หลังใส่ PIN ถูก แนบตั๋วลับไว้ใน URL อายุ 3 ชม. (ผู้ใช้กำหนด)
+# - เปิดหน้าค้างไว้ = อยู่ได้ตลอด (เซสชันจำไว้ ไม่เกี่ยวตั๋ว)
+# - ออกแล้วกลับมาใน 3 ชม. = เข้าได้เลยไม่ต้องกด PIN (ตั๋วใน URL ยังไม่หมดอายุ)
+# - เกิน 3 ชม. = ตั๋วหมดอายุ ต้องกด PIN ใหม่ (ได้ตั๋วใบใหม่)
+# ตั๋วคำนวณจากรหัส PIN — เปลี่ยนรหัสเมื่อไหร่ ตั๋วเก่าใช้ไม่ได้ทันที
+PIN_REMEMBER_HOURS = 3
+
+
+def _token_sig(pin: str, ts: str) -> str:
+    return hmac.new(f"trader-pin-v1:{pin}".encode(), ts.encode(), "sha256").hexdigest()[:20]
+
+
+def _token_valid(pin: str, ts: str, sig: str) -> bool:
+    """ตั๋วใช้ได้ = ลายเซ็นถูกต้อง และอายุไม่เกินกำหนด (กันคนแก้เวลาใน URL เอง)"""
+    if not ts or not sig:
+        return False
+    try:
+        issued = int(ts)
+    except ValueError:
+        return False
+    age = time.time() - issued
+    if age < -60 or age > PIN_REMEMBER_HOURS * 3600:
+        return False
+    return hmac.compare_digest(sig, _token_sig(pin, ts))
+
+
 def pin_gate():
     """
     หน้าใส่รหัสแบบแป้นตัวเลขบนจอ (ผู้ใช้ขอ — กดเลขบนจอเลย ไม่ต้องใช้คีย์บอร์ดมือถือ)
@@ -103,6 +129,12 @@ def pin_gate():
     """
     pin = _get_pin()
     if not pin or st.session_state.get("pin_ok"):
+        return
+
+    # มีตั๋ว "จำเครื่องไว้" ใน URL ที่ยังไม่หมดอายุ (3 ชม.) -> เข้าได้เลยไม่ต้องกด PIN
+    qp = st.query_params
+    if _token_valid(pin, qp.get("t", ""), qp.get("k", "")):
+        st.session_state["pin_ok"] = True
         return
 
     # ปุ่มแป้นเลขให้ใหญ่พอสำหรับนิ้ว (CSS เฉพาะหน้านี้ — หน้าหลักไม่โดนเพราะ st.stop ก่อน)
@@ -155,6 +187,10 @@ def pin_gate():
                 if hmac.compare_digest(buf, pin):
                     st.session_state["pin_ok"] = True
                     st.session_state["pin_buf"] = ""
+                    # แนบตั๋วจำเครื่องไว้ใน URL — เปิดกลับมาภายใน 3 ชม. ไม่ต้องกดใหม่
+                    ts = str(int(time.time()))
+                    st.query_params["t"] = ts
+                    st.query_params["k"] = _token_sig(pin, ts)
                 else:
                     time.sleep(1)  # หน่วงเมื่อผิด กันนั่งเดารัวๆ
                     st.session_state["pin_buf"] = ""
