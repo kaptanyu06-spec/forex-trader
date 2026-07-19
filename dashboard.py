@@ -686,10 +686,25 @@ with tab_market:
                "ไม้ที่เปิดตามสัญญาณมักรู้ผล (ชน TP/SL) ภายใน ~3-22 ชม. "
                "มัธยฐาน ~10 ชม. (สถิติจาก backtest 182 ไม้)")
 
+    # เวลาที่ดึงข่าวชุดล่าสุด (ข่าวดึงใหม่ทุก ~3 ชม. ประหยัดโควตา NewsAPI —
+    # ต่างจากราคา/เทคนิคที่คำนวณใหม่ทุกรอบชั่วโมง)
+    news_time_txt = ""
+    try:
+        with open(config.NEWS_CACHE_FILE, encoding="utf-8") as f:
+            _fetched = datetime.fromisoformat(json.load(f)["fetched_at"])
+        if _fetched.tzinfo is None:
+            _fetched = _fetched.replace(tzinfo=timezone.utc)
+        news_time_txt = (" · ข่าวชุดล่าสุดดึงเมื่อ "
+                         + _fetched.astimezone(TH_TZ).strftime("%H:%M น.")
+                         + " (ไทย) — ดึงใหม่ทุก ~3 ชม.")
+    except (OSError, ValueError, KeyError):
+        pass
+
     mkt_left, mkt_right = st.columns(2)
     with mkt_left:
         chart_note("ข่าวเอียงทางไหน — ขวา (น้ำเงิน) = ข่าวหนุนขึ้น · ซ้าย (แดง) = ข่าวกดลง · "
-                   "จากข่าวย้อนหลัง 2 วัน = แรงหนุน/กดระยะสั้น ~1-2 วันข้างหน้า")
+                   "จากข่าวย้อนหลัง 2 วัน = แรงหนุน/กดระยะสั้น ~1-2 วันข้างหน้า"
+                   + news_time_txt)
         c = sentiment_chart(results)
         if c is not None:
             st.altair_chart(c, width="stretch")
