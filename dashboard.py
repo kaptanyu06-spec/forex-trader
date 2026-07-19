@@ -9,8 +9,15 @@ dashboard.py
 แล้ว browser จะเปิดหน้า Dashboard ให้อัตโนมัติ (ที่ http://localhost:8501)
 กดปุ่ม "รันวิเคราะห์ใหม่" เพื่อดึงข่าว+ราคาล่าสุด หรือดูผลเก่าจากเมนูซ้ายมือ
 
-หน้าตา: ธีมมืดโทนน้ำเงินเข้ม การ์ด KPI + ป้ายสัญญาณสี (ผู้ใช้เลือกแนวนี้ 2026-07-19)
-สีธีมหลักอยู่ที่ .streamlit/config.toml — สีของกราฟอยู่ข้างล่างนี้
+หน้าตา: ธีมมืดโทนน้ำเงินเข้ม การ์ด KPI + ไอคอน SVG + ชุดกราฟผลเทรด
+(ผู้ใช้เลือกแนวนี้ 2026-07-19) สีธีมหลักอยู่ที่ .streamlit/config.toml
+
+ชุดกราฟ:
+1. เส้นทุนจำลอง (พื้นที่ไล่เฉด)      — ผลรวมการเทรดตามเวลา
+2. ผลรายไม้ (แท่ง) + R สะสม (เส้น)   — จังหวะแพ้-ชนะ และแนวโน้มสะสม
+3. ผลรวมรายคู่เงิน (แท่งนอน)         — คู่ไหนทำกำไร คู่ไหนถ่วง
+4. ข่าวเอียงทางไหน + จังหวะ RSI      — ภาพรวมตลาดตอนนี้ (มีข้อมูลก่อนไม้ปิด)
+5. ราคา + MA รายคู่ (ใน expander)    — ดูกราฟเทคนิคทีละคู่
 """
 
 import html
@@ -30,19 +37,50 @@ import technical_analyzer
 
 # ============================================
 # สีทั้งหมดของหน้านี้ (ตรวจผ่านเกณฑ์คนตาบอดสีบนพื้นมืด #121a2b แล้ว — อย่าเปลี่ยนมั่ว)
+# กราฟเงิน (กำไร/ขาดทุน) ใช้เขียว/แดงตามธรรมเนียมเทรด — ตำแหน่งแท่งเหนือ/ใต้ศูนย์
+# ช่วยบอกทิศซ้ำอีกชั้น คนตาบอดสีจึงอ่านได้จากตำแหน่งแม้แยกสีไม่ออก
 # ============================================
-COLOR_PRICE = "#3987e5"    # น้ำเงิน = ราคาปิด
+COLOR_PRICE = "#3987e5"    # น้ำเงิน = ราคาปิด / เส้นสะสม / ฝั่งบวกของกราฟตลาด
 COLOR_MA_FAST = "#c98500"  # เหลืองทอง = เส้นค่าเฉลี่ยเร็ว
 COLOR_MA_SLOW = "#9085e9"  # ม่วง = เส้นค่าเฉลี่ยช้า
 
-COLOR_GOOD = "#0ca30c"     # เขียว = BUY / ชนะ / บวก
-COLOR_BAD = "#e66767"      # แดง = SELL / แพ้ / ลบ
+COLOR_GOOD = "#0ca30c"     # เขียว = BUY / ชนะ / กำไร
+COLOR_BAD = "#e66767"      # แดง = SELL / แพ้ / ขาดทุน
 COLOR_MUTED = "#8b94a7"    # เทา = WAIT / ข้อความรอง
 
 SURFACE_CARD = "#121a2b"   # พื้นการ์ด (ตรงกับ secondaryBackgroundColor ใน config.toml)
 GRID_COLOR = "#232d45"     # เส้นตารางในกราฟ (จางๆ)
 
 st.set_page_config(page_title="Forex Analyzer", page_icon="📈", layout="wide")
+
+# ============================================
+# ไอคอน SVG ลายเส้น (แบบเดียวกับไอคอนชุด Lucide — วาดด้วย stroke ตามสีที่ครอบ)
+# ============================================
+_ICON_PATHS = {
+    "trend-up": '<polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>',
+    "trend-down": '<polyline points="22 17 13.5 8.5 8.5 13.5 2 7"/><polyline points="16 17 22 17 22 11"/>',
+    "pause": '<rect x="6" y="4" width="4" height="16" rx="1"/><rect x="14" y="4" width="4" height="16" rx="1"/>',
+    "hourglass": ('<path d="M5 22h14"/><path d="M5 2h14"/>'
+                  '<path d="M17 22v-4.172a2 2 0 0 0-.586-1.414L12 12l-4.414 4.414A2 2 0 0 0 7 17.828V22"/>'
+                  '<path d="M7 2v4.172a2 2 0 0 0 .586 1.414L12 12l4.414-4.414A2 2 0 0 0 17 6.172V2"/>'),
+    "target": '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
+    "trophy": ('<path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/>'
+               '<path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/>'
+               '<path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/>'
+               '<path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/>'),
+    "coins": ('<circle cx="8" cy="8" r="6"/><path d="M18.09 10.37A6 6 0 1 1 10.34 18"/>'
+              '<path d="M7 6h1v4"/><path d="m16.71 13.88.7.71-2.82 2.82"/>'),
+    "check": '<polyline points="20 6 9 17 4 12"/>',
+    "x": '<line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>',
+}
+
+
+def icon_svg(name: str, size: int = 15) -> str:
+    """คืนไอคอน SVG ขนาดเล็ก ใช้สีตามตัวครอบ (currentColor)"""
+    return (f'<svg viewBox="0 0 24 24" width="{size}" height="{size}" fill="none" '
+            f'stroke="currentColor" stroke-width="2" stroke-linecap="round" '
+            f'stroke-linejoin="round" style="vertical-align:-2px">{_ICON_PATHS[name]}</svg>')
+
 
 # ============================================
 # CSS แต่งหน้าตา: การ์ด, ป้ายสัญญาณ, ตาราง (ฉีดครั้งเดียวตอนเปิดหน้า)
@@ -57,14 +95,17 @@ st.markdown("""
             padding:14px 16px; }
 .kpi-top { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
 .kpi-icon { width:30px; height:30px; border-radius:9px; display:flex;
-            align-items:center; justify-content:center; font-size:15px; }
+            align-items:center; justify-content:center; flex:none; }
 .kpi-label { color:#8b94a7; font-size:.8rem; }
 .kpi-value { font-size:1.7rem; font-weight:700; line-height:1.15; }
 .kpi-sub { font-size:.75rem; color:#8b94a7; margin-top:4px; }
+.kpi-prog { height:6px; background:rgba(255,255,255,.08); border-radius:99px;
+            margin-top:10px; overflow:hidden; }
+.kpi-prog > div { height:100%; border-radius:99px; }
 
 /* ---- ป้ายสัญญาณ (BUY/SELL/WAIT และสถานะไม้) ---- */
-.pill { display:inline-block; padding:2px 10px; border-radius:99px;
-        font-size:.8rem; font-weight:600; white-space:nowrap; }
+.pill { display:inline-flex; align-items:center; gap:4px; padding:2px 10px;
+        border-radius:99px; font-size:.8rem; font-weight:600; white-space:nowrap; }
 .pill-buy  { background:rgba(12,163,12,.16);  color:#3ecf3e; }
 .pill-sell { background:rgba(230,103,103,.16); color:#ff8f8f; }
 .pill-wait { background:rgba(139,148,167,.16); color:#aab2c5; }
@@ -88,6 +129,7 @@ st.markdown("""
              display:flex; align-items:center; gap:8px; }
 .sec-chip { font-size:.72rem; font-weight:600; color:#8b94a7;
             border:1px solid rgba(255,255,255,.12); padding:1px 9px; border-radius:99px; }
+.chart-note { font-size:.75rem; color:#8b94a7; margin:-6px 0 6px 2px; }
 
 /* ---- กล่องรายละเอียดรายคู่ (expander) ให้เป็นการ์ดมน ---- */
 div[data-testid="stExpander"] details { background:#121a2b;
@@ -132,6 +174,16 @@ def get_chart_data(pair: str) -> pd.DataFrame:
     df["MA ช้า"] = technical_analyzer.moving_average(ohlc["close"], config.MA_SLOW_PERIOD)
     df = df.rename(columns={"close": "ราคาปิด"})
     return df.dropna()
+
+
+def _dark(chart: alt.Chart) -> alt.Chart:
+    """ตั้งค่าธีมมืดให้กราฟ altair ทุกตัว (พื้นใส เส้นตารางจาง ตัวหนังสือเทา)"""
+    return chart.configure(background="transparent").configure_view(
+        stroke=None
+    ).configure_axis(
+        gridColor=GRID_COLOR, labelColor=COLOR_MUTED,
+        tickColor=GRID_COLOR, domainColor=GRID_COLOR,
+    ).configure_legend(labelColor="#c7cede")
 
 
 def price_chart(pair: str) -> alt.Chart:
@@ -182,43 +234,173 @@ def price_chart(pair: str) -> alt.Chart:
         opacity=alt.condition(hover, alt.value(0.4), alt.value(0)),
     )
 
-    return (area + lines + points + rule).properties(height=320).configure(
-        background="transparent"
-    ).configure_view(stroke=None).configure_axis(
-        gridColor=GRID_COLOR, labelColor=COLOR_MUTED,
-        tickColor=GRID_COLOR, domainColor=GRID_COLOR,
-    ).configure_legend(labelColor="#c7cede")
+    return _dark((area + lines + points + rule).properties(height=320))
+
+
+# ============================================
+# กราฟชุดผลการเทรด (ใช้ข้อมูลจากสมุด paper trading)
+# ============================================
+
+def equity_chart(closed: list) -> alt.Chart:
+    """กราฟ 1: เส้นทุนจำลอง — เริ่ม 100% เสี่ยง 1% ต่อไม้ ทบต้นตามลำดับไม้ที่ปิด"""
+    equity = 100.0
+    rows = []
+    for t in sorted(closed, key=lambda t: t.get("exit_time", "")):
+        equity *= (1 + (config.RISK_PER_TRADE_PERCENT / 100) * t["net_r"])
+        rows.append({"เวลา": pd.to_datetime(t["exit_time"]), "ทุน (%)": round(equity, 2)})
+    df = pd.DataFrame(rows)
+
+    area = alt.Chart(df).mark_area(
+        line={"color": COLOR_PRICE, "strokeWidth": 2},
+        color=alt.Gradient(
+            gradient="linear",
+            stops=[alt.GradientStop(color="rgba(57,135,229,0.35)", offset=1),
+                   alt.GradientStop(color="rgba(57,135,229,0.0)", offset=0)],
+            x1=1, x2=1, y1=1, y2=0,
+        ),
+        point={"filled": True, "size": 45, "color": COLOR_PRICE},
+    ).encode(
+        x=alt.X("เวลา:T", title=None),
+        y=alt.Y("ทุน (%):Q", title=None, scale=alt.Scale(zero=False)),
+        tooltip=[alt.Tooltip("เวลา:T", format="%d %b %H:%M"),
+                 alt.Tooltip("ทุน (%):Q", format=".2f")],
+    )
+    # เส้นประที่ 100% = จุดเริ่มต้น (เหนือเส้น = กำไร ใต้เส้น = ขาดทุน)
+    base = alt.Chart(pd.DataFrame({"y": [100.0]})).mark_rule(
+        strokeDash=[4, 4], color=COLOR_MUTED).encode(y="y:Q")
+    return _dark((area + base).properties(height=230))
+
+
+def trades_r_chart(closed: list) -> alt.Chart:
+    """กราฟ 2: ผลรายไม้เป็นแท่ง (เขียวกำไร/แดงขาดทุน) + เส้น R สะสม — หน่วยเดียวกัน (R)"""
+    rows, cum = [], 0.0
+    for i, t in enumerate(sorted(closed, key=lambda t: t.get("exit_time", "")), start=1):
+        cum += t["net_r"]
+        rows.append({"ไม้ที่": i, "คู่เงิน": t["pair"], "ผล (R)": round(t["net_r"], 2),
+                     "สะสม (R)": round(cum, 2),
+                     "ปิดเมื่อ": t.get("exit_time", "")[:16].replace("T", " ")})
+    df = pd.DataFrame(rows)
+
+    bars = alt.Chart(df).mark_bar(width={"band": 0.6}, cornerRadiusEnd=4).encode(
+        x=alt.X("ไม้ที่:O", title=None, axis=alt.Axis(labelAngle=0)),
+        y=alt.Y("ผล (R):Q", title=None),
+        color=alt.condition(alt.datum["ผล (R)"] > 0,
+                            alt.value(COLOR_GOOD), alt.value(COLOR_BAD)),
+        tooltip=["ไม้ที่:O", "คู่เงิน:N", "ผล (R):Q", "สะสม (R):Q", "ปิดเมื่อ:N"],
+    )
+    cum_line = alt.Chart(df).mark_line(
+        strokeWidth=2, color=COLOR_PRICE,
+        point={"filled": True, "size": 40, "color": COLOR_PRICE},
+    ).encode(
+        x="ไม้ที่:O",
+        y=alt.Y("สะสม (R):Q", title=None),
+        tooltip=["ไม้ที่:O", "สะสม (R):Q"],
+    )
+    zero = alt.Chart(pd.DataFrame({"y": [0.0]})).mark_rule(color=COLOR_MUTED).encode(y="y:Q")
+    return _dark((bars + cum_line + zero).properties(height=230))
+
+
+def pair_r_chart(closed: list) -> alt.Chart:
+    """กราฟ 3: ผลรวม R รายคู่เงิน (แท่งนอน) — คู่ไหนทำกำไร คู่ไหนถ่วง"""
+    totals = {}
+    for t in closed:
+        totals[t["pair"]] = totals.get(t["pair"], 0.0) + t["net_r"]
+    df = pd.DataFrame([{"คู่เงิน": p, "รวม (R)": round(v, 2)} for p, v in totals.items()])
+
+    bars = alt.Chart(df).mark_bar(height={"band": 0.55}, cornerRadiusEnd=4).encode(
+        y=alt.Y("คู่เงิน:N", title=None, sort="-x"),
+        x=alt.X("รวม (R):Q", title=None),
+        color=alt.condition(alt.datum["รวม (R)"] > 0,
+                            alt.value(COLOR_GOOD), alt.value(COLOR_BAD)),
+        tooltip=["คู่เงิน:N", "รวม (R):Q"],
+    )
+    zero = alt.Chart(pd.DataFrame({"x": [0.0]})).mark_rule(color=COLOR_MUTED).encode(x="x:Q")
+    return _dark((bars + zero).properties(height=230))
+
+
+def sentiment_chart(results: list) -> alt.Chart | None:
+    """กราฟ 4ก: ข่าวเอียงทางไหน — แท่งนอนแยกซ้าย(ลง)/ขวา(ขึ้น)จากศูนย์ ต่อคู่เงิน"""
+    rows = [{"คู่เงิน": r["pair"], "คะแนนข่าว": r["news_sentiment"]["net_score"]}
+            for r in results if r.get("news_sentiment")]
+    if not rows:
+        return None
+    df = pd.DataFrame(rows)
+
+    bars = alt.Chart(df).mark_bar(height={"band": 0.55}, cornerRadiusEnd=4).encode(
+        y=alt.Y("คู่เงิน:N", title=None, sort=None),
+        x=alt.X("คะแนนข่าว:Q", title=None,
+                scale=alt.Scale(domain=[-1, 1]),
+                axis=alt.Axis(values=[-1, -0.5, 0, 0.5, 1])),
+        color=alt.condition(alt.datum["คะแนนข่าว"] > 0,
+                            alt.value(COLOR_PRICE), alt.value(COLOR_BAD)),
+        tooltip=["คู่เงิน:N", alt.Tooltip("คะแนนข่าว:Q", format=".3f")],
+    )
+    zero = alt.Chart(pd.DataFrame({"x": [0.0]})).mark_rule(color=COLOR_MUTED).encode(x="x:Q")
+    return _dark((bars + zero).properties(height=200))
+
+
+def rsi_chart(results: list) -> alt.Chart | None:
+    """กราฟ 4ข: จังหวะ RSI — แท่งยื่นจากเส้น 50 (กลยุทธ์ v2 ใช้ RSI ข้าม 50 เป็นจังหวะเข้า)"""
+    rows = [{"คู่เงิน": r["pair"], "RSI": r["technical"]["rsi_value"], "กลาง": 50.0}
+            for r in results if r.get("technical")]
+    if not rows:
+        return None
+    df = pd.DataFrame(rows)
+
+    bars = alt.Chart(df).mark_bar(height={"band": 0.55}, cornerRadius=4).encode(
+        y=alt.Y("คู่เงิน:N", title=None, sort=None),
+        x=alt.X("กลาง:Q", title=None, scale=alt.Scale(domain=[0, 100]),
+                axis=alt.Axis(values=[0, 30, 50, 70, 100])),
+        x2="RSI:Q",
+        color=alt.condition(alt.datum["RSI"] > 50,
+                            alt.value(COLOR_PRICE), alt.value(COLOR_BAD)),
+        tooltip=["คู่เงิน:N", alt.Tooltip("RSI:Q", format=".1f")],
+    )
+    # เส้นอ้างอิง: 50 = เส้นแบ่งโมเมนตัม, 30/70 = โซน oversold/overbought
+    refs = alt.Chart(pd.DataFrame({"x": [30.0, 50.0, 70.0]})).mark_rule(
+        strokeDash=[4, 4], color=COLOR_MUTED).encode(x="x:Q")
+    return _dark((bars + refs).properties(height=200))
 
 
 # ============================================
 # ชิ้นส่วน HTML: การ์ด KPI, ป้ายสัญญาณ, ตารางการ์ด
 # ============================================
 
-def kpi_card(icon: str, accent: str, label: str, value: str, sub: str = "") -> str:
-    """การ์ดตัวเลขสรุป 1 ใบ: ไอคอนในกรอบสีจางๆ + ตัวเลขใหญ่ + คำอธิบายเล็ก"""
+def kpi_card(icon_name: str, accent: str, label: str, value: str,
+             sub: str = "", progress: float = None) -> str:
+    """การ์ดตัวเลขสรุป 1 ใบ: ไอคอน SVG ในกรอบสีจางๆ + ตัวเลขใหญ่ + คำอธิบาย + แถบเป้า"""
     sub_html = f'<div class="kpi-sub">{sub}</div>' if sub else ""
+    prog_html = ""
+    if progress is not None:
+        pct = max(0.0, min(progress, 1.0)) * 100
+        prog_html = (f'<div class="kpi-prog">'
+                     f'<div style="width:{pct:.0f}%;background:{accent}"></div></div>')
     return f'''<div class="kpi-card">
       <div class="kpi-top">
-        <div class="kpi-icon" style="background:{accent}26;">{icon}</div>
+        <div class="kpi-icon" style="background:{accent}26;color:{accent}">{icon_svg(icon_name)}</div>
         <div class="kpi-label">{label}</div>
       </div>
       <div class="kpi-value">{value}</div>
-      {sub_html}</div>'''
+      {sub_html}{prog_html}</div>'''
 
 
 def kpi_row(cards: list):
     st.markdown('<div class="kpi-row">' + "".join(cards) + "</div>", unsafe_allow_html=True)
 
 
+def pill(kind: str, text: str, icon_name: str) -> str:
+    return f'<span class="pill pill-{kind}">{icon_svg(icon_name, 11)}{text}</span>'
+
+
 PILL = {
-    "BUY": '<span class="pill pill-buy">▲ BUY</span>',
-    "SELL": '<span class="pill pill-sell">▼ SELL</span>',
-    "WAIT": '<span class="pill pill-wait">⏸ WAIT</span>',
+    "BUY": pill("buy", "BUY", "trend-up"),
+    "SELL": pill("sell", "SELL", "trend-down"),
+    "WAIT": pill("wait", "WAIT", "pause"),
 }
 TRADE_PILL = {
-    "open": '<span class="pill pill-wait">⏳ เปิดอยู่</span>',
-    "won": '<span class="pill pill-buy">✓ ชนะ</span>',
-    "lost": '<span class="pill pill-sell">✗ แพ้</span>',
+    "open": pill("wait", "เปิดอยู่", "hourglass"),
+    "won": pill("buy", "ชนะ", "check"),
+    "lost": pill("sell", "แพ้", "x"),
 }
 
 
@@ -236,13 +418,17 @@ def section(title: str, chip: str = ""):
     st.markdown(f'<div class="sec-title">{title}{chip_html}</div>', unsafe_allow_html=True)
 
 
+def chart_note(text: str):
+    st.markdown(f'<div class="chart-note">{text}</div>', unsafe_allow_html=True)
+
+
 # ============================================
 # แถบข้าง (Sidebar): ปุ่มรันใหม่ + เลือกดูผลเก่า
 # ============================================
 
-st.sidebar.title("📈 Forex Analyzer")
+st.sidebar.title("Forex Analyzer")
 
-if st.sidebar.button("🔄 รันวิเคราะห์ใหม่", type="primary", width="stretch"):
+if st.sidebar.button("รันวิเคราะห์ใหม่", type="primary", width="stretch"):
     with st.spinner("กำลังดึงข่าวและราคาล่าสุด... (ใช้เวลา ~1 นาที)"):
         results = analysis_engine.collect_results()
         analysis_engine.save_results(results)
@@ -274,7 +460,7 @@ st.sidebar.warning(
 results = load_result_file(selected_file)
 
 # ============================================
-# ส่วนบน: หัวเรื่อง + การ์ดสรุปสัญญาณ
+# ส่วนบน: หัวเรื่อง + การ์ดสรุปสัญญาณ + ตารางสัญญาณ
 # ============================================
 
 # เวลาอัปเดตของไฟล์ที่กำลังดู (แสดงบนหัวเรื่อง)
@@ -288,11 +474,11 @@ st.markdown(f'''<div style="display:flex;align-items:baseline;gap:12px;flex-wrap
 
 actions = [r["combined_signal"]["action"] for r in results]
 kpi_row([
-    kpi_card("▲", COLOR_GOOD, "สัญญาณ BUY", str(actions.count("BUY")),
+    kpi_card("trend-up", COLOR_GOOD, "สัญญาณ BUY", str(actions.count("BUY")),
              f"จาก {len(results)} ตัวที่ติดตาม"),
-    kpi_card("▼", COLOR_BAD, "สัญญาณ SELL", str(actions.count("SELL")),
+    kpi_card("trend-down", COLOR_BAD, "สัญญาณ SELL", str(actions.count("SELL")),
              f"จาก {len(results)} ตัวที่ติดตาม"),
-    kpi_card("⏸", COLOR_MUTED, "รอจังหวะ (WAIT)", str(actions.count("WAIT")),
+    kpi_card("pause", COLOR_MUTED, "รอจังหวะ (WAIT)", str(actions.count("WAIT")),
              "ไม่มีเทรนด์ชัด = ไม่เทรด"),
 ])
 
@@ -312,26 +498,68 @@ for r in results:
 card_table(["คู่เงิน", "สัญญาณ", "ความเชื่อมั่น", "ราคาล่าสุด", "เหตุผล"], sig_rows)
 
 # ============================================
-# ส่วนกลาง: สถิติ Paper Trading (เทรดจำลอง)
+# ส่วนสอง: ภาพรวมตลาดตอนนี้ (กราฟข่าว + RSI — มีข้อมูลตั้งแต่ยังไม่มีไม้ปิด)
+# ============================================
+
+section("ภาพรวมตลาดตอนนี้", "จากรอบวิเคราะห์ที่เลือก")
+
+mkt_left, mkt_right = st.columns(2)
+with mkt_left:
+    chart_note("ข่าวเอียงทางไหน — ขวา (น้ำเงิน) = ข่าวหนุนขึ้น · ซ้าย (แดง) = ข่าวกดลง")
+    c = sentiment_chart(results)
+    if c is not None:
+        st.altair_chart(c, width="stretch")
+    else:
+        st.caption("ไม่มีข้อมูลข่าวในรอบนี้")
+with mkt_right:
+    chart_note("จังหวะ RSI — แท่งยื่นจากเส้น 50: ขวา = โมเมนตัมขึ้น · ซ้าย = โมเมนตัมลง "
+               "(เส้นประ 30/70 = โซนสุดโต่ง)")
+    c = rsi_chart(results)
+    if c is not None:
+        st.altair_chart(c, width="stretch")
+    else:
+        st.caption("ไม่มีข้อมูลราคาในรอบนี้")
+
+# ============================================
+# ส่วนสาม: Paper Trading — การ์ดสถิติ + ชุดกราฟผลเทรด + ตารางไม้
 # ============================================
 
 section("Paper Trading", "เทรดจำลอง — ไม่มีเงินจริง")
 
 paper_trades = paper_trader.load_trades()
 paper_stats = paper_trader.summarize(paper_trades)
+closed_trades = [t for t in paper_trades if t["status"] != "open"]
 
 ret = paper_stats["sim_return_pct"]
 ret_color = COLOR_GOOD if ret >= 0 else COLOR_BAD
 kpi_row([
-    kpi_card("⏳", COLOR_MA_FAST, "เปิดค้างอยู่", str(paper_stats["open_count"])),
-    kpi_card("🎯", COLOR_PRICE, "ปิดแล้ว", f"{paper_stats['closed_count']} ไม้",
-             "เป้าพิสูจน์ระบบ: 20 ไม้ใน 1 เดือน"),
-    kpi_card("🏆", COLOR_MA_SLOW, "อัตราชนะ", f"{paper_stats['win_rate_pct']}%",
+    kpi_card("hourglass", COLOR_MA_FAST, "เปิดค้างอยู่", str(paper_stats["open_count"])),
+    kpi_card("target", COLOR_PRICE, "ปิดแล้ว", f"{paper_stats['closed_count']} ไม้",
+             "เป้าพิสูจน์ระบบ: 20 ไม้ใน 1 เดือน",
+             progress=paper_stats["closed_count"] / 20),
+    kpi_card("trophy", COLOR_MA_SLOW, "อัตราชนะ", f"{paper_stats['win_rate_pct']}%",
              "เป้าจาก backtest: ~40%"),
-    kpi_card("💰", ret_color, "ผลตอบแทนจำลอง",
+    kpi_card("coins", ret_color, "ผลตอบแทนจำลอง",
              f'<span style="color:{ret_color}">{ret:+}%</span>',
              "จำลองทุนโดยเสี่ยง 1% ต่อไม้"),
 ])
+
+if closed_trades:
+    g1, g2 = st.columns(2)
+    with g1:
+        chart_note("เส้นทุนจำลอง (%) — เหนือเส้นประ 100 = กำไรสะสม")
+        st.altair_chart(equity_chart(closed_trades), width="stretch")
+    with g2:
+        chart_note("ผลรายไม้ (R) — แท่งเขียว = ชนะ · แดง = แพ้ · เส้นน้ำเงิน = R สะสม")
+        st.altair_chart(trades_r_chart(closed_trades), width="stretch")
+
+    chart_note("ผลรวมรายคู่เงิน (R) — คู่ไหนทำกำไร คู่ไหนถ่วง")
+    st.altair_chart(pair_r_chart(closed_trades), width="stretch")
+elif paper_trades:
+    st.caption("มีไม้เปิดค้างอยู่ — กราฟผลเทรดจะปรากฏเมื่อไม้แรกปิด (ชน SL หรือ TP)")
+else:
+    st.caption("ยังไม่มีเทรดจำลอง — ระบบจะบันทึกให้อัตโนมัติเมื่อเกิดสัญญาณ BUY/SELL "
+               "และกราฟผลเทรดจะปรากฏที่นี่เมื่อไม้แรกปิด")
 
 if paper_trades:
     trade_rows = []
@@ -354,9 +582,6 @@ if paper_trades:
         ])
     card_table(["คู่เงิน", "ทิศทาง", "สถานะ", "ราคาเข้า", "SL", "TP", "ผล (R)", "เวลาเข้า"],
                trade_rows)
-else:
-    st.caption("ยังไม่มีเทรดจำลอง — ระบบจะบันทึกให้อัตโนมัติเมื่อเกิดสัญญาณ BUY/SELL "
-               "(รันผ่านปุ่มด้านซ้าย หรือเปิด scheduler ทิ้งไว้)")
 
 # ============================================
 # ส่วนล่าง: รายละเอียดรายคู่เงิน (กดเปิดดูทีละคู่)
@@ -364,7 +589,7 @@ else:
 
 section("รายละเอียดรายคู่เงิน", "กดเปิดดูทีละคู่")
 
-ACTION_LABEL = {"BUY": "🟢 BUY", "SELL": "🔴 SELL", "WAIT": "⏸️ WAIT"}
+ACTION_LABEL = {"BUY": "▲ BUY", "SELL": "▼ SELL", "WAIT": "⏸ WAIT"}
 for r in results:
     sig = r["combined_signal"]
     with st.expander(f"{r['pair']} — {ACTION_LABEL.get(sig['action'], sig['action'])}"):
