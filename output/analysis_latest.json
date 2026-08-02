@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0946,
-        "label": "บวกเล็กน้อย",
-        "article_count": 21,
+        "average_score": 0.0073,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 23,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "ECB official warns climate crisis poses growing threat to ‘core financial stability’",
+            "description": "As wildfires rage, Frank Elderson says more work needed to assess risk from collapse of ecosystem services\nA senior policymaker at the European Central Bank has said the climate emergency and the breakdown of nature poses a dramatically growing risk to the gl…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T08:52:51Z",
+            "url": "https://biztoc.com/x/363d708905e31b25",
+            "sentiment_score": -0.8308,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "NAMA: The developers, the banks and the fallout",
@@ -223,10 +243,140 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0209,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1413,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "BofA’s Hartnett calls Fed ’nakedly dovish,’ urges retreat from risk assets",
+            "description": "Investing.com - Bank of America strategist Michael Hartnett is urging investors to rotate away from risk assets, warning that a Federal Reserve he characterizes as \"nakedly dovish\" will force financial conditions to keep tightening until a far more aggressive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:43:41Z",
+            "url": "https://biztoc.com/x/766dbd8cfbcf34b2",
+            "sentiment_score": -0.0546,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street week ahead: monthly jobs report, McDonald's and SpaceX earnings",
+            "description": "Earnings from big U.S. companies and closely-watched jobs reports are among the key updates for Wall Street this week",
+            "source": "Abcnews.com",
+            "published_at": "2026-08-01T10:33:47Z",
+            "url": "https://abcnews.com/Business/wireStory/wall-street-week-ahead-monthly-jobs-report-mcdonalds-135282372",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top HBCUs: 20 Historically Black Colleges That Set Grads Up For Success",
+            "description": "A new Forbes list ranks the top 10 private and 10 public HBCUs based on students' outcomes and return on investment.",
+            "source": "Forbes",
+            "published_at": "2026-08-01T10:30:00Z",
+            "url": "https://www.forbes.com/sites/asia-alexander/2026/08/01/top-hbcus-20-historically-black-colleges-universities-that-set-grads-up-for-success/",
+            "sentiment_score": 0.53,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:14:02Z",
+            "url": "https://biztoc.com/x/11dfb0e64027bd88",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.10% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-410-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-415-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
+            "description": "By Fabiola Arámburo and David Lawder Aug 1 (Reuters) - The U.S.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T09:20:01Z",
+            "url": "https://finance.yahoo.com/markets/currencies/articles/us-treasury-undertakes-intervention-yen-003009552.html",
+            "sentiment_score": 0.3796,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs",
+            "description": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs.\nAt its most recent meeting on Wednesday, the Federal Reserve voted to leave interest rates unchanged at 3.50% to 3.75%. Bu…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T08:12:54Z",
+            "url": "https://biztoc.com/x/854fb0b8006d5511",
+            "sentiment_score": -0.2085,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Q2 2026 GDP Slows, Implications for Rental Housing Demand",
+            "description": "Q2 2026 GDP slowdown signals steady rental housing demand, but inflation and income pressure could reshape multifamily performance.",
+            "source": "Credaily.com",
+            "published_at": "2026-08-01T08:10:18Z",
+            "url": "https://www.credaily.com/briefs/q2-2026-gdp-slows-implications-for-rental-housing-demand/",
+            "sentiment_score": -0.2299,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A slowing economy, a wider war, a smarter AI: stories that could shape what's next",
+            "description": "With the US midterm elections just four months away, a prolonged slowdown would increase pressure on Trump to revive growth even as the Federal Reserve keeps interest rates unchanged and the Iran conflict continues to weigh on energy markets.",
+            "source": "Livemint",
+            "published_at": "2026-08-01T08:04:59Z",
+            "url": "https://www.livemint.com/opinion/online-views/us-economy-west-asia-war-federal-reserve-rate-move-ai-models-11785563204200.html",
+            "sentiment_score": 0.0769,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far - AP News",
+            "description": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so farAP News Trump says Fed Chair Warsh 'would love' to lower interest rates. He might push to raise them insteadYahoo Finance Trump stands by his 'brilliant' Fed pi…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-01T07:32:19Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184798336",
+            "sentiment_score": -0.1435,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This",
+            "description": "It's been a rough few weeks for the stock market. Surging oil prices and the tech sell-off continue to plague Wall Street, and although the Federal Reserve chose to hold interest rates steady in July, any future rate hikes could potentially add fuel to the fi…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T07:12:34Z",
+            "url": "https://biztoc.com/x/fd8239b8872bbd69",
+            "sentiment_score": 0.0131,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far",
@@ -359,6 +509,16 @@
           },
           {
             "currency": "USD",
+            "title": "Jim Cramer warns AI investors about hidden leverage trap",
+            "description": "Jim Cramer urged investors to stop using borrowed money for artificial intelligence stocks as U.S. margin debt climbed above $1.5 trillion. A lot of the bigg...",
+            "source": "TheStreet",
+            "published_at": "2026-08-01T03:07:00Z",
+            "url": "https://www.thestreet.com/investing/jim-cramer-warns-ai-investors-about-hidden-leverage-trap",
+            "sentiment_score": -0.3273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
             "title": "Scott Bessent's carelessly exposed 'To Do' list reveals multibillion-dollar scheme",
             "description": "A photographer snapped a photo over Treasury Secretary Scott Bessent's shoulder that revealed a plan hours before a notable currency jump.During a Trump Cabinet meeting at Camp David on Friday, Reuters news photographer Daniel Heuer captured Bessent's jotting…",
             "source": "Raw Story",
@@ -386,150 +546,10 @@
             "url": "https://biztoc.com/x/c462be3316c3946f",
             "sentiment_score": -0.053,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen through purchases - FT",
-            "description": "Investing.com -- The U.S. Treasury intervened in currency markets on Friday by purchasing yen, joining Japan's efforts to support the currency from near four-decade lows, the Financial Times reported.\nThe Federal Reserve Bank of New York sold euros and purcha…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T02:25:59Z",
-            "url": "https://biztoc.com/x/ef3eaef87b6cf452",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Federal Reserve stuck in limbo",
-            "description": "Kevin Warsh’s restraint on issuing guidance is exposing deeper structural cracks at the central bank, Jai Kedia writes.",
-            "source": "Livemint",
-            "published_at": "2026-08-01T02:13:17Z",
-            "url": "https://www.livemint.com/opinion/a-federal-reserve-stuck-in-limbo-11785550288860.html",
-            "sentiment_score": -0.257,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan’s stock market is facing these 3 hurdles in August",
-            "description": "Investing.com -- Japanese equities face three major hurdles in August, including higher oil prices, a more hawkish Federal Reserve and the possible unwinding of crowded equity and foreign-exchange positions, Bank of America strategists said.\nBofA said the rec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:56:01Z",
-            "url": "https://biztoc.com/x/6f66851ec0820c78",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh proposes reducing number of Federal Reserve policy meetings: Report",
-            "description": "Fed Chair Kevin Warsh has proposed reducing the number of scheduled Federal Reserve policy meetings, according to a New York Times report.",
-            "source": "BusinessLine",
-            "published_at": "2026-08-01T01:36:56Z",
-            "url": "https://www.thehindubusinessline.com/money-and-banking/fed-chair-kevin-warsh-proposes-reducing-number-of-federal-reserve-policy-meetings-report/article71293396.ece",
-            "sentiment_score": 0.0772,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloff",
-            "description": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloffsundayguardianlive.com",
-            "source": "The Sunday Guardian",
-            "published_at": "2026-08-01T01:34:13Z",
-            "url": "https://sundayguardianlive.com/business/nasdaq-future-today-live-nasdaq-jumps-12-as-amazon-surges-13-tech-stocks-lead-wall-street-higher-oil-prices-rises-after-julys-sharp-selloff-heres-what-investors-should-know-250749/",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, report says",
-            "description": "The Federal Reserve Bank of New York conducted a sale of euros to ⁠buy yen on behalf of the Treasury ⁠through Goldman Sachs and Morgan Stanley, the Financial Times reported.",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:23:53Z",
-            "url": "https://biztoc.com/x/b9433eebd0e1eeac",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "The United States Treasury intervened in yen exchange rates on Friday.  This action supported the Japanese currency through outright purchases by the Treasury.  The Federal Reserve Bank of New York conducted a sale of euros.  This sale was done to buy yen on …",
-            "source": "The Times of India",
-            "published_at": "2026-08-01T00:40:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports/articleshow/132779315.cms",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened in yen exchange rates on Friday to support the Japanese currency through outright purchases, the Financial Times reported, citing people familiar with the matter.The Federal Reserve Bank of New York conducted a sale of e…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports-6292256",
-            "sentiment_score": 0.3043,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened to support the yen on Friday through outright purchases, the Financial Times reported, joining Japan in its efforts to boost the currency from near 40-year lows.The Federal Reserve Bank of New York conducted a sale of eu…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-intervenes-support-yen-after-japan-steps-in-ft-reports-6292256",
-            "sentiment_score": 0.6001,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond Sell-Off Sent Warning On Fed’s Credibility",
-            "description": "“A top Federal Reserve official has warned this week’s sell-off in U.S. Treasuries is a signal that the central bank must earn its ‘credibility’ on fighting inflation by backing up its rhetoric with interest rate rises,” the Financial Times reports. Said St. …",
-            "source": "Politicalwire.com",
-            "published_at": "2026-08-01T00:21:36Z",
-            "url": "https://politicalwire.com/2026/07/31/bond-sell-off-sent-warning-on-feds-credibility/",
-            "sentiment_score": -0.1492,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Moves to Give Mutual Banks More Flexibility to Raise Capital",
-            "description": "The Federal Reserve is seeking comment on a proposal that it said would modernize rules for mutual banking organizations and increase their flexibility to raise capital. The proposal would update rules that have not been changed since they were established in…",
-            "source": "pymnts.com",
-            "published_at": "2026-08-01T00:06:28Z",
-            "url": "https://www.pymnts.com/news/banking/2026/fed-moves-to-give-mutual-banks-more-flexibility-to-raise-capital/",
-            "sentiment_score": 0.4519,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed study: AI’s slow productivity story fits a century-old historical pattern",
-            "description": "New research from the Federal Reserve Bank of St. Louis, analyzing nearly 490,000 corporate earnings calls, confirms what official data has been showing for three years: Artificial intelligence has not yet produced a measurable bump in aggregate productivity.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:52:59Z",
-            "url": "https://biztoc.com/x/9ebad0f95bd343c7",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week | Warsh’s Waiting Game, EU Merger Rules, Robotic Surgeons",
-            "description": "This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:20:37Z",
-            "url": "https://biztoc.com/x/fcf032b2f653853a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh considering reducing number of Fed meetings, NYT reports",
-            "description": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank’s scheduled policy meetings, the New York Times reported Friday.\nWarsh raised the proposal to change the frequency of meetings at this week’s gathering of the rate-…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T22:52:10Z",
-            "url": "https://biztoc.com/x/61c047f6cf6a77ca",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0737,
+      "net_score": -0.134,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -560,7 +580,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=56.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-02T06:47:36.041040+00:00"
+    "generated_at": "2026-08-02T11:39:36.976240+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -569,10 +589,30 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0248,
+        "average_score": 0.0326,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 17,
+        "article_count": 19,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Weekend reading: Buckle up for self-driving portfolios",
+            "description": "I(SA) robot, plus the week's best money and investing reads…\nThe post Weekend reading: Buckle up for self-driving portfolios appeared first on Monevator.",
+            "source": "Monevator.com",
+            "published_at": "2026-08-01T09:31:58Z",
+            "url": "https://monevator.com/weekend-reading-buckle-up-for-self-driving-portfolios/",
+            "sentiment_score": 0.1911,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Bank of England Hawks Appear Isolated as Deputies Shift Ground",
@@ -746,10 +786,140 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0209,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1413,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "BofA’s Hartnett calls Fed ’nakedly dovish,’ urges retreat from risk assets",
+            "description": "Investing.com - Bank of America strategist Michael Hartnett is urging investors to rotate away from risk assets, warning that a Federal Reserve he characterizes as \"nakedly dovish\" will force financial conditions to keep tightening until a far more aggressive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:43:41Z",
+            "url": "https://biztoc.com/x/766dbd8cfbcf34b2",
+            "sentiment_score": -0.0546,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street week ahead: monthly jobs report, McDonald's and SpaceX earnings",
+            "description": "Earnings from big U.S. companies and closely-watched jobs reports are among the key updates for Wall Street this week",
+            "source": "Abcnews.com",
+            "published_at": "2026-08-01T10:33:47Z",
+            "url": "https://abcnews.com/Business/wireStory/wall-street-week-ahead-monthly-jobs-report-mcdonalds-135282372",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top HBCUs: 20 Historically Black Colleges That Set Grads Up For Success",
+            "description": "A new Forbes list ranks the top 10 private and 10 public HBCUs based on students' outcomes and return on investment.",
+            "source": "Forbes",
+            "published_at": "2026-08-01T10:30:00Z",
+            "url": "https://www.forbes.com/sites/asia-alexander/2026/08/01/top-hbcus-20-historically-black-colleges-universities-that-set-grads-up-for-success/",
+            "sentiment_score": 0.53,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:14:02Z",
+            "url": "https://biztoc.com/x/11dfb0e64027bd88",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.10% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-410-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-415-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
+            "description": "By Fabiola Arámburo and David Lawder Aug 1 (Reuters) - The U.S.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T09:20:01Z",
+            "url": "https://finance.yahoo.com/markets/currencies/articles/us-treasury-undertakes-intervention-yen-003009552.html",
+            "sentiment_score": 0.3796,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs",
+            "description": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs.\nAt its most recent meeting on Wednesday, the Federal Reserve voted to leave interest rates unchanged at 3.50% to 3.75%. Bu…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T08:12:54Z",
+            "url": "https://biztoc.com/x/854fb0b8006d5511",
+            "sentiment_score": -0.2085,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Q2 2026 GDP Slows, Implications for Rental Housing Demand",
+            "description": "Q2 2026 GDP slowdown signals steady rental housing demand, but inflation and income pressure could reshape multifamily performance.",
+            "source": "Credaily.com",
+            "published_at": "2026-08-01T08:10:18Z",
+            "url": "https://www.credaily.com/briefs/q2-2026-gdp-slows-implications-for-rental-housing-demand/",
+            "sentiment_score": -0.2299,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A slowing economy, a wider war, a smarter AI: stories that could shape what's next",
+            "description": "With the US midterm elections just four months away, a prolonged slowdown would increase pressure on Trump to revive growth even as the Federal Reserve keeps interest rates unchanged and the Iran conflict continues to weigh on energy markets.",
+            "source": "Livemint",
+            "published_at": "2026-08-01T08:04:59Z",
+            "url": "https://www.livemint.com/opinion/online-views/us-economy-west-asia-war-federal-reserve-rate-move-ai-models-11785563204200.html",
+            "sentiment_score": 0.0769,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far - AP News",
+            "description": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so farAP News Trump says Fed Chair Warsh 'would love' to lower interest rates. He might push to raise them insteadYahoo Finance Trump stands by his 'brilliant' Fed pi…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-01T07:32:19Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184798336",
+            "sentiment_score": -0.1435,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This",
+            "description": "It's been a rough few weeks for the stock market. Surging oil prices and the tech sell-off continue to plague Wall Street, and although the Federal Reserve chose to hold interest rates steady in July, any future rate hikes could potentially add fuel to the fi…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T07:12:34Z",
+            "url": "https://biztoc.com/x/fd8239b8872bbd69",
+            "sentiment_score": 0.0131,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far",
@@ -882,6 +1052,16 @@
           },
           {
             "currency": "USD",
+            "title": "Jim Cramer warns AI investors about hidden leverage trap",
+            "description": "Jim Cramer urged investors to stop using borrowed money for artificial intelligence stocks as U.S. margin debt climbed above $1.5 trillion. A lot of the bigg...",
+            "source": "TheStreet",
+            "published_at": "2026-08-01T03:07:00Z",
+            "url": "https://www.thestreet.com/investing/jim-cramer-warns-ai-investors-about-hidden-leverage-trap",
+            "sentiment_score": -0.3273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
             "title": "Scott Bessent's carelessly exposed 'To Do' list reveals multibillion-dollar scheme",
             "description": "A photographer snapped a photo over Treasury Secretary Scott Bessent's shoulder that revealed a plan hours before a notable currency jump.During a Trump Cabinet meeting at Camp David on Friday, Reuters news photographer Daniel Heuer captured Bessent's jotting…",
             "source": "Raw Story",
@@ -909,150 +1089,10 @@
             "url": "https://biztoc.com/x/c462be3316c3946f",
             "sentiment_score": -0.053,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen through purchases - FT",
-            "description": "Investing.com -- The U.S. Treasury intervened in currency markets on Friday by purchasing yen, joining Japan's efforts to support the currency from near four-decade lows, the Financial Times reported.\nThe Federal Reserve Bank of New York sold euros and purcha…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T02:25:59Z",
-            "url": "https://biztoc.com/x/ef3eaef87b6cf452",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Federal Reserve stuck in limbo",
-            "description": "Kevin Warsh’s restraint on issuing guidance is exposing deeper structural cracks at the central bank, Jai Kedia writes.",
-            "source": "Livemint",
-            "published_at": "2026-08-01T02:13:17Z",
-            "url": "https://www.livemint.com/opinion/a-federal-reserve-stuck-in-limbo-11785550288860.html",
-            "sentiment_score": -0.257,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan’s stock market is facing these 3 hurdles in August",
-            "description": "Investing.com -- Japanese equities face three major hurdles in August, including higher oil prices, a more hawkish Federal Reserve and the possible unwinding of crowded equity and foreign-exchange positions, Bank of America strategists said.\nBofA said the rec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:56:01Z",
-            "url": "https://biztoc.com/x/6f66851ec0820c78",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh proposes reducing number of Federal Reserve policy meetings: Report",
-            "description": "Fed Chair Kevin Warsh has proposed reducing the number of scheduled Federal Reserve policy meetings, according to a New York Times report.",
-            "source": "BusinessLine",
-            "published_at": "2026-08-01T01:36:56Z",
-            "url": "https://www.thehindubusinessline.com/money-and-banking/fed-chair-kevin-warsh-proposes-reducing-number-of-federal-reserve-policy-meetings-report/article71293396.ece",
-            "sentiment_score": 0.0772,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloff",
-            "description": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloffsundayguardianlive.com",
-            "source": "The Sunday Guardian",
-            "published_at": "2026-08-01T01:34:13Z",
-            "url": "https://sundayguardianlive.com/business/nasdaq-future-today-live-nasdaq-jumps-12-as-amazon-surges-13-tech-stocks-lead-wall-street-higher-oil-prices-rises-after-julys-sharp-selloff-heres-what-investors-should-know-250749/",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, report says",
-            "description": "The Federal Reserve Bank of New York conducted a sale of euros to ⁠buy yen on behalf of the Treasury ⁠through Goldman Sachs and Morgan Stanley, the Financial Times reported.",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:23:53Z",
-            "url": "https://biztoc.com/x/b9433eebd0e1eeac",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "The United States Treasury intervened in yen exchange rates on Friday.  This action supported the Japanese currency through outright purchases by the Treasury.  The Federal Reserve Bank of New York conducted a sale of euros.  This sale was done to buy yen on …",
-            "source": "The Times of India",
-            "published_at": "2026-08-01T00:40:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports/articleshow/132779315.cms",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened in yen exchange rates on Friday to support the Japanese currency through outright purchases, the Financial Times reported, citing people familiar with the matter.The Federal Reserve Bank of New York conducted a sale of e…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports-6292256",
-            "sentiment_score": 0.3043,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened to support the yen on Friday through outright purchases, the Financial Times reported, joining Japan in its efforts to boost the currency from near 40-year lows.The Federal Reserve Bank of New York conducted a sale of eu…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-intervenes-support-yen-after-japan-steps-in-ft-reports-6292256",
-            "sentiment_score": 0.6001,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond Sell-Off Sent Warning On Fed’s Credibility",
-            "description": "“A top Federal Reserve official has warned this week’s sell-off in U.S. Treasuries is a signal that the central bank must earn its ‘credibility’ on fighting inflation by backing up its rhetoric with interest rate rises,” the Financial Times reports. Said St. …",
-            "source": "Politicalwire.com",
-            "published_at": "2026-08-01T00:21:36Z",
-            "url": "https://politicalwire.com/2026/07/31/bond-sell-off-sent-warning-on-feds-credibility/",
-            "sentiment_score": -0.1492,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Moves to Give Mutual Banks More Flexibility to Raise Capital",
-            "description": "The Federal Reserve is seeking comment on a proposal that it said would modernize rules for mutual banking organizations and increase their flexibility to raise capital. The proposal would update rules that have not been changed since they were established in…",
-            "source": "pymnts.com",
-            "published_at": "2026-08-01T00:06:28Z",
-            "url": "https://www.pymnts.com/news/banking/2026/fed-moves-to-give-mutual-banks-more-flexibility-to-raise-capital/",
-            "sentiment_score": 0.4519,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed study: AI’s slow productivity story fits a century-old historical pattern",
-            "description": "New research from the Federal Reserve Bank of St. Louis, analyzing nearly 490,000 corporate earnings calls, confirms what official data has been showing for three years: Artificial intelligence has not yet produced a measurable bump in aggregate productivity.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:52:59Z",
-            "url": "https://biztoc.com/x/9ebad0f95bd343c7",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week | Warsh’s Waiting Game, EU Merger Rules, Robotic Surgeons",
-            "description": "This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:20:37Z",
-            "url": "https://biztoc.com/x/fcf032b2f653853a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh considering reducing number of Fed meetings, NYT reports",
-            "description": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank’s scheduled policy meetings, the New York Times reported Friday.\nWarsh raised the proposal to change the frequency of meetings at this week’s gathering of the rate-…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T22:52:10Z",
-            "url": "https://biztoc.com/x/61c047f6cf6a77ca",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0039,
+      "net_score": -0.1087,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1083,7 +1123,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=64.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-02T06:47:36.041040+00:00"
+    "generated_at": "2026-08-02T11:39:36.976240+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1092,10 +1132,140 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0209,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1413,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "BofA’s Hartnett calls Fed ’nakedly dovish,’ urges retreat from risk assets",
+            "description": "Investing.com - Bank of America strategist Michael Hartnett is urging investors to rotate away from risk assets, warning that a Federal Reserve he characterizes as \"nakedly dovish\" will force financial conditions to keep tightening until a far more aggressive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:43:41Z",
+            "url": "https://biztoc.com/x/766dbd8cfbcf34b2",
+            "sentiment_score": -0.0546,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street week ahead: monthly jobs report, McDonald's and SpaceX earnings",
+            "description": "Earnings from big U.S. companies and closely-watched jobs reports are among the key updates for Wall Street this week",
+            "source": "Abcnews.com",
+            "published_at": "2026-08-01T10:33:47Z",
+            "url": "https://abcnews.com/Business/wireStory/wall-street-week-ahead-monthly-jobs-report-mcdonalds-135282372",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top HBCUs: 20 Historically Black Colleges That Set Grads Up For Success",
+            "description": "A new Forbes list ranks the top 10 private and 10 public HBCUs based on students' outcomes and return on investment.",
+            "source": "Forbes",
+            "published_at": "2026-08-01T10:30:00Z",
+            "url": "https://www.forbes.com/sites/asia-alexander/2026/08/01/top-hbcus-20-historically-black-colleges-universities-that-set-grads-up-for-success/",
+            "sentiment_score": 0.53,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:14:02Z",
+            "url": "https://biztoc.com/x/11dfb0e64027bd88",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.10% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-410-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-415-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
+            "description": "By Fabiola Arámburo and David Lawder Aug 1 (Reuters) - The U.S.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T09:20:01Z",
+            "url": "https://finance.yahoo.com/markets/currencies/articles/us-treasury-undertakes-intervention-yen-003009552.html",
+            "sentiment_score": 0.3796,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs",
+            "description": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs.\nAt its most recent meeting on Wednesday, the Federal Reserve voted to leave interest rates unchanged at 3.50% to 3.75%. Bu…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T08:12:54Z",
+            "url": "https://biztoc.com/x/854fb0b8006d5511",
+            "sentiment_score": -0.2085,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Q2 2026 GDP Slows, Implications for Rental Housing Demand",
+            "description": "Q2 2026 GDP slowdown signals steady rental housing demand, but inflation and income pressure could reshape multifamily performance.",
+            "source": "Credaily.com",
+            "published_at": "2026-08-01T08:10:18Z",
+            "url": "https://www.credaily.com/briefs/q2-2026-gdp-slows-implications-for-rental-housing-demand/",
+            "sentiment_score": -0.2299,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A slowing economy, a wider war, a smarter AI: stories that could shape what's next",
+            "description": "With the US midterm elections just four months away, a prolonged slowdown would increase pressure on Trump to revive growth even as the Federal Reserve keeps interest rates unchanged and the Iran conflict continues to weigh on energy markets.",
+            "source": "Livemint",
+            "published_at": "2026-08-01T08:04:59Z",
+            "url": "https://www.livemint.com/opinion/online-views/us-economy-west-asia-war-federal-reserve-rate-move-ai-models-11785563204200.html",
+            "sentiment_score": 0.0769,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far - AP News",
+            "description": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so farAP News Trump says Fed Chair Warsh 'would love' to lower interest rates. He might push to raise them insteadYahoo Finance Trump stands by his 'brilliant' Fed pi…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-01T07:32:19Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184798336",
+            "sentiment_score": -0.1435,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This",
+            "description": "It's been a rough few weeks for the stock market. Surging oil prices and the tech sell-off continue to plague Wall Street, and although the Federal Reserve chose to hold interest rates steady in July, any future rate hikes could potentially add fuel to the fi…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T07:12:34Z",
+            "url": "https://biztoc.com/x/fd8239b8872bbd69",
+            "sentiment_score": 0.0131,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far",
@@ -1228,6 +1398,16 @@
           },
           {
             "currency": "USD",
+            "title": "Jim Cramer warns AI investors about hidden leverage trap",
+            "description": "Jim Cramer urged investors to stop using borrowed money for artificial intelligence stocks as U.S. margin debt climbed above $1.5 trillion. A lot of the bigg...",
+            "source": "TheStreet",
+            "published_at": "2026-08-01T03:07:00Z",
+            "url": "https://www.thestreet.com/investing/jim-cramer-warns-ai-investors-about-hidden-leverage-trap",
+            "sentiment_score": -0.3273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
             "title": "Scott Bessent's carelessly exposed 'To Do' list reveals multibillion-dollar scheme",
             "description": "A photographer snapped a photo over Treasury Secretary Scott Bessent's shoulder that revealed a plan hours before a notable currency jump.During a Trump Cabinet meeting at Camp David on Friday, Reuters news photographer Daniel Heuer captured Bessent's jotting…",
             "source": "Raw Story",
@@ -1255,154 +1435,24 @@
             "url": "https://biztoc.com/x/c462be3316c3946f",
             "sentiment_score": -0.053,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen through purchases - FT",
-            "description": "Investing.com -- The U.S. Treasury intervened in currency markets on Friday by purchasing yen, joining Japan's efforts to support the currency from near four-decade lows, the Financial Times reported.\nThe Federal Reserve Bank of New York sold euros and purcha…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T02:25:59Z",
-            "url": "https://biztoc.com/x/ef3eaef87b6cf452",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Federal Reserve stuck in limbo",
-            "description": "Kevin Warsh’s restraint on issuing guidance is exposing deeper structural cracks at the central bank, Jai Kedia writes.",
-            "source": "Livemint",
-            "published_at": "2026-08-01T02:13:17Z",
-            "url": "https://www.livemint.com/opinion/a-federal-reserve-stuck-in-limbo-11785550288860.html",
-            "sentiment_score": -0.257,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan’s stock market is facing these 3 hurdles in August",
-            "description": "Investing.com -- Japanese equities face three major hurdles in August, including higher oil prices, a more hawkish Federal Reserve and the possible unwinding of crowded equity and foreign-exchange positions, Bank of America strategists said.\nBofA said the rec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:56:01Z",
-            "url": "https://biztoc.com/x/6f66851ec0820c78",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh proposes reducing number of Federal Reserve policy meetings: Report",
-            "description": "Fed Chair Kevin Warsh has proposed reducing the number of scheduled Federal Reserve policy meetings, according to a New York Times report.",
-            "source": "BusinessLine",
-            "published_at": "2026-08-01T01:36:56Z",
-            "url": "https://www.thehindubusinessline.com/money-and-banking/fed-chair-kevin-warsh-proposes-reducing-number-of-federal-reserve-policy-meetings-report/article71293396.ece",
-            "sentiment_score": 0.0772,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloff",
-            "description": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloffsundayguardianlive.com",
-            "source": "The Sunday Guardian",
-            "published_at": "2026-08-01T01:34:13Z",
-            "url": "https://sundayguardianlive.com/business/nasdaq-future-today-live-nasdaq-jumps-12-as-amazon-surges-13-tech-stocks-lead-wall-street-higher-oil-prices-rises-after-julys-sharp-selloff-heres-what-investors-should-know-250749/",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, report says",
-            "description": "The Federal Reserve Bank of New York conducted a sale of euros to ⁠buy yen on behalf of the Treasury ⁠through Goldman Sachs and Morgan Stanley, the Financial Times reported.",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:23:53Z",
-            "url": "https://biztoc.com/x/b9433eebd0e1eeac",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "The United States Treasury intervened in yen exchange rates on Friday.  This action supported the Japanese currency through outright purchases by the Treasury.  The Federal Reserve Bank of New York conducted a sale of euros.  This sale was done to buy yen on …",
-            "source": "The Times of India",
-            "published_at": "2026-08-01T00:40:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports/articleshow/132779315.cms",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened in yen exchange rates on Friday to support the Japanese currency through outright purchases, the Financial Times reported, citing people familiar with the matter.The Federal Reserve Bank of New York conducted a sale of e…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports-6292256",
-            "sentiment_score": 0.3043,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened to support the yen on Friday through outright purchases, the Financial Times reported, joining Japan in its efforts to boost the currency from near 40-year lows.The Federal Reserve Bank of New York conducted a sale of eu…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-intervenes-support-yen-after-japan-steps-in-ft-reports-6292256",
-            "sentiment_score": 0.6001,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond Sell-Off Sent Warning On Fed’s Credibility",
-            "description": "“A top Federal Reserve official has warned this week’s sell-off in U.S. Treasuries is a signal that the central bank must earn its ‘credibility’ on fighting inflation by backing up its rhetoric with interest rate rises,” the Financial Times reports. Said St. …",
-            "source": "Politicalwire.com",
-            "published_at": "2026-08-01T00:21:36Z",
-            "url": "https://politicalwire.com/2026/07/31/bond-sell-off-sent-warning-on-feds-credibility/",
-            "sentiment_score": -0.1492,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Moves to Give Mutual Banks More Flexibility to Raise Capital",
-            "description": "The Federal Reserve is seeking comment on a proposal that it said would modernize rules for mutual banking organizations and increase their flexibility to raise capital. The proposal would update rules that have not been changed since they were established in…",
-            "source": "pymnts.com",
-            "published_at": "2026-08-01T00:06:28Z",
-            "url": "https://www.pymnts.com/news/banking/2026/fed-moves-to-give-mutual-banks-more-flexibility-to-raise-capital/",
-            "sentiment_score": 0.4519,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed study: AI’s slow productivity story fits a century-old historical pattern",
-            "description": "New research from the Federal Reserve Bank of St. Louis, analyzing nearly 490,000 corporate earnings calls, confirms what official data has been showing for three years: Artificial intelligence has not yet produced a measurable bump in aggregate productivity.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:52:59Z",
-            "url": "https://biztoc.com/x/9ebad0f95bd343c7",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week | Warsh’s Waiting Game, EU Merger Rules, Robotic Surgeons",
-            "description": "This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:20:37Z",
-            "url": "https://biztoc.com/x/fcf032b2f653853a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh considering reducing number of Fed meetings, NYT reports",
-            "description": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank’s scheduled policy meetings, the New York Times reported Friday.\nWarsh raised the proposal to change the frequency of meetings at this week’s gathering of the rate-…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T22:52:10Z",
-            "url": "https://biztoc.com/x/61c047f6cf6a77ca",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1023,
+        "average_score": 0.0916,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Dollar logs its worst week in over 3 months amid Fed doubts",
@@ -1692,20 +1742,10 @@
             "url": "https://www.coindesk.com/markets/2026/07/31/bitcoin-flat-near-usd64-000-as-kospi-s-record-17-surge-leaves-crypto-untouched",
             "sentiment_score": -0.0888,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Yen Intervention on Watch; Korean Stocks Jump by Record | The Asia Trade 7/31/2026",
-            "description": "\"Bloomberg: The Asia Trade\" brings you everything you need to know to get ahead as the trading day begins in Asia. Bloomberg ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T05:25:36Z",
-            "url": "https://biztoc.com/x/aa160f5f5b194f8e",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0814,
+      "net_score": 0.0497,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1736,7 +1776,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=29.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-02T06:47:36.041040+00:00"
+    "generated_at": "2026-08-02T11:39:36.976240+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1772,10 +1812,140 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0209,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1413,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "BofA’s Hartnett calls Fed ’nakedly dovish,’ urges retreat from risk assets",
+            "description": "Investing.com - Bank of America strategist Michael Hartnett is urging investors to rotate away from risk assets, warning that a Federal Reserve he characterizes as \"nakedly dovish\" will force financial conditions to keep tightening until a far more aggressive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:43:41Z",
+            "url": "https://biztoc.com/x/766dbd8cfbcf34b2",
+            "sentiment_score": -0.0546,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street week ahead: monthly jobs report, McDonald's and SpaceX earnings",
+            "description": "Earnings from big U.S. companies and closely-watched jobs reports are among the key updates for Wall Street this week",
+            "source": "Abcnews.com",
+            "published_at": "2026-08-01T10:33:47Z",
+            "url": "https://abcnews.com/Business/wireStory/wall-street-week-ahead-monthly-jobs-report-mcdonalds-135282372",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top HBCUs: 20 Historically Black Colleges That Set Grads Up For Success",
+            "description": "A new Forbes list ranks the top 10 private and 10 public HBCUs based on students' outcomes and return on investment.",
+            "source": "Forbes",
+            "published_at": "2026-08-01T10:30:00Z",
+            "url": "https://www.forbes.com/sites/asia-alexander/2026/08/01/top-hbcus-20-historically-black-colleges-universities-that-set-grads-up-for-success/",
+            "sentiment_score": 0.53,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:14:02Z",
+            "url": "https://biztoc.com/x/11dfb0e64027bd88",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.10% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-410-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-415-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
+            "description": "By Fabiola Arámburo and David Lawder Aug 1 (Reuters) - The U.S.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T09:20:01Z",
+            "url": "https://finance.yahoo.com/markets/currencies/articles/us-treasury-undertakes-intervention-yen-003009552.html",
+            "sentiment_score": 0.3796,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs",
+            "description": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs.\nAt its most recent meeting on Wednesday, the Federal Reserve voted to leave interest rates unchanged at 3.50% to 3.75%. Bu…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T08:12:54Z",
+            "url": "https://biztoc.com/x/854fb0b8006d5511",
+            "sentiment_score": -0.2085,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Q2 2026 GDP Slows, Implications for Rental Housing Demand",
+            "description": "Q2 2026 GDP slowdown signals steady rental housing demand, but inflation and income pressure could reshape multifamily performance.",
+            "source": "Credaily.com",
+            "published_at": "2026-08-01T08:10:18Z",
+            "url": "https://www.credaily.com/briefs/q2-2026-gdp-slows-implications-for-rental-housing-demand/",
+            "sentiment_score": -0.2299,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A slowing economy, a wider war, a smarter AI: stories that could shape what's next",
+            "description": "With the US midterm elections just four months away, a prolonged slowdown would increase pressure on Trump to revive growth even as the Federal Reserve keeps interest rates unchanged and the Iran conflict continues to weigh on energy markets.",
+            "source": "Livemint",
+            "published_at": "2026-08-01T08:04:59Z",
+            "url": "https://www.livemint.com/opinion/online-views/us-economy-west-asia-war-federal-reserve-rate-move-ai-models-11785563204200.html",
+            "sentiment_score": 0.0769,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far - AP News",
+            "description": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so farAP News Trump says Fed Chair Warsh 'would love' to lower interest rates. He might push to raise them insteadYahoo Finance Trump stands by his 'brilliant' Fed pi…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-01T07:32:19Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184798336",
+            "sentiment_score": -0.1435,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This",
+            "description": "It's been a rough few weeks for the stock market. Surging oil prices and the tech sell-off continue to plague Wall Street, and although the Federal Reserve chose to hold interest rates steady in July, any future rate hikes could potentially add fuel to the fi…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T07:12:34Z",
+            "url": "https://biztoc.com/x/fd8239b8872bbd69",
+            "sentiment_score": 0.0131,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far",
@@ -1908,6 +2078,16 @@
           },
           {
             "currency": "USD",
+            "title": "Jim Cramer warns AI investors about hidden leverage trap",
+            "description": "Jim Cramer urged investors to stop using borrowed money for artificial intelligence stocks as U.S. margin debt climbed above $1.5 trillion. A lot of the bigg...",
+            "source": "TheStreet",
+            "published_at": "2026-08-01T03:07:00Z",
+            "url": "https://www.thestreet.com/investing/jim-cramer-warns-ai-investors-about-hidden-leverage-trap",
+            "sentiment_score": -0.3273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
             "title": "Scott Bessent's carelessly exposed 'To Do' list reveals multibillion-dollar scheme",
             "description": "A photographer snapped a photo over Treasury Secretary Scott Bessent's shoulder that revealed a plan hours before a notable currency jump.During a Trump Cabinet meeting at Camp David on Friday, Reuters news photographer Daniel Heuer captured Bessent's jotting…",
             "source": "Raw Story",
@@ -1935,150 +2115,10 @@
             "url": "https://biztoc.com/x/c462be3316c3946f",
             "sentiment_score": -0.053,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen through purchases - FT",
-            "description": "Investing.com -- The U.S. Treasury intervened in currency markets on Friday by purchasing yen, joining Japan's efforts to support the currency from near four-decade lows, the Financial Times reported.\nThe Federal Reserve Bank of New York sold euros and purcha…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T02:25:59Z",
-            "url": "https://biztoc.com/x/ef3eaef87b6cf452",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Federal Reserve stuck in limbo",
-            "description": "Kevin Warsh’s restraint on issuing guidance is exposing deeper structural cracks at the central bank, Jai Kedia writes.",
-            "source": "Livemint",
-            "published_at": "2026-08-01T02:13:17Z",
-            "url": "https://www.livemint.com/opinion/a-federal-reserve-stuck-in-limbo-11785550288860.html",
-            "sentiment_score": -0.257,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan’s stock market is facing these 3 hurdles in August",
-            "description": "Investing.com -- Japanese equities face three major hurdles in August, including higher oil prices, a more hawkish Federal Reserve and the possible unwinding of crowded equity and foreign-exchange positions, Bank of America strategists said.\nBofA said the rec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:56:01Z",
-            "url": "https://biztoc.com/x/6f66851ec0820c78",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh proposes reducing number of Federal Reserve policy meetings: Report",
-            "description": "Fed Chair Kevin Warsh has proposed reducing the number of scheduled Federal Reserve policy meetings, according to a New York Times report.",
-            "source": "BusinessLine",
-            "published_at": "2026-08-01T01:36:56Z",
-            "url": "https://www.thehindubusinessline.com/money-and-banking/fed-chair-kevin-warsh-proposes-reducing-number-of-federal-reserve-policy-meetings-report/article71293396.ece",
-            "sentiment_score": 0.0772,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloff",
-            "description": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloffsundayguardianlive.com",
-            "source": "The Sunday Guardian",
-            "published_at": "2026-08-01T01:34:13Z",
-            "url": "https://sundayguardianlive.com/business/nasdaq-future-today-live-nasdaq-jumps-12-as-amazon-surges-13-tech-stocks-lead-wall-street-higher-oil-prices-rises-after-julys-sharp-selloff-heres-what-investors-should-know-250749/",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, report says",
-            "description": "The Federal Reserve Bank of New York conducted a sale of euros to ⁠buy yen on behalf of the Treasury ⁠through Goldman Sachs and Morgan Stanley, the Financial Times reported.",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:23:53Z",
-            "url": "https://biztoc.com/x/b9433eebd0e1eeac",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "The United States Treasury intervened in yen exchange rates on Friday.  This action supported the Japanese currency through outright purchases by the Treasury.  The Federal Reserve Bank of New York conducted a sale of euros.  This sale was done to buy yen on …",
-            "source": "The Times of India",
-            "published_at": "2026-08-01T00:40:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports/articleshow/132779315.cms",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened in yen exchange rates on Friday to support the Japanese currency through outright purchases, the Financial Times reported, citing people familiar with the matter.The Federal Reserve Bank of New York conducted a sale of e…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports-6292256",
-            "sentiment_score": 0.3043,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened to support the yen on Friday through outright purchases, the Financial Times reported, joining Japan in its efforts to boost the currency from near 40-year lows.The Federal Reserve Bank of New York conducted a sale of eu…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-intervenes-support-yen-after-japan-steps-in-ft-reports-6292256",
-            "sentiment_score": 0.6001,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond Sell-Off Sent Warning On Fed’s Credibility",
-            "description": "“A top Federal Reserve official has warned this week’s sell-off in U.S. Treasuries is a signal that the central bank must earn its ‘credibility’ on fighting inflation by backing up its rhetoric with interest rate rises,” the Financial Times reports. Said St. …",
-            "source": "Politicalwire.com",
-            "published_at": "2026-08-01T00:21:36Z",
-            "url": "https://politicalwire.com/2026/07/31/bond-sell-off-sent-warning-on-feds-credibility/",
-            "sentiment_score": -0.1492,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Moves to Give Mutual Banks More Flexibility to Raise Capital",
-            "description": "The Federal Reserve is seeking comment on a proposal that it said would modernize rules for mutual banking organizations and increase their flexibility to raise capital. The proposal would update rules that have not been changed since they were established in…",
-            "source": "pymnts.com",
-            "published_at": "2026-08-01T00:06:28Z",
-            "url": "https://www.pymnts.com/news/banking/2026/fed-moves-to-give-mutual-banks-more-flexibility-to-raise-capital/",
-            "sentiment_score": 0.4519,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed study: AI’s slow productivity story fits a century-old historical pattern",
-            "description": "New research from the Federal Reserve Bank of St. Louis, analyzing nearly 490,000 corporate earnings calls, confirms what official data has been showing for three years: Artificial intelligence has not yet produced a measurable bump in aggregate productivity.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:52:59Z",
-            "url": "https://biztoc.com/x/9ebad0f95bd343c7",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week | Warsh’s Waiting Game, EU Merger Rules, Robotic Surgeons",
-            "description": "This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:20:37Z",
-            "url": "https://biztoc.com/x/fcf032b2f653853a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh considering reducing number of Fed meetings, NYT reports",
-            "description": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank’s scheduled policy meetings, the New York Times reported Friday.\nWarsh raised the proposal to change the frequency of meetings at this week’s gathering of the rate-…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T22:52:10Z",
-            "url": "https://biztoc.com/x/61c047f6cf6a77ca",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0986,
+      "net_score": -0.0218,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2109,7 +2149,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-02T06:47:36.041040+00:00"
+    "generated_at": "2026-08-02T11:39:36.976240+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2118,10 +2158,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1181,
-        "label": "บวกเล็กน้อย",
-        "article_count": 9,
+        "average_score": 0.0276,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 10,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Mark Cuban, Michael Burry raise the same red flag warning over giant US sector — is your nest egg at risk?",
+            "description": "“This is so analogous to the dot-com burst.”",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T11:30:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/mark-cuban-michael-burry-raise-113000465.html",
+            "sentiment_score": -0.3796,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "XAU",
             "title": "Eldorado Gold Q2 Earnings Call Highlights",
@@ -2215,10 +2265,140 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0209,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1413,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "BofA’s Hartnett calls Fed ’nakedly dovish,’ urges retreat from risk assets",
+            "description": "Investing.com - Bank of America strategist Michael Hartnett is urging investors to rotate away from risk assets, warning that a Federal Reserve he characterizes as \"nakedly dovish\" will force financial conditions to keep tightening until a far more aggressive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:43:41Z",
+            "url": "https://biztoc.com/x/766dbd8cfbcf34b2",
+            "sentiment_score": -0.0546,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street week ahead: monthly jobs report, McDonald's and SpaceX earnings",
+            "description": "Earnings from big U.S. companies and closely-watched jobs reports are among the key updates for Wall Street this week",
+            "source": "Abcnews.com",
+            "published_at": "2026-08-01T10:33:47Z",
+            "url": "https://abcnews.com/Business/wireStory/wall-street-week-ahead-monthly-jobs-report-mcdonalds-135282372",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top HBCUs: 20 Historically Black Colleges That Set Grads Up For Success",
+            "description": "A new Forbes list ranks the top 10 private and 10 public HBCUs based on students' outcomes and return on investment.",
+            "source": "Forbes",
+            "published_at": "2026-08-01T10:30:00Z",
+            "url": "https://www.forbes.com/sites/asia-alexander/2026/08/01/top-hbcus-20-historically-black-colleges-universities-that-set-grads-up-for-success/",
+            "sentiment_score": 0.53,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T10:14:02Z",
+            "url": "https://biztoc.com/x/11dfb0e64027bd88",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.10% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-410-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 1, 2026: Best CD account earns 4.15% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 1, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates tod...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-1-2026-best-cd-account-earns-415-apy-100000014.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Charting the Global Economy: Central Banks Hold the Line",
+            "description": "Monetary policymakers from the US and the UK to Japan left interest rates unchanged this week as they assessed renewed inflation risks from higher energy costs and war in the Middle East.",
+            "source": "Financial Post",
+            "published_at": "2026-08-01T09:28:28Z",
+            "url": "https://financialpost.com/pmn/business-pmn/charting-the-global-economy-central-banks-hold-the-line",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
+            "description": "By Fabiola Arámburo and David Lawder Aug 1 (Reuters) - The U.S.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-01T09:20:01Z",
+            "url": "https://finance.yahoo.com/markets/currencies/articles/us-treasury-undertakes-intervention-yen-003009552.html",
+            "sentiment_score": 0.3796,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs",
+            "description": "Kevin Warsh Did Not Impress the Bond Market -- 30-Year Yields Are Up to 5.2%. Here's What This Might Mean for Investors in These 2 ETFs.\nAt its most recent meeting on Wednesday, the Federal Reserve voted to leave interest rates unchanged at 3.50% to 3.75%. Bu…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T08:12:54Z",
+            "url": "https://biztoc.com/x/854fb0b8006d5511",
+            "sentiment_score": -0.2085,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Q2 2026 GDP Slows, Implications for Rental Housing Demand",
+            "description": "Q2 2026 GDP slowdown signals steady rental housing demand, but inflation and income pressure could reshape multifamily performance.",
+            "source": "Credaily.com",
+            "published_at": "2026-08-01T08:10:18Z",
+            "url": "https://www.credaily.com/briefs/q2-2026-gdp-slows-implications-for-rental-housing-demand/",
+            "sentiment_score": -0.2299,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A slowing economy, a wider war, a smarter AI: stories that could shape what's next",
+            "description": "With the US midterm elections just four months away, a prolonged slowdown would increase pressure on Trump to revive growth even as the Federal Reserve keeps interest rates unchanged and the Iran conflict continues to weigh on energy markets.",
+            "source": "Livemint",
+            "published_at": "2026-08-01T08:04:59Z",
+            "url": "https://www.livemint.com/opinion/online-views/us-economy-west-asia-war-federal-reserve-rate-move-ai-models-11785563204200.html",
+            "sentiment_score": 0.0769,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far - AP News",
+            "description": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so farAP News Trump says Fed Chair Warsh 'would love' to lower interest rates. He might push to raise them insteadYahoo Finance Trump stands by his 'brilliant' Fed pi…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-01T07:32:19Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=184798336",
+            "sentiment_score": -0.1435,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fear Is Driving the Stock Market. Warren Buffett Has 6 Words for Moments Exactly Like This",
+            "description": "It's been a rough few weeks for the stock market. Surging oil prices and the tech sell-off continue to plague Wall Street, and although the Federal Reserve chose to hold interest rates steady in July, any future rate hikes could potentially add fuel to the fi…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-01T07:12:34Z",
+            "url": "https://biztoc.com/x/fd8239b8872bbd69",
+            "sentiment_score": 0.0131,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump wanted interest rate cuts to be 'Rocket Fuel' for the economy. He is losing that fight so far",
@@ -2351,6 +2531,16 @@
           },
           {
             "currency": "USD",
+            "title": "Jim Cramer warns AI investors about hidden leverage trap",
+            "description": "Jim Cramer urged investors to stop using borrowed money for artificial intelligence stocks as U.S. margin debt climbed above $1.5 trillion. A lot of the bigg...",
+            "source": "TheStreet",
+            "published_at": "2026-08-01T03:07:00Z",
+            "url": "https://www.thestreet.com/investing/jim-cramer-warns-ai-investors-about-hidden-leverage-trap",
+            "sentiment_score": -0.3273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
             "title": "Scott Bessent's carelessly exposed 'To Do' list reveals multibillion-dollar scheme",
             "description": "A photographer snapped a photo over Treasury Secretary Scott Bessent's shoulder that revealed a plan hours before a notable currency jump.During a Trump Cabinet meeting at Camp David on Friday, Reuters news photographer Daniel Heuer captured Bessent's jotting…",
             "source": "Raw Story",
@@ -2378,150 +2568,10 @@
             "url": "https://biztoc.com/x/c462be3316c3946f",
             "sentiment_score": -0.053,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen through purchases - FT",
-            "description": "Investing.com -- The U.S. Treasury intervened in currency markets on Friday by purchasing yen, joining Japan's efforts to support the currency from near four-decade lows, the Financial Times reported.\nThe Federal Reserve Bank of New York sold euros and purcha…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T02:25:59Z",
-            "url": "https://biztoc.com/x/ef3eaef87b6cf452",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Federal Reserve stuck in limbo",
-            "description": "Kevin Warsh’s restraint on issuing guidance is exposing deeper structural cracks at the central bank, Jai Kedia writes.",
-            "source": "Livemint",
-            "published_at": "2026-08-01T02:13:17Z",
-            "url": "https://www.livemint.com/opinion/a-federal-reserve-stuck-in-limbo-11785550288860.html",
-            "sentiment_score": -0.257,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan’s stock market is facing these 3 hurdles in August",
-            "description": "Investing.com -- Japanese equities face three major hurdles in August, including higher oil prices, a more hawkish Federal Reserve and the possible unwinding of crowded equity and foreign-exchange positions, Bank of America strategists said.\nBofA said the rec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:56:01Z",
-            "url": "https://biztoc.com/x/6f66851ec0820c78",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh proposes reducing number of Federal Reserve policy meetings: Report",
-            "description": "Fed Chair Kevin Warsh has proposed reducing the number of scheduled Federal Reserve policy meetings, according to a New York Times report.",
-            "source": "BusinessLine",
-            "published_at": "2026-08-01T01:36:56Z",
-            "url": "https://www.thehindubusinessline.com/money-and-banking/fed-chair-kevin-warsh-proposes-reducing-number-of-federal-reserve-policy-meetings-report/article71293396.ece",
-            "sentiment_score": 0.0772,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloff",
-            "description": "Nasdaq Future Today Live: Nasdaq Jumps 1.2% as Amazon Surges 13%, Tech Stocks Lead Wall Street Higher & Oil Prices Rises After July’s Sharp Selloffsundayguardianlive.com",
-            "source": "The Sunday Guardian",
-            "published_at": "2026-08-01T01:34:13Z",
-            "url": "https://sundayguardianlive.com/business/nasdaq-future-today-live-nasdaq-jumps-12-as-amazon-surges-13-tech-stocks-lead-wall-street-higher-oil-prices-rises-after-julys-sharp-selloff-heres-what-investors-should-know-250749/",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, report says",
-            "description": "The Federal Reserve Bank of New York conducted a sale of euros to ⁠buy yen on behalf of the Treasury ⁠through Goldman Sachs and Morgan Stanley, the Financial Times reported.",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-01T01:23:53Z",
-            "url": "https://biztoc.com/x/b9433eebd0e1eeac",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "The United States Treasury intervened in yen exchange rates on Friday.  This action supported the Japanese currency through outright purchases by the Treasury.  The Federal Reserve Bank of New York conducted a sale of euros.  This sale was done to buy yen on …",
-            "source": "The Times of India",
-            "published_at": "2026-08-01T00:40:16Z",
-            "url": "https://economictimes.indiatimes.com/news/international/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports/articleshow/132779315.cms",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury undertakes intervention in yen market, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened in yen exchange rates on Friday to support the Japanese currency through outright purchases, the Financial Times reported, citing people familiar with the matter.The Federal Reserve Bank of New York conducted a sale of e…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-undertakes-intervention-in-yen-market-ft-reports-6292256",
-            "sentiment_score": 0.3043,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "July 31 : The U.S. Treasury intervened to support the yen on Friday through outright purchases, the Financial Times reported, joining Japan in its efforts to boost the currency from near 40-year lows.The Federal Reserve Bank of New York conducted a sale of eu…",
-            "source": "CNA",
-            "published_at": "2026-08-01T00:28:13Z",
-            "url": "https://www.channelnewsasia.com/business/us-treasury-intervenes-support-yen-after-japan-steps-in-ft-reports-6292256",
-            "sentiment_score": 0.6001,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond Sell-Off Sent Warning On Fed’s Credibility",
-            "description": "“A top Federal Reserve official has warned this week’s sell-off in U.S. Treasuries is a signal that the central bank must earn its ‘credibility’ on fighting inflation by backing up its rhetoric with interest rate rises,” the Financial Times reports. Said St. …",
-            "source": "Politicalwire.com",
-            "published_at": "2026-08-01T00:21:36Z",
-            "url": "https://politicalwire.com/2026/07/31/bond-sell-off-sent-warning-on-feds-credibility/",
-            "sentiment_score": -0.1492,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Moves to Give Mutual Banks More Flexibility to Raise Capital",
-            "description": "The Federal Reserve is seeking comment on a proposal that it said would modernize rules for mutual banking organizations and increase their flexibility to raise capital. The proposal would update rules that have not been changed since they were established in…",
-            "source": "pymnts.com",
-            "published_at": "2026-08-01T00:06:28Z",
-            "url": "https://www.pymnts.com/news/banking/2026/fed-moves-to-give-mutual-banks-more-flexibility-to-raise-capital/",
-            "sentiment_score": 0.4519,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed study: AI’s slow productivity story fits a century-old historical pattern",
-            "description": "New research from the Federal Reserve Bank of St. Louis, analyzing nearly 490,000 corporate earnings calls, confirms what official data has been showing for three years: Artificial intelligence has not yet produced a measurable bump in aggregate productivity.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:52:59Z",
-            "url": "https://biztoc.com/x/9ebad0f95bd343c7",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week | Warsh’s Waiting Game, EU Merger Rules, Robotic Surgeons",
-            "description": "This week, Harvard professor and former Obama economic adviser Jason Furman discusses the Fed rate decision and the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T23:20:37Z",
-            "url": "https://biztoc.com/x/fcf032b2f653853a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh considering reducing number of Fed meetings, NYT reports",
-            "description": "Federal Reserve Chairman Kevin Warsh is considering reducing the frequency of the central bank’s scheduled policy meetings, the New York Times reported Friday.\nWarsh raised the proposal to change the frequency of meetings at this week’s gathering of the rate-…",
-            "source": "Biztoc.com",
-            "published_at": "2026-07-31T22:52:10Z",
-            "url": "https://biztoc.com/x/61c047f6cf6a77ca",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0972,
+      "net_score": -0.1137,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2537,8 +2587,8 @@
       "rsi_value": 44.9,
       "rsi_signal": "โซนกลาง (RSI=44.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 15.14201,
-      "suggested_sl_distance": 22.71301,
+      "atr_value": 15.14203,
+      "suggested_sl_distance": 22.71304,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -2552,6 +2602,6 @@
       "confidence": "-",
       "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=44.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-02T06:47:36.041040+00:00"
+    "generated_at": "2026-08-02T11:39:36.976240+00:00"
   }
 ]
