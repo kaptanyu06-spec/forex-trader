@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0138,
+        "average_score": -0.0364,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 28,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "As The Stock Market Soars, European Central Bank Warns Climate Change Threatens Global Economy",
+            "description": "It is my considered opinion that all stock market investors are stark raving mad. As wildfires cause devastation on almost every continent and water levels in the Danube are too low to cool nuclear power plants in Hungary, stocks in New York hit an all time h…",
+            "source": "CleanTechnica",
+            "published_at": "2026-08-04T21:09:34Z",
+            "url": "https://cleantechnica.com/2026/08/04/as-the-stock-market-soars-european-central-bank-warns-climate-change-threatens-global-economy/",
+            "sentiment_score": -0.5312,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "NATO units forget they’re not the EU",
@@ -39,6 +49,26 @@
             "url": "https://pypi.org/project/currencyconverter/0.18.21/",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar Pressured by Strength in Stocks and Lower Crude Prices",
+            "description": "The dollar index (DXY00 ) is down by -0.06% today. The dollar is under pressure today as hopes for a deal to reopen the Strait of Hormuz have boosted stocks...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-04T14:36:16Z",
+            "url": "https://www.barchart.com/story/news/3638769/dollar-pressured-by-strength-in-stocks-and-lower-crude-prices",
+            "sentiment_score": -0.2472,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "S&P 500 Posts a New Record High on Strong Tech Earnings",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.73%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +1.03%, and the Nasdaq 100 Index ($IUXX ) (QQQ )...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-04T14:16:55Z",
+            "url": "https://www.barchart.com/story/news/3638234/s-p-500-posts-a-new-record-high-on-strong-tech-earnings",
+            "sentiment_score": 0.3574,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "EUR",
@@ -279,24 +309,124 @@
             "url": "https://cryptobriefing.com/iran-conflict-dampens-euro-zone-consumption-ecb-reports/",
             "sentiment_score": -0.2906,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Sensex, Nifty gap up on Iran diplomacy, crude slide; financials lead, pharma drags",
-            "description": "Sensex, which closed at 78,094.64 on Friday, opened at 78,883.34; the Nifty 50, which ended the previous session at 24,383.60, opened at 24,572.70",
-            "source": "BusinessLine",
-            "published_at": "2026-08-03T04:21:48Z",
-            "url": "https://www.thehindubusinessline.com/markets/stock-markets/sensex-nifty-gap-up-on-iran-diplomacy-crude-slide-financials-lead-pharma-drags/article71299845.ece",
-            "sentiment_score": -0.1608,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0732,
+        "average_score": 0.176,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian Stocks Set to Advance on Hormuz Deal Hopes: Markets Wrap",
+            "description": "Asian stocks were set to track Wall Street higher as optimism over a possible interim deal between Washington and Tehran eased concerns about energy supplies and lifted US stocks to fresh records.",
+            "source": "Financial Post",
+            "published_at": "2026-08-04T22:32:58Z",
+            "url": "https://financialpost.com/pmn/business-pmn/asian-stocks-set-to-advance-on-hormuz-deal-hopes-markets-wrap",
+            "sentiment_score": 0.5483,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fighting Gravity in Tokyo",
+            "description": "This post Fighting Gravity in Tokyo appeared first on Daily Reckoning.\nA debt reckoning approaches...\nThe post Fighting Gravity in Tokyo appeared first on Daily Reckoning.",
+            "source": "Dailyreckoning.com",
+            "published_at": "2026-08-04T22:00:39Z",
+            "url": "https://dailyreckoning.com/fighting-gravity-in-tokyo/",
+            "sentiment_score": -0.4802,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: ASX to rise after Trump official says deal with Iran may happen 'tomorrow'",
+            "description": "The Australian share market is set for another day of gains after US Treasury Secretary Scott Bessent said a deal to reopen the Strait of Hormuz could happen by \"tomorrow\". Follow live.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-08-04T21:59:16Z",
+            "url": "https://www.abc.net.au/news/2026-08-05/asx-markets-business-live-news/106997660",
+            "sentiment_score": 0.1979,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists",
+            "description": "Critics of Kevin Warsh’s new approach to monetary policy have fixed upon a strange idol: the reaction function.\nThe post Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-08-04T21:43:03Z",
+            "url": "https://www.breitbart.com/economy/2026/08/04/breitbart-business-digest-why-warsh-should-not-cave-to-the-reaction-function-fundamentalists/",
+            "sentiment_score": -0.1376,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: The only way is up",
+            "description": "ORLANDO, Florida, Aug 3 : World stocks leaped to record highs on Tuesday, boosted by a relentless stream of strong U.S. and global earnings, with another slump in oil prices on Middle East peace hopes pushing down on bond yields and boosting investor sentimen…",
+            "source": "CNA",
+            "published_at": "2026-08-04T21:02:40Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-only-way-up-6299066",
+            "sentiment_score": 0.2786,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Banco Santander, S.A., of Madrid, Spain, and Santander Holdings USA, Inc., of",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Coastal Bend Bancshares, Inc., of Corpus Christi, Texas, to acquire First Nat",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by FS Bancorp, Inc., of Mountlake Terrace, Washington, to merge with Pacific Wes",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks: Dow, S&P 500 close at record highs as AI earnings impress, oil prices tumble",
+            "description": "Stock markets soared to all-time highs on Tuesday, fueled by stellar earnings from corporations. AI-focused entities like Palantir and the esteemed Caterpillar delivered eye-popping results. The drop in oil prices and Treasury yields created a favorable backd…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T20:09:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-dow-sp-500-close-at-record-highs-as-ai-earnings-impress-oil-prices-tumble/articleshow/132872181.cms",
+            "sentiment_score": 0.5627,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "New Crypto Presale: Pepeto DeFi Tools Approach Launch While Ethereum Price Targets $6,000",
+            "description": "Dubai, UAE, Aug. 04, 2026 (GLOBE NEWSWIRE) -- Pepeto, the viral new crypto presale running on Ethereum, has moved its DeFi suite one step nearer to launch. The wallets filling it are chasing a pattern this market has produced once before, the Floki story, whe…",
+            "source": "GlobeNewswire",
+            "published_at": "2026-08-04T19:47:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/08/04/3338758/0/en/New-Crypto-Presale-Pepeto-DeFi-Tools-Approach-Launch-While-Ethereum-Price-Targets-6-000.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+            "description": "On Tuesday, US Treasury yields saw a decline following a sharp drop in oil prices. As optimism regarding a resolution to the Iran conflict grew, inflation worries lessened. Consequently, traders adjusted their predictions for a Federal Reserve interest rate i…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T19:11:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-fall-as-oil-retreats-on-iran-deal-hopes-fed-hike-bets-ease/articleshow/132871326.cms",
+            "sentiment_score": 0.5908,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FEDS Note: Examining the Sensitivity of Regional Banks to Macroeconomic Shocks",
@@ -466,144 +596,14 @@
             "url": "https://finance.yahoo.com/energy/articles/broader-crude-oil-price-weakness-160903037.html",
             "sentiment_score": -0.4801,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "APA Corp. (APA) Declined Despite Meeting Expectations",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:07:52Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/apa-corp-apa-declined-despite-160752472.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotchkis & Wiley Mid-Cap Value Fund is Bullish on Marriott Vacations Worldwide (VAC)",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:06:23Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/hotchkis-wiley-mid-cap-value-160623816.html",
-            "sentiment_score": 0.34,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Humana’s (HUM) Path to Recovery and Growth",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:04:56Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-path-recovery-growth-160456553.html",
-            "sentiment_score": 0.3693,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Centene Corp. (CNC) Surged on Earnings Beat and Improved Outlook",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:03:39Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/centene-corp-cnc-surged-earnings-160339963.html",
-            "sentiment_score": 0.4357,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DALIO: AI BUBBLE REACHING GREAT DEPRESSION TERRITORY...",
-            "description": "“You see a lot of people getting wealthy but you can’t spend the wealth,” the Bridgewater Associates founder told The Diary of a CEO.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:00:15Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-ai-bubble-nearing-070000246.html",
-            "sentiment_score": 0.2642,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kevin Warsh told Wall Street he’d be sharing less—Goldman Sachs fears a void of Fed facts will only amplify misinformation and instability",
-            "description": "\"Even without providing explicit forward guidance, central bankers still have an obligation to explain the economic framework behind their decisions. On that score, this press conference fell well short,\" chimed Professor Jeremy Siegel.",
-            "source": "Fortune",
-            "published_at": "2026-08-04T16:00:06Z",
-            "url": "https://fortune.com/2026/08/04/kevin-warsh-forward-guidance-goldman-sachs-wall-street-framework-inflation/",
-            "sentiment_score": -0.1408,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets",
-            "description": "European involvement in mine-clearing could stabilize oil markets, reduce geopolitical tensions, and influence global economic conditions.\nThe post Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets appea…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:58:55Z",
-            "url": "https://cryptobriefing.com/iran-european-nations-hormuz-mine-clearing/",
-            "sentiment_score": 0.2148,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention",
-            "description": "Expanding the FIMA facility could stabilize global markets by easing liquidity pressures, benefiting risk assets like cryptocurrencies.\nThe post US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention appeared first …",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:49:38Z",
-            "url": "https://cryptobriefing.com/bessent-fima-expansion-crypto-liquidity/",
-            "sentiment_score": -0.0917,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Chlor-alkali Market Tightening Drives Olin Corp. (OLN) Stock Recovery",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T15:46:11Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/chlor-alkali-market-tightening-drives-154611702.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Federal Reserve goes Wacko",
-            "description": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Reason\n- Challenge\n- Request ID\n- a25ea71e29efbdc9\n- Status Code\n- 403\nFor help please vi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:39:25Z",
-            "url": "https://biztoc.com/x/c9fee923a0bdc56f",
-            "sentiment_score": 0.2871,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields drop as oil falls on Iran deal optimism",
-            "description": "Stocks surge as stellar start to August sees S&P 500, Dow back at record levels\nInvesting.com -- U.S. Treasury yields declined Tuesday as oil prices fell sharply amid growing hopes for an agreement to end the Iran war, prompting traders to reduce expectations…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:38:11Z",
-            "url": "https://biztoc.com/x/d25997bfc1b37a42",
-            "sentiment_score": 0.513,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-            "description": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or …",
-            "source": "Newyorkfed.org",
-            "published_at": "2026-08-04T15:25:56Z",
-            "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-            "sentiment_score": -0.0368,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "The U.S. Treasury bought yen on Friday to support the battered Japanese currency, the Financial Times reported, marking Washington’s first yen-buying intervention with Tokyo in more than a decade as it languishes near 40-year lows. The Federal Reserve Bank of…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-04T15:25:33Z",
-            "url": "https://freerepublic.com/focus/f-news/4390559/posts",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.087,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.2124,
+      "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -612,25 +612,25 @@
       "price_now": 1.1558,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 63.2,
-      "rsi_signal": "โซนกลาง (RSI=63.2)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00084,
-      "suggested_sl_distance": 0.00127,
+      "rsi_value": 61.4,
+      "rsi_signal": "โซนกลาง (RSI=61.4)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00082,
+      "suggested_sl_distance": 0.00123,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=63.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-05T19:05:21.689512+00:00"
+    "generated_at": "2026-08-05T22:42:41.898290+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -639,10 +639,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1233,
+        "average_score": -0.14,
         "label": "ลบเล็กน้อย",
-        "article_count": 14,
+        "article_count": 17,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "U.S. Hits New Obstacle on Critical Mineral Security Course",
+            "description": "The race for critical metals and minerals has been heating up since President Trump took office, pitting the U.S. against many of its international allies. Yet while the federal government spends billions to build a position in critical minerals and challenge…",
+            "source": "OilPrice.com",
+            "published_at": "2026-08-04T22:00:00Z",
+            "url": "https://oilprice.com/Energy/Energy-General/US-Hits-New-Obstacle-on-Critical-Mineral-Security-Course.html",
+            "sentiment_score": -0.4052,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "As The Stock Market Soars, European Central Bank Warns Climate Change Threatens Global Economy",
+            "description": "It is my considered opinion that all stock market investors are stark raving mad. As wildfires cause devastation on almost every continent and water levels in the Danube are too low to cool nuclear power plants in Hungary, stocks in New York hit an all time h…",
+            "source": "CleanTechnica",
+            "published_at": "2026-08-04T21:09:34Z",
+            "url": "https://cleantechnica.com/2026/08/04/as-the-stock-market-soars-european-central-bank-warns-climate-change-threatens-global-economy/",
+            "sentiment_score": -0.5312,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "US, UK reaffirm support for stablecoins, tokenization in joint financial regulation talks",
+            "description": "In a July 8 meeting, US and UK regulators highlighted the implementation of the GENIUS Act, payment modernization and cross-border cooperation, reinforcing a shared framework for digital asset oversight.",
+            "source": "Cointelegraph",
+            "published_at": "2026-08-04T19:58:48Z",
+            "url": "https://cointelegraph.com/news/us-uk-deepen-crypto-regulatory-cooperation-genius-act-stablecoins",
+            "sentiment_score": 0.4611,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "GBP",
             "title": "Scott Bessent is using moves from his hedge fund days to prop up Japan’s yen—and America’s $40 trillion national debt",
@@ -786,10 +816,120 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0732,
+        "average_score": 0.176,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian Stocks Set to Advance on Hormuz Deal Hopes: Markets Wrap",
+            "description": "Asian stocks were set to track Wall Street higher as optimism over a possible interim deal between Washington and Tehran eased concerns about energy supplies and lifted US stocks to fresh records.",
+            "source": "Financial Post",
+            "published_at": "2026-08-04T22:32:58Z",
+            "url": "https://financialpost.com/pmn/business-pmn/asian-stocks-set-to-advance-on-hormuz-deal-hopes-markets-wrap",
+            "sentiment_score": 0.5483,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fighting Gravity in Tokyo",
+            "description": "This post Fighting Gravity in Tokyo appeared first on Daily Reckoning.\nA debt reckoning approaches...\nThe post Fighting Gravity in Tokyo appeared first on Daily Reckoning.",
+            "source": "Dailyreckoning.com",
+            "published_at": "2026-08-04T22:00:39Z",
+            "url": "https://dailyreckoning.com/fighting-gravity-in-tokyo/",
+            "sentiment_score": -0.4802,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: ASX to rise after Trump official says deal with Iran may happen 'tomorrow'",
+            "description": "The Australian share market is set for another day of gains after US Treasury Secretary Scott Bessent said a deal to reopen the Strait of Hormuz could happen by \"tomorrow\". Follow live.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-08-04T21:59:16Z",
+            "url": "https://www.abc.net.au/news/2026-08-05/asx-markets-business-live-news/106997660",
+            "sentiment_score": 0.1979,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists",
+            "description": "Critics of Kevin Warsh’s new approach to monetary policy have fixed upon a strange idol: the reaction function.\nThe post Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-08-04T21:43:03Z",
+            "url": "https://www.breitbart.com/economy/2026/08/04/breitbart-business-digest-why-warsh-should-not-cave-to-the-reaction-function-fundamentalists/",
+            "sentiment_score": -0.1376,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: The only way is up",
+            "description": "ORLANDO, Florida, Aug 3 : World stocks leaped to record highs on Tuesday, boosted by a relentless stream of strong U.S. and global earnings, with another slump in oil prices on Middle East peace hopes pushing down on bond yields and boosting investor sentimen…",
+            "source": "CNA",
+            "published_at": "2026-08-04T21:02:40Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-only-way-up-6299066",
+            "sentiment_score": 0.2786,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Banco Santander, S.A., of Madrid, Spain, and Santander Holdings USA, Inc., of",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Coastal Bend Bancshares, Inc., of Corpus Christi, Texas, to acquire First Nat",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by FS Bancorp, Inc., of Mountlake Terrace, Washington, to merge with Pacific Wes",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks: Dow, S&P 500 close at record highs as AI earnings impress, oil prices tumble",
+            "description": "Stock markets soared to all-time highs on Tuesday, fueled by stellar earnings from corporations. AI-focused entities like Palantir and the esteemed Caterpillar delivered eye-popping results. The drop in oil prices and Treasury yields created a favorable backd…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T20:09:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-dow-sp-500-close-at-record-highs-as-ai-earnings-impress-oil-prices-tumble/articleshow/132872181.cms",
+            "sentiment_score": 0.5627,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "New Crypto Presale: Pepeto DeFi Tools Approach Launch While Ethereum Price Targets $6,000",
+            "description": "Dubai, UAE, Aug. 04, 2026 (GLOBE NEWSWIRE) -- Pepeto, the viral new crypto presale running on Ethereum, has moved its DeFi suite one step nearer to launch. The wallets filling it are chasing a pattern this market has produced once before, the Floki story, whe…",
+            "source": "GlobeNewswire",
+            "published_at": "2026-08-04T19:47:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/08/04/3338758/0/en/New-Crypto-Presale-Pepeto-DeFi-Tools-Approach-Launch-While-Ethereum-Price-Targets-6-000.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+            "description": "On Tuesday, US Treasury yields saw a decline following a sharp drop in oil prices. As optimism regarding a resolution to the Iran conflict grew, inflation worries lessened. Consequently, traders adjusted their predictions for a Federal Reserve interest rate i…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T19:11:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-fall-as-oil-retreats-on-iran-deal-hopes-fed-hike-bets-ease/articleshow/132871326.cms",
+            "sentiment_score": 0.5908,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FEDS Note: Examining the Sensitivity of Regional Banks to Macroeconomic Shocks",
@@ -959,140 +1099,10 @@
             "url": "https://finance.yahoo.com/energy/articles/broader-crude-oil-price-weakness-160903037.html",
             "sentiment_score": -0.4801,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "APA Corp. (APA) Declined Despite Meeting Expectations",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:07:52Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/apa-corp-apa-declined-despite-160752472.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotchkis & Wiley Mid-Cap Value Fund is Bullish on Marriott Vacations Worldwide (VAC)",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:06:23Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/hotchkis-wiley-mid-cap-value-160623816.html",
-            "sentiment_score": 0.34,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Humana’s (HUM) Path to Recovery and Growth",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:04:56Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-path-recovery-growth-160456553.html",
-            "sentiment_score": 0.3693,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Centene Corp. (CNC) Surged on Earnings Beat and Improved Outlook",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:03:39Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/centene-corp-cnc-surged-earnings-160339963.html",
-            "sentiment_score": 0.4357,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DALIO: AI BUBBLE REACHING GREAT DEPRESSION TERRITORY...",
-            "description": "“You see a lot of people getting wealthy but you can’t spend the wealth,” the Bridgewater Associates founder told The Diary of a CEO.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:00:15Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-ai-bubble-nearing-070000246.html",
-            "sentiment_score": 0.2642,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kevin Warsh told Wall Street he’d be sharing less—Goldman Sachs fears a void of Fed facts will only amplify misinformation and instability",
-            "description": "\"Even without providing explicit forward guidance, central bankers still have an obligation to explain the economic framework behind their decisions. On that score, this press conference fell well short,\" chimed Professor Jeremy Siegel.",
-            "source": "Fortune",
-            "published_at": "2026-08-04T16:00:06Z",
-            "url": "https://fortune.com/2026/08/04/kevin-warsh-forward-guidance-goldman-sachs-wall-street-framework-inflation/",
-            "sentiment_score": -0.1408,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets",
-            "description": "European involvement in mine-clearing could stabilize oil markets, reduce geopolitical tensions, and influence global economic conditions.\nThe post Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets appea…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:58:55Z",
-            "url": "https://cryptobriefing.com/iran-european-nations-hormuz-mine-clearing/",
-            "sentiment_score": 0.2148,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention",
-            "description": "Expanding the FIMA facility could stabilize global markets by easing liquidity pressures, benefiting risk assets like cryptocurrencies.\nThe post US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention appeared first …",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:49:38Z",
-            "url": "https://cryptobriefing.com/bessent-fima-expansion-crypto-liquidity/",
-            "sentiment_score": -0.0917,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Chlor-alkali Market Tightening Drives Olin Corp. (OLN) Stock Recovery",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T15:46:11Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/chlor-alkali-market-tightening-drives-154611702.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Federal Reserve goes Wacko",
-            "description": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Reason\n- Challenge\n- Request ID\n- a25ea71e29efbdc9\n- Status Code\n- 403\nFor help please vi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:39:25Z",
-            "url": "https://biztoc.com/x/c9fee923a0bdc56f",
-            "sentiment_score": 0.2871,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields drop as oil falls on Iran deal optimism",
-            "description": "Stocks surge as stellar start to August sees S&P 500, Dow back at record levels\nInvesting.com -- U.S. Treasury yields declined Tuesday as oil prices fell sharply amid growing hopes for an agreement to end the Iran war, prompting traders to reduce expectations…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:38:11Z",
-            "url": "https://biztoc.com/x/d25997bfc1b37a42",
-            "sentiment_score": 0.513,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-            "description": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or …",
-            "source": "Newyorkfed.org",
-            "published_at": "2026-08-04T15:25:56Z",
-            "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-            "sentiment_score": -0.0368,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "The U.S. Treasury bought yen on Friday to support the battered Japanese currency, the Financial Times reported, marking Washington’s first yen-buying intervention with Tokyo in more than a decade as it languishes near 40-year lows. The Federal Reserve Bank of…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-04T15:25:33Z",
-            "url": "https://freerepublic.com/focus/f-news/4390559/posts",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.1965,
+      "net_score": -0.316,
       "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1102,14 +1112,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.34702,
+      "price_now": 1.34677,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 55.9,
-      "rsi_signal": "โซนกลาง (RSI=55.9)",
+      "rsi_value": 54.0,
+      "rsi_signal": "โซนกลาง (RSI=54.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00108,
-      "suggested_sl_distance": 0.00162,
+      "atr_value": 0.00101,
+      "suggested_sl_distance": 0.00152,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1123,7 +1133,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-05T19:05:21.689512+00:00"
+    "generated_at": "2026-08-05T22:42:41.898290+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1132,10 +1142,120 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0732,
+        "average_score": 0.176,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian Stocks Set to Advance on Hormuz Deal Hopes: Markets Wrap",
+            "description": "Asian stocks were set to track Wall Street higher as optimism over a possible interim deal between Washington and Tehran eased concerns about energy supplies and lifted US stocks to fresh records.",
+            "source": "Financial Post",
+            "published_at": "2026-08-04T22:32:58Z",
+            "url": "https://financialpost.com/pmn/business-pmn/asian-stocks-set-to-advance-on-hormuz-deal-hopes-markets-wrap",
+            "sentiment_score": 0.5483,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fighting Gravity in Tokyo",
+            "description": "This post Fighting Gravity in Tokyo appeared first on Daily Reckoning.\nA debt reckoning approaches...\nThe post Fighting Gravity in Tokyo appeared first on Daily Reckoning.",
+            "source": "Dailyreckoning.com",
+            "published_at": "2026-08-04T22:00:39Z",
+            "url": "https://dailyreckoning.com/fighting-gravity-in-tokyo/",
+            "sentiment_score": -0.4802,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: ASX to rise after Trump official says deal with Iran may happen 'tomorrow'",
+            "description": "The Australian share market is set for another day of gains after US Treasury Secretary Scott Bessent said a deal to reopen the Strait of Hormuz could happen by \"tomorrow\". Follow live.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-08-04T21:59:16Z",
+            "url": "https://www.abc.net.au/news/2026-08-05/asx-markets-business-live-news/106997660",
+            "sentiment_score": 0.1979,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists",
+            "description": "Critics of Kevin Warsh’s new approach to monetary policy have fixed upon a strange idol: the reaction function.\nThe post Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-08-04T21:43:03Z",
+            "url": "https://www.breitbart.com/economy/2026/08/04/breitbart-business-digest-why-warsh-should-not-cave-to-the-reaction-function-fundamentalists/",
+            "sentiment_score": -0.1376,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: The only way is up",
+            "description": "ORLANDO, Florida, Aug 3 : World stocks leaped to record highs on Tuesday, boosted by a relentless stream of strong U.S. and global earnings, with another slump in oil prices on Middle East peace hopes pushing down on bond yields and boosting investor sentimen…",
+            "source": "CNA",
+            "published_at": "2026-08-04T21:02:40Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-only-way-up-6299066",
+            "sentiment_score": 0.2786,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Banco Santander, S.A., of Madrid, Spain, and Santander Holdings USA, Inc., of",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Coastal Bend Bancshares, Inc., of Corpus Christi, Texas, to acquire First Nat",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by FS Bancorp, Inc., of Mountlake Terrace, Washington, to merge with Pacific Wes",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks: Dow, S&P 500 close at record highs as AI earnings impress, oil prices tumble",
+            "description": "Stock markets soared to all-time highs on Tuesday, fueled by stellar earnings from corporations. AI-focused entities like Palantir and the esteemed Caterpillar delivered eye-popping results. The drop in oil prices and Treasury yields created a favorable backd…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T20:09:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-dow-sp-500-close-at-record-highs-as-ai-earnings-impress-oil-prices-tumble/articleshow/132872181.cms",
+            "sentiment_score": 0.5627,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "New Crypto Presale: Pepeto DeFi Tools Approach Launch While Ethereum Price Targets $6,000",
+            "description": "Dubai, UAE, Aug. 04, 2026 (GLOBE NEWSWIRE) -- Pepeto, the viral new crypto presale running on Ethereum, has moved its DeFi suite one step nearer to launch. The wallets filling it are chasing a pattern this market has produced once before, the Floki story, whe…",
+            "source": "GlobeNewswire",
+            "published_at": "2026-08-04T19:47:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/08/04/3338758/0/en/New-Crypto-Presale-Pepeto-DeFi-Tools-Approach-Launch-While-Ethereum-Price-Targets-6-000.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+            "description": "On Tuesday, US Treasury yields saw a decline following a sharp drop in oil prices. As optimism regarding a resolution to the Iran conflict grew, inflation worries lessened. Consequently, traders adjusted their predictions for a Federal Reserve interest rate i…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T19:11:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-fall-as-oil-retreats-on-iran-deal-hopes-fed-hike-bets-ease/articleshow/132871326.cms",
+            "sentiment_score": 0.5908,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FEDS Note: Examining the Sensitivity of Regional Banks to Macroeconomic Shocks",
@@ -1305,144 +1425,24 @@
             "url": "https://finance.yahoo.com/energy/articles/broader-crude-oil-price-weakness-160903037.html",
             "sentiment_score": -0.4801,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "APA Corp. (APA) Declined Despite Meeting Expectations",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:07:52Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/apa-corp-apa-declined-despite-160752472.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotchkis & Wiley Mid-Cap Value Fund is Bullish on Marriott Vacations Worldwide (VAC)",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:06:23Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/hotchkis-wiley-mid-cap-value-160623816.html",
-            "sentiment_score": 0.34,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Humana’s (HUM) Path to Recovery and Growth",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:04:56Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-path-recovery-growth-160456553.html",
-            "sentiment_score": 0.3693,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Centene Corp. (CNC) Surged on Earnings Beat and Improved Outlook",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:03:39Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/centene-corp-cnc-surged-earnings-160339963.html",
-            "sentiment_score": 0.4357,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DALIO: AI BUBBLE REACHING GREAT DEPRESSION TERRITORY...",
-            "description": "“You see a lot of people getting wealthy but you can’t spend the wealth,” the Bridgewater Associates founder told The Diary of a CEO.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:00:15Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-ai-bubble-nearing-070000246.html",
-            "sentiment_score": 0.2642,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kevin Warsh told Wall Street he’d be sharing less—Goldman Sachs fears a void of Fed facts will only amplify misinformation and instability",
-            "description": "\"Even without providing explicit forward guidance, central bankers still have an obligation to explain the economic framework behind their decisions. On that score, this press conference fell well short,\" chimed Professor Jeremy Siegel.",
-            "source": "Fortune",
-            "published_at": "2026-08-04T16:00:06Z",
-            "url": "https://fortune.com/2026/08/04/kevin-warsh-forward-guidance-goldman-sachs-wall-street-framework-inflation/",
-            "sentiment_score": -0.1408,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets",
-            "description": "European involvement in mine-clearing could stabilize oil markets, reduce geopolitical tensions, and influence global economic conditions.\nThe post Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets appea…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:58:55Z",
-            "url": "https://cryptobriefing.com/iran-european-nations-hormuz-mine-clearing/",
-            "sentiment_score": 0.2148,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention",
-            "description": "Expanding the FIMA facility could stabilize global markets by easing liquidity pressures, benefiting risk assets like cryptocurrencies.\nThe post US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention appeared first …",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:49:38Z",
-            "url": "https://cryptobriefing.com/bessent-fima-expansion-crypto-liquidity/",
-            "sentiment_score": -0.0917,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Chlor-alkali Market Tightening Drives Olin Corp. (OLN) Stock Recovery",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T15:46:11Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/chlor-alkali-market-tightening-drives-154611702.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Federal Reserve goes Wacko",
-            "description": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Reason\n- Challenge\n- Request ID\n- a25ea71e29efbdc9\n- Status Code\n- 403\nFor help please vi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:39:25Z",
-            "url": "https://biztoc.com/x/c9fee923a0bdc56f",
-            "sentiment_score": 0.2871,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields drop as oil falls on Iran deal optimism",
-            "description": "Stocks surge as stellar start to August sees S&P 500, Dow back at record levels\nInvesting.com -- U.S. Treasury yields declined Tuesday as oil prices fell sharply amid growing hopes for an agreement to end the Iran war, prompting traders to reduce expectations…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:38:11Z",
-            "url": "https://biztoc.com/x/d25997bfc1b37a42",
-            "sentiment_score": 0.513,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-            "description": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or …",
-            "source": "Newyorkfed.org",
-            "published_at": "2026-08-04T15:25:56Z",
-            "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-            "sentiment_score": -0.0368,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "The U.S. Treasury bought yen on Friday to support the battered Japanese currency, the Financial Times reported, marking Washington’s first yen-buying intervention with Tokyo in more than a decade as it languishes near 40-year lows. The Federal Reserve Bank of…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-04T15:25:33Z",
-            "url": "https://freerepublic.com/focus/f-news/4390559/posts",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0829,
+        "average_score": 0.1137,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Bessent says he is sure BOJ chief Ueda will 'do what is best', NHK reports",
+            "description": "U.S. Treasury Secretary Scott Bessent said he was sure Bank of Japan Governor Kazuo Ueda will \"do what is best\" for the country's economy, public broadcaster NHK reported on Wednesday.\n\"I do believe that part of the inflation uptick in Japan was a result of t…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-04T22:29:00Z",
+            "url": "https://biztoc.com/x/fb9dfbd258094fff",
+            "sentiment_score": 0.7727,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "JPY",
             "title": "US government signals rising storm in FX and bond markets",
@@ -1525,6 +1525,16 @@
           },
           {
             "currency": "JPY",
+            "title": "Dollar Pressured by Strength in Stocks and Lower Crude Prices",
+            "description": "The dollar index (DXY00 ) is down by -0.06% today. The dollar is under pressure today as hopes for a deal to reopen the Strait of Hormuz have boosted stocks...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-04T14:36:16Z",
+            "url": "https://www.barchart.com/story/news/3638769/dollar-pressured-by-strength-in-stocks-and-lower-crude-prices",
+            "sentiment_score": -0.2472,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
             "title": "Yen intervention rattles Japan as global stocks barely notice: AlphaCheck",
             "description": "Japan and the United States jolted the yen out of a historic slide. US and global stocks keep pressing toward records.\nThe US dollar versus the yen (JPY=X) fell from nearly 164 to as low as 155 after Japan acted Thursday and coordinated with the United States…",
             "source": "Biztoc.com",
@@ -1592,6 +1602,16 @@
             "url": "https://biztoc.com/x/b9bfac57638f0473",
             "sentiment_score": -0.173,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "USD/JPY, USD/CAD, and USD/CHF Forecasts – Carry Trade Interest Drives Dollar Rally",
+            "description": "The US dollar continues to fight back against several currencies, as the latest PMI numbers were hotter than expected.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-04T13:29:25Z",
+            "url": "https://finance.yahoo.com/markets/currencies/articles/usd-jpy-usd-cad-usd-132925095.html",
+            "sentiment_score": 0.2066,
+            "sentiment_label": "บวกเล็กน้อย"
           },
           {
             "currency": "JPY",
@@ -1665,6 +1685,16 @@
           },
           {
             "currency": "JPY",
+            "title": "Dogecoin Price Retests the Zone That Triggered 900% DOGE Rally",
+            "description": "Hyperliquid’s HYPE token could rally 85% toward $100 if its bull flag confirms, but rejection near the 20-week EMA risks a drop to $45.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-04T10:57:31Z",
+            "url": "https://finance.yahoo.com/markets/crypto/articles/dogecoin-price-retests-zone-triggered-105731132.html",
+            "sentiment_score": -0.2629,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
             "title": "US Intervenes to Prop Up Japanese Yen Amid Worries About Possible Large Sales of Treasuries to Buy Yen, Carry Trade Unwind",
             "description": "On the US intervention to push up the yen, including some wee corrections of misperceptions.",
             "source": "Nakedcapitalism.com",
@@ -1672,6 +1702,16 @@
             "url": "https://www.nakedcapitalism.com/2026/08/us-intervenes-to-prop-up-japanese-yen-amid-worries-about-possible-large-sales-of-treasuries-to-buy-yen-carry-trade-unwind.html",
             "sentiment_score": -0.1584,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Nasdaq Futures Climb as Tech Rally Continues on Palantir Boost, U.S. JOLTS Report and SpaceX Earnings on Tap",
+            "description": "September Nasdaq 100 E-Mini futures (NQU26) are up +0.67% this morning, signaling further gains for tech stocks as blockbuster earnings from Palantir Technol...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-04T10:38:57Z",
+            "url": "https://www.barchart.com/story/news/3630962/nasdaq-futures-climb-as-tech-rally-continues-after-palantir-boost-u-s-jolts-report-and-spacex-earnings-on-tap",
+            "sentiment_score": 0.5042,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "JPY",
@@ -1692,60 +1732,10 @@
             "url": "https://biztoc.com/x/10870e6ab03c3df8",
             "sentiment_score": -0.0664,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Nikkei Edges Higher as AI Buying Offsets Yen Intervention Caution",
-            "description": "Tokyo stocks edged higher on August 4, with the Nikkei 225 closing at 63,957.53, up 202.63 points, or 0.32%, as buybacks in artificial intelligence and semiconductor-related shares helped offset caution over further yen-buying intervention and a weaker tone i…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-08-04T09:30:41Z",
-            "url": "https://newsonjapan.com/article/150241.php",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Bessent Is Buying Yen In Support Of US Bonds?",
-            "description": "The US Treasury bought Japanese yen last Friday and again Monday morning in its first coordinated intervention in the currency since 2011, following Japan's earthquake and tsunami. It is only the third such move since 1998. Treasury Secretary Scott Bessent co…",
-            "source": "Realinvestmentadvice.com",
-            "published_at": "2026-08-04T09:30:00Z",
-            "url": "https://realinvestmentadvice.com/resources/blog/bessent-is-buying-yen-in-support-of-us-bonds/",
-            "sentiment_score": 0.3959,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "US yen intervention puts Bitcoin, risk assets on notice for liquidity flux",
-            "description": "Bitcoin analysts are paying close attention to liquidity conditions after the first joint yen intervention by the US and Japan in nearly thirty years.",
-            "source": "Cointelegraph",
-            "published_at": "2026-08-04T09:20:17Z",
-            "url": "https://cointelegraph.com/markets/us-yen-intervention-puts-bitcoin-risk-assets-on-notice-for-liquidity-flux",
-            "sentiment_score": -0.0719,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan may not have intervened in FX market on Monday despite yen's surge, BOJ data suggests",
-            "description": "TOKYO, Aug 4 (Reuters) - Japan may not have intervened in the currency market on Monday, central bank data indicated, despite a sudden surge in the yen that...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T09:11:48Z",
-            "url": "https://finance.yahoo.com/markets/currencies/articles/japan-may-not-intervened-fx-091148765.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan may not have intervened in FX market on Monday despite yen's surge, BOJ data suggests",
-            "description": "TOKYO, Aug 4 : Japan may not have intervened in the currency market on Monday, central bank data indicated, despite a sudden surge in the yen that led traders to anticipate a third straight day of intervention. The Bank of Japan's projection for money market …",
-            "source": "CNA",
-            "published_at": "2026-08-04T09:11:48Z",
-            "url": "https://www.channelnewsasia.com/business/japan-may-not-have-intervened-in-fx-market-monday-despite-yens-surge-boj-data-suggests-6297446",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0097,
+      "net_score": 0.0623,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1755,14 +1745,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 157.677,
+      "price_now": 157.69501,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.0,
-      "rsi_signal": "โซนกลาง (RSI=52.0)",
+      "rsi_value": 52.4,
+      "rsi_signal": "โซนกลาง (RSI=52.4)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.20032,
-      "suggested_sl_distance": 0.30048,
+      "atr_value": 0.18393,
+      "suggested_sl_distance": 0.2759,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1774,9 +1764,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=52.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=52.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-05T19:05:21.689512+00:00"
+    "generated_at": "2026-08-05T22:42:41.898290+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1832,10 +1822,120 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0732,
+        "average_score": 0.176,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian Stocks Set to Advance on Hormuz Deal Hopes: Markets Wrap",
+            "description": "Asian stocks were set to track Wall Street higher as optimism over a possible interim deal between Washington and Tehran eased concerns about energy supplies and lifted US stocks to fresh records.",
+            "source": "Financial Post",
+            "published_at": "2026-08-04T22:32:58Z",
+            "url": "https://financialpost.com/pmn/business-pmn/asian-stocks-set-to-advance-on-hormuz-deal-hopes-markets-wrap",
+            "sentiment_score": 0.5483,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fighting Gravity in Tokyo",
+            "description": "This post Fighting Gravity in Tokyo appeared first on Daily Reckoning.\nA debt reckoning approaches...\nThe post Fighting Gravity in Tokyo appeared first on Daily Reckoning.",
+            "source": "Dailyreckoning.com",
+            "published_at": "2026-08-04T22:00:39Z",
+            "url": "https://dailyreckoning.com/fighting-gravity-in-tokyo/",
+            "sentiment_score": -0.4802,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: ASX to rise after Trump official says deal with Iran may happen 'tomorrow'",
+            "description": "The Australian share market is set for another day of gains after US Treasury Secretary Scott Bessent said a deal to reopen the Strait of Hormuz could happen by \"tomorrow\". Follow live.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-08-04T21:59:16Z",
+            "url": "https://www.abc.net.au/news/2026-08-05/asx-markets-business-live-news/106997660",
+            "sentiment_score": 0.1979,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists",
+            "description": "Critics of Kevin Warsh’s new approach to monetary policy have fixed upon a strange idol: the reaction function.\nThe post Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-08-04T21:43:03Z",
+            "url": "https://www.breitbart.com/economy/2026/08/04/breitbart-business-digest-why-warsh-should-not-cave-to-the-reaction-function-fundamentalists/",
+            "sentiment_score": -0.1376,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: The only way is up",
+            "description": "ORLANDO, Florida, Aug 3 : World stocks leaped to record highs on Tuesday, boosted by a relentless stream of strong U.S. and global earnings, with another slump in oil prices on Middle East peace hopes pushing down on bond yields and boosting investor sentimen…",
+            "source": "CNA",
+            "published_at": "2026-08-04T21:02:40Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-only-way-up-6299066",
+            "sentiment_score": 0.2786,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Banco Santander, S.A., of Madrid, Spain, and Santander Holdings USA, Inc., of",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Coastal Bend Bancshares, Inc., of Corpus Christi, Texas, to acquire First Nat",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by FS Bancorp, Inc., of Mountlake Terrace, Washington, to merge with Pacific Wes",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks: Dow, S&P 500 close at record highs as AI earnings impress, oil prices tumble",
+            "description": "Stock markets soared to all-time highs on Tuesday, fueled by stellar earnings from corporations. AI-focused entities like Palantir and the esteemed Caterpillar delivered eye-popping results. The drop in oil prices and Treasury yields created a favorable backd…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T20:09:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-dow-sp-500-close-at-record-highs-as-ai-earnings-impress-oil-prices-tumble/articleshow/132872181.cms",
+            "sentiment_score": 0.5627,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "New Crypto Presale: Pepeto DeFi Tools Approach Launch While Ethereum Price Targets $6,000",
+            "description": "Dubai, UAE, Aug. 04, 2026 (GLOBE NEWSWIRE) -- Pepeto, the viral new crypto presale running on Ethereum, has moved its DeFi suite one step nearer to launch. The wallets filling it are chasing a pattern this market has produced once before, the Floki story, whe…",
+            "source": "GlobeNewswire",
+            "published_at": "2026-08-04T19:47:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/08/04/3338758/0/en/New-Crypto-Presale-Pepeto-DeFi-Tools-Approach-Launch-While-Ethereum-Price-Targets-6-000.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+            "description": "On Tuesday, US Treasury yields saw a decline following a sharp drop in oil prices. As optimism regarding a resolution to the Iran conflict grew, inflation worries lessened. Consequently, traders adjusted their predictions for a Federal Reserve interest rate i…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T19:11:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-fall-as-oil-retreats-on-iran-deal-hopes-fed-hike-bets-ease/articleshow/132871326.cms",
+            "sentiment_score": 0.5908,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FEDS Note: Examining the Sensitivity of Regional Banks to Macroeconomic Shocks",
@@ -2005,171 +2105,41 @@
             "url": "https://finance.yahoo.com/energy/articles/broader-crude-oil-price-weakness-160903037.html",
             "sentiment_score": -0.4801,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "APA Corp. (APA) Declined Despite Meeting Expectations",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:07:52Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/apa-corp-apa-declined-despite-160752472.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotchkis & Wiley Mid-Cap Value Fund is Bullish on Marriott Vacations Worldwide (VAC)",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:06:23Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/hotchkis-wiley-mid-cap-value-160623816.html",
-            "sentiment_score": 0.34,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Humana’s (HUM) Path to Recovery and Growth",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:04:56Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-path-recovery-growth-160456553.html",
-            "sentiment_score": 0.3693,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Centene Corp. (CNC) Surged on Earnings Beat and Improved Outlook",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:03:39Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/centene-corp-cnc-surged-earnings-160339963.html",
-            "sentiment_score": 0.4357,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DALIO: AI BUBBLE REACHING GREAT DEPRESSION TERRITORY...",
-            "description": "“You see a lot of people getting wealthy but you can’t spend the wealth,” the Bridgewater Associates founder told The Diary of a CEO.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:00:15Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-ai-bubble-nearing-070000246.html",
-            "sentiment_score": 0.2642,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kevin Warsh told Wall Street he’d be sharing less—Goldman Sachs fears a void of Fed facts will only amplify misinformation and instability",
-            "description": "\"Even without providing explicit forward guidance, central bankers still have an obligation to explain the economic framework behind their decisions. On that score, this press conference fell well short,\" chimed Professor Jeremy Siegel.",
-            "source": "Fortune",
-            "published_at": "2026-08-04T16:00:06Z",
-            "url": "https://fortune.com/2026/08/04/kevin-warsh-forward-guidance-goldman-sachs-wall-street-framework-inflation/",
-            "sentiment_score": -0.1408,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets",
-            "description": "European involvement in mine-clearing could stabilize oil markets, reduce geopolitical tensions, and influence global economic conditions.\nThe post Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets appea…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:58:55Z",
-            "url": "https://cryptobriefing.com/iran-european-nations-hormuz-mine-clearing/",
-            "sentiment_score": 0.2148,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention",
-            "description": "Expanding the FIMA facility could stabilize global markets by easing liquidity pressures, benefiting risk assets like cryptocurrencies.\nThe post US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention appeared first …",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:49:38Z",
-            "url": "https://cryptobriefing.com/bessent-fima-expansion-crypto-liquidity/",
-            "sentiment_score": -0.0917,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Chlor-alkali Market Tightening Drives Olin Corp. (OLN) Stock Recovery",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T15:46:11Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/chlor-alkali-market-tightening-drives-154611702.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Federal Reserve goes Wacko",
-            "description": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Reason\n- Challenge\n- Request ID\n- a25ea71e29efbdc9\n- Status Code\n- 403\nFor help please vi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:39:25Z",
-            "url": "https://biztoc.com/x/c9fee923a0bdc56f",
-            "sentiment_score": 0.2871,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields drop as oil falls on Iran deal optimism",
-            "description": "Stocks surge as stellar start to August sees S&P 500, Dow back at record levels\nInvesting.com -- U.S. Treasury yields declined Tuesday as oil prices fell sharply amid growing hopes for an agreement to end the Iran war, prompting traders to reduce expectations…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:38:11Z",
-            "url": "https://biztoc.com/x/d25997bfc1b37a42",
-            "sentiment_score": 0.513,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-            "description": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or …",
-            "source": "Newyorkfed.org",
-            "published_at": "2026-08-04T15:25:56Z",
-            "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-            "sentiment_score": -0.0368,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "The U.S. Treasury bought yen on Friday to support the battered Japanese currency, the Financial Times reported, marking Washington’s first yen-buying intervention with Tokyo in more than a decade as it languishes near 40-year lows. The Federal Reserve Bank of…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-04T15:25:33Z",
-            "url": "https://freerepublic.com/focus/f-news/4390559/posts",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.1135,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.2163,
+      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70636,
+      "price_now": 0.70607,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 66.8,
-      "rsi_signal": "โซนกลาง (RSI=66.8)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00062,
-      "suggested_sl_distance": 0.00093,
+      "rsi_value": 60.6,
+      "rsi_signal": "โซนกลาง (RSI=60.6)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.0006,
+      "suggested_sl_distance": 0.0009,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=66.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-05T19:05:21.689512+00:00"
+    "generated_at": "2026-08-05T22:42:41.898290+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2178,10 +2148,40 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1046,
+        "average_score": 0.1068,
         "label": "บวกเล็กน้อย",
-        "article_count": 28,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "SSR Mining Reports Second Quarter 2026 Results",
+            "description": "DENVER — SSR Mining Inc. (Nasdaq/TSX: SSRM) (“SSR Mining” or the “Company”) reports consolidated financial results for the second quarter ended June 30, 2026. In addition, the Board of Directors declared a quarterly cash dividend of $0.03 per common share pay…",
+            "source": "Financial Post",
+            "published_at": "2026-08-04T20:16:38Z",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/ssr-mining-reports-second-quarter-2026-results",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price catching a bid as JOLTS job openings drop to 7.36 million",
+            "description": "The gold market continues to hold on to solid gains and could attract renewed buying as the U.S. labor market continues to show signs of cooling, with the number of available jobs dropping more than expected in June.\nJune job openings—a measure of labor deman…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-04T19:40:58Z",
+            "url": "https://biztoc.com/x/bef5e923b64042f6",
+            "sentiment_score": 0.0189,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Top European bank has a message for investors on gold price",
+            "description": "Gold hit $5,589 an ounce on Jan. 28, 2026. That was the all-time high. \nSince then, it has pulled back to around $4,031, Reuters confirmed, giving up roughly 28% from the peak in a correction that spooked some investors and prompted genuine questions about wh…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-04T19:24:32Z",
+            "url": "https://biztoc.com/x/fdd4da4a7d10a7f0",
+            "sentiment_score": 0.2436,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "India can source 20% of gold demand domestically by 2047, says WGC",
@@ -2451,24 +2451,124 @@
             "url": "https://www.globenewswire.com/news-release/2026/08/03/3337199/0/en/Another-batch-of-high-grade-assays-for-FireFly-s-resource-update-and-economic-studies.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Central banks boost gold purchases to 289 tonnes in Q2 2026",
-            "description": "Increased central bank gold purchases could drive up gold prices, impacting global markets and reflecting economic and geopolitical uncertainties.\nThe post Central banks boost gold purchases to 289 tonnes in Q2 2026 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-03T00:07:27Z",
-            "url": "https://cryptobriefing.com/central-banks-boost-gold-purchases-to-289-tonnes-in-q2-2026/",
-            "sentiment_score": 0.3833,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0732,
+        "average_score": 0.176,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian Stocks Set to Advance on Hormuz Deal Hopes: Markets Wrap",
+            "description": "Asian stocks were set to track Wall Street higher as optimism over a possible interim deal between Washington and Tehran eased concerns about energy supplies and lifted US stocks to fresh records.",
+            "source": "Financial Post",
+            "published_at": "2026-08-04T22:32:58Z",
+            "url": "https://financialpost.com/pmn/business-pmn/asian-stocks-set-to-advance-on-hormuz-deal-hopes-markets-wrap",
+            "sentiment_score": 0.5483,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fighting Gravity in Tokyo",
+            "description": "This post Fighting Gravity in Tokyo appeared first on Daily Reckoning.\nA debt reckoning approaches...\nThe post Fighting Gravity in Tokyo appeared first on Daily Reckoning.",
+            "source": "Dailyreckoning.com",
+            "published_at": "2026-08-04T22:00:39Z",
+            "url": "https://dailyreckoning.com/fighting-gravity-in-tokyo/",
+            "sentiment_score": -0.4802,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: ASX to rise after Trump official says deal with Iran may happen 'tomorrow'",
+            "description": "The Australian share market is set for another day of gains after US Treasury Secretary Scott Bessent said a deal to reopen the Strait of Hormuz could happen by \"tomorrow\". Follow live.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-08-04T21:59:16Z",
+            "url": "https://www.abc.net.au/news/2026-08-05/asx-markets-business-live-news/106997660",
+            "sentiment_score": 0.1979,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists",
+            "description": "Critics of Kevin Warsh’s new approach to monetary policy have fixed upon a strange idol: the reaction function.\nThe post Breitbart Business Digest: Why Warsh Should Not Cave to the Reaction Function Fundamentalists appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-08-04T21:43:03Z",
+            "url": "https://www.breitbart.com/economy/2026/08/04/breitbart-business-digest-why-warsh-should-not-cave-to-the-reaction-function-fundamentalists/",
+            "sentiment_score": -0.1376,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: The only way is up",
+            "description": "ORLANDO, Florida, Aug 3 : World stocks leaped to record highs on Tuesday, boosted by a relentless stream of strong U.S. and global earnings, with another slump in oil prices on Middle East peace hopes pushing down on bond yields and boosting investor sentimen…",
+            "source": "CNA",
+            "published_at": "2026-08-04T21:02:40Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-only-way-up-6299066",
+            "sentiment_score": 0.2786,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Banco Santander, S.A. and Santander Holdings USA, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Banco Santander, S.A., of Madrid, Spain, and Santander Holdings USA, Inc., of",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804a.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by Coastal Bend Bancshares, Inc., of Corpus Christi, Texas, to acquire First Nat",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804c.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces approval of the application by FS Bancorp, Inc.",
+            "description": "The Federal Reserve Board on Tuesday announced its approval of the application by FS Bancorp, Inc., of Mountlake Terrace, Washington, to merge with Pacific Wes",
+            "source": "Federalreserve.gov",
+            "published_at": "2026-08-04T20:30:00Z",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20260804b.htm",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks: Dow, S&P 500 close at record highs as AI earnings impress, oil prices tumble",
+            "description": "Stock markets soared to all-time highs on Tuesday, fueled by stellar earnings from corporations. AI-focused entities like Palantir and the esteemed Caterpillar delivered eye-popping results. The drop in oil prices and Treasury yields created a favorable backd…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T20:09:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-dow-sp-500-close-at-record-highs-as-ai-earnings-impress-oil-prices-tumble/articleshow/132872181.cms",
+            "sentiment_score": 0.5627,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "New Crypto Presale: Pepeto DeFi Tools Approach Launch While Ethereum Price Targets $6,000",
+            "description": "Dubai, UAE, Aug. 04, 2026 (GLOBE NEWSWIRE) -- Pepeto, the viral new crypto presale running on Ethereum, has moved its DeFi suite one step nearer to launch. The wallets filling it are chasing a pattern this market has produced once before, the Floki story, whe…",
+            "source": "GlobeNewswire",
+            "published_at": "2026-08-04T19:47:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/08/04/3338758/0/en/New-Crypto-Presale-Pepeto-DeFi-Tools-Approach-Launch-While-Ethereum-Price-Targets-6-000.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Treasury yields fall as oil retreats on Iran deal hopes, Fed hike bets ease",
+            "description": "On Tuesday, US Treasury yields saw a decline following a sharp drop in oil prices. As optimism regarding a resolution to the Iran conflict grew, inflation worries lessened. Consequently, traders adjusted their predictions for a Federal Reserve interest rate i…",
+            "source": "The Times of India",
+            "published_at": "2026-08-04T19:11:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-fall-as-oil-retreats-on-iran-deal-hopes-fed-hike-bets-ease/articleshow/132871326.cms",
+            "sentiment_score": 0.5908,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FEDS Note: Examining the Sensitivity of Regional Banks to Macroeconomic Shocks",
@@ -2638,140 +2738,10 @@
             "url": "https://finance.yahoo.com/energy/articles/broader-crude-oil-price-weakness-160903037.html",
             "sentiment_score": -0.4801,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "APA Corp. (APA) Declined Despite Meeting Expectations",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:07:52Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/apa-corp-apa-declined-despite-160752472.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotchkis & Wiley Mid-Cap Value Fund is Bullish on Marriott Vacations Worldwide (VAC)",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:06:23Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/hotchkis-wiley-mid-cap-value-160623816.html",
-            "sentiment_score": 0.34,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Humana’s (HUM) Path to Recovery and Growth",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:04:56Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/humana-hum-path-recovery-growth-160456553.html",
-            "sentiment_score": 0.3693,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Centene Corp. (CNC) Surged on Earnings Beat and Improved Outlook",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:03:39Z",
-            "url": "https://finance.yahoo.com/healthcare/articles/centene-corp-cnc-surged-earnings-160339963.html",
-            "sentiment_score": 0.4357,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DALIO: AI BUBBLE REACHING GREAT DEPRESSION TERRITORY...",
-            "description": "“You see a lot of people getting wealthy but you can’t spend the wealth,” the Bridgewater Associates founder told The Diary of a CEO.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T16:00:15Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ray-dalio-ai-bubble-nearing-070000246.html",
-            "sentiment_score": 0.2642,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kevin Warsh told Wall Street he’d be sharing less—Goldman Sachs fears a void of Fed facts will only amplify misinformation and instability",
-            "description": "\"Even without providing explicit forward guidance, central bankers still have an obligation to explain the economic framework behind their decisions. On that score, this press conference fell well short,\" chimed Professor Jeremy Siegel.",
-            "source": "Fortune",
-            "published_at": "2026-08-04T16:00:06Z",
-            "url": "https://fortune.com/2026/08/04/kevin-warsh-forward-guidance-goldman-sachs-wall-street-framework-inflation/",
-            "sentiment_score": -0.1408,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets",
-            "description": "European involvement in mine-clearing could stabilize oil markets, reduce geopolitical tensions, and influence global economic conditions.\nThe post Iran considers letting European nations clear mines from Strait of Hormuz, easing pressure on oil markets appea…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:58:55Z",
-            "url": "https://cryptobriefing.com/iran-european-nations-hormuz-mine-clearing/",
-            "sentiment_score": 0.2148,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention",
-            "description": "Expanding the FIMA facility could stabilize global markets by easing liquidity pressures, benefiting risk assets like cryptocurrencies.\nThe post US Treasury’s Bessent backs expanding Fed’s FIMA facility, and crypto markets should pay attention appeared first …",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-04T15:49:38Z",
-            "url": "https://cryptobriefing.com/bessent-fima-expansion-crypto-liquidity/",
-            "sentiment_score": -0.0917,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Chlor-alkali Market Tightening Drives Olin Corp. (OLN) Stock Recovery",
-            "description": "Hotchkis & Wiley, an investment management company, released its second-quarter 2026 investor letter for the “Hotchkis & Wiley Mid-Cap Value Fund.” A copy of...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-04T15:46:11Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/chlor-alkali-market-tightening-drives-154611702.html",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Federal Reserve goes Wacko",
-            "description": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Reason\n- Challenge\n- Request ID\n- a25ea71e29efbdc9\n- Status Code\n- 403\nFor help please vi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:39:25Z",
-            "url": "https://biztoc.com/x/c9fee923a0bdc56f",
-            "sentiment_score": 0.2871,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields drop as oil falls on Iran deal optimism",
-            "description": "Stocks surge as stellar start to August sees S&P 500, Dow back at record levels\nInvesting.com -- U.S. Treasury yields declined Tuesday as oil prices fell sharply amid growing hopes for an agreement to end the Iran war, prompting traders to reduce expectations…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-04T15:38:11Z",
-            "url": "https://biztoc.com/x/d25997bfc1b37a42",
-            "sentiment_score": 0.513,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A Window into Bond Investors’ Uncertainty About R‑Star",
-            "description": "Monetary policymakers closely monitor the term structure of sovereign bond yields to uncover market participants’ beliefs about the future monetary policy stance, inflation, and activity. A particular object of interest is the natural real rate of return, or …",
-            "source": "Newyorkfed.org",
-            "published_at": "2026-08-04T15:25:56Z",
-            "url": "https://libertystreeteconomics.newyorkfed.org/2026/08/a-window-into-bond-investors-uncertainty-about-r-star/",
-            "sentiment_score": -0.0368,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury intervenes to support yen after Japan steps in, FT reports",
-            "description": "The U.S. Treasury bought yen on Friday to support the battered Japanese currency, the Financial Times reported, marking Washington’s first yen-buying intervention with Tokyo in more than a decade as it languishes near 40-year lows. The Federal Reserve Bank of…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-04T15:25:33Z",
-            "url": "https://freerepublic.com/focus/f-news/4390559/posts",
-            "sentiment_score": 0.5002,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.0314,
+      "net_score": -0.0692,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2781,14 +2751,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4322.2002,
+      "price_now": 4308.5,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 81.8,
-      "rsi_signal": "ซื้อมากเกิน (RSI=81.8) ระวังราคาย่อ",
+      "rsi_value": 75.1,
+      "rsi_signal": "ซื้อมากเกิน (RSI=75.1) ระวังราคาย่อ",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 21.40327,
-      "suggested_sl_distance": 32.1049,
+      "atr_value": 19.297,
+      "suggested_sl_distance": 28.94549,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2800,8 +2770,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=81.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=75.1) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-05T19:05:21.689512+00:00"
+    "generated_at": "2026-08-05T22:42:41.898290+00:00"
   }
 ]
