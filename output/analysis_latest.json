@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.2394,
+        "average_score": 0.115,
         "label": "บวกเล็กน้อย",
-        "article_count": 10,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Why people want a job at the European Commission — and why so many end up miserable",
+            "description": "The Commission is one of Brussels' most coveted employers. Inside, officials describe mounting pressure, bureaucracy and burnout.",
+            "source": "POLITICO.eu",
+            "published_at": "2026-08-06T02:00:00Z",
+            "url": "https://www.politico.eu/article/why-people-want-job-european-commission-miserable/",
+            "sentiment_score": -0.3971,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "MiB: Mike Kelly, President and CIO, Future Standard",
@@ -19,6 +29,16 @@
             "url": "https://ritholtz.com/2026/08/mib-mike-kelly/",
             "sentiment_score": 0.2272,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar Slides on Stock Strength and Weakness in US Economic Reports",
+            "description": "The dollar index (DXY00 ) fell by -0.17% on Wednesday. The dollar fell on Wednesday after the S&P 500 climbed to a new record high, reducing demand for dolla...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-05T19:35:48Z",
+            "url": "https://www.barchart.com/story/news/3671989/dollar-slides-on-stock-strength-and-weakness-in-us-economic-reports",
+            "sentiment_score": 0.0335,
+            "sentiment_label": "เป็นกลาง (Neutral)"
           },
           {
             "currency": "EUR",
@@ -113,10 +133,130 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.105,
+        "average_score": 0.1167,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "'The Liquidity Hole'—Bitcoin Braced At $64K As Fed Eyes Fewer Meetings",
+            "description": "The Federal Reserve did nothing on July 29. It left the target range at 3.50% to 3.75%. The average 30-year fixed mortgage climbed to 6.66% the next day anyway, an 11-month high in Freddie Mac's weekly survey. Bitcoin traded at $64,137 early Wednesday, up und…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T06:04:23Z",
+            "url": "https://biztoc.com/x/234ca8f6d3eca2c1",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "FMCG price hikes could rewrite India’s inflation story: Report",
+            "description": "Consumer goods companies' planned price hikes could pressure inflation despite the RBI's outlook.  Elara Capital expects the Reserve Bank of India to maintain interest rates through 2026.  A potential rate hike is possible in early 2027 if inflation pressures…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:50:06Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-price-hikes-could-rewrite-indias-inflation-story-report/articleshow/132983766.cms",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Kotak sees India posting BoP surplus in FY27; expects 50 bps rate hike in second half",
+            "description": "India anticipates a balance of payments surplus in FY27. Stronger capital inflows and higher foreign direct investment will support this positive external position. Headline inflation for fiscal year twenty twenty-seven has been revised lower to five percent.…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:48:34Z",
+            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/kotak-sees-india-posting-bop-surplus-in-fy27-expects-50-bps-rate-hike-in-second-half/articleshow/132983760.cms",
+            "sentiment_score": 0.243,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "How market participants read RBI's order of priority has a bearing on how well monetary policy works",
+            "description": "The decision to hold India’s policy rate steady in the face of inflation risks felt like a foregone conclusion. Now that RBI watchers appear to have assumed a hierarchy of policy goals, India’s central bank must mull over the potential consequences.",
+            "source": "Livemint",
+            "published_at": "2026-08-06T05:46:52Z",
+            "url": "https://www.livemint.com/opinion/online-views/how-market-participants-rbi-priority-monetary-policy-mpc-inflation-rupee-11785918847588.html",
+            "sentiment_score": 0.222,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook says she’d support rate hike if disinflation stalls",
+            "description": "Federal Reserve Governor Lisa Cook said she is prepared to support higher interest rates if inflation fails to continue easing toward the Fed’s 2% target.",
+            "source": "Cointelegraph",
+            "published_at": "2026-08-06T05:44:04Z",
+            "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
+            "sentiment_score": 0.4914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook ready to raise rates if inflation doesn’t ease",
+            "description": "Persistent inflation could lead to higher interest rates, impacting borrowing costs, economic growth, and financial market stability.\nThe post Fed’s Cook ready to raise rates if inflation doesn’t ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-06T05:03:16Z",
+            "url": "https://cryptobriefing.com/feds-cook-ready-to-raise-rates-if-inflation-doesnt-ease/",
+            "sentiment_score": 0.6874,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was “completely supportive” of the decision last week to h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:46:30Z",
+            "url": "https://biztoc.com/x/2f913cdff7d10560",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump said to maintain contact with Fed's Warsh",
+            "description": "United States President Donald Trump has kept a direct line of communication with Federal Reserve Chairman Kevin Warsh since he took office, the Wall Street Journal reported, citing sources familiar w...",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:01:24Z",
+            "url": "https://biztoc.com/x/ddbdfd8aae21100e",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks mostly down with tech firms back under pressure",
+            "description": "Tokyo's Nikkei -- another tech-heavy index -- lost around two percent, with chipmaker Kioxia down more than 10 percent and Tokyo Electron seven percent off. Tech investment titan SoftBank, which is due to report later Thursday, lost six percent.\nThe post Asia…",
+            "source": "Digital Journal",
+            "published_at": "2026-08-06T02:55:11Z",
+            "url": "https://www.digitaljournal.com/article/asian-stocks-mostly-down-with-tech-firms-back-under-pressure/",
+            "sentiment_score": -0.3744,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Has Called Kevin Warsh Repeatedly",
+            "description": "“President Trump has spoken repeatedly with Kevin Warsh since he became chairman of the Federal Reserve, maintaining a line of communication between a president and a central bank chief that departs from recent precedent,” the Wall Street Journal reports. “Th…",
+            "source": "Politicalwire.com",
+            "published_at": "2026-08-06T02:51:00Z",
+            "url": "https://politicalwire.com/2026/08/05/trump-has-called-kevin-warsh-repeatedly/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly Supported Rate Decision, Warns of Inflation Risks",
+            "description": "Federal Reserve Bank of San Francisco President Mary Daly said she supported the central bank’s decision to keep interest rates on hold last week, but warned of the possibility that high inflation is a broader problem that could require more aggressive action…",
+            "source": "Financial Post",
+            "published_at": "2026-08-06T02:27:49Z",
+            "url": "https://financialpost.com/pmn/business-pmn/feds-daly-supported-rate-decision-warns-of-inflation-risks",
+            "sentiment_score": -0.2487,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "By Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was \"completely supportive\" of the decision last week to hold interest rates steady as the central bank gathers more data about how it should…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T02:17:10Z",
+            "url": "https://biztoc.com/x/58f4eab937eb2255",
+            "sentiment_score": 0.2009,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stocks mixed with tech firms back under pressure",
@@ -286,140 +426,10 @@
             "url": "https://biztoc.com/x/475d516a096f5131",
             "sentiment_score": 0.0116,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jamie Dimon on Fed Chairman Warsh's task forces: 'I think he's raising the right issue'",
-            "description": "JPMorgan Chase CEO Jamie Dimon talks with CNBC's Leslie Picker about Federal Reserve Chairman Kevin Warsh establishing ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T21:25:45Z",
-            "url": "https://biztoc.com/x/8c85286bc8de3b3a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "GOP Lawmaker Raises 'Lawfare' Concerns As He Mulls Over Todd Blanche Confirmation",
-            "description": "“I am very concerned about so-called lawfare—people being prosecuted not for a valid reason beyond somebody in high office being angry at them,” the Republican said.",
-            "source": "HuffPost",
-            "published_at": "2026-08-05T21:14:55Z",
-            "url": "https://www.huffpost.com/entry/bill-cassidy-todd-blanche-vote-undecided-lawfare_n_6a739806e4b04fcbf74d022b",
-            "sentiment_score": -0.2129,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar expected to maintain strength despite yen intervention: Reuters poll",
-            "description": "The persistent strength of the US dollar could lead to broader economic impacts, influencing global trade dynamics and commodity prices.\nThe post US dollar expected to maintain strength despite yen intervention: Reuters poll appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T21:11:22Z",
-            "url": "https://cryptobriefing.com/us-dollar-expected-to-maintain-strength-despite-yen-intervention-reuters-poll/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stays steady at record highs as ‘coiled spring’ releases in August, with talks of deal to reopen Strait of Hormuz",
-            "description": "Large earnings and gains have led to a rising market as companies head into earnings reports.",
-            "source": "Fortune",
-            "published_at": "2026-08-05T20:47:50Z",
-            "url": "https://fortune.com/2026/08/05/wall-street-stocks-steady-record-highs-hormuz/",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-            "description": "Cook was part of a 9-3 majority that voted last week to keep the central bank's benchmark borrowing rate in a range between 3.5%-3.75%.",
-            "source": "CNBC",
-            "published_at": "2026-08-05T20:36:16Z",
-            "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
-            "sentiment_score": 0.1584,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
-            "description": "Federal Reserve governor Lisa Cook said Wednesday that while she didn't think it was necessary to raise interest rates last week, she's ready to do so if inflation does not come down soon.\n\"I consider the risks to the inflation side of the dual mandate higher…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:29:23Z",
-            "url": "https://biztoc.com/x/429f07eee191b9c2",
-            "sentiment_score": 0.5776,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook says ready to raise rates if inflation doesn’t start easing",
-            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nNEW YORK, Aug 5 (Reuters) - Federal Reserve Governor Lisa Cook said on Wednesday that she’s open to the idea that the central bank may need to raise its sho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:27:07Z",
-            "url": "https://biztoc.com/x/1e0277904ba34b80",
-            "sentiment_score": 0.3796,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks: Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq",
-            "description": "The Dow Jones Industrial Average achieved an all-time high on Wednesday, driven by rising optimism over potential peace talks with Iran. Meanwhile, both SpaceX and AMD saw their stock prices drop following their earnings announcements. The growth in private p…",
-            "source": "The Times of India",
-            "published_at": "2026-08-05T20:11:04Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-closes-at-record-on-mideast-optimism-spacex-amd-drag-nasdaq/articleshow/132970250.cms",
-            "sentiment_score": 0.5125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook signals potential rate hike if disinflation trend falters",
-            "description": "Potential rate hikes could tighten monetary policy, influencing inflation expectations and market dynamics, impacting economic growth prospects.\nThe post Fed’s Cook signals potential rate hike if disinflation trend falters appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T20:09:53Z",
-            "url": "https://cryptobriefing.com/feds-cook-signals-potential-rate-hike-if-disinflation-trend-falters/",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-            "description": "Thank you, Jon, for that kind introduction. It is an honor to be here in Alaska. I appreciate the invitation from the Anchorage Economic Development Corporatio",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-08-05T20:05:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-            "sentiment_score": 0.2687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-            "description": "Add the possibility of fewer meetings into the mix of how Federal Reserve Chairman Kevin Warsh wants to reduce the central bank's footprint on financial markets, a move that some experts say could introduce both volatility and opportunity for investors.\nSince…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:57:09Z",
-            "url": "https://biztoc.com/x/3d26a2c235ecd2f2",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Schmid Delivers Blunt Warning on Interest Rates",
-            "description": "This article first appeared on GuruFocus.\nFederal Reserve Bank of Kansas City President Jeff Schmid delivered a hawkish warning Wednesday, arguing that tighter monetary policy may be required to bring inflation back to the central bank's 2% target. His remark…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:39Z",
-            "url": "https://biztoc.com/x/5ec2c011fbec8656",
-            "sentiment_score": -0.0907,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and Silver Break Out as Market Makes Surprise Shift",
-            "description": "This article first appeared on GuruFocus.\nGold (XAUUSD) and silver (XAGUSD) surged to their highest levels in more than a month Wednesday as easing energy-inflation fears revived expectations that the Federal Reserve may avoid additional monetary tightening. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:38Z",
-            "url": "https://biztoc.com/x/417ab2695b799a91",
-            "sentiment_score": 0.0536,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1344,
+      "net_score": -0.0017,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -432,25 +442,25 @@
       "price_now": 1.1526,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 39.2,
-      "rsi_signal": "โซนกลาง (RSI=39.2)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00065,
-      "suggested_sl_distance": 0.00098,
+      "rsi_value": 40.6,
+      "rsi_signal": "โซนกลาง (RSI=40.6)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00053,
+      "suggested_sl_distance": 0.0008,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=39.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-07T01:52:24.219237+00:00"
+    "generated_at": "2026-08-07T06:13:48.292917+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -459,10 +469,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.074,
-        "label": "ลบเล็กน้อย",
-        "article_count": 9,
+        "average_score": -0.0181,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 10,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Half-year Financial Report",
+            "description": "6 August 2026  2026 Interim Results Highlights  Admiral Group reports good H1 2026 results and continued growth  Six months ended:  30 June 202630 June...",
+            "source": "GlobeNewswire",
+            "published_at": "2026-08-06T06:00:00Z",
+            "url": "https://www.globenewswire.com/news-release/2026/08/06/3339938/0/en/Half-year-Financial-Report.html",
+            "sentiment_score": 0.2335,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "An insider once in charge of failing banks lifts the lid on banking",
@@ -556,10 +576,130 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.105,
+        "average_score": 0.1167,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "'The Liquidity Hole'—Bitcoin Braced At $64K As Fed Eyes Fewer Meetings",
+            "description": "The Federal Reserve did nothing on July 29. It left the target range at 3.50% to 3.75%. The average 30-year fixed mortgage climbed to 6.66% the next day anyway, an 11-month high in Freddie Mac's weekly survey. Bitcoin traded at $64,137 early Wednesday, up und…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T06:04:23Z",
+            "url": "https://biztoc.com/x/234ca8f6d3eca2c1",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "FMCG price hikes could rewrite India’s inflation story: Report",
+            "description": "Consumer goods companies' planned price hikes could pressure inflation despite the RBI's outlook.  Elara Capital expects the Reserve Bank of India to maintain interest rates through 2026.  A potential rate hike is possible in early 2027 if inflation pressures…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:50:06Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-price-hikes-could-rewrite-indias-inflation-story-report/articleshow/132983766.cms",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Kotak sees India posting BoP surplus in FY27; expects 50 bps rate hike in second half",
+            "description": "India anticipates a balance of payments surplus in FY27. Stronger capital inflows and higher foreign direct investment will support this positive external position. Headline inflation for fiscal year twenty twenty-seven has been revised lower to five percent.…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:48:34Z",
+            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/kotak-sees-india-posting-bop-surplus-in-fy27-expects-50-bps-rate-hike-in-second-half/articleshow/132983760.cms",
+            "sentiment_score": 0.243,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "How market participants read RBI's order of priority has a bearing on how well monetary policy works",
+            "description": "The decision to hold India’s policy rate steady in the face of inflation risks felt like a foregone conclusion. Now that RBI watchers appear to have assumed a hierarchy of policy goals, India’s central bank must mull over the potential consequences.",
+            "source": "Livemint",
+            "published_at": "2026-08-06T05:46:52Z",
+            "url": "https://www.livemint.com/opinion/online-views/how-market-participants-rbi-priority-monetary-policy-mpc-inflation-rupee-11785918847588.html",
+            "sentiment_score": 0.222,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook says she’d support rate hike if disinflation stalls",
+            "description": "Federal Reserve Governor Lisa Cook said she is prepared to support higher interest rates if inflation fails to continue easing toward the Fed’s 2% target.",
+            "source": "Cointelegraph",
+            "published_at": "2026-08-06T05:44:04Z",
+            "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
+            "sentiment_score": 0.4914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook ready to raise rates if inflation doesn’t ease",
+            "description": "Persistent inflation could lead to higher interest rates, impacting borrowing costs, economic growth, and financial market stability.\nThe post Fed’s Cook ready to raise rates if inflation doesn’t ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-06T05:03:16Z",
+            "url": "https://cryptobriefing.com/feds-cook-ready-to-raise-rates-if-inflation-doesnt-ease/",
+            "sentiment_score": 0.6874,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was “completely supportive” of the decision last week to h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:46:30Z",
+            "url": "https://biztoc.com/x/2f913cdff7d10560",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump said to maintain contact with Fed's Warsh",
+            "description": "United States President Donald Trump has kept a direct line of communication with Federal Reserve Chairman Kevin Warsh since he took office, the Wall Street Journal reported, citing sources familiar w...",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:01:24Z",
+            "url": "https://biztoc.com/x/ddbdfd8aae21100e",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks mostly down with tech firms back under pressure",
+            "description": "Tokyo's Nikkei -- another tech-heavy index -- lost around two percent, with chipmaker Kioxia down more than 10 percent and Tokyo Electron seven percent off. Tech investment titan SoftBank, which is due to report later Thursday, lost six percent.\nThe post Asia…",
+            "source": "Digital Journal",
+            "published_at": "2026-08-06T02:55:11Z",
+            "url": "https://www.digitaljournal.com/article/asian-stocks-mostly-down-with-tech-firms-back-under-pressure/",
+            "sentiment_score": -0.3744,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Has Called Kevin Warsh Repeatedly",
+            "description": "“President Trump has spoken repeatedly with Kevin Warsh since he became chairman of the Federal Reserve, maintaining a line of communication between a president and a central bank chief that departs from recent precedent,” the Wall Street Journal reports. “Th…",
+            "source": "Politicalwire.com",
+            "published_at": "2026-08-06T02:51:00Z",
+            "url": "https://politicalwire.com/2026/08/05/trump-has-called-kevin-warsh-repeatedly/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly Supported Rate Decision, Warns of Inflation Risks",
+            "description": "Federal Reserve Bank of San Francisco President Mary Daly said she supported the central bank’s decision to keep interest rates on hold last week, but warned of the possibility that high inflation is a broader problem that could require more aggressive action…",
+            "source": "Financial Post",
+            "published_at": "2026-08-06T02:27:49Z",
+            "url": "https://financialpost.com/pmn/business-pmn/feds-daly-supported-rate-decision-warns-of-inflation-risks",
+            "sentiment_score": -0.2487,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "By Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was \"completely supportive\" of the decision last week to hold interest rates steady as the central bank gathers more data about how it should…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T02:17:10Z",
+            "url": "https://biztoc.com/x/58f4eab937eb2255",
+            "sentiment_score": 0.2009,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stocks mixed with tech firms back under pressure",
@@ -729,157 +869,27 @@
             "url": "https://biztoc.com/x/475d516a096f5131",
             "sentiment_score": 0.0116,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jamie Dimon on Fed Chairman Warsh's task forces: 'I think he's raising the right issue'",
-            "description": "JPMorgan Chase CEO Jamie Dimon talks with CNBC's Leslie Picker about Federal Reserve Chairman Kevin Warsh establishing ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T21:25:45Z",
-            "url": "https://biztoc.com/x/8c85286bc8de3b3a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "GOP Lawmaker Raises 'Lawfare' Concerns As He Mulls Over Todd Blanche Confirmation",
-            "description": "“I am very concerned about so-called lawfare—people being prosecuted not for a valid reason beyond somebody in high office being angry at them,” the Republican said.",
-            "source": "HuffPost",
-            "published_at": "2026-08-05T21:14:55Z",
-            "url": "https://www.huffpost.com/entry/bill-cassidy-todd-blanche-vote-undecided-lawfare_n_6a739806e4b04fcbf74d022b",
-            "sentiment_score": -0.2129,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar expected to maintain strength despite yen intervention: Reuters poll",
-            "description": "The persistent strength of the US dollar could lead to broader economic impacts, influencing global trade dynamics and commodity prices.\nThe post US dollar expected to maintain strength despite yen intervention: Reuters poll appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T21:11:22Z",
-            "url": "https://cryptobriefing.com/us-dollar-expected-to-maintain-strength-despite-yen-intervention-reuters-poll/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stays steady at record highs as ‘coiled spring’ releases in August, with talks of deal to reopen Strait of Hormuz",
-            "description": "Large earnings and gains have led to a rising market as companies head into earnings reports.",
-            "source": "Fortune",
-            "published_at": "2026-08-05T20:47:50Z",
-            "url": "https://fortune.com/2026/08/05/wall-street-stocks-steady-record-highs-hormuz/",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-            "description": "Cook was part of a 9-3 majority that voted last week to keep the central bank's benchmark borrowing rate in a range between 3.5%-3.75%.",
-            "source": "CNBC",
-            "published_at": "2026-08-05T20:36:16Z",
-            "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
-            "sentiment_score": 0.1584,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
-            "description": "Federal Reserve governor Lisa Cook said Wednesday that while she didn't think it was necessary to raise interest rates last week, she's ready to do so if inflation does not come down soon.\n\"I consider the risks to the inflation side of the dual mandate higher…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:29:23Z",
-            "url": "https://biztoc.com/x/429f07eee191b9c2",
-            "sentiment_score": 0.5776,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook says ready to raise rates if inflation doesn’t start easing",
-            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nNEW YORK, Aug 5 (Reuters) - Federal Reserve Governor Lisa Cook said on Wednesday that she’s open to the idea that the central bank may need to raise its sho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:27:07Z",
-            "url": "https://biztoc.com/x/1e0277904ba34b80",
-            "sentiment_score": 0.3796,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks: Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq",
-            "description": "The Dow Jones Industrial Average achieved an all-time high on Wednesday, driven by rising optimism over potential peace talks with Iran. Meanwhile, both SpaceX and AMD saw their stock prices drop following their earnings announcements. The growth in private p…",
-            "source": "The Times of India",
-            "published_at": "2026-08-05T20:11:04Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-closes-at-record-on-mideast-optimism-spacex-amd-drag-nasdaq/articleshow/132970250.cms",
-            "sentiment_score": 0.5125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook signals potential rate hike if disinflation trend falters",
-            "description": "Potential rate hikes could tighten monetary policy, influencing inflation expectations and market dynamics, impacting economic growth prospects.\nThe post Fed’s Cook signals potential rate hike if disinflation trend falters appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T20:09:53Z",
-            "url": "https://cryptobriefing.com/feds-cook-signals-potential-rate-hike-if-disinflation-trend-falters/",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-            "description": "Thank you, Jon, for that kind introduction. It is an honor to be here in Alaska. I appreciate the invitation from the Anchorage Economic Development Corporatio",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-08-05T20:05:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-            "sentiment_score": 0.2687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-            "description": "Add the possibility of fewer meetings into the mix of how Federal Reserve Chairman Kevin Warsh wants to reduce the central bank's footprint on financial markets, a move that some experts say could introduce both volatility and opportunity for investors.\nSince…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:57:09Z",
-            "url": "https://biztoc.com/x/3d26a2c235ecd2f2",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Schmid Delivers Blunt Warning on Interest Rates",
-            "description": "This article first appeared on GuruFocus.\nFederal Reserve Bank of Kansas City President Jeff Schmid delivered a hawkish warning Wednesday, arguing that tighter monetary policy may be required to bring inflation back to the central bank's 2% target. His remark…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:39Z",
-            "url": "https://biztoc.com/x/5ec2c011fbec8656",
-            "sentiment_score": -0.0907,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and Silver Break Out as Market Makes Surprise Shift",
-            "description": "This article first appeared on GuruFocus.\nGold (XAUUSD) and silver (XAGUSD) surged to their highest levels in more than a month Wednesday as easing energy-inflation fears revived expectations that the Federal Reserve may avoid additional monetary tightening. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:38Z",
-            "url": "https://biztoc.com/x/417ab2695b799a91",
-            "sentiment_score": 0.0536,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.179,
-      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.1348,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.34539,
+      "price_now": 1.34548,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 44.6,
-      "rsi_signal": "โซนกลาง (RSI=44.6)",
+      "rsi_value": 46.9,
+      "rsi_signal": "โซนกลาง (RSI=46.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.0008,
-      "suggested_sl_distance": 0.0012,
+      "atr_value": 0.00067,
+      "suggested_sl_distance": 0.00101,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -891,9 +901,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=44.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=46.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-07T01:52:24.219237+00:00"
+    "generated_at": "2026-08-07T06:13:48.292917+00:00"
   },
   {
     "pair": "USDJPY",
@@ -902,10 +912,130 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.105,
+        "average_score": 0.1167,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "'The Liquidity Hole'—Bitcoin Braced At $64K As Fed Eyes Fewer Meetings",
+            "description": "The Federal Reserve did nothing on July 29. It left the target range at 3.50% to 3.75%. The average 30-year fixed mortgage climbed to 6.66% the next day anyway, an 11-month high in Freddie Mac's weekly survey. Bitcoin traded at $64,137 early Wednesday, up und…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T06:04:23Z",
+            "url": "https://biztoc.com/x/234ca8f6d3eca2c1",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "FMCG price hikes could rewrite India’s inflation story: Report",
+            "description": "Consumer goods companies' planned price hikes could pressure inflation despite the RBI's outlook.  Elara Capital expects the Reserve Bank of India to maintain interest rates through 2026.  A potential rate hike is possible in early 2027 if inflation pressures…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:50:06Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-price-hikes-could-rewrite-indias-inflation-story-report/articleshow/132983766.cms",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Kotak sees India posting BoP surplus in FY27; expects 50 bps rate hike in second half",
+            "description": "India anticipates a balance of payments surplus in FY27. Stronger capital inflows and higher foreign direct investment will support this positive external position. Headline inflation for fiscal year twenty twenty-seven has been revised lower to five percent.…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:48:34Z",
+            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/kotak-sees-india-posting-bop-surplus-in-fy27-expects-50-bps-rate-hike-in-second-half/articleshow/132983760.cms",
+            "sentiment_score": 0.243,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "How market participants read RBI's order of priority has a bearing on how well monetary policy works",
+            "description": "The decision to hold India’s policy rate steady in the face of inflation risks felt like a foregone conclusion. Now that RBI watchers appear to have assumed a hierarchy of policy goals, India’s central bank must mull over the potential consequences.",
+            "source": "Livemint",
+            "published_at": "2026-08-06T05:46:52Z",
+            "url": "https://www.livemint.com/opinion/online-views/how-market-participants-rbi-priority-monetary-policy-mpc-inflation-rupee-11785918847588.html",
+            "sentiment_score": 0.222,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook says she’d support rate hike if disinflation stalls",
+            "description": "Federal Reserve Governor Lisa Cook said she is prepared to support higher interest rates if inflation fails to continue easing toward the Fed’s 2% target.",
+            "source": "Cointelegraph",
+            "published_at": "2026-08-06T05:44:04Z",
+            "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
+            "sentiment_score": 0.4914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook ready to raise rates if inflation doesn’t ease",
+            "description": "Persistent inflation could lead to higher interest rates, impacting borrowing costs, economic growth, and financial market stability.\nThe post Fed’s Cook ready to raise rates if inflation doesn’t ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-06T05:03:16Z",
+            "url": "https://cryptobriefing.com/feds-cook-ready-to-raise-rates-if-inflation-doesnt-ease/",
+            "sentiment_score": 0.6874,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was “completely supportive” of the decision last week to h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:46:30Z",
+            "url": "https://biztoc.com/x/2f913cdff7d10560",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump said to maintain contact with Fed's Warsh",
+            "description": "United States President Donald Trump has kept a direct line of communication with Federal Reserve Chairman Kevin Warsh since he took office, the Wall Street Journal reported, citing sources familiar w...",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:01:24Z",
+            "url": "https://biztoc.com/x/ddbdfd8aae21100e",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks mostly down with tech firms back under pressure",
+            "description": "Tokyo's Nikkei -- another tech-heavy index -- lost around two percent, with chipmaker Kioxia down more than 10 percent and Tokyo Electron seven percent off. Tech investment titan SoftBank, which is due to report later Thursday, lost six percent.\nThe post Asia…",
+            "source": "Digital Journal",
+            "published_at": "2026-08-06T02:55:11Z",
+            "url": "https://www.digitaljournal.com/article/asian-stocks-mostly-down-with-tech-firms-back-under-pressure/",
+            "sentiment_score": -0.3744,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Has Called Kevin Warsh Repeatedly",
+            "description": "“President Trump has spoken repeatedly with Kevin Warsh since he became chairman of the Federal Reserve, maintaining a line of communication between a president and a central bank chief that departs from recent precedent,” the Wall Street Journal reports. “Th…",
+            "source": "Politicalwire.com",
+            "published_at": "2026-08-06T02:51:00Z",
+            "url": "https://politicalwire.com/2026/08/05/trump-has-called-kevin-warsh-repeatedly/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly Supported Rate Decision, Warns of Inflation Risks",
+            "description": "Federal Reserve Bank of San Francisco President Mary Daly said she supported the central bank’s decision to keep interest rates on hold last week, but warned of the possibility that high inflation is a broader problem that could require more aggressive action…",
+            "source": "Financial Post",
+            "published_at": "2026-08-06T02:27:49Z",
+            "url": "https://financialpost.com/pmn/business-pmn/feds-daly-supported-rate-decision-warns-of-inflation-risks",
+            "sentiment_score": -0.2487,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "By Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was \"completely supportive\" of the decision last week to hold interest rates steady as the central bank gathers more data about how it should…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T02:17:10Z",
+            "url": "https://biztoc.com/x/58f4eab937eb2255",
+            "sentiment_score": 0.2009,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stocks mixed with tech firms back under pressure",
@@ -1075,144 +1205,54 @@
             "url": "https://biztoc.com/x/475d516a096f5131",
             "sentiment_score": 0.0116,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jamie Dimon on Fed Chairman Warsh's task forces: 'I think he's raising the right issue'",
-            "description": "JPMorgan Chase CEO Jamie Dimon talks with CNBC's Leslie Picker about Federal Reserve Chairman Kevin Warsh establishing ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T21:25:45Z",
-            "url": "https://biztoc.com/x/8c85286bc8de3b3a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "GOP Lawmaker Raises 'Lawfare' Concerns As He Mulls Over Todd Blanche Confirmation",
-            "description": "“I am very concerned about so-called lawfare—people being prosecuted not for a valid reason beyond somebody in high office being angry at them,” the Republican said.",
-            "source": "HuffPost",
-            "published_at": "2026-08-05T21:14:55Z",
-            "url": "https://www.huffpost.com/entry/bill-cassidy-todd-blanche-vote-undecided-lawfare_n_6a739806e4b04fcbf74d022b",
-            "sentiment_score": -0.2129,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar expected to maintain strength despite yen intervention: Reuters poll",
-            "description": "The persistent strength of the US dollar could lead to broader economic impacts, influencing global trade dynamics and commodity prices.\nThe post US dollar expected to maintain strength despite yen intervention: Reuters poll appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T21:11:22Z",
-            "url": "https://cryptobriefing.com/us-dollar-expected-to-maintain-strength-despite-yen-intervention-reuters-poll/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stays steady at record highs as ‘coiled spring’ releases in August, with talks of deal to reopen Strait of Hormuz",
-            "description": "Large earnings and gains have led to a rising market as companies head into earnings reports.",
-            "source": "Fortune",
-            "published_at": "2026-08-05T20:47:50Z",
-            "url": "https://fortune.com/2026/08/05/wall-street-stocks-steady-record-highs-hormuz/",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-            "description": "Cook was part of a 9-3 majority that voted last week to keep the central bank's benchmark borrowing rate in a range between 3.5%-3.75%.",
-            "source": "CNBC",
-            "published_at": "2026-08-05T20:36:16Z",
-            "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
-            "sentiment_score": 0.1584,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
-            "description": "Federal Reserve governor Lisa Cook said Wednesday that while she didn't think it was necessary to raise interest rates last week, she's ready to do so if inflation does not come down soon.\n\"I consider the risks to the inflation side of the dual mandate higher…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:29:23Z",
-            "url": "https://biztoc.com/x/429f07eee191b9c2",
-            "sentiment_score": 0.5776,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook says ready to raise rates if inflation doesn’t start easing",
-            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nNEW YORK, Aug 5 (Reuters) - Federal Reserve Governor Lisa Cook said on Wednesday that she’s open to the idea that the central bank may need to raise its sho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:27:07Z",
-            "url": "https://biztoc.com/x/1e0277904ba34b80",
-            "sentiment_score": 0.3796,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks: Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq",
-            "description": "The Dow Jones Industrial Average achieved an all-time high on Wednesday, driven by rising optimism over potential peace talks with Iran. Meanwhile, both SpaceX and AMD saw their stock prices drop following their earnings announcements. The growth in private p…",
-            "source": "The Times of India",
-            "published_at": "2026-08-05T20:11:04Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-closes-at-record-on-mideast-optimism-spacex-amd-drag-nasdaq/articleshow/132970250.cms",
-            "sentiment_score": 0.5125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook signals potential rate hike if disinflation trend falters",
-            "description": "Potential rate hikes could tighten monetary policy, influencing inflation expectations and market dynamics, impacting economic growth prospects.\nThe post Fed’s Cook signals potential rate hike if disinflation trend falters appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T20:09:53Z",
-            "url": "https://cryptobriefing.com/feds-cook-signals-potential-rate-hike-if-disinflation-trend-falters/",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-            "description": "Thank you, Jon, for that kind introduction. It is an honor to be here in Alaska. I appreciate the invitation from the Anchorage Economic Development Corporatio",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-08-05T20:05:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-            "sentiment_score": 0.2687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-            "description": "Add the possibility of fewer meetings into the mix of how Federal Reserve Chairman Kevin Warsh wants to reduce the central bank's footprint on financial markets, a move that some experts say could introduce both volatility and opportunity for investors.\nSince…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:57:09Z",
-            "url": "https://biztoc.com/x/3d26a2c235ecd2f2",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Schmid Delivers Blunt Warning on Interest Rates",
-            "description": "This article first appeared on GuruFocus.\nFederal Reserve Bank of Kansas City President Jeff Schmid delivered a hawkish warning Wednesday, arguing that tighter monetary policy may be required to bring inflation back to the central bank's 2% target. His remark…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:39Z",
-            "url": "https://biztoc.com/x/5ec2c011fbec8656",
-            "sentiment_score": -0.0907,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and Silver Break Out as Market Makes Surprise Shift",
-            "description": "This article first appeared on GuruFocus.\nGold (XAUUSD) and silver (XAGUSD) surged to their highest levels in more than a month Wednesday as easing energy-inflation fears revived expectations that the Federal Reserve may avoid additional monetary tightening. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:38Z",
-            "url": "https://biztoc.com/x/417ab2695b799a91",
-            "sentiment_score": 0.0536,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.256,
-        "label": "บวกชัดเจน (Bullish)",
+        "average_score": 0.2137,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "FMCG price hikes could rewrite India’s inflation story: Report",
+            "description": "Consumer goods companies' planned price hikes could pressure inflation despite the RBI's outlook.  Elara Capital expects the Reserve Bank of India to maintain interest rates through 2026.  A potential rate hike is possible in early 2027 if inflation pressures…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:50:06Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-price-hikes-could-rewrite-indias-inflation-story-report/articleshow/132983766.cms",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Fed’s Cook says she’d support rate hike if disinflation stalls",
+            "description": "Federal Reserve Governor Lisa Cook said she is prepared to support higher interest rates if inflation fails to continue easing toward the Fed’s 2% target.",
+            "source": "Cointelegraph",
+            "published_at": "2026-08-06T05:44:04Z",
+            "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
+            "sentiment_score": 0.4914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Yen and dollar drift on Iran deal concerns, payroll jitters",
+            "description": "On Thursday, currency markets exhibited a sense of caution as traders monitored impending economic data. The Japanese yen battled to uphold its recent gains against the dollar following intervention efforts. Global attention was centered on the proposed U.S.-…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T02:09:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/yen-and-dollar-drift-on-iran-deal-concerns-payroll-jitters/articleshow/132979234.cms",
+            "sentiment_score": 0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Yen and dollar drift on Iran deal concerns, payroll jitters",
+            "description": "HONG KONG, Aug 6 : Currency markets drifted on Thursday with the yen struggling to retain intervention gains and the dollar pinned near six-week lows, as concerns about a proposed U.S.-Iran deal and jitters about upcoming U.S. payroll data left traders cautio…",
+            "source": "CNA",
+            "published_at": "2026-08-06T02:01:17Z",
+            "url": "https://www.channelnewsasia.com/business/yen-and-dollar-drift-iran-deal-concerns-payroll-jitters-6302516",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Gold Surges as the Debt Reckoning Begins",
@@ -1232,6 +1272,16 @@
             "url": "https://cryptobriefing.com/us-dollar-expected-to-maintain-strength-despite-yen-intervention-reuters-poll/",
             "sentiment_score": 0.591,
             "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Dollar Slides on Stock Strength and Weakness in US Economic Reports",
+            "description": "The dollar index (DXY00 ) fell by -0.17% on Wednesday. The dollar fell on Wednesday after the S&P 500 climbed to a new record high, reducing demand for dolla...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-05T19:35:48Z",
+            "url": "https://www.barchart.com/story/news/3671989/dollar-slides-on-stock-strength-and-weakness-in-us-economic-reports",
+            "sentiment_score": 0.0335,
+            "sentiment_label": "เป็นกลาง (Neutral)"
           },
           {
             "currency": "JPY",
@@ -1462,91 +1512,41 @@
             "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/yen-finds-footing-after-intervention-dollar-near-6-week-low-on-mideast-hopes/articleshow/132884612.cms",
             "sentiment_score": 0.3003,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s nominal wages rise again, backing BOJ rate hike case",
-            "description": "Japanese wage growth remained firm in June on the back of solid corporate earnings and a tight labor market, bolstering the case for another Bank of Japan interest rate hike in coming months.\nNominal wages climbed 3.4% in June from a year earlier, following a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T01:56:55Z",
-            "url": "https://biztoc.com/x/10c769f7885096ab",
-            "sentiment_score": 0.2386,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Asia shares surge on tech mood swing, oil retreats",
-            "description": "SYDNEY, Aug 5 : Asian stock markets jumped on Wednesday as strong earnings and a resurgence of demand for tech lifted Wall Street to record peaks, while hopes for progress on opening the Strait of Hormuz dragged on oil prices and bond yields.Japan's Nikkei cl…",
-            "source": "CNA",
-            "published_at": "2026-08-05T01:36:51Z",
-            "url": "https://www.channelnewsasia.com/business/asia-shares-surge-tech-mood-swing-oil-retreats-6299561",
-            "sentiment_score": 0.4478,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Asia shares climb as tech mood swings, oil retreats",
-            "description": "SYDNEY: Asian stock markets jumped on Wednesday (Aug 5) as robust earnings and renewed appetite for tech propelled Wall Street to record highs, while hopes for progress on opening the Strait of Hormuz pushed down on oil prices and bond yields.Japan's Nikkei c…",
-            "source": "CNA",
-            "published_at": "2026-08-05T01:36:51Z",
-            "url": "https://www.channelnewsasia.com/business/asia-shares-climb-tech-mood-swings-oil-retreats-6299561",
-            "sentiment_score": 0.4444,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Yen finds footing after intervention, dollar near 6-week low on Mideast hopes",
-            "description": "HONG KONG, Aug 5 : Currency markets paused for breath on Wednesday as pressure on the Japanese yen eased following recent bouts of intervention and a forceful show of U.S. support, while the dollar held near six-week lows on fresh optimism over the Middle Eas…",
-            "source": "CNA",
-            "published_at": "2026-08-05T01:36:35Z",
-            "url": "https://www.channelnewsasia.com/business/yen-finds-footing-after-intervention-dollar-near-6-week-low-mideast-hopes-6299566",
-            "sentiment_score": 0.356,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Yen drifts after intervention whirlwind; Iran optimism dents dollar",
-            "description": "LONDON, Aug 5 : The Japanese yen steadied on Wednesday after its most volatile few days in months thanks to several rounds of historic intervention, while the dollar traded around six-week lows against other currencies as optimism over a resolution to the war…",
-            "source": "CNA",
-            "published_at": "2026-08-05T01:36:35Z",
-            "url": "https://www.channelnewsasia.com/business/yen-drifts-after-intervention-whirlwind-iran-optimism-dents-dollar-6299566",
-            "sentiment_score": 0.5838,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.151,
-      "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.097,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.30901,
+      "price_now": 158.323,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 59.4,
-      "rsi_signal": "โซนกลาง (RSI=59.4)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.16509,
-      "suggested_sl_distance": 0.24764,
+      "rsi_value": 56.8,
+      "rsi_signal": "โซนกลาง (RSI=56.8)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.13539,
+      "suggested_sl_distance": 0.20309,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=59.4) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-07T01:52:24.219237+00:00"
+    "generated_at": "2026-08-07T06:13:48.292917+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1555,10 +1555,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.6768,
-        "label": "บวกชัดเจน (Bullish)",
-        "article_count": 1,
+        "average_score": 0.1452,
+        "label": "บวกเล็กน้อย",
+        "article_count": 2,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Russell Coker: TV Control etc",
+            "description": "In 2008 I wrote a blog post “The Problem is Too Many Remote Controls” [1] about the issues of controlling a TV and related things. It recently got some comments on Mastodon so I think it’s time for an update.\nThe first issue I raised was “Now it’s not uncommo…",
+            "source": "Coker.com.au",
+            "published_at": "2026-08-06T04:01:37Z",
+            "url": "https://etbe.coker.com.au/2026/08/06/tv-control-etc/",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "AUD",
             "title": "ASX 200 Climbs to New Record High Above 9,200 as Wall Street Rally and Iran Hopes Lift Shares This Week",
@@ -1572,10 +1582,130 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.105,
+        "average_score": 0.1167,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "'The Liquidity Hole'—Bitcoin Braced At $64K As Fed Eyes Fewer Meetings",
+            "description": "The Federal Reserve did nothing on July 29. It left the target range at 3.50% to 3.75%. The average 30-year fixed mortgage climbed to 6.66% the next day anyway, an 11-month high in Freddie Mac's weekly survey. Bitcoin traded at $64,137 early Wednesday, up und…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T06:04:23Z",
+            "url": "https://biztoc.com/x/234ca8f6d3eca2c1",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "FMCG price hikes could rewrite India’s inflation story: Report",
+            "description": "Consumer goods companies' planned price hikes could pressure inflation despite the RBI's outlook.  Elara Capital expects the Reserve Bank of India to maintain interest rates through 2026.  A potential rate hike is possible in early 2027 if inflation pressures…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:50:06Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-price-hikes-could-rewrite-indias-inflation-story-report/articleshow/132983766.cms",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Kotak sees India posting BoP surplus in FY27; expects 50 bps rate hike in second half",
+            "description": "India anticipates a balance of payments surplus in FY27. Stronger capital inflows and higher foreign direct investment will support this positive external position. Headline inflation for fiscal year twenty twenty-seven has been revised lower to five percent.…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:48:34Z",
+            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/kotak-sees-india-posting-bop-surplus-in-fy27-expects-50-bps-rate-hike-in-second-half/articleshow/132983760.cms",
+            "sentiment_score": 0.243,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "How market participants read RBI's order of priority has a bearing on how well monetary policy works",
+            "description": "The decision to hold India’s policy rate steady in the face of inflation risks felt like a foregone conclusion. Now that RBI watchers appear to have assumed a hierarchy of policy goals, India’s central bank must mull over the potential consequences.",
+            "source": "Livemint",
+            "published_at": "2026-08-06T05:46:52Z",
+            "url": "https://www.livemint.com/opinion/online-views/how-market-participants-rbi-priority-monetary-policy-mpc-inflation-rupee-11785918847588.html",
+            "sentiment_score": 0.222,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook says she’d support rate hike if disinflation stalls",
+            "description": "Federal Reserve Governor Lisa Cook said she is prepared to support higher interest rates if inflation fails to continue easing toward the Fed’s 2% target.",
+            "source": "Cointelegraph",
+            "published_at": "2026-08-06T05:44:04Z",
+            "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
+            "sentiment_score": 0.4914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook ready to raise rates if inflation doesn’t ease",
+            "description": "Persistent inflation could lead to higher interest rates, impacting borrowing costs, economic growth, and financial market stability.\nThe post Fed’s Cook ready to raise rates if inflation doesn’t ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-06T05:03:16Z",
+            "url": "https://cryptobriefing.com/feds-cook-ready-to-raise-rates-if-inflation-doesnt-ease/",
+            "sentiment_score": 0.6874,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was “completely supportive” of the decision last week to h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:46:30Z",
+            "url": "https://biztoc.com/x/2f913cdff7d10560",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump said to maintain contact with Fed's Warsh",
+            "description": "United States President Donald Trump has kept a direct line of communication with Federal Reserve Chairman Kevin Warsh since he took office, the Wall Street Journal reported, citing sources familiar w...",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:01:24Z",
+            "url": "https://biztoc.com/x/ddbdfd8aae21100e",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks mostly down with tech firms back under pressure",
+            "description": "Tokyo's Nikkei -- another tech-heavy index -- lost around two percent, with chipmaker Kioxia down more than 10 percent and Tokyo Electron seven percent off. Tech investment titan SoftBank, which is due to report later Thursday, lost six percent.\nThe post Asia…",
+            "source": "Digital Journal",
+            "published_at": "2026-08-06T02:55:11Z",
+            "url": "https://www.digitaljournal.com/article/asian-stocks-mostly-down-with-tech-firms-back-under-pressure/",
+            "sentiment_score": -0.3744,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Has Called Kevin Warsh Repeatedly",
+            "description": "“President Trump has spoken repeatedly with Kevin Warsh since he became chairman of the Federal Reserve, maintaining a line of communication between a president and a central bank chief that departs from recent precedent,” the Wall Street Journal reports. “Th…",
+            "source": "Politicalwire.com",
+            "published_at": "2026-08-06T02:51:00Z",
+            "url": "https://politicalwire.com/2026/08/05/trump-has-called-kevin-warsh-repeatedly/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly Supported Rate Decision, Warns of Inflation Risks",
+            "description": "Federal Reserve Bank of San Francisco President Mary Daly said she supported the central bank’s decision to keep interest rates on hold last week, but warned of the possibility that high inflation is a broader problem that could require more aggressive action…",
+            "source": "Financial Post",
+            "published_at": "2026-08-06T02:27:49Z",
+            "url": "https://financialpost.com/pmn/business-pmn/feds-daly-supported-rate-decision-warns-of-inflation-risks",
+            "sentiment_score": -0.2487,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "By Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was \"completely supportive\" of the decision last week to hold interest rates steady as the central bank gathers more data about how it should…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T02:17:10Z",
+            "url": "https://biztoc.com/x/58f4eab937eb2255",
+            "sentiment_score": 0.2009,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stocks mixed with tech firms back under pressure",
@@ -1745,171 +1875,41 @@
             "url": "https://biztoc.com/x/475d516a096f5131",
             "sentiment_score": 0.0116,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jamie Dimon on Fed Chairman Warsh's task forces: 'I think he's raising the right issue'",
-            "description": "JPMorgan Chase CEO Jamie Dimon talks with CNBC's Leslie Picker about Federal Reserve Chairman Kevin Warsh establishing ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T21:25:45Z",
-            "url": "https://biztoc.com/x/8c85286bc8de3b3a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "GOP Lawmaker Raises 'Lawfare' Concerns As He Mulls Over Todd Blanche Confirmation",
-            "description": "“I am very concerned about so-called lawfare—people being prosecuted not for a valid reason beyond somebody in high office being angry at them,” the Republican said.",
-            "source": "HuffPost",
-            "published_at": "2026-08-05T21:14:55Z",
-            "url": "https://www.huffpost.com/entry/bill-cassidy-todd-blanche-vote-undecided-lawfare_n_6a739806e4b04fcbf74d022b",
-            "sentiment_score": -0.2129,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar expected to maintain strength despite yen intervention: Reuters poll",
-            "description": "The persistent strength of the US dollar could lead to broader economic impacts, influencing global trade dynamics and commodity prices.\nThe post US dollar expected to maintain strength despite yen intervention: Reuters poll appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T21:11:22Z",
-            "url": "https://cryptobriefing.com/us-dollar-expected-to-maintain-strength-despite-yen-intervention-reuters-poll/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stays steady at record highs as ‘coiled spring’ releases in August, with talks of deal to reopen Strait of Hormuz",
-            "description": "Large earnings and gains have led to a rising market as companies head into earnings reports.",
-            "source": "Fortune",
-            "published_at": "2026-08-05T20:47:50Z",
-            "url": "https://fortune.com/2026/08/05/wall-street-stocks-steady-record-highs-hormuz/",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-            "description": "Cook was part of a 9-3 majority that voted last week to keep the central bank's benchmark borrowing rate in a range between 3.5%-3.75%.",
-            "source": "CNBC",
-            "published_at": "2026-08-05T20:36:16Z",
-            "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
-            "sentiment_score": 0.1584,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
-            "description": "Federal Reserve governor Lisa Cook said Wednesday that while she didn't think it was necessary to raise interest rates last week, she's ready to do so if inflation does not come down soon.\n\"I consider the risks to the inflation side of the dual mandate higher…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:29:23Z",
-            "url": "https://biztoc.com/x/429f07eee191b9c2",
-            "sentiment_score": 0.5776,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook says ready to raise rates if inflation doesn’t start easing",
-            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nNEW YORK, Aug 5 (Reuters) - Federal Reserve Governor Lisa Cook said on Wednesday that she’s open to the idea that the central bank may need to raise its sho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:27:07Z",
-            "url": "https://biztoc.com/x/1e0277904ba34b80",
-            "sentiment_score": 0.3796,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks: Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq",
-            "description": "The Dow Jones Industrial Average achieved an all-time high on Wednesday, driven by rising optimism over potential peace talks with Iran. Meanwhile, both SpaceX and AMD saw their stock prices drop following their earnings announcements. The growth in private p…",
-            "source": "The Times of India",
-            "published_at": "2026-08-05T20:11:04Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-closes-at-record-on-mideast-optimism-spacex-amd-drag-nasdaq/articleshow/132970250.cms",
-            "sentiment_score": 0.5125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook signals potential rate hike if disinflation trend falters",
-            "description": "Potential rate hikes could tighten monetary policy, influencing inflation expectations and market dynamics, impacting economic growth prospects.\nThe post Fed’s Cook signals potential rate hike if disinflation trend falters appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T20:09:53Z",
-            "url": "https://cryptobriefing.com/feds-cook-signals-potential-rate-hike-if-disinflation-trend-falters/",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-            "description": "Thank you, Jon, for that kind introduction. It is an honor to be here in Alaska. I appreciate the invitation from the Anchorage Economic Development Corporatio",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-08-05T20:05:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-            "sentiment_score": 0.2687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-            "description": "Add the possibility of fewer meetings into the mix of how Federal Reserve Chairman Kevin Warsh wants to reduce the central bank's footprint on financial markets, a move that some experts say could introduce both volatility and opportunity for investors.\nSince…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:57:09Z",
-            "url": "https://biztoc.com/x/3d26a2c235ecd2f2",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Schmid Delivers Blunt Warning on Interest Rates",
-            "description": "This article first appeared on GuruFocus.\nFederal Reserve Bank of Kansas City President Jeff Schmid delivered a hawkish warning Wednesday, arguing that tighter monetary policy may be required to bring inflation back to the central bank's 2% target. His remark…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:39Z",
-            "url": "https://biztoc.com/x/5ec2c011fbec8656",
-            "sentiment_score": -0.0907,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and Silver Break Out as Market Makes Surprise Shift",
-            "description": "This article first appeared on GuruFocus.\nGold (XAUUSD) and silver (XAGUSD) surged to their highest levels in more than a month Wednesday as easing energy-inflation fears revived expectations that the Federal Reserve may avoid additional monetary tightening. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:38Z",
-            "url": "https://biztoc.com/x/417ab2695b799a91",
-            "sentiment_score": 0.0536,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.5718,
-      "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.0285,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70314,
+      "price_now": 0.70319,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 36.5,
-      "rsi_signal": "โซนกลาง (RSI=36.5)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00057,
-      "suggested_sl_distance": 0.00085,
+      "rsi_value": 42.8,
+      "rsi_signal": "โซนกลาง (RSI=42.8)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.0005,
+      "suggested_sl_distance": 0.00075,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=36.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-07T01:52:24.219237+00:00"
+    "generated_at": "2026-08-07T06:13:48.292917+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1918,10 +1918,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.2753,
+        "average_score": 0.2597,
         "label": "บวกชัดเจน (Bullish)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold prices jump Rs 6,400/10 grams in 3 days, silver soars Rs 11,000/kg as oil slide continues. Big rally ahead?",
+            "description": "Gold and silver prices rose for the third straight session on MCX, helped by a weaker US dollar, lower Treasury yields and easing oil prices amid hopes of the Strait of Hormuz reopening. Silver gained Rs 228 to Rs 2,27,812/kg, while gold rose Rs 757 to Rs 1,4…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:26:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-jump-rs-6400/10-grams-in-3-days-silver-soars-rs-11000/kg-as-oil-slide-continues-big-rally-ahead/articleshow/132983009.cms",
+            "sentiment_score": 0.1837,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price jumps Rs 8,000 per tola to record Rs 296,000",
+            "description": "KATHMANDU: Gold prices soared in the domestic market on Thursday, rising by Rs 8,000 per tola to reach a record Rs 296,000, according to the Federation of Nepal Gold and Silver Dealers’ Association. The federation said fine gold is being traded at Rs 296,000 …",
+            "source": "Khabarhub.com",
+            "published_at": "2026-08-06T05:15:26Z",
+            "url": "https://english.khabarhub.com/2026/06/562025/",
+            "sentiment_score": 0.0679,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Fortuna Reports Results for the Second Quarter 2026",
@@ -2201,34 +2221,134 @@
             "url": "https://english.khabarhub.com/2026/05/561900/",
             "sentiment_score": 0.0888,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Bank of Korea to buy gold for first time in 13 years: Korea Times",
-            "description": "The Bank of Korea's gold purchase may signal a strategic shift in reserve diversification, potentially influencing global gold market dynamics.\nThe post Bank of Korea to buy gold for first time in 13 years: Korea Times appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T05:18:23Z",
-            "url": "https://cryptobriefing.com/bank-of-korea-to-buy-gold-for-first-time-in-13-years-korea-times/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Brightstar Resources results: 4.5Moz gold resource and production plans advance",
-            "description": "Brightstar Resources has expanded its gold resource to 4.5Moz and is advancing two major gold projects, with first production targeted in 2027.\nThe post Brightstar Resources results: 4.5Moz gold resource and production plans advance appeared first on The Motl…",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-08-05T03:25:55Z",
-            "url": "https://www.fool.com.au/2026/08/05/brightstar-resources-results-4-5moz-gold-resource-and-production-plans-advance/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.105,
+        "average_score": 0.1167,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "'The Liquidity Hole'—Bitcoin Braced At $64K As Fed Eyes Fewer Meetings",
+            "description": "The Federal Reserve did nothing on July 29. It left the target range at 3.50% to 3.75%. The average 30-year fixed mortgage climbed to 6.66% the next day anyway, an 11-month high in Freddie Mac's weekly survey. Bitcoin traded at $64,137 early Wednesday, up und…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T06:04:23Z",
+            "url": "https://biztoc.com/x/234ca8f6d3eca2c1",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "FMCG price hikes could rewrite India’s inflation story: Report",
+            "description": "Consumer goods companies' planned price hikes could pressure inflation despite the RBI's outlook.  Elara Capital expects the Reserve Bank of India to maintain interest rates through 2026.  A potential rate hike is possible in early 2027 if inflation pressures…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:50:06Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fmcg/fmcg-price-hikes-could-rewrite-indias-inflation-story-report/articleshow/132983766.cms",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Kotak sees India posting BoP surplus in FY27; expects 50 bps rate hike in second half",
+            "description": "India anticipates a balance of payments surplus in FY27. Stronger capital inflows and higher foreign direct investment will support this positive external position. Headline inflation for fiscal year twenty twenty-seven has been revised lower to five percent.…",
+            "source": "The Times of India",
+            "published_at": "2026-08-06T05:48:34Z",
+            "url": "https://economictimes.indiatimes.com/industry/banking/finance/banking/kotak-sees-india-posting-bop-surplus-in-fy27-expects-50-bps-rate-hike-in-second-half/articleshow/132983760.cms",
+            "sentiment_score": 0.243,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "How market participants read RBI's order of priority has a bearing on how well monetary policy works",
+            "description": "The decision to hold India’s policy rate steady in the face of inflation risks felt like a foregone conclusion. Now that RBI watchers appear to have assumed a hierarchy of policy goals, India’s central bank must mull over the potential consequences.",
+            "source": "Livemint",
+            "published_at": "2026-08-06T05:46:52Z",
+            "url": "https://www.livemint.com/opinion/online-views/how-market-participants-rbi-priority-monetary-policy-mpc-inflation-rupee-11785918847588.html",
+            "sentiment_score": 0.222,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook says she’d support rate hike if disinflation stalls",
+            "description": "Federal Reserve Governor Lisa Cook said she is prepared to support higher interest rates if inflation fails to continue easing toward the Fed’s 2% target.",
+            "source": "Cointelegraph",
+            "published_at": "2026-08-06T05:44:04Z",
+            "url": "https://cointelegraph.com/markets/feds-cook-warns-persistent-inflation-could-prompt-rate-hike",
+            "sentiment_score": 0.4914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Cook ready to raise rates if inflation doesn’t ease",
+            "description": "Persistent inflation could lead to higher interest rates, impacting borrowing costs, economic growth, and financial market stability.\nThe post Fed’s Cook ready to raise rates if inflation doesn’t ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-06T05:03:16Z",
+            "url": "https://cryptobriefing.com/feds-cook-ready-to-raise-rates-if-inflation-doesnt-ease/",
+            "sentiment_score": 0.6874,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was “completely supportive” of the decision last week to h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:46:30Z",
+            "url": "https://biztoc.com/x/2f913cdff7d10560",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump said to maintain contact with Fed's Warsh",
+            "description": "United States President Donald Trump has kept a direct line of communication with Federal Reserve Chairman Kevin Warsh since he took office, the Wall Street Journal reported, citing sources familiar w...",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T03:01:24Z",
+            "url": "https://biztoc.com/x/ddbdfd8aae21100e",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks mostly down with tech firms back under pressure",
+            "description": "Tokyo's Nikkei -- another tech-heavy index -- lost around two percent, with chipmaker Kioxia down more than 10 percent and Tokyo Electron seven percent off. Tech investment titan SoftBank, which is due to report later Thursday, lost six percent.\nThe post Asia…",
+            "source": "Digital Journal",
+            "published_at": "2026-08-06T02:55:11Z",
+            "url": "https://www.digitaljournal.com/article/asian-stocks-mostly-down-with-tech-firms-back-under-pressure/",
+            "sentiment_score": -0.3744,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Has Called Kevin Warsh Repeatedly",
+            "description": "“President Trump has spoken repeatedly with Kevin Warsh since he became chairman of the Federal Reserve, maintaining a line of communication between a president and a central bank chief that departs from recent precedent,” the Wall Street Journal reports. “Th…",
+            "source": "Politicalwire.com",
+            "published_at": "2026-08-06T02:51:00Z",
+            "url": "https://politicalwire.com/2026/08/05/trump-has-called-kevin-warsh-repeatedly/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Daly Supported Rate Decision, Warns of Inflation Risks",
+            "description": "Federal Reserve Bank of San Francisco President Mary Daly said she supported the central bank’s decision to keep interest rates on hold last week, but warned of the possibility that high inflation is a broader problem that could require more aggressive action…",
+            "source": "Financial Post",
+            "published_at": "2026-08-06T02:27:49Z",
+            "url": "https://financialpost.com/pmn/business-pmn/feds-daly-supported-rate-decision-warns-of-inflation-risks",
+            "sentiment_score": -0.2487,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Daly says central bank was right to hold rates steady at July policy meeting",
+            "description": "By Michael S. Derby\nAug 5 (Reuters) - Federal Reserve Bank of San Francisco President Mary Daly said on Wednesday she was \"completely supportive\" of the decision last week to hold interest rates steady as the central bank gathers more data about how it should…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-06T02:17:10Z",
+            "url": "https://biztoc.com/x/58f4eab937eb2255",
+            "sentiment_score": 0.2009,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stocks mixed with tech firms back under pressure",
@@ -2398,170 +2518,40 @@
             "url": "https://biztoc.com/x/475d516a096f5131",
             "sentiment_score": 0.0116,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jamie Dimon on Fed Chairman Warsh's task forces: 'I think he's raising the right issue'",
-            "description": "JPMorgan Chase CEO Jamie Dimon talks with CNBC's Leslie Picker about Federal Reserve Chairman Kevin Warsh establishing ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T21:25:45Z",
-            "url": "https://biztoc.com/x/8c85286bc8de3b3a",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "GOP Lawmaker Raises 'Lawfare' Concerns As He Mulls Over Todd Blanche Confirmation",
-            "description": "“I am very concerned about so-called lawfare—people being prosecuted not for a valid reason beyond somebody in high office being angry at them,” the Republican said.",
-            "source": "HuffPost",
-            "published_at": "2026-08-05T21:14:55Z",
-            "url": "https://www.huffpost.com/entry/bill-cassidy-todd-blanche-vote-undecided-lawfare_n_6a739806e4b04fcbf74d022b",
-            "sentiment_score": -0.2129,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar expected to maintain strength despite yen intervention: Reuters poll",
-            "description": "The persistent strength of the US dollar could lead to broader economic impacts, influencing global trade dynamics and commodity prices.\nThe post US dollar expected to maintain strength despite yen intervention: Reuters poll appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T21:11:22Z",
-            "url": "https://cryptobriefing.com/us-dollar-expected-to-maintain-strength-despite-yen-intervention-reuters-poll/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stays steady at record highs as ‘coiled spring’ releases in August, with talks of deal to reopen Strait of Hormuz",
-            "description": "Large earnings and gains have led to a rising market as companies head into earnings reports.",
-            "source": "Fortune",
-            "published_at": "2026-08-05T20:47:50Z",
-            "url": "https://fortune.com/2026/08/05/wall-street-stocks-steady-record-highs-hormuz/",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Governor Cook says she's 'prepared to act' on rate hike to address inflation",
-            "description": "Cook was part of a 9-3 majority that voted last week to keep the central bank's benchmark borrowing rate in a range between 3.5%-3.75%.",
-            "source": "CNBC",
-            "published_at": "2026-08-05T20:36:16Z",
-            "url": "https://www.cnbc.com/2026/08/05/fed-governor-cook-says-shes-prepared-to-act-on-rate-hike-to-address-inflation.html",
-            "sentiment_score": 0.1584,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed governor Lisa Cook: 'I am prepared to act' on interest rates if inflation remains elevated",
-            "description": "Federal Reserve governor Lisa Cook said Wednesday that while she didn't think it was necessary to raise interest rates last week, she's ready to do so if inflation does not come down soon.\n\"I consider the risks to the inflation side of the dual mandate higher…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:29:23Z",
-            "url": "https://biztoc.com/x/429f07eee191b9c2",
-            "sentiment_score": 0.5776,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook says ready to raise rates if inflation doesn’t start easing",
-            "description": "Stocks take a pause after stellar start to August lifts Wall Street back to record\nBy Michael S. Derby\nNEW YORK, Aug 5 (Reuters) - Federal Reserve Governor Lisa Cook said on Wednesday that she’s open to the idea that the central bank may need to raise its sho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T20:27:07Z",
-            "url": "https://biztoc.com/x/1e0277904ba34b80",
-            "sentiment_score": 0.3796,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks: Dow closes at record on Mideast optimism; SpaceX, AMD drag Nasdaq",
-            "description": "The Dow Jones Industrial Average achieved an all-time high on Wednesday, driven by rising optimism over potential peace talks with Iran. Meanwhile, both SpaceX and AMD saw their stock prices drop following their earnings announcements. The growth in private p…",
-            "source": "The Times of India",
-            "published_at": "2026-08-05T20:11:04Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-dow-closes-at-record-on-mideast-optimism-spacex-amd-drag-nasdaq/articleshow/132970250.cms",
-            "sentiment_score": 0.5125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Cook signals potential rate hike if disinflation trend falters",
-            "description": "Potential rate hikes could tighten monetary policy, influencing inflation expectations and market dynamics, impacting economic growth prospects.\nThe post Fed’s Cook signals potential rate hike if disinflation trend falters appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-05T20:09:53Z",
-            "url": "https://cryptobriefing.com/feds-cook-signals-potential-rate-hike-if-disinflation-trend-falters/",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, Outlook for the U.S. and Alaskan Economies",
-            "description": "Thank you, Jon, for that kind introduction. It is an honor to be here in Alaska. I appreciate the invitation from the Anchorage Economic Development Corporatio",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-08-05T20:05:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260805a.htm",
-            "sentiment_score": 0.2687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "As Warsh and the Fed contemplate fewer meetings, markets brace for potential volatility ahead",
-            "description": "Add the possibility of fewer meetings into the mix of how Federal Reserve Chairman Kevin Warsh wants to reduce the central bank's footprint on financial markets, a move that some experts say could introduce both volatility and opportunity for investors.\nSince…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:57:09Z",
-            "url": "https://biztoc.com/x/3d26a2c235ecd2f2",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Schmid Delivers Blunt Warning on Interest Rates",
-            "description": "This article first appeared on GuruFocus.\nFederal Reserve Bank of Kansas City President Jeff Schmid delivered a hawkish warning Wednesday, arguing that tighter monetary policy may be required to bring inflation back to the central bank's 2% target. His remark…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:39Z",
-            "url": "https://biztoc.com/x/5ec2c011fbec8656",
-            "sentiment_score": -0.0907,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and Silver Break Out as Market Makes Surprise Shift",
-            "description": "This article first appeared on GuruFocus.\nGold (XAUUSD) and silver (XAGUSD) surged to their highest levels in more than a month Wednesday as easing energy-inflation fears revived expectations that the Federal Reserve may avoid additional monetary tightening. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-05T19:28:38Z",
-            "url": "https://biztoc.com/x/417ab2695b799a91",
-            "sentiment_score": 0.0536,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1703,
-      "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.143,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4308.5,
+      "price_now": 4337.7998,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.4,
-      "rsi_signal": "โซนกลาง (RSI=52.4)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 19.35491,
-      "suggested_sl_distance": 29.03237,
+      "rsi_value": 60.5,
+      "rsi_signal": "โซนกลาง (RSI=60.5)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 18.32631,
+      "suggested_sl_distance": 27.48946,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=60.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-07T01:52:24.219237+00:00"
+    "generated_at": "2026-08-07T06:13:48.292917+00:00"
   }
 ]
