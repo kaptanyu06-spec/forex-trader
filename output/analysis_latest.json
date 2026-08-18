@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.3121,
+        "average_score": -0.2975,
         "label": "ลบชัดเจน (Bearish)",
-        "article_count": 6,
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Bonds face a bigger threat than the Fed as global rates climb",
+            "description": "As central banks worldwide, notably in Japan, Canada, and the euro zone, signal plans for sharper interest rate increases than the US, global markets prepare for potential volatility. This transition puts traditional bond safety under strain while anticipatin…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:08:58Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
+            "sentiment_score": -0.1644,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Bonds face bigger threat than Federal Reserve as global rates climb",
@@ -49,34 +59,114 @@
             "url": "https://thenextweb.com/news/mastercard-australia-outage-scheduled-update-cash",
             "sentiment_score": -0.075,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Italy’s Cheese Bank Finds Climate Risk Has a Rind",
-            "description": "On Wall Street, “cheese” is slang for money. In Italy, they decided the metaphor needed collateral. Deep inside climate-controlled warehouses in Emilia-Romagna, hundreds of thousands of wheels of Parmigiano-Reggiano sit on shelves while securing loans from Cr…",
-            "source": "pymnts.com",
-            "published_at": "2026-08-15T08:00:36Z",
-            "url": "https://www.pymnts.com/news/banking/2026/italy-cheese-bank-finds-climate-risk-has-rind/",
-            "sentiment_score": -0.0958,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "David McWilliams: Irish banks are where money goes to die",
-            "description": "We are witnessing a State takeover of the construction industry. Socialism is happening under a so-called centre-right Coalition",
-            "source": "The Irish Times",
-            "published_at": "2026-08-15T05:00:00Z",
-            "url": "https://www.irishtimes.com/opinion/2026/08/15/david-mcwilliams-irish-banks-are-where-money-goes-to-die/",
-            "sentiment_score": -0.4196,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1532,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0278,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "China’s PBOC injects 565.5B yuan via overnight reverse repos",
+            "description": "The PBOC's liquidity boost may weaken the yuan, potentially driving up gold prices, reflecting broader monetary policy impacts.\nThe post China’s PBOC injects 565.5B yuan via overnight reverse repos appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:25:44Z",
+            "url": "https://cryptobriefing.com/chinas-pboc-injects-5655b-yuan-via-overnight-reverse-repos/",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "China sets yuan mid-point at strongest level since February 2023",
+            "description": "A stronger yuan may boost global gold demand as a hedge, impacting commodity markets and reflecting China's controlled currency strategy.\nThe post China sets yuan mid-point at strongest level since February 2023 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:20:37Z",
+            "url": "https://cryptobriefing.com/china-sets-yuan-mid-point-at-strongest-level-since-february-2023/",
+            "sentiment_score": 0.5398,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian currencies strengthen as Fed rate hike expectations diminish",
+            "description": "Diminished Fed rate hike expectations may boost Asian currencies and gold, impacting global markets and investor strategies.\nThe post Asian currencies strengthen as Fed rate hike expectations diminish appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:09:55Z",
+            "url": "https://cryptobriefing.com/asian-currencies-strengthen-as-fed-rate-hike-expectations-diminish/",
+            "sentiment_score": 0.4065,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed, dollar dips as Fed hike bets ease",
+            "description": "The dollar experienced a decline following disappointing US economic indicators, leading to less anticipation for interest rate hikes. Treasury yields dropped universally as retail sales saw a significant downturn. Meanwhile, oil prices reversed their upward …",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T01:06:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-dollar-dips-as-fed-hike-bets-ease/articleshow/133284332.cms",
+            "sentiment_score": 0.492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise as investors embrace risk-on sentiment: WSJ",
+            "description": "Rising gold prices amid risk-on sentiment may signal shifts in investor strategies and economic assessments, impacting future market dynamics.\nThe post Gold prices rise as investors embrace risk-on sentiment: WSJ appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:03:14Z",
+            "url": "https://cryptobriefing.com/gold-prices-rise-as-investors-embrace-risk-on-sentiment-wsj/",
+            "sentiment_score": 0.3807,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Opening",
+            "description": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Openingsundayguardianlive.com",
+            "source": "The Sunday Guardian",
+            "published_at": "2026-08-17T01:03:08Z",
+            "url": "https://sundayguardianlive.com/business/dow-jones-futures-prediction-index-at-53807-as-oil-hits-8240-sandisk-surges-354-ahead-of-wall-street-opening-check-monday-market-outlook-key-things-to-watch-262855/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Yen edges up as traders push back Fed rate hike bets",
+            "description": "We told you first: these AI-picked small-cap stocks are up +39% and +34% MTD\nBy Gregor Stuart Hunter\nSINGAPORE, Aug 17 (Reuters) - The yen crept higher against the dollar, largely shrugging off weaker-than-expected Japanese GDP data as traders postponed expec…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-17T00:56:48Z",
+            "url": "https://biztoc.com/x/da07ae1a274f23ef",
+            "sentiment_score": -0.0607,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Indian equity markets closed lower on Friday, August 14, as investors awaited clarity. The Nifty50 and Sensex experienced slight declines, ending the trading session down. Investors will closely monitor crude oil prices and global economic data for future dir…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133280296.cms",
+            "sentiment_score": -0.1532,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bonds face a bigger threat than the Fed as global rates climb",
+            "description": "As central banks worldwide, notably in Japan, Canada, and the euro zone, signal plans for sharper interest rate increases than the US, global markets prepare for potential volatility. This transition puts traditional bond safety under strain while anticipatin…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:08:58Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
+            "sentiment_score": -0.1644,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as traders assess US economic data, inflation pressures",
+            "description": "Gold's stability amid cooling inflation and rate pause expectations highlights its role as a safe-haven asset, impacting global market dynamics.\nThe post Gold steady as traders assess US economic data, inflation pressures appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-16T23:54:48Z",
+            "url": "https://cryptobriefing.com/gold-steady-us-inflation-data-fed/",
+            "sentiment_score": -0.1273,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stock market today: Live updates",
@@ -276,110 +366,10 @@
             "url": "https://biztoc.com/x/b9e516fd83c58471",
             "sentiment_score": -0.5135,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "America’s Strategic Oil Reserve Hasn’t Been This Low Since 1983. Now Experts Are Sounding the Alarm",
-            "description": "America’s emergency oil stockpile has fallen below 300 million barrels for the first time since the Strategic Petroleum Reserve was filled in the early 1980s. Now, some energy experts are warning that the problem may go far beyond simply having less oil avail…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-16T14:45:07Z",
-            "url": "https://freerepublic.com/focus/f-bloggers/4392010/posts",
-            "sentiment_score": -0.6466,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Odds for a September Fed Rate Hike Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
-            "description": "",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T14:38:48Z",
-            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9bfb5ceb-f88e-4002-9143-f5feaca01cfd",
-            "sentiment_score": -0.3337,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michigan Survey Shows Consumer Sentiment Falling in August",
-            "description": "The University of Michigan consumer sentiment index declined in August as households expressed growing economic worries. The drop adds to evidence of ongoing pressures on spending and confidence.\nThe post Michigan Survey Shows Consumer Sentiment Falling in Au…",
-            "source": "The Daily Hodl",
-            "published_at": "2026-08-16T14:30:51Z",
-            "url": "https://dailyhodl.com/2026/08/16/michigan-survey-shows-consumer-sentiment-falling-in-august/",
-            "sentiment_score": -0.2336,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "West Asia developments, Fed minutes set to shape bullion's next move: Analysts",
-            "description": "On the domestic front, gold futures for October delivery climbed ₹2,686, or nearly 2%, last week to close at ₹1.54 lakh per 10 grams on the Multi Commodity Exchange (MCX)",
-            "source": "BusinessLine",
-            "published_at": "2026-08-16T14:25:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/west-asia-developments-fed-minutes-set-to-shape-bullions-next-move-analysts/article71352994.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
-            "description": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has le...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-16T14:21:44Z",
-            "url": "https://247wallst.com/investing/etf/2026/08/16/gold-just-hit-4400-and-the-miners-are-finally-catching-up/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
-            "description": "The Federal Reserve, the ECB and the Bank of England appear unclear on how to tackle inflation amid the Iran war\nNew UK cost of living crisis looms as rising energy bills lift inflation\nInflation rates have been falling across the industrialised world, but fe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-16T14:20:32Z",
-            "url": "https://biztoc.com/x/0904621c924a969a",
-            "sentiment_score": 0.2304,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There Is No Such Thing As ‘Price Stability,’ Nor Is It Desirable",
-            "description": "Market prices are by their very name erratic, and that's to the substantial betterment of the U.S. economy.",
-            "source": "Forbes",
-            "published_at": "2026-08-16T14:00:00Z",
-            "url": "https://www.forbes.com/sites/johntamny/2026/08/16/there-is-no-such-thing-as-price-stability-nor-is-it-desirable/",
-            "sentiment_score": -0.2805,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal",
-            "description": "The US dollar's fiat status may enhance gold's appeal as a hedge, influencing market optimism for future gold price increases.\nThe post US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T13:14:05Z",
-            "url": "https://cryptobriefing.com/us-dollar-marks-55-years-as-fiat-currency-boosting-golds-safe-haven-appeal/",
-            "sentiment_score": 0.7035,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dear (Juris)Prudence: Who Cooks Up the Supreme Court’s BS Originalist Ideas, Anyway?",
-            "description": "Clarence Thomas is the worst offender here.",
-            "source": "Slate Magazine",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://slate.com/news-and-politics/2026/08/clarence-thomas-originalism-supreme-courts-bs.html",
-            "sentiment_score": 0.2851,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
-            "description": "Vivian Tu has built a massive online following by telling people how to grow their money. But you should stop investing now if you're in this camp.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://finance.yahoo.com/markets/articles/vivian-tu-says-investors-carrying-130000844.html",
-            "sentiment_score": -0.3793,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.1589,
+      "net_score": -0.3253,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -389,14 +379,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.15848,
+      "price_now": 1.15861,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.8,
-      "rsi_signal": "โซนกลาง (RSI=50.8)",
+      "rsi_value": 51.8,
+      "rsi_signal": "โซนกลาง (RSI=51.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.0008,
-      "suggested_sl_distance": 0.00119,
+      "atr_value": 0.00076,
+      "suggested_sl_distance": 0.00114,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -410,7 +400,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-17T23:29:26.930846+00:00"
+    "generated_at": "2026-08-18T01:41:42.092408+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -419,10 +409,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0741,
+        "average_score": -0.1437,
         "label": "ลบเล็กน้อย",
-        "article_count": 10,
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Bonds face a bigger threat than the Fed as global rates climb",
+            "description": "As central banks worldwide, notably in Japan, Canada, and the euro zone, signal plans for sharper interest rate increases than the US, global markets prepare for potential volatility. This transition puts traditional bond safety under strain while anticipatin…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:08:58Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
+            "sentiment_score": -0.1644,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
@@ -462,74 +462,114 @@
             "url": "https://www.business-standard.com/world-news/uk-inflation-set-to-rise-as-ai-chip-crunch-energy-costs-add-pressure-126081600048_1.html",
             "sentiment_score": -0.0181,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Climatología woke",
-            "description": "¿Han escuchado recientemente a los adeptos de la Iglesia del Cambio Climático \nmeter miedo con que viene un súper El \nNiño que puede causar \nestragos?\nEn fin, insufribles, como siempre. A ver qué dice la prensa económica, que esa \nsí que tiene que lidiar con …",
-            "source": "Rinzewind.org",
-            "published_at": "2026-08-15T22:00:00Z",
-            "url": "https://rinzewind.org/blog-es/2026/climatologia-woke.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Warren Buffett Wasn’t the Only Billionaire Buying Alphabet Stock in Q2",
-            "description": "Every August, 13F filings crack open the vaults of the world's biggest money managers, and this quarter two billionaires with almost nothing in common landed...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-15T16:25:53Z",
-            "url": "https://247wallst.com/investing/2026/08/15/warren-buffett-wasnt-the-only-billionaire-buying-alphabet-stock-in-q2/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "So Who's Going to Buy All These Tokens?",
-            "description": "Assume every AI model works exactly as promised. The spending still doesn't pencil out, and the receipts so far point at so-so automation: jobs traded for tokens with the productivity dividend still missing.",
-            "source": "Horse.energy",
-            "published_at": "2026-08-15T13:45:24Z",
-            "url": "https://horse.energy/who_buys_the_tokens.html",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Socialist government and opposition agree to overhaul the justice system in Venezuela",
-            "description": "Leaders of the ruling socialist government and the opposition agreed to reform the justice system, try to recover frozen assets and address the needs of those affected by the double earthquake.",
-            "source": "Ewtnnews.com",
-            "published_at": "2026-08-15T13:00:00Z",
-            "url": "https://www.ewtnnews.com/world/americas/socialist-government-and-opposition-agree-to-overhaul-the-justice-system-in-venezuela",
-            "sentiment_score": 0.701,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Two earthquakes, two responses: How Venezuela and Colombia faced disaster",
-            "description": "Venezuelan civilians led rescue efforts after devastating earthquakes due to government delays and lack of equipment.  Colombian officials quickly coordinated a robust response with multiple entities and heavy machinery.  Venezuela's response was hampered by …",
-            "source": "The Times of India",
-            "published_at": "2026-08-15T11:08:06Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/two-earthquakes-two-responses-how-venezuela-and-colombia-faced-disaster/articleshow/133261138.cms",
-            "sentiment_score": -0.5053,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Links 8/15/2026",
-            "description": "Our delictable daily links: Land art, phytoplankton collapse, France rejects internet-age screens. US 155mm shell factory fiasco, moar disesl + oil worries, Putin v. EU piracy, best China music, Iran shows US trophies + denies US talks, Venezuela wants gold b…",
-            "source": "Nakedcapitalism.com",
-            "published_at": "2026-08-15T10:55:23Z",
-            "url": "https://www.nakedcapitalism.com/2026/08/links-8-15-2026.html",
-            "sentiment_score": -0.2634,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1532,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0278,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "China’s PBOC injects 565.5B yuan via overnight reverse repos",
+            "description": "The PBOC's liquidity boost may weaken the yuan, potentially driving up gold prices, reflecting broader monetary policy impacts.\nThe post China’s PBOC injects 565.5B yuan via overnight reverse repos appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:25:44Z",
+            "url": "https://cryptobriefing.com/chinas-pboc-injects-5655b-yuan-via-overnight-reverse-repos/",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "China sets yuan mid-point at strongest level since February 2023",
+            "description": "A stronger yuan may boost global gold demand as a hedge, impacting commodity markets and reflecting China's controlled currency strategy.\nThe post China sets yuan mid-point at strongest level since February 2023 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:20:37Z",
+            "url": "https://cryptobriefing.com/china-sets-yuan-mid-point-at-strongest-level-since-february-2023/",
+            "sentiment_score": 0.5398,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian currencies strengthen as Fed rate hike expectations diminish",
+            "description": "Diminished Fed rate hike expectations may boost Asian currencies and gold, impacting global markets and investor strategies.\nThe post Asian currencies strengthen as Fed rate hike expectations diminish appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:09:55Z",
+            "url": "https://cryptobriefing.com/asian-currencies-strengthen-as-fed-rate-hike-expectations-diminish/",
+            "sentiment_score": 0.4065,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed, dollar dips as Fed hike bets ease",
+            "description": "The dollar experienced a decline following disappointing US economic indicators, leading to less anticipation for interest rate hikes. Treasury yields dropped universally as retail sales saw a significant downturn. Meanwhile, oil prices reversed their upward …",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T01:06:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-dollar-dips-as-fed-hike-bets-ease/articleshow/133284332.cms",
+            "sentiment_score": 0.492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise as investors embrace risk-on sentiment: WSJ",
+            "description": "Rising gold prices amid risk-on sentiment may signal shifts in investor strategies and economic assessments, impacting future market dynamics.\nThe post Gold prices rise as investors embrace risk-on sentiment: WSJ appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:03:14Z",
+            "url": "https://cryptobriefing.com/gold-prices-rise-as-investors-embrace-risk-on-sentiment-wsj/",
+            "sentiment_score": 0.3807,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Opening",
+            "description": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Openingsundayguardianlive.com",
+            "source": "The Sunday Guardian",
+            "published_at": "2026-08-17T01:03:08Z",
+            "url": "https://sundayguardianlive.com/business/dow-jones-futures-prediction-index-at-53807-as-oil-hits-8240-sandisk-surges-354-ahead-of-wall-street-opening-check-monday-market-outlook-key-things-to-watch-262855/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Yen edges up as traders push back Fed rate hike bets",
+            "description": "We told you first: these AI-picked small-cap stocks are up +39% and +34% MTD\nBy Gregor Stuart Hunter\nSINGAPORE, Aug 17 (Reuters) - The yen crept higher against the dollar, largely shrugging off weaker-than-expected Japanese GDP data as traders postponed expec…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-17T00:56:48Z",
+            "url": "https://biztoc.com/x/da07ae1a274f23ef",
+            "sentiment_score": -0.0607,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Indian equity markets closed lower on Friday, August 14, as investors awaited clarity. The Nifty50 and Sensex experienced slight declines, ending the trading session down. Investors will closely monitor crude oil prices and global economic data for future dir…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133280296.cms",
+            "sentiment_score": -0.1532,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bonds face a bigger threat than the Fed as global rates climb",
+            "description": "As central banks worldwide, notably in Japan, Canada, and the euro zone, signal plans for sharper interest rate increases than the US, global markets prepare for potential volatility. This transition puts traditional bond safety under strain while anticipatin…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:08:58Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
+            "sentiment_score": -0.1644,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as traders assess US economic data, inflation pressures",
+            "description": "Gold's stability amid cooling inflation and rate pause expectations highlights its role as a safe-haven asset, impacting global market dynamics.\nThe post Gold steady as traders assess US economic data, inflation pressures appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-16T23:54:48Z",
+            "url": "https://cryptobriefing.com/gold-steady-us-inflation-data-fed/",
+            "sentiment_score": -0.1273,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stock market today: Live updates",
@@ -729,124 +769,24 @@
             "url": "https://biztoc.com/x/b9e516fd83c58471",
             "sentiment_score": -0.5135,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "America’s Strategic Oil Reserve Hasn’t Been This Low Since 1983. Now Experts Are Sounding the Alarm",
-            "description": "America’s emergency oil stockpile has fallen below 300 million barrels for the first time since the Strategic Petroleum Reserve was filled in the early 1980s. Now, some energy experts are warning that the problem may go far beyond simply having less oil avail…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-16T14:45:07Z",
-            "url": "https://freerepublic.com/focus/f-bloggers/4392010/posts",
-            "sentiment_score": -0.6466,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Odds for a September Fed Rate Hike Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
-            "description": "",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T14:38:48Z",
-            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9bfb5ceb-f88e-4002-9143-f5feaca01cfd",
-            "sentiment_score": -0.3337,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michigan Survey Shows Consumer Sentiment Falling in August",
-            "description": "The University of Michigan consumer sentiment index declined in August as households expressed growing economic worries. The drop adds to evidence of ongoing pressures on spending and confidence.\nThe post Michigan Survey Shows Consumer Sentiment Falling in Au…",
-            "source": "The Daily Hodl",
-            "published_at": "2026-08-16T14:30:51Z",
-            "url": "https://dailyhodl.com/2026/08/16/michigan-survey-shows-consumer-sentiment-falling-in-august/",
-            "sentiment_score": -0.2336,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "West Asia developments, Fed minutes set to shape bullion's next move: Analysts",
-            "description": "On the domestic front, gold futures for October delivery climbed ₹2,686, or nearly 2%, last week to close at ₹1.54 lakh per 10 grams on the Multi Commodity Exchange (MCX)",
-            "source": "BusinessLine",
-            "published_at": "2026-08-16T14:25:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/west-asia-developments-fed-minutes-set-to-shape-bullions-next-move-analysts/article71352994.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
-            "description": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has le...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-16T14:21:44Z",
-            "url": "https://247wallst.com/investing/etf/2026/08/16/gold-just-hit-4400-and-the-miners-are-finally-catching-up/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
-            "description": "The Federal Reserve, the ECB and the Bank of England appear unclear on how to tackle inflation amid the Iran war\nNew UK cost of living crisis looms as rising energy bills lift inflation\nInflation rates have been falling across the industrialised world, but fe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-16T14:20:32Z",
-            "url": "https://biztoc.com/x/0904621c924a969a",
-            "sentiment_score": 0.2304,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There Is No Such Thing As ‘Price Stability,’ Nor Is It Desirable",
-            "description": "Market prices are by their very name erratic, and that's to the substantial betterment of the U.S. economy.",
-            "source": "Forbes",
-            "published_at": "2026-08-16T14:00:00Z",
-            "url": "https://www.forbes.com/sites/johntamny/2026/08/16/there-is-no-such-thing-as-price-stability-nor-is-it-desirable/",
-            "sentiment_score": -0.2805,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal",
-            "description": "The US dollar's fiat status may enhance gold's appeal as a hedge, influencing market optimism for future gold price increases.\nThe post US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T13:14:05Z",
-            "url": "https://cryptobriefing.com/us-dollar-marks-55-years-as-fiat-currency-boosting-golds-safe-haven-appeal/",
-            "sentiment_score": 0.7035,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dear (Juris)Prudence: Who Cooks Up the Supreme Court’s BS Originalist Ideas, Anyway?",
-            "description": "Clarence Thomas is the worst offender here.",
-            "source": "Slate Magazine",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://slate.com/news-and-politics/2026/08/clarence-thomas-originalism-supreme-courts-bs.html",
-            "sentiment_score": 0.2851,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
-            "description": "Vivian Tu has built a massive online following by telling people how to grow their money. But you should stop investing now if you're in this camp.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://finance.yahoo.com/markets/articles/vivian-tu-says-investors-carrying-130000844.html",
-            "sentiment_score": -0.3793,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0791,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1715,
+      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.35474,
+      "price_now": 1.35516,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.6,
-      "rsi_signal": "โซนกลาง (RSI=50.6)",
+      "rsi_value": 53.4,
+      "rsi_signal": "โซนกลาง (RSI=53.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.00092,
       "suggested_sl_distance": 0.00138,
@@ -863,7 +803,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-17T23:29:26.930846+00:00"
+    "generated_at": "2026-08-18T01:41:42.092408+00:00"
   },
   {
     "pair": "USDJPY",
@@ -872,10 +812,110 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.1532,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0278,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "China’s PBOC injects 565.5B yuan via overnight reverse repos",
+            "description": "The PBOC's liquidity boost may weaken the yuan, potentially driving up gold prices, reflecting broader monetary policy impacts.\nThe post China’s PBOC injects 565.5B yuan via overnight reverse repos appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:25:44Z",
+            "url": "https://cryptobriefing.com/chinas-pboc-injects-5655b-yuan-via-overnight-reverse-repos/",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "China sets yuan mid-point at strongest level since February 2023",
+            "description": "A stronger yuan may boost global gold demand as a hedge, impacting commodity markets and reflecting China's controlled currency strategy.\nThe post China sets yuan mid-point at strongest level since February 2023 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:20:37Z",
+            "url": "https://cryptobriefing.com/china-sets-yuan-mid-point-at-strongest-level-since-february-2023/",
+            "sentiment_score": 0.5398,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian currencies strengthen as Fed rate hike expectations diminish",
+            "description": "Diminished Fed rate hike expectations may boost Asian currencies and gold, impacting global markets and investor strategies.\nThe post Asian currencies strengthen as Fed rate hike expectations diminish appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:09:55Z",
+            "url": "https://cryptobriefing.com/asian-currencies-strengthen-as-fed-rate-hike-expectations-diminish/",
+            "sentiment_score": 0.4065,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed, dollar dips as Fed hike bets ease",
+            "description": "The dollar experienced a decline following disappointing US economic indicators, leading to less anticipation for interest rate hikes. Treasury yields dropped universally as retail sales saw a significant downturn. Meanwhile, oil prices reversed their upward …",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T01:06:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-dollar-dips-as-fed-hike-bets-ease/articleshow/133284332.cms",
+            "sentiment_score": 0.492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise as investors embrace risk-on sentiment: WSJ",
+            "description": "Rising gold prices amid risk-on sentiment may signal shifts in investor strategies and economic assessments, impacting future market dynamics.\nThe post Gold prices rise as investors embrace risk-on sentiment: WSJ appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:03:14Z",
+            "url": "https://cryptobriefing.com/gold-prices-rise-as-investors-embrace-risk-on-sentiment-wsj/",
+            "sentiment_score": 0.3807,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Opening",
+            "description": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Openingsundayguardianlive.com",
+            "source": "The Sunday Guardian",
+            "published_at": "2026-08-17T01:03:08Z",
+            "url": "https://sundayguardianlive.com/business/dow-jones-futures-prediction-index-at-53807-as-oil-hits-8240-sandisk-surges-354-ahead-of-wall-street-opening-check-monday-market-outlook-key-things-to-watch-262855/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Yen edges up as traders push back Fed rate hike bets",
+            "description": "We told you first: these AI-picked small-cap stocks are up +39% and +34% MTD\nBy Gregor Stuart Hunter\nSINGAPORE, Aug 17 (Reuters) - The yen crept higher against the dollar, largely shrugging off weaker-than-expected Japanese GDP data as traders postponed expec…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-17T00:56:48Z",
+            "url": "https://biztoc.com/x/da07ae1a274f23ef",
+            "sentiment_score": -0.0607,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Indian equity markets closed lower on Friday, August 14, as investors awaited clarity. The Nifty50 and Sensex experienced slight declines, ending the trading session down. Investors will closely monitor crude oil prices and global economic data for future dir…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133280296.cms",
+            "sentiment_score": -0.1532,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bonds face a bigger threat than the Fed as global rates climb",
+            "description": "As central banks worldwide, notably in Japan, Canada, and the euro zone, signal plans for sharper interest rate increases than the US, global markets prepare for potential volatility. This transition puts traditional bond safety under strain while anticipatin…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:08:58Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
+            "sentiment_score": -0.1644,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as traders assess US economic data, inflation pressures",
+            "description": "Gold's stability amid cooling inflation and rate pause expectations highlights its role as a safe-haven asset, impacting global market dynamics.\nThe post Gold steady as traders assess US economic data, inflation pressures appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-16T23:54:48Z",
+            "url": "https://cryptobriefing.com/gold-steady-us-inflation-data-fed/",
+            "sentiment_score": -0.1273,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stock market today: Live updates",
@@ -1075,114 +1115,24 @@
             "url": "https://biztoc.com/x/b9e516fd83c58471",
             "sentiment_score": -0.5135,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "America’s Strategic Oil Reserve Hasn’t Been This Low Since 1983. Now Experts Are Sounding the Alarm",
-            "description": "America’s emergency oil stockpile has fallen below 300 million barrels for the first time since the Strategic Petroleum Reserve was filled in the early 1980s. Now, some energy experts are warning that the problem may go far beyond simply having less oil avail…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-16T14:45:07Z",
-            "url": "https://freerepublic.com/focus/f-bloggers/4392010/posts",
-            "sentiment_score": -0.6466,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Odds for a September Fed Rate Hike Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
-            "description": "",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T14:38:48Z",
-            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9bfb5ceb-f88e-4002-9143-f5feaca01cfd",
-            "sentiment_score": -0.3337,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michigan Survey Shows Consumer Sentiment Falling in August",
-            "description": "The University of Michigan consumer sentiment index declined in August as households expressed growing economic worries. The drop adds to evidence of ongoing pressures on spending and confidence.\nThe post Michigan Survey Shows Consumer Sentiment Falling in Au…",
-            "source": "The Daily Hodl",
-            "published_at": "2026-08-16T14:30:51Z",
-            "url": "https://dailyhodl.com/2026/08/16/michigan-survey-shows-consumer-sentiment-falling-in-august/",
-            "sentiment_score": -0.2336,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "West Asia developments, Fed minutes set to shape bullion's next move: Analysts",
-            "description": "On the domestic front, gold futures for October delivery climbed ₹2,686, or nearly 2%, last week to close at ₹1.54 lakh per 10 grams on the Multi Commodity Exchange (MCX)",
-            "source": "BusinessLine",
-            "published_at": "2026-08-16T14:25:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/west-asia-developments-fed-minutes-set-to-shape-bullions-next-move-analysts/article71352994.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
-            "description": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has le...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-16T14:21:44Z",
-            "url": "https://247wallst.com/investing/etf/2026/08/16/gold-just-hit-4400-and-the-miners-are-finally-catching-up/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
-            "description": "The Federal Reserve, the ECB and the Bank of England appear unclear on how to tackle inflation amid the Iran war\nNew UK cost of living crisis looms as rising energy bills lift inflation\nInflation rates have been falling across the industrialised world, but fe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-16T14:20:32Z",
-            "url": "https://biztoc.com/x/0904621c924a969a",
-            "sentiment_score": 0.2304,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There Is No Such Thing As ‘Price Stability,’ Nor Is It Desirable",
-            "description": "Market prices are by their very name erratic, and that's to the substantial betterment of the U.S. economy.",
-            "source": "Forbes",
-            "published_at": "2026-08-16T14:00:00Z",
-            "url": "https://www.forbes.com/sites/johntamny/2026/08/16/there-is-no-such-thing-as-price-stability-nor-is-it-desirable/",
-            "sentiment_score": -0.2805,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal",
-            "description": "The US dollar's fiat status may enhance gold's appeal as a hedge, influencing market optimism for future gold price increases.\nThe post US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T13:14:05Z",
-            "url": "https://cryptobriefing.com/us-dollar-marks-55-years-as-fiat-currency-boosting-golds-safe-haven-appeal/",
-            "sentiment_score": 0.7035,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dear (Juris)Prudence: Who Cooks Up the Supreme Court’s BS Originalist Ideas, Anyway?",
-            "description": "Clarence Thomas is the worst offender here.",
-            "source": "Slate Magazine",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://slate.com/news-and-politics/2026/08/clarence-thomas-originalism-supreme-courts-bs.html",
-            "sentiment_score": 0.2851,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
-            "description": "Vivian Tu has built a massive online following by telling people how to grow their money. But you should stop investing now if you're in this camp.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://finance.yahoo.com/markets/articles/vivian-tu-says-investors-carrying-130000844.html",
-            "sentiment_score": -0.3793,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1224,
-        "label": "บวกเล็กน้อย",
-        "article_count": 7,
+        "average_score": 0.014,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan second-quarter GDP grows 1.1% on an annualized basis, missing expectations",
+            "description": "On an annualized basis, Japan saw growth of 1.1%, against estimates of 2%.",
+            "source": "CNBC",
+            "published_at": "2026-08-17T00:15:39Z",
+            "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
+            "sentiment_score": -0.0927,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
@@ -1202,77 +1152,27 @@
             "url": "https://www.business-standard.com/world-news/uk-inflation-set-to-rise-as-ai-chip-crunch-energy-costs-add-pressure-126081600048_1.html",
             "sentiment_score": -0.0181,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
-            "description": "Coordinated action sent the yen sharply higher, but bitcoin’s recent correlation suggests U.S. dollar strength, rather than the carry trade, may be the bigger risk. U.S. Treasury Secretary Scott Bessent confirmed Sunday that the U.S. joined Japan in coordinat…",
-            "source": "Activistpost.com",
-            "published_at": "2026-08-15T10:00:00Z",
-            "url": "https://www.activistpost.com/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin/",
-            "sentiment_score": 0.1417,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Dollar falls on surprise drop in US retail sales",
-            "description": "In July, US retail sales surprisingly took a dip, leading to a decline in the dollar's value. This drop enabled the euro and sterling to soar to their highest levels in months against the greenback. Additionally, softer inflation indicators have lowered the m…",
-            "source": "The Times of India",
-            "published_at": "2026-08-15T05:21:24Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-falls-on-surprise-drop-in-us-retail-sales/articleshow/133256556.cms",
-            "sentiment_score": 0.0552,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Oil prices rally, US data dents chances of Fed rate hike",
-            "description": "Global shares declined Friday as markets monitored U.S.-Iran talks and Federal Reserve rate hike expectations. Oil prices rose more than a dollar per barrel amid escalating geopolitical tensions and faltering peace talks. U.S. consumer sentiment weakened due …",
-            "source": "The Times of India",
-            "published_at": "2026-08-15T05:02:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/oil-prices-rally-us-data-dents-chances-of-fed-rate-hike/articleshow/133256182.cms",
-            "sentiment_score": 0.195,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Bessent asked to justify yen intervention in letter from top Democrat",
-            "description": "Sen. Elizabeth Warren pressed Treasury Secretary Scott Bessent to explain the administration of U.S. President Donald Trump’s justification for intervening in the yen, extending the senior Democrat’s pattern of scrutinizing the Trump administration’s foreign-…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-15T01:28:50Z",
-            "url": "https://biztoc.com/x/e00f68548f69bc65",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Karthik Sankaran on the case for yen intervention",
-            "description": "Security Verification\nFor help please visit help.ft.com. We apologise for any inconvenience.\nThe following information can help our support team to resolve this issue.\n- Reason\n- Challenge\n- Request ID\n- a2b43fbcea830ecd\n- Status Code\n- 403\nFor help please vi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-15T00:58:07Z",
-            "url": "https://biztoc.com/x/1073819e7f58b1e4",
-            "sentiment_score": 0.2871,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.2756,
-      "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
+      "net_score": 0.0138,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 159.36099,
+      "price_now": 159.41701,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
-      "ma_crossed_this_bar": true,
-      "rsi_value": 54.5,
-      "rsi_signal": "โซนกลาง (RSI=54.5)",
+      "ma_crossed_this_bar": false,
+      "rsi_value": 55.8,
+      "rsi_signal": "โซนกลาง (RSI=55.8)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.13734,
-      "suggested_sl_distance": 0.20602,
+      "atr_value": 0.14013,
+      "suggested_sl_distance": 0.2102,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1284,9 +1184,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=54.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=55.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-17T23:29:26.930846+00:00"
+    "generated_at": "2026-08-18T01:41:42.092408+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1301,10 +1201,110 @@
         "scored_articles": []
       },
       "quote_sentiment": {
-        "average_score": -0.1532,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0278,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "China’s PBOC injects 565.5B yuan via overnight reverse repos",
+            "description": "The PBOC's liquidity boost may weaken the yuan, potentially driving up gold prices, reflecting broader monetary policy impacts.\nThe post China’s PBOC injects 565.5B yuan via overnight reverse repos appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:25:44Z",
+            "url": "https://cryptobriefing.com/chinas-pboc-injects-5655b-yuan-via-overnight-reverse-repos/",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "China sets yuan mid-point at strongest level since February 2023",
+            "description": "A stronger yuan may boost global gold demand as a hedge, impacting commodity markets and reflecting China's controlled currency strategy.\nThe post China sets yuan mid-point at strongest level since February 2023 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:20:37Z",
+            "url": "https://cryptobriefing.com/china-sets-yuan-mid-point-at-strongest-level-since-february-2023/",
+            "sentiment_score": 0.5398,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian currencies strengthen as Fed rate hike expectations diminish",
+            "description": "Diminished Fed rate hike expectations may boost Asian currencies and gold, impacting global markets and investor strategies.\nThe post Asian currencies strengthen as Fed rate hike expectations diminish appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:09:55Z",
+            "url": "https://cryptobriefing.com/asian-currencies-strengthen-as-fed-rate-hike-expectations-diminish/",
+            "sentiment_score": 0.4065,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed, dollar dips as Fed hike bets ease",
+            "description": "The dollar experienced a decline following disappointing US economic indicators, leading to less anticipation for interest rate hikes. Treasury yields dropped universally as retail sales saw a significant downturn. Meanwhile, oil prices reversed their upward …",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T01:06:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-dollar-dips-as-fed-hike-bets-ease/articleshow/133284332.cms",
+            "sentiment_score": 0.492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise as investors embrace risk-on sentiment: WSJ",
+            "description": "Rising gold prices amid risk-on sentiment may signal shifts in investor strategies and economic assessments, impacting future market dynamics.\nThe post Gold prices rise as investors embrace risk-on sentiment: WSJ appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:03:14Z",
+            "url": "https://cryptobriefing.com/gold-prices-rise-as-investors-embrace-risk-on-sentiment-wsj/",
+            "sentiment_score": 0.3807,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Opening",
+            "description": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Openingsundayguardianlive.com",
+            "source": "The Sunday Guardian",
+            "published_at": "2026-08-17T01:03:08Z",
+            "url": "https://sundayguardianlive.com/business/dow-jones-futures-prediction-index-at-53807-as-oil-hits-8240-sandisk-surges-354-ahead-of-wall-street-opening-check-monday-market-outlook-key-things-to-watch-262855/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Yen edges up as traders push back Fed rate hike bets",
+            "description": "We told you first: these AI-picked small-cap stocks are up +39% and +34% MTD\nBy Gregor Stuart Hunter\nSINGAPORE, Aug 17 (Reuters) - The yen crept higher against the dollar, largely shrugging off weaker-than-expected Japanese GDP data as traders postponed expec…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-17T00:56:48Z",
+            "url": "https://biztoc.com/x/da07ae1a274f23ef",
+            "sentiment_score": -0.0607,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Indian equity markets closed lower on Friday, August 14, as investors awaited clarity. The Nifty50 and Sensex experienced slight declines, ending the trading session down. Investors will closely monitor crude oil prices and global economic data for future dir…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133280296.cms",
+            "sentiment_score": -0.1532,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bonds face a bigger threat than the Fed as global rates climb",
+            "description": "As central banks worldwide, notably in Japan, Canada, and the euro zone, signal plans for sharper interest rate increases than the US, global markets prepare for potential volatility. This transition puts traditional bond safety under strain while anticipatin…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:08:58Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
+            "sentiment_score": -0.1644,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as traders assess US economic data, inflation pressures",
+            "description": "Gold's stability amid cooling inflation and rate pause expectations highlights its role as a safe-haven asset, impacting global market dynamics.\nThe post Gold steady as traders assess US economic data, inflation pressures appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-16T23:54:48Z",
+            "url": "https://cryptobriefing.com/gold-steady-us-inflation-data-fed/",
+            "sentiment_score": -0.1273,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stock market today: Live updates",
@@ -1504,124 +1504,24 @@
             "url": "https://biztoc.com/x/b9e516fd83c58471",
             "sentiment_score": -0.5135,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "America’s Strategic Oil Reserve Hasn’t Been This Low Since 1983. Now Experts Are Sounding the Alarm",
-            "description": "America’s emergency oil stockpile has fallen below 300 million barrels for the first time since the Strategic Petroleum Reserve was filled in the early 1980s. Now, some energy experts are warning that the problem may go far beyond simply having less oil avail…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-16T14:45:07Z",
-            "url": "https://freerepublic.com/focus/f-bloggers/4392010/posts",
-            "sentiment_score": -0.6466,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Odds for a September Fed Rate Hike Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
-            "description": "",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T14:38:48Z",
-            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9bfb5ceb-f88e-4002-9143-f5feaca01cfd",
-            "sentiment_score": -0.3337,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michigan Survey Shows Consumer Sentiment Falling in August",
-            "description": "The University of Michigan consumer sentiment index declined in August as households expressed growing economic worries. The drop adds to evidence of ongoing pressures on spending and confidence.\nThe post Michigan Survey Shows Consumer Sentiment Falling in Au…",
-            "source": "The Daily Hodl",
-            "published_at": "2026-08-16T14:30:51Z",
-            "url": "https://dailyhodl.com/2026/08/16/michigan-survey-shows-consumer-sentiment-falling-in-august/",
-            "sentiment_score": -0.2336,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "West Asia developments, Fed minutes set to shape bullion's next move: Analysts",
-            "description": "On the domestic front, gold futures for October delivery climbed ₹2,686, or nearly 2%, last week to close at ₹1.54 lakh per 10 grams on the Multi Commodity Exchange (MCX)",
-            "source": "BusinessLine",
-            "published_at": "2026-08-16T14:25:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/west-asia-developments-fed-minutes-set-to-shape-bullions-next-move-analysts/article71352994.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
-            "description": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has le...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-16T14:21:44Z",
-            "url": "https://247wallst.com/investing/etf/2026/08/16/gold-just-hit-4400-and-the-miners-are-finally-catching-up/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
-            "description": "The Federal Reserve, the ECB and the Bank of England appear unclear on how to tackle inflation amid the Iran war\nNew UK cost of living crisis looms as rising energy bills lift inflation\nInflation rates have been falling across the industrialised world, but fe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-16T14:20:32Z",
-            "url": "https://biztoc.com/x/0904621c924a969a",
-            "sentiment_score": 0.2304,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There Is No Such Thing As ‘Price Stability,’ Nor Is It Desirable",
-            "description": "Market prices are by their very name erratic, and that's to the substantial betterment of the U.S. economy.",
-            "source": "Forbes",
-            "published_at": "2026-08-16T14:00:00Z",
-            "url": "https://www.forbes.com/sites/johntamny/2026/08/16/there-is-no-such-thing-as-price-stability-nor-is-it-desirable/",
-            "sentiment_score": -0.2805,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal",
-            "description": "The US dollar's fiat status may enhance gold's appeal as a hedge, influencing market optimism for future gold price increases.\nThe post US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T13:14:05Z",
-            "url": "https://cryptobriefing.com/us-dollar-marks-55-years-as-fiat-currency-boosting-golds-safe-haven-appeal/",
-            "sentiment_score": 0.7035,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dear (Juris)Prudence: Who Cooks Up the Supreme Court’s BS Originalist Ideas, Anyway?",
-            "description": "Clarence Thomas is the worst offender here.",
-            "source": "Slate Magazine",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://slate.com/news-and-politics/2026/08/clarence-thomas-originalism-supreme-courts-bs.html",
-            "sentiment_score": 0.2851,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
-            "description": "Vivian Tu has built a massive online following by telling people how to grow their money. But you should stop investing now if you're in this camp.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://finance.yahoo.com/markets/articles/vivian-tu-says-investors-carrying-130000844.html",
-            "sentiment_score": -0.3793,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.1532,
-      "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": -0.0278,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.71093,
+      "price_now": 0.71139,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.9,
-      "rsi_signal": "โซนกลาง (RSI=53.9)",
+      "rsi_value": 58.2,
+      "rsi_signal": "โซนกลาง (RSI=58.2)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.0006,
       "suggested_sl_distance": 0.0009,
@@ -1638,7 +1538,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-17T23:29:26.930846+00:00"
+    "generated_at": "2026-08-18T01:41:42.092408+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1647,10 +1547,40 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.2505,
+        "average_score": 0.3116,
         "label": "บวกชัดเจน (Bullish)",
-        "article_count": 12,
+        "article_count": 8,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "China’s PBOC injects 565.5B yuan via overnight reverse repos",
+            "description": "The PBOC's liquidity boost may weaken the yuan, potentially driving up gold prices, reflecting broader monetary policy impacts.\nThe post China’s PBOC injects 565.5B yuan via overnight reverse repos appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:25:44Z",
+            "url": "https://cryptobriefing.com/chinas-pboc-injects-5655b-yuan-via-overnight-reverse-repos/",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "China sets yuan mid-point at strongest level since February 2023",
+            "description": "A stronger yuan may boost global gold demand as a hedge, impacting commodity markets and reflecting China's controlled currency strategy.\nThe post China sets yuan mid-point at strongest level since February 2023 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:20:37Z",
+            "url": "https://cryptobriefing.com/china-sets-yuan-mid-point-at-strongest-level-since-february-2023/",
+            "sentiment_score": 0.5398,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold prices rise as investors embrace risk-on sentiment: WSJ",
+            "description": "Rising gold prices amid risk-on sentiment may signal shifts in investor strategies and economic assessments, impacting future market dynamics.\nThe post Gold prices rise as investors embrace risk-on sentiment: WSJ appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:03:14Z",
+            "url": "https://cryptobriefing.com/gold-prices-rise-as-investors-embrace-risk-on-sentiment-wsj/",
+            "sentiment_score": 0.3807,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "XAU",
             "title": "Tether Gold adds $237M to market cap, leading tokenized gold asset growth",
@@ -1700,84 +1630,114 @@
             "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
             "sentiment_score": 0.3186,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "The Anti-AI ETF Is Here, and Its Biggest Holdings Are Engines, Trucks and Air Conditioners",
-            "description": "A new ETF built on diesel engines, truck fleets, and air conditioners is pitching itself as a refuge from software-heavy portfolios, but its biggest holding...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-15T19:35:56Z",
-            "url": "https://247wallst.com/investing/etf/2026/08/15/the-anti-ai-etf-is-here-and-its-biggest-holdings-are-engines-trucks-and-air-conditioners/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Lalithaa Jewellery Mart IPO: Should you subscribe?",
-            "description": "Evaluate the Lalithaa Jewellery Mart IPO: strong growth potential tempered by gold price risks and inventory concerns.",
-            "source": "BusinessLine",
-            "published_at": "2026-08-15T16:42:31Z",
-            "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/lalithaa-jewellery-mart-ipo-should-you-subscribe/article71348738.ece",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold's wild 2026 ride might not be over yet",
-            "description": "Gold traders have had a hard time getting this year right. The metal has swung from record highs to steep drops and back again. Most of the people who trade...",
-            "source": "TheStreet",
-            "published_at": "2026-08-15T16:37:00Z",
-            "url": "https://www.thestreet.com/investing/golds-wild-2026-ride-might-not-be-over-yet",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "'Ultimate crash': Peter Schiff calls US stocks a 'ticking time bomb' — but is he right? Protect your wealth now",
-            "description": "“The majority of investors don’t understand the fundamentals.”",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-15T11:45:00Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/ultimate-crash-peter-schiff-calls-114500834.html",
-            "sentiment_score": 0.4869,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Larry Fink’s brutal warning to Americans: This everyday habit is ‘one of the worst financial decisions’ of your life",
-            "description": "Conventional wisdom could capsize your retirement.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-15T10:35:00Z",
-            "url": "https://finance.yahoo.com/markets/stocks/articles/larry-fink-brutal-warning-americans-103500383.html",
-            "sentiment_score": -0.4657,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "China Gold Market Update: Strong Official Sector Buying In July",
-            "description": "Summary\n- Gold prices stabilised in July - the LBMA Gold Price PM was unchanged, and the Shanghai Benchmark Gold Price PM rose mildly by 0.7%; both broke higher in early August.\n- Chinese gold ETFs recorded positive flows, lifting total holdings 5t higher in …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-15T07:32:41Z",
-            "url": "https://biztoc.com/x/69849ec468bfb33a",
-            "sentiment_score": 0.4181,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rises on weaker dollar as inflation data cements rate-hold bets",
-            "description": "On Friday, gold prices moved upward, signaling a positive outlook for the week. The precious metal received a boost from a weaker dollar and stable inflation figures, reducing the likelihood of an upcoming interest rate hike by the Federal Reserve. Meanwhile,…",
-            "source": "The Times of India",
-            "published_at": "2026-08-15T05:19:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-on-weaker-dollar-as-inflation-data-cements-rate-hold-bets/articleshow/133256537.cms",
-            "sentiment_score": -0.0364,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1532,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0278,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "China’s PBOC injects 565.5B yuan via overnight reverse repos",
+            "description": "The PBOC's liquidity boost may weaken the yuan, potentially driving up gold prices, reflecting broader monetary policy impacts.\nThe post China’s PBOC injects 565.5B yuan via overnight reverse repos appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:25:44Z",
+            "url": "https://cryptobriefing.com/chinas-pboc-injects-5655b-yuan-via-overnight-reverse-repos/",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "China sets yuan mid-point at strongest level since February 2023",
+            "description": "A stronger yuan may boost global gold demand as a hedge, impacting commodity markets and reflecting China's controlled currency strategy.\nThe post China sets yuan mid-point at strongest level since February 2023 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:20:37Z",
+            "url": "https://cryptobriefing.com/china-sets-yuan-mid-point-at-strongest-level-since-february-2023/",
+            "sentiment_score": 0.5398,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian currencies strengthen as Fed rate hike expectations diminish",
+            "description": "Diminished Fed rate hike expectations may boost Asian currencies and gold, impacting global markets and investor strategies.\nThe post Asian currencies strengthen as Fed rate hike expectations diminish appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:09:55Z",
+            "url": "https://cryptobriefing.com/asian-currencies-strengthen-as-fed-rate-hike-expectations-diminish/",
+            "sentiment_score": 0.4065,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed, dollar dips as Fed hike bets ease",
+            "description": "The dollar experienced a decline following disappointing US economic indicators, leading to less anticipation for interest rate hikes. Treasury yields dropped universally as retail sales saw a significant downturn. Meanwhile, oil prices reversed their upward …",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T01:06:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-dollar-dips-as-fed-hike-bets-ease/articleshow/133284332.cms",
+            "sentiment_score": 0.492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise as investors embrace risk-on sentiment: WSJ",
+            "description": "Rising gold prices amid risk-on sentiment may signal shifts in investor strategies and economic assessments, impacting future market dynamics.\nThe post Gold prices rise as investors embrace risk-on sentiment: WSJ appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T01:03:14Z",
+            "url": "https://cryptobriefing.com/gold-prices-rise-as-investors-embrace-risk-on-sentiment-wsj/",
+            "sentiment_score": 0.3807,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Opening",
+            "description": "Dow Jones Futures Prediction: Index at 53,807 as Oil Hits $82.40, SanDisk Surges 35.4% Ahead of Wall Street Openingsundayguardianlive.com",
+            "source": "The Sunday Guardian",
+            "published_at": "2026-08-17T01:03:08Z",
+            "url": "https://sundayguardianlive.com/business/dow-jones-futures-prediction-index-at-53807-as-oil-hits-8240-sandisk-surges-354-ahead-of-wall-street-opening-check-monday-market-outlook-key-things-to-watch-262855/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Yen edges up as traders push back Fed rate hike bets",
+            "description": "We told you first: these AI-picked small-cap stocks are up +39% and +34% MTD\nBy Gregor Stuart Hunter\nSINGAPORE, Aug 17 (Reuters) - The yen crept higher against the dollar, largely shrugging off weaker-than-expected Japanese GDP data as traders postponed expec…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-17T00:56:48Z",
+            "url": "https://biztoc.com/x/da07ae1a274f23ef",
+            "sentiment_score": -0.0607,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Indian equity markets closed lower on Friday, August 14, as investors awaited clarity. The Nifty50 and Sensex experienced slight declines, ending the trading session down. Investors will closely monitor crude oil prices and global economic data for future dir…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133280296.cms",
+            "sentiment_score": -0.1532,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bonds face a bigger threat than the Fed as global rates climb",
+            "description": "As central banks worldwide, notably in Japan, Canada, and the euro zone, signal plans for sharper interest rate increases than the US, global markets prepare for potential volatility. This transition puts traditional bond safety under strain while anticipatin…",
+            "source": "The Times of India",
+            "published_at": "2026-08-17T00:08:58Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
+            "sentiment_score": -0.1644,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as traders assess US economic data, inflation pressures",
+            "description": "Gold's stability amid cooling inflation and rate pause expectations highlights its role as a safe-haven asset, impacting global market dynamics.\nThe post Gold steady as traders assess US economic data, inflation pressures appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-16T23:54:48Z",
+            "url": "https://cryptobriefing.com/gold-steady-us-inflation-data-fed/",
+            "sentiment_score": -0.1273,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stock market today: Live updates",
@@ -1977,140 +1937,40 @@
             "url": "https://biztoc.com/x/b9e516fd83c58471",
             "sentiment_score": -0.5135,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "America’s Strategic Oil Reserve Hasn’t Been This Low Since 1983. Now Experts Are Sounding the Alarm",
-            "description": "America’s emergency oil stockpile has fallen below 300 million barrels for the first time since the Strategic Petroleum Reserve was filled in the early 1980s. Now, some energy experts are warning that the problem may go far beyond simply having less oil avail…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-16T14:45:07Z",
-            "url": "https://freerepublic.com/focus/f-bloggers/4392010/posts",
-            "sentiment_score": -0.6466,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Odds for a September Fed Rate Hike Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
-            "description": "",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T14:38:48Z",
-            "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9bfb5ceb-f88e-4002-9143-f5feaca01cfd",
-            "sentiment_score": -0.3337,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michigan Survey Shows Consumer Sentiment Falling in August",
-            "description": "The University of Michigan consumer sentiment index declined in August as households expressed growing economic worries. The drop adds to evidence of ongoing pressures on spending and confidence.\nThe post Michigan Survey Shows Consumer Sentiment Falling in Au…",
-            "source": "The Daily Hodl",
-            "published_at": "2026-08-16T14:30:51Z",
-            "url": "https://dailyhodl.com/2026/08/16/michigan-survey-shows-consumer-sentiment-falling-in-august/",
-            "sentiment_score": -0.2336,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "West Asia developments, Fed minutes set to shape bullion's next move: Analysts",
-            "description": "On the domestic front, gold futures for October delivery climbed ₹2,686, or nearly 2%, last week to close at ₹1.54 lakh per 10 grams on the Multi Commodity Exchange (MCX)",
-            "source": "BusinessLine",
-            "published_at": "2026-08-16T14:25:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/west-asia-developments-fed-minutes-set-to-shape-bullions-next-move-analysts/article71352994.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
-            "description": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has le...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-16T14:21:44Z",
-            "url": "https://247wallst.com/investing/etf/2026/08/16/gold-just-hit-4400-and-the-miners-are-finally-catching-up/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
-            "description": "The Federal Reserve, the ECB and the Bank of England appear unclear on how to tackle inflation amid the Iran war\nNew UK cost of living crisis looms as rising energy bills lift inflation\nInflation rates have been falling across the industrialised world, but fe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-16T14:20:32Z",
-            "url": "https://biztoc.com/x/0904621c924a969a",
-            "sentiment_score": 0.2304,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There Is No Such Thing As ‘Price Stability,’ Nor Is It Desirable",
-            "description": "Market prices are by their very name erratic, and that's to the substantial betterment of the U.S. economy.",
-            "source": "Forbes",
-            "published_at": "2026-08-16T14:00:00Z",
-            "url": "https://www.forbes.com/sites/johntamny/2026/08/16/there-is-no-such-thing-as-price-stability-nor-is-it-desirable/",
-            "sentiment_score": -0.2805,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal",
-            "description": "The US dollar's fiat status may enhance gold's appeal as a hedge, influencing market optimism for future gold price increases.\nThe post US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T13:14:05Z",
-            "url": "https://cryptobriefing.com/us-dollar-marks-55-years-as-fiat-currency-boosting-golds-safe-haven-appeal/",
-            "sentiment_score": 0.7035,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dear (Juris)Prudence: Who Cooks Up the Supreme Court’s BS Originalist Ideas, Anyway?",
-            "description": "Clarence Thomas is the worst offender here.",
-            "source": "Slate Magazine",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://slate.com/news-and-politics/2026/08/clarence-thomas-originalism-supreme-courts-bs.html",
-            "sentiment_score": 0.2851,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Vivian Tu says investors carrying credit card debt need to stop and pay it off first. The math says she's right",
-            "description": "Vivian Tu has built a massive online following by telling people how to grow their money. But you should stop investing now if you're in this camp.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T13:00:00Z",
-            "url": "https://finance.yahoo.com/markets/articles/vivian-tu-says-investors-carrying-130000844.html",
-            "sentiment_score": -0.3793,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.4037,
+      "net_score": 0.2838,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4473.7002,
+      "price_now": 4482.0,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 57.7,
-      "rsi_signal": "โซนกลาง (RSI=57.7)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 14.81346,
-      "suggested_sl_distance": 22.22019,
+      "rsi_value": 58.8,
+      "rsi_signal": "โซนกลาง (RSI=58.8)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 15.51482,
+      "suggested_sl_distance": 23.27223,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=58.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-17T23:29:26.930846+00:00"
+    "generated_at": "2026-08-18T01:41:42.092408+00:00"
   }
 ]
