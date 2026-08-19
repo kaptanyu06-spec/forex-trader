@@ -6,9 +6,9 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0846,
+        "average_score": -0.0771,
         "label": "ลบเล็กน้อย",
-        "article_count": 27,
+        "article_count": 25,
         "scored_articles": [
           {
             "currency": "EUR",
@@ -58,6 +58,26 @@
             "published_at": "2026-08-17T15:09:26Z",
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/german-bund-yield-hits-15-year-peak-frances-at-highest-since-2009/articleshow/133300376.cms",
             "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.15% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down by -0.44%, and the Nasdaq 100 Index ($IUXX...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-17T15:06:06Z",
+            "url": "https://www.barchart.com/story/news/3887971/stock-indices-waver-on-strength-in-chipmakers-vs-weakness-in-software-companies",
+            "sentiment_score": 0.0719,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar Slips on Dialed-Back Fed Rate Hike Expectations",
+            "description": "The dollar index (DXY00 ) fell to a 2.25-month low today and is down by -0.18%. The dollar extended last week’s losses today after a raft of weaker-than-expe...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-17T14:31:25Z",
+            "url": "https://www.barchart.com/story/news/3887385/dollar-slips-on-dialed-back-fed-rate-hike-expectations",
+            "sentiment_score": -0.1758,
             "sentiment_label": "ลบเล็กน้อย"
           },
           {
@@ -239,54 +259,64 @@
             "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
             "sentiment_score": -0.1644,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Bonds face bigger threat than Federal Reserve as global rates climb",
-            "description": "Rising global rates, driven by inflation and geopolitical tensions, could strain economies, impact central bank policies, and affect investors.\nThe post Bonds face bigger threat than Federal Reserve as global rates climb appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T12:15:08Z",
-            "url": "https://cryptobriefing.com/bonds-threat-global-rates-climb/",
-            "sentiment_score": -0.5916,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Bonds Face a Bigger Threat Than the Fed as Global Rates Climb",
-            "description": "As investors debate whether and when the Federal Reserve will raise interest rates, market expectations for further tightening are building around the world...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T12:00:00Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/bonds-face-bigger-threat-fed-120000846.html",
-            "sentiment_score": -0.231,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Links 8/16/2026",
-            "description": "Our strategic daily links: wood vs. masonry construction, Japan pays attention, extreme weather, Chinese auto exports, Mideast horrors, Ukraine burning, vanishing privacy, Trumpishness, Musk world, hapless Democrats, immigration troubles, Mr. market, AI, and …",
-            "source": "Nakedcapitalism.com",
-            "published_at": "2026-08-16T10:55:29Z",
-            "url": "https://www.nakedcapitalism.com/2026/08/links-8-16-2026.html",
-            "sentiment_score": -0.2533,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Mastercard took down payments across Australia with a scheduled update",
-            "description": "Mastercard transactions were declined across Australia on Saturday afternoon after what the company describes as a scheduled system update, with more than 1,900 outage reports logged by mid-afternoon. Mastercard says the problem is resolved and all systems ar…",
-            "source": "The Next Web",
-            "published_at": "2026-08-16T08:39:16Z",
-            "url": "https://thenextweb.com/news/mastercard-australia-outage-scheduled-update-cash",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0649,
+        "average_score": 0.1032,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares advance; oil rises on Middle East concerns",
+            "description": "As peace prospects in the Middle East worsen, oil prices surged, reigniting fears about supply disruptions. Concurrently, US Treasury yields climbed to their highest levels in years, revealing investor anxiety over increased government expenditure. Asian mark…",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:52:33Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-oil-rises-on-middle-east-concerns/articleshow/133308986.cms",
+            "sentiment_score": 0.1613,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Domestic equities opened the week lower, with the Nifty closing down at 24,287 points. Analysts anticipate range-bound trading as focus shifts to global macro and geopolitical developments. The Strait of Hormuz and crude oil prices are key near-term drivers, …",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133304467.cms",
+            "sentiment_score": -0.1482,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains as US dollar weakens on reduced Fed rate hike expectations",
+            "description": "Gold's rise amid a weaker dollar highlights the intricate balance between economic indicators and market expectations, impacting global demand.\nThe post Gold gains as US dollar weakens on reduced Fed rate hike expectations appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:35:22Z",
+            "url": "https://cryptobriefing.com/gold-gains-dollar-weakens-fed-rate-hike/",
+            "sentiment_score": -0.1025,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold holds two-day gain as Fed rate-hike expectations ease",
+            "description": "Eased Fed rate-hike expectations may bolster gold's appeal, potentially driving prices higher amid a weaker dollar and global demand.\nThe post Gold holds two-day gain as Fed rate-hike expectations ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:31:12Z",
+            "url": "https://cryptobriefing.com/gold-holds-two-day-gain-as-fed-rate-hike-expectations-ease/",
+            "sentiment_score": 0.6683,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Buy Now, Pay Later' Lenders Pitch Loans For Needs Like Electricity and Rent",
+            "description": "“Buy now, pay later” loans took off during the pandemic as a way for online shoppers to go on retail splurges without using a credit card. Now, lenders are offering the loans as a means for people to finance basic households needs. The lending apps Flex and Z…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-17T22:53:13Z",
+            "url": "https://slashdot.org/submission/17349958/buy-now-pay-later-lenders-pitch-loans-for-needs-like-electricity-and-rent",
+            "sentiment_score": 0.0777,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "The DOJ is investigating Andreessen Horowitz over competing board seats",
@@ -516,74 +546,24 @@
             "url": "https://cryptobriefing.com/canada-braces-50-percent-us-tariffs-negotiations-stall/",
             "sentiment_score": -0.3668,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated",
-            "description": "The Fed's credibility gap risks prolonged high yields, impacting mortgage rates, corporate debt costs, and equity market valuations.\nThe post Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T16:38:21Z",
-            "url": "https://cryptobriefing.com/fed-policy-reluctance-bond-yields-high/",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury moves forward with rules on GENIUS Act after July deadline",
-            "description": "Following the OCC, FDIC and Federal Reserve, the US Treasury Department has opened a proposed rule up to public comment ahead of the January 2027 implementation of the GENIUS Act.",
-            "source": "Cointelegraph",
-            "published_at": "2026-08-17T16:29:48Z",
-            "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?",
-            "description": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?\nBenzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nNvidia (NASDAQ:NVDA) is building what could become …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-17T16:11:43Z",
-            "url": "https://biztoc.com/x/328cf66c4620b1dd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "description": "Indian equities extended losses, with Sensex falling 281 points and Nifty declining for a fifth session. Analysts flagged crude prices, Strait of Hormuz tensions and Fed minutes as key drivers. Broader markets gained, while market breadth remained bearish wit…",
-            "source": "The Times of India",
-            "published_at": "2026-08-17T16:02:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/133301222.cms",
-            "sentiment_score": -0.1979,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "September rate cut priced at 1%, hike at 24% on $35M prediction market book",
-            "description": "Market uncertainty reflects persistent inflation and labor market concerns, influencing cautious Fed policy expectations and economic stability.\nThe post September rate cut priced at 1%, hike at 24% on $35M prediction market book appeared first on Crypto Brie…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T15:58:20Z",
-            "url": "https://cryptobriefing.com/september-rate-cut-hike-odds-polymarket-fomc/",
-            "sentiment_score": -0.3711,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.1495,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1803,
+      "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.15794,
+      "price_now": 1.15808,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 47.8,
-      "rsi_signal": "โซนกลาง (RSI=47.8)",
+      "rsi_value": 50.4,
+      "rsi_signal": "โซนกลาง (RSI=50.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.00062,
       "suggested_sl_distance": 0.00093,
@@ -592,15 +572,17 @@
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
-      "entry_signal": 0
+      "entry_signal": -1
     },
     "combined_signal": {
       "pair": "EURUSD",
-      "action": "WAIT",
-      "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=47.8) — รอจังหวะเข้าที่ดีกว่า"
+      "action": "SELL",
+      "confidence": "สูง",
+      "reason": "เทคนิคให้จังหวะ (ขาลง (MA และ MACD เห็นตรงกัน), RSI=50.4) และข่าวชี้ทางเดียวกัน (net score -0.1803)",
+      "suggested_sl_pips": 9.3,
+      "price_now": 1.15808
     },
-    "generated_at": "2026-08-18T23:28:45.190360+00:00"
+    "generated_at": "2026-08-19T01:43:45.373806+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -609,9 +591,9 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0597,
+        "average_score": 0.0833,
         "label": "บวกเล็กน้อย",
-        "article_count": 11,
+        "article_count": 7,
         "scored_articles": [
           {
             "currency": "GBP",
@@ -682,54 +664,64 @@
             "url": "https://economictimes.indiatimes.com/markets/bonds/bonds-face-a-bigger-threat-than-the-fed-as-global-rates-climb/articleshow/133284153.cms",
             "sentiment_score": -0.1644,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Interest rate dilemma for central banks as inflation rises but growth slows",
-            "description": "The Federal Reserve, the ECB and the Bank of England appear unclear on how to tackle inflation amid the Iran war\nNew UK cost of living crisis looms as rising energy bills lift inflation\nInflation rates have been falling across the industrialised world, but fe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-16T14:20:32Z",
-            "url": "https://biztoc.com/x/0904621c924a969a",
-            "sentiment_score": 0.2304,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bonds face bigger threat than Federal Reserve as global rates climb",
-            "description": "Rising global rates, driven by inflation and geopolitical tensions, could strain economies, impact central bank policies, and affect investors.\nThe post Bonds face bigger threat than Federal Reserve as global rates climb appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T12:15:08Z",
-            "url": "https://cryptobriefing.com/bonds-threat-global-rates-climb/",
-            "sentiment_score": -0.5916,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bonds Face a Bigger Threat Than the Fed as Global Rates Climb",
-            "description": "As investors debate whether and when the Federal Reserve will raise interest rates, market expectations for further tightening are building around the world...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T12:00:00Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/bonds-face-bigger-threat-fed-120000846.html",
-            "sentiment_score": -0.231,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK inflation set to rise as AI chip crunch, energy costs add pressure",
-            "description": "Data on Wednesday are set to show inflation accelerating for the first time in four months, with the median economist estimate in a Bloomberg survey predicting a 2.9% jump in July",
-            "source": "Business Standard",
-            "published_at": "2026-08-16T02:15:52Z",
-            "url": "https://www.business-standard.com/world-news/uk-inflation-set-to-rise-as-ai-chip-crunch-energy-costs-add-pressure-126081600048_1.html",
-            "sentiment_score": -0.0181,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0649,
+        "average_score": 0.1032,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares advance; oil rises on Middle East concerns",
+            "description": "As peace prospects in the Middle East worsen, oil prices surged, reigniting fears about supply disruptions. Concurrently, US Treasury yields climbed to their highest levels in years, revealing investor anxiety over increased government expenditure. Asian mark…",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:52:33Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-oil-rises-on-middle-east-concerns/articleshow/133308986.cms",
+            "sentiment_score": 0.1613,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Domestic equities opened the week lower, with the Nifty closing down at 24,287 points. Analysts anticipate range-bound trading as focus shifts to global macro and geopolitical developments. The Strait of Hormuz and crude oil prices are key near-term drivers, …",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133304467.cms",
+            "sentiment_score": -0.1482,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains as US dollar weakens on reduced Fed rate hike expectations",
+            "description": "Gold's rise amid a weaker dollar highlights the intricate balance between economic indicators and market expectations, impacting global demand.\nThe post Gold gains as US dollar weakens on reduced Fed rate hike expectations appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:35:22Z",
+            "url": "https://cryptobriefing.com/gold-gains-dollar-weakens-fed-rate-hike/",
+            "sentiment_score": -0.1025,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold holds two-day gain as Fed rate-hike expectations ease",
+            "description": "Eased Fed rate-hike expectations may bolster gold's appeal, potentially driving prices higher amid a weaker dollar and global demand.\nThe post Gold holds two-day gain as Fed rate-hike expectations ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:31:12Z",
+            "url": "https://cryptobriefing.com/gold-holds-two-day-gain-as-fed-rate-hike-expectations-ease/",
+            "sentiment_score": 0.6683,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Buy Now, Pay Later' Lenders Pitch Loans For Needs Like Electricity and Rent",
+            "description": "“Buy now, pay later” loans took off during the pandemic as a way for online shoppers to go on retail splurges without using a credit card. Now, lenders are offering the loans as a means for people to finance basic households needs. The lending apps Flex and Z…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-17T22:53:13Z",
+            "url": "https://slashdot.org/submission/17349958/buy-now-pay-later-lenders-pitch-loans-for-needs-like-electricity-and-rent",
+            "sentiment_score": 0.0777,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "The DOJ is investigating Andreessen Horowitz over competing board seats",
@@ -959,60 +951,10 @@
             "url": "https://cryptobriefing.com/canada-braces-50-percent-us-tariffs-negotiations-stall/",
             "sentiment_score": -0.3668,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated",
-            "description": "The Fed's credibility gap risks prolonged high yields, impacting mortgage rates, corporate debt costs, and equity market valuations.\nThe post Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T16:38:21Z",
-            "url": "https://cryptobriefing.com/fed-policy-reluctance-bond-yields-high/",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury moves forward with rules on GENIUS Act after July deadline",
-            "description": "Following the OCC, FDIC and Federal Reserve, the US Treasury Department has opened a proposed rule up to public comment ahead of the January 2027 implementation of the GENIUS Act.",
-            "source": "Cointelegraph",
-            "published_at": "2026-08-17T16:29:48Z",
-            "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?",
-            "description": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?\nBenzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nNvidia (NASDAQ:NVDA) is building what could become …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-17T16:11:43Z",
-            "url": "https://biztoc.com/x/328cf66c4620b1dd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "description": "Indian equities extended losses, with Sensex falling 281 points and Nifty declining for a fifth session. Analysts flagged crude prices, Strait of Hormuz tensions and Fed minutes as key drivers. Broader markets gained, while market breadth remained bearish wit…",
-            "source": "The Times of India",
-            "published_at": "2026-08-17T16:02:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/133301222.cms",
-            "sentiment_score": -0.1979,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "September rate cut priced at 1%, hike at 24% on $35M prediction market book",
-            "description": "Market uncertainty reflects persistent inflation and labor market concerns, influencing cautious Fed policy expectations and economic stability.\nThe post September rate cut priced at 1%, hike at 24% on $35M prediction market book appeared first on Crypto Brie…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T15:58:20Z",
-            "url": "https://cryptobriefing.com/september-rate-cut-hike-odds-polymarket-fomc/",
-            "sentiment_score": -0.3711,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0052,
+      "net_score": -0.0199,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1022,28 +964,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.35355,
+      "price_now": 1.35289,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 47.2,
-      "rsi_signal": "โซนกลาง (RSI=47.2)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "rsi_value": 41.6,
+      "rsi_signal": "โซนกลาง (RSI=41.6)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.0008,
-      "suggested_sl_distance": 0.0012,
+      "suggested_sl_distance": 0.00119,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=41.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-18T23:28:45.190360+00:00"
+    "generated_at": "2026-08-19T01:43:45.373806+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1052,10 +994,60 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0649,
+        "average_score": 0.1032,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares advance; oil rises on Middle East concerns",
+            "description": "As peace prospects in the Middle East worsen, oil prices surged, reigniting fears about supply disruptions. Concurrently, US Treasury yields climbed to their highest levels in years, revealing investor anxiety over increased government expenditure. Asian mark…",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:52:33Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-oil-rises-on-middle-east-concerns/articleshow/133308986.cms",
+            "sentiment_score": 0.1613,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Domestic equities opened the week lower, with the Nifty closing down at 24,287 points. Analysts anticipate range-bound trading as focus shifts to global macro and geopolitical developments. The Strait of Hormuz and crude oil prices are key near-term drivers, …",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133304467.cms",
+            "sentiment_score": -0.1482,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains as US dollar weakens on reduced Fed rate hike expectations",
+            "description": "Gold's rise amid a weaker dollar highlights the intricate balance between economic indicators and market expectations, impacting global demand.\nThe post Gold gains as US dollar weakens on reduced Fed rate hike expectations appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:35:22Z",
+            "url": "https://cryptobriefing.com/gold-gains-dollar-weakens-fed-rate-hike/",
+            "sentiment_score": -0.1025,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold holds two-day gain as Fed rate-hike expectations ease",
+            "description": "Eased Fed rate-hike expectations may bolster gold's appeal, potentially driving prices higher amid a weaker dollar and global demand.\nThe post Gold holds two-day gain as Fed rate-hike expectations ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:31:12Z",
+            "url": "https://cryptobriefing.com/gold-holds-two-day-gain-as-fed-rate-hike-expectations-ease/",
+            "sentiment_score": 0.6683,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Buy Now, Pay Later' Lenders Pitch Loans For Needs Like Electricity and Rent",
+            "description": "“Buy now, pay later” loans took off during the pandemic as a way for online shoppers to go on retail splurges without using a credit card. Now, lenders are offering the loans as a means for people to finance basic households needs. The lending apps Flex and Z…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-17T22:53:13Z",
+            "url": "https://slashdot.org/submission/17349958/buy-now-pay-later-lenders-pitch-loans-for-needs-like-electricity-and-rent",
+            "sentiment_score": 0.0777,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "The DOJ is investigating Andreessen Horowitz over competing board seats",
@@ -1285,64 +1277,44 @@
             "url": "https://cryptobriefing.com/canada-braces-50-percent-us-tariffs-negotiations-stall/",
             "sentiment_score": -0.3668,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated",
-            "description": "The Fed's credibility gap risks prolonged high yields, impacting mortgage rates, corporate debt costs, and equity market valuations.\nThe post Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T16:38:21Z",
-            "url": "https://cryptobriefing.com/fed-policy-reluctance-bond-yields-high/",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury moves forward with rules on GENIUS Act after July deadline",
-            "description": "Following the OCC, FDIC and Federal Reserve, the US Treasury Department has opened a proposed rule up to public comment ahead of the January 2027 implementation of the GENIUS Act.",
-            "source": "Cointelegraph",
-            "published_at": "2026-08-17T16:29:48Z",
-            "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?",
-            "description": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?\nBenzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nNvidia (NASDAQ:NVDA) is building what could become …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-17T16:11:43Z",
-            "url": "https://biztoc.com/x/328cf66c4620b1dd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "description": "Indian equities extended losses, with Sensex falling 281 points and Nifty declining for a fifth session. Analysts flagged crude prices, Strait of Hormuz tensions and Fed minutes as key drivers. Broader markets gained, while market breadth remained bearish wit…",
-            "source": "The Times of India",
-            "published_at": "2026-08-17T16:02:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/133301222.cms",
-            "sentiment_score": -0.1979,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "September rate cut priced at 1%, hike at 24% on $35M prediction market book",
-            "description": "Market uncertainty reflects persistent inflation and labor market concerns, influencing cautious Fed policy expectations and economic stability.\nThe post September rate cut priced at 1%, hike at 24% on $35M prediction market book appeared first on Crypto Brie…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T15:58:20Z",
-            "url": "https://cryptobriefing.com/september-rate-cut-hike-odds-polymarket-fomc/",
-            "sentiment_score": -0.3711,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.041,
+        "average_score": -0.0238,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 24,
+        "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan’s 10-year government bond yield rises to three-decade peak",
+            "description": "Stocks end lower as oil pops; investors eye Fed minutes, retail earnings this week\nTOKYO, Aug 18 (Reuters) - Japan’s benchmark 10-year government bond yield climbed to a three-decade high on Tuesday, driven by rising overseas bond yields and speculation about…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-18T00:44:26Z",
+            "url": "https://biztoc.com/x/6f63803c60b2c633",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's 10-year yield hits three-decade peak on inflation worries",
+            "description": "TOKYO, Aug 18 : Japan's benchmark 10-year government bond yield climbed to a three-decade high on Tuesday as a stalemate in the Middle East conflict stoked inflation worries and reinforced speculation about a near-term Bank of Japan interest-rate increase.The…",
+            "source": "CNA",
+            "published_at": "2026-08-18T00:16:33Z",
+            "url": "https://www.channelnewsasia.com/business/japans-10-year-yield-hits-three-decade-peak-inflation-worries-6324771",
+            "sentiment_score": -0.4825,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Dollar Slips on Dialed-Back Fed Rate Hike Expectations",
+            "description": "The dollar index (DXY00 ) fell to a 2.25-month low today and is down by -0.18%. The dollar extended last week’s losses today after a raft of weaker-than-expe...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-17T14:31:25Z",
+            "url": "https://www.barchart.com/story/news/3887385/dollar-slips-on-dialed-back-fed-rate-hike-expectations",
+            "sentiment_score": -0.1758,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Guest Contribution: “Undervaluation of Asian currencies”",
@@ -1562,30 +1534,10 @@
             "url": "https://www.cnbc.com/2026/08/17/japan-gdp-misses-estimates-trade-exports-yen-nikkei.html",
             "sentiment_score": -0.0927,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "4 Reasons This Could Be the Most Important Week of August for Bitcoin and XRP",
-            "description": "Trump meets crypto leaders, Fed minutes land, and Japan tests the carry trade. Four catalysts that could move Bitcoin and XRP.",
-            "source": "BeInCrypto",
-            "published_at": "2026-08-16T21:03:27Z",
-            "url": "https://beincrypto.com/4-reasons-bitcoin-xrp-august-week/",
-            "sentiment_score": 0.1901,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "UK inflation set to rise as AI chip crunch, energy costs add pressure",
-            "description": "Data on Wednesday are set to show inflation accelerating for the first time in four months, with the median economist estimate in a Bloomberg survey predicting a 2.9% jump in July",
-            "source": "Business Standard",
-            "published_at": "2026-08-16T02:15:52Z",
-            "url": "https://www.business-standard.com/world-news/uk-inflation-set-to-rise-as-ai-chip-crunch-energy-costs-add-pressure-126081600048_1.html",
-            "sentiment_score": -0.0181,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0239,
+      "net_score": 0.127,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1595,16 +1547,16 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 159.554,
+      "price_now": 159.453,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.3,
-      "rsi_signal": "โซนกลาง (RSI=50.3)",
+      "rsi_value": 42.8,
+      "rsi_signal": "โซนกลาง (RSI=42.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.11353,
-      "suggested_sl_distance": 0.17029,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
+      "atr_value": 0.11687,
+      "suggested_sl_distance": 0.1753,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
+      "technical_vote": 1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "none",
       "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
@@ -1616,7 +1568,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-18T23:28:45.190360+00:00"
+    "generated_at": "2026-08-19T01:43:45.373806+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1652,10 +1604,60 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0649,
+        "average_score": 0.1032,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares advance; oil rises on Middle East concerns",
+            "description": "As peace prospects in the Middle East worsen, oil prices surged, reigniting fears about supply disruptions. Concurrently, US Treasury yields climbed to their highest levels in years, revealing investor anxiety over increased government expenditure. Asian mark…",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:52:33Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-oil-rises-on-middle-east-concerns/articleshow/133308986.cms",
+            "sentiment_score": 0.1613,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Domestic equities opened the week lower, with the Nifty closing down at 24,287 points. Analysts anticipate range-bound trading as focus shifts to global macro and geopolitical developments. The Strait of Hormuz and crude oil prices are key near-term drivers, …",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133304467.cms",
+            "sentiment_score": -0.1482,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains as US dollar weakens on reduced Fed rate hike expectations",
+            "description": "Gold's rise amid a weaker dollar highlights the intricate balance between economic indicators and market expectations, impacting global demand.\nThe post Gold gains as US dollar weakens on reduced Fed rate hike expectations appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:35:22Z",
+            "url": "https://cryptobriefing.com/gold-gains-dollar-weakens-fed-rate-hike/",
+            "sentiment_score": -0.1025,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold holds two-day gain as Fed rate-hike expectations ease",
+            "description": "Eased Fed rate-hike expectations may bolster gold's appeal, potentially driving prices higher amid a weaker dollar and global demand.\nThe post Gold holds two-day gain as Fed rate-hike expectations ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:31:12Z",
+            "url": "https://cryptobriefing.com/gold-holds-two-day-gain-as-fed-rate-hike-expectations-ease/",
+            "sentiment_score": 0.6683,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Buy Now, Pay Later' Lenders Pitch Loans For Needs Like Electricity and Rent",
+            "description": "“Buy now, pay later” loans took off during the pandemic as a way for online shoppers to go on retail splurges without using a credit card. Now, lenders are offering the loans as a means for people to finance basic households needs. The lending apps Flex and Z…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-17T22:53:13Z",
+            "url": "https://slashdot.org/submission/17349958/buy-now-pay-later-lenders-pitch-loans-for-needs-like-electricity-and-rent",
+            "sentiment_score": 0.0777,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "The DOJ is investigating Andreessen Horowitz over competing board seats",
@@ -1885,60 +1887,10 @@
             "url": "https://cryptobriefing.com/canada-braces-50-percent-us-tariffs-negotiations-stall/",
             "sentiment_score": -0.3668,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated",
-            "description": "The Fed's credibility gap risks prolonged high yields, impacting mortgage rates, corporate debt costs, and equity market valuations.\nThe post Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T16:38:21Z",
-            "url": "https://cryptobriefing.com/fed-policy-reluctance-bond-yields-high/",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury moves forward with rules on GENIUS Act after July deadline",
-            "description": "Following the OCC, FDIC and Federal Reserve, the US Treasury Department has opened a proposed rule up to public comment ahead of the January 2027 implementation of the GENIUS Act.",
-            "source": "Cointelegraph",
-            "published_at": "2026-08-17T16:29:48Z",
-            "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?",
-            "description": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?\nBenzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nNvidia (NASDAQ:NVDA) is building what could become …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-17T16:11:43Z",
-            "url": "https://biztoc.com/x/328cf66c4620b1dd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "description": "Indian equities extended losses, with Sensex falling 281 points and Nifty declining for a fifth session. Analysts flagged crude prices, Strait of Hormuz tensions and Fed minutes as key drivers. Broader markets gained, while market breadth remained bearish wit…",
-            "source": "The Times of India",
-            "published_at": "2026-08-17T16:02:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/133301222.cms",
-            "sentiment_score": -0.1979,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "September rate cut priced at 1%, hike at 24% on $35M prediction market book",
-            "description": "Market uncertainty reflects persistent inflation and labor market concerns, influencing cautious Fed policy expectations and economic stability.\nThe post September rate cut priced at 1%, hike at 24% on $35M prediction market book appeared first on Crypto Brie…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T15:58:20Z",
-            "url": "https://cryptobriefing.com/september-rate-cut-hike-odds-polymarket-fomc/",
-            "sentiment_score": -0.3711,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0518,
+      "net_score": -0.0901,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1948,14 +1900,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70842,
+      "price_now": 0.70786,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 30.5,
-      "rsi_signal": "โซนกลาง (RSI=30.5)",
+      "rsi_value": 30.2,
+      "rsi_signal": "โซนกลาง (RSI=30.2)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00056,
-      "suggested_sl_distance": 0.00084,
+      "atr_value": 0.0006,
+      "suggested_sl_distance": 0.0009,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -1967,9 +1919,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=30.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=30.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-18T23:28:45.190360+00:00"
+    "generated_at": "2026-08-19T01:43:45.373806+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1978,10 +1930,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1029,
+        "average_score": 0.1327,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold holds two-day gain as Fed rate-hike expectations ease",
+            "description": "Eased Fed rate-hike expectations may bolster gold's appeal, potentially driving prices higher amid a weaker dollar and global demand.\nThe post Gold holds two-day gain as Fed rate-hike expectations ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:31:12Z",
+            "url": "https://cryptobriefing.com/gold-holds-two-day-gain-as-fed-rate-hike-expectations-ease/",
+            "sentiment_score": 0.6683,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "XAU",
             "title": "Deterra Royalties posts profit rise and boosts dividend in FY26 results",
@@ -2221,64 +2183,64 @@
             "url": "https://cryptobriefing.com/gold-prices-rise-as-investors-embrace-risk-on-sentiment-wsj/",
             "sentiment_score": 0.3807,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Tether Gold adds $237M to market cap, leading tokenized gold asset growth",
-            "description": "The rise in tokenized gold assets like Tether Gold may signal a shift in investor preference, potentially impacting traditional gold markets.\nThe post Tether Gold adds $237M to market cap, leading tokenized gold asset growth appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T19:41:02Z",
-            "url": "https://cryptobriefing.com/tether-gold-adds-237m-to-market-cap-leading-tokenized-gold-asset-growth/",
-            "sentiment_score": 0.6796,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Bitcoin Has Never Faced Global Bond Yields This High Since It Was Born",
-            "description": "Global bond yields hit 2008 highs, a level Bitcoin never traded through. Gold gained 32% while BTC lost 46%.",
-            "source": "BeInCrypto",
-            "published_at": "2026-08-16T18:58:54Z",
-            "url": "https://beincrypto.com/bitcoin-global-bond-yields-since-2008/",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold Just Hit $4,400 and the Miners Are Finally Catching Up",
-            "description": "Gold miners spent years trailing bullion even as prices surged, but something shifted in July and the gap is closing fast. Whether that catch-up trade has le...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-16T14:21:44Z",
-            "url": "https://247wallst.com/investing/etf/2026/08/16/gold-just-hit-4400-and-the-miners-are-finally-catching-up/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal",
-            "description": "The US dollar's fiat status may enhance gold's appeal as a hedge, influencing market optimism for future gold price increases.\nThe post US dollar marks 55 years as fiat currency, boosting gold’s safe haven appeal appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-16T13:14:05Z",
-            "url": "https://cryptobriefing.com/us-dollar-marks-55-years-as-fiat-currency-boosting-golds-safe-haven-appeal/",
-            "sentiment_score": 0.7035,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "‘Running out of money’: Kraft, McDonald’s, Whirlpool CEOs all flag same concern over US consumers — protect your wealth",
-            "description": "“We’re seeing negative cash flows in the lower-income brackets where they’re dipping into savings.”",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-16T11:45:00Z",
-            "url": "https://finance.yahoo.com/economy/articles/running-money-kraft-mcdonald-whirlpool-114500035.html",
-            "sentiment_score": 0.3186,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0649,
+        "average_score": 0.1032,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares advance; oil rises on Middle East concerns",
+            "description": "As peace prospects in the Middle East worsen, oil prices surged, reigniting fears about supply disruptions. Concurrently, US Treasury yields climbed to their highest levels in years, revealing investor anxiety over increased government expenditure. Asian mark…",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:52:33Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-advance-oil-rises-on-middle-east-concerns/articleshow/133308986.cms",
+            "sentiment_score": 0.1613,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Domestic equities opened the week lower, with the Nifty closing down at 24,287 points. Analysts anticipate range-bound trading as focus shifts to global macro and geopolitical developments. The Strait of Hormuz and crude oil prices are key near-term drivers, …",
+            "source": "The Times of India",
+            "published_at": "2026-08-18T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/133304467.cms",
+            "sentiment_score": -0.1482,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains as US dollar weakens on reduced Fed rate hike expectations",
+            "description": "Gold's rise amid a weaker dollar highlights the intricate balance between economic indicators and market expectations, impacting global demand.\nThe post Gold gains as US dollar weakens on reduced Fed rate hike expectations appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:35:22Z",
+            "url": "https://cryptobriefing.com/gold-gains-dollar-weakens-fed-rate-hike/",
+            "sentiment_score": -0.1025,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold holds two-day gain as Fed rate-hike expectations ease",
+            "description": "Eased Fed rate-hike expectations may bolster gold's appeal, potentially driving prices higher amid a weaker dollar and global demand.\nThe post Gold holds two-day gain as Fed rate-hike expectations ease appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-17T23:31:12Z",
+            "url": "https://cryptobriefing.com/gold-holds-two-day-gain-as-fed-rate-hike-expectations-ease/",
+            "sentiment_score": 0.6683,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Buy Now, Pay Later' Lenders Pitch Loans For Needs Like Electricity and Rent",
+            "description": "“Buy now, pay later” loans took off during the pandemic as a way for online shoppers to go on retail splurges without using a credit card. Now, lenders are offering the loans as a means for people to finance basic households needs. The lending apps Flex and Z…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-17T22:53:13Z",
+            "url": "https://slashdot.org/submission/17349958/buy-now-pay-later-lenders-pitch-loans-for-needs-like-electricity-and-rent",
+            "sentiment_score": 0.0777,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "The DOJ is investigating Andreessen Horowitz over competing board seats",
@@ -2508,60 +2470,10 @@
             "url": "https://cryptobriefing.com/canada-braces-50-percent-us-tariffs-negotiations-stall/",
             "sentiment_score": -0.3668,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated",
-            "description": "The Fed's credibility gap risks prolonged high yields, impacting mortgage rates, corporate debt costs, and equity market valuations.\nThe post Federal Reserve’s policy reluctance keeps long-term bond yields stubbornly elevated appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T16:38:21Z",
-            "url": "https://cryptobriefing.com/fed-policy-reluctance-bond-yields-high/",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury moves forward with rules on GENIUS Act after July deadline",
-            "description": "Following the OCC, FDIC and Federal Reserve, the US Treasury Department has opened a proposed rule up to public comment ahead of the January 2027 implementation of the GENIUS Act.",
-            "source": "Cointelegraph",
-            "published_at": "2026-08-17T16:29:48Z",
-            "url": "https://cointelegraph.com/news/us-treasury-public-comment-rules-genius-act",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?",
-            "description": "Nvidia Could Become the ‘Federal Reserve Of AI,’ Gavin Baker Says: Will ‘Dark GPUs’ Become Its First Test?\nBenzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nNvidia (NASDAQ:NVDA) is building what could become …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-17T16:11:43Z",
-            "url": "https://biztoc.com/x/328cf66c4620b1dd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Tuesday",
-            "description": "Indian equities extended losses, with Sensex falling 281 points and Nifty declining for a fifth session. Analysts flagged crude prices, Strait of Hormuz tensions and Fed minutes as key drivers. Broader markets gained, while market breadth remained bearish wit…",
-            "source": "The Times of India",
-            "published_at": "2026-08-17T16:02:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-tuesday/articleshow/133301222.cms",
-            "sentiment_score": -0.1979,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "September rate cut priced at 1%, hike at 24% on $35M prediction market book",
-            "description": "Market uncertainty reflects persistent inflation and labor market concerns, influencing cautious Fed policy expectations and economic stability.\nThe post September rate cut priced at 1%, hike at 24% on $35M prediction market book appeared first on Crypto Brie…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-17T15:58:20Z",
-            "url": "https://cryptobriefing.com/september-rate-cut-hike-odds-polymarket-fomc/",
-            "sentiment_score": -0.3711,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.038,
+      "net_score": 0.0295,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2571,17 +2483,17 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4386.0,
+      "price_now": 4399.6001,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 22.2,
-      "rsi_signal": "ขายมากเกิน (RSI=22.2) ราคาอาจเด้ง",
+      "rsi_value": 34.1,
+      "rsi_signal": "โซนกลาง (RSI=34.1)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 15.28855,
-      "suggested_sl_distance": 22.93282,
+      "atr_value": 16.34946,
+      "suggested_sl_distance": 24.52419,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -1,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -2590,8 +2502,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=22.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=34.1) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-18T23:28:45.190360+00:00"
+    "generated_at": "2026-08-19T01:43:45.373806+00:00"
   }
 ]
