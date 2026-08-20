@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.2497,
+        "average_score": -0.1699,
         "label": "ลบเล็กน้อย",
-        "article_count": 14,
+        "article_count": 15,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Dividend alert! Mazagon Dock, Natco Pharma among 15 stocks turning ex-dividend on Thursday. Do you own any?",
+            "description": "Mazagon Dock Shipbuilders in April had announced that its board of directors have recommended a final dividend of Rs 4.62 per share for the financial year 2026. The company later fixed August 20 as the record date to determine the eligibility of shareholders …",
+            "source": "The Times of India",
+            "published_at": "2026-08-19T02:17:27Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/dividend-alert-mazagon-dock-natco-pharma-among-15-stocks-turning-ex-dividend-on-thursday-do-you-own-any/articleshow/133335365.cms",
+            "sentiment_score": 0.3893,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "EUR",
             "title": "Global Bond Markets Put Governments On Notice Over Fiscal, Inflation Risks",
@@ -153,10 +163,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0549,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0495,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Stock markets have been on a roll. Is it time to hedge your bets?",
+            "description": "Best days for returns from stocks are often clustered near the worst ones; you can’t skip the nightmares without passing up some landmark returns",
+            "source": "The Irish Times",
+            "published_at": "2026-08-19T04:00:00Z",
+            "url": "https://www.irishtimes.com/your-money/2026/08/19/stock-markets-have-been-on-a-roll-is-it-time-to-hedge-your-bets/",
+            "sentiment_score": 0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher as yields ease, markets await fed minutes amid Iran tensions",
+            "description": "Gold prices edged higher in early Asian trade on Wednesday as US Treasury yields eased from recent highs, with investors awaiting the Federal Reserve",
+            "source": "The Times of India",
+            "published_at": "2026-08-19T02:44:50Z",
+            "url": "https://timesofindia.indiatimes.com/business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/133335783.cms",
+            "sentiment_score": 0.1738,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs",
+            "description": "The Nikkei's decline highlights global tech volatility and rising bond yields, stressing Japan's economic vulnerability and fiscal challenges.\nThe post Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-19T02:25:19Z",
+            "url": "https://cryptobriefing.com/nikkei-declines-chip-stock-selloff-bond-yields/",
+            "sentiment_score": -0.143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "China bond yields drop, diverge from global trend, impact on US rates eyed",
@@ -199,16 +239,6 @@
           },
           {
             "currency": "USD",
-            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
-            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
-            "source": "PRNewswire",
-            "published_at": "2026-08-18T22:00:00Z",
-            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
             "title": "Lufax Reports Second Quarter 2026 Financial Results",
             "description": "Represents Key Milestone as Company Executes Plan to Return to a Normal Reporting Cadence SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- Lufax Holding Ltd (\"Lufax\" or the \"Company\") (NYSE: LU and HKEX: 6623), a leading financial services enabler for small business o…",
             "source": "PRNewswire",
@@ -216,6 +246,16 @@
             "url": "https://www.prnewswire.com/news-releases/lufax-reports-second-quarter-2026-financial-results-302854312.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
+            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
+            "source": "PRNewswire",
+            "published_at": "2026-08-18T22:00:00Z",
+            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -416,40 +456,10 @@
             "url": "https://www.pymnts.com/cryptocurrency/2026/blockchain-group-asks-supreme-court-review-federal-reserve-denial-crypto-bank-bid-master-account/",
             "sentiment_score": 0.082,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond yields are climbing. Here’s what that means for mortgages and other consumer borrowing",
-            "description": "Long-term government bond yields have risen sharply in recent days. Higher bond yields push consumer borrowing costs up, sometimes immediately.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:58:29Z",
-            "url": "https://www.cnbc.com/2026/08/18/mortgage-rates-treasury-bond-yields-consumer-loans.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-            "description": "A sell-off in long-term Treasurys is raising borrowing costs, exposing how debt, AI spending and energy are turning the bond market into a political problem.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:48:00Z",
-            "url": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html",
-            "sentiment_score": -0.3983,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A surprising group is disappearing from the job market",
-            "description": "The U.S. unemployment rate remains historically low, but a growing number of labor researchers are focused on a different warning sign: young men are becoming less likely to work or actively look for jobs. The unemployment rate fell to 4.1% in July, while the…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-18T16:40:47Z",
-            "url": "https://freerepublic.com/focus/f-news/4392225/posts",
-            "sentiment_score": 0.1453,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.3046,
+      "net_score": -0.2194,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -459,14 +469,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.16822,
+      "price_now": 1.16795,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 78.9,
-      "rsi_signal": "ซื้อมากเกิน (RSI=78.9) ระวังราคาย่อ",
+      "rsi_value": 75.3,
+      "rsi_signal": "ซื้อมากเกิน (RSI=75.3) ระวังราคาย่อ",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00093,
-      "suggested_sl_distance": 0.00139,
+      "atr_value": 0.00089,
+      "suggested_sl_distance": 0.00134,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -480,7 +490,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-20T03:53:08.491153+00:00"
+    "generated_at": "2026-08-20T04:45:10.701424+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -489,10 +499,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1431,
+        "average_score": -0.1087,
         "label": "ลบเล็กน้อย",
-        "article_count": 13,
+        "article_count": 14,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Gold inches higher, focus on Fed minutes",
+            "description": "Gold prices edged up slightly during the early Asian trading session, buoyed by a retreat in U.S. Treasury yields from their recent highs. Market players are now looking ahead to the Federal Reserve's meeting minutes for guidance on upcoming policies. Other p…",
+            "source": "The Times of India",
+            "published_at": "2026-08-19T01:59:17Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-inches-higher-focus-on-fed-minutes/articleshow/133335242.cms",
+            "sentiment_score": 0.1145,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Gold inches higher, focus on Fed minutes",
@@ -626,10 +646,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0549,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0495,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Stock markets have been on a roll. Is it time to hedge your bets?",
+            "description": "Best days for returns from stocks are often clustered near the worst ones; you can’t skip the nightmares without passing up some landmark returns",
+            "source": "The Irish Times",
+            "published_at": "2026-08-19T04:00:00Z",
+            "url": "https://www.irishtimes.com/your-money/2026/08/19/stock-markets-have-been-on-a-roll-is-it-time-to-hedge-your-bets/",
+            "sentiment_score": 0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher as yields ease, markets await fed minutes amid Iran tensions",
+            "description": "Gold prices edged higher in early Asian trade on Wednesday as US Treasury yields eased from recent highs, with investors awaiting the Federal Reserve",
+            "source": "The Times of India",
+            "published_at": "2026-08-19T02:44:50Z",
+            "url": "https://timesofindia.indiatimes.com/business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/133335783.cms",
+            "sentiment_score": 0.1738,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs",
+            "description": "The Nikkei's decline highlights global tech volatility and rising bond yields, stressing Japan's economic vulnerability and fiscal challenges.\nThe post Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-19T02:25:19Z",
+            "url": "https://cryptobriefing.com/nikkei-declines-chip-stock-selloff-bond-yields/",
+            "sentiment_score": -0.143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "China bond yields drop, diverge from global trend, impact on US rates eyed",
@@ -672,16 +722,6 @@
           },
           {
             "currency": "USD",
-            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
-            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
-            "source": "PRNewswire",
-            "published_at": "2026-08-18T22:00:00Z",
-            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
             "title": "Lufax Reports Second Quarter 2026 Financial Results",
             "description": "Represents Key Milestone as Company Executes Plan to Return to a Normal Reporting Cadence SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- Lufax Holding Ltd (\"Lufax\" or the \"Company\") (NYSE: LU and HKEX: 6623), a leading financial services enabler for small business o…",
             "source": "PRNewswire",
@@ -689,6 +729,16 @@
             "url": "https://www.prnewswire.com/news-releases/lufax-reports-second-quarter-2026-financial-results-302854312.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
+            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
+            "source": "PRNewswire",
+            "published_at": "2026-08-18T22:00:00Z",
+            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -889,40 +939,10 @@
             "url": "https://www.pymnts.com/cryptocurrency/2026/blockchain-group-asks-supreme-court-review-federal-reserve-denial-crypto-bank-bid-master-account/",
             "sentiment_score": 0.082,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond yields are climbing. Here’s what that means for mortgages and other consumer borrowing",
-            "description": "Long-term government bond yields have risen sharply in recent days. Higher bond yields push consumer borrowing costs up, sometimes immediately.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:58:29Z",
-            "url": "https://www.cnbc.com/2026/08/18/mortgage-rates-treasury-bond-yields-consumer-loans.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-            "description": "A sell-off in long-term Treasurys is raising borrowing costs, exposing how debt, AI spending and energy are turning the bond market into a political problem.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:48:00Z",
-            "url": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html",
-            "sentiment_score": -0.3983,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A surprising group is disappearing from the job market",
-            "description": "The U.S. unemployment rate remains historically low, but a growing number of labor researchers are focused on a different warning sign: young men are becoming less likely to work or actively look for jobs. The unemployment rate fell to 4.1% in July, while the…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-18T16:40:47Z",
-            "url": "https://freerepublic.com/focus/f-news/4392225/posts",
-            "sentiment_score": 0.1453,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.198,
+      "net_score": -0.1582,
       "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -932,14 +952,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3614,
+      "price_now": 1.36114,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 66.5,
-      "rsi_signal": "โซนกลาง (RSI=66.5)",
+      "rsi_value": 64.3,
+      "rsi_signal": "โซนกลาง (RSI=64.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00116,
-      "suggested_sl_distance": 0.00173,
+      "atr_value": 0.00111,
+      "suggested_sl_distance": 0.00167,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -953,7 +973,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-20T03:53:08.491153+00:00"
+    "generated_at": "2026-08-20T04:45:10.701424+00:00"
   },
   {
     "pair": "USDJPY",
@@ -962,10 +982,40 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0549,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0495,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Stock markets have been on a roll. Is it time to hedge your bets?",
+            "description": "Best days for returns from stocks are often clustered near the worst ones; you can’t skip the nightmares without passing up some landmark returns",
+            "source": "The Irish Times",
+            "published_at": "2026-08-19T04:00:00Z",
+            "url": "https://www.irishtimes.com/your-money/2026/08/19/stock-markets-have-been-on-a-roll-is-it-time-to-hedge-your-bets/",
+            "sentiment_score": 0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher as yields ease, markets await fed minutes amid Iran tensions",
+            "description": "Gold prices edged higher in early Asian trade on Wednesday as US Treasury yields eased from recent highs, with investors awaiting the Federal Reserve",
+            "source": "The Times of India",
+            "published_at": "2026-08-19T02:44:50Z",
+            "url": "https://timesofindia.indiatimes.com/business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/133335783.cms",
+            "sentiment_score": 0.1738,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs",
+            "description": "The Nikkei's decline highlights global tech volatility and rising bond yields, stressing Japan's economic vulnerability and fiscal challenges.\nThe post Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-19T02:25:19Z",
+            "url": "https://cryptobriefing.com/nikkei-declines-chip-stock-selloff-bond-yields/",
+            "sentiment_score": -0.143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "China bond yields drop, diverge from global trend, impact on US rates eyed",
@@ -1008,16 +1058,6 @@
           },
           {
             "currency": "USD",
-            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
-            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
-            "source": "PRNewswire",
-            "published_at": "2026-08-18T22:00:00Z",
-            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
             "title": "Lufax Reports Second Quarter 2026 Financial Results",
             "description": "Represents Key Milestone as Company Executes Plan to Return to a Normal Reporting Cadence SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- Lufax Holding Ltd (\"Lufax\" or the \"Company\") (NYSE: LU and HKEX: 6623), a leading financial services enabler for small business o…",
             "source": "PRNewswire",
@@ -1025,6 +1065,16 @@
             "url": "https://www.prnewswire.com/news-releases/lufax-reports-second-quarter-2026-financial-results-302854312.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
+            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
+            "source": "PRNewswire",
+            "published_at": "2026-08-18T22:00:00Z",
+            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -1225,44 +1275,44 @@
             "url": "https://www.pymnts.com/cryptocurrency/2026/blockchain-group-asks-supreme-court-review-federal-reserve-denial-crypto-bank-bid-master-account/",
             "sentiment_score": 0.082,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond yields are climbing. Here’s what that means for mortgages and other consumer borrowing",
-            "description": "Long-term government bond yields have risen sharply in recent days. Higher bond yields push consumer borrowing costs up, sometimes immediately.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:58:29Z",
-            "url": "https://www.cnbc.com/2026/08/18/mortgage-rates-treasury-bond-yields-consumer-loans.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-            "description": "A sell-off in long-term Treasurys is raising borrowing costs, exposing how debt, AI spending and energy are turning the bond market into a political problem.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:48:00Z",
-            "url": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html",
-            "sentiment_score": -0.3983,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A surprising group is disappearing from the job market",
-            "description": "The U.S. unemployment rate remains historically low, but a growing number of labor researchers are focused on a different warning sign: young men are becoming less likely to work or actively look for jobs. The unemployment rate fell to 4.1% in July, while the…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-18T16:40:47Z",
-            "url": "https://freerepublic.com/focus/f-news/4392225/posts",
-            "sentiment_score": 0.1453,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.2772,
-        "label": "ลบชัดเจน (Bearish)",
-        "article_count": 20,
+        "average_score": -0.1662,
+        "label": "ลบเล็กน้อย",
+        "article_count": 23,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Analysis-Investors set sights on Swiss franc for popular carry trades after yen intervention",
+            "description": "By Alun John and Dhara Ranasinghe\nLONDON, Aug 19 (Reuters) - A weaker Swiss franc could be an unexpected consequence of recent rare U.S.-Japanese intervention to prop up the yen, bringing relief to companies and policymakers in Switzerland who have grappled w…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-19T04:24:10Z",
+            "url": "https://biztoc.com/x/94d5d3ba44ab876d",
+            "sentiment_score": 0.3105,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Analysis:Investors set sights on Swiss franc for popular carry trades after yen intervention",
+            "description": "LONDON, Aug 19 : A weaker Swiss franc could be an unexpected consequence of recent rare U.S.-Japanese intervention to prop up the yen, bringing relief to companies and policymakers in Switzerland who have grappled with the strength of their local currency for…",
+            "source": "CNA",
+            "published_at": "2026-08-19T04:02:26Z",
+            "url": "https://www.channelnewsasia.com/business/analysisinvestors-set-sights-swiss-franc-popular-carry-trades-after-yen-intervention-6327721",
+            "sentiment_score": 0.4531,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan bond yields near 3% as inflation, fiscal worries mount",
+            "description": "TOKYO, Aug 18 : Japan's benchmark bond yield is on the brink of hitting 3 per cent for the first time since the mid-1990s, highlighting how inflation, rising fiscal concerns and monetary policy expectations are reshaping a market long defined by low interest …",
+            "source": "CNA",
+            "published_at": "2026-08-19T02:35:01Z",
+            "url": "https://www.channelnewsasia.com/business/japan-bond-yields-near-3-inflation-fiscal-worries-mount-6327521",
+            "sentiment_score": -0.2272,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Global Bond Markets Put Governments On Notice Over Fiscal, Inflation Risks",
@@ -1465,7 +1515,7 @@
           }
         ]
       },
-      "net_score": 0.3321,
+      "net_score": 0.2157,
       "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1475,14 +1525,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.452,
+      "price_now": 158.539,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 41.5,
-      "rsi_signal": "โซนกลาง (RSI=41.5)",
+      "rsi_value": 45.4,
+      "rsi_signal": "โซนกลาง (RSI=45.4)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.20913,
-      "suggested_sl_distance": 0.3137,
+      "atr_value": 0.20334,
+      "suggested_sl_distance": 0.30501,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1496,7 +1546,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-20T03:53:08.491153+00:00"
+    "generated_at": "2026-08-20T04:45:10.701424+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1522,10 +1572,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0549,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0495,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Stock markets have been on a roll. Is it time to hedge your bets?",
+            "description": "Best days for returns from stocks are often clustered near the worst ones; you can’t skip the nightmares without passing up some landmark returns",
+            "source": "The Irish Times",
+            "published_at": "2026-08-19T04:00:00Z",
+            "url": "https://www.irishtimes.com/your-money/2026/08/19/stock-markets-have-been-on-a-roll-is-it-time-to-hedge-your-bets/",
+            "sentiment_score": 0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher as yields ease, markets await fed minutes amid Iran tensions",
+            "description": "Gold prices edged higher in early Asian trade on Wednesday as US Treasury yields eased from recent highs, with investors awaiting the Federal Reserve",
+            "source": "The Times of India",
+            "published_at": "2026-08-19T02:44:50Z",
+            "url": "https://timesofindia.indiatimes.com/business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/133335783.cms",
+            "sentiment_score": 0.1738,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs",
+            "description": "The Nikkei's decline highlights global tech volatility and rising bond yields, stressing Japan's economic vulnerability and fiscal challenges.\nThe post Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-19T02:25:19Z",
+            "url": "https://cryptobriefing.com/nikkei-declines-chip-stock-selloff-bond-yields/",
+            "sentiment_score": -0.143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "China bond yields drop, diverge from global trend, impact on US rates eyed",
@@ -1568,16 +1648,6 @@
           },
           {
             "currency": "USD",
-            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
-            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
-            "source": "PRNewswire",
-            "published_at": "2026-08-18T22:00:00Z",
-            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
             "title": "Lufax Reports Second Quarter 2026 Financial Results",
             "description": "Represents Key Milestone as Company Executes Plan to Return to a Normal Reporting Cadence SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- Lufax Holding Ltd (\"Lufax\" or the \"Company\") (NYSE: LU and HKEX: 6623), a leading financial services enabler for small business o…",
             "source": "PRNewswire",
@@ -1585,6 +1655,16 @@
             "url": "https://www.prnewswire.com/news-releases/lufax-reports-second-quarter-2026-financial-results-302854312.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
+            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
+            "source": "PRNewswire",
+            "published_at": "2026-08-18T22:00:00Z",
+            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -1785,40 +1865,10 @@
             "url": "https://www.pymnts.com/cryptocurrency/2026/blockchain-group-asks-supreme-court-review-federal-reserve-denial-crypto-bank-bid-master-account/",
             "sentiment_score": 0.082,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond yields are climbing. Here’s what that means for mortgages and other consumer borrowing",
-            "description": "Long-term government bond yields have risen sharply in recent days. Higher bond yields push consumer borrowing costs up, sometimes immediately.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:58:29Z",
-            "url": "https://www.cnbc.com/2026/08/18/mortgage-rates-treasury-bond-yields-consumer-loans.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-            "description": "A sell-off in long-term Treasurys is raising borrowing costs, exposing how debt, AI spending and energy are turning the bond market into a political problem.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:48:00Z",
-            "url": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html",
-            "sentiment_score": -0.3983,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A surprising group is disappearing from the job market",
-            "description": "The U.S. unemployment rate remains historically low, but a growing number of labor researchers are focused on a different warning sign: young men are becoming less likely to work or actively look for jobs. The unemployment rate fell to 4.1% in July, while the…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-18T16:40:47Z",
-            "url": "https://freerepublic.com/focus/f-news/4392225/posts",
-            "sentiment_score": 0.1453,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0933,
+      "net_score": -0.0879,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1828,14 +1878,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.71215,
+      "price_now": 0.712,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 59.8,
-      "rsi_signal": "โซนกลาง (RSI=59.8)",
+      "rsi_value": 58.0,
+      "rsi_signal": "โซนกลาง (RSI=58.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00086,
-      "suggested_sl_distance": 0.00129,
+      "atr_value": 0.00085,
+      "suggested_sl_distance": 0.00127,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1849,7 +1899,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-20T03:53:08.491153+00:00"
+    "generated_at": "2026-08-20T04:45:10.701424+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2075,10 +2125,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0549,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0495,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Stock markets have been on a roll. Is it time to hedge your bets?",
+            "description": "Best days for returns from stocks are often clustered near the worst ones; you can’t skip the nightmares without passing up some landmark returns",
+            "source": "The Irish Times",
+            "published_at": "2026-08-19T04:00:00Z",
+            "url": "https://www.irishtimes.com/your-money/2026/08/19/stock-markets-have-been-on-a-roll-is-it-time-to-hedge-your-bets/",
+            "sentiment_score": 0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher as yields ease, markets await fed minutes amid Iran tensions",
+            "description": "Gold prices edged higher in early Asian trade on Wednesday as US Treasury yields eased from recent highs, with investors awaiting the Federal Reserve",
+            "source": "The Times of India",
+            "published_at": "2026-08-19T02:44:50Z",
+            "url": "https://timesofindia.indiatimes.com/business/gold-silver-rate-today-live-updates-18k-22-carat-24k-gold-price-10g-silver-cost-per-kg-mcx-comex-etf-stock-precious-metal-gold-prediction-city-wise-cost-latest-gold-news/liveblog/133335783.cms",
+            "sentiment_score": 0.1738,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs",
+            "description": "The Nikkei's decline highlights global tech volatility and rising bond yields, stressing Japan's economic vulnerability and fiscal challenges.\nThe post Nikkei drops 2.5% as chip stocks crater and bond yields hit multi-decade highs appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-19T02:25:19Z",
+            "url": "https://cryptobriefing.com/nikkei-declines-chip-stock-selloff-bond-yields/",
+            "sentiment_score": -0.143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "China bond yields drop, diverge from global trend, impact on US rates eyed",
@@ -2121,16 +2201,6 @@
           },
           {
             "currency": "USD",
-            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
-            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
-            "source": "PRNewswire",
-            "published_at": "2026-08-18T22:00:00Z",
-            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
             "title": "Lufax Reports Second Quarter 2026 Financial Results",
             "description": "Represents Key Milestone as Company Executes Plan to Return to a Normal Reporting Cadence SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- Lufax Holding Ltd (\"Lufax\" or the \"Company\") (NYSE: LU and HKEX: 6623), a leading financial services enabler for small business o…",
             "source": "PRNewswire",
@@ -2138,6 +2208,16 @@
             "url": "https://www.prnewswire.com/news-releases/lufax-reports-second-quarter-2026-financial-results-302854312.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "ZTO Reports Second Quarter 2026 Unaudited Financial Results",
+            "description": "10.5 Billion Parcels Expanded Market Share to 19.9% Adjusted Net Income Increased 50.3% to RMB3.1 Billion SHANGHAI, Aug. 18, 2026 /PRNewswire/ -- ZTO Express (Cayman) Inc. (NYSE: ZTO and SEHK: 2057), a leading and fast-growing express delivery company in Chin…",
+            "source": "PRNewswire",
+            "published_at": "2026-08-18T22:00:00Z",
+            "url": "https://www.prnewswire.com/news-releases/zto-reports-second-quarter-2026-unaudited-financial-results-302854342.html",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -2338,40 +2418,10 @@
             "url": "https://www.pymnts.com/cryptocurrency/2026/blockchain-group-asks-supreme-court-review-federal-reserve-denial-crypto-bank-bid-master-account/",
             "sentiment_score": 0.082,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond yields are climbing. Here’s what that means for mortgages and other consumer borrowing",
-            "description": "Long-term government bond yields have risen sharply in recent days. Higher bond yields push consumer borrowing costs up, sometimes immediately.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:58:29Z",
-            "url": "https://www.cnbc.com/2026/08/18/mortgage-rates-treasury-bond-yields-consumer-loans.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis: Bond market pressure is squeezing Main Street as Wall Street waits on Warsh",
-            "description": "A sell-off in long-term Treasurys is raising borrowing costs, exposing how debt, AI spending and energy are turning the bond market into a political problem.",
-            "source": "CNBC",
-            "published_at": "2026-08-18T16:48:00Z",
-            "url": "https://www.cnbc.com/2026/08/18/bond-market-treasury-yields-warsh-main-street.html",
-            "sentiment_score": -0.3983,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "A surprising group is disappearing from the job market",
-            "description": "The U.S. unemployment rate remains historically low, but a growing number of labor researchers are focused on a different warning sign: young men are becoming less likely to work or actively look for jobs. The unemployment rate fell to 4.1% in July, while the…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-08-18T16:40:47Z",
-            "url": "https://freerepublic.com/focus/f-news/4392225/posts",
-            "sentiment_score": 0.1453,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0351,
+      "net_score": 0.0405,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2381,14 +2431,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4554.2002,
+      "price_now": 4545.7998,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 67.6,
-      "rsi_signal": "โซนกลาง (RSI=67.6)",
+      "rsi_value": 64.4,
+      "rsi_signal": "โซนกลาง (RSI=64.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 18.70693,
-      "suggested_sl_distance": 28.06039,
+      "atr_value": 18.14357,
+      "suggested_sl_distance": 27.21536,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2402,6 +2452,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-20T03:53:08.491153+00:00"
+    "generated_at": "2026-08-20T04:45:10.701424+00:00"
   }
 ]
