@@ -619,14 +619,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.17055,
+      "price_now": 1.17069,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 64.0,
-      "rsi_signal": "โซนกลาง (RSI=64.0)",
+      "rsi_value": 63.5,
+      "rsi_signal": "โซนกลาง (RSI=63.5)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00094,
-      "suggested_sl_distance": 0.00141,
+      "atr_value": 0.00093,
+      "suggested_sl_distance": 0.00139,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -638,9 +638,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=64.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=63.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-21T08:50:29.096569+00:00"
+    "generated_at": "2026-08-21T09:44:32.903534+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -1192,28 +1192,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.36567,
+      "price_now": 1.36599,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 64.2,
-      "rsi_signal": "โซนกลาง (RSI=64.2)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00117,
-      "suggested_sl_distance": 0.00175,
+      "rsi_value": 63.5,
+      "rsi_signal": "โซนกลาง (RSI=63.5)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00124,
+      "suggested_sl_distance": 0.00186,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=63.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-21T08:50:29.096569+00:00"
+    "generated_at": "2026-08-21T09:44:32.903534+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1715,14 +1715,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.59599,
+      "price_now": 158.541,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 40.4,
-      "rsi_signal": "โซนกลาง (RSI=40.4)",
+      "rsi_value": 39.2,
+      "rsi_signal": "โซนกลาง (RSI=39.2)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.20244,
-      "suggested_sl_distance": 0.30366,
+      "atr_value": 0.20583,
+      "suggested_sl_distance": 0.30875,
       "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
       "technical_vote": 1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1736,7 +1736,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-21T08:50:29.096569+00:00"
+    "generated_at": "2026-08-21T09:44:32.903534+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -2078,16 +2078,16 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.71623,
+      "price_now": 0.71628,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 78.7,
-      "rsi_signal": "ซื้อมากเกิน (RSI=78.7) ระวังราคาย่อ",
+      "rsi_value": 77.8,
+      "rsi_signal": "ซื้อมากเกิน (RSI=77.8) ระวังราคาย่อ",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00073,
+      "atr_value": 0.00074,
       "suggested_sl_distance": 0.0011,
-      "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
-      "technical_vote": 0,
+      "bb_signal": "ราคาอยู่ในกรอบปกติ",
+      "technical_vote": 1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "up",
       "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
@@ -2097,9 +2097,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=78.7) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=77.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-21T08:50:29.096569+00:00"
+    "generated_at": "2026-08-21T09:44:32.903534+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2681,14 +2681,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4636.3999,
+      "price_now": 4641.1001,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 75.0,
-      "rsi_signal": "ซื้อมากเกิน (RSI=75.0) ระวังราคาย่อ",
+      "rsi_value": 75.9,
+      "rsi_signal": "ซื้อมากเกิน (RSI=75.9) ระวังราคาย่อ",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 19.06744,
-      "suggested_sl_distance": 28.60116,
+      "atr_value": 19.36517,
+      "suggested_sl_distance": 29.04775,
       "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2700,8 +2700,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=75.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=75.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-21T08:50:29.096569+00:00"
+    "generated_at": "2026-08-21T09:44:32.903534+00:00"
   }
 ]
