@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0743,
+        "average_score": -0.0883,
         "label": "ลบเล็กน้อย",
-        "article_count": 13,
+        "article_count": 14,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Billionaire Leon Cooperman says today's AI boom echoes a big bust from the 1970s — a lesson from the 'Nifty Fifty' crash",
+            "description": "He says signs indicate stocks could be hit as the AI hype begins to die down.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T11:30:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/billionaire-leon-cooperman-says-todays-113000015.html",
+            "sentiment_score": -0.1798,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Stocks Settle Higher as Crude Oil Prices Stabilize",
@@ -143,10 +153,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0755,
-        "label": "ลบเล็กน้อย",
-        "article_count": 28,
+        "average_score": 0.0605,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
+            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T12:36:57Z",
+            "url": "https://biztoc.com/x/877f493aaa8925b2",
+            "sentiment_score": -0.4374,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 dividend yield hits record low near 1% and it has some retirees rethinking their strategies",
+            "description": "S&P 500 dividend yields are running just above 1%, the lowest reading on record. The payouts haven't shrunk — but stock prices are outrunning them.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T11:35:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
+            "sentiment_score": -0.2519,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Is Buying Its Own Bonds. Where Is The Money Coming From?",
+            "description": "Treasury's doubled buyback program is funded by selling short-term bills. That creates no new money, but it shortens the debt and puts a fiscal hand on long-term rates.",
+            "source": "Forbes",
+            "published_at": "2026-08-22T11:02:59Z",
+            "url": "https://www.forbes.com/sites/jamesbroughel/2026/08/22/treasury-is-buying-its-own-bonds-where-is-the-money-coming-from/",
+            "sentiment_score": 0.2166,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Yves here. Readers are likely to very much enjoy this talk among Michael Hudson, Steve Keen, and their host at Class Unity. This discussion takes big historical sweep and includes how the Constitution’s defects, which were not entirely accidental, produced an…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:33:04Z",
+            "url": "https://biztoc.com/x/e263bd8af328535f",
+            "sentiment_score": 0.4251,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Steve Keen and Michael Hudson discuss empire, finance, and the coming crises.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-22T10:20:05Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/michael-hudson-and-steve-keen-the-federal-reserve-the-constitution-and-the-end-of-us-hegemony.html",
+            "sentiment_score": 0.3612,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:04:24Z",
+            "url": "https://biztoc.com/x/5c8e8ebfba1c5aaf",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 22, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates to...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-22-2026-best-cd-account-earns-435-apy-100000592.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin surges 23% in 1 week to trade nearly $78K as liquidity hopes, ETF inflows boost crypto markets",
@@ -366,70 +446,10 @@
             "url": "https://time.com/article/2026/08/21/beef-prices-trump-deal-tariffs/",
             "sentiment_score": -0.175,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-            "description": "Billionaire investor Ray Dalio said the the debt buyback announcement this week fits into a larger pattern that could signal a forthcoming debt crisis.",
-            "source": "CNBC",
-            "published_at": "2026-08-21T19:21:21Z",
-            "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
-            "sentiment_score": -0.7368,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Price Prediction: $100K in Sight as BTC Breaks Past 200-Day EMA",
-            "description": "Bitcoin (BTC) has surged over 8% in the past 24 hours, extending a massive recovery rally driven by record-shattering short liquidations and surging ETF infl...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-21T19:05:51Z",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-100k-sight-190551362.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
-            "description": "Not even Wall Street titans make the right call every single time. But Michael Burry's bad timing isn't just a cautionary tale for bearish investors.",
-            "source": "Barchart.com",
-            "published_at": "2026-08-21T18:36:09Z",
-            "url": "https://www.barchart.com/story/news/3975254/michael-burry-told-everyone-to-sell-in-january-2023-if-you-listened-you-would-have-missed-out-on-the-s-p-500-nearly-doubling",
-            "sentiment_score": -0.4159,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Is Back Near $80,000. Here’s What It Will Take to Reclaim $100,000",
-            "description": "Bitcoin has surged more than 20% in a single week, putting six figures back on the table after months of painful losses. But the forces driving this rally re...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:36:06Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/08/21/bitcoin-is-back-near-80000-heres-what-it-will-take-to-reclaim-100000/",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Treasury, the Fed and the threat to your money",
-            "description": "Also in Weekend Reads: The Gen Z online sports-betting trend, what’s next for Apple as Tim Cook exits, and a bullish take on Nvidia heading into earnings.",
-            "source": "MarketWatch",
-            "published_at": "2026-08-21T18:15:00Z",
-            "url": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Says the AI Buildout Is Repeating 2008: ‘The Shenanigans Are Apparent Today’",
-            "description": "The investor who called 2008 before anyone else is now naming specific AI infrastructure companies and the hidden financial mechanisms he says are quietly bu...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:10:47Z",
-            "url": "https://247wallst.com/investing/2026/08/21/michael-burry-says-the-ai-buildout-is-repeating-2008-the-shenanigans-are-apparent-today/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0012,
+      "net_score": -0.1488,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -460,7 +480,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-23T11:27:37.172775+00:00"
+    "generated_at": "2026-08-23T12:54:36.122144+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -469,10 +489,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.2361,
+        "average_score": 0.1845,
         "label": "บวกเล็กน้อย",
-        "article_count": 7,
+        "article_count": 8,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Where are central banks keeping their gold?",
+            "description": "Investing.com -- Central banks still favour the Bank of England and New York Fed for gold custody, but are increasingly spreading reserves across several jurisdictions to reduce political and legal risks, Goldman Sachs said.\nA World Gold Council survey found …",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T09:02:48Z",
+            "url": "https://biztoc.com/x/9d8fce3b9e11220c",
+            "sentiment_score": 0.0039,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "Where are central banks keeping their gold?",
@@ -546,10 +576,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0755,
-        "label": "ลบเล็กน้อย",
-        "article_count": 28,
+        "average_score": 0.0605,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
+            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T12:36:57Z",
+            "url": "https://biztoc.com/x/877f493aaa8925b2",
+            "sentiment_score": -0.4374,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 dividend yield hits record low near 1% and it has some retirees rethinking their strategies",
+            "description": "S&P 500 dividend yields are running just above 1%, the lowest reading on record. The payouts haven't shrunk — but stock prices are outrunning them.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T11:35:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
+            "sentiment_score": -0.2519,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Is Buying Its Own Bonds. Where Is The Money Coming From?",
+            "description": "Treasury's doubled buyback program is funded by selling short-term bills. That creates no new money, but it shortens the debt and puts a fiscal hand on long-term rates.",
+            "source": "Forbes",
+            "published_at": "2026-08-22T11:02:59Z",
+            "url": "https://www.forbes.com/sites/jamesbroughel/2026/08/22/treasury-is-buying-its-own-bonds-where-is-the-money-coming-from/",
+            "sentiment_score": 0.2166,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Yves here. Readers are likely to very much enjoy this talk among Michael Hudson, Steve Keen, and their host at Class Unity. This discussion takes big historical sweep and includes how the Constitution’s defects, which were not entirely accidental, produced an…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:33:04Z",
+            "url": "https://biztoc.com/x/e263bd8af328535f",
+            "sentiment_score": 0.4251,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Steve Keen and Michael Hudson discuss empire, finance, and the coming crises.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-22T10:20:05Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/michael-hudson-and-steve-keen-the-federal-reserve-the-constitution-and-the-end-of-us-hegemony.html",
+            "sentiment_score": 0.3612,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:04:24Z",
+            "url": "https://biztoc.com/x/5c8e8ebfba1c5aaf",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 22, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates to...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-22-2026-best-cd-account-earns-435-apy-100000592.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin surges 23% in 1 week to trade nearly $78K as liquidity hopes, ETF inflows boost crypto markets",
@@ -769,74 +869,14 @@
             "url": "https://time.com/article/2026/08/21/beef-prices-trump-deal-tariffs/",
             "sentiment_score": -0.175,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-            "description": "Billionaire investor Ray Dalio said the the debt buyback announcement this week fits into a larger pattern that could signal a forthcoming debt crisis.",
-            "source": "CNBC",
-            "published_at": "2026-08-21T19:21:21Z",
-            "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
-            "sentiment_score": -0.7368,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Price Prediction: $100K in Sight as BTC Breaks Past 200-Day EMA",
-            "description": "Bitcoin (BTC) has surged over 8% in the past 24 hours, extending a massive recovery rally driven by record-shattering short liquidations and surging ETF infl...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-21T19:05:51Z",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-100k-sight-190551362.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
-            "description": "Not even Wall Street titans make the right call every single time. But Michael Burry's bad timing isn't just a cautionary tale for bearish investors.",
-            "source": "Barchart.com",
-            "published_at": "2026-08-21T18:36:09Z",
-            "url": "https://www.barchart.com/story/news/3975254/michael-burry-told-everyone-to-sell-in-january-2023-if-you-listened-you-would-have-missed-out-on-the-s-p-500-nearly-doubling",
-            "sentiment_score": -0.4159,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Is Back Near $80,000. Here’s What It Will Take to Reclaim $100,000",
-            "description": "Bitcoin has surged more than 20% in a single week, putting six figures back on the table after months of painful losses. But the forces driving this rally re...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:36:06Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/08/21/bitcoin-is-back-near-80000-heres-what-it-will-take-to-reclaim-100000/",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Treasury, the Fed and the threat to your money",
-            "description": "Also in Weekend Reads: The Gen Z online sports-betting trend, what’s next for Apple as Tim Cook exits, and a bullish take on Nvidia heading into earnings.",
-            "source": "MarketWatch",
-            "published_at": "2026-08-21T18:15:00Z",
-            "url": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Says the AI Buildout Is Repeating 2008: ‘The Shenanigans Are Apparent Today’",
-            "description": "The investor who called 2008 before anyone else is now naming specific AI infrastructure companies and the hidden financial mechanisms he says are quietly bu...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:10:47Z",
-            "url": "https://247wallst.com/investing/2026/08/21/michael-burry-says-the-ai-buildout-is-repeating-2008-the-shenanigans-are-apparent-today/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.3116,
-      "bias": "เอียงบวกต่อ GBP (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.124,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -863,7 +903,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-23T11:27:37.172775+00:00"
+    "generated_at": "2026-08-23T12:54:36.122144+00:00"
   },
   {
     "pair": "USDJPY",
@@ -872,10 +912,80 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0755,
-        "label": "ลบเล็กน้อย",
-        "article_count": 28,
+        "average_score": 0.0605,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
+            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T12:36:57Z",
+            "url": "https://biztoc.com/x/877f493aaa8925b2",
+            "sentiment_score": -0.4374,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 dividend yield hits record low near 1% and it has some retirees rethinking their strategies",
+            "description": "S&P 500 dividend yields are running just above 1%, the lowest reading on record. The payouts haven't shrunk — but stock prices are outrunning them.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T11:35:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
+            "sentiment_score": -0.2519,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Is Buying Its Own Bonds. Where Is The Money Coming From?",
+            "description": "Treasury's doubled buyback program is funded by selling short-term bills. That creates no new money, but it shortens the debt and puts a fiscal hand on long-term rates.",
+            "source": "Forbes",
+            "published_at": "2026-08-22T11:02:59Z",
+            "url": "https://www.forbes.com/sites/jamesbroughel/2026/08/22/treasury-is-buying-its-own-bonds-where-is-the-money-coming-from/",
+            "sentiment_score": 0.2166,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Yves here. Readers are likely to very much enjoy this talk among Michael Hudson, Steve Keen, and their host at Class Unity. This discussion takes big historical sweep and includes how the Constitution’s defects, which were not entirely accidental, produced an…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:33:04Z",
+            "url": "https://biztoc.com/x/e263bd8af328535f",
+            "sentiment_score": 0.4251,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Steve Keen and Michael Hudson discuss empire, finance, and the coming crises.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-22T10:20:05Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/michael-hudson-and-steve-keen-the-federal-reserve-the-constitution-and-the-end-of-us-hegemony.html",
+            "sentiment_score": 0.3612,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:04:24Z",
+            "url": "https://biztoc.com/x/5c8e8ebfba1c5aaf",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 22, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates to...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-22-2026-best-cd-account-earns-435-apy-100000592.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin surges 23% in 1 week to trade nearly $78K as liquidity hopes, ETF inflows boost crypto markets",
@@ -1095,74 +1205,24 @@
             "url": "https://time.com/article/2026/08/21/beef-prices-trump-deal-tariffs/",
             "sentiment_score": -0.175,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-            "description": "Billionaire investor Ray Dalio said the the debt buyback announcement this week fits into a larger pattern that could signal a forthcoming debt crisis.",
-            "source": "CNBC",
-            "published_at": "2026-08-21T19:21:21Z",
-            "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
-            "sentiment_score": -0.7368,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Price Prediction: $100K in Sight as BTC Breaks Past 200-Day EMA",
-            "description": "Bitcoin (BTC) has surged over 8% in the past 24 hours, extending a massive recovery rally driven by record-shattering short liquidations and surging ETF infl...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-21T19:05:51Z",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-100k-sight-190551362.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
-            "description": "Not even Wall Street titans make the right call every single time. But Michael Burry's bad timing isn't just a cautionary tale for bearish investors.",
-            "source": "Barchart.com",
-            "published_at": "2026-08-21T18:36:09Z",
-            "url": "https://www.barchart.com/story/news/3975254/michael-burry-told-everyone-to-sell-in-january-2023-if-you-listened-you-would-have-missed-out-on-the-s-p-500-nearly-doubling",
-            "sentiment_score": -0.4159,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Is Back Near $80,000. Here’s What It Will Take to Reclaim $100,000",
-            "description": "Bitcoin has surged more than 20% in a single week, putting six figures back on the table after months of painful losses. But the forces driving this rally re...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:36:06Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/08/21/bitcoin-is-back-near-80000-heres-what-it-will-take-to-reclaim-100000/",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Treasury, the Fed and the threat to your money",
-            "description": "Also in Weekend Reads: The Gen Z online sports-betting trend, what’s next for Apple as Tim Cook exits, and a bullish take on Nvidia heading into earnings.",
-            "source": "MarketWatch",
-            "published_at": "2026-08-21T18:15:00Z",
-            "url": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Says the AI Buildout Is Repeating 2008: ‘The Shenanigans Are Apparent Today’",
-            "description": "The investor who called 2008 before anyone else is now naming specific AI infrastructure companies and the hidden financial mechanisms he says are quietly bu...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:10:47Z",
-            "url": "https://247wallst.com/investing/2026/08/21/michael-burry-says-the-ai-buildout-is-repeating-2008-the-shenanigans-are-apparent-today/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0132,
+        "average_score": -0.0065,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 26,
+        "article_count": 27,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Links 8/22/2026",
+            "description": "Today's bouncing links: China rejects Iran sanctions, Ebola out of control, Japan bond wobble, Bessent Treasury move fizzles, Europe water shortages, Canada tariffs, Trump self-dealing, Russia-NATO war? private credit worries, Walmart weakness, Europe water s…",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-22T10:59:56Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/links-8-22-2026.html",
+            "sentiment_score": -0.2616,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "JPY",
             "title": "Ray Dalio Sees Japan Debt Crisis Coming to America: 2 Assets Are His Escape Plan",
@@ -1425,7 +1485,7 @@
           }
         ]
       },
-      "net_score": -0.0887,
+      "net_score": 0.067,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1456,7 +1516,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=53.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-23T11:27:37.172775+00:00"
+    "generated_at": "2026-08-23T12:54:36.122144+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1471,10 +1531,80 @@
         "scored_articles": []
       },
       "quote_sentiment": {
-        "average_score": -0.0755,
-        "label": "ลบเล็กน้อย",
-        "article_count": 28,
+        "average_score": 0.0605,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
+            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T12:36:57Z",
+            "url": "https://biztoc.com/x/877f493aaa8925b2",
+            "sentiment_score": -0.4374,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 dividend yield hits record low near 1% and it has some retirees rethinking their strategies",
+            "description": "S&P 500 dividend yields are running just above 1%, the lowest reading on record. The payouts haven't shrunk — but stock prices are outrunning them.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T11:35:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
+            "sentiment_score": -0.2519,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Is Buying Its Own Bonds. Where Is The Money Coming From?",
+            "description": "Treasury's doubled buyback program is funded by selling short-term bills. That creates no new money, but it shortens the debt and puts a fiscal hand on long-term rates.",
+            "source": "Forbes",
+            "published_at": "2026-08-22T11:02:59Z",
+            "url": "https://www.forbes.com/sites/jamesbroughel/2026/08/22/treasury-is-buying-its-own-bonds-where-is-the-money-coming-from/",
+            "sentiment_score": 0.2166,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Yves here. Readers are likely to very much enjoy this talk among Michael Hudson, Steve Keen, and their host at Class Unity. This discussion takes big historical sweep and includes how the Constitution’s defects, which were not entirely accidental, produced an…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:33:04Z",
+            "url": "https://biztoc.com/x/e263bd8af328535f",
+            "sentiment_score": 0.4251,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Steve Keen and Michael Hudson discuss empire, finance, and the coming crises.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-22T10:20:05Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/michael-hudson-and-steve-keen-the-federal-reserve-the-constitution-and-the-end-of-us-hegemony.html",
+            "sentiment_score": 0.3612,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:04:24Z",
+            "url": "https://biztoc.com/x/5c8e8ebfba1c5aaf",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 22, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates to...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-22-2026-best-cd-account-earns-435-apy-100000592.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin surges 23% in 1 week to trade nearly $78K as liquidity hopes, ETF inflows boost crypto markets",
@@ -1694,70 +1824,10 @@
             "url": "https://time.com/article/2026/08/21/beef-prices-trump-deal-tariffs/",
             "sentiment_score": -0.175,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-            "description": "Billionaire investor Ray Dalio said the the debt buyback announcement this week fits into a larger pattern that could signal a forthcoming debt crisis.",
-            "source": "CNBC",
-            "published_at": "2026-08-21T19:21:21Z",
-            "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
-            "sentiment_score": -0.7368,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Price Prediction: $100K in Sight as BTC Breaks Past 200-Day EMA",
-            "description": "Bitcoin (BTC) has surged over 8% in the past 24 hours, extending a massive recovery rally driven by record-shattering short liquidations and surging ETF infl...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-21T19:05:51Z",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-100k-sight-190551362.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
-            "description": "Not even Wall Street titans make the right call every single time. But Michael Burry's bad timing isn't just a cautionary tale for bearish investors.",
-            "source": "Barchart.com",
-            "published_at": "2026-08-21T18:36:09Z",
-            "url": "https://www.barchart.com/story/news/3975254/michael-burry-told-everyone-to-sell-in-january-2023-if-you-listened-you-would-have-missed-out-on-the-s-p-500-nearly-doubling",
-            "sentiment_score": -0.4159,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Is Back Near $80,000. Here’s What It Will Take to Reclaim $100,000",
-            "description": "Bitcoin has surged more than 20% in a single week, putting six figures back on the table after months of painful losses. But the forces driving this rally re...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:36:06Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/08/21/bitcoin-is-back-near-80000-heres-what-it-will-take-to-reclaim-100000/",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Treasury, the Fed and the threat to your money",
-            "description": "Also in Weekend Reads: The Gen Z online sports-betting trend, what’s next for Apple as Tim Cook exits, and a bullish take on Nvidia heading into earnings.",
-            "source": "MarketWatch",
-            "published_at": "2026-08-21T18:15:00Z",
-            "url": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Says the AI Buildout Is Repeating 2008: ‘The Shenanigans Are Apparent Today’",
-            "description": "The investor who called 2008 before anyone else is now naming specific AI infrastructure companies and the hidden financial mechanisms he says are quietly bu...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:10:47Z",
-            "url": "https://247wallst.com/investing/2026/08/21/michael-burry-says-the-ai-buildout-is-repeating-2008-the-shenanigans-are-apparent-today/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0755,
+      "net_score": -0.0605,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1788,7 +1858,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-23T11:27:37.172775+00:00"
+    "generated_at": "2026-08-23T12:54:36.122144+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1797,10 +1867,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0814,
+        "average_score": 0.074,
         "label": "บวกเล็กน้อย",
-        "article_count": 20,
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Central Bank ends physical gold conversion scheme",
+            "description": "The Central Bank has repealed a regulation that allowed physical gold held outside the banking system to be converted into lira-denominated deposit and participation accounts.",
+            "source": "Hurriyet Daily News",
+            "published_at": "2026-08-22T08:40:15Z",
+            "url": "https://www.hurriyetdailynews.com/central-bank-ends-physical-gold-conversion-scheme-225921",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "XAU",
             "title": "Gold gets its glitter back as Indian buyers return ahead of wedding and festive season",
@@ -2004,10 +2084,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0755,
-        "label": "ลบเล็กน้อย",
-        "article_count": 28,
+        "average_score": 0.0605,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
+            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T12:36:57Z",
+            "url": "https://biztoc.com/x/877f493aaa8925b2",
+            "sentiment_score": -0.4374,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 dividend yield hits record low near 1% and it has some retirees rethinking their strategies",
+            "description": "S&P 500 dividend yields are running just above 1%, the lowest reading on record. The payouts haven't shrunk — but stock prices are outrunning them.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T11:35:00Z",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dividend-yield-hits-113500363.html",
+            "sentiment_score": -0.2519,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Is Buying Its Own Bonds. Where Is The Money Coming From?",
+            "description": "Treasury's doubled buyback program is funded by selling short-term bills. That creates no new money, but it shortens the debt and puts a fiscal hand on long-term rates.",
+            "source": "Forbes",
+            "published_at": "2026-08-22T11:02:59Z",
+            "url": "https://www.forbes.com/sites/jamesbroughel/2026/08/22/treasury-is-buying-its-own-bonds-where-is-the-money-coming-from/",
+            "sentiment_score": 0.2166,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Yves here. Readers are likely to very much enjoy this talk among Michael Hudson, Steve Keen, and their host at Class Unity. This discussion takes big historical sweep and includes how the Constitution’s defects, which were not entirely accidental, produced an…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:33:04Z",
+            "url": "https://biztoc.com/x/e263bd8af328535f",
+            "sentiment_score": 0.4251,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Michael Hudson and Steve Keen: The Federal Reserve, the Constitution, and the End of US Hegemony",
+            "description": "Steve Keen and Michael Hudson discuss empire, finance, and the coming crises.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-22T10:20:05Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/michael-hudson-and-steve-keen-the-federal-reserve-the-constitution-and-the-end-of-us-hegemony.html",
+            "sentiment_score": 0.3612,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve cut its federal funds rate three times in 2025. So far in 2026, the Fed has left interest rates alone, and so now could be your last chance to lock in a competitive CD ra…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-22T10:04:24Z",
+            "url": "https://biztoc.com/x/5c8e8ebfba1c5aaf",
+            "sentiment_score": 0.7134,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, August 22, 2026: Best CD account earns 4.35% APY",
+            "description": "If you're searching for today's best CD rates on Saturday, August 22, 2026, we've narrowed down some of the top offers. Learn more about the best CD rates to...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T10:00:00Z",
+            "url": "https://finance.yahoo.com/personal-finance/banking/article/best-cd-rates-today-saturday-august-22-2026-best-cd-account-earns-435-apy-100000592.html",
+            "sentiment_score": 0.8651,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin surges 23% in 1 week to trade nearly $78K as liquidity hopes, ETF inflows boost crypto markets",
@@ -2227,74 +2377,14 @@
             "url": "https://time.com/article/2026/08/21/beef-prices-trump-deal-tariffs/",
             "sentiment_score": -0.175,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin",
-            "description": "Billionaire investor Ray Dalio said the the debt buyback announcement this week fits into a larger pattern that could signal a forthcoming debt crisis.",
-            "source": "CNBC",
-            "published_at": "2026-08-21T19:21:21Z",
-            "url": "https://www.cnbc.com/2026/08/21/ray-dalio-bessent-debt-crisis-bitcoin-gold.html",
-            "sentiment_score": -0.7368,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Price Prediction: $100K in Sight as BTC Breaks Past 200-Day EMA",
-            "description": "Bitcoin (BTC) has surged over 8% in the past 24 hours, extending a massive recovery rally driven by record-shattering short liquidations and surging ETF infl...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-21T19:05:51Z",
-            "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-price-prediction-100k-sight-190551362.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Told Everyone to ‘Sell’ in January 2023. If You Listened, You Would Have Missed Out on the S&P 500 Nearly Doubling.",
-            "description": "Not even Wall Street titans make the right call every single time. But Michael Burry's bad timing isn't just a cautionary tale for bearish investors.",
-            "source": "Barchart.com",
-            "published_at": "2026-08-21T18:36:09Z",
-            "url": "https://www.barchart.com/story/news/3975254/michael-burry-told-everyone-to-sell-in-january-2023-if-you-listened-you-would-have-missed-out-on-the-s-p-500-nearly-doubling",
-            "sentiment_score": -0.4159,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Is Back Near $80,000. Here’s What It Will Take to Reclaim $100,000",
-            "description": "Bitcoin has surged more than 20% in a single week, putting six figures back on the table after months of painful losses. But the forces driving this rally re...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:36:06Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/08/21/bitcoin-is-back-near-80000-heres-what-it-will-take-to-reclaim-100000/",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Treasury, the Fed and the threat to your money",
-            "description": "Also in Weekend Reads: The Gen Z online sports-betting trend, what’s next for Apple as Tim Cook exits, and a bullish take on Nvidia heading into earnings.",
-            "source": "MarketWatch",
-            "published_at": "2026-08-21T18:15:00Z",
-            "url": "https://www.marketwatch.com/story/the-treasury-the-fed-and-the-threat-to-your-money-774442ad",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Michael Burry Says the AI Buildout Is Repeating 2008: ‘The Shenanigans Are Apparent Today’",
-            "description": "The investor who called 2008 before anyone else is now naming specific AI infrastructure companies and the hidden financial mechanisms he says are quietly bu...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-08-21T18:10:47Z",
-            "url": "https://247wallst.com/investing/2026/08/21/michael-burry-says-the-ai-buildout-is-repeating-2008-the-shenanigans-are-apparent-today/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.1569,
-      "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.0135,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -2306,8 +2396,8 @@
       "rsi_value": 71.3,
       "rsi_signal": "ซื้อมากเกิน (RSI=71.3) ระวังราคาย่อ",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 19.38726,
-      "suggested_sl_distance": 29.08089,
+      "atr_value": 19.38727,
+      "suggested_sl_distance": 29.0809,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2321,6 +2411,6 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=71.3) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-23T11:27:37.172775+00:00"
+    "generated_at": "2026-08-23T12:54:36.122144+00:00"
   }
 ]
