@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.3103,
-        "label": "ลบชัดเจน (Bearish)",
-        "article_count": 2,
+        "average_score": -0.2449,
+        "label": "ลบเล็กน้อย",
+        "article_count": 4,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Why broccoli and lettuce are going the way of onion and tomato in Europe",
+            "description": "Europe’s heatwaves and drought are damaging vegetable and grain crops, pushing up prices and exposing vulnerabilities even in advanced food-supply systems. Unlike India’s storage and distribution challenges, Europe faces an upstream problem: protecting agricu…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T05:18:53Z",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/why-broccoli-and-lettuce-are-going-the-way-of-onion-and-tomato-in-europe/articleshow/133434616.cms",
+            "sentiment_score": -0.2252,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "The ECB has been warning about expensive stocks since 2014",
@@ -19,6 +29,16 @@
             "url": "https://www.irishtimes.com/your-money/2026/08/23/the-ecb-has-been-warning-about-expensive-stocks-since-2014/",
             "sentiment_score": -0.3756,
             "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Warsh to Make First Jackson Hole Speech as Fed Chair",
+            "description": "Investors are looking for Kevin Warsh to clarify his views on how the US central bank should react to stubborn inflation when the Federal Reserve chair speak...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "EUR",
@@ -33,10 +53,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1008,
-        "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "average_score": 0.0448,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Geopolitics, crude oil prices likely to drive stock market movements",
+            "description": "Crude oil prices and developments in the US-Iran conflict will remain the primary factors influencing stock market movements this week, according to analysts.\n\"Investors will closely monitor the Jackson Hole symposium, particularly comments from the US Federa…",
+            "source": "Business Standard",
+            "published_at": "2026-08-23T08:07:56Z",
+            "url": "https://www.business-standard.com/markets/news/geopolitics-crude-oil-prices-likely-to-drive-stock-market-movements-126082300268_1.html",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "What Happened In Philly?",
+            "description": "The monthly Philly Fed business outlook survey has been run continuously by the Federal Reserve Bank of Philadelphia for 700 months dating back to 1968. Covering manufacturing businesses in Pennsylvania, New Jersey, and Delaware, it's the longest-running of\nS…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-23T07:36:45Z",
+            "url": "https://biztoc.com/x/f959b6ff441a35d0",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Mark Walter’s sports empire offers a glimpse of the money machine behind private credit—and the plumbing keeping it together",
+            "description": "Where did the money come from for Walter to buy the Dodgers, Lakers and Chelsea FC? And what does it have to do with insurance?",
+            "source": "Fortune",
+            "published_at": "2026-08-23T07:00:00Z",
+            "url": "https://fortune.com/2026/08/23/mark-walter-sports-private-credit-insurance-finances/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
@@ -146,6 +196,16 @@
             "url": "https://cryptobriefing.com/ethereum-new-all-time-high-coinbase/",
             "sentiment_score": 0.2315,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh to Make First Jackson Hole Speech as Fed Chair",
+            "description": "Investors are looking for Kevin Warsh to clarify his views on how the US central bank should react to stubborn inflation when the Federal Reserve chair speak...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -296,60 +356,30 @@
             "url": "https://abcnews.com/Business/wireStory/bitcoin-gold-slump-mvp-week-days-135865532",
             "sentiment_score": -0.0155,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "‘The U.S. is not the only game in town anymore’ — Treasury debt faces more competition from higher-yielding bonds overseas than in recent decades",
-            "description": "Yields on U.K. bonds have reached 5.81%, and German bonds are also paying 3.76%, versus 5.27% for a comparable U.S. bond. It's a big reason U.S. rates have been drifting higher.",
-            "source": "Fortune",
-            "published_at": "2026-08-22T13:58:20Z",
-            "url": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/",
-            "sentiment_score": -0.0937,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC",
-            "description": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC\nDespite volatility tied to the Iran war, it's shaping up to be another fantastic year for investors. Since the beginning of June, the ageless Dow Jones…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T13:52:46Z",
-            "url": "https://biztoc.com/x/2d791f88e95062c3",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Emergency savings shortfall signals 'danger' for working households, Suze Orman says",
-            "description": "A new survey shows even a $500 unexpected expense may throw households off track when it comes to big life goals like saving for retirement.",
-            "source": "CNBC",
-            "published_at": "2026-08-22T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
-            "sentiment_score": -0.3945,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.4111,
+      "net_score": -0.2897,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.16781,
+      "price_now": 1.16686,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 42.6,
-      "rsi_signal": "โซนกลาง (RSI=42.6)",
+      "rsi_value": 35.8,
+      "rsi_signal": "โซนกลาง (RSI=35.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00069,
-      "suggested_sl_distance": 0.00104,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "atr_value": 0.00075,
+      "suggested_sl_distance": 0.00113,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
+      "technical_vote": -1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -358,9 +388,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=42.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=35.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-24T07:12:10.512870+00:00"
+    "generated_at": "2026-08-24T08:56:55.682818+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -416,10 +446,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1008,
-        "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "average_score": 0.0448,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Geopolitics, crude oil prices likely to drive stock market movements",
+            "description": "Crude oil prices and developments in the US-Iran conflict will remain the primary factors influencing stock market movements this week, according to analysts.\n\"Investors will closely monitor the Jackson Hole symposium, particularly comments from the US Federa…",
+            "source": "Business Standard",
+            "published_at": "2026-08-23T08:07:56Z",
+            "url": "https://www.business-standard.com/markets/news/geopolitics-crude-oil-prices-likely-to-drive-stock-market-movements-126082300268_1.html",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "What Happened In Philly?",
+            "description": "The monthly Philly Fed business outlook survey has been run continuously by the Federal Reserve Bank of Philadelphia for 700 months dating back to 1968. Covering manufacturing businesses in Pennsylvania, New Jersey, and Delaware, it's the longest-running of\nS…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-23T07:36:45Z",
+            "url": "https://biztoc.com/x/f959b6ff441a35d0",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Mark Walter’s sports empire offers a glimpse of the money machine behind private credit—and the plumbing keeping it together",
+            "description": "Where did the money come from for Walter to buy the Dodgers, Lakers and Chelsea FC? And what does it have to do with insurance?",
+            "source": "Fortune",
+            "published_at": "2026-08-23T07:00:00Z",
+            "url": "https://fortune.com/2026/08/23/mark-walter-sports-private-credit-insurance-finances/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
@@ -529,6 +589,16 @@
             "url": "https://cryptobriefing.com/ethereum-new-all-time-high-coinbase/",
             "sentiment_score": 0.2315,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh to Make First Jackson Hole Speech as Fed Chair",
+            "description": "Investors are looking for Kevin Warsh to clarify his views on how the US central bank should react to stubborn inflation when the Federal Reserve chair speak...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -679,40 +749,10 @@
             "url": "https://abcnews.com/Business/wireStory/bitcoin-gold-slump-mvp-week-days-135865532",
             "sentiment_score": -0.0155,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "‘The U.S. is not the only game in town anymore’ — Treasury debt faces more competition from higher-yielding bonds overseas than in recent decades",
-            "description": "Yields on U.K. bonds have reached 5.81%, and German bonds are also paying 3.76%, versus 5.27% for a comparable U.S. bond. It's a big reason U.S. rates have been drifting higher.",
-            "source": "Fortune",
-            "published_at": "2026-08-22T13:58:20Z",
-            "url": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/",
-            "sentiment_score": -0.0937,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC",
-            "description": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC\nDespite volatility tied to the Iran war, it's shaping up to be another fantastic year for investors. Since the beginning of June, the ageless Dow Jones…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T13:52:46Z",
-            "url": "https://biztoc.com/x/2d791f88e95062c3",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Emergency savings shortfall signals 'danger' for working households, Suze Orman says",
-            "description": "A new survey shows even a $500 unexpected expense may throw households off track when it comes to big life goals like saving for retirement.",
-            "source": "CNBC",
-            "published_at": "2026-08-22T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
-            "sentiment_score": -0.3945,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0149,
+      "net_score": 0.0709,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -722,16 +762,16 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.36452,
+      "price_now": 1.36269,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.3,
-      "rsi_signal": "โซนกลาง (RSI=50.3)",
+      "rsi_value": 38.6,
+      "rsi_signal": "โซนกลาง (RSI=38.6)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00095,
-      "suggested_sl_distance": 0.00143,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
+      "atr_value": 0.00103,
+      "suggested_sl_distance": 0.00155,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
+      "technical_vote": 1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "none",
       "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
@@ -743,7 +783,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-24T07:12:10.512870+00:00"
+    "generated_at": "2026-08-24T08:56:55.682818+00:00"
   },
   {
     "pair": "USDJPY",
@@ -752,10 +792,40 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.1008,
-        "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "average_score": 0.0448,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Geopolitics, crude oil prices likely to drive stock market movements",
+            "description": "Crude oil prices and developments in the US-Iran conflict will remain the primary factors influencing stock market movements this week, according to analysts.\n\"Investors will closely monitor the Jackson Hole symposium, particularly comments from the US Federa…",
+            "source": "Business Standard",
+            "published_at": "2026-08-23T08:07:56Z",
+            "url": "https://www.business-standard.com/markets/news/geopolitics-crude-oil-prices-likely-to-drive-stock-market-movements-126082300268_1.html",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "What Happened In Philly?",
+            "description": "The monthly Philly Fed business outlook survey has been run continuously by the Federal Reserve Bank of Philadelphia for 700 months dating back to 1968. Covering manufacturing businesses in Pennsylvania, New Jersey, and Delaware, it's the longest-running of\nS…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-23T07:36:45Z",
+            "url": "https://biztoc.com/x/f959b6ff441a35d0",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Mark Walter’s sports empire offers a glimpse of the money machine behind private credit—and the plumbing keeping it together",
+            "description": "Where did the money come from for Walter to buy the Dodgers, Lakers and Chelsea FC? And what does it have to do with insurance?",
+            "source": "Fortune",
+            "published_at": "2026-08-23T07:00:00Z",
+            "url": "https://fortune.com/2026/08/23/mark-walter-sports-private-credit-insurance-finances/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
@@ -865,6 +935,16 @@
             "url": "https://cryptobriefing.com/ethereum-new-all-time-high-coinbase/",
             "sentiment_score": 0.2315,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh to Make First Jackson Hole Speech as Fed Chair",
+            "description": "Investors are looking for Kevin Warsh to clarify his views on how the US central bank should react to stubborn inflation when the Federal Reserve chair speak...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -1015,44 +1095,24 @@
             "url": "https://abcnews.com/Business/wireStory/bitcoin-gold-slump-mvp-week-days-135865532",
             "sentiment_score": -0.0155,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "‘The U.S. is not the only game in town anymore’ — Treasury debt faces more competition from higher-yielding bonds overseas than in recent decades",
-            "description": "Yields on U.K. bonds have reached 5.81%, and German bonds are also paying 3.76%, versus 5.27% for a comparable U.S. bond. It's a big reason U.S. rates have been drifting higher.",
-            "source": "Fortune",
-            "published_at": "2026-08-22T13:58:20Z",
-            "url": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/",
-            "sentiment_score": -0.0937,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC",
-            "description": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC\nDespite volatility tied to the Iran war, it's shaping up to be another fantastic year for investors. Since the beginning of June, the ageless Dow Jones…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T13:52:46Z",
-            "url": "https://biztoc.com/x/2d791f88e95062c3",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Emergency savings shortfall signals 'danger' for working households, Suze Orman says",
-            "description": "A new survey shows even a $500 unexpected expense may throw households off track when it comes to big life goals like saving for retirement.",
-            "source": "CNBC",
-            "published_at": "2026-08-22T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
-            "sentiment_score": -0.3945,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.2616,
-        "label": "ลบชัดเจน (Bearish)",
-        "article_count": 1,
+        "average_score": -0.1676,
+        "label": "ลบเล็กน้อย",
+        "article_count": 2,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Warsh to Make First Jackson Hole Speech as Fed Chair",
+            "description": "Investors are looking for Kevin Warsh to clarify his views on how the US central bank should react to stubborn inflation when the Federal Reserve chair speak...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Links 8/22/2026",
@@ -1065,27 +1125,27 @@
           }
         ]
       },
-      "net_score": 0.3624,
+      "net_score": 0.2124,
       "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 159.075,
+      "price_now": 159.181,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 59.2,
-      "rsi_signal": "โซนกลาง (RSI=59.2)",
+      "rsi_value": 62.9,
+      "rsi_signal": "โซนกลาง (RSI=62.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.15984,
-      "suggested_sl_distance": 0.23976,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "atr_value": 0.16451,
+      "suggested_sl_distance": 0.24677,
+      "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
+      "technical_vote": 1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "up",
       "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1094,9 +1154,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=59.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=62.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-24T07:12:10.512870+00:00"
+    "generated_at": "2026-08-24T08:56:55.682818+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1111,10 +1171,40 @@
         "scored_articles": []
       },
       "quote_sentiment": {
-        "average_score": 0.1008,
-        "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "average_score": 0.0448,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Geopolitics, crude oil prices likely to drive stock market movements",
+            "description": "Crude oil prices and developments in the US-Iran conflict will remain the primary factors influencing stock market movements this week, according to analysts.\n\"Investors will closely monitor the Jackson Hole symposium, particularly comments from the US Federa…",
+            "source": "Business Standard",
+            "published_at": "2026-08-23T08:07:56Z",
+            "url": "https://www.business-standard.com/markets/news/geopolitics-crude-oil-prices-likely-to-drive-stock-market-movements-126082300268_1.html",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "What Happened In Philly?",
+            "description": "The monthly Philly Fed business outlook survey has been run continuously by the Federal Reserve Bank of Philadelphia for 700 months dating back to 1968. Covering manufacturing businesses in Pennsylvania, New Jersey, and Delaware, it's the longest-running of\nS…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-23T07:36:45Z",
+            "url": "https://biztoc.com/x/f959b6ff441a35d0",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Mark Walter’s sports empire offers a glimpse of the money machine behind private credit—and the plumbing keeping it together",
+            "description": "Where did the money come from for Walter to buy the Dodgers, Lakers and Chelsea FC? And what does it have to do with insurance?",
+            "source": "Fortune",
+            "published_at": "2026-08-23T07:00:00Z",
+            "url": "https://fortune.com/2026/08/23/mark-walter-sports-private-credit-insurance-finances/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
@@ -1224,6 +1314,16 @@
             "url": "https://cryptobriefing.com/ethereum-new-all-time-high-coinbase/",
             "sentiment_score": 0.2315,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh to Make First Jackson Hole Speech as Fed Chair",
+            "description": "Investors are looking for Kevin Warsh to clarify his views on how the US central bank should react to stubborn inflation when the Federal Reserve chair speak...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -1374,40 +1474,10 @@
             "url": "https://abcnews.com/Business/wireStory/bitcoin-gold-slump-mvp-week-days-135865532",
             "sentiment_score": -0.0155,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "‘The U.S. is not the only game in town anymore’ — Treasury debt faces more competition from higher-yielding bonds overseas than in recent decades",
-            "description": "Yields on U.K. bonds have reached 5.81%, and German bonds are also paying 3.76%, versus 5.27% for a comparable U.S. bond. It's a big reason U.S. rates have been drifting higher.",
-            "source": "Fortune",
-            "published_at": "2026-08-22T13:58:20Z",
-            "url": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/",
-            "sentiment_score": -0.0937,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC",
-            "description": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC\nDespite volatility tied to the Iran war, it's shaping up to be another fantastic year for investors. Since the beginning of June, the ageless Dow Jones…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T13:52:46Z",
-            "url": "https://biztoc.com/x/2d791f88e95062c3",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Emergency savings shortfall signals 'danger' for working households, Suze Orman says",
-            "description": "A new survey shows even a $500 unexpected expense may throw households off track when it comes to big life goals like saving for retirement.",
-            "source": "CNBC",
-            "published_at": "2026-08-22T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
-            "sentiment_score": -0.3945,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.1008,
+      "net_score": -0.0448,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1417,14 +1487,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.7171,
+      "price_now": 0.71638,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 59.6,
-      "rsi_signal": "โซนกลาง (RSI=59.6)",
+      "rsi_value": 50.3,
+      "rsi_signal": "โซนกลาง (RSI=50.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00059,
-      "suggested_sl_distance": 0.00088,
+      "atr_value": 0.00062,
+      "suggested_sl_distance": 0.00093,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1438,7 +1508,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-24T07:12:10.512870+00:00"
+    "generated_at": "2026-08-24T08:56:55.682818+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1447,10 +1517,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1963,
+        "average_score": 0.1843,
         "label": "บวกเล็กน้อย",
-        "article_count": 6,
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold price up by Rs 2,800 per tola today",
+            "description": "KATHMANDU: The price of gold has increased in the local market today, while the price of silver has declined. The price of gold has increased by Rs 2,800 per tola, while silver has decreased by Rs 10 per tola. According to the Federation of Nepal Gold and Sil…",
+            "source": "Khabarhub.com",
+            "published_at": "2026-08-23T06:21:18Z",
+            "url": "https://english.khabarhub.com/2026/23/564479/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "US Treasury yields hit highest levels since 2007 amid oil price concerns",
@@ -1514,10 +1594,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1008,
-        "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "average_score": 0.0448,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Geopolitics, crude oil prices likely to drive stock market movements",
+            "description": "Crude oil prices and developments in the US-Iran conflict will remain the primary factors influencing stock market movements this week, according to analysts.\n\"Investors will closely monitor the Jackson Hole symposium, particularly comments from the US Federa…",
+            "source": "Business Standard",
+            "published_at": "2026-08-23T08:07:56Z",
+            "url": "https://www.business-standard.com/markets/news/geopolitics-crude-oil-prices-likely-to-drive-stock-market-movements-126082300268_1.html",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "What Happened In Philly?",
+            "description": "The monthly Philly Fed business outlook survey has been run continuously by the Federal Reserve Bank of Philadelphia for 700 months dating back to 1968. Covering manufacturing businesses in Pennsylvania, New Jersey, and Delaware, it's the longest-running of\nS…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-23T07:36:45Z",
+            "url": "https://biztoc.com/x/f959b6ff441a35d0",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Mark Walter’s sports empire offers a glimpse of the money machine behind private credit—and the plumbing keeping it together",
+            "description": "Where did the money come from for Walter to buy the Dodgers, Lakers and Chelsea FC? And what does it have to do with insurance?",
+            "source": "Fortune",
+            "published_at": "2026-08-23T07:00:00Z",
+            "url": "https://fortune.com/2026/08/23/mark-walter-sports-private-credit-insurance-finances/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
@@ -1627,6 +1737,16 @@
             "url": "https://cryptobriefing.com/ethereum-new-all-time-high-coinbase/",
             "sentiment_score": 0.2315,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh to Make First Jackson Hole Speech as Fed Chair",
+            "description": "Investors are looking for Kevin Warsh to clarify his views on how the US central bank should react to stubborn inflation when the Federal Reserve chair speak...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-08-22T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/warsh-first-jackson-hole-speech-200000444.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -1777,40 +1897,10 @@
             "url": "https://abcnews.com/Business/wireStory/bitcoin-gold-slump-mvp-week-days-135865532",
             "sentiment_score": -0.0155,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "‘The U.S. is not the only game in town anymore’ — Treasury debt faces more competition from higher-yielding bonds overseas than in recent decades",
-            "description": "Yields on U.K. bonds have reached 5.81%, and German bonds are also paying 3.76%, versus 5.27% for a comparable U.S. bond. It's a big reason U.S. rates have been drifting higher.",
-            "source": "Fortune",
-            "published_at": "2026-08-22T13:58:20Z",
-            "url": "https://fortune.com/2026/08/22/us-debt-competition-higher-yielding-bonds-overseas-treasury-rates/",
-            "sentiment_score": -0.0937,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC",
-            "description": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC\nDespite volatility tied to the Iran war, it's shaping up to be another fantastic year for investors. Since the beginning of June, the ageless Dow Jones…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T13:52:46Z",
-            "url": "https://biztoc.com/x/2d791f88e95062c3",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Emergency savings shortfall signals 'danger' for working households, Suze Orman says",
-            "description": "A new survey shows even a $500 unexpected expense may throw households off track when it comes to big life goals like saving for retirement.",
-            "source": "CNBC",
-            "published_at": "2026-08-22T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
-            "sentiment_score": -0.3945,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0955,
+      "net_score": 0.1395,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1820,14 +1910,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4704.7998,
+      "price_now": 4699.2998,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 69.7,
-      "rsi_signal": "โซนกลาง (RSI=69.7)",
+      "rsi_value": 66.0,
+      "rsi_signal": "โซนกลาง (RSI=66.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 19.98418,
-      "suggested_sl_distance": 29.97627,
+      "atr_value": 21.00875,
+      "suggested_sl_distance": 31.51313,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1841,6 +1931,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-24T07:12:10.512870+00:00"
+    "generated_at": "2026-08-24T08:56:55.682818+00:00"
   }
 ]
