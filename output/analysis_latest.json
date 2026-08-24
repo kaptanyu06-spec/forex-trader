@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1798,
-        "label": "ลบเล็กน้อย",
-        "article_count": 1,
+        "average_score": -0.3103,
+        "label": "ลบชัดเจน (Bearish)",
+        "article_count": 2,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "The ECB has been warning about expensive stocks since 2014",
+            "description": "There’s a reason why financial advisers say time in the market beating timing the market",
+            "source": "The Irish Times",
+            "published_at": "2026-08-23T04:43:00Z",
+            "url": "https://www.irishtimes.com/your-money/2026/08/23/the-ecb-has-been-warning-about-expensive-stocks-since-2014/",
+            "sentiment_score": -0.3756,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "Billionaire Leon Cooperman says today's AI boom echoes a big bust from the 1970s — a lesson from the 'Nifty Fifty' crash",
@@ -23,10 +33,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0483,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1008,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
+            "description": "Tata Mutual Fund recommends a 70:30 strategic allocation between gold and silver for investors looking to balance stability with growth. The fund house remains bullish on both precious metals over the medium to long term, preferring a higher weight to gold fo…",
+            "source": "Economictimes.com",
+            "published_at": "2026-08-23T04:49:21Z",
+            "url": "https://m.economictimes.com/mf/analysis/a-7030-strategy-could-help-investors-balance-gold-and-silver-exposure-tata-mutual-fund/articleshow/133434410.cms",
+            "sentiment_score": 0.5219,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+            "description": "Bitcoin had dropped from a January high of around $95,000 to below $60,000 at the end of June. Investors shied away from speculative assets earlier in the year and crypto supporters were concerned about the lack of movement on proposed regulation of the indus…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T04:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/how-bitcoin-and-gold-went-from-a-slump-to-an-mvp-week-in-just-a-few-days/articleshow/133434294.cms",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold call-option demand hits 6-month high amid elevated prices: Barchart",
+            "description": "Rising gold call-option demand signals investor optimism for future price increases, potentially impacting market strategies and economic forecasts.\nThe post Gold call-option demand hits 6-month high amid elevated prices: Barchart appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-23T04:32:22Z",
+            "url": "https://cryptobriefing.com/gold-call-option-demand-hits-6-month-high-amid-elevated-prices-barchart/",
+            "sentiment_score": 0.0188,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How will Sensex, Nifty behave on Monday? 4 factors to drive D-Street action this week",
+            "description": "This week's Dalal Street movements are set to be heavily influenced by the ongoing tensions between Iran and the US, alongside fluctuations in global oil prices. Rising bond yields are causing investors to adopt a cautious stance as they navigate market trend…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T03:47:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-will-sensex-nifty-behave-on-monday-4-factors-to-drive-d-street-action-this-week/articleshow/133433930.cms",
+            "sentiment_score": 0.1793,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "What to know about Trump’s 50% tariffs on Canadian goods",
@@ -276,81 +326,41 @@
             "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
             "sentiment_score": -0.3945,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Can U.S. stocks withstand midterm election volatility?",
-            "description": "RBC Capital Markets has reviewed how U. S.",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34826/can-u-s-stocks-withstand-midterm-election-volatility",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC reviews midterm-year volatility risks for U.S. equities",
-            "description": "U. S. equities could face a more unsettled backdrop as the next midterm election cycle approaches, with RBC Capital Markets looking to 2018 and 2022 for clue...",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34828/rbc-reviews-midterm-year-volatility-risks-for-u-s-equities",
-            "sentiment_score": -0.3054,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury bond intervention challenges Fed’s monetary policy stability",
-            "description": "The Treasury's bond market intervention may undermine the Fed's policy consistency, impacting future interest rate strategies and market confidence.\nThe post US Treasury bond intervention challenges Fed’s monetary policy stability appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-22T13:09:40Z",
-            "url": "https://cryptobriefing.com/us-treasury-bond-intervention-challenges-feds-monetary-policy-stability/",
-            "sentiment_score": 0.4118,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T12:36:57Z",
-            "url": "https://biztoc.com/x/877f493aaa8925b2",
-            "sentiment_score": -0.4374,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.2281,
+      "net_score": -0.4111,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
       "price_now": 1.1685,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
-      "ma_crossed_this_bar": false,
-      "rsi_value": 48.6,
-      "rsi_signal": "โซนกลาง (RSI=48.6)",
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
+      "ma_crossed_this_bar": true,
+      "rsi_value": 48.7,
+      "rsi_signal": "โซนกลาง (RSI=48.7)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.00072,
       "suggested_sl_distance": 0.00108,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=48.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-24T03:11:21.055626+00:00"
+    "generated_at": "2026-08-24T04:53:45.839527+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -406,10 +416,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0483,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1008,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
+            "description": "Tata Mutual Fund recommends a 70:30 strategic allocation between gold and silver for investors looking to balance stability with growth. The fund house remains bullish on both precious metals over the medium to long term, preferring a higher weight to gold fo…",
+            "source": "Economictimes.com",
+            "published_at": "2026-08-23T04:49:21Z",
+            "url": "https://m.economictimes.com/mf/analysis/a-7030-strategy-could-help-investors-balance-gold-and-silver-exposure-tata-mutual-fund/articleshow/133434410.cms",
+            "sentiment_score": 0.5219,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+            "description": "Bitcoin had dropped from a January high of around $95,000 to below $60,000 at the end of June. Investors shied away from speculative assets earlier in the year and crypto supporters were concerned about the lack of movement on proposed regulation of the indus…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T04:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/how-bitcoin-and-gold-went-from-a-slump-to-an-mvp-week-in-just-a-few-days/articleshow/133434294.cms",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold call-option demand hits 6-month high amid elevated prices: Barchart",
+            "description": "Rising gold call-option demand signals investor optimism for future price increases, potentially impacting market strategies and economic forecasts.\nThe post Gold call-option demand hits 6-month high amid elevated prices: Barchart appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-23T04:32:22Z",
+            "url": "https://cryptobriefing.com/gold-call-option-demand-hits-6-month-high-amid-elevated-prices-barchart/",
+            "sentiment_score": 0.0188,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How will Sensex, Nifty behave on Monday? 4 factors to drive D-Street action this week",
+            "description": "This week's Dalal Street movements are set to be heavily influenced by the ongoing tensions between Iran and the US, alongside fluctuations in global oil prices. Rising bond yields are causing investors to adopt a cautious stance as they navigate market trend…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T03:47:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-will-sensex-nifty-behave-on-monday-4-factors-to-drive-d-street-action-this-week/articleshow/133433930.cms",
+            "sentiment_score": 0.1793,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "What to know about Trump’s 50% tariffs on Canadian goods",
@@ -659,50 +709,10 @@
             "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
             "sentiment_score": -0.3945,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Can U.S. stocks withstand midterm election volatility?",
-            "description": "RBC Capital Markets has reviewed how U. S.",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34826/can-u-s-stocks-withstand-midterm-election-volatility",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC reviews midterm-year volatility risks for U.S. equities",
-            "description": "U. S. equities could face a more unsettled backdrop as the next midterm election cycle approaches, with RBC Capital Markets looking to 2018 and 2022 for clue...",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34828/rbc-reviews-midterm-year-volatility-risks-for-u-s-equities",
-            "sentiment_score": -0.3054,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury bond intervention challenges Fed’s monetary policy stability",
-            "description": "The Treasury's bond market intervention may undermine the Fed's policy consistency, impacting future interest rate strategies and market confidence.\nThe post US Treasury bond intervention challenges Fed’s monetary policy stability appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-22T13:09:40Z",
-            "url": "https://cryptobriefing.com/us-treasury-bond-intervention-challenges-feds-monetary-policy-stability/",
-            "sentiment_score": 0.4118,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T12:36:57Z",
-            "url": "https://biztoc.com/x/877f493aaa8925b2",
-            "sentiment_score": -0.4374,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0674,
+      "net_score": 0.0149,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -712,14 +722,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.36482,
+      "price_now": 1.36467,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.3,
-      "rsi_signal": "โซนกลาง (RSI=52.3)",
+      "rsi_value": 51.3,
+      "rsi_signal": "โซนกลาง (RSI=51.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00104,
-      "suggested_sl_distance": 0.00156,
+      "atr_value": 0.00103,
+      "suggested_sl_distance": 0.00154,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -733,7 +743,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-24T03:11:21.055626+00:00"
+    "generated_at": "2026-08-24T04:53:45.839527+00:00"
   },
   {
     "pair": "USDJPY",
@@ -742,10 +752,50 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0483,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1008,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
+            "description": "Tata Mutual Fund recommends a 70:30 strategic allocation between gold and silver for investors looking to balance stability with growth. The fund house remains bullish on both precious metals over the medium to long term, preferring a higher weight to gold fo…",
+            "source": "Economictimes.com",
+            "published_at": "2026-08-23T04:49:21Z",
+            "url": "https://m.economictimes.com/mf/analysis/a-7030-strategy-could-help-investors-balance-gold-and-silver-exposure-tata-mutual-fund/articleshow/133434410.cms",
+            "sentiment_score": 0.5219,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+            "description": "Bitcoin had dropped from a January high of around $95,000 to below $60,000 at the end of June. Investors shied away from speculative assets earlier in the year and crypto supporters were concerned about the lack of movement on proposed regulation of the indus…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T04:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/how-bitcoin-and-gold-went-from-a-slump-to-an-mvp-week-in-just-a-few-days/articleshow/133434294.cms",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold call-option demand hits 6-month high amid elevated prices: Barchart",
+            "description": "Rising gold call-option demand signals investor optimism for future price increases, potentially impacting market strategies and economic forecasts.\nThe post Gold call-option demand hits 6-month high amid elevated prices: Barchart appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-23T04:32:22Z",
+            "url": "https://cryptobriefing.com/gold-call-option-demand-hits-6-month-high-amid-elevated-prices-barchart/",
+            "sentiment_score": 0.0188,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How will Sensex, Nifty behave on Monday? 4 factors to drive D-Street action this week",
+            "description": "This week's Dalal Street movements are set to be heavily influenced by the ongoing tensions between Iran and the US, alongside fluctuations in global oil prices. Rising bond yields are causing investors to adopt a cautious stance as they navigate market trend…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T03:47:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-will-sensex-nifty-behave-on-monday-4-factors-to-drive-d-street-action-this-week/articleshow/133433930.cms",
+            "sentiment_score": 0.1793,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "What to know about Trump’s 50% tariffs on Canadian goods",
@@ -994,46 +1044,6 @@
             "published_at": "2026-08-22T13:30:01Z",
             "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
             "sentiment_score": -0.3945,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Can U.S. stocks withstand midterm election volatility?",
-            "description": "RBC Capital Markets has reviewed how U. S.",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34826/can-u-s-stocks-withstand-midterm-election-volatility",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC reviews midterm-year volatility risks for U.S. equities",
-            "description": "U. S. equities could face a more unsettled backdrop as the next midterm election cycle approaches, with RBC Capital Markets looking to 2018 and 2022 for clue...",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34828/rbc-reviews-midterm-year-volatility-risks-for-u-s-equities",
-            "sentiment_score": -0.3054,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury bond intervention challenges Fed’s monetary policy stability",
-            "description": "The Treasury's bond market intervention may undermine the Fed's policy consistency, impacting future interest rate strategies and market confidence.\nThe post US Treasury bond intervention challenges Fed’s monetary policy stability appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-22T13:09:40Z",
-            "url": "https://cryptobriefing.com/us-treasury-bond-intervention-challenges-feds-monetary-policy-stability/",
-            "sentiment_score": 0.4118,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T12:36:57Z",
-            "url": "https://biztoc.com/x/877f493aaa8925b2",
-            "sentiment_score": -0.4374,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
@@ -1055,24 +1065,24 @@
           }
         ]
       },
-      "net_score": 0.3099,
+      "net_score": 0.3624,
       "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.92999,
+      "price_now": 158.879,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.3,
-      "rsi_signal": "โซนกลาง (RSI=53.3)",
+      "rsi_value": 50.8,
+      "rsi_signal": "โซนกลาง (RSI=50.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.16377,
-      "suggested_sl_distance": 0.24566,
+      "atr_value": 0.16494,
+      "suggested_sl_distance": 0.24741,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1086,7 +1096,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-24T03:11:21.055626+00:00"
+    "generated_at": "2026-08-24T04:53:45.839527+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1101,10 +1111,50 @@
         "scored_articles": []
       },
       "quote_sentiment": {
-        "average_score": 0.0483,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1008,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
+            "description": "Tata Mutual Fund recommends a 70:30 strategic allocation between gold and silver for investors looking to balance stability with growth. The fund house remains bullish on both precious metals over the medium to long term, preferring a higher weight to gold fo…",
+            "source": "Economictimes.com",
+            "published_at": "2026-08-23T04:49:21Z",
+            "url": "https://m.economictimes.com/mf/analysis/a-7030-strategy-could-help-investors-balance-gold-and-silver-exposure-tata-mutual-fund/articleshow/133434410.cms",
+            "sentiment_score": 0.5219,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+            "description": "Bitcoin had dropped from a January high of around $95,000 to below $60,000 at the end of June. Investors shied away from speculative assets earlier in the year and crypto supporters were concerned about the lack of movement on proposed regulation of the indus…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T04:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/how-bitcoin-and-gold-went-from-a-slump-to-an-mvp-week-in-just-a-few-days/articleshow/133434294.cms",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold call-option demand hits 6-month high amid elevated prices: Barchart",
+            "description": "Rising gold call-option demand signals investor optimism for future price increases, potentially impacting market strategies and economic forecasts.\nThe post Gold call-option demand hits 6-month high amid elevated prices: Barchart appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-23T04:32:22Z",
+            "url": "https://cryptobriefing.com/gold-call-option-demand-hits-6-month-high-amid-elevated-prices-barchart/",
+            "sentiment_score": 0.0188,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How will Sensex, Nifty behave on Monday? 4 factors to drive D-Street action this week",
+            "description": "This week's Dalal Street movements are set to be heavily influenced by the ongoing tensions between Iran and the US, alongside fluctuations in global oil prices. Rising bond yields are causing investors to adopt a cautious stance as they navigate market trend…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T03:47:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-will-sensex-nifty-behave-on-monday-4-factors-to-drive-d-street-action-this-week/articleshow/133433930.cms",
+            "sentiment_score": 0.1793,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "What to know about Trump’s 50% tariffs on Canadian goods",
@@ -1354,50 +1404,10 @@
             "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
             "sentiment_score": -0.3945,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Can U.S. stocks withstand midterm election volatility?",
-            "description": "RBC Capital Markets has reviewed how U. S.",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34826/can-u-s-stocks-withstand-midterm-election-volatility",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC reviews midterm-year volatility risks for U.S. equities",
-            "description": "U. S. equities could face a more unsettled backdrop as the next midterm election cycle approaches, with RBC Capital Markets looking to 2018 and 2022 for clue...",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34828/rbc-reviews-midterm-year-volatility-risks-for-u-s-equities",
-            "sentiment_score": -0.3054,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury bond intervention challenges Fed’s monetary policy stability",
-            "description": "The Treasury's bond market intervention may undermine the Fed's policy consistency, impacting future interest rate strategies and market confidence.\nThe post US Treasury bond intervention challenges Fed’s monetary policy stability appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-22T13:09:40Z",
-            "url": "https://cryptobriefing.com/us-treasury-bond-intervention-challenges-feds-monetary-policy-stability/",
-            "sentiment_score": 0.4118,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T12:36:57Z",
-            "url": "https://biztoc.com/x/877f493aaa8925b2",
-            "sentiment_score": -0.4374,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0483,
+      "net_score": -0.1008,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1407,11 +1417,11 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.71669,
+      "price_now": 0.71695,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 56.1,
-      "rsi_signal": "โซนกลาง (RSI=56.1)",
+      "rsi_value": 58.5,
+      "rsi_signal": "โซนกลาง (RSI=58.5)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.00063,
       "suggested_sl_distance": 0.00094,
@@ -1428,7 +1438,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-08-24T03:11:21.055626+00:00"
+    "generated_at": "2026-08-24T04:53:45.839527+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1504,10 +1514,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0483,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1008,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "A 70:30 strategy could help investors balance gold and silver exposure: Tata Mutual Fund",
+            "description": "Tata Mutual Fund recommends a 70:30 strategic allocation between gold and silver for investors looking to balance stability with growth. The fund house remains bullish on both precious metals over the medium to long term, preferring a higher weight to gold fo…",
+            "source": "Economictimes.com",
+            "published_at": "2026-08-23T04:49:21Z",
+            "url": "https://m.economictimes.com/mf/analysis/a-7030-strategy-could-help-investors-balance-gold-and-silver-exposure-tata-mutual-fund/articleshow/133434410.cms",
+            "sentiment_score": 0.5219,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How bitcoin and gold went from a slump to an MVP week in just a few days",
+            "description": "Bitcoin had dropped from a January high of around $95,000 to below $60,000 at the end of June. Investors shied away from speculative assets earlier in the year and crypto supporters were concerned about the lack of movement on proposed regulation of the indus…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T04:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/how-bitcoin-and-gold-went-from-a-slump-to-an-mvp-week-in-just-a-few-days/articleshow/133434294.cms",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold call-option demand hits 6-month high amid elevated prices: Barchart",
+            "description": "Rising gold call-option demand signals investor optimism for future price increases, potentially impacting market strategies and economic forecasts.\nThe post Gold call-option demand hits 6-month high amid elevated prices: Barchart appeared first on Crypto Bri…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-23T04:32:22Z",
+            "url": "https://cryptobriefing.com/gold-call-option-demand-hits-6-month-high-amid-elevated-prices-barchart/",
+            "sentiment_score": 0.0188,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How will Sensex, Nifty behave on Monday? 4 factors to drive D-Street action this week",
+            "description": "This week's Dalal Street movements are set to be heavily influenced by the ongoing tensions between Iran and the US, alongside fluctuations in global oil prices. Rising bond yields are causing investors to adopt a cautious stance as they navigate market trend…",
+            "source": "The Times of India",
+            "published_at": "2026-08-23T03:47:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/how-will-sensex-nifty-behave-on-monday-4-factors-to-drive-d-street-action-this-week/articleshow/133433930.cms",
+            "sentiment_score": 0.1793,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "What to know about Trump’s 50% tariffs on Canadian goods",
@@ -1757,50 +1807,10 @@
             "url": "https://www.cnbc.com/2026/08/22/emergency-savings-workers-financial-strain.html",
             "sentiment_score": -0.3945,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Can U.S. stocks withstand midterm election volatility?",
-            "description": "RBC Capital Markets has reviewed how U. S.",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34826/can-u-s-stocks-withstand-midterm-election-volatility",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC reviews midterm-year volatility risks for U.S. equities",
-            "description": "U. S. equities could face a more unsettled backdrop as the next midterm election cycle approaches, with RBC Capital Markets looking to 2018 and 2022 for clue...",
-            "source": "Advfn.com",
-            "published_at": "2026-08-22T13:10:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/34828/rbc-reviews-midterm-year-volatility-risks-for-u-s-equities",
-            "sentiment_score": -0.3054,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury bond intervention challenges Fed’s monetary policy stability",
-            "description": "The Treasury's bond market intervention may undermine the Fed's policy consistency, impacting future interest rate strategies and market confidence.\nThe post US Treasury bond intervention challenges Fed’s monetary policy stability appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-22T13:09:40Z",
-            "url": "https://cryptobriefing.com/us-treasury-bond-intervention-challenges-feds-monetary-policy-stability/",
-            "sentiment_score": 0.4118,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia Earnings Loom",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Nvidia earnings take center stage with CrowdStrike leading several cybersecurity reports. Federal Reserve Chairman Kevin Warsh will give his first Jackson Hole speech. …",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-22T12:36:57Z",
-            "url": "https://biztoc.com/x/877f493aaa8925b2",
-            "sentiment_score": -0.4374,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.148,
+      "net_score": 0.0955,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1810,27 +1820,27 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4699.8999,
+      "price_now": 4693.7998,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 70.5,
-      "rsi_signal": "ซื้อมากเกิน (RSI=70.5) ระวังราคาย่อ",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 21.04009,
-      "suggested_sl_distance": 31.56013,
+      "rsi_value": 74.2,
+      "rsi_signal": "ซื้อมากเกิน (RSI=74.2) ระวังราคาย่อ",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 19.31673,
+      "suggested_sl_distance": 28.9751,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -1,
+      "technical_vote": 1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=74.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-08-24T03:11:21.055626+00:00"
+    "generated_at": "2026-08-24T04:53:45.839527+00:00"
   }
 ]
