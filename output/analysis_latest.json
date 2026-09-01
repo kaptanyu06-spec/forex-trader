@@ -6,7 +6,7 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0157,
+        "average_score": -0.0161,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
@@ -79,6 +79,16 @@
             "url": "https://pypi.org/project/allratestoday-central-bank/",
             "sentiment_score": 0.0607,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Stocks Set to Open Lower as Fresh U.S.-Iran Flare-Up Lifts Oil, Jobs Data Awaited",
+            "description": "September S&P 500 E-Mini futures (ESU26) are down -0.23%, and September Nasdaq 100 E-Mini futures (NQU26) are down -0.17% this morning, pointing to a lower o...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-31T10:35:52Z",
+            "url": "https://www.barchart.com/story/news/4351233/stocks-set-to-open-lower-as-oil-prices-climb-on-u-s-iran-escalation-jobs-data-awaited",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "EUR",
@@ -299,24 +309,224 @@
             "url": "https://uk.finance.yahoo.com/news/europes-central-bankers-fear-more-050640340.html",
             "sentiment_score": -0.3457,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Warsh puts inflation at centre of Fed policy at Jackson Hole conference",
-            "description": "Warsh used a keynote speech to hammer home a message that curbing inflation is the central bank's top priority",
-            "source": "Business Standard",
-            "published_at": "2026-08-30T02:15:48Z",
-            "url": "https://www.business-standard.com/world-news/warsh-puts-inflation-at-centre-of-fed-policy-at-jackson-hole-conference-126083000054_1.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0221,
+        "average_score": 0.0184,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+            "description": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T20:50:01Z",
+            "url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+            "sentiment_score": 0.275,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slips as renewed Middle East tensions keep Fed hike bets alive",
+            "description": "Gold edged down as geopolitical risks stoked concerns about inflation that could make the Federal Reserve hike interest rates. Read here now",
+            "source": "Financial Post",
+            "published_at": "2026-08-31T20:41:16Z",
+            "url": "https://financialpost.com/news/economy/gold-slips-fed-hike-bets-alive",
+            "sentiment_score": 0.0498,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "America’s high school graduating class is projected to shrink 13%. Colleges are already feeling the squeeze",
+            "description": "The number of U.S. high school graduates is projected to fall 13% by 2041, adding pressure on colleges already struggling with rising costs and enrollment.",
+            "source": "Fortune",
+            "published_at": "2026-08-31T20:35:43Z",
+            "url": "https://fortune.com/2026/08/31/college-enrollment-decline-closures-high-school-graduates/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh’s Jackson Hole speech fuels September Fed rate hike speculation",
+            "description": "Increased speculation on a Fed rate hike could lead to market volatility and influence economic policy expectations despite mixed data signals.\nThe post Warsh’s Jackson Hole speech fuels September Fed rate hike speculation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:32:47Z",
+            "url": "https://cryptobriefing.com/warshs-jackson-hole-speech-fuels-september-fed-rate-hike-speculation/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan shifts to cautious outlook on US stocks after Fed remarks",
+            "description": "JPMorgan's cautious stance highlights market volatility risks amid Fed's inflation fight, impacting investor sentiment and future rate expectations.\nThe post JPMorgan shifts to cautious outlook on US stocks after Fed remarks appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:24:59Z",
+            "url": "https://cryptobriefing.com/jpmorgan-cautious-us-stocks-fed/",
+            "sentiment_score": -0.273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead",
+            "description": "Rising Treasury yields could tighten financial conditions, increasing borrowing costs and potentially slowing economic growth and investment.\nThe post 10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead appeared fi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:11:25Z",
+            "url": "https://cryptobriefing.com/10-year-treasury-yield-key-threshold-warnings/",
+            "sentiment_score": 0.0657,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks close lower as oil prices jump, indexes notch monthly gains",
+            "description": "US stocks declined on Monday as oil prices surged. This jump revived inflation concerns and increased monetary policy tightening expectations. Investors processed hawkish comments from Federal Reserve Chair Kevin Warsh. Despite the day's losses, major indexes…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T20:08:26Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/articleshow/133662681.cms",
+            "sentiment_score": 0.1921,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Greenbrier Announces CEO Succession Upon Planned Retirement of Lorie Tekorius",
+            "description": "~Tekorius to step down from role as CEO and President effective January 6, 2027~ ~Comstock selected as next President and CEO~ LAKE OSWEGO, Ore., Aug. 31, 2026 /PRNewswire/ -- The Greenbrier Companies, Inc. (NYSE: GBX) (\"Greenbrier\"), a leading international …",
+            "source": "PRNewswire",
+            "published_at": "2026-08-31T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/greenbrier-announces-ceo-succession-upon-planned-retirement-of-lorie-tekorius-302865145.html",
+            "sentiment_score": 0.2846,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JP Morgan traders back down bullishness on US stocks after Fed chair Warsh's Jackson Hole speech",
+            "description": "JPMorgan Chase traders are now tactically cautious on US stocks for upcoming weeks. This shift follows Federal Reserve Chairman Kevin Warsh's hawkish comments on interest rates. Traders cite uncertainty over rate outlook and potential AI stock unwinding as ke…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T19:47:09Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/jp-morgan-traders-back-down-bullishness-on-us-stocks-after-fed-chair-warshs-jackson-hole-speech/articleshow/133662266.cms",
+            "sentiment_score": 0.2731,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+            "description": "The path toward the move still looks cluttered.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T19:38:38Z",
+            "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+            "sentiment_score": -0.2162,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+            "description": "Spot XRP funds have drawn inflows for nine straight days, reaching $1.6 billion in cumulative net inflows even as the token's price cools.",
+            "source": "Decrypt",
+            "published_at": "2026-08-31T19:31:04Z",
+            "url": "https://decrypt.co/376973/xrp-etfs-inflow-streak-9-days",
+            "sentiment_score": 0.2451,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Most Important Signal From Jackson Hole May Not Be the Fed",
+            "description": "Citizens’ Mark Valentino and Eric Merlis unpack the business implications of Jackson Hole, arguing that the most important signal for Main Street may be the persistence of economic uncertainty. Valentino and Merlis make the case for disciplined preparation, f…",
+            "source": "Observer",
+            "published_at": "2026-08-31T19:30:52Z",
+            "url": "https://observer.com/2026/08/jackson-hole-business-owners-fed-rates/",
+            "sentiment_score": 0.0366,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US 10-year Treasury yield tops 19-month high as oil prices fuel rate-hike bets",
+            "description": "US Treasury yields rose significantly, with the 10-year rate exceeding 4.75 percent.  Rising oil prices and persistent inflation fueled expectations of a Federal Reserve rate increase.  Short-term yields surged after Fed Chairman Kevin Warsh signaled potentia…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:57:27Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-tops-19-month-high-as-oil-prices-fuel-rate-hike-bets/articleshow/133661626.cms",
+            "sentiment_score": 0.5804,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global central bankers warn of dystopian AI future at Jackson Hole",
+            "description": "AI's predictive power could undermine central banks' control, leading to financial instability and necessitating new regulatory approaches.\nThe post Global central bankers warn of dystopian AI future at Jackson Hole appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:54:19Z",
+            "url": "https://cryptobriefing.com/central-bankers-warn-dystopian-ai-jackson-hole/",
+            "sentiment_score": -0.1864,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "What Determines Your VA Refinance Rate? 5 Key Factors",
+            "description": "Learn the top 5 factors that dictate your VA refinance rate. From credit scores to market trends, and how to get the best interest rate today.",
+            "source": "Military.com",
+            "published_at": "2026-08-31T18:50:08Z",
+            "url": "https://military.com/va-loans/rates/what-factors-actually-determine-your-va-refinance-rate",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Voters Suffer More Pain At The Pump Than Democrats. A New Gas Proposal Could Make It Worse",
+            "description": "In an emergency waiver, the Trump administration announced it approved the sale of E15. The EPA once restricted E15 due to ozone and smog concerns.",
+            "source": "The Daily Caller",
+            "published_at": "2026-08-31T18:38:39Z",
+            "url": "https://dailycaller.com/2026/08/31/notus-report-trump-voters-gas-prices-iran-war-e15-ethanol-farm-bill-epa-rules-smog-ozone",
+            "sentiment_score": -0.7836,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs",
+            "description": "Gold's rising appeal as a hedge against economic uncertainty may influence future investment strategies and central bank policies.\nThe post Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:36:40Z",
+            "url": "https://cryptobriefing.com/gold-prices-buoyed-by-m2-growth-etf-inflows-amid-2026-highs/",
+            "sentiment_score": 0.2827,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Wall Street is thinking about rate hikes following the latest Fed speech",
+            "description": "Following Kevin Warsh's remarks at Jackson Hole, Wall Street is split on whether a rate hike is really on the way in a couple of weeks.",
+            "source": "Business Insider",
+            "published_at": "2026-08-31T18:26:37Z",
+            "url": "https://www.businessinsider.com/fed-rate-hikes-forecast-kevin-warsh-jackson-hole-speech-inflation-2026-8#article",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan Slips as 60% Hike Odds Cut Both Ways",
+            "description": "This article first appeared on GuruFocus.\nJPMorgan Chase (NYSE:JPM), America's largest bank by assets, dipped approximately 0.7% to $355.41 Mondayeven as traders pushed the probability of a September Federal Reserve rate hike above 60%. That is no contradicti…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-31T18:16:16Z",
+            "url": "https://biztoc.com/x/ce1a5cdaa4e3b52d",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated US Treasury yields climb as Iran and US restart military attacks",
+            "description": "Treasury yields increased as U.S. and Iran hostilities escalated. Crude oil prices surged, fueling inflation worries and complicating Fed outlook. Investors now anticipate a potential September interest rate hike by the Federal Reserve. Federal Reserve Chair …",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:07:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/longer-dated-us-treasury-yields-climb-as-iran-and-us-restart-military-attacks/articleshow/133660629.cms",
+            "sentiment_score": -0.3628,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Coffee Break: A Trump Scampire Bank With No Capital and A Dem Party With No Values Beyond Crushing the Left",
+            "description": "Trump has somehow managed to make his stablecoin scampire even worse by bringing in the UAE, the Dem zio-centrist establishment is going all-in on war with Hasan Piker, while Dem candidates miss massive opportunities to connect with voters.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-31T18:00:07Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/world-liberty-trust-uae-democrats-hasan-piker-talarico-texas.html",
+            "sentiment_score": -0.5681,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Scott Bessent has surprising answer for U.S. debt fears",
@@ -406,220 +616,10 @@
             "url": "https://decrypt.co/376960/bitcoin-holds-steady-us-strikes-iran-stocks-oil",
             "sentiment_score": -0.3734,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold on pace for best month since February despite investor concerns over rate hikes",
-            "description": "Gold was on pace for monthly gains as investors assessed the Fed's next likely move.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:53:15Z",
-            "url": "https://finance.yahoo.com/markets/article/gold-on-pace-for-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html",
-            "sentiment_score": 0.5478,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Addicts Won’t Make Better Workers",
-            "description": "Economists widely agree that AI will boost labor productivity. But this view does not account for the possibility that hyperscalers will go all out to get people hooked on LLMs, because the narrower applications for which these tools are actually useful do no…",
-            "source": "Project Syndicate",
-            "published_at": "2026-08-31T16:41:00Z",
-            "url": "https://www.project-syndicate.org/commentary/ai-addiction-could-be-drag-on-labor-productivity-by-amar-bhide-2026-08",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gas topped $4 daily in August for the first time. New U.S. strikes on Iran are sending oil prices even higher again",
-            "description": "Brent crude jumped more than 3% after U.S. forces struck Iranian rocket launchers near the Strait of Hormuz, a key route for global oil shipments.",
-            "source": "Fortune",
-            "published_at": "2026-08-31T16:38:08Z",
-            "url": "https://fortune.com/2026/08/31/gas-prices-oil-us-iran-strikes-strait-hormuz/",
-            "sentiment_score": -0.4601,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What to know before choosing a debt relief strategy",
-            "description": "Credit card debt has become increasingly expensive to carry over the last few years, and balances are continuing to grow. Americans owed $1.26 trillion on their credit cards in the second quarter of 2026, up $21 billion from the previous quarter, according to…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T16:30:03Z",
-            "url": "https://biztoc.com/x/6a6474efe991b608",
-            "sentiment_score": 0.2277,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The US is now buried in $40T of debt — but who’s buying the IOUs right now? Here’s the unsettling answer for Americans",
-            "description": "As America’s debt pile grows, the buyers keeping Washington funded are changing.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:30:00Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/us-now-buried-40t-debt-163000404.html",
-            "sentiment_score": -0.2414,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "G20 host US pushes growth agenda to allay debt market concerns",
-            "description": "ASHEVILLE, North Carolina, Aug 31 (Reuters) - U. officials urged Group of 20 country finance leaders on Monday to push harder for economic growth as the best...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:22:52Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/g20-host-us-pushes-growth-162252261.html",
-            "sentiment_score": 0.2515,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Anthropic’s monster IPO is forcing rivals to rethink their own listing plans",
-            "description": "Anthropic's IPO reshapes the tech IPO landscape, prompting rivals to adjust strategies amid heightened competition for investor attention.\nThe post Anthropic’s monster IPO is forcing rivals to rethink their own listing plans appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:16:10Z",
-            "url": "https://cryptobriefing.com/anthropic-ipo-pressures-us-listing-plans/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55%",
-            "description": "Rising yields and inflation fears could pressure the Fed into aggressive rate hikes, impacting bond markets and economic growth prospects.\nThe post US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55% appeared first on Crypto…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:10:15Z",
-            "url": "https://cryptobriefing.com/us-10-year-yield-5-percent-fed-rate-hike/",
-            "sentiment_score": 0.4658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices",
-            "description": "The inclusion of private-sector leaders in G20 finance meetings may shift global economic policy towards deregulation and private interests.\nThe post Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:00:12Z",
-            "url": "https://cryptobriefing.com/goldman-jpmorgan-ceos-g20-asheville-2026/",
-            "sentiment_score": 0.3554,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The anatomy of US public debt",
-            "description": "US government debt shows no signs of reversal. The only option is the one Trump abhors — raising taxes",
-            "source": "BusinessLine",
-            "published_at": "2026-08-31T15:51:33Z",
-            "url": "https://www.thehindubusinessline.com/opinion/the-anatomy-of-us-public-debt/article71411906.ece",
-            "sentiment_score": -0.4996,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin on course for best August since 2017 despite renewed US-Iran hostilities",
-            "description": "Bitcoin is on track to log its best August performance since 2017, demonstrating remarkable resilience against back-to-back macro shocks as escalating US-Iran hostilities and a hawkish pivot from the Federal Reserve test the durability of the digital-asset re…",
-            "source": "CryptoSlate",
-            "published_at": "2026-08-31T15:50:44Z",
-            "url": "https://cryptoslate.com/bitcoin-on-course-for-best-august-since-2017-despite-renewed-us-iran-hostilities/",
-            "sentiment_score": 0.6857,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's net short dollar position in forwards hits record $136.77 billion",
-            "description": "RBI's net short dollar position rose from $103.33 billion at June-end as the central bank remained active in the forward market amid depreciation pressure on the rupee",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:50:17Z",
-            "url": "https://www.business-standard.com/markets/news/rbi-s-net-short-dollar-position-in-forwards-hits-record-136-77-billion-126083101399_1.html",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields hit three-year highs as Fed rate hike looms",
-            "description": "Rising Treasury yields and potential Fed rate hikes could lead to increased borrowing costs, impacting economic growth and inflation control.\nThe post Treasury yields hit three-year highs as Fed rate hike looms appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:38:58Z",
-            "url": "https://cryptobriefing.com/treasury-yields-hit-three-year-highs-as-fed-rate-hike-looms/",
-            "sentiment_score": 0.2434,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's liquidity mop-up auctions see tepid demand as surplus tops ₹5 trn",
-            "description": "Banks parked Rs 3.84 trillion against the Rs 10 trillion notified in Monday's VRRR auctions, while the benchmark 10-year government bond yield rose to 6.95 per cent",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:30:17Z",
-            "url": "https://www.business-standard.com/finance/news/rbi-s-liquidity-mop-up-auctions-see-tepid-demand-as-surplus-tops-5-trn-126083101359_1.html",
-            "sentiment_score": 0.295,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FDIC defeats $1.71B claim over Silicon Valley Bank collapse",
-            "description": "A federal judge ruled the FDIC is not liable for a $1.71 billion claim from SVB Financial Trust, holding former executives accountable for the\nThe post FDIC defeats $1.71B claim over Silicon Valley Bank collapse appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:27:23Z",
-            "url": "https://cryptobriefing.com/fdic-defeats-svb-collapse-claim/",
-            "sentiment_score": -0.5581,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Secretary Scott Bessent and Fed Chairman Kevin Warsh speak at G20 meeting — 8/31/2026",
-            "description": "Treasury Secretary Scott Bessent and Federal Reserve Chairman Kevin Warsh deliver remarks at Monday's gathering of the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:19:19Z",
-            "url": "https://biztoc.com/x/796eecff859ba06a",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan's 2-Year Yield Hits 31-Year High — Why the Yen Carry Trade Matters for Bitcoin",
-            "description": "Japan's 2-year yield hit a 31-year high, lifting yen carry trade costs and renewing pressure risk for Bitcoin.",
-            "source": "BeInCrypto",
-            "published_at": "2026-08-31T15:14:35Z",
-            "url": "https://beincrypto.com/bitcoin-carry-trade-japan-yield-high/",
-            "sentiment_score": -0.1351,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Warsh says global investment surge is driving growth",
-            "description": "Oil jumps 3% as U.S. strikes on Iran revive Hormuz supply disruption concerns\nInvesting.com -- U.S. Federal Reserve Chairman Kevin Warsh told G20 finance leaders on Monday that the world is experiencing a global investment surge that is driving growth.\nWarsh,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:10:17Z",
-            "url": "https://biztoc.com/x/b0785aef2301d87a",
-            "sentiment_score": 0.2673,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Smiling Scott Bessent arrives at G20 finance meeting with vow to make Iran ‘come to their senses’",
-            "description": "A smiling Treasury Secretary Scott Bessent was seen arriving at a Group of 20 reception Sunday as he navigates the \"Operation Economic Outcast\" campaign against Iran and a bond market revolt.",
-            "source": "New York Post",
-            "published_at": "2026-08-31T14:47:41Z",
-            "url": "https://nypost.com/2026/08/31/us-news/smiling-scott-bessent-arrives-at-g20-finance-meeting-with-vow-to-make-iran-come-to-their-senses/",
-            "sentiment_score": 0.4969,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unusual’",
-            "description": "Bessent's stance highlights the complexity of navigating economic policy amid supply shocks, potentially leading to market uncertainty and volatility.\nThe post Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unus…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T14:41:35Z",
-            "url": "https://cryptobriefing.com/bessent-federal-reserve-supply-shock/",
-            "sentiment_score": -0.4968,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Falls as Renewed US Strikes on Iran Near the Strait of Hormuz Rattle Wall Street to Close August",
-            "description": "The Dow Jones fell as U.S.-Iran tensions resurfaced, impacting oil prices and inflation concerns. Despite this, major indexes are set to post gains for August amid market volatility.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-08-31T14:41:18Z",
-            "url": "https://www.ibtimes.com.au/dow-jones-dips-us-iran-tensions-oil-prices-1874796",
-            "sentiment_score": -0.276,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0378,
+      "net_score": -0.0345,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -629,28 +629,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.15915,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 1.15955,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 37.3,
-      "rsi_signal": "โซนกลาง (RSI=37.3)",
+      "rsi_value": 43.0,
+      "rsi_signal": "โซนกลาง (RSI=43.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00076,
-      "suggested_sl_distance": 0.00114,
+      "atr_value": 0.0007,
+      "suggested_sl_distance": 0.00104,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=43.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-01T17:46:22.235487+00:00"
+    "generated_at": "2026-09-01T20:55:59.433332+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -659,10 +659,30 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.2943,
+        "average_score": -0.2564,
         "label": "ลบชัดเจน (Bearish)",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "What makes a great investor?",
+            "description": "A big dose of luck, and a distinctly odd character.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-08-31T20:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/08/31/what-makes-a-great-investor-a4935345",
+            "sentiment_score": 0.4908,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Bank of England Chief Warns New AI Models Threaten Global Financial Stability",
+            "description": "Bank of England Governor Andrew Bailey is warning that advanced \"frontier\" AI models could materially increase cyber risk across the global financial system by making attacks faster, cheaper, and more scalable. In a letter to G20 finance officials, he said fi…",
+            "source": "Slashdot.org",
+            "published_at": "2026-08-31T19:00:00Z",
+            "url": "https://news.slashdot.org/story/26/08/31/1745218/bank-of-england-chief-warns-new-ai-models-threaten-global-financial-stability",
+            "sentiment_score": -0.4642,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "AI could cause global economic downturn, Andrew Bailey warns G20",
@@ -932,34 +952,224 @@
             "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185314422",
             "sentiment_score": -0.6174,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Is Fed communication broken - and can Kevin Warsh fix it?",
-            "description": "Most economists agree that frequent, clear communication and greater transparency are good things for central bankers. Whether Warsh likes it or not, markets need a message. In today's environment, a failure to communicate is simply not an option.",
-            "source": "The Times of India",
-            "published_at": "2026-08-31T06:37:02Z",
-            "url": "https://economictimes.indiatimes.com/news/international/global-trends/is-fed-communication-broken-and-can-kevin-warsh-fix-it/articleshow/133644393.cms",
-            "sentiment_score": -0.0784,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Advanced AI threatens global financial stability, says Bank of England boss",
-            "description": "Andrew Bailey warns G20 members about risk of cyber-disruption spreading ‘across jurisdictions’\nThe Bank of England’s governor, Andrew Bailey, has joined the throng of figures warning about the global risks posed by the most advanced artificial intelligence t…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T06:33:36Z",
-            "url": "https://biztoc.com/x/010bd2bcd4c6bfbf",
-            "sentiment_score": -0.1337,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0221,
+        "average_score": 0.0184,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+            "description": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T20:50:01Z",
+            "url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+            "sentiment_score": 0.275,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slips as renewed Middle East tensions keep Fed hike bets alive",
+            "description": "Gold edged down as geopolitical risks stoked concerns about inflation that could make the Federal Reserve hike interest rates. Read here now",
+            "source": "Financial Post",
+            "published_at": "2026-08-31T20:41:16Z",
+            "url": "https://financialpost.com/news/economy/gold-slips-fed-hike-bets-alive",
+            "sentiment_score": 0.0498,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "America’s high school graduating class is projected to shrink 13%. Colleges are already feeling the squeeze",
+            "description": "The number of U.S. high school graduates is projected to fall 13% by 2041, adding pressure on colleges already struggling with rising costs and enrollment.",
+            "source": "Fortune",
+            "published_at": "2026-08-31T20:35:43Z",
+            "url": "https://fortune.com/2026/08/31/college-enrollment-decline-closures-high-school-graduates/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh’s Jackson Hole speech fuels September Fed rate hike speculation",
+            "description": "Increased speculation on a Fed rate hike could lead to market volatility and influence economic policy expectations despite mixed data signals.\nThe post Warsh’s Jackson Hole speech fuels September Fed rate hike speculation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:32:47Z",
+            "url": "https://cryptobriefing.com/warshs-jackson-hole-speech-fuels-september-fed-rate-hike-speculation/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan shifts to cautious outlook on US stocks after Fed remarks",
+            "description": "JPMorgan's cautious stance highlights market volatility risks amid Fed's inflation fight, impacting investor sentiment and future rate expectations.\nThe post JPMorgan shifts to cautious outlook on US stocks after Fed remarks appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:24:59Z",
+            "url": "https://cryptobriefing.com/jpmorgan-cautious-us-stocks-fed/",
+            "sentiment_score": -0.273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead",
+            "description": "Rising Treasury yields could tighten financial conditions, increasing borrowing costs and potentially slowing economic growth and investment.\nThe post 10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead appeared fi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:11:25Z",
+            "url": "https://cryptobriefing.com/10-year-treasury-yield-key-threshold-warnings/",
+            "sentiment_score": 0.0657,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks close lower as oil prices jump, indexes notch monthly gains",
+            "description": "US stocks declined on Monday as oil prices surged. This jump revived inflation concerns and increased monetary policy tightening expectations. Investors processed hawkish comments from Federal Reserve Chair Kevin Warsh. Despite the day's losses, major indexes…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T20:08:26Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/articleshow/133662681.cms",
+            "sentiment_score": 0.1921,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Greenbrier Announces CEO Succession Upon Planned Retirement of Lorie Tekorius",
+            "description": "~Tekorius to step down from role as CEO and President effective January 6, 2027~ ~Comstock selected as next President and CEO~ LAKE OSWEGO, Ore., Aug. 31, 2026 /PRNewswire/ -- The Greenbrier Companies, Inc. (NYSE: GBX) (\"Greenbrier\"), a leading international …",
+            "source": "PRNewswire",
+            "published_at": "2026-08-31T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/greenbrier-announces-ceo-succession-upon-planned-retirement-of-lorie-tekorius-302865145.html",
+            "sentiment_score": 0.2846,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JP Morgan traders back down bullishness on US stocks after Fed chair Warsh's Jackson Hole speech",
+            "description": "JPMorgan Chase traders are now tactically cautious on US stocks for upcoming weeks. This shift follows Federal Reserve Chairman Kevin Warsh's hawkish comments on interest rates. Traders cite uncertainty over rate outlook and potential AI stock unwinding as ke…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T19:47:09Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/jp-morgan-traders-back-down-bullishness-on-us-stocks-after-fed-chair-warshs-jackson-hole-speech/articleshow/133662266.cms",
+            "sentiment_score": 0.2731,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+            "description": "The path toward the move still looks cluttered.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T19:38:38Z",
+            "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+            "sentiment_score": -0.2162,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+            "description": "Spot XRP funds have drawn inflows for nine straight days, reaching $1.6 billion in cumulative net inflows even as the token's price cools.",
+            "source": "Decrypt",
+            "published_at": "2026-08-31T19:31:04Z",
+            "url": "https://decrypt.co/376973/xrp-etfs-inflow-streak-9-days",
+            "sentiment_score": 0.2451,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Most Important Signal From Jackson Hole May Not Be the Fed",
+            "description": "Citizens’ Mark Valentino and Eric Merlis unpack the business implications of Jackson Hole, arguing that the most important signal for Main Street may be the persistence of economic uncertainty. Valentino and Merlis make the case for disciplined preparation, f…",
+            "source": "Observer",
+            "published_at": "2026-08-31T19:30:52Z",
+            "url": "https://observer.com/2026/08/jackson-hole-business-owners-fed-rates/",
+            "sentiment_score": 0.0366,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US 10-year Treasury yield tops 19-month high as oil prices fuel rate-hike bets",
+            "description": "US Treasury yields rose significantly, with the 10-year rate exceeding 4.75 percent.  Rising oil prices and persistent inflation fueled expectations of a Federal Reserve rate increase.  Short-term yields surged after Fed Chairman Kevin Warsh signaled potentia…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:57:27Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-tops-19-month-high-as-oil-prices-fuel-rate-hike-bets/articleshow/133661626.cms",
+            "sentiment_score": 0.5804,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global central bankers warn of dystopian AI future at Jackson Hole",
+            "description": "AI's predictive power could undermine central banks' control, leading to financial instability and necessitating new regulatory approaches.\nThe post Global central bankers warn of dystopian AI future at Jackson Hole appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:54:19Z",
+            "url": "https://cryptobriefing.com/central-bankers-warn-dystopian-ai-jackson-hole/",
+            "sentiment_score": -0.1864,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "What Determines Your VA Refinance Rate? 5 Key Factors",
+            "description": "Learn the top 5 factors that dictate your VA refinance rate. From credit scores to market trends, and how to get the best interest rate today.",
+            "source": "Military.com",
+            "published_at": "2026-08-31T18:50:08Z",
+            "url": "https://military.com/va-loans/rates/what-factors-actually-determine-your-va-refinance-rate",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Voters Suffer More Pain At The Pump Than Democrats. A New Gas Proposal Could Make It Worse",
+            "description": "In an emergency waiver, the Trump administration announced it approved the sale of E15. The EPA once restricted E15 due to ozone and smog concerns.",
+            "source": "The Daily Caller",
+            "published_at": "2026-08-31T18:38:39Z",
+            "url": "https://dailycaller.com/2026/08/31/notus-report-trump-voters-gas-prices-iran-war-e15-ethanol-farm-bill-epa-rules-smog-ozone",
+            "sentiment_score": -0.7836,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs",
+            "description": "Gold's rising appeal as a hedge against economic uncertainty may influence future investment strategies and central bank policies.\nThe post Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:36:40Z",
+            "url": "https://cryptobriefing.com/gold-prices-buoyed-by-m2-growth-etf-inflows-amid-2026-highs/",
+            "sentiment_score": 0.2827,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Wall Street is thinking about rate hikes following the latest Fed speech",
+            "description": "Following Kevin Warsh's remarks at Jackson Hole, Wall Street is split on whether a rate hike is really on the way in a couple of weeks.",
+            "source": "Business Insider",
+            "published_at": "2026-08-31T18:26:37Z",
+            "url": "https://www.businessinsider.com/fed-rate-hikes-forecast-kevin-warsh-jackson-hole-speech-inflation-2026-8#article",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan Slips as 60% Hike Odds Cut Both Ways",
+            "description": "This article first appeared on GuruFocus.\nJPMorgan Chase (NYSE:JPM), America's largest bank by assets, dipped approximately 0.7% to $355.41 Mondayeven as traders pushed the probability of a September Federal Reserve rate hike above 60%. That is no contradicti…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-31T18:16:16Z",
+            "url": "https://biztoc.com/x/ce1a5cdaa4e3b52d",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated US Treasury yields climb as Iran and US restart military attacks",
+            "description": "Treasury yields increased as U.S. and Iran hostilities escalated. Crude oil prices surged, fueling inflation worries and complicating Fed outlook. Investors now anticipate a potential September interest rate hike by the Federal Reserve. Federal Reserve Chair …",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:07:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/longer-dated-us-treasury-yields-climb-as-iran-and-us-restart-military-attacks/articleshow/133660629.cms",
+            "sentiment_score": -0.3628,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Coffee Break: A Trump Scampire Bank With No Capital and A Dem Party With No Values Beyond Crushing the Left",
+            "description": "Trump has somehow managed to make his stablecoin scampire even worse by bringing in the UAE, the Dem zio-centrist establishment is going all-in on war with Hasan Piker, while Dem candidates miss massive opportunities to connect with voters.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-31T18:00:07Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/world-liberty-trust-uae-democrats-hasan-piker-talarico-texas.html",
+            "sentiment_score": -0.5681,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Scott Bessent has surprising answer for U.S. debt fears",
@@ -1049,220 +1259,10 @@
             "url": "https://decrypt.co/376960/bitcoin-holds-steady-us-strikes-iran-stocks-oil",
             "sentiment_score": -0.3734,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold on pace for best month since February despite investor concerns over rate hikes",
-            "description": "Gold was on pace for monthly gains as investors assessed the Fed's next likely move.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:53:15Z",
-            "url": "https://finance.yahoo.com/markets/article/gold-on-pace-for-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html",
-            "sentiment_score": 0.5478,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Addicts Won’t Make Better Workers",
-            "description": "Economists widely agree that AI will boost labor productivity. But this view does not account for the possibility that hyperscalers will go all out to get people hooked on LLMs, because the narrower applications for which these tools are actually useful do no…",
-            "source": "Project Syndicate",
-            "published_at": "2026-08-31T16:41:00Z",
-            "url": "https://www.project-syndicate.org/commentary/ai-addiction-could-be-drag-on-labor-productivity-by-amar-bhide-2026-08",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gas topped $4 daily in August for the first time. New U.S. strikes on Iran are sending oil prices even higher again",
-            "description": "Brent crude jumped more than 3% after U.S. forces struck Iranian rocket launchers near the Strait of Hormuz, a key route for global oil shipments.",
-            "source": "Fortune",
-            "published_at": "2026-08-31T16:38:08Z",
-            "url": "https://fortune.com/2026/08/31/gas-prices-oil-us-iran-strikes-strait-hormuz/",
-            "sentiment_score": -0.4601,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What to know before choosing a debt relief strategy",
-            "description": "Credit card debt has become increasingly expensive to carry over the last few years, and balances are continuing to grow. Americans owed $1.26 trillion on their credit cards in the second quarter of 2026, up $21 billion from the previous quarter, according to…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T16:30:03Z",
-            "url": "https://biztoc.com/x/6a6474efe991b608",
-            "sentiment_score": 0.2277,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The US is now buried in $40T of debt — but who’s buying the IOUs right now? Here’s the unsettling answer for Americans",
-            "description": "As America’s debt pile grows, the buyers keeping Washington funded are changing.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:30:00Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/us-now-buried-40t-debt-163000404.html",
-            "sentiment_score": -0.2414,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "G20 host US pushes growth agenda to allay debt market concerns",
-            "description": "ASHEVILLE, North Carolina, Aug 31 (Reuters) - U. officials urged Group of 20 country finance leaders on Monday to push harder for economic growth as the best...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:22:52Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/g20-host-us-pushes-growth-162252261.html",
-            "sentiment_score": 0.2515,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Anthropic’s monster IPO is forcing rivals to rethink their own listing plans",
-            "description": "Anthropic's IPO reshapes the tech IPO landscape, prompting rivals to adjust strategies amid heightened competition for investor attention.\nThe post Anthropic’s monster IPO is forcing rivals to rethink their own listing plans appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:16:10Z",
-            "url": "https://cryptobriefing.com/anthropic-ipo-pressures-us-listing-plans/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55%",
-            "description": "Rising yields and inflation fears could pressure the Fed into aggressive rate hikes, impacting bond markets and economic growth prospects.\nThe post US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55% appeared first on Crypto…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:10:15Z",
-            "url": "https://cryptobriefing.com/us-10-year-yield-5-percent-fed-rate-hike/",
-            "sentiment_score": 0.4658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices",
-            "description": "The inclusion of private-sector leaders in G20 finance meetings may shift global economic policy towards deregulation and private interests.\nThe post Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:00:12Z",
-            "url": "https://cryptobriefing.com/goldman-jpmorgan-ceos-g20-asheville-2026/",
-            "sentiment_score": 0.3554,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The anatomy of US public debt",
-            "description": "US government debt shows no signs of reversal. The only option is the one Trump abhors — raising taxes",
-            "source": "BusinessLine",
-            "published_at": "2026-08-31T15:51:33Z",
-            "url": "https://www.thehindubusinessline.com/opinion/the-anatomy-of-us-public-debt/article71411906.ece",
-            "sentiment_score": -0.4996,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin on course for best August since 2017 despite renewed US-Iran hostilities",
-            "description": "Bitcoin is on track to log its best August performance since 2017, demonstrating remarkable resilience against back-to-back macro shocks as escalating US-Iran hostilities and a hawkish pivot from the Federal Reserve test the durability of the digital-asset re…",
-            "source": "CryptoSlate",
-            "published_at": "2026-08-31T15:50:44Z",
-            "url": "https://cryptoslate.com/bitcoin-on-course-for-best-august-since-2017-despite-renewed-us-iran-hostilities/",
-            "sentiment_score": 0.6857,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's net short dollar position in forwards hits record $136.77 billion",
-            "description": "RBI's net short dollar position rose from $103.33 billion at June-end as the central bank remained active in the forward market amid depreciation pressure on the rupee",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:50:17Z",
-            "url": "https://www.business-standard.com/markets/news/rbi-s-net-short-dollar-position-in-forwards-hits-record-136-77-billion-126083101399_1.html",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields hit three-year highs as Fed rate hike looms",
-            "description": "Rising Treasury yields and potential Fed rate hikes could lead to increased borrowing costs, impacting economic growth and inflation control.\nThe post Treasury yields hit three-year highs as Fed rate hike looms appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:38:58Z",
-            "url": "https://cryptobriefing.com/treasury-yields-hit-three-year-highs-as-fed-rate-hike-looms/",
-            "sentiment_score": 0.2434,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's liquidity mop-up auctions see tepid demand as surplus tops ₹5 trn",
-            "description": "Banks parked Rs 3.84 trillion against the Rs 10 trillion notified in Monday's VRRR auctions, while the benchmark 10-year government bond yield rose to 6.95 per cent",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:30:17Z",
-            "url": "https://www.business-standard.com/finance/news/rbi-s-liquidity-mop-up-auctions-see-tepid-demand-as-surplus-tops-5-trn-126083101359_1.html",
-            "sentiment_score": 0.295,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FDIC defeats $1.71B claim over Silicon Valley Bank collapse",
-            "description": "A federal judge ruled the FDIC is not liable for a $1.71 billion claim from SVB Financial Trust, holding former executives accountable for the\nThe post FDIC defeats $1.71B claim over Silicon Valley Bank collapse appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:27:23Z",
-            "url": "https://cryptobriefing.com/fdic-defeats-svb-collapse-claim/",
-            "sentiment_score": -0.5581,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Secretary Scott Bessent and Fed Chairman Kevin Warsh speak at G20 meeting — 8/31/2026",
-            "description": "Treasury Secretary Scott Bessent and Federal Reserve Chairman Kevin Warsh deliver remarks at Monday's gathering of the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:19:19Z",
-            "url": "https://biztoc.com/x/796eecff859ba06a",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan's 2-Year Yield Hits 31-Year High — Why the Yen Carry Trade Matters for Bitcoin",
-            "description": "Japan's 2-year yield hit a 31-year high, lifting yen carry trade costs and renewing pressure risk for Bitcoin.",
-            "source": "BeInCrypto",
-            "published_at": "2026-08-31T15:14:35Z",
-            "url": "https://beincrypto.com/bitcoin-carry-trade-japan-yield-high/",
-            "sentiment_score": -0.1351,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Warsh says global investment surge is driving growth",
-            "description": "Oil jumps 3% as U.S. strikes on Iran revive Hormuz supply disruption concerns\nInvesting.com -- U.S. Federal Reserve Chairman Kevin Warsh told G20 finance leaders on Monday that the world is experiencing a global investment surge that is driving growth.\nWarsh,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:10:17Z",
-            "url": "https://biztoc.com/x/b0785aef2301d87a",
-            "sentiment_score": 0.2673,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Smiling Scott Bessent arrives at G20 finance meeting with vow to make Iran ‘come to their senses’",
-            "description": "A smiling Treasury Secretary Scott Bessent was seen arriving at a Group of 20 reception Sunday as he navigates the \"Operation Economic Outcast\" campaign against Iran and a bond market revolt.",
-            "source": "New York Post",
-            "published_at": "2026-08-31T14:47:41Z",
-            "url": "https://nypost.com/2026/08/31/us-news/smiling-scott-bessent-arrives-at-g20-finance-meeting-with-vow-to-make-iran-come-to-their-senses/",
-            "sentiment_score": 0.4969,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unusual’",
-            "description": "Bessent's stance highlights the complexity of navigating economic policy amid supply shocks, potentially leading to market uncertainty and volatility.\nThe post Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unus…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T14:41:35Z",
-            "url": "https://cryptobriefing.com/bessent-federal-reserve-supply-shock/",
-            "sentiment_score": -0.4968,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Falls as Renewed US Strikes on Iran Near the Strait of Hormuz Rattle Wall Street to Close August",
-            "description": "The Dow Jones fell as U.S.-Iran tensions resurfaced, impacting oil prices and inflation concerns. Despite this, major indexes are set to post gains for August amid market volatility.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-08-31T14:41:18Z",
-            "url": "https://www.ibtimes.com.au/dow-jones-dips-us-iran-tensions-oil-prices-1874796",
-            "sentiment_score": -0.276,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.3164,
+      "net_score": -0.2748,
       "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1272,17 +1272,17 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3515,
+      "price_now": 1.35166,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 32.2,
-      "rsi_signal": "โซนกลาง (RSI=32.2)",
+      "rsi_value": 35.9,
+      "rsi_signal": "โซนกลาง (RSI=35.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.001,
-      "suggested_sl_distance": 0.00149,
-      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
-      "technical_vote": -1,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "atr_value": 0.00095,
+      "suggested_sl_distance": 0.00143,
+      "bb_signal": "ราคาอยู่ในกรอบปกติ",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1291,9 +1291,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=32.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=35.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-01T17:46:22.235487+00:00"
+    "generated_at": "2026-09-01T20:55:59.433332+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1302,10 +1302,220 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0221,
+        "average_score": 0.0184,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+            "description": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T20:50:01Z",
+            "url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+            "sentiment_score": 0.275,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slips as renewed Middle East tensions keep Fed hike bets alive",
+            "description": "Gold edged down as geopolitical risks stoked concerns about inflation that could make the Federal Reserve hike interest rates. Read here now",
+            "source": "Financial Post",
+            "published_at": "2026-08-31T20:41:16Z",
+            "url": "https://financialpost.com/news/economy/gold-slips-fed-hike-bets-alive",
+            "sentiment_score": 0.0498,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "America’s high school graduating class is projected to shrink 13%. Colleges are already feeling the squeeze",
+            "description": "The number of U.S. high school graduates is projected to fall 13% by 2041, adding pressure on colleges already struggling with rising costs and enrollment.",
+            "source": "Fortune",
+            "published_at": "2026-08-31T20:35:43Z",
+            "url": "https://fortune.com/2026/08/31/college-enrollment-decline-closures-high-school-graduates/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh’s Jackson Hole speech fuels September Fed rate hike speculation",
+            "description": "Increased speculation on a Fed rate hike could lead to market volatility and influence economic policy expectations despite mixed data signals.\nThe post Warsh’s Jackson Hole speech fuels September Fed rate hike speculation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:32:47Z",
+            "url": "https://cryptobriefing.com/warshs-jackson-hole-speech-fuels-september-fed-rate-hike-speculation/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan shifts to cautious outlook on US stocks after Fed remarks",
+            "description": "JPMorgan's cautious stance highlights market volatility risks amid Fed's inflation fight, impacting investor sentiment and future rate expectations.\nThe post JPMorgan shifts to cautious outlook on US stocks after Fed remarks appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:24:59Z",
+            "url": "https://cryptobriefing.com/jpmorgan-cautious-us-stocks-fed/",
+            "sentiment_score": -0.273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead",
+            "description": "Rising Treasury yields could tighten financial conditions, increasing borrowing costs and potentially slowing economic growth and investment.\nThe post 10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead appeared fi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:11:25Z",
+            "url": "https://cryptobriefing.com/10-year-treasury-yield-key-threshold-warnings/",
+            "sentiment_score": 0.0657,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks close lower as oil prices jump, indexes notch monthly gains",
+            "description": "US stocks declined on Monday as oil prices surged. This jump revived inflation concerns and increased monetary policy tightening expectations. Investors processed hawkish comments from Federal Reserve Chair Kevin Warsh. Despite the day's losses, major indexes…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T20:08:26Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/articleshow/133662681.cms",
+            "sentiment_score": 0.1921,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Greenbrier Announces CEO Succession Upon Planned Retirement of Lorie Tekorius",
+            "description": "~Tekorius to step down from role as CEO and President effective January 6, 2027~ ~Comstock selected as next President and CEO~ LAKE OSWEGO, Ore., Aug. 31, 2026 /PRNewswire/ -- The Greenbrier Companies, Inc. (NYSE: GBX) (\"Greenbrier\"), a leading international …",
+            "source": "PRNewswire",
+            "published_at": "2026-08-31T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/greenbrier-announces-ceo-succession-upon-planned-retirement-of-lorie-tekorius-302865145.html",
+            "sentiment_score": 0.2846,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JP Morgan traders back down bullishness on US stocks after Fed chair Warsh's Jackson Hole speech",
+            "description": "JPMorgan Chase traders are now tactically cautious on US stocks for upcoming weeks. This shift follows Federal Reserve Chairman Kevin Warsh's hawkish comments on interest rates. Traders cite uncertainty over rate outlook and potential AI stock unwinding as ke…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T19:47:09Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/jp-morgan-traders-back-down-bullishness-on-us-stocks-after-fed-chair-warshs-jackson-hole-speech/articleshow/133662266.cms",
+            "sentiment_score": 0.2731,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+            "description": "The path toward the move still looks cluttered.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T19:38:38Z",
+            "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+            "sentiment_score": -0.2162,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+            "description": "Spot XRP funds have drawn inflows for nine straight days, reaching $1.6 billion in cumulative net inflows even as the token's price cools.",
+            "source": "Decrypt",
+            "published_at": "2026-08-31T19:31:04Z",
+            "url": "https://decrypt.co/376973/xrp-etfs-inflow-streak-9-days",
+            "sentiment_score": 0.2451,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Most Important Signal From Jackson Hole May Not Be the Fed",
+            "description": "Citizens’ Mark Valentino and Eric Merlis unpack the business implications of Jackson Hole, arguing that the most important signal for Main Street may be the persistence of economic uncertainty. Valentino and Merlis make the case for disciplined preparation, f…",
+            "source": "Observer",
+            "published_at": "2026-08-31T19:30:52Z",
+            "url": "https://observer.com/2026/08/jackson-hole-business-owners-fed-rates/",
+            "sentiment_score": 0.0366,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US 10-year Treasury yield tops 19-month high as oil prices fuel rate-hike bets",
+            "description": "US Treasury yields rose significantly, with the 10-year rate exceeding 4.75 percent.  Rising oil prices and persistent inflation fueled expectations of a Federal Reserve rate increase.  Short-term yields surged after Fed Chairman Kevin Warsh signaled potentia…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:57:27Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-tops-19-month-high-as-oil-prices-fuel-rate-hike-bets/articleshow/133661626.cms",
+            "sentiment_score": 0.5804,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global central bankers warn of dystopian AI future at Jackson Hole",
+            "description": "AI's predictive power could undermine central banks' control, leading to financial instability and necessitating new regulatory approaches.\nThe post Global central bankers warn of dystopian AI future at Jackson Hole appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:54:19Z",
+            "url": "https://cryptobriefing.com/central-bankers-warn-dystopian-ai-jackson-hole/",
+            "sentiment_score": -0.1864,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "What Determines Your VA Refinance Rate? 5 Key Factors",
+            "description": "Learn the top 5 factors that dictate your VA refinance rate. From credit scores to market trends, and how to get the best interest rate today.",
+            "source": "Military.com",
+            "published_at": "2026-08-31T18:50:08Z",
+            "url": "https://military.com/va-loans/rates/what-factors-actually-determine-your-va-refinance-rate",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Voters Suffer More Pain At The Pump Than Democrats. A New Gas Proposal Could Make It Worse",
+            "description": "In an emergency waiver, the Trump administration announced it approved the sale of E15. The EPA once restricted E15 due to ozone and smog concerns.",
+            "source": "The Daily Caller",
+            "published_at": "2026-08-31T18:38:39Z",
+            "url": "https://dailycaller.com/2026/08/31/notus-report-trump-voters-gas-prices-iran-war-e15-ethanol-farm-bill-epa-rules-smog-ozone",
+            "sentiment_score": -0.7836,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs",
+            "description": "Gold's rising appeal as a hedge against economic uncertainty may influence future investment strategies and central bank policies.\nThe post Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:36:40Z",
+            "url": "https://cryptobriefing.com/gold-prices-buoyed-by-m2-growth-etf-inflows-amid-2026-highs/",
+            "sentiment_score": 0.2827,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Wall Street is thinking about rate hikes following the latest Fed speech",
+            "description": "Following Kevin Warsh's remarks at Jackson Hole, Wall Street is split on whether a rate hike is really on the way in a couple of weeks.",
+            "source": "Business Insider",
+            "published_at": "2026-08-31T18:26:37Z",
+            "url": "https://www.businessinsider.com/fed-rate-hikes-forecast-kevin-warsh-jackson-hole-speech-inflation-2026-8#article",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan Slips as 60% Hike Odds Cut Both Ways",
+            "description": "This article first appeared on GuruFocus.\nJPMorgan Chase (NYSE:JPM), America's largest bank by assets, dipped approximately 0.7% to $355.41 Mondayeven as traders pushed the probability of a September Federal Reserve rate hike above 60%. That is no contradicti…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-31T18:16:16Z",
+            "url": "https://biztoc.com/x/ce1a5cdaa4e3b52d",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated US Treasury yields climb as Iran and US restart military attacks",
+            "description": "Treasury yields increased as U.S. and Iran hostilities escalated. Crude oil prices surged, fueling inflation worries and complicating Fed outlook. Investors now anticipate a potential September interest rate hike by the Federal Reserve. Federal Reserve Chair …",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:07:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/longer-dated-us-treasury-yields-climb-as-iran-and-us-restart-military-attacks/articleshow/133660629.cms",
+            "sentiment_score": -0.3628,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Coffee Break: A Trump Scampire Bank With No Capital and A Dem Party With No Values Beyond Crushing the Left",
+            "description": "Trump has somehow managed to make his stablecoin scampire even worse by bringing in the UAE, the Dem zio-centrist establishment is going all-in on war with Hasan Piker, while Dem candidates miss massive opportunities to connect with voters.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-31T18:00:07Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/world-liberty-trust-uae-democrats-hasan-piker-talarico-texas.html",
+            "sentiment_score": -0.5681,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Scott Bessent has surprising answer for U.S. debt fears",
@@ -1395,223 +1605,13 @@
             "url": "https://decrypt.co/376960/bitcoin-holds-steady-us-strikes-iran-stocks-oil",
             "sentiment_score": -0.3734,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold on pace for best month since February despite investor concerns over rate hikes",
-            "description": "Gold was on pace for monthly gains as investors assessed the Fed's next likely move.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:53:15Z",
-            "url": "https://finance.yahoo.com/markets/article/gold-on-pace-for-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html",
-            "sentiment_score": 0.5478,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Addicts Won’t Make Better Workers",
-            "description": "Economists widely agree that AI will boost labor productivity. But this view does not account for the possibility that hyperscalers will go all out to get people hooked on LLMs, because the narrower applications for which these tools are actually useful do no…",
-            "source": "Project Syndicate",
-            "published_at": "2026-08-31T16:41:00Z",
-            "url": "https://www.project-syndicate.org/commentary/ai-addiction-could-be-drag-on-labor-productivity-by-amar-bhide-2026-08",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gas topped $4 daily in August for the first time. New U.S. strikes on Iran are sending oil prices even higher again",
-            "description": "Brent crude jumped more than 3% after U.S. forces struck Iranian rocket launchers near the Strait of Hormuz, a key route for global oil shipments.",
-            "source": "Fortune",
-            "published_at": "2026-08-31T16:38:08Z",
-            "url": "https://fortune.com/2026/08/31/gas-prices-oil-us-iran-strikes-strait-hormuz/",
-            "sentiment_score": -0.4601,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What to know before choosing a debt relief strategy",
-            "description": "Credit card debt has become increasingly expensive to carry over the last few years, and balances are continuing to grow. Americans owed $1.26 trillion on their credit cards in the second quarter of 2026, up $21 billion from the previous quarter, according to…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T16:30:03Z",
-            "url": "https://biztoc.com/x/6a6474efe991b608",
-            "sentiment_score": 0.2277,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The US is now buried in $40T of debt — but who’s buying the IOUs right now? Here’s the unsettling answer for Americans",
-            "description": "As America’s debt pile grows, the buyers keeping Washington funded are changing.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:30:00Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/us-now-buried-40t-debt-163000404.html",
-            "sentiment_score": -0.2414,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "G20 host US pushes growth agenda to allay debt market concerns",
-            "description": "ASHEVILLE, North Carolina, Aug 31 (Reuters) - U. officials urged Group of 20 country finance leaders on Monday to push harder for economic growth as the best...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:22:52Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/g20-host-us-pushes-growth-162252261.html",
-            "sentiment_score": 0.2515,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Anthropic’s monster IPO is forcing rivals to rethink their own listing plans",
-            "description": "Anthropic's IPO reshapes the tech IPO landscape, prompting rivals to adjust strategies amid heightened competition for investor attention.\nThe post Anthropic’s monster IPO is forcing rivals to rethink their own listing plans appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:16:10Z",
-            "url": "https://cryptobriefing.com/anthropic-ipo-pressures-us-listing-plans/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55%",
-            "description": "Rising yields and inflation fears could pressure the Fed into aggressive rate hikes, impacting bond markets and economic growth prospects.\nThe post US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55% appeared first on Crypto…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:10:15Z",
-            "url": "https://cryptobriefing.com/us-10-year-yield-5-percent-fed-rate-hike/",
-            "sentiment_score": 0.4658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices",
-            "description": "The inclusion of private-sector leaders in G20 finance meetings may shift global economic policy towards deregulation and private interests.\nThe post Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:00:12Z",
-            "url": "https://cryptobriefing.com/goldman-jpmorgan-ceos-g20-asheville-2026/",
-            "sentiment_score": 0.3554,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The anatomy of US public debt",
-            "description": "US government debt shows no signs of reversal. The only option is the one Trump abhors — raising taxes",
-            "source": "BusinessLine",
-            "published_at": "2026-08-31T15:51:33Z",
-            "url": "https://www.thehindubusinessline.com/opinion/the-anatomy-of-us-public-debt/article71411906.ece",
-            "sentiment_score": -0.4996,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin on course for best August since 2017 despite renewed US-Iran hostilities",
-            "description": "Bitcoin is on track to log its best August performance since 2017, demonstrating remarkable resilience against back-to-back macro shocks as escalating US-Iran hostilities and a hawkish pivot from the Federal Reserve test the durability of the digital-asset re…",
-            "source": "CryptoSlate",
-            "published_at": "2026-08-31T15:50:44Z",
-            "url": "https://cryptoslate.com/bitcoin-on-course-for-best-august-since-2017-despite-renewed-us-iran-hostilities/",
-            "sentiment_score": 0.6857,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's net short dollar position in forwards hits record $136.77 billion",
-            "description": "RBI's net short dollar position rose from $103.33 billion at June-end as the central bank remained active in the forward market amid depreciation pressure on the rupee",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:50:17Z",
-            "url": "https://www.business-standard.com/markets/news/rbi-s-net-short-dollar-position-in-forwards-hits-record-136-77-billion-126083101399_1.html",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields hit three-year highs as Fed rate hike looms",
-            "description": "Rising Treasury yields and potential Fed rate hikes could lead to increased borrowing costs, impacting economic growth and inflation control.\nThe post Treasury yields hit three-year highs as Fed rate hike looms appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:38:58Z",
-            "url": "https://cryptobriefing.com/treasury-yields-hit-three-year-highs-as-fed-rate-hike-looms/",
-            "sentiment_score": 0.2434,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's liquidity mop-up auctions see tepid demand as surplus tops ₹5 trn",
-            "description": "Banks parked Rs 3.84 trillion against the Rs 10 trillion notified in Monday's VRRR auctions, while the benchmark 10-year government bond yield rose to 6.95 per cent",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:30:17Z",
-            "url": "https://www.business-standard.com/finance/news/rbi-s-liquidity-mop-up-auctions-see-tepid-demand-as-surplus-tops-5-trn-126083101359_1.html",
-            "sentiment_score": 0.295,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FDIC defeats $1.71B claim over Silicon Valley Bank collapse",
-            "description": "A federal judge ruled the FDIC is not liable for a $1.71 billion claim from SVB Financial Trust, holding former executives accountable for the\nThe post FDIC defeats $1.71B claim over Silicon Valley Bank collapse appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:27:23Z",
-            "url": "https://cryptobriefing.com/fdic-defeats-svb-collapse-claim/",
-            "sentiment_score": -0.5581,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Secretary Scott Bessent and Fed Chairman Kevin Warsh speak at G20 meeting — 8/31/2026",
-            "description": "Treasury Secretary Scott Bessent and Federal Reserve Chairman Kevin Warsh deliver remarks at Monday's gathering of the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:19:19Z",
-            "url": "https://biztoc.com/x/796eecff859ba06a",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan's 2-Year Yield Hits 31-Year High — Why the Yen Carry Trade Matters for Bitcoin",
-            "description": "Japan's 2-year yield hit a 31-year high, lifting yen carry trade costs and renewing pressure risk for Bitcoin.",
-            "source": "BeInCrypto",
-            "published_at": "2026-08-31T15:14:35Z",
-            "url": "https://beincrypto.com/bitcoin-carry-trade-japan-yield-high/",
-            "sentiment_score": -0.1351,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Warsh says global investment surge is driving growth",
-            "description": "Oil jumps 3% as U.S. strikes on Iran revive Hormuz supply disruption concerns\nInvesting.com -- U.S. Federal Reserve Chairman Kevin Warsh told G20 finance leaders on Monday that the world is experiencing a global investment surge that is driving growth.\nWarsh,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:10:17Z",
-            "url": "https://biztoc.com/x/b0785aef2301d87a",
-            "sentiment_score": 0.2673,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Smiling Scott Bessent arrives at G20 finance meeting with vow to make Iran ‘come to their senses’",
-            "description": "A smiling Treasury Secretary Scott Bessent was seen arriving at a Group of 20 reception Sunday as he navigates the \"Operation Economic Outcast\" campaign against Iran and a bond market revolt.",
-            "source": "New York Post",
-            "published_at": "2026-08-31T14:47:41Z",
-            "url": "https://nypost.com/2026/08/31/us-news/smiling-scott-bessent-arrives-at-g20-finance-meeting-with-vow-to-make-iran-come-to-their-senses/",
-            "sentiment_score": 0.4969,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unusual’",
-            "description": "Bessent's stance highlights the complexity of navigating economic policy amid supply shocks, potentially leading to market uncertainty and volatility.\nThe post Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unus…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T14:41:35Z",
-            "url": "https://cryptobriefing.com/bessent-federal-reserve-supply-shock/",
-            "sentiment_score": -0.4968,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Falls as Renewed US Strikes on Iran Near the Strait of Hormuz Rattle Wall Street to Close August",
-            "description": "The Dow Jones fell as U.S.-Iran tensions resurfaced, impacting oil prices and inflation concerns. Despite this, major indexes are set to post gains for August amid market volatility.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-08-31T14:41:18Z",
-            "url": "https://www.ibtimes.com.au/dow-jones-dips-us-iran-tensions-oil-prices-1874796",
-            "sentiment_score": -0.276,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1291,
+        "average_score": 0.1211,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
           {
             "currency": "JPY",
@@ -1702,6 +1702,16 @@
             "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-31st-august-2026/article71408208.ece",
             "sentiment_score": 0.1482,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Stocks Set to Open Lower as Fresh U.S.-Iran Flare-Up Lifts Oil, Jobs Data Awaited",
+            "description": "September S&P 500 E-Mini futures (ESU26) are down -0.23%, and September Nasdaq 100 E-Mini futures (NQU26) are down -0.17% this morning, pointing to a lower o...",
+            "source": "Barchart.com",
+            "published_at": "2026-08-31T10:35:52Z",
+            "url": "https://www.barchart.com/story/news/4351233/stocks-set-to-open-lower-as-oil-prices-climb-on-u-s-iran-escalation-jobs-data-awaited",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "JPY",
@@ -1905,7 +1915,7 @@
           }
         ]
       },
-      "net_score": -0.107,
+      "net_score": -0.1027,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1915,14 +1925,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 160.20799,
+      "price_now": 160.198,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 66.9,
-      "rsi_signal": "โซนกลาง (RSI=66.9)",
+      "rsi_value": 63.9,
+      "rsi_signal": "โซนกลาง (RSI=63.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.13387,
-      "suggested_sl_distance": 0.20081,
+      "atr_value": 0.1242,
+      "suggested_sl_distance": 0.18631,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1934,9 +1944,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=66.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=63.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-01T17:46:22.235487+00:00"
+    "generated_at": "2026-09-01T20:55:59.433332+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1982,10 +1992,220 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0221,
+        "average_score": 0.0184,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+            "description": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T20:50:01Z",
+            "url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+            "sentiment_score": 0.275,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slips as renewed Middle East tensions keep Fed hike bets alive",
+            "description": "Gold edged down as geopolitical risks stoked concerns about inflation that could make the Federal Reserve hike interest rates. Read here now",
+            "source": "Financial Post",
+            "published_at": "2026-08-31T20:41:16Z",
+            "url": "https://financialpost.com/news/economy/gold-slips-fed-hike-bets-alive",
+            "sentiment_score": 0.0498,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "America’s high school graduating class is projected to shrink 13%. Colleges are already feeling the squeeze",
+            "description": "The number of U.S. high school graduates is projected to fall 13% by 2041, adding pressure on colleges already struggling with rising costs and enrollment.",
+            "source": "Fortune",
+            "published_at": "2026-08-31T20:35:43Z",
+            "url": "https://fortune.com/2026/08/31/college-enrollment-decline-closures-high-school-graduates/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh’s Jackson Hole speech fuels September Fed rate hike speculation",
+            "description": "Increased speculation on a Fed rate hike could lead to market volatility and influence economic policy expectations despite mixed data signals.\nThe post Warsh’s Jackson Hole speech fuels September Fed rate hike speculation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:32:47Z",
+            "url": "https://cryptobriefing.com/warshs-jackson-hole-speech-fuels-september-fed-rate-hike-speculation/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan shifts to cautious outlook on US stocks after Fed remarks",
+            "description": "JPMorgan's cautious stance highlights market volatility risks amid Fed's inflation fight, impacting investor sentiment and future rate expectations.\nThe post JPMorgan shifts to cautious outlook on US stocks after Fed remarks appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:24:59Z",
+            "url": "https://cryptobriefing.com/jpmorgan-cautious-us-stocks-fed/",
+            "sentiment_score": -0.273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead",
+            "description": "Rising Treasury yields could tighten financial conditions, increasing borrowing costs and potentially slowing economic growth and investment.\nThe post 10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead appeared fi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:11:25Z",
+            "url": "https://cryptobriefing.com/10-year-treasury-yield-key-threshold-warnings/",
+            "sentiment_score": 0.0657,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks close lower as oil prices jump, indexes notch monthly gains",
+            "description": "US stocks declined on Monday as oil prices surged. This jump revived inflation concerns and increased monetary policy tightening expectations. Investors processed hawkish comments from Federal Reserve Chair Kevin Warsh. Despite the day's losses, major indexes…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T20:08:26Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/articleshow/133662681.cms",
+            "sentiment_score": 0.1921,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Greenbrier Announces CEO Succession Upon Planned Retirement of Lorie Tekorius",
+            "description": "~Tekorius to step down from role as CEO and President effective January 6, 2027~ ~Comstock selected as next President and CEO~ LAKE OSWEGO, Ore., Aug. 31, 2026 /PRNewswire/ -- The Greenbrier Companies, Inc. (NYSE: GBX) (\"Greenbrier\"), a leading international …",
+            "source": "PRNewswire",
+            "published_at": "2026-08-31T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/greenbrier-announces-ceo-succession-upon-planned-retirement-of-lorie-tekorius-302865145.html",
+            "sentiment_score": 0.2846,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JP Morgan traders back down bullishness on US stocks after Fed chair Warsh's Jackson Hole speech",
+            "description": "JPMorgan Chase traders are now tactically cautious on US stocks for upcoming weeks. This shift follows Federal Reserve Chairman Kevin Warsh's hawkish comments on interest rates. Traders cite uncertainty over rate outlook and potential AI stock unwinding as ke…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T19:47:09Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/jp-morgan-traders-back-down-bullishness-on-us-stocks-after-fed-chair-warshs-jackson-hole-speech/articleshow/133662266.cms",
+            "sentiment_score": 0.2731,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+            "description": "The path toward the move still looks cluttered.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T19:38:38Z",
+            "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+            "sentiment_score": -0.2162,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+            "description": "Spot XRP funds have drawn inflows for nine straight days, reaching $1.6 billion in cumulative net inflows even as the token's price cools.",
+            "source": "Decrypt",
+            "published_at": "2026-08-31T19:31:04Z",
+            "url": "https://decrypt.co/376973/xrp-etfs-inflow-streak-9-days",
+            "sentiment_score": 0.2451,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Most Important Signal From Jackson Hole May Not Be the Fed",
+            "description": "Citizens’ Mark Valentino and Eric Merlis unpack the business implications of Jackson Hole, arguing that the most important signal for Main Street may be the persistence of economic uncertainty. Valentino and Merlis make the case for disciplined preparation, f…",
+            "source": "Observer",
+            "published_at": "2026-08-31T19:30:52Z",
+            "url": "https://observer.com/2026/08/jackson-hole-business-owners-fed-rates/",
+            "sentiment_score": 0.0366,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US 10-year Treasury yield tops 19-month high as oil prices fuel rate-hike bets",
+            "description": "US Treasury yields rose significantly, with the 10-year rate exceeding 4.75 percent.  Rising oil prices and persistent inflation fueled expectations of a Federal Reserve rate increase.  Short-term yields surged after Fed Chairman Kevin Warsh signaled potentia…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:57:27Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-tops-19-month-high-as-oil-prices-fuel-rate-hike-bets/articleshow/133661626.cms",
+            "sentiment_score": 0.5804,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global central bankers warn of dystopian AI future at Jackson Hole",
+            "description": "AI's predictive power could undermine central banks' control, leading to financial instability and necessitating new regulatory approaches.\nThe post Global central bankers warn of dystopian AI future at Jackson Hole appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:54:19Z",
+            "url": "https://cryptobriefing.com/central-bankers-warn-dystopian-ai-jackson-hole/",
+            "sentiment_score": -0.1864,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "What Determines Your VA Refinance Rate? 5 Key Factors",
+            "description": "Learn the top 5 factors that dictate your VA refinance rate. From credit scores to market trends, and how to get the best interest rate today.",
+            "source": "Military.com",
+            "published_at": "2026-08-31T18:50:08Z",
+            "url": "https://military.com/va-loans/rates/what-factors-actually-determine-your-va-refinance-rate",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Voters Suffer More Pain At The Pump Than Democrats. A New Gas Proposal Could Make It Worse",
+            "description": "In an emergency waiver, the Trump administration announced it approved the sale of E15. The EPA once restricted E15 due to ozone and smog concerns.",
+            "source": "The Daily Caller",
+            "published_at": "2026-08-31T18:38:39Z",
+            "url": "https://dailycaller.com/2026/08/31/notus-report-trump-voters-gas-prices-iran-war-e15-ethanol-farm-bill-epa-rules-smog-ozone",
+            "sentiment_score": -0.7836,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs",
+            "description": "Gold's rising appeal as a hedge against economic uncertainty may influence future investment strategies and central bank policies.\nThe post Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:36:40Z",
+            "url": "https://cryptobriefing.com/gold-prices-buoyed-by-m2-growth-etf-inflows-amid-2026-highs/",
+            "sentiment_score": 0.2827,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Wall Street is thinking about rate hikes following the latest Fed speech",
+            "description": "Following Kevin Warsh's remarks at Jackson Hole, Wall Street is split on whether a rate hike is really on the way in a couple of weeks.",
+            "source": "Business Insider",
+            "published_at": "2026-08-31T18:26:37Z",
+            "url": "https://www.businessinsider.com/fed-rate-hikes-forecast-kevin-warsh-jackson-hole-speech-inflation-2026-8#article",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan Slips as 60% Hike Odds Cut Both Ways",
+            "description": "This article first appeared on GuruFocus.\nJPMorgan Chase (NYSE:JPM), America's largest bank by assets, dipped approximately 0.7% to $355.41 Mondayeven as traders pushed the probability of a September Federal Reserve rate hike above 60%. That is no contradicti…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-31T18:16:16Z",
+            "url": "https://biztoc.com/x/ce1a5cdaa4e3b52d",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated US Treasury yields climb as Iran and US restart military attacks",
+            "description": "Treasury yields increased as U.S. and Iran hostilities escalated. Crude oil prices surged, fueling inflation worries and complicating Fed outlook. Investors now anticipate a potential September interest rate hike by the Federal Reserve. Federal Reserve Chair …",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:07:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/longer-dated-us-treasury-yields-climb-as-iran-and-us-restart-military-attacks/articleshow/133660629.cms",
+            "sentiment_score": -0.3628,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Coffee Break: A Trump Scampire Bank With No Capital and A Dem Party With No Values Beyond Crushing the Left",
+            "description": "Trump has somehow managed to make his stablecoin scampire even worse by bringing in the UAE, the Dem zio-centrist establishment is going all-in on war with Hasan Piker, while Dem candidates miss massive opportunities to connect with voters.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-31T18:00:07Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/world-liberty-trust-uae-democrats-hasan-piker-talarico-texas.html",
+            "sentiment_score": -0.5681,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Scott Bessent has surprising answer for U.S. debt fears",
@@ -2075,220 +2295,10 @@
             "url": "https://decrypt.co/376960/bitcoin-holds-steady-us-strikes-iran-stocks-oil",
             "sentiment_score": -0.3734,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold on pace for best month since February despite investor concerns over rate hikes",
-            "description": "Gold was on pace for monthly gains as investors assessed the Fed's next likely move.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:53:15Z",
-            "url": "https://finance.yahoo.com/markets/article/gold-on-pace-for-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html",
-            "sentiment_score": 0.5478,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Addicts Won’t Make Better Workers",
-            "description": "Economists widely agree that AI will boost labor productivity. But this view does not account for the possibility that hyperscalers will go all out to get people hooked on LLMs, because the narrower applications for which these tools are actually useful do no…",
-            "source": "Project Syndicate",
-            "published_at": "2026-08-31T16:41:00Z",
-            "url": "https://www.project-syndicate.org/commentary/ai-addiction-could-be-drag-on-labor-productivity-by-amar-bhide-2026-08",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gas topped $4 daily in August for the first time. New U.S. strikes on Iran are sending oil prices even higher again",
-            "description": "Brent crude jumped more than 3% after U.S. forces struck Iranian rocket launchers near the Strait of Hormuz, a key route for global oil shipments.",
-            "source": "Fortune",
-            "published_at": "2026-08-31T16:38:08Z",
-            "url": "https://fortune.com/2026/08/31/gas-prices-oil-us-iran-strikes-strait-hormuz/",
-            "sentiment_score": -0.4601,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What to know before choosing a debt relief strategy",
-            "description": "Credit card debt has become increasingly expensive to carry over the last few years, and balances are continuing to grow. Americans owed $1.26 trillion on their credit cards in the second quarter of 2026, up $21 billion from the previous quarter, according to…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T16:30:03Z",
-            "url": "https://biztoc.com/x/6a6474efe991b608",
-            "sentiment_score": 0.2277,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The US is now buried in $40T of debt — but who’s buying the IOUs right now? Here’s the unsettling answer for Americans",
-            "description": "As America’s debt pile grows, the buyers keeping Washington funded are changing.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:30:00Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/us-now-buried-40t-debt-163000404.html",
-            "sentiment_score": -0.2414,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "G20 host US pushes growth agenda to allay debt market concerns",
-            "description": "ASHEVILLE, North Carolina, Aug 31 (Reuters) - U. officials urged Group of 20 country finance leaders on Monday to push harder for economic growth as the best...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:22:52Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/g20-host-us-pushes-growth-162252261.html",
-            "sentiment_score": 0.2515,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Anthropic’s monster IPO is forcing rivals to rethink their own listing plans",
-            "description": "Anthropic's IPO reshapes the tech IPO landscape, prompting rivals to adjust strategies amid heightened competition for investor attention.\nThe post Anthropic’s monster IPO is forcing rivals to rethink their own listing plans appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:16:10Z",
-            "url": "https://cryptobriefing.com/anthropic-ipo-pressures-us-listing-plans/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55%",
-            "description": "Rising yields and inflation fears could pressure the Fed into aggressive rate hikes, impacting bond markets and economic growth prospects.\nThe post US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55% appeared first on Crypto…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:10:15Z",
-            "url": "https://cryptobriefing.com/us-10-year-yield-5-percent-fed-rate-hike/",
-            "sentiment_score": 0.4658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices",
-            "description": "The inclusion of private-sector leaders in G20 finance meetings may shift global economic policy towards deregulation and private interests.\nThe post Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:00:12Z",
-            "url": "https://cryptobriefing.com/goldman-jpmorgan-ceos-g20-asheville-2026/",
-            "sentiment_score": 0.3554,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The anatomy of US public debt",
-            "description": "US government debt shows no signs of reversal. The only option is the one Trump abhors — raising taxes",
-            "source": "BusinessLine",
-            "published_at": "2026-08-31T15:51:33Z",
-            "url": "https://www.thehindubusinessline.com/opinion/the-anatomy-of-us-public-debt/article71411906.ece",
-            "sentiment_score": -0.4996,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin on course for best August since 2017 despite renewed US-Iran hostilities",
-            "description": "Bitcoin is on track to log its best August performance since 2017, demonstrating remarkable resilience against back-to-back macro shocks as escalating US-Iran hostilities and a hawkish pivot from the Federal Reserve test the durability of the digital-asset re…",
-            "source": "CryptoSlate",
-            "published_at": "2026-08-31T15:50:44Z",
-            "url": "https://cryptoslate.com/bitcoin-on-course-for-best-august-since-2017-despite-renewed-us-iran-hostilities/",
-            "sentiment_score": 0.6857,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's net short dollar position in forwards hits record $136.77 billion",
-            "description": "RBI's net short dollar position rose from $103.33 billion at June-end as the central bank remained active in the forward market amid depreciation pressure on the rupee",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:50:17Z",
-            "url": "https://www.business-standard.com/markets/news/rbi-s-net-short-dollar-position-in-forwards-hits-record-136-77-billion-126083101399_1.html",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields hit three-year highs as Fed rate hike looms",
-            "description": "Rising Treasury yields and potential Fed rate hikes could lead to increased borrowing costs, impacting economic growth and inflation control.\nThe post Treasury yields hit three-year highs as Fed rate hike looms appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:38:58Z",
-            "url": "https://cryptobriefing.com/treasury-yields-hit-three-year-highs-as-fed-rate-hike-looms/",
-            "sentiment_score": 0.2434,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's liquidity mop-up auctions see tepid demand as surplus tops ₹5 trn",
-            "description": "Banks parked Rs 3.84 trillion against the Rs 10 trillion notified in Monday's VRRR auctions, while the benchmark 10-year government bond yield rose to 6.95 per cent",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:30:17Z",
-            "url": "https://www.business-standard.com/finance/news/rbi-s-liquidity-mop-up-auctions-see-tepid-demand-as-surplus-tops-5-trn-126083101359_1.html",
-            "sentiment_score": 0.295,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FDIC defeats $1.71B claim over Silicon Valley Bank collapse",
-            "description": "A federal judge ruled the FDIC is not liable for a $1.71 billion claim from SVB Financial Trust, holding former executives accountable for the\nThe post FDIC defeats $1.71B claim over Silicon Valley Bank collapse appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:27:23Z",
-            "url": "https://cryptobriefing.com/fdic-defeats-svb-collapse-claim/",
-            "sentiment_score": -0.5581,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Secretary Scott Bessent and Fed Chairman Kevin Warsh speak at G20 meeting — 8/31/2026",
-            "description": "Treasury Secretary Scott Bessent and Federal Reserve Chairman Kevin Warsh deliver remarks at Monday's gathering of the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:19:19Z",
-            "url": "https://biztoc.com/x/796eecff859ba06a",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan's 2-Year Yield Hits 31-Year High — Why the Yen Carry Trade Matters for Bitcoin",
-            "description": "Japan's 2-year yield hit a 31-year high, lifting yen carry trade costs and renewing pressure risk for Bitcoin.",
-            "source": "BeInCrypto",
-            "published_at": "2026-08-31T15:14:35Z",
-            "url": "https://beincrypto.com/bitcoin-carry-trade-japan-yield-high/",
-            "sentiment_score": -0.1351,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Warsh says global investment surge is driving growth",
-            "description": "Oil jumps 3% as U.S. strikes on Iran revive Hormuz supply disruption concerns\nInvesting.com -- U.S. Federal Reserve Chairman Kevin Warsh told G20 finance leaders on Monday that the world is experiencing a global investment surge that is driving growth.\nWarsh,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:10:17Z",
-            "url": "https://biztoc.com/x/b0785aef2301d87a",
-            "sentiment_score": 0.2673,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Smiling Scott Bessent arrives at G20 finance meeting with vow to make Iran ‘come to their senses’",
-            "description": "A smiling Treasury Secretary Scott Bessent was seen arriving at a Group of 20 reception Sunday as he navigates the \"Operation Economic Outcast\" campaign against Iran and a bond market revolt.",
-            "source": "New York Post",
-            "published_at": "2026-08-31T14:47:41Z",
-            "url": "https://nypost.com/2026/08/31/us-news/smiling-scott-bessent-arrives-at-g20-finance-meeting-with-vow-to-make-iran-come-to-their-senses/",
-            "sentiment_score": 0.4969,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unusual’",
-            "description": "Bessent's stance highlights the complexity of navigating economic policy amid supply shocks, potentially leading to market uncertainty and volatility.\nThe post Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unus…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T14:41:35Z",
-            "url": "https://cryptobriefing.com/bessent-federal-reserve-supply-shock/",
-            "sentiment_score": -0.4968,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Falls as Renewed US Strikes on Iran Near the Strait of Hormuz Rattle Wall Street to Close August",
-            "description": "The Dow Jones fell as U.S.-Iran tensions resurfaced, impacting oil prices and inflation concerns. Despite this, major indexes are set to post gains for August amid market volatility.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-08-31T14:41:18Z",
-            "url": "https://www.ibtimes.com.au/dow-jones-dips-us-iran-tensions-oil-prices-1874796",
-            "sentiment_score": -0.276,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0919,
+      "net_score": 0.0956,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2298,14 +2308,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.715,
+      "price_now": 0.71469,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 37.9,
-      "rsi_signal": "โซนกลาง (RSI=37.9)",
+      "rsi_value": 36.0,
+      "rsi_signal": "โซนกลาง (RSI=36.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00068,
-      "suggested_sl_distance": 0.00102,
+      "atr_value": 0.00061,
+      "suggested_sl_distance": 0.00091,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -2317,9 +2327,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=36.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-01T17:46:22.235487+00:00"
+    "generated_at": "2026-09-01T20:55:59.433332+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2328,10 +2338,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0405,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 21,
+        "average_score": 0.0616,
+        "label": "บวกเล็กน้อย",
+        "article_count": 22,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs",
+            "description": "Gold's rising appeal as a hedge against economic uncertainty may influence future investment strategies and central bank policies.\nThe post Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:36:40Z",
+            "url": "https://cryptobriefing.com/gold-prices-buoyed-by-m2-growth-etf-inflows-amid-2026-highs/",
+            "sentiment_score": 0.2827,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "XAU",
             "title": "Warren Buffett claimed he could end America’s deficit crisis ‘in five minutes’ — but would his solution actually work?",
@@ -2545,10 +2565,220 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0221,
+        "average_score": 0.0184,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump says U.S. growth could hit 20%. It’s happened only once since WWII",
+            "description": "Trump argued rapid growth should not prompt Fed rate hikes, even as inflation remains above the central bank’s 2% target.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T20:50:01Z",
+            "url": "https://www.cnbc.com/2026/08/31/trump-us-gdp-growth-20-percent-economy.html",
+            "sentiment_score": 0.275,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slips as renewed Middle East tensions keep Fed hike bets alive",
+            "description": "Gold edged down as geopolitical risks stoked concerns about inflation that could make the Federal Reserve hike interest rates. Read here now",
+            "source": "Financial Post",
+            "published_at": "2026-08-31T20:41:16Z",
+            "url": "https://financialpost.com/news/economy/gold-slips-fed-hike-bets-alive",
+            "sentiment_score": 0.0498,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "America’s high school graduating class is projected to shrink 13%. Colleges are already feeling the squeeze",
+            "description": "The number of U.S. high school graduates is projected to fall 13% by 2041, adding pressure on colleges already struggling with rising costs and enrollment.",
+            "source": "Fortune",
+            "published_at": "2026-08-31T20:35:43Z",
+            "url": "https://fortune.com/2026/08/31/college-enrollment-decline-closures-high-school-graduates/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Warsh’s Jackson Hole speech fuels September Fed rate hike speculation",
+            "description": "Increased speculation on a Fed rate hike could lead to market volatility and influence economic policy expectations despite mixed data signals.\nThe post Warsh’s Jackson Hole speech fuels September Fed rate hike speculation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:32:47Z",
+            "url": "https://cryptobriefing.com/warshs-jackson-hole-speech-fuels-september-fed-rate-hike-speculation/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan shifts to cautious outlook on US stocks after Fed remarks",
+            "description": "JPMorgan's cautious stance highlights market volatility risks amid Fed's inflation fight, impacting investor sentiment and future rate expectations.\nThe post JPMorgan shifts to cautious outlook on US stocks after Fed remarks appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:24:59Z",
+            "url": "https://cryptobriefing.com/jpmorgan-cautious-us-stocks-fed/",
+            "sentiment_score": -0.273,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead",
+            "description": "Rising Treasury yields could tighten financial conditions, increasing borrowing costs and potentially slowing economic growth and investment.\nThe post 10-year Treasury yield crosses key threshold, prompting warnings of higher borrowing costs ahead appeared fi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T20:11:25Z",
+            "url": "https://cryptobriefing.com/10-year-treasury-yield-key-threshold-warnings/",
+            "sentiment_score": 0.0657,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks close lower as oil prices jump, indexes notch monthly gains",
+            "description": "US stocks declined on Monday as oil prices surged. This jump revived inflation concerns and increased monetary policy tightening expectations. Investors processed hawkish comments from Federal Reserve Chair Kevin Warsh. Despite the day's losses, major indexes…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T20:08:26Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-wall-street-closes-lower-as-oil-prices-jump-indexes-notch-monthly-gains/articleshow/133662681.cms",
+            "sentiment_score": 0.1921,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Greenbrier Announces CEO Succession Upon Planned Retirement of Lorie Tekorius",
+            "description": "~Tekorius to step down from role as CEO and President effective January 6, 2027~ ~Comstock selected as next President and CEO~ LAKE OSWEGO, Ore., Aug. 31, 2026 /PRNewswire/ -- The Greenbrier Companies, Inc. (NYSE: GBX) (\"Greenbrier\"), a leading international …",
+            "source": "PRNewswire",
+            "published_at": "2026-08-31T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/greenbrier-announces-ceo-succession-upon-planned-retirement-of-lorie-tekorius-302865145.html",
+            "sentiment_score": 0.2846,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JP Morgan traders back down bullishness on US stocks after Fed chair Warsh's Jackson Hole speech",
+            "description": "JPMorgan Chase traders are now tactically cautious on US stocks for upcoming weeks. This shift follows Federal Reserve Chairman Kevin Warsh's hawkish comments on interest rates. Traders cite uncertainty over rate outlook and potential AI stock unwinding as ke…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T19:47:09Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/jp-morgan-traders-back-down-bullishness-on-us-stocks-after-fed-chair-warshs-jackson-hole-speech/articleshow/133662266.cms",
+            "sentiment_score": 0.2731,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets see Warsh endorsing a rate hike in September. Not everyone is convinced",
+            "description": "The path toward the move still looks cluttered.",
+            "source": "CNBC",
+            "published_at": "2026-08-31T19:38:38Z",
+            "url": "https://www.cnbc.com/2026/08/31/markets-see-warsh-endorsing-a-rate-hike-in-september-not-everyone-is-convinced.html",
+            "sentiment_score": -0.2162,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+            "description": "Spot XRP funds have drawn inflows for nine straight days, reaching $1.6 billion in cumulative net inflows even as the token's price cools.",
+            "source": "Decrypt",
+            "published_at": "2026-08-31T19:31:04Z",
+            "url": "https://decrypt.co/376973/xrp-etfs-inflow-streak-9-days",
+            "sentiment_score": 0.2451,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Most Important Signal From Jackson Hole May Not Be the Fed",
+            "description": "Citizens’ Mark Valentino and Eric Merlis unpack the business implications of Jackson Hole, arguing that the most important signal for Main Street may be the persistence of economic uncertainty. Valentino and Merlis make the case for disciplined preparation, f…",
+            "source": "Observer",
+            "published_at": "2026-08-31T19:30:52Z",
+            "url": "https://observer.com/2026/08/jackson-hole-business-owners-fed-rates/",
+            "sentiment_score": 0.0366,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US 10-year Treasury yield tops 19-month high as oil prices fuel rate-hike bets",
+            "description": "US Treasury yields rose significantly, with the 10-year rate exceeding 4.75 percent.  Rising oil prices and persistent inflation fueled expectations of a Federal Reserve rate increase.  Short-term yields surged after Fed Chairman Kevin Warsh signaled potentia…",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:57:27Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-10-year-treasury-yield-tops-19-month-high-as-oil-prices-fuel-rate-hike-bets/articleshow/133661626.cms",
+            "sentiment_score": 0.5804,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global central bankers warn of dystopian AI future at Jackson Hole",
+            "description": "AI's predictive power could undermine central banks' control, leading to financial instability and necessitating new regulatory approaches.\nThe post Global central bankers warn of dystopian AI future at Jackson Hole appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:54:19Z",
+            "url": "https://cryptobriefing.com/central-bankers-warn-dystopian-ai-jackson-hole/",
+            "sentiment_score": -0.1864,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "What Determines Your VA Refinance Rate? 5 Key Factors",
+            "description": "Learn the top 5 factors that dictate your VA refinance rate. From credit scores to market trends, and how to get the best interest rate today.",
+            "source": "Military.com",
+            "published_at": "2026-08-31T18:50:08Z",
+            "url": "https://military.com/va-loans/rates/what-factors-actually-determine-your-va-refinance-rate",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Voters Suffer More Pain At The Pump Than Democrats. A New Gas Proposal Could Make It Worse",
+            "description": "In an emergency waiver, the Trump administration announced it approved the sale of E15. The EPA once restricted E15 due to ozone and smog concerns.",
+            "source": "The Daily Caller",
+            "published_at": "2026-08-31T18:38:39Z",
+            "url": "https://dailycaller.com/2026/08/31/notus-report-trump-voters-gas-prices-iran-war-e15-ethanol-farm-bill-epa-rules-smog-ozone",
+            "sentiment_score": -0.7836,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs",
+            "description": "Gold's rising appeal as a hedge against economic uncertainty may influence future investment strategies and central bank policies.\nThe post Gold prices buoyed by M2 growth, ETF inflows amid 2026 highs appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-08-31T18:36:40Z",
+            "url": "https://cryptobriefing.com/gold-prices-buoyed-by-m2-growth-etf-inflows-amid-2026-highs/",
+            "sentiment_score": 0.2827,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Wall Street is thinking about rate hikes following the latest Fed speech",
+            "description": "Following Kevin Warsh's remarks at Jackson Hole, Wall Street is split on whether a rate hike is really on the way in a couple of weeks.",
+            "source": "Business Insider",
+            "published_at": "2026-08-31T18:26:37Z",
+            "url": "https://www.businessinsider.com/fed-rate-hikes-forecast-kevin-warsh-jackson-hole-speech-inflation-2026-8#article",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan Slips as 60% Hike Odds Cut Both Ways",
+            "description": "This article first appeared on GuruFocus.\nJPMorgan Chase (NYSE:JPM), America's largest bank by assets, dipped approximately 0.7% to $355.41 Mondayeven as traders pushed the probability of a September Federal Reserve rate hike above 60%. That is no contradicti…",
+            "source": "Biztoc.com",
+            "published_at": "2026-08-31T18:16:16Z",
+            "url": "https://biztoc.com/x/ce1a5cdaa4e3b52d",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Longer-dated US Treasury yields climb as Iran and US restart military attacks",
+            "description": "Treasury yields increased as U.S. and Iran hostilities escalated. Crude oil prices surged, fueling inflation worries and complicating Fed outlook. Investors now anticipate a potential September interest rate hike by the Federal Reserve. Federal Reserve Chair …",
+            "source": "The Times of India",
+            "published_at": "2026-08-31T18:07:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/longer-dated-us-treasury-yields-climb-as-iran-and-us-restart-military-attacks/articleshow/133660629.cms",
+            "sentiment_score": -0.3628,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Coffee Break: A Trump Scampire Bank With No Capital and A Dem Party With No Values Beyond Crushing the Left",
+            "description": "Trump has somehow managed to make his stablecoin scampire even worse by bringing in the UAE, the Dem zio-centrist establishment is going all-in on war with Hasan Piker, while Dem candidates miss massive opportunities to connect with voters.",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-08-31T18:00:07Z",
+            "url": "https://www.nakedcapitalism.com/2026/08/world-liberty-trust-uae-democrats-hasan-piker-talarico-texas.html",
+            "sentiment_score": -0.5681,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Scott Bessent has surprising answer for U.S. debt fears",
@@ -2638,220 +2868,10 @@
             "url": "https://decrypt.co/376960/bitcoin-holds-steady-us-strikes-iran-stocks-oil",
             "sentiment_score": -0.3734,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold on pace for best month since February despite investor concerns over rate hikes",
-            "description": "Gold was on pace for monthly gains as investors assessed the Fed's next likely move.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:53:15Z",
-            "url": "https://finance.yahoo.com/markets/article/gold-on-pace-for-best-month-since-february-despite-investor-concerns-over-rate-hikes-165315959.html",
-            "sentiment_score": 0.5478,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Addicts Won’t Make Better Workers",
-            "description": "Economists widely agree that AI will boost labor productivity. But this view does not account for the possibility that hyperscalers will go all out to get people hooked on LLMs, because the narrower applications for which these tools are actually useful do no…",
-            "source": "Project Syndicate",
-            "published_at": "2026-08-31T16:41:00Z",
-            "url": "https://www.project-syndicate.org/commentary/ai-addiction-could-be-drag-on-labor-productivity-by-amar-bhide-2026-08",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gas topped $4 daily in August for the first time. New U.S. strikes on Iran are sending oil prices even higher again",
-            "description": "Brent crude jumped more than 3% after U.S. forces struck Iranian rocket launchers near the Strait of Hormuz, a key route for global oil shipments.",
-            "source": "Fortune",
-            "published_at": "2026-08-31T16:38:08Z",
-            "url": "https://fortune.com/2026/08/31/gas-prices-oil-us-iran-strikes-strait-hormuz/",
-            "sentiment_score": -0.4601,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What to know before choosing a debt relief strategy",
-            "description": "Credit card debt has become increasingly expensive to carry over the last few years, and balances are continuing to grow. Americans owed $1.26 trillion on their credit cards in the second quarter of 2026, up $21 billion from the previous quarter, according to…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T16:30:03Z",
-            "url": "https://biztoc.com/x/6a6474efe991b608",
-            "sentiment_score": 0.2277,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The US is now buried in $40T of debt — but who’s buying the IOUs right now? Here’s the unsettling answer for Americans",
-            "description": "As America’s debt pile grows, the buyers keeping Washington funded are changing.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:30:00Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/us-now-buried-40t-debt-163000404.html",
-            "sentiment_score": -0.2414,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "G20 host US pushes growth agenda to allay debt market concerns",
-            "description": "ASHEVILLE, North Carolina, Aug 31 (Reuters) - U. officials urged Group of 20 country finance leaders on Monday to push harder for economic growth as the best...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-08-31T16:22:52Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/g20-host-us-pushes-growth-162252261.html",
-            "sentiment_score": 0.2515,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Anthropic’s monster IPO is forcing rivals to rethink their own listing plans",
-            "description": "Anthropic's IPO reshapes the tech IPO landscape, prompting rivals to adjust strategies amid heightened competition for investor attention.\nThe post Anthropic’s monster IPO is forcing rivals to rethink their own listing plans appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:16:10Z",
-            "url": "https://cryptobriefing.com/anthropic-ipo-pressures-us-listing-plans/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55%",
-            "description": "Rising yields and inflation fears could pressure the Fed into aggressive rate hikes, impacting bond markets and economic growth prospects.\nThe post US 10-year yield tops 5% expectations as Federal Reserve rate hike odds surge past 55% appeared first on Crypto…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:10:15Z",
-            "url": "https://cryptobriefing.com/us-10-year-yield-5-percent-fed-rate-hike/",
-            "sentiment_score": 0.4658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices",
-            "description": "The inclusion of private-sector leaders in G20 finance meetings may shift global economic policy towards deregulation and private interests.\nThe post Goldman Sachs and JPMorgan CEOs join G20 finance meeting for first time as private-sector voices appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T16:00:12Z",
-            "url": "https://cryptobriefing.com/goldman-jpmorgan-ceos-g20-asheville-2026/",
-            "sentiment_score": 0.3554,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The anatomy of US public debt",
-            "description": "US government debt shows no signs of reversal. The only option is the one Trump abhors — raising taxes",
-            "source": "BusinessLine",
-            "published_at": "2026-08-31T15:51:33Z",
-            "url": "https://www.thehindubusinessline.com/opinion/the-anatomy-of-us-public-debt/article71411906.ece",
-            "sentiment_score": -0.4996,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin on course for best August since 2017 despite renewed US-Iran hostilities",
-            "description": "Bitcoin is on track to log its best August performance since 2017, demonstrating remarkable resilience against back-to-back macro shocks as escalating US-Iran hostilities and a hawkish pivot from the Federal Reserve test the durability of the digital-asset re…",
-            "source": "CryptoSlate",
-            "published_at": "2026-08-31T15:50:44Z",
-            "url": "https://cryptoslate.com/bitcoin-on-course-for-best-august-since-2017-despite-renewed-us-iran-hostilities/",
-            "sentiment_score": 0.6857,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's net short dollar position in forwards hits record $136.77 billion",
-            "description": "RBI's net short dollar position rose from $103.33 billion at June-end as the central bank remained active in the forward market amid depreciation pressure on the rupee",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:50:17Z",
-            "url": "https://www.business-standard.com/markets/news/rbi-s-net-short-dollar-position-in-forwards-hits-record-136-77-billion-126083101399_1.html",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields hit three-year highs as Fed rate hike looms",
-            "description": "Rising Treasury yields and potential Fed rate hikes could lead to increased borrowing costs, impacting economic growth and inflation control.\nThe post Treasury yields hit three-year highs as Fed rate hike looms appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:38:58Z",
-            "url": "https://cryptobriefing.com/treasury-yields-hit-three-year-highs-as-fed-rate-hike-looms/",
-            "sentiment_score": 0.2434,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBI's liquidity mop-up auctions see tepid demand as surplus tops ₹5 trn",
-            "description": "Banks parked Rs 3.84 trillion against the Rs 10 trillion notified in Monday's VRRR auctions, while the benchmark 10-year government bond yield rose to 6.95 per cent",
-            "source": "Business Standard",
-            "published_at": "2026-08-31T15:30:17Z",
-            "url": "https://www.business-standard.com/finance/news/rbi-s-liquidity-mop-up-auctions-see-tepid-demand-as-surplus-tops-5-trn-126083101359_1.html",
-            "sentiment_score": 0.295,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FDIC defeats $1.71B claim over Silicon Valley Bank collapse",
-            "description": "A federal judge ruled the FDIC is not liable for a $1.71 billion claim from SVB Financial Trust, holding former executives accountable for the\nThe post FDIC defeats $1.71B claim over Silicon Valley Bank collapse appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T15:27:23Z",
-            "url": "https://cryptobriefing.com/fdic-defeats-svb-collapse-claim/",
-            "sentiment_score": -0.5581,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Secretary Scott Bessent and Fed Chairman Kevin Warsh speak at G20 meeting — 8/31/2026",
-            "description": "Treasury Secretary Scott Bessent and Federal Reserve Chairman Kevin Warsh deliver remarks at Monday's gathering of the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:19:19Z",
-            "url": "https://biztoc.com/x/796eecff859ba06a",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Japan's 2-Year Yield Hits 31-Year High — Why the Yen Carry Trade Matters for Bitcoin",
-            "description": "Japan's 2-year yield hit a 31-year high, lifting yen carry trade costs and renewing pressure risk for Bitcoin.",
-            "source": "BeInCrypto",
-            "published_at": "2026-08-31T15:14:35Z",
-            "url": "https://beincrypto.com/bitcoin-carry-trade-japan-yield-high/",
-            "sentiment_score": -0.1351,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Warsh says global investment surge is driving growth",
-            "description": "Oil jumps 3% as U.S. strikes on Iran revive Hormuz supply disruption concerns\nInvesting.com -- U.S. Federal Reserve Chairman Kevin Warsh told G20 finance leaders on Monday that the world is experiencing a global investment surge that is driving growth.\nWarsh,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-08-31T15:10:17Z",
-            "url": "https://biztoc.com/x/b0785aef2301d87a",
-            "sentiment_score": 0.2673,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Smiling Scott Bessent arrives at G20 finance meeting with vow to make Iran ‘come to their senses’",
-            "description": "A smiling Treasury Secretary Scott Bessent was seen arriving at a Group of 20 reception Sunday as he navigates the \"Operation Economic Outcast\" campaign against Iran and a bond market revolt.",
-            "source": "New York Post",
-            "published_at": "2026-08-31T14:47:41Z",
-            "url": "https://nypost.com/2026/08/31/us-news/smiling-scott-bessent-arrives-at-g20-finance-meeting-with-vow-to-make-iran-come-to-their-senses/",
-            "sentiment_score": 0.4969,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unusual’",
-            "description": "Bessent's stance highlights the complexity of navigating economic policy amid supply shocks, potentially leading to market uncertainty and volatility.\nThe post Scott Bessent declines to speculate on Federal Reserve actions, calls supply shock rate hikes ‘unus…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-08-31T14:41:35Z",
-            "url": "https://cryptobriefing.com/bessent-federal-reserve-supply-shock/",
-            "sentiment_score": -0.4968,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Falls as Renewed US Strikes on Iran Near the Strait of Hormuz Rattle Wall Street to Close August",
-            "description": "The Dow Jones fell as U.S.-Iran tensions resurfaced, impacting oil prices and inflation concerns. Despite this, major indexes are set to post gains for August amid market volatility.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-08-31T14:41:18Z",
-            "url": "https://www.ibtimes.com.au/dow-jones-dips-us-iran-tensions-oil-prices-1874796",
-            "sentiment_score": -0.276,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0184,
+      "net_score": 0.0432,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2861,17 +2881,17 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4396.7998,
+      "price_now": 4373.8999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 30.8,
-      "rsi_signal": "โซนกลาง (RSI=30.8)",
+      "rsi_value": 26.6,
+      "rsi_signal": "ขายมากเกิน (RSI=26.6) ราคาอาจเด้ง",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 21.11015,
-      "suggested_sl_distance": 31.66522,
+      "atr_value": 19.5947,
+      "suggested_sl_distance": 29.39205,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "technical_vote": -1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -2880,8 +2900,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=30.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=26.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-01T17:46:22.235487+00:00"
+    "generated_at": "2026-09-01T20:55:59.433332+00:00"
   }
 ]
