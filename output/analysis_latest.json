@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.062,
+        "average_score": -0.1072,
         "label": "ลบเล็กน้อย",
-        "article_count": 8,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Sanctioning a Ghost: Europe’s Empty Gesture Against Iran",
+            "description": "US Treasury Secretary Scott Bessent announced today that the European Union has “officially joined” the American sanctions campaign against Iran — Operation Economic Outcast — and framed Tehran’s choice in the usual absolutes: complete global isolation and a …",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-09-05T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/09/no_author/sanctioning-a-ghost-europes-empty-gesture-against-iran/",
+            "sentiment_score": -0.4016,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "European shares log weekly losses on inflation worries; Volkswagen jumps",
+            "description": "European markets wrapped up the week with a dip, influenced by ongoing Middle East tensions and persistent inflation apprehensions. A positive turn from Volkswagen shares provided some needed support after they revealed a new strategic plan. Investors are now…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:56:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-log-weekly-losses-on-inflation-worries-volkswagen-jumps/articleshow/133786812.cms",
+            "sentiment_score": -0.1776,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Tata Motors turns to Iveco shareholders to seal €3.82-billion takeover",
@@ -19,6 +39,16 @@
             "url": "https://www.thehindubusinessline.com/companies/tata-motors-turns-to-iveco-shareholders-to-seal-382-billion-takeover/article71429995.ece",
             "sentiment_score": 0.1376,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Stocks Settle Mostly Lower on Hawkish US Payroll Report",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.38% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.51%, and the Nasdaq 100...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T20:35:52Z",
+            "url": "https://www.barchart.com/story/news/4453050/stocks-settle-mostly-lower-on-hawkish-us-payroll-report",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "EUR",
@@ -39,6 +69,16 @@
             "url": "https://www.rt.com/business/645145-global-bond-markets-debt/",
             "sentiment_score": -0.4886,
             "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar Rises on US Labor Market Strength",
+            "description": "The dollar index (DXY00 ) rose by +0.20% on Friday. The dollar finished higher on Friday after a stronger-than-expected US Aug payroll report, which boosted...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T19:32:59Z",
+            "url": "https://www.barchart.com/story/news/4452158/dollar-rises-on-us-labor-market-strength",
+            "sentiment_score": 0.4541,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "EUR",
@@ -93,10 +133,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0352,
+        "average_score": 0.0416,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "description": "Australian shares experienced a volatile week, with the ASX 200 index fluctuating due to Middle East tensions, rising bond yields, and expectations of a Reserve Bank interest rate hike.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-09-05T05:40:16Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-volatile-week-middle-east-tensions-rba-rate-hike-1875045",
+            "sentiment_score": -0.3291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M",
+            "description": "The inflows into Bitcoin and Ethereum ETFs highlight growing investor confidence and potential shifts in market sentiment towards cryptocurrencies.\nThe post US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T04:31:19Z",
+            "url": "https://cryptobriefing.com/bitcoin-ethereum-etf-inflows-september/",
+            "sentiment_score": 0.6294,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar bounces on job gains, then pares ahead of CPI",
+            "description": "The U.S. job market showed surprising resilience in August, adding 162,000 positions—far beyond what analysts anticipated. This result has led to heightened expectations for a Federal Reserve rate increase in September. However, the dollar softened slightly a…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:04:41Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-bounces-on-job-gains-then-pares-ahead-of-cpi/articleshow/133787070.cms",
+            "sentiment_score": 0.396,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slides after robust US payrolls boosts rate hike bets",
+            "description": "Gold prices experienced a downturn on Friday, setting the stage for a weekly loss as solid US job data raised the bar for anticipated rate hikes by the Federal Reserve. This shift has rendered the non-yielding precious metal less desirable. Alongside gold, si…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slides-after-robust-us-payrolls-boosts-rate-hike-bets/articleshow/133787001.cms",
+            "sentiment_score": 0.5843,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+            "description": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test.\nThe post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+            "source": "CryptoSlate",
+            "published_at": "2026-09-05T04:00:32Z",
+            "url": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil ends week higher on renewed US-Iran strikes, diesel hits record",
+            "description": "Oil prices have surged dramatically this week amidst escalating military tensions between the U.S. and Iran. Record-high retail diesel prices in the U.S. are fueling global inflation concerns. Supply chain disruptions in the Middle East are dealing a blow to …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:58:45Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+            "sentiment_score": -0.4403,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "European shares log weekly losses on inflation worries; Volkswagen jumps",
+            "description": "European markets wrapped up the week with a dip, influenced by ongoing Middle East tensions and persistent inflation apprehensions. A positive turn from Volkswagen shares provided some needed support after they revealed a new strategic plan. Investors are now…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:56:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-log-weekly-losses-on-inflation-worries-volkswagen-jumps/articleshow/133786812.cms",
+            "sentiment_score": -0.1776,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Yields, dollar rise, stocks ease after solid US jobs report",
+            "description": "US job growth data boosted Federal Reserve rate hike expectations. Treasury yields and the dollar strengthened after the positive jobs report. Major US stock indexes and global stocks experienced a broad selloff. Oil prices rose due to renewed attacks in the …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:53:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/yields-dollar-rise-stocks-ease-after-solid-us-jobs-report/articleshow/133786762.cms",
+            "sentiment_score": 0.5903,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead:Investors to pore over inflation data for signals on rate trajectory",
+            "description": "Investors await crucial inflation data next week which may decide the Fed's interest rate move.  The S&P 500 index is nearing its record high while facing market volatility.  Producer and Consumer Price Index reports will offer insights into August's inflatio…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:46:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory/articleshow/133786604.cms",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends lower as jobs data fuels Fed bets",
+            "description": "Stronger-than-expected US jobs figures have prompted investors to ramp up bets on interest-rate hikes, with all three major indices closing lower.",
+            "source": "PerthNow",
+            "published_at": "2026-09-05T03:44:27Z",
+            "url": "https://www.perthnow.com.au/news/business/markets/sp-500-dow-slide-as-jobs-report-fuels-rate-hike-bets-c-22827273",
+            "sentiment_score": -0.3132,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
+            "description": "Hammack's stance signals potential prolonged high interest rates, impacting economic growth and market expectations for future rate cuts.\nThe post Fed’s Hammack: Current policy not tight enough amid high inflation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T03:16:09Z",
+            "url": "https://cryptobriefing.com/feds-hammack-current-policy-not-tight-enough-amid-high-inflation/",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
+            "description": "US President Trump advocates for reduced interest rates, stating the US possesses stronger credit. He believes lower rates are essential for global financial competitiveness and fairness.  Recent jobs data showed employers added 162,000 positions in August. T…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:15:20Z",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-calls-for-lower-interest-rates-says-high-rates-put-us-at-unfair-disadvantage/articleshow/133785705.cms",
+            "sentiment_score": -0.2219,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "For Many Individual Traders, Prediction Markets Are Hot—and Crypto Is Not",
+            "description": "As bitcoin loses its cool, traders are spending more time and money betting on sports, elections and Fed rate decisions.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T02:08:43Z",
+            "url": "https://biztoc.com/x/3b1be7e367da0737",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "White House on if There Are More Anti-Inflation Policies Coming: Leave It to Fed",
+            "description": "On Friday’s broadcast of Bloomberg’s “Open Interest,” White House Council of Economic Advisers Chairman Christopher Phelan responded to a question on whether the White House has any further policies lined up to deal with inflation by pointing to Fed Chairman\n…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-05T01:47:09Z",
+            "url": "https://www.breitbart.com/clips/2026/09/04/white-house-on-if-there-are-more-anti-inflation-policies-coming-leave-it-to-fed/",
+            "sentiment_score": -0.0361,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
+            "description": "BEIJING, Sept. 4, 2026 /PRNewswire/ -- Cheche Group Inc. (NASDAQ: CCG) (\"Cheche\", \"the Company\" or \"we\"), China's leading auto insurance technology platform, today announced its unaudited financial results for the six months ended June 30, 2026.",
+            "source": "Associated Press",
+            "published_at": "2026-09-05T01:22:39Z",
+            "url": "https://apnews.com/press-release/pr-newswire/press-release-717111c580ee693d743c5db3c9ffaeca",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A dirty little secret betrays a supposedly rosy report for Trump",
+            "description": "The Labor Department reported this morning that the United States added 162,000 jobs in August. That’s more than expected, especially given how few jobs the country has added over the last few months.But I want to let you in on a little secret (which shouldn’…",
+            "source": "Raw Story",
+            "published_at": "2026-09-05T00:52:12Z",
+            "url": "https://www.rawstory.com/trump-economy-2677822791/",
+            "sentiment_score": -0.3671,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "U.S. Stocks Fall as Robust August Jobs Data Spurs Yields, Rate-Hike Bets",
@@ -179,6 +379,16 @@
           },
           {
             "currency": "USD",
+            "title": "A $500,000 CD Ladder Built at 5% Is Maturing Into 4% Rates, and This 70-Year-Old’s Income Just Dropped $5,000",
+            "description": "When the CD ladder this retiree built at peak rates started maturing, the principal came back intact and the income did not. Understanding why forces a harde...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-04T20:52:09Z",
+            "url": "https://247wallst.com/personal-finance/2026/09/04/a-500000-cd-ladder-built-at-5-is-maturing-into-4-rates-and-this-70-year-olds-income-just-dropped-5000/",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "Stocks Fall After Jobs Report Adds to Interest Rate Concerns",
             "description": "US stocks fell and Treasury yields rose Friday after the government reported that employers unexpectedly added 162,000 jobs last month, a development that could increase chances that the central bank will raise interest rates later this month. The Dow fell 27…",
             "source": "Newser",
@@ -186,6 +396,16 @@
             "url": "https://www.newser.com/story/395928/stocks-fall-after-jobs-report-adds-to-interest-rate-concerns.html",
             "sentiment_score": 0.5565,
             "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Settle Mostly Lower on Hawkish US Payroll Report",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.38% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.51%, and the Nasdaq 100...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T20:35:52Z",
+            "url": "https://www.barchart.com/story/news/4453050/stocks-settle-mostly-lower-on-hawkish-us-payroll-report",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -216,190 +436,10 @@
             "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-financial-risks-of-the-ai-boom/",
             "sentiment_score": -0.222,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "24 hours that show how preoccupied Trump is",
-            "description": "It can be difficult to decide which Roman metaphor more aptly captures President Donald Trump’s posture these days.",
-            "source": "CNN",
-            "published_at": "2026-09-04T20:20:35Z",
-            "url": "https://www.cnn.com/2026/09/04/politics/trump-ballroom-fixation-midterms",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. employers added 162,000 jobs in August, beating expectations",
-            "description": "U.S. employers added 162,000 jobs in August, beating expectations. The news could give the Federal Reserve more leeway to raise interest rates later this month to curb stubborn inflation.",
-            "source": "NPR",
-            "published_at": "2026-09-04T20:18:02Z",
-            "url": "https://www.npr.org/2026/09/04/nx-s1-5957537/u-s-employers-added-162-000-jobs-in-august-beating-expectations",
-            "sentiment_score": -0.4417,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
-            "description": "The yen's unexpected strength highlights the risks of leveraged currency bets, potentially leading to increased market volatility and strategic reassessments.\nThe post CFTC data shows hedge funds loaded up on yen shorts before the surge appeared first on Cryp…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T20:09:33Z",
-            "url": "https://cryptobriefing.com/cftc-hedge-funds-yen-shorts-surge/",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks today: US stocks end lower as solid jobs data fuels hawkish Fed bets",
-            "description": "Wall Street closed lower on Friday as a stronger-than-expected US jobs report lifted expectations of a Federal Reserve rate hike this month. Investors now await next week's CPI and PPI data for clues on inflation and the Fed's policy path, while Lululemon and…",
-            "source": "The Times of India",
-            "published_at": "2026-09-04T20:04:15Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-lower-as-solid-jobs-data-fuels-hawkish-fed-bets/articleshow/133777456.cms",
-            "sentiment_score": -0.1679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
-            "description": "The hiring surge may prompt a rate hike, impacting borrowing costs, consumer spending, and potentially slowing economic growth.\nThe post US hiring surge strengthens case for Federal Reserve rate hike in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:55:18Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-strengthens-case-for-federal-reserve-rate-hike-in-september/",
-            "sentiment_score": 0.5254,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike",
-            "description": "A robust job market may prompt the Fed to raise rates, impacting borrowing costs, investment strategies, and economic growth dynamics.\nThe post US hiring surge strengthens case for Federal Reserve rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:54:22Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-fed-rate-hike/",
-            "sentiment_score": 0.5744,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts rates - finance.yahoo.com",
-            "description": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts ratesfinance.yahoo.com Trump tells Fed to slash rates or he'll end trade with countries with U.S. surplusesCNBC Trump says he will cease trading with top partners unl…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-04T19:52:47Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185431422",
-            "sentiment_score": -0.831,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Central banks buy 23 tonnes of gold in July, led by China",
-            "description": "Central banks' gold purchases may bolster market confidence, potentially affecting future pricing and economic strategies amid global uncertainties.\nThe post Central banks buy 23 tonnes of gold in July, led by China appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:31:29Z",
-            "url": "https://cryptobriefing.com/central-banks-buy-23-tonnes-of-gold-in-july-led-by-china/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How much interest can a $40,000 3-year CD earn at today's rates?",
-            "description": "Don't dismiss the benefits a $40,000 3-year CD can offer without first understanding the interest-earning potential.",
-            "source": "CBS News",
-            "published_at": "2026-09-04T19:24:11Z",
-            "url": "https://www.cbsnews.com/news/how-much-interest-40000-3-year-cd-earn-todays-rates/",
-            "sentiment_score": 0.2334,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase Slides as Hot Jobs Report Dents 10% Rally",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nCoinbase Global Inc. (NASDAQ:COIN) shares fell roughly 4% Friday, eroding part of Thursday's 10.1% surge after a stronger-than-expected jobs report revived be…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:21:00Z",
-            "url": "https://biztoc.com/x/87b796b67a9e6fa4",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s the beef? Rising meat prices at Walmart, Costco, Aldi, Publix, and more prompt Department of Justice probe",
-            "description": "The U.S. government is expanding its investigation into the rising price of beef to eight major grocery chains and big box retailers.\nThe current average price for ground beef was $6.88 per pound, as of July, according to the Federal Reserve Bank of St. Louis…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/e154e4d1bee7612a",
-            "sentiment_score": 0.3687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s latest threat — to stop trading with some countries unless there’s a rate cut — risks shock to U.S. economy",
-            "description": "Economists and other analysts offered criticism Friday after President Donald Trump floated the idea of stopping trade with countries that have a trade surplus with the U.S. if the Federal Reserve doesn’t lower interest rates.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/5dd6567f4bdf751e",
-            "sentiment_score": -0.7408,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-            "description": "President Donald Trump on Friday doubled down on his threat to cut off trade with countries that have surpluses with the U.S. unless the Federal Reserve cuts interest rates. “What I’m saying, very simply, is that we should be paying the lowest interest rate i…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-09-04T19:18:11Z",
-            "url": "https://freerepublic.com/focus/f-news/4394255/posts",
-            "sentiment_score": -0.5633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump: Interest rates should be at 0.5% or 1%",
-            "description": "United States President Donald Trump once again called on the Federal Reserve to cut interest rates, claiming they should be at 0.5% or 1% and reiterating his threat to cut all trade with certain coun...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:03:46Z",
-            "url": "https://biztoc.com/x/e65e0b142be39661",
-            "sentiment_score": 0.3443,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: CES/CPS Employment Surges",
-            "description": "Evidence of continued growth: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transfers in Ch.2017$ (bold light green), manufacturing and…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-04T19:01:25Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts",
-            "description": "Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept. 30.\nThe post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-04T18:50:33Z",
-            "url": "https://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
-            "sentiment_score": -0.7627,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ad Attacking N.C. Republican Senate Candidate Uses His Own (Dated) Words Against Him",
-            "description": "In his campaign's latest TV ad, Democratic Senate candidate Roy Cooper of North Carolina highlights the issue of affordability using direct quotes from his Republican opponent. They are, in fact, direct quotes from Michael Whatley -- but they are a bit dated,…",
-            "source": "FactCheck.org",
-            "published_at": "2026-09-04T18:22:29Z",
-            "url": "https://www.factcheck.org/2026/09/ad-attacking-n-c-republican-senate-candidate-uses-his-own-dated-words-against-him/",
-            "sentiment_score": -0.3212,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack: Fed policy not restrictive enough",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said on Friday that the United States' central bank's monetary policy is \"not restrictive enough\" and that it was \"time to act.\"\"Inflation is t...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T18:17:57Z",
-            "url": "https://biztoc.com/x/0419401fecd8fed3",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0268,
+      "net_score": -0.1488,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -430,7 +470,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-06T00:47:32.348356+00:00"
+    "generated_at": "2026-09-06T05:45:01.749332+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -439,10 +479,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0606,
+        "average_score": -0.0668,
         "label": "ลบเล็กน้อย",
-        "article_count": 19,
+        "article_count": 22,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Gold reserves are on the move, but central banks are choosing different vaults",
+            "description": "The world’s gold is changing vaults. The Netherlands is shifting bullion to London, France has moved holdings out of New York, while India now keeps 77% of RBI gold at home. The moves reveal how central banks are rethinking where their ultimate crisis asset s…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:59:56Z",
+            "url": "https://economictimes.indiatimes.com/news/economy/policy/gold-reserves-are-on-the-move-but-central-banks-are-choosing-different-vaults/articleshow/133788083.cms",
+            "sentiment_score": -0.1145,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Can Americans Learn, or Is It Too Much of a Challenge for Them?",
+            "description": "Reading the comments on the Unz Review of my latest article there, “The True Story of World War II,” I wonder about the point of my efforts in truth’s behalf. I have long wondered about the utility of readers’ comments, especially comments that the writers ar…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-09-05T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/09/paul-craig-roberts/can-americans-learn-or-is-it-too-much-of-a-challenge-for-them/",
+            "sentiment_score": -0.0279,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Why are European countries moving their gold out of North America?",
+            "description": "The Netherlands has relocated 86 tonnes of the shiny stuff - what's going on?",
+            "source": "BBC News",
+            "published_at": "2026-09-05T01:42:09Z",
+            "url": "https://www.bbc.co.uk/news/articles/cvgyn8q8gqxo",
+            "sentiment_score": -0.1145,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "AMANDA PLATELL: Tess Daly's holiday snaps with Vernon Kay prove something that all couples (and exes) must heed",
@@ -636,10 +706,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0352,
+        "average_score": 0.0416,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "description": "Australian shares experienced a volatile week, with the ASX 200 index fluctuating due to Middle East tensions, rising bond yields, and expectations of a Reserve Bank interest rate hike.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-09-05T05:40:16Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-volatile-week-middle-east-tensions-rba-rate-hike-1875045",
+            "sentiment_score": -0.3291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M",
+            "description": "The inflows into Bitcoin and Ethereum ETFs highlight growing investor confidence and potential shifts in market sentiment towards cryptocurrencies.\nThe post US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T04:31:19Z",
+            "url": "https://cryptobriefing.com/bitcoin-ethereum-etf-inflows-september/",
+            "sentiment_score": 0.6294,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar bounces on job gains, then pares ahead of CPI",
+            "description": "The U.S. job market showed surprising resilience in August, adding 162,000 positions—far beyond what analysts anticipated. This result has led to heightened expectations for a Federal Reserve rate increase in September. However, the dollar softened slightly a…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:04:41Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-bounces-on-job-gains-then-pares-ahead-of-cpi/articleshow/133787070.cms",
+            "sentiment_score": 0.396,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slides after robust US payrolls boosts rate hike bets",
+            "description": "Gold prices experienced a downturn on Friday, setting the stage for a weekly loss as solid US job data raised the bar for anticipated rate hikes by the Federal Reserve. This shift has rendered the non-yielding precious metal less desirable. Alongside gold, si…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slides-after-robust-us-payrolls-boosts-rate-hike-bets/articleshow/133787001.cms",
+            "sentiment_score": 0.5843,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+            "description": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test.\nThe post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+            "source": "CryptoSlate",
+            "published_at": "2026-09-05T04:00:32Z",
+            "url": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil ends week higher on renewed US-Iran strikes, diesel hits record",
+            "description": "Oil prices have surged dramatically this week amidst escalating military tensions between the U.S. and Iran. Record-high retail diesel prices in the U.S. are fueling global inflation concerns. Supply chain disruptions in the Middle East are dealing a blow to …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:58:45Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+            "sentiment_score": -0.4403,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "European shares log weekly losses on inflation worries; Volkswagen jumps",
+            "description": "European markets wrapped up the week with a dip, influenced by ongoing Middle East tensions and persistent inflation apprehensions. A positive turn from Volkswagen shares provided some needed support after they revealed a new strategic plan. Investors are now…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:56:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-log-weekly-losses-on-inflation-worries-volkswagen-jumps/articleshow/133786812.cms",
+            "sentiment_score": -0.1776,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Yields, dollar rise, stocks ease after solid US jobs report",
+            "description": "US job growth data boosted Federal Reserve rate hike expectations. Treasury yields and the dollar strengthened after the positive jobs report. Major US stock indexes and global stocks experienced a broad selloff. Oil prices rose due to renewed attacks in the …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:53:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/yields-dollar-rise-stocks-ease-after-solid-us-jobs-report/articleshow/133786762.cms",
+            "sentiment_score": 0.5903,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead:Investors to pore over inflation data for signals on rate trajectory",
+            "description": "Investors await crucial inflation data next week which may decide the Fed's interest rate move.  The S&P 500 index is nearing its record high while facing market volatility.  Producer and Consumer Price Index reports will offer insights into August's inflatio…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:46:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory/articleshow/133786604.cms",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends lower as jobs data fuels Fed bets",
+            "description": "Stronger-than-expected US jobs figures have prompted investors to ramp up bets on interest-rate hikes, with all three major indices closing lower.",
+            "source": "PerthNow",
+            "published_at": "2026-09-05T03:44:27Z",
+            "url": "https://www.perthnow.com.au/news/business/markets/sp-500-dow-slide-as-jobs-report-fuels-rate-hike-bets-c-22827273",
+            "sentiment_score": -0.3132,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
+            "description": "Hammack's stance signals potential prolonged high interest rates, impacting economic growth and market expectations for future rate cuts.\nThe post Fed’s Hammack: Current policy not tight enough amid high inflation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T03:16:09Z",
+            "url": "https://cryptobriefing.com/feds-hammack-current-policy-not-tight-enough-amid-high-inflation/",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
+            "description": "US President Trump advocates for reduced interest rates, stating the US possesses stronger credit. He believes lower rates are essential for global financial competitiveness and fairness.  Recent jobs data showed employers added 162,000 positions in August. T…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:15:20Z",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-calls-for-lower-interest-rates-says-high-rates-put-us-at-unfair-disadvantage/articleshow/133785705.cms",
+            "sentiment_score": -0.2219,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "For Many Individual Traders, Prediction Markets Are Hot—and Crypto Is Not",
+            "description": "As bitcoin loses its cool, traders are spending more time and money betting on sports, elections and Fed rate decisions.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T02:08:43Z",
+            "url": "https://biztoc.com/x/3b1be7e367da0737",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "White House on if There Are More Anti-Inflation Policies Coming: Leave It to Fed",
+            "description": "On Friday’s broadcast of Bloomberg’s “Open Interest,” White House Council of Economic Advisers Chairman Christopher Phelan responded to a question on whether the White House has any further policies lined up to deal with inflation by pointing to Fed Chairman\n…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-05T01:47:09Z",
+            "url": "https://www.breitbart.com/clips/2026/09/04/white-house-on-if-there-are-more-anti-inflation-policies-coming-leave-it-to-fed/",
+            "sentiment_score": -0.0361,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
+            "description": "BEIJING, Sept. 4, 2026 /PRNewswire/ -- Cheche Group Inc. (NASDAQ: CCG) (\"Cheche\", \"the Company\" or \"we\"), China's leading auto insurance technology platform, today announced its unaudited financial results for the six months ended June 30, 2026.",
+            "source": "Associated Press",
+            "published_at": "2026-09-05T01:22:39Z",
+            "url": "https://apnews.com/press-release/pr-newswire/press-release-717111c580ee693d743c5db3c9ffaeca",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A dirty little secret betrays a supposedly rosy report for Trump",
+            "description": "The Labor Department reported this morning that the United States added 162,000 jobs in August. That’s more than expected, especially given how few jobs the country has added over the last few months.But I want to let you in on a little secret (which shouldn’…",
+            "source": "Raw Story",
+            "published_at": "2026-09-05T00:52:12Z",
+            "url": "https://www.rawstory.com/trump-economy-2677822791/",
+            "sentiment_score": -0.3671,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "U.S. Stocks Fall as Robust August Jobs Data Spurs Yields, Rate-Hike Bets",
@@ -722,6 +952,16 @@
           },
           {
             "currency": "USD",
+            "title": "A $500,000 CD Ladder Built at 5% Is Maturing Into 4% Rates, and This 70-Year-Old’s Income Just Dropped $5,000",
+            "description": "When the CD ladder this retiree built at peak rates started maturing, the principal came back intact and the income did not. Understanding why forces a harde...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-04T20:52:09Z",
+            "url": "https://247wallst.com/personal-finance/2026/09/04/a-500000-cd-ladder-built-at-5-is-maturing-into-4-rates-and-this-70-year-olds-income-just-dropped-5000/",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "Stocks Fall After Jobs Report Adds to Interest Rate Concerns",
             "description": "US stocks fell and Treasury yields rose Friday after the government reported that employers unexpectedly added 162,000 jobs last month, a development that could increase chances that the central bank will raise interest rates later this month. The Dow fell 27…",
             "source": "Newser",
@@ -729,6 +969,16 @@
             "url": "https://www.newser.com/story/395928/stocks-fall-after-jobs-report-adds-to-interest-rate-concerns.html",
             "sentiment_score": 0.5565,
             "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Settle Mostly Lower on Hawkish US Payroll Report",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.38% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.51%, and the Nasdaq 100...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T20:35:52Z",
+            "url": "https://www.barchart.com/story/news/4453050/stocks-settle-mostly-lower-on-hawkish-us-payroll-report",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -759,190 +1009,10 @@
             "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-financial-risks-of-the-ai-boom/",
             "sentiment_score": -0.222,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "24 hours that show how preoccupied Trump is",
-            "description": "It can be difficult to decide which Roman metaphor more aptly captures President Donald Trump’s posture these days.",
-            "source": "CNN",
-            "published_at": "2026-09-04T20:20:35Z",
-            "url": "https://www.cnn.com/2026/09/04/politics/trump-ballroom-fixation-midterms",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. employers added 162,000 jobs in August, beating expectations",
-            "description": "U.S. employers added 162,000 jobs in August, beating expectations. The news could give the Federal Reserve more leeway to raise interest rates later this month to curb stubborn inflation.",
-            "source": "NPR",
-            "published_at": "2026-09-04T20:18:02Z",
-            "url": "https://www.npr.org/2026/09/04/nx-s1-5957537/u-s-employers-added-162-000-jobs-in-august-beating-expectations",
-            "sentiment_score": -0.4417,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
-            "description": "The yen's unexpected strength highlights the risks of leveraged currency bets, potentially leading to increased market volatility and strategic reassessments.\nThe post CFTC data shows hedge funds loaded up on yen shorts before the surge appeared first on Cryp…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T20:09:33Z",
-            "url": "https://cryptobriefing.com/cftc-hedge-funds-yen-shorts-surge/",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks today: US stocks end lower as solid jobs data fuels hawkish Fed bets",
-            "description": "Wall Street closed lower on Friday as a stronger-than-expected US jobs report lifted expectations of a Federal Reserve rate hike this month. Investors now await next week's CPI and PPI data for clues on inflation and the Fed's policy path, while Lululemon and…",
-            "source": "The Times of India",
-            "published_at": "2026-09-04T20:04:15Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-lower-as-solid-jobs-data-fuels-hawkish-fed-bets/articleshow/133777456.cms",
-            "sentiment_score": -0.1679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
-            "description": "The hiring surge may prompt a rate hike, impacting borrowing costs, consumer spending, and potentially slowing economic growth.\nThe post US hiring surge strengthens case for Federal Reserve rate hike in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:55:18Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-strengthens-case-for-federal-reserve-rate-hike-in-september/",
-            "sentiment_score": 0.5254,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike",
-            "description": "A robust job market may prompt the Fed to raise rates, impacting borrowing costs, investment strategies, and economic growth dynamics.\nThe post US hiring surge strengthens case for Federal Reserve rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:54:22Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-fed-rate-hike/",
-            "sentiment_score": 0.5744,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts rates - finance.yahoo.com",
-            "description": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts ratesfinance.yahoo.com Trump tells Fed to slash rates or he'll end trade with countries with U.S. surplusesCNBC Trump says he will cease trading with top partners unl…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-04T19:52:47Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185431422",
-            "sentiment_score": -0.831,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Central banks buy 23 tonnes of gold in July, led by China",
-            "description": "Central banks' gold purchases may bolster market confidence, potentially affecting future pricing and economic strategies amid global uncertainties.\nThe post Central banks buy 23 tonnes of gold in July, led by China appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:31:29Z",
-            "url": "https://cryptobriefing.com/central-banks-buy-23-tonnes-of-gold-in-july-led-by-china/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How much interest can a $40,000 3-year CD earn at today's rates?",
-            "description": "Don't dismiss the benefits a $40,000 3-year CD can offer without first understanding the interest-earning potential.",
-            "source": "CBS News",
-            "published_at": "2026-09-04T19:24:11Z",
-            "url": "https://www.cbsnews.com/news/how-much-interest-40000-3-year-cd-earn-todays-rates/",
-            "sentiment_score": 0.2334,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase Slides as Hot Jobs Report Dents 10% Rally",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nCoinbase Global Inc. (NASDAQ:COIN) shares fell roughly 4% Friday, eroding part of Thursday's 10.1% surge after a stronger-than-expected jobs report revived be…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:21:00Z",
-            "url": "https://biztoc.com/x/87b796b67a9e6fa4",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s the beef? Rising meat prices at Walmart, Costco, Aldi, Publix, and more prompt Department of Justice probe",
-            "description": "The U.S. government is expanding its investigation into the rising price of beef to eight major grocery chains and big box retailers.\nThe current average price for ground beef was $6.88 per pound, as of July, according to the Federal Reserve Bank of St. Louis…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/e154e4d1bee7612a",
-            "sentiment_score": 0.3687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s latest threat — to stop trading with some countries unless there’s a rate cut — risks shock to U.S. economy",
-            "description": "Economists and other analysts offered criticism Friday after President Donald Trump floated the idea of stopping trade with countries that have a trade surplus with the U.S. if the Federal Reserve doesn’t lower interest rates.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/5dd6567f4bdf751e",
-            "sentiment_score": -0.7408,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-            "description": "President Donald Trump on Friday doubled down on his threat to cut off trade with countries that have surpluses with the U.S. unless the Federal Reserve cuts interest rates. “What I’m saying, very simply, is that we should be paying the lowest interest rate i…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-09-04T19:18:11Z",
-            "url": "https://freerepublic.com/focus/f-news/4394255/posts",
-            "sentiment_score": -0.5633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump: Interest rates should be at 0.5% or 1%",
-            "description": "United States President Donald Trump once again called on the Federal Reserve to cut interest rates, claiming they should be at 0.5% or 1% and reiterating his threat to cut all trade with certain coun...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:03:46Z",
-            "url": "https://biztoc.com/x/e65e0b142be39661",
-            "sentiment_score": 0.3443,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: CES/CPS Employment Surges",
-            "description": "Evidence of continued growth: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transfers in Ch.2017$ (bold light green), manufacturing and…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-04T19:01:25Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts",
-            "description": "Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept. 30.\nThe post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-04T18:50:33Z",
-            "url": "https://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
-            "sentiment_score": -0.7627,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ad Attacking N.C. Republican Senate Candidate Uses His Own (Dated) Words Against Him",
-            "description": "In his campaign's latest TV ad, Democratic Senate candidate Roy Cooper of North Carolina highlights the issue of affordability using direct quotes from his Republican opponent. They are, in fact, direct quotes from Michael Whatley -- but they are a bit dated,…",
-            "source": "FactCheck.org",
-            "published_at": "2026-09-04T18:22:29Z",
-            "url": "https://www.factcheck.org/2026/09/ad-attacking-n-c-republican-senate-candidate-uses-his-own-dated-words-against-him/",
-            "sentiment_score": -0.3212,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack: Fed policy not restrictive enough",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said on Friday that the United States' central bank's monetary policy is \"not restrictive enough\" and that it was \"time to act.\"\"Inflation is t...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T18:17:57Z",
-            "url": "https://biztoc.com/x/0419401fecd8fed3",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0254,
+      "net_score": -0.1084,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -973,7 +1043,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-06T00:47:32.348356+00:00"
+    "generated_at": "2026-09-06T05:45:01.749332+00:00"
   },
   {
     "pair": "USDJPY",
@@ -982,10 +1052,170 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0352,
+        "average_score": 0.0416,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "description": "Australian shares experienced a volatile week, with the ASX 200 index fluctuating due to Middle East tensions, rising bond yields, and expectations of a Reserve Bank interest rate hike.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-09-05T05:40:16Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-volatile-week-middle-east-tensions-rba-rate-hike-1875045",
+            "sentiment_score": -0.3291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M",
+            "description": "The inflows into Bitcoin and Ethereum ETFs highlight growing investor confidence and potential shifts in market sentiment towards cryptocurrencies.\nThe post US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T04:31:19Z",
+            "url": "https://cryptobriefing.com/bitcoin-ethereum-etf-inflows-september/",
+            "sentiment_score": 0.6294,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar bounces on job gains, then pares ahead of CPI",
+            "description": "The U.S. job market showed surprising resilience in August, adding 162,000 positions—far beyond what analysts anticipated. This result has led to heightened expectations for a Federal Reserve rate increase in September. However, the dollar softened slightly a…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:04:41Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-bounces-on-job-gains-then-pares-ahead-of-cpi/articleshow/133787070.cms",
+            "sentiment_score": 0.396,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slides after robust US payrolls boosts rate hike bets",
+            "description": "Gold prices experienced a downturn on Friday, setting the stage for a weekly loss as solid US job data raised the bar for anticipated rate hikes by the Federal Reserve. This shift has rendered the non-yielding precious metal less desirable. Alongside gold, si…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slides-after-robust-us-payrolls-boosts-rate-hike-bets/articleshow/133787001.cms",
+            "sentiment_score": 0.5843,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+            "description": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test.\nThe post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+            "source": "CryptoSlate",
+            "published_at": "2026-09-05T04:00:32Z",
+            "url": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil ends week higher on renewed US-Iran strikes, diesel hits record",
+            "description": "Oil prices have surged dramatically this week amidst escalating military tensions between the U.S. and Iran. Record-high retail diesel prices in the U.S. are fueling global inflation concerns. Supply chain disruptions in the Middle East are dealing a blow to …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:58:45Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+            "sentiment_score": -0.4403,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "European shares log weekly losses on inflation worries; Volkswagen jumps",
+            "description": "European markets wrapped up the week with a dip, influenced by ongoing Middle East tensions and persistent inflation apprehensions. A positive turn from Volkswagen shares provided some needed support after they revealed a new strategic plan. Investors are now…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:56:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-log-weekly-losses-on-inflation-worries-volkswagen-jumps/articleshow/133786812.cms",
+            "sentiment_score": -0.1776,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Yields, dollar rise, stocks ease after solid US jobs report",
+            "description": "US job growth data boosted Federal Reserve rate hike expectations. Treasury yields and the dollar strengthened after the positive jobs report. Major US stock indexes and global stocks experienced a broad selloff. Oil prices rose due to renewed attacks in the …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:53:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/yields-dollar-rise-stocks-ease-after-solid-us-jobs-report/articleshow/133786762.cms",
+            "sentiment_score": 0.5903,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead:Investors to pore over inflation data for signals on rate trajectory",
+            "description": "Investors await crucial inflation data next week which may decide the Fed's interest rate move.  The S&P 500 index is nearing its record high while facing market volatility.  Producer and Consumer Price Index reports will offer insights into August's inflatio…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:46:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory/articleshow/133786604.cms",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends lower as jobs data fuels Fed bets",
+            "description": "Stronger-than-expected US jobs figures have prompted investors to ramp up bets on interest-rate hikes, with all three major indices closing lower.",
+            "source": "PerthNow",
+            "published_at": "2026-09-05T03:44:27Z",
+            "url": "https://www.perthnow.com.au/news/business/markets/sp-500-dow-slide-as-jobs-report-fuels-rate-hike-bets-c-22827273",
+            "sentiment_score": -0.3132,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
+            "description": "Hammack's stance signals potential prolonged high interest rates, impacting economic growth and market expectations for future rate cuts.\nThe post Fed’s Hammack: Current policy not tight enough amid high inflation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T03:16:09Z",
+            "url": "https://cryptobriefing.com/feds-hammack-current-policy-not-tight-enough-amid-high-inflation/",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
+            "description": "US President Trump advocates for reduced interest rates, stating the US possesses stronger credit. He believes lower rates are essential for global financial competitiveness and fairness.  Recent jobs data showed employers added 162,000 positions in August. T…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:15:20Z",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-calls-for-lower-interest-rates-says-high-rates-put-us-at-unfair-disadvantage/articleshow/133785705.cms",
+            "sentiment_score": -0.2219,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "For Many Individual Traders, Prediction Markets Are Hot—and Crypto Is Not",
+            "description": "As bitcoin loses its cool, traders are spending more time and money betting on sports, elections and Fed rate decisions.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T02:08:43Z",
+            "url": "https://biztoc.com/x/3b1be7e367da0737",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "White House on if There Are More Anti-Inflation Policies Coming: Leave It to Fed",
+            "description": "On Friday’s broadcast of Bloomberg’s “Open Interest,” White House Council of Economic Advisers Chairman Christopher Phelan responded to a question on whether the White House has any further policies lined up to deal with inflation by pointing to Fed Chairman\n…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-05T01:47:09Z",
+            "url": "https://www.breitbart.com/clips/2026/09/04/white-house-on-if-there-are-more-anti-inflation-policies-coming-leave-it-to-fed/",
+            "sentiment_score": -0.0361,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
+            "description": "BEIJING, Sept. 4, 2026 /PRNewswire/ -- Cheche Group Inc. (NASDAQ: CCG) (\"Cheche\", \"the Company\" or \"we\"), China's leading auto insurance technology platform, today announced its unaudited financial results for the six months ended June 30, 2026.",
+            "source": "Associated Press",
+            "published_at": "2026-09-05T01:22:39Z",
+            "url": "https://apnews.com/press-release/pr-newswire/press-release-717111c580ee693d743c5db3c9ffaeca",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A dirty little secret betrays a supposedly rosy report for Trump",
+            "description": "The Labor Department reported this morning that the United States added 162,000 jobs in August. That’s more than expected, especially given how few jobs the country has added over the last few months.But I want to let you in on a little secret (which shouldn’…",
+            "source": "Raw Story",
+            "published_at": "2026-09-05T00:52:12Z",
+            "url": "https://www.rawstory.com/trump-economy-2677822791/",
+            "sentiment_score": -0.3671,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "U.S. Stocks Fall as Robust August Jobs Data Spurs Yields, Rate-Hike Bets",
@@ -1068,6 +1298,16 @@
           },
           {
             "currency": "USD",
+            "title": "A $500,000 CD Ladder Built at 5% Is Maturing Into 4% Rates, and This 70-Year-Old’s Income Just Dropped $5,000",
+            "description": "When the CD ladder this retiree built at peak rates started maturing, the principal came back intact and the income did not. Understanding why forces a harde...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-04T20:52:09Z",
+            "url": "https://247wallst.com/personal-finance/2026/09/04/a-500000-cd-ladder-built-at-5-is-maturing-into-4-rates-and-this-70-year-olds-income-just-dropped-5000/",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "Stocks Fall After Jobs Report Adds to Interest Rate Concerns",
             "description": "US stocks fell and Treasury yields rose Friday after the government reported that employers unexpectedly added 162,000 jobs last month, a development that could increase chances that the central bank will raise interest rates later this month. The Dow fell 27…",
             "source": "Newser",
@@ -1075,6 +1315,16 @@
             "url": "https://www.newser.com/story/395928/stocks-fall-after-jobs-report-adds-to-interest-rate-concerns.html",
             "sentiment_score": 0.5565,
             "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Settle Mostly Lower on Hawkish US Payroll Report",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.38% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.51%, and the Nasdaq 100...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T20:35:52Z",
+            "url": "https://www.barchart.com/story/news/4453050/stocks-settle-mostly-lower-on-hawkish-us-payroll-report",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -1105,194 +1355,34 @@
             "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-financial-risks-of-the-ai-boom/",
             "sentiment_score": -0.222,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "24 hours that show how preoccupied Trump is",
-            "description": "It can be difficult to decide which Roman metaphor more aptly captures President Donald Trump’s posture these days.",
-            "source": "CNN",
-            "published_at": "2026-09-04T20:20:35Z",
-            "url": "https://www.cnn.com/2026/09/04/politics/trump-ballroom-fixation-midterms",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. employers added 162,000 jobs in August, beating expectations",
-            "description": "U.S. employers added 162,000 jobs in August, beating expectations. The news could give the Federal Reserve more leeway to raise interest rates later this month to curb stubborn inflation.",
-            "source": "NPR",
-            "published_at": "2026-09-04T20:18:02Z",
-            "url": "https://www.npr.org/2026/09/04/nx-s1-5957537/u-s-employers-added-162-000-jobs-in-august-beating-expectations",
-            "sentiment_score": -0.4417,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
-            "description": "The yen's unexpected strength highlights the risks of leveraged currency bets, potentially leading to increased market volatility and strategic reassessments.\nThe post CFTC data shows hedge funds loaded up on yen shorts before the surge appeared first on Cryp…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T20:09:33Z",
-            "url": "https://cryptobriefing.com/cftc-hedge-funds-yen-shorts-surge/",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks today: US stocks end lower as solid jobs data fuels hawkish Fed bets",
-            "description": "Wall Street closed lower on Friday as a stronger-than-expected US jobs report lifted expectations of a Federal Reserve rate hike this month. Investors now await next week's CPI and PPI data for clues on inflation and the Fed's policy path, while Lululemon and…",
-            "source": "The Times of India",
-            "published_at": "2026-09-04T20:04:15Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-lower-as-solid-jobs-data-fuels-hawkish-fed-bets/articleshow/133777456.cms",
-            "sentiment_score": -0.1679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
-            "description": "The hiring surge may prompt a rate hike, impacting borrowing costs, consumer spending, and potentially slowing economic growth.\nThe post US hiring surge strengthens case for Federal Reserve rate hike in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:55:18Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-strengthens-case-for-federal-reserve-rate-hike-in-september/",
-            "sentiment_score": 0.5254,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike",
-            "description": "A robust job market may prompt the Fed to raise rates, impacting borrowing costs, investment strategies, and economic growth dynamics.\nThe post US hiring surge strengthens case for Federal Reserve rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:54:22Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-fed-rate-hike/",
-            "sentiment_score": 0.5744,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts rates - finance.yahoo.com",
-            "description": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts ratesfinance.yahoo.com Trump tells Fed to slash rates or he'll end trade with countries with U.S. surplusesCNBC Trump says he will cease trading with top partners unl…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-04T19:52:47Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185431422",
-            "sentiment_score": -0.831,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Central banks buy 23 tonnes of gold in July, led by China",
-            "description": "Central banks' gold purchases may bolster market confidence, potentially affecting future pricing and economic strategies amid global uncertainties.\nThe post Central banks buy 23 tonnes of gold in July, led by China appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:31:29Z",
-            "url": "https://cryptobriefing.com/central-banks-buy-23-tonnes-of-gold-in-july-led-by-china/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How much interest can a $40,000 3-year CD earn at today's rates?",
-            "description": "Don't dismiss the benefits a $40,000 3-year CD can offer without first understanding the interest-earning potential.",
-            "source": "CBS News",
-            "published_at": "2026-09-04T19:24:11Z",
-            "url": "https://www.cbsnews.com/news/how-much-interest-40000-3-year-cd-earn-todays-rates/",
-            "sentiment_score": 0.2334,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase Slides as Hot Jobs Report Dents 10% Rally",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nCoinbase Global Inc. (NASDAQ:COIN) shares fell roughly 4% Friday, eroding part of Thursday's 10.1% surge after a stronger-than-expected jobs report revived be…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:21:00Z",
-            "url": "https://biztoc.com/x/87b796b67a9e6fa4",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s the beef? Rising meat prices at Walmart, Costco, Aldi, Publix, and more prompt Department of Justice probe",
-            "description": "The U.S. government is expanding its investigation into the rising price of beef to eight major grocery chains and big box retailers.\nThe current average price for ground beef was $6.88 per pound, as of July, according to the Federal Reserve Bank of St. Louis…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/e154e4d1bee7612a",
-            "sentiment_score": 0.3687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s latest threat — to stop trading with some countries unless there’s a rate cut — risks shock to U.S. economy",
-            "description": "Economists and other analysts offered criticism Friday after President Donald Trump floated the idea of stopping trade with countries that have a trade surplus with the U.S. if the Federal Reserve doesn’t lower interest rates.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/5dd6567f4bdf751e",
-            "sentiment_score": -0.7408,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-            "description": "President Donald Trump on Friday doubled down on his threat to cut off trade with countries that have surpluses with the U.S. unless the Federal Reserve cuts interest rates. “What I’m saying, very simply, is that we should be paying the lowest interest rate i…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-09-04T19:18:11Z",
-            "url": "https://freerepublic.com/focus/f-news/4394255/posts",
-            "sentiment_score": -0.5633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump: Interest rates should be at 0.5% or 1%",
-            "description": "United States President Donald Trump once again called on the Federal Reserve to cut interest rates, claiming they should be at 0.5% or 1% and reiterating his threat to cut all trade with certain coun...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:03:46Z",
-            "url": "https://biztoc.com/x/e65e0b142be39661",
-            "sentiment_score": 0.3443,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: CES/CPS Employment Surges",
-            "description": "Evidence of continued growth: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transfers in Ch.2017$ (bold light green), manufacturing and…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-04T19:01:25Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts",
-            "description": "Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept. 30.\nThe post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-04T18:50:33Z",
-            "url": "https://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
-            "sentiment_score": -0.7627,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ad Attacking N.C. Republican Senate Candidate Uses His Own (Dated) Words Against Him",
-            "description": "In his campaign's latest TV ad, Democratic Senate candidate Roy Cooper of North Carolina highlights the issue of affordability using direct quotes from his Republican opponent. They are, in fact, direct quotes from Michael Whatley -- but they are a bit dated,…",
-            "source": "FactCheck.org",
-            "published_at": "2026-09-04T18:22:29Z",
-            "url": "https://www.factcheck.org/2026/09/ad-attacking-n-c-republican-senate-candidate-uses-his-own-dated-words-against-him/",
-            "sentiment_score": -0.3212,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack: Fed policy not restrictive enough",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said on Friday that the United States' central bank's monetary policy is \"not restrictive enough\" and that it was \"time to act.\"\"Inflation is t...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T18:17:57Z",
-            "url": "https://biztoc.com/x/0419401fecd8fed3",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1923,
+        "average_score": 0.2373,
         "label": "บวกเล็กน้อย",
-        "article_count": 24,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Dollar bounces on job gains, then pares ahead of CPI",
+            "description": "The U.S. job market showed surprising resilience in August, adding 162,000 positions—far beyond what analysts anticipated. This result has led to heightened expectations for a Federal Reserve rate increase in September. However, the dollar softened slightly a…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:04:41Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-bounces-on-job-gains-then-pares-ahead-of-cpi/articleshow/133787070.cms",
+            "sentiment_score": 0.396,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Yields, dollar rise, stocks ease after solid US jobs report",
+            "description": "US job growth data boosted Federal Reserve rate hike expectations. Treasury yields and the dollar strengthened after the positive jobs report. Major US stock indexes and global stocks experienced a broad selloff. Oil prices rose due to renewed attacks in the …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:53:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/yields-dollar-rise-stocks-ease-after-solid-us-jobs-report/articleshow/133786762.cms",
+            "sentiment_score": 0.5903,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "JPY",
             "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
@@ -1302,6 +1392,26 @@
             "url": "https://cryptobriefing.com/cftc-hedge-funds-yen-shorts-surge/",
             "sentiment_score": 0.1482,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Dollar Rises on US Labor Market Strength",
+            "description": "The dollar index (DXY00 ) rose by +0.20% on Friday. The dollar finished higher on Friday after a stronger-than-expected US Aug payroll report, which boosted...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T19:32:59Z",
+            "url": "https://www.barchart.com/story/news/4452158/dollar-rises-on-us-labor-market-strength",
+            "sentiment_score": 0.4541,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan Has Not Done This Since 1990. If It Happens, the Cheap Money Propping Up US Stocks Gets Expensive",
+            "description": "A single public comment from a Bank of Japan official sent the yen surging and rattled a cornerstone assumption holding up American equities, and the policy...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-04T19:18:51Z",
+            "url": "https://247wallst.com/investing/2026/09/04/japan-has-not-done-this-since-1990-if-it-happens-the-cheap-money-propping-up-us-stocks-gets-expensive/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
           },
           {
             "currency": "JPY",
@@ -1535,7 +1645,7 @@
           }
         ]
       },
-      "net_score": -0.2275,
+      "net_score": -0.1957,
       "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1566,7 +1676,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-06T00:47:32.348356+00:00"
+    "generated_at": "2026-09-06T05:45:01.749332+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1575,10 +1685,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.2912,
+        "average_score": -0.3165,
         "label": "ลบชัดเจน (Bearish)",
-        "article_count": 1,
+        "article_count": 2,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "description": "Australian shares experienced a volatile week, with the ASX 200 index fluctuating due to Middle East tensions, rising bond yields, and expectations of a Reserve Bank interest rate hike.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-09-05T05:40:16Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-volatile-week-middle-east-tensions-rba-rate-hike-1875045",
+            "sentiment_score": -0.3291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "AUD",
             "title": "Australian Shares Slip As ASX 200 Snaps Two-Day Rally Amid RBA Rate Fears And Ex-Dividend Drag Today",
@@ -1592,10 +1712,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0352,
+        "average_score": 0.0416,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "description": "Australian shares experienced a volatile week, with the ASX 200 index fluctuating due to Middle East tensions, rising bond yields, and expectations of a Reserve Bank interest rate hike.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-09-05T05:40:16Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-volatile-week-middle-east-tensions-rba-rate-hike-1875045",
+            "sentiment_score": -0.3291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M",
+            "description": "The inflows into Bitcoin and Ethereum ETFs highlight growing investor confidence and potential shifts in market sentiment towards cryptocurrencies.\nThe post US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T04:31:19Z",
+            "url": "https://cryptobriefing.com/bitcoin-ethereum-etf-inflows-september/",
+            "sentiment_score": 0.6294,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar bounces on job gains, then pares ahead of CPI",
+            "description": "The U.S. job market showed surprising resilience in August, adding 162,000 positions—far beyond what analysts anticipated. This result has led to heightened expectations for a Federal Reserve rate increase in September. However, the dollar softened slightly a…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:04:41Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-bounces-on-job-gains-then-pares-ahead-of-cpi/articleshow/133787070.cms",
+            "sentiment_score": 0.396,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slides after robust US payrolls boosts rate hike bets",
+            "description": "Gold prices experienced a downturn on Friday, setting the stage for a weekly loss as solid US job data raised the bar for anticipated rate hikes by the Federal Reserve. This shift has rendered the non-yielding precious metal less desirable. Alongside gold, si…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slides-after-robust-us-payrolls-boosts-rate-hike-bets/articleshow/133787001.cms",
+            "sentiment_score": 0.5843,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+            "description": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test.\nThe post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+            "source": "CryptoSlate",
+            "published_at": "2026-09-05T04:00:32Z",
+            "url": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil ends week higher on renewed US-Iran strikes, diesel hits record",
+            "description": "Oil prices have surged dramatically this week amidst escalating military tensions between the U.S. and Iran. Record-high retail diesel prices in the U.S. are fueling global inflation concerns. Supply chain disruptions in the Middle East are dealing a blow to …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:58:45Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+            "sentiment_score": -0.4403,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "European shares log weekly losses on inflation worries; Volkswagen jumps",
+            "description": "European markets wrapped up the week with a dip, influenced by ongoing Middle East tensions and persistent inflation apprehensions. A positive turn from Volkswagen shares provided some needed support after they revealed a new strategic plan. Investors are now…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:56:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-log-weekly-losses-on-inflation-worries-volkswagen-jumps/articleshow/133786812.cms",
+            "sentiment_score": -0.1776,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Yields, dollar rise, stocks ease after solid US jobs report",
+            "description": "US job growth data boosted Federal Reserve rate hike expectations. Treasury yields and the dollar strengthened after the positive jobs report. Major US stock indexes and global stocks experienced a broad selloff. Oil prices rose due to renewed attacks in the …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:53:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/yields-dollar-rise-stocks-ease-after-solid-us-jobs-report/articleshow/133786762.cms",
+            "sentiment_score": 0.5903,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead:Investors to pore over inflation data for signals on rate trajectory",
+            "description": "Investors await crucial inflation data next week which may decide the Fed's interest rate move.  The S&P 500 index is nearing its record high while facing market volatility.  Producer and Consumer Price Index reports will offer insights into August's inflatio…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:46:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory/articleshow/133786604.cms",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends lower as jobs data fuels Fed bets",
+            "description": "Stronger-than-expected US jobs figures have prompted investors to ramp up bets on interest-rate hikes, with all three major indices closing lower.",
+            "source": "PerthNow",
+            "published_at": "2026-09-05T03:44:27Z",
+            "url": "https://www.perthnow.com.au/news/business/markets/sp-500-dow-slide-as-jobs-report-fuels-rate-hike-bets-c-22827273",
+            "sentiment_score": -0.3132,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
+            "description": "Hammack's stance signals potential prolonged high interest rates, impacting economic growth and market expectations for future rate cuts.\nThe post Fed’s Hammack: Current policy not tight enough amid high inflation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T03:16:09Z",
+            "url": "https://cryptobriefing.com/feds-hammack-current-policy-not-tight-enough-amid-high-inflation/",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
+            "description": "US President Trump advocates for reduced interest rates, stating the US possesses stronger credit. He believes lower rates are essential for global financial competitiveness and fairness.  Recent jobs data showed employers added 162,000 positions in August. T…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:15:20Z",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-calls-for-lower-interest-rates-says-high-rates-put-us-at-unfair-disadvantage/articleshow/133785705.cms",
+            "sentiment_score": -0.2219,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "For Many Individual Traders, Prediction Markets Are Hot—and Crypto Is Not",
+            "description": "As bitcoin loses its cool, traders are spending more time and money betting on sports, elections and Fed rate decisions.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T02:08:43Z",
+            "url": "https://biztoc.com/x/3b1be7e367da0737",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "White House on if There Are More Anti-Inflation Policies Coming: Leave It to Fed",
+            "description": "On Friday’s broadcast of Bloomberg’s “Open Interest,” White House Council of Economic Advisers Chairman Christopher Phelan responded to a question on whether the White House has any further policies lined up to deal with inflation by pointing to Fed Chairman\n…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-05T01:47:09Z",
+            "url": "https://www.breitbart.com/clips/2026/09/04/white-house-on-if-there-are-more-anti-inflation-policies-coming-leave-it-to-fed/",
+            "sentiment_score": -0.0361,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
+            "description": "BEIJING, Sept. 4, 2026 /PRNewswire/ -- Cheche Group Inc. (NASDAQ: CCG) (\"Cheche\", \"the Company\" or \"we\"), China's leading auto insurance technology platform, today announced its unaudited financial results for the six months ended June 30, 2026.",
+            "source": "Associated Press",
+            "published_at": "2026-09-05T01:22:39Z",
+            "url": "https://apnews.com/press-release/pr-newswire/press-release-717111c580ee693d743c5db3c9ffaeca",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A dirty little secret betrays a supposedly rosy report for Trump",
+            "description": "The Labor Department reported this morning that the United States added 162,000 jobs in August. That’s more than expected, especially given how few jobs the country has added over the last few months.But I want to let you in on a little secret (which shouldn’…",
+            "source": "Raw Story",
+            "published_at": "2026-09-05T00:52:12Z",
+            "url": "https://www.rawstory.com/trump-economy-2677822791/",
+            "sentiment_score": -0.3671,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "U.S. Stocks Fall as Robust August Jobs Data Spurs Yields, Rate-Hike Bets",
@@ -1678,6 +1958,16 @@
           },
           {
             "currency": "USD",
+            "title": "A $500,000 CD Ladder Built at 5% Is Maturing Into 4% Rates, and This 70-Year-Old’s Income Just Dropped $5,000",
+            "description": "When the CD ladder this retiree built at peak rates started maturing, the principal came back intact and the income did not. Understanding why forces a harde...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-04T20:52:09Z",
+            "url": "https://247wallst.com/personal-finance/2026/09/04/a-500000-cd-ladder-built-at-5-is-maturing-into-4-rates-and-this-70-year-olds-income-just-dropped-5000/",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "Stocks Fall After Jobs Report Adds to Interest Rate Concerns",
             "description": "US stocks fell and Treasury yields rose Friday after the government reported that employers unexpectedly added 162,000 jobs last month, a development that could increase chances that the central bank will raise interest rates later this month. The Dow fell 27…",
             "source": "Newser",
@@ -1685,6 +1975,16 @@
             "url": "https://www.newser.com/story/395928/stocks-fall-after-jobs-report-adds-to-interest-rate-concerns.html",
             "sentiment_score": 0.5565,
             "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Settle Mostly Lower on Hawkish US Payroll Report",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.38% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.51%, and the Nasdaq 100...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T20:35:52Z",
+            "url": "https://www.barchart.com/story/news/4453050/stocks-settle-mostly-lower-on-hawkish-us-payroll-report",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -1715,194 +2015,14 @@
             "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-financial-risks-of-the-ai-boom/",
             "sentiment_score": -0.222,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "24 hours that show how preoccupied Trump is",
-            "description": "It can be difficult to decide which Roman metaphor more aptly captures President Donald Trump’s posture these days.",
-            "source": "CNN",
-            "published_at": "2026-09-04T20:20:35Z",
-            "url": "https://www.cnn.com/2026/09/04/politics/trump-ballroom-fixation-midterms",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. employers added 162,000 jobs in August, beating expectations",
-            "description": "U.S. employers added 162,000 jobs in August, beating expectations. The news could give the Federal Reserve more leeway to raise interest rates later this month to curb stubborn inflation.",
-            "source": "NPR",
-            "published_at": "2026-09-04T20:18:02Z",
-            "url": "https://www.npr.org/2026/09/04/nx-s1-5957537/u-s-employers-added-162-000-jobs-in-august-beating-expectations",
-            "sentiment_score": -0.4417,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
-            "description": "The yen's unexpected strength highlights the risks of leveraged currency bets, potentially leading to increased market volatility and strategic reassessments.\nThe post CFTC data shows hedge funds loaded up on yen shorts before the surge appeared first on Cryp…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T20:09:33Z",
-            "url": "https://cryptobriefing.com/cftc-hedge-funds-yen-shorts-surge/",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks today: US stocks end lower as solid jobs data fuels hawkish Fed bets",
-            "description": "Wall Street closed lower on Friday as a stronger-than-expected US jobs report lifted expectations of a Federal Reserve rate hike this month. Investors now await next week's CPI and PPI data for clues on inflation and the Fed's policy path, while Lululemon and…",
-            "source": "The Times of India",
-            "published_at": "2026-09-04T20:04:15Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-lower-as-solid-jobs-data-fuels-hawkish-fed-bets/articleshow/133777456.cms",
-            "sentiment_score": -0.1679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
-            "description": "The hiring surge may prompt a rate hike, impacting borrowing costs, consumer spending, and potentially slowing economic growth.\nThe post US hiring surge strengthens case for Federal Reserve rate hike in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:55:18Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-strengthens-case-for-federal-reserve-rate-hike-in-september/",
-            "sentiment_score": 0.5254,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike",
-            "description": "A robust job market may prompt the Fed to raise rates, impacting borrowing costs, investment strategies, and economic growth dynamics.\nThe post US hiring surge strengthens case for Federal Reserve rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:54:22Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-fed-rate-hike/",
-            "sentiment_score": 0.5744,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts rates - finance.yahoo.com",
-            "description": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts ratesfinance.yahoo.com Trump tells Fed to slash rates or he'll end trade with countries with U.S. surplusesCNBC Trump says he will cease trading with top partners unl…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-04T19:52:47Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185431422",
-            "sentiment_score": -0.831,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Central banks buy 23 tonnes of gold in July, led by China",
-            "description": "Central banks' gold purchases may bolster market confidence, potentially affecting future pricing and economic strategies amid global uncertainties.\nThe post Central banks buy 23 tonnes of gold in July, led by China appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:31:29Z",
-            "url": "https://cryptobriefing.com/central-banks-buy-23-tonnes-of-gold-in-july-led-by-china/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How much interest can a $40,000 3-year CD earn at today's rates?",
-            "description": "Don't dismiss the benefits a $40,000 3-year CD can offer without first understanding the interest-earning potential.",
-            "source": "CBS News",
-            "published_at": "2026-09-04T19:24:11Z",
-            "url": "https://www.cbsnews.com/news/how-much-interest-40000-3-year-cd-earn-todays-rates/",
-            "sentiment_score": 0.2334,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase Slides as Hot Jobs Report Dents 10% Rally",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nCoinbase Global Inc. (NASDAQ:COIN) shares fell roughly 4% Friday, eroding part of Thursday's 10.1% surge after a stronger-than-expected jobs report revived be…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:21:00Z",
-            "url": "https://biztoc.com/x/87b796b67a9e6fa4",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s the beef? Rising meat prices at Walmart, Costco, Aldi, Publix, and more prompt Department of Justice probe",
-            "description": "The U.S. government is expanding its investigation into the rising price of beef to eight major grocery chains and big box retailers.\nThe current average price for ground beef was $6.88 per pound, as of July, according to the Federal Reserve Bank of St. Louis…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/e154e4d1bee7612a",
-            "sentiment_score": 0.3687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s latest threat — to stop trading with some countries unless there’s a rate cut — risks shock to U.S. economy",
-            "description": "Economists and other analysts offered criticism Friday after President Donald Trump floated the idea of stopping trade with countries that have a trade surplus with the U.S. if the Federal Reserve doesn’t lower interest rates.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/5dd6567f4bdf751e",
-            "sentiment_score": -0.7408,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-            "description": "President Donald Trump on Friday doubled down on his threat to cut off trade with countries that have surpluses with the U.S. unless the Federal Reserve cuts interest rates. “What I’m saying, very simply, is that we should be paying the lowest interest rate i…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-09-04T19:18:11Z",
-            "url": "https://freerepublic.com/focus/f-news/4394255/posts",
-            "sentiment_score": -0.5633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump: Interest rates should be at 0.5% or 1%",
-            "description": "United States President Donald Trump once again called on the Federal Reserve to cut interest rates, claiming they should be at 0.5% or 1% and reiterating his threat to cut all trade with certain coun...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:03:46Z",
-            "url": "https://biztoc.com/x/e65e0b142be39661",
-            "sentiment_score": 0.3443,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: CES/CPS Employment Surges",
-            "description": "Evidence of continued growth: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transfers in Ch.2017$ (bold light green), manufacturing and…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-04T19:01:25Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts",
-            "description": "Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept. 30.\nThe post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-04T18:50:33Z",
-            "url": "https://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
-            "sentiment_score": -0.7627,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ad Attacking N.C. Republican Senate Candidate Uses His Own (Dated) Words Against Him",
-            "description": "In his campaign's latest TV ad, Democratic Senate candidate Roy Cooper of North Carolina highlights the issue of affordability using direct quotes from his Republican opponent. They are, in fact, direct quotes from Michael Whatley -- but they are a bit dated,…",
-            "source": "FactCheck.org",
-            "published_at": "2026-09-04T18:22:29Z",
-            "url": "https://www.factcheck.org/2026/09/ad-attacking-n-c-republican-senate-candidate-uses-his-own-dated-words-against-him/",
-            "sentiment_score": -0.3212,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack: Fed policy not restrictive enough",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said on Friday that the United States' central bank's monetary policy is \"not restrictive enough\" and that it was \"time to act.\"\"Inflation is t...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T18:17:57Z",
-            "url": "https://biztoc.com/x/0419401fecd8fed3",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.256,
+      "net_score": -0.3581,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1929,7 +2049,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-06T00:47:32.348356+00:00"
+    "generated_at": "2026-09-06T05:45:01.749332+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1938,10 +2058,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0449,
+        "average_score": -0.0018,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 14,
+        "article_count": 15,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "description": "Australian shares experienced a volatile week, with the ASX 200 index fluctuating due to Middle East tensions, rising bond yields, and expectations of a Reserve Bank interest rate hike.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-09-05T05:40:16Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-volatile-week-middle-east-tensions-rba-rate-hike-1875045",
+            "sentiment_score": -0.3291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "XAU",
             "title": "JPMorgan’s Own Strategist Says the Fed Has Quietly Surrendered on 2% Inflation",
@@ -2085,10 +2215,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0352,
+        "average_score": 0.0416,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Sheds Nearly 1% For The Week As Rate Hike Fears, Iran Conflict Rattle Markets Amid Volatile Trading",
+            "description": "Australian shares experienced a volatile week, with the ASX 200 index fluctuating due to Middle East tensions, rising bond yields, and expectations of a Reserve Bank interest rate hike.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-09-05T05:40:16Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-volatile-week-middle-east-tensions-rba-rate-hike-1875045",
+            "sentiment_score": -0.3291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M",
+            "description": "The inflows into Bitcoin and Ethereum ETFs highlight growing investor confidence and potential shifts in market sentiment towards cryptocurrencies.\nThe post US spot Bitcoin ETFs see $175M inflows, Ethereum ETFs gain $27M appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T04:31:19Z",
+            "url": "https://cryptobriefing.com/bitcoin-ethereum-etf-inflows-september/",
+            "sentiment_score": 0.6294,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar bounces on job gains, then pares ahead of CPI",
+            "description": "The U.S. job market showed surprising resilience in August, adding 162,000 positions—far beyond what analysts anticipated. This result has led to heightened expectations for a Federal Reserve rate increase in September. However, the dollar softened slightly a…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:04:41Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-bounces-on-job-gains-then-pares-ahead-of-cpi/articleshow/133787070.cms",
+            "sentiment_score": 0.396,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold slides after robust US payrolls boosts rate hike bets",
+            "description": "Gold prices experienced a downturn on Friday, setting the stage for a weekly loss as solid US job data raised the bar for anticipated rate hikes by the Federal Reserve. This shift has rendered the non-yielding precious metal less desirable. Alongside gold, si…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T04:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slides-after-robust-us-payrolls-boosts-rate-hike-bets/articleshow/133787001.cms",
+            "sentiment_score": 0.5843,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations",
+            "description": "August payrolls weakened the case for patience, leaving Sept. 11 CPI as Bitcoin’s next decisive volatility test.\nThe post Bitcoin dips below $80,000 as a hot August jobs report shifts Fed policy expectations appeared first on CryptoSlate.",
+            "source": "CryptoSlate",
+            "published_at": "2026-09-05T04:00:32Z",
+            "url": "https://cryptoslate.com/bitcoins-80000-rally-just-lost-the-feds-labor-market-escape-hatch/",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil ends week higher on renewed US-Iran strikes, diesel hits record",
+            "description": "Oil prices have surged dramatically this week amidst escalating military tensions between the U.S. and Iran. Record-high retail diesel prices in the U.S. are fueling global inflation concerns. Supply chain disruptions in the Middle East are dealing a blow to …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:58:45Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/oil-ends-week-higher-on-renewed-us-iran-strikes-diesel-hits-record/articleshow/133786882.cms",
+            "sentiment_score": -0.4403,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "European shares log weekly losses on inflation worries; Volkswagen jumps",
+            "description": "European markets wrapped up the week with a dip, influenced by ongoing Middle East tensions and persistent inflation apprehensions. A positive turn from Volkswagen shares provided some needed support after they revealed a new strategic plan. Investors are now…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:56:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/european-shares-log-weekly-losses-on-inflation-worries-volkswagen-jumps/articleshow/133786812.cms",
+            "sentiment_score": -0.1776,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Yields, dollar rise, stocks ease after solid US jobs report",
+            "description": "US job growth data boosted Federal Reserve rate hike expectations. Treasury yields and the dollar strengthened after the positive jobs report. Major US stock indexes and global stocks experienced a broad selloff. Oil prices rose due to renewed attacks in the …",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:53:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/yields-dollar-rise-stocks-ease-after-solid-us-jobs-report/articleshow/133786762.cms",
+            "sentiment_score": 0.5903,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead:Investors to pore over inflation data for signals on rate trajectory",
+            "description": "Investors await crucial inflation data next week which may decide the Fed's interest rate move.  The S&P 500 index is nearing its record high while facing market volatility.  Producer and Consumer Price Index reports will offer insights into August's inflatio…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:46:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-to-pore-over-inflation-data-for-signals-on-rate-trajectory/articleshow/133786604.cms",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends lower as jobs data fuels Fed bets",
+            "description": "Stronger-than-expected US jobs figures have prompted investors to ramp up bets on interest-rate hikes, with all three major indices closing lower.",
+            "source": "PerthNow",
+            "published_at": "2026-09-05T03:44:27Z",
+            "url": "https://www.perthnow.com.au/news/business/markets/sp-500-dow-slide-as-jobs-report-fuels-rate-hike-bets-c-22827273",
+            "sentiment_score": -0.3132,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Hammack: Current policy not tight enough amid high inflation",
+            "description": "Hammack's stance signals potential prolonged high interest rates, impacting economic growth and market expectations for future rate cuts.\nThe post Fed’s Hammack: Current policy not tight enough amid high inflation appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-05T03:16:09Z",
+            "url": "https://cryptobriefing.com/feds-hammack-current-policy-not-tight-enough-amid-high-inflation/",
+            "sentiment_score": 0.158,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump calls for lower interest rates, says high rates put US at 'unfair disadvantage'",
+            "description": "US President Trump advocates for reduced interest rates, stating the US possesses stronger credit. He believes lower rates are essential for global financial competitiveness and fairness.  Recent jobs data showed employers added 162,000 positions in August. T…",
+            "source": "The Times of India",
+            "published_at": "2026-09-05T03:15:20Z",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-calls-for-lower-interest-rates-says-high-rates-put-us-at-unfair-disadvantage/articleshow/133785705.cms",
+            "sentiment_score": -0.2219,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "For Many Individual Traders, Prediction Markets Are Hot—and Crypto Is Not",
+            "description": "As bitcoin loses its cool, traders are spending more time and money betting on sports, elections and Fed rate decisions.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T02:08:43Z",
+            "url": "https://biztoc.com/x/3b1be7e367da0737",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "White House on if There Are More Anti-Inflation Policies Coming: Leave It to Fed",
+            "description": "On Friday’s broadcast of Bloomberg’s “Open Interest,” White House Council of Economic Advisers Chairman Christopher Phelan responded to a question on whether the White House has any further policies lined up to deal with inflation by pointing to Fed Chairman\n…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-05T01:47:09Z",
+            "url": "https://www.breitbart.com/clips/2026/09/04/white-house-on-if-there-are-more-anti-inflation-policies-coming-leave-it-to-fed/",
+            "sentiment_score": -0.0361,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cheche Group Reports First Half 2026 Unaudited Financial Results",
+            "description": "BEIJING, Sept. 4, 2026 /PRNewswire/ -- Cheche Group Inc. (NASDAQ: CCG) (\"Cheche\", \"the Company\" or \"we\"), China's leading auto insurance technology platform, today announced its unaudited financial results for the six months ended June 30, 2026.",
+            "source": "Associated Press",
+            "published_at": "2026-09-05T01:22:39Z",
+            "url": "https://apnews.com/press-release/pr-newswire/press-release-717111c580ee693d743c5db3c9ffaeca",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A dirty little secret betrays a supposedly rosy report for Trump",
+            "description": "The Labor Department reported this morning that the United States added 162,000 jobs in August. That’s more than expected, especially given how few jobs the country has added over the last few months.But I want to let you in on a little secret (which shouldn’…",
+            "source": "Raw Story",
+            "published_at": "2026-09-05T00:52:12Z",
+            "url": "https://www.rawstory.com/trump-economy-2677822791/",
+            "sentiment_score": -0.3671,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "U.S. Stocks Fall as Robust August Jobs Data Spurs Yields, Rate-Hike Bets",
@@ -2171,6 +2461,16 @@
           },
           {
             "currency": "USD",
+            "title": "A $500,000 CD Ladder Built at 5% Is Maturing Into 4% Rates, and This 70-Year-Old’s Income Just Dropped $5,000",
+            "description": "When the CD ladder this retiree built at peak rates started maturing, the principal came back intact and the income did not. Understanding why forces a harde...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-04T20:52:09Z",
+            "url": "https://247wallst.com/personal-finance/2026/09/04/a-500000-cd-ladder-built-at-5-is-maturing-into-4-rates-and-this-70-year-olds-income-just-dropped-5000/",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "Stocks Fall After Jobs Report Adds to Interest Rate Concerns",
             "description": "US stocks fell and Treasury yields rose Friday after the government reported that employers unexpectedly added 162,000 jobs last month, a development that could increase chances that the central bank will raise interest rates later this month. The Dow fell 27…",
             "source": "Newser",
@@ -2178,6 +2478,16 @@
             "url": "https://www.newser.com/story/395928/stocks-fall-after-jobs-report-adds-to-interest-rate-concerns.html",
             "sentiment_score": 0.5565,
             "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Settle Mostly Lower on Hawkish US Payroll Report",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed down by -0.38% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.51%, and the Nasdaq 100...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-04T20:35:52Z",
+            "url": "https://www.barchart.com/story/news/4453050/stocks-settle-mostly-lower-on-hawkish-us-payroll-report",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "USD",
@@ -2208,190 +2518,10 @@
             "url": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-financial-risks-of-the-ai-boom/",
             "sentiment_score": -0.222,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "24 hours that show how preoccupied Trump is",
-            "description": "It can be difficult to decide which Roman metaphor more aptly captures President Donald Trump’s posture these days.",
-            "source": "CNN",
-            "published_at": "2026-09-04T20:20:35Z",
-            "url": "https://www.cnn.com/2026/09/04/politics/trump-ballroom-fixation-midterms",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. employers added 162,000 jobs in August, beating expectations",
-            "description": "U.S. employers added 162,000 jobs in August, beating expectations. The news could give the Federal Reserve more leeway to raise interest rates later this month to curb stubborn inflation.",
-            "source": "NPR",
-            "published_at": "2026-09-04T20:18:02Z",
-            "url": "https://www.npr.org/2026/09/04/nx-s1-5957537/u-s-employers-added-162-000-jobs-in-august-beating-expectations",
-            "sentiment_score": -0.4417,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFTC data shows hedge funds loaded up on yen shorts before the surge",
-            "description": "The yen's unexpected strength highlights the risks of leveraged currency bets, potentially leading to increased market volatility and strategic reassessments.\nThe post CFTC data shows hedge funds loaded up on yen shorts before the surge appeared first on Cryp…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T20:09:33Z",
-            "url": "https://cryptobriefing.com/cftc-hedge-funds-yen-shorts-surge/",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US stocks today: US stocks end lower as solid jobs data fuels hawkish Fed bets",
-            "description": "Wall Street closed lower on Friday as a stronger-than-expected US jobs report lifted expectations of a Federal Reserve rate hike this month. Investors now await next week's CPI and PPI data for clues on inflation and the Fed's policy path, while Lululemon and…",
-            "source": "The Times of India",
-            "published_at": "2026-09-04T20:04:15Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-today-us-stocks-end-lower-as-solid-jobs-data-fuels-hawkish-fed-bets/articleshow/133777456.cms",
-            "sentiment_score": -0.1679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike in September",
-            "description": "The hiring surge may prompt a rate hike, impacting borrowing costs, consumer spending, and potentially slowing economic growth.\nThe post US hiring surge strengthens case for Federal Reserve rate hike in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:55:18Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-strengthens-case-for-federal-reserve-rate-hike-in-september/",
-            "sentiment_score": 0.5254,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US hiring surge strengthens case for Federal Reserve rate hike",
-            "description": "A robust job market may prompt the Fed to raise rates, impacting borrowing costs, investment strategies, and economic growth dynamics.\nThe post US hiring surge strengthens case for Federal Reserve rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:54:22Z",
-            "url": "https://cryptobriefing.com/us-hiring-surge-fed-rate-hike/",
-            "sentiment_score": 0.5744,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts rates - finance.yahoo.com",
-            "description": "Trump threatens to stop trading with countries that have a trade deficit unless the Fed cuts ratesfinance.yahoo.com Trump tells Fed to slash rates or he'll end trade with countries with U.S. surplusesCNBC Trump says he will cease trading with top partners unl…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-04T19:52:47Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185431422",
-            "sentiment_score": -0.831,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Central banks buy 23 tonnes of gold in July, led by China",
-            "description": "Central banks' gold purchases may bolster market confidence, potentially affecting future pricing and economic strategies amid global uncertainties.\nThe post Central banks buy 23 tonnes of gold in July, led by China appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-04T19:31:29Z",
-            "url": "https://cryptobriefing.com/central-banks-buy-23-tonnes-of-gold-in-july-led-by-china/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How much interest can a $40,000 3-year CD earn at today's rates?",
-            "description": "Don't dismiss the benefits a $40,000 3-year CD can offer without first understanding the interest-earning potential.",
-            "source": "CBS News",
-            "published_at": "2026-09-04T19:24:11Z",
-            "url": "https://www.cbsnews.com/news/how-much-interest-40000-3-year-cd-earn-todays-rates/",
-            "sentiment_score": 0.2334,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase Slides as Hot Jobs Report Dents 10% Rally",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nCoinbase Global Inc. (NASDAQ:COIN) shares fell roughly 4% Friday, eroding part of Thursday's 10.1% surge after a stronger-than-expected jobs report revived be…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:21:00Z",
-            "url": "https://biztoc.com/x/87b796b67a9e6fa4",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s the beef? Rising meat prices at Walmart, Costco, Aldi, Publix, and more prompt Department of Justice probe",
-            "description": "The U.S. government is expanding its investigation into the rising price of beef to eight major grocery chains and big box retailers.\nThe current average price for ground beef was $6.88 per pound, as of July, according to the Federal Reserve Bank of St. Louis…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/e154e4d1bee7612a",
-            "sentiment_score": 0.3687,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s latest threat — to stop trading with some countries unless there’s a rate cut — risks shock to U.S. economy",
-            "description": "Economists and other analysts offered criticism Friday after President Donald Trump floated the idea of stopping trade with countries that have a trade surplus with the U.S. if the Federal Reserve doesn’t lower interest rates.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:18:34Z",
-            "url": "https://biztoc.com/x/5dd6567f4bdf751e",
-            "sentiment_score": -0.7408,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump doubles down on threat to halt trade with top partners unless Fed cuts rates",
-            "description": "President Donald Trump on Friday doubled down on his threat to cut off trade with countries that have surpluses with the U.S. unless the Federal Reserve cuts interest rates. “What I’m saying, very simply, is that we should be paying the lowest interest rate i…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-09-04T19:18:11Z",
-            "url": "https://freerepublic.com/focus/f-news/4394255/posts",
-            "sentiment_score": -0.5633,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump: Interest rates should be at 0.5% or 1%",
-            "description": "United States President Donald Trump once again called on the Federal Reserve to cut interest rates, claiming they should be at 0.5% or 1% and reiterating his threat to cut all trade with certain coun...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T19:03:46Z",
-            "url": "https://biztoc.com/x/e65e0b142be39661",
-            "sentiment_score": 0.3443,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: CES/CPS Employment Surges",
-            "description": "Evidence of continued growth: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transfers in Ch.2017$ (bold light green), manufacturing and…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-04T19:01:25Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-ces-cps-employment-surges",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts",
-            "description": "Policymakers will have CPI but not official August PCE when they decide, leaving a second market test on Sept. 30.\nThe post Bitcoin faces a two-week Fed trap as inflation rewrite threatens to upend rate cuts appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-04T18:50:33Z",
-            "url": "https://cryptoslate.com/bitcoin-faces-a-two-week-fed-trap-as-inflation-rewrite-threatens-to-upend-rate-cuts/",
-            "sentiment_score": -0.7627,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ad Attacking N.C. Republican Senate Candidate Uses His Own (Dated) Words Against Him",
-            "description": "In his campaign's latest TV ad, Democratic Senate candidate Roy Cooper of North Carolina highlights the issue of affordability using direct quotes from his Republican opponent. They are, in fact, direct quotes from Michael Whatley -- but they are a bit dated,…",
-            "source": "FactCheck.org",
-            "published_at": "2026-09-04T18:22:29Z",
-            "url": "https://www.factcheck.org/2026/09/ad-attacking-n-c-republican-senate-candidate-uses-his-own-dated-words-against-him/",
-            "sentiment_score": -0.3212,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hammack: Fed policy not restrictive enough",
-            "description": "Federal Reserve Bank of Cleveland President Beth Hammack said on Friday that the United States' central bank's monetary policy is \"not restrictive enough\" and that it was \"time to act.\"\"Inflation is t...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-04T18:17:57Z",
-            "url": "https://biztoc.com/x/0419401fecd8fed3",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0801,
+      "net_score": -0.0434,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2422,6 +2552,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-06T00:47:32.348356+00:00"
+    "generated_at": "2026-09-06T05:45:01.749332+00:00"
   }
 ]
