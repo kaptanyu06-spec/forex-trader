@@ -1,15 +1,45 @@
 {
-  "fetched_at": "2026-09-06T19:00:26.818751+00:00",
+  "fetched_at": "2026-09-06T23:43:39.086827+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1001,
+        "average_score": -0.1873,
         "label": "ลบเล็กน้อย",
-        "article_count": 15,
+        "article_count": 18,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "America has a whopping debt. But Europe has the whopping debt problem",
+            "description": "The French-size problem at the heart of the EU.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-09-05T20:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/09/05/america-has-a-whopping-debt-but-europe-has-the-whopping-debt-problem-a4935904",
+            "sentiment_score": -0.4657,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Iceland Was Right to Say No",
+            "description": "Becoming an EU member would have been a bad idea twenty or thirty years ago, but it would be an even worse one now that the bloc’s oligarchic machinery has mutated into a full-blown war machine\n*\nI’ve written for …\nThe post Iceland Was Right to Say No appeare…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-09-05T19:48:07Z",
+            "url": "https://www.globalresearch.ca/iceland-right-say-no/5939196",
+            "sentiment_score": -0.4888,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "‘Chuck it in the fire.’ A leading candidate in France’s presidential race has a simple solution to its massive national debt: just cancel it",
+            "description": "“Why did we make a single currency and an ECB together? We can do it and I bet we’d find allies in Europe.”",
+            "source": "Fortune",
+            "published_at": "2026-09-05T19:07:16Z",
+            "url": "https://fortune.com/2026/09/05/france-national-debt-cancelation-presidential-candidate-jean-luc-melenchon-central-bank-french-german-bond-yields/",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Venezuela’s Debt: Who Owes What to Whom Under US Neocolonial Tutelage?",
@@ -163,10 +193,20 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0278,
+        "average_score": -0.0204,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+            "description": "Ten days ahead of a meeting in which the Federal Reserve will likely consider raising interest rates, the Trump administration looks to be in a full-court press to halt the hike in its tracks.\nIn the past week, the president, vice president, Treasury secretar…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T20:23:53Z",
+            "url": "https://biztoc.com/x/52e773bf8c4678a7",
+            "sentiment_score": 0.0686,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
@@ -446,34 +486,14 @@
             "url": "https://www.barchart.com/story/news/4461203/scott-bessent-said-interest-rates-have-fallen-during-trumps-second-term-heres-where-hes-right-and-where-hes-wrong",
             "sentiment_score": -0.1718,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays says rates and energy prices regain influence over equity markets",
-            "description": "Equity markets have become more sensitive to changes in interest rates and energy prices, with upcoming central bank decisions and oil-market developments ex...",
-            "source": "Advfn.com",
-            "published_at": "2026-09-05T12:07:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/35721/barclays-says-rates-and-energy-prices-regain-influence-over-equity-markets",
-            "sentiment_score": 0.3787,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The freakout over data centers is just another fracking backlash we need to ignore",
-            "description": "America's important fracking victory offers a blueprint for AI data center builders facing 70% public opposition and major Chinese competition.",
-            "source": "Fox News",
-            "published_at": "2026-09-05T12:00:25Z",
-            "url": "https://www.foxnews.com/opinion/freakout-data-centers-just-another-fracking-backlash-we-need-ignore",
-            "sentiment_score": -0.3933,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0723,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1669,
+      "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -482,10 +502,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0996,
+        "average_score": -0.1035,
         "label": "ลบเล็กน้อย",
-        "article_count": 23,
+        "article_count": 24,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Airport hackers publish personal data of judge, politicians and celebrities on the dark web",
+            "description": "Data stolen from an estimated 8.7 million customers using Manchester, Stansted and East Midlands airports was released online on Tuesday.",
+            "source": "Dailymail.com",
+            "published_at": "2026-09-05T21:06:30Z",
+            "url": "https://www.dailymail.com/news/article-16108145/Airport-hackers-publish-personal-data-judge.html",
+            "sentiment_score": -0.1482,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Venezuela’s Debt: Who Owes What to Whom Under US Neocolonial Tutelage?",
@@ -719,10 +749,20 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0278,
+        "average_score": -0.0204,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+            "description": "Ten days ahead of a meeting in which the Federal Reserve will likely consider raising interest rates, the Trump administration looks to be in a full-court press to halt the hike in its tracks.\nIn the past week, the president, vice president, Treasury secretar…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T20:23:53Z",
+            "url": "https://biztoc.com/x/52e773bf8c4678a7",
+            "sentiment_score": 0.0686,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
@@ -1002,30 +1042,10 @@
             "url": "https://www.barchart.com/story/news/4461203/scott-bessent-said-interest-rates-have-fallen-during-trumps-second-term-heres-where-hes-right-and-where-hes-wrong",
             "sentiment_score": -0.1718,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays says rates and energy prices regain influence over equity markets",
-            "description": "Equity markets have become more sensitive to changes in interest rates and energy prices, with upcoming central bank decisions and oil-market developments ex...",
-            "source": "Advfn.com",
-            "published_at": "2026-09-05T12:07:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/35721/barclays-says-rates-and-energy-prices-regain-influence-over-equity-markets",
-            "sentiment_score": 0.3787,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The freakout over data centers is just another fracking backlash we need to ignore",
-            "description": "America's important fracking victory offers a blueprint for AI data center builders facing 70% public opposition and major Chinese competition.",
-            "source": "Fox News",
-            "published_at": "2026-09-05T12:00:25Z",
-            "url": "https://www.foxnews.com/opinion/freakout-data-centers-just-another-fracking-backlash-we-need-ignore",
-            "sentiment_score": -0.3933,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0718,
+      "net_score": -0.0831,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1038,10 +1058,20 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0278,
+        "average_score": -0.0204,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+            "description": "Ten days ahead of a meeting in which the Federal Reserve will likely consider raising interest rates, the Trump administration looks to be in a full-court press to halt the hike in its tracks.\nIn the past week, the president, vice president, Treasury secretar…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T20:23:53Z",
+            "url": "https://biztoc.com/x/52e773bf8c4678a7",
+            "sentiment_score": 0.0686,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
@@ -1321,26 +1351,6 @@
             "url": "https://www.barchart.com/story/news/4461203/scott-bessent-said-interest-rates-have-fallen-during-trumps-second-term-heres-where-hes-right-and-where-hes-wrong",
             "sentiment_score": -0.1718,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays says rates and energy prices regain influence over equity markets",
-            "description": "Equity markets have become more sensitive to changes in interest rates and energy prices, with upcoming central bank decisions and oil-market developments ex...",
-            "source": "Advfn.com",
-            "published_at": "2026-09-05T12:07:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/35721/barclays-says-rates-and-energy-prices-regain-influence-over-equity-markets",
-            "sentiment_score": 0.3787,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The freakout over data centers is just another fracking backlash we need to ignore",
-            "description": "America's important fracking victory offers a blueprint for AI data center builders facing 70% public opposition and major Chinese competition.",
-            "source": "Fox News",
-            "published_at": "2026-09-05T12:00:25Z",
-            "url": "https://www.foxnews.com/opinion/freakout-data-centers-just-another-fracking-backlash-we-need-ignore",
-            "sentiment_score": -0.3933,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
@@ -1651,7 +1661,7 @@
           }
         ]
       },
-      "net_score": -0.2083,
+      "net_score": -0.2009,
       "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1691,10 +1701,20 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0278,
+        "average_score": -0.0204,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+            "description": "Ten days ahead of a meeting in which the Federal Reserve will likely consider raising interest rates, the Trump administration looks to be in a full-court press to halt the hike in its tracks.\nIn the past week, the president, vice president, Treasury secretar…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T20:23:53Z",
+            "url": "https://biztoc.com/x/52e773bf8c4678a7",
+            "sentiment_score": 0.0686,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
@@ -1974,30 +1994,10 @@
             "url": "https://www.barchart.com/story/news/4461203/scott-bessent-said-interest-rates-have-fallen-during-trumps-second-term-heres-where-hes-right-and-where-hes-wrong",
             "sentiment_score": -0.1718,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays says rates and energy prices regain influence over equity markets",
-            "description": "Equity markets have become more sensitive to changes in interest rates and energy prices, with upcoming central bank decisions and oil-market developments ex...",
-            "source": "Advfn.com",
-            "published_at": "2026-09-05T12:07:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/35721/barclays-says-rates-and-energy-prices-regain-influence-over-equity-markets",
-            "sentiment_score": 0.3787,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The freakout over data centers is just another fracking backlash we need to ignore",
-            "description": "America's important fracking victory offers a blueprint for AI data center builders facing 70% public opposition and major Chinese competition.",
-            "source": "Fox News",
-            "published_at": "2026-09-05T12:00:25Z",
-            "url": "https://www.foxnews.com/opinion/freakout-data-centers-just-another-fracking-backlash-we-need-ignore",
-            "sentiment_score": -0.3933,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.2887,
+      "net_score": -0.2961,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -2227,10 +2227,20 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0278,
+        "average_score": -0.0204,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump turns up the heat on Warsh as Fed rate hike looms",
+            "description": "Ten days ahead of a meeting in which the Federal Reserve will likely consider raising interest rates, the Trump administration looks to be in a full-court press to halt the hike in its tracks.\nIn the past week, the president, vice president, Treasury secretar…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-05T20:23:53Z",
+            "url": "https://biztoc.com/x/52e773bf8c4678a7",
+            "sentiment_score": 0.0686,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump turns up the heat on Warsh as Fed rate hike looms - CNBC",
@@ -2510,30 +2520,10 @@
             "url": "https://www.barchart.com/story/news/4461203/scott-bessent-said-interest-rates-have-fallen-during-trumps-second-term-heres-where-hes-right-and-where-hes-wrong",
             "sentiment_score": -0.1718,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays says rates and energy prices regain influence over equity markets",
-            "description": "Equity markets have become more sensitive to changes in interest rates and energy prices, with upcoming central bank decisions and oil-market developments ex...",
-            "source": "Advfn.com",
-            "published_at": "2026-09-05T12:07:00Z",
-            "url": "https://investorshub.advfn.com/market-news/article/35721/barclays-says-rates-and-energy-prices-regain-influence-over-equity-markets",
-            "sentiment_score": 0.3787,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The freakout over data centers is just another fracking backlash we need to ignore",
-            "description": "America's important fracking victory offers a blueprint for AI data center builders facing 70% public opposition and major Chinese competition.",
-            "source": "Fox News",
-            "published_at": "2026-09-05T12:00:25Z",
-            "url": "https://www.foxnews.com/opinion/freakout-data-centers-just-another-fracking-backlash-we-need-ignore",
-            "sentiment_score": -0.3933,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0163,
+      "net_score": 0.0089,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
