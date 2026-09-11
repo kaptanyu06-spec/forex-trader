@@ -6,10 +6,50 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0713,
-        "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "average_score": 0.0447,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Trading Day: Inflation palpitations",
+            "description": "ORLANDO, Florida, Sept 10 : Global bond yields leaped to multi-year highs and U.S. and European stocks slumped on Thursday, as oil surged above $100 a barrel on the prospect of prolonged conflict in the Middle East. U.S. President Donald Trump added to invest…",
+            "source": "CNA",
+            "published_at": "2026-09-10T21:04:58Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-inflation-palpitations-6377261",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Here's What Happened Today: Thursday",
+            "description": "The most important Irish and international stories you need to know today.",
+            "source": "TheJournal.ie",
+            "published_at": "2026-09-10T20:35:43Z",
+            "url": "https://www.thejournal.ie/heres-what-happened-today-thursday-77-7158860-Sep2026/",
+            "sentiment_score": 0.0815,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Oil Prices Leap to Their Highest Since May",
+            "description": "US stocks sank on Thursday after oil prices jumped back to where they were in May. The S&P 500 fell 44.66 points, or 0.6%, to 7,591.70. its fourth straight loss. The Dow Jones Industrial Average fell 316.56 points, or 0.6%, to 52,064.10....",
+            "source": "Newser",
+            "published_at": "2026-09-10T20:35:00Z",
+            "url": "https://www.newser.com/story/396242/oil-prices-leap-to-their-highest-since-may.html",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "The Irish Times view on interest rates: a slow squeeze on borrowers",
@@ -252,71 +292,231 @@
           },
           {
             "currency": "EUR",
-            "title": "Markets see roughly 29% chance of another ECB rate hike in October",
-            "description": "The potential ECB rate hike could further strain eurozone bonds, impacting yields and investor sentiment amid persistent inflation pressures.\nThe post Markets see roughly 29% chance of another ECB rate hike in October appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T14:02:04Z",
-            "url": "https://cryptobriefing.com/ecb-rate-hike-october-odds/",
-            "sentiment_score": 0.1366,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "U.S. crude oil hits $100 for the first time since May",
-            "description": "The price of oil surged again, with Brent crude surpassing $105 per barrel for the first time since May as markets brace for a long U.S. war with Iran.",
-            "source": "NBC News",
-            "published_at": "2026-09-10T14:01:12Z",
-            "url": "https://www.nbcnews.com/business/energy/us-crude-oil-iran-trump-hormuz-rcna596997",
-            "sentiment_score": -0.6471,
+            "title": "Stocks Slump as Crude Prices Soar and Bond Yields Surge",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) is down -0.54% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is down -0.32%, and the Nasdaq 100 Index ($IUXX ) (QQ...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-10T14:03:34Z",
+            "url": "https://www.barchart.com/story/news/4538530/stocks-slump-as-crude-prices-soar-and-bond-yields-surge",
+            "sentiment_score": -0.4003,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Dollar gains, euro slips after expected ECB rate increase",
-            "description": "NEW YORK/LONDON, Sept 10 : The dollar rose against major currencies on Thursday, reversing some of this week's losses triggered by rising oil prices and global bond yields, while the euro fell after the European Central Bank delivered an expected rate increas…",
-            "source": "CNA",
-            "published_at": "2026-09-10T14:00:27Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-gains-euro-slips-after-expected-ecb-rate-increase-6374556",
-            "sentiment_score": 0.2798,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "European Central Bank Raises Rates in Bid to Quell Inflation - The New York Times",
-            "description": "European Central Bank Raises Rates in Bid to Quell InflationThe New York Times An ECB rate hike is ‘all but certain’ — but investors divided on what comes nextCNBC The ECB Just Raised Interest Rates. Here’s What to Know.WSJ Monetary policy decisionsEuropean C…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-10T13:53:08Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185584346",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Lagarde: Digital euro important for sovereignty",
-            "description": "European Central Bank President Christine Lagarde declared on Thursday that the digital euro is important for monetary sovereignty. She also underlined that the ECB believes it is important that \"cent...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T13:47:57Z",
-            "url": "https://biztoc.com/x/9cdebf19326f9e1b",
-            "sentiment_score": 0.2561,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Lagarde: AI contributing to rise in bond yields",
-            "description": "European Central Bank (ECB) President Christine Lagarde noted on Thursday that artificial intelligence (AI) is playing a significant role in the global rise in bond yields.While speaking to reporters ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T13:47:47Z",
-            "url": "https://biztoc.com/x/9de6224d2d921d84",
-            "sentiment_score": 0.2072,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0271,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.092,
+        "label": "บวกเล็กน้อย",
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "United States Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon, but they may find their main policy tool will do little to restrain some of the forces pushing up prices now. \n The consumer pri…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:35:42Z",
+            "url": "https://biztoc.com/x/4f915730f461e576",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nu Partners With Lead Bank to Launch Full US Banking Suite",
+            "description": "Nu, which has built its digital bank in Latin America over the past 13 years, entered the United States with a full suite of products, the company said in a Thursday (Sept. 10) press release. Nu launched in the U.S. through a partner bank model on Tuesday, wi…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-10T21:35:27Z",
+            "url": "https://www.pymnts.com/news/banking/2026/nu-partners-with-lead-bank-launch-full-unitd-states-banking-suite/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Small CPI surprise could trigger big Fed rate decision",
+            "description": "Wall Street is about to get the one inflation number that could determine if the Federal Reserve raises interest rates next week.\nWith wholesale prices already showing renewed inflation pressure and crude oil prices climbing, the Sept. 11 August Consumer Pric…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:21:04Z",
+            "url": "https://biztoc.com/x/e2d8008f7e06275c",
+            "sentiment_score": 0.0767,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:06:42Z",
+            "url": "https://biztoc.com/x/4a19d3be0fe657e0",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: Inflation palpitations",
+            "description": "ORLANDO, Florida, Sept 10 : Global bond yields leaped to multi-year highs and U.S. and European stocks slumped on Thursday, as oil surged above $100 a barrel on the prospect of prolonged conflict in the Middle East. U.S. President Donald Trump added to invest…",
+            "source": "CNA",
+            "published_at": "2026-09-10T21:04:58Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-inflation-palpitations-6377261",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação",
+            "description": "Grandes fabricantes de chips perderam terreno, com a Nvidia caindo 2,3% e a Micron Technology tombando 4,7%\nThe post Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação appeared first on InfoMoney.",
+            "source": "InfoMoney",
+            "published_at": "2026-09-10T20:35:56Z",
+            "url": "https://www.infomoney.com.br/mercados/dow-jones-fecha-em-queda-com-alta-de-yields-de-treasuries-e-preocupacao-com-inflacao/",
+            "sentiment_score": 0.2263,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil Prices Leap to Their Highest Since May",
+            "description": "US stocks sank on Thursday after oil prices jumped back to where they were in May. The S&P 500 fell 44.66 points, or 0.6%, to 7,591.70. its fourth straight loss. The Dow Jones Industrial Average fell 316.56 points, or 0.6%, to 52,064.10....",
+            "source": "Newser",
+            "published_at": "2026-09-10T20:35:00Z",
+            "url": "https://www.newser.com/story/396242/oil-prices-leap-to-their-highest-since-may.html",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "August CPI report could spark the Fed's first rate hike in over 3 years",
+            "description": "A key inflation reading tomorrow could determine whether the Federal Reserve issues its first interest rate hike in more than three years.\nThe August Consumer Price Index report, scheduled for release at 8:30 a.m. ET on Friday, is the last major inflation sna…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T20:20:08Z",
+            "url": "https://biztoc.com/x/bc7761e4b8e3efd2",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
+            "description": "US stocks fell as Brent crude surged 6% to $107 a barrel and Treasury yields climbed to multi-year highs. Rising energy prices and producer inflation data strengthened expectations of a Federal Reserve rate hike next week. Nvidia and Micron declined, while Ap…",
+            "source": "The Times of India",
+            "published_at": "2026-09-10T20:18:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-rising-oil-treasury-yields-lift-fed-hike-bets/articleshow/134028937.cms",
+            "sentiment_score": 0.0031,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon. Find out more here",
+            "source": "Financial Post",
+            "published_at": "2026-09-10T20:14:10Z",
+            "url": "https://financialpost.com/news/economy/what-fed-rate-hike-actually-means",
+            "sentiment_score": 0.2335,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Is Trump's $5,000 pledge legal and what will it cost?",
+            "description": "US President Donald Trump has promised $5,000 to every American adult if Republicans retain control of the House of Representatives and the Senate in the November mid-term elections.",
+            "source": "RTE",
+            "published_at": "2026-09-10T20:05:40Z",
+            "url": "https://www.rte.ie/news/2026/0910/1591101-trump-money-/",
+            "sentiment_score": 0.198,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Takes: Radius Residential Care and Oceania Healthcare set to gain the most from proposed aged care shake-up",
+            "description": "The Ministerial Advisory Group has recommended funding increases.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-09-10T20:00:00Z",
+            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-radius-residential-care-and-oceania-healthcare-set-to-gain-the-most-from-proposed-aged-care-shake-up/premium/4SHQEA7XBREJPEUVNWMSKZPK4Q/",
+            "sentiment_score": 0.6689,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wyoming Bank Shuts Down Systems, Limits Account Access After Cybersecurity Incident",
+            "description": "Hilltop Bank closed branches and took all systems offline to contain a cybersecurity incident, leaving debit cards functional with a $1,000 daily limit and no timeline for restoration.\nThe post Wyoming Bank Shuts Down Systems, Limits Account Access After Cybe…",
+            "source": "The Daily Hodl",
+            "published_at": "2026-09-10T19:46:14Z",
+            "url": "https://dailyhodl.com/2026/09/10/wyoming-bank-shuts-down-systems-limits-account-access-after-cybersecurity-incident/",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CPI report: Prices rose 3.4% in August, matching inflation expectations and raising Fed rate hike odds",
+            "description": "Consumer prices rose 3.4% in August, matching economists' estimates as the Fed weighs whether to hike benchmark interest rates or hold them steady.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-10T19:45:26Z",
+            "url": "https://finance.yahoo.com/economy/article/cpi-report-prices-rose-34-in-august-matching-inflation-expectations-and-raising-fed-rate-hike-odds-194526792.html",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T19:35:18Z",
+            "url": "https://biztoc.com/x/a2fb40f15a2b714a",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wholesale Inflation Is Rising Again",
+            "description": "Wholesale inflation picked up last month after cooling earlier this summer as higher oil and gas prices stemming from the Iran war keep costs elevated. The Labor Department's Producer Price Index—which captures inflation before it reaches consumers—rose 5.4% …",
+            "source": "Newser",
+            "published_at": "2026-09-10T19:20:00Z",
+            "url": "https://www.newser.com/story/396241/wholesale-inflation-is-rising-again.html",
+            "sentiment_score": -0.1716,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "The Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.",
+            "source": "CNBC",
+            "published_at": "2026-09-10T19:18:05Z",
+            "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+            "sentiment_score": 0.1901,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Mortgage Rates Climb as Inflation Anxiety Builds",
+            "description": "All eyes are on the Federal Reserve, as it weighs whether to raise its benchmark rate next week.",
+            "source": "NerdWallet",
+            "published_at": "2026-09-10T18:50:02Z",
+            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-9-10-26#article",
+            "sentiment_score": -0.1245,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why American Currency Can Only Feature Images of Dead People",
+            "description": "Spencer Clark is probably the most obscure American ever to appear on U.S. banknotes.",
+            "source": "Military.com",
+            "published_at": "2026-09-10T18:46:20Z",
+            "url": "https://military.com/history/why-american-currency-can-only-feature-images-of-dead-people.html",
+            "sentiment_score": -0.454,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+            "description": "Bitcoin couldn't escape today's inflation-driven selloff, but a bearish pattern on its chart is about to flip for the first time since November.",
+            "source": "Decrypt",
+            "published_at": "2026-09-10T18:46:04Z",
+            "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
+            "sentiment_score": -0.02,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin declines for fourth consecutive session, falls below $80,000",
@@ -386,230 +586,10 @@
             "url": "https://biztoc.com/x/8df1245bf7ab5ead",
             "sentiment_score": -0.102,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Yields on US government bonds rise as traders expect Fed rate hike",
-            "description": "Rising bond yields signal potential economic tightening, impacting borrowing costs and financial markets amid inflation and geopolitical tensions.\nThe post Yields on US government bonds rise as traders expect Fed rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:44:37Z",
-            "url": "https://cryptobriefing.com/treasury-yields-rise-fed-rate-hike/",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
-            "description": "A key tech-stock volatility metric options traders have been watching all year is reversing.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T17:42:24Z",
-            "url": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50%",
-            "description": "Rising yields could strain federal budgets, elevate borrowing costs, and challenge economic growth, urging fiscal policy reassessment.\nThe post Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50% appeared first o…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:30:07Z",
-            "url": "https://cryptobriefing.com/druckenmiller-us-borrowing-costs-low-yield-prediction/",
-            "sentiment_score": -0.1453,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak markets",
-            "description": "Barclays' reliance on outdated systems like Beowulf highlights the urgent need for banks to modernize infrastructure to manage trading risks effectively.\nThe post Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak marke…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:24:11Z",
-            "url": "https://cryptobriefing.com/barclays-beowulf-trading-outages/",
-            "sentiment_score": -0.387,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "People raised in the 60s, 70s & 80s usually nostalgic for these 8 things about life that younger generations are glad have disappeared",
-            "description": "Somewhere at this year’s Thanksgiving table, someone born before 1975 is going to bring up the way things used to be. The freedom. The quiet. The way a Friday night meant going somewhere instead of scrolling through...\nThe post People raised in the 60s, 70s &…",
-            "source": "Stylegirlfriend.com",
-            "published_at": "2026-09-10T17:23:00Z",
-            "url": "https://stylegirlfriend.com/people-raised-in-the-60s-70s-80s-usually-nostalgic-for-these-8-things-about-life-that-younger-generations-are-glad-have-disappeared/",
-            "sentiment_score": 0.3823,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nThe August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decisi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:22:23Z",
-            "url": "https://biztoc.com/x/e86556397fb04ab1",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "August CPI report crucial for Fed rate decision in September",
-            "description": "The August CPI report's impact on Fed decisions could shift market dynamics, influencing economic forecasts and investor strategies.\nThe post August CPI report crucial for Fed rate decision in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:17:40Z",
-            "url": "https://cryptobriefing.com/august-cpi-report-crucial-for-fed-rate-decision-in-september/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates climb: Average rate on 30-year home loan hits highest level in months",
-            "description": "Mortgage rates rose for the third week in a row, pushing the average long-term U.S. home loan rate to its highest level in over 14 months",
-            "source": "Abcnews.com",
-            "published_at": "2026-09-10T17:15:31Z",
-            "url": "https://abcnews.com/Business/wireStory/mortgage-rates-climb-average-rate-30-year-home-136339706",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "The August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decis...",
-            "source": "Benzinga",
-            "published_at": "2026-09-10T17:05:49Z",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61722133/fed-rate-hike-friday-cpi-inflation?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "The post What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? appeared first on 24/7 Wall St..\nXRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:04:23Z",
-            "url": "https://biztoc.com/x/ece8caf1e2374925",
-            "sentiment_score": 0.6369,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "XRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining week. The Federal Reserve...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-10T16:58:46Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/10/what-is-the-best-crypto-to-buy-before-the-fed-decides-on-september-16-xrp-or-solana/",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s proposed $5,000 election dividend checks could fuel inflation, economists say",
-            "description": "Economists say President Donald Trump’s promise of a $5,000 \"dividend\" check could stoke inflation, further straining household finances in the long run.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T16:58:11Z",
-            "url": "https://www.cnbc.com/2026/09/10/trump-5000-election-dividend.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotter producer prices strengthen bets on a Fed rate hike",
-            "description": "US producer prices rose, increasing rate hike expectations for the Federal Reserve. Traders now price a seventy percent chance of a quarter-point increase next week. Consumer inflation data due Friday will further influence the central bank's decision. Renewe…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T16:50:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/hotter-producer-prices-strengthen-bets-on-a-fed-rate-hike/articleshow/134020373.cms",
-            "sentiment_score": 0.3759,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Shares slide as oil price surge and ECB hikes rates",
-            "description": "ICG shares jump 6.7% after shareholders narrowly back €1.2bn buyout plan",
-            "source": "The Irish Times",
-            "published_at": "2026-09-10T16:49:39Z",
-            "url": "https://www.irishtimes.com/business/2026/09/10/shares-slide-as-oil-price-surge-and-ecb-hikes-rates/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil Jumps Above $107, Bond Yields Surge Higher, Stocks Fall",
-            "description": "Oil prices jumped to their highest levels since May amid renewed fighting in the Persian Gulf and investor concerns that the war in Iran will persist longer than previously thought. Brent crude futures crossed above $107 a barrel and WTI\nThe post Oil Jumps Ab…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-10T16:44:12Z",
-            "url": "https://www.breitbart.com/economy/2026/09/10/oil-up-stocks-down-bond-yields-higher/",
-            "sentiment_score": -0.2634,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest Rates and Stock Prices: An Old Debate Flares up!",
-            "description": "",
-            "source": "Blogger.com",
-            "published_at": "2026-09-10T16:37:37Z",
-            "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/8152901575140311047/6106553853569811480",
-            "sentiment_score": 0.3565,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumers See Tougher Job Market as Household Finances Weaken",
-            "description": "Americans aren’t expecting a wave of pink slips, but they’re becoming less confident about what would happen if they needed another job.\nThe Federal Reserve Bank of New York’s August Survey of Consumer Expectations found that the mean probability consumers as…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:18:49Z",
-            "url": "https://biztoc.com/x/01d98f64706c1822",
-            "sentiment_score": -0.013,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up?",
-            "description": "Ethereum has rallied 37% in just 10 days despite rising Treasury yields, creating one of the most interesting market situations of 2026. Higher bond yields...\nThe post Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up? appeared first on Bit…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-09-10T16:13:08Z",
-            "url": "https://bitcoinfoundation.org/news/ethereum/ethereums-37-rally-meets-rising-bond-yields-why-is-eth-holding-up/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is the bond market so important?",
-            "description": "In August we had another bond market crash, a sign that worries both business and investors.",
-            "source": "Ncspin.com",
-            "published_at": "2026-09-10T16:13:00Z",
-            "url": "https://www.ncspin.com/why-is-the-bond-market-so-important",
-            "sentiment_score": 0.0317,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bread And Circus: Trump’s $5,000 Dividend Plan Sets Off Bond Market Turbulence, Inflation Fears",
-            "description": "President Donald Trump announced Wednesday that if the GOP wins the election, over a trillion dollars will be spent on “dividends” to voters.",
-            "source": "The Daily Caller",
-            "published_at": "2026-09-10T16:06:37Z",
-            "url": "https://dailycaller.com/2026/09/10/trump-5000-dividends-midterm-convention-bond-jd-vance-inflation-markets",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-            "description": "A swell of unfriendly factors for inflation likely will push the Federal Reserve to an interest rate hike next week and there's possibly another before the end of the year, judging by market pricing Thursday.\nTraders pushed chances for a rate increase to 70% …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:06:06Z",
-            "url": "https://biztoc.com/x/fb0d61073c8d86e8",
-            "sentiment_score": 0.4884,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
-            "description": "Indian markets ended higher after Sensex and Nifty reversed losses during the closing auction, snapping a three-session decline. Crude above $102, weak global cues and rising yields kept sentiment cautious, while Nifty formed a hammer and stocks showed buying…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T15:56:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/134018556.cms",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0984,
+      "net_score": -0.0473,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -619,14 +599,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.16009,
+      "price_now": 1.16023,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 41.5,
-      "rsi_signal": "โซนกลาง (RSI=41.5)",
+      "rsi_value": 43.6,
+      "rsi_signal": "โซนกลาง (RSI=43.6)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00086,
-      "suggested_sl_distance": 0.0013,
+      "atr_value": 0.0008,
+      "suggested_sl_distance": 0.0012,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -640,7 +620,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-11T18:21:02.039162+00:00"
+    "generated_at": "2026-09-11T21:39:11.911738+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -649,10 +629,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0179,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0752,
+        "label": "ลบเล็กน้อย",
         "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Trading Day: Inflation palpitations",
+            "description": "ORLANDO, Florida, Sept 10 : Global bond yields leaped to multi-year highs and U.S. and European stocks slumped on Thursday, as oil surged above $100 a barrel on the prospect of prolonged conflict in the Middle East. U.S. President Donald Trump added to invest…",
+            "source": "CNA",
+            "published_at": "2026-09-10T21:04:58Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-inflation-palpitations-6377261",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Iran-US war threatens to raise UK consumer prices and rates",
+            "description": "The Iran-US conflict exacerbates UK's economic vulnerabilities, potentially leading to higher inflation, interest rates, and fiscal strain.\nThe post Iran-US war threatens to raise UK consumer prices and rates appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-10T19:14:20Z",
+            "url": "https://cryptobriefing.com/iran-us-war-uk-prices-rates/",
+            "sentiment_score": -0.76,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "UK House of Lords backs mandatory digital asset strategy",
@@ -832,44 +842,224 @@
             "url": "https://www.channelnewsasia.com/business/oil-tops-100-stocks-slide-middle-east-tensions-escalate-6371571",
             "sentiment_score": -0.1658,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Oil tops $100, European stocks drop on fresh Gulf attacks",
-            "description": "Sept 9 : Brent crude prices surged past $100 a barrel on Wednesday, as an intensification of the conflict in the Middle East fuelled concerns about energy-driven inflation and sent European stocks to one-week lows ahead of several major central bank decisions…",
-            "source": "CNA",
-            "published_at": "2026-09-09T09:56:14Z",
-            "url": "https://www.channelnewsasia.com/business/oil-tops-100-european-stocks-drop-fresh-gulf-attacks-6371571",
-            "sentiment_score": -0.1263,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Middle East tensions drive oil over $100, Wall Street drops",
-            "description": "Sept 9 : Brent crude prices surged past $100 a barrel on Wednesday and Wall Street opened lower, as escalating conflict in the Middle East fuelled worries about energy-driven inflation ahead of several major central bank decisions.Brent crude futures rose as …",
-            "source": "CNA",
-            "published_at": "2026-09-09T09:56:14Z",
-            "url": "https://www.channelnewsasia.com/business/middle-east-tensions-drive-oil-over-100-wall-street-drops-6371571",
-            "sentiment_score": -0.5599,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "“I Am the House Now”: 34 Years Ago, Bessent Helped Soros “Break the Bank of England.” Now He’s Daring Traders to Bet Against the Yen.",
-            "description": "Scott Bessent made his name helping George Soros destroy a central bank that tried to hold an artificial currency peg. Now he is sitting in that same seat, d...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-09T09:53:13Z",
-            "url": "https://247wallst.com/investing/2026/09/09/i-am-the-house-now-34-years-ago-bessent-helped-soros-break-the-bank-of-england-now-hes-daring-traders-to-bet-against-the-yen/",
-            "sentiment_score": 0.1574,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0271,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.092,
+        "label": "บวกเล็กน้อย",
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "United States Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon, but they may find their main policy tool will do little to restrain some of the forces pushing up prices now. \n The consumer pri…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:35:42Z",
+            "url": "https://biztoc.com/x/4f915730f461e576",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nu Partners With Lead Bank to Launch Full US Banking Suite",
+            "description": "Nu, which has built its digital bank in Latin America over the past 13 years, entered the United States with a full suite of products, the company said in a Thursday (Sept. 10) press release. Nu launched in the U.S. through a partner bank model on Tuesday, wi…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-10T21:35:27Z",
+            "url": "https://www.pymnts.com/news/banking/2026/nu-partners-with-lead-bank-launch-full-unitd-states-banking-suite/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Small CPI surprise could trigger big Fed rate decision",
+            "description": "Wall Street is about to get the one inflation number that could determine if the Federal Reserve raises interest rates next week.\nWith wholesale prices already showing renewed inflation pressure and crude oil prices climbing, the Sept. 11 August Consumer Pric…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:21:04Z",
+            "url": "https://biztoc.com/x/e2d8008f7e06275c",
+            "sentiment_score": 0.0767,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:06:42Z",
+            "url": "https://biztoc.com/x/4a19d3be0fe657e0",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: Inflation palpitations",
+            "description": "ORLANDO, Florida, Sept 10 : Global bond yields leaped to multi-year highs and U.S. and European stocks slumped on Thursday, as oil surged above $100 a barrel on the prospect of prolonged conflict in the Middle East. U.S. President Donald Trump added to invest…",
+            "source": "CNA",
+            "published_at": "2026-09-10T21:04:58Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-inflation-palpitations-6377261",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação",
+            "description": "Grandes fabricantes de chips perderam terreno, com a Nvidia caindo 2,3% e a Micron Technology tombando 4,7%\nThe post Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação appeared first on InfoMoney.",
+            "source": "InfoMoney",
+            "published_at": "2026-09-10T20:35:56Z",
+            "url": "https://www.infomoney.com.br/mercados/dow-jones-fecha-em-queda-com-alta-de-yields-de-treasuries-e-preocupacao-com-inflacao/",
+            "sentiment_score": 0.2263,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil Prices Leap to Their Highest Since May",
+            "description": "US stocks sank on Thursday after oil prices jumped back to where they were in May. The S&P 500 fell 44.66 points, or 0.6%, to 7,591.70. its fourth straight loss. The Dow Jones Industrial Average fell 316.56 points, or 0.6%, to 52,064.10....",
+            "source": "Newser",
+            "published_at": "2026-09-10T20:35:00Z",
+            "url": "https://www.newser.com/story/396242/oil-prices-leap-to-their-highest-since-may.html",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "August CPI report could spark the Fed's first rate hike in over 3 years",
+            "description": "A key inflation reading tomorrow could determine whether the Federal Reserve issues its first interest rate hike in more than three years.\nThe August Consumer Price Index report, scheduled for release at 8:30 a.m. ET on Friday, is the last major inflation sna…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T20:20:08Z",
+            "url": "https://biztoc.com/x/bc7761e4b8e3efd2",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
+            "description": "US stocks fell as Brent crude surged 6% to $107 a barrel and Treasury yields climbed to multi-year highs. Rising energy prices and producer inflation data strengthened expectations of a Federal Reserve rate hike next week. Nvidia and Micron declined, while Ap…",
+            "source": "The Times of India",
+            "published_at": "2026-09-10T20:18:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-rising-oil-treasury-yields-lift-fed-hike-bets/articleshow/134028937.cms",
+            "sentiment_score": 0.0031,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon. Find out more here",
+            "source": "Financial Post",
+            "published_at": "2026-09-10T20:14:10Z",
+            "url": "https://financialpost.com/news/economy/what-fed-rate-hike-actually-means",
+            "sentiment_score": 0.2335,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Is Trump's $5,000 pledge legal and what will it cost?",
+            "description": "US President Donald Trump has promised $5,000 to every American adult if Republicans retain control of the House of Representatives and the Senate in the November mid-term elections.",
+            "source": "RTE",
+            "published_at": "2026-09-10T20:05:40Z",
+            "url": "https://www.rte.ie/news/2026/0910/1591101-trump-money-/",
+            "sentiment_score": 0.198,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Takes: Radius Residential Care and Oceania Healthcare set to gain the most from proposed aged care shake-up",
+            "description": "The Ministerial Advisory Group has recommended funding increases.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-09-10T20:00:00Z",
+            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-radius-residential-care-and-oceania-healthcare-set-to-gain-the-most-from-proposed-aged-care-shake-up/premium/4SHQEA7XBREJPEUVNWMSKZPK4Q/",
+            "sentiment_score": 0.6689,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wyoming Bank Shuts Down Systems, Limits Account Access After Cybersecurity Incident",
+            "description": "Hilltop Bank closed branches and took all systems offline to contain a cybersecurity incident, leaving debit cards functional with a $1,000 daily limit and no timeline for restoration.\nThe post Wyoming Bank Shuts Down Systems, Limits Account Access After Cybe…",
+            "source": "The Daily Hodl",
+            "published_at": "2026-09-10T19:46:14Z",
+            "url": "https://dailyhodl.com/2026/09/10/wyoming-bank-shuts-down-systems-limits-account-access-after-cybersecurity-incident/",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CPI report: Prices rose 3.4% in August, matching inflation expectations and raising Fed rate hike odds",
+            "description": "Consumer prices rose 3.4% in August, matching economists' estimates as the Fed weighs whether to hike benchmark interest rates or hold them steady.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-10T19:45:26Z",
+            "url": "https://finance.yahoo.com/economy/article/cpi-report-prices-rose-34-in-august-matching-inflation-expectations-and-raising-fed-rate-hike-odds-194526792.html",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T19:35:18Z",
+            "url": "https://biztoc.com/x/a2fb40f15a2b714a",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wholesale Inflation Is Rising Again",
+            "description": "Wholesale inflation picked up last month after cooling earlier this summer as higher oil and gas prices stemming from the Iran war keep costs elevated. The Labor Department's Producer Price Index—which captures inflation before it reaches consumers—rose 5.4% …",
+            "source": "Newser",
+            "published_at": "2026-09-10T19:20:00Z",
+            "url": "https://www.newser.com/story/396241/wholesale-inflation-is-rising-again.html",
+            "sentiment_score": -0.1716,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "The Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.",
+            "source": "CNBC",
+            "published_at": "2026-09-10T19:18:05Z",
+            "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+            "sentiment_score": 0.1901,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Mortgage Rates Climb as Inflation Anxiety Builds",
+            "description": "All eyes are on the Federal Reserve, as it weighs whether to raise its benchmark rate next week.",
+            "source": "NerdWallet",
+            "published_at": "2026-09-10T18:50:02Z",
+            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-9-10-26#article",
+            "sentiment_score": -0.1245,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why American Currency Can Only Feature Images of Dead People",
+            "description": "Spencer Clark is probably the most obscure American ever to appear on U.S. banknotes.",
+            "source": "Military.com",
+            "published_at": "2026-09-10T18:46:20Z",
+            "url": "https://military.com/history/why-american-currency-can-only-feature-images-of-dead-people.html",
+            "sentiment_score": -0.454,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+            "description": "Bitcoin couldn't escape today's inflation-driven selloff, but a bearish pattern on its chart is about to flip for the first time since November.",
+            "source": "Decrypt",
+            "published_at": "2026-09-10T18:46:04Z",
+            "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
+            "sentiment_score": -0.02,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin declines for fourth consecutive session, falls below $80,000",
@@ -939,247 +1129,27 @@
             "url": "https://biztoc.com/x/8df1245bf7ab5ead",
             "sentiment_score": -0.102,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Yields on US government bonds rise as traders expect Fed rate hike",
-            "description": "Rising bond yields signal potential economic tightening, impacting borrowing costs and financial markets amid inflation and geopolitical tensions.\nThe post Yields on US government bonds rise as traders expect Fed rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:44:37Z",
-            "url": "https://cryptobriefing.com/treasury-yields-rise-fed-rate-hike/",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
-            "description": "A key tech-stock volatility metric options traders have been watching all year is reversing.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T17:42:24Z",
-            "url": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50%",
-            "description": "Rising yields could strain federal budgets, elevate borrowing costs, and challenge economic growth, urging fiscal policy reassessment.\nThe post Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50% appeared first o…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:30:07Z",
-            "url": "https://cryptobriefing.com/druckenmiller-us-borrowing-costs-low-yield-prediction/",
-            "sentiment_score": -0.1453,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak markets",
-            "description": "Barclays' reliance on outdated systems like Beowulf highlights the urgent need for banks to modernize infrastructure to manage trading risks effectively.\nThe post Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak marke…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:24:11Z",
-            "url": "https://cryptobriefing.com/barclays-beowulf-trading-outages/",
-            "sentiment_score": -0.387,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "People raised in the 60s, 70s & 80s usually nostalgic for these 8 things about life that younger generations are glad have disappeared",
-            "description": "Somewhere at this year’s Thanksgiving table, someone born before 1975 is going to bring up the way things used to be. The freedom. The quiet. The way a Friday night meant going somewhere instead of scrolling through...\nThe post People raised in the 60s, 70s &…",
-            "source": "Stylegirlfriend.com",
-            "published_at": "2026-09-10T17:23:00Z",
-            "url": "https://stylegirlfriend.com/people-raised-in-the-60s-70s-80s-usually-nostalgic-for-these-8-things-about-life-that-younger-generations-are-glad-have-disappeared/",
-            "sentiment_score": 0.3823,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nThe August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decisi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:22:23Z",
-            "url": "https://biztoc.com/x/e86556397fb04ab1",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "August CPI report crucial for Fed rate decision in September",
-            "description": "The August CPI report's impact on Fed decisions could shift market dynamics, influencing economic forecasts and investor strategies.\nThe post August CPI report crucial for Fed rate decision in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:17:40Z",
-            "url": "https://cryptobriefing.com/august-cpi-report-crucial-for-fed-rate-decision-in-september/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates climb: Average rate on 30-year home loan hits highest level in months",
-            "description": "Mortgage rates rose for the third week in a row, pushing the average long-term U.S. home loan rate to its highest level in over 14 months",
-            "source": "Abcnews.com",
-            "published_at": "2026-09-10T17:15:31Z",
-            "url": "https://abcnews.com/Business/wireStory/mortgage-rates-climb-average-rate-30-year-home-136339706",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "The August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decis...",
-            "source": "Benzinga",
-            "published_at": "2026-09-10T17:05:49Z",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61722133/fed-rate-hike-friday-cpi-inflation?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "The post What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? appeared first on 24/7 Wall St..\nXRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:04:23Z",
-            "url": "https://biztoc.com/x/ece8caf1e2374925",
-            "sentiment_score": 0.6369,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "XRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining week. The Federal Reserve...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-10T16:58:46Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/10/what-is-the-best-crypto-to-buy-before-the-fed-decides-on-september-16-xrp-or-solana/",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s proposed $5,000 election dividend checks could fuel inflation, economists say",
-            "description": "Economists say President Donald Trump’s promise of a $5,000 \"dividend\" check could stoke inflation, further straining household finances in the long run.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T16:58:11Z",
-            "url": "https://www.cnbc.com/2026/09/10/trump-5000-election-dividend.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotter producer prices strengthen bets on a Fed rate hike",
-            "description": "US producer prices rose, increasing rate hike expectations for the Federal Reserve. Traders now price a seventy percent chance of a quarter-point increase next week. Consumer inflation data due Friday will further influence the central bank's decision. Renewe…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T16:50:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/hotter-producer-prices-strengthen-bets-on-a-fed-rate-hike/articleshow/134020373.cms",
-            "sentiment_score": 0.3759,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Shares slide as oil price surge and ECB hikes rates",
-            "description": "ICG shares jump 6.7% after shareholders narrowly back €1.2bn buyout plan",
-            "source": "The Irish Times",
-            "published_at": "2026-09-10T16:49:39Z",
-            "url": "https://www.irishtimes.com/business/2026/09/10/shares-slide-as-oil-price-surge-and-ecb-hikes-rates/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil Jumps Above $107, Bond Yields Surge Higher, Stocks Fall",
-            "description": "Oil prices jumped to their highest levels since May amid renewed fighting in the Persian Gulf and investor concerns that the war in Iran will persist longer than previously thought. Brent crude futures crossed above $107 a barrel and WTI\nThe post Oil Jumps Ab…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-10T16:44:12Z",
-            "url": "https://www.breitbart.com/economy/2026/09/10/oil-up-stocks-down-bond-yields-higher/",
-            "sentiment_score": -0.2634,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest Rates and Stock Prices: An Old Debate Flares up!",
-            "description": "",
-            "source": "Blogger.com",
-            "published_at": "2026-09-10T16:37:37Z",
-            "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/8152901575140311047/6106553853569811480",
-            "sentiment_score": 0.3565,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumers See Tougher Job Market as Household Finances Weaken",
-            "description": "Americans aren’t expecting a wave of pink slips, but they’re becoming less confident about what would happen if they needed another job.\nThe Federal Reserve Bank of New York’s August Survey of Consumer Expectations found that the mean probability consumers as…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:18:49Z",
-            "url": "https://biztoc.com/x/01d98f64706c1822",
-            "sentiment_score": -0.013,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up?",
-            "description": "Ethereum has rallied 37% in just 10 days despite rising Treasury yields, creating one of the most interesting market situations of 2026. Higher bond yields...\nThe post Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up? appeared first on Bit…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-09-10T16:13:08Z",
-            "url": "https://bitcoinfoundation.org/news/ethereum/ethereums-37-rally-meets-rising-bond-yields-why-is-eth-holding-up/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is the bond market so important?",
-            "description": "In August we had another bond market crash, a sign that worries both business and investors.",
-            "source": "Ncspin.com",
-            "published_at": "2026-09-10T16:13:00Z",
-            "url": "https://www.ncspin.com/why-is-the-bond-market-so-important",
-            "sentiment_score": 0.0317,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bread And Circus: Trump’s $5,000 Dividend Plan Sets Off Bond Market Turbulence, Inflation Fears",
-            "description": "President Donald Trump announced Wednesday that if the GOP wins the election, over a trillion dollars will be spent on “dividends” to voters.",
-            "source": "The Daily Caller",
-            "published_at": "2026-09-10T16:06:37Z",
-            "url": "https://dailycaller.com/2026/09/10/trump-5000-dividends-midterm-convention-bond-jd-vance-inflation-markets",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-            "description": "A swell of unfriendly factors for inflation likely will push the Federal Reserve to an interest rate hike next week and there's possibly another before the end of the year, judging by market pricing Thursday.\nTraders pushed chances for a rate increase to 70% …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:06:06Z",
-            "url": "https://biztoc.com/x/fb0d61073c8d86e8",
-            "sentiment_score": 0.4884,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
-            "description": "Indian markets ended higher after Sensex and Nifty reversed losses during the closing auction, snapping a three-session decline. Crude above $102, weak global cues and rising yields kept sentiment cautious, while Nifty formed a hammer and stocks showed buying…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T15:56:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/134018556.cms",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.045,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1672,
+      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3525,
+      "price_now": 1.35289,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.9,
-      "rsi_signal": "โซนกลาง (RSI=52.9)",
+      "rsi_value": 55.3,
+      "rsi_signal": "โซนกลาง (RSI=55.3)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00113,
-      "suggested_sl_distance": 0.0017,
+      "atr_value": 0.00099,
+      "suggested_sl_distance": 0.00149,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1193,7 +1163,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-11T18:21:02.039162+00:00"
+    "generated_at": "2026-09-11T21:39:11.911738+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1202,10 +1172,220 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0271,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.092,
+        "label": "บวกเล็กน้อย",
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "United States Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon, but they may find their main policy tool will do little to restrain some of the forces pushing up prices now. \n The consumer pri…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:35:42Z",
+            "url": "https://biztoc.com/x/4f915730f461e576",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nu Partners With Lead Bank to Launch Full US Banking Suite",
+            "description": "Nu, which has built its digital bank in Latin America over the past 13 years, entered the United States with a full suite of products, the company said in a Thursday (Sept. 10) press release. Nu launched in the U.S. through a partner bank model on Tuesday, wi…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-10T21:35:27Z",
+            "url": "https://www.pymnts.com/news/banking/2026/nu-partners-with-lead-bank-launch-full-unitd-states-banking-suite/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Small CPI surprise could trigger big Fed rate decision",
+            "description": "Wall Street is about to get the one inflation number that could determine if the Federal Reserve raises interest rates next week.\nWith wholesale prices already showing renewed inflation pressure and crude oil prices climbing, the Sept. 11 August Consumer Pric…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:21:04Z",
+            "url": "https://biztoc.com/x/e2d8008f7e06275c",
+            "sentiment_score": 0.0767,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:06:42Z",
+            "url": "https://biztoc.com/x/4a19d3be0fe657e0",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: Inflation palpitations",
+            "description": "ORLANDO, Florida, Sept 10 : Global bond yields leaped to multi-year highs and U.S. and European stocks slumped on Thursday, as oil surged above $100 a barrel on the prospect of prolonged conflict in the Middle East. U.S. President Donald Trump added to invest…",
+            "source": "CNA",
+            "published_at": "2026-09-10T21:04:58Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-inflation-palpitations-6377261",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação",
+            "description": "Grandes fabricantes de chips perderam terreno, com a Nvidia caindo 2,3% e a Micron Technology tombando 4,7%\nThe post Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação appeared first on InfoMoney.",
+            "source": "InfoMoney",
+            "published_at": "2026-09-10T20:35:56Z",
+            "url": "https://www.infomoney.com.br/mercados/dow-jones-fecha-em-queda-com-alta-de-yields-de-treasuries-e-preocupacao-com-inflacao/",
+            "sentiment_score": 0.2263,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil Prices Leap to Their Highest Since May",
+            "description": "US stocks sank on Thursday after oil prices jumped back to where they were in May. The S&P 500 fell 44.66 points, or 0.6%, to 7,591.70. its fourth straight loss. The Dow Jones Industrial Average fell 316.56 points, or 0.6%, to 52,064.10....",
+            "source": "Newser",
+            "published_at": "2026-09-10T20:35:00Z",
+            "url": "https://www.newser.com/story/396242/oil-prices-leap-to-their-highest-since-may.html",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "August CPI report could spark the Fed's first rate hike in over 3 years",
+            "description": "A key inflation reading tomorrow could determine whether the Federal Reserve issues its first interest rate hike in more than three years.\nThe August Consumer Price Index report, scheduled for release at 8:30 a.m. ET on Friday, is the last major inflation sna…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T20:20:08Z",
+            "url": "https://biztoc.com/x/bc7761e4b8e3efd2",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
+            "description": "US stocks fell as Brent crude surged 6% to $107 a barrel and Treasury yields climbed to multi-year highs. Rising energy prices and producer inflation data strengthened expectations of a Federal Reserve rate hike next week. Nvidia and Micron declined, while Ap…",
+            "source": "The Times of India",
+            "published_at": "2026-09-10T20:18:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-rising-oil-treasury-yields-lift-fed-hike-bets/articleshow/134028937.cms",
+            "sentiment_score": 0.0031,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon. Find out more here",
+            "source": "Financial Post",
+            "published_at": "2026-09-10T20:14:10Z",
+            "url": "https://financialpost.com/news/economy/what-fed-rate-hike-actually-means",
+            "sentiment_score": 0.2335,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Is Trump's $5,000 pledge legal and what will it cost?",
+            "description": "US President Donald Trump has promised $5,000 to every American adult if Republicans retain control of the House of Representatives and the Senate in the November mid-term elections.",
+            "source": "RTE",
+            "published_at": "2026-09-10T20:05:40Z",
+            "url": "https://www.rte.ie/news/2026/0910/1591101-trump-money-/",
+            "sentiment_score": 0.198,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Takes: Radius Residential Care and Oceania Healthcare set to gain the most from proposed aged care shake-up",
+            "description": "The Ministerial Advisory Group has recommended funding increases.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-09-10T20:00:00Z",
+            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-radius-residential-care-and-oceania-healthcare-set-to-gain-the-most-from-proposed-aged-care-shake-up/premium/4SHQEA7XBREJPEUVNWMSKZPK4Q/",
+            "sentiment_score": 0.6689,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wyoming Bank Shuts Down Systems, Limits Account Access After Cybersecurity Incident",
+            "description": "Hilltop Bank closed branches and took all systems offline to contain a cybersecurity incident, leaving debit cards functional with a $1,000 daily limit and no timeline for restoration.\nThe post Wyoming Bank Shuts Down Systems, Limits Account Access After Cybe…",
+            "source": "The Daily Hodl",
+            "published_at": "2026-09-10T19:46:14Z",
+            "url": "https://dailyhodl.com/2026/09/10/wyoming-bank-shuts-down-systems-limits-account-access-after-cybersecurity-incident/",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CPI report: Prices rose 3.4% in August, matching inflation expectations and raising Fed rate hike odds",
+            "description": "Consumer prices rose 3.4% in August, matching economists' estimates as the Fed weighs whether to hike benchmark interest rates or hold them steady.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-10T19:45:26Z",
+            "url": "https://finance.yahoo.com/economy/article/cpi-report-prices-rose-34-in-august-matching-inflation-expectations-and-raising-fed-rate-hike-odds-194526792.html",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T19:35:18Z",
+            "url": "https://biztoc.com/x/a2fb40f15a2b714a",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wholesale Inflation Is Rising Again",
+            "description": "Wholesale inflation picked up last month after cooling earlier this summer as higher oil and gas prices stemming from the Iran war keep costs elevated. The Labor Department's Producer Price Index—which captures inflation before it reaches consumers—rose 5.4% …",
+            "source": "Newser",
+            "published_at": "2026-09-10T19:20:00Z",
+            "url": "https://www.newser.com/story/396241/wholesale-inflation-is-rising-again.html",
+            "sentiment_score": -0.1716,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "The Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.",
+            "source": "CNBC",
+            "published_at": "2026-09-10T19:18:05Z",
+            "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+            "sentiment_score": 0.1901,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Mortgage Rates Climb as Inflation Anxiety Builds",
+            "description": "All eyes are on the Federal Reserve, as it weighs whether to raise its benchmark rate next week.",
+            "source": "NerdWallet",
+            "published_at": "2026-09-10T18:50:02Z",
+            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-9-10-26#article",
+            "sentiment_score": -0.1245,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why American Currency Can Only Feature Images of Dead People",
+            "description": "Spencer Clark is probably the most obscure American ever to appear on U.S. banknotes.",
+            "source": "Military.com",
+            "published_at": "2026-09-10T18:46:20Z",
+            "url": "https://military.com/history/why-american-currency-can-only-feature-images-of-dead-people.html",
+            "sentiment_score": -0.454,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+            "description": "Bitcoin couldn't escape today's inflation-driven selloff, but a bearish pattern on its chart is about to flip for the first time since November.",
+            "source": "Decrypt",
+            "published_at": "2026-09-10T18:46:04Z",
+            "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
+            "sentiment_score": -0.02,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin declines for fourth consecutive session, falls below $80,000",
@@ -1275,234 +1455,34 @@
             "url": "https://biztoc.com/x/8df1245bf7ab5ead",
             "sentiment_score": -0.102,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Yields on US government bonds rise as traders expect Fed rate hike",
-            "description": "Rising bond yields signal potential economic tightening, impacting borrowing costs and financial markets amid inflation and geopolitical tensions.\nThe post Yields on US government bonds rise as traders expect Fed rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:44:37Z",
-            "url": "https://cryptobriefing.com/treasury-yields-rise-fed-rate-hike/",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
-            "description": "A key tech-stock volatility metric options traders have been watching all year is reversing.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T17:42:24Z",
-            "url": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50%",
-            "description": "Rising yields could strain federal budgets, elevate borrowing costs, and challenge economic growth, urging fiscal policy reassessment.\nThe post Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50% appeared first o…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:30:07Z",
-            "url": "https://cryptobriefing.com/druckenmiller-us-borrowing-costs-low-yield-prediction/",
-            "sentiment_score": -0.1453,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak markets",
-            "description": "Barclays' reliance on outdated systems like Beowulf highlights the urgent need for banks to modernize infrastructure to manage trading risks effectively.\nThe post Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak marke…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:24:11Z",
-            "url": "https://cryptobriefing.com/barclays-beowulf-trading-outages/",
-            "sentiment_score": -0.387,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "People raised in the 60s, 70s & 80s usually nostalgic for these 8 things about life that younger generations are glad have disappeared",
-            "description": "Somewhere at this year’s Thanksgiving table, someone born before 1975 is going to bring up the way things used to be. The freedom. The quiet. The way a Friday night meant going somewhere instead of scrolling through...\nThe post People raised in the 60s, 70s &…",
-            "source": "Stylegirlfriend.com",
-            "published_at": "2026-09-10T17:23:00Z",
-            "url": "https://stylegirlfriend.com/people-raised-in-the-60s-70s-80s-usually-nostalgic-for-these-8-things-about-life-that-younger-generations-are-glad-have-disappeared/",
-            "sentiment_score": 0.3823,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nThe August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decisi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:22:23Z",
-            "url": "https://biztoc.com/x/e86556397fb04ab1",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "August CPI report crucial for Fed rate decision in September",
-            "description": "The August CPI report's impact on Fed decisions could shift market dynamics, influencing economic forecasts and investor strategies.\nThe post August CPI report crucial for Fed rate decision in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:17:40Z",
-            "url": "https://cryptobriefing.com/august-cpi-report-crucial-for-fed-rate-decision-in-september/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates climb: Average rate on 30-year home loan hits highest level in months",
-            "description": "Mortgage rates rose for the third week in a row, pushing the average long-term U.S. home loan rate to its highest level in over 14 months",
-            "source": "Abcnews.com",
-            "published_at": "2026-09-10T17:15:31Z",
-            "url": "https://abcnews.com/Business/wireStory/mortgage-rates-climb-average-rate-30-year-home-136339706",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "The August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decis...",
-            "source": "Benzinga",
-            "published_at": "2026-09-10T17:05:49Z",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61722133/fed-rate-hike-friday-cpi-inflation?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "The post What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? appeared first on 24/7 Wall St..\nXRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:04:23Z",
-            "url": "https://biztoc.com/x/ece8caf1e2374925",
-            "sentiment_score": 0.6369,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "XRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining week. The Federal Reserve...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-10T16:58:46Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/10/what-is-the-best-crypto-to-buy-before-the-fed-decides-on-september-16-xrp-or-solana/",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s proposed $5,000 election dividend checks could fuel inflation, economists say",
-            "description": "Economists say President Donald Trump’s promise of a $5,000 \"dividend\" check could stoke inflation, further straining household finances in the long run.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T16:58:11Z",
-            "url": "https://www.cnbc.com/2026/09/10/trump-5000-election-dividend.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotter producer prices strengthen bets on a Fed rate hike",
-            "description": "US producer prices rose, increasing rate hike expectations for the Federal Reserve. Traders now price a seventy percent chance of a quarter-point increase next week. Consumer inflation data due Friday will further influence the central bank's decision. Renewe…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T16:50:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/hotter-producer-prices-strengthen-bets-on-a-fed-rate-hike/articleshow/134020373.cms",
-            "sentiment_score": 0.3759,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Shares slide as oil price surge and ECB hikes rates",
-            "description": "ICG shares jump 6.7% after shareholders narrowly back €1.2bn buyout plan",
-            "source": "The Irish Times",
-            "published_at": "2026-09-10T16:49:39Z",
-            "url": "https://www.irishtimes.com/business/2026/09/10/shares-slide-as-oil-price-surge-and-ecb-hikes-rates/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil Jumps Above $107, Bond Yields Surge Higher, Stocks Fall",
-            "description": "Oil prices jumped to their highest levels since May amid renewed fighting in the Persian Gulf and investor concerns that the war in Iran will persist longer than previously thought. Brent crude futures crossed above $107 a barrel and WTI\nThe post Oil Jumps Ab…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-10T16:44:12Z",
-            "url": "https://www.breitbart.com/economy/2026/09/10/oil-up-stocks-down-bond-yields-higher/",
-            "sentiment_score": -0.2634,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest Rates and Stock Prices: An Old Debate Flares up!",
-            "description": "",
-            "source": "Blogger.com",
-            "published_at": "2026-09-10T16:37:37Z",
-            "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/8152901575140311047/6106553853569811480",
-            "sentiment_score": 0.3565,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumers See Tougher Job Market as Household Finances Weaken",
-            "description": "Americans aren’t expecting a wave of pink slips, but they’re becoming less confident about what would happen if they needed another job.\nThe Federal Reserve Bank of New York’s August Survey of Consumer Expectations found that the mean probability consumers as…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:18:49Z",
-            "url": "https://biztoc.com/x/01d98f64706c1822",
-            "sentiment_score": -0.013,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up?",
-            "description": "Ethereum has rallied 37% in just 10 days despite rising Treasury yields, creating one of the most interesting market situations of 2026. Higher bond yields...\nThe post Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up? appeared first on Bit…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-09-10T16:13:08Z",
-            "url": "https://bitcoinfoundation.org/news/ethereum/ethereums-37-rally-meets-rising-bond-yields-why-is-eth-holding-up/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is the bond market so important?",
-            "description": "In August we had another bond market crash, a sign that worries both business and investors.",
-            "source": "Ncspin.com",
-            "published_at": "2026-09-10T16:13:00Z",
-            "url": "https://www.ncspin.com/why-is-the-bond-market-so-important",
-            "sentiment_score": 0.0317,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bread And Circus: Trump’s $5,000 Dividend Plan Sets Off Bond Market Turbulence, Inflation Fears",
-            "description": "President Donald Trump announced Wednesday that if the GOP wins the election, over a trillion dollars will be spent on “dividends” to voters.",
-            "source": "The Daily Caller",
-            "published_at": "2026-09-10T16:06:37Z",
-            "url": "https://dailycaller.com/2026/09/10/trump-5000-dividends-midterm-convention-bond-jd-vance-inflation-markets",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-            "description": "A swell of unfriendly factors for inflation likely will push the Federal Reserve to an interest rate hike next week and there's possibly another before the end of the year, judging by market pricing Thursday.\nTraders pushed chances for a rate increase to 70% …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:06:06Z",
-            "url": "https://biztoc.com/x/fb0d61073c8d86e8",
-            "sentiment_score": 0.4884,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
-            "description": "Indian markets ended higher after Sensex and Nifty reversed losses during the closing auction, snapping a three-session decline. Crude above $102, weak global cues and rising yields kept sentiment cautious, while Nifty formed a hammer and stocks showed buying…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T15:56:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/134018556.cms",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0119,
+        "average_score": 0.0445,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Stock Takes: Radius Residential Care and Oceania Healthcare set to gain the most from proposed aged care shake-up",
+            "description": "The Ministerial Advisory Group has recommended funding increases.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-09-10T20:00:00Z",
+            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-radius-residential-care-and-oceania-healthcare-set-to-gain-the-most-from-proposed-aged-care-shake-up/premium/4SHQEA7XBREJPEUVNWMSKZPK4Q/",
+            "sentiment_score": 0.6689,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "JPY",
             "title": "Scott Bessent dared the $32 trillion bond market with ‘I am the house now’ statement. It didn’t listen",
@@ -1532,6 +1512,16 @@
             "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/134018556.cms",
             "sentiment_score": -0.1946,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Europe Just Raised Rates Again With Inflation 'Well Above Target.' Here's What US Traders Need to Know.",
+            "description": "Ahead of the Fed’s September policy meeting, the ECB hiked rates to fight stubborn inflation.",
+            "source": "Barchart.com",
+            "published_at": "2026-09-10T13:36:48Z",
+            "url": "https://www.barchart.com/story/news/4537752/europe-just-raised-rates-again-with-inflation-well-above-target-here-s-what-us-traders-need-to-know",
+            "sentiment_score": -0.0033,
+            "sentiment_label": "เป็นกลาง (Neutral)"
           },
           {
             "currency": "JPY",
@@ -1572,6 +1562,16 @@
             "url": "https://cryptoslate.com/bitcoin-holds-near-78k-as-markets-confront-the-macro-shocks-they-may-have-underpriced-this-week/",
             "sentiment_score": -0.5703,
             "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "U.S. Stock Futures Slip as Oil Extends Gains, PPI Data and Oracle Earnings on Tap",
+            "description": "September S&P 500 E-Mini futures (ESU26) are down -0.15%, and September Nasdaq 100 E-Mini futures (NQU26) are down -0.66% this morning as rising oil prices a...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-10T10:30:33Z",
+            "url": "https://www.barchart.com/story/news/4531314/u-s-stock-futures-mixed-as-oil-extends-gains-ppi-data-and-oracle-earnings-on-tap",
+            "sentiment_score": 0.3083,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "JPY",
@@ -1762,50 +1762,10 @@
             "url": "https://freerepublic.com/focus/f-chat/4394893/posts",
             "sentiment_score": 0.1627,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "'I am the house now': Scott Bessent warns traders not to bet against his plan to bolster the Japanese yen",
-            "description": "The Treasury Secretary defends the decision to buy billions in yen to prevent Japan from selling its $1.1 trillion in U.S. debt.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-09T23:00:00Z",
-            "url": "https://finance.yahoo.com/markets/currencies/articles/am-house-now-scott-bessent-230000967.html",
-            "sentiment_score": -0.1178,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ to raise rates to 1.25% this month, reach 1.75% faster than expected: Reuters poll",
-            "description": "TOKYO, Sept 10 : The Bank of Japan will hike interest rates to 1.25 per cent on September 18 and then to 1.75 per cent in the second quarter of 2027 — earlier than previously thought — a Reuters poll showed, amid persistent concerns over broadening price pres…",
-            "source": "CNA",
-            "published_at": "2026-09-09T22:04:04Z",
-            "url": "https://www.channelnewsasia.com/business/boj-raise-rates-125-month-reach-175-faster-expected-reuters-poll-6374101",
-            "sentiment_score": 0.1557,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Dollar Recovers on Smaller Treasury Buyback and Higher T-Note Yields",
-            "description": "The dollar index (DXY00 ) recovered from a 2.5-week low on Wednesday and finished up by +0.06%. The dollar found support on Wednesday after WTI crude oil sur...",
-            "source": "Barchart.com",
-            "published_at": "2026-09-09T19:40:38Z",
-            "url": "https://www.barchart.com/story/news/4521336/dollar-recovers-on-smaller-treasury-buyback-and-higher-t-note-yields",
-            "sentiment_score": -0.0014,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Treasury Unveils $6B in Bond Buybacks as Bessent Warns 'I Am the House' on Yen Intervention. Here's How Markets Are Reacting.",
-            "description": "Secretary Bessent’s activist approach to markets gets mixed reviews on Wall Street.",
-            "source": "Barchart.com",
-            "published_at": "2026-09-09T17:21:23Z",
-            "url": "https://www.barchart.com/story/news/4518938/treasury-unveils-6b-in-bond-buybacks-as-bessent-warns-i-am-the-house-on-yen-intervention-here-s-how-markets-are-reacting",
-            "sentiment_score": 0.0719,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.039,
+      "net_score": 0.0475,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1815,14 +1775,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 153.724,
+      "price_now": 153.554,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 43.1,
-      "rsi_signal": "โซนกลาง (RSI=43.1)",
+      "rsi_value": 38.1,
+      "rsi_signal": "โซนกลาง (RSI=38.1)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.26521,
-      "suggested_sl_distance": 0.39781,
+      "atr_value": 0.25966,
+      "suggested_sl_distance": 0.38949,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1836,7 +1796,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-11T18:21:02.039162+00:00"
+    "generated_at": "2026-09-11T21:39:11.911738+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1922,10 +1882,220 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0271,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.092,
+        "label": "บวกเล็กน้อย",
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "United States Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon, but they may find their main policy tool will do little to restrain some of the forces pushing up prices now. \n The consumer pri…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:35:42Z",
+            "url": "https://biztoc.com/x/4f915730f461e576",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nu Partners With Lead Bank to Launch Full US Banking Suite",
+            "description": "Nu, which has built its digital bank in Latin America over the past 13 years, entered the United States with a full suite of products, the company said in a Thursday (Sept. 10) press release. Nu launched in the U.S. through a partner bank model on Tuesday, wi…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-10T21:35:27Z",
+            "url": "https://www.pymnts.com/news/banking/2026/nu-partners-with-lead-bank-launch-full-unitd-states-banking-suite/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Small CPI surprise could trigger big Fed rate decision",
+            "description": "Wall Street is about to get the one inflation number that could determine if the Federal Reserve raises interest rates next week.\nWith wholesale prices already showing renewed inflation pressure and crude oil prices climbing, the Sept. 11 August Consumer Pric…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:21:04Z",
+            "url": "https://biztoc.com/x/e2d8008f7e06275c",
+            "sentiment_score": 0.0767,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:06:42Z",
+            "url": "https://biztoc.com/x/4a19d3be0fe657e0",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: Inflation palpitations",
+            "description": "ORLANDO, Florida, Sept 10 : Global bond yields leaped to multi-year highs and U.S. and European stocks slumped on Thursday, as oil surged above $100 a barrel on the prospect of prolonged conflict in the Middle East. U.S. President Donald Trump added to invest…",
+            "source": "CNA",
+            "published_at": "2026-09-10T21:04:58Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-inflation-palpitations-6377261",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação",
+            "description": "Grandes fabricantes de chips perderam terreno, com a Nvidia caindo 2,3% e a Micron Technology tombando 4,7%\nThe post Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação appeared first on InfoMoney.",
+            "source": "InfoMoney",
+            "published_at": "2026-09-10T20:35:56Z",
+            "url": "https://www.infomoney.com.br/mercados/dow-jones-fecha-em-queda-com-alta-de-yields-de-treasuries-e-preocupacao-com-inflacao/",
+            "sentiment_score": 0.2263,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil Prices Leap to Their Highest Since May",
+            "description": "US stocks sank on Thursday after oil prices jumped back to where they were in May. The S&P 500 fell 44.66 points, or 0.6%, to 7,591.70. its fourth straight loss. The Dow Jones Industrial Average fell 316.56 points, or 0.6%, to 52,064.10....",
+            "source": "Newser",
+            "published_at": "2026-09-10T20:35:00Z",
+            "url": "https://www.newser.com/story/396242/oil-prices-leap-to-their-highest-since-may.html",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "August CPI report could spark the Fed's first rate hike in over 3 years",
+            "description": "A key inflation reading tomorrow could determine whether the Federal Reserve issues its first interest rate hike in more than three years.\nThe August Consumer Price Index report, scheduled for release at 8:30 a.m. ET on Friday, is the last major inflation sna…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T20:20:08Z",
+            "url": "https://biztoc.com/x/bc7761e4b8e3efd2",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
+            "description": "US stocks fell as Brent crude surged 6% to $107 a barrel and Treasury yields climbed to multi-year highs. Rising energy prices and producer inflation data strengthened expectations of a Federal Reserve rate hike next week. Nvidia and Micron declined, while Ap…",
+            "source": "The Times of India",
+            "published_at": "2026-09-10T20:18:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-rising-oil-treasury-yields-lift-fed-hike-bets/articleshow/134028937.cms",
+            "sentiment_score": 0.0031,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon. Find out more here",
+            "source": "Financial Post",
+            "published_at": "2026-09-10T20:14:10Z",
+            "url": "https://financialpost.com/news/economy/what-fed-rate-hike-actually-means",
+            "sentiment_score": 0.2335,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Is Trump's $5,000 pledge legal and what will it cost?",
+            "description": "US President Donald Trump has promised $5,000 to every American adult if Republicans retain control of the House of Representatives and the Senate in the November mid-term elections.",
+            "source": "RTE",
+            "published_at": "2026-09-10T20:05:40Z",
+            "url": "https://www.rte.ie/news/2026/0910/1591101-trump-money-/",
+            "sentiment_score": 0.198,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Takes: Radius Residential Care and Oceania Healthcare set to gain the most from proposed aged care shake-up",
+            "description": "The Ministerial Advisory Group has recommended funding increases.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-09-10T20:00:00Z",
+            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-radius-residential-care-and-oceania-healthcare-set-to-gain-the-most-from-proposed-aged-care-shake-up/premium/4SHQEA7XBREJPEUVNWMSKZPK4Q/",
+            "sentiment_score": 0.6689,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wyoming Bank Shuts Down Systems, Limits Account Access After Cybersecurity Incident",
+            "description": "Hilltop Bank closed branches and took all systems offline to contain a cybersecurity incident, leaving debit cards functional with a $1,000 daily limit and no timeline for restoration.\nThe post Wyoming Bank Shuts Down Systems, Limits Account Access After Cybe…",
+            "source": "The Daily Hodl",
+            "published_at": "2026-09-10T19:46:14Z",
+            "url": "https://dailyhodl.com/2026/09/10/wyoming-bank-shuts-down-systems-limits-account-access-after-cybersecurity-incident/",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CPI report: Prices rose 3.4% in August, matching inflation expectations and raising Fed rate hike odds",
+            "description": "Consumer prices rose 3.4% in August, matching economists' estimates as the Fed weighs whether to hike benchmark interest rates or hold them steady.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-10T19:45:26Z",
+            "url": "https://finance.yahoo.com/economy/article/cpi-report-prices-rose-34-in-august-matching-inflation-expectations-and-raising-fed-rate-hike-odds-194526792.html",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T19:35:18Z",
+            "url": "https://biztoc.com/x/a2fb40f15a2b714a",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wholesale Inflation Is Rising Again",
+            "description": "Wholesale inflation picked up last month after cooling earlier this summer as higher oil and gas prices stemming from the Iran war keep costs elevated. The Labor Department's Producer Price Index—which captures inflation before it reaches consumers—rose 5.4% …",
+            "source": "Newser",
+            "published_at": "2026-09-10T19:20:00Z",
+            "url": "https://www.newser.com/story/396241/wholesale-inflation-is-rising-again.html",
+            "sentiment_score": -0.1716,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "The Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.",
+            "source": "CNBC",
+            "published_at": "2026-09-10T19:18:05Z",
+            "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+            "sentiment_score": 0.1901,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Mortgage Rates Climb as Inflation Anxiety Builds",
+            "description": "All eyes are on the Federal Reserve, as it weighs whether to raise its benchmark rate next week.",
+            "source": "NerdWallet",
+            "published_at": "2026-09-10T18:50:02Z",
+            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-9-10-26#article",
+            "sentiment_score": -0.1245,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why American Currency Can Only Feature Images of Dead People",
+            "description": "Spencer Clark is probably the most obscure American ever to appear on U.S. banknotes.",
+            "source": "Military.com",
+            "published_at": "2026-09-10T18:46:20Z",
+            "url": "https://military.com/history/why-american-currency-can-only-feature-images-of-dead-people.html",
+            "sentiment_score": -0.454,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+            "description": "Bitcoin couldn't escape today's inflation-driven selloff, but a bearish pattern on its chart is about to flip for the first time since November.",
+            "source": "Decrypt",
+            "published_at": "2026-09-10T18:46:04Z",
+            "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
+            "sentiment_score": -0.02,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin declines for fourth consecutive session, falls below $80,000",
@@ -1995,247 +2165,27 @@
             "url": "https://biztoc.com/x/8df1245bf7ab5ead",
             "sentiment_score": -0.102,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Yields on US government bonds rise as traders expect Fed rate hike",
-            "description": "Rising bond yields signal potential economic tightening, impacting borrowing costs and financial markets amid inflation and geopolitical tensions.\nThe post Yields on US government bonds rise as traders expect Fed rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:44:37Z",
-            "url": "https://cryptobriefing.com/treasury-yields-rise-fed-rate-hike/",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
-            "description": "A key tech-stock volatility metric options traders have been watching all year is reversing.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T17:42:24Z",
-            "url": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50%",
-            "description": "Rising yields could strain federal budgets, elevate borrowing costs, and challenge economic growth, urging fiscal policy reassessment.\nThe post Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50% appeared first o…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:30:07Z",
-            "url": "https://cryptobriefing.com/druckenmiller-us-borrowing-costs-low-yield-prediction/",
-            "sentiment_score": -0.1453,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak markets",
-            "description": "Barclays' reliance on outdated systems like Beowulf highlights the urgent need for banks to modernize infrastructure to manage trading risks effectively.\nThe post Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak marke…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:24:11Z",
-            "url": "https://cryptobriefing.com/barclays-beowulf-trading-outages/",
-            "sentiment_score": -0.387,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "People raised in the 60s, 70s & 80s usually nostalgic for these 8 things about life that younger generations are glad have disappeared",
-            "description": "Somewhere at this year’s Thanksgiving table, someone born before 1975 is going to bring up the way things used to be. The freedom. The quiet. The way a Friday night meant going somewhere instead of scrolling through...\nThe post People raised in the 60s, 70s &…",
-            "source": "Stylegirlfriend.com",
-            "published_at": "2026-09-10T17:23:00Z",
-            "url": "https://stylegirlfriend.com/people-raised-in-the-60s-70s-80s-usually-nostalgic-for-these-8-things-about-life-that-younger-generations-are-glad-have-disappeared/",
-            "sentiment_score": 0.3823,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nThe August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decisi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:22:23Z",
-            "url": "https://biztoc.com/x/e86556397fb04ab1",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "August CPI report crucial for Fed rate decision in September",
-            "description": "The August CPI report's impact on Fed decisions could shift market dynamics, influencing economic forecasts and investor strategies.\nThe post August CPI report crucial for Fed rate decision in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:17:40Z",
-            "url": "https://cryptobriefing.com/august-cpi-report-crucial-for-fed-rate-decision-in-september/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates climb: Average rate on 30-year home loan hits highest level in months",
-            "description": "Mortgage rates rose for the third week in a row, pushing the average long-term U.S. home loan rate to its highest level in over 14 months",
-            "source": "Abcnews.com",
-            "published_at": "2026-09-10T17:15:31Z",
-            "url": "https://abcnews.com/Business/wireStory/mortgage-rates-climb-average-rate-30-year-home-136339706",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "The August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decis...",
-            "source": "Benzinga",
-            "published_at": "2026-09-10T17:05:49Z",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61722133/fed-rate-hike-friday-cpi-inflation?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "The post What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? appeared first on 24/7 Wall St..\nXRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:04:23Z",
-            "url": "https://biztoc.com/x/ece8caf1e2374925",
-            "sentiment_score": 0.6369,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "XRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining week. The Federal Reserve...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-10T16:58:46Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/10/what-is-the-best-crypto-to-buy-before-the-fed-decides-on-september-16-xrp-or-solana/",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s proposed $5,000 election dividend checks could fuel inflation, economists say",
-            "description": "Economists say President Donald Trump’s promise of a $5,000 \"dividend\" check could stoke inflation, further straining household finances in the long run.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T16:58:11Z",
-            "url": "https://www.cnbc.com/2026/09/10/trump-5000-election-dividend.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotter producer prices strengthen bets on a Fed rate hike",
-            "description": "US producer prices rose, increasing rate hike expectations for the Federal Reserve. Traders now price a seventy percent chance of a quarter-point increase next week. Consumer inflation data due Friday will further influence the central bank's decision. Renewe…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T16:50:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/hotter-producer-prices-strengthen-bets-on-a-fed-rate-hike/articleshow/134020373.cms",
-            "sentiment_score": 0.3759,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Shares slide as oil price surge and ECB hikes rates",
-            "description": "ICG shares jump 6.7% after shareholders narrowly back €1.2bn buyout plan",
-            "source": "The Irish Times",
-            "published_at": "2026-09-10T16:49:39Z",
-            "url": "https://www.irishtimes.com/business/2026/09/10/shares-slide-as-oil-price-surge-and-ecb-hikes-rates/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil Jumps Above $107, Bond Yields Surge Higher, Stocks Fall",
-            "description": "Oil prices jumped to their highest levels since May amid renewed fighting in the Persian Gulf and investor concerns that the war in Iran will persist longer than previously thought. Brent crude futures crossed above $107 a barrel and WTI\nThe post Oil Jumps Ab…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-10T16:44:12Z",
-            "url": "https://www.breitbart.com/economy/2026/09/10/oil-up-stocks-down-bond-yields-higher/",
-            "sentiment_score": -0.2634,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest Rates and Stock Prices: An Old Debate Flares up!",
-            "description": "",
-            "source": "Blogger.com",
-            "published_at": "2026-09-10T16:37:37Z",
-            "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/8152901575140311047/6106553853569811480",
-            "sentiment_score": 0.3565,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumers See Tougher Job Market as Household Finances Weaken",
-            "description": "Americans aren’t expecting a wave of pink slips, but they’re becoming less confident about what would happen if they needed another job.\nThe Federal Reserve Bank of New York’s August Survey of Consumer Expectations found that the mean probability consumers as…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:18:49Z",
-            "url": "https://biztoc.com/x/01d98f64706c1822",
-            "sentiment_score": -0.013,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up?",
-            "description": "Ethereum has rallied 37% in just 10 days despite rising Treasury yields, creating one of the most interesting market situations of 2026. Higher bond yields...\nThe post Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up? appeared first on Bit…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-09-10T16:13:08Z",
-            "url": "https://bitcoinfoundation.org/news/ethereum/ethereums-37-rally-meets-rising-bond-yields-why-is-eth-holding-up/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is the bond market so important?",
-            "description": "In August we had another bond market crash, a sign that worries both business and investors.",
-            "source": "Ncspin.com",
-            "published_at": "2026-09-10T16:13:00Z",
-            "url": "https://www.ncspin.com/why-is-the-bond-market-so-important",
-            "sentiment_score": 0.0317,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bread And Circus: Trump’s $5,000 Dividend Plan Sets Off Bond Market Turbulence, Inflation Fears",
-            "description": "President Donald Trump announced Wednesday that if the GOP wins the election, over a trillion dollars will be spent on “dividends” to voters.",
-            "source": "The Daily Caller",
-            "published_at": "2026-09-10T16:06:37Z",
-            "url": "https://dailycaller.com/2026/09/10/trump-5000-dividends-midterm-convention-bond-jd-vance-inflation-markets",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-            "description": "A swell of unfriendly factors for inflation likely will push the Federal Reserve to an interest rate hike next week and there's possibly another before the end of the year, judging by market pricing Thursday.\nTraders pushed chances for a rate increase to 70% …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:06:06Z",
-            "url": "https://biztoc.com/x/fb0d61073c8d86e8",
-            "sentiment_score": 0.4884,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
-            "description": "Indian markets ended higher after Sensex and Nifty reversed losses during the closing auction, snapping a three-session decline. Crude above $102, weak global cues and rising yields kept sentiment cautious, while Nifty formed a hammer and stocks showed buying…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T15:56:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/134018556.cms",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0909,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.21,
+      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.71762,
+      "price_now": 0.71726,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 49.1,
-      "rsi_signal": "โซนกลาง (RSI=49.1)",
+      "rsi_value": 45.6,
+      "rsi_signal": "โซนกลาง (RSI=45.6)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00072,
-      "suggested_sl_distance": 0.00108,
+      "atr_value": 0.00066,
+      "suggested_sl_distance": 0.00098,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2249,7 +2199,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-11T18:21:02.039162+00:00"
+    "generated_at": "2026-09-11T21:39:11.911738+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2495,10 +2445,220 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0271,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.092,
+        "label": "บวกเล็กน้อย",
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "United States Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon, but they may find their main policy tool will do little to restrain some of the forces pushing up prices now. \n The consumer pri…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:35:42Z",
+            "url": "https://biztoc.com/x/4f915730f461e576",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nu Partners With Lead Bank to Launch Full US Banking Suite",
+            "description": "Nu, which has built its digital bank in Latin America over the past 13 years, entered the United States with a full suite of products, the company said in a Thursday (Sept. 10) press release. Nu launched in the U.S. through a partner bank model on Tuesday, wi…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-10T21:35:27Z",
+            "url": "https://www.pymnts.com/news/banking/2026/nu-partners-with-lead-bank-launch-full-unitd-states-banking-suite/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Small CPI surprise could trigger big Fed rate decision",
+            "description": "Wall Street is about to get the one inflation number that could determine if the Federal Reserve raises interest rates next week.\nWith wholesale prices already showing renewed inflation pressure and crude oil prices climbing, the Sept. 11 August Consumer Pric…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:21:04Z",
+            "url": "https://biztoc.com/x/e2d8008f7e06275c",
+            "sentiment_score": 0.0767,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T21:06:42Z",
+            "url": "https://biztoc.com/x/4a19d3be0fe657e0",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: Inflation palpitations",
+            "description": "ORLANDO, Florida, Sept 10 : Global bond yields leaped to multi-year highs and U.S. and European stocks slumped on Thursday, as oil surged above $100 a barrel on the prospect of prolonged conflict in the Middle East. U.S. President Donald Trump added to invest…",
+            "source": "CNA",
+            "published_at": "2026-09-10T21:04:58Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-inflation-palpitations-6377261",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação",
+            "description": "Grandes fabricantes de chips perderam terreno, com a Nvidia caindo 2,3% e a Micron Technology tombando 4,7%\nThe post Dow Jones fecha em queda, com alta de yields de Treasuries e preocupação com inflação appeared first on InfoMoney.",
+            "source": "InfoMoney",
+            "published_at": "2026-09-10T20:35:56Z",
+            "url": "https://www.infomoney.com.br/mercados/dow-jones-fecha-em-queda-com-alta-de-yields-de-treasuries-e-preocupacao-com-inflacao/",
+            "sentiment_score": 0.2263,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Oil Prices Leap to Their Highest Since May",
+            "description": "US stocks sank on Thursday after oil prices jumped back to where they were in May. The S&P 500 fell 44.66 points, or 0.6%, to 7,591.70. its fourth straight loss. The Dow Jones Industrial Average fell 316.56 points, or 0.6%, to 52,064.10....",
+            "source": "Newser",
+            "published_at": "2026-09-10T20:35:00Z",
+            "url": "https://www.newser.com/story/396242/oil-prices-leap-to-their-highest-since-may.html",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "August CPI report could spark the Fed's first rate hike in over 3 years",
+            "description": "A key inflation reading tomorrow could determine whether the Federal Reserve issues its first interest rate hike in more than three years.\nThe August Consumer Price Index report, scheduled for release at 8:30 a.m. ET on Friday, is the last major inflation sna…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T20:20:08Z",
+            "url": "https://biztoc.com/x/bc7761e4b8e3efd2",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks today: US stocks end lower as rising oil, Treasury yields lift Fed hike bets",
+            "description": "US stocks fell as Brent crude surged 6% to $107 a barrel and Treasury yields climbed to multi-year highs. Rising energy prices and producer inflation data strengthened expectations of a Federal Reserve rate hike next week. Nvidia and Micron declined, while Ap…",
+            "source": "The Times of India",
+            "published_at": "2026-09-10T20:18:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-lower-as-rising-oil-treasury-yields-lift-fed-hike-bets/articleshow/134028937.cms",
+            "sentiment_score": 0.0031,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "What a Fed rate hike actually means for the U.S. economy and inflation",
+            "description": "Federal Reserve officials have signalled they’re prepared to raise interest rates if inflation doesn’t improve soon. Find out more here",
+            "source": "Financial Post",
+            "published_at": "2026-09-10T20:14:10Z",
+            "url": "https://financialpost.com/news/economy/what-fed-rate-hike-actually-means",
+            "sentiment_score": 0.2335,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Is Trump's $5,000 pledge legal and what will it cost?",
+            "description": "US President Donald Trump has promised $5,000 to every American adult if Republicans retain control of the House of Representatives and the Senate in the November mid-term elections.",
+            "source": "RTE",
+            "published_at": "2026-09-10T20:05:40Z",
+            "url": "https://www.rte.ie/news/2026/0910/1591101-trump-money-/",
+            "sentiment_score": 0.198,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Bab el-Mandeb Problem",
+            "description": "Houthi control of a Red Sea port brings Tehran closer to claiming another critical waterway.",
+            "source": "Foreign Policy",
+            "published_at": "2026-09-10T20:04:01Z",
+            "url": "http://foreignpolicy.com/2026/09/10/houthis-yemen-mokha-port-red-sea-bab-el-mandeb-iran-saudi-arabia-strait-hormuz/",
+            "sentiment_score": -0.3768,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Takes: Radius Residential Care and Oceania Healthcare set to gain the most from proposed aged care shake-up",
+            "description": "The Ministerial Advisory Group has recommended funding increases.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-09-10T20:00:00Z",
+            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-radius-residential-care-and-oceania-healthcare-set-to-gain-the-most-from-proposed-aged-care-shake-up/premium/4SHQEA7XBREJPEUVNWMSKZPK4Q/",
+            "sentiment_score": 0.6689,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wyoming Bank Shuts Down Systems, Limits Account Access After Cybersecurity Incident",
+            "description": "Hilltop Bank closed branches and took all systems offline to contain a cybersecurity incident, leaving debit cards functional with a $1,000 daily limit and no timeline for restoration.\nThe post Wyoming Bank Shuts Down Systems, Limits Account Access After Cybe…",
+            "source": "The Daily Hodl",
+            "published_at": "2026-09-10T19:46:14Z",
+            "url": "https://dailyhodl.com/2026/09/10/wyoming-bank-shuts-down-systems-limits-account-access-after-cybersecurity-incident/",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CPI report: Prices rose 3.4% in August, matching inflation expectations and raising Fed rate hike odds",
+            "description": "Consumer prices rose 3.4% in August, matching economists' estimates as the Fed weighs whether to hike benchmark interest rates or hold them steady.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-10T19:45:26Z",
+            "url": "https://finance.yahoo.com/economy/article/cpi-report-prices-rose-34-in-august-matching-inflation-expectations-and-raising-fed-rate-hike-odds-194526792.html",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "A report due out Friday morning will be the last piece of the inflation puzzle the Federal Reserve will get before making its decision on interest rates next week.\nThe Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-10T19:35:18Z",
+            "url": "https://biztoc.com/x/a2fb40f15a2b714a",
+            "sentiment_score": 0.3278,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wholesale Inflation Is Rising Again",
+            "description": "Wholesale inflation picked up last month after cooling earlier this summer as higher oil and gas prices stemming from the Iran war keep costs elevated. The Labor Department's Producer Price Index—which captures inflation before it reaches consumers—rose 5.4% …",
+            "source": "Newser",
+            "published_at": "2026-09-10T19:20:00Z",
+            "url": "https://www.newser.com/story/396241/wholesale-inflation-is-rising-again.html",
+            "sentiment_score": -0.1716,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Friday's CPI inflation report is even more important than usual. Here's what to expect",
+            "description": "The Bureau of Labor Statistics will release the August consumer price index report at 8:30 a.m.",
+            "source": "CNBC",
+            "published_at": "2026-09-10T19:18:05Z",
+            "url": "https://www.cnbc.com/2026/09/10/fridays-cpi-inflation-report-is-even-more-important-than-usual-heres-what-to-expect.html",
+            "sentiment_score": 0.1901,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Mortgage Rates Climb as Inflation Anxiety Builds",
+            "description": "All eyes are on the Federal Reserve, as it weighs whether to raise its benchmark rate next week.",
+            "source": "NerdWallet",
+            "published_at": "2026-09-10T18:50:02Z",
+            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-9-10-26#article",
+            "sentiment_score": -0.1245,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why American Currency Can Only Feature Images of Dead People",
+            "description": "Spencer Clark is probably the most obscure American ever to appear on U.S. banknotes.",
+            "source": "Military.com",
+            "published_at": "2026-09-10T18:46:20Z",
+            "url": "https://military.com/history/why-american-currency-can-only-feature-images-of-dead-people.html",
+            "sentiment_score": -0.454,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rally Cools, But a Golden Cross Is Coming",
+            "description": "Bitcoin couldn't escape today's inflation-driven selloff, but a bearish pattern on its chart is about to flip for the first time since November.",
+            "source": "Decrypt",
+            "published_at": "2026-09-10T18:46:04Z",
+            "url": "https://decrypt.co/377903/bitcoin-price-golden-cross-coming",
+            "sentiment_score": -0.02,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin declines for fourth consecutive session, falls below $80,000",
@@ -2568,230 +2728,10 @@
             "url": "https://biztoc.com/x/8df1245bf7ab5ead",
             "sentiment_score": -0.102,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Yields on US government bonds rise as traders expect Fed rate hike",
-            "description": "Rising bond yields signal potential economic tightening, impacting borrowing costs and financial markets amid inflation and geopolitical tensions.\nThe post Yields on US government bonds rise as traders expect Fed rate hike appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:44:37Z",
-            "url": "https://cryptobriefing.com/treasury-yields-rise-fed-rate-hike/",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI is losing its stranglehold on the U.S. stock market. Here's why",
-            "description": "A key tech-stock volatility metric options traders have been watching all year is reversing.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T17:42:24Z",
-            "url": "https://www.cnbc.com/2026/09/10/ai-is-losing-its-stranglehold-on-the-us-stock-market-heres-why.html",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50%",
-            "description": "Rising yields could strain federal budgets, elevate borrowing costs, and challenge economic growth, urging fiscal policy reassessment.\nThe post Stanley Druckenmiller says US borrowing costs are still low, predicts 10-year yield will hit 5.50% appeared first o…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:30:07Z",
-            "url": "https://cryptobriefing.com/druckenmiller-us-borrowing-costs-low-yield-prediction/",
-            "sentiment_score": -0.1453,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak markets",
-            "description": "Barclays' reliance on outdated systems like Beowulf highlights the urgent need for banks to modernize infrastructure to manage trading risks effectively.\nThe post Barclays traders flying blind as internal risk platform Beowulf keeps crashing during peak marke…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:24:11Z",
-            "url": "https://cryptobriefing.com/barclays-beowulf-trading-outages/",
-            "sentiment_score": -0.387,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "People raised in the 60s, 70s & 80s usually nostalgic for these 8 things about life that younger generations are glad have disappeared",
-            "description": "Somewhere at this year’s Thanksgiving table, someone born before 1975 is going to bring up the way things used to be. The freedom. The quiet. The way a Friday night meant going somewhere instead of scrolling through...\nThe post People raised in the 60s, 70s &…",
-            "source": "Stylegirlfriend.com",
-            "published_at": "2026-09-10T17:23:00Z",
-            "url": "https://stylegirlfriend.com/people-raised-in-the-60s-70s-80s-usually-nostalgic-for-these-8-things-about-life-that-younger-generations-are-glad-have-disappeared/",
-            "sentiment_score": 0.3823,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nThe August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decisi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:22:23Z",
-            "url": "https://biztoc.com/x/e86556397fb04ab1",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "August CPI report crucial for Fed rate decision in September",
-            "description": "The August CPI report's impact on Fed decisions could shift market dynamics, influencing economic forecasts and investor strategies.\nThe post August CPI report crucial for Fed rate decision in September appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-10T17:17:40Z",
-            "url": "https://cryptobriefing.com/august-cpi-report-crucial-for-fed-rate-decision-in-september/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates climb: Average rate on 30-year home loan hits highest level in months",
-            "description": "Mortgage rates rose for the third week in a row, pushing the average long-term U.S. home loan rate to its highest level in over 14 months",
-            "source": "Abcnews.com",
-            "published_at": "2026-09-10T17:15:31Z",
-            "url": "https://abcnews.com/Business/wireStory/mortgage-rates-climb-average-rate-30-year-home-136339706",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "CPI Data Prediction Market Preview: Traders Brace for a Razor-Thin Call",
-            "description": "The August consumer price index is due Friday at 8:30 a.m. ET and could determine whether the Federal Reserve raises interest rates next week, with the decis...",
-            "source": "Benzinga",
-            "published_at": "2026-09-10T17:05:49Z",
-            "url": "https://www.benzinga.com/markets/prediction-markets/26/09/61722133/fed-rate-hike-friday-cpi-inflation?utm_source=yahooFinance&amp;utm_campaign=partner_feed&amp;utm_medium=referral",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "The post What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana? appeared first on 24/7 Wall St..\nXRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T17:04:23Z",
-            "url": "https://biztoc.com/x/ece8caf1e2374925",
-            "sentiment_score": 0.6369,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Is the Best Crypto to Buy Before the Fed Decides on September 16: XRP or Solana?",
-            "description": "XRP (CRYPTO:XRP) and Solana (CRYPTO:SOL) have both climbed more than 30% over the past month, and the two coins now face a defining week. The Federal Reserve...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-10T16:58:46Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/10/what-is-the-best-crypto-to-buy-before-the-fed-decides-on-september-16-xrp-or-solana/",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s proposed $5,000 election dividend checks could fuel inflation, economists say",
-            "description": "Economists say President Donald Trump’s promise of a $5,000 \"dividend\" check could stoke inflation, further straining household finances in the long run.",
-            "source": "CNBC",
-            "published_at": "2026-09-10T16:58:11Z",
-            "url": "https://www.cnbc.com/2026/09/10/trump-5000-election-dividend.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hotter producer prices strengthen bets on a Fed rate hike",
-            "description": "US producer prices rose, increasing rate hike expectations for the Federal Reserve. Traders now price a seventy percent chance of a quarter-point increase next week. Consumer inflation data due Friday will further influence the central bank's decision. Renewe…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T16:50:23Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/hotter-producer-prices-strengthen-bets-on-a-fed-rate-hike/articleshow/134020373.cms",
-            "sentiment_score": 0.3759,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Shares slide as oil price surge and ECB hikes rates",
-            "description": "ICG shares jump 6.7% after shareholders narrowly back €1.2bn buyout plan",
-            "source": "The Irish Times",
-            "published_at": "2026-09-10T16:49:39Z",
-            "url": "https://www.irishtimes.com/business/2026/09/10/shares-slide-as-oil-price-surge-and-ecb-hikes-rates/",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil Jumps Above $107, Bond Yields Surge Higher, Stocks Fall",
-            "description": "Oil prices jumped to their highest levels since May amid renewed fighting in the Persian Gulf and investor concerns that the war in Iran will persist longer than previously thought. Brent crude futures crossed above $107 a barrel and WTI\nThe post Oil Jumps Ab…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-10T16:44:12Z",
-            "url": "https://www.breitbart.com/economy/2026/09/10/oil-up-stocks-down-bond-yields-higher/",
-            "sentiment_score": -0.2634,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Interest Rates and Stock Prices: An Old Debate Flares up!",
-            "description": "",
-            "source": "Blogger.com",
-            "published_at": "2026-09-10T16:37:37Z",
-            "url": "https://www.blogger.com/browser-not-supported/?ref=/comment/fullpage/post/8152901575140311047/6106553853569811480",
-            "sentiment_score": 0.3565,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumers See Tougher Job Market as Household Finances Weaken",
-            "description": "Americans aren’t expecting a wave of pink slips, but they’re becoming less confident about what would happen if they needed another job.\nThe Federal Reserve Bank of New York’s August Survey of Consumer Expectations found that the mean probability consumers as…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:18:49Z",
-            "url": "https://biztoc.com/x/01d98f64706c1822",
-            "sentiment_score": -0.013,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up?",
-            "description": "Ethereum has rallied 37% in just 10 days despite rising Treasury yields, creating one of the most interesting market situations of 2026. Higher bond yields...\nThe post Ethereum’s 37% Rally Meets Rising Bond Yields: Why Is ETH Holding Up? appeared first on Bit…",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-09-10T16:13:08Z",
-            "url": "https://bitcoinfoundation.org/news/ethereum/ethereums-37-rally-meets-rising-bond-yields-why-is-eth-holding-up/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is the bond market so important?",
-            "description": "In August we had another bond market crash, a sign that worries both business and investors.",
-            "source": "Ncspin.com",
-            "published_at": "2026-09-10T16:13:00Z",
-            "url": "https://www.ncspin.com/why-is-the-bond-market-so-important",
-            "sentiment_score": 0.0317,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bread And Circus: Trump’s $5,000 Dividend Plan Sets Off Bond Market Turbulence, Inflation Fears",
-            "description": "President Donald Trump announced Wednesday that if the GOP wins the election, over a trillion dollars will be spent on “dividends” to voters.",
-            "source": "The Daily Caller",
-            "published_at": "2026-09-10T16:06:37Z",
-            "url": "https://dailycaller.com/2026/09/10/trump-5000-dividends-midterm-convention-bond-jd-vance-inflation-markets",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The likelihood of a Fed interest rate hike next week just got a lot higher",
-            "description": "A swell of unfriendly factors for inflation likely will push the Federal Reserve to an interest rate hike next week and there's possibly another before the end of the year, judging by market pricing Thursday.\nTraders pushed chances for a rate increase to 70% …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-10T16:06:06Z",
-            "url": "https://biztoc.com/x/fb0d61073c8d86e8",
-            "sentiment_score": 0.4884,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ahead of Market: 10 things that will decide stock market action on Friday",
-            "description": "Indian markets ended higher after Sensex and Nifty reversed losses during the closing auction, snapping a three-session decline. Crude above $102, weak global cues and rising yields kept sentiment cautious, while Nifty formed a hammer and stocks showed buying…",
-            "source": "The Times of India",
-            "published_at": "2026-09-10T15:56:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-friday/articleshow/134018556.cms",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.009,
+      "net_score": -0.1101,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2801,14 +2741,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4398.2998,
+      "price_now": 4390.0,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 49.7,
-      "rsi_signal": "โซนกลาง (RSI=49.7)",
+      "rsi_value": 47.3,
+      "rsi_signal": "โซนกลาง (RSI=47.3)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 22.38003,
-      "suggested_sl_distance": 33.57004,
+      "atr_value": 21.11252,
+      "suggested_sl_distance": 31.66878,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2822,6 +2762,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-11T18:21:02.039162+00:00"
+    "generated_at": "2026-09-11T21:39:11.911738+00:00"
   }
 ]
