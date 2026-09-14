@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0549,
-        "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "average_score": 0.0395,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Current inflation shock likely to last longer than expected: ECB president",
+            "description": "The ECB raised interest rates this week for the second time since the Iran war sent oil and gas prices soaring",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:05:41Z",
+            "url": "https://www.business-standard.com/world-news/current-inflation-shock-likely-to-last-longer-than-expected-ecb-president-126091300044_1.html",
+            "sentiment_score": -0.3351,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "Christine Lagarde: Interview with Ouest-France",
@@ -109,204 +129,124 @@
             "url": "https://www.irishtimes.com/business/2026/09/12/makhlouf-stays-on-the-fence-on-future-rate-hikes/",
             "sentiment_score": -0.1115,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Dollar Gains Ground as CPI Report Produces Higher Odds for a Fed Rate Hike",
-            "description": "The dollar index (DXY00 ) on Friday rose by +0.06%. The dollar found support as a hawkish US CPI report pushed odds of an FOMC rate hike next week up to 88%...",
-            "source": "Barchart.com",
-            "published_at": "2026-09-11T19:42:39Z",
-            "url": "https://www.barchart.com/story/news/4564040/dollar-gains-ground-as-cpi-report-produces-higher-odds-for-a-fed-rate-hike",
-            "sentiment_score": 0.3586,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Philip Lane warns inflation squeeze will worsen, leaving door open for further ECB rate hikes",
-            "description": "ECB’s chief economist says latest move was measured adjustment to significant inflation issue",
-            "source": "The Irish Times",
-            "published_at": "2026-09-11T17:53:03Z",
-            "url": "https://www.irishtimes.com/business/2026/09/11/philip-lane-warns-inflation-squeeze-will-worsen-leaving-door-open-for-further-ecb-rate-hikes/",
-            "sentiment_score": -0.3396,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "European stock edge higher as oil prices retreat from five-month peak",
-            "description": "Irish stock market ends week in positive territory, buoyed by gains in banking and travel stocks",
-            "source": "The Irish Times",
-            "published_at": "2026-09-11T17:39:08Z",
-            "url": "https://www.irishtimes.com/business/2026/09/11/european-stock-edge-higher-as-oil-prices-retreat-from-five-month-peak/",
-            "sentiment_score": 0.3571,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB chief economist says rate rise 'measured adjustment'",
-            "description": "The Chief Economist of the European Central Bank has described yesterday's decision to hike rates by quarter of a percentage point as a \"measured adjustment\" in the face of \"significant inflation issue\".",
-            "source": "RTE",
-            "published_at": "2026-09-11T17:33:00Z",
-            "url": "https://www.rte.ie/news/business/2026/0911/1591241-ecb-chief-reaction/",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB’s Philip Lane sees euro area growth holding up despite energy shock headwinds",
-            "description": "The ECB's cautious optimism amid energy shocks suggests a complex balancing act between growth and inflation, impacting euro strength and exports.\nThe post ECB’s Philip Lane sees euro area growth holding up despite energy shock headwinds appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-11T17:05:44Z",
-            "url": "https://cryptobriefing.com/ecb-lane-euro-area-economic-outlook/",
-            "sentiment_score": 0.5829,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global bond selloff pushes US 10-yr yield nears 5% on oil, rate fears",
-            "description": "Global Bond Selloff Nears Historic Thresholds as Surging Oil and Rate Hike Expectations Push Yields to Multi-Year Highs",
-            "source": "Business Standard",
-            "published_at": "2026-09-11T14:46:08Z",
-            "url": "https://www.business-standard.com/world-news/global-bond-selloff-pushes-us-10-yr-yield-nears-5-on-oil-rate-fears-126091101303_1.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB Puts Europe Back on the Rate-Hike Treadmill",
-            "description": "The central bank lifted rates another 25 basis points as the Middle East energy shock keeps inflation elevated, forcing European markets to rethink how high...",
-            "source": "Moby.co",
-            "published_at": "2026-09-11T14:45:31Z",
-            "url": "https://app.moby.co/home/news/news-ecb-puts-europe-back-on-the-rate-hike-treadmill?utm_source=yahoo_finance&amp;utm_medium=rss",
-            "sentiment_score": -0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Treasury buys $5.2 billion of bonds as Bitcoin ETF flows stay negative",
-            "description": "The operation supported older bonds, but rising real yields showed why market plumbing had yet to ease Bitcoin’s funding backdrop.\nThe post Treasury buys $5.2 billion of bonds as Bitcoin ETF flows stay negative appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-11T14:30:12Z",
-            "url": "https://cryptoslate.com/treasury-buys-5-2-billion-of-bonds-as-bitcoin-etf-flows-stay-negative/",
-            "sentiment_score": -0.3044,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "AI ‘Arms Race’ Still Poses Global Stability Risk, BIS Chief Says",
-            "description": "The artificial intelligence boom remains a global financial stability danger that risks more damage than past crashes, the Bank for International Settlements chief said. Pablo Hernandez de Cos reiterated a warning delivered by his institution in June, observi…",
-            "source": "Insurance Journal",
-            "published_at": "2026-09-11T11:53:20Z",
-            "url": "https://www.insurancejournal.com/news/international/2026/09/11/884738.htm",
-            "sentiment_score": -0.4333,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Oil falls but on track for 8% weekly gain on supply concerns; US diesel hits record high",
-            "description": "Sept 11 : Oil prices fell on Friday but remained on course for a weekly gain of more than 8 per cent while U.S. diesel prices hit a record high as attacks along Middle East shipping routes stoked concerns about prolonged supply disruptions.Brent crude futures…",
-            "source": "CNA",
-            "published_at": "2026-09-11T11:52:17Z",
-            "url": "https://www.channelnewsasia.com/business/oil-falls-track-8-weekly-gain-supply-concerns-us-diesel-hits-record-high-6377531",
-            "sentiment_score": 0.282,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Sensex today | Stock Market Highlights: Sensex down 120 pts, Nifty closes at 23,398, logs 5th weekly loss as oil fears grip markets",
-            "description": "Sensex, Nifty, Stock Price Highlights: Benchmark indices Sensex and Nifty ended marginally lower on Friday after registering sharp losses during the day following a drop in crude oil prices and buying in blue-chip HDFC Bank and IT stocks.",
-            "source": "BusinessLine",
-            "published_at": "2026-09-11T11:20:12Z",
-            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-11th-september-2026/article71453005.ece",
-            "sentiment_score": -0.422,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market | ECB may need further rate hikes if energy prices stay high: Nagel",
-            "description": "ECB policymaker Joachim Nagel said the central bank may need to raise interest rates further if elevated energy prices persist, potentially moving policy into mildly restrictive territory. The ECB raised its key rate to 2.50% on Thursday, while the outlook fo…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T10:47:00Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-ecb-may-need-further-rate-hikes-if-energy-prices-stay-high-nagel/articleshow/134061226.cms",
-            "sentiment_score": 0.3787,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Morning Bid: Take a hike",
-            "description": "By Anna Szymanski Sept 11 (Reuters) - As summer fades, so have hopes for a quick resolution to the U.-Iran conflict, as tit-for-tat strikes, new threats in t...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-11T10:45:00Z",
-            "url": "https://finance.yahoo.com/news/morning-bid-hike-104500949.html",
-            "sentiment_score": -0.1637,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: European stocks gain ahead of key US inflation data",
-            "description": "European stocks edged higher on Friday but remained headed for their worst weekly performance since April as rising bond yields and inflation concerns weighed on sentiment. Investors are awaiting US inflation data for clues on the Federal Reserve’s rate path,…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T10:39:05Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-stocks-gain-ahead-of-key-us-inflation-data/articleshow/134060867.cms",
-            "sentiment_score": 0.1382,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global bond sell-off deepens as $100 oil stokes stagflation fears",
-            "description": "The yield on German 10-year bonds, seen as the euro area benchmark, crossed 3.5% on Friday for the first time since April 2011.",
-            "source": "CNBC",
-            "published_at": "2026-09-11T10:35:08Z",
-            "url": "https://www.cnbc.com/2026/09/11/bond-yields-treasurys-inflation-oil.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Households saved nearly €1 in €5 of disposable income",
-            "description": "New Central Statistics Office figures show that households saved 19.9%, or almost €1 in €5, of their disposable income in the second quarter of this year.",
-            "source": "RTE",
-            "published_at": "2026-09-11T10:24:43Z",
-            "url": "https://www.rte.ie/news/business/2026/0911/1591168-cso-household-saving-rate/",
-            "sentiment_score": 0.4215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "S&P Futures Climb as Oil Retreats Ahead of Key U.S. Inflation Data; Oracle Jumps After Earnings",
-            "description": "September S&P 500 E-Mini futures (ESU26) are up +0.57% this morning, finding some relief as oil prices and bond yields retreated, with attention now turning...",
-            "source": "Barchart.com",
-            "published_at": "2026-09-11T10:23:37Z",
-            "url": "https://www.barchart.com/story/news/4554049/s-p-futures-climb-as-oil-retreats-ahead-of-key-u-s-inflation-data-oracle-jumps-after-earnings",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: European stocks gain ahead of key US inflation data",
-            "description": "European stocks edged higher on Friday, but the STOXX 600 remained on track for its worst weekly performance since April as elevated bond yields and concerns over aggressive interest rate hikes weighed on sentiment.",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T09:36:58Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-stocks-gain-ahead-of-key-us-inflation-data/articleshow/134057895.cms",
-            "sentiment_score": 0.2037,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "US Stock Futures Rise Ahead of CPI as Oracle and Adobe Report Results: Dow Jones, S&P, Nasdaq, Wall Street",
-            "description": "US stock futures moved higher on Friday as investors awaited August consumer inflation data ahead of the Federal Reserve’s interest-rate decision next week....",
-            "source": "Advfn.com",
-            "published_at": "2026-09-11T09:04:19Z",
-            "url": "https://investorshub.advfn.com/market-news/article/36077/us-stock-futures-rise-ahead-of-cpi-as-oracle-and-adobe-report-results",
-            "sentiment_score": -0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0594,
-        "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "average_score": 0.0225,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
+            "description": "Indian equities enter a holiday-shortened week with the Nifty at a crucial support zone after five consecutive weekly declines. The US Fed’s policy decision, FOMC projections, crude oil prices, global bond yields and foreign flows will drive near-term sentime…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:35:56Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
+            "sentiment_score": -0.1216,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:27:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/this-is-the-test-all-eyes-on-us-fed-to-tackle-high-inflation/articleshow/134177098.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "Central banks from much of the Group of Seven face a pivotal week as mounting inflation risks heap pressure on them to raise interest rates.\nThree decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the U.K. a…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:59:24Z",
+            "url": "https://biztoc.com/x/57677c5740961fb9",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Futures Traders Just Dramatically Repriced the Chances of a Fed Hike Next Week",
+            "description": "Suddenly, an interest rate hike by the Federal Reserve next week looks a lot like a sure thing.\nThat's according to the federal funds futures market, which now puts the chances of a rate hike at next week's Federal Open Market Committee (FOMC) meeting at abou…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:45:45Z",
+            "url": "https://biztoc.com/x/ef8da2e353d56d6e",
+            "sentiment_score": 0.3884,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:00:52Z",
+            "url": "https://biztoc.com/x/a45a331ff96a7b60",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "EUR/USD could retest 1.17 after Fed decision - Citi says",
+            "description": "Investing.com -- EUR/USD could move back toward its summer highs near 1.17 if next week's Federal Reserve decision triggers a \"sell the news\" reaction in the dollar, Citi strategists said, though geopolitical and energy risks could limit the greenback's downs…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-12T23:45:33Z",
+            "url": "https://biztoc.com/x/541411bc8b67b8e7",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Guaranteeing ARC-ES to tackle our $40 trillion debt",
+            "description": "'One economic solution should be easy to embrace – removing uncertainty from energy costs, the top driver of business and family budgets'",
+            "source": "Wnd.com",
+            "published_at": "2026-09-12T23:22:59Z",
+            "url": "https://www.wnd.com/2026/09/guaranteeing-arc-es-tackle-our-40-trillion-debt/",
+            "sentiment_score": -0.0157,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Doug Casey on the Coming Oil Shock—and Where Investors Could Profit",
+            "description": "International Man: The Strategic Petroleum Reserve was created after the 1970s oil shocks to protect the country from severe supply disruptions. Since the war with Iran began earlier this year, Washington has been tapping it again. Is this exactly what the re…",
+            "source": "Activistpost.com",
+            "published_at": "2026-09-12T22:00:00Z",
+            "url": "https://activistpost.com/doug-casey-on-the-coming-oil-shock-and-where-investors-could-profit/",
+            "sentiment_score": 0.0729,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy",
+            "description": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy\nSaudi Arabia's last workaround around the Strait of Hormuz was hit by drones and shut down this week. At the same time, Iran-backed Houthi forces finished taking Yemen's entire Re…",
+            "source": "Offgridsurvival.com",
+            "published_at": "2026-09-12T21:50:37Z",
+            "url": "https://offgridsurvival.com/saudi-pipeline-attacked-diesel-at-6-the-fuel-crisis-that-could-upend-economy/",
+            "sentiment_score": -0.7964,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-Year Treasury Nears 5%, Raising CRE Financing Risk",
+            "description": "The 10-year Treasury yield reached 4.97%, lifting CRE financing pressure as markets weighed inflation and a possible September Fed hike.",
+            "source": "Credaily.com",
+            "published_at": "2026-09-12T21:37:14Z",
+            "url": "https://www.credaily.com/briefs/10-year-treasury-nears-5-raising-cre-financing-risk/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Why Is Bitcoin Dropping Today?",
@@ -479,137 +419,17 @@
           },
           {
             "currency": "USD",
-            "title": "US households hold record 48% of financial assets in equities",
-            "description": "The surge in equity holdings heightens economic inequality and increases vulnerability to market volatility, potentially impacting consumer spending.\nThe post US households hold record 48% of financial assets in equities appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:19:34Z",
-            "url": "https://cryptobriefing.com/us-households-record-equity-allocation/",
-            "sentiment_score": 0.109,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dalio urges investors to shift from bonds to gold amid US debt concerns",
-            "description": "Dalio's advice may signal a shift in investor confidence, potentially increasing gold's role as a hedge against economic instability.\nThe post Dalio urges investors to shift from bonds to gold amid US debt concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:03:05Z",
-            "url": "https://cryptobriefing.com/dalio-urges-investors-to-shift-from-bonds-to-gold-amid-us-debt-concerns/",
-            "sentiment_score": -0.1922,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Faces A Huge Credibility Test",
-            "description": "The past month has had a flurry of major macro events combine to create a very difficult decision for the Federal Reserve in its upcoming September meeting, including the August CPI report, the European Central Bank’s (\"ECB\") rate hike\nSummary\n- Inflation is …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:58:41Z",
-            "url": "https://biztoc.com/x/f606cb679e0bccb5",
-            "sentiment_score": 0.1699,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Truflation reports US inflation at 2.33% while the BLS says 3.4%",
-            "description": "Divergent inflation readings could lead to misaligned monetary policy, impacting interest rates, market valuations, and economic forecasts.\nThe post Truflation reports US inflation at 2.33% while the BLS says 3.4% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:43:59Z",
-            "url": "https://cryptobriefing.com/truflation-us-cpi-2-percent-bls-3-percent/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Morgan Stanley expects yen to decline as traders rebuild carry trades",
-            "description": "Morgan Stanley's yen forecast suggests potential global financial shifts, impacting currency markets and influencing international trade dynamics.\nThe post Morgan Stanley expects yen to decline as traders rebuild carry trades appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:42:33Z",
-            "url": "https://cryptobriefing.com/morgan-stanley-yen-carry-trade-decline/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "College sticker prices keep rising. Why many schools are still under financial strain",
-            "description": "Even with soaring price tags, a growing number of private colleges are in financial distress.",
-            "source": "CNBC",
-            "published_at": "2026-09-12T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/09/12/college-costs-top-100000-as-tuition-discounts-strain-schools.html",
-            "sentiment_score": -0.1381,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed rate-hike odds surge as Warsh faces inflation-weary markets",
-            "description": "While Federal Reserve Chairman Kevin Warsh faces an interest-rate showdown of doves and hawks next week that speaks to the credibility of the central bank as well as his own, investors are mulling how best to navigate the expected market volatility that await…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:28:51Z",
-            "url": "https://biztoc.com/x/89f826f83f6fc367",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran Says It’s No Longer Bound by the Nuclear Treaty. What That Does to Oil, Gold, and Bitcoin",
-            "description": "An Iranian lawmaker declared the Nuclear Non-Proliferation Treaty no longer binding, oil surged, gold fell, and Bitcoin slipped below $78,000. Tracing whethe...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T13:20:26Z",
-            "url": "https://247wallst.com/investing/2026/09/12/iran-says-its-no-longer-bound-by-the-nuclear-treaty-what-that-does-to-oil-gold-and-bitcoin/",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket predicts 83% chance of Fed rate hike on September 16",
-            "description": "A likely Fed rate hike could tighten liquidity, impacting risk assets and increasing the opportunity cost of holding non-yielding investments.\nThe post Polymarket predicts 83% chance of Fed rate hike on September 16 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:11:30Z",
-            "url": "https://cryptobriefing.com/polymarket-fed-rate-hike-september/",
-            "sentiment_score": 0.333,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Iran-related news will be focus over the weekend. The Federal Reserve meeting will take center stage this coming week, with markets largely pricing in an interest rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:00:13Z",
-            "url": "https://biztoc.com/x/206a9b1e930df919",
-            "sentiment_score": -0.0696,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "The post Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin appeared first on 24/7 Wall St..\nTraders on Polymarket price a 25 basis point hike at the September 15 to 16 FOMC meeting at 83%, with a hold …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T12:58:37Z",
-            "url": "https://biztoc.com/x/b69ad623824435e1",
+            "title": "Big Players ravage prediction markets",
+            "description": "The idea that insiders hold the whip handle in prediction markets runs counter to claims made by promoters, who include Donald Trump and Donald Trump Jr.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-12T14:54:00Z",
+            "url": "https://finance.yahoo.com/markets/options/articles/big-players-ravage-prediction-markets-145400068.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Despite Friday's bounce, the stock market had a tough week.",
-            "source": "Investor's Business Daily",
-            "published_at": "2026-09-12T12:48:22Z",
-            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/",
-            "sentiment_score": -0.2456,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "Polymarket odds on a September Fed hike have nearly tripled in three weeks, and the 10-year Treasury is already moving like the decision is done. What that t...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T12:45:22Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/12/will-the-fed-raise-rates-on-september-16-polymarket-now-says-83-heres-what-it-means-for-xrp-and-bitcoin/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0045,
+      "net_score": 0.017,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -619,28 +439,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.15982,
+      "price_now": 1.15687,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 40.9,
-      "rsi_signal": "โซนกลาง (RSI=40.9)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00076,
-      "suggested_sl_distance": 0.00115,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
+      "rsi_value": 23.8,
+      "rsi_signal": "ขายมากเกิน (RSI=23.8) ราคาอาจเด้ง",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00081,
+      "suggested_sl_distance": 0.00121,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=23.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-14T00:02:47.484533+00:00"
+    "generated_at": "2026-09-14T04:41:47.270188+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -649,10 +469,60 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1062,
-        "label": "บวกเล็กน้อย",
-        "article_count": 15,
+        "average_score": 0.0165,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 8,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
+            "description": "Indian equities enter a holiday-shortened week with the Nifty at a crucial support zone after five consecutive weekly declines. The US Fed’s policy decision, FOMC projections, crude oil prices, global bond yields and foreign flows will drive near-term sentime…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:35:56Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
+            "sentiment_score": -0.1216,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Bessent’s attempts to suppress interest rates could spark a recession",
+            "description": "The bond market can be tricky for even its most sophisticated and well-armed participants.",
+            "source": "New York Post",
+            "published_at": "2026-09-13T01:27:29Z",
+            "url": "https://nypost.com/2026/09/12/business/scott-bessents-attempts-to-suppress-interest-rates-could-spark-a-recession/",
+            "sentiment_score": 0.3441,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Get Andy Burnham to pay YOU 5.9% on your savings for years: Here's exactly how to cash in on the bond market mayhem - even if you're a beginner",
+            "description": "The Government owes a lot of people a lot of money - nearly £3trillion and rising at pace. This financial year alone, Chancellor John Healey is expected to borrow around £115 billion...",
+            "source": "Dailymail.com",
+            "published_at": "2026-09-13T00:00:52Z",
+            "url": "https://www.dailymail.com/money/mailplus/article-16126165/Andy-Burnham-gilts-savings-pay-you-bond-market-mayhem.html",
+            "sentiment_score": -0.1469,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Get Andy Burnham to pay YOU 5.9% on your savings for years: Here's exactly how to cash in on the bond market mayhem - even if you're a beginner",
+            "description": "The Government owes a lot of people a lot of money - nearly £3trillion and rising at pace. This financial year alone, Chancellor John Healey is expected to borrow around £115 billion...",
+            "source": "Dailymail.com",
+            "published_at": "2026-09-13T00:00:52Z",
+            "url": "https://www.dailymail.com/money/mailplus/article-16126165/Andy-Burnham-gilts-savings-pay-you-bond-market-mayhem.html",
+            "sentiment_score": -0.1469,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Bank of England spent £85,000 on research to justify dropping Winston Churchill and other British heroes from banknotes",
@@ -682,134 +552,124 @@
             "url": "https://finance.yahoo.com/energy/articles/energy-markets-signal-winter-crisis-110002366.html",
             "sentiment_score": -0.1672,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK Interest Rates Could Rise Four Times Over the Next Year",
-            "description": "The Bank of England is expected to hike interest rates as many as four times within the next year, City figures have said, after the economy delivered surprise growth in July.  The central bank is expected to be buoyed by this morning’s GDP figures, which saw…",
-            "source": "OilPrice.com",
-            "published_at": "2026-09-11T18:00:00Z",
-            "url": "https://oilprice.com/Energy/Energy-General/UK-Interest-Rates-Could-Rise-Four-Times-Over-the-Next-Year.html",
-            "sentiment_score": 0.5527,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Pound climbs after UK growth beats expectations, powered by AI and tech boom",
-            "description": "The UK's unexpected growth, driven by AI and tech, may prompt the Bank of England to adopt a more hawkish stance on interest rates.\nThe post Pound climbs after UK growth beats expectations, powered by AI and tech boom appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-11T13:44:48Z",
-            "url": "https://cryptobriefing.com/pound-climbs-uk-gdp-beats-expectations/",
-            "sentiment_score": 0.5181,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "FTSE 100 Rebounds 0.36% Friday, Snapping Five-Day Losing Streak As Oil Prices Weigh On Global Markets",
-            "description": "The FTSE 100 rose 0.36% late Friday after five consecutive losses, but analysts said elevated oil prices, bond yields and technical weakness continued to limit recovery prospects.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-09-11T09:17:15Z",
-            "url": "https://www.ibtimes.com.au/ftse-100-rebounds-after-five-session-losing-streak-1875386",
-            "sentiment_score": -0.3908,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK economy unexpectedly grew 0.4% in July boosted by AI boom",
-            "description": "Resilient start to third quarter comes as surging oil price reignites inflation fears",
-            "source": "The Irish Times",
-            "published_at": "2026-09-11T08:55:19Z",
-            "url": "https://www.irishtimes.com/business/2026/09/11/uk-economy-unexpectedly-grew-04-in-july-boosted-by-ai-boom/",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK economy beats expectations in July with 0.4% growth",
-            "description": "Britain's economy grew by a stronger than expected 0.4 percent in July. This performance extended the strong showing seen in the first half of the year. Services sector strength offset falls in production and construction, with AI aiding software development.…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T07:18:11Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/uk-economy-beats-expectations-in-july-with-0-4-growth/articleshow/134051331.cms",
-            "sentiment_score": 0.5205,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK economy grew by 0.4% in July - ONS",
-            "description": "Britain's economy grew 0.4% in July, monthly figures from the Office for National ⁠Statistics showed today.",
-            "source": "RTE",
-            "published_at": "2026-09-11T06:14:58Z",
-            "url": "https://www.rte.ie/news/business/2026/0911/1591120-uk-economic-growth-figures/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK GDP report to show if economy kept growing in July –business live",
-            "description": "Rolling coverage of the latest economic and financial news\nGood morning, and welcome to our rolling coverage of business, the financial markets and the world economy.\nWe’re about to learn how the UK economy fared in July, during the summer heatwave.\n7am BST: …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-11T05:51:21Z",
-            "url": "https://biztoc.com/x/bd119832dacb4d0d",
-            "sentiment_score": 0.3374,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "US Dollar Price Forecast: Fed Hike Bets Rise as CPI Takes Center Stage; EUR/USD and GBP/USD Key Levels to Watch",
-            "description": "Fed hike bets rise as traders await U.S. CPI, with DXY testing 99.16 resistance while EUR/USD and GBP/USD remain under pressure.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-11T05:40:13Z",
-            "url": "https://finance.yahoo.com/markets/currencies/articles/us-dollar-price-forecast-fed-054013689.html",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Why are European banks moving their gold out of the US?",
-            "description": "The Netherlands and France have moved their gold out of US vaults. Part of the reason is fear over US reliability, but equally important is the need to have their gold closer to home in the event of a crisis. Fort Knox, the fortified complex in the state of K…",
-            "source": "DW (English)",
-            "published_at": "2026-09-11T05:17:00Z",
-            "url": "https://www.dw.com/en/why-are-european-banks-moving-their-gold-out-of-the-us/a-79213013",
-            "sentiment_score": -0.2284,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Why are European banks moving gold out of United States?",
-            "description": "The Netherlands and France have moved their gold out of US vaults. Part of the reason is fears about the reliability of the US, but equally important is the need to keep gold closer to home in the event of a crisis. Fort Knox, the fortified complex in the sta…",
-            "source": "DW (English)",
-            "published_at": "2026-09-11T05:17:00Z",
-            "url": "https://www.dw.com/en/why-are-european-banks-moving-gold-out-of-united-states/a-79213013",
-            "sentiment_score": 0.071,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "The Brexit lesson guiding Mark Carney’s response to Trump’s tariffs",
-            "description": "Canadian leader’s role at Bank of England during Brexit vote gives him a key insight as trade war with US escalates",
-            "source": "The Irish Times",
-            "published_at": "2026-09-11T05:00:00Z",
-            "url": "https://www.irishtimes.com/business/economy/2026/09/11/the-brexit-lesson-guiding-mark-carneys-response-to-trumps-tariffs/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Gold lingers near one-week low ahead of US CPI data",
-            "description": "As U.S. rate hike expectations firmed up, gold prices remained near a one-week low. The market is gearing up for the pivotal U.S. consumer price index data set to be unveiled later today, heightening anticipation. Speculation swirls around a potential increas…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T02:04:13Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-lingers-near-one-week-low-ahead-of-us-cpi-data/articleshow/134040389.cms",
-            "sentiment_score": -0.2446,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0594,
-        "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "average_score": 0.0225,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
+            "description": "Indian equities enter a holiday-shortened week with the Nifty at a crucial support zone after five consecutive weekly declines. The US Fed’s policy decision, FOMC projections, crude oil prices, global bond yields and foreign flows will drive near-term sentime…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:35:56Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
+            "sentiment_score": -0.1216,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:27:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/this-is-the-test-all-eyes-on-us-fed-to-tackle-high-inflation/articleshow/134177098.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "Central banks from much of the Group of Seven face a pivotal week as mounting inflation risks heap pressure on them to raise interest rates.\nThree decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the U.K. a…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:59:24Z",
+            "url": "https://biztoc.com/x/57677c5740961fb9",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Futures Traders Just Dramatically Repriced the Chances of a Fed Hike Next Week",
+            "description": "Suddenly, an interest rate hike by the Federal Reserve next week looks a lot like a sure thing.\nThat's according to the federal funds futures market, which now puts the chances of a rate hike at next week's Federal Open Market Committee (FOMC) meeting at abou…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:45:45Z",
+            "url": "https://biztoc.com/x/ef8da2e353d56d6e",
+            "sentiment_score": 0.3884,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:00:52Z",
+            "url": "https://biztoc.com/x/a45a331ff96a7b60",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "EUR/USD could retest 1.17 after Fed decision - Citi says",
+            "description": "Investing.com -- EUR/USD could move back toward its summer highs near 1.17 if next week's Federal Reserve decision triggers a \"sell the news\" reaction in the dollar, Citi strategists said, though geopolitical and energy risks could limit the greenback's downs…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-12T23:45:33Z",
+            "url": "https://biztoc.com/x/541411bc8b67b8e7",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Guaranteeing ARC-ES to tackle our $40 trillion debt",
+            "description": "'One economic solution should be easy to embrace – removing uncertainty from energy costs, the top driver of business and family budgets'",
+            "source": "Wnd.com",
+            "published_at": "2026-09-12T23:22:59Z",
+            "url": "https://www.wnd.com/2026/09/guaranteeing-arc-es-tackle-our-40-trillion-debt/",
+            "sentiment_score": -0.0157,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Doug Casey on the Coming Oil Shock—and Where Investors Could Profit",
+            "description": "International Man: The Strategic Petroleum Reserve was created after the 1970s oil shocks to protect the country from severe supply disruptions. Since the war with Iran began earlier this year, Washington has been tapping it again. Is this exactly what the re…",
+            "source": "Activistpost.com",
+            "published_at": "2026-09-12T22:00:00Z",
+            "url": "https://activistpost.com/doug-casey-on-the-coming-oil-shock-and-where-investors-could-profit/",
+            "sentiment_score": 0.0729,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy",
+            "description": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy\nSaudi Arabia's last workaround around the Strait of Hormuz was hit by drones and shut down this week. At the same time, Iran-backed Houthi forces finished taking Yemen's entire Re…",
+            "source": "Offgridsurvival.com",
+            "published_at": "2026-09-12T21:50:37Z",
+            "url": "https://offgridsurvival.com/saudi-pipeline-attacked-diesel-at-6-the-fuel-crisis-that-could-upend-economy/",
+            "sentiment_score": -0.7964,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-Year Treasury Nears 5%, Raising CRE Financing Risk",
+            "description": "The 10-year Treasury yield reached 4.97%, lifting CRE financing pressure as markets weighed inflation and a possible September Fed hike.",
+            "source": "Credaily.com",
+            "published_at": "2026-09-12T21:37:14Z",
+            "url": "https://www.credaily.com/briefs/10-year-treasury-nears-5-raising-cre-financing-risk/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Why Is Bitcoin Dropping Today?",
@@ -982,137 +842,17 @@
           },
           {
             "currency": "USD",
-            "title": "US households hold record 48% of financial assets in equities",
-            "description": "The surge in equity holdings heightens economic inequality and increases vulnerability to market volatility, potentially impacting consumer spending.\nThe post US households hold record 48% of financial assets in equities appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:19:34Z",
-            "url": "https://cryptobriefing.com/us-households-record-equity-allocation/",
-            "sentiment_score": 0.109,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dalio urges investors to shift from bonds to gold amid US debt concerns",
-            "description": "Dalio's advice may signal a shift in investor confidence, potentially increasing gold's role as a hedge against economic instability.\nThe post Dalio urges investors to shift from bonds to gold amid US debt concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:03:05Z",
-            "url": "https://cryptobriefing.com/dalio-urges-investors-to-shift-from-bonds-to-gold-amid-us-debt-concerns/",
-            "sentiment_score": -0.1922,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Faces A Huge Credibility Test",
-            "description": "The past month has had a flurry of major macro events combine to create a very difficult decision for the Federal Reserve in its upcoming September meeting, including the August CPI report, the European Central Bank’s (\"ECB\") rate hike\nSummary\n- Inflation is …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:58:41Z",
-            "url": "https://biztoc.com/x/f606cb679e0bccb5",
-            "sentiment_score": 0.1699,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Truflation reports US inflation at 2.33% while the BLS says 3.4%",
-            "description": "Divergent inflation readings could lead to misaligned monetary policy, impacting interest rates, market valuations, and economic forecasts.\nThe post Truflation reports US inflation at 2.33% while the BLS says 3.4% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:43:59Z",
-            "url": "https://cryptobriefing.com/truflation-us-cpi-2-percent-bls-3-percent/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Morgan Stanley expects yen to decline as traders rebuild carry trades",
-            "description": "Morgan Stanley's yen forecast suggests potential global financial shifts, impacting currency markets and influencing international trade dynamics.\nThe post Morgan Stanley expects yen to decline as traders rebuild carry trades appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:42:33Z",
-            "url": "https://cryptobriefing.com/morgan-stanley-yen-carry-trade-decline/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "College sticker prices keep rising. Why many schools are still under financial strain",
-            "description": "Even with soaring price tags, a growing number of private colleges are in financial distress.",
-            "source": "CNBC",
-            "published_at": "2026-09-12T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/09/12/college-costs-top-100000-as-tuition-discounts-strain-schools.html",
-            "sentiment_score": -0.1381,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed rate-hike odds surge as Warsh faces inflation-weary markets",
-            "description": "While Federal Reserve Chairman Kevin Warsh faces an interest-rate showdown of doves and hawks next week that speaks to the credibility of the central bank as well as his own, investors are mulling how best to navigate the expected market volatility that await…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:28:51Z",
-            "url": "https://biztoc.com/x/89f826f83f6fc367",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran Says It’s No Longer Bound by the Nuclear Treaty. What That Does to Oil, Gold, and Bitcoin",
-            "description": "An Iranian lawmaker declared the Nuclear Non-Proliferation Treaty no longer binding, oil surged, gold fell, and Bitcoin slipped below $78,000. Tracing whethe...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T13:20:26Z",
-            "url": "https://247wallst.com/investing/2026/09/12/iran-says-its-no-longer-bound-by-the-nuclear-treaty-what-that-does-to-oil-gold-and-bitcoin/",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket predicts 83% chance of Fed rate hike on September 16",
-            "description": "A likely Fed rate hike could tighten liquidity, impacting risk assets and increasing the opportunity cost of holding non-yielding investments.\nThe post Polymarket predicts 83% chance of Fed rate hike on September 16 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:11:30Z",
-            "url": "https://cryptobriefing.com/polymarket-fed-rate-hike-september/",
-            "sentiment_score": 0.333,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Iran-related news will be focus over the weekend. The Federal Reserve meeting will take center stage this coming week, with markets largely pricing in an interest rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:00:13Z",
-            "url": "https://biztoc.com/x/206a9b1e930df919",
-            "sentiment_score": -0.0696,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "The post Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin appeared first on 24/7 Wall St..\nTraders on Polymarket price a 25 basis point hike at the September 15 to 16 FOMC meeting at 83%, with a hold …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T12:58:37Z",
-            "url": "https://biztoc.com/x/b69ad623824435e1",
+            "title": "Big Players ravage prediction markets",
+            "description": "The idea that insiders hold the whip handle in prediction markets runs counter to claims made by promoters, who include Donald Trump and Donald Trump Jr.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-12T14:54:00Z",
+            "url": "https://finance.yahoo.com/markets/options/articles/big-players-ravage-prediction-markets-145400068.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Despite Friday's bounce, the stock market had a tough week.",
-            "source": "Investor's Business Daily",
-            "published_at": "2026-09-12T12:48:22Z",
-            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/",
-            "sentiment_score": -0.2456,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "Polymarket odds on a September Fed hike have nearly tripled in three weeks, and the 10-year Treasury is already moving like the decision is done. What that t...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T12:45:22Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/12/will-the-fed-raise-rates-on-september-16-polymarket-now-says-83-heres-what-it-means-for-xrp-and-bitcoin/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0468,
+      "net_score": -0.006,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1122,28 +862,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.35256,
+      "price_now": 1.35055,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.5,
-      "rsi_signal": "โซนกลาง (RSI=52.5)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00092,
-      "suggested_sl_distance": 0.00139,
+      "rsi_value": 38.4,
+      "rsi_signal": "โซนกลาง (RSI=38.4)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.0009,
+      "suggested_sl_distance": 0.00135,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=38.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-14T00:02:47.484533+00:00"
+    "generated_at": "2026-09-14T04:41:47.270188+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1152,10 +892,120 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0594,
-        "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "average_score": 0.0225,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
+            "description": "Indian equities enter a holiday-shortened week with the Nifty at a crucial support zone after five consecutive weekly declines. The US Fed’s policy decision, FOMC projections, crude oil prices, global bond yields and foreign flows will drive near-term sentime…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:35:56Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
+            "sentiment_score": -0.1216,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:27:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/this-is-the-test-all-eyes-on-us-fed-to-tackle-high-inflation/articleshow/134177098.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "Central banks from much of the Group of Seven face a pivotal week as mounting inflation risks heap pressure on them to raise interest rates.\nThree decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the U.K. a…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:59:24Z",
+            "url": "https://biztoc.com/x/57677c5740961fb9",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Futures Traders Just Dramatically Repriced the Chances of a Fed Hike Next Week",
+            "description": "Suddenly, an interest rate hike by the Federal Reserve next week looks a lot like a sure thing.\nThat's according to the federal funds futures market, which now puts the chances of a rate hike at next week's Federal Open Market Committee (FOMC) meeting at abou…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:45:45Z",
+            "url": "https://biztoc.com/x/ef8da2e353d56d6e",
+            "sentiment_score": 0.3884,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:00:52Z",
+            "url": "https://biztoc.com/x/a45a331ff96a7b60",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "EUR/USD could retest 1.17 after Fed decision - Citi says",
+            "description": "Investing.com -- EUR/USD could move back toward its summer highs near 1.17 if next week's Federal Reserve decision triggers a \"sell the news\" reaction in the dollar, Citi strategists said, though geopolitical and energy risks could limit the greenback's downs…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-12T23:45:33Z",
+            "url": "https://biztoc.com/x/541411bc8b67b8e7",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Guaranteeing ARC-ES to tackle our $40 trillion debt",
+            "description": "'One economic solution should be easy to embrace – removing uncertainty from energy costs, the top driver of business and family budgets'",
+            "source": "Wnd.com",
+            "published_at": "2026-09-12T23:22:59Z",
+            "url": "https://www.wnd.com/2026/09/guaranteeing-arc-es-tackle-our-40-trillion-debt/",
+            "sentiment_score": -0.0157,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Doug Casey on the Coming Oil Shock—and Where Investors Could Profit",
+            "description": "International Man: The Strategic Petroleum Reserve was created after the 1970s oil shocks to protect the country from severe supply disruptions. Since the war with Iran began earlier this year, Washington has been tapping it again. Is this exactly what the re…",
+            "source": "Activistpost.com",
+            "published_at": "2026-09-12T22:00:00Z",
+            "url": "https://activistpost.com/doug-casey-on-the-coming-oil-shock-and-where-investors-could-profit/",
+            "sentiment_score": 0.0729,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy",
+            "description": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy\nSaudi Arabia's last workaround around the Strait of Hormuz was hit by drones and shut down this week. At the same time, Iran-backed Houthi forces finished taking Yemen's entire Re…",
+            "source": "Offgridsurvival.com",
+            "published_at": "2026-09-12T21:50:37Z",
+            "url": "https://offgridsurvival.com/saudi-pipeline-attacked-diesel-at-6-the-fuel-crisis-that-could-upend-economy/",
+            "sentiment_score": -0.7964,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-Year Treasury Nears 5%, Raising CRE Financing Risk",
+            "description": "The 10-year Treasury yield reached 4.97%, lifting CRE financing pressure as markets weighed inflation and a possible September Fed hike.",
+            "source": "Credaily.com",
+            "published_at": "2026-09-12T21:37:14Z",
+            "url": "https://www.credaily.com/briefs/10-year-treasury-nears-5-raising-cre-financing-risk/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Why Is Bitcoin Dropping Today?",
@@ -1328,141 +1178,41 @@
           },
           {
             "currency": "USD",
-            "title": "US households hold record 48% of financial assets in equities",
-            "description": "The surge in equity holdings heightens economic inequality and increases vulnerability to market volatility, potentially impacting consumer spending.\nThe post US households hold record 48% of financial assets in equities appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:19:34Z",
-            "url": "https://cryptobriefing.com/us-households-record-equity-allocation/",
-            "sentiment_score": 0.109,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dalio urges investors to shift from bonds to gold amid US debt concerns",
-            "description": "Dalio's advice may signal a shift in investor confidence, potentially increasing gold's role as a hedge against economic instability.\nThe post Dalio urges investors to shift from bonds to gold amid US debt concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:03:05Z",
-            "url": "https://cryptobriefing.com/dalio-urges-investors-to-shift-from-bonds-to-gold-amid-us-debt-concerns/",
-            "sentiment_score": -0.1922,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Faces A Huge Credibility Test",
-            "description": "The past month has had a flurry of major macro events combine to create a very difficult decision for the Federal Reserve in its upcoming September meeting, including the August CPI report, the European Central Bank’s (\"ECB\") rate hike\nSummary\n- Inflation is …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:58:41Z",
-            "url": "https://biztoc.com/x/f606cb679e0bccb5",
-            "sentiment_score": 0.1699,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Truflation reports US inflation at 2.33% while the BLS says 3.4%",
-            "description": "Divergent inflation readings could lead to misaligned monetary policy, impacting interest rates, market valuations, and economic forecasts.\nThe post Truflation reports US inflation at 2.33% while the BLS says 3.4% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:43:59Z",
-            "url": "https://cryptobriefing.com/truflation-us-cpi-2-percent-bls-3-percent/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Morgan Stanley expects yen to decline as traders rebuild carry trades",
-            "description": "Morgan Stanley's yen forecast suggests potential global financial shifts, impacting currency markets and influencing international trade dynamics.\nThe post Morgan Stanley expects yen to decline as traders rebuild carry trades appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:42:33Z",
-            "url": "https://cryptobriefing.com/morgan-stanley-yen-carry-trade-decline/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "College sticker prices keep rising. Why many schools are still under financial strain",
-            "description": "Even with soaring price tags, a growing number of private colleges are in financial distress.",
-            "source": "CNBC",
-            "published_at": "2026-09-12T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/09/12/college-costs-top-100000-as-tuition-discounts-strain-schools.html",
-            "sentiment_score": -0.1381,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed rate-hike odds surge as Warsh faces inflation-weary markets",
-            "description": "While Federal Reserve Chairman Kevin Warsh faces an interest-rate showdown of doves and hawks next week that speaks to the credibility of the central bank as well as his own, investors are mulling how best to navigate the expected market volatility that await…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:28:51Z",
-            "url": "https://biztoc.com/x/89f826f83f6fc367",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran Says It’s No Longer Bound by the Nuclear Treaty. What That Does to Oil, Gold, and Bitcoin",
-            "description": "An Iranian lawmaker declared the Nuclear Non-Proliferation Treaty no longer binding, oil surged, gold fell, and Bitcoin slipped below $78,000. Tracing whethe...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T13:20:26Z",
-            "url": "https://247wallst.com/investing/2026/09/12/iran-says-its-no-longer-bound-by-the-nuclear-treaty-what-that-does-to-oil-gold-and-bitcoin/",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket predicts 83% chance of Fed rate hike on September 16",
-            "description": "A likely Fed rate hike could tighten liquidity, impacting risk assets and increasing the opportunity cost of holding non-yielding investments.\nThe post Polymarket predicts 83% chance of Fed rate hike on September 16 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:11:30Z",
-            "url": "https://cryptobriefing.com/polymarket-fed-rate-hike-september/",
-            "sentiment_score": 0.333,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Iran-related news will be focus over the weekend. The Federal Reserve meeting will take center stage this coming week, with markets largely pricing in an interest rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:00:13Z",
-            "url": "https://biztoc.com/x/206a9b1e930df919",
-            "sentiment_score": -0.0696,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "The post Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin appeared first on 24/7 Wall St..\nTraders on Polymarket price a 25 basis point hike at the September 15 to 16 FOMC meeting at 83%, with a hold …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T12:58:37Z",
-            "url": "https://biztoc.com/x/b69ad623824435e1",
+            "title": "Big Players ravage prediction markets",
+            "description": "The idea that insiders hold the whip handle in prediction markets runs counter to claims made by promoters, who include Donald Trump and Donald Trump Jr.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-12T14:54:00Z",
+            "url": "https://finance.yahoo.com/markets/options/articles/big-players-ravage-prediction-markets-145400068.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Despite Friday's bounce, the stock market had a tough week.",
-            "source": "Investor's Business Daily",
-            "published_at": "2026-09-12T12:48:22Z",
-            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/",
-            "sentiment_score": -0.2456,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "Polymarket odds on a September Fed hike have nearly tripled in three weeks, and the 10-year Treasury is already moving like the decision is done. What that t...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T12:45:22Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/12/will-the-fed-raise-rates-on-september-16-polymarket-now-says-83-heres-what-it-means-for-xrp-and-bitcoin/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0755,
+        "average_score": -0.0641,
         "label": "ลบเล็กน้อย",
-        "article_count": 24,
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
+            "description": "Indian equities enter a holiday-shortened week with the Nifty at a crucial support zone after five consecutive weekly declines. The US Fed’s policy decision, FOMC projections, crude oil prices, global bond yields and foreign flows will drive near-term sentime…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:35:56Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
+            "sentiment_score": -0.1216,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Morgan Stanley expects yen to decline as traders rebuild carry trades",
@@ -1512,200 +1262,10 @@
             "url": "https://biztoc.com/x/b63c5fdbde6f4b8e",
             "sentiment_score": 0.5367,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Dollar Gains Ground as CPI Report Produces Higher Odds for a Fed Rate Hike",
-            "description": "The dollar index (DXY00 ) on Friday rose by +0.06%. The dollar found support as a hawkish US CPI report pushed odds of an FOMC rate hike next week up to 88%...",
-            "source": "Barchart.com",
-            "published_at": "2026-09-11T19:42:39Z",
-            "url": "https://www.barchart.com/story/news/4564040/dollar-gains-ground-as-cpi-report-produces-higher-odds-for-a-fed-rate-hike",
-            "sentiment_score": 0.3586,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Forget the Fed. The Bank of Japan could deliver next week’s market shock",
-            "description": "U.S. stock investors should look to the other side of the world for guidance next week.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-11T15:38:17Z",
-            "url": "https://biztoc.com/x/6b0f969caaf2d500",
-            "sentiment_score": -0.3796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global bond selloff pushes US 10-yr yield nears 5% on oil, rate fears",
-            "description": "Global Bond Selloff Nears Historic Thresholds as Surging Oil and Rate Hike Expectations Push Yields to Multi-Year Highs",
-            "source": "Business Standard",
-            "published_at": "2026-09-11T14:46:08Z",
-            "url": "https://www.business-standard.com/world-news/global-bond-selloff-pushes-us-10-yr-yield-nears-5-on-oil-rate-fears-126091101303_1.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Dollar edges higher against Swiss franc after US inflation data",
-            "description": "NEW YORK, Sept 11 : The dollar edged higher against the Swiss franc on Friday after closely watched U.S. inflation data showed a rise in consumer prices, reinforcing expectations that the Federal Reserve will raise interest rates next week. The dollar initial…",
-            "source": "CNA",
-            "published_at": "2026-09-11T13:06:15Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-edges-higher-against-swiss-franc-after-us-inflation-data-6377536",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "‘If the Bloomberg Terminal bros are unhappy with what I’m doing, that’s too bad’: Bessent says he’ll continue ‘ignoring the noise’",
-            "description": "US Treasury Secretary Scott Bessent defended his bond action in an interview last night.",
-            "source": "Fortune",
-            "published_at": "2026-09-11T11:57:05Z",
-            "url": "https://fortune.com/2026/09/11/scott-bessent-bond-investors-unhappy-policy-tariffs/",
-            "sentiment_score": -0.2344,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "‘If the Bloomberg Terminal bros are unhappy with what I’m doing, that’s too bad’: Bessent says he’ll continue ‘ignoring the noise’",
-            "description": "\"I'm not sure where the beef is,\" Bessent said.",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-11T11:57:05Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/bloomberg-terminal-bros-unhappy-m-115705485.html",
-            "sentiment_score": -0.3674,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Sensex today | Stock Market Highlights: Sensex down 120 pts, Nifty closes at 23,398, logs 5th weekly loss as oil fears grip markets",
-            "description": "Sensex, Nifty, Stock Price Highlights: Benchmark indices Sensex and Nifty ended marginally lower on Friday after registering sharp losses during the day following a drop in crude oil prices and buying in blue-chip HDFC Bank and IT stocks.",
-            "source": "BusinessLine",
-            "published_at": "2026-09-11T11:20:12Z",
-            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-11th-september-2026/article71453005.ece",
-            "sentiment_score": -0.422,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Morning Bid: Take a hike",
-            "description": "By Anna Szymanski Sept 11 (Reuters) - As summer fades, so have hopes for a quick resolution to the U.-Iran conflict, as tit-for-tat strikes, new threats in t...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-11T10:45:00Z",
-            "url": "https://finance.yahoo.com/news/morning-bid-hike-104500949.html",
-            "sentiment_score": -0.1637,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "S&P Futures Climb as Oil Retreats Ahead of Key U.S. Inflation Data; Oracle Jumps After Earnings",
-            "description": "September S&P 500 E-Mini futures (ESU26) are up +0.57% this morning, finding some relief as oil prices and bond yields retreated, with attention now turning...",
-            "source": "Barchart.com",
-            "published_at": "2026-09-11T10:23:37Z",
-            "url": "https://www.barchart.com/story/news/4554049/s-p-futures-climb-as-oil-retreats-ahead-of-key-u-s-inflation-data-oracle-jumps-after-earnings",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japanese stocks fall as oil prices and bond yields rise",
-            "description": "Investors also remained cautious ahead of the US CPI report. Thursdays stronger-than-expected producer price data raised expectations that the Federal Reserve could raise interest rates next week.",
-            "source": "Business Standard",
-            "published_at": "2026-09-11T09:01:28Z",
-            "url": "https://www.business-standard.com/markets/capital-market-news/japanese-stocks-fall-as-oil-prices-and-bond-yields-rise-126091100633_1.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global Market: Eurozone bonds slide as energy prices stoke inflation fears",
-            "description": "Eurozone government bonds are facing their sharpest weekly selloff since the Iran war began as surging energy prices fuel inflation concerns and boost expectations of further rate hikes. German, French and Italian yields have climbed, putting global debt mark…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T08:45:04Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bonds-slide-as-energy-prices-stoke-inflation-fears/articleshow/134055842.cms",
-            "sentiment_score": -0.2391,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan Corporate Goods Prices Rise 7.6% in August",
-            "description": "Japan's corporate goods prices rose 7.6% in August from a year earlier, remaining above 7% for a third consecutive month as escalating tensions in the Middle East pushed up prices for petroleum, coal and chemical products. (News On Japan)",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-09-11T07:46:11Z",
-            "url": "https://newsonjapan.com/article/150726.php",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Nikkei Drops 2.8% as Oil Shock and Rate Fears Hit Tokyo",
-            "description": "Tokyo stocks fell sharply on September 11, with the Nikkei 225 closing at 63,442, down 2.8%, as oil prices above $108, renewed Middle East tensions, U.S. rate-hike fears and expectations for another Bank of Japan increase triggered a broad selloff led by arti…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-09-11T07:36:45Z",
-            "url": "https://newsonjapan.com/article/150724.php",
-            "sentiment_score": -0.61,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Analyst warns of 'late-stage bubble' as rates and oil prices surge",
-            "description": "Global interest rate hikes are predicted as oil prices spark inflation fears.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-11T05:58:19Z",
-            "url": "https://www.abc.net.au/news/2026-09-11/rising-oil-prices-bond-yields-falling-shares/107142006",
-            "sentiment_score": 0.0101,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global bond yields surge as oil spike fuels inflation fears",
-            "description": "Global bond yields reached multi-year highs as oil prices surged, increasing inflation worries.  Share markets tumbled worldwide on Friday due to these escalating economic pressures.  Investors increased bets on further interest rate hikes by central banks gl…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T05:21:21Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-bond-yields-surge-as-oil-spike-fuels-inflation-fears/articleshow/134047045.cms",
-            "sentiment_score": -0.1805,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ set to lift rates next week but offer few clues on terminal, sources say",
-            "description": "By Leika Kihara and Takahiko Wada TOKYO, Sept 11 (Reuters) - The Bank of Japan is set to raise interest rates next week, most likely by 25 basis points, and...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-11T02:56:16Z",
-            "url": "https://finance.yahoo.com/economy/policy/articles/boj-set-lift-rates-next-025616689.html",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s producer price gains stay elevated, backing BOJ hikes",
-            "description": "Prices for Japan’s corporate goods rose at a faster pace than expected in August, supporting the case for the Bank of Japan to keep raising interest rates to stem upside inflation risks.\nThe measure of input prices for Japanese firms rose 7.6% in August from …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-11T02:06:19Z",
-            "url": "https://biztoc.com/x/5296d7463c7814f6",
-            "sentiment_score": 0.4286,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global bonds buckle as surging oil prices inflame inflation risks",
-            "description": "SYDNEY, Sept 11 : Global bond yields spiked to new highs and sharemarkets slumped on Friday as soaring oil prices inflamed inflation risks, sending investors scrambling to price in more policy tightening from central banks across the globe.Brent crude climbed…",
-            "source": "CNA",
-            "published_at": "2026-09-11T00:56:01Z",
-            "url": "https://www.channelnewsasia.com/business/global-bonds-buckle-surging-oil-prices-inflame-inflation-risks-6377516",
-            "sentiment_score": -0.4318,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's wholesale inflation stays elevated in August, boosts case for rate hike",
-            "description": "TOKYO, Sept 11 : Japan's wholesale inflation remained elevated in August, data showed on Friday, highlighting mounting price pressures that cement the case for the central bank to raise interest rates this month.The data follows recent hawkish communication f…",
-            "source": "CNA",
-            "published_at": "2026-09-11T00:27:20Z",
-            "url": "https://www.channelnewsasia.com/business/japans-wholesale-inflation-stays-elevated-in-august-boosts-case-rate-hike-6377481",
-            "sentiment_score": 0.2761,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.1349,
+      "net_score": 0.0866,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1715,28 +1275,28 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 153.399,
+      "price_now": 153.972,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 34.0,
-      "rsi_signal": "โซนกลาง (RSI=34.0)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.25349,
-      "suggested_sl_distance": 0.38024,
+      "rsi_value": 53.9,
+      "rsi_signal": "โซนกลาง (RSI=53.9)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.25903,
+      "suggested_sl_distance": 0.38855,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=34.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-14T00:02:47.484533+00:00"
+    "generated_at": "2026-09-14T04:41:47.270188+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1745,27 +1305,126 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1624,
-        "label": "บวกเล็กน้อย",
-        "article_count": 1,
-        "scored_articles": [
-          {
-            "currency": "AUD",
-            "title": "Aussie man slams pub after being guilt tripped into giving a tip: 'We're not America'",
-            "description": "The man said it wasn't the first time he's experienced something like this.",
-            "source": "Dailymail.com",
-            "published_at": "2026-09-11T09:30:57Z",
-            "url": "https://www.dailymail.com/news/article-16122319/Aussie-man-slams-pub-guilt-tripped-giving-tip-not-America.html",
-            "sentiment_score": 0.1624,
-            "sentiment_label": "บวกเล็กน้อย"
-          }
-        ]
+        "average_score": 0.0,
+        "label": "ไม่มีข่าว",
+        "article_count": 0,
+        "scored_articles": []
       },
       "quote_sentiment": {
-        "average_score": 0.0594,
-        "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "average_score": 0.0225,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
+            "description": "Indian equities enter a holiday-shortened week with the Nifty at a crucial support zone after five consecutive weekly declines. The US Fed’s policy decision, FOMC projections, crude oil prices, global bond yields and foreign flows will drive near-term sentime…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:35:56Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
+            "sentiment_score": -0.1216,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:27:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/this-is-the-test-all-eyes-on-us-fed-to-tackle-high-inflation/articleshow/134177098.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "Central banks from much of the Group of Seven face a pivotal week as mounting inflation risks heap pressure on them to raise interest rates.\nThree decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the U.K. a…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:59:24Z",
+            "url": "https://biztoc.com/x/57677c5740961fb9",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Futures Traders Just Dramatically Repriced the Chances of a Fed Hike Next Week",
+            "description": "Suddenly, an interest rate hike by the Federal Reserve next week looks a lot like a sure thing.\nThat's according to the federal funds futures market, which now puts the chances of a rate hike at next week's Federal Open Market Committee (FOMC) meeting at abou…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:45:45Z",
+            "url": "https://biztoc.com/x/ef8da2e353d56d6e",
+            "sentiment_score": 0.3884,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:00:52Z",
+            "url": "https://biztoc.com/x/a45a331ff96a7b60",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "EUR/USD could retest 1.17 after Fed decision - Citi says",
+            "description": "Investing.com -- EUR/USD could move back toward its summer highs near 1.17 if next week's Federal Reserve decision triggers a \"sell the news\" reaction in the dollar, Citi strategists said, though geopolitical and energy risks could limit the greenback's downs…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-12T23:45:33Z",
+            "url": "https://biztoc.com/x/541411bc8b67b8e7",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Guaranteeing ARC-ES to tackle our $40 trillion debt",
+            "description": "'One economic solution should be easy to embrace – removing uncertainty from energy costs, the top driver of business and family budgets'",
+            "source": "Wnd.com",
+            "published_at": "2026-09-12T23:22:59Z",
+            "url": "https://www.wnd.com/2026/09/guaranteeing-arc-es-tackle-our-40-trillion-debt/",
+            "sentiment_score": -0.0157,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Doug Casey on the Coming Oil Shock—and Where Investors Could Profit",
+            "description": "International Man: The Strategic Petroleum Reserve was created after the 1970s oil shocks to protect the country from severe supply disruptions. Since the war with Iran began earlier this year, Washington has been tapping it again. Is this exactly what the re…",
+            "source": "Activistpost.com",
+            "published_at": "2026-09-12T22:00:00Z",
+            "url": "https://activistpost.com/doug-casey-on-the-coming-oil-shock-and-where-investors-could-profit/",
+            "sentiment_score": 0.0729,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy",
+            "description": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy\nSaudi Arabia's last workaround around the Strait of Hormuz was hit by drones and shut down this week. At the same time, Iran-backed Houthi forces finished taking Yemen's entire Re…",
+            "source": "Offgridsurvival.com",
+            "published_at": "2026-09-12T21:50:37Z",
+            "url": "https://offgridsurvival.com/saudi-pipeline-attacked-diesel-at-6-the-fuel-crisis-that-could-upend-economy/",
+            "sentiment_score": -0.7964,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-Year Treasury Nears 5%, Raising CRE Financing Risk",
+            "description": "The 10-year Treasury yield reached 4.97%, lifting CRE financing pressure as markets weighed inflation and a possible September Fed hike.",
+            "source": "Credaily.com",
+            "published_at": "2026-09-12T21:37:14Z",
+            "url": "https://www.credaily.com/briefs/10-year-treasury-nears-5-raising-cre-financing-risk/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Why Is Bitcoin Dropping Today?",
@@ -1938,137 +1597,17 @@
           },
           {
             "currency": "USD",
-            "title": "US households hold record 48% of financial assets in equities",
-            "description": "The surge in equity holdings heightens economic inequality and increases vulnerability to market volatility, potentially impacting consumer spending.\nThe post US households hold record 48% of financial assets in equities appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:19:34Z",
-            "url": "https://cryptobriefing.com/us-households-record-equity-allocation/",
-            "sentiment_score": 0.109,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dalio urges investors to shift from bonds to gold amid US debt concerns",
-            "description": "Dalio's advice may signal a shift in investor confidence, potentially increasing gold's role as a hedge against economic instability.\nThe post Dalio urges investors to shift from bonds to gold amid US debt concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:03:05Z",
-            "url": "https://cryptobriefing.com/dalio-urges-investors-to-shift-from-bonds-to-gold-amid-us-debt-concerns/",
-            "sentiment_score": -0.1922,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Faces A Huge Credibility Test",
-            "description": "The past month has had a flurry of major macro events combine to create a very difficult decision for the Federal Reserve in its upcoming September meeting, including the August CPI report, the European Central Bank’s (\"ECB\") rate hike\nSummary\n- Inflation is …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:58:41Z",
-            "url": "https://biztoc.com/x/f606cb679e0bccb5",
-            "sentiment_score": 0.1699,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Truflation reports US inflation at 2.33% while the BLS says 3.4%",
-            "description": "Divergent inflation readings could lead to misaligned monetary policy, impacting interest rates, market valuations, and economic forecasts.\nThe post Truflation reports US inflation at 2.33% while the BLS says 3.4% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:43:59Z",
-            "url": "https://cryptobriefing.com/truflation-us-cpi-2-percent-bls-3-percent/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Morgan Stanley expects yen to decline as traders rebuild carry trades",
-            "description": "Morgan Stanley's yen forecast suggests potential global financial shifts, impacting currency markets and influencing international trade dynamics.\nThe post Morgan Stanley expects yen to decline as traders rebuild carry trades appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:42:33Z",
-            "url": "https://cryptobriefing.com/morgan-stanley-yen-carry-trade-decline/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "College sticker prices keep rising. Why many schools are still under financial strain",
-            "description": "Even with soaring price tags, a growing number of private colleges are in financial distress.",
-            "source": "CNBC",
-            "published_at": "2026-09-12T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/09/12/college-costs-top-100000-as-tuition-discounts-strain-schools.html",
-            "sentiment_score": -0.1381,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed rate-hike odds surge as Warsh faces inflation-weary markets",
-            "description": "While Federal Reserve Chairman Kevin Warsh faces an interest-rate showdown of doves and hawks next week that speaks to the credibility of the central bank as well as his own, investors are mulling how best to navigate the expected market volatility that await…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:28:51Z",
-            "url": "https://biztoc.com/x/89f826f83f6fc367",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran Says It’s No Longer Bound by the Nuclear Treaty. What That Does to Oil, Gold, and Bitcoin",
-            "description": "An Iranian lawmaker declared the Nuclear Non-Proliferation Treaty no longer binding, oil surged, gold fell, and Bitcoin slipped below $78,000. Tracing whethe...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T13:20:26Z",
-            "url": "https://247wallst.com/investing/2026/09/12/iran-says-its-no-longer-bound-by-the-nuclear-treaty-what-that-does-to-oil-gold-and-bitcoin/",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket predicts 83% chance of Fed rate hike on September 16",
-            "description": "A likely Fed rate hike could tighten liquidity, impacting risk assets and increasing the opportunity cost of holding non-yielding investments.\nThe post Polymarket predicts 83% chance of Fed rate hike on September 16 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:11:30Z",
-            "url": "https://cryptobriefing.com/polymarket-fed-rate-hike-september/",
-            "sentiment_score": 0.333,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Iran-related news will be focus over the weekend. The Federal Reserve meeting will take center stage this coming week, with markets largely pricing in an interest rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:00:13Z",
-            "url": "https://biztoc.com/x/206a9b1e930df919",
-            "sentiment_score": -0.0696,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "The post Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin appeared first on 24/7 Wall St..\nTraders on Polymarket price a 25 basis point hike at the September 15 to 16 FOMC meeting at 83%, with a hold …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T12:58:37Z",
-            "url": "https://biztoc.com/x/b69ad623824435e1",
+            "title": "Big Players ravage prediction markets",
+            "description": "The idea that insiders hold the whip handle in prediction markets runs counter to claims made by promoters, who include Donald Trump and Donald Trump Jr.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-12T14:54:00Z",
+            "url": "https://finance.yahoo.com/markets/options/articles/big-players-ravage-prediction-markets-145400068.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Despite Friday's bounce, the stock market had a tough week.",
-            "source": "Investor's Business Daily",
-            "published_at": "2026-09-12T12:48:22Z",
-            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/",
-            "sentiment_score": -0.2456,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "Polymarket odds on a September Fed hike have nearly tripled in three weeks, and the 10-year Treasury is already moving like the decision is done. What that t...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T12:45:22Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/12/will-the-fed-raise-rates-on-september-16-polymarket-now-says-83-heres-what-it-means-for-xrp-and-bitcoin/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.103,
+      "net_score": -0.0225,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2078,17 +1617,17 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.71531,
+      "price_now": 0.71536,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 31.3,
-      "rsi_signal": "โซนกลาง (RSI=31.3)",
+      "rsi_value": 36.4,
+      "rsi_signal": "โซนกลาง (RSI=36.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.0007,
-      "suggested_sl_distance": 0.00105,
-      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
-      "technical_vote": -1,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "atr_value": 0.00071,
+      "suggested_sl_distance": 0.00106,
+      "bb_signal": "ราคาอยู่ในกรอบปกติ",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -2097,9 +1636,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=31.3) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=36.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-14T00:02:47.484533+00:00"
+    "generated_at": "2026-09-14T04:41:47.270188+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2108,9 +1647,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0184,
+        "average_score": 0.0058,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 15,
+        "article_count": 3,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -2141,134 +1680,124 @@
             "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/de-dollarisation-and-its-impact-on-commodities-and-global-trade/articleshow/134109334.cms",
             "sentiment_score": -0.106,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Today’s News in a Nutshell",
-            "description": "KATHMANDU: Khabarhub brings you a glimpse of major developments of the day in Nepal, including politics, business/economy, sports, entertainment, and more. PM Shah pledges stronger govt-private sector cooperation Prime Minister (PM) Balendra Shah has pledged …",
-            "source": "Khabarhub.com",
-            "published_at": "2026-09-11T16:12:13Z",
-            "url": "https://english.khabarhub.com/2026/11/567335/",
-            "sentiment_score": 0.1979,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold climbs on dip buying, Fed hike bets rise after US inflation data",
-            "description": "Gold prices firmed over one percent on Friday, finding a short-term floor. Strong United States inflation data lifted expectations of a Federal Reserve rate hike next week. Market participants had a hike seventy percent priced in before the data release. Gold…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T15:10:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/gold-climbs-on-dip-buying-fed-hike-bets-rise-after-us-inflation-data/articleshow/134075274.cms",
-            "sentiment_score": 0.2181,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price drops ₹2,700 to ₹1.55 lakh/10g; silver slips by ₹10,000",
-            "description": "Traders say sharp correction in domestic bullion prices reflected selling pressure in the local market after the recent rally, with both precious metals pulling back",
-            "source": "BusinessLine",
-            "published_at": "2026-09-11T13:50:32Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-price-drops-2700-to-155-lakh10g-silver-slips-by-10000/article71456534.ece",
-            "sentiment_score": 0.1084,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold Set for Weekly Loss as Rate-Hike Expectations Pressure Prices - WSJ",
-            "description": "Gold Set for Weekly Loss as Rate-Hike Expectations Pressure PricesWSJ Gold gains on softer oil; US inflation data in focusTradingView Gold Price Today: Gold Falls 1.50% on September 11, 2026USA Today Gold (XAUUSD) Price Forecast: Value Versus Trend as Gold St…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-11T12:53:28Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185603414",
-            "sentiment_score": -0.3564,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price today, Friday, September 11, 2026: Gold opens at lowest level in over a month ahead of CPI data",
-            "description": "Gold (GC=F) December futures opened at $4,359.40 per troy ounce on Friday, September 11, 2026, down 1.1% from Thursday's closing price. The price of gold is edging upward this morning at $4,387.10 per troy ounce as of 6:53 a.m. ET.\nGold opened this morning at…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-11T11:24:59Z",
-            "url": "https://biztoc.com/x/b02d250f29eb245d",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Sensex today | Stock Market Highlights: Sensex down 120 pts, Nifty closes at 23,398, logs 5th weekly loss as oil fears grip markets",
-            "description": "Sensex, Nifty, Stock Price Highlights: Benchmark indices Sensex and Nifty ended marginally lower on Friday after registering sharp losses during the day following a drop in crude oil prices and buying in blue-chip HDFC Bank and IT stocks.",
-            "source": "BusinessLine",
-            "published_at": "2026-09-11T11:20:12Z",
-            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-11th-september-2026/article71453005.ece",
-            "sentiment_score": -0.422,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price today, Friday, September 11, 2026: Gold opens at lowest level in over a month ahead of CPI data",
-            "description": "Gold futures opened at $4,359.40 per troy ounce on Friday, September 11, 2026, down 1.1% from Thursday's closing price. The price of gold is edging upward th...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-11T11:10:16Z",
-            "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-price-today-friday-september-11-2026-gold-opens-at-lowest-level-in-over-a-month-ahead-of-cpi-data-111016419.html",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold Rebounds Toward $4,350 as Markets Await US CPI Data",
-            "description": "Gold prices recovered on Friday after declining nearly 2% in the previous session, as investors assessed the outlook for US interest rates ahead of August co...",
-            "source": "Advfn.com",
-            "published_at": "2026-09-11T09:12:48Z",
-            "url": "https://investorshub.advfn.com/market-news/article/36082/gold-rebounds-toward-4350-as-markets-await-us-cpi-data",
-            "sentiment_score": 0.2095,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate today (September 11, 2026): Check 24k, 22k, 20k, 18k gold jewellery prices from IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and Tanishq",
-            "description": "Gold and silver prices fell on Friday, September 11, 2026, as fluctuations in the global market took their toll. The release of strong US PPI data heightened expectations of a Federal Reserve rate increase, putting further strain on precious metals. Heightene…",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T07:54:48Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rate-today-september-11-2026-check-24k-22k-20k-18k-gold-jewellery-prices-from-ibja-malabar-gold-diamonds-joyalukkas-kalyan-jewellers-and-tanishq/articleshow/134053307.cms",
-            "sentiment_score": 0.2533,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction: Is it time to buy gold on dips? Check September 11, 2026 outlook",
-            "description": "India Business News: Gold price prediction today: Gold is showing a constructive intraday bias and a buy on dips strategy is favoured, says Jateen Trivedi, VP Research Ana.",
-            "source": "The Times of India",
-            "published_at": "2026-09-11T07:14:06Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-september-11-2026-should-you-buy-or-sell-mcx-gold/articleshow/134052170.cms",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price down by Rs 4,800 per tola in Nepali market",
-            "description": "KATHMANDU: Gold prices declined in the Nepali market on Friday, according to the Federation of Nepal Gold and Silver Dealers’ Association. The price of hallmark gold fell by Rs 4,800 per tola (11.66 grams) to Rs 301,000 today. Gold was traded at Rs 305,800 pe…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-09-11T06:53:46Z",
-            "url": "https://english.khabarhub.com/2026/11/567391/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Wall Street wary of sustained Fed rate hikes impacting market rally",
-            "description": "Sustained Fed rate hikes could stall market growth, strengthen the dollar, and diminish gold's appeal, impacting investment strategies.\nThe post Wall Street wary of sustained Fed rate hikes impacting market rally appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-11T06:25:20Z",
-            "url": "https://cryptobriefing.com/wall-street-wary-of-sustained-fed-rate-hikes-impacting-market-rally/",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0594,
-        "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "average_score": 0.0225,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Weekly Market Outlook: Can Nifty find its footing as crude, Fed policy drive markets?",
+            "description": "Indian equities enter a holiday-shortened week with the Nifty at a crucial support zone after five consecutive weekly declines. The US Fed’s policy decision, FOMC projections, crude oil prices, global bond yields and foreign flows will drive near-term sentime…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:35:56Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/weekly-market-outlook-can-nifty-find-its-footing-as-crude-fed-policy-drive-markets/articleshow/134178071.cms",
+            "sentiment_score": -0.1216,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "The Times of India",
+            "published_at": "2026-09-13T04:27:47Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/this-is-the-test-all-eyes-on-us-fed-to-tackle-high-inflation/articleshow/134177098.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "Central banks from much of the Group of Seven face a pivotal week as mounting inflation risks heap pressure on them to raise interest rates.\nThree decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the U.K. a…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:59:24Z",
+            "url": "https://biztoc.com/x/57677c5740961fb9",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Futures Traders Just Dramatically Repriced the Chances of a Fed Hike Next Week",
+            "description": "Suddenly, an interest rate hike by the Federal Reserve next week looks a lot like a sure thing.\nThat's according to the federal funds futures market, which now puts the chances of a rate hike at next week's Federal Open Market Committee (FOMC) meeting at abou…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:45:45Z",
+            "url": "https://biztoc.com/x/ef8da2e353d56d6e",
+            "sentiment_score": 0.3884,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "All eyes on Warsh as rate-hike fever spreads across G7 central banks",
+            "description": "3 decisions, starting with the Federal Reserve on Wednesday and followed on successive days by peers in the UK and Japan, may recast the global monetary policy landscape for rest of 2026 and beyond",
+            "source": "Business Standard",
+            "published_at": "2026-09-13T02:38:35Z",
+            "url": "https://www.business-standard.com/world-news/all-eyes-on-warsh-as-rate-hike-fever-spreads-across-g7-central-banks-126091300050_1.html",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "'This is the test': All eyes on US Fed to tackle high inflation",
+            "description": "The US Federal Reserve goes into a key rate-setting meeting this week with markets expecting policymakers to pull the trigger on a rate hike to tackle persistently high inflation -- and analysts say central bank chief Kevin Warsh's credibility is on the line.…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-13T02:00:52Z",
+            "url": "https://biztoc.com/x/a45a331ff96a7b60",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "EUR/USD could retest 1.17 after Fed decision - Citi says",
+            "description": "Investing.com -- EUR/USD could move back toward its summer highs near 1.17 if next week's Federal Reserve decision triggers a \"sell the news\" reaction in the dollar, Citi strategists said, though geopolitical and energy risks could limit the greenback's downs…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-12T23:45:33Z",
+            "url": "https://biztoc.com/x/541411bc8b67b8e7",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Guaranteeing ARC-ES to tackle our $40 trillion debt",
+            "description": "'One economic solution should be easy to embrace – removing uncertainty from energy costs, the top driver of business and family budgets'",
+            "source": "Wnd.com",
+            "published_at": "2026-09-12T23:22:59Z",
+            "url": "https://www.wnd.com/2026/09/guaranteeing-arc-es-tackle-our-40-trillion-debt/",
+            "sentiment_score": -0.0157,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Doug Casey on the Coming Oil Shock—and Where Investors Could Profit",
+            "description": "International Man: The Strategic Petroleum Reserve was created after the 1970s oil shocks to protect the country from severe supply disruptions. Since the war with Iran began earlier this year, Washington has been tapping it again. Is this exactly what the re…",
+            "source": "Activistpost.com",
+            "published_at": "2026-09-12T22:00:00Z",
+            "url": "https://activistpost.com/doug-casey-on-the-coming-oil-shock-and-where-investors-could-profit/",
+            "sentiment_score": 0.0729,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy",
+            "description": "Saudi Pipeline Attacked, Diesel at $6: The Fuel Crisis That Could Upend Economy\nSaudi Arabia's last workaround around the Strait of Hormuz was hit by drones and shut down this week. At the same time, Iran-backed Houthi forces finished taking Yemen's entire Re…",
+            "source": "Offgridsurvival.com",
+            "published_at": "2026-09-12T21:50:37Z",
+            "url": "https://offgridsurvival.com/saudi-pipeline-attacked-diesel-at-6-the-fuel-crisis-that-could-upend-economy/",
+            "sentiment_score": -0.7964,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "10-Year Treasury Nears 5%, Raising CRE Financing Risk",
+            "description": "The 10-year Treasury yield reached 4.97%, lifting CRE financing pressure as markets weighed inflation and a possible September Fed hike.",
+            "source": "Credaily.com",
+            "published_at": "2026-09-12T21:37:14Z",
+            "url": "https://www.credaily.com/briefs/10-year-treasury-nears-5-raising-cre-financing-risk/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Why Is Bitcoin Dropping Today?",
@@ -2441,137 +1970,17 @@
           },
           {
             "currency": "USD",
-            "title": "US households hold record 48% of financial assets in equities",
-            "description": "The surge in equity holdings heightens economic inequality and increases vulnerability to market volatility, potentially impacting consumer spending.\nThe post US households hold record 48% of financial assets in equities appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:19:34Z",
-            "url": "https://cryptobriefing.com/us-households-record-equity-allocation/",
-            "sentiment_score": 0.109,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dalio urges investors to shift from bonds to gold amid US debt concerns",
-            "description": "Dalio's advice may signal a shift in investor confidence, potentially increasing gold's role as a hedge against economic instability.\nThe post Dalio urges investors to shift from bonds to gold amid US debt concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T14:03:05Z",
-            "url": "https://cryptobriefing.com/dalio-urges-investors-to-shift-from-bonds-to-gold-amid-us-debt-concerns/",
-            "sentiment_score": -0.1922,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Faces A Huge Credibility Test",
-            "description": "The past month has had a flurry of major macro events combine to create a very difficult decision for the Federal Reserve in its upcoming September meeting, including the August CPI report, the European Central Bank’s (\"ECB\") rate hike\nSummary\n- Inflation is …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:58:41Z",
-            "url": "https://biztoc.com/x/f606cb679e0bccb5",
-            "sentiment_score": 0.1699,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Truflation reports US inflation at 2.33% while the BLS says 3.4%",
-            "description": "Divergent inflation readings could lead to misaligned monetary policy, impacting interest rates, market valuations, and economic forecasts.\nThe post Truflation reports US inflation at 2.33% while the BLS says 3.4% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:43:59Z",
-            "url": "https://cryptobriefing.com/truflation-us-cpi-2-percent-bls-3-percent/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Morgan Stanley expects yen to decline as traders rebuild carry trades",
-            "description": "Morgan Stanley's yen forecast suggests potential global financial shifts, impacting currency markets and influencing international trade dynamics.\nThe post Morgan Stanley expects yen to decline as traders rebuild carry trades appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:42:33Z",
-            "url": "https://cryptobriefing.com/morgan-stanley-yen-carry-trade-decline/",
-            "sentiment_score": 0.082,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "College sticker prices keep rising. Why many schools are still under financial strain",
-            "description": "Even with soaring price tags, a growing number of private colleges are in financial distress.",
-            "source": "CNBC",
-            "published_at": "2026-09-12T13:30:01Z",
-            "url": "https://www.cnbc.com/2026/09/12/college-costs-top-100000-as-tuition-discounts-strain-schools.html",
-            "sentiment_score": -0.1381,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed rate-hike odds surge as Warsh faces inflation-weary markets",
-            "description": "While Federal Reserve Chairman Kevin Warsh faces an interest-rate showdown of doves and hawks next week that speaks to the credibility of the central bank as well as his own, investors are mulling how best to navigate the expected market volatility that await…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:28:51Z",
-            "url": "https://biztoc.com/x/89f826f83f6fc367",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iran Says It’s No Longer Bound by the Nuclear Treaty. What That Does to Oil, Gold, and Bitcoin",
-            "description": "An Iranian lawmaker declared the Nuclear Non-Proliferation Treaty no longer binding, oil surged, gold fell, and Bitcoin slipped below $78,000. Tracing whethe...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T13:20:26Z",
-            "url": "https://247wallst.com/investing/2026/09/12/iran-says-its-no-longer-bound-by-the-nuclear-treaty-what-that-does-to-oil-gold-and-bitcoin/",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket predicts 83% chance of Fed rate hike on September 16",
-            "description": "A likely Fed rate hike could tighten liquidity, impacting risk assets and increasing the opportunity cost of holding non-yielding investments.\nThe post Polymarket predicts 83% chance of Fed rate hike on September 16 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-12T13:11:30Z",
-            "url": "https://cryptobriefing.com/polymarket-fed-rate-hike-september/",
-            "sentiment_score": 0.333,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Dow Jones futures will open Sunday evening, along with S&P 500 futures and Nasdaq futures. Iran-related news will be focus over the weekend. The Federal Reserve meeting will take center stage this coming week, with markets largely pricing in an interest rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T13:00:13Z",
-            "url": "https://biztoc.com/x/206a9b1e930df919",
-            "sentiment_score": -0.0696,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "The post Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin appeared first on 24/7 Wall St..\nTraders on Polymarket price a 25 basis point hike at the September 15 to 16 FOMC meeting at 83%, with a hold …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-12T12:58:37Z",
-            "url": "https://biztoc.com/x/b69ad623824435e1",
+            "title": "Big Players ravage prediction markets",
+            "description": "The idea that insiders hold the whip handle in prediction markets runs counter to claims made by promoters, who include Donald Trump and Donald Trump Jr.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-12T14:54:00Z",
+            "url": "https://finance.yahoo.com/markets/options/articles/big-players-ravage-prediction-markets-145400068.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Dow Jones Futures: Fed Rate Hike Seen As Oil, Yields Pressure Stocks; Apple, Moderna Are New Buys",
-            "description": "Despite Friday's bounce, the stock market had a tough week.",
-            "source": "Investor's Business Daily",
-            "published_at": "2026-09-12T12:48:22Z",
-            "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-100-oil-surging-yields-pressure-stocks-with-fed-rate-hike-seen-apple-leads-new-buys/",
-            "sentiment_score": -0.2456,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Will the Fed Raise Rates on September 16? Polymarket Now Says 83%. Here’s What It Means for XRP and Bitcoin",
-            "description": "Polymarket odds on a September Fed hike have nearly tripled in three weeks, and the 10-year Treasury is already moving like the decision is done. What that t...",
-            "source": "24/7 Wall St.",
-            "published_at": "2026-09-12T12:45:22Z",
-            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/12/will-the-fed-raise-rates-on-september-16-polymarket-now-says-83-heres-what-it-means-for-xrp-and-bitcoin/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0778,
+      "net_score": -0.0167,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2581,14 +1990,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4373.6001,
+      "price_now": 4370.8999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 43.2,
-      "rsi_signal": "โซนกลาง (RSI=43.2)",
+      "rsi_value": 42.8,
+      "rsi_signal": "โซนกลาง (RSI=42.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 22.54996,
-      "suggested_sl_distance": 33.82494,
+      "atr_value": 21.31655,
+      "suggested_sl_distance": 31.97482,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -2600,8 +2009,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=43.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=42.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-14T00:02:47.484533+00:00"
+    "generated_at": "2026-09-14T04:41:47.270188+00:00"
   }
 ]
