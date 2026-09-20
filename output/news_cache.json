@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-09-20T00:56:21.702594+00:00",
+  "fetched_at": "2026-09-20T05:59:12.091281+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0207,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0559,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
           {
@@ -28,6 +28,26 @@
             "published_at": "2026-09-18T21:27:03Z",
             "url": "https://www.channelnewsasia.com/world/stocks-us-market-fed-inflation-yen-falls-6395886",
             "sentiment_score": -0.0785,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 In...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T20:37:28Z",
+            "url": "https://www.barchart.com/story/news/4686853/stocks-finish-mostly-higher-as-crude-prices-fall",
+            "sentiment_score": -0.4003,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar Erases Early Gains on Weak US Economic News",
+            "description": "The dollar index (DXY00 ) fell from a 7-week high on Friday and finished down by -0.03%. The dollar gave its advance on Friday on weaker-than-expected US eco...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T19:33:53Z",
+            "url": "https://www.barchart.com/story/news/4685887/dollar-erases-early-gains-on-weak-us-economic-news",
+            "sentiment_score": -0.0896,
             "sentiment_label": "ลบเล็กน้อย"
           },
           {
@@ -289,34 +309,64 @@
             "url": "https://biztoc.com/x/82659217ba687527",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB Consumer Expectations Survey results – August 2026",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-09-18T08:00:00Z",
-            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260918~295b3ab978.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Binance’s EU Crypto License Bid Faces Fresh Scrutiny After Reported Lagarde Intervention",
-            "description": "Binance’s attempt to acquire a pan-European crypto license from Greece came under scrutiny when the Wall Street Journal reported that European Central Bank President Christine Lagarde had...\nThe post Binance’s EU Crypto License Bid Faces Fresh Scrutiny After …",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-09-18T07:45:21Z",
-            "url": "https://bitcoinfoundation.org/news/crypto-exchanges/binances-eu-crypto-license-bid-faces-fresh-scrutiny-after-reported-lagarde-intervention/",
-            "sentiment_score": 0.3182,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0486,
+        "average_score": 0.0194,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "AI could double US GDP growth to 4% next year amid capital hurdles, says Elon Musk",
+            "description": "The projection comes at a time when the broader artificial intelligence investment landscape encounters its first major macroeconomic test, according to a recent report by brokerage firm Dolat Capital.",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T05:32:25Z",
+            "url": "https://economictimes.indiatimes.com/tech/tech-bytes/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk/articleshow/134348534.cms",
+            "sentiment_score": 0.4103,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+            "description": "Following the Bank of Japan's decision to increase interest rates, the dollar saw a rise against the yen. Some policymakers expressed skepticism regarding further hikes, while Japanese officials monitored exchange rates, hinting at possible intervention. Addi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:25:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Europe's STOXX600 falls as autos, telecoms lead broad sell-off",
+            "description": "European stocks took a downturn on Friday, primarily influenced by the disappointing outlook from Volkswagen and considerations surrounding Airtel Africa's IPO. This trend notably affected auto and telecom sectors. Despite oil prices stabilizing, energy share…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:20:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/europes-stoxx600-falls-as-autos-telecoms-lead-broad-sell-off/articleshow/134347712.cms",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+            "description": "On Friday, gold prices surged to reach a one-week peak, hinting at a potential weekly gain. This rally was bolstered by falling oil prices, which alleviated inflation concerns. Nonetheless, the appreciation of the US dollar restrained further growth in gold v…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:16:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices/articleshow/134347676.cms",
+            "sentiment_score": 0.7113,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Investors focus on rate path, AI slowdown after Fed hike",
+            "description": "As the new week approaches, US stock investors are set to prioritize developments in interest rates and Middle Eastern unrest. Attention will also shift toward growing pressures to pause advancements in artificial intelligence. The market is still processing …",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:11:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-focus-on-rate-path-ai-slowdown-after-fed-hike/articleshow/134347611.cms",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Breitbart Business Digest: Trump Refuses to Launch World War Warsh",
@@ -339,6 +389,26 @@
           },
           {
             "currency": "USD",
+            "title": "Ciena Targets $14B Revenue by 2029 as Optical Demand Outruns Supply",
+            "description": "Ciena (NYSE:CIEN) outlined financial objectives through fiscal 2029, including a target of approximately $14 billion in revenue, gross margins of about 50%,...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T22:02:07Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-ciena-targets-14b-revenue-by-2029-as-optical-demand-outruns-supply-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": -0.2326,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Wrap: Bitcoin Climbs Back Above $80,000",
+            "description": "The price of Bitcoin (CRYPTO: $BTC) and other cryptocurrencies strengthened heading into the weekend after a volati...",
+            "source": "Cryptoprowl.com",
+            "published_at": "2026-09-18T22:01:00Z",
+            "url": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-climbs-back-above-80000-7093",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "News of the day: The antagonist next door, variable-rate’s moment, how high will interest rates go, workplace investigations, dual-citizen taxes and more",
             "description": "It’s Friday, Sept. 18. Here are the top stories we’re following today.",
             "source": "Financial Post",
@@ -356,6 +426,16 @@
             "url": "https://www.boston25news.com/news/business/asian-shares-mostly/ESN55GTH7Q2URFSOW3YA2KFXBA/",
             "sentiment_score": -0.2072,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Savers Got Good News From the Fed This Week—And It Could Last for Years",
+            "description": "The Fed’s latest forecast points to higher rates staying in place for years, with another hike still possible.",
+            "source": "Investopedia",
+            "published_at": "2026-09-18T21:41:00Z",
+            "url": "https://www.investopedia.com/savers-got-good-news-from-the-fed-and-it-could-last-for-years-12128193",
+            "sentiment_score": 0.3083,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -401,6 +481,16 @@
             "currency": "USD",
             "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
             "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-18T20:45:10Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-just-revealed-huge-204510063.html",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
+            "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
             "source": "Fortune",
             "published_at": "2026-09-18T20:45:10Z",
             "url": "https://fortune.com/2026/09/18/kevin-warsh-federal-reserve-what-is-monetarism/",
@@ -416,6 +506,16 @@
             "url": "https://www.cmswire.com/contact-center/why-contact-center-agents-are-facing-tougher-calls-now/",
             "sentiment_score": 0.1245,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 In...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T20:37:28Z",
+            "url": "https://www.barchart.com/story/news/4686853/stocks-finish-mostly-higher-as-crude-prices-fall",
+            "sentiment_score": -0.4003,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -435,6 +535,26 @@
             "published_at": "2026-09-18T20:15:38Z",
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-mixed-as-oil-takes-a-pause/articleshow/134343677.cms",
             "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "L3Harris Pivots to Execution as New CEO Targets Radio, Space Growth",
+            "description": "L3Harris Technologies (NYSE:LHX) is entering its leadership transition with an emphasis on operating execution rather than further portfolio reshaping, accor...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T20:02:09Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-l3harris-pivots-to-execution-as-new-ceo-targets-radio-space-growth-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Osaic Faces Additional Cash Sweep Class Action Suit",
+            "description": "Two customers claim the firm prioritized profits by keeping sweep account interest rates artificially low. It's the latest in a line of cash sweep suits brou...",
+            "source": "Wealthmanagement.com",
+            "published_at": "2026-09-18T19:55:26Z",
+            "url": "https://www.wealthmanagement.com/ibd-news/osaic-faces-another-class-action-over-cash-sweep-rates",
+            "sentiment_score": 0.1758,
             "sentiment_label": "บวกเล็กน้อย"
           },
           {
@@ -459,6 +579,36 @@
           },
           {
             "currency": "USD",
+            "title": "Ethereum ETFs Experience $366 Million Loss in Just Two Days as Whales Capitalize on the Dip",
+            "description": "Ethereum ETFs bled hundreds of millions in two days while whale wallets moved in the opposite direction, and the two camps could not have read the same marke...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-18T19:34:01Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/18/ethereum-etfs-experience-366-million-loss-in-just-two-days-as-whales-capitalize-on-the-dip/",
+            "sentiment_score": -0.2227,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Erases Early Gains on Weak US Economic News",
+            "description": "The dollar index (DXY00 ) fell from a 7-week high on Friday and finished down by -0.03%. The dollar gave its advance on Friday on weaker-than-expected US eco...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T19:33:53Z",
+            "url": "https://www.barchart.com/story/news/4685887/dollar-erases-early-gains-on-weak-us-economic-news",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "New SEC, CFTC rules after CLARITY setback fuel Bitcoin rally",
+            "description": "Fresh developments helped offset two of crypto’s biggest headwinds.",
+            "source": "TheStreet",
+            "published_at": "2026-09-18T19:19:24Z",
+            "url": "https://www.thestreet.com/crypto/markets/sec-cftc-new-rules-after-clarity-setback-send-bitcoin-higher",
+            "sentiment_score": 0.4678,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US central bank signals more rate hikes, boosting dollar’s best weekly performance since June",
             "description": "The Fed's rate hikes could strain emerging markets with dollar-denominated debt, as stronger dollar and rising rates increase repayment costs.\nThe post US central bank signals more rate hikes, boosting dollar’s best weekly performance since June appeared firs…",
             "source": "Crypto Briefing",
@@ -466,160 +616,10 @@
             "url": "https://cryptobriefing.com/fed-rate-hike-boosts-dollar-weekly-gain/",
             "sentiment_score": 0.8004,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push",
-            "description": "The FHFA's increased MBS purchases could stabilize mortgage rates, potentially easing housing affordability and influencing market dynamics.\nThe post FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push appeared first on…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T19:05:01Z",
-            "url": "https://cryptobriefing.com/fhfa-ramps-up-mbs-purchases-pulte/",
-            "sentiment_score": 0.3173,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Factory Production Retreated in August as Autos and Aerospace Lead Decline",
-            "description": "U.S. manufacturing production fell in August for the first time this year, as declines in motor vehicles and aerospace led a broader retreat across several sectors. Factory output dropped 0.3 percent after rising 0.2 percent in July, the Federal Reserve\nThe p…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-18T18:56:24Z",
-            "url": "https://www.breitbart.com/economy/2026/09/18/u-s-factory-production-retreated-in-august-as-autos-and-aerospace-lead-decline/",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investor sentiment plunges to 16-month low, AAII survey shows",
-            "description": "Investor sentiment fell to its lowest level since May 2025, according to the latest AAII survey. Bearish investors rose to 53.3%, while bullish sentiment dropped to 28.8%. The bull-bear spread fell to -24.5%, as elevated oil prices, a Fed rate hike and market…",
-            "source": "The Times of India",
-            "published_at": "2026-09-18T18:48:28Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/investor-sentiment-plunges-to-16-month-low-aaii-survey-shows/articleshow/134342784.cms",
-            "sentiment_score": -0.3058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mexico’s Sheinbaum says she spoke with Trump as trade negotiations continue",
-            "description": "Mexican president says she is seeking a decrease in tariffs as both countries seek new bilateral trade deal.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-18T18:46:51Z",
-            "url": "https://www.aljazeera.com/news/2026/9/18/mexicos-sheinbaum-says-she-spoke-with-trump-as-trade-negotiations-continue",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Yahoo Finance ends partnership with Polymarket for prediction market hub",
-            "description": "The end of Yahoo Finance's partnership with Polymarket highlights the evolving dynamics and competitive pressures in prediction market integrations.\nThe post Yahoo Finance ends partnership with Polymarket for prediction market hub appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:44:27Z",
-            "url": "https://cryptobriefing.com/yahoo-finance-ends-polymarket-partnership/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury borrowing costs surge as investors pile into short positions",
-            "description": "Rising Treasury yields signal increased borrowing costs, impacting corporate credit, mortgages, and equity valuations across the economy.\nThe post US Treasury borrowing costs surge as investors pile into short positions appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:40:58Z",
-            "url": "https://cryptobriefing.com/us-treasury-borrowing-costs-surge-short-positions/",
-            "sentiment_score": 0.3645,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed keeps the door open for more rate hikes as Schmid warns there's 'work to do'",
-            "description": "Kansas City Federal Reserve president Jeff Schmid said Friday that he supported the central bank's decision to raise interest rates this week and suggested t...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T18:22:14Z",
-            "url": "https://finance.yahoo.com/economy/policy/article/fed-keeps-the-door-open-for-more-rate-hikes-as-schmid-warns-theres-work-to-do-182214817.html",
-            "sentiment_score": 0.1227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Rate Hike Reinforces Trend of Longer Vehicle Ownership",
-            "description": "As borrowing costs climb following the latest Federal Reserve rate hike, more Americans should consider keeping their vehicles longer, as new car investments and unexpected repair costs are a growing financial concern. ST. PETERS, Mo., Sept. 18, 2026 /PRNewsw…",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T18:07:00Z",
-            "url": "https://www.prnewswire.com/news-releases/federal-reserve-rate-hike-reinforces-trend-of-longer-vehicle-ownership-302883528.html",
-            "sentiment_score": 0.0534,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "HubSpot Unveils AI Agent Strategy, Lifts 2030 Margin Targets at Analyst Day",
-            "description": "HubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy centered on what Chief Executive Officer Yamini Rangan called the “outc...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-18T18:02:16Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-hubspot-unveils-ai-agent-strategy-lifts-2030-margin-targets-at-analyst-day-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Hike Jolts Gold Before Oil Retreat Fuels a Sharp Rebound",
-            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T17:59:38Z",
-            "url": "https://finance.yahoo.com/markets/commodities/articles/fed-hike-jolts-gold-oil-175938582.html",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "2-year Treasury yield reaches multi-year high after Fed rate hike",
-            "description": "The 2-year U.S. Treasury yield hit 4.744% on Friday, its highest intraday level since July 2024, amid growing investor expectations that the Federal Reserve would deliver another rate increase after this week's hike, according to The Wall Street Journal.\nWedn…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-18T17:58:30Z",
-            "url": "https://biztoc.com/x/29ffba4445c5739c",
-            "sentiment_score": 0.3508,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial, Manufacturing Production under Consensus",
-            "description": "IP flat, below +0.3% m/m Bloomberg consensus, manufacturing -0.3% below +0.3%. Capacity utilization drops. Adding in monthly GDP, early benchmark NFP as well. Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold or…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-18T17:56:20Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Bowman Challenges Social Media Story Behind SVB Collapse",
-            "description": "Silicon Valley Bank’s collapse became shorthand for the digital bank run. Billions of dollars left quickly while warnings and speculation circulated online. Three years later, an independent review is challenging the connection between those two events. “[W]h…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-18T17:54:25Z",
-            "url": "https://www.pymnts.com/news/banking/2026/federal-reserve-chair-michelle-bowman-challenges-social-media-story-behind-silicon-valley-bank-collapse/",
-            "sentiment_score": -0.484,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs drops surprise call for next Fed interest-rate hike",
-            "description": "Wall Street bank shifts its Fed interest-rate forecast for the remainder of the year.",
-            "source": "TheStreet",
-            "published_at": "2026-09-18T17:47:00Z",
-            "url": "https://www.thestreet.com/fed/goldman-sachs-october-fed-rate-hike",
-            "sentiment_score": 0.1912,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Naples Financial Professional Bobby Garon Breaks Down What the Fed's Rate Hike Means for Your Money",
-            "description": "As the Federal Reserve raises its benchmark rate for the first time since 2023, Bobby Garon offers practical guidance for how the decision affects mortgages, savings, credit cards, and everyday financial planning. NAPLES. Fla., Sept. 18, 2026 /PRNewswire/ -- …",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T17:45:00Z",
-            "url": "https://www.prnewswire.com/news-releases/naples-financial-professional-bobby-garon-breaks-down-what-the-feds-rate-hike-means-for-your-money-302883400.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0279,
+      "net_score": -0.0753,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -632,10 +632,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.071,
+        "average_score": 0.0612,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+            "description": "Following the Bank of Japan's decision to increase interest rates, the dollar saw a rise against the yen. Some policymakers expressed skepticism regarding further hikes, while Japanese officials monitored exchange rates, hinting at possible intervention. Addi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:25:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Europe's STOXX600 falls as autos, telecoms lead broad sell-off",
+            "description": "European stocks took a downturn on Friday, primarily influenced by the disappointing outlook from Volkswagen and considerations surrounding Airtel Africa's IPO. This trend notably affected auto and telecom sectors. Despite oil prices stabilizing, energy share…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:20:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/europes-stoxx600-falls-as-autos-telecoms-lead-broad-sell-off/articleshow/134347712.cms",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Carney Marries Canada to Dying Europe",
+            "description": "Photo Credit:Image: Mark Carney.  Credit: Policy Exchange via Flickr, CC BY 2.0.\r\n\n \n Policy ExchangeBy J.B. ShurkBon voyage and bonne chance, poor, misguided snow socialists.",
+            "source": "Americanthinker.com",
+            "published_at": "2026-09-19T04:00:00Z",
+            "url": "https://www.americanthinker.com/articles/2026/09/carney-marries-canada-to-dying-europe/",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "ANDREW NEIL: We face a winter of global discontent - yet the West is being run by failures of truly historic proportions, for whom reality is another country",
@@ -905,34 +935,64 @@
             "url": "https://finance.yahoo.com/markets/world-indices/articles/strategists-most-bullish-european-stocks-062354923.html",
             "sentiment_score": 0.2155,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "CNBC Daily Open: Hike, hold, hike",
-            "description": "A trio of major central bank decisions dominates trading this week, but focus turns to geopolitical stains ahead of President Trump's meeting with Xi Jingping.",
-            "source": "CNBC",
-            "published_at": "2026-09-18T06:20:51Z",
-            "url": "https://www.cnbc.com/2026/09/18/rate-hike-hold-trump-xi-elections.html",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Barometers largely pare gains; Nifty slips below 23,300 level",
-            "description": "Media shares extended their winning streak, with the sector advancing for the third consecutive trading session.",
-            "source": "Business Standard",
-            "published_at": "2026-09-18T06:20:02Z",
-            "url": "https://www.business-standard.com/markets/capital-market-news/barometers-largely-pare-gains-nifty-slips-below-23-300-level-126091800373_1.html",
-            "sentiment_score": 0.6417,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0486,
+        "average_score": 0.0194,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "AI could double US GDP growth to 4% next year amid capital hurdles, says Elon Musk",
+            "description": "The projection comes at a time when the broader artificial intelligence investment landscape encounters its first major macroeconomic test, according to a recent report by brokerage firm Dolat Capital.",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T05:32:25Z",
+            "url": "https://economictimes.indiatimes.com/tech/tech-bytes/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk/articleshow/134348534.cms",
+            "sentiment_score": 0.4103,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+            "description": "Following the Bank of Japan's decision to increase interest rates, the dollar saw a rise against the yen. Some policymakers expressed skepticism regarding further hikes, while Japanese officials monitored exchange rates, hinting at possible intervention. Addi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:25:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Europe's STOXX600 falls as autos, telecoms lead broad sell-off",
+            "description": "European stocks took a downturn on Friday, primarily influenced by the disappointing outlook from Volkswagen and considerations surrounding Airtel Africa's IPO. This trend notably affected auto and telecom sectors. Despite oil prices stabilizing, energy share…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:20:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/europes-stoxx600-falls-as-autos-telecoms-lead-broad-sell-off/articleshow/134347712.cms",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+            "description": "On Friday, gold prices surged to reach a one-week peak, hinting at a potential weekly gain. This rally was bolstered by falling oil prices, which alleviated inflation concerns. Nonetheless, the appreciation of the US dollar restrained further growth in gold v…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:16:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices/articleshow/134347676.cms",
+            "sentiment_score": 0.7113,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Investors focus on rate path, AI slowdown after Fed hike",
+            "description": "As the new week approaches, US stock investors are set to prioritize developments in interest rates and Middle Eastern unrest. Attention will also shift toward growing pressures to pause advancements in artificial intelligence. The market is still processing …",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:11:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-focus-on-rate-path-ai-slowdown-after-fed-hike/articleshow/134347611.cms",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Breitbart Business Digest: Trump Refuses to Launch World War Warsh",
@@ -955,6 +1015,26 @@
           },
           {
             "currency": "USD",
+            "title": "Ciena Targets $14B Revenue by 2029 as Optical Demand Outruns Supply",
+            "description": "Ciena (NYSE:CIEN) outlined financial objectives through fiscal 2029, including a target of approximately $14 billion in revenue, gross margins of about 50%,...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T22:02:07Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-ciena-targets-14b-revenue-by-2029-as-optical-demand-outruns-supply-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": -0.2326,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Wrap: Bitcoin Climbs Back Above $80,000",
+            "description": "The price of Bitcoin (CRYPTO: $BTC) and other cryptocurrencies strengthened heading into the weekend after a volati...",
+            "source": "Cryptoprowl.com",
+            "published_at": "2026-09-18T22:01:00Z",
+            "url": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-climbs-back-above-80000-7093",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "News of the day: The antagonist next door, variable-rate’s moment, how high will interest rates go, workplace investigations, dual-citizen taxes and more",
             "description": "It’s Friday, Sept. 18. Here are the top stories we’re following today.",
             "source": "Financial Post",
@@ -972,6 +1052,16 @@
             "url": "https://www.boston25news.com/news/business/asian-shares-mostly/ESN55GTH7Q2URFSOW3YA2KFXBA/",
             "sentiment_score": -0.2072,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Savers Got Good News From the Fed This Week—And It Could Last for Years",
+            "description": "The Fed’s latest forecast points to higher rates staying in place for years, with another hike still possible.",
+            "source": "Investopedia",
+            "published_at": "2026-09-18T21:41:00Z",
+            "url": "https://www.investopedia.com/savers-got-good-news-from-the-fed-and-it-could-last-for-years-12128193",
+            "sentiment_score": 0.3083,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -1017,6 +1107,16 @@
             "currency": "USD",
             "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
             "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-18T20:45:10Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-just-revealed-huge-204510063.html",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
+            "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
             "source": "Fortune",
             "published_at": "2026-09-18T20:45:10Z",
             "url": "https://fortune.com/2026/09/18/kevin-warsh-federal-reserve-what-is-monetarism/",
@@ -1032,6 +1132,16 @@
             "url": "https://www.cmswire.com/contact-center/why-contact-center-agents-are-facing-tougher-calls-now/",
             "sentiment_score": 0.1245,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 In...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T20:37:28Z",
+            "url": "https://www.barchart.com/story/news/4686853/stocks-finish-mostly-higher-as-crude-prices-fall",
+            "sentiment_score": -0.4003,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -1051,6 +1161,26 @@
             "published_at": "2026-09-18T20:15:38Z",
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-mixed-as-oil-takes-a-pause/articleshow/134343677.cms",
             "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "L3Harris Pivots to Execution as New CEO Targets Radio, Space Growth",
+            "description": "L3Harris Technologies (NYSE:LHX) is entering its leadership transition with an emphasis on operating execution rather than further portfolio reshaping, accor...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T20:02:09Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-l3harris-pivots-to-execution-as-new-ceo-targets-radio-space-growth-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Osaic Faces Additional Cash Sweep Class Action Suit",
+            "description": "Two customers claim the firm prioritized profits by keeping sweep account interest rates artificially low. It's the latest in a line of cash sweep suits brou...",
+            "source": "Wealthmanagement.com",
+            "published_at": "2026-09-18T19:55:26Z",
+            "url": "https://www.wealthmanagement.com/ibd-news/osaic-faces-another-class-action-over-cash-sweep-rates",
+            "sentiment_score": 0.1758,
             "sentiment_label": "บวกเล็กน้อย"
           },
           {
@@ -1075,6 +1205,36 @@
           },
           {
             "currency": "USD",
+            "title": "Ethereum ETFs Experience $366 Million Loss in Just Two Days as Whales Capitalize on the Dip",
+            "description": "Ethereum ETFs bled hundreds of millions in two days while whale wallets moved in the opposite direction, and the two camps could not have read the same marke...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-18T19:34:01Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/18/ethereum-etfs-experience-366-million-loss-in-just-two-days-as-whales-capitalize-on-the-dip/",
+            "sentiment_score": -0.2227,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Erases Early Gains on Weak US Economic News",
+            "description": "The dollar index (DXY00 ) fell from a 7-week high on Friday and finished down by -0.03%. The dollar gave its advance on Friday on weaker-than-expected US eco...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T19:33:53Z",
+            "url": "https://www.barchart.com/story/news/4685887/dollar-erases-early-gains-on-weak-us-economic-news",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "New SEC, CFTC rules after CLARITY setback fuel Bitcoin rally",
+            "description": "Fresh developments helped offset two of crypto’s biggest headwinds.",
+            "source": "TheStreet",
+            "published_at": "2026-09-18T19:19:24Z",
+            "url": "https://www.thestreet.com/crypto/markets/sec-cftc-new-rules-after-clarity-setback-send-bitcoin-higher",
+            "sentiment_score": 0.4678,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US central bank signals more rate hikes, boosting dollar’s best weekly performance since June",
             "description": "The Fed's rate hikes could strain emerging markets with dollar-denominated debt, as stronger dollar and rising rates increase repayment costs.\nThe post US central bank signals more rate hikes, boosting dollar’s best weekly performance since June appeared firs…",
             "source": "Crypto Briefing",
@@ -1082,160 +1242,10 @@
             "url": "https://cryptobriefing.com/fed-rate-hike-boosts-dollar-weekly-gain/",
             "sentiment_score": 0.8004,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push",
-            "description": "The FHFA's increased MBS purchases could stabilize mortgage rates, potentially easing housing affordability and influencing market dynamics.\nThe post FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push appeared first on…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T19:05:01Z",
-            "url": "https://cryptobriefing.com/fhfa-ramps-up-mbs-purchases-pulte/",
-            "sentiment_score": 0.3173,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Factory Production Retreated in August as Autos and Aerospace Lead Decline",
-            "description": "U.S. manufacturing production fell in August for the first time this year, as declines in motor vehicles and aerospace led a broader retreat across several sectors. Factory output dropped 0.3 percent after rising 0.2 percent in July, the Federal Reserve\nThe p…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-18T18:56:24Z",
-            "url": "https://www.breitbart.com/economy/2026/09/18/u-s-factory-production-retreated-in-august-as-autos-and-aerospace-lead-decline/",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investor sentiment plunges to 16-month low, AAII survey shows",
-            "description": "Investor sentiment fell to its lowest level since May 2025, according to the latest AAII survey. Bearish investors rose to 53.3%, while bullish sentiment dropped to 28.8%. The bull-bear spread fell to -24.5%, as elevated oil prices, a Fed rate hike and market…",
-            "source": "The Times of India",
-            "published_at": "2026-09-18T18:48:28Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/investor-sentiment-plunges-to-16-month-low-aaii-survey-shows/articleshow/134342784.cms",
-            "sentiment_score": -0.3058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mexico’s Sheinbaum says she spoke with Trump as trade negotiations continue",
-            "description": "Mexican president says she is seeking a decrease in tariffs as both countries seek new bilateral trade deal.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-18T18:46:51Z",
-            "url": "https://www.aljazeera.com/news/2026/9/18/mexicos-sheinbaum-says-she-spoke-with-trump-as-trade-negotiations-continue",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Yahoo Finance ends partnership with Polymarket for prediction market hub",
-            "description": "The end of Yahoo Finance's partnership with Polymarket highlights the evolving dynamics and competitive pressures in prediction market integrations.\nThe post Yahoo Finance ends partnership with Polymarket for prediction market hub appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:44:27Z",
-            "url": "https://cryptobriefing.com/yahoo-finance-ends-polymarket-partnership/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury borrowing costs surge as investors pile into short positions",
-            "description": "Rising Treasury yields signal increased borrowing costs, impacting corporate credit, mortgages, and equity valuations across the economy.\nThe post US Treasury borrowing costs surge as investors pile into short positions appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:40:58Z",
-            "url": "https://cryptobriefing.com/us-treasury-borrowing-costs-surge-short-positions/",
-            "sentiment_score": 0.3645,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed keeps the door open for more rate hikes as Schmid warns there's 'work to do'",
-            "description": "Kansas City Federal Reserve president Jeff Schmid said Friday that he supported the central bank's decision to raise interest rates this week and suggested t...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T18:22:14Z",
-            "url": "https://finance.yahoo.com/economy/policy/article/fed-keeps-the-door-open-for-more-rate-hikes-as-schmid-warns-theres-work-to-do-182214817.html",
-            "sentiment_score": 0.1227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Rate Hike Reinforces Trend of Longer Vehicle Ownership",
-            "description": "As borrowing costs climb following the latest Federal Reserve rate hike, more Americans should consider keeping their vehicles longer, as new car investments and unexpected repair costs are a growing financial concern. ST. PETERS, Mo., Sept. 18, 2026 /PRNewsw…",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T18:07:00Z",
-            "url": "https://www.prnewswire.com/news-releases/federal-reserve-rate-hike-reinforces-trend-of-longer-vehicle-ownership-302883528.html",
-            "sentiment_score": 0.0534,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "HubSpot Unveils AI Agent Strategy, Lifts 2030 Margin Targets at Analyst Day",
-            "description": "HubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy centered on what Chief Executive Officer Yamini Rangan called the “outc...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-18T18:02:16Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-hubspot-unveils-ai-agent-strategy-lifts-2030-margin-targets-at-analyst-day-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Hike Jolts Gold Before Oil Retreat Fuels a Sharp Rebound",
-            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T17:59:38Z",
-            "url": "https://finance.yahoo.com/markets/commodities/articles/fed-hike-jolts-gold-oil-175938582.html",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "2-year Treasury yield reaches multi-year high after Fed rate hike",
-            "description": "The 2-year U.S. Treasury yield hit 4.744% on Friday, its highest intraday level since July 2024, amid growing investor expectations that the Federal Reserve would deliver another rate increase after this week's hike, according to The Wall Street Journal.\nWedn…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-18T17:58:30Z",
-            "url": "https://biztoc.com/x/29ffba4445c5739c",
-            "sentiment_score": 0.3508,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial, Manufacturing Production under Consensus",
-            "description": "IP flat, below +0.3% m/m Bloomberg consensus, manufacturing -0.3% below +0.3%. Capacity utilization drops. Adding in monthly GDP, early benchmark NFP as well. Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold or…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-18T17:56:20Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Bowman Challenges Social Media Story Behind SVB Collapse",
-            "description": "Silicon Valley Bank’s collapse became shorthand for the digital bank run. Billions of dollars left quickly while warnings and speculation circulated online. Three years later, an independent review is challenging the connection between those two events. “[W]h…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-18T17:54:25Z",
-            "url": "https://www.pymnts.com/news/banking/2026/federal-reserve-chair-michelle-bowman-challenges-social-media-story-behind-silicon-valley-bank-collapse/",
-            "sentiment_score": -0.484,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs drops surprise call for next Fed interest-rate hike",
-            "description": "Wall Street bank shifts its Fed interest-rate forecast for the remainder of the year.",
-            "source": "TheStreet",
-            "published_at": "2026-09-18T17:47:00Z",
-            "url": "https://www.thestreet.com/fed/goldman-sachs-october-fed-rate-hike",
-            "sentiment_score": 0.1912,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Naples Financial Professional Bobby Garon Breaks Down What the Fed's Rate Hike Means for Your Money",
-            "description": "As the Federal Reserve raises its benchmark rate for the first time since 2023, Bobby Garon offers practical guidance for how the decision affects mortgages, savings, credit cards, and everyday financial planning. NAPLES. Fla., Sept. 18, 2026 /PRNewswire/ -- …",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T17:45:00Z",
-            "url": "https://www.prnewswire.com/news-releases/naples-financial-professional-bobby-garon-breaks-down-what-the-feds-rate-hike-means-for-your-money-302883400.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1196,
+      "net_score": 0.0418,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1248,10 +1258,60 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0486,
+        "average_score": 0.0194,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "AI could double US GDP growth to 4% next year amid capital hurdles, says Elon Musk",
+            "description": "The projection comes at a time when the broader artificial intelligence investment landscape encounters its first major macroeconomic test, according to a recent report by brokerage firm Dolat Capital.",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T05:32:25Z",
+            "url": "https://economictimes.indiatimes.com/tech/tech-bytes/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk/articleshow/134348534.cms",
+            "sentiment_score": 0.4103,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+            "description": "Following the Bank of Japan's decision to increase interest rates, the dollar saw a rise against the yen. Some policymakers expressed skepticism regarding further hikes, while Japanese officials monitored exchange rates, hinting at possible intervention. Addi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:25:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Europe's STOXX600 falls as autos, telecoms lead broad sell-off",
+            "description": "European stocks took a downturn on Friday, primarily influenced by the disappointing outlook from Volkswagen and considerations surrounding Airtel Africa's IPO. This trend notably affected auto and telecom sectors. Despite oil prices stabilizing, energy share…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:20:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/europes-stoxx600-falls-as-autos-telecoms-lead-broad-sell-off/articleshow/134347712.cms",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+            "description": "On Friday, gold prices surged to reach a one-week peak, hinting at a potential weekly gain. This rally was bolstered by falling oil prices, which alleviated inflation concerns. Nonetheless, the appreciation of the US dollar restrained further growth in gold v…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:16:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices/articleshow/134347676.cms",
+            "sentiment_score": 0.7113,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Investors focus on rate path, AI slowdown after Fed hike",
+            "description": "As the new week approaches, US stock investors are set to prioritize developments in interest rates and Middle Eastern unrest. Attention will also shift toward growing pressures to pause advancements in artificial intelligence. The market is still processing …",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:11:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-focus-on-rate-path-ai-slowdown-after-fed-hike/articleshow/134347611.cms",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Breitbart Business Digest: Trump Refuses to Launch World War Warsh",
@@ -1274,6 +1334,26 @@
           },
           {
             "currency": "USD",
+            "title": "Ciena Targets $14B Revenue by 2029 as Optical Demand Outruns Supply",
+            "description": "Ciena (NYSE:CIEN) outlined financial objectives through fiscal 2029, including a target of approximately $14 billion in revenue, gross margins of about 50%,...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T22:02:07Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-ciena-targets-14b-revenue-by-2029-as-optical-demand-outruns-supply-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": -0.2326,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Wrap: Bitcoin Climbs Back Above $80,000",
+            "description": "The price of Bitcoin (CRYPTO: $BTC) and other cryptocurrencies strengthened heading into the weekend after a volati...",
+            "source": "Cryptoprowl.com",
+            "published_at": "2026-09-18T22:01:00Z",
+            "url": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-climbs-back-above-80000-7093",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "News of the day: The antagonist next door, variable-rate’s moment, how high will interest rates go, workplace investigations, dual-citizen taxes and more",
             "description": "It’s Friday, Sept. 18. Here are the top stories we’re following today.",
             "source": "Financial Post",
@@ -1291,6 +1371,16 @@
             "url": "https://www.boston25news.com/news/business/asian-shares-mostly/ESN55GTH7Q2URFSOW3YA2KFXBA/",
             "sentiment_score": -0.2072,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Savers Got Good News From the Fed This Week—And It Could Last for Years",
+            "description": "The Fed’s latest forecast points to higher rates staying in place for years, with another hike still possible.",
+            "source": "Investopedia",
+            "published_at": "2026-09-18T21:41:00Z",
+            "url": "https://www.investopedia.com/savers-got-good-news-from-the-fed-and-it-could-last-for-years-12128193",
+            "sentiment_score": 0.3083,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -1336,6 +1426,16 @@
             "currency": "USD",
             "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
             "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-18T20:45:10Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-just-revealed-huge-204510063.html",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
+            "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
             "source": "Fortune",
             "published_at": "2026-09-18T20:45:10Z",
             "url": "https://fortune.com/2026/09/18/kevin-warsh-federal-reserve-what-is-monetarism/",
@@ -1351,6 +1451,16 @@
             "url": "https://www.cmswire.com/contact-center/why-contact-center-agents-are-facing-tougher-calls-now/",
             "sentiment_score": 0.1245,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 In...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T20:37:28Z",
+            "url": "https://www.barchart.com/story/news/4686853/stocks-finish-mostly-higher-as-crude-prices-fall",
+            "sentiment_score": -0.4003,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -1370,6 +1480,26 @@
             "published_at": "2026-09-18T20:15:38Z",
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-mixed-as-oil-takes-a-pause/articleshow/134343677.cms",
             "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "L3Harris Pivots to Execution as New CEO Targets Radio, Space Growth",
+            "description": "L3Harris Technologies (NYSE:LHX) is entering its leadership transition with an emphasis on operating execution rather than further portfolio reshaping, accor...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T20:02:09Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-l3harris-pivots-to-execution-as-new-ceo-targets-radio-space-growth-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Osaic Faces Additional Cash Sweep Class Action Suit",
+            "description": "Two customers claim the firm prioritized profits by keeping sweep account interest rates artificially low. It's the latest in a line of cash sweep suits brou...",
+            "source": "Wealthmanagement.com",
+            "published_at": "2026-09-18T19:55:26Z",
+            "url": "https://www.wealthmanagement.com/ibd-news/osaic-faces-another-class-action-over-cash-sweep-rates",
+            "sentiment_score": 0.1758,
             "sentiment_label": "บวกเล็กน้อย"
           },
           {
@@ -1394,6 +1524,36 @@
           },
           {
             "currency": "USD",
+            "title": "Ethereum ETFs Experience $366 Million Loss in Just Two Days as Whales Capitalize on the Dip",
+            "description": "Ethereum ETFs bled hundreds of millions in two days while whale wallets moved in the opposite direction, and the two camps could not have read the same marke...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-18T19:34:01Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/18/ethereum-etfs-experience-366-million-loss-in-just-two-days-as-whales-capitalize-on-the-dip/",
+            "sentiment_score": -0.2227,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Erases Early Gains on Weak US Economic News",
+            "description": "The dollar index (DXY00 ) fell from a 7-week high on Friday and finished down by -0.03%. The dollar gave its advance on Friday on weaker-than-expected US eco...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T19:33:53Z",
+            "url": "https://www.barchart.com/story/news/4685887/dollar-erases-early-gains-on-weak-us-economic-news",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "New SEC, CFTC rules after CLARITY setback fuel Bitcoin rally",
+            "description": "Fresh developments helped offset two of crypto’s biggest headwinds.",
+            "source": "TheStreet",
+            "published_at": "2026-09-18T19:19:24Z",
+            "url": "https://www.thestreet.com/crypto/markets/sec-cftc-new-rules-after-clarity-setback-send-bitcoin-higher",
+            "sentiment_score": 0.4678,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US central bank signals more rate hikes, boosting dollar’s best weekly performance since June",
             "description": "The Fed's rate hikes could strain emerging markets with dollar-denominated debt, as stronger dollar and rising rates increase repayment costs.\nThe post US central bank signals more rate hikes, boosting dollar’s best weekly performance since June appeared firs…",
             "source": "Crypto Briefing",
@@ -1401,164 +1561,64 @@
             "url": "https://cryptobriefing.com/fed-rate-hike-boosts-dollar-weekly-gain/",
             "sentiment_score": 0.8004,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push",
-            "description": "The FHFA's increased MBS purchases could stabilize mortgage rates, potentially easing housing affordability and influencing market dynamics.\nThe post FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push appeared first on…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T19:05:01Z",
-            "url": "https://cryptobriefing.com/fhfa-ramps-up-mbs-purchases-pulte/",
-            "sentiment_score": 0.3173,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Factory Production Retreated in August as Autos and Aerospace Lead Decline",
-            "description": "U.S. manufacturing production fell in August for the first time this year, as declines in motor vehicles and aerospace led a broader retreat across several sectors. Factory output dropped 0.3 percent after rising 0.2 percent in July, the Federal Reserve\nThe p…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-18T18:56:24Z",
-            "url": "https://www.breitbart.com/economy/2026/09/18/u-s-factory-production-retreated-in-august-as-autos-and-aerospace-lead-decline/",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investor sentiment plunges to 16-month low, AAII survey shows",
-            "description": "Investor sentiment fell to its lowest level since May 2025, according to the latest AAII survey. Bearish investors rose to 53.3%, while bullish sentiment dropped to 28.8%. The bull-bear spread fell to -24.5%, as elevated oil prices, a Fed rate hike and market…",
-            "source": "The Times of India",
-            "published_at": "2026-09-18T18:48:28Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/investor-sentiment-plunges-to-16-month-low-aaii-survey-shows/articleshow/134342784.cms",
-            "sentiment_score": -0.3058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mexico’s Sheinbaum says she spoke with Trump as trade negotiations continue",
-            "description": "Mexican president says she is seeking a decrease in tariffs as both countries seek new bilateral trade deal.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-18T18:46:51Z",
-            "url": "https://www.aljazeera.com/news/2026/9/18/mexicos-sheinbaum-says-she-spoke-with-trump-as-trade-negotiations-continue",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Yahoo Finance ends partnership with Polymarket for prediction market hub",
-            "description": "The end of Yahoo Finance's partnership with Polymarket highlights the evolving dynamics and competitive pressures in prediction market integrations.\nThe post Yahoo Finance ends partnership with Polymarket for prediction market hub appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:44:27Z",
-            "url": "https://cryptobriefing.com/yahoo-finance-ends-polymarket-partnership/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury borrowing costs surge as investors pile into short positions",
-            "description": "Rising Treasury yields signal increased borrowing costs, impacting corporate credit, mortgages, and equity valuations across the economy.\nThe post US Treasury borrowing costs surge as investors pile into short positions appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:40:58Z",
-            "url": "https://cryptobriefing.com/us-treasury-borrowing-costs-surge-short-positions/",
-            "sentiment_score": 0.3645,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed keeps the door open for more rate hikes as Schmid warns there's 'work to do'",
-            "description": "Kansas City Federal Reserve president Jeff Schmid said Friday that he supported the central bank's decision to raise interest rates this week and suggested t...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T18:22:14Z",
-            "url": "https://finance.yahoo.com/economy/policy/article/fed-keeps-the-door-open-for-more-rate-hikes-as-schmid-warns-theres-work-to-do-182214817.html",
-            "sentiment_score": 0.1227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Rate Hike Reinforces Trend of Longer Vehicle Ownership",
-            "description": "As borrowing costs climb following the latest Federal Reserve rate hike, more Americans should consider keeping their vehicles longer, as new car investments and unexpected repair costs are a growing financial concern. ST. PETERS, Mo., Sept. 18, 2026 /PRNewsw…",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T18:07:00Z",
-            "url": "https://www.prnewswire.com/news-releases/federal-reserve-rate-hike-reinforces-trend-of-longer-vehicle-ownership-302883528.html",
-            "sentiment_score": 0.0534,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "HubSpot Unveils AI Agent Strategy, Lifts 2030 Margin Targets at Analyst Day",
-            "description": "HubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy centered on what Chief Executive Officer Yamini Rangan called the “outc...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-18T18:02:16Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-hubspot-unveils-ai-agent-strategy-lifts-2030-margin-targets-at-analyst-day-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Hike Jolts Gold Before Oil Retreat Fuels a Sharp Rebound",
-            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T17:59:38Z",
-            "url": "https://finance.yahoo.com/markets/commodities/articles/fed-hike-jolts-gold-oil-175938582.html",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "2-year Treasury yield reaches multi-year high after Fed rate hike",
-            "description": "The 2-year U.S. Treasury yield hit 4.744% on Friday, its highest intraday level since July 2024, amid growing investor expectations that the Federal Reserve would deliver another rate increase after this week's hike, according to The Wall Street Journal.\nWedn…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-18T17:58:30Z",
-            "url": "https://biztoc.com/x/29ffba4445c5739c",
-            "sentiment_score": 0.3508,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial, Manufacturing Production under Consensus",
-            "description": "IP flat, below +0.3% m/m Bloomberg consensus, manufacturing -0.3% below +0.3%. Capacity utilization drops. Adding in monthly GDP, early benchmark NFP as well. Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold or…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-18T17:56:20Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Bowman Challenges Social Media Story Behind SVB Collapse",
-            "description": "Silicon Valley Bank’s collapse became shorthand for the digital bank run. Billions of dollars left quickly while warnings and speculation circulated online. Three years later, an independent review is challenging the connection between those two events. “[W]h…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-18T17:54:25Z",
-            "url": "https://www.pymnts.com/news/banking/2026/federal-reserve-chair-michelle-bowman-challenges-social-media-story-behind-silicon-valley-bank-collapse/",
-            "sentiment_score": -0.484,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs drops surprise call for next Fed interest-rate hike",
-            "description": "Wall Street bank shifts its Fed interest-rate forecast for the remainder of the year.",
-            "source": "TheStreet",
-            "published_at": "2026-09-18T17:47:00Z",
-            "url": "https://www.thestreet.com/fed/goldman-sachs-october-fed-rate-hike",
-            "sentiment_score": 0.1912,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Naples Financial Professional Bobby Garon Breaks Down What the Fed's Rate Hike Means for Your Money",
-            "description": "As the Federal Reserve raises its benchmark rate for the first time since 2023, Bobby Garon offers practical guidance for how the decision affects mortgages, savings, credit cards, and everyday financial planning. NAPLES. Fla., Sept. 18, 2026 /PRNewswire/ -- …",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T17:45:00Z",
-            "url": "https://www.prnewswire.com/news-releases/naples-financial-professional-bobby-garon-breaks-down-what-the-feds-rate-hike-means-for-your-money-302883400.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.082,
+        "average_score": 0.0896,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+            "description": "Following the Bank of Japan's decision to increase interest rates, the dollar saw a rise against the yen. Some policymakers expressed skepticism regarding further hikes, while Japanese officials monitored exchange rates, hinting at possible intervention. Addi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:25:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Two-year yield hits highest since 2024 as investors weigh outlook for rate hikes",
+            "description": "On Friday, US Treasury yields experienced an upward movement as investors expressed concerns regarding inflation. The Federal Reserve's recent increases in interest rates and indications of more hikes in the future contribute to this shift. With traders predi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:21:41Z",
+            "url": "https://economictimes.indiatimes.com/markets/bonds/two-year-yield-hits-highest-since-2024-as-investors-weigh-outlook-for-rate-hikes/articleshow/134347703.cms",
+            "sentiment_score": 0.1758,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+            "description": "On Friday, gold prices surged to reach a one-week peak, hinting at a potential weekly gain. This rally was bolstered by falling oil prices, which alleviated inflation concerns. Nonetheless, the appreciation of the US dollar restrained further growth in gold v…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:16:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices/articleshow/134347676.cms",
+            "sentiment_score": 0.7113,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "News Summary-Intelligence Report 9/18/2026*Newsdump Friday*US-UAE-Israel Push Near Yemen*China Stories Xi Visit*5 Yr. Delay US Arms Delivery*US-Denmark Greenland Deal*Iran War Deaths?*ICE Agent Charges*Deadly Mosque Attack Pakistan*Japan Interest Hike*",
+            "description": "Explosions were heard in Saudi Arabia's capital Riyadh late tonight... power grid collapsing in Cuba... Trump signing the sanctions legislation...aimed at Iran and Russia... the Turkish banking regulator revoking the operating license of an Iranian bank branc…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-09-19T02:46:51Z",
+            "url": "https://freerepublic.com/focus/f-bloggers/4396108/posts",
+            "sentiment_score": -0.6089,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "BOJ’s balancing act with U.S. Treasury chief Bessent is only going to get harder",
+            "description": "Nobody likes a back-seat driver. Bank of Japan Gov. Kazuo Ueda now has two — and they want to move at different speeds.\nUeda on Friday raised interest rates for a second time in three months, giving Scott Bessent — the U.S. Treasury chief who stepped in to bo…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-19T01:39:56Z",
+            "url": "https://biztoc.com/x/307f5e21f0aaea78",
+            "sentiment_score": 0.3972,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "JPY",
             "title": "Yen pares BOJ-fueled declines amid report of a rate check",
@@ -1611,6 +1671,16 @@
           },
           {
             "currency": "JPY",
+            "title": "Dollar Erases Early Gains on Weak US Economic News",
+            "description": "The dollar index (DXY00 ) fell from a 7-week high on Friday and finished down by -0.03%. The dollar gave its advance on Friday on weaker-than-expected US eco...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T19:33:53Z",
+            "url": "https://www.barchart.com/story/news/4685887/dollar-erases-early-gains-on-weak-us-economic-news",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
             "title": "US central bank signals more rate hikes, boosting dollar’s best weekly performance since June",
             "description": "The Fed's rate hikes could strain emerging markets with dollar-denominated debt, as stronger dollar and rising rates increase repayment costs.\nThe post US central bank signals more rate hikes, boosting dollar’s best weekly performance since June appeared firs…",
             "source": "Crypto Briefing",
@@ -1618,6 +1688,16 @@
             "url": "https://cryptobriefing.com/fed-rate-hike-boosts-dollar-weekly-gain/",
             "sentiment_score": 0.8004,
             "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Yen jumps as BOJ rate check raises intervention risk",
+            "description": "Key takeawaysThe yen strengthened by more than ¥1 to the upper ¥156 range against the U. S.",
+            "source": "Advfn.com",
+            "published_at": "2026-09-18T18:48:29Z",
+            "url": "https://investorshub.advfn.com/market-news/article/36562/yen-jumps-boj-rate-check-intervention",
+            "sentiment_score": -0.0648,
+            "sentiment_label": "ลบเล็กน้อย"
           },
           {
             "currency": "JPY",
@@ -1788,80 +1868,10 @@
             "url": "https://www.ansa.it/sito/photogallery/primopiano/2026/09/18/tokyo-conferenza-stampa-del-governatore-della-banca-del-giappone_22874ba1-1f62-4a94-b6c5-f5a74e52d4e3.html",
             "sentiment_score": 0.1376,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Nifty settles above 23,300 as Moody's GDP upgrade, easing oil support sentiment",
-            "description": "The key equity benchmarks ended mixed on Friday, as easing crude oil prices and softer global bond yields supported investor sentiment. Market sentiment was also aided by Moody's upward revision of India's FY27 GDP growth forecast to 7% from 6%, citing strong…",
-            "source": "Business Standard",
-            "published_at": "2026-09-18T12:01:09Z",
-            "url": "https://www.business-standard.com/markets/capital-market-news/nifty-settles-above-23-300-as-moody-s-gdp-upgrade-easing-oil-support-sentiment-126091800939_1.html",
-            "sentiment_score": 0.6142,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Bank of Japan raises rates to 31-year high, signals further hikes",
-            "description": "Japan's rate hikes could trigger global capital shifts, impacting foreign bond markets as domestic investment becomes more attractive.\nThe post Bank of Japan raises rates to 31-year high, signals further hikes appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T11:55:24Z",
-            "url": "https://cryptobriefing.com/boj-raises-rates-31-year-high/",
-            "sentiment_score": 0.1478,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's Nikkei rises as investors assess BOJ rate hike and AI stocks",
-            "description": "Investors are now watching for signals on whether the BOJ could raise rates further as inflation and wage growth remain elevated. Attention is also on comments from US Treasury Secretary Scott Bessent.",
-            "source": "Business Standard",
-            "published_at": "2026-09-18T11:34:10Z",
-            "url": "https://www.business-standard.com/markets/capital-market-news/japan-s-nikkei-rises-as-investors-assess-boj-rate-hike-and-ai-stocks-126091800905_1.html",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Bank of Japan lifts rate to 31-year high as it pivots to managing inflation risks",
-            "description": "The Bank of Japan raised interest rates to a 31-year high on Friday, with its governor signalling the central bank has entered a new phase focused on preventing inflation from overshooting its target, opening the door to further rate hikes.\nBut the hawkish me…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-18T11:17:15Z",
-            "url": "https://biztoc.com/x/c8eab33e92c36f6f",
-            "sentiment_score": -0.0677,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Analysis:Global rate-hike cycle in view as central banks take on inflation",
-            "description": "FRANKFURT, Sept 18 : The prospect of a new global interest rate-tightening cycle is coming into view as some of the world's top central banks raise rates and signal more may be needed to tame inflation fuelled by the Iran war.Key rates are already much higher…",
-            "source": "CNA",
-            "published_at": "2026-09-18T11:15:19Z",
-            "url": "https://www.channelnewsasia.com/business/analysisglobal-rate-hike-cycle-in-view-central-banks-take-inflation-6394821",
-            "sentiment_score": 0.2155,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Links 9/18/2026",
-            "description": "Our finely-tuned links: DOGE is back, public robotoilets, warfare on the moon, drug dealers on Google Maps, and the 'largest theft of labor in history.'",
-            "source": "Nakedcapitalism.com",
-            "published_at": "2026-09-18T10:55:19Z",
-            "url": "https://www.nakedcapitalism.com/2026/09/links-9-18-2026.html",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Sensex, Nifty extend losses to 6th week, crude moderation offers little relief, IT & Tata group stocks weigh",
-            "description": "On a weekly basis, the BSE Sensex declined 0.65%, while the NSE Nifty 50 slipped 0.2%, largely due to Tuesday’s fall",
-            "source": "BusinessLine",
-            "published_at": "2026-09-18T10:52:57Z",
-            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty-extend-losses-to-6th-week-crude-moderation-offers-little-relief-it-tata-group-stocks-weigh/article71480356.ece",
-            "sentiment_score": 0.0857,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.1306,
+      "net_score": -0.0702,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1921,10 +1931,60 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0486,
+        "average_score": 0.0194,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "AI could double US GDP growth to 4% next year amid capital hurdles, says Elon Musk",
+            "description": "The projection comes at a time when the broader artificial intelligence investment landscape encounters its first major macroeconomic test, according to a recent report by brokerage firm Dolat Capital.",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T05:32:25Z",
+            "url": "https://economictimes.indiatimes.com/tech/tech-bytes/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk/articleshow/134348534.cms",
+            "sentiment_score": 0.4103,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+            "description": "Following the Bank of Japan's decision to increase interest rates, the dollar saw a rise against the yen. Some policymakers expressed skepticism regarding further hikes, while Japanese officials monitored exchange rates, hinting at possible intervention. Addi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:25:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Europe's STOXX600 falls as autos, telecoms lead broad sell-off",
+            "description": "European stocks took a downturn on Friday, primarily influenced by the disappointing outlook from Volkswagen and considerations surrounding Airtel Africa's IPO. This trend notably affected auto and telecom sectors. Despite oil prices stabilizing, energy share…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:20:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/europes-stoxx600-falls-as-autos-telecoms-lead-broad-sell-off/articleshow/134347712.cms",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+            "description": "On Friday, gold prices surged to reach a one-week peak, hinting at a potential weekly gain. This rally was bolstered by falling oil prices, which alleviated inflation concerns. Nonetheless, the appreciation of the US dollar restrained further growth in gold v…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:16:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices/articleshow/134347676.cms",
+            "sentiment_score": 0.7113,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Investors focus on rate path, AI slowdown after Fed hike",
+            "description": "As the new week approaches, US stock investors are set to prioritize developments in interest rates and Middle Eastern unrest. Attention will also shift toward growing pressures to pause advancements in artificial intelligence. The market is still processing …",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:11:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-focus-on-rate-path-ai-slowdown-after-fed-hike/articleshow/134347611.cms",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Breitbart Business Digest: Trump Refuses to Launch World War Warsh",
@@ -1947,6 +2007,26 @@
           },
           {
             "currency": "USD",
+            "title": "Ciena Targets $14B Revenue by 2029 as Optical Demand Outruns Supply",
+            "description": "Ciena (NYSE:CIEN) outlined financial objectives through fiscal 2029, including a target of approximately $14 billion in revenue, gross margins of about 50%,...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T22:02:07Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-ciena-targets-14b-revenue-by-2029-as-optical-demand-outruns-supply-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": -0.2326,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Wrap: Bitcoin Climbs Back Above $80,000",
+            "description": "The price of Bitcoin (CRYPTO: $BTC) and other cryptocurrencies strengthened heading into the weekend after a volati...",
+            "source": "Cryptoprowl.com",
+            "published_at": "2026-09-18T22:01:00Z",
+            "url": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-climbs-back-above-80000-7093",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "News of the day: The antagonist next door, variable-rate’s moment, how high will interest rates go, workplace investigations, dual-citizen taxes and more",
             "description": "It’s Friday, Sept. 18. Here are the top stories we’re following today.",
             "source": "Financial Post",
@@ -1964,6 +2044,16 @@
             "url": "https://www.boston25news.com/news/business/asian-shares-mostly/ESN55GTH7Q2URFSOW3YA2KFXBA/",
             "sentiment_score": -0.2072,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Savers Got Good News From the Fed This Week—And It Could Last for Years",
+            "description": "The Fed’s latest forecast points to higher rates staying in place for years, with another hike still possible.",
+            "source": "Investopedia",
+            "published_at": "2026-09-18T21:41:00Z",
+            "url": "https://www.investopedia.com/savers-got-good-news-from-the-fed-and-it-could-last-for-years-12128193",
+            "sentiment_score": 0.3083,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -2009,6 +2099,16 @@
             "currency": "USD",
             "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
             "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-18T20:45:10Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-just-revealed-huge-204510063.html",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
+            "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
             "source": "Fortune",
             "published_at": "2026-09-18T20:45:10Z",
             "url": "https://fortune.com/2026/09/18/kevin-warsh-federal-reserve-what-is-monetarism/",
@@ -2024,6 +2124,16 @@
             "url": "https://www.cmswire.com/contact-center/why-contact-center-agents-are-facing-tougher-calls-now/",
             "sentiment_score": 0.1245,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 In...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T20:37:28Z",
+            "url": "https://www.barchart.com/story/news/4686853/stocks-finish-mostly-higher-as-crude-prices-fall",
+            "sentiment_score": -0.4003,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -2043,6 +2153,26 @@
             "published_at": "2026-09-18T20:15:38Z",
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-mixed-as-oil-takes-a-pause/articleshow/134343677.cms",
             "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "L3Harris Pivots to Execution as New CEO Targets Radio, Space Growth",
+            "description": "L3Harris Technologies (NYSE:LHX) is entering its leadership transition with an emphasis on operating execution rather than further portfolio reshaping, accor...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T20:02:09Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-l3harris-pivots-to-execution-as-new-ceo-targets-radio-space-growth-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Osaic Faces Additional Cash Sweep Class Action Suit",
+            "description": "Two customers claim the firm prioritized profits by keeping sweep account interest rates artificially low. It's the latest in a line of cash sweep suits brou...",
+            "source": "Wealthmanagement.com",
+            "published_at": "2026-09-18T19:55:26Z",
+            "url": "https://www.wealthmanagement.com/ibd-news/osaic-faces-another-class-action-over-cash-sweep-rates",
+            "sentiment_score": 0.1758,
             "sentiment_label": "บวกเล็กน้อย"
           },
           {
@@ -2067,6 +2197,36 @@
           },
           {
             "currency": "USD",
+            "title": "Ethereum ETFs Experience $366 Million Loss in Just Two Days as Whales Capitalize on the Dip",
+            "description": "Ethereum ETFs bled hundreds of millions in two days while whale wallets moved in the opposite direction, and the two camps could not have read the same marke...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-18T19:34:01Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/18/ethereum-etfs-experience-366-million-loss-in-just-two-days-as-whales-capitalize-on-the-dip/",
+            "sentiment_score": -0.2227,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Erases Early Gains on Weak US Economic News",
+            "description": "The dollar index (DXY00 ) fell from a 7-week high on Friday and finished down by -0.03%. The dollar gave its advance on Friday on weaker-than-expected US eco...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T19:33:53Z",
+            "url": "https://www.barchart.com/story/news/4685887/dollar-erases-early-gains-on-weak-us-economic-news",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "New SEC, CFTC rules after CLARITY setback fuel Bitcoin rally",
+            "description": "Fresh developments helped offset two of crypto’s biggest headwinds.",
+            "source": "TheStreet",
+            "published_at": "2026-09-18T19:19:24Z",
+            "url": "https://www.thestreet.com/crypto/markets/sec-cftc-new-rules-after-clarity-setback-send-bitcoin-higher",
+            "sentiment_score": 0.4678,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US central bank signals more rate hikes, boosting dollar’s best weekly performance since June",
             "description": "The Fed's rate hikes could strain emerging markets with dollar-denominated debt, as stronger dollar and rising rates increase repayment costs.\nThe post US central bank signals more rate hikes, boosting dollar’s best weekly performance since June appeared firs…",
             "source": "Crypto Briefing",
@@ -2074,160 +2234,10 @@
             "url": "https://cryptobriefing.com/fed-rate-hike-boosts-dollar-weekly-gain/",
             "sentiment_score": 0.8004,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push",
-            "description": "The FHFA's increased MBS purchases could stabilize mortgage rates, potentially easing housing affordability and influencing market dynamics.\nThe post FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push appeared first on…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T19:05:01Z",
-            "url": "https://cryptobriefing.com/fhfa-ramps-up-mbs-purchases-pulte/",
-            "sentiment_score": 0.3173,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Factory Production Retreated in August as Autos and Aerospace Lead Decline",
-            "description": "U.S. manufacturing production fell in August for the first time this year, as declines in motor vehicles and aerospace led a broader retreat across several sectors. Factory output dropped 0.3 percent after rising 0.2 percent in July, the Federal Reserve\nThe p…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-18T18:56:24Z",
-            "url": "https://www.breitbart.com/economy/2026/09/18/u-s-factory-production-retreated-in-august-as-autos-and-aerospace-lead-decline/",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investor sentiment plunges to 16-month low, AAII survey shows",
-            "description": "Investor sentiment fell to its lowest level since May 2025, according to the latest AAII survey. Bearish investors rose to 53.3%, while bullish sentiment dropped to 28.8%. The bull-bear spread fell to -24.5%, as elevated oil prices, a Fed rate hike and market…",
-            "source": "The Times of India",
-            "published_at": "2026-09-18T18:48:28Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/investor-sentiment-plunges-to-16-month-low-aaii-survey-shows/articleshow/134342784.cms",
-            "sentiment_score": -0.3058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mexico’s Sheinbaum says she spoke with Trump as trade negotiations continue",
-            "description": "Mexican president says she is seeking a decrease in tariffs as both countries seek new bilateral trade deal.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-18T18:46:51Z",
-            "url": "https://www.aljazeera.com/news/2026/9/18/mexicos-sheinbaum-says-she-spoke-with-trump-as-trade-negotiations-continue",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Yahoo Finance ends partnership with Polymarket for prediction market hub",
-            "description": "The end of Yahoo Finance's partnership with Polymarket highlights the evolving dynamics and competitive pressures in prediction market integrations.\nThe post Yahoo Finance ends partnership with Polymarket for prediction market hub appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:44:27Z",
-            "url": "https://cryptobriefing.com/yahoo-finance-ends-polymarket-partnership/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury borrowing costs surge as investors pile into short positions",
-            "description": "Rising Treasury yields signal increased borrowing costs, impacting corporate credit, mortgages, and equity valuations across the economy.\nThe post US Treasury borrowing costs surge as investors pile into short positions appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:40:58Z",
-            "url": "https://cryptobriefing.com/us-treasury-borrowing-costs-surge-short-positions/",
-            "sentiment_score": 0.3645,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed keeps the door open for more rate hikes as Schmid warns there's 'work to do'",
-            "description": "Kansas City Federal Reserve president Jeff Schmid said Friday that he supported the central bank's decision to raise interest rates this week and suggested t...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T18:22:14Z",
-            "url": "https://finance.yahoo.com/economy/policy/article/fed-keeps-the-door-open-for-more-rate-hikes-as-schmid-warns-theres-work-to-do-182214817.html",
-            "sentiment_score": 0.1227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Rate Hike Reinforces Trend of Longer Vehicle Ownership",
-            "description": "As borrowing costs climb following the latest Federal Reserve rate hike, more Americans should consider keeping their vehicles longer, as new car investments and unexpected repair costs are a growing financial concern. ST. PETERS, Mo., Sept. 18, 2026 /PRNewsw…",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T18:07:00Z",
-            "url": "https://www.prnewswire.com/news-releases/federal-reserve-rate-hike-reinforces-trend-of-longer-vehicle-ownership-302883528.html",
-            "sentiment_score": 0.0534,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "HubSpot Unveils AI Agent Strategy, Lifts 2030 Margin Targets at Analyst Day",
-            "description": "HubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy centered on what Chief Executive Officer Yamini Rangan called the “outc...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-18T18:02:16Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-hubspot-unveils-ai-agent-strategy-lifts-2030-margin-targets-at-analyst-day-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Hike Jolts Gold Before Oil Retreat Fuels a Sharp Rebound",
-            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T17:59:38Z",
-            "url": "https://finance.yahoo.com/markets/commodities/articles/fed-hike-jolts-gold-oil-175938582.html",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "2-year Treasury yield reaches multi-year high after Fed rate hike",
-            "description": "The 2-year U.S. Treasury yield hit 4.744% on Friday, its highest intraday level since July 2024, amid growing investor expectations that the Federal Reserve would deliver another rate increase after this week's hike, according to The Wall Street Journal.\nWedn…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-18T17:58:30Z",
-            "url": "https://biztoc.com/x/29ffba4445c5739c",
-            "sentiment_score": 0.3508,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial, Manufacturing Production under Consensus",
-            "description": "IP flat, below +0.3% m/m Bloomberg consensus, manufacturing -0.3% below +0.3%. Capacity utilization drops. Adding in monthly GDP, early benchmark NFP as well. Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold or…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-18T17:56:20Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Bowman Challenges Social Media Story Behind SVB Collapse",
-            "description": "Silicon Valley Bank’s collapse became shorthand for the digital bank run. Billions of dollars left quickly while warnings and speculation circulated online. Three years later, an independent review is challenging the connection between those two events. “[W]h…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-18T17:54:25Z",
-            "url": "https://www.pymnts.com/news/banking/2026/federal-reserve-chair-michelle-bowman-challenges-social-media-story-behind-silicon-valley-bank-collapse/",
-            "sentiment_score": -0.484,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs drops surprise call for next Fed interest-rate hike",
-            "description": "Wall Street bank shifts its Fed interest-rate forecast for the remainder of the year.",
-            "source": "TheStreet",
-            "published_at": "2026-09-18T17:47:00Z",
-            "url": "https://www.thestreet.com/fed/goldman-sachs-october-fed-rate-hike",
-            "sentiment_score": 0.1912,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Naples Financial Professional Bobby Garon Breaks Down What the Fed's Rate Hike Means for Your Money",
-            "description": "As the Federal Reserve raises its benchmark rate for the first time since 2023, Bobby Garon offers practical guidance for how the decision affects mortgages, savings, credit cards, and everyday financial planning. NAPLES. Fla., Sept. 18, 2026 /PRNewswire/ -- …",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T17:45:00Z",
-            "url": "https://www.prnewswire.com/news-releases/naples-financial-professional-bobby-garon-breaks-down-what-the-feds-rate-hike-means-for-your-money-302883400.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0477,
+      "net_score": -0.1157,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2240,10 +2250,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1446,
+        "average_score": 0.2154,
         "label": "บวกเล็กน้อย",
-        "article_count": 14,
+        "article_count": 15,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+            "description": "On Friday, gold prices surged to reach a one-week peak, hinting at a potential weekly gain. This rally was bolstered by falling oil prices, which alleviated inflation concerns. Nonetheless, the appreciation of the US dollar restrained further growth in gold v…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:16:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices/articleshow/134347676.cms",
+            "sentiment_score": 0.7113,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "XAU",
             "title": "Gold price today, Friday, September 18, 2026: Gold hits weekly high as inflation concerns fade",
@@ -2387,10 +2407,60 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0486,
+        "average_score": 0.0194,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "AI could double US GDP growth to 4% next year amid capital hurdles, says Elon Musk",
+            "description": "The projection comes at a time when the broader artificial intelligence investment landscape encounters its first major macroeconomic test, according to a recent report by brokerage firm Dolat Capital.",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T05:32:25Z",
+            "url": "https://economictimes.indiatimes.com/tech/tech-bytes/ai-could-double-us-gdp-growth-to-4-next-year-amid-capital-hurdles-says-elon-musk/articleshow/134348534.cms",
+            "sentiment_score": 0.4103,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar advances vs yen as BOJ dissent clouds rate-hike outlook",
+            "description": "Following the Bank of Japan's decision to increase interest rates, the dollar saw a rise against the yen. Some policymakers expressed skepticism regarding further hikes, while Japanese officials monitored exchange rates, hinting at possible intervention. Addi…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:25:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-advances-vs-yen-as-boj-dissent-clouds-rate-hike-outlook/articleshow/134347750.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Europe's STOXX600 falls as autos, telecoms lead broad sell-off",
+            "description": "European stocks took a downturn on Friday, primarily influenced by the disappointing outlook from Volkswagen and considerations surrounding Airtel Africa's IPO. This trend notably affected auto and telecom sectors. Despite oil prices stabilizing, energy share…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:20:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/europes-stoxx600-falls-as-autos-telecoms-lead-broad-sell-off/articleshow/134347712.cms",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices",
+            "description": "On Friday, gold prices surged to reach a one-week peak, hinting at a potential weekly gain. This rally was bolstered by falling oil prices, which alleviated inflation concerns. Nonetheless, the appreciation of the US dollar restrained further growth in gold v…",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:16:24Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-rises-to-one-week-high-heads-for-weekly-gain-on-easing-oil-prices/articleshow/134347676.cms",
+            "sentiment_score": 0.7113,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Investors focus on rate path, AI slowdown after Fed hike",
+            "description": "As the new week approaches, US stock investors are set to prioritize developments in interest rates and Middle Eastern unrest. Attention will also shift toward growing pressures to pause advancements in artificial intelligence. The market is still processing …",
+            "source": "The Times of India",
+            "published_at": "2026-09-19T04:11:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-investors-focus-on-rate-path-ai-slowdown-after-fed-hike/articleshow/134347611.cms",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Breitbart Business Digest: Trump Refuses to Launch World War Warsh",
@@ -2413,6 +2483,26 @@
           },
           {
             "currency": "USD",
+            "title": "Ciena Targets $14B Revenue by 2029 as Optical Demand Outruns Supply",
+            "description": "Ciena (NYSE:CIEN) outlined financial objectives through fiscal 2029, including a target of approximately $14 billion in revenue, gross margins of about 50%,...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T22:02:07Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-ciena-targets-14b-revenue-by-2029-as-optical-demand-outruns-supply-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": -0.2326,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Weekly Wrap: Bitcoin Climbs Back Above $80,000",
+            "description": "The price of Bitcoin (CRYPTO: $BTC) and other cryptocurrencies strengthened heading into the weekend after a volati...",
+            "source": "Cryptoprowl.com",
+            "published_at": "2026-09-18T22:01:00Z",
+            "url": "https://www.cryptoprowl.com/releases/weekly-wrap-bitcoin-climbs-back-above-80000-7093",
+            "sentiment_score": 0.1264,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
             "title": "News of the day: The antagonist next door, variable-rate’s moment, how high will interest rates go, workplace investigations, dual-citizen taxes and more",
             "description": "It’s Friday, Sept. 18. Here are the top stories we’re following today.",
             "source": "Financial Post",
@@ -2430,6 +2520,16 @@
             "url": "https://www.boston25news.com/news/business/asian-shares-mostly/ESN55GTH7Q2URFSOW3YA2KFXBA/",
             "sentiment_score": -0.2072,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Savers Got Good News From the Fed This Week—And It Could Last for Years",
+            "description": "The Fed’s latest forecast points to higher rates staying in place for years, with another hike still possible.",
+            "source": "Investopedia",
+            "published_at": "2026-09-18T21:41:00Z",
+            "url": "https://www.investopedia.com/savers-got-good-news-from-the-fed-and-it-could-last-for-years-12128193",
+            "sentiment_score": 0.3083,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -2475,6 +2575,16 @@
             "currency": "USD",
             "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
             "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-18T20:45:10Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/kevin-warsh-just-revealed-huge-204510063.html",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kevin Warsh just revealed a huge change for the Fed. The press missed it",
+            "description": "Warsh is shaping up to run the Fed in a totally different way than it has been for decades.",
             "source": "Fortune",
             "published_at": "2026-09-18T20:45:10Z",
             "url": "https://fortune.com/2026/09/18/kevin-warsh-federal-reserve-what-is-monetarism/",
@@ -2490,6 +2600,16 @@
             "url": "https://www.cmswire.com/contact-center/why-contact-center-agents-are-facing-tougher-calls-now/",
             "sentiment_score": 0.1245,
             "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks Finish Mostly Higher as Crude Prices Fall",
+            "description": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.17% on Friday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down by -0.18%, and the Nasdaq 100 In...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T20:37:28Z",
+            "url": "https://www.barchart.com/story/news/4686853/stocks-finish-mostly-higher-as-crude-prices-fall",
+            "sentiment_score": -0.4003,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
             "currency": "USD",
@@ -2509,6 +2629,26 @@
             "published_at": "2026-09-18T20:15:38Z",
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-mixed-as-oil-takes-a-pause/articleshow/134343677.cms",
             "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "L3Harris Pivots to Execution as New CEO Targets Radio, Space Growth",
+            "description": "L3Harris Technologies (NYSE:LHX) is entering its leadership transition with an emphasis on operating execution rather than further portfolio reshaping, accor...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-18T20:02:09Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-l3harris-pivots-to-execution-as-new-ceo-targets-radio-space-growth-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Osaic Faces Additional Cash Sweep Class Action Suit",
+            "description": "Two customers claim the firm prioritized profits by keeping sweep account interest rates artificially low. It's the latest in a line of cash sweep suits brou...",
+            "source": "Wealthmanagement.com",
+            "published_at": "2026-09-18T19:55:26Z",
+            "url": "https://www.wealthmanagement.com/ibd-news/osaic-faces-another-class-action-over-cash-sweep-rates",
+            "sentiment_score": 0.1758,
             "sentiment_label": "บวกเล็กน้อย"
           },
           {
@@ -2533,6 +2673,36 @@
           },
           {
             "currency": "USD",
+            "title": "Ethereum ETFs Experience $366 Million Loss in Just Two Days as Whales Capitalize on the Dip",
+            "description": "Ethereum ETFs bled hundreds of millions in two days while whale wallets moved in the opposite direction, and the two camps could not have read the same marke...",
+            "source": "24/7 Wall St.",
+            "published_at": "2026-09-18T19:34:01Z",
+            "url": "https://247wallst.com/investing/cryptocurrency/2026/09/18/ethereum-etfs-experience-366-million-loss-in-just-two-days-as-whales-capitalize-on-the-dip/",
+            "sentiment_score": -0.2227,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar Erases Early Gains on Weak US Economic News",
+            "description": "The dollar index (DXY00 ) fell from a 7-week high on Friday and finished down by -0.03%. The dollar gave its advance on Friday on weaker-than-expected US eco...",
+            "source": "Barchart.com",
+            "published_at": "2026-09-18T19:33:53Z",
+            "url": "https://www.barchart.com/story/news/4685887/dollar-erases-early-gains-on-weak-us-economic-news",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "New SEC, CFTC rules after CLARITY setback fuel Bitcoin rally",
+            "description": "Fresh developments helped offset two of crypto’s biggest headwinds.",
+            "source": "TheStreet",
+            "published_at": "2026-09-18T19:19:24Z",
+            "url": "https://www.thestreet.com/crypto/markets/sec-cftc-new-rules-after-clarity-setback-send-bitcoin-higher",
+            "sentiment_score": 0.4678,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
             "title": "US central bank signals more rate hikes, boosting dollar’s best weekly performance since June",
             "description": "The Fed's rate hikes could strain emerging markets with dollar-denominated debt, as stronger dollar and rising rates increase repayment costs.\nThe post US central bank signals more rate hikes, boosting dollar’s best weekly performance since June appeared firs…",
             "source": "Crypto Briefing",
@@ -2540,160 +2710,10 @@
             "url": "https://cryptobriefing.com/fed-rate-hike-boosts-dollar-weekly-gain/",
             "sentiment_score": 0.8004,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push",
-            "description": "The FHFA's increased MBS purchases could stabilize mortgage rates, potentially easing housing affordability and influencing market dynamics.\nThe post FHFA ramps up mortgage-backed securities purchases as Pulte signals aggressive housing push appeared first on…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T19:05:01Z",
-            "url": "https://cryptobriefing.com/fhfa-ramps-up-mbs-purchases-pulte/",
-            "sentiment_score": 0.3173,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Factory Production Retreated in August as Autos and Aerospace Lead Decline",
-            "description": "U.S. manufacturing production fell in August for the first time this year, as declines in motor vehicles and aerospace led a broader retreat across several sectors. Factory output dropped 0.3 percent after rising 0.2 percent in July, the Federal Reserve\nThe p…",
-            "source": "Breitbart News",
-            "published_at": "2026-09-18T18:56:24Z",
-            "url": "https://www.breitbart.com/economy/2026/09/18/u-s-factory-production-retreated-in-august-as-autos-and-aerospace-lead-decline/",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investor sentiment plunges to 16-month low, AAII survey shows",
-            "description": "Investor sentiment fell to its lowest level since May 2025, according to the latest AAII survey. Bearish investors rose to 53.3%, while bullish sentiment dropped to 28.8%. The bull-bear spread fell to -24.5%, as elevated oil prices, a Fed rate hike and market…",
-            "source": "The Times of India",
-            "published_at": "2026-09-18T18:48:28Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/investor-sentiment-plunges-to-16-month-low-aaii-survey-shows/articleshow/134342784.cms",
-            "sentiment_score": -0.3058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mexico’s Sheinbaum says she spoke with Trump as trade negotiations continue",
-            "description": "Mexican president says she is seeking a decrease in tariffs as both countries seek new bilateral trade deal.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-18T18:46:51Z",
-            "url": "https://www.aljazeera.com/news/2026/9/18/mexicos-sheinbaum-says-she-spoke-with-trump-as-trade-negotiations-continue",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Yahoo Finance ends partnership with Polymarket for prediction market hub",
-            "description": "The end of Yahoo Finance's partnership with Polymarket highlights the evolving dynamics and competitive pressures in prediction market integrations.\nThe post Yahoo Finance ends partnership with Polymarket for prediction market hub appeared first on Crypto Bri…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:44:27Z",
-            "url": "https://cryptobriefing.com/yahoo-finance-ends-polymarket-partnership/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Treasury borrowing costs surge as investors pile into short positions",
-            "description": "Rising Treasury yields signal increased borrowing costs, impacting corporate credit, mortgages, and equity valuations across the economy.\nThe post US Treasury borrowing costs surge as investors pile into short positions appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-18T18:40:58Z",
-            "url": "https://cryptobriefing.com/us-treasury-borrowing-costs-surge-short-positions/",
-            "sentiment_score": 0.3645,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed keeps the door open for more rate hikes as Schmid warns there's 'work to do'",
-            "description": "Kansas City Federal Reserve president Jeff Schmid said Friday that he supported the central bank's decision to raise interest rates this week and suggested t...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T18:22:14Z",
-            "url": "https://finance.yahoo.com/economy/policy/article/fed-keeps-the-door-open-for-more-rate-hikes-as-schmid-warns-theres-work-to-do-182214817.html",
-            "sentiment_score": 0.1227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Rate Hike Reinforces Trend of Longer Vehicle Ownership",
-            "description": "As borrowing costs climb following the latest Federal Reserve rate hike, more Americans should consider keeping their vehicles longer, as new car investments and unexpected repair costs are a growing financial concern. ST. PETERS, Mo., Sept. 18, 2026 /PRNewsw…",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T18:07:00Z",
-            "url": "https://www.prnewswire.com/news-releases/federal-reserve-rate-hike-reinforces-trend-of-longer-vehicle-ownership-302883528.html",
-            "sentiment_score": 0.0534,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "HubSpot Unveils AI Agent Strategy, Lifts 2030 Margin Targets at Analyst Day",
-            "description": "HubSpot (NYSE:HUBS) used its Analyst Day at UNBOUND to outline an AI-focused strategy centered on what Chief Executive Officer Yamini Rangan called the “outc...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-18T18:02:16Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-hubspot-unveils-ai-agent-strategy-lifts-2030-margin-targets-at-analyst-day-2026-09-18/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Hike Jolts Gold Before Oil Retreat Fuels a Sharp Rebound",
-            "description": "Happy Friday, traders. Welcome to our weekly market wrap, where we take a look back at these last five trading days with a focus on the market news, economic...",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-09-18T17:59:38Z",
-            "url": "https://finance.yahoo.com/markets/commodities/articles/fed-hike-jolts-gold-oil-175938582.html",
-            "sentiment_score": 0.3731,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "2-year Treasury yield reaches multi-year high after Fed rate hike",
-            "description": "The 2-year U.S. Treasury yield hit 4.744% on Friday, its highest intraday level since July 2024, amid growing investor expectations that the Federal Reserve would deliver another rate increase after this week's hike, according to The Wall Street Journal.\nWedn…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-18T17:58:30Z",
-            "url": "https://biztoc.com/x/29ffba4445c5739c",
-            "sentiment_score": 0.3508,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial, Manufacturing Production under Consensus",
-            "description": "IP flat, below +0.3% m/m Bloomberg consensus, manufacturing -0.3% below +0.3%. Capacity utilization drops. Adding in monthly GDP, early benchmark NFP as well. Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold or…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-18T17:56:20Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-industrial-manufacturing-production-under-consensus",
-            "sentiment_score": 0.2229,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Bowman Challenges Social Media Story Behind SVB Collapse",
-            "description": "Silicon Valley Bank’s collapse became shorthand for the digital bank run. Billions of dollars left quickly while warnings and speculation circulated online. Three years later, an independent review is challenging the connection between those two events. “[W]h…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-18T17:54:25Z",
-            "url": "https://www.pymnts.com/news/banking/2026/federal-reserve-chair-michelle-bowman-challenges-social-media-story-behind-silicon-valley-bank-collapse/",
-            "sentiment_score": -0.484,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs drops surprise call for next Fed interest-rate hike",
-            "description": "Wall Street bank shifts its Fed interest-rate forecast for the remainder of the year.",
-            "source": "TheStreet",
-            "published_at": "2026-09-18T17:47:00Z",
-            "url": "https://www.thestreet.com/fed/goldman-sachs-october-fed-rate-hike",
-            "sentiment_score": 0.1912,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Naples Financial Professional Bobby Garon Breaks Down What the Fed's Rate Hike Means for Your Money",
-            "description": "As the Federal Reserve raises its benchmark rate for the first time since 2023, Bobby Garon offers practical guidance for how the decision affects mortgages, savings, credit cards, and everyday financial planning. NAPLES. Fla., Sept. 18, 2026 /PRNewswire/ -- …",
-            "source": "PRNewswire",
-            "published_at": "2026-09-18T17:45:00Z",
-            "url": "https://www.prnewswire.com/news-releases/naples-financial-professional-bobby-garon-breaks-down-what-the-feds-rate-hike-means-for-your-money-302883400.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1932,
+      "net_score": 0.196,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
