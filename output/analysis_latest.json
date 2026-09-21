@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1548,
+        "average_score": -0.0826,
         "label": "ลบเล็กน้อย",
-        "article_count": 4,
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Bankers face EU privacy wall in race to stem evolving credit risk",
+            "description": "European banks are struggling to assess growing exposure to wildfires, floods and droughts as data-privacy rules limit access to detailed information on properties and insurance coverage",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T07:57:34Z",
+            "url": "https://www.business-standard.com/world-news/bankers-face-eu-privacy-wall-in-race-to-stem-evolving-credit-risk-126092000281_1.html",
+            "sentiment_score": 0.0076,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Trump-Xi Jinping showdown casts a shadow over global economy, trade",
+            "description": "Trump and Xi's talks on tariffs, technology and critical minerals will be the week's pivotal event, with the outcome likely to shape the fragile US-China trade detente",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T07:19:44Z",
+            "url": "https://www.business-standard.com/world-news/trump-xi-jinping-showdown-casts-a-shadow-over-global-economy-trade-126092000250_1.html",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Companies avoid selling long-term bonds investors are clamoring for",
@@ -19,6 +39,16 @@
             "url": "https://www.business-standard.com/world-news/companies-avoid-selling-long-term-bonds-investors-are-clamoring-for-126092000063_1.html",
             "sentiment_score": -0.2456,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Trump-Xi Showdown Casts a Shadow Over the Global Economy",
+            "description": "US President Donald Trump’s talks with China’s Xi Jinping is set to be the week’s pivotal event, covering crucial issues from tariffs to technology related t...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-19T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/trump-xi-showdown-casts-shadow-200000957.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
           },
           {
             "currency": "EUR",
@@ -53,10 +83,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0572,
+        "average_score": 0.0716,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "If you ask most economists, market experts, and even the Federal Reserve, the story of the US economy for the rest of 2026 will be one of strong and steady growth. But there are serious reasons to doubt this forecast of calm waters.\nThere's no better example …",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T08:51:36Z",
+            "url": "https://biztoc.com/x/f43664dc27c71b00",
+            "sentiment_score": -0.0685,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "Consumer spending is showing signs of slowing — right as the Fed starts raising interest rates. That's going to be a double drag on the US economy.",
+            "source": "Business Insider",
+            "published_at": "2026-09-20T08:47:01Z",
+            "url": "https://www.businessinsider.com/us-economy-slowdown-consumer-spending-federal-reserve-interest-rate-hikes-2026-9#article",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "ETMarkets Smart Talk | India may see 50 bps of rate hikes in 2026 as Fed tightens: Garima Kapoor",
+            "description": "The Fed’s latest rate hike could constrain the RBI’s policy flexibility as India-US bond yield differentials narrow. Elara Securities’ Garima Kapoor expects 25-50 bps of RBI hikes in 2026, while higher US yields and a stronger dollar could pressure FPI flows.",
+            "source": "The Times of India",
+            "published_at": "2026-09-20T08:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-india-may-see-50-bps-of-rate-hikes-in-2026-as-fed-tightens-garima-kapoor/articleshow/134365623.cms",
+            "sentiment_score": 0.4078,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Week Ahead: Trump-Xi Meeting Highlight",
+            "description": "The near-term dollar movement continues to be sensitive to changes in US rates. The Federal Reserve delivered the quarter-point hike that was widely anticipated by a unanimous decision, and still the two-year yield rose a little\nSummary\n- With major central b…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T07:35:55Z",
+            "url": "https://biztoc.com/x/60e46999c7781f64",
+            "sentiment_score": 0.238,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs turn cautious; withdraw ₹20,974 core from equities in September amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL.",
+            "source": "BusinessLine",
+            "published_at": "2026-09-20T06:21:11Z",
+            "url": "https://www.thehindubusinessline.com/markets/fpis-turn-cautious-withdraw-20974-core-from-equities-in-september-amid-global-uncertainty/article71487196.ece",
+            "sentiment_score": -0.193,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US widens",
+            "description": "China's unchanged rates amid US hikes may lead to capital outflows, yuan pressure, and limited monetary policy options, affecting growth strategies.\nThe post China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US wi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-20T05:54:41Z",
+            "url": "https://cryptobriefing.com/china-benchmark-lending-rates-unchanged-16-months/",
+            "sentiment_score": 0.1892,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T05:52:45Z",
+            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-20-974-crore-from-equities-in-sep-amid-global-uncertainty-126092000171_1.html",
+            "sentiment_score": -0.136,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump’s Secret Call Stuns White House Goons",
@@ -96,6 +196,16 @@
             "url": "https://www.themirror.com/news/politics/gallery/inside-donald-trumps-week-hell-2030354",
             "sentiment_score": -0.0971,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Brookfield Asset Management Targets Doubling Fee-Bearing Capital by 2031",
+            "description": "Brookfield Asset Management (NYSE:BAM) used its 2026 Investor Day to outline plans to double fee-bearing capital by 2031, supported by fundraising across fla...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-20T00:02:00Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-brookfield-asset-management-targets-doubling-fee-bearing-capital-by-2031-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.4286,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -276,90 +386,10 @@
             "url": "https://www.mentalfloss.com/history/law/is-it-illegal-to-burn-money",
             "sentiment_score": -0.6099,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.\nThe Federal Reserve raised its benchmark interest rate by a quarter of a percentage point on September 16, bringing …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:39Z",
-            "url": "https://biztoc.com/x/55dfb8158016adb7",
-            "sentiment_score": 0.7486,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "Bank of America isn't backing away from its forecast for two more Federal Reserve rate hikes this year.\nIn addition, the Wall Street bank is raising a bigger question:\nWill even 75 basis points of additional tightening be enough to bring inflation back to the…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:14Z",
-            "url": "https://biztoc.com/x/b0323f5bce202f9b",
-            "sentiment_score": 0.0304,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump ramps up feud with media after week of setbacks",
-            "description": "An embattled Trump has injected his fight with the news media with new acrimony, writes the BBC's Anthony Zurcher.",
-            "source": "BBC News",
-            "published_at": "2026-09-19T17:23:37Z",
-            "url": "https://www.bbc.co.uk/news/articles/cmn8ed1xpxnyo",
-            "sentiment_score": -0.3525,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "BofA raises risk scenarios if Fed rate hikes miss inflation 2% target.",
-            "source": "TheStreet",
-            "published_at": "2026-09-19T17:17:00Z",
-            "url": "https://www.thestreet.com/fed/bofa-fed-rate-hikes-inflation",
-            "sentiment_score": -0.0844,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "KeyCorp Reaffirms 2026 Outlook as Loan Growth, Margins and Fees Gain Momentum",
-            "description": "KeyCorp (NYSE:KEY) Chief Financial Officer Clark Khayat said the bank remains confident in its 2026 outlook as client activity, loan growth and credit qualit...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-19T17:02:04Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-keycorp-reaffirms-2026-outlook-as-loan-growth-margins-and-fees-gain-momentum-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.7467,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.",
-            "source": "Moneylion.com",
-            "published_at": "2026-09-19T17:00:26Z",
-            "url": "https://moneylion.com/trending/money/fed-raised-interest-rates-means-holiday-shopping",
-            "sentiment_score": 0.7258,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Used-Car Lots Feel the Brunt of Affordability Crisis...",
-            "description": "Used-Car Lots Feel the Brunt of America’s Affordability Crisis",
-            "source": "Ainvest.com",
-            "published_at": "2026-09-19T17:00:13Z",
-            "url": "https://www.ainvest.com/news/car-lots-feel-brunt-america-affordability-crisis-2609/",
-            "sentiment_score": -0.6249,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
-            "description": "The Federal Reserve raised interest rates for the first time since July 2023 on Wednesday, and the S&P 500 (SNPINDEX: ^GSPC) immediately dropped. It rose again before the day was over, but it's been steadily declining over the past month since hitting a high …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T16:17:12Z",
-            "url": "https://biztoc.com/x/4ebd664705695245",
-            "sentiment_score": -0.3253,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.212,
+      "net_score": -0.1542,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -369,14 +399,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.14797,
+      "price_now": 1.14837,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 48.1,
-      "rsi_signal": "โซนกลาง (RSI=48.1)",
+      "rsi_value": 52.6,
+      "rsi_signal": "โซนกลาง (RSI=52.6)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00068,
-      "suggested_sl_distance": 0.00103,
+      "atr_value": 0.00065,
+      "suggested_sl_distance": 0.00098,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -390,7 +420,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-21T04:45:40.176558+00:00"
+    "generated_at": "2026-09-21T10:35:43.380534+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -486,10 +516,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0572,
+        "average_score": 0.0716,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "If you ask most economists, market experts, and even the Federal Reserve, the story of the US economy for the rest of 2026 will be one of strong and steady growth. But there are serious reasons to doubt this forecast of calm waters.\nThere's no better example …",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T08:51:36Z",
+            "url": "https://biztoc.com/x/f43664dc27c71b00",
+            "sentiment_score": -0.0685,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "Consumer spending is showing signs of slowing — right as the Fed starts raising interest rates. That's going to be a double drag on the US economy.",
+            "source": "Business Insider",
+            "published_at": "2026-09-20T08:47:01Z",
+            "url": "https://www.businessinsider.com/us-economy-slowdown-consumer-spending-federal-reserve-interest-rate-hikes-2026-9#article",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "ETMarkets Smart Talk | India may see 50 bps of rate hikes in 2026 as Fed tightens: Garima Kapoor",
+            "description": "The Fed’s latest rate hike could constrain the RBI’s policy flexibility as India-US bond yield differentials narrow. Elara Securities’ Garima Kapoor expects 25-50 bps of RBI hikes in 2026, while higher US yields and a stronger dollar could pressure FPI flows.",
+            "source": "The Times of India",
+            "published_at": "2026-09-20T08:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-india-may-see-50-bps-of-rate-hikes-in-2026-as-fed-tightens-garima-kapoor/articleshow/134365623.cms",
+            "sentiment_score": 0.4078,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Week Ahead: Trump-Xi Meeting Highlight",
+            "description": "The near-term dollar movement continues to be sensitive to changes in US rates. The Federal Reserve delivered the quarter-point hike that was widely anticipated by a unanimous decision, and still the two-year yield rose a little\nSummary\n- With major central b…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T07:35:55Z",
+            "url": "https://biztoc.com/x/60e46999c7781f64",
+            "sentiment_score": 0.238,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs turn cautious; withdraw ₹20,974 core from equities in September amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL.",
+            "source": "BusinessLine",
+            "published_at": "2026-09-20T06:21:11Z",
+            "url": "https://www.thehindubusinessline.com/markets/fpis-turn-cautious-withdraw-20974-core-from-equities-in-september-amid-global-uncertainty/article71487196.ece",
+            "sentiment_score": -0.193,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US widens",
+            "description": "China's unchanged rates amid US hikes may lead to capital outflows, yuan pressure, and limited monetary policy options, affecting growth strategies.\nThe post China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US wi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-20T05:54:41Z",
+            "url": "https://cryptobriefing.com/china-benchmark-lending-rates-unchanged-16-months/",
+            "sentiment_score": 0.1892,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T05:52:45Z",
+            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-20-974-crore-from-equities-in-sep-amid-global-uncertainty-126092000171_1.html",
+            "sentiment_score": -0.136,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump’s Secret Call Stuns White House Goons",
@@ -529,6 +629,16 @@
             "url": "https://www.themirror.com/news/politics/gallery/inside-donald-trumps-week-hell-2030354",
             "sentiment_score": -0.0971,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Brookfield Asset Management Targets Doubling Fee-Bearing Capital by 2031",
+            "description": "Brookfield Asset Management (NYSE:BAM) used its 2026 Investor Day to outline plans to double fee-bearing capital by 2031, supported by fundraising across fla...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-20T00:02:00Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-brookfield-asset-management-targets-doubling-fee-bearing-capital-by-2031-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.4286,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -709,90 +819,10 @@
             "url": "https://www.mentalfloss.com/history/law/is-it-illegal-to-burn-money",
             "sentiment_score": -0.6099,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.\nThe Federal Reserve raised its benchmark interest rate by a quarter of a percentage point on September 16, bringing …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:39Z",
-            "url": "https://biztoc.com/x/55dfb8158016adb7",
-            "sentiment_score": 0.7486,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "Bank of America isn't backing away from its forecast for two more Federal Reserve rate hikes this year.\nIn addition, the Wall Street bank is raising a bigger question:\nWill even 75 basis points of additional tightening be enough to bring inflation back to the…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:14Z",
-            "url": "https://biztoc.com/x/b0323f5bce202f9b",
-            "sentiment_score": 0.0304,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump ramps up feud with media after week of setbacks",
-            "description": "An embattled Trump has injected his fight with the news media with new acrimony, writes the BBC's Anthony Zurcher.",
-            "source": "BBC News",
-            "published_at": "2026-09-19T17:23:37Z",
-            "url": "https://www.bbc.co.uk/news/articles/cmn8ed1xpxnyo",
-            "sentiment_score": -0.3525,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "BofA raises risk scenarios if Fed rate hikes miss inflation 2% target.",
-            "source": "TheStreet",
-            "published_at": "2026-09-19T17:17:00Z",
-            "url": "https://www.thestreet.com/fed/bofa-fed-rate-hikes-inflation",
-            "sentiment_score": -0.0844,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "KeyCorp Reaffirms 2026 Outlook as Loan Growth, Margins and Fees Gain Momentum",
-            "description": "KeyCorp (NYSE:KEY) Chief Financial Officer Clark Khayat said the bank remains confident in its 2026 outlook as client activity, loan growth and credit qualit...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-19T17:02:04Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-keycorp-reaffirms-2026-outlook-as-loan-growth-margins-and-fees-gain-momentum-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.7467,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.",
-            "source": "Moneylion.com",
-            "published_at": "2026-09-19T17:00:26Z",
-            "url": "https://moneylion.com/trending/money/fed-raised-interest-rates-means-holiday-shopping",
-            "sentiment_score": 0.7258,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Used-Car Lots Feel the Brunt of Affordability Crisis...",
-            "description": "Used-Car Lots Feel the Brunt of America’s Affordability Crisis",
-            "source": "Ainvest.com",
-            "published_at": "2026-09-19T17:00:13Z",
-            "url": "https://www.ainvest.com/news/car-lots-feel-brunt-america-affordability-crisis-2609/",
-            "sentiment_score": -0.6249,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
-            "description": "The Federal Reserve raised interest rates for the first time since July 2023 on Wednesday, and the S&P 500 (SNPINDEX: ^GSPC) immediately dropped. It rose again before the day was over, but it's been steadily declining over the past month since hitting a high …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T16:17:12Z",
-            "url": "https://biztoc.com/x/4ebd664705695245",
-            "sentiment_score": -0.3253,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0308,
+      "net_score": -0.0452,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -802,28 +832,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3379,
+      "price_now": 1.33824,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.2,
-      "rsi_signal": "โซนกลาง (RSI=50.2)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00093,
-      "suggested_sl_distance": 0.0014,
+      "rsi_value": 53.0,
+      "rsi_signal": "โซนกลาง (RSI=53.0)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00087,
+      "suggested_sl_distance": 0.0013,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=50.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-21T04:45:40.176558+00:00"
+    "generated_at": "2026-09-21T10:35:43.380534+00:00"
   },
   {
     "pair": "USDJPY",
@@ -832,10 +862,80 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0572,
+        "average_score": 0.0716,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "If you ask most economists, market experts, and even the Federal Reserve, the story of the US economy for the rest of 2026 will be one of strong and steady growth. But there are serious reasons to doubt this forecast of calm waters.\nThere's no better example …",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T08:51:36Z",
+            "url": "https://biztoc.com/x/f43664dc27c71b00",
+            "sentiment_score": -0.0685,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "Consumer spending is showing signs of slowing — right as the Fed starts raising interest rates. That's going to be a double drag on the US economy.",
+            "source": "Business Insider",
+            "published_at": "2026-09-20T08:47:01Z",
+            "url": "https://www.businessinsider.com/us-economy-slowdown-consumer-spending-federal-reserve-interest-rate-hikes-2026-9#article",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "ETMarkets Smart Talk | India may see 50 bps of rate hikes in 2026 as Fed tightens: Garima Kapoor",
+            "description": "The Fed’s latest rate hike could constrain the RBI’s policy flexibility as India-US bond yield differentials narrow. Elara Securities’ Garima Kapoor expects 25-50 bps of RBI hikes in 2026, while higher US yields and a stronger dollar could pressure FPI flows.",
+            "source": "The Times of India",
+            "published_at": "2026-09-20T08:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-india-may-see-50-bps-of-rate-hikes-in-2026-as-fed-tightens-garima-kapoor/articleshow/134365623.cms",
+            "sentiment_score": 0.4078,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Week Ahead: Trump-Xi Meeting Highlight",
+            "description": "The near-term dollar movement continues to be sensitive to changes in US rates. The Federal Reserve delivered the quarter-point hike that was widely anticipated by a unanimous decision, and still the two-year yield rose a little\nSummary\n- With major central b…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T07:35:55Z",
+            "url": "https://biztoc.com/x/60e46999c7781f64",
+            "sentiment_score": 0.238,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs turn cautious; withdraw ₹20,974 core from equities in September amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL.",
+            "source": "BusinessLine",
+            "published_at": "2026-09-20T06:21:11Z",
+            "url": "https://www.thehindubusinessline.com/markets/fpis-turn-cautious-withdraw-20974-core-from-equities-in-september-amid-global-uncertainty/article71487196.ece",
+            "sentiment_score": -0.193,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US widens",
+            "description": "China's unchanged rates amid US hikes may lead to capital outflows, yuan pressure, and limited monetary policy options, affecting growth strategies.\nThe post China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US wi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-20T05:54:41Z",
+            "url": "https://cryptobriefing.com/china-benchmark-lending-rates-unchanged-16-months/",
+            "sentiment_score": 0.1892,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T05:52:45Z",
+            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-20-974-crore-from-equities-in-sep-amid-global-uncertainty-126092000171_1.html",
+            "sentiment_score": -0.136,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump’s Secret Call Stuns White House Goons",
@@ -875,6 +975,16 @@
             "url": "https://www.themirror.com/news/politics/gallery/inside-donald-trumps-week-hell-2030354",
             "sentiment_score": -0.0971,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Brookfield Asset Management Targets Doubling Fee-Bearing Capital by 2031",
+            "description": "Brookfield Asset Management (NYSE:BAM) used its 2026 Investor Day to outline plans to double fee-bearing capital by 2031, supported by fundraising across fla...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-20T00:02:00Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-brookfield-asset-management-targets-doubling-fee-bearing-capital-by-2031-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.4286,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -1055,94 +1165,24 @@
             "url": "https://www.mentalfloss.com/history/law/is-it-illegal-to-burn-money",
             "sentiment_score": -0.6099,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.\nThe Federal Reserve raised its benchmark interest rate by a quarter of a percentage point on September 16, bringing …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:39Z",
-            "url": "https://biztoc.com/x/55dfb8158016adb7",
-            "sentiment_score": 0.7486,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "Bank of America isn't backing away from its forecast for two more Federal Reserve rate hikes this year.\nIn addition, the Wall Street bank is raising a bigger question:\nWill even 75 basis points of additional tightening be enough to bring inflation back to the…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:14Z",
-            "url": "https://biztoc.com/x/b0323f5bce202f9b",
-            "sentiment_score": 0.0304,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump ramps up feud with media after week of setbacks",
-            "description": "An embattled Trump has injected his fight with the news media with new acrimony, writes the BBC's Anthony Zurcher.",
-            "source": "BBC News",
-            "published_at": "2026-09-19T17:23:37Z",
-            "url": "https://www.bbc.co.uk/news/articles/cmn8ed1xpxnyo",
-            "sentiment_score": -0.3525,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "BofA raises risk scenarios if Fed rate hikes miss inflation 2% target.",
-            "source": "TheStreet",
-            "published_at": "2026-09-19T17:17:00Z",
-            "url": "https://www.thestreet.com/fed/bofa-fed-rate-hikes-inflation",
-            "sentiment_score": -0.0844,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "KeyCorp Reaffirms 2026 Outlook as Loan Growth, Margins and Fees Gain Momentum",
-            "description": "KeyCorp (NYSE:KEY) Chief Financial Officer Clark Khayat said the bank remains confident in its 2026 outlook as client activity, loan growth and credit qualit...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-19T17:02:04Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-keycorp-reaffirms-2026-outlook-as-loan-growth-margins-and-fees-gain-momentum-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.7467,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.",
-            "source": "Moneylion.com",
-            "published_at": "2026-09-19T17:00:26Z",
-            "url": "https://moneylion.com/trending/money/fed-raised-interest-rates-means-holiday-shopping",
-            "sentiment_score": 0.7258,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Used-Car Lots Feel the Brunt of Affordability Crisis...",
-            "description": "Used-Car Lots Feel the Brunt of America’s Affordability Crisis",
-            "source": "Ainvest.com",
-            "published_at": "2026-09-19T17:00:13Z",
-            "url": "https://www.ainvest.com/news/car-lots-feel-brunt-america-affordability-crisis-2609/",
-            "sentiment_score": -0.6249,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
-            "description": "The Federal Reserve raised interest rates for the first time since July 2023 on Wednesday, and the S&P 500 (SNPINDEX: ^GSPC) immediately dropped. It rose again before the day was over, but it's been steadily declining over the past month since hitting a high …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T16:17:12Z",
-            "url": "https://biztoc.com/x/4ebd664705695245",
-            "sentiment_score": -0.3253,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0308,
+        "average_score": 0.0302,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 10,
+        "article_count": 11,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Yen faces vulnerability as Japan’s holiday thins trading liquidity",
+            "description": "Japan's yen vulnerability amid low liquidity and carry trade appeal may prompt costly interventions, impacting global financial stability.\nThe post Yen faces vulnerability as Japan’s holiday thins trading liquidity appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-20T08:18:49Z",
+            "url": "https://cryptobriefing.com/yen-vulnerability-japan-holiday-liquidity/",
+            "sentiment_score": 0.0271,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "Japan's Return to Higher Rates Squeezes Households and Firms",
@@ -1245,7 +1285,7 @@
           }
         ]
       },
-      "net_score": 0.0264,
+      "net_score": 0.0414,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1255,28 +1295,28 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 156.985,
+      "price_now": 157.20399,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.2,
-      "rsi_signal": "โซนกลาง (RSI=53.2)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.28282,
-      "suggested_sl_distance": 0.42423,
+      "rsi_value": 57.5,
+      "rsi_signal": "โซนกลาง (RSI=57.5)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.23776,
+      "suggested_sl_distance": 0.35664,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=57.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-21T04:45:40.176558+00:00"
+    "generated_at": "2026-09-21T10:35:43.380534+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1285,16 +1325,107 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0,
-        "label": "ไม่มีข่าว",
-        "article_count": 0,
-        "scored_articles": []
+        "average_score": -0.0637,
+        "label": "ลบเล็กน้อย",
+        "article_count": 2,
+        "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Trump-Xi Jinping showdown casts a shadow over global economy, trade",
+            "description": "Trump and Xi's talks on tariffs, technology and critical minerals will be the week's pivotal event, with the outcome likely to shape the fragile US-China trade detente",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T07:19:44Z",
+            "url": "https://www.business-standard.com/world-news/trump-xi-jinping-showdown-casts-a-shadow-over-global-economy-trade-126092000250_1.html",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Trump-Xi Showdown Casts a Shadow Over the Global Economy",
+            "description": "US President Donald Trump’s talks with China’s Xi Jinping is set to be the week’s pivotal event, covering crucial issues from tariffs to technology related t...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-09-19T20:00:00Z",
+            "url": "https://finance.yahoo.com/economy/policy/articles/trump-xi-showdown-casts-shadow-200000957.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          }
+        ]
       },
       "quote_sentiment": {
-        "average_score": 0.0572,
+        "average_score": 0.0716,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "If you ask most economists, market experts, and even the Federal Reserve, the story of the US economy for the rest of 2026 will be one of strong and steady growth. But there are serious reasons to doubt this forecast of calm waters.\nThere's no better example …",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T08:51:36Z",
+            "url": "https://biztoc.com/x/f43664dc27c71b00",
+            "sentiment_score": -0.0685,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "Consumer spending is showing signs of slowing — right as the Fed starts raising interest rates. That's going to be a double drag on the US economy.",
+            "source": "Business Insider",
+            "published_at": "2026-09-20T08:47:01Z",
+            "url": "https://www.businessinsider.com/us-economy-slowdown-consumer-spending-federal-reserve-interest-rate-hikes-2026-9#article",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "ETMarkets Smart Talk | India may see 50 bps of rate hikes in 2026 as Fed tightens: Garima Kapoor",
+            "description": "The Fed’s latest rate hike could constrain the RBI’s policy flexibility as India-US bond yield differentials narrow. Elara Securities’ Garima Kapoor expects 25-50 bps of RBI hikes in 2026, while higher US yields and a stronger dollar could pressure FPI flows.",
+            "source": "The Times of India",
+            "published_at": "2026-09-20T08:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-india-may-see-50-bps-of-rate-hikes-in-2026-as-fed-tightens-garima-kapoor/articleshow/134365623.cms",
+            "sentiment_score": 0.4078,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Week Ahead: Trump-Xi Meeting Highlight",
+            "description": "The near-term dollar movement continues to be sensitive to changes in US rates. The Federal Reserve delivered the quarter-point hike that was widely anticipated by a unanimous decision, and still the two-year yield rose a little\nSummary\n- With major central b…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T07:35:55Z",
+            "url": "https://biztoc.com/x/60e46999c7781f64",
+            "sentiment_score": 0.238,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs turn cautious; withdraw ₹20,974 core from equities in September amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL.",
+            "source": "BusinessLine",
+            "published_at": "2026-09-20T06:21:11Z",
+            "url": "https://www.thehindubusinessline.com/markets/fpis-turn-cautious-withdraw-20974-core-from-equities-in-september-amid-global-uncertainty/article71487196.ece",
+            "sentiment_score": -0.193,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US widens",
+            "description": "China's unchanged rates amid US hikes may lead to capital outflows, yuan pressure, and limited monetary policy options, affecting growth strategies.\nThe post China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US wi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-20T05:54:41Z",
+            "url": "https://cryptobriefing.com/china-benchmark-lending-rates-unchanged-16-months/",
+            "sentiment_score": 0.1892,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T05:52:45Z",
+            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-20-974-crore-from-equities-in-sep-amid-global-uncertainty-126092000171_1.html",
+            "sentiment_score": -0.136,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump’s Secret Call Stuns White House Goons",
@@ -1334,6 +1465,16 @@
             "url": "https://www.themirror.com/news/politics/gallery/inside-donald-trumps-week-hell-2030354",
             "sentiment_score": -0.0971,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Brookfield Asset Management Targets Doubling Fee-Bearing Capital by 2031",
+            "description": "Brookfield Asset Management (NYSE:BAM) used its 2026 Investor Day to outline plans to double fee-bearing capital by 2031, supported by fundraising across fla...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-20T00:02:00Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-brookfield-asset-management-targets-doubling-fee-bearing-capital-by-2031-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.4286,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -1514,90 +1655,10 @@
             "url": "https://www.mentalfloss.com/history/law/is-it-illegal-to-burn-money",
             "sentiment_score": -0.6099,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.\nThe Federal Reserve raised its benchmark interest rate by a quarter of a percentage point on September 16, bringing …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:39Z",
-            "url": "https://biztoc.com/x/55dfb8158016adb7",
-            "sentiment_score": 0.7486,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "Bank of America isn't backing away from its forecast for two more Federal Reserve rate hikes this year.\nIn addition, the Wall Street bank is raising a bigger question:\nWill even 75 basis points of additional tightening be enough to bring inflation back to the…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:14Z",
-            "url": "https://biztoc.com/x/b0323f5bce202f9b",
-            "sentiment_score": 0.0304,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump ramps up feud with media after week of setbacks",
-            "description": "An embattled Trump has injected his fight with the news media with new acrimony, writes the BBC's Anthony Zurcher.",
-            "source": "BBC News",
-            "published_at": "2026-09-19T17:23:37Z",
-            "url": "https://www.bbc.co.uk/news/articles/cmn8ed1xpxnyo",
-            "sentiment_score": -0.3525,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "BofA raises risk scenarios if Fed rate hikes miss inflation 2% target.",
-            "source": "TheStreet",
-            "published_at": "2026-09-19T17:17:00Z",
-            "url": "https://www.thestreet.com/fed/bofa-fed-rate-hikes-inflation",
-            "sentiment_score": -0.0844,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "KeyCorp Reaffirms 2026 Outlook as Loan Growth, Margins and Fees Gain Momentum",
-            "description": "KeyCorp (NYSE:KEY) Chief Financial Officer Clark Khayat said the bank remains confident in its 2026 outlook as client activity, loan growth and credit qualit...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-19T17:02:04Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-keycorp-reaffirms-2026-outlook-as-loan-growth-margins-and-fees-gain-momentum-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.7467,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.",
-            "source": "Moneylion.com",
-            "published_at": "2026-09-19T17:00:26Z",
-            "url": "https://moneylion.com/trending/money/fed-raised-interest-rates-means-holiday-shopping",
-            "sentiment_score": 0.7258,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Used-Car Lots Feel the Brunt of Affordability Crisis...",
-            "description": "Used-Car Lots Feel the Brunt of America’s Affordability Crisis",
-            "source": "Ainvest.com",
-            "published_at": "2026-09-19T17:00:13Z",
-            "url": "https://www.ainvest.com/news/car-lots-feel-brunt-america-affordability-crisis-2609/",
-            "sentiment_score": -0.6249,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
-            "description": "The Federal Reserve raised interest rates for the first time since July 2023 on Wednesday, and the S&P 500 (SNPINDEX: ^GSPC) immediately dropped. It rose again before the day was over, but it's been steadily declining over the past month since hitting a high …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T16:17:12Z",
-            "url": "https://biztoc.com/x/4ebd664705695245",
-            "sentiment_score": -0.3253,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0572,
+      "net_score": -0.1353,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1607,14 +1668,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.71306,
+      "price_now": 0.71317,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 57.6,
-      "rsi_signal": "โซนกลาง (RSI=57.6)",
+      "rsi_value": 56.2,
+      "rsi_signal": "โซนกลาง (RSI=56.2)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00053,
-      "suggested_sl_distance": 0.00079,
+      "atr_value": 0.00052,
+      "suggested_sl_distance": 0.00078,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1626,9 +1687,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=57.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=56.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-09-21T04:45:40.176558+00:00"
+    "generated_at": "2026-09-21T10:35:43.380534+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1674,10 +1735,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0572,
+        "average_score": 0.0716,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "If you ask most economists, market experts, and even the Federal Reserve, the story of the US economy for the rest of 2026 will be one of strong and steady growth. But there are serious reasons to doubt this forecast of calm waters.\nThere's no better example …",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T08:51:36Z",
+            "url": "https://biztoc.com/x/f43664dc27c71b00",
+            "sentiment_score": -0.0685,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The double-whammy that's about to hit the US economy",
+            "description": "Consumer spending is showing signs of slowing — right as the Fed starts raising interest rates. That's going to be a double drag on the US economy.",
+            "source": "Business Insider",
+            "published_at": "2026-09-20T08:47:01Z",
+            "url": "https://www.businessinsider.com/us-economy-slowdown-consumer-spending-federal-reserve-interest-rate-hikes-2026-9#article",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "ETMarkets Smart Talk | India may see 50 bps of rate hikes in 2026 as Fed tightens: Garima Kapoor",
+            "description": "The Fed’s latest rate hike could constrain the RBI’s policy flexibility as India-US bond yield differentials narrow. Elara Securities’ Garima Kapoor expects 25-50 bps of RBI hikes in 2026, while higher US yields and a stronger dollar could pressure FPI flows.",
+            "source": "The Times of India",
+            "published_at": "2026-09-20T08:33:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-india-may-see-50-bps-of-rate-hikes-in-2026-as-fed-tightens-garima-kapoor/articleshow/134365623.cms",
+            "sentiment_score": 0.4078,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Week Ahead: Trump-Xi Meeting Highlight",
+            "description": "The near-term dollar movement continues to be sensitive to changes in US rates. The Federal Reserve delivered the quarter-point hike that was widely anticipated by a unanimous decision, and still the two-year yield rose a little\nSummary\n- With major central b…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-20T07:35:55Z",
+            "url": "https://biztoc.com/x/60e46999c7781f64",
+            "sentiment_score": 0.238,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs turn cautious; withdraw ₹20,974 core from equities in September amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL.",
+            "source": "BusinessLine",
+            "published_at": "2026-09-20T06:21:11Z",
+            "url": "https://www.thehindubusinessline.com/markets/fpis-turn-cautious-withdraw-20974-core-from-equities-in-september-amid-global-uncertainty/article71487196.ece",
+            "sentiment_score": -0.193,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US widens",
+            "description": "China's unchanged rates amid US hikes may lead to capital outflows, yuan pressure, and limited monetary policy options, affecting growth strategies.\nThe post China keeps benchmark lending rates unchanged for 16th straight month as policy divergence with US wi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-20T05:54:41Z",
+            "url": "https://cryptobriefing.com/china-benchmark-lending-rates-unchanged-16-months/",
+            "sentiment_score": 0.1892,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs withdraw ₹20,974 crore from equities in Sep amid global uncertainty",
+            "description": "The latest outflow comes after foreign investors returned to Indian equities in July and August, when they invested ₹20,200 crore and ₹29,630 crore, respectively, according to data from CDSL",
+            "source": "Business Standard",
+            "published_at": "2026-09-20T05:52:45Z",
+            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-20-974-crore-from-equities-in-sep-amid-global-uncertainty-126092000171_1.html",
+            "sentiment_score": -0.136,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Trump’s Secret Call Stuns White House Goons",
@@ -1717,6 +1848,16 @@
             "url": "https://www.themirror.com/news/politics/gallery/inside-donald-trumps-week-hell-2030354",
             "sentiment_score": -0.0971,
             "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Brookfield Asset Management Targets Doubling Fee-Bearing Capital by 2031",
+            "description": "Brookfield Asset Management (NYSE:BAM) used its 2026 Investor Day to outline plans to double fee-bearing capital by 2031, supported by fundraising across fla...",
+            "source": "MarketBeat",
+            "published_at": "2026-09-20T00:02:00Z",
+            "url": "https://www.marketbeat.com/instant-alerts/event-brookfield-asset-management-targets-doubling-fee-bearing-capital-by-2031-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
+            "sentiment_score": 0.4286,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           },
           {
             "currency": "USD",
@@ -1897,90 +2038,10 @@
             "url": "https://www.mentalfloss.com/history/law/is-it-illegal-to-burn-money",
             "sentiment_score": -0.6099,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.\nThe Federal Reserve raised its benchmark interest rate by a quarter of a percentage point on September 16, bringing …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:39Z",
-            "url": "https://biztoc.com/x/55dfb8158016adb7",
-            "sentiment_score": 0.7486,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "Bank of America isn't backing away from its forecast for two more Federal Reserve rate hikes this year.\nIn addition, the Wall Street bank is raising a bigger question:\nWill even 75 basis points of additional tightening be enough to bring inflation back to the…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T17:47:14Z",
-            "url": "https://biztoc.com/x/b0323f5bce202f9b",
-            "sentiment_score": 0.0304,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump ramps up feud with media after week of setbacks",
-            "description": "An embattled Trump has injected his fight with the news media with new acrimony, writes the BBC's Anthony Zurcher.",
-            "source": "BBC News",
-            "published_at": "2026-09-19T17:23:37Z",
-            "url": "https://www.bbc.co.uk/news/articles/cmn8ed1xpxnyo",
-            "sentiment_score": -0.3525,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA drops stunning warning about Fed rate hikes",
-            "description": "BofA raises risk scenarios if Fed rate hikes miss inflation 2% target.",
-            "source": "TheStreet",
-            "published_at": "2026-09-19T17:17:00Z",
-            "url": "https://www.thestreet.com/fed/bofa-fed-rate-hikes-inflation",
-            "sentiment_score": -0.0844,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "KeyCorp Reaffirms 2026 Outlook as Loan Growth, Margins and Fees Gain Momentum",
-            "description": "KeyCorp (NYSE:KEY) Chief Financial Officer Clark Khayat said the bank remains confident in its 2026 outlook as client activity, loan growth and credit qualit...",
-            "source": "MarketBeat",
-            "published_at": "2026-09-19T17:02:04Z",
-            "url": "https://www.marketbeat.com/instant-alerts/event-keycorp-reaffirms-2026-outlook-as-loan-growth-margins-and-fees-gain-momentum-2026-09-19/?utm_source=yahoofinance&amp;utm_medium=yahoofinance",
-            "sentiment_score": 0.7467,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Raised Interest Rates -- What That Means For Your Holiday Shopping",
-            "description": "The holiday shopping season is about to get more expensive in the one place you might not notice until the credit card bill arrives: interest.",
-            "source": "Moneylion.com",
-            "published_at": "2026-09-19T17:00:26Z",
-            "url": "https://moneylion.com/trending/money/fed-raised-interest-rates-means-holiday-shopping",
-            "sentiment_score": 0.7258,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Used-Car Lots Feel the Brunt of Affordability Crisis...",
-            "description": "Used-Car Lots Feel the Brunt of America’s Affordability Crisis",
-            "source": "Ainvest.com",
-            "published_at": "2026-09-19T17:00:13Z",
-            "url": "https://www.ainvest.com/news/car-lots-feel-brunt-america-affordability-crisis-2609/",
-            "sentiment_score": -0.6249,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Inflation Outlook Signals a Critical Warning for Investors",
-            "description": "The Federal Reserve raised interest rates for the first time since July 2023 on Wednesday, and the S&P 500 (SNPINDEX: ^GSPC) immediately dropped. It rose again before the day was over, but it's been steadily declining over the past month since hitting a high …",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-19T16:17:12Z",
-            "url": "https://biztoc.com/x/4ebd664705695245",
-            "sentiment_score": -0.3253,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.1336,
+      "net_score": 0.1192,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1990,14 +2051,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4399.7002,
+      "price_now": 4390.0,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 47.5,
-      "rsi_signal": "โซนกลาง (RSI=47.5)",
+      "rsi_value": 45.9,
+      "rsi_signal": "โซนกลาง (RSI=45.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 17.58248,
-      "suggested_sl_distance": 26.37372,
+      "atr_value": 14.89013,
+      "suggested_sl_distance": 22.33519,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2011,6 +2072,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-09-21T04:45:40.176558+00:00"
+    "generated_at": "2026-09-21T10:35:43.380534+00:00"
   }
 ]
