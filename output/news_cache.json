@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-09-27T18:14:43.298289+00:00",
+  "fetched_at": "2026-09-27T21:59:15.077003+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
@@ -133,10 +133,30 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0759,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0342,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
+            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-09-26T21:00:00Z",
+            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
+            "sentiment_score": -0.1442,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Someone could have opened an account in your name. Check now",
+            "description": "New account fraud victims jumped 31% in 2025, reaching 5.4 million. Criminals open accounts you may never see on your regular bank statements.",
+            "source": "Fox News",
+            "published_at": "2026-09-26T18:30:20Z",
+            "url": "https://www.foxnews.com/tech/someone-could-opened-account-your-name-check-now",
+            "sentiment_score": -0.2521,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Fed proposed stablecoin rule could trigger a 48-hour liquidation run",
@@ -416,34 +436,14 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/mounting-rate-hike-bets-keep-weekly-loss-in-sight-for-gold/articleshow/134496698.cms",
             "sentiment_score": -0.124,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stocks rise, greeting optimism over possible US-Iran deal",
-            "description": "NEW YORK: Wall Street stocks bounced Friday (Sep 25) to finish a volatile week on a positive note, greeting a drop in oil prices on hopes for a US-Iran agreement that could lead to the reopening of the Strait of Hormuz.Markets weighed mixed signals from the U…",
-            "source": "CNA",
-            "published_at": "2026-09-25T21:32:52Z",
-            "url": "https://www.channelnewsasia.com/world/wall-street-stocks-rise-greeting-optimism-over-possible-us-iran-deal-6412011",
-            "sentiment_score": 0.7722,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Unbounded: References",
-            "description": "Sources on economics, wealth, taxation, and progress",
-            "source": "Clojurecivitas.org",
-            "published_at": "2026-09-25T21:23:02Z",
-            "url": "https://clojurecivitas.org/economics/wealth_distribution/unbounded/u8_references.html",
-            "sentiment_score": 0.2155,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.125,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.1667,
+      "bias": "เอียงบวกต่อ EUR (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -669,10 +669,30 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0759,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0342,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
+            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-09-26T21:00:00Z",
+            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
+            "sentiment_score": -0.1442,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Someone could have opened an account in your name. Check now",
+            "description": "New account fraud victims jumped 31% in 2025, reaching 5.4 million. Criminals open accounts you may never see on your regular bank statements.",
+            "source": "Fox News",
+            "published_at": "2026-09-26T18:30:20Z",
+            "url": "https://www.foxnews.com/tech/someone-could-opened-account-your-name-check-now",
+            "sentiment_score": -0.2521,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Fed proposed stablecoin rule could trigger a 48-hour liquidation run",
@@ -952,30 +972,10 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/mounting-rate-hike-bets-keep-weekly-loss-in-sight-for-gold/articleshow/134496698.cms",
             "sentiment_score": -0.124,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stocks rise, greeting optimism over possible US-Iran deal",
-            "description": "NEW YORK: Wall Street stocks bounced Friday (Sep 25) to finish a volatile week on a positive note, greeting a drop in oil prices on hopes for a US-Iran agreement that could lead to the reopening of the Strait of Hormuz.Markets weighed mixed signals from the U…",
-            "source": "CNA",
-            "published_at": "2026-09-25T21:32:52Z",
-            "url": "https://www.channelnewsasia.com/world/wall-street-stocks-rise-greeting-optimism-over-possible-us-iran-deal-6412011",
-            "sentiment_score": 0.7722,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Unbounded: References",
-            "description": "Sources on economics, wealth, taxation, and progress",
-            "source": "Clojurecivitas.org",
-            "published_at": "2026-09-25T21:23:02Z",
-            "url": "https://clojurecivitas.org/economics/wealth_distribution/unbounded/u8_references.html",
-            "sentiment_score": 0.2155,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0445,
+      "net_score": -0.0028,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -988,10 +988,30 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0759,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0342,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
+            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-09-26T21:00:00Z",
+            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
+            "sentiment_score": -0.1442,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Someone could have opened an account in your name. Check now",
+            "description": "New account fraud victims jumped 31% in 2025, reaching 5.4 million. Criminals open accounts you may never see on your regular bank statements.",
+            "source": "Fox News",
+            "published_at": "2026-09-26T18:30:20Z",
+            "url": "https://www.foxnews.com/tech/someone-could-opened-account-your-name-check-now",
+            "sentiment_score": -0.2521,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Fed proposed stablecoin rule could trigger a 48-hour liquidation run",
@@ -1271,26 +1291,6 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/mounting-rate-hike-bets-keep-weekly-loss-in-sight-for-gold/articleshow/134496698.cms",
             "sentiment_score": -0.124,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stocks rise, greeting optimism over possible US-Iran deal",
-            "description": "NEW YORK: Wall Street stocks bounced Friday (Sep 25) to finish a volatile week on a positive note, greeting a drop in oil prices on hopes for a US-Iran agreement that could lead to the reopening of the Strait of Hormuz.Markets weighed mixed signals from the U…",
-            "source": "CNA",
-            "published_at": "2026-09-25T21:32:52Z",
-            "url": "https://www.channelnewsasia.com/world/wall-street-stocks-rise-greeting-optimism-over-possible-us-iran-deal-6412011",
-            "sentiment_score": 0.7722,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Unbounded: References",
-            "description": "Sources on economics, wealth, taxation, and progress",
-            "source": "Clojurecivitas.org",
-            "published_at": "2026-09-25T21:23:02Z",
-            "url": "https://clojurecivitas.org/economics/wealth_distribution/unbounded/u8_references.html",
-            "sentiment_score": 0.2155,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
@@ -1351,7 +1351,7 @@
           }
         ]
       },
-      "net_score": -0.302,
+      "net_score": -0.3437,
       "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1411,10 +1411,30 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0759,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0342,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
+            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-09-26T21:00:00Z",
+            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
+            "sentiment_score": -0.1442,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Someone could have opened an account in your name. Check now",
+            "description": "New account fraud victims jumped 31% in 2025, reaching 5.4 million. Criminals open accounts you may never see on your regular bank statements.",
+            "source": "Fox News",
+            "published_at": "2026-09-26T18:30:20Z",
+            "url": "https://www.foxnews.com/tech/someone-could-opened-account-your-name-check-now",
+            "sentiment_score": -0.2521,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Fed proposed stablecoin rule could trigger a 48-hour liquidation run",
@@ -1694,30 +1714,10 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/mounting-rate-hike-bets-keep-weekly-loss-in-sight-for-gold/articleshow/134496698.cms",
             "sentiment_score": -0.124,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stocks rise, greeting optimism over possible US-Iran deal",
-            "description": "NEW YORK: Wall Street stocks bounced Friday (Sep 25) to finish a volatile week on a positive note, greeting a drop in oil prices on hopes for a US-Iran agreement that could lead to the reopening of the Strait of Hormuz.Markets weighed mixed signals from the U…",
-            "source": "CNA",
-            "published_at": "2026-09-25T21:32:52Z",
-            "url": "https://www.channelnewsasia.com/world/wall-street-stocks-rise-greeting-optimism-over-possible-us-iran-deal-6412011",
-            "sentiment_score": 0.7722,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Unbounded: References",
-            "description": "Sources on economics, wealth, taxation, and progress",
-            "source": "Clojurecivitas.org",
-            "published_at": "2026-09-25T21:23:02Z",
-            "url": "https://clojurecivitas.org/economics/wealth_distribution/unbounded/u8_references.html",
-            "sentiment_score": 0.2155,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.072,
+      "net_score": 0.1137,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1807,10 +1807,30 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0759,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.0342,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
+            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-09-26T21:00:00Z",
+            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
+            "sentiment_score": -0.1442,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Someone could have opened an account in your name. Check now",
+            "description": "New account fraud victims jumped 31% in 2025, reaching 5.4 million. Criminals open accounts you may never see on your regular bank statements.",
+            "source": "Fox News",
+            "published_at": "2026-09-26T18:30:20Z",
+            "url": "https://www.foxnews.com/tech/someone-could-opened-account-your-name-check-now",
+            "sentiment_score": -0.2521,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Fed proposed stablecoin rule could trigger a 48-hour liquidation run",
@@ -2090,30 +2110,10 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/mounting-rate-hike-bets-keep-weekly-loss-in-sight-for-gold/articleshow/134496698.cms",
             "sentiment_score": -0.124,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street stocks rise, greeting optimism over possible US-Iran deal",
-            "description": "NEW YORK: Wall Street stocks bounced Friday (Sep 25) to finish a volatile week on a positive note, greeting a drop in oil prices on hopes for a US-Iran agreement that could lead to the reopening of the Strait of Hormuz.Markets weighed mixed signals from the U…",
-            "source": "CNA",
-            "published_at": "2026-09-25T21:32:52Z",
-            "url": "https://www.channelnewsasia.com/world/wall-street-stocks-rise-greeting-optimism-over-possible-us-iran-deal-6412011",
-            "sentiment_score": 0.7722,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Unbounded: References",
-            "description": "Sources on economics, wealth, taxation, and progress",
-            "source": "Clojurecivitas.org",
-            "published_at": "2026-09-25T21:23:02Z",
-            "url": "https://clojurecivitas.org/economics/wealth_distribution/unbounded/u8_references.html",
-            "sentiment_score": 0.2155,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.1303,
+      "net_score": -0.0886,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
