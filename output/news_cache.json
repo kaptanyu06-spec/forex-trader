@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-09-28T21:47:52.252172+00:00",
+  "fetched_at": "2026-09-29T01:44:19.675718+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0325,
+        "average_score": 0.0007,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 6,
+        "article_count": 4,
         "scored_articles": [
           {
             "currency": "EUR",
@@ -49,34 +49,104 @@
             "url": "https://www.rte.ie/news/ireland/2026/0927/1593080-consumer-repayments-war/",
             "sentiment_score": -0.1553,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "‘The bigger risk may be an earnings bubble rather than a valuation bubble’",
-            "description": "Top 1000: The AI boom looks bubbly. But should investors really panic? Proinsias O’Mahony reports",
-            "source": "The Irish Times",
-            "published_at": "2026-09-26T07:00:00Z",
-            "url": "https://www.irishtimes.com/business/2026/09/26/the-bigger-risk-may-be-an-earnings-bubble-rather-than-a-valuation-bubble/",
-            "sentiment_score": -0.3921,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Race kicks off for top ECB jobs",
-            "description": "Christine Lagarde, Philip Lane and Isabel Schnabel all due to step down next year",
-            "source": "The Irish Times",
-            "published_at": "2026-09-26T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/2026/09/26/race-kicks-off-for-top-ecb-jobs/",
-            "sentiment_score": 0.1416,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0536,
+        "average_score": 0.0815,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Falls on Expectations of Higher for Longer Fed Rates",
+            "description": "Gold fell. Higher oil prices and strong U.S. industrial activity data reinforced expectations that the U.S. Federal Reserve may need to keep policy tighter for longer, ANZ said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T01:30:43Z",
+            "url": "https://biztoc.com/x/00e2f545b75b0027",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil and yields climb",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-and-yields-climb-6414451",
+            "sentiment_score": -0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks cautious in Asia as oil gains, yields rise",
+            "description": "SYDNEY, Sept 28 : Share markets made a cautious start on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-cautious-in-asia-oil-gains-yields-rise-6414451",
+            "sentiment_score": 0.1982,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil climbs, bonds retreat",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-climbs-bonds-retreat-6414451",
+            "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares subdued as rising oil fuels rate hike concerns",
+            "description": "MSCI’s gauge of Asian stocks opened slightly lower with South Korea’s benchmark slipping as markets returned from a holiday, while Japanese stocks edged higher. Futures for the S&P 500 Index fell around 0.2%.",
+            "source": "The Times of India",
+            "published_at": "2026-09-28T00:42:28Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today/articleshow/134529165.cms",
+            "sentiment_score": 0.2674,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top 5 Market Catalysts That Could Move Stocks and Crypto This Week",
+            "description": "Two weeks ago, the Federal Reserve raised interest rates. This week, five data releases will show whether it does it again in October.\nThe Fed's chair says single numbers should not drive policy. Traders are still pricing the next move off this week's data.\nT…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T00:15:41Z",
+            "url": "https://biztoc.com/x/a058022a1e3590c8",
+            "sentiment_score": 0.2792,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Stablecoins Can Serve Dollar Dominance",
+            "description": "To extend the dollar’s reach, America needs to preserve the credibility that makes it the currency most worth holding.",
+            "source": "Thefreedomfrequency.org",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://www.thefreedomfrequency.org/p/how-stablecoins-can-serve-dollar",
+            "sentiment_score": 0.2789,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Darrell Duffie: Shrinking The Fed’s Balance Sheet Is Easier Said Than Done",
+            "description": "Hoover Institution fellow Darrell Duffie details several ways the Fed could reduce its balance sheet. Duffie notes that even though I don’t say the Fed should reduce its balance sheet, I do say that it should have the tools that would allow it to reduce its b…",
+            "source": "Stanford.edu",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://siepr.stanford.edu/news/federal-reserve-balance-sheet-warsh",
+            "sentiment_score": 0.3629,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "The Dow eked out a 0.3% advance last week, snapping a three-week slide.",
+            "source": "CNBC",
+            "published_at": "2026-09-27T22:06:09Z",
+            "url": "https://www.cnbc.com/2026/09/27/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "The Next Phase of Trumpflation Has Arrived, and It's Terrible News for the Federal Reserve and Wall Street",
@@ -286,100 +356,10 @@
             "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-how-to-find-indias-next-multibaggers-pritam-deuskar-explains-his-giants-framework/articleshow/134516232.cms",
             "sentiment_score": 0.5185,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "10-Year Treasury Yield Hits 19-Year High as Oil, Inflation and Fed Comments Drive Spike",
-            "description": "The 10-year Treasury note yield rose more than 13 basis points to 5.104% on Wednesday, Sept. 23 – reaching a level not seen since July 2007, according to CNBC. The benchmark yield’s move marked its biggest one-day increase since April 7, 2025, when it surged …",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-ten-year-treasury-note-hits-record-high.html",
-            "sentiment_score": 0.3214,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Administration Weighs Overseas Push for Dollar-Backed Stablecoins",
-            "description": "The Trump administration is weighing an effort to promote dollar-backed stablecoins in overseas markets, according to a Bloomberg report described in a Cointelegraph summary. The reported initiative would focus on expanding the use of dollar-denominated digit…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-trump-weighs-overseas-push-for-currency-backed-stablecoins.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iraq, US agree to resume dollar cash shipments",
-            "description": "Iraq and the United States agreed on Sept. 27 to resume commercial shipments of physical U.S. dollars to Baghdad following months of restrictions designed to halt currency smuggling to sanctioned entities.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-09-27T05:46:46Z",
-            "url": "https://www.hurriyetdailynews.com/iraq-us-agree-to-resume-dollar-cash-shipments-227392",
-            "sentiment_score": 0.3135,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "ETMarkets Smart Talk: RBI may hike 50-75 bps; Archit Shah on what’s next for bonds",
-            "description": "Archit Shah, CIO at Zurich Kotak General Insurance, expects the RBI to hike repo rates by 50-75 bps towards 5.75-6% if inflation, crude, and global yields remain under pressure. Advising patience on duration, Shah recommends carry and roll-down strategies whi…",
-            "source": "The Times of India",
-            "published_at": "2026-09-27T05:15:50Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-rbi-may-hike-50-75-bps-archit-shah-on-whats-next-for-bonds/articleshow/134515044.cms",
-            "sentiment_score": 0.0976,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Needs Fixes Beyond Simply Restoring Its Credibility",
-            "description": "Photo Credit:\n \n AgnosticPreachersKidBy Paul C. BinottoCongress should preserve Fed independence while adding stronger transparency, accountability, safeguards, and narrowly defined emergency intervention powers.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-09-27T04:00:00Z",
-            "url": "https://www.americanthinker.com/articles/2026/09/the-fed-needs-fixes-beyond-simply-restoring-its-credibility/",
-            "sentiment_score": 0.3909,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Asia-Pacific property markets are drawing fresh capital despite US rate uncertainty",
-            "description": "Property markets in the Asia-Pacific region are likely to remain attractive despite heightened uncertainty over monetary policy after the US Federal Reserve delivered its first interest rate increase in more than three years this month, analysts say, with sev…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-27T03:04:13Z",
-            "url": "https://biztoc.com/x/71802229b1534165",
-            "sentiment_score": 0.6164,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bangladesh plans to raise up to $1 billion in debut sovereign bond sale",
-            "description": "The debt sale comes as developing nations navigate higher global borrowing costs following recent rate hikes by the US Federal Reserve",
-            "source": "Business Standard",
-            "published_at": "2026-09-27T02:09:13Z",
-            "url": "https://www.business-standard.com/world-news/bangladesh-plans-to-raise-up-to-1-billion-in-debut-sovereign-bond-sale-126092700058_1.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond market pointing to rising inflation, interest rate and recession risk",
-            "description": "Bond yields are the highest they've been in 20 years as inflation fears rip through global financial markets. It's a warning the financial squeeze is set to get worse before it gets better.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-26T22:21:11Z",
-            "url": "https://www.abc.net.au/news/2026-09-27/multi-generation-bond-market-correction/107191114",
-            "sentiment_score": -0.3563,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
-            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-09-26T21:00:00Z",
-            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
-            "sentiment_score": -0.1442,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0861,
+      "net_score": -0.0808,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -392,10 +372,60 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.203,
+        "average_score": 0.0831,
         "label": "บวกเล็กน้อย",
-        "article_count": 7,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Stocks slip in Asia as oil and yields climb",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-and-yields-climb-6414451",
+            "sentiment_score": -0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Stocks cautious in Asia as oil gains, yields rise",
+            "description": "SYDNEY, Sept 28 : Share markets made a cautious start on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-cautious-in-asia-oil-gains-yields-rise-6414451",
+            "sentiment_score": 0.1982,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Stocks slip in Asia as oil climbs, bonds retreat",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-climbs-bonds-retreat-6414451",
+            "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "How Stablecoins Can Serve Dollar Dominance",
+            "description": "To extend the dollar’s reach, America needs to preserve the credibility that makes it the currency most worth holding.",
+            "source": "Thefreedomfrequency.org",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://www.thefreedomfrequency.org/p/how-stablecoins-can-serve-dollar",
+            "sentiment_score": 0.2789,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Apollo chief economist warns AI agents could trigger bank runs",
+            "description": "AI-driven deposit shifts could destabilize traditional banking, forcing banks to raise rates or seek costly funding, impacting financial stability.\nThe post Apollo chief economist warns AI agents could trigger bank runs appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-09-27T22:30:46Z",
+            "url": "https://cryptobriefing.com/apollo-economist-ai-agents-bank-runs/",
+            "sentiment_score": -0.1326,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "A Short Discourse on the “End of the World”",
@@ -405,74 +435,104 @@
             "url": "https://montanarcc.substack.com/p/reposted-from-august-3-2025-a-short",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Venezuelan government, opposition agree to work towards reform of top court",
-            "description": "The two sides appointed a committee to review selection of candidates for Supreme Court of Justice.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-26T16:42:38Z",
-            "url": "https://www.aljazeera.com/news/2026/9/26/venezuelan-government-opposition-agree-to-work-towards-reform-of-top-court",
-            "sentiment_score": 0.5946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK Banks Complete First Live Tokenized Sterling Deposit Payments",
-            "description": "Major UK banks have completed the first live customer transactions using tokenized sterling deposits on shared infrastructure. Participants include Barclays, HSBC UK, Lloyds Banking Group, Monzo, Nationwide, NatWest and Santander. The project is using real co…",
-            "source": "Bitcoinist",
-            "published_at": "2026-09-26T13:30:00Z",
-            "url": "https://bitcoinist.com/uk-banks-complete-first-live-tokenized-sterling-deposit-payments/",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Why cash hoarding in the UK proves the world still craves permissionless money",
-            "description": "You can spend weeks paying for everything with your phone and still feel better knowing there's some cash at home. That might sound old-fashioned until your bank's app stops working, your card gets declined for reasons nobody can explain, or the power goes ou…",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-26T11:05:05Z",
-            "url": "https://cryptoslate.com/why-cash-hoarding-in-the-uk-proves-the-world-still-craves-permissionless-money/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Fed’s Hammack: High inflation complicates economic planning",
-            "description": "Persistent high inflation may lead to unpredictable interest rate changes, affecting economic stability and strategic business decisions globally.\nThe post Fed’s Hammack: High inflation complicates economic planning appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-26T05:24:00Z",
-            "url": "https://cryptobriefing.com/feds-hammack-high-inflation-complicates-economic-planning/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Dollar dips as oil eases, yen jumps on Japan remarks",
-            "description": "The dollar tumbled on Friday amidst softening oil prices, hinting at a cease to its prior gains. In contrast, the yen surged following Japan and the US’s reassertion of their commitment to currency stability. Although oil prices linger above $100 a barrel, al…",
-            "source": "The Times of India",
-            "published_at": "2026-09-26T03:56:48Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-dips-as-oil-eases-yen-jumps-on-japan-remarks/articleshow/134496709.cms",
-            "sentiment_score": 0.4065,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "The Path to 2027: Mapping the Tokenized Deposit Regulatory Landscape Before the Sprint Begins",
-            "description": "The regulatory calendar for the remainder of 2026 is not merely a list of deadlines; it is a high-stakes architecture project. As we enter the final quarter, the industry is bracing for a sprint that will define the operational boundaries for digital money th…",
-            "source": "Forkast.news",
-            "published_at": "2026-09-26T02:38:56Z",
-            "url": "https://forkast.news/the-path-to-2027-mapping-the-tokenized-deposit-regulatory-landscape-before-the-sprint-begins/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0536,
+        "average_score": 0.0815,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Falls on Expectations of Higher for Longer Fed Rates",
+            "description": "Gold fell. Higher oil prices and strong U.S. industrial activity data reinforced expectations that the U.S. Federal Reserve may need to keep policy tighter for longer, ANZ said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T01:30:43Z",
+            "url": "https://biztoc.com/x/00e2f545b75b0027",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil and yields climb",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-and-yields-climb-6414451",
+            "sentiment_score": -0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks cautious in Asia as oil gains, yields rise",
+            "description": "SYDNEY, Sept 28 : Share markets made a cautious start on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-cautious-in-asia-oil-gains-yields-rise-6414451",
+            "sentiment_score": 0.1982,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil climbs, bonds retreat",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-climbs-bonds-retreat-6414451",
+            "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares subdued as rising oil fuels rate hike concerns",
+            "description": "MSCI’s gauge of Asian stocks opened slightly lower with South Korea’s benchmark slipping as markets returned from a holiday, while Japanese stocks edged higher. Futures for the S&P 500 Index fell around 0.2%.",
+            "source": "The Times of India",
+            "published_at": "2026-09-28T00:42:28Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today/articleshow/134529165.cms",
+            "sentiment_score": 0.2674,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top 5 Market Catalysts That Could Move Stocks and Crypto This Week",
+            "description": "Two weeks ago, the Federal Reserve raised interest rates. This week, five data releases will show whether it does it again in October.\nThe Fed's chair says single numbers should not drive policy. Traders are still pricing the next move off this week's data.\nT…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T00:15:41Z",
+            "url": "https://biztoc.com/x/a058022a1e3590c8",
+            "sentiment_score": 0.2792,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Stablecoins Can Serve Dollar Dominance",
+            "description": "To extend the dollar’s reach, America needs to preserve the credibility that makes it the currency most worth holding.",
+            "source": "Thefreedomfrequency.org",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://www.thefreedomfrequency.org/p/how-stablecoins-can-serve-dollar",
+            "sentiment_score": 0.2789,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Darrell Duffie: Shrinking The Fed’s Balance Sheet Is Easier Said Than Done",
+            "description": "Hoover Institution fellow Darrell Duffie details several ways the Fed could reduce its balance sheet. Duffie notes that even though I don’t say the Fed should reduce its balance sheet, I do say that it should have the tools that would allow it to reduce its b…",
+            "source": "Stanford.edu",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://siepr.stanford.edu/news/federal-reserve-balance-sheet-warsh",
+            "sentiment_score": 0.3629,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "The Dow eked out a 0.3% advance last week, snapping a three-week slide.",
+            "source": "CNBC",
+            "published_at": "2026-09-27T22:06:09Z",
+            "url": "https://www.cnbc.com/2026/09/27/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "The Next Phase of Trumpflation Has Arrived, and It's Terrible News for the Federal Reserve and Wall Street",
@@ -682,100 +742,10 @@
             "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-how-to-find-indias-next-multibaggers-pritam-deuskar-explains-his-giants-framework/articleshow/134516232.cms",
             "sentiment_score": 0.5185,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "10-Year Treasury Yield Hits 19-Year High as Oil, Inflation and Fed Comments Drive Spike",
-            "description": "The 10-year Treasury note yield rose more than 13 basis points to 5.104% on Wednesday, Sept. 23 – reaching a level not seen since July 2007, according to CNBC. The benchmark yield’s move marked its biggest one-day increase since April 7, 2025, when it surged …",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-ten-year-treasury-note-hits-record-high.html",
-            "sentiment_score": 0.3214,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Administration Weighs Overseas Push for Dollar-Backed Stablecoins",
-            "description": "The Trump administration is weighing an effort to promote dollar-backed stablecoins in overseas markets, according to a Bloomberg report described in a Cointelegraph summary. The reported initiative would focus on expanding the use of dollar-denominated digit…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-trump-weighs-overseas-push-for-currency-backed-stablecoins.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iraq, US agree to resume dollar cash shipments",
-            "description": "Iraq and the United States agreed on Sept. 27 to resume commercial shipments of physical U.S. dollars to Baghdad following months of restrictions designed to halt currency smuggling to sanctioned entities.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-09-27T05:46:46Z",
-            "url": "https://www.hurriyetdailynews.com/iraq-us-agree-to-resume-dollar-cash-shipments-227392",
-            "sentiment_score": 0.3135,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "ETMarkets Smart Talk: RBI may hike 50-75 bps; Archit Shah on what’s next for bonds",
-            "description": "Archit Shah, CIO at Zurich Kotak General Insurance, expects the RBI to hike repo rates by 50-75 bps towards 5.75-6% if inflation, crude, and global yields remain under pressure. Advising patience on duration, Shah recommends carry and roll-down strategies whi…",
-            "source": "The Times of India",
-            "published_at": "2026-09-27T05:15:50Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-rbi-may-hike-50-75-bps-archit-shah-on-whats-next-for-bonds/articleshow/134515044.cms",
-            "sentiment_score": 0.0976,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Needs Fixes Beyond Simply Restoring Its Credibility",
-            "description": "Photo Credit:\n \n AgnosticPreachersKidBy Paul C. BinottoCongress should preserve Fed independence while adding stronger transparency, accountability, safeguards, and narrowly defined emergency intervention powers.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-09-27T04:00:00Z",
-            "url": "https://www.americanthinker.com/articles/2026/09/the-fed-needs-fixes-beyond-simply-restoring-its-credibility/",
-            "sentiment_score": 0.3909,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Asia-Pacific property markets are drawing fresh capital despite US rate uncertainty",
-            "description": "Property markets in the Asia-Pacific region are likely to remain attractive despite heightened uncertainty over monetary policy after the US Federal Reserve delivered its first interest rate increase in more than three years this month, analysts say, with sev…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-27T03:04:13Z",
-            "url": "https://biztoc.com/x/71802229b1534165",
-            "sentiment_score": 0.6164,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bangladesh plans to raise up to $1 billion in debut sovereign bond sale",
-            "description": "The debt sale comes as developing nations navigate higher global borrowing costs following recent rate hikes by the US Federal Reserve",
-            "source": "Business Standard",
-            "published_at": "2026-09-27T02:09:13Z",
-            "url": "https://www.business-standard.com/world-news/bangladesh-plans-to-raise-up-to-1-billion-in-debut-sovereign-bond-sale-126092700058_1.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond market pointing to rising inflation, interest rate and recession risk",
-            "description": "Bond yields are the highest they've been in 20 years as inflation fears rip through global financial markets. It's a warning the financial squeeze is set to get worse before it gets better.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-26T22:21:11Z",
-            "url": "https://www.abc.net.au/news/2026-09-27/multi-generation-bond-market-correction/107191114",
-            "sentiment_score": -0.3563,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
-            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-09-26T21:00:00Z",
-            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
-            "sentiment_score": -0.1442,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1494,
+      "net_score": 0.0016,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -788,10 +758,100 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0536,
+        "average_score": 0.0815,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Falls on Expectations of Higher for Longer Fed Rates",
+            "description": "Gold fell. Higher oil prices and strong U.S. industrial activity data reinforced expectations that the U.S. Federal Reserve may need to keep policy tighter for longer, ANZ said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T01:30:43Z",
+            "url": "https://biztoc.com/x/00e2f545b75b0027",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil and yields climb",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-and-yields-climb-6414451",
+            "sentiment_score": -0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks cautious in Asia as oil gains, yields rise",
+            "description": "SYDNEY, Sept 28 : Share markets made a cautious start on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-cautious-in-asia-oil-gains-yields-rise-6414451",
+            "sentiment_score": 0.1982,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil climbs, bonds retreat",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-climbs-bonds-retreat-6414451",
+            "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares subdued as rising oil fuels rate hike concerns",
+            "description": "MSCI’s gauge of Asian stocks opened slightly lower with South Korea’s benchmark slipping as markets returned from a holiday, while Japanese stocks edged higher. Futures for the S&P 500 Index fell around 0.2%.",
+            "source": "The Times of India",
+            "published_at": "2026-09-28T00:42:28Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today/articleshow/134529165.cms",
+            "sentiment_score": 0.2674,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top 5 Market Catalysts That Could Move Stocks and Crypto This Week",
+            "description": "Two weeks ago, the Federal Reserve raised interest rates. This week, five data releases will show whether it does it again in October.\nThe Fed's chair says single numbers should not drive policy. Traders are still pricing the next move off this week's data.\nT…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T00:15:41Z",
+            "url": "https://biztoc.com/x/a058022a1e3590c8",
+            "sentiment_score": 0.2792,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Stablecoins Can Serve Dollar Dominance",
+            "description": "To extend the dollar’s reach, America needs to preserve the credibility that makes it the currency most worth holding.",
+            "source": "Thefreedomfrequency.org",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://www.thefreedomfrequency.org/p/how-stablecoins-can-serve-dollar",
+            "sentiment_score": 0.2789,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Darrell Duffie: Shrinking The Fed’s Balance Sheet Is Easier Said Than Done",
+            "description": "Hoover Institution fellow Darrell Duffie details several ways the Fed could reduce its balance sheet. Duffie notes that even though I don’t say the Fed should reduce its balance sheet, I do say that it should have the tools that would allow it to reduce its b…",
+            "source": "Stanford.edu",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://siepr.stanford.edu/news/federal-reserve-balance-sheet-warsh",
+            "sentiment_score": 0.3629,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "The Dow eked out a 0.3% advance last week, snapping a three-week slide.",
+            "source": "CNBC",
+            "published_at": "2026-09-27T22:06:09Z",
+            "url": "https://www.cnbc.com/2026/09/27/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "The Next Phase of Trumpflation Has Arrived, and It's Terrible News for the Federal Reserve and Wall Street",
@@ -1001,104 +1061,34 @@
             "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-how-to-find-indias-next-multibaggers-pritam-deuskar-explains-his-giants-framework/articleshow/134516232.cms",
             "sentiment_score": 0.5185,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "10-Year Treasury Yield Hits 19-Year High as Oil, Inflation and Fed Comments Drive Spike",
-            "description": "The 10-year Treasury note yield rose more than 13 basis points to 5.104% on Wednesday, Sept. 23 – reaching a level not seen since July 2007, according to CNBC. The benchmark yield’s move marked its biggest one-day increase since April 7, 2025, when it surged …",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-ten-year-treasury-note-hits-record-high.html",
-            "sentiment_score": 0.3214,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Administration Weighs Overseas Push for Dollar-Backed Stablecoins",
-            "description": "The Trump administration is weighing an effort to promote dollar-backed stablecoins in overseas markets, according to a Bloomberg report described in a Cointelegraph summary. The reported initiative would focus on expanding the use of dollar-denominated digit…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-trump-weighs-overseas-push-for-currency-backed-stablecoins.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iraq, US agree to resume dollar cash shipments",
-            "description": "Iraq and the United States agreed on Sept. 27 to resume commercial shipments of physical U.S. dollars to Baghdad following months of restrictions designed to halt currency smuggling to sanctioned entities.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-09-27T05:46:46Z",
-            "url": "https://www.hurriyetdailynews.com/iraq-us-agree-to-resume-dollar-cash-shipments-227392",
-            "sentiment_score": 0.3135,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "ETMarkets Smart Talk: RBI may hike 50-75 bps; Archit Shah on what’s next for bonds",
-            "description": "Archit Shah, CIO at Zurich Kotak General Insurance, expects the RBI to hike repo rates by 50-75 bps towards 5.75-6% if inflation, crude, and global yields remain under pressure. Advising patience on duration, Shah recommends carry and roll-down strategies whi…",
-            "source": "The Times of India",
-            "published_at": "2026-09-27T05:15:50Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-rbi-may-hike-50-75-bps-archit-shah-on-whats-next-for-bonds/articleshow/134515044.cms",
-            "sentiment_score": 0.0976,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Needs Fixes Beyond Simply Restoring Its Credibility",
-            "description": "Photo Credit:\n \n AgnosticPreachersKidBy Paul C. BinottoCongress should preserve Fed independence while adding stronger transparency, accountability, safeguards, and narrowly defined emergency intervention powers.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-09-27T04:00:00Z",
-            "url": "https://www.americanthinker.com/articles/2026/09/the-fed-needs-fixes-beyond-simply-restoring-its-credibility/",
-            "sentiment_score": 0.3909,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Asia-Pacific property markets are drawing fresh capital despite US rate uncertainty",
-            "description": "Property markets in the Asia-Pacific region are likely to remain attractive despite heightened uncertainty over monetary policy after the US Federal Reserve delivered its first interest rate increase in more than three years this month, analysts say, with sev…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-27T03:04:13Z",
-            "url": "https://biztoc.com/x/71802229b1534165",
-            "sentiment_score": 0.6164,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bangladesh plans to raise up to $1 billion in debut sovereign bond sale",
-            "description": "The debt sale comes as developing nations navigate higher global borrowing costs following recent rate hikes by the US Federal Reserve",
-            "source": "Business Standard",
-            "published_at": "2026-09-27T02:09:13Z",
-            "url": "https://www.business-standard.com/world-news/bangladesh-plans-to-raise-up-to-1-billion-in-debut-sovereign-bond-sale-126092700058_1.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond market pointing to rising inflation, interest rate and recession risk",
-            "description": "Bond yields are the highest they've been in 20 years as inflation fears rip through global financial markets. It's a warning the financial squeeze is set to get worse before it gets better.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-26T22:21:11Z",
-            "url": "https://www.abc.net.au/news/2026-09-27/multi-generation-bond-market-correction/107191114",
-            "sentiment_score": -0.3563,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
-            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-09-26T21:00:00Z",
-            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
-            "sentiment_score": -0.1442,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0384,
+        "average_score": 0.0454,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 1,
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Bank of Japan debated need for faster rate hikes, July minutes show",
+            "description": "TOKYO, Sept 28 : Many Bank of Japan policymakers saw the need to focus on mounting inflation risks, with some calling for faster interest rate increases, minutes of their July meeting showed, cementing the case for further hikes to still-low borrowing costs.A…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:57:54Z",
+            "url": "https://www.channelnewsasia.com/business/bank-japan-debated-need-faster-rate-hikes-july-minutes-show-6414456",
+            "sentiment_score": 0.0679,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's corporate services inflation hits 2-year high",
+            "description": "TOKYO, Sept 28 : A key gauge of Japan's service-sector inflation rose in August at the fastest annual pace in more than two years, data showed on Monday, highlighting mounting price pressures that will keep the central bank on track for further interest rate …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:29:15Z",
+            "url": "https://www.channelnewsasia.com/business/japans-corporate-services-inflation-hits-2-year-high-6414446",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Takaichi Faces Autumn Test After Trump Talks And BOJ Rate Hike",
@@ -1111,7 +1101,7 @@
           }
         ]
       },
-      "net_score": 0.092,
+      "net_score": 0.0361,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1124,10 +1114,60 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.2616,
-        "label": "บวกชัดเจน (Bullish)",
-        "article_count": 2,
+        "average_score": -0.0276,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Stocks slip in Asia as oil and yields climb",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-and-yields-climb-6414451",
+            "sentiment_score": -0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Stocks cautious in Asia as oil gains, yields rise",
+            "description": "SYDNEY, Sept 28 : Share markets made a cautious start on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-cautious-in-asia-oil-gains-yields-rise-6414451",
+            "sentiment_score": 0.1982,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Stocks slip in Asia as oil climbs, bonds retreat",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-climbs-bonds-retreat-6414451",
+            "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Australia's recession risk hits 50% as RBA prepares to lift rates",
+            "description": "Could further RBA rate hikes push the economy too far?\nThe post Australia's recession risk hits 50% as RBA prepares to lift rates appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-09-28T00:05:49Z",
+            "url": "https://www.fool.com.au/2026/09/28/australias-recession-risk-hits-50-as-rba-prepares-to-lift-rates/",
+            "sentiment_score": -0.6531,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Australia's card surcharge ban is kicks in this week - but it could end up costing shoppers more",
+            "description": "A huge payment change is coming for Australians.",
+            "source": "Dailymail.com",
+            "published_at": "2026-09-27T23:02:25Z",
+            "url": "https://www.dailymail.com/news/article-16164989/card-surcharge-ban-australia.html",
+            "sentiment_score": -0.1273,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "AUD",
             "title": "Interest rates set to rise but likely to be a short-term trend",
@@ -1151,10 +1191,100 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0536,
+        "average_score": 0.0815,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Falls on Expectations of Higher for Longer Fed Rates",
+            "description": "Gold fell. Higher oil prices and strong U.S. industrial activity data reinforced expectations that the U.S. Federal Reserve may need to keep policy tighter for longer, ANZ said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T01:30:43Z",
+            "url": "https://biztoc.com/x/00e2f545b75b0027",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil and yields climb",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-and-yields-climb-6414451",
+            "sentiment_score": -0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks cautious in Asia as oil gains, yields rise",
+            "description": "SYDNEY, Sept 28 : Share markets made a cautious start on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-cautious-in-asia-oil-gains-yields-rise-6414451",
+            "sentiment_score": 0.1982,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil climbs, bonds retreat",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-climbs-bonds-retreat-6414451",
+            "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares subdued as rising oil fuels rate hike concerns",
+            "description": "MSCI’s gauge of Asian stocks opened slightly lower with South Korea’s benchmark slipping as markets returned from a holiday, while Japanese stocks edged higher. Futures for the S&P 500 Index fell around 0.2%.",
+            "source": "The Times of India",
+            "published_at": "2026-09-28T00:42:28Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today/articleshow/134529165.cms",
+            "sentiment_score": 0.2674,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top 5 Market Catalysts That Could Move Stocks and Crypto This Week",
+            "description": "Two weeks ago, the Federal Reserve raised interest rates. This week, five data releases will show whether it does it again in October.\nThe Fed's chair says single numbers should not drive policy. Traders are still pricing the next move off this week's data.\nT…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T00:15:41Z",
+            "url": "https://biztoc.com/x/a058022a1e3590c8",
+            "sentiment_score": 0.2792,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Stablecoins Can Serve Dollar Dominance",
+            "description": "To extend the dollar’s reach, America needs to preserve the credibility that makes it the currency most worth holding.",
+            "source": "Thefreedomfrequency.org",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://www.thefreedomfrequency.org/p/how-stablecoins-can-serve-dollar",
+            "sentiment_score": 0.2789,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Darrell Duffie: Shrinking The Fed’s Balance Sheet Is Easier Said Than Done",
+            "description": "Hoover Institution fellow Darrell Duffie details several ways the Fed could reduce its balance sheet. Duffie notes that even though I don’t say the Fed should reduce its balance sheet, I do say that it should have the tools that would allow it to reduce its b…",
+            "source": "Stanford.edu",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://siepr.stanford.edu/news/federal-reserve-balance-sheet-warsh",
+            "sentiment_score": 0.3629,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "The Dow eked out a 0.3% advance last week, snapping a three-week slide.",
+            "source": "CNBC",
+            "published_at": "2026-09-27T22:06:09Z",
+            "url": "https://www.cnbc.com/2026/09/27/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "The Next Phase of Trumpflation Has Arrived, and It's Terrible News for the Federal Reserve and Wall Street",
@@ -1364,104 +1494,14 @@
             "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-how-to-find-indias-next-multibaggers-pritam-deuskar-explains-his-giants-framework/articleshow/134516232.cms",
             "sentiment_score": 0.5185,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "10-Year Treasury Yield Hits 19-Year High as Oil, Inflation and Fed Comments Drive Spike",
-            "description": "The 10-year Treasury note yield rose more than 13 basis points to 5.104% on Wednesday, Sept. 23 – reaching a level not seen since July 2007, according to CNBC. The benchmark yield’s move marked its biggest one-day increase since April 7, 2025, when it surged …",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-ten-year-treasury-note-hits-record-high.html",
-            "sentiment_score": 0.3214,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Administration Weighs Overseas Push for Dollar-Backed Stablecoins",
-            "description": "The Trump administration is weighing an effort to promote dollar-backed stablecoins in overseas markets, according to a Bloomberg report described in a Cointelegraph summary. The reported initiative would focus on expanding the use of dollar-denominated digit…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-trump-weighs-overseas-push-for-currency-backed-stablecoins.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iraq, US agree to resume dollar cash shipments",
-            "description": "Iraq and the United States agreed on Sept. 27 to resume commercial shipments of physical U.S. dollars to Baghdad following months of restrictions designed to halt currency smuggling to sanctioned entities.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-09-27T05:46:46Z",
-            "url": "https://www.hurriyetdailynews.com/iraq-us-agree-to-resume-dollar-cash-shipments-227392",
-            "sentiment_score": 0.3135,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "ETMarkets Smart Talk: RBI may hike 50-75 bps; Archit Shah on what’s next for bonds",
-            "description": "Archit Shah, CIO at Zurich Kotak General Insurance, expects the RBI to hike repo rates by 50-75 bps towards 5.75-6% if inflation, crude, and global yields remain under pressure. Advising patience on duration, Shah recommends carry and roll-down strategies whi…",
-            "source": "The Times of India",
-            "published_at": "2026-09-27T05:15:50Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-rbi-may-hike-50-75-bps-archit-shah-on-whats-next-for-bonds/articleshow/134515044.cms",
-            "sentiment_score": 0.0976,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Needs Fixes Beyond Simply Restoring Its Credibility",
-            "description": "Photo Credit:\n \n AgnosticPreachersKidBy Paul C. BinottoCongress should preserve Fed independence while adding stronger transparency, accountability, safeguards, and narrowly defined emergency intervention powers.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-09-27T04:00:00Z",
-            "url": "https://www.americanthinker.com/articles/2026/09/the-fed-needs-fixes-beyond-simply-restoring-its-credibility/",
-            "sentiment_score": 0.3909,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Asia-Pacific property markets are drawing fresh capital despite US rate uncertainty",
-            "description": "Property markets in the Asia-Pacific region are likely to remain attractive despite heightened uncertainty over monetary policy after the US Federal Reserve delivered its first interest rate increase in more than three years this month, analysts say, with sev…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-27T03:04:13Z",
-            "url": "https://biztoc.com/x/71802229b1534165",
-            "sentiment_score": 0.6164,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bangladesh plans to raise up to $1 billion in debut sovereign bond sale",
-            "description": "The debt sale comes as developing nations navigate higher global borrowing costs following recent rate hikes by the US Federal Reserve",
-            "source": "Business Standard",
-            "published_at": "2026-09-27T02:09:13Z",
-            "url": "https://www.business-standard.com/world-news/bangladesh-plans-to-raise-up-to-1-billion-in-debut-sovereign-bond-sale-126092700058_1.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond market pointing to rising inflation, interest rate and recession risk",
-            "description": "Bond yields are the highest they've been in 20 years as inflation fears rip through global financial markets. It's a warning the financial squeeze is set to get worse before it gets better.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-26T22:21:11Z",
-            "url": "https://www.abc.net.au/news/2026-09-27/multi-generation-bond-market-correction/107191114",
-            "sentiment_score": -0.3563,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
-            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-09-26T21:00:00Z",
-            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
-            "sentiment_score": -0.1442,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.208,
-      "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": -0.1091,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1470,9 +1510,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0843,
+        "average_score": 0.1264,
         "label": "บวกเล็กน้อย",
-        "article_count": 2,
+        "article_count": 1,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -1483,24 +1523,104 @@
             "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-experts-predict-gold-rate-for-last-three-months-of-2026-first-half-of-2027/articleshow/134520392.cms",
             "sentiment_score": 0.1264,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Today’s Gold Rate: Latest Gold prices in Coimbatore, Nagpur, Jaipur & Other Cities",
-            "description": "Gold Price Today, September 26, 2026: Check 22K and 24K gold rates in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur, Lucknow and Chandigarh.",
-            "source": "BusinessLine",
-            "published_at": "2026-09-26T10:29:52Z",
-            "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-september-26-2026/article71512149.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0536,
+        "average_score": 0.0815,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold Falls on Expectations of Higher for Longer Fed Rates",
+            "description": "Gold fell. Higher oil prices and strong U.S. industrial activity data reinforced expectations that the U.S. Federal Reserve may need to keep policy tighter for longer, ANZ said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T01:30:43Z",
+            "url": "https://biztoc.com/x/00e2f545b75b0027",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil and yields climb",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-and-yields-climb-6414451",
+            "sentiment_score": -0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks cautious in Asia as oil gains, yields rise",
+            "description": "SYDNEY, Sept 28 : Share markets made a cautious start on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, …",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-cautious-in-asia-oil-gains-yields-rise-6414451",
+            "sentiment_score": 0.1982,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks slip in Asia as oil climbs, bonds retreat",
+            "description": "SYDNEY, Sept 28 : Share markets were mostly lower on Monday as oil prices popped higher again amid doubts the United States and Iran will reach a truce anytime soon, keeping bonds under pressure ahead of a week packed with economic news.Over the weekend, US P…",
+            "source": "CNA",
+            "published_at": "2026-09-28T00:53:03Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-slip-in-asia-oil-climbs-bonds-retreat-6414451",
+            "sentiment_score": 0.1032,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares subdued as rising oil fuels rate hike concerns",
+            "description": "MSCI’s gauge of Asian stocks opened slightly lower with South Korea’s benchmark slipping as markets returned from a holiday, while Japanese stocks edged higher. Futures for the S&P 500 Index fell around 0.2%.",
+            "source": "The Times of India",
+            "published_at": "2026-09-28T00:42:28Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today/articleshow/134529165.cms",
+            "sentiment_score": 0.2674,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Top 5 Market Catalysts That Could Move Stocks and Crypto This Week",
+            "description": "Two weeks ago, the Federal Reserve raised interest rates. This week, five data releases will show whether it does it again in October.\nThe Fed's chair says single numbers should not drive policy. Traders are still pricing the next move off this week's data.\nT…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-28T00:15:41Z",
+            "url": "https://biztoc.com/x/a058022a1e3590c8",
+            "sentiment_score": 0.2792,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Stablecoins Can Serve Dollar Dominance",
+            "description": "To extend the dollar’s reach, America needs to preserve the credibility that makes it the currency most worth holding.",
+            "source": "Thefreedomfrequency.org",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://www.thefreedomfrequency.org/p/how-stablecoins-can-serve-dollar",
+            "sentiment_score": 0.2789,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Darrell Duffie: Shrinking The Fed’s Balance Sheet Is Easier Said Than Done",
+            "description": "Hoover Institution fellow Darrell Duffie details several ways the Fed could reduce its balance sheet. Duffie notes that even though I don’t say the Fed should reduce its balance sheet, I do say that it should have the tools that would allow it to reduce its b…",
+            "source": "Stanford.edu",
+            "published_at": "2026-09-28T00:00:00Z",
+            "url": "https://siepr.stanford.edu/news/federal-reserve-balance-sheet-warsh",
+            "sentiment_score": 0.3629,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "The Dow eked out a 0.3% advance last week, snapping a three-week slide.",
+            "source": "CNBC",
+            "published_at": "2026-09-27T22:06:09Z",
+            "url": "https://www.cnbc.com/2026/09/27/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "The Next Phase of Trumpflation Has Arrived, and It's Terrible News for the Federal Reserve and Wall Street",
@@ -1710,100 +1830,10 @@
             "url": "https://economictimes.indiatimes.com/markets/expert-view/etmarkets-smart-talk-how-to-find-indias-next-multibaggers-pritam-deuskar-explains-his-giants-framework/articleshow/134516232.cms",
             "sentiment_score": 0.5185,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "10-Year Treasury Yield Hits 19-Year High as Oil, Inflation and Fed Comments Drive Spike",
-            "description": "The 10-year Treasury note yield rose more than 13 basis points to 5.104% on Wednesday, Sept. 23 – reaching a level not seen since July 2007, according to CNBC. The benchmark yield’s move marked its biggest one-day increase since April 7, 2025, when it surged …",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-ten-year-treasury-note-hits-record-high.html",
-            "sentiment_score": 0.3214,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Administration Weighs Overseas Push for Dollar-Backed Stablecoins",
-            "description": "The Trump administration is weighing an effort to promote dollar-backed stablecoins in overseas markets, according to a Bloomberg report described in a Cointelegraph summary. The reported initiative would focus on expanding the use of dollar-denominated digit…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-09-27T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-09-27-trump-weighs-overseas-push-for-currency-backed-stablecoins.html",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Iraq, US agree to resume dollar cash shipments",
-            "description": "Iraq and the United States agreed on Sept. 27 to resume commercial shipments of physical U.S. dollars to Baghdad following months of restrictions designed to halt currency smuggling to sanctioned entities.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-09-27T05:46:46Z",
-            "url": "https://www.hurriyetdailynews.com/iraq-us-agree-to-resume-dollar-cash-shipments-227392",
-            "sentiment_score": 0.3135,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "ETMarkets Smart Talk: RBI may hike 50-75 bps; Archit Shah on what’s next for bonds",
-            "description": "Archit Shah, CIO at Zurich Kotak General Insurance, expects the RBI to hike repo rates by 50-75 bps towards 5.75-6% if inflation, crude, and global yields remain under pressure. Advising patience on duration, Shah recommends carry and roll-down strategies whi…",
-            "source": "The Times of India",
-            "published_at": "2026-09-27T05:15:50Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/etmarkets-smart-talk-rbi-may-hike-50-75-bps-archit-shah-on-whats-next-for-bonds/articleshow/134515044.cms",
-            "sentiment_score": 0.0976,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Needs Fixes Beyond Simply Restoring Its Credibility",
-            "description": "Photo Credit:\n \n AgnosticPreachersKidBy Paul C. BinottoCongress should preserve Fed independence while adding stronger transparency, accountability, safeguards, and narrowly defined emergency intervention powers.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-09-27T04:00:00Z",
-            "url": "https://www.americanthinker.com/articles/2026/09/the-fed-needs-fixes-beyond-simply-restoring-its-credibility/",
-            "sentiment_score": 0.3909,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Asia-Pacific property markets are drawing fresh capital despite US rate uncertainty",
-            "description": "Property markets in the Asia-Pacific region are likely to remain attractive despite heightened uncertainty over monetary policy after the US Federal Reserve delivered its first interest rate increase in more than three years this month, analysts say, with sev…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-27T03:04:13Z",
-            "url": "https://biztoc.com/x/71802229b1534165",
-            "sentiment_score": 0.6164,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bangladesh plans to raise up to $1 billion in debut sovereign bond sale",
-            "description": "The debt sale comes as developing nations navigate higher global borrowing costs following recent rate hikes by the US Federal Reserve",
-            "source": "Business Standard",
-            "published_at": "2026-09-27T02:09:13Z",
-            "url": "https://www.business-standard.com/world-news/bangladesh-plans-to-raise-up-to-1-billion-in-debut-sovereign-bond-sale-126092700058_1.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bond market pointing to rising inflation, interest rate and recession risk",
-            "description": "Bond yields are the highest they've been in 20 years as inflation fears rip through global financial markets. It's a warning the financial squeeze is set to get worse before it gets better.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-26T22:21:11Z",
-            "url": "https://www.abc.net.au/news/2026-09-27/multi-generation-bond-market-correction/107191114",
-            "sentiment_score": -0.3563,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors get defensive as ASX 200 drifts to a 15-week low",
-            "description": "The traditionally defensive consumer staples and healthcare sectors performed best last week. \nThe post Investors get defensive as ASX 200 drifts to a 15-week low appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-09-26T21:00:00Z",
-            "url": "https://www.fool.com.au/2026/09/27/investors-get-defensive-as-asx-200-drifts-to-a-15-week-low-week-13-2026/",
-            "sentiment_score": -0.1442,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0307,
+      "net_score": 0.0449,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
