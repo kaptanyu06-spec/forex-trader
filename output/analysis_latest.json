@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0463,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "average_score": 0.0578,
+        "label": "บวกเล็กน้อย",
+        "article_count": 24,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Rupee to fall more, yield curve to shift higher in H2FY27: Gaura Sengupta",
+            "description": "The rupee is expected to depreciate further against the US dollar, with RBI becoming increasingly selective in its intervention strategy, said Gaura Sengupta, chief economist, IDFC First Bank",
+            "source": "Business Standard",
+            "published_at": "2026-10-01T01:31:06Z",
+            "url": "https://www.business-standard.com/markets/news/rupee-to-fall-more-yield-curve-to-shift-higher-in-h2fy27-gaura-sengupta-126093000417_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "EUR",
             "title": "France’s 10-year bond yield heads for biggest quarterly surge since 1987",
@@ -162,22 +172,22 @@
           },
           {
             "currency": "EUR",
-            "title": "Dollar surges in September, leaving euro lagging",
-            "description": "Sept 30 : The dollar hovered near its highest level of the year against the euro on Wednesday and was on track for its biggest monthly gain versus the single currency in 14 months, buoyed by stronger US growth and rising interest-rate expectations.The euro ha…",
-            "source": "CNA",
-            "published_at": "2026-09-30T08:38:50Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-surges-in-september-leaving-euro-lagging-6420106",
-            "sentiment_score": 0.0555,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
             "title": "Dollar set for big rise in September, mainly at euro's expense",
             "description": "Sept 30 : The dollar hovered near its highest level of the year against the euro on Wednesday and was on track for its biggest monthly gain versus the single currency in 14 months, buoyed by stronger US growth and rising interest-rate expectations.The euro ha…",
             "source": "CNA",
             "published_at": "2026-09-30T08:38:50Z",
             "url": "https://www.channelnewsasia.com/business/dollar-set-big-rise-in-september-mainly-euros-expense-6420106",
             "sentiment_score": 0.2467,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar surges in September, leaving euro lagging",
+            "description": "Sept 30 : The dollar hovered near its highest level of the year against the euro on Wednesday and was on track for its biggest monthly gain versus the single currency in 14 months, buoyed by stronger US growth and rising interest-rate expectations.The euro ha…",
+            "source": "CNA",
+            "published_at": "2026-09-30T08:38:50Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-surges-in-september-leaving-euro-lagging-6420106",
+            "sentiment_score": 0.0555,
             "sentiment_label": "บวกเล็กน้อย"
           },
           {
@@ -239,84 +249,174 @@
             "url": "https://www.livemint.com/opinion/online-views/india-liquidity-upswell-what-should-the-central-bank-s-monetary-policy-committee-do-11790704122916.html",
             "sentiment_score": -0.2011,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Europe’s Gas Crisis Deepens as Hormuz LNG Crunch Drives Prices Higher",
-            "description": "European natural gas prices have soared dramatically since the war in Iran trapped a fifth of the world’s liquefied natural gas supply behind the Strait of Hormuz.  The high prices are creating a headache for governments amid soaring energy bills for househol…",
-            "source": "OilPrice.com",
-            "published_at": "2026-09-29T23:00:00Z",
-            "url": "https://oilprice.com/Energy/Energy-General/Europes-Gas-Crisis-Deepens-as-Hormuz-LNG-Crunch-Drives-Prices-Higher.html",
-            "sentiment_score": -0.4374,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "5 Things to Know as Money Movement Runs on Different Clocks",
-            "description": "Money can move at 2 a.m. on Sunday. The systems needed to fund, convert, settle and account for that flow of funds may have another schedule. Three developments last week illustrate the timing variances. Seven U.K. banks completed the first live customer tran…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-29T21:52:22Z",
-            "url": "https://www.pymnts.com/news/b2b-payments/2026/5-things-to-know-as-money-movement-runs-on-different-clocks/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB puts AI agent payments on the digital euro drawing board",
-            "description": "The ECB is seeking firms for 2027 workshops exploring AI agents, micropayments and machine-to-machine interactions in digital euro payments.",
-            "source": "Cointelegraph",
-            "published_at": "2026-09-29T12:00:45Z",
-            "url": "https://cointelegraph.com/news/ecb-private-firms-ai-agents-digital-euro",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Euro zone bond selloff hits pause, yields fall from multi-year highs",
-            "description": "Germany's 10-year bond yield experienced a slight decrease after reaching a 17-year high recently. Rising global interest rates are driven by strong economic growth and elevated energy prices. The European Central Bank may implement additional rate hikes to c…",
-            "source": "The Times of India",
-            "published_at": "2026-09-29T10:44:44Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/euro-zone-bond-selloff-hits-pause-yields-fall-from-multi-year-highs/articleshow/134563785.cms",
-            "sentiment_score": 0.2668,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Greece gets first MiCA entrants as watchdog denies Binance-Lagarde claim",
-            "description": "Greece joined ESMA’s MiCA register for the first time with four providers as HCMC expanded its denial of remarks in a report about Binance and Lagarde.",
-            "source": "Cointelegraph",
-            "published_at": "2026-09-29T09:50:22Z",
-            "url": "https://cointelegraph.com/news/greece-first-mica-entrants-hcmc-binance-lagarde",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB's Kazimir: We have time to keep policy flexible",
-            "description": "European Central Bank (ECB) Governing Council member and National Bank of Slovakia (NBS) Governor Peter Kazimir (pictured) said on Tuesday that the rate hike at the last meeting was unavoidable due to...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T09:25:45Z",
-            "url": "https://biztoc.com/x/a201bbd80a4d92b8",
-            "sentiment_score": 0.1584,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: Eurozone bond selloff pauses, yields stay near multi-year highs",
-            "description": "Eurozone government bond yields eased after a sharp selloff pushed borrowing costs to multi-year highs. Investors remained focused on elevated energy prices, inflation risks and expectations for further ECB rate hikes, while Germany’s 10-year yield slipped fr…",
-            "source": "The Times of India",
-            "published_at": "2026-09-29T08:59:50Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bond-selloff-pauses-yields-stay-near-multi-year-highs/articleshow/134561411.cms",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.013,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.1102,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Rupee to fall more, yield curve to shift higher in H2FY27: Gaura Sengupta",
+            "description": "The rupee is expected to depreciate further against the US dollar, with RBI becoming increasingly selective in its intervention strategy, said Gaura Sengupta, chief economist, IDFC First Bank",
+            "source": "Business Standard",
+            "published_at": "2026-10-01T01:31:06Z",
+            "url": "https://www.business-standard.com/markets/news/rupee-to-fall-more-yield-curve-to-shift-higher-in-h2fy27-gaura-sengupta-126093000417_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Potential diesel ban, Pentagon's warfare initiative and Google's latest AI model",
+            "description": "U.S. President Donald Trump's comments that he is still \"thinking about\" a diesel export ban has raised worries that U.S. energy prices may rise further.",
+            "source": "CNBC",
+            "published_at": "2026-10-01T01:16:32Z",
+            "url": "https://www.cnbc.com/2026/10/01/cnbc-daily-open-potential-diesel-ban-pentagons-warfare-initiative-and-googles-latest-ai-model-.html",
+            "sentiment_score": -0.6848,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The final verdict is in for the Fed's troubled renovation and Jerome Powell",
+            "description": "The inspector general's investigation into the Federal Reserve's costly renovation project determined that there was no administrative misconduct after the cost overruns prompted an investigation of former Federal Reserve Chair Jerome Powell amid criticism fr…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-01T01:03:02Z",
+            "url": "https://biztoc.com/x/32e3c281ed037bde",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed as bond yields, oil keep investors on edge",
+            "description": "Contracts for the S&P 500 Index rose 0.5% after the underlying gauge erased its gains to close 0.2% lower in the final hours of Wednesday trading. Asian shares edged lower after Micron Technology Inc. gave an upbeat forecast, but warned that rising compensati…",
+            "source": "The Times of India",
+            "published_at": "2026-10-01T01:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-as-bond-yields-oil-keep-investors-on-edge/articleshow/134605731.cms",
+            "sentiment_score": 0.0957,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks rise after stable inflation reading",
+            "description": "Wall Street stocks rose on Wednesday following a stable US inflation reading for August and better-than-expected private sector hiring data.\n\nRead More: https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "source": "The Punch",
+            "published_at": "2026-10-01T00:10:13Z",
+            "url": "https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Gloom and Boom Economy",
+            "description": "The gap between household economic sentiment and economic fundamentals has become a chasm.\nThe post Breitbart Business Digest: The Gloom and Boom Economy appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T23:33:35Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/breitbart-business-digest-the-gloom-and-boom-economy-2/",
+            "sentiment_score": -0.5574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed Just Named the Three Walls Standing Between AI Agents and Your Wallet",
+            "description": "Federal Reserve Governor Christopher J. Waller used his September 29 address at Sibos 2026 in Miami to do something no sitting US central bank official has done at this level of detail: lay out a structural map of what has to change before autonomous software…",
+            "source": "Forkast.news",
+            "published_at": "2026-09-30T23:32:31Z",
+            "url": "https://forkast.news/the-fed-just-named-the-three-walls-standing-between-ai-agents-and-your-wallet/",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes.\nCorporate procurement may already have the answer. Fe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T23:31:48Z",
+            "url": "https://biztoc.com/x/0457ae980b75672d",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
+            "description": "CNBC's Jim Cramer said Wednesday that several key parts of the U.S. economy have effectively frozen.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T23:00:52Z",
+            "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The war with Iran upended markets this month. There were losers — and winners | CNN Business",
+            "description": "The war with Iran upended markets this month. There were losers — and winners | CNN Businesscnn.com",
+            "source": "CNN",
+            "published_at": "2026-09-30T22:58:45Z",
+            "url": "https://www.cnn.com/2026/09/30/business/us-stocks-bonds-iran",
+            "sentiment_score": -0.6369,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes. Corporate procurement may already have the answer. Fe…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-30T22:46:05Z",
+            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-the-fed-thinks-b2b-payments-are-already-built-for-agentic/",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kashkari expects one more rate jump this year, another in 2027",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari stated that he predicts one more rate hike by the end of the year, as well as one in 2027, based on current macroeconomic data and inflation...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:32:12Z",
+            "url": "https://biztoc.com/x/ab8131bd5a25a268",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Warsh Moves to Remedy Serious Oversight Failures Found in Construction Report",
+            "description": "Federal Reserve Chairman Kevin Warsh has appointed the General Services Administration to oversee completion of the central bank’s headquarters renovation, ordering an independent cost audit after an inspector general’s investigation documented extensive fail…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T22:28:53Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/fed-chair-warsh-moves-to-remedy-serious-oversight-failures-found-in-construction-report/",
+            "sentiment_score": -0.3574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data",
+            "description": "Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation Wednesday night.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T22:21:27Z",
+            "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari: Inflation still too high, about 3%",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari said stated that inflation remains too high at around 3% and that recent economic data has not altered the Central Bank's overall outlook.\"I...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:17:10Z",
+            "url": "https://biztoc.com/x/a0c2bec44bd0c32a",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Watch Minneapolis Fed President Neel Kashkari discuss the economy and monetary policy",
+            "description": "Minneapolis Federal Reserve President Neel Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation about the U.S. economy and monetary policy Wednesday night.\nKashkari's comments follow Wednesday morning's release of the August personal…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:16:54Z",
+            "url": "https://biztoc.com/x/78656a064e027382",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "‘This is Jerome Powell’s fault’: Watchdog says Fed’s $2.5 billion boondoggle renovation was mismanaged, not criminal",
@@ -456,187 +556,27 @@
             "url": "https://richmond.com/news/state-regional/government-politics/article_254995d4-2f70-4cbb-8ec0-549123df1280.html",
             "sentiment_score": -0.5364,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why are US treasury yields falling today? Federal Reserve interest rate hike in October expectations drop",
-            "description": "US treasury yields have fallen on Wednesday. The yields on 2-year and 10-year US treasuries dropped as the expectations for hike in Federal Reserve interest rate have decreased. The US inflation data revealed that it increased less than expected in the month …",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T19:29:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-are-us-treasury-yields-falling-today-federal-reserve-interest-rate-hike-in-october-expectations-drop/articleshow/134600767.cms",
-            "sentiment_score": 0.3858,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, The Dual Mandate in Rural America",
-            "description": "Thank you, President Barkin, for that kind introduction. And thank you to the Federal Reserve Bank of Richmond and your partners across the Federal Reserve Sys",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T19:25:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-            "sentiment_score": 0.2438,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed watchdog finds no criminal wrongdoing in Powell-era renovation costs",
-            "description": "The renovation costs became a focus of Trump’s pressure campaign against former Federal Reserve Chair Jerome Powell.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-30T19:00:11Z",
-            "url": "https://www.aljazeera.com/news/2026/9/30/us-fed-watchdog-finds-no-criminal-wrongdoing-in-powell-era-renovation-costs",
-            "sentiment_score": 0.203,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
-            "description": "Q2 GDP growth revised up 0.7 ppts, path of personal income ex-transfers up due to revised deflator. Here are the key indicators followed by the NBER’s Business Cycle Dating Committee: Figure 1: NFP employment (bold blue), civilian employment with smoothed pop…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-30T18:53:07Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-real-gdp-personal-income-trajectory-revised-up",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Good resilience and bad vibes: How to grade September's market",
-            "description": "Market Hang's panel gives their grades for September's market conditions. pointing to everything from AI fears, the Federal Reserve increasing interest rates, and some surprising resiliency. Today's Market Hang panel consists of host Turney Duff, Semafor Busi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:49:43Z",
-            "url": "https://biztoc.com/x/53feff8eb95bd8f8",
-            "sentiment_score": -0.0117,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "France’s 10-year bond yield heads for biggest quarterly surge since 1987",
-            "description": "France's bond yields have been rising sharply, with September seeing the largest increase in decades. Investors are concerned about inflation as energy costs continue to rise, impacting fiscal stability. The government plans to issue €340 billion in bonds nex…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:46:33Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/frances-10-year-bond-yield-heads-for-biggest-quarterly-surge-since-1987/articleshow/134601116.cms",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US inflation rises less than expected in August; consumer spending surges",
-            "description": "US inflation rose less than expected in August, with the PCE price index increasing 0.3% month-on-month and 2.6% year-on-year. Core PCE rose 0.2% monthly and 3% annually. The softer inflation reading may reduce expectations of another Federal Reserve rate hik…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:41:29Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/us-inflation-rises-less-than-expected-in-august-consumer-spending-surges/articleshow/134600170.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No criminal wrongdoing in Federal Reserve building renovation, watchdog says, but it was mismanaged",
-            "description": "The Federal Reserve's internal watchdog said Wednesday that the agency has broadly mismanaged an expansive building renovation project but did not find any criminal violations, as alleged by Trump administration prosecutors.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:31:44Z",
-            "url": "https://biztoc.com/x/df0a8821201fec3a",
-            "sentiment_score": 0.086,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket traders put October Fed hike odds at 37%, with no change at 61%",
-            "description": "Market volatility reflects uncertainty in economic data, influencing investor sentiment and potential monetary policy adjustments.\nThe post Polymarket traders put October Fed hike odds at 37%, with no change at 61% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-30T18:25:01Z",
-            "url": "https://cryptobriefing.com/polymarket-october-fed-rate-hike-odds/",
-            "sentiment_score": -0.3744,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Aave’s $50 million lending plan could lose money without a single default",
-            "description": "The proposed BTC and ETH loans would pair custodied borrower collateral with DAO assets securing a separate source of funding.\nThe post Aave’s $50 million lending plan could lose money without a single default appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-30T18:20:26Z",
-            "url": "https://cryptoslate.com/aaves-50-million-lending-plan-could-lose-money-without-a-single-default/",
-            "sentiment_score": -0.2582,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns",
-            "description": "Trump criticized $2.4bn rehab amid attempts to pressure then Fed chair Jerome Powell into lowering interest rates\nThe Federal Reserve’s internal watchdog said on Wednesday that the agency has broadly mismanaged an expansive building renovation project but did…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:16:46Z",
-            "url": "https://biztoc.com/x/301f296257968670",
-            "sentiment_score": 0.4088,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: AI on the Factory Floor: Evidence from Manufacturing Job Postings",
-            "description": "Maria D. TitoArtificial intelligence (AI) technologies have the potential to transform production processes and labor markets, yet their ultimate effects on employment, occupations, and skill demand remain uncertain (Acemoglu and Restrepo, 2018). While resear…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T18:13:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/ai-on-the-factory-floor-evidence-from-manufacturing-job-postings-20260930.html",
-            "sentiment_score": 0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Giants Sign White House’s Safety Pact With No Penalties Attached",
-            "description": "Calls to regulate artificial intelligence have grown louder this year, including from inside the industry. The White House answered Tuesday (Sept. 29) with a pact that leaves the policing to the companies building the most powerful models. President Donald Tr…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-30T18:02:05Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-giants-sign-white-houses-safety-pact-with-no-penalties-attached/",
-            "sentiment_score": 0.3276,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Inspector general investigation discredits Trump’s claims about Federal Reserve renovations",
-            "description": "The inspector general’s office at the Federal Reserve conducted a lengthy investigation into the building’s renovation project, but the internal watchdog concluded that there was no evidence the project crossed any legal lines — an outcome in direct odds with…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:02:03Z",
-            "url": "https://biztoc.com/x/fe294a9abcb098ce",
-            "sentiment_score": -0.0785,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed watchdog clears former chair Powell in renovation probe",
-            "description": "A Federal Reserve watchdog found no criminal wrongdoing by former chair Jerome Powell in its investigation of the central bank's expensive headquarters renovation, according to a report released on Wednesday.\nWhy it matters: The findings effectively clear Pow…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:40Z",
-            "url": "https://biztoc.com/x/d275d1c37af55533",
-            "sentiment_score": 0.2975,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Chairman Has Raised Interest Rates, But Will It Slow Inflation?",
-            "description": "By Frank Shostak, Mises Wire | September 28, 2026\nAt his Jackson Hole speech, on August 28, 2026, the Fed Chairman Kevin Warsh recommitted the Federal Reserve to maintaining its 2 percent inflation target, calling it a “firm, fixed target.” At present, howeve…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:29Z",
-            "url": "https://biztoc.com/x/28e095e66ee79020",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0333,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.168,
+      "bias": "เอียงบวกต่อ EUR (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12473,
+      "price_now": 1.12372,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 35.5,
-      "rsi_signal": "โซนกลาง (RSI=35.5)",
+      "rsi_value": 33.7,
+      "rsi_signal": "โซนกลาง (RSI=33.7)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.0017,
-      "suggested_sl_distance": 0.00255,
+      "atr_value": 0.00156,
+      "suggested_sl_distance": 0.00234,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -648,9 +588,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=35.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=33.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-01T21:43:57.703603+00:00"
+    "generated_at": "2026-10-02T01:31:34.745548+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -659,9 +599,9 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0668,
+        "average_score": -0.0845,
         "label": "ลบเล็กน้อย",
-        "article_count": 24,
+        "article_count": 21,
         "scored_articles": [
           {
             "currency": "GBP",
@@ -872,44 +812,174 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-heads-for-monthly-decline-us-inflation-data-looms/articleshow/134577383.cms",
             "sentiment_score": 0.1134,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Cash-strapped households are taking on debt at the fastest pace in 33 years",
-            "description": "Bank of England figures showed consumer borrowing jumped by £2.46billion last month - the biggest increase on records going back to 1993.",
-            "source": "Dailymail.com",
-            "published_at": "2026-09-29T22:03:05Z",
-            "url": "https://www.dailymail.com/news/article-16170959/cash-strapped-households-debt-fastest-pace-33-years.html",
-            "sentiment_score": -0.1574,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "BoE's Taylor against rate hikes if energy prices drop",
-            "description": "External member of the Bank of England (BoE) Monetary Policy Committee (MPC) Alan Taylor noted that hiking the institution's interest rate is \"not compelling to me\" unless energy prices remain elevate...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T15:55:23Z",
-            "url": "https://biztoc.com/x/6941a663afe0721b",
-            "sentiment_score": 0.1596,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "uk-bank-rate 0.3.1",
-            "description": "The UK Bank Rate from the Bank of England Database, with the MPC schedule and honest handling of the hours after a decision.",
-            "source": "Pypi.org",
-            "published_at": "2026-09-29T13:04:37Z",
-            "url": "https://pypi.org/project/uk-bank-rate/0.3.1/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.013,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.1102,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Rupee to fall more, yield curve to shift higher in H2FY27: Gaura Sengupta",
+            "description": "The rupee is expected to depreciate further against the US dollar, with RBI becoming increasingly selective in its intervention strategy, said Gaura Sengupta, chief economist, IDFC First Bank",
+            "source": "Business Standard",
+            "published_at": "2026-10-01T01:31:06Z",
+            "url": "https://www.business-standard.com/markets/news/rupee-to-fall-more-yield-curve-to-shift-higher-in-h2fy27-gaura-sengupta-126093000417_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Potential diesel ban, Pentagon's warfare initiative and Google's latest AI model",
+            "description": "U.S. President Donald Trump's comments that he is still \"thinking about\" a diesel export ban has raised worries that U.S. energy prices may rise further.",
+            "source": "CNBC",
+            "published_at": "2026-10-01T01:16:32Z",
+            "url": "https://www.cnbc.com/2026/10/01/cnbc-daily-open-potential-diesel-ban-pentagons-warfare-initiative-and-googles-latest-ai-model-.html",
+            "sentiment_score": -0.6848,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The final verdict is in for the Fed's troubled renovation and Jerome Powell",
+            "description": "The inspector general's investigation into the Federal Reserve's costly renovation project determined that there was no administrative misconduct after the cost overruns prompted an investigation of former Federal Reserve Chair Jerome Powell amid criticism fr…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-01T01:03:02Z",
+            "url": "https://biztoc.com/x/32e3c281ed037bde",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed as bond yields, oil keep investors on edge",
+            "description": "Contracts for the S&P 500 Index rose 0.5% after the underlying gauge erased its gains to close 0.2% lower in the final hours of Wednesday trading. Asian shares edged lower after Micron Technology Inc. gave an upbeat forecast, but warned that rising compensati…",
+            "source": "The Times of India",
+            "published_at": "2026-10-01T01:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-as-bond-yields-oil-keep-investors-on-edge/articleshow/134605731.cms",
+            "sentiment_score": 0.0957,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks rise after stable inflation reading",
+            "description": "Wall Street stocks rose on Wednesday following a stable US inflation reading for August and better-than-expected private sector hiring data.\n\nRead More: https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "source": "The Punch",
+            "published_at": "2026-10-01T00:10:13Z",
+            "url": "https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Gloom and Boom Economy",
+            "description": "The gap between household economic sentiment and economic fundamentals has become a chasm.\nThe post Breitbart Business Digest: The Gloom and Boom Economy appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T23:33:35Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/breitbart-business-digest-the-gloom-and-boom-economy-2/",
+            "sentiment_score": -0.5574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed Just Named the Three Walls Standing Between AI Agents and Your Wallet",
+            "description": "Federal Reserve Governor Christopher J. Waller used his September 29 address at Sibos 2026 in Miami to do something no sitting US central bank official has done at this level of detail: lay out a structural map of what has to change before autonomous software…",
+            "source": "Forkast.news",
+            "published_at": "2026-09-30T23:32:31Z",
+            "url": "https://forkast.news/the-fed-just-named-the-three-walls-standing-between-ai-agents-and-your-wallet/",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes.\nCorporate procurement may already have the answer. Fe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T23:31:48Z",
+            "url": "https://biztoc.com/x/0457ae980b75672d",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
+            "description": "CNBC's Jim Cramer said Wednesday that several key parts of the U.S. economy have effectively frozen.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T23:00:52Z",
+            "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The war with Iran upended markets this month. There were losers — and winners | CNN Business",
+            "description": "The war with Iran upended markets this month. There were losers — and winners | CNN Businesscnn.com",
+            "source": "CNN",
+            "published_at": "2026-09-30T22:58:45Z",
+            "url": "https://www.cnn.com/2026/09/30/business/us-stocks-bonds-iran",
+            "sentiment_score": -0.6369,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes. Corporate procurement may already have the answer. Fe…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-30T22:46:05Z",
+            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-the-fed-thinks-b2b-payments-are-already-built-for-agentic/",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kashkari expects one more rate jump this year, another in 2027",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari stated that he predicts one more rate hike by the end of the year, as well as one in 2027, based on current macroeconomic data and inflation...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:32:12Z",
+            "url": "https://biztoc.com/x/ab8131bd5a25a268",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Warsh Moves to Remedy Serious Oversight Failures Found in Construction Report",
+            "description": "Federal Reserve Chairman Kevin Warsh has appointed the General Services Administration to oversee completion of the central bank’s headquarters renovation, ordering an independent cost audit after an inspector general’s investigation documented extensive fail…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T22:28:53Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/fed-chair-warsh-moves-to-remedy-serious-oversight-failures-found-in-construction-report/",
+            "sentiment_score": -0.3574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data",
+            "description": "Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation Wednesday night.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T22:21:27Z",
+            "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari: Inflation still too high, about 3%",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari said stated that inflation remains too high at around 3% and that recent economic data has not altered the Central Bank's overall outlook.\"I...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:17:10Z",
+            "url": "https://biztoc.com/x/a0c2bec44bd0c32a",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Watch Minneapolis Fed President Neel Kashkari discuss the economy and monetary policy",
+            "description": "Minneapolis Federal Reserve President Neel Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation about the U.S. economy and monetary policy Wednesday night.\nKashkari's comments follow Wednesday morning's release of the August personal…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:16:54Z",
+            "url": "https://biztoc.com/x/78656a064e027382",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "‘This is Jerome Powell’s fault’: Watchdog says Fed’s $2.5 billion boondoggle renovation was mismanaged, not criminal",
@@ -1049,170 +1119,10 @@
             "url": "https://richmond.com/news/state-regional/government-politics/article_254995d4-2f70-4cbb-8ec0-549123df1280.html",
             "sentiment_score": -0.5364,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why are US treasury yields falling today? Federal Reserve interest rate hike in October expectations drop",
-            "description": "US treasury yields have fallen on Wednesday. The yields on 2-year and 10-year US treasuries dropped as the expectations for hike in Federal Reserve interest rate have decreased. The US inflation data revealed that it increased less than expected in the month …",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T19:29:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-are-us-treasury-yields-falling-today-federal-reserve-interest-rate-hike-in-october-expectations-drop/articleshow/134600767.cms",
-            "sentiment_score": 0.3858,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, The Dual Mandate in Rural America",
-            "description": "Thank you, President Barkin, for that kind introduction. And thank you to the Federal Reserve Bank of Richmond and your partners across the Federal Reserve Sys",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T19:25:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-            "sentiment_score": 0.2438,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed watchdog finds no criminal wrongdoing in Powell-era renovation costs",
-            "description": "The renovation costs became a focus of Trump’s pressure campaign against former Federal Reserve Chair Jerome Powell.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-30T19:00:11Z",
-            "url": "https://www.aljazeera.com/news/2026/9/30/us-fed-watchdog-finds-no-criminal-wrongdoing-in-powell-era-renovation-costs",
-            "sentiment_score": 0.203,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
-            "description": "Q2 GDP growth revised up 0.7 ppts, path of personal income ex-transfers up due to revised deflator. Here are the key indicators followed by the NBER’s Business Cycle Dating Committee: Figure 1: NFP employment (bold blue), civilian employment with smoothed pop…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-30T18:53:07Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-real-gdp-personal-income-trajectory-revised-up",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Good resilience and bad vibes: How to grade September's market",
-            "description": "Market Hang's panel gives their grades for September's market conditions. pointing to everything from AI fears, the Federal Reserve increasing interest rates, and some surprising resiliency. Today's Market Hang panel consists of host Turney Duff, Semafor Busi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:49:43Z",
-            "url": "https://biztoc.com/x/53feff8eb95bd8f8",
-            "sentiment_score": -0.0117,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "France’s 10-year bond yield heads for biggest quarterly surge since 1987",
-            "description": "France's bond yields have been rising sharply, with September seeing the largest increase in decades. Investors are concerned about inflation as energy costs continue to rise, impacting fiscal stability. The government plans to issue €340 billion in bonds nex…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:46:33Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/frances-10-year-bond-yield-heads-for-biggest-quarterly-surge-since-1987/articleshow/134601116.cms",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US inflation rises less than expected in August; consumer spending surges",
-            "description": "US inflation rose less than expected in August, with the PCE price index increasing 0.3% month-on-month and 2.6% year-on-year. Core PCE rose 0.2% monthly and 3% annually. The softer inflation reading may reduce expectations of another Federal Reserve rate hik…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:41:29Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/us-inflation-rises-less-than-expected-in-august-consumer-spending-surges/articleshow/134600170.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No criminal wrongdoing in Federal Reserve building renovation, watchdog says, but it was mismanaged",
-            "description": "The Federal Reserve's internal watchdog said Wednesday that the agency has broadly mismanaged an expansive building renovation project but did not find any criminal violations, as alleged by Trump administration prosecutors.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:31:44Z",
-            "url": "https://biztoc.com/x/df0a8821201fec3a",
-            "sentiment_score": 0.086,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket traders put October Fed hike odds at 37%, with no change at 61%",
-            "description": "Market volatility reflects uncertainty in economic data, influencing investor sentiment and potential monetary policy adjustments.\nThe post Polymarket traders put October Fed hike odds at 37%, with no change at 61% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-30T18:25:01Z",
-            "url": "https://cryptobriefing.com/polymarket-october-fed-rate-hike-odds/",
-            "sentiment_score": -0.3744,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Aave’s $50 million lending plan could lose money without a single default",
-            "description": "The proposed BTC and ETH loans would pair custodied borrower collateral with DAO assets securing a separate source of funding.\nThe post Aave’s $50 million lending plan could lose money without a single default appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-30T18:20:26Z",
-            "url": "https://cryptoslate.com/aaves-50-million-lending-plan-could-lose-money-without-a-single-default/",
-            "sentiment_score": -0.2582,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns",
-            "description": "Trump criticized $2.4bn rehab amid attempts to pressure then Fed chair Jerome Powell into lowering interest rates\nThe Federal Reserve’s internal watchdog said on Wednesday that the agency has broadly mismanaged an expansive building renovation project but did…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:16:46Z",
-            "url": "https://biztoc.com/x/301f296257968670",
-            "sentiment_score": 0.4088,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: AI on the Factory Floor: Evidence from Manufacturing Job Postings",
-            "description": "Maria D. TitoArtificial intelligence (AI) technologies have the potential to transform production processes and labor markets, yet their ultimate effects on employment, occupations, and skill demand remain uncertain (Acemoglu and Restrepo, 2018). While resear…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T18:13:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/ai-on-the-factory-floor-evidence-from-manufacturing-job-postings-20260930.html",
-            "sentiment_score": 0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Giants Sign White House’s Safety Pact With No Penalties Attached",
-            "description": "Calls to regulate artificial intelligence have grown louder this year, including from inside the industry. The White House answered Tuesday (Sept. 29) with a pact that leaves the policing to the companies building the most powerful models. President Donald Tr…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-30T18:02:05Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-giants-sign-white-houses-safety-pact-with-no-penalties-attached/",
-            "sentiment_score": 0.3276,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Inspector general investigation discredits Trump’s claims about Federal Reserve renovations",
-            "description": "The inspector general’s office at the Federal Reserve conducted a lengthy investigation into the building’s renovation project, but the internal watchdog concluded that there was no evidence the project crossed any legal lines — an outcome in direct odds with…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:02:03Z",
-            "url": "https://biztoc.com/x/fe294a9abcb098ce",
-            "sentiment_score": -0.0785,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed watchdog clears former chair Powell in renovation probe",
-            "description": "A Federal Reserve watchdog found no criminal wrongdoing by former chair Jerome Powell in its investigation of the central bank's expensive headquarters renovation, according to a report released on Wednesday.\nWhy it matters: The findings effectively clear Pow…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:40Z",
-            "url": "https://biztoc.com/x/d275d1c37af55533",
-            "sentiment_score": 0.2975,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Chairman Has Raised Interest Rates, But Will It Slow Inflation?",
-            "description": "By Frank Shostak, Mises Wire | September 28, 2026\nAt his Jackson Hole speech, on August 28, 2026, the Fed Chairman Kevin Warsh recommitted the Federal Reserve to maintaining its 2 percent inflation target, calling it a “firm, fixed target.” At present, howeve…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:29Z",
-            "url": "https://biztoc.com/x/28e095e66ee79020",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0798,
+      "net_score": 0.0257,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1222,14 +1132,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.31987,
+      "price_now": 1.31836,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 39.5,
-      "rsi_signal": "โซนกลาง (RSI=39.5)",
+      "rsi_value": 35.0,
+      "rsi_signal": "โซนกลาง (RSI=35.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00171,
-      "suggested_sl_distance": 0.00256,
+      "atr_value": 0.00155,
+      "suggested_sl_distance": 0.00233,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -1241,9 +1151,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=39.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=35.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-01T21:43:57.703603+00:00"
+    "generated_at": "2026-10-02T01:31:34.745548+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1252,10 +1162,170 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.013,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.1102,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Rupee to fall more, yield curve to shift higher in H2FY27: Gaura Sengupta",
+            "description": "The rupee is expected to depreciate further against the US dollar, with RBI becoming increasingly selective in its intervention strategy, said Gaura Sengupta, chief economist, IDFC First Bank",
+            "source": "Business Standard",
+            "published_at": "2026-10-01T01:31:06Z",
+            "url": "https://www.business-standard.com/markets/news/rupee-to-fall-more-yield-curve-to-shift-higher-in-h2fy27-gaura-sengupta-126093000417_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Potential diesel ban, Pentagon's warfare initiative and Google's latest AI model",
+            "description": "U.S. President Donald Trump's comments that he is still \"thinking about\" a diesel export ban has raised worries that U.S. energy prices may rise further.",
+            "source": "CNBC",
+            "published_at": "2026-10-01T01:16:32Z",
+            "url": "https://www.cnbc.com/2026/10/01/cnbc-daily-open-potential-diesel-ban-pentagons-warfare-initiative-and-googles-latest-ai-model-.html",
+            "sentiment_score": -0.6848,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The final verdict is in for the Fed's troubled renovation and Jerome Powell",
+            "description": "The inspector general's investigation into the Federal Reserve's costly renovation project determined that there was no administrative misconduct after the cost overruns prompted an investigation of former Federal Reserve Chair Jerome Powell amid criticism fr…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-01T01:03:02Z",
+            "url": "https://biztoc.com/x/32e3c281ed037bde",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed as bond yields, oil keep investors on edge",
+            "description": "Contracts for the S&P 500 Index rose 0.5% after the underlying gauge erased its gains to close 0.2% lower in the final hours of Wednesday trading. Asian shares edged lower after Micron Technology Inc. gave an upbeat forecast, but warned that rising compensati…",
+            "source": "The Times of India",
+            "published_at": "2026-10-01T01:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-as-bond-yields-oil-keep-investors-on-edge/articleshow/134605731.cms",
+            "sentiment_score": 0.0957,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks rise after stable inflation reading",
+            "description": "Wall Street stocks rose on Wednesday following a stable US inflation reading for August and better-than-expected private sector hiring data.\n\nRead More: https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "source": "The Punch",
+            "published_at": "2026-10-01T00:10:13Z",
+            "url": "https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Gloom and Boom Economy",
+            "description": "The gap between household economic sentiment and economic fundamentals has become a chasm.\nThe post Breitbart Business Digest: The Gloom and Boom Economy appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T23:33:35Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/breitbart-business-digest-the-gloom-and-boom-economy-2/",
+            "sentiment_score": -0.5574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed Just Named the Three Walls Standing Between AI Agents and Your Wallet",
+            "description": "Federal Reserve Governor Christopher J. Waller used his September 29 address at Sibos 2026 in Miami to do something no sitting US central bank official has done at this level of detail: lay out a structural map of what has to change before autonomous software…",
+            "source": "Forkast.news",
+            "published_at": "2026-09-30T23:32:31Z",
+            "url": "https://forkast.news/the-fed-just-named-the-three-walls-standing-between-ai-agents-and-your-wallet/",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes.\nCorporate procurement may already have the answer. Fe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T23:31:48Z",
+            "url": "https://biztoc.com/x/0457ae980b75672d",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
+            "description": "CNBC's Jim Cramer said Wednesday that several key parts of the U.S. economy have effectively frozen.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T23:00:52Z",
+            "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The war with Iran upended markets this month. There were losers — and winners | CNN Business",
+            "description": "The war with Iran upended markets this month. There were losers — and winners | CNN Businesscnn.com",
+            "source": "CNN",
+            "published_at": "2026-09-30T22:58:45Z",
+            "url": "https://www.cnn.com/2026/09/30/business/us-stocks-bonds-iran",
+            "sentiment_score": -0.6369,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes. Corporate procurement may already have the answer. Fe…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-30T22:46:05Z",
+            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-the-fed-thinks-b2b-payments-are-already-built-for-agentic/",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kashkari expects one more rate jump this year, another in 2027",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari stated that he predicts one more rate hike by the end of the year, as well as one in 2027, based on current macroeconomic data and inflation...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:32:12Z",
+            "url": "https://biztoc.com/x/ab8131bd5a25a268",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Warsh Moves to Remedy Serious Oversight Failures Found in Construction Report",
+            "description": "Federal Reserve Chairman Kevin Warsh has appointed the General Services Administration to oversee completion of the central bank’s headquarters renovation, ordering an independent cost audit after an inspector general’s investigation documented extensive fail…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T22:28:53Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/fed-chair-warsh-moves-to-remedy-serious-oversight-failures-found-in-construction-report/",
+            "sentiment_score": -0.3574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data",
+            "description": "Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation Wednesday night.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T22:21:27Z",
+            "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari: Inflation still too high, about 3%",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari said stated that inflation remains too high at around 3% and that recent economic data has not altered the Central Bank's overall outlook.\"I...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:17:10Z",
+            "url": "https://biztoc.com/x/a0c2bec44bd0c32a",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Watch Minneapolis Fed President Neel Kashkari discuss the economy and monetary policy",
+            "description": "Minneapolis Federal Reserve President Neel Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation about the U.S. economy and monetary policy Wednesday night.\nKashkari's comments follow Wednesday morning's release of the August personal…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:16:54Z",
+            "url": "https://biztoc.com/x/78656a064e027382",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "‘This is Jerome Powell’s fault’: Watchdog says Fed’s $2.5 billion boondoggle renovation was mismanaged, not criminal",
@@ -1395,174 +1465,44 @@
             "url": "https://richmond.com/news/state-regional/government-politics/article_254995d4-2f70-4cbb-8ec0-549123df1280.html",
             "sentiment_score": -0.5364,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why are US treasury yields falling today? Federal Reserve interest rate hike in October expectations drop",
-            "description": "US treasury yields have fallen on Wednesday. The yields on 2-year and 10-year US treasuries dropped as the expectations for hike in Federal Reserve interest rate have decreased. The US inflation data revealed that it increased less than expected in the month …",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T19:29:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-are-us-treasury-yields-falling-today-federal-reserve-interest-rate-hike-in-october-expectations-drop/articleshow/134600767.cms",
-            "sentiment_score": 0.3858,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, The Dual Mandate in Rural America",
-            "description": "Thank you, President Barkin, for that kind introduction. And thank you to the Federal Reserve Bank of Richmond and your partners across the Federal Reserve Sys",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T19:25:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-            "sentiment_score": 0.2438,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed watchdog finds no criminal wrongdoing in Powell-era renovation costs",
-            "description": "The renovation costs became a focus of Trump’s pressure campaign against former Federal Reserve Chair Jerome Powell.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-30T19:00:11Z",
-            "url": "https://www.aljazeera.com/news/2026/9/30/us-fed-watchdog-finds-no-criminal-wrongdoing-in-powell-era-renovation-costs",
-            "sentiment_score": 0.203,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
-            "description": "Q2 GDP growth revised up 0.7 ppts, path of personal income ex-transfers up due to revised deflator. Here are the key indicators followed by the NBER’s Business Cycle Dating Committee: Figure 1: NFP employment (bold blue), civilian employment with smoothed pop…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-30T18:53:07Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-real-gdp-personal-income-trajectory-revised-up",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Good resilience and bad vibes: How to grade September's market",
-            "description": "Market Hang's panel gives their grades for September's market conditions. pointing to everything from AI fears, the Federal Reserve increasing interest rates, and some surprising resiliency. Today's Market Hang panel consists of host Turney Duff, Semafor Busi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:49:43Z",
-            "url": "https://biztoc.com/x/53feff8eb95bd8f8",
-            "sentiment_score": -0.0117,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "France’s 10-year bond yield heads for biggest quarterly surge since 1987",
-            "description": "France's bond yields have been rising sharply, with September seeing the largest increase in decades. Investors are concerned about inflation as energy costs continue to rise, impacting fiscal stability. The government plans to issue €340 billion in bonds nex…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:46:33Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/frances-10-year-bond-yield-heads-for-biggest-quarterly-surge-since-1987/articleshow/134601116.cms",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US inflation rises less than expected in August; consumer spending surges",
-            "description": "US inflation rose less than expected in August, with the PCE price index increasing 0.3% month-on-month and 2.6% year-on-year. Core PCE rose 0.2% monthly and 3% annually. The softer inflation reading may reduce expectations of another Federal Reserve rate hik…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:41:29Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/us-inflation-rises-less-than-expected-in-august-consumer-spending-surges/articleshow/134600170.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No criminal wrongdoing in Federal Reserve building renovation, watchdog says, but it was mismanaged",
-            "description": "The Federal Reserve's internal watchdog said Wednesday that the agency has broadly mismanaged an expansive building renovation project but did not find any criminal violations, as alleged by Trump administration prosecutors.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:31:44Z",
-            "url": "https://biztoc.com/x/df0a8821201fec3a",
-            "sentiment_score": 0.086,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket traders put October Fed hike odds at 37%, with no change at 61%",
-            "description": "Market volatility reflects uncertainty in economic data, influencing investor sentiment and potential monetary policy adjustments.\nThe post Polymarket traders put October Fed hike odds at 37%, with no change at 61% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-30T18:25:01Z",
-            "url": "https://cryptobriefing.com/polymarket-october-fed-rate-hike-odds/",
-            "sentiment_score": -0.3744,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Aave’s $50 million lending plan could lose money without a single default",
-            "description": "The proposed BTC and ETH loans would pair custodied borrower collateral with DAO assets securing a separate source of funding.\nThe post Aave’s $50 million lending plan could lose money without a single default appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-30T18:20:26Z",
-            "url": "https://cryptoslate.com/aaves-50-million-lending-plan-could-lose-money-without-a-single-default/",
-            "sentiment_score": -0.2582,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns",
-            "description": "Trump criticized $2.4bn rehab amid attempts to pressure then Fed chair Jerome Powell into lowering interest rates\nThe Federal Reserve’s internal watchdog said on Wednesday that the agency has broadly mismanaged an expansive building renovation project but did…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:16:46Z",
-            "url": "https://biztoc.com/x/301f296257968670",
-            "sentiment_score": 0.4088,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: AI on the Factory Floor: Evidence from Manufacturing Job Postings",
-            "description": "Maria D. TitoArtificial intelligence (AI) technologies have the potential to transform production processes and labor markets, yet their ultimate effects on employment, occupations, and skill demand remain uncertain (Acemoglu and Restrepo, 2018). While resear…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T18:13:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/ai-on-the-factory-floor-evidence-from-manufacturing-job-postings-20260930.html",
-            "sentiment_score": 0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Giants Sign White House’s Safety Pact With No Penalties Attached",
-            "description": "Calls to regulate artificial intelligence have grown louder this year, including from inside the industry. The White House answered Tuesday (Sept. 29) with a pact that leaves the policing to the companies building the most powerful models. President Donald Tr…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-30T18:02:05Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-giants-sign-white-houses-safety-pact-with-no-penalties-attached/",
-            "sentiment_score": 0.3276,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Inspector general investigation discredits Trump’s claims about Federal Reserve renovations",
-            "description": "The inspector general’s office at the Federal Reserve conducted a lengthy investigation into the building’s renovation project, but the internal watchdog concluded that there was no evidence the project crossed any legal lines — an outcome in direct odds with…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:02:03Z",
-            "url": "https://biztoc.com/x/fe294a9abcb098ce",
-            "sentiment_score": -0.0785,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed watchdog clears former chair Powell in renovation probe",
-            "description": "A Federal Reserve watchdog found no criminal wrongdoing by former chair Jerome Powell in its investigation of the central bank's expensive headquarters renovation, according to a report released on Wednesday.\nWhy it matters: The findings effectively clear Pow…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:40Z",
-            "url": "https://biztoc.com/x/d275d1c37af55533",
-            "sentiment_score": 0.2975,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Chairman Has Raised Interest Rates, But Will It Slow Inflation?",
-            "description": "By Frank Shostak, Mises Wire | September 28, 2026\nAt his Jackson Hole speech, on August 28, 2026, the Fed Chairman Kevin Warsh recommitted the Federal Reserve to maintaining its 2 percent inflation target, calling it a “firm, fixed target.” At present, howeve…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:29Z",
-            "url": "https://biztoc.com/x/28e095e66ee79020",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0129,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 9,
+        "average_score": 0.1,
+        "label": "บวกเล็กน้อย",
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Global Market Today: Asian shares mixed as bond yields, oil keep investors on edge",
+            "description": "Contracts for the S&P 500 Index rose 0.5% after the underlying gauge erased its gains to close 0.2% lower in the final hours of Wednesday trading. Asian shares edged lower after Micron Technology Inc. gave an upbeat forecast, but warned that rising compensati…",
+            "source": "The Times of India",
+            "published_at": "2026-10-01T01:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-as-bond-yields-oil-keep-investors-on-edge/articleshow/134605731.cms",
+            "sentiment_score": 0.0957,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan business mood reaches 8-year high, bolsters case for BOJ hikes",
+            "description": "TOKYO, Oct 1 : Japanese business confidence hit an eight-year high over July-September amid elevated inflation expectations, a central bank survey showed, indicating an economy weathering the Middle East conflict and bolstering the case for interest rate hike…",
+            "source": "CNA",
+            "published_at": "2026-10-01T00:12:18Z",
+            "url": "https://www.channelnewsasia.com/business/japan-business-mood-reaches-8-year-high-bolsters-case-boj-hikes-6422946",
+            "sentiment_score": 0.2198,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's patchy business mood takes pressure off BOJ for immediate hike",
+            "description": "TOKYO, Oct 1 : Japanese manufacturers' confidence hit an eight-year high over July-September but non-manufacturers' mood soured, a central bank survey showed, painting a mixed picture of the economy that may soften the chance of a back-to-back rate hike this …",
+            "source": "CNA",
+            "published_at": "2026-10-01T00:12:18Z",
+            "url": "https://www.channelnewsasia.com/business/japans-patchy-business-mood-takes-pressure-boj-immediate-hike-6422946",
+            "sentiment_score": -0.0378,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "RBI’s wait and watch phase is over as inflation demands a rate hike",
@@ -1592,87 +1532,27 @@
             "url": "https://en.protothema.gr/2026/09/30/the-embassy-the-vertical-corridor-and-the-wsj-the-cabinet-measures-complaints-about-opinion-polls-the-foundations-at-maximos-mansion-and-saint-kyriakos-the-non-hermit/",
             "sentiment_score": -0.1668,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan August factory output unexpectedly falls",
-            "description": "TOKYO, Sept 30 : Japan's factory output unexpectedly fell in August from the previous month, government data showed on Wednesday.Here are a few details:• Industrial output shrank 1.7 per cent in August from the previous month, according to data released by th…",
-            "source": "CNA",
-            "published_at": "2026-09-29T23:54:08Z",
-            "url": "https://www.channelnewsasia.com/business/japan-august-factory-output-unexpectedly-falls-6419986",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global Market: Japan 2-year bond yield nears 2% as BOJ rate hike bets rise",
-            "description": "Japan’s two-year government bond yield neared 2%, its highest level since 1995, as persistent inflation, yen weakness and expectations of further Bank of Japan rate hikes pushed short-term borrowing costs higher.",
-            "source": "The Times of India",
-            "published_at": "2026-09-29T10:09:40Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-japan-2-year-bond-yield-nears-2-as-boj-rate-hike-bets-rise/articleshow/134562765.cms",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Nikkei Falls 396 Points as Ex-Dividend Drop and Rate Fears Weigh",
-            "description": "Tokyo stocks fell on September 29, with the Nikkei 225 closing at 65,481, down 396 points, as the market adjusted for September interim dividends and investors remained cautious over high Japanese bond yields, a weak yen, oil prices and profit-taking after th…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-09-29T09:12:05Z",
-            "url": "https://newsonjapan.com/article/150897.php",
-            "sentiment_score": -0.5728,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global Market: Japanese bond yields hover near multi-decade highs as inflation concerns persist",
-            "description": "Japanese government bond yields remained near multi-decade highs as persistent inflation, elevated oil prices and expectations of further Bank of Japan rate hikes weighed on sentiment. A strong 40-year bond auction offered some relief, with demand improving, …",
-            "source": "The Times of India",
-            "published_at": "2026-09-29T07:18:05Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japanese-bond-yields-hover-near-multi-decade-highs-as-inflation-concerns-persist/articleshow/134559464.cms",
-            "sentiment_score": 0.2481,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Asian stocks mostly fall after Wall Street losses and oil prices rise",
-            "description": "World shares were mixed after losses on Wall Street, while U.S. Treasury yields steadied near their highest levels in roughly two decades.",
-            "source": "WJXT News4JAX",
-            "published_at": "2026-09-29T06:58:58Z",
-            "url": "https://www.news4jax.com/business/2026/09/29/asian-stocks-mostly-fall-after-wall-street-losses-and-oil-prices-rise/",
-            "sentiment_score": -0.2582,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Breaking: RBA lifts rates to highest level in 15 years",
-            "description": "The Reserve Bank increases interest rates to 4.6 per cent in its fourth rate rise this year.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-29T04:31:39Z",
-            "url": "https://www.abc.net.au/news/2026-09-29/rba-lifts-rates-highest-level-in-15-years-september-2026/107206640",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0259,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.2102,
+      "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.05,
+      "price_now": 158.155,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 55.6,
-      "rsi_signal": "โซนกลาง (RSI=55.6)",
+      "rsi_value": 57.8,
+      "rsi_signal": "โซนกลาง (RSI=57.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.27929,
-      "suggested_sl_distance": 0.41894,
+      "atr_value": 0.28207,
+      "suggested_sl_distance": 0.42311,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1686,7 +1566,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-01T21:43:57.703603+00:00"
+    "generated_at": "2026-10-02T01:31:34.745548+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1695,10 +1575,30 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1462,
+        "average_score": 0.0734,
         "label": "บวกเล็กน้อย",
-        "article_count": 30,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Aussies are paying the price to tame inflation - but Albo risks throwing away a rare glimmer of hope: PETER VAN ONSELEN",
+            "description": "For families watching their pay packets disappear into their mortgage and supermarket trolley, there's nothing reassuring about the inflation rise.",
+            "source": "Dailymail.com",
+            "published_at": "2026-09-30T23:04:33Z",
+            "url": "https://www.dailymail.com/news/article-16174111/australia-inflation-reserve-bank-economy-peter-van-onselen.html",
+            "sentiment_score": 0.0419,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Aussies warned cafes will raise prices to cope with Anthony Albanese's new card payment ban",
+            "description": "Businesses will no longer be able to charge customers a direct fee for paying by card.",
+            "source": "Dailymail.com",
+            "published_at": "2026-09-30T22:16:30Z",
+            "url": "https://www.dailymail.com/news/article-16174087/cafe-price-hike-australia.html",
+            "sentiment_score": -0.5724,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "AUD",
             "title": "Live: Environment minister urges new Greens leader to be constructive with Labor",
@@ -1798,214 +1698,174 @@
             "url": "https://www.dailymail.com/tvshowbiz/article-16171109/dave-hughes-rate-hike-aussies-spending-groceries.html",
             "sentiment_score": 0.0675,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Former RBA boss Phillip Lowe takes a swipe at Anthony Albanese's government warning it is fuelling inflation and keeping interest rates high",
-            "description": "Former Reserve Bank of Australia governor Phillip Lowe has taken a swipe at the Labor government.",
-            "source": "Dailymail.com",
-            "published_at": "2026-09-29T23:46:53Z",
-            "url": "https://www.dailymail.com/news/article-16171207/rba-phillip-lowe.html",
-            "sentiment_score": 0.2296,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Markets live: ASX to fall slightly as Australian dollar weakens after RBA rate hike",
-            "description": "The ASX is likely to start its day flat, or even slightly lower. It comes after a weak session on Wall Street as government bond yields continued their march towards multi-decade highs. Follow live.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-29T22:00:33Z",
-            "url": "https://www.abc.net.au/news/2026-09-30/asx-markets-business-live-news/107210136",
-            "sentiment_score": -0.3988,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Live: Taylor blames 'home-grown inflation' for 15-year-high rate hike",
-            "description": "The opposition leader says the government is not in control of inflation and interest rates. Follow live.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-09-29T21:11:41Z",
-            "url": "https://www.abc.net.au/news/2026-09-30/federal-politics-live-blog-interest-rates/107208684",
-            "sentiment_score": -0.1437,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "RBA Rate Hike to 4.6%: What the Fourth Increase of 2026 Means for Mortgage Holders, Renters and Savers",
-            "description": "The Reserve Bank of Australia has lifted its cash rate to 4.60%, increasing mortgage costs, reducing borrowing capacity and creating mixed consequences for renters and savers.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-09-29T15:00:52Z",
-            "url": "https://www.ibtimes.com.au/rba-raises-cash-rate-mortgage-borrowing-impact-1876067",
-            "sentiment_score": 0.3115,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Posthaste: Never mind the greenback, the Canadian dollar is now losing ground against the Aussie buck",
-            "description": "Canadian dollar is at parity with the Australian dollar for the first time since 2018 as pressure builds on the loonie. Read more",
-            "source": "Financial Post",
-            "published_at": "2026-09-29T11:59:42Z",
-            "url": "https://financialpost.com/news/canadian-dollar-losing-ground-against-aussie-buck",
-            "sentiment_score": -0.3561,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Australia Pushes Rates to 15-Year High and Warns It May Go Further",
-            "description": "The Reserve Bank of Australia (RBA) raised its cash rate by 25 basis points to 4.6%. The move pushes borrowing costs to their highest level since 2011.\nThe nine-member board backed the decision unanimously, delivering its fourth increase of 2026. Policymakers…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T09:11:01Z",
-            "url": "https://biztoc.com/x/a0330a04846de3a7",
-            "sentiment_score": 0.0301,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Perenti Shares Jump Nearly 9% After Mining Services Firm Wins More Than $200 Million in New Contracts",
-            "description": "Perenti shares rose 8.8% after the mining services company announced more than A$200 million in drilling and underground mining contracts across three regions.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-09-29T08:59:01Z",
-            "url": "https://www.ibtimes.com.au/perenti-shares-rise-new-mining-contracts-1876042",
-            "sentiment_score": 0.5855,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Asian stocks wobble as bonds slump to monthly loss",
-            "description": "Bond markets in Japan and South Korea have traded under pressure and most regional equity markets are lower.",
-            "source": "PerthNow",
-            "published_at": "2026-09-29T08:15:26Z",
-            "url": "https://www.perthnow.com.au/news/business/markets/asian-stocks-wobble-as-bonds-slump-to-monthly-loss-c-22941222",
-            "sentiment_score": -0.3807,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Australia's central bank lifts rates to 15-year high",
-            "description": "Australia's central bank raised its cash rate to a 15-year high in its fourth hike of the year, saying some inflation risks have materialised and that it was prepared to hike further if needed.",
-            "source": "RTE",
-            "published_at": "2026-09-29T07:51:52Z",
-            "url": "https://www.rte.ie/news/business/2026/0929/1593318-australia-interest-rates/",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Megaport Shares Jump 9% After Nearly $1 Billion in AI Contracts Trigger Major Revenue Guidance Upgrade",
-            "description": "Megaport shares climbed 9.4% after the company announced A$978.6 million in new AI infrastructure contracts and upgraded its FY27 revenue and EBITDA margin guidance.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-09-29T07:42:21Z",
-            "url": "https://www.ibtimes.com.au/megaport-shares-ai-infrastructure-contracts-1876038",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "RBA interest rates: governor Michele Bullock explains decision to lift cash rate to 4.6% – video",
-            "description": "The Reserve Bank of Australia has raised its key interest rate to 4.6%, its highest level since 2011. RBA governor Michele Bullock says the global AI boom has 'driven significant price rises' and is contributing to demand in the Australian economy. In a state…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T07:40:34Z",
-            "url": "https://biztoc.com/x/1b10a2bead8be5df",
-            "sentiment_score": 0.4743,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Codan Shares Soar Nearly 24% to Record High as Drone Demand From Conflict Zones Doubles Profit Outlook",
-            "description": "Codan shares reached a record high after the company raised its profit outlook, citing exceptionally strong communications demand from conflict regions and continued growth in gold detectors.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-09-29T07:32:28Z",
-            "url": "https://www.ibtimes.com.au/codan-shares-surge-conflict-demand-profit-outlook-1876034",
-            "sentiment_score": 0.4699,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "CNBC Daily Open: AI’s creators sound the alarm — while others keep building the infrastructure",
-            "description": "When the AI boom first took off, companies were competing to see what their AI models can do. Now, they reassure investors of what their models CAN'T do.",
-            "source": "CNBC",
-            "published_at": "2026-09-29T07:27:18Z",
-            "url": "https://www.cnbc.com/2026/09/29/daily-open-ai-nvidia-anthropic-openai-samsung.html",
-            "sentiment_score": -0.136,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "ASX 200 Closes Higher as Tech Stocks Surge and RBA Hikes Rates to 15-Year High of 4.6% Amid Inflation",
-            "description": "Australian shares closed higher after technology stocks led gains, offsetting the RBA's fourth rate increase of the year and lifting the cash rate to 4.60%.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-09-29T07:07:16Z",
-            "url": "https://www.ibtimes.com.au/asx-200-rises-after-rba-rate-hike-1876031",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Australia raises interest rates to 15-year high",
-            "description": "Reserve Bank of Australia lifts benchmark rate to 4.6 percent amid stubborn inflation.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-29T06:29:01Z",
-            "url": "https://www.aljazeera.com/economy/2026/9/29/australia-raises-interest-rates-to-15-year-high",
-            "sentiment_score": 0.2006,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "RBA's Bullock says further hikes remain on the table",
-            "description": "Reserve Bank of Australia Governor Michele Bullock (pictured) said on Tuesday the RBA will raise interest rates again if needed to contain inflation, as multiple pressures complicate the outlook. Spea...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T06:26:22Z",
-            "url": "https://biztoc.com/x/ea4c864fe1885ae6",
-            "sentiment_score": 0.0534,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "RBA lifts rates to highest level in 15 years – risking a sharper slowdown of the economy",
-            "description": "The challenge is whether the RBA can bring inflation under control without causing a recession.",
-            "source": "The Conversation Africa",
-            "published_at": "2026-09-29T06:17:25Z",
-            "url": "https://theconversation.com/rba-lifts-rates-to-highest-level-in-15-years-risking-a-sharper-slowdown-of-the-economy-292779",
-            "sentiment_score": -0.1062,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "RBA interest rates: Reserve Bank hikes cash rate to 4.6%, the highest level since 2011",
-            "description": "Widely expected decision is fourth increase to interest rate this year and will be blow to mortgage holders across Australia\nFollow our Australia news live blog for latest updates\nGet our breaking news email, free app or daily news podcast\nThe Reserve Bank of…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T06:11:00Z",
-            "url": "https://biztoc.com/x/2164ce2267259c2f",
-            "sentiment_score": 0.5679,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "NZ sharemarket falls over 1% despite Hallenstein’s solid result – Market close",
-            "description": "The S&P/NZX50 Index closed at 13,13,683.63, down 147.05 points, or 1.06%.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-09-29T05:30:52Z",
-            "url": "https://www.nzherald.co.nz/business/markets/shares/nz-sharemarket-falls-over-1-despite-hallensteins-solid-result-market-close/premium/XANOH3MFYNGWNCDZ5ST3CE4KUM/",
-            "sentiment_score": -0.0797,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Asia-Pacific lower after Australia's rate hike",
-            "description": "Major stock indices in the Asia-Pacific region traded lower on Tuesday after the Reserve Bank of Australia hiked its key rate by 25 basis points to 4.6%, its first increase following two holds.On the ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T05:26:29Z",
-            "url": "https://biztoc.com/x/f304d5e7c2b0f8dc",
-            "sentiment_score": -0.1995,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.013,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.1102,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Rupee to fall more, yield curve to shift higher in H2FY27: Gaura Sengupta",
+            "description": "The rupee is expected to depreciate further against the US dollar, with RBI becoming increasingly selective in its intervention strategy, said Gaura Sengupta, chief economist, IDFC First Bank",
+            "source": "Business Standard",
+            "published_at": "2026-10-01T01:31:06Z",
+            "url": "https://www.business-standard.com/markets/news/rupee-to-fall-more-yield-curve-to-shift-higher-in-h2fy27-gaura-sengupta-126093000417_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Potential diesel ban, Pentagon's warfare initiative and Google's latest AI model",
+            "description": "U.S. President Donald Trump's comments that he is still \"thinking about\" a diesel export ban has raised worries that U.S. energy prices may rise further.",
+            "source": "CNBC",
+            "published_at": "2026-10-01T01:16:32Z",
+            "url": "https://www.cnbc.com/2026/10/01/cnbc-daily-open-potential-diesel-ban-pentagons-warfare-initiative-and-googles-latest-ai-model-.html",
+            "sentiment_score": -0.6848,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The final verdict is in for the Fed's troubled renovation and Jerome Powell",
+            "description": "The inspector general's investigation into the Federal Reserve's costly renovation project determined that there was no administrative misconduct after the cost overruns prompted an investigation of former Federal Reserve Chair Jerome Powell amid criticism fr…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-01T01:03:02Z",
+            "url": "https://biztoc.com/x/32e3c281ed037bde",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed as bond yields, oil keep investors on edge",
+            "description": "Contracts for the S&P 500 Index rose 0.5% after the underlying gauge erased its gains to close 0.2% lower in the final hours of Wednesday trading. Asian shares edged lower after Micron Technology Inc. gave an upbeat forecast, but warned that rising compensati…",
+            "source": "The Times of India",
+            "published_at": "2026-10-01T01:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-as-bond-yields-oil-keep-investors-on-edge/articleshow/134605731.cms",
+            "sentiment_score": 0.0957,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks rise after stable inflation reading",
+            "description": "Wall Street stocks rose on Wednesday following a stable US inflation reading for August and better-than-expected private sector hiring data.\n\nRead More: https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "source": "The Punch",
+            "published_at": "2026-10-01T00:10:13Z",
+            "url": "https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Gloom and Boom Economy",
+            "description": "The gap between household economic sentiment and economic fundamentals has become a chasm.\nThe post Breitbart Business Digest: The Gloom and Boom Economy appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T23:33:35Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/breitbart-business-digest-the-gloom-and-boom-economy-2/",
+            "sentiment_score": -0.5574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed Just Named the Three Walls Standing Between AI Agents and Your Wallet",
+            "description": "Federal Reserve Governor Christopher J. Waller used his September 29 address at Sibos 2026 in Miami to do something no sitting US central bank official has done at this level of detail: lay out a structural map of what has to change before autonomous software…",
+            "source": "Forkast.news",
+            "published_at": "2026-09-30T23:32:31Z",
+            "url": "https://forkast.news/the-fed-just-named-the-three-walls-standing-between-ai-agents-and-your-wallet/",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes.\nCorporate procurement may already have the answer. Fe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T23:31:48Z",
+            "url": "https://biztoc.com/x/0457ae980b75672d",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
+            "description": "CNBC's Jim Cramer said Wednesday that several key parts of the U.S. economy have effectively frozen.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T23:00:52Z",
+            "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The war with Iran upended markets this month. There were losers — and winners | CNN Business",
+            "description": "The war with Iran upended markets this month. There were losers — and winners | CNN Businesscnn.com",
+            "source": "CNN",
+            "published_at": "2026-09-30T22:58:45Z",
+            "url": "https://www.cnn.com/2026/09/30/business/us-stocks-bonds-iran",
+            "sentiment_score": -0.6369,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes. Corporate procurement may already have the answer. Fe…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-30T22:46:05Z",
+            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-the-fed-thinks-b2b-payments-are-already-built-for-agentic/",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kashkari expects one more rate jump this year, another in 2027",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari stated that he predicts one more rate hike by the end of the year, as well as one in 2027, based on current macroeconomic data and inflation...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:32:12Z",
+            "url": "https://biztoc.com/x/ab8131bd5a25a268",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Warsh Moves to Remedy Serious Oversight Failures Found in Construction Report",
+            "description": "Federal Reserve Chairman Kevin Warsh has appointed the General Services Administration to oversee completion of the central bank’s headquarters renovation, ordering an independent cost audit after an inspector general’s investigation documented extensive fail…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T22:28:53Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/fed-chair-warsh-moves-to-remedy-serious-oversight-failures-found-in-construction-report/",
+            "sentiment_score": -0.3574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data",
+            "description": "Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation Wednesday night.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T22:21:27Z",
+            "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari: Inflation still too high, about 3%",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari said stated that inflation remains too high at around 3% and that recent economic data has not altered the Central Bank's overall outlook.\"I...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:17:10Z",
+            "url": "https://biztoc.com/x/a0c2bec44bd0c32a",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Watch Minneapolis Fed President Neel Kashkari discuss the economy and monetary policy",
+            "description": "Minneapolis Federal Reserve President Neel Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation about the U.S. economy and monetary policy Wednesday night.\nKashkari's comments follow Wednesday morning's release of the August personal…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:16:54Z",
+            "url": "https://biztoc.com/x/78656a064e027382",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "‘This is Jerome Powell’s fault’: Watchdog says Fed’s $2.5 billion boondoggle renovation was mismanaged, not criminal",
@@ -2145,201 +2005,41 @@
             "url": "https://richmond.com/news/state-regional/government-politics/article_254995d4-2f70-4cbb-8ec0-549123df1280.html",
             "sentiment_score": -0.5364,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why are US treasury yields falling today? Federal Reserve interest rate hike in October expectations drop",
-            "description": "US treasury yields have fallen on Wednesday. The yields on 2-year and 10-year US treasuries dropped as the expectations for hike in Federal Reserve interest rate have decreased. The US inflation data revealed that it increased less than expected in the month …",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T19:29:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-are-us-treasury-yields-falling-today-federal-reserve-interest-rate-hike-in-october-expectations-drop/articleshow/134600767.cms",
-            "sentiment_score": 0.3858,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, The Dual Mandate in Rural America",
-            "description": "Thank you, President Barkin, for that kind introduction. And thank you to the Federal Reserve Bank of Richmond and your partners across the Federal Reserve Sys",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T19:25:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-            "sentiment_score": 0.2438,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed watchdog finds no criminal wrongdoing in Powell-era renovation costs",
-            "description": "The renovation costs became a focus of Trump’s pressure campaign against former Federal Reserve Chair Jerome Powell.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-30T19:00:11Z",
-            "url": "https://www.aljazeera.com/news/2026/9/30/us-fed-watchdog-finds-no-criminal-wrongdoing-in-powell-era-renovation-costs",
-            "sentiment_score": 0.203,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
-            "description": "Q2 GDP growth revised up 0.7 ppts, path of personal income ex-transfers up due to revised deflator. Here are the key indicators followed by the NBER’s Business Cycle Dating Committee: Figure 1: NFP employment (bold blue), civilian employment with smoothed pop…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-30T18:53:07Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-real-gdp-personal-income-trajectory-revised-up",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Good resilience and bad vibes: How to grade September's market",
-            "description": "Market Hang's panel gives their grades for September's market conditions. pointing to everything from AI fears, the Federal Reserve increasing interest rates, and some surprising resiliency. Today's Market Hang panel consists of host Turney Duff, Semafor Busi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:49:43Z",
-            "url": "https://biztoc.com/x/53feff8eb95bd8f8",
-            "sentiment_score": -0.0117,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "France’s 10-year bond yield heads for biggest quarterly surge since 1987",
-            "description": "France's bond yields have been rising sharply, with September seeing the largest increase in decades. Investors are concerned about inflation as energy costs continue to rise, impacting fiscal stability. The government plans to issue €340 billion in bonds nex…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:46:33Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/frances-10-year-bond-yield-heads-for-biggest-quarterly-surge-since-1987/articleshow/134601116.cms",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US inflation rises less than expected in August; consumer spending surges",
-            "description": "US inflation rose less than expected in August, with the PCE price index increasing 0.3% month-on-month and 2.6% year-on-year. Core PCE rose 0.2% monthly and 3% annually. The softer inflation reading may reduce expectations of another Federal Reserve rate hik…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:41:29Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/us-inflation-rises-less-than-expected-in-august-consumer-spending-surges/articleshow/134600170.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No criminal wrongdoing in Federal Reserve building renovation, watchdog says, but it was mismanaged",
-            "description": "The Federal Reserve's internal watchdog said Wednesday that the agency has broadly mismanaged an expansive building renovation project but did not find any criminal violations, as alleged by Trump administration prosecutors.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:31:44Z",
-            "url": "https://biztoc.com/x/df0a8821201fec3a",
-            "sentiment_score": 0.086,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket traders put October Fed hike odds at 37%, with no change at 61%",
-            "description": "Market volatility reflects uncertainty in economic data, influencing investor sentiment and potential monetary policy adjustments.\nThe post Polymarket traders put October Fed hike odds at 37%, with no change at 61% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-30T18:25:01Z",
-            "url": "https://cryptobriefing.com/polymarket-october-fed-rate-hike-odds/",
-            "sentiment_score": -0.3744,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Aave’s $50 million lending plan could lose money without a single default",
-            "description": "The proposed BTC and ETH loans would pair custodied borrower collateral with DAO assets securing a separate source of funding.\nThe post Aave’s $50 million lending plan could lose money without a single default appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-30T18:20:26Z",
-            "url": "https://cryptoslate.com/aaves-50-million-lending-plan-could-lose-money-without-a-single-default/",
-            "sentiment_score": -0.2582,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns",
-            "description": "Trump criticized $2.4bn rehab amid attempts to pressure then Fed chair Jerome Powell into lowering interest rates\nThe Federal Reserve’s internal watchdog said on Wednesday that the agency has broadly mismanaged an expansive building renovation project but did…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:16:46Z",
-            "url": "https://biztoc.com/x/301f296257968670",
-            "sentiment_score": 0.4088,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: AI on the Factory Floor: Evidence from Manufacturing Job Postings",
-            "description": "Maria D. TitoArtificial intelligence (AI) technologies have the potential to transform production processes and labor markets, yet their ultimate effects on employment, occupations, and skill demand remain uncertain (Acemoglu and Restrepo, 2018). While resear…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T18:13:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/ai-on-the-factory-floor-evidence-from-manufacturing-job-postings-20260930.html",
-            "sentiment_score": 0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Giants Sign White House’s Safety Pact With No Penalties Attached",
-            "description": "Calls to regulate artificial intelligence have grown louder this year, including from inside the industry. The White House answered Tuesday (Sept. 29) with a pact that leaves the policing to the companies building the most powerful models. President Donald Tr…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-30T18:02:05Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-giants-sign-white-houses-safety-pact-with-no-penalties-attached/",
-            "sentiment_score": 0.3276,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Inspector general investigation discredits Trump’s claims about Federal Reserve renovations",
-            "description": "The inspector general’s office at the Federal Reserve conducted a lengthy investigation into the building’s renovation project, but the internal watchdog concluded that there was no evidence the project crossed any legal lines — an outcome in direct odds with…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:02:03Z",
-            "url": "https://biztoc.com/x/fe294a9abcb098ce",
-            "sentiment_score": -0.0785,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed watchdog clears former chair Powell in renovation probe",
-            "description": "A Federal Reserve watchdog found no criminal wrongdoing by former chair Jerome Powell in its investigation of the central bank's expensive headquarters renovation, according to a report released on Wednesday.\nWhy it matters: The findings effectively clear Pow…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:40Z",
-            "url": "https://biztoc.com/x/d275d1c37af55533",
-            "sentiment_score": 0.2975,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Chairman Has Raised Interest Rates, But Will It Slow Inflation?",
-            "description": "By Frank Shostak, Mises Wire | September 28, 2026\nAt his Jackson Hole speech, on August 28, 2026, the Fed Chairman Kevin Warsh recommitted the Federal Reserve to maintaining its 2 percent inflation target, calling it a “firm, fixed target.” At present, howeve…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:29Z",
-            "url": "https://biztoc.com/x/28e095e66ee79020",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1332,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.1836,
+      "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.6931,
+      "price_now": 0.69185,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 43.1,
-      "rsi_signal": "โซนกลาง (RSI=43.1)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00103,
-      "suggested_sl_distance": 0.00154,
+      "rsi_value": 37.4,
+      "rsi_signal": "โซนกลาง (RSI=37.4)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00098,
+      "suggested_sl_distance": 0.00147,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-01T21:43:57.703603+00:00"
+    "generated_at": "2026-10-02T01:31:34.745548+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2348,9 +2048,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.055,
+        "average_score": 0.1,
         "label": "บวกเล็กน้อย",
-        "article_count": 23,
+        "article_count": 13,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -2481,114 +2181,174 @@
             "url": "https://en.protothema.gr/2026/09/30/the-embassy-the-vertical-corridor-and-the-wsj-the-cabinet-measures-complaints-about-opinion-polls-the-foundations-at-maximos-mansion-and-saint-kyriakos-the-non-hermit/",
             "sentiment_score": -0.1668,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Results of FireFly’s Share Purchase Plan",
-            "description": "Not for release to United States wire services or distribution in the US PERTH, Australia, Sept. 29, 2026 (GLOBE NEWSWIRE) — FireFly Metals Ltd (ASX: FFM, TSX: FFM) (Company or FireFly) is pleased to announce the results of its Share Purchase Plan (SPP) which…",
-            "source": "Financial Post",
-            "published_at": "2026-09-29T23:13:32Z",
-            "url": "https://financialpost.com/globe-newswire/results-of-fireflys-share-purchase-plan",
-            "sentiment_score": 0.4425,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "5 things to watch on the ASX 200 on Wednesday",
-            "description": "Here's what to expect on the local market on hump day.\nThe post 5 things to watch on the ASX 200 on Wednesday appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-09-29T21:12:49Z",
-            "url": "https://www.fool.com.au/2026/09/30/5-things-to-watch-on-the-asx-200-on-wednesday-30-september-2026/",
-            "sentiment_score": -0.1321,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "U.S. Consumer Confidence Fell in September Amid Elevated Oil Prices, Inflation Worries, Conference Board Says - WSJ",
-            "description": "U.S. Consumer Confidence Fell in September Amid Elevated Oil Prices, Inflation Worries, Conference Board SaysWSJ Consumer optimism slides sharply as fears escalate over rising prices and jobsCNBC Americans growing more pessimistic about the economy as prices …",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-29T15:53:20Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185898582",
-            "sentiment_score": 0.0979,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "US Consumer Confidence Plunges to Lowest Level Since 2014 - Bloomberg.com",
-            "description": "US Consumer Confidence Plunges to Lowest Level Since 2014Bloomberg.com Consumer optimism slides sharply as fears escalate over rising prices and jobsCNBC U.S. Consumer Confidence Fell Sharply in September, Conference Board SaysWSJ Americans growing more pessi…",
-            "source": "Slashdot.org",
-            "published_at": "2026-09-29T15:32:04Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=185898460",
-            "sentiment_score": 0.3497,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price today, Tuesday, September 29, 2026: Gold opens near 2-month low, but Brent crude also moving lower",
-            "description": "Gold (GC=F) December futures opened at $4,150.10 per troy ounce on Tuesday, September 29, 2026, down 0.4% from Monday's closing price. Gold did rise in early trading to $4,180.70 as of 6:33 a.m. ET.\nGold prices opened at their lowest level since August 5 this…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-29T11:11:37Z",
-            "url": "https://biztoc.com/x/5964dce273b72f53",
-            "sentiment_score": -0.7134,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Sensex today | Stock Market Highlights: Stock markets fall for 2nd day as elevated oil prices, foreign fund outflows weigh",
-            "description": "Sensex, Nifty, Share Prices Highlights: Equity benchmark indices Sensex and Nifty ended lower for the second day on Tuesday as elevated crude oil prices triggered by uncertainty over the West Asia situation and foreign fund outflows weighed on investor sentim…",
-            "source": "BusinessLine",
-            "published_at": "2026-09-29T10:46:21Z",
-            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-29-september-2026/article71520150.ece",
-            "sentiment_score": -0.0534,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction today: Gold under pressure, is it time to sell? Check September 29, 2026 outlook",
-            "description": "Gold price prediction: Gold is under extreme downside pressure on exponential rise in real yields and a firmer US Dollar on robust US data and hawkish Federal Reserve. It is to be noted that the Fed officials continue to maintain a hawkish view post-FOMC deci…",
-            "source": "The Times of India",
-            "published_at": "2026-09-29T07:31:10Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-where-are-gold-rates-headed-on-september-29-2026-and-in-the-near-term-mcx-gold-silver-prices/articleshow/134559727.cms",
-            "sentiment_score": -0.3073,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate today (September 29, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities",
-            "description": "Gold-silver price today: Gold prices saw a further dip at prominent jewellery retailers like Malabar Gold & Diamonds and Kalyan Jewellers. Also see the last-updated 14k, 18k, 20k, 22k and 24k indicative gold jewellery prices and the 999-purity silver rate fro…",
-            "source": "The Times of India",
-            "published_at": "2026-09-29T06:50:31Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-silver-rate-today-18k-20k-24k-delhi-hyderabad-bengaluru-citywise-ibja-gold-price-malabar-gold-kalyan-jewelers-joyalukkas/articleshow/134558810.cms",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Safegold's latest Ad Film has celebrity Amol Parashar pitching his family's old gold in a living-room 'Shark Tank'",
-            "description": "SafeGold's new digital film borrows the language of startup pitches to raise a question most Indian households never ask of their jewellery: what is it actually earning? Every Indian household has a v",
-            "source": "Business Standard",
-            "published_at": "2026-09-29T06:46:26Z",
-            "url": "https://www.business-standard.com/content/specials/safegold-s-latest-ad-film-has-celebrity-amol-parashar-pitching-his-family-s-old-gold-in-a-living-room-shark-tank-126092500351_1.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold prices dip Rs 4,300/10g in 2 days; silver falls Rs 8,800/kg as traders expect US Fed to hike rates again. Buy, sell or hold?",
-            "description": "Gold and silver prices extended losses on MCX as higher oil prices fuelled inflation concerns and raised expectations of further Fed rate hikes. Analysts expect near-term pressure on precious metals, while investors await clarity on US-Iran peace talks.",
-            "source": "The Times of India",
-            "published_at": "2026-09-29T04:29:56Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-dip-rs-4300/10g-in-2-days-silver-falls-rs-8800/kg-as-traders-expect-us-fed-to-hike-rates-again-buy-sell-or-hold/articleshow/134556082.cms",
-            "sentiment_score": 0.2252,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.013,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.1102,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Rupee to fall more, yield curve to shift higher in H2FY27: Gaura Sengupta",
+            "description": "The rupee is expected to depreciate further against the US dollar, with RBI becoming increasingly selective in its intervention strategy, said Gaura Sengupta, chief economist, IDFC First Bank",
+            "source": "Business Standard",
+            "published_at": "2026-10-01T01:31:06Z",
+            "url": "https://www.business-standard.com/markets/news/rupee-to-fall-more-yield-curve-to-shift-higher-in-h2fy27-gaura-sengupta-126093000417_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Potential diesel ban, Pentagon's warfare initiative and Google's latest AI model",
+            "description": "U.S. President Donald Trump's comments that he is still \"thinking about\" a diesel export ban has raised worries that U.S. energy prices may rise further.",
+            "source": "CNBC",
+            "published_at": "2026-10-01T01:16:32Z",
+            "url": "https://www.cnbc.com/2026/10/01/cnbc-daily-open-potential-diesel-ban-pentagons-warfare-initiative-and-googles-latest-ai-model-.html",
+            "sentiment_score": -0.6848,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The final verdict is in for the Fed's troubled renovation and Jerome Powell",
+            "description": "The inspector general's investigation into the Federal Reserve's costly renovation project determined that there was no administrative misconduct after the cost overruns prompted an investigation of former Federal Reserve Chair Jerome Powell amid criticism fr…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-01T01:03:02Z",
+            "url": "https://biztoc.com/x/32e3c281ed037bde",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares mixed as bond yields, oil keep investors on edge",
+            "description": "Contracts for the S&P 500 Index rose 0.5% after the underlying gauge erased its gains to close 0.2% lower in the final hours of Wednesday trading. Asian shares edged lower after Micron Technology Inc. gave an upbeat forecast, but warned that rising compensati…",
+            "source": "The Times of India",
+            "published_at": "2026-10-01T01:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-mixed-as-bond-yields-oil-keep-investors-on-edge/articleshow/134605731.cms",
+            "sentiment_score": 0.0957,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks rise after stable inflation reading",
+            "description": "Wall Street stocks rose on Wednesday following a stable US inflation reading for August and better-than-expected private sector hiring data.\n\nRead More: https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "source": "The Punch",
+            "published_at": "2026-10-01T00:10:13Z",
+            "url": "https://punchng.com/us-stocks-rise-after-stable-inflation-reading/",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Gloom and Boom Economy",
+            "description": "The gap between household economic sentiment and economic fundamentals has become a chasm.\nThe post Breitbart Business Digest: The Gloom and Boom Economy appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T23:33:35Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/breitbart-business-digest-the-gloom-and-boom-economy-2/",
+            "sentiment_score": -0.5574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed Just Named the Three Walls Standing Between AI Agents and Your Wallet",
+            "description": "Federal Reserve Governor Christopher J. Waller used his September 29 address at Sibos 2026 in Miami to do something no sitting US central bank official has done at this level of detail: lay out a structural map of what has to change before autonomous software…",
+            "source": "Forkast.news",
+            "published_at": "2026-09-30T23:32:31Z",
+            "url": "https://forkast.news/the-fed-just-named-the-three-walls-standing-between-ai-agents-and-your-wallet/",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes.\nCorporate procurement may already have the answer. Fe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T23:31:48Z",
+            "url": "https://biztoc.com/x/0457ae980b75672d",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cramer says 'frozen' conditions are holding many stocks back. Here's what could change that",
+            "description": "CNBC's Jim Cramer said Wednesday that several key parts of the U.S. economy have effectively frozen.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T23:00:52Z",
+            "url": "https://www.cnbc.com/2026/09/30/jim-cramer-frozen-markets-stocks.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The war with Iran upended markets this month. There were losers — and winners | CNN Business",
+            "description": "The war with Iran upended markets this month. There were losers — and winners | CNN Businesscnn.com",
+            "source": "CNN",
+            "published_at": "2026-09-30T22:58:45Z",
+            "url": "https://www.cnn.com/2026/09/30/business/us-stocks-bonds-iran",
+            "sentiment_score": -0.6369,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why the Fed Thinks B2B Payments Are Already Built for Agentic",
+            "description": "The biggest obstacle to agentic payments isn’t teaching artificial intelligence how to buy something. It’s giving software permission to spend money without giving it permission to make expensive mistakes. Corporate procurement may already have the answer. Fe…",
+            "source": "pymnts.com",
+            "published_at": "2026-09-30T22:46:05Z",
+            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-the-fed-thinks-b2b-payments-are-already-built-for-agentic/",
+            "sentiment_score": -0.0411,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Kashkari expects one more rate jump this year, another in 2027",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari stated that he predicts one more rate hike by the end of the year, as well as one in 2027, based on current macroeconomic data and inflation...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:32:12Z",
+            "url": "https://biztoc.com/x/ab8131bd5a25a268",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Warsh Moves to Remedy Serious Oversight Failures Found in Construction Report",
+            "description": "Federal Reserve Chairman Kevin Warsh has appointed the General Services Administration to oversee completion of the central bank’s headquarters renovation, ordering an independent cost audit after an inspector general’s investigation documented extensive fail…",
+            "source": "Breitbart News",
+            "published_at": "2026-09-30T22:28:53Z",
+            "url": "https://www.breitbart.com/economy/2026/09/30/fed-chair-warsh-moves-to-remedy-serious-oversight-failures-found-in-construction-report/",
+            "sentiment_score": -0.3574,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data",
+            "description": "Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation Wednesday night.",
+            "source": "CNBC",
+            "published_at": "2026-09-30T22:21:27Z",
+            "url": "https://www.cnbc.com/2026/09/30/watch-minneapolis-fed-president-neel-kashkari.html",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Kashkari: Inflation still too high, about 3%",
+            "description": "Federal Reserve Bank of Minneapolis President Neel Kashkari said stated that inflation remains too high at around 3% and that recent economic data has not altered the Central Bank's overall outlook.\"I...",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:17:10Z",
+            "url": "https://biztoc.com/x/a0c2bec44bd0c32a",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Watch Minneapolis Fed President Neel Kashkari discuss the economy and monetary policy",
+            "description": "Minneapolis Federal Reserve President Neel Kashkari will sit down with CNBC's Steve Liesman for an exclusive conversation about the U.S. economy and monetary policy Wednesday night.\nKashkari's comments follow Wednesday morning's release of the August personal…",
+            "source": "Biztoc.com",
+            "published_at": "2026-09-30T22:16:54Z",
+            "url": "https://biztoc.com/x/78656a064e027382",
+            "sentiment_score": 0.0384,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "‘This is Jerome Powell’s fault’: Watchdog says Fed’s $2.5 billion boondoggle renovation was mismanaged, not criminal",
@@ -2728,200 +2488,40 @@
             "url": "https://richmond.com/news/state-regional/government-politics/article_254995d4-2f70-4cbb-8ec0-549123df1280.html",
             "sentiment_score": -0.5364,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why are US treasury yields falling today? Federal Reserve interest rate hike in October expectations drop",
-            "description": "US treasury yields have fallen on Wednesday. The yields on 2-year and 10-year US treasuries dropped as the expectations for hike in Federal Reserve interest rate have decreased. The US inflation data revealed that it increased less than expected in the month …",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T19:29:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-are-us-treasury-yields-falling-today-federal-reserve-interest-rate-hike-in-october-expectations-drop/articleshow/134600767.cms",
-            "sentiment_score": 0.3858,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Cook, The Dual Mandate in Rural America",
-            "description": "Thank you, President Barkin, for that kind introduction. And thank you to the Federal Reserve Bank of Richmond and your partners across the Federal Reserve Sys",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T19:25:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/cook20260930a.htm",
-            "sentiment_score": 0.2438,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Fed watchdog finds no criminal wrongdoing in Powell-era renovation costs",
-            "description": "The renovation costs became a focus of Trump’s pressure campaign against former Federal Reserve Chair Jerome Powell.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-09-30T19:00:11Z",
-            "url": "https://www.aljazeera.com/news/2026/9/30/us-fed-watchdog-finds-no-criminal-wrongdoing-in-powell-era-renovation-costs",
-            "sentiment_score": 0.203,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Real GDP, Personal Income Trajectory Revised Up",
-            "description": "Q2 GDP growth revised up 0.7 ppts, path of personal income ex-transfers up due to revised deflator. Here are the key indicators followed by the NBER’s Business Cycle Dating Committee: Figure 1: NFP employment (bold blue), civilian employment with smoothed pop…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-09-30T18:53:07Z",
-            "url": "https://econbrowser.com/archives/2026/09/business-cycle-indicators-real-gdp-personal-income-trajectory-revised-up",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Good resilience and bad vibes: How to grade September's market",
-            "description": "Market Hang's panel gives their grades for September's market conditions. pointing to everything from AI fears, the Federal Reserve increasing interest rates, and some surprising resiliency. Today's Market Hang panel consists of host Turney Duff, Semafor Busi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:49:43Z",
-            "url": "https://biztoc.com/x/53feff8eb95bd8f8",
-            "sentiment_score": -0.0117,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "France’s 10-year bond yield heads for biggest quarterly surge since 1987",
-            "description": "France's bond yields have been rising sharply, with September seeing the largest increase in decades. Investors are concerned about inflation as energy costs continue to rise, impacting fiscal stability. The government plans to issue €340 billion in bonds nex…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:46:33Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/frances-10-year-bond-yield-heads-for-biggest-quarterly-surge-since-1987/articleshow/134601116.cms",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US inflation rises less than expected in August; consumer spending surges",
-            "description": "US inflation rose less than expected in August, with the PCE price index increasing 0.3% month-on-month and 2.6% year-on-year. Core PCE rose 0.2% monthly and 3% annually. The softer inflation reading may reduce expectations of another Federal Reserve rate hik…",
-            "source": "The Times of India",
-            "published_at": "2026-09-30T18:41:29Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/us-inflation-rises-less-than-expected-in-august-consumer-spending-surges/articleshow/134600170.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No criminal wrongdoing in Federal Reserve building renovation, watchdog says, but it was mismanaged",
-            "description": "The Federal Reserve's internal watchdog said Wednesday that the agency has broadly mismanaged an expansive building renovation project but did not find any criminal violations, as alleged by Trump administration prosecutors.",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:31:44Z",
-            "url": "https://biztoc.com/x/df0a8821201fec3a",
-            "sentiment_score": 0.086,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Polymarket traders put October Fed hike odds at 37%, with no change at 61%",
-            "description": "Market volatility reflects uncertainty in economic data, influencing investor sentiment and potential monetary policy adjustments.\nThe post Polymarket traders put October Fed hike odds at 37%, with no change at 61% appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-09-30T18:25:01Z",
-            "url": "https://cryptobriefing.com/polymarket-october-fed-rate-hike-odds/",
-            "sentiment_score": -0.3744,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Aave’s $50 million lending plan could lose money without a single default",
-            "description": "The proposed BTC and ETH loans would pair custodied borrower collateral with DAO assets securing a separate source of funding.\nThe post Aave’s $50 million lending plan could lose money without a single default appeared first on CryptoSlate.",
-            "source": "CryptoSlate",
-            "published_at": "2026-09-30T18:20:26Z",
-            "url": "https://cryptoslate.com/aaves-50-million-lending-plan-could-lose-money-without-a-single-default/",
-            "sentiment_score": -0.2582,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve watchdog finds no criminal violations for building renovation cost overruns",
-            "description": "Trump criticized $2.4bn rehab amid attempts to pressure then Fed chair Jerome Powell into lowering interest rates\nThe Federal Reserve’s internal watchdog said on Wednesday that the agency has broadly mismanaged an expansive building renovation project but did…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:16:46Z",
-            "url": "https://biztoc.com/x/301f296257968670",
-            "sentiment_score": 0.4088,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: AI on the Factory Floor: Evidence from Manufacturing Job Postings",
-            "description": "Maria D. TitoArtificial intelligence (AI) technologies have the potential to transform production processes and labor markets, yet their ultimate effects on employment, occupations, and skill demand remain uncertain (Acemoglu and Restrepo, 2018). While resear…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-09-30T18:13:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/ai-on-the-factory-floor-evidence-from-manufacturing-job-postings-20260930.html",
-            "sentiment_score": 0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Giants Sign White House’s Safety Pact With No Penalties Attached",
-            "description": "Calls to regulate artificial intelligence have grown louder this year, including from inside the industry. The White House answered Tuesday (Sept. 29) with a pact that leaves the policing to the companies building the most powerful models. President Donald Tr…",
-            "source": "pymnts.com",
-            "published_at": "2026-09-30T18:02:05Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-giants-sign-white-houses-safety-pact-with-no-penalties-attached/",
-            "sentiment_score": 0.3276,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Inspector general investigation discredits Trump’s claims about Federal Reserve renovations",
-            "description": "The inspector general’s office at the Federal Reserve conducted a lengthy investigation into the building’s renovation project, but the internal watchdog concluded that there was no evidence the project crossed any legal lines — an outcome in direct odds with…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:02:03Z",
-            "url": "https://biztoc.com/x/fe294a9abcb098ce",
-            "sentiment_score": -0.0785,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed watchdog clears former chair Powell in renovation probe",
-            "description": "A Federal Reserve watchdog found no criminal wrongdoing by former chair Jerome Powell in its investigation of the central bank's expensive headquarters renovation, according to a report released on Wednesday.\nWhy it matters: The findings effectively clear Pow…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:40Z",
-            "url": "https://biztoc.com/x/d275d1c37af55533",
-            "sentiment_score": 0.2975,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Chairman Has Raised Interest Rates, But Will It Slow Inflation?",
-            "description": "By Frank Shostak, Mises Wire | September 28, 2026\nAt his Jackson Hole speech, on August 28, 2026, the Fed Chairman Kevin Warsh recommitted the Federal Reserve to maintaining its 2 percent inflation target, calling it a “firm, fixed target.” At present, howeve…",
-            "source": "Biztoc.com",
-            "published_at": "2026-09-30T18:01:29Z",
-            "url": "https://biztoc.com/x/28e095e66ee79020",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.042,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.2102,
+      "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4207.7998,
+      "price_now": 4172.7998,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 54.2,
-      "rsi_signal": "โซนกลาง (RSI=54.2)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 16.59399,
-      "suggested_sl_distance": 24.89099,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
+      "rsi_value": 37.8,
+      "rsi_signal": "โซนกลาง (RSI=37.8)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 16.66382,
+      "suggested_sl_distance": 24.99573,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
+      "technical_vote": -1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-01T21:43:57.703603+00:00"
+    "generated_at": "2026-10-02T01:31:34.745548+00:00"
   }
 ]
