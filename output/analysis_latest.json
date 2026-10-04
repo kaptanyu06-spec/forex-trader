@@ -6,9 +6,9 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1372,
+        "average_score": 0.1182,
         "label": "บวกเล็กน้อย",
-        "article_count": 21,
+        "article_count": 22,
         "scored_articles": [
           {
             "currency": "EUR",
@@ -77,6 +77,16 @@
             "source": "PRNewswire",
             "published_at": "2026-10-02T14:22:00Z",
             "url": "https://www.prnewswire.com/news-releases/xryma-plc---resignation-of-independent-non-executive-directors-302897239.html",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Xryma Plc - Resignation of Independent Non-Executive Directors",
+            "description": "NICOSIA, Cyprus, Oct. 2, 2026 /PRNewswire/ -- The Board of Directors (BOD) of Xryma Plc (Company), a regulated banktech group providing cross-border open banking, international transactional banking and real-time EU and UK payment services, trading as ISX Fin…",
+            "source": "PR Newswire UK",
+            "published_at": "2026-10-02T14:22:00Z",
+            "url": "https://www.prnewswire.co.uk/news-releases/xryma-plc---resignation-of-independent-non-executive-directors-302897239.html",
             "sentiment_score": -0.2072,
             "sentiment_label": "ลบเล็กน้อย"
           },
@@ -223,10 +233,60 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0197,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1312,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+            "description": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
+            "source": "CNBC",
+            "published_at": "2026-10-03T12:00:01Z",
+            "url": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, October 3, 2026: Lock in up to 4.50% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T10:28:01Z",
+            "url": "https://biztoc.com/x/ce0510aff1ab113a",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘We need to trust our employees’: This billionaire CEO went from counting cars in the parking lot past 6pm to embracing hybrid work",
+            "description": "Jim Kavanaugh once believed employees needed to be in the office to get the job done. Now, he says leaders need to trust workers “like adults.”",
+            "source": "Fortune",
+            "published_at": "2026-10-03T09:00:00Z",
+            "url": "https://fortune.com/2026/10/03/world-wide-technology-ceo-jim-kavanaugh-return-to-office-mantra-hybrid-works-trust-employees-billionaire-tech-cofounder/",
+            "sentiment_score": 0.5106,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the End of 2026",
+            "description": "Crypto markets enter the final quarter of 2026 with stronger prices but rising macroeconomic pressure. Bitcoin has rebounded sharply since July, while Treasury yields have...\nThe post Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the …",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-03T08:32:51Z",
+            "url": "https://bitcoinfoundation.org/news/altcoins/best-crypto-to-buy-before-the-next-crash-october/",
+            "sentiment_score": 0.5352,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market Today: Nasdaq Leads Charge On Rate Hopes; Nvidia Hits Highs",
+            "description": "Chip stocks shined and lifted the Nasdaq composite to record-high territory Friday after a weaker-than-expected September jobs report slashed chances of the Federal Reserve raising interest rates in October. Nvidia (NVDA) hit a new all-time high, but Seagate …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T08:12:27Z",
+            "url": "https://biztoc.com/x/2dd7ff00bfc46891",
+            "sentiment_score": 0.3665,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Barings bets on Ires’s 20% rental upside and softer ECB rate hikes",
@@ -476,60 +536,10 @@
             "url": "https://reason.com/2026/10/02/i-asked-the-white-houses-new-ai-chatbot-about-tariffs-it-told-the-truth/",
             "sentiment_score": 0.1919,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "European shares rebound as falling oil prices ease concerns",
-            "description": "Irish index ends week 1.5% higher",
-            "source": "The Irish Times",
-            "published_at": "2026-10-02T17:58:19Z",
-            "url": "https://www.irishtimes.com/business/2026/10/02/european-shares-rebound-as-falling-oil-prices-ease-concerns/",
-            "sentiment_score": 0.3337,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: Plenty of room for rate hike or pause",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee said on Friday that \"there is plenty of room\" for any decision at the next monetary policy meeting, including an interest rate hike or pause. ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-02T17:54:11Z",
-            "url": "https://biztoc.com/x/d948ac382b1215e3",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
-            "description": "The AI chipmaker's stock topped its May peak on Friday, helped by a record $150 billion buyback and a weak jobs report that cooled bets on Fed rate hikes.",
-            "source": "Decrypt",
-            "published_at": "2026-10-02T17:30:40Z",
-            "url": "https://decrypt.co/379959/nvidia-hits-record-high-market-value-5-7-trillion",
-            "sentiment_score": 0.1351,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Employment Release and Business Cycle Indicators",
-            "description": "Employment downside surprise, +29K vs +89, with cumulative 81K downward revisions to previous two months. Taking into account early benchmark, it’s not changing the picture too much. Figure 1: NFP employment (bold blue), civilian employment with smoothed popu…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-02T17:28:30Z",
-            "url": "https://econbrowser.com/archives/2026/10/employment-release-and-business-cycle-indicators-3",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. stocks advance after cooler-than-expected employment data",
-            "description": "U.S. stocks rose as key jobs data came in below expectations, taking pressure off the U.S. Federal Reserve to raise interest rates. Read on.",
-            "source": "Financial Post",
-            "published_at": "2026-10-02T17:18:33Z",
-            "url": "https://financialpost.com/investing/us-stocks-advance-cooler-employment-data",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1175,
+      "net_score": -0.013,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -560,7 +570,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-04T05:34:38.724707+00:00"
+    "generated_at": "2026-10-04T12:11:26.322469+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -569,10 +579,30 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0485,
+        "average_score": -0.0481,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 9,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Meta's Muse can shop and check out for you. Here's how it works",
+            "description": "Meta announced a slate of Muse partnerships with Walmart, Gap, Sephora, Expedia, Wayfair, Best Buy and others.",
+            "source": "CNBC",
+            "published_at": "2026-10-03T12:00:01Z",
+            "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html",
+            "sentiment_score": 0.1911,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Links 10/3/2026 Plus Short Iran War/Narrative Note",
+            "description": "Our scary daily links: pet food toxicity, modern architecture uglies, Russia bans diesel exports unless sanctions go, ozone pollutions, EU energy-produced inflation, India v. Trump. Venezuela toadies to Trump, moar on Israel flight false flag, China two syste…",
+            "source": "Nakedcapitalism.com",
+            "published_at": "2026-10-03T10:59:40Z",
+            "url": "https://www.nakedcapitalism.com/2026/10/links-10-3-2026-plus-short-note.html",
+            "sentiment_score": -0.2205,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Goolsbee says inflation going wrong way and stalled there",
@@ -610,6 +640,16 @@
             "source": "PRNewswire",
             "published_at": "2026-10-02T14:22:00Z",
             "url": "https://www.prnewswire.com/news-releases/xryma-plc---resignation-of-independent-non-executive-directors-302897239.html",
+            "sentiment_score": -0.2072,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Xryma Plc - Resignation of Independent Non-Executive Directors",
+            "description": "NICOSIA, Cyprus, Oct. 2, 2026 /PRNewswire/ -- The Board of Directors (BOD) of Xryma Plc (Company), a regulated banktech group providing cross-border open banking, international transactional banking and real-time EU and UK payment services, trading as ISX Fin…",
+            "source": "PR Newswire UK",
+            "published_at": "2026-10-02T14:22:00Z",
+            "url": "https://www.prnewswire.co.uk/news-releases/xryma-plc---resignation-of-independent-non-executive-directors-302897239.html",
             "sentiment_score": -0.2072,
             "sentiment_label": "ลบเล็กน้อย"
           },
@@ -666,10 +706,60 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0197,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1312,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+            "description": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
+            "source": "CNBC",
+            "published_at": "2026-10-03T12:00:01Z",
+            "url": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, October 3, 2026: Lock in up to 4.50% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T10:28:01Z",
+            "url": "https://biztoc.com/x/ce0510aff1ab113a",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘We need to trust our employees’: This billionaire CEO went from counting cars in the parking lot past 6pm to embracing hybrid work",
+            "description": "Jim Kavanaugh once believed employees needed to be in the office to get the job done. Now, he says leaders need to trust workers “like adults.”",
+            "source": "Fortune",
+            "published_at": "2026-10-03T09:00:00Z",
+            "url": "https://fortune.com/2026/10/03/world-wide-technology-ceo-jim-kavanaugh-return-to-office-mantra-hybrid-works-trust-employees-billionaire-tech-cofounder/",
+            "sentiment_score": 0.5106,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the End of 2026",
+            "description": "Crypto markets enter the final quarter of 2026 with stronger prices but rising macroeconomic pressure. Bitcoin has rebounded sharply since July, while Treasury yields have...\nThe post Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the …",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-03T08:32:51Z",
+            "url": "https://bitcoinfoundation.org/news/altcoins/best-crypto-to-buy-before-the-next-crash-october/",
+            "sentiment_score": 0.5352,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market Today: Nasdaq Leads Charge On Rate Hopes; Nvidia Hits Highs",
+            "description": "Chip stocks shined and lifted the Nasdaq composite to record-high territory Friday after a weaker-than-expected September jobs report slashed chances of the Federal Reserve raising interest rates in October. Nvidia (NVDA) hit a new all-time high, but Seagate …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T08:12:27Z",
+            "url": "https://biztoc.com/x/2dd7ff00bfc46891",
+            "sentiment_score": 0.3665,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Barings bets on Ires’s 20% rental upside and softer ECB rate hikes",
@@ -919,64 +1009,14 @@
             "url": "https://reason.com/2026/10/02/i-asked-the-white-houses-new-ai-chatbot-about-tariffs-it-told-the-truth/",
             "sentiment_score": 0.1919,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "European shares rebound as falling oil prices ease concerns",
-            "description": "Irish index ends week 1.5% higher",
-            "source": "The Irish Times",
-            "published_at": "2026-10-02T17:58:19Z",
-            "url": "https://www.irishtimes.com/business/2026/10/02/european-shares-rebound-as-falling-oil-prices-ease-concerns/",
-            "sentiment_score": 0.3337,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: Plenty of room for rate hike or pause",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee said on Friday that \"there is plenty of room\" for any decision at the next monetary policy meeting, including an interest rate hike or pause. ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-02T17:54:11Z",
-            "url": "https://biztoc.com/x/d948ac382b1215e3",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
-            "description": "The AI chipmaker's stock topped its May peak on Friday, helped by a record $150 billion buyback and a weak jobs report that cooled bets on Fed rate hikes.",
-            "source": "Decrypt",
-            "published_at": "2026-10-02T17:30:40Z",
-            "url": "https://decrypt.co/379959/nvidia-hits-record-high-market-value-5-7-trillion",
-            "sentiment_score": 0.1351,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Employment Release and Business Cycle Indicators",
-            "description": "Employment downside surprise, +29K vs +89, with cumulative 81K downward revisions to previous two months. Taking into account early benchmark, it’s not changing the picture too much. Figure 1: NFP employment (bold blue), civilian employment with smoothed popu…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-02T17:28:30Z",
-            "url": "https://econbrowser.com/archives/2026/10/employment-release-and-business-cycle-indicators-3",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. stocks advance after cooler-than-expected employment data",
-            "description": "U.S. stocks rose as key jobs data came in below expectations, taking pressure off the U.S. Federal Reserve to raise interest rates. Read on.",
-            "source": "Financial Post",
-            "published_at": "2026-10-02T17:18:33Z",
-            "url": "https://financialpost.com/investing/us-stocks-advance-cooler-employment-data",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0682,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1793,
+      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1003,7 +1043,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-04T05:34:38.724707+00:00"
+    "generated_at": "2026-10-04T12:11:26.322469+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1012,10 +1052,60 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0197,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1312,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+            "description": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
+            "source": "CNBC",
+            "published_at": "2026-10-03T12:00:01Z",
+            "url": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, October 3, 2026: Lock in up to 4.50% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T10:28:01Z",
+            "url": "https://biztoc.com/x/ce0510aff1ab113a",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘We need to trust our employees’: This billionaire CEO went from counting cars in the parking lot past 6pm to embracing hybrid work",
+            "description": "Jim Kavanaugh once believed employees needed to be in the office to get the job done. Now, he says leaders need to trust workers “like adults.”",
+            "source": "Fortune",
+            "published_at": "2026-10-03T09:00:00Z",
+            "url": "https://fortune.com/2026/10/03/world-wide-technology-ceo-jim-kavanaugh-return-to-office-mantra-hybrid-works-trust-employees-billionaire-tech-cofounder/",
+            "sentiment_score": 0.5106,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the End of 2026",
+            "description": "Crypto markets enter the final quarter of 2026 with stronger prices but rising macroeconomic pressure. Bitcoin has rebounded sharply since July, while Treasury yields have...\nThe post Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the …",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-03T08:32:51Z",
+            "url": "https://bitcoinfoundation.org/news/altcoins/best-crypto-to-buy-before-the-next-crash-october/",
+            "sentiment_score": 0.5352,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market Today: Nasdaq Leads Charge On Rate Hopes; Nvidia Hits Highs",
+            "description": "Chip stocks shined and lifted the Nasdaq composite to record-high territory Friday after a weaker-than-expected September jobs report slashed chances of the Federal Reserve raising interest rates in October. Nvidia (NVDA) hit a new all-time high, but Seagate …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T08:12:27Z",
+            "url": "https://biztoc.com/x/2dd7ff00bfc46891",
+            "sentiment_score": 0.3665,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Barings bets on Ires’s 20% rental upside and softer ECB rate hikes",
@@ -1264,56 +1354,6 @@
             "published_at": "2026-10-02T18:12:26Z",
             "url": "https://reason.com/2026/10/02/i-asked-the-white-houses-new-ai-chatbot-about-tariffs-it-told-the-truth/",
             "sentiment_score": 0.1919,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "European shares rebound as falling oil prices ease concerns",
-            "description": "Irish index ends week 1.5% higher",
-            "source": "The Irish Times",
-            "published_at": "2026-10-02T17:58:19Z",
-            "url": "https://www.irishtimes.com/business/2026/10/02/european-shares-rebound-as-falling-oil-prices-ease-concerns/",
-            "sentiment_score": 0.3337,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: Plenty of room for rate hike or pause",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee said on Friday that \"there is plenty of room\" for any decision at the next monetary policy meeting, including an interest rate hike or pause. ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-02T17:54:11Z",
-            "url": "https://biztoc.com/x/d948ac382b1215e3",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
-            "description": "The AI chipmaker's stock topped its May peak on Friday, helped by a record $150 billion buyback and a weak jobs report that cooled bets on Fed rate hikes.",
-            "source": "Decrypt",
-            "published_at": "2026-10-02T17:30:40Z",
-            "url": "https://decrypt.co/379959/nvidia-hits-record-high-market-value-5-7-trillion",
-            "sentiment_score": 0.1351,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Employment Release and Business Cycle Indicators",
-            "description": "Employment downside surprise, +29K vs +89, with cumulative 81K downward revisions to previous two months. Taking into account early benchmark, it’s not changing the picture too much. Figure 1: NFP employment (bold blue), civilian employment with smoothed popu…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-02T17:28:30Z",
-            "url": "https://econbrowser.com/archives/2026/10/employment-release-and-business-cycle-indicators-3",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. stocks advance after cooler-than-expected employment data",
-            "description": "U.S. stocks rose as key jobs data came in below expectations, taking pressure off the U.S. Federal Reserve to raise interest rates. Read on.",
-            "source": "Financial Post",
-            "published_at": "2026-10-02T17:18:33Z",
-            "url": "https://financialpost.com/investing/us-stocks-advance-cooler-employment-data",
-            "sentiment_score": 0.0607,
             "sentiment_label": "บวกเล็กน้อย"
           }
         ]
@@ -1365,7 +1405,7 @@
           }
         ]
       },
-      "net_score": -0.0713,
+      "net_score": 0.0402,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1396,7 +1436,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-04T05:34:38.724707+00:00"
+    "generated_at": "2026-10-04T12:11:26.322469+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1452,10 +1492,60 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0197,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1312,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+            "description": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
+            "source": "CNBC",
+            "published_at": "2026-10-03T12:00:01Z",
+            "url": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, October 3, 2026: Lock in up to 4.50% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T10:28:01Z",
+            "url": "https://biztoc.com/x/ce0510aff1ab113a",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘We need to trust our employees’: This billionaire CEO went from counting cars in the parking lot past 6pm to embracing hybrid work",
+            "description": "Jim Kavanaugh once believed employees needed to be in the office to get the job done. Now, he says leaders need to trust workers “like adults.”",
+            "source": "Fortune",
+            "published_at": "2026-10-03T09:00:00Z",
+            "url": "https://fortune.com/2026/10/03/world-wide-technology-ceo-jim-kavanaugh-return-to-office-mantra-hybrid-works-trust-employees-billionaire-tech-cofounder/",
+            "sentiment_score": 0.5106,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the End of 2026",
+            "description": "Crypto markets enter the final quarter of 2026 with stronger prices but rising macroeconomic pressure. Bitcoin has rebounded sharply since July, while Treasury yields have...\nThe post Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the …",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-03T08:32:51Z",
+            "url": "https://bitcoinfoundation.org/news/altcoins/best-crypto-to-buy-before-the-next-crash-october/",
+            "sentiment_score": 0.5352,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market Today: Nasdaq Leads Charge On Rate Hopes; Nvidia Hits Highs",
+            "description": "Chip stocks shined and lifted the Nasdaq composite to record-high territory Friday after a weaker-than-expected September jobs report slashed chances of the Federal Reserve raising interest rates in October. Nvidia (NVDA) hit a new all-time high, but Seagate …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T08:12:27Z",
+            "url": "https://biztoc.com/x/2dd7ff00bfc46891",
+            "sentiment_score": 0.3665,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Barings bets on Ires’s 20% rental upside and softer ECB rate hikes",
@@ -1705,60 +1795,10 @@
             "url": "https://reason.com/2026/10/02/i-asked-the-white-houses-new-ai-chatbot-about-tariffs-it-told-the-truth/",
             "sentiment_score": 0.1919,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "European shares rebound as falling oil prices ease concerns",
-            "description": "Irish index ends week 1.5% higher",
-            "source": "The Irish Times",
-            "published_at": "2026-10-02T17:58:19Z",
-            "url": "https://www.irishtimes.com/business/2026/10/02/european-shares-rebound-as-falling-oil-prices-ease-concerns/",
-            "sentiment_score": 0.3337,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: Plenty of room for rate hike or pause",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee said on Friday that \"there is plenty of room\" for any decision at the next monetary policy meeting, including an interest rate hike or pause. ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-02T17:54:11Z",
-            "url": "https://biztoc.com/x/d948ac382b1215e3",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
-            "description": "The AI chipmaker's stock topped its May peak on Friday, helped by a record $150 billion buyback and a weak jobs report that cooled bets on Fed rate hikes.",
-            "source": "Decrypt",
-            "published_at": "2026-10-02T17:30:40Z",
-            "url": "https://decrypt.co/379959/nvidia-hits-record-high-market-value-5-7-trillion",
-            "sentiment_score": 0.1351,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Employment Release and Business Cycle Indicators",
-            "description": "Employment downside surprise, +29K vs +89, with cumulative 81K downward revisions to previous two months. Taking into account early benchmark, it’s not changing the picture too much. Figure 1: NFP employment (bold blue), civilian employment with smoothed popu…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-02T17:28:30Z",
-            "url": "https://econbrowser.com/archives/2026/10/employment-release-and-business-cycle-indicators-3",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. stocks advance after cooler-than-expected employment data",
-            "description": "U.S. stocks rose as key jobs data came in below expectations, taking pressure off the U.S. Federal Reserve to raise interest rates. Read on.",
-            "source": "Financial Post",
-            "published_at": "2026-10-02T17:18:33Z",
-            "url": "https://financialpost.com/investing/us-stocks-advance-cooler-employment-data",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.042,
+      "net_score": -0.0695,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1789,7 +1829,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=55.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-04T05:34:38.724707+00:00"
+    "generated_at": "2026-10-04T12:11:26.322469+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1855,10 +1895,60 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0197,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.1312,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "High-tech vehicles are driving up auto repair costs for shops and consumers",
+            "description": "Investments in ADAS calibration equipment, computers and software subscriptions can drive up the cost of even a windshield replacement or an oil change.",
+            "source": "CNBC",
+            "published_at": "2026-10-03T12:00:01Z",
+            "url": "https://www.cnbc.com/2026/10/03/vehicle-repair-costs.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Saturday, October 3, 2026: Lock in up to 4.50% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T10:28:01Z",
+            "url": "https://biztoc.com/x/ce0510aff1ab113a",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘We need to trust our employees’: This billionaire CEO went from counting cars in the parking lot past 6pm to embracing hybrid work",
+            "description": "Jim Kavanaugh once believed employees needed to be in the office to get the job done. Now, he says leaders need to trust workers “like adults.”",
+            "source": "Fortune",
+            "published_at": "2026-10-03T09:00:00Z",
+            "url": "https://fortune.com/2026/10/03/world-wide-technology-ceo-jim-kavanaugh-return-to-office-mantra-hybrid-works-trust-employees-billionaire-tech-cofounder/",
+            "sentiment_score": 0.5106,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the End of 2026",
+            "description": "Crypto markets enter the final quarter of 2026 with stronger prices but rising macroeconomic pressure. Bitcoin has rebounded sharply since July, while Treasury yields have...\nThe post Best Crypto to Buy Before the Next Crash: Top 5 Coins to Watch Through the …",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-03T08:32:51Z",
+            "url": "https://bitcoinfoundation.org/news/altcoins/best-crypto-to-buy-before-the-next-crash-october/",
+            "sentiment_score": 0.5352,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market Today: Nasdaq Leads Charge On Rate Hopes; Nvidia Hits Highs",
+            "description": "Chip stocks shined and lifted the Nasdaq composite to record-high territory Friday after a weaker-than-expected September jobs report slashed chances of the Federal Reserve raising interest rates in October. Nvidia (NVDA) hit a new all-time high, but Seagate …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-03T08:12:27Z",
+            "url": "https://biztoc.com/x/2dd7ff00bfc46891",
+            "sentiment_score": 0.3665,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Barings bets on Ires’s 20% rental upside and softer ECB rate hikes",
@@ -2108,60 +2198,10 @@
             "url": "https://reason.com/2026/10/02/i-asked-the-white-houses-new-ai-chatbot-about-tariffs-it-told-the-truth/",
             "sentiment_score": 0.1919,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "European shares rebound as falling oil prices ease concerns",
-            "description": "Irish index ends week 1.5% higher",
-            "source": "The Irish Times",
-            "published_at": "2026-10-02T17:58:19Z",
-            "url": "https://www.irishtimes.com/business/2026/10/02/european-shares-rebound-as-falling-oil-prices-ease-concerns/",
-            "sentiment_score": 0.3337,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: Plenty of room for rate hike or pause",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee said on Friday that \"there is plenty of room\" for any decision at the next monetary policy meeting, including an interest rate hike or pause. ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-02T17:54:11Z",
-            "url": "https://biztoc.com/x/d948ac382b1215e3",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nvidia Hits Record High as Market Value Reaches $5.7 Trillion",
-            "description": "The AI chipmaker's stock topped its May peak on Friday, helped by a record $150 billion buyback and a weak jobs report that cooled bets on Fed rate hikes.",
-            "source": "Decrypt",
-            "published_at": "2026-10-02T17:30:40Z",
-            "url": "https://decrypt.co/379959/nvidia-hits-record-high-market-value-5-7-trillion",
-            "sentiment_score": 0.1351,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Employment Release and Business Cycle Indicators",
-            "description": "Employment downside surprise, +29K vs +89, with cumulative 81K downward revisions to previous two months. Taking into account early benchmark, it’s not changing the picture too much. Figure 1: NFP employment (bold blue), civilian employment with smoothed popu…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-02T17:28:30Z",
-            "url": "https://econbrowser.com/archives/2026/10/employment-release-and-business-cycle-indicators-3",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. stocks advance after cooler-than-expected employment data",
-            "description": "U.S. stocks rose as key jobs data came in below expectations, taking pressure off the U.S. Federal Reserve to raise interest rates. Read on.",
-            "source": "Financial Post",
-            "published_at": "2026-10-02T17:18:33Z",
-            "url": "https://financialpost.com/investing/us-stocks-advance-cooler-employment-data",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.095,
+      "net_score": -0.0165,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2192,6 +2232,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-04T05:34:38.724707+00:00"
+    "generated_at": "2026-10-04T12:11:26.322469+00:00"
   }
 ]
