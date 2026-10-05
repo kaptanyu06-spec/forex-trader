@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 1,
+        "average_score": -0.1622,
+        "label": "ลบเล็กน้อย",
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Revenge is Sweet",
+            "description": "Photo Credit:\n \n European UnionBy Thomas KolbeHow the mighty are fallen: The Greek undergdog gets to lecture the German monolith.",
+            "source": "Americanthinker.com",
+            "published_at": "2026-10-04T04:00:00Z",
+            "url": "https://www.americanthinker.com/articles/2026/10/revenge-is-sweet/",
+            "sentiment_score": -0.0641,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Fed, ECB minutes to show inflation fears as near-term rate hike bets fade",
+            "description": "Both central banks in the coming days will release minutes of the meetings last month at which they raised benchmark rates, bowing to concerns about mounting inflationary pressures",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T02:26:40Z",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
+            "sentiment_score": -0.3905,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "Barings bets on Ires’s 20% rental upside and softer ECB rate hikes",
@@ -23,10 +43,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.2039,
+        "average_score": 0.0894,
         "label": "บวกเล็กน้อย",
-        "article_count": 26,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros. - Seeking Alpha",
+            "description": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros.Seeking Alpha...",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-04T04:32:58Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186018214",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed, ECB minutes to show inflation fears as near-term rate hike bets fade",
+            "description": "Both central banks in the coming days will release minutes of the meetings last month at which they raised benchmark rates, bowing to concerns about mounting inflationary pressures",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T02:26:40Z",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
+            "sentiment_score": -0.3905,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
+            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
+            "source": "New York Post",
+            "published_at": "2026-10-04T02:06:39Z",
+            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
+            "sentiment_score": -0.8058,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
@@ -289,7 +339,7 @@
           }
         ]
       },
-      "net_score": -0.2039,
+      "net_score": -0.2516,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -299,28 +349,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12486,
+      "price_now": 1.11844,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 43.6,
-      "rsi_signal": "โซนกลาง (RSI=43.6)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00129,
-      "suggested_sl_distance": 0.00193,
+      "rsi_value": 32.8,
+      "rsi_signal": "โซนกลาง (RSI=32.8)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00175,
+      "suggested_sl_distance": 0.00263,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=32.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-05T00:41:07.819667+00:00"
+    "generated_at": "2026-10-05T06:48:26.993075+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -329,10 +379,30 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0842,
-        "label": "บวกเล็กน้อย",
-        "article_count": 3,
+        "average_score": -0.0873,
+        "label": "ลบเล็กน้อย",
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "The Road to Hell Isn’t Paved with Good Intentions. It’s Paved with Deep Feelings.",
+            "description": "Feelings are valued, they’re celebrated, more than rational thought is. People with deeply emotional political feelings are certain they have winning arguments. Let’s engage them. You hate Trump so, so much? Well, that settles it. And you feel that criminals …",
+            "source": "Freerepublic.com",
+            "published_at": "2026-10-04T02:56:01Z",
+            "url": "https://freerepublic.com/focus/f-chat/4397855/posts",
+            "sentiment_score": -0.0504,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Fed, ECB minutes to show inflation fears as near-term rate hike bets fade",
+            "description": "Both central banks in the coming days will release minutes of the meetings last month at which they raised benchmark rates, bowing to concerns about mounting inflationary pressures",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T02:26:40Z",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
+            "sentiment_score": -0.3905,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "Sarah Vine Laura Trott",
@@ -366,10 +436,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.2039,
+        "average_score": 0.0894,
         "label": "บวกเล็กน้อย",
-        "article_count": 26,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros. - Seeking Alpha",
+            "description": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros.Seeking Alpha...",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-04T04:32:58Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186018214",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed, ECB minutes to show inflation fears as near-term rate hike bets fade",
+            "description": "Both central banks in the coming days will release minutes of the meetings last month at which they raised benchmark rates, bowing to concerns about mounting inflationary pressures",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T02:26:40Z",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
+            "sentiment_score": -0.3905,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
+            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
+            "source": "New York Post",
+            "published_at": "2026-10-04T02:06:39Z",
+            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
+            "sentiment_score": -0.8058,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
@@ -632,38 +732,38 @@
           }
         ]
       },
-      "net_score": -0.1197,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1767,
+      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.32405,
+      "price_now": 1.32128,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 57.5,
-      "rsi_signal": "โซนกลาง (RSI=57.5)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00126,
-      "suggested_sl_distance": 0.00189,
+      "rsi_value": 45.4,
+      "rsi_signal": "โซนกลาง (RSI=45.4)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00138,
+      "suggested_sl_distance": 0.00206,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=57.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-05T00:41:07.819667+00:00"
+    "generated_at": "2026-10-05T06:48:26.993075+00:00"
   },
   {
     "pair": "USDJPY",
@@ -672,10 +772,40 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.2039,
+        "average_score": 0.0894,
         "label": "บวกเล็กน้อย",
-        "article_count": 26,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros. - Seeking Alpha",
+            "description": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros.Seeking Alpha...",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-04T04:32:58Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186018214",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed, ECB minutes to show inflation fears as near-term rate hike bets fade",
+            "description": "Both central banks in the coming days will release minutes of the meetings last month at which they raised benchmark rates, bowing to concerns about mounting inflationary pressures",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T02:26:40Z",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
+            "sentiment_score": -0.3905,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
+            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
+            "source": "New York Post",
+            "published_at": "2026-10-04T02:06:39Z",
+            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
+            "sentiment_score": -0.8058,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
@@ -944,24 +1074,24 @@
         "article_count": 0,
         "scored_articles": []
       },
-      "net_score": 0.2039,
-      "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.0894,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 157.69099,
+      "price_now": 157.74001,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 47.0,
-      "rsi_signal": "โซนกลาง (RSI=47.0)",
+      "rsi_value": 47.6,
+      "rsi_signal": "โซนกลาง (RSI=47.6)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.22877,
-      "suggested_sl_distance": 0.34315,
+      "atr_value": 0.24817,
+      "suggested_sl_distance": 0.37226,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -975,7 +1105,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-05T00:41:07.819667+00:00"
+    "generated_at": "2026-10-05T06:48:26.993075+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -984,16 +1114,57 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0,
-        "label": "ไม่มีข่าว",
-        "article_count": 0,
-        "scored_articles": []
+        "average_score": 0.5009,
+        "label": "บวกชัดเจน (Bullish)",
+        "article_count": 1,
+        "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Treasurer downplays chance of cost-of-living relief amid surging debt",
+            "description": "It seems unlikely households will get cost-of-living relief this year after Treasurer Jim Chalmers revealed the government is looking to \"tighten\" the budget as borrowing costs boom.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-04T00:46:41Z",
+            "url": "https://www.abc.net.au/news/2026-10-04/jim-chalmers-treasurer-cost-of-living-relief-budget-inflation/107226568",
+            "sentiment_score": 0.5009,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          }
+        ]
       },
       "quote_sentiment": {
-        "average_score": 0.2039,
+        "average_score": 0.0894,
         "label": "บวกเล็กน้อย",
-        "article_count": 26,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros. - Seeking Alpha",
+            "description": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros.Seeking Alpha...",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-04T04:32:58Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186018214",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed, ECB minutes to show inflation fears as near-term rate hike bets fade",
+            "description": "Both central banks in the coming days will release minutes of the meetings last month at which they raised benchmark rates, bowing to concerns about mounting inflationary pressures",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T02:26:40Z",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
+            "sentiment_score": -0.3905,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
+            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
+            "source": "New York Post",
+            "published_at": "2026-10-04T02:06:39Z",
+            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
+            "sentiment_score": -0.8058,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
@@ -1256,24 +1427,24 @@
           }
         ]
       },
-      "net_score": -0.2039,
-      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
+      "net_score": 0.4115,
+      "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69546,
+      "price_now": 0.69444,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.3,
-      "rsi_signal": "โซนกลาง (RSI=53.3)",
+      "rsi_value": 47.4,
+      "rsi_signal": "โซนกลาง (RSI=47.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00079,
-      "suggested_sl_distance": 0.00119,
+      "atr_value": 0.00074,
+      "suggested_sl_distance": 0.00112,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1287,7 +1458,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-05T00:41:07.819667+00:00"
+    "generated_at": "2026-10-05T06:48:26.993075+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1323,10 +1494,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.2039,
+        "average_score": 0.0894,
         "label": "บวกเล็กน้อย",
-        "article_count": 26,
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros. - Seeking Alpha",
+            "description": "Catalyst Watch: Microsoft event, FOMC talk, and the finish line for Paramount-Warner Bros.Seeking Alpha...",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-04T04:32:58Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186018214",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed, ECB minutes to show inflation fears as near-term rate hike bets fade",
+            "description": "Both central banks in the coming days will release minutes of the meetings last month at which they raised benchmark rates, bowing to concerns about mounting inflationary pressures",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T02:26:40Z",
+            "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
+            "sentiment_score": -0.3905,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
+            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
+            "source": "New York Post",
+            "published_at": "2026-10-04T02:06:39Z",
+            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
+            "sentiment_score": -0.8058,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
@@ -1589,24 +1790,24 @@
           }
         ]
       },
-      "net_score": -0.1692,
-      "bias": "เอียงลบต่อ XAU (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.0547,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4183.2998,
+      "price_now": 4179.2998,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 47.5,
-      "rsi_signal": "โซนกลาง (RSI=47.5)",
+      "rsi_value": 48.4,
+      "rsi_signal": "โซนกลาง (RSI=48.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 18.53491,
-      "suggested_sl_distance": 27.80236,
+      "atr_value": 17.77118,
+      "suggested_sl_distance": 26.65677,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -1618,8 +1819,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=47.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=48.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-05T00:41:07.819667+00:00"
+    "generated_at": "2026-10-05T06:48:26.993075+00:00"
   }
 ]
