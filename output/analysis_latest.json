@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0385,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 6,
+        "average_score": -0.1773,
+        "label": "ลบเล็กน้อย",
+        "article_count": 8,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Watch: 'Nobody knew' extent of banking crisis, says Cowen",
+            "description": "Former taoiseach Brian Cowen denied that his government knew the full extent of the hole in Anglo Irish Bank's finances.",
+            "source": "RTE",
+            "published_at": "2026-10-04T19:57:15Z",
+            "url": "https://www.rte.ie/news/politics/2026/1004/1593959-brian-cowen-interview/",
+            "sentiment_score": -0.5696,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "RBI MPC must raise rates as inflation and external risks rise",
+            "description": "India's economy is currently thriving, boasting a growth rate exceeding 7%, bolstered by diverse sectors and enhancing productivity levels. Nonetheless, escalating oil prices and geopolitical instability present significant threats to economic stability and r…",
+            "source": "The Times of India",
+            "published_at": "2026-10-04T17:37:38Z",
+            "url": "https://economictimes.indiatimes.com/opinion/et-commentary/rbi-mpc-must-raise-rates-as-inflation-and-external-risks-rise/articleshow/134678738.cms",
+            "sentiment_score": -0.1453,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Editorial. Bite the bullet",
@@ -73,10 +93,120 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0281,
+        "average_score": -0.0016,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "New AI Czar Jay Clayton Gets 120 Days to Report on Tech’s Risks",
+            "description": "The White House has reportedly given its artificial intelligence task force 120 days to report on the risks and potential rewards of the technology. That’s according to a report Saturday (Oct. 3) from The Wall Street Journal (WSJ), citing comments by Jay Clay…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T22:14:53Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/new-ai-czar-jay-clayton-gets-120-days-to-report-on-techs-risks/",
+            "sentiment_score": -0.0038,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock futures are flat as investors grapple with higher yields, await Fed minutes: Live updates",
+            "description": "Stocks are coming off a week defined by surging Treasury yields and a surprisingly weak jobs report that helped ease concerns about another Fed rate hike.",
+            "source": "CNBC",
+            "published_at": "2026-10-04T22:05:03Z",
+            "url": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+            "sentiment_score": 0.1864,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China Shutters Nearly 25% of Its Banks Amid Oversight Push",
+            "description": "China has reportedly closed almost 25% of its banks amid increased oversight of smaller lenders. The world’s second largest economy shuttered a record 670-plus banks in 2025, the Financial Times (FT) reported Saturday (Oct. 3), citing figures from China’s Nat…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T21:55:34Z",
+            "url": "https://www.pymnts.com/legal/bank-regulation/2026/china-shutters-nearly-25-of-its-banks-amid-oversight-push/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Markets Face BOJ, Yen and AI Test in First Full Week of October",
+            "description": "Japanese markets open the week of October 5 with investors focused on Prime Minister Sanae Takaichi’s policy speech, the Bank of Japan’s next rate signal, the yen’s weakness, elevated bond yields and whether the artificial intelligence-led rally in Tokyo stoc…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-10-04T21:51:08Z",
+            "url": "https://newsonjapan.com/article/150947.php",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls",
+            "description": "Glassnode estimated the probability of an additional quarter-point hike at the Oct. 28 meeting fell from 66% on Sept. 28 to 22% by 15:00 UTC on Oct. 2.\nThe post Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls appeared fir…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-04T20:45:36Z",
+            "url": "https://cryptoslate.com/bitcoins-85000-recovery-awaits-proof-that-etf-investors-kept-buying-after-payrolls/",
+            "sentiment_score": 0.0772,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Iran is going after America's debt it's targeting the $40T America owes",
+            "description": "Article URL: https://jaymartin.substack.com/p/iran-is-going-after-americas-debt\nComments URL: https://news.ycombinator.com/item?id=49957602\nPoints: 14\n# Comments: 0",
+            "source": "Substack.com",
+            "published_at": "2026-10-04T20:42:12Z",
+            "url": "https://jaymartin.substack.com/p/iran-is-going-after-americas-debt",
+            "sentiment_score": -0.2528,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'The market has had every reason to sell off'",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.\nThe S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowere…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T19:13:30Z",
+            "url": "https://biztoc.com/x/fe783134017ac5ab",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market headwinds could set up a major rally in coming months, strategist says",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.The S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowered…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-04T18:48:48Z",
+            "url": "https://finance.yahoo.com/markets/article/the-market-has-had-every-reason-to-sell-off--and-it-hasnt-184848621.html",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More",
+            "description": "The post This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More appeared first on 24/7 Wall St..\nFederal Reserve Chair Kevin Warsh has so far resisted President Donald Trump’s calls for dramatically lower interest rates. After the Fed rai…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T18:12:41Z",
+            "url": "https://biztoc.com/x/47147c61578644c9",
+            "sentiment_score": 0.1091,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
+            "description": "The International Monetary Fund has said the US Federal Reserve's decision to hike interest rates would contribute to tighter global financial conditions and suggested that India allow the exchange rate to act as a shock absorber.\nAn IMF spokesperson on Frida…",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T17:40:37Z",
+            "url": "https://www.business-standard.com/economy/news/let-exchange-rate-act-as-shock-absorber-imf-on-fed-hike-impact-on-india-126100400452_1.html",
+            "sentiment_score": -0.1718,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far?",
+            "description": "The post America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far? appeared first on 24/7 Wall St..\nTwo weeks after the Federal Reserve raised interest rates, the labor market answered. Employers added just 29,0…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T15:57:04Z",
+            "url": "https://biztoc.com/x/7706559263fd6817",
+            "sentiment_score": -0.1921,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
@@ -266,137 +396,27 @@
             "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
             "sentiment_score": -0.3905,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
-            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
-            "source": "New York Post",
-            "published_at": "2026-10-04T02:06:39Z",
-            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
-            "sentiment_score": -0.8058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
-            "description": "Oil and gas activity continued to grow in the Permian Basin and surrounding areas during the third quarter despite rising cost pressures and global supply disruption, according to new data […]",
-            "source": "Longview News-Journal",
-            "published_at": "2026-10-03T22:58:22Z",
-            "url": "https://news-journal.com/2026/10/03/texas-oil-gas-activity-continues-to-increase-in-2026-despite-cost-pressures/",
-            "sentiment_score": 0.3117,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Reddit And 2 Other High Quality Stocks",
-            "description": "The Federal Reserve just raised interest rates again, and higher borrowing costs are putting more pressure on companies with heavy debt. Investors are paying closer attention to businesses that rely on their own cash generation and solid balance sheets instea…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T20:44:29Z",
-            "url": "https://biztoc.com/x/fc41ab3988c44683",
-            "sentiment_score": -0.0303,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: Local pretrained classifiers, GPU not needed",
-            "description": "I was curious about what classifiers could do. It turns out, a lot, sometimes even play Doom\n\nComments URL: https://news.ycombinator.com/item?id=49947404\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-03T20:19:09Z",
-            "url": "https://github.com/nicobrenner/jeffy",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Top 3 Japanese Hidden Gem Stocks To Watch In October 2026",
-            "description": "The Federal Reserve has just lifted US interest rates again, and higher borrowing costs are rippling through global markets. Big money often rotates toward safer assets when policy tightens, which can leave smaller Japanese companies overlooked. That is where…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T18:43:52Z",
-            "url": "https://biztoc.com/x/4558f107a63265d9",
-            "sentiment_score": 0.3621,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hedge funds built a $1.2 trillion Treasury trade on money they have to keep borrowing",
-            "description": "Companies can own a mountain of US government debt without betting that bond prices will rise. Hedge funds buy Treasury securities and sell futures against them to collect a small pricing gap, borrowing most of the purchase money to make the return worthwhile…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-03T18:40:22Z",
-            "url": "https://cryptoslate.com/hedge-funds-built-a-1-2-trillion-treasury-trade-on-money-they-have-to-keep-borrowing/",
-            "sentiment_score": 0.18,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There could be a pretty big global shock, says Nobel laureate & economist Michael Spence",
-            "description": "Michael Spence highlights the economic growth of India and China, noting India's potential growth trajectory. He emphasizes India's advancements in digital infrastructure, particularly in digital financial services like UPI. Spence discusses the significance …",
-            "source": "The Times of India",
-            "published_at": "2026-10-03T18:09:02Z",
-            "url": "https://economictimes.indiatimes.com/news/india/there-could-be-a-pretty-big-global-shock-says-nobel-laureate-economist-michael-spence/articleshow/134664074.cms",
-            "sentiment_score": 0.3566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Adds Carrier And 10,000 Troops To Mideast",
-            "description": "By Tony Capaccio Oct 3, 2026 (Bloomberg) –The Pentagon is deploying an additional aircraft carrier and 10,000 sailors and Marines to the Persian Gulf, according to a US official, a move...",
-            "source": "gcaptain.com",
-            "published_at": "2026-10-03T17:49:24Z",
-            "url": "https://gcaptain.com/us-adds-carrier-and-10000-troops-to-mideast/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Our Pick Of The Best Dividend Stocks In October 2026",
-            "description": "Inflation and higher rates are back in focus after the Federal Reserve lifted its target range to 3.75% to 4.00%. That puts consistent income back on center stage for many portfolios. Reliable dividend payers with yields above 5% can turn volatile headlines i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T17:44:01Z",
-            "url": "https://biztoc.com/x/9dbb1e9cb3f29bbb",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. debt is increasingly at the mercy of the market as interest costs surge while elections add more risk to the debt ceiling, ratings agency warns",
-            "description": "\"This trajectory points to an unsustainable medium-term fiscal path and leaves the sovereign increasingly exposed to shifts in market sentiment and financing conditions.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-03T17:15:47Z",
-            "url": "https://fortune.com/2026/10/03/us-debt-mercy-bond-market-interest-costs-treasury-yields-midterm-election-debt-ceiling/",
-            "sentiment_score": -0.2448,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "THE OTHER WOMAN: Natalie Harp tops Melania and Usha on Washington power ranking!",
-            "description": "The influential women shaping politics, business, law, media, education, nonprofits, the arts, and more across the region.",
-            "source": "Washingtonian",
-            "published_at": "2026-10-03T17:00:12Z",
-            "url": "https://washingtonian.com/2026/09/30/most-powerful-women-in-washington-2026/",
-            "sentiment_score": 0.5215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.0666,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1757,
+      "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.1212,
+      "price_now": 1.12233,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 46.1,
-      "rsi_signal": "โซนกลาง (RSI=46.1)",
+      "rsi_value": 51.0,
+      "rsi_signal": "โซนกลาง (RSI=51.0)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00169,
-      "suggested_sl_distance": 0.00253,
+      "atr_value": 0.00132,
+      "suggested_sl_distance": 0.00199,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -410,7 +430,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-05T15:50:00.799883+00:00"
+    "generated_at": "2026-10-05T22:29:23.669213+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -419,10 +439,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1378,
+        "average_score": -0.1275,
         "label": "ลบเล็กน้อย",
-        "article_count": 6,
+        "article_count": 9,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "'Money-grab' or celebration? NFL kicks off London series",
+            "description": "The NFL kicked off this season's series of London games on Sunday but the build-up was overshadowed by anger from long-term fans over ticket prices.",
+            "source": "BBC News",
+            "published_at": "2026-10-04T20:43:22Z",
+            "url": "https://www.bbc.com/sport/american-football/articles/cqwyrlk27e7ro?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bsport%5D-%5Bbizdev%5D-%5Bisapi%5D",
+            "sentiment_score": -0.2168,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "'Money-grab' or celebration? NFL kicks off London series",
+            "description": "The NFL kicked off this season's series of London games on Sunday but the build-up was overshadowed by anger from long-term fans over ticket prices.",
+            "source": "BBC News",
+            "published_at": "2026-10-04T20:36:03Z",
+            "url": "https://www.bbc.co.uk/sport/american-football/articles/cqwyrlk27e7ro",
+            "sentiment_score": -0.2168,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Ep 211: Laws of the Universe",
+            "description": "Ep 211: Laws of the Universe looks at 11 principles that help architects understand time, staffing, priorities, judgment, and office culture.\nThe post Ep 211: Laws of the Universe first appeared on Life of an Architect.\nContinue reading Ep 211: Laws of the Un…",
+            "source": "Lifeofanarchitect.com",
+            "published_at": "2026-10-04T19:00:59Z",
+            "url": "https://www.lifeofanarchitect.com/ep-211-laws-of-the-universe/",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Pike’s botched execution: Letters to the Editor — Oct. 5, 2026",
@@ -486,10 +536,120 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0281,
+        "average_score": -0.0016,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "New AI Czar Jay Clayton Gets 120 Days to Report on Tech’s Risks",
+            "description": "The White House has reportedly given its artificial intelligence task force 120 days to report on the risks and potential rewards of the technology. That’s according to a report Saturday (Oct. 3) from The Wall Street Journal (WSJ), citing comments by Jay Clay…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T22:14:53Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/new-ai-czar-jay-clayton-gets-120-days-to-report-on-techs-risks/",
+            "sentiment_score": -0.0038,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock futures are flat as investors grapple with higher yields, await Fed minutes: Live updates",
+            "description": "Stocks are coming off a week defined by surging Treasury yields and a surprisingly weak jobs report that helped ease concerns about another Fed rate hike.",
+            "source": "CNBC",
+            "published_at": "2026-10-04T22:05:03Z",
+            "url": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+            "sentiment_score": 0.1864,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China Shutters Nearly 25% of Its Banks Amid Oversight Push",
+            "description": "China has reportedly closed almost 25% of its banks amid increased oversight of smaller lenders. The world’s second largest economy shuttered a record 670-plus banks in 2025, the Financial Times (FT) reported Saturday (Oct. 3), citing figures from China’s Nat…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T21:55:34Z",
+            "url": "https://www.pymnts.com/legal/bank-regulation/2026/china-shutters-nearly-25-of-its-banks-amid-oversight-push/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Markets Face BOJ, Yen and AI Test in First Full Week of October",
+            "description": "Japanese markets open the week of October 5 with investors focused on Prime Minister Sanae Takaichi’s policy speech, the Bank of Japan’s next rate signal, the yen’s weakness, elevated bond yields and whether the artificial intelligence-led rally in Tokyo stoc…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-10-04T21:51:08Z",
+            "url": "https://newsonjapan.com/article/150947.php",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls",
+            "description": "Glassnode estimated the probability of an additional quarter-point hike at the Oct. 28 meeting fell from 66% on Sept. 28 to 22% by 15:00 UTC on Oct. 2.\nThe post Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls appeared fir…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-04T20:45:36Z",
+            "url": "https://cryptoslate.com/bitcoins-85000-recovery-awaits-proof-that-etf-investors-kept-buying-after-payrolls/",
+            "sentiment_score": 0.0772,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Iran is going after America's debt it's targeting the $40T America owes",
+            "description": "Article URL: https://jaymartin.substack.com/p/iran-is-going-after-americas-debt\nComments URL: https://news.ycombinator.com/item?id=49957602\nPoints: 14\n# Comments: 0",
+            "source": "Substack.com",
+            "published_at": "2026-10-04T20:42:12Z",
+            "url": "https://jaymartin.substack.com/p/iran-is-going-after-americas-debt",
+            "sentiment_score": -0.2528,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'The market has had every reason to sell off'",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.\nThe S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowere…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T19:13:30Z",
+            "url": "https://biztoc.com/x/fe783134017ac5ab",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market headwinds could set up a major rally in coming months, strategist says",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.The S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowered…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-04T18:48:48Z",
+            "url": "https://finance.yahoo.com/markets/article/the-market-has-had-every-reason-to-sell-off--and-it-hasnt-184848621.html",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More",
+            "description": "The post This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More appeared first on 24/7 Wall St..\nFederal Reserve Chair Kevin Warsh has so far resisted President Donald Trump’s calls for dramatically lower interest rates. After the Fed rai…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T18:12:41Z",
+            "url": "https://biztoc.com/x/47147c61578644c9",
+            "sentiment_score": 0.1091,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
+            "description": "The International Monetary Fund has said the US Federal Reserve's decision to hike interest rates would contribute to tighter global financial conditions and suggested that India allow the exchange rate to act as a shock absorber.\nAn IMF spokesperson on Frida…",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T17:40:37Z",
+            "url": "https://www.business-standard.com/economy/news/let-exchange-rate-act-as-shock-absorber-imf-on-fed-hike-impact-on-india-126100400452_1.html",
+            "sentiment_score": -0.1718,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far?",
+            "description": "The post America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far? appeared first on 24/7 Wall St..\nTwo weeks after the Federal Reserve raised interest rates, the labor market answered. Employers added just 29,0…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T15:57:04Z",
+            "url": "https://biztoc.com/x/7706559263fd6817",
+            "sentiment_score": -0.1921,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
@@ -679,137 +839,27 @@
             "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
             "sentiment_score": -0.3905,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
-            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
-            "source": "New York Post",
-            "published_at": "2026-10-04T02:06:39Z",
-            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
-            "sentiment_score": -0.8058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
-            "description": "Oil and gas activity continued to grow in the Permian Basin and surrounding areas during the third quarter despite rising cost pressures and global supply disruption, according to new data […]",
-            "source": "Longview News-Journal",
-            "published_at": "2026-10-03T22:58:22Z",
-            "url": "https://news-journal.com/2026/10/03/texas-oil-gas-activity-continues-to-increase-in-2026-despite-cost-pressures/",
-            "sentiment_score": 0.3117,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Reddit And 2 Other High Quality Stocks",
-            "description": "The Federal Reserve just raised interest rates again, and higher borrowing costs are putting more pressure on companies with heavy debt. Investors are paying closer attention to businesses that rely on their own cash generation and solid balance sheets instea…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T20:44:29Z",
-            "url": "https://biztoc.com/x/fc41ab3988c44683",
-            "sentiment_score": -0.0303,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: Local pretrained classifiers, GPU not needed",
-            "description": "I was curious about what classifiers could do. It turns out, a lot, sometimes even play Doom\n\nComments URL: https://news.ycombinator.com/item?id=49947404\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-03T20:19:09Z",
-            "url": "https://github.com/nicobrenner/jeffy",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Top 3 Japanese Hidden Gem Stocks To Watch In October 2026",
-            "description": "The Federal Reserve has just lifted US interest rates again, and higher borrowing costs are rippling through global markets. Big money often rotates toward safer assets when policy tightens, which can leave smaller Japanese companies overlooked. That is where…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T18:43:52Z",
-            "url": "https://biztoc.com/x/4558f107a63265d9",
-            "sentiment_score": 0.3621,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hedge funds built a $1.2 trillion Treasury trade on money they have to keep borrowing",
-            "description": "Companies can own a mountain of US government debt without betting that bond prices will rise. Hedge funds buy Treasury securities and sell futures against them to collect a small pricing gap, borrowing most of the purchase money to make the return worthwhile…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-03T18:40:22Z",
-            "url": "https://cryptoslate.com/hedge-funds-built-a-1-2-trillion-treasury-trade-on-money-they-have-to-keep-borrowing/",
-            "sentiment_score": 0.18,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There could be a pretty big global shock, says Nobel laureate & economist Michael Spence",
-            "description": "Michael Spence highlights the economic growth of India and China, noting India's potential growth trajectory. He emphasizes India's advancements in digital infrastructure, particularly in digital financial services like UPI. Spence discusses the significance …",
-            "source": "The Times of India",
-            "published_at": "2026-10-03T18:09:02Z",
-            "url": "https://economictimes.indiatimes.com/news/india/there-could-be-a-pretty-big-global-shock-says-nobel-laureate-economist-michael-spence/articleshow/134664074.cms",
-            "sentiment_score": 0.3566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Adds Carrier And 10,000 Troops To Mideast",
-            "description": "By Tony Capaccio Oct 3, 2026 (Bloomberg) –The Pentagon is deploying an additional aircraft carrier and 10,000 sailors and Marines to the Persian Gulf, according to a US official, a move...",
-            "source": "gcaptain.com",
-            "published_at": "2026-10-03T17:49:24Z",
-            "url": "https://gcaptain.com/us-adds-carrier-and-10000-troops-to-mideast/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Our Pick Of The Best Dividend Stocks In October 2026",
-            "description": "Inflation and higher rates are back in focus after the Federal Reserve lifted its target range to 3.75% to 4.00%. That puts consistent income back on center stage for many portfolios. Reliable dividend payers with yields above 5% can turn volatile headlines i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T17:44:01Z",
-            "url": "https://biztoc.com/x/9dbb1e9cb3f29bbb",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. debt is increasingly at the mercy of the market as interest costs surge while elections add more risk to the debt ceiling, ratings agency warns",
-            "description": "\"This trajectory points to an unsustainable medium-term fiscal path and leaves the sovereign increasingly exposed to shifts in market sentiment and financing conditions.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-03T17:15:47Z",
-            "url": "https://fortune.com/2026/10/03/us-debt-mercy-bond-market-interest-costs-treasury-yields-midterm-election-debt-ceiling/",
-            "sentiment_score": -0.2448,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "THE OTHER WOMAN: Natalie Harp tops Melania and Usha on Washington power ranking!",
-            "description": "The influential women shaping politics, business, law, media, education, nonprofits, the arts, and more across the region.",
-            "source": "Washingtonian",
-            "published_at": "2026-10-03T17:00:12Z",
-            "url": "https://washingtonian.com/2026/09/30/most-powerful-women-in-washington-2026/",
-            "sentiment_score": 0.5215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.1659,
-      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.1259,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3217,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 1.32237,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 48.3,
-      "rsi_signal": "โซนกลาง (RSI=48.3)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00156,
-      "suggested_sl_distance": 0.00234,
+      "rsi_value": 51.7,
+      "rsi_signal": "โซนกลาง (RSI=51.7)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00129,
+      "suggested_sl_distance": 0.00194,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -823,7 +873,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-05T15:50:00.799883+00:00"
+    "generated_at": "2026-10-05T22:29:23.669213+00:00"
   },
   {
     "pair": "USDJPY",
@@ -832,10 +882,120 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0281,
+        "average_score": -0.0016,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "New AI Czar Jay Clayton Gets 120 Days to Report on Tech’s Risks",
+            "description": "The White House has reportedly given its artificial intelligence task force 120 days to report on the risks and potential rewards of the technology. That’s according to a report Saturday (Oct. 3) from The Wall Street Journal (WSJ), citing comments by Jay Clay…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T22:14:53Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/new-ai-czar-jay-clayton-gets-120-days-to-report-on-techs-risks/",
+            "sentiment_score": -0.0038,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock futures are flat as investors grapple with higher yields, await Fed minutes: Live updates",
+            "description": "Stocks are coming off a week defined by surging Treasury yields and a surprisingly weak jobs report that helped ease concerns about another Fed rate hike.",
+            "source": "CNBC",
+            "published_at": "2026-10-04T22:05:03Z",
+            "url": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+            "sentiment_score": 0.1864,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China Shutters Nearly 25% of Its Banks Amid Oversight Push",
+            "description": "China has reportedly closed almost 25% of its banks amid increased oversight of smaller lenders. The world’s second largest economy shuttered a record 670-plus banks in 2025, the Financial Times (FT) reported Saturday (Oct. 3), citing figures from China’s Nat…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T21:55:34Z",
+            "url": "https://www.pymnts.com/legal/bank-regulation/2026/china-shutters-nearly-25-of-its-banks-amid-oversight-push/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Markets Face BOJ, Yen and AI Test in First Full Week of October",
+            "description": "Japanese markets open the week of October 5 with investors focused on Prime Minister Sanae Takaichi’s policy speech, the Bank of Japan’s next rate signal, the yen’s weakness, elevated bond yields and whether the artificial intelligence-led rally in Tokyo stoc…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-10-04T21:51:08Z",
+            "url": "https://newsonjapan.com/article/150947.php",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls",
+            "description": "Glassnode estimated the probability of an additional quarter-point hike at the Oct. 28 meeting fell from 66% on Sept. 28 to 22% by 15:00 UTC on Oct. 2.\nThe post Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls appeared fir…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-04T20:45:36Z",
+            "url": "https://cryptoslate.com/bitcoins-85000-recovery-awaits-proof-that-etf-investors-kept-buying-after-payrolls/",
+            "sentiment_score": 0.0772,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Iran is going after America's debt it's targeting the $40T America owes",
+            "description": "Article URL: https://jaymartin.substack.com/p/iran-is-going-after-americas-debt\nComments URL: https://news.ycombinator.com/item?id=49957602\nPoints: 14\n# Comments: 0",
+            "source": "Substack.com",
+            "published_at": "2026-10-04T20:42:12Z",
+            "url": "https://jaymartin.substack.com/p/iran-is-going-after-americas-debt",
+            "sentiment_score": -0.2528,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'The market has had every reason to sell off'",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.\nThe S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowere…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T19:13:30Z",
+            "url": "https://biztoc.com/x/fe783134017ac5ab",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market headwinds could set up a major rally in coming months, strategist says",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.The S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowered…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-04T18:48:48Z",
+            "url": "https://finance.yahoo.com/markets/article/the-market-has-had-every-reason-to-sell-off--and-it-hasnt-184848621.html",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More",
+            "description": "The post This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More appeared first on 24/7 Wall St..\nFederal Reserve Chair Kevin Warsh has so far resisted President Donald Trump’s calls for dramatically lower interest rates. After the Fed rai…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T18:12:41Z",
+            "url": "https://biztoc.com/x/47147c61578644c9",
+            "sentiment_score": 0.1091,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
+            "description": "The International Monetary Fund has said the US Federal Reserve's decision to hike interest rates would contribute to tighter global financial conditions and suggested that India allow the exchange rate to act as a shock absorber.\nAn IMF spokesperson on Frida…",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T17:40:37Z",
+            "url": "https://www.business-standard.com/economy/news/let-exchange-rate-act-as-shock-absorber-imf-on-fed-hike-impact-on-india-126100400452_1.html",
+            "sentiment_score": -0.1718,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far?",
+            "description": "The post America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far? appeared first on 24/7 Wall St..\nTwo weeks after the Federal Reserve raised interest rates, the labor market answered. Employers added just 29,0…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T15:57:04Z",
+            "url": "https://biztoc.com/x/7706559263fd6817",
+            "sentiment_score": -0.1921,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
@@ -1025,126 +1185,27 @@
             "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
             "sentiment_score": -0.3905,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
-            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
-            "source": "New York Post",
-            "published_at": "2026-10-04T02:06:39Z",
-            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
-            "sentiment_score": -0.8058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
-            "description": "Oil and gas activity continued to grow in the Permian Basin and surrounding areas during the third quarter despite rising cost pressures and global supply disruption, according to new data […]",
-            "source": "Longview News-Journal",
-            "published_at": "2026-10-03T22:58:22Z",
-            "url": "https://news-journal.com/2026/10/03/texas-oil-gas-activity-continues-to-increase-in-2026-despite-cost-pressures/",
-            "sentiment_score": 0.3117,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Reddit And 2 Other High Quality Stocks",
-            "description": "The Federal Reserve just raised interest rates again, and higher borrowing costs are putting more pressure on companies with heavy debt. Investors are paying closer attention to businesses that rely on their own cash generation and solid balance sheets instea…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T20:44:29Z",
-            "url": "https://biztoc.com/x/fc41ab3988c44683",
-            "sentiment_score": -0.0303,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: Local pretrained classifiers, GPU not needed",
-            "description": "I was curious about what classifiers could do. It turns out, a lot, sometimes even play Doom\n\nComments URL: https://news.ycombinator.com/item?id=49947404\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-03T20:19:09Z",
-            "url": "https://github.com/nicobrenner/jeffy",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Top 3 Japanese Hidden Gem Stocks To Watch In October 2026",
-            "description": "The Federal Reserve has just lifted US interest rates again, and higher borrowing costs are rippling through global markets. Big money often rotates toward safer assets when policy tightens, which can leave smaller Japanese companies overlooked. That is where…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T18:43:52Z",
-            "url": "https://biztoc.com/x/4558f107a63265d9",
-            "sentiment_score": 0.3621,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hedge funds built a $1.2 trillion Treasury trade on money they have to keep borrowing",
-            "description": "Companies can own a mountain of US government debt without betting that bond prices will rise. Hedge funds buy Treasury securities and sell futures against them to collect a small pricing gap, borrowing most of the purchase money to make the return worthwhile…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-03T18:40:22Z",
-            "url": "https://cryptoslate.com/hedge-funds-built-a-1-2-trillion-treasury-trade-on-money-they-have-to-keep-borrowing/",
-            "sentiment_score": 0.18,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There could be a pretty big global shock, says Nobel laureate & economist Michael Spence",
-            "description": "Michael Spence highlights the economic growth of India and China, noting India's potential growth trajectory. He emphasizes India's advancements in digital infrastructure, particularly in digital financial services like UPI. Spence discusses the significance …",
-            "source": "The Times of India",
-            "published_at": "2026-10-03T18:09:02Z",
-            "url": "https://economictimes.indiatimes.com/news/india/there-could-be-a-pretty-big-global-shock-says-nobel-laureate-economist-michael-spence/articleshow/134664074.cms",
-            "sentiment_score": 0.3566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Adds Carrier And 10,000 Troops To Mideast",
-            "description": "By Tony Capaccio Oct 3, 2026 (Bloomberg) –The Pentagon is deploying an additional aircraft carrier and 10,000 sailors and Marines to the Persian Gulf, according to a US official, a move...",
-            "source": "gcaptain.com",
-            "published_at": "2026-10-03T17:49:24Z",
-            "url": "https://gcaptain.com/us-adds-carrier-and-10000-troops-to-mideast/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Our Pick Of The Best Dividend Stocks In October 2026",
-            "description": "Inflation and higher rates are back in focus after the Federal Reserve lifted its target range to 3.75% to 4.00%. That puts consistent income back on center stage for many portfolios. Reliable dividend payers with yields above 5% can turn volatile headlines i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T17:44:01Z",
-            "url": "https://biztoc.com/x/9dbb1e9cb3f29bbb",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. debt is increasingly at the mercy of the market as interest costs surge while elections add more risk to the debt ceiling, ratings agency warns",
-            "description": "\"This trajectory points to an unsustainable medium-term fiscal path and leaves the sovereign increasingly exposed to shifts in market sentiment and financing conditions.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-03T17:15:47Z",
-            "url": "https://fortune.com/2026/10/03/us-debt-mercy-bond-market-interest-costs-treasury-yields-midterm-election-debt-ceiling/",
-            "sentiment_score": -0.2448,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "THE OTHER WOMAN: Natalie Harp tops Melania and Usha on Washington power ranking!",
-            "description": "The influential women shaping politics, business, law, media, education, nonprofits, the arts, and more across the region.",
-            "source": "Washingtonian",
-            "published_at": "2026-10-03T17:00:12Z",
-            "url": "https://washingtonian.com/2026/09/30/most-powerful-women-in-washington-2026/",
-            "sentiment_score": 0.5215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0,
-        "label": "ไม่มีข่าว",
-        "article_count": 0,
-        "scored_articles": []
+        "average_score": -0.1453,
+        "label": "ลบเล็กน้อย",
+        "article_count": 1,
+        "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "RBI MPC must raise rates as inflation and external risks rise",
+            "description": "India's economy is currently thriving, boasting a growth rate exceeding 7%, bolstered by diverse sectors and enhancing productivity levels. Nonetheless, escalating oil prices and geopolitical instability present significant threats to economic stability and r…",
+            "source": "The Times of India",
+            "published_at": "2026-10-04T17:37:38Z",
+            "url": "https://economictimes.indiatimes.com/opinion/et-commentary/rbi-mpc-must-raise-rates-as-inflation-and-external-risks-rise/articleshow/134678738.cms",
+            "sentiment_score": -0.1453,
+            "sentiment_label": "ลบเล็กน้อย"
+          }
+        ]
       },
-      "net_score": 0.0281,
+      "net_score": 0.1437,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1154,28 +1215,28 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.01601,
+      "price_now": 157.866,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.6,
-      "rsi_signal": "โซนกลาง (RSI=53.6)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.23179,
-      "suggested_sl_distance": 0.34768,
+      "rsi_value": 47.5,
+      "rsi_signal": "โซนกลาง (RSI=47.5)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.19588,
+      "suggested_sl_distance": 0.29382,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=53.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-05T15:50:00.799883+00:00"
+    "generated_at": "2026-10-05T22:29:23.669213+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1201,10 +1262,120 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0281,
+        "average_score": -0.0016,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "New AI Czar Jay Clayton Gets 120 Days to Report on Tech’s Risks",
+            "description": "The White House has reportedly given its artificial intelligence task force 120 days to report on the risks and potential rewards of the technology. That’s according to a report Saturday (Oct. 3) from The Wall Street Journal (WSJ), citing comments by Jay Clay…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T22:14:53Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/new-ai-czar-jay-clayton-gets-120-days-to-report-on-techs-risks/",
+            "sentiment_score": -0.0038,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock futures are flat as investors grapple with higher yields, await Fed minutes: Live updates",
+            "description": "Stocks are coming off a week defined by surging Treasury yields and a surprisingly weak jobs report that helped ease concerns about another Fed rate hike.",
+            "source": "CNBC",
+            "published_at": "2026-10-04T22:05:03Z",
+            "url": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+            "sentiment_score": 0.1864,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China Shutters Nearly 25% of Its Banks Amid Oversight Push",
+            "description": "China has reportedly closed almost 25% of its banks amid increased oversight of smaller lenders. The world’s second largest economy shuttered a record 670-plus banks in 2025, the Financial Times (FT) reported Saturday (Oct. 3), citing figures from China’s Nat…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T21:55:34Z",
+            "url": "https://www.pymnts.com/legal/bank-regulation/2026/china-shutters-nearly-25-of-its-banks-amid-oversight-push/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Markets Face BOJ, Yen and AI Test in First Full Week of October",
+            "description": "Japanese markets open the week of October 5 with investors focused on Prime Minister Sanae Takaichi’s policy speech, the Bank of Japan’s next rate signal, the yen’s weakness, elevated bond yields and whether the artificial intelligence-led rally in Tokyo stoc…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-10-04T21:51:08Z",
+            "url": "https://newsonjapan.com/article/150947.php",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls",
+            "description": "Glassnode estimated the probability of an additional quarter-point hike at the Oct. 28 meeting fell from 66% on Sept. 28 to 22% by 15:00 UTC on Oct. 2.\nThe post Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls appeared fir…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-04T20:45:36Z",
+            "url": "https://cryptoslate.com/bitcoins-85000-recovery-awaits-proof-that-etf-investors-kept-buying-after-payrolls/",
+            "sentiment_score": 0.0772,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Iran is going after America's debt it's targeting the $40T America owes",
+            "description": "Article URL: https://jaymartin.substack.com/p/iran-is-going-after-americas-debt\nComments URL: https://news.ycombinator.com/item?id=49957602\nPoints: 14\n# Comments: 0",
+            "source": "Substack.com",
+            "published_at": "2026-10-04T20:42:12Z",
+            "url": "https://jaymartin.substack.com/p/iran-is-going-after-americas-debt",
+            "sentiment_score": -0.2528,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'The market has had every reason to sell off'",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.\nThe S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowere…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T19:13:30Z",
+            "url": "https://biztoc.com/x/fe783134017ac5ab",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market headwinds could set up a major rally in coming months, strategist says",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.The S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowered…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-04T18:48:48Z",
+            "url": "https://finance.yahoo.com/markets/article/the-market-has-had-every-reason-to-sell-off--and-it-hasnt-184848621.html",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More",
+            "description": "The post This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More appeared first on 24/7 Wall St..\nFederal Reserve Chair Kevin Warsh has so far resisted President Donald Trump’s calls for dramatically lower interest rates. After the Fed rai…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T18:12:41Z",
+            "url": "https://biztoc.com/x/47147c61578644c9",
+            "sentiment_score": 0.1091,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
+            "description": "The International Monetary Fund has said the US Federal Reserve's decision to hike interest rates would contribute to tighter global financial conditions and suggested that India allow the exchange rate to act as a shock absorber.\nAn IMF spokesperson on Frida…",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T17:40:37Z",
+            "url": "https://www.business-standard.com/economy/news/let-exchange-rate-act-as-shock-absorber-imf-on-fed-hike-impact-on-india-126100400452_1.html",
+            "sentiment_score": -0.1718,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far?",
+            "description": "The post America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far? appeared first on 24/7 Wall St..\nTwo weeks after the Federal Reserve raised interest rates, the labor market answered. Employers added just 29,0…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T15:57:04Z",
+            "url": "https://biztoc.com/x/7706559263fd6817",
+            "sentiment_score": -0.1921,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
@@ -1394,120 +1565,10 @@
             "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
             "sentiment_score": -0.3905,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
-            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
-            "source": "New York Post",
-            "published_at": "2026-10-04T02:06:39Z",
-            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
-            "sentiment_score": -0.8058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
-            "description": "Oil and gas activity continued to grow in the Permian Basin and surrounding areas during the third quarter despite rising cost pressures and global supply disruption, according to new data […]",
-            "source": "Longview News-Journal",
-            "published_at": "2026-10-03T22:58:22Z",
-            "url": "https://news-journal.com/2026/10/03/texas-oil-gas-activity-continues-to-increase-in-2026-despite-cost-pressures/",
-            "sentiment_score": 0.3117,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Reddit And 2 Other High Quality Stocks",
-            "description": "The Federal Reserve just raised interest rates again, and higher borrowing costs are putting more pressure on companies with heavy debt. Investors are paying closer attention to businesses that rely on their own cash generation and solid balance sheets instea…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T20:44:29Z",
-            "url": "https://biztoc.com/x/fc41ab3988c44683",
-            "sentiment_score": -0.0303,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: Local pretrained classifiers, GPU not needed",
-            "description": "I was curious about what classifiers could do. It turns out, a lot, sometimes even play Doom\n\nComments URL: https://news.ycombinator.com/item?id=49947404\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-03T20:19:09Z",
-            "url": "https://github.com/nicobrenner/jeffy",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Top 3 Japanese Hidden Gem Stocks To Watch In October 2026",
-            "description": "The Federal Reserve has just lifted US interest rates again, and higher borrowing costs are rippling through global markets. Big money often rotates toward safer assets when policy tightens, which can leave smaller Japanese companies overlooked. That is where…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T18:43:52Z",
-            "url": "https://biztoc.com/x/4558f107a63265d9",
-            "sentiment_score": 0.3621,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hedge funds built a $1.2 trillion Treasury trade on money they have to keep borrowing",
-            "description": "Companies can own a mountain of US government debt without betting that bond prices will rise. Hedge funds buy Treasury securities and sell futures against them to collect a small pricing gap, borrowing most of the purchase money to make the return worthwhile…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-03T18:40:22Z",
-            "url": "https://cryptoslate.com/hedge-funds-built-a-1-2-trillion-treasury-trade-on-money-they-have-to-keep-borrowing/",
-            "sentiment_score": 0.18,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There could be a pretty big global shock, says Nobel laureate & economist Michael Spence",
-            "description": "Michael Spence highlights the economic growth of India and China, noting India's potential growth trajectory. He emphasizes India's advancements in digital infrastructure, particularly in digital financial services like UPI. Spence discusses the significance …",
-            "source": "The Times of India",
-            "published_at": "2026-10-03T18:09:02Z",
-            "url": "https://economictimes.indiatimes.com/news/india/there-could-be-a-pretty-big-global-shock-says-nobel-laureate-economist-michael-spence/articleshow/134664074.cms",
-            "sentiment_score": 0.3566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Adds Carrier And 10,000 Troops To Mideast",
-            "description": "By Tony Capaccio Oct 3, 2026 (Bloomberg) –The Pentagon is deploying an additional aircraft carrier and 10,000 sailors and Marines to the Persian Gulf, according to a US official, a move...",
-            "source": "gcaptain.com",
-            "published_at": "2026-10-03T17:49:24Z",
-            "url": "https://gcaptain.com/us-adds-carrier-and-10000-troops-to-mideast/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Our Pick Of The Best Dividend Stocks In October 2026",
-            "description": "Inflation and higher rates are back in focus after the Federal Reserve lifted its target range to 3.75% to 4.00%. That puts consistent income back on center stage for many portfolios. Reliable dividend payers with yields above 5% can turn volatile headlines i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T17:44:01Z",
-            "url": "https://biztoc.com/x/9dbb1e9cb3f29bbb",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. debt is increasingly at the mercy of the market as interest costs surge while elections add more risk to the debt ceiling, ratings agency warns",
-            "description": "\"This trajectory points to an unsustainable medium-term fiscal path and leaves the sovereign increasingly exposed to shifts in market sentiment and financing conditions.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-03T17:15:47Z",
-            "url": "https://fortune.com/2026/10/03/us-debt-mercy-bond-market-interest-costs-treasury-yields-midterm-election-debt-ceiling/",
-            "sentiment_score": -0.2448,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "THE OTHER WOMAN: Natalie Harp tops Melania and Usha on Washington power ranking!",
-            "description": "The influential women shaping politics, business, law, media, education, nonprofits, the arts, and more across the region.",
-            "source": "Washingtonian",
-            "published_at": "2026-10-03T17:00:12Z",
-            "url": "https://washingtonian.com/2026/09/30/most-powerful-women-in-washington-2026/",
-            "sentiment_score": 0.5215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.4728,
+      "net_score": 0.5025,
       "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
@@ -1517,14 +1578,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69711,
+      "price_now": 0.6975,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 61.8,
-      "rsi_signal": "โซนกลาง (RSI=61.8)",
+      "rsi_value": 62.1,
+      "rsi_signal": "โซนกลาง (RSI=62.1)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.0008,
-      "suggested_sl_distance": 0.0012,
+      "atr_value": 0.00066,
+      "suggested_sl_distance": 0.00098,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1536,9 +1597,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=61.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=62.1) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-05T15:50:00.799883+00:00"
+    "generated_at": "2026-10-05T22:29:23.669213+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1547,10 +1608,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1264,
+        "average_score": 0.0844,
         "label": "บวกเล็กน้อย",
-        "article_count": 5,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Top bank revises 2026 gold price forecast as investors reassess rally",
+            "description": "Gold is expected to protect investors when markets become uncomfortable. \nThe problem is that the forces driving people toward safety can also make owning the metal a lot more painful.\nHigher oil prices can revive inflation fears, rising bond yields make inco…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T16:27:37Z",
+            "url": "https://biztoc.com/x/a457e3b8d2a36663",
+            "sentiment_score": -0.0208,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "XAU",
             "title": "Gold Price prediction: What will be the gold rate? Factors that will drive bullion precious metal",
@@ -1604,10 +1675,120 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0281,
+        "average_score": -0.0016,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "New AI Czar Jay Clayton Gets 120 Days to Report on Tech’s Risks",
+            "description": "The White House has reportedly given its artificial intelligence task force 120 days to report on the risks and potential rewards of the technology. That’s according to a report Saturday (Oct. 3) from The Wall Street Journal (WSJ), citing comments by Jay Clay…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T22:14:53Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/new-ai-czar-jay-clayton-gets-120-days-to-report-on-techs-risks/",
+            "sentiment_score": -0.0038,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock futures are flat as investors grapple with higher yields, await Fed minutes: Live updates",
+            "description": "Stocks are coming off a week defined by surging Treasury yields and a surprisingly weak jobs report that helped ease concerns about another Fed rate hike.",
+            "source": "CNBC",
+            "published_at": "2026-10-04T22:05:03Z",
+            "url": "https://www.cnbc.com/2026/10/04/stock-market-today-live-updates.html",
+            "sentiment_score": 0.1864,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China Shutters Nearly 25% of Its Banks Amid Oversight Push",
+            "description": "China has reportedly closed almost 25% of its banks amid increased oversight of smaller lenders. The world’s second largest economy shuttered a record 670-plus banks in 2025, the Financial Times (FT) reported Saturday (Oct. 3), citing figures from China’s Nat…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-04T21:55:34Z",
+            "url": "https://www.pymnts.com/legal/bank-regulation/2026/china-shutters-nearly-25-of-its-banks-amid-oversight-push/",
+            "sentiment_score": 0.082,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Markets Face BOJ, Yen and AI Test in First Full Week of October",
+            "description": "Japanese markets open the week of October 5 with investors focused on Prime Minister Sanae Takaichi’s policy speech, the Bank of Japan’s next rate signal, the yen’s weakness, elevated bond yields and whether the artificial intelligence-led rally in Tokyo stoc…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-10-04T21:51:08Z",
+            "url": "https://newsonjapan.com/article/150947.php",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls",
+            "description": "Glassnode estimated the probability of an additional quarter-point hike at the Oct. 28 meeting fell from 66% on Sept. 28 to 22% by 15:00 UTC on Oct. 2.\nThe post Bitcoin’s $85,000 recovery awaits proof that ETF investors kept buying after payrolls appeared fir…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-04T20:45:36Z",
+            "url": "https://cryptoslate.com/bitcoins-85000-recovery-awaits-proof-that-etf-investors-kept-buying-after-payrolls/",
+            "sentiment_score": 0.0772,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Iran is going after America's debt it's targeting the $40T America owes",
+            "description": "Article URL: https://jaymartin.substack.com/p/iran-is-going-after-americas-debt\nComments URL: https://news.ycombinator.com/item?id=49957602\nPoints: 14\n# Comments: 0",
+            "source": "Substack.com",
+            "published_at": "2026-10-04T20:42:12Z",
+            "url": "https://jaymartin.substack.com/p/iran-is-going-after-americas-debt",
+            "sentiment_score": -0.2528,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "'The market has had every reason to sell off'",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.\nThe S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowere…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T19:13:30Z",
+            "url": "https://biztoc.com/x/fe783134017ac5ab",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market headwinds could set up a major rally in coming months, strategist says",
+            "description": "Even with bond yields hovering at more than 20-year highs, the stock market has barely flinched.The S&P 500 (^GSPC) rose Friday to sit less than 1% from its record high while the Nasdaq Composite (^IXIC) was near an all-time high as a weak jobs report lowered…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-04T18:48:48Z",
+            "url": "https://finance.yahoo.com/markets/article/the-market-has-had-every-reason-to-sell-off--and-it-hasnt-184848621.html",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More",
+            "description": "The post This Treasury ETF Resets Its Yield Every Week, So Rising Rates Pay You More appeared first on 24/7 Wall St..\nFederal Reserve Chair Kevin Warsh has so far resisted President Donald Trump’s calls for dramatically lower interest rates. After the Fed rai…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T18:12:41Z",
+            "url": "https://biztoc.com/x/47147c61578644c9",
+            "sentiment_score": 0.1091,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Let exchange rate act as shock absorber: IMF on Fed hike impact on India",
+            "description": "The International Monetary Fund has said the US Federal Reserve's decision to hike interest rates would contribute to tighter global financial conditions and suggested that India allow the exchange rate to act as a shock absorber.\nAn IMF spokesperson on Frida…",
+            "source": "Business Standard",
+            "published_at": "2026-10-04T17:40:37Z",
+            "url": "https://www.business-standard.com/economy/news/let-exchange-rate-act-as-shock-absorber-imf-on-fed-hike-impact-on-india-126100400452_1.html",
+            "sentiment_score": -0.1718,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far?",
+            "description": "The post America Added Just 29,000 Jobs in September. Did the Fed Just Get Its First Warning That It Went Too Far? appeared first on 24/7 Wall St..\nTwo weeks after the Federal Reserve raised interest rates, the labor market answered. Employers added just 29,0…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-04T15:57:04Z",
+            "url": "https://biztoc.com/x/7706559263fd6817",
+            "sentiment_score": -0.1921,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "'Uptober' Starts Green as Bitcoin ETFs Draw $134 Million",
@@ -1797,120 +1978,10 @@
             "url": "https://www.business-standard.com/world-news/fed-ecb-minutes-to-show-inflation-fears-as-near-term-rate-hike-bets-fade-126100400046_1.html",
             "sentiment_score": -0.3905,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jerome Powell off the hook for the ‘Palace of Versailles’ renovation — but he’s still guilty of being a lousy Fed Chair",
-            "description": "Jerome Powell was cleared of criminal wrongdoing in the Fed’s $2.5 billion “Palace of Versailles” headquarters fiasco — but what about the rest of his screwups as head of the nation’s central bank?…",
-            "source": "New York Post",
-            "published_at": "2026-10-04T02:06:39Z",
-            "url": "https://nypost.com/2026/10/03/business/jerome-powell-got-off-the-hook-for-the-palace-of-versailles-renovation-but-hes-guilty-of-being-a-lousy-fed-chair/",
-            "sentiment_score": -0.8058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Texas oil, gas activity continues to increase in 2026 despite cost pressures",
-            "description": "Oil and gas activity continued to grow in the Permian Basin and surrounding areas during the third quarter despite rising cost pressures and global supply disruption, according to new data […]",
-            "source": "Longview News-Journal",
-            "published_at": "2026-10-03T22:58:22Z",
-            "url": "https://news-journal.com/2026/10/03/texas-oil-gas-activity-continues-to-increase-in-2026-despite-cost-pressures/",
-            "sentiment_score": 0.3117,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Reddit And 2 Other High Quality Stocks",
-            "description": "The Federal Reserve just raised interest rates again, and higher borrowing costs are putting more pressure on companies with heavy debt. Investors are paying closer attention to businesses that rely on their own cash generation and solid balance sheets instea…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T20:44:29Z",
-            "url": "https://biztoc.com/x/fc41ab3988c44683",
-            "sentiment_score": -0.0303,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: Local pretrained classifiers, GPU not needed",
-            "description": "I was curious about what classifiers could do. It turns out, a lot, sometimes even play Doom\n\nComments URL: https://news.ycombinator.com/item?id=49947404\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-03T20:19:09Z",
-            "url": "https://github.com/nicobrenner/jeffy",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Top 3 Japanese Hidden Gem Stocks To Watch In October 2026",
-            "description": "The Federal Reserve has just lifted US interest rates again, and higher borrowing costs are rippling through global markets. Big money often rotates toward safer assets when policy tightens, which can leave smaller Japanese companies overlooked. That is where…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T18:43:52Z",
-            "url": "https://biztoc.com/x/4558f107a63265d9",
-            "sentiment_score": 0.3621,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hedge funds built a $1.2 trillion Treasury trade on money they have to keep borrowing",
-            "description": "Companies can own a mountain of US government debt without betting that bond prices will rise. Hedge funds buy Treasury securities and sell futures against them to collect a small pricing gap, borrowing most of the purchase money to make the return worthwhile…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-03T18:40:22Z",
-            "url": "https://cryptoslate.com/hedge-funds-built-a-1-2-trillion-treasury-trade-on-money-they-have-to-keep-borrowing/",
-            "sentiment_score": 0.18,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "There could be a pretty big global shock, says Nobel laureate & economist Michael Spence",
-            "description": "Michael Spence highlights the economic growth of India and China, noting India's potential growth trajectory. He emphasizes India's advancements in digital infrastructure, particularly in digital financial services like UPI. Spence discusses the significance …",
-            "source": "The Times of India",
-            "published_at": "2026-10-03T18:09:02Z",
-            "url": "https://economictimes.indiatimes.com/news/india/there-could-be-a-pretty-big-global-shock-says-nobel-laureate-economist-michael-spence/articleshow/134664074.cms",
-            "sentiment_score": 0.3566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Adds Carrier And 10,000 Troops To Mideast",
-            "description": "By Tony Capaccio Oct 3, 2026 (Bloomberg) –The Pentagon is deploying an additional aircraft carrier and 10,000 sailors and Marines to the Persian Gulf, according to a US official, a move...",
-            "source": "gcaptain.com",
-            "published_at": "2026-10-03T17:49:24Z",
-            "url": "https://gcaptain.com/us-adds-carrier-and-10000-troops-to-mideast/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Our Pick Of The Best Dividend Stocks In October 2026",
-            "description": "Inflation and higher rates are back in focus after the Federal Reserve lifted its target range to 3.75% to 4.00%. That puts consistent income back on center stage for many portfolios. Reliable dividend payers with yields above 5% can turn volatile headlines i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-03T17:44:01Z",
-            "url": "https://biztoc.com/x/9dbb1e9cb3f29bbb",
-            "sentiment_score": 0.4458,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. debt is increasingly at the mercy of the market as interest costs surge while elections add more risk to the debt ceiling, ratings agency warns",
-            "description": "\"This trajectory points to an unsustainable medium-term fiscal path and leaves the sovereign increasingly exposed to shifts in market sentiment and financing conditions.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-03T17:15:47Z",
-            "url": "https://fortune.com/2026/10/03/us-debt-mercy-bond-market-interest-costs-treasury-yields-midterm-election-debt-ceiling/",
-            "sentiment_score": -0.2448,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "THE OTHER WOMAN: Natalie Harp tops Melania and Usha on Washington power ranking!",
-            "description": "The influential women shaping politics, business, law, media, education, nonprofits, the arts, and more across the region.",
-            "source": "Washingtonian",
-            "published_at": "2026-10-03T17:00:12Z",
-            "url": "https://washingtonian.com/2026/09/30/most-powerful-women-in-washington-2026/",
-            "sentiment_score": 0.5215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.0983,
+      "net_score": 0.086,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1920,27 +1991,27 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4165.8999,
+      "price_now": 4170.1001,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 43.6,
-      "rsi_signal": "โซนกลาง (RSI=43.6)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 17.67569,
-      "suggested_sl_distance": 26.51354,
+      "rsi_value": 46.9,
+      "rsi_signal": "โซนกลาง (RSI=46.9)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 13.12105,
+      "suggested_sl_distance": 19.68157,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=43.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-05T15:50:00.799883+00:00"
+    "generated_at": "2026-10-05T22:29:23.669213+00:00"
   }
 ]
