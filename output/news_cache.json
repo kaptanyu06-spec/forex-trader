@@ -1,15 +1,25 @@
 {
-  "fetched_at": "2026-10-10T18:24:28.087909+00:00",
+  "fetched_at": "2026-10-10T22:23:09.643979+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0911,
+        "average_score": -0.0559,
         "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Private credit gains ground in New Zealand as regulators watch offshore risks",
+            "description": "Private credit is growing in New Zealand, fuelled by in part by a visa investment scheme.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-10-09T19:00:00Z",
+            "url": "https://www.nzherald.co.nz/business/companies/banking-finance/how-nz-is-playing-catch-up-with-rapidly-growing-global-private-credit-sector/premium/WMUCW4PUDRBHBOZO3ABUSJ4LHE/",
+            "sentiment_score": 0.4615,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "EUR",
             "title": "Egan-Jones Examines French Proposal to Cancel Central Bank Debt Holdings",
@@ -299,24 +309,154 @@
             "url": "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates",
             "sentiment_score": 0.3337,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Asian shares fall as rising oil prices, tech debt plans weigh on markets",
-            "description": "Asian equities came under pressure as rising oil prices pushed up bond yields, while plans by SpaceX, Broadcom, and Oracle to raise billions added to funding concerns",
-            "source": "Business Standard",
-            "published_at": "2026-10-08T02:26:55Z",
-            "url": "https://www.business-standard.com/markets/news/asian-shares-fall-as-rising-oil-prices-tech-debt-plans-weigh-on-markets-126100800101_1.html",
-            "sentiment_score": -0.1428,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0964,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0629,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump Says U.S. To Get Diesel From Russia, Relaxing Pressure On Moscow To Ease Prices Before Midterms",
+            "description": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow to combat prices ahead of midterms.",
+            "source": "HuffPost",
+            "published_at": "2026-10-09T21:21:10Z",
+            "url": "https://www.huffpost.com/entry/trump-putin-diesel_n_6ac95813e4b0942a61414e37",
+            "sentiment_score": 0.3488,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘Lower prices’: Trump confirms diesel deal reached with Putin to supply millions of tons of fuel",
+            "description": "'Prices for Americans and, indeed, the World, will be COMING DOWN'",
+            "source": "Wnd.com",
+            "published_at": "2026-10-09T21:20:45Z",
+            "url": "https://www.wnd.com/2026/10/lower-prices-trump-confirms-diesel-deal-reached-putin/",
+            "sentiment_score": 0.0719,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "Sometimes the key to building wealth is just sticking around, new Federal Reserve data suggests.\nThe 18 million U.S. households headed by someone 75 or older have the highest median net worth of any age group, according to the Fed's triennial Survey of Consum…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T21:20:39Z",
+            "url": "https://biztoc.com/x/d9ea55fb3d154333",
+            "sentiment_score": 0.5562,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "The smallest age group in the U.S. is also the richest, with a 37% jump in net worth over the last three years — far higher than any other group.",
+            "source": "CBS News",
+            "published_at": "2026-10-09T21:13:41Z",
+            "url": "https://www.cbsnews.com/news/fed-data-americans-over-75-richest/",
+            "sentiment_score": 0.5633,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump escalates effort to fire Federal Reserve governor Lisa Cook - The Washington Post",
+            "description": "Trump escalates effort to fire Federal Reserve governor Lisa CookThe Washington Post Trump launches new effort to oust Fed Governor Lisa CookCNN Can Trump’s New Bid to Fire the Fed’s Lisa Cook Succeed? What to Know.Bloomberg.com Trump establishes committee to…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T20:52:59Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186084884",
+            "sentiment_score": -0.2839,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Saving Grace of Trump’s Revenge Tour",
+            "description": "The president has launched two more efforts to turn his delusions into criminal charges for his enemies.",
+            "source": "Slate Magazine",
+            "published_at": "2026-10-09T20:47:21Z",
+            "url": "https://slate.com/news-and-politics/2026/10/trump-revenge-tour-cassidy-hutchinson-lisa-cook.html",
+            "sentiment_score": -0.3478,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Overdrafts Expose a Divide in Credit Access",
+            "description": "Running short of money before the next paycheck can force a consumer into making choices: let the checking account go negative, delay a bill, carry a card balance or seek additional credit. Consumers making those choices are also more likely to encounter futu…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T20:22:32Z",
+            "url": "https://www.pymnts.com/consumer-finance/2026/overdrafts-expose-a-divide-in-credit-access/",
+            "sentiment_score": 0.017,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Richest Americans Gained 19% in Wealth as Poorest Lost 56% Since 2022",
+            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nAmerica's wealthiest households gained nearly $800,000 in median net worth over three years, while median wealth among the poorest quarter fell by more than h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T20:00:06Z",
+            "url": "https://biztoc.com/x/e1e43e2151221c47",
+            "sentiment_score": 0.5939,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+            "description": "Spreads have widened in the high-yield bond market, but that doesn't tell the whole story.",
+            "source": "CNBC",
+            "published_at": "2026-10-09T19:43:18Z",
+            "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Canadian employment stumbles again with loss of 68,000 jobs in September",
+            "description": "Economy is facing serious headwinds, most notably U.S. tariffs, with the central bank less likely to raise interest rate this month",
+            "source": "The Globe And Mail",
+            "published_at": "2026-10-09T19:17:59Z",
+            "url": "https://www.theglobeandmail.com/business/article-canadian-jobs-report-economy-september-2026/",
+            "sentiment_score": -0.1022,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NCUA Proposes 26 Stablecoin Account Codes, Extending GENIUS Act Reporting to Credit Unions",
+            "description": "The NCUA’s New Data Playbook for Stablecoins The National Credit Union Administration (NCUA) has proposed its first stablecoin-specific reporting infrastructure. On October 9, 2026, the agency published a notice in the Federal Register proposing a new Schedul…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-09T19:17:50Z",
+            "url": "https://forkast.news/ncua-proposes-26-stablecoin-account-codes-extending-genius-act-reporting-to-credit-unions/",
+            "sentiment_score": 0.3818,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Two charts show how far homeownership is slipping out of reach as mortgage rates skyrocket",
+            "description": "Americans earning the median income used to be able to buy homes. But the homeownership affordability gap is widening, making that less likely.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T18:58:25Z",
+            "url": "https://www.businessinsider.com/housing-affordability-gap-median-income-homeownership-2026-10#article",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans' retirement savings grow as more families participate in plans",
+            "description": "Americans stepped up their participation in retirement plans and saw their savings grow in recent years, a new analysis from the Federal Reserve finds.\nThe Federal Reserve's Survey of Consumer Finances released a report on Friday detailing changes in U.S. fam…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T18:42:51Z",
+            "url": "https://biztoc.com/x/258ee2fe62d045fc",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump forms panel to probe Fed reserve governor Lisa Cook",
+            "description": "US President Donald Trump has set up a committee to probe Federal Reserve Governor Lisa Cook over alleged false statements linked to mortgages.\n\nRead More: https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "source": "The Punch",
+            "published_at": "2026-10-09T18:39:59Z",
+            "url": "https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -476,150 +616,10 @@
             "url": "https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations",
             "sentiment_score": -0.5859,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump promised to lower prices for Americans. Here's what the data shows.",
-            "description": "Just weeks before the midterm elections, 90% of Americans say prices in the U.S. are the main factor shaping their view of the economy. These charts show why.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T16:34:46Z",
-            "url": "https://www.cbsnews.com/news/trump-promised-lower-prices-cost-living-inflation/",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-            "description": "The ability of U.S. families to stay current on their debts worsened over the past three years, hitting levels not seen since the aftermath of the global financial crisis, the Federal Reserve reported Friday.\nIn the central bank's Survey of Consumer Finances,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:29:04Z",
-            "url": "https://biztoc.com/x/aaaaf6e0f2390cc0",
-            "sentiment_score": -0.6613,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Precious metals extend gains, silver jumps 3%",
-            "description": "The price of precious metals continued to rise on Friday after Federal Reserve Governor Christopher signaled that the central bank should remain \"flexible\" on interest rates and avoid consecutive hike...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:27:02Z",
-            "url": "https://biztoc.com/x/d5e86f3fa1833009",
-            "sentiment_score": 0.77,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFPB Adopts ‘Lighter Touch’ Bank Supervision Amid Funding Battle",
-            "description": "Banks and other consumer lending institutions are finding it easier these days to score a passing grade from Consumer Financial Protection Bureau (CFPB) examiners amid an ongoing battle over the agency’s funding and structure. According to Reuters, more than …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-09T16:25:19Z",
-            "url": "https://www.pymnts.com/legal/2026/cfpb-adopts-lighter-touch-bank-supervision-amid-funding-battle/",
-            "sentiment_score": -0.1429,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
-            "description": "Trump began efforts to remove Cook as one of the governors on the US Fed Reserve Board in 2025 and litigation is on.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-09T16:01:37Z",
-            "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Price of Money Has a Sharply Rising Trump Premium",
-            "description": "Rising term premium is not entirely due to Trump, but the timeline shows he's the driver of this trend.",
-            "source": "Jezebel",
-            "published_at": "2026-10-09T15:52:39Z",
-            "url": "https://www.jezebel.com/the-price-of-money-has-a-sharply-rising-trump-premium",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-            "description": "President Donald Trump formally established a \"committee of inquiry\" to investigate allegations that Federal Reserve Governor Lisa Cook made false statements related to \"one or more mortgage instruments,\" the White House announced Friday.\nThe extraordinary an…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:44:16Z",
-            "url": "https://biztoc.com/x/861ef3ec9c3236fa",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump intensifies campaign against Fed’s Lisa Cook, establishes new inquiry panel",
-            "description": "It was 14 months ago when Donald Trump, exercising a power the president didn’t appear to have, claimed he had fired Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: He wanted to seize greater control over the Fed…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:41:49Z",
-            "url": "https://biztoc.com/x/1e4776c53a400c01",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump creates committee to investigate Fed's Lisa Cook",
-            "description": "President Trump established a committee to look into allegations that Fed Governor Lisa Cook made false statements on mortgage documents, the latest step in his renewed effort to fire her.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T15:39:57Z",
-            "url": "https://www.cbsnews.com/news/trump-lisa-cook-committee-fed-governor/",
-            "sentiment_score": 0.0892,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump sets up committee to probe Federal Reserve Governor Lisa Cook in latest bid to fire her",
-            "description": "US President Donald Trump has set up a committee to investigate Federal Reserve Governor Lisa Cook over allegations that she made false statements in",
-            "source": "The Times of India",
-            "published_at": "2026-10-09T15:38:16Z",
-            "url": "https://timesofindia.indiatimes.com/world/us/trump-sets-up-committee-to-probe-federal-reserve-governor-lisa-cook-in-latest-bid-to-fire-her/articleshow/134837553.cms",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud",
-            "description": "The president has been trying to fire Lisa Cook from the Federal Reserve's seven-member board of governors for more than a year.\nThe post Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud first appeared on Mediaite.",
-            "source": "Mediaite",
-            "published_at": "2026-10-09T15:32:46Z",
-            "url": "https://www.mediaite.com/media/news/trump-creates-committee-to-probe-fed-reserve-governor-lisa-cook-for-mortgage-fraud/",
-            "sentiment_score": -0.4688,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
-            "description": "President Donald Trump on Friday signed an order directing the attorney general and other top federal officials to establish a committee to investigate Federal Reserve governor Lisa Cook, in his latest attempt to fire her.\n“By the authority vested in me as Pr…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:29:23Z",
-            "url": "https://biztoc.com/x/ddba7b6ba07107c2",
-            "sentiment_score": -0.2148,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Ramps Up Crusade Against the Fed’s Lisa Cook With New Inquiry",
-            "description": "President Donald Trump is still going after Federal Reserve Commissioner Lisa Cook. In a presidential memo Wednesday, Trump announced that he’d set up a committee to oversee an investigation into whether Cook had made false statements in connection to one or …",
-            "source": "The New Republic",
-            "published_at": "2026-10-09T15:28:17Z",
-            "url": "https://newrepublic.com/post/216460/trump-crusade-federal-reserve-lisa-cook-committee",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lawyers: Cook did not commit mortgage fraud",
-            "description": "Federal Reserve Governor Lisa Cook's legal team stated on Friday that the 62-year-old economist did not commit \"mortgage fraud,\" stressing that there is \"no cause\" to remove her from the position afte...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:26:25Z",
-            "url": "https://biztoc.com/x/5b61dd4951396f42",
-            "sentiment_score": 0.2189,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0053,
+      "net_score": -0.1188,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -809,10 +809,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0964,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0629,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump Says U.S. To Get Diesel From Russia, Relaxing Pressure On Moscow To Ease Prices Before Midterms",
+            "description": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow to combat prices ahead of midterms.",
+            "source": "HuffPost",
+            "published_at": "2026-10-09T21:21:10Z",
+            "url": "https://www.huffpost.com/entry/trump-putin-diesel_n_6ac95813e4b0942a61414e37",
+            "sentiment_score": 0.3488,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘Lower prices’: Trump confirms diesel deal reached with Putin to supply millions of tons of fuel",
+            "description": "'Prices for Americans and, indeed, the World, will be COMING DOWN'",
+            "source": "Wnd.com",
+            "published_at": "2026-10-09T21:20:45Z",
+            "url": "https://www.wnd.com/2026/10/lower-prices-trump-confirms-diesel-deal-reached-putin/",
+            "sentiment_score": 0.0719,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "Sometimes the key to building wealth is just sticking around, new Federal Reserve data suggests.\nThe 18 million U.S. households headed by someone 75 or older have the highest median net worth of any age group, according to the Fed's triennial Survey of Consum…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T21:20:39Z",
+            "url": "https://biztoc.com/x/d9ea55fb3d154333",
+            "sentiment_score": 0.5562,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "The smallest age group in the U.S. is also the richest, with a 37% jump in net worth over the last three years — far higher than any other group.",
+            "source": "CBS News",
+            "published_at": "2026-10-09T21:13:41Z",
+            "url": "https://www.cbsnews.com/news/fed-data-americans-over-75-richest/",
+            "sentiment_score": 0.5633,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump escalates effort to fire Federal Reserve governor Lisa Cook - The Washington Post",
+            "description": "Trump escalates effort to fire Federal Reserve governor Lisa CookThe Washington Post Trump launches new effort to oust Fed Governor Lisa CookCNN Can Trump’s New Bid to Fire the Fed’s Lisa Cook Succeed? What to Know.Bloomberg.com Trump establishes committee to…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T20:52:59Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186084884",
+            "sentiment_score": -0.2839,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Saving Grace of Trump’s Revenge Tour",
+            "description": "The president has launched two more efforts to turn his delusions into criminal charges for his enemies.",
+            "source": "Slate Magazine",
+            "published_at": "2026-10-09T20:47:21Z",
+            "url": "https://slate.com/news-and-politics/2026/10/trump-revenge-tour-cassidy-hutchinson-lisa-cook.html",
+            "sentiment_score": -0.3478,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Overdrafts Expose a Divide in Credit Access",
+            "description": "Running short of money before the next paycheck can force a consumer into making choices: let the checking account go negative, delay a bill, carry a card balance or seek additional credit. Consumers making those choices are also more likely to encounter futu…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T20:22:32Z",
+            "url": "https://www.pymnts.com/consumer-finance/2026/overdrafts-expose-a-divide-in-credit-access/",
+            "sentiment_score": 0.017,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Richest Americans Gained 19% in Wealth as Poorest Lost 56% Since 2022",
+            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nAmerica's wealthiest households gained nearly $800,000 in median net worth over three years, while median wealth among the poorest quarter fell by more than h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T20:00:06Z",
+            "url": "https://biztoc.com/x/e1e43e2151221c47",
+            "sentiment_score": 0.5939,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+            "description": "Spreads have widened in the high-yield bond market, but that doesn't tell the whole story.",
+            "source": "CNBC",
+            "published_at": "2026-10-09T19:43:18Z",
+            "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Canadian employment stumbles again with loss of 68,000 jobs in September",
+            "description": "Economy is facing serious headwinds, most notably U.S. tariffs, with the central bank less likely to raise interest rate this month",
+            "source": "The Globe And Mail",
+            "published_at": "2026-10-09T19:17:59Z",
+            "url": "https://www.theglobeandmail.com/business/article-canadian-jobs-report-economy-september-2026/",
+            "sentiment_score": -0.1022,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NCUA Proposes 26 Stablecoin Account Codes, Extending GENIUS Act Reporting to Credit Unions",
+            "description": "The NCUA’s New Data Playbook for Stablecoins The National Credit Union Administration (NCUA) has proposed its first stablecoin-specific reporting infrastructure. On October 9, 2026, the agency published a notice in the Federal Register proposing a new Schedul…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-09T19:17:50Z",
+            "url": "https://forkast.news/ncua-proposes-26-stablecoin-account-codes-extending-genius-act-reporting-to-credit-unions/",
+            "sentiment_score": 0.3818,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Two charts show how far homeownership is slipping out of reach as mortgage rates skyrocket",
+            "description": "Americans earning the median income used to be able to buy homes. But the homeownership affordability gap is widening, making that less likely.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T18:58:25Z",
+            "url": "https://www.businessinsider.com/housing-affordability-gap-median-income-homeownership-2026-10#article",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans' retirement savings grow as more families participate in plans",
+            "description": "Americans stepped up their participation in retirement plans and saw their savings grow in recent years, a new analysis from the Federal Reserve finds.\nThe Federal Reserve's Survey of Consumer Finances released a report on Friday detailing changes in U.S. fam…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T18:42:51Z",
+            "url": "https://biztoc.com/x/258ee2fe62d045fc",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump forms panel to probe Fed reserve governor Lisa Cook",
+            "description": "US President Donald Trump has set up a committee to probe Federal Reserve Governor Lisa Cook over alleged false statements linked to mortgages.\n\nRead More: https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "source": "The Punch",
+            "published_at": "2026-10-09T18:39:59Z",
+            "url": "https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -972,150 +1112,10 @@
             "url": "https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations",
             "sentiment_score": -0.5859,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump promised to lower prices for Americans. Here's what the data shows.",
-            "description": "Just weeks before the midterm elections, 90% of Americans say prices in the U.S. are the main factor shaping their view of the economy. These charts show why.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T16:34:46Z",
-            "url": "https://www.cbsnews.com/news/trump-promised-lower-prices-cost-living-inflation/",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-            "description": "The ability of U.S. families to stay current on their debts worsened over the past three years, hitting levels not seen since the aftermath of the global financial crisis, the Federal Reserve reported Friday.\nIn the central bank's Survey of Consumer Finances,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:29:04Z",
-            "url": "https://biztoc.com/x/aaaaf6e0f2390cc0",
-            "sentiment_score": -0.6613,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Precious metals extend gains, silver jumps 3%",
-            "description": "The price of precious metals continued to rise on Friday after Federal Reserve Governor Christopher signaled that the central bank should remain \"flexible\" on interest rates and avoid consecutive hike...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:27:02Z",
-            "url": "https://biztoc.com/x/d5e86f3fa1833009",
-            "sentiment_score": 0.77,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFPB Adopts ‘Lighter Touch’ Bank Supervision Amid Funding Battle",
-            "description": "Banks and other consumer lending institutions are finding it easier these days to score a passing grade from Consumer Financial Protection Bureau (CFPB) examiners amid an ongoing battle over the agency’s funding and structure. According to Reuters, more than …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-09T16:25:19Z",
-            "url": "https://www.pymnts.com/legal/2026/cfpb-adopts-lighter-touch-bank-supervision-amid-funding-battle/",
-            "sentiment_score": -0.1429,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
-            "description": "Trump began efforts to remove Cook as one of the governors on the US Fed Reserve Board in 2025 and litigation is on.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-09T16:01:37Z",
-            "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Price of Money Has a Sharply Rising Trump Premium",
-            "description": "Rising term premium is not entirely due to Trump, but the timeline shows he's the driver of this trend.",
-            "source": "Jezebel",
-            "published_at": "2026-10-09T15:52:39Z",
-            "url": "https://www.jezebel.com/the-price-of-money-has-a-sharply-rising-trump-premium",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-            "description": "President Donald Trump formally established a \"committee of inquiry\" to investigate allegations that Federal Reserve Governor Lisa Cook made false statements related to \"one or more mortgage instruments,\" the White House announced Friday.\nThe extraordinary an…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:44:16Z",
-            "url": "https://biztoc.com/x/861ef3ec9c3236fa",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump intensifies campaign against Fed’s Lisa Cook, establishes new inquiry panel",
-            "description": "It was 14 months ago when Donald Trump, exercising a power the president didn’t appear to have, claimed he had fired Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: He wanted to seize greater control over the Fed…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:41:49Z",
-            "url": "https://biztoc.com/x/1e4776c53a400c01",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump creates committee to investigate Fed's Lisa Cook",
-            "description": "President Trump established a committee to look into allegations that Fed Governor Lisa Cook made false statements on mortgage documents, the latest step in his renewed effort to fire her.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T15:39:57Z",
-            "url": "https://www.cbsnews.com/news/trump-lisa-cook-committee-fed-governor/",
-            "sentiment_score": 0.0892,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump sets up committee to probe Federal Reserve Governor Lisa Cook in latest bid to fire her",
-            "description": "US President Donald Trump has set up a committee to investigate Federal Reserve Governor Lisa Cook over allegations that she made false statements in",
-            "source": "The Times of India",
-            "published_at": "2026-10-09T15:38:16Z",
-            "url": "https://timesofindia.indiatimes.com/world/us/trump-sets-up-committee-to-probe-federal-reserve-governor-lisa-cook-in-latest-bid-to-fire-her/articleshow/134837553.cms",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud",
-            "description": "The president has been trying to fire Lisa Cook from the Federal Reserve's seven-member board of governors for more than a year.\nThe post Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud first appeared on Mediaite.",
-            "source": "Mediaite",
-            "published_at": "2026-10-09T15:32:46Z",
-            "url": "https://www.mediaite.com/media/news/trump-creates-committee-to-probe-fed-reserve-governor-lisa-cook-for-mortgage-fraud/",
-            "sentiment_score": -0.4688,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
-            "description": "President Donald Trump on Friday signed an order directing the attorney general and other top federal officials to establish a committee to investigate Federal Reserve governor Lisa Cook, in his latest attempt to fire her.\n“By the authority vested in me as Pr…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:29:23Z",
-            "url": "https://biztoc.com/x/ddba7b6ba07107c2",
-            "sentiment_score": -0.2148,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Ramps Up Crusade Against the Fed’s Lisa Cook With New Inquiry",
-            "description": "President Donald Trump is still going after Federal Reserve Commissioner Lisa Cook. In a presidential memo Wednesday, Trump announced that he’d set up a committee to oversee an investigation into whether Cook had made false statements in connection to one or …",
-            "source": "The New Republic",
-            "published_at": "2026-10-09T15:28:17Z",
-            "url": "https://newrepublic.com/post/216460/trump-crusade-federal-reserve-lisa-cook-committee",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lawyers: Cook did not commit mortgage fraud",
-            "description": "Federal Reserve Governor Lisa Cook's legal team stated on Friday that the 62-year-old economist did not commit \"mortgage fraud,\" stressing that there is \"no cause\" to remove her from the position afte...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:26:25Z",
-            "url": "https://biztoc.com/x/5b61dd4951396f42",
-            "sentiment_score": 0.2189,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0451,
+      "net_score": -0.1142,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1128,10 +1128,150 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0964,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0629,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump Says U.S. To Get Diesel From Russia, Relaxing Pressure On Moscow To Ease Prices Before Midterms",
+            "description": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow to combat prices ahead of midterms.",
+            "source": "HuffPost",
+            "published_at": "2026-10-09T21:21:10Z",
+            "url": "https://www.huffpost.com/entry/trump-putin-diesel_n_6ac95813e4b0942a61414e37",
+            "sentiment_score": 0.3488,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘Lower prices’: Trump confirms diesel deal reached with Putin to supply millions of tons of fuel",
+            "description": "'Prices for Americans and, indeed, the World, will be COMING DOWN'",
+            "source": "Wnd.com",
+            "published_at": "2026-10-09T21:20:45Z",
+            "url": "https://www.wnd.com/2026/10/lower-prices-trump-confirms-diesel-deal-reached-putin/",
+            "sentiment_score": 0.0719,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "Sometimes the key to building wealth is just sticking around, new Federal Reserve data suggests.\nThe 18 million U.S. households headed by someone 75 or older have the highest median net worth of any age group, according to the Fed's triennial Survey of Consum…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T21:20:39Z",
+            "url": "https://biztoc.com/x/d9ea55fb3d154333",
+            "sentiment_score": 0.5562,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "The smallest age group in the U.S. is also the richest, with a 37% jump in net worth over the last three years — far higher than any other group.",
+            "source": "CBS News",
+            "published_at": "2026-10-09T21:13:41Z",
+            "url": "https://www.cbsnews.com/news/fed-data-americans-over-75-richest/",
+            "sentiment_score": 0.5633,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump escalates effort to fire Federal Reserve governor Lisa Cook - The Washington Post",
+            "description": "Trump escalates effort to fire Federal Reserve governor Lisa CookThe Washington Post Trump launches new effort to oust Fed Governor Lisa CookCNN Can Trump’s New Bid to Fire the Fed’s Lisa Cook Succeed? What to Know.Bloomberg.com Trump establishes committee to…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T20:52:59Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186084884",
+            "sentiment_score": -0.2839,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Saving Grace of Trump’s Revenge Tour",
+            "description": "The president has launched two more efforts to turn his delusions into criminal charges for his enemies.",
+            "source": "Slate Magazine",
+            "published_at": "2026-10-09T20:47:21Z",
+            "url": "https://slate.com/news-and-politics/2026/10/trump-revenge-tour-cassidy-hutchinson-lisa-cook.html",
+            "sentiment_score": -0.3478,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Overdrafts Expose a Divide in Credit Access",
+            "description": "Running short of money before the next paycheck can force a consumer into making choices: let the checking account go negative, delay a bill, carry a card balance or seek additional credit. Consumers making those choices are also more likely to encounter futu…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T20:22:32Z",
+            "url": "https://www.pymnts.com/consumer-finance/2026/overdrafts-expose-a-divide-in-credit-access/",
+            "sentiment_score": 0.017,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Richest Americans Gained 19% in Wealth as Poorest Lost 56% Since 2022",
+            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nAmerica's wealthiest households gained nearly $800,000 in median net worth over three years, while median wealth among the poorest quarter fell by more than h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T20:00:06Z",
+            "url": "https://biztoc.com/x/e1e43e2151221c47",
+            "sentiment_score": 0.5939,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+            "description": "Spreads have widened in the high-yield bond market, but that doesn't tell the whole story.",
+            "source": "CNBC",
+            "published_at": "2026-10-09T19:43:18Z",
+            "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Canadian employment stumbles again with loss of 68,000 jobs in September",
+            "description": "Economy is facing serious headwinds, most notably U.S. tariffs, with the central bank less likely to raise interest rate this month",
+            "source": "The Globe And Mail",
+            "published_at": "2026-10-09T19:17:59Z",
+            "url": "https://www.theglobeandmail.com/business/article-canadian-jobs-report-economy-september-2026/",
+            "sentiment_score": -0.1022,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NCUA Proposes 26 Stablecoin Account Codes, Extending GENIUS Act Reporting to Credit Unions",
+            "description": "The NCUA’s New Data Playbook for Stablecoins The National Credit Union Administration (NCUA) has proposed its first stablecoin-specific reporting infrastructure. On October 9, 2026, the agency published a notice in the Federal Register proposing a new Schedul…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-09T19:17:50Z",
+            "url": "https://forkast.news/ncua-proposes-26-stablecoin-account-codes-extending-genius-act-reporting-to-credit-unions/",
+            "sentiment_score": 0.3818,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Two charts show how far homeownership is slipping out of reach as mortgage rates skyrocket",
+            "description": "Americans earning the median income used to be able to buy homes. But the homeownership affordability gap is widening, making that less likely.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T18:58:25Z",
+            "url": "https://www.businessinsider.com/housing-affordability-gap-median-income-homeownership-2026-10#article",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans' retirement savings grow as more families participate in plans",
+            "description": "Americans stepped up their participation in retirement plans and saw their savings grow in recent years, a new analysis from the Federal Reserve finds.\nThe Federal Reserve's Survey of Consumer Finances released a report on Friday detailing changes in U.S. fam…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T18:42:51Z",
+            "url": "https://biztoc.com/x/258ee2fe62d045fc",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump forms panel to probe Fed reserve governor Lisa Cook",
+            "description": "US President Donald Trump has set up a committee to probe Federal Reserve Governor Lisa Cook over alleged false statements linked to mortgages.\n\nRead More: https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "source": "The Punch",
+            "published_at": "2026-10-09T18:39:59Z",
+            "url": "https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -1291,146 +1431,6 @@
             "url": "https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations",
             "sentiment_score": -0.5859,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump promised to lower prices for Americans. Here's what the data shows.",
-            "description": "Just weeks before the midterm elections, 90% of Americans say prices in the U.S. are the main factor shaping their view of the economy. These charts show why.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T16:34:46Z",
-            "url": "https://www.cbsnews.com/news/trump-promised-lower-prices-cost-living-inflation/",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-            "description": "The ability of U.S. families to stay current on their debts worsened over the past three years, hitting levels not seen since the aftermath of the global financial crisis, the Federal Reserve reported Friday.\nIn the central bank's Survey of Consumer Finances,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:29:04Z",
-            "url": "https://biztoc.com/x/aaaaf6e0f2390cc0",
-            "sentiment_score": -0.6613,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Precious metals extend gains, silver jumps 3%",
-            "description": "The price of precious metals continued to rise on Friday after Federal Reserve Governor Christopher signaled that the central bank should remain \"flexible\" on interest rates and avoid consecutive hike...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:27:02Z",
-            "url": "https://biztoc.com/x/d5e86f3fa1833009",
-            "sentiment_score": 0.77,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFPB Adopts ‘Lighter Touch’ Bank Supervision Amid Funding Battle",
-            "description": "Banks and other consumer lending institutions are finding it easier these days to score a passing grade from Consumer Financial Protection Bureau (CFPB) examiners amid an ongoing battle over the agency’s funding and structure. According to Reuters, more than …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-09T16:25:19Z",
-            "url": "https://www.pymnts.com/legal/2026/cfpb-adopts-lighter-touch-bank-supervision-amid-funding-battle/",
-            "sentiment_score": -0.1429,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
-            "description": "Trump began efforts to remove Cook as one of the governors on the US Fed Reserve Board in 2025 and litigation is on.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-09T16:01:37Z",
-            "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Price of Money Has a Sharply Rising Trump Premium",
-            "description": "Rising term premium is not entirely due to Trump, but the timeline shows he's the driver of this trend.",
-            "source": "Jezebel",
-            "published_at": "2026-10-09T15:52:39Z",
-            "url": "https://www.jezebel.com/the-price-of-money-has-a-sharply-rising-trump-premium",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-            "description": "President Donald Trump formally established a \"committee of inquiry\" to investigate allegations that Federal Reserve Governor Lisa Cook made false statements related to \"one or more mortgage instruments,\" the White House announced Friday.\nThe extraordinary an…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:44:16Z",
-            "url": "https://biztoc.com/x/861ef3ec9c3236fa",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump intensifies campaign against Fed’s Lisa Cook, establishes new inquiry panel",
-            "description": "It was 14 months ago when Donald Trump, exercising a power the president didn’t appear to have, claimed he had fired Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: He wanted to seize greater control over the Fed…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:41:49Z",
-            "url": "https://biztoc.com/x/1e4776c53a400c01",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump creates committee to investigate Fed's Lisa Cook",
-            "description": "President Trump established a committee to look into allegations that Fed Governor Lisa Cook made false statements on mortgage documents, the latest step in his renewed effort to fire her.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T15:39:57Z",
-            "url": "https://www.cbsnews.com/news/trump-lisa-cook-committee-fed-governor/",
-            "sentiment_score": 0.0892,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump sets up committee to probe Federal Reserve Governor Lisa Cook in latest bid to fire her",
-            "description": "US President Donald Trump has set up a committee to investigate Federal Reserve Governor Lisa Cook over allegations that she made false statements in",
-            "source": "The Times of India",
-            "published_at": "2026-10-09T15:38:16Z",
-            "url": "https://timesofindia.indiatimes.com/world/us/trump-sets-up-committee-to-probe-federal-reserve-governor-lisa-cook-in-latest-bid-to-fire-her/articleshow/134837553.cms",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud",
-            "description": "The president has been trying to fire Lisa Cook from the Federal Reserve's seven-member board of governors for more than a year.\nThe post Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud first appeared on Mediaite.",
-            "source": "Mediaite",
-            "published_at": "2026-10-09T15:32:46Z",
-            "url": "https://www.mediaite.com/media/news/trump-creates-committee-to-probe-fed-reserve-governor-lisa-cook-for-mortgage-fraud/",
-            "sentiment_score": -0.4688,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
-            "description": "President Donald Trump on Friday signed an order directing the attorney general and other top federal officials to establish a committee to investigate Federal Reserve governor Lisa Cook, in his latest attempt to fire her.\n“By the authority vested in me as Pr…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:29:23Z",
-            "url": "https://biztoc.com/x/ddba7b6ba07107c2",
-            "sentiment_score": -0.2148,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Ramps Up Crusade Against the Fed’s Lisa Cook With New Inquiry",
-            "description": "President Donald Trump is still going after Federal Reserve Commissioner Lisa Cook. In a presidential memo Wednesday, Trump announced that he’d set up a committee to oversee an investigation into whether Cook had made false statements in connection to one or …",
-            "source": "The New Republic",
-            "published_at": "2026-10-09T15:28:17Z",
-            "url": "https://newrepublic.com/post/216460/trump-crusade-federal-reserve-lisa-cook-committee",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lawyers: Cook did not commit mortgage fraud",
-            "description": "Federal Reserve Governor Lisa Cook's legal team stated on Friday that the 62-year-old economist did not commit \"mortgage fraud,\" stressing that there is \"no cause\" to remove her from the position afte...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:26:25Z",
-            "url": "https://biztoc.com/x/5b61dd4951396f42",
-            "sentiment_score": 0.2189,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
@@ -1571,11 +1571,11 @@
           }
         ]
       },
-      "net_score": -0.1547,
-      "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
+      "net_score": 0.0046,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1671,10 +1671,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0964,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0629,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump Says U.S. To Get Diesel From Russia, Relaxing Pressure On Moscow To Ease Prices Before Midterms",
+            "description": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow to combat prices ahead of midterms.",
+            "source": "HuffPost",
+            "published_at": "2026-10-09T21:21:10Z",
+            "url": "https://www.huffpost.com/entry/trump-putin-diesel_n_6ac95813e4b0942a61414e37",
+            "sentiment_score": 0.3488,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘Lower prices’: Trump confirms diesel deal reached with Putin to supply millions of tons of fuel",
+            "description": "'Prices for Americans and, indeed, the World, will be COMING DOWN'",
+            "source": "Wnd.com",
+            "published_at": "2026-10-09T21:20:45Z",
+            "url": "https://www.wnd.com/2026/10/lower-prices-trump-confirms-diesel-deal-reached-putin/",
+            "sentiment_score": 0.0719,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "Sometimes the key to building wealth is just sticking around, new Federal Reserve data suggests.\nThe 18 million U.S. households headed by someone 75 or older have the highest median net worth of any age group, according to the Fed's triennial Survey of Consum…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T21:20:39Z",
+            "url": "https://biztoc.com/x/d9ea55fb3d154333",
+            "sentiment_score": 0.5562,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "The smallest age group in the U.S. is also the richest, with a 37% jump in net worth over the last three years — far higher than any other group.",
+            "source": "CBS News",
+            "published_at": "2026-10-09T21:13:41Z",
+            "url": "https://www.cbsnews.com/news/fed-data-americans-over-75-richest/",
+            "sentiment_score": 0.5633,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump escalates effort to fire Federal Reserve governor Lisa Cook - The Washington Post",
+            "description": "Trump escalates effort to fire Federal Reserve governor Lisa CookThe Washington Post Trump launches new effort to oust Fed Governor Lisa CookCNN Can Trump’s New Bid to Fire the Fed’s Lisa Cook Succeed? What to Know.Bloomberg.com Trump establishes committee to…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T20:52:59Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186084884",
+            "sentiment_score": -0.2839,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Saving Grace of Trump’s Revenge Tour",
+            "description": "The president has launched two more efforts to turn his delusions into criminal charges for his enemies.",
+            "source": "Slate Magazine",
+            "published_at": "2026-10-09T20:47:21Z",
+            "url": "https://slate.com/news-and-politics/2026/10/trump-revenge-tour-cassidy-hutchinson-lisa-cook.html",
+            "sentiment_score": -0.3478,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Overdrafts Expose a Divide in Credit Access",
+            "description": "Running short of money before the next paycheck can force a consumer into making choices: let the checking account go negative, delay a bill, carry a card balance or seek additional credit. Consumers making those choices are also more likely to encounter futu…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T20:22:32Z",
+            "url": "https://www.pymnts.com/consumer-finance/2026/overdrafts-expose-a-divide-in-credit-access/",
+            "sentiment_score": 0.017,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Richest Americans Gained 19% in Wealth as Poorest Lost 56% Since 2022",
+            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nAmerica's wealthiest households gained nearly $800,000 in median net worth over three years, while median wealth among the poorest quarter fell by more than h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T20:00:06Z",
+            "url": "https://biztoc.com/x/e1e43e2151221c47",
+            "sentiment_score": 0.5939,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+            "description": "Spreads have widened in the high-yield bond market, but that doesn't tell the whole story.",
+            "source": "CNBC",
+            "published_at": "2026-10-09T19:43:18Z",
+            "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Canadian employment stumbles again with loss of 68,000 jobs in September",
+            "description": "Economy is facing serious headwinds, most notably U.S. tariffs, with the central bank less likely to raise interest rate this month",
+            "source": "The Globe And Mail",
+            "published_at": "2026-10-09T19:17:59Z",
+            "url": "https://www.theglobeandmail.com/business/article-canadian-jobs-report-economy-september-2026/",
+            "sentiment_score": -0.1022,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NCUA Proposes 26 Stablecoin Account Codes, Extending GENIUS Act Reporting to Credit Unions",
+            "description": "The NCUA’s New Data Playbook for Stablecoins The National Credit Union Administration (NCUA) has proposed its first stablecoin-specific reporting infrastructure. On October 9, 2026, the agency published a notice in the Federal Register proposing a new Schedul…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-09T19:17:50Z",
+            "url": "https://forkast.news/ncua-proposes-26-stablecoin-account-codes-extending-genius-act-reporting-to-credit-unions/",
+            "sentiment_score": 0.3818,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Two charts show how far homeownership is slipping out of reach as mortgage rates skyrocket",
+            "description": "Americans earning the median income used to be able to buy homes. But the homeownership affordability gap is widening, making that less likely.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T18:58:25Z",
+            "url": "https://www.businessinsider.com/housing-affordability-gap-median-income-homeownership-2026-10#article",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans' retirement savings grow as more families participate in plans",
+            "description": "Americans stepped up their participation in retirement plans and saw their savings grow in recent years, a new analysis from the Federal Reserve finds.\nThe Federal Reserve's Survey of Consumer Finances released a report on Friday detailing changes in U.S. fam…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T18:42:51Z",
+            "url": "https://biztoc.com/x/258ee2fe62d045fc",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump forms panel to probe Fed reserve governor Lisa Cook",
+            "description": "US President Donald Trump has set up a committee to probe Federal Reserve Governor Lisa Cook over alleged false statements linked to mortgages.\n\nRead More: https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "source": "The Punch",
+            "published_at": "2026-10-09T18:39:59Z",
+            "url": "https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -1834,154 +1974,14 @@
             "url": "https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations",
             "sentiment_score": -0.5859,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump promised to lower prices for Americans. Here's what the data shows.",
-            "description": "Just weeks before the midterm elections, 90% of Americans say prices in the U.S. are the main factor shaping their view of the economy. These charts show why.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T16:34:46Z",
-            "url": "https://www.cbsnews.com/news/trump-promised-lower-prices-cost-living-inflation/",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-            "description": "The ability of U.S. families to stay current on their debts worsened over the past three years, hitting levels not seen since the aftermath of the global financial crisis, the Federal Reserve reported Friday.\nIn the central bank's Survey of Consumer Finances,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:29:04Z",
-            "url": "https://biztoc.com/x/aaaaf6e0f2390cc0",
-            "sentiment_score": -0.6613,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Precious metals extend gains, silver jumps 3%",
-            "description": "The price of precious metals continued to rise on Friday after Federal Reserve Governor Christopher signaled that the central bank should remain \"flexible\" on interest rates and avoid consecutive hike...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:27:02Z",
-            "url": "https://biztoc.com/x/d5e86f3fa1833009",
-            "sentiment_score": 0.77,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFPB Adopts ‘Lighter Touch’ Bank Supervision Amid Funding Battle",
-            "description": "Banks and other consumer lending institutions are finding it easier these days to score a passing grade from Consumer Financial Protection Bureau (CFPB) examiners amid an ongoing battle over the agency’s funding and structure. According to Reuters, more than …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-09T16:25:19Z",
-            "url": "https://www.pymnts.com/legal/2026/cfpb-adopts-lighter-touch-bank-supervision-amid-funding-battle/",
-            "sentiment_score": -0.1429,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
-            "description": "Trump began efforts to remove Cook as one of the governors on the US Fed Reserve Board in 2025 and litigation is on.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-09T16:01:37Z",
-            "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Price of Money Has a Sharply Rising Trump Premium",
-            "description": "Rising term premium is not entirely due to Trump, but the timeline shows he's the driver of this trend.",
-            "source": "Jezebel",
-            "published_at": "2026-10-09T15:52:39Z",
-            "url": "https://www.jezebel.com/the-price-of-money-has-a-sharply-rising-trump-premium",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-            "description": "President Donald Trump formally established a \"committee of inquiry\" to investigate allegations that Federal Reserve Governor Lisa Cook made false statements related to \"one or more mortgage instruments,\" the White House announced Friday.\nThe extraordinary an…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:44:16Z",
-            "url": "https://biztoc.com/x/861ef3ec9c3236fa",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump intensifies campaign against Fed’s Lisa Cook, establishes new inquiry panel",
-            "description": "It was 14 months ago when Donald Trump, exercising a power the president didn’t appear to have, claimed he had fired Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: He wanted to seize greater control over the Fed…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:41:49Z",
-            "url": "https://biztoc.com/x/1e4776c53a400c01",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump creates committee to investigate Fed's Lisa Cook",
-            "description": "President Trump established a committee to look into allegations that Fed Governor Lisa Cook made false statements on mortgage documents, the latest step in his renewed effort to fire her.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T15:39:57Z",
-            "url": "https://www.cbsnews.com/news/trump-lisa-cook-committee-fed-governor/",
-            "sentiment_score": 0.0892,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump sets up committee to probe Federal Reserve Governor Lisa Cook in latest bid to fire her",
-            "description": "US President Donald Trump has set up a committee to investigate Federal Reserve Governor Lisa Cook over allegations that she made false statements in",
-            "source": "The Times of India",
-            "published_at": "2026-10-09T15:38:16Z",
-            "url": "https://timesofindia.indiatimes.com/world/us/trump-sets-up-committee-to-probe-federal-reserve-governor-lisa-cook-in-latest-bid-to-fire-her/articleshow/134837553.cms",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud",
-            "description": "The president has been trying to fire Lisa Cook from the Federal Reserve's seven-member board of governors for more than a year.\nThe post Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud first appeared on Mediaite.",
-            "source": "Mediaite",
-            "published_at": "2026-10-09T15:32:46Z",
-            "url": "https://www.mediaite.com/media/news/trump-creates-committee-to-probe-fed-reserve-governor-lisa-cook-for-mortgage-fraud/",
-            "sentiment_score": -0.4688,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
-            "description": "President Donald Trump on Friday signed an order directing the attorney general and other top federal officials to establish a committee to investigate Federal Reserve governor Lisa Cook, in his latest attempt to fire her.\n“By the authority vested in me as Pr…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:29:23Z",
-            "url": "https://biztoc.com/x/ddba7b6ba07107c2",
-            "sentiment_score": -0.2148,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Ramps Up Crusade Against the Fed’s Lisa Cook With New Inquiry",
-            "description": "President Donald Trump is still going after Federal Reserve Commissioner Lisa Cook. In a presidential memo Wednesday, Trump announced that he’d set up a committee to oversee an investigation into whether Cook had made false statements in connection to one or …",
-            "source": "The New Republic",
-            "published_at": "2026-10-09T15:28:17Z",
-            "url": "https://newrepublic.com/post/216460/trump-crusade-federal-reserve-lisa-cook-committee",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lawyers: Cook did not commit mortgage fraud",
-            "description": "Federal Reserve Governor Lisa Cook's legal team stated on Friday that the 62-year-old economist did not commit \"mortgage fraud,\" stressing that there is \"no cause\" to remove her from the position afte...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:26:25Z",
-            "url": "https://biztoc.com/x/5b61dd4951396f42",
-            "sentiment_score": 0.2189,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0318,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1911,
+      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -2167,10 +2167,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0964,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.0629,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Trump Says U.S. To Get Diesel From Russia, Relaxing Pressure On Moscow To Ease Prices Before Midterms",
+            "description": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow to combat prices ahead of midterms.",
+            "source": "HuffPost",
+            "published_at": "2026-10-09T21:21:10Z",
+            "url": "https://www.huffpost.com/entry/trump-putin-diesel_n_6ac95813e4b0942a61414e37",
+            "sentiment_score": 0.3488,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "‘Lower prices’: Trump confirms diesel deal reached with Putin to supply millions of tons of fuel",
+            "description": "'Prices for Americans and, indeed, the World, will be COMING DOWN'",
+            "source": "Wnd.com",
+            "published_at": "2026-10-09T21:20:45Z",
+            "url": "https://www.wnd.com/2026/10/lower-prices-trump-confirms-diesel-deal-reached-putin/",
+            "sentiment_score": 0.0719,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "Sometimes the key to building wealth is just sticking around, new Federal Reserve data suggests.\nThe 18 million U.S. households headed by someone 75 or older have the highest median net worth of any age group, according to the Fed's triennial Survey of Consum…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T21:20:39Z",
+            "url": "https://biztoc.com/x/d9ea55fb3d154333",
+            "sentiment_score": 0.5562,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "These 18 million households now rank as America's richest",
+            "description": "The smallest age group in the U.S. is also the richest, with a 37% jump in net worth over the last three years — far higher than any other group.",
+            "source": "CBS News",
+            "published_at": "2026-10-09T21:13:41Z",
+            "url": "https://www.cbsnews.com/news/fed-data-americans-over-75-richest/",
+            "sentiment_score": 0.5633,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump escalates effort to fire Federal Reserve governor Lisa Cook - The Washington Post",
+            "description": "Trump escalates effort to fire Federal Reserve governor Lisa CookThe Washington Post Trump launches new effort to oust Fed Governor Lisa CookCNN Can Trump’s New Bid to Fire the Fed’s Lisa Cook Succeed? What to Know.Bloomberg.com Trump establishes committee to…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T20:52:59Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186084884",
+            "sentiment_score": -0.2839,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Saving Grace of Trump’s Revenge Tour",
+            "description": "The president has launched two more efforts to turn his delusions into criminal charges for his enemies.",
+            "source": "Slate Magazine",
+            "published_at": "2026-10-09T20:47:21Z",
+            "url": "https://slate.com/news-and-politics/2026/10/trump-revenge-tour-cassidy-hutchinson-lisa-cook.html",
+            "sentiment_score": -0.3478,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Overdrafts Expose a Divide in Credit Access",
+            "description": "Running short of money before the next paycheck can force a consumer into making choices: let the checking account go negative, delay a bill, carry a card balance or seek additional credit. Consumers making those choices are also more likely to encounter futu…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T20:22:32Z",
+            "url": "https://www.pymnts.com/consumer-finance/2026/overdrafts-expose-a-divide-in-credit-access/",
+            "sentiment_score": 0.017,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Richest Americans Gained 19% in Wealth as Poorest Lost 56% Since 2022",
+            "description": "Benzinga and Yahoo Finance LLC may earn commission or revenue on some items through the links below.\nAmerica's wealthiest households gained nearly $800,000 in median net worth over three years, while median wealth among the poorest quarter fell by more than h…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T20:00:06Z",
+            "url": "https://biztoc.com/x/e1e43e2151221c47",
+            "sentiment_score": 0.5939,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Junk bonds are 'flashing yellow.' Watch these warning signs",
+            "description": "Spreads have widened in the high-yield bond market, but that doesn't tell the whole story.",
+            "source": "CNBC",
+            "published_at": "2026-10-09T19:43:18Z",
+            "url": "https://www.cnbc.com/2026/10/09/junk-bonds-are-flashing-yellow-watch-these-warning-signs.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Canadian employment stumbles again with loss of 68,000 jobs in September",
+            "description": "Economy is facing serious headwinds, most notably U.S. tariffs, with the central bank less likely to raise interest rate this month",
+            "source": "The Globe And Mail",
+            "published_at": "2026-10-09T19:17:59Z",
+            "url": "https://www.theglobeandmail.com/business/article-canadian-jobs-report-economy-september-2026/",
+            "sentiment_score": -0.1022,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NCUA Proposes 26 Stablecoin Account Codes, Extending GENIUS Act Reporting to Credit Unions",
+            "description": "The NCUA’s New Data Playbook for Stablecoins The National Credit Union Administration (NCUA) has proposed its first stablecoin-specific reporting infrastructure. On October 9, 2026, the agency published a notice in the Federal Register proposing a new Schedul…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-09T19:17:50Z",
+            "url": "https://forkast.news/ncua-proposes-26-stablecoin-account-codes-extending-genius-act-reporting-to-credit-unions/",
+            "sentiment_score": 0.3818,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Two charts show how far homeownership is slipping out of reach as mortgage rates skyrocket",
+            "description": "Americans earning the median income used to be able to buy homes. But the homeownership affordability gap is widening, making that less likely.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T18:58:25Z",
+            "url": "https://www.businessinsider.com/housing-affordability-gap-median-income-homeownership-2026-10#article",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans' retirement savings grow as more families participate in plans",
+            "description": "Americans stepped up their participation in retirement plans and saw their savings grow in recent years, a new analysis from the Federal Reserve finds.\nThe Federal Reserve's Survey of Consumer Finances released a report on Friday detailing changes in U.S. fam…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T18:42:51Z",
+            "url": "https://biztoc.com/x/258ee2fe62d045fc",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump forms panel to probe Fed reserve governor Lisa Cook",
+            "description": "US President Donald Trump has set up a committee to probe Federal Reserve Governor Lisa Cook over alleged false statements linked to mortgages.\n\nRead More: https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "source": "The Punch",
+            "published_at": "2026-10-09T18:39:59Z",
+            "url": "https://punchng.com/trump-forms-panel-to-probe-fed-reserve-governor-lisa-cook/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Trump created a committee to dig into the Fed's Lisa Cook. What is it and what comes next?",
@@ -2330,150 +2470,10 @@
             "url": "https://www.foxnews.com/politics/trump-sets-up-committee-investigate-fed-governor-lisa-cook-mortgage-fraud-allegations",
             "sentiment_score": -0.5859,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump promised to lower prices for Americans. Here's what the data shows.",
-            "description": "Just weeks before the midterm elections, 90% of Americans say prices in the U.S. are the main factor shaping their view of the economy. These charts show why.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T16:34:46Z",
-            "url": "https://www.cbsnews.com/news/trump-promised-lower-prices-cost-living-inflation/",
-            "sentiment_score": 0.054,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Americans' debt problems are flashing a warning not seen since the Great Recession",
-            "description": "The ability of U.S. families to stay current on their debts worsened over the past three years, hitting levels not seen since the aftermath of the global financial crisis, the Federal Reserve reported Friday.\nIn the central bank's Survey of Consumer Finances,…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:29:04Z",
-            "url": "https://biztoc.com/x/aaaaf6e0f2390cc0",
-            "sentiment_score": -0.6613,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Precious metals extend gains, silver jumps 3%",
-            "description": "The price of precious metals continued to rise on Friday after Federal Reserve Governor Christopher signaled that the central bank should remain \"flexible\" on interest rates and avoid consecutive hike...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T16:27:02Z",
-            "url": "https://biztoc.com/x/d5e86f3fa1833009",
-            "sentiment_score": 0.77,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CFPB Adopts ‘Lighter Touch’ Bank Supervision Amid Funding Battle",
-            "description": "Banks and other consumer lending institutions are finding it easier these days to score a passing grade from Consumer Financial Protection Bureau (CFPB) examiners amid an ongoing battle over the agency’s funding and structure. According to Reuters, more than …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-09T16:25:19Z",
-            "url": "https://www.pymnts.com/legal/2026/cfpb-adopts-lighter-touch-bank-supervision-amid-funding-battle/",
-            "sentiment_score": -0.1429,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump launches probe into Federal Reserve Governor Lisa Cook",
-            "description": "Trump began efforts to remove Cook as one of the governors on the US Fed Reserve Board in 2025 and litigation is on.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-09T16:01:37Z",
-            "url": "https://www.aljazeera.com/economy/2026/10/9/trump-launches-probe-into-federal-reserve-governor-lisa-cook",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Price of Money Has a Sharply Rising Trump Premium",
-            "description": "Rising term premium is not entirely due to Trump, but the timeline shows he's the driver of this trend.",
-            "source": "Jezebel",
-            "published_at": "2026-10-09T15:52:39Z",
-            "url": "https://www.jezebel.com/the-price-of-money-has-a-sharply-rising-trump-premium",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump appoints committee to investigate statements by the Fed's Lisa Cook",
-            "description": "President Donald Trump formally established a \"committee of inquiry\" to investigate allegations that Federal Reserve Governor Lisa Cook made false statements related to \"one or more mortgage instruments,\" the White House announced Friday.\nThe extraordinary an…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:44:16Z",
-            "url": "https://biztoc.com/x/861ef3ec9c3236fa",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump intensifies campaign against Fed’s Lisa Cook, establishes new inquiry panel",
-            "description": "It was 14 months ago when Donald Trump, exercising a power the president didn’t appear to have, claimed he had fired Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: He wanted to seize greater control over the Fed…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:41:49Z",
-            "url": "https://biztoc.com/x/1e4776c53a400c01",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump creates committee to investigate Fed's Lisa Cook",
-            "description": "President Trump established a committee to look into allegations that Fed Governor Lisa Cook made false statements on mortgage documents, the latest step in his renewed effort to fire her.",
-            "source": "CBS News",
-            "published_at": "2026-10-09T15:39:57Z",
-            "url": "https://www.cbsnews.com/news/trump-lisa-cook-committee-fed-governor/",
-            "sentiment_score": 0.0892,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump sets up committee to probe Federal Reserve Governor Lisa Cook in latest bid to fire her",
-            "description": "US President Donald Trump has set up a committee to investigate Federal Reserve Governor Lisa Cook over allegations that she made false statements in",
-            "source": "The Times of India",
-            "published_at": "2026-10-09T15:38:16Z",
-            "url": "https://timesofindia.indiatimes.com/world/us/trump-sets-up-committee-to-probe-federal-reserve-governor-lisa-cook-in-latest-bid-to-fire-her/articleshow/134837553.cms",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud",
-            "description": "The president has been trying to fire Lisa Cook from the Federal Reserve's seven-member board of governors for more than a year.\nThe post Trump Creates Committee to Probe Fed Reserve Governor Lisa Cook for Mortgage Fraud first appeared on Mediaite.",
-            "source": "Mediaite",
-            "published_at": "2026-10-09T15:32:46Z",
-            "url": "https://www.mediaite.com/media/news/trump-creates-committee-to-probe-fed-reserve-governor-lisa-cook-for-mortgage-fraud/",
-            "sentiment_score": -0.4688,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump establishes panel to probe Fed governor Lisa Cook in latest attempt to fire her",
-            "description": "President Donald Trump on Friday signed an order directing the attorney general and other top federal officials to establish a committee to investigate Federal Reserve governor Lisa Cook, in his latest attempt to fire her.\n“By the authority vested in me as Pr…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:29:23Z",
-            "url": "https://biztoc.com/x/ddba7b6ba07107c2",
-            "sentiment_score": -0.2148,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump Ramps Up Crusade Against the Fed’s Lisa Cook With New Inquiry",
-            "description": "President Donald Trump is still going after Federal Reserve Commissioner Lisa Cook. In a presidential memo Wednesday, Trump announced that he’d set up a committee to oversee an investigation into whether Cook had made false statements in connection to one or …",
-            "source": "The New Republic",
-            "published_at": "2026-10-09T15:28:17Z",
-            "url": "https://newrepublic.com/post/216460/trump-crusade-federal-reserve-lisa-cook-committee",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lawyers: Cook did not commit mortgage fraud",
-            "description": "Federal Reserve Governor Lisa Cook's legal team stated on Friday that the 62-year-old economist did not commit \"mortgage fraud,\" stressing that there is \"no cause\" to remove her from the position afte...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-09T15:26:25Z",
-            "url": "https://biztoc.com/x/5b61dd4951396f42",
-            "sentiment_score": 0.2189,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.3185,
+      "net_score": 0.1592,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
