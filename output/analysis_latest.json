@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1569,
+        "average_score": -0.1289,
         "label": "ลบเล็กน้อย",
-        "article_count": 24,
+        "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Global shares slip as oil prices jumps and bond yields remain high",
+            "description": "Wall Street's main indexes fell, with the S&P 500 down about 0.5% ​and the Nasdaq off nearly 1.3%",
+            "source": "Business Standard",
+            "published_at": "2026-10-09T02:25:10Z",
+            "url": "https://www.business-standard.com/markets/news/global-shares-slip-as-oil-prices-jumps-and-bond-yields-remain-high-126100900062_1.html",
+            "sentiment_score": 0.2072,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "US stocks: S&P 500, Nasdaq end lower as crude prices jump, chip stocks weigh",
@@ -236,7 +246,7 @@
             "description": "The RBI raised its benchmark repo rate by 25 basis points to 5.5%, its first hike since February 2023, and shifted its policy stance to ‘calibrated tightening’. The move came as the central bank raised its FY27 growth forecast to 7.1% while warning that infla…",
             "source": "The Times of India",
             "published_at": "2026-10-08T00:00:00Z",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-raises-repo-rate-to-5-5-in-first-hike-under-governor-sanjay-malhotra-shifts-stance-to-calibrated-tightening/articleshow/134773772.cms",
+            "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-raises-repo-rate-to-5-5-in-first-hike-under-governor-sanjay-malhotra-shifts-stance-to-calibrated-tightening/articleshow/134777167.cms",
             "sentiment_score": 0.0155,
             "sentiment_label": "เป็นกลาง (Neutral)"
           },
@@ -246,17 +256,177 @@
             "description": "The RBI raised its benchmark repo rate by 25 basis points to 5.5%, its first hike since February 2023, and shifted its policy stance to ‘calibrated tightening’. The move came as the central bank raised its FY27 growth forecast to 7.1% while warning that infla…",
             "source": "The Times of India",
             "published_at": "2026-10-08T00:00:00Z",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-raises-repo-rate-to-5-5-in-first-hike-under-governor-sanjay-malhotra-shifts-stance-to-calibrated-tightening/articleshow/134777167.cms",
+            "url": "https://economictimes.indiatimes.com/news/economy/policy/rbi-raises-repo-rate-to-5-5-in-first-hike-under-governor-sanjay-malhotra-shifts-stance-to-calibrated-tightening/articleshow/134773772.cms",
             "sentiment_score": 0.0155,
             "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0362,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0871,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The New Deal",
+            "description": "Podcast Transcript In 1933, the United States was in the midst of the worst economic crisis in its history. Millions were unemployed, banks were collapsing, and Americans were losing faith in the institutions that had once promised prosperity. A newly elected…",
+            "source": "Everything-everywhere.com",
+            "published_at": "2026-10-09T06:40:01Z",
+            "url": "https://everything-everywhere.com/the-new-deal/",
+            "sentiment_score": -0.2129,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently det",
+            "description": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money launderingFederal Reserve (.gov) American Exp…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T06:33:01Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186074724",
+            "sentiment_score": -0.529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India’s Central Bank Raises Repo Rate to 5.50%, First Increase Since 2023",
+            "description": "The Reserve Bank of India (RBI) raised its benchmark policy repo rate by 25 basis points to 5.50% on Wednesday, the central bank’s first rate increase since February 2023. The six-member Monetary Policy Committee voted unanimously in favor of the increase, li…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-india-raises-repo-rate-first-since-2023.html",
+            "sentiment_score": 0.4456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis",
+            "description": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis The price of oil is no longer just a market signal. It is a confession. Every spike in crude and every insurance premium demanded from a supertanker captain is a receipt for a war …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-real-cost-oil-war-deception-fueling-crisis.html",
+            "sentiment_score": -0.8981,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ray Dalio says the stock market's margin for error is shrinking",
+            "description": "Rising bond yields are making stocks less attractive, leaving the market with less room to absorb higher borrowing costs.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T05:29:52Z",
+            "url": "https://www.businessinsider.com/ray-dalio-bond-market-yields-interest-rates-stocks-ai-trade-2026-10#article",
+            "sentiment_score": -0.1664,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Hong Kong faces limited impact if Fed curbs access to US dollar funding facility: analysts",
+            "description": "A US lawmaker’s call for a review of Hong Kong’s access to a Federal Reserve facility that provides short-term US dollar funding would have limited impact on the city as it is not a regular source of financing, according to analysts, who said any restriction …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T05:22:46Z",
+            "url": "https://biztoc.com/x/b6874be2b669fd0f",
+            "sentiment_score": -0.296,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise Rs 1,500/10g; silver up Rs 3,100/kg ahead of US economic data, softer yields. Buy, sell or hold?",
+            "description": "Gold and silver prices gain on MCX as a weaker US dollar and easing Treasury yields support bullion. Investors assess inflation risks and the Federal Reserve’s rate outlook, while traders track key support and resistance levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:44:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-1500/10g-silver-up-rs-3100/kg-ahead-of-us-economic-data-softer-yields-buy-sell-or-hold/articleshow/134807815.cms",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ether longs take the brunt of crypto’s $1 billion liquidation flush",
+            "description": "The liquidation event highlights the risks of high leverage in crypto trading, emphasizing the need for cautious positioning and market awareness.\nThe post Ether longs take the brunt of crypto’s $1 billion liquidation flush appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-09T04:09:19Z",
+            "url": "https://cryptobriefing.com/ether-liquidations-six-times-bitcoin-rate/",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Wall Street in focus as US jobless claims ease amid Fed rate uncertainty",
+            "description": "US jobless claims fell to 197,000 last week, below expectations, signalling low layoffs despite sluggish hiring. The data keep the Federal Reserve’s interest-rate outlook in focus as investors weigh labour market resilience against inflation risks.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:06:10Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-wall-street-in-focus-as-us-jobless-claims-ease-amid-fed-rate-uncertainty/articleshow/134806455.cms",
+            "sentiment_score": -0.0528,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today, 9 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+            "description": "Gold and silver prices today, 9 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
+            "source": "Livemint",
+            "published_at": "2026-10-09T03:55:54Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-9-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11791506918506.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Precious metals rise, gold climbs 1%",
+            "description": "Precious metals traded higher, with gold rising more than 1%, as investors received signs the United States Federal Reserve may not raise rates at its October meeting.Fed Governor Christopher Waller s...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T03:22:39Z",
+            "url": "https://biztoc.com/x/2457545e65780a29",
+            "sentiment_score": 0.6277,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express fined $350 million over anti-money laundering compliance failures",
+            "description": "American Express received a fine of $350 million due to failures in their anti-money laundering compliance programs. The US Office of the Comptroller of the Currency and the Federal Reserve announced this enforcement action. The company reportedly failed to i…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T03:07:11Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/american-express-fined-350-million-over-anti-money-laundering-compliance-failures/articleshow/134805009.cms",
+            "sentiment_score": -0.5223,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "OCC and Fed Fine American Express $350 Million Over AML Deficiencies",
+            "description": "American Express takes its responsibility to fight financial crime seriously and is committed to addressing concerns outlined by banking regulators, Chairman and CEO Stephen J. Squeri said in a statement released Thursday (Oct. 8). Squeri issued the statement…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T02:52:02Z",
+            "url": "https://www.pymnts.com/legal/aml/2026/occ-and-fed-fine-american-express-350-million-over-aml-deficiencies/",
+            "sentiment_score": 0.3433,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Will Nifty register its 9th straight weekly loss? Here's what analysts say",
+            "description": "At current levels, the NSE Nifty is on course to log its longest (9th) weekly losing streak since April 2001, shows market data. Technical analyst expect support around the psychological 22,000-mark.",
+            "source": "Business Standard",
+            "published_at": "2026-10-09T02:45:42Z",
+            "url": "https://www.business-standard.com/markets/news/will-nifty-register-its-9th-straight-weekly-loss-on-friday-here-s-what-technical-analysts-expect-126100900133_1.html",
+            "sentiment_score": 0.3492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold nudges higher with inflation risks, Fed rate path in focus",
+            "description": "On Friday, gold prices experienced a modest uptrend as investors weighed concerns about inflation alongside potential interest rate hikes by the Federal Reserve. Spot gold saw a 0.3% increase, while US gold futures for December rose by 0.4%. St. Louis Fed Pre…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T01:49:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-nudges-higher-with-inflation-risks-fed-rate-path-in-focus/articleshow/134804008.cms",
+            "sentiment_score": 0.0033,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks drop on tech jitters, oil edges lower",
+            "description": "The MSCI Asia Pacific equities index edged 0.1% lower early Friday. Japan’s Nikkei fell over 1%, with Softbank Group Corp. declining more than 5%. The regional moves came after the Nasdaq 100 Index sank 1.4%, its worst day in seven weeks, while a US gauge of …",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T00:48:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-drop-on-tech-jitters-oil-edges-lower/articleshow/134803253.cms",
+            "sentiment_score": -0.5803,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bo Sun",
@@ -396,170 +566,10 @@
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/tech-stocks-drag-nasdaq-lower-on-report-of-openai-revenue-fall-high-yields/articleshow/134800145.cms",
             "sentiment_score": -0.2449,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs Big Wigs Set To Pocket $500,000,000 Bonus As Americans’ Bank Accounts Run Dry",
-            "description": "Roughly 20 Goldman Sachs executives could collect more than $500 million in special stock awards as American households grapple with mounting debt and limited emergency savings.",
-            "source": "The Daily Caller",
-            "published_at": "2026-10-08T19:53:35Z",
-            "url": "https://dailycaller.com/2026/10/08/wall-street-big-wigs-set-to-pocket-500000000-bonus-as-americans-bank-accounts-run-dry",
-            "sentiment_score": 0.3564,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CNBC Host Expects Bitcoin to Take Off in October; Here’s Why",
-            "description": "Bitcoin has entered the final quarter of the year, and as usual, market participants, market analysts, and Bitcoin traders are anticipating a long-term price rally.",
-            "source": "ZyCrypto",
-            "published_at": "2026-10-08T19:51:57Z",
-            "url": "https://zycrypto.com/cnbc-host-expects-bitcoin-to-take-off-in-october-heres-why/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says",
-            "description": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
-            "source": "CNBC",
-            "published_at": "2026-10-08T19:38:14Z",
-            "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
-            "sentiment_score": 0.0719,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Data Shows Tariffs Drove Inflation in 2025",
-            "description": "New research shows that the cost of many consumer goods would have declined last year if not for U.S. tariffs. The paper from the Federal Reserve Bank of New York says the cost of 67 categories of goods was 2.9 percentage points higher as of February because …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T19:15:13Z",
-            "url": "https://www.pymnts.com/economy/2026/fed-data-shows-tariffs-drove-inflation-in-2025/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI darlings, defence shares most at risk as U.S. midterms near",
-            "description": "Historically, the SP 500 index has risen in the 12 months after every midterm election since 1946, according to Wells Fargo. Read here",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T19:08:46Z",
-            "url": "https://financialpost.com/investing/ai-darlings-defence-shares-risk-midterms-near",
-            "sentiment_score": 0.4461,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Columbus Day 2026: Is October 12 a federal holiday? Here's what's open and closed on October 12?",
-            "description": "Columbus Day 2026 is set for Monday, October 12, and will be recognized as a federal holiday. As a result, all federal offices and courts will be closed, while the U.S. Postal Service will not deliver regular mail. Many private businesses, including grocery s…",
-            "source": "The Times of India",
-            "published_at": "2026-10-08T19:03:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/columbus-day-2026-is-october-12-a-federal-holiday-heres-whats-open-and-closed-on-october-12/articleshow/134796420.cms",
-            "sentiment_score": 0.4493,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Facebook whistleblower behind ‘The Social Reckoning’ says Zuckerberg is ‘playing with fire’ on AI",
-            "description": "The real Frances Haugen on the new Sorkin film, Meta’s AI spending spree, and why a pause won’t work.",
-            "source": "Fortune",
-            "published_at": "2026-10-08T18:44:52Z",
-            "url": "https://fortune.com/2026/10/08/the-facebook-whistleblower-behind-the-social-reckoning-says-zuckerberg-is-playing-with-fire-on-ai/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red",
-            "description": "Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T17:46:05Z",
-            "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red",
-            "sentiment_score": -0.6104,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase and Samsung Team to Bring Stablecoins to Digital Wallets",
-            "description": "Coinbase is expanding its partnership with Samsung to power the stablecoin experience in the electronics company’s digital wallet. The new offering, announced Thursday (Oct. 8), extends a collaboration that began last July, and is set to roll out in the U.S. …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:31:09Z",
-            "url": "https://www.pymnts.com/cryptocurrency/2026/coinbase-and-samsung-team-to-bring-stablecoins-to-digital-wallets/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s slide below $81,000 exposes why a Fed pause may not save the crypto market",
-            "description": "Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most participants viewed another rate increase by year-end as probable and left decis…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T17:30:25Z",
-            "url": "https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
-            "sentiment_score": -0.3216,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits",
-            "description": "JPMorgan Chase, Bank of America and Wells Fargo hold about $1.6 trillion in deposits that pay no interest, the Financial Times reported. That money tends to stay put because moving it takes time. Artificial intelligence (AI) agents could remove that friction.…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:22:54Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/",
-            "sentiment_score": 0.0901,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC’s decade of growth puts it in Goldman’s market-value league",
-            "description": "RBC has climbed into the same market-value tier as Goldman Sachs and is worth more than Wells Fargo and Citigroup. Read more.",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T17:20:46Z",
-            "url": "https://financialpost.com/fp-finance/banking/rbc-growth-goldman-market-value-league",
-            "sentiment_score": 0.4143,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "NRI home loan after RBI rate hike: Should borrowers increase down payment or retain overseas savings? Experts explain",
-            "description": "Higher interest rates could push up EMIs on floating-rate home loans for NRIs.",
-            "source": "Livemint",
-            "published_at": "2026-10-08T17:08:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/nri-home-loan-after-rbi-rate-hike-should-borrowers-increase-down-payment-or-retain-overseas-savings-experts-explain-11791471920817.html",
-            "sentiment_score": 0.3604,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US government moves another $1 billion in Bitcoin as BTC slides $4,000",
-            "description": "US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of 12,267 BTC, valued at approximately $1 billion, from a government-controlled a…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T16:50:59Z",
-            "url": "https://cryptoslate.com/us-government-moves-another-1-billion-in-bitcoin-as-btc-slides-4000/",
-            "sentiment_score": 0.1663,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Average long-term US mortgage rate at highest level in nearly 3 years",
-            "description": "Average long-term US mortgage rate at highest level in nearly 3 yearsbostonherald.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-10-08T16:20:40Z",
-            "url": "https://wirehub.medianewsgroup.com/2026/10/08/average-long-term-us-mortgage-rate-at-highest-level-in-nearly-3-years-after-7th-weekly-rise-in-a-row/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-            "description": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T16:14:46Z",
-            "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
-            "sentiment_score": 0.0361,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.1207,
+      "net_score": -0.0418,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -590,7 +600,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-10T00:40:28.863968+00:00"
+    "generated_at": "2026-10-10T06:54:51.413403+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -599,10 +609,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.246,
+        "average_score": -0.146,
         "label": "ลบเล็กน้อย",
-        "article_count": 9,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Global Market: BoE’s Pill says central banks must stay focused on fighting inflation",
+            "description": "Bank of England Chief Economist Huw Pill urges central banks to prioritise inflation control amid rising global bond yields. Divisions among UK policymakers over interest rates persist as they assess inflation risks linked to the Iran war.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T05:09:16Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-boes-pill-says-central-banks-must-stay-focused-on-fighting-inflation/articleshow/134809242.cms",
+            "sentiment_score": -0.1196,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Gold nudges higher with inflation risks, Fed rate path in focus",
+            "description": "On Friday, gold prices experienced a modest uptrend as investors weighed concerns about inflation alongside potential interest rate hikes by the Federal Reserve. Spot gold saw a 0.3% increase, while US gold futures for December rose by 0.4%. St. Louis Fed Pre…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T01:49:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-nudges-higher-with-inflation-risks-fed-rate-path-in-focus/articleshow/134804008.cms",
+            "sentiment_score": 0.0033,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "BoE to put barn owls, bees on future notes",
+            "description": "The Bank of England is embracing a new approach by swapping out renowned Britons on banknotes for images of local wildlife like barn owls, bumblebees, and hedgehogs. This initiative follows a public consultation with around 500,000 participants voting on anim…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T01:11:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/boe-to-put-barn-owls-bees-on-future-notes/articleshow/134803351.cms",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Unimaginative Uncertainty",
@@ -696,10 +736,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0362,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0871,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The New Deal",
+            "description": "Podcast Transcript In 1933, the United States was in the midst of the worst economic crisis in its history. Millions were unemployed, banks were collapsing, and Americans were losing faith in the institutions that had once promised prosperity. A newly elected…",
+            "source": "Everything-everywhere.com",
+            "published_at": "2026-10-09T06:40:01Z",
+            "url": "https://everything-everywhere.com/the-new-deal/",
+            "sentiment_score": -0.2129,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently det",
+            "description": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money launderingFederal Reserve (.gov) American Exp…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T06:33:01Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186074724",
+            "sentiment_score": -0.529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India’s Central Bank Raises Repo Rate to 5.50%, First Increase Since 2023",
+            "description": "The Reserve Bank of India (RBI) raised its benchmark policy repo rate by 25 basis points to 5.50% on Wednesday, the central bank’s first rate increase since February 2023. The six-member Monetary Policy Committee voted unanimously in favor of the increase, li…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-india-raises-repo-rate-first-since-2023.html",
+            "sentiment_score": 0.4456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis",
+            "description": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis The price of oil is no longer just a market signal. It is a confession. Every spike in crude and every insurance premium demanded from a supertanker captain is a receipt for a war …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-real-cost-oil-war-deception-fueling-crisis.html",
+            "sentiment_score": -0.8981,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ray Dalio says the stock market's margin for error is shrinking",
+            "description": "Rising bond yields are making stocks less attractive, leaving the market with less room to absorb higher borrowing costs.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T05:29:52Z",
+            "url": "https://www.businessinsider.com/ray-dalio-bond-market-yields-interest-rates-stocks-ai-trade-2026-10#article",
+            "sentiment_score": -0.1664,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Hong Kong faces limited impact if Fed curbs access to US dollar funding facility: analysts",
+            "description": "A US lawmaker’s call for a review of Hong Kong’s access to a Federal Reserve facility that provides short-term US dollar funding would have limited impact on the city as it is not a regular source of financing, according to analysts, who said any restriction …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T05:22:46Z",
+            "url": "https://biztoc.com/x/b6874be2b669fd0f",
+            "sentiment_score": -0.296,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise Rs 1,500/10g; silver up Rs 3,100/kg ahead of US economic data, softer yields. Buy, sell or hold?",
+            "description": "Gold and silver prices gain on MCX as a weaker US dollar and easing Treasury yields support bullion. Investors assess inflation risks and the Federal Reserve’s rate outlook, while traders track key support and resistance levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:44:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-1500/10g-silver-up-rs-3100/kg-ahead-of-us-economic-data-softer-yields-buy-sell-or-hold/articleshow/134807815.cms",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ether longs take the brunt of crypto’s $1 billion liquidation flush",
+            "description": "The liquidation event highlights the risks of high leverage in crypto trading, emphasizing the need for cautious positioning and market awareness.\nThe post Ether longs take the brunt of crypto’s $1 billion liquidation flush appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-09T04:09:19Z",
+            "url": "https://cryptobriefing.com/ether-liquidations-six-times-bitcoin-rate/",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Wall Street in focus as US jobless claims ease amid Fed rate uncertainty",
+            "description": "US jobless claims fell to 197,000 last week, below expectations, signalling low layoffs despite sluggish hiring. The data keep the Federal Reserve’s interest-rate outlook in focus as investors weigh labour market resilience against inflation risks.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:06:10Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-wall-street-in-focus-as-us-jobless-claims-ease-amid-fed-rate-uncertainty/articleshow/134806455.cms",
+            "sentiment_score": -0.0528,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today, 9 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+            "description": "Gold and silver prices today, 9 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
+            "source": "Livemint",
+            "published_at": "2026-10-09T03:55:54Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-9-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11791506918506.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Precious metals rise, gold climbs 1%",
+            "description": "Precious metals traded higher, with gold rising more than 1%, as investors received signs the United States Federal Reserve may not raise rates at its October meeting.Fed Governor Christopher Waller s...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T03:22:39Z",
+            "url": "https://biztoc.com/x/2457545e65780a29",
+            "sentiment_score": 0.6277,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express fined $350 million over anti-money laundering compliance failures",
+            "description": "American Express received a fine of $350 million due to failures in their anti-money laundering compliance programs. The US Office of the Comptroller of the Currency and the Federal Reserve announced this enforcement action. The company reportedly failed to i…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T03:07:11Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/american-express-fined-350-million-over-anti-money-laundering-compliance-failures/articleshow/134805009.cms",
+            "sentiment_score": -0.5223,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "OCC and Fed Fine American Express $350 Million Over AML Deficiencies",
+            "description": "American Express takes its responsibility to fight financial crime seriously and is committed to addressing concerns outlined by banking regulators, Chairman and CEO Stephen J. Squeri said in a statement released Thursday (Oct. 8). Squeri issued the statement…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T02:52:02Z",
+            "url": "https://www.pymnts.com/legal/aml/2026/occ-and-fed-fine-american-express-350-million-over-aml-deficiencies/",
+            "sentiment_score": 0.3433,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Will Nifty register its 9th straight weekly loss? Here's what analysts say",
+            "description": "At current levels, the NSE Nifty is on course to log its longest (9th) weekly losing streak since April 2001, shows market data. Technical analyst expect support around the psychological 22,000-mark.",
+            "source": "Business Standard",
+            "published_at": "2026-10-09T02:45:42Z",
+            "url": "https://www.business-standard.com/markets/news/will-nifty-register-its-9th-straight-weekly-loss-on-friday-here-s-what-technical-analysts-expect-126100900133_1.html",
+            "sentiment_score": 0.3492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold nudges higher with inflation risks, Fed rate path in focus",
+            "description": "On Friday, gold prices experienced a modest uptrend as investors weighed concerns about inflation alongside potential interest rate hikes by the Federal Reserve. Spot gold saw a 0.3% increase, while US gold futures for December rose by 0.4%. St. Louis Fed Pre…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T01:49:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-nudges-higher-with-inflation-risks-fed-rate-path-in-focus/articleshow/134804008.cms",
+            "sentiment_score": 0.0033,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks drop on tech jitters, oil edges lower",
+            "description": "The MSCI Asia Pacific equities index edged 0.1% lower early Friday. Japan’s Nikkei fell over 1%, with Softbank Group Corp. declining more than 5%. The regional moves came after the Nasdaq 100 Index sank 1.4%, its worst day in seven weeks, while a US gauge of …",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T00:48:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-drop-on-tech-jitters-oil-edges-lower/articleshow/134803253.cms",
+            "sentiment_score": -0.5803,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bo Sun",
@@ -839,174 +1039,14 @@
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/tech-stocks-drag-nasdaq-lower-on-report-of-openai-revenue-fall-high-yields/articleshow/134800145.cms",
             "sentiment_score": -0.2449,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs Big Wigs Set To Pocket $500,000,000 Bonus As Americans’ Bank Accounts Run Dry",
-            "description": "Roughly 20 Goldman Sachs executives could collect more than $500 million in special stock awards as American households grapple with mounting debt and limited emergency savings.",
-            "source": "The Daily Caller",
-            "published_at": "2026-10-08T19:53:35Z",
-            "url": "https://dailycaller.com/2026/10/08/wall-street-big-wigs-set-to-pocket-500000000-bonus-as-americans-bank-accounts-run-dry",
-            "sentiment_score": 0.3564,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CNBC Host Expects Bitcoin to Take Off in October; Here’s Why",
-            "description": "Bitcoin has entered the final quarter of the year, and as usual, market participants, market analysts, and Bitcoin traders are anticipating a long-term price rally.",
-            "source": "ZyCrypto",
-            "published_at": "2026-10-08T19:51:57Z",
-            "url": "https://zycrypto.com/cnbc-host-expects-bitcoin-to-take-off-in-october-heres-why/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says",
-            "description": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
-            "source": "CNBC",
-            "published_at": "2026-10-08T19:38:14Z",
-            "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
-            "sentiment_score": 0.0719,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Data Shows Tariffs Drove Inflation in 2025",
-            "description": "New research shows that the cost of many consumer goods would have declined last year if not for U.S. tariffs. The paper from the Federal Reserve Bank of New York says the cost of 67 categories of goods was 2.9 percentage points higher as of February because …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T19:15:13Z",
-            "url": "https://www.pymnts.com/economy/2026/fed-data-shows-tariffs-drove-inflation-in-2025/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI darlings, defence shares most at risk as U.S. midterms near",
-            "description": "Historically, the SP 500 index has risen in the 12 months after every midterm election since 1946, according to Wells Fargo. Read here",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T19:08:46Z",
-            "url": "https://financialpost.com/investing/ai-darlings-defence-shares-risk-midterms-near",
-            "sentiment_score": 0.4461,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Columbus Day 2026: Is October 12 a federal holiday? Here's what's open and closed on October 12?",
-            "description": "Columbus Day 2026 is set for Monday, October 12, and will be recognized as a federal holiday. As a result, all federal offices and courts will be closed, while the U.S. Postal Service will not deliver regular mail. Many private businesses, including grocery s…",
-            "source": "The Times of India",
-            "published_at": "2026-10-08T19:03:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/columbus-day-2026-is-october-12-a-federal-holiday-heres-whats-open-and-closed-on-october-12/articleshow/134796420.cms",
-            "sentiment_score": 0.4493,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Facebook whistleblower behind ‘The Social Reckoning’ says Zuckerberg is ‘playing with fire’ on AI",
-            "description": "The real Frances Haugen on the new Sorkin film, Meta’s AI spending spree, and why a pause won’t work.",
-            "source": "Fortune",
-            "published_at": "2026-10-08T18:44:52Z",
-            "url": "https://fortune.com/2026/10/08/the-facebook-whistleblower-behind-the-social-reckoning-says-zuckerberg-is-playing-with-fire-on-ai/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red",
-            "description": "Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T17:46:05Z",
-            "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red",
-            "sentiment_score": -0.6104,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase and Samsung Team to Bring Stablecoins to Digital Wallets",
-            "description": "Coinbase is expanding its partnership with Samsung to power the stablecoin experience in the electronics company’s digital wallet. The new offering, announced Thursday (Oct. 8), extends a collaboration that began last July, and is set to roll out in the U.S. …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:31:09Z",
-            "url": "https://www.pymnts.com/cryptocurrency/2026/coinbase-and-samsung-team-to-bring-stablecoins-to-digital-wallets/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s slide below $81,000 exposes why a Fed pause may not save the crypto market",
-            "description": "Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most participants viewed another rate increase by year-end as probable and left decis…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T17:30:25Z",
-            "url": "https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
-            "sentiment_score": -0.3216,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits",
-            "description": "JPMorgan Chase, Bank of America and Wells Fargo hold about $1.6 trillion in deposits that pay no interest, the Financial Times reported. That money tends to stay put because moving it takes time. Artificial intelligence (AI) agents could remove that friction.…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:22:54Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/",
-            "sentiment_score": 0.0901,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC’s decade of growth puts it in Goldman’s market-value league",
-            "description": "RBC has climbed into the same market-value tier as Goldman Sachs and is worth more than Wells Fargo and Citigroup. Read more.",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T17:20:46Z",
-            "url": "https://financialpost.com/fp-finance/banking/rbc-growth-goldman-market-value-league",
-            "sentiment_score": 0.4143,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "NRI home loan after RBI rate hike: Should borrowers increase down payment or retain overseas savings? Experts explain",
-            "description": "Higher interest rates could push up EMIs on floating-rate home loans for NRIs.",
-            "source": "Livemint",
-            "published_at": "2026-10-08T17:08:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/nri-home-loan-after-rbi-rate-hike-should-borrowers-increase-down-payment-or-retain-overseas-savings-experts-explain-11791471920817.html",
-            "sentiment_score": 0.3604,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US government moves another $1 billion in Bitcoin as BTC slides $4,000",
-            "description": "US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of 12,267 BTC, valued at approximately $1 billion, from a government-controlled a…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T16:50:59Z",
-            "url": "https://cryptoslate.com/us-government-moves-another-1-billion-in-bitcoin-as-btc-slides-4000/",
-            "sentiment_score": 0.1663,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Average long-term US mortgage rate at highest level in nearly 3 years",
-            "description": "Average long-term US mortgage rate at highest level in nearly 3 yearsbostonherald.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-10-08T16:20:40Z",
-            "url": "https://wirehub.medianewsgroup.com/2026/10/08/average-long-term-us-mortgage-rate-at-highest-level-in-nearly-3-years-after-7th-weekly-rise-in-a-row/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-            "description": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T16:14:46Z",
-            "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
-            "sentiment_score": 0.0361,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.2098,
-      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.0589,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1033,7 +1073,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-10T00:40:28.863968+00:00"
+    "generated_at": "2026-10-10T06:54:51.413403+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1042,10 +1082,170 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0362,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0871,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The New Deal",
+            "description": "Podcast Transcript In 1933, the United States was in the midst of the worst economic crisis in its history. Millions were unemployed, banks were collapsing, and Americans were losing faith in the institutions that had once promised prosperity. A newly elected…",
+            "source": "Everything-everywhere.com",
+            "published_at": "2026-10-09T06:40:01Z",
+            "url": "https://everything-everywhere.com/the-new-deal/",
+            "sentiment_score": -0.2129,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently det",
+            "description": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money launderingFederal Reserve (.gov) American Exp…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T06:33:01Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186074724",
+            "sentiment_score": -0.529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India’s Central Bank Raises Repo Rate to 5.50%, First Increase Since 2023",
+            "description": "The Reserve Bank of India (RBI) raised its benchmark policy repo rate by 25 basis points to 5.50% on Wednesday, the central bank’s first rate increase since February 2023. The six-member Monetary Policy Committee voted unanimously in favor of the increase, li…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-india-raises-repo-rate-first-since-2023.html",
+            "sentiment_score": 0.4456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis",
+            "description": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis The price of oil is no longer just a market signal. It is a confession. Every spike in crude and every insurance premium demanded from a supertanker captain is a receipt for a war …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-real-cost-oil-war-deception-fueling-crisis.html",
+            "sentiment_score": -0.8981,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ray Dalio says the stock market's margin for error is shrinking",
+            "description": "Rising bond yields are making stocks less attractive, leaving the market with less room to absorb higher borrowing costs.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T05:29:52Z",
+            "url": "https://www.businessinsider.com/ray-dalio-bond-market-yields-interest-rates-stocks-ai-trade-2026-10#article",
+            "sentiment_score": -0.1664,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Hong Kong faces limited impact if Fed curbs access to US dollar funding facility: analysts",
+            "description": "A US lawmaker’s call for a review of Hong Kong’s access to a Federal Reserve facility that provides short-term US dollar funding would have limited impact on the city as it is not a regular source of financing, according to analysts, who said any restriction …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T05:22:46Z",
+            "url": "https://biztoc.com/x/b6874be2b669fd0f",
+            "sentiment_score": -0.296,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise Rs 1,500/10g; silver up Rs 3,100/kg ahead of US economic data, softer yields. Buy, sell or hold?",
+            "description": "Gold and silver prices gain on MCX as a weaker US dollar and easing Treasury yields support bullion. Investors assess inflation risks and the Federal Reserve’s rate outlook, while traders track key support and resistance levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:44:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-1500/10g-silver-up-rs-3100/kg-ahead-of-us-economic-data-softer-yields-buy-sell-or-hold/articleshow/134807815.cms",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ether longs take the brunt of crypto’s $1 billion liquidation flush",
+            "description": "The liquidation event highlights the risks of high leverage in crypto trading, emphasizing the need for cautious positioning and market awareness.\nThe post Ether longs take the brunt of crypto’s $1 billion liquidation flush appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-09T04:09:19Z",
+            "url": "https://cryptobriefing.com/ether-liquidations-six-times-bitcoin-rate/",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Wall Street in focus as US jobless claims ease amid Fed rate uncertainty",
+            "description": "US jobless claims fell to 197,000 last week, below expectations, signalling low layoffs despite sluggish hiring. The data keep the Federal Reserve’s interest-rate outlook in focus as investors weigh labour market resilience against inflation risks.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:06:10Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-wall-street-in-focus-as-us-jobless-claims-ease-amid-fed-rate-uncertainty/articleshow/134806455.cms",
+            "sentiment_score": -0.0528,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today, 9 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+            "description": "Gold and silver prices today, 9 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
+            "source": "Livemint",
+            "published_at": "2026-10-09T03:55:54Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-9-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11791506918506.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Precious metals rise, gold climbs 1%",
+            "description": "Precious metals traded higher, with gold rising more than 1%, as investors received signs the United States Federal Reserve may not raise rates at its October meeting.Fed Governor Christopher Waller s...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T03:22:39Z",
+            "url": "https://biztoc.com/x/2457545e65780a29",
+            "sentiment_score": 0.6277,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express fined $350 million over anti-money laundering compliance failures",
+            "description": "American Express received a fine of $350 million due to failures in their anti-money laundering compliance programs. The US Office of the Comptroller of the Currency and the Federal Reserve announced this enforcement action. The company reportedly failed to i…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T03:07:11Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/american-express-fined-350-million-over-anti-money-laundering-compliance-failures/articleshow/134805009.cms",
+            "sentiment_score": -0.5223,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "OCC and Fed Fine American Express $350 Million Over AML Deficiencies",
+            "description": "American Express takes its responsibility to fight financial crime seriously and is committed to addressing concerns outlined by banking regulators, Chairman and CEO Stephen J. Squeri said in a statement released Thursday (Oct. 8). Squeri issued the statement…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T02:52:02Z",
+            "url": "https://www.pymnts.com/legal/aml/2026/occ-and-fed-fine-american-express-350-million-over-aml-deficiencies/",
+            "sentiment_score": 0.3433,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Will Nifty register its 9th straight weekly loss? Here's what analysts say",
+            "description": "At current levels, the NSE Nifty is on course to log its longest (9th) weekly losing streak since April 2001, shows market data. Technical analyst expect support around the psychological 22,000-mark.",
+            "source": "Business Standard",
+            "published_at": "2026-10-09T02:45:42Z",
+            "url": "https://www.business-standard.com/markets/news/will-nifty-register-its-9th-straight-weekly-loss-on-friday-here-s-what-technical-analysts-expect-126100900133_1.html",
+            "sentiment_score": 0.3492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold nudges higher with inflation risks, Fed rate path in focus",
+            "description": "On Friday, gold prices experienced a modest uptrend as investors weighed concerns about inflation alongside potential interest rate hikes by the Federal Reserve. Spot gold saw a 0.3% increase, while US gold futures for December rose by 0.4%. St. Louis Fed Pre…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T01:49:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-nudges-higher-with-inflation-risks-fed-rate-path-in-focus/articleshow/134804008.cms",
+            "sentiment_score": 0.0033,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks drop on tech jitters, oil edges lower",
+            "description": "The MSCI Asia Pacific equities index edged 0.1% lower early Friday. Japan’s Nikkei fell over 1%, with Softbank Group Corp. declining more than 5%. The regional moves came after the Nasdaq 100 Index sank 1.4%, its worst day in seven weeks, while a US gauge of …",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T00:48:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-drop-on-tech-jitters-oil-edges-lower/articleshow/134803253.cms",
+            "sentiment_score": -0.5803,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bo Sun",
@@ -1185,174 +1385,34 @@
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/tech-stocks-drag-nasdaq-lower-on-report-of-openai-revenue-fall-high-yields/articleshow/134800145.cms",
             "sentiment_score": -0.2449,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs Big Wigs Set To Pocket $500,000,000 Bonus As Americans’ Bank Accounts Run Dry",
-            "description": "Roughly 20 Goldman Sachs executives could collect more than $500 million in special stock awards as American households grapple with mounting debt and limited emergency savings.",
-            "source": "The Daily Caller",
-            "published_at": "2026-10-08T19:53:35Z",
-            "url": "https://dailycaller.com/2026/10/08/wall-street-big-wigs-set-to-pocket-500000000-bonus-as-americans-bank-accounts-run-dry",
-            "sentiment_score": 0.3564,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CNBC Host Expects Bitcoin to Take Off in October; Here’s Why",
-            "description": "Bitcoin has entered the final quarter of the year, and as usual, market participants, market analysts, and Bitcoin traders are anticipating a long-term price rally.",
-            "source": "ZyCrypto",
-            "published_at": "2026-10-08T19:51:57Z",
-            "url": "https://zycrypto.com/cnbc-host-expects-bitcoin-to-take-off-in-october-heres-why/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says",
-            "description": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
-            "source": "CNBC",
-            "published_at": "2026-10-08T19:38:14Z",
-            "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
-            "sentiment_score": 0.0719,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Data Shows Tariffs Drove Inflation in 2025",
-            "description": "New research shows that the cost of many consumer goods would have declined last year if not for U.S. tariffs. The paper from the Federal Reserve Bank of New York says the cost of 67 categories of goods was 2.9 percentage points higher as of February because …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T19:15:13Z",
-            "url": "https://www.pymnts.com/economy/2026/fed-data-shows-tariffs-drove-inflation-in-2025/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI darlings, defence shares most at risk as U.S. midterms near",
-            "description": "Historically, the SP 500 index has risen in the 12 months after every midterm election since 1946, according to Wells Fargo. Read here",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T19:08:46Z",
-            "url": "https://financialpost.com/investing/ai-darlings-defence-shares-risk-midterms-near",
-            "sentiment_score": 0.4461,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Columbus Day 2026: Is October 12 a federal holiday? Here's what's open and closed on October 12?",
-            "description": "Columbus Day 2026 is set for Monday, October 12, and will be recognized as a federal holiday. As a result, all federal offices and courts will be closed, while the U.S. Postal Service will not deliver regular mail. Many private businesses, including grocery s…",
-            "source": "The Times of India",
-            "published_at": "2026-10-08T19:03:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/columbus-day-2026-is-october-12-a-federal-holiday-heres-whats-open-and-closed-on-october-12/articleshow/134796420.cms",
-            "sentiment_score": 0.4493,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Facebook whistleblower behind ‘The Social Reckoning’ says Zuckerberg is ‘playing with fire’ on AI",
-            "description": "The real Frances Haugen on the new Sorkin film, Meta’s AI spending spree, and why a pause won’t work.",
-            "source": "Fortune",
-            "published_at": "2026-10-08T18:44:52Z",
-            "url": "https://fortune.com/2026/10/08/the-facebook-whistleblower-behind-the-social-reckoning-says-zuckerberg-is-playing-with-fire-on-ai/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red",
-            "description": "Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T17:46:05Z",
-            "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red",
-            "sentiment_score": -0.6104,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase and Samsung Team to Bring Stablecoins to Digital Wallets",
-            "description": "Coinbase is expanding its partnership with Samsung to power the stablecoin experience in the electronics company’s digital wallet. The new offering, announced Thursday (Oct. 8), extends a collaboration that began last July, and is set to roll out in the U.S. …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:31:09Z",
-            "url": "https://www.pymnts.com/cryptocurrency/2026/coinbase-and-samsung-team-to-bring-stablecoins-to-digital-wallets/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s slide below $81,000 exposes why a Fed pause may not save the crypto market",
-            "description": "Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most participants viewed another rate increase by year-end as probable and left decis…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T17:30:25Z",
-            "url": "https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
-            "sentiment_score": -0.3216,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits",
-            "description": "JPMorgan Chase, Bank of America and Wells Fargo hold about $1.6 trillion in deposits that pay no interest, the Financial Times reported. That money tends to stay put because moving it takes time. Artificial intelligence (AI) agents could remove that friction.…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:22:54Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/",
-            "sentiment_score": 0.0901,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC’s decade of growth puts it in Goldman’s market-value league",
-            "description": "RBC has climbed into the same market-value tier as Goldman Sachs and is worth more than Wells Fargo and Citigroup. Read more.",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T17:20:46Z",
-            "url": "https://financialpost.com/fp-finance/banking/rbc-growth-goldman-market-value-league",
-            "sentiment_score": 0.4143,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "NRI home loan after RBI rate hike: Should borrowers increase down payment or retain overseas savings? Experts explain",
-            "description": "Higher interest rates could push up EMIs on floating-rate home loans for NRIs.",
-            "source": "Livemint",
-            "published_at": "2026-10-08T17:08:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/nri-home-loan-after-rbi-rate-hike-should-borrowers-increase-down-payment-or-retain-overseas-savings-experts-explain-11791471920817.html",
-            "sentiment_score": 0.3604,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US government moves another $1 billion in Bitcoin as BTC slides $4,000",
-            "description": "US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of 12,267 BTC, valued at approximately $1 billion, from a government-controlled a…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T16:50:59Z",
-            "url": "https://cryptoslate.com/us-government-moves-another-1-billion-in-bitcoin-as-btc-slides-4000/",
-            "sentiment_score": 0.1663,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Average long-term US mortgage rate at highest level in nearly 3 years",
-            "description": "Average long-term US mortgage rate at highest level in nearly 3 yearsbostonherald.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-10-08T16:20:40Z",
-            "url": "https://wirehub.medianewsgroup.com/2026/10/08/average-long-term-us-mortgage-rate-at-highest-level-in-nearly-3-years-after-7th-weekly-rise-in-a-row/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-            "description": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T16:14:46Z",
-            "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
-            "sentiment_score": 0.0361,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0655,
-        "label": "บวกเล็กน้อย",
-        "article_count": 10,
+        "average_score": 0.0402,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "India’s Central Bank Raises Repo Rate to 5.50%, First Increase Since 2023",
+            "description": "The Reserve Bank of India (RBI) raised its benchmark policy repo rate by 25 basis points to 5.50% on Wednesday, the central bank’s first rate increase since February 2023. The six-member Monetary Policy Committee voted unanimously in favor of the increase, li…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-india-raises-repo-rate-first-since-2023.html",
+            "sentiment_score": 0.4456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Global Market: Japan’s Nikkei falls as AI concerns, global bond market stress weigh",
+            "description": "Japan’s Nikkei 225 fell 1.06% as AI-sector concerns, elevated global borrowing costs and rising oil prices weighed on investor sentiment. Weak household spending and expectations of further Bank of Japan rate hikes added pressure. SoftBank Group led losses, w…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T03:41:59Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-falls-as-ai-concerns-global-bond-market-stress-weigh/articleshow/134805613.cms",
+            "sentiment_score": -0.5285,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "JPY",
             "title": "Japanese annual household spending drops for 9 straight months",
@@ -1455,7 +1515,7 @@
           }
         ]
       },
-      "net_score": -0.1017,
+      "net_score": -0.1273,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1468,8 +1528,8 @@
       "price_now": 158.246,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.1,
-      "rsi_signal": "โซนกลาง (RSI=52.1)",
+      "rsi_value": 52.2,
+      "rsi_signal": "โซนกลาง (RSI=52.2)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.14768,
       "suggested_sl_distance": 0.22152,
@@ -1486,7 +1546,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-10T00:40:28.863968+00:00"
+    "generated_at": "2026-10-10T06:54:51.413403+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1495,10 +1555,40 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0247,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 4,
+        "average_score": -0.1354,
+        "label": "ลบเล็กน้อย",
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Wealthy founder of $650million business empire calls it quits on Australia and flees to Singapore as he delivers a parting shot to Anthony Albanese",
+            "description": "A successful tech entrepreneur is leaving Australia for Singapore, blaming the country's economic climate and Labor's proposed tax changes for his move overseas.",
+            "source": "Dailymail.com",
+            "published_at": "2026-10-09T05:24:13Z",
+            "url": "https://www.dailymail.com/news/article-16194869/fred-schebesta-singapore-tax-changes-australia-economy.html",
+            "sentiment_score": 0.1875,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "How the card surcharge ban could change our relationship with cash",
+            "description": "Some businesses are offering customer discounts for the use of cash after the Reserve Bank of Australia banned card surcharges. But it's unlikely to return cash to the preferred type of payment.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-09T05:01:57Z",
+            "url": "https://www.abc.net.au/news/2026-10-09/card-surcharge-ban-cash-use-australia/107239200",
+            "sentiment_score": -0.4652,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Treasurer Jim Chalmers backflips on ATO credit card payment ban after small business outcry",
+            "description": "Treasurer Jim Chalmers has confirmed a planned ban on credit card payments to the Australian Taxation Office will be delayed following backlash from small businesses.",
+            "source": "Dailymail.com",
+            "published_at": "2026-10-09T01:35:22Z",
+            "url": "https://www.dailymail.com/news/article-16195035/jim-chalmers-ato-credit-card-payments-ban-delay.html",
+            "sentiment_score": -0.5121,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "AUD",
             "title": "'A real love story': Renowned Yolŋu artist and wife die in same week",
@@ -1542,10 +1632,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0362,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0871,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The New Deal",
+            "description": "Podcast Transcript In 1933, the United States was in the midst of the worst economic crisis in its history. Millions were unemployed, banks were collapsing, and Americans were losing faith in the institutions that had once promised prosperity. A newly elected…",
+            "source": "Everything-everywhere.com",
+            "published_at": "2026-10-09T06:40:01Z",
+            "url": "https://everything-everywhere.com/the-new-deal/",
+            "sentiment_score": -0.2129,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently det",
+            "description": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money launderingFederal Reserve (.gov) American Exp…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T06:33:01Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186074724",
+            "sentiment_score": -0.529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India’s Central Bank Raises Repo Rate to 5.50%, First Increase Since 2023",
+            "description": "The Reserve Bank of India (RBI) raised its benchmark policy repo rate by 25 basis points to 5.50% on Wednesday, the central bank’s first rate increase since February 2023. The six-member Monetary Policy Committee voted unanimously in favor of the increase, li…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-india-raises-repo-rate-first-since-2023.html",
+            "sentiment_score": 0.4456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis",
+            "description": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis The price of oil is no longer just a market signal. It is a confession. Every spike in crude and every insurance premium demanded from a supertanker captain is a receipt for a war …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-real-cost-oil-war-deception-fueling-crisis.html",
+            "sentiment_score": -0.8981,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ray Dalio says the stock market's margin for error is shrinking",
+            "description": "Rising bond yields are making stocks less attractive, leaving the market with less room to absorb higher borrowing costs.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T05:29:52Z",
+            "url": "https://www.businessinsider.com/ray-dalio-bond-market-yields-interest-rates-stocks-ai-trade-2026-10#article",
+            "sentiment_score": -0.1664,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Hong Kong faces limited impact if Fed curbs access to US dollar funding facility: analysts",
+            "description": "A US lawmaker’s call for a review of Hong Kong’s access to a Federal Reserve facility that provides short-term US dollar funding would have limited impact on the city as it is not a regular source of financing, according to analysts, who said any restriction …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T05:22:46Z",
+            "url": "https://biztoc.com/x/b6874be2b669fd0f",
+            "sentiment_score": -0.296,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise Rs 1,500/10g; silver up Rs 3,100/kg ahead of US economic data, softer yields. Buy, sell or hold?",
+            "description": "Gold and silver prices gain on MCX as a weaker US dollar and easing Treasury yields support bullion. Investors assess inflation risks and the Federal Reserve’s rate outlook, while traders track key support and resistance levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:44:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-1500/10g-silver-up-rs-3100/kg-ahead-of-us-economic-data-softer-yields-buy-sell-or-hold/articleshow/134807815.cms",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ether longs take the brunt of crypto’s $1 billion liquidation flush",
+            "description": "The liquidation event highlights the risks of high leverage in crypto trading, emphasizing the need for cautious positioning and market awareness.\nThe post Ether longs take the brunt of crypto’s $1 billion liquidation flush appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-09T04:09:19Z",
+            "url": "https://cryptobriefing.com/ether-liquidations-six-times-bitcoin-rate/",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Wall Street in focus as US jobless claims ease amid Fed rate uncertainty",
+            "description": "US jobless claims fell to 197,000 last week, below expectations, signalling low layoffs despite sluggish hiring. The data keep the Federal Reserve’s interest-rate outlook in focus as investors weigh labour market resilience against inflation risks.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:06:10Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-wall-street-in-focus-as-us-jobless-claims-ease-amid-fed-rate-uncertainty/articleshow/134806455.cms",
+            "sentiment_score": -0.0528,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today, 9 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+            "description": "Gold and silver prices today, 9 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
+            "source": "Livemint",
+            "published_at": "2026-10-09T03:55:54Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-9-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11791506918506.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Precious metals rise, gold climbs 1%",
+            "description": "Precious metals traded higher, with gold rising more than 1%, as investors received signs the United States Federal Reserve may not raise rates at its October meeting.Fed Governor Christopher Waller s...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T03:22:39Z",
+            "url": "https://biztoc.com/x/2457545e65780a29",
+            "sentiment_score": 0.6277,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express fined $350 million over anti-money laundering compliance failures",
+            "description": "American Express received a fine of $350 million due to failures in their anti-money laundering compliance programs. The US Office of the Comptroller of the Currency and the Federal Reserve announced this enforcement action. The company reportedly failed to i…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T03:07:11Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/american-express-fined-350-million-over-anti-money-laundering-compliance-failures/articleshow/134805009.cms",
+            "sentiment_score": -0.5223,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "OCC and Fed Fine American Express $350 Million Over AML Deficiencies",
+            "description": "American Express takes its responsibility to fight financial crime seriously and is committed to addressing concerns outlined by banking regulators, Chairman and CEO Stephen J. Squeri said in a statement released Thursday (Oct. 8). Squeri issued the statement…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T02:52:02Z",
+            "url": "https://www.pymnts.com/legal/aml/2026/occ-and-fed-fine-american-express-350-million-over-aml-deficiencies/",
+            "sentiment_score": 0.3433,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Will Nifty register its 9th straight weekly loss? Here's what analysts say",
+            "description": "At current levels, the NSE Nifty is on course to log its longest (9th) weekly losing streak since April 2001, shows market data. Technical analyst expect support around the psychological 22,000-mark.",
+            "source": "Business Standard",
+            "published_at": "2026-10-09T02:45:42Z",
+            "url": "https://www.business-standard.com/markets/news/will-nifty-register-its-9th-straight-weekly-loss-on-friday-here-s-what-technical-analysts-expect-126100900133_1.html",
+            "sentiment_score": 0.3492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold nudges higher with inflation risks, Fed rate path in focus",
+            "description": "On Friday, gold prices experienced a modest uptrend as investors weighed concerns about inflation alongside potential interest rate hikes by the Federal Reserve. Spot gold saw a 0.3% increase, while US gold futures for December rose by 0.4%. St. Louis Fed Pre…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T01:49:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-nudges-higher-with-inflation-risks-fed-rate-path-in-focus/articleshow/134804008.cms",
+            "sentiment_score": 0.0033,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks drop on tech jitters, oil edges lower",
+            "description": "The MSCI Asia Pacific equities index edged 0.1% lower early Friday. Japan’s Nikkei fell over 1%, with Softbank Group Corp. declining more than 5%. The regional moves came after the Nasdaq 100 Index sank 1.4%, its worst day in seven weeks, while a US gauge of …",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T00:48:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-drop-on-tech-jitters-oil-edges-lower/articleshow/134803253.cms",
+            "sentiment_score": -0.5803,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bo Sun",
@@ -1685,170 +1935,10 @@
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/tech-stocks-drag-nasdaq-lower-on-report-of-openai-revenue-fall-high-yields/articleshow/134800145.cms",
             "sentiment_score": -0.2449,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs Big Wigs Set To Pocket $500,000,000 Bonus As Americans’ Bank Accounts Run Dry",
-            "description": "Roughly 20 Goldman Sachs executives could collect more than $500 million in special stock awards as American households grapple with mounting debt and limited emergency savings.",
-            "source": "The Daily Caller",
-            "published_at": "2026-10-08T19:53:35Z",
-            "url": "https://dailycaller.com/2026/10/08/wall-street-big-wigs-set-to-pocket-500000000-bonus-as-americans-bank-accounts-run-dry",
-            "sentiment_score": 0.3564,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CNBC Host Expects Bitcoin to Take Off in October; Here’s Why",
-            "description": "Bitcoin has entered the final quarter of the year, and as usual, market participants, market analysts, and Bitcoin traders are anticipating a long-term price rally.",
-            "source": "ZyCrypto",
-            "published_at": "2026-10-08T19:51:57Z",
-            "url": "https://zycrypto.com/cnbc-host-expects-bitcoin-to-take-off-in-october-heres-why/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says",
-            "description": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
-            "source": "CNBC",
-            "published_at": "2026-10-08T19:38:14Z",
-            "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
-            "sentiment_score": 0.0719,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Data Shows Tariffs Drove Inflation in 2025",
-            "description": "New research shows that the cost of many consumer goods would have declined last year if not for U.S. tariffs. The paper from the Federal Reserve Bank of New York says the cost of 67 categories of goods was 2.9 percentage points higher as of February because …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T19:15:13Z",
-            "url": "https://www.pymnts.com/economy/2026/fed-data-shows-tariffs-drove-inflation-in-2025/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI darlings, defence shares most at risk as U.S. midterms near",
-            "description": "Historically, the SP 500 index has risen in the 12 months after every midterm election since 1946, according to Wells Fargo. Read here",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T19:08:46Z",
-            "url": "https://financialpost.com/investing/ai-darlings-defence-shares-risk-midterms-near",
-            "sentiment_score": 0.4461,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Columbus Day 2026: Is October 12 a federal holiday? Here's what's open and closed on October 12?",
-            "description": "Columbus Day 2026 is set for Monday, October 12, and will be recognized as a federal holiday. As a result, all federal offices and courts will be closed, while the U.S. Postal Service will not deliver regular mail. Many private businesses, including grocery s…",
-            "source": "The Times of India",
-            "published_at": "2026-10-08T19:03:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/columbus-day-2026-is-october-12-a-federal-holiday-heres-whats-open-and-closed-on-october-12/articleshow/134796420.cms",
-            "sentiment_score": 0.4493,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Facebook whistleblower behind ‘The Social Reckoning’ says Zuckerberg is ‘playing with fire’ on AI",
-            "description": "The real Frances Haugen on the new Sorkin film, Meta’s AI spending spree, and why a pause won’t work.",
-            "source": "Fortune",
-            "published_at": "2026-10-08T18:44:52Z",
-            "url": "https://fortune.com/2026/10/08/the-facebook-whistleblower-behind-the-social-reckoning-says-zuckerberg-is-playing-with-fire-on-ai/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red",
-            "description": "Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T17:46:05Z",
-            "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red",
-            "sentiment_score": -0.6104,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase and Samsung Team to Bring Stablecoins to Digital Wallets",
-            "description": "Coinbase is expanding its partnership with Samsung to power the stablecoin experience in the electronics company’s digital wallet. The new offering, announced Thursday (Oct. 8), extends a collaboration that began last July, and is set to roll out in the U.S. …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:31:09Z",
-            "url": "https://www.pymnts.com/cryptocurrency/2026/coinbase-and-samsung-team-to-bring-stablecoins-to-digital-wallets/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s slide below $81,000 exposes why a Fed pause may not save the crypto market",
-            "description": "Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most participants viewed another rate increase by year-end as probable and left decis…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T17:30:25Z",
-            "url": "https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
-            "sentiment_score": -0.3216,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits",
-            "description": "JPMorgan Chase, Bank of America and Wells Fargo hold about $1.6 trillion in deposits that pay no interest, the Financial Times reported. That money tends to stay put because moving it takes time. Artificial intelligence (AI) agents could remove that friction.…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:22:54Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/",
-            "sentiment_score": 0.0901,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC’s decade of growth puts it in Goldman’s market-value league",
-            "description": "RBC has climbed into the same market-value tier as Goldman Sachs and is worth more than Wells Fargo and Citigroup. Read more.",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T17:20:46Z",
-            "url": "https://financialpost.com/fp-finance/banking/rbc-growth-goldman-market-value-league",
-            "sentiment_score": 0.4143,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "NRI home loan after RBI rate hike: Should borrowers increase down payment or retain overseas savings? Experts explain",
-            "description": "Higher interest rates could push up EMIs on floating-rate home loans for NRIs.",
-            "source": "Livemint",
-            "published_at": "2026-10-08T17:08:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/nri-home-loan-after-rbi-rate-hike-should-borrowers-increase-down-payment-or-retain-overseas-savings-experts-explain-11791471920817.html",
-            "sentiment_score": 0.3604,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US government moves another $1 billion in Bitcoin as BTC slides $4,000",
-            "description": "US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of 12,267 BTC, valued at approximately $1 billion, from a government-controlled a…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T16:50:59Z",
-            "url": "https://cryptoslate.com/us-government-moves-another-1-billion-in-bitcoin-as-btc-slides-4000/",
-            "sentiment_score": 0.1663,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Average long-term US mortgage rate at highest level in nearly 3 years",
-            "description": "Average long-term US mortgage rate at highest level in nearly 3 yearsbostonherald.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-10-08T16:20:40Z",
-            "url": "https://wirehub.medianewsgroup.com/2026/10/08/average-long-term-us-mortgage-rate-at-highest-level-in-nearly-3-years-after-7th-weekly-rise-in-a-row/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-            "description": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T16:14:46Z",
-            "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
-            "sentiment_score": 0.0361,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0609,
+      "net_score": -0.0483,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1879,7 +1969,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=60.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-10T00:40:28.863968+00:00"
+    "generated_at": "2026-10-10T06:54:51.413403+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1888,10 +1978,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.2729,
+        "average_score": 0.25,
         "label": "บวกชัดเจน (Bullish)",
-        "article_count": 11,
+        "article_count": 13,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction: Should you follow sell on rise strategy? Check October 9, 2026 outlook",
+            "description": "Gold price prediction today: MCX Gold December futures are witnessing a strong recovery, with prices trading around Rs 1,51,325 after breaking above the earlier consolidation zone near Rs 1,49,500–Rs 1,50,000.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T06:24:11Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-09-2026-should-you-buy-or-sell-mcx-gold/articleshow/134813269.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold prices rise Rs 1,500/10g; silver up Rs 3,100/kg ahead of US economic data, softer yields. Buy, sell or hold?",
+            "description": "Gold and silver prices gain on MCX as a weaker US dollar and easing Treasury yields support bullion. Investors assess inflation risks and the Federal Reserve’s rate outlook, while traders track key support and resistance levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:44:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-1500/10g-silver-up-rs-3100/kg-ahead-of-us-economic-data-softer-yields-buy-sell-or-hold/articleshow/134807815.cms",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Buy, hold, sell: Rural Funds Group, Imdex, Fortescue shares",
@@ -2005,10 +2115,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0362,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0871,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "The New Deal",
+            "description": "Podcast Transcript In 1933, the United States was in the midst of the worst economic crisis in its history. Millions were unemployed, banks were collapsing, and Americans were losing faith in the institutions that had once promised prosperity. A newly elected…",
+            "source": "Everything-everywhere.com",
+            "published_at": "2026-10-09T06:40:01Z",
+            "url": "https://everything-everywhere.com/the-new-deal/",
+            "sentiment_score": -0.2129,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently det",
+            "description": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money launderingFederal Reserve (.gov) American Exp…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-09T06:33:01Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186074724",
+            "sentiment_score": -0.529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India’s Central Bank Raises Repo Rate to 5.50%, First Increase Since 2023",
+            "description": "The Reserve Bank of India (RBI) raised its benchmark policy repo rate by 25 basis points to 5.50% on Wednesday, the central bank’s first rate increase since February 2023. The six-member Monetary Policy Committee voted unanimously in favor of the increase, li…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-india-raises-repo-rate-first-since-2023.html",
+            "sentiment_score": 0.4456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis",
+            "description": "The Real Cost of Oil: How War and Deception Are Fueling a Global Energy Crisis The price of oil is no longer just a market signal. It is a confession. Every spike in crude and every insurance premium demanded from a supertanker captain is a receipt for a war …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-09T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-09-real-cost-oil-war-deception-fueling-crisis.html",
+            "sentiment_score": -0.8981,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ray Dalio says the stock market's margin for error is shrinking",
+            "description": "Rising bond yields are making stocks less attractive, leaving the market with less room to absorb higher borrowing costs.",
+            "source": "Business Insider",
+            "published_at": "2026-10-09T05:29:52Z",
+            "url": "https://www.businessinsider.com/ray-dalio-bond-market-yields-interest-rates-stocks-ai-trade-2026-10#article",
+            "sentiment_score": -0.1664,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Hong Kong faces limited impact if Fed curbs access to US dollar funding facility: analysts",
+            "description": "A US lawmaker’s call for a review of Hong Kong’s access to a Federal Reserve facility that provides short-term US dollar funding would have limited impact on the city as it is not a regular source of financing, according to analysts, who said any restriction …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T05:22:46Z",
+            "url": "https://biztoc.com/x/b6874be2b669fd0f",
+            "sentiment_score": -0.296,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices rise Rs 1,500/10g; silver up Rs 3,100/kg ahead of US economic data, softer yields. Buy, sell or hold?",
+            "description": "Gold and silver prices gain on MCX as a weaker US dollar and easing Treasury yields support bullion. Investors assess inflation risks and the Federal Reserve’s rate outlook, while traders track key support and resistance levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:44:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-rise-rs-1500/10g-silver-up-rs-3100/kg-ahead-of-us-economic-data-softer-yields-buy-sell-or-hold/articleshow/134807815.cms",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ether longs take the brunt of crypto’s $1 billion liquidation flush",
+            "description": "The liquidation event highlights the risks of high leverage in crypto trading, emphasizing the need for cautious positioning and market awareness.\nThe post Ether longs take the brunt of crypto’s $1 billion liquidation flush appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-09T04:09:19Z",
+            "url": "https://cryptobriefing.com/ether-liquidations-six-times-bitcoin-rate/",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Wall Street in focus as US jobless claims ease amid Fed rate uncertainty",
+            "description": "US jobless claims fell to 197,000 last week, below expectations, signalling low layoffs despite sluggish hiring. The data keep the Federal Reserve’s interest-rate outlook in focus as investors weigh labour market resilience against inflation risks.",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T04:06:10Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-wall-street-in-focus-as-us-jobless-claims-ease-amid-fed-rate-uncertainty/articleshow/134806455.cms",
+            "sentiment_score": -0.0528,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today, 9 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
+            "description": "Gold and silver prices today, 9 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
+            "source": "Livemint",
+            "published_at": "2026-10-09T03:55:54Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-9-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11791506918506.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Precious metals rise, gold climbs 1%",
+            "description": "Precious metals traded higher, with gold rising more than 1%, as investors received signs the United States Federal Reserve may not raise rates at its October meeting.Fed Governor Christopher Waller s...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-09T03:22:39Z",
+            "url": "https://biztoc.com/x/2457545e65780a29",
+            "sentiment_score": 0.6277,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express fined $350 million over anti-money laundering compliance failures",
+            "description": "American Express received a fine of $350 million due to failures in their anti-money laundering compliance programs. The US Office of the Comptroller of the Currency and the Federal Reserve announced this enforcement action. The company reportedly failed to i…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T03:07:11Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/american-express-fined-350-million-over-anti-money-laundering-compliance-failures/articleshow/134805009.cms",
+            "sentiment_score": -0.5223,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "OCC and Fed Fine American Express $350 Million Over AML Deficiencies",
+            "description": "American Express takes its responsibility to fight financial crime seriously and is committed to addressing concerns outlined by banking regulators, Chairman and CEO Stephen J. Squeri said in a statement released Thursday (Oct. 8). Squeri issued the statement…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-09T02:52:02Z",
+            "url": "https://www.pymnts.com/legal/aml/2026/occ-and-fed-fine-american-express-350-million-over-aml-deficiencies/",
+            "sentiment_score": 0.3433,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Will Nifty register its 9th straight weekly loss? Here's what analysts say",
+            "description": "At current levels, the NSE Nifty is on course to log its longest (9th) weekly losing streak since April 2001, shows market data. Technical analyst expect support around the psychological 22,000-mark.",
+            "source": "Business Standard",
+            "published_at": "2026-10-09T02:45:42Z",
+            "url": "https://www.business-standard.com/markets/news/will-nifty-register-its-9th-straight-weekly-loss-on-friday-here-s-what-technical-analysts-expect-126100900133_1.html",
+            "sentiment_score": 0.3492,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold nudges higher with inflation risks, Fed rate path in focus",
+            "description": "On Friday, gold prices experienced a modest uptrend as investors weighed concerns about inflation alongside potential interest rate hikes by the Federal Reserve. Spot gold saw a 0.3% increase, while US gold futures for December rose by 0.4%. St. Louis Fed Pre…",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T01:49:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-nudges-higher-with-inflation-risks-fed-rate-path-in-focus/articleshow/134804008.cms",
+            "sentiment_score": 0.0033,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks drop on tech jitters, oil edges lower",
+            "description": "The MSCI Asia Pacific equities index edged 0.1% lower early Friday. Japan’s Nikkei fell over 1%, with Softbank Group Corp. declining more than 5%. The regional moves came after the Nasdaq 100 Index sank 1.4%, its worst day in seven weeks, while a US gauge of …",
+            "source": "The Times of India",
+            "published_at": "2026-10-09T00:48:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-drop-on-tech-jitters-oil-edges-lower/articleshow/134803253.cms",
+            "sentiment_score": -0.5803,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Bo Sun",
@@ -2148,170 +2418,10 @@
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/tech-stocks-drag-nasdaq-lower-on-report-of-openai-revenue-fall-high-yields/articleshow/134800145.cms",
             "sentiment_score": -0.2449,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs Big Wigs Set To Pocket $500,000,000 Bonus As Americans’ Bank Accounts Run Dry",
-            "description": "Roughly 20 Goldman Sachs executives could collect more than $500 million in special stock awards as American households grapple with mounting debt and limited emergency savings.",
-            "source": "The Daily Caller",
-            "published_at": "2026-10-08T19:53:35Z",
-            "url": "https://dailycaller.com/2026/10/08/wall-street-big-wigs-set-to-pocket-500000000-bonus-as-americans-bank-accounts-run-dry",
-            "sentiment_score": 0.3564,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "CNBC Host Expects Bitcoin to Take Off in October; Here’s Why",
-            "description": "Bitcoin has entered the final quarter of the year, and as usual, market participants, market analysts, and Bitcoin traders are anticipating a long-term price rally.",
-            "source": "ZyCrypto",
-            "published_at": "2026-10-08T19:51:57Z",
-            "url": "https://zycrypto.com/cnbc-host-expects-bitcoin-to-take-off-in-october-heres-why/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields are 'really, really high,' but can come down soon, Bessent's new adviser says",
-            "description": "The comments from David Zervos come after the 10-year and 30-year yields marched to 24-year highs in recent days.",
-            "source": "CNBC",
-            "published_at": "2026-10-08T19:38:14Z",
-            "url": "https://www.cnbc.com/2026/10/08/treasury-yields-david-zervos.html",
-            "sentiment_score": 0.0719,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Data Shows Tariffs Drove Inflation in 2025",
-            "description": "New research shows that the cost of many consumer goods would have declined last year if not for U.S. tariffs. The paper from the Federal Reserve Bank of New York says the cost of 67 categories of goods was 2.9 percentage points higher as of February because …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T19:15:13Z",
-            "url": "https://www.pymnts.com/economy/2026/fed-data-shows-tariffs-drove-inflation-in-2025/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI darlings, defence shares most at risk as U.S. midterms near",
-            "description": "Historically, the SP 500 index has risen in the 12 months after every midterm election since 1946, according to Wells Fargo. Read here",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T19:08:46Z",
-            "url": "https://financialpost.com/investing/ai-darlings-defence-shares-risk-midterms-near",
-            "sentiment_score": 0.4461,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Columbus Day 2026: Is October 12 a federal holiday? Here's what's open and closed on October 12?",
-            "description": "Columbus Day 2026 is set for Monday, October 12, and will be recognized as a federal holiday. As a result, all federal offices and courts will be closed, while the U.S. Postal Service will not deliver regular mail. Many private businesses, including grocery s…",
-            "source": "The Times of India",
-            "published_at": "2026-10-08T19:03:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/columbus-day-2026-is-october-12-a-federal-holiday-heres-whats-open-and-closed-on-october-12/articleshow/134796420.cms",
-            "sentiment_score": 0.4493,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Facebook whistleblower behind ‘The Social Reckoning’ says Zuckerberg is ‘playing with fire’ on AI",
-            "description": "The real Frances Haugen on the new Sorkin film, Meta’s AI spending spree, and why a pause won’t work.",
-            "source": "Fortune",
-            "published_at": "2026-10-08T18:44:52Z",
-            "url": "https://fortune.com/2026/10/08/the-facebook-whistleblower-behind-the-social-reckoning-says-zuckerberg-is-playing-with-fire-on-ai/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Suffer Worst Loss Since June as Uptober Turns Red",
-            "description": "Investors yanked $484.9 million out of spot Bitcoin ETFs in a single day. Oil is near $100, bond yields are at their highest since 2002, and the Fed isn't done hiking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T17:46:05Z",
-            "url": "https://decrypt.co/380490/bitcoin-etfs-worst-outflow-since-june-uptober-red",
-            "sentiment_score": -0.6104,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Coinbase and Samsung Team to Bring Stablecoins to Digital Wallets",
-            "description": "Coinbase is expanding its partnership with Samsung to power the stablecoin experience in the electronics company’s digital wallet. The new offering, announced Thursday (Oct. 8), extends a collaboration that began last July, and is set to roll out in the U.S. …",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:31:09Z",
-            "url": "https://www.pymnts.com/cryptocurrency/2026/coinbase-and-samsung-team-to-bring-stablecoins-to-digital-wallets/",
-            "sentiment_score": 0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s slide below $81,000 exposes why a Fed pause may not save the crypto market",
-            "description": "Bitcoin slid below $81,000 on Oct. 8, with an intraday low near $80,800, even as traders expect the Fed to hold in October. The September FOMC minutes, released Oct. 7, said most participants viewed another rate increase by year-end as probable and left decis…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T17:30:25Z",
-            "url": "https://cryptoslate.com/bitcoins-slide-below-81000-exposes-why-a-fed-pause-may-not-save-the-crypto-market/",
-            "sentiment_score": -0.3216,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Agents Wake Up $1.6 Trillion in Sleepy Bank Deposits",
-            "description": "JPMorgan Chase, Bank of America and Wells Fargo hold about $1.6 trillion in deposits that pay no interest, the Financial Times reported. That money tends to stay put because moving it takes time. Artificial intelligence (AI) agents could remove that friction.…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-08T17:22:54Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-agents-wake-up-1-6-trillion-in-sleepy-bank-deposits/",
-            "sentiment_score": 0.0901,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "RBC’s decade of growth puts it in Goldman’s market-value league",
-            "description": "RBC has climbed into the same market-value tier as Goldman Sachs and is worth more than Wells Fargo and Citigroup. Read more.",
-            "source": "Financial Post",
-            "published_at": "2026-10-08T17:20:46Z",
-            "url": "https://financialpost.com/fp-finance/banking/rbc-growth-goldman-market-value-league",
-            "sentiment_score": 0.4143,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "NRI home loan after RBI rate hike: Should borrowers increase down payment or retain overseas savings? Experts explain",
-            "description": "Higher interest rates could push up EMIs on floating-rate home loans for NRIs.",
-            "source": "Livemint",
-            "published_at": "2026-10-08T17:08:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/nri-home-loan-after-rbi-rate-hike-should-borrowers-increase-down-payment-or-retain-overseas-savings-experts-explain-11791471920817.html",
-            "sentiment_score": 0.3604,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US government moves another $1 billion in Bitcoin as BTC slides $4,000",
-            "description": "US government-linked wallets moved over $1 billion in Bitcoin on Oct. 8 as BTC prices fell and more coins reached Coinbase Prime. On Oct. 8, Galaxy Research flagged the transfer of 12,267 BTC, valued at approximately $1 billion, from a government-controlled a…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-08T16:50:59Z",
-            "url": "https://cryptoslate.com/us-government-moves-another-1-billion-in-bitcoin-as-btc-slides-4000/",
-            "sentiment_score": 0.1663,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Average long-term US mortgage rate at highest level in nearly 3 years",
-            "description": "Average long-term US mortgage rate at highest level in nearly 3 yearsbostonherald.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-10-08T16:20:40Z",
-            "url": "https://wirehub.medianewsgroup.com/2026/10/08/average-long-term-us-mortgage-rate-at-highest-level-in-nearly-3-years-after-7th-weekly-rise-in-a-row/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "From Uptober to Spooky Szn? Bitcoin Cuts September Gains in Half",
-            "description": "Day traders are selling, leveraged longs are getting flushed and ETF money is heading for the door. The daily chart still holds the line, but its cushion is shrinking.",
-            "source": "Decrypt",
-            "published_at": "2026-10-08T16:14:46Z",
-            "url": "https://decrypt.co/380462/uptober-spooky-szn-bitcoin-cuts-september-gains",
-            "sentiment_score": 0.0361,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.3091,
+      "net_score": 0.3371,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -2321,14 +2431,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4220.2998,
+      "price_now": 4216.2998,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 63.8,
-      "rsi_signal": "โซนกลาง (RSI=63.8)",
+      "rsi_value": 60.8,
+      "rsi_signal": "โซนกลาง (RSI=60.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 12.24836,
-      "suggested_sl_distance": 18.37254,
+      "atr_value": 12.44798,
+      "suggested_sl_distance": 18.67197,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2342,6 +2452,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-10T00:40:28.863968+00:00"
+    "generated_at": "2026-10-10T06:54:51.413403+00:00"
   }
 ]
