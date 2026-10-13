@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.332,
+        "average_score": -0.28,
         "label": "ลบชัดเจน (Bearish)",
-        "article_count": 4,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Global watchdog flags stablecoin risks, AI threats ahead of G20",
+            "description": "The Financial Stability Board flagged cross-border stablecoin risks and AI-related cybersecurity threats while urging G20 policymakers to support stronger safeguards.",
+            "source": "Cointelegraph",
+            "published_at": "2026-10-12T06:30:21Z",
+            "url": "https://cointelegraph.com/news/fsb-stablecoin-ai-risks-g20-finance-meeting",
+            "sentiment_score": -0.2931,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Frantic behind-the-scenes talks delivers deal on EU capital markets reform",
+            "description": "Political agreement had long proved elusive when it came to reforms of the EU’s capital markets",
+            "source": "The Irish Times",
+            "published_at": "2026-10-12T05:00:01Z",
+            "url": "https://www.irishtimes.com/business/2026/10/12/frantic-behind-the-scenes-talks-delivers-deal-on-eu-capital-markets-reform/",
+            "sentiment_score": -0.1601,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Bond Turmoil Raises the Specter of Contagion in Europe...",
@@ -53,10 +73,210 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.042,
+        "average_score": 0.0082,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 26,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold prices fall Rs 1,450/10g; silver down Rs 1,400/kg despite a soft dollar ahead of US economic data. Time to sell?",
+            "description": "Gold and silver prices opened lower on MCX despite a weaker US dollar and falling oil prices, as investors awaited US inflation data for clues on the Federal Reserve’s next policy move. Analysts recommend buying on dips while monitoring key support levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:48:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1450/10g-silver-down-rs-1400/kg-despite-a-soft-dollar-ahead-of-us-economic-data-time-to-sell/articleshow/134885210.cms",
+            "sentiment_score": 0.1718,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China's Yuan hovers near 3-1/2-year high as trade risks cloud outlook",
+            "description": "China's yuan hovers near a 3-1/2-year high against the dollar as fading expectations of a US rate hike support the currency. However, trade tensions, China's widening yield disadvantage and concerns over export demand could limit further gains.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:28:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hovers-near-3-1/2-year-high-as-trade-risks-cloud-outlook/articleshow/134884833.cms",
+            "sentiment_score": -0.2591,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express slapped with record fine for 11-year blind eye to $13B in “suspicious” trade",
+            "description": "American Express fined $350 million by federal regulators for anti-money laundering failures. Company missed approximately $13 billion in suspicious transactions over 11 years. Office of the Comptroller of the Currency and Federal Reserve issued concurrent en…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-12T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-12-american-express-slapped-with-record-fine-suspicious-trade.html",
+            "sentiment_score": -0.3899,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+            "description": "By Ankur Banerjee and Li Gu\nSINGAPORE/SHANGHAI, Oct 12 (Reuters) - The dollar held its ground near the strongest level in a year and a half on Monday as an escalating Middle East conflict kept investors wary ahead of key US inflation data later this week that…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T05:57:19Z",
+            "url": "https://biztoc.com/x/d306d9afd66e08f6",
+            "sentiment_score": -0.1768,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans Robert E. Hall and Michael Woodford win 2026 Nobel prize in economics",
+            "description": "STOCKHOLM (AP) — American economists Robert E. Hall and Michael Woodford won the Nobel Memorial Prize in economics Monday for their work on models that have helped governments and central banks manage economic shocks, such as energy crises and inflation.\n The…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-12T05:40:14Z",
+            "url": "https://www.yahoo.com/news/articles/nobel-memorial-prize-economics-awarded-054014824.html",
+            "sentiment_score": 0.7848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks rise as oil prices tumble after Trump hails ‘energy ceasefire’",
+            "description": "Stock markets rose and oil prices tumbled after Donald Trump announced an ‘energy ceasefire’ between Russia and Ukraine, offsetting Houthi attacks on Saudi\n\nRead More: https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "source": "The Punch",
+            "published_at": "2026-10-12T05:38:34Z",
+            "url": "https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Markets: 5 key triggers to watch out for this week",
+            "description": "The IMF and World Bank annual meetings in Bangkok will put global growth, debt sustainability and geopolitics in focus as high energy costs and rising borrowing costs weigh on markets. The IMF's updated World Economic Outlook on Tuesday will be closely watche…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-12T05:26:05Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-markets-5-key-triggers-to-watch-out-for-this-week/imf-world-bank-meetings-in-focus/slideshow/134883687.cms",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains on weaker oil, dollar; US inflation data in focus",
+            "description": "Gold nudges higher on softer oil and dollar as US inflation data loom, with rate-hike odds at 17% for October.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T05:13:08Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-gains-on-weaker-oil-dollar-us-inflation-data-in-focus/article71573789.ece",
+            "sentiment_score": -0.1575,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty holds flat at open despite Wall Street gains; FII selling streak hits 11 sessions",
+            "description": "Equity benchmarks opened on a cautious note on Monday with the Nifty 50 opening at 22,593.20 against a previous close of 22,520.45, and trading near 22,525.60, up just 5.15 points or 0.02 per cent, at 9.25 am. The Sensex opened at 72,771.32 compared to its pr…",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T04:26:48Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-holds-flat-at-open-despite-wall-street-gains-fii-selling-streak-hits-11-sessions/article71573720.ece",
+            "sentiment_score": 0.2138,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks in focus as bank earnings, inflation data set to test market rally",
+            "description": "US investors will track major bank earnings, September inflation data and Treasury yields this week for clues on corporate profitability and the Federal Reserve’s rate outlook, as persistent price pressures and rising borrowing costs test the stock market ral…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:24:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-in-focus-as-bank-earnings-inflation-data-set-to-test-market-rally/articleshow/134882275.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Echoes of 2017: Why Domestic Flows Alone Won't Rescue Indian Equities",
+            "description": "Strong domestic inflows through SIPs and mutual funds are failing to sustain Indian equity returns amid continuous FII selling and moderating earnings growth. Drawing parallels to the 2017 market cycle, this analysis highlights why structural macroeconomic ch…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/echoes-of-2017-why-domestic-flows-alone-wont-rescue-indian-equities/articleshow/134882171.cms",
+            "sentiment_score": -0.286,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares cautious as earnings loom, oil prices slip on easing fears",
+            "description": "South Korean stocks fell 1.1%, while MSCI's broadest index of Asia-Pacific shares outside Japan was little changed",
+            "source": "Business Standard",
+            "published_at": "2026-10-12T03:01:43Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-cautious-as-earnings-loom-oil-prices-slip-on-easing-fears-126101200044_1.html",
+            "sentiment_score": -0.0696,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar stays near 18-month high as Mideast conflict, inflation data in focus",
+            "description": "The dollar's steadiness reflects a cautious market responding to geopolitical stresses in the Middle East, which have dampened investor confidence. Fluctuations in oil prices continue as conflict in Saudi Arabia disrupts infrastructure, paired with controvers…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus/articleshow/134880836.cms",
+            "sentiment_score": -0.3247,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as markets strap in for inflation data",
+            "description": "Gold prices showed little movement as early Asian trading commenced, with many awaiting US inflation data this week. Spot gold remained steady after reaching a one-week high on Friday, while US gold futures saw a slight increase. Key data to be released inclu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:11:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-as-markets-strap-in-for-inflation-data/articleshow/134880669.cms",
+            "sentiment_score": 0.1268,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Falls 1.5 Percent to 6,528 in Early Trade as Oil and Middle East Tension Hit Tech Shares",
+            "description": "South Korean stocks fell about 1.5% in early trading, extending last week's decline as higher oil prices and renewed Middle East strikes outweighed gains on Wall Street.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-12T01:19:30Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-oil-middle-east-strikes-1876534",
+            "sentiment_score": -0.0258,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Will America open another front in the Middle East? Trump is considering",
+            "description": "Tensions escalate in the Middle East and Ukraine wars.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T01:05:16Z",
+            "url": "https://www.cnbc.com/2026/10/12/tensions-middle-east-and-ukraine-wars-imf-world-bank.html",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why China is importing a record amount of gold — and what it means for prices",
+            "description": "Beijing’s push to diversify away from the dollar and Chinese households’ search for a safe place to put their savings has fueled China’s record gold buying.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T00:51:10Z",
+            "url": "https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares cautious as earnings loom, oil slips",
+            "description": "Trade was thin with Japan markets shut and the US on a partial holiday ahead of the earnings season with major US banks kicking off on Tuesday.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T00:46:40Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-earnings-loom-oil-slips/articleshow/134880101.cms",
+            "sentiment_score": 0.1025,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares cautious in Asia as earnings loom, oil slips",
+            "description": "SYDNEY, Oct 12 : Asian share markets got off to a cautious start on Monday as earnings season loomed as a challenge to sky-high tech valuations, while oil was choppy after strikes on shipping and airports in the Gulf.There was considerable confusion about Pre…",
+            "source": "CNA",
+            "published_at": "2026-10-12T00:42:35Z",
+            "url": "https://www.channelnewsasia.com/business/shares-cautious-in-asia-earnings-loom-oil-slips-6451656",
+            "sentiment_score": -0.2015,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "20% of Americans Behind on Loans, Fed Data Shows",
+            "description": "New Federal Reserve data shows wealth gains cooling among American families amid a spike in loan delinquencies. Released Friday (Oct, 9) the Fed’s latest Survey of Consumer Finances (SCF) covers the years 2022 to 2025, a period in which the gross domestic pro…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T00:41:22Z",
+            "url": "https://biztoc.com/x/1d7e63484d8896cd",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall Wins Nobel in Economic Sciences",
@@ -156,201 +376,41 @@
             "url": "https://fortune.com/2026/10/11/diesel-prices-10-year-bond-yields-crude-oil-inflation-trump-fuel-deal-putin-midterms/",
             "sentiment_score": -0.2878,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: OpenClear – Self-hosted check and ACH fraud screening for small banks",
-            "description": "Article URL: https://github.com/chaffed/OpenClear\nComments URL: https://news.ycombinator.com/item?id=50044824\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-11T16:14:21Z",
-            "url": "https://github.com/chaffed/OpenClear",
-            "sentiment_score": -0.4101,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
-            "description": "Gold rate prediction: Gold tends to lose its appeal compared to yield-bearing assets in a high interest-rate environment.",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T16:13:06Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-for-monday-october-12-check-latest-gold-rate-predictions/articleshow/134873337.cms",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices next week: What investors should watch amid global uncertainty",
-            "description": "Gold and silver prices are anticipated to remain range-bound with modest support from rupee fluctuations. Investors will focus on upcoming inflation data from India, China, and the US. Additionally, trade data from China and Federal Reserve officials' speeche…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T15:50:03Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-next-week-what-investors-should-watch-amid-global-uncertainty/articleshow/134872993.cms",
-            "sentiment_score": -0.1174,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World Bank chief warns diesel, fertilizer and El Niño pressures are building at once",
-            "description": "By Andrea Shalal BANGKOK, Oct 11 (Reuters) - Finance officials from around the world will gather in Bangkok this week under the shadow of a widening war in the Middle East, the biggest-ever energy supply shock and rising interest rates that together pose daun…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-11T15:24:27Z",
-            "url": "https://ca.news.yahoo.com/middle-east-war-high-debt-040251376.html",
-            "sentiment_score": -0.3833,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller pivots on interest-rate bet as worried consumers sound inflation alarms",
-            "description": "Federal Reserve Governor Christopher J. Waller says persistent price pressures and shifting economic risks forced his pivot toward monetary policy. The surprising transition was underscored by fresh Fed data showing consumer confidence slipping and household …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T14:24:11Z",
-            "url": "https://biztoc.com/x/453a04e179256a74",
-            "sentiment_score": -0.3343,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The hawk Fed Chair who broke the bond market?",
-            "description": "Kevin Warsh may be the most hawkish Federal Reserve chair since Paul Volcker. That’s a compliment in some circles. It’s also a warning. Volcker beat inflation, but he broke things on the way, and the bond market is now finding out what Warsh might break.\nThir…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T12:38:27Z",
-            "url": "https://biztoc.com/x/a1f4937438678c71",
-            "sentiment_score": -0.4507,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The invisible hand needs a conscience",
-            "description": "Capitalism’s invisible hand can create wealth. It cannot decide what we owe one another.",
-            "source": "Fortune",
-            "published_at": "2026-10-11T10:30:00Z",
-            "url": "https://fortune.com/2026/10/11/capitalism-conscience-wealth-philanthropy/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 11, 2026: Earn up to 4.50% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T10:23:58Z",
-            "url": "https://biztoc.com/x/eae4f45ac5ed7d2f",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "“Repeated And Persistent Supply-Side Shocks” Are Here To Stay",
-            "description": "A Fed president just admitted the crises aren’t going away. Look at what the last “temporary” emergency took from you, and never gave back, before you believe anything they tell you about this one. On August 19, in Your Dollar Is About to Lose Half Its Buying…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-11T10:00:00Z",
-            "url": "https://activistpost.com/repeated-and-persistent-supply-side-shocks-are-here-to-stay/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
-            "description": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a…",
-            "source": "Business Standard",
-            "published_at": "2026-10-11T09:48:39Z",
-            "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
-            "description": "The WSJ quarterly survey reveals that forecasters think inflation, Federal Reserve rate increases and debt will keep borrowing costs higher for longer.",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T09:38:02Z",
-            "url": "https://biztoc.com/x/679c55900ad80bcc",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices to guide stock markets this week: Analysts",
-            "description": "Analysts say Q2 earnings, inflation, oil prices, and global data will steer Indian stock markets this week, shaping sector moves and sentiment.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-11T09:22:11Z",
-            "url": "https://www.thehindubusinessline.com/markets/q2-earnings-inflation-data-oil-prices-to-guide-stock-markets-this-week-analysts/article71571049.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "While still in the NBA, Junior Bridgeman invested $150,000 in a small Milwaukee cable company; about five years later, its sale returned roughly $700,000",
-            "description": "After his NBA tenure, Ulysses 'Junior' Bridgeman transitioned into business with an initial investment in a local cable company. Despite facing challenges, he ultimately found success by opening several Wendy's franchises. This journey highlighted the importa…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T07:40:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/while-still-in-the-nba-junior-bridgeman-invested-150000-in-a-small-milwaukee-cable-company-about-five-years-later-its-sale-returned-roughly-700000/articleshow/134854903.cms",
-            "sentiment_score": 0.1617,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water",
-            "description": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water Is Israel an unusual democracy? In one important respect, no. Its evolution over the past few years follows a path “pioneered” by several others. In a word (actually two)…",
-            "source": "Israelseen.com",
-            "published_at": "2026-10-11T03:30:35Z",
-            "url": "https://israelseen.com/prof-sam-lehman-wilzig-israels-populism-and-economic-health-more-like-oil-and-water/",
-            "sentiment_score": 0.5322,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield",
-            "description": "The post Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield appeared first on 24/7 Wall St..\nWith interest rates on the rise again, Treasury bill ETFs are looking more attractive. The Federal Reserve recently raised its target …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T02:21:42Z",
-            "url": "https://biztoc.com/x/b7c1067ea2bb5698",
-            "sentiment_score": -0.0157,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "mrm-ai-detector added to PyPI",
-            "description": "Detect AI-generated content in model risk management documentation (validation reports, model documentation, MRM policies).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-11T02:11:46Z",
-            "url": "https://pypi.org/project/mrm-ai-detector/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.374,
+      "net_score": -0.2882,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.11607,
+      "price_now": 1.11957,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 29.6,
-      "rsi_signal": "ขายมากเกิน (RSI=29.6) ราคาอาจเด้ง",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00073,
-      "suggested_sl_distance": 0.0011,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
+      "rsi_value": 62.2,
+      "rsi_signal": "โซนกลาง (RSI=62.2)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00083,
+      "suggested_sl_distance": 0.00124,
+      "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
       "technical_vote": -1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=29.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-13T00:30:14.257990+00:00"
+    "generated_at": "2026-10-13T07:35:47.603490+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -361,8 +421,28 @@
       "base_sentiment": {
         "average_score": 0.1935,
         "label": "บวกเล็กน้อย",
-        "article_count": 9,
+        "article_count": 11,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "UK inflation pressures hits three-year high; Nobel prize for economics awarded today – business live",
+            "description": "Rolling coverage of the latest economic and financial news\nThe biggest prize in economics, the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, will be awarded today.\nKnown as the Nobel Prize in Economics (although it’s not one of the o…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T06:57:32Z",
+            "url": "https://biztoc.com/x/41cf7363cc75d279",
+            "sentiment_score": 0.6739,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Debt advice that may leave you owing even more money",
+            "description": "Debt advice that may leave you owing even more money\nAn increasing number of people are missing credit card repayments as finances are stretched by rising bills, according to the Bank of England.\nLenders also told the Bank they expected the number of unpaid c…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T06:57:17Z",
+            "url": "https://biztoc.com/x/383bc104a24ec260",
+            "sentiment_score": -0.3347,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "Debt advice that may leave you owing even more money",
@@ -456,10 +536,210 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.042,
+        "average_score": 0.0082,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 26,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold prices fall Rs 1,450/10g; silver down Rs 1,400/kg despite a soft dollar ahead of US economic data. Time to sell?",
+            "description": "Gold and silver prices opened lower on MCX despite a weaker US dollar and falling oil prices, as investors awaited US inflation data for clues on the Federal Reserve’s next policy move. Analysts recommend buying on dips while monitoring key support levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:48:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1450/10g-silver-down-rs-1400/kg-despite-a-soft-dollar-ahead-of-us-economic-data-time-to-sell/articleshow/134885210.cms",
+            "sentiment_score": 0.1718,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China's Yuan hovers near 3-1/2-year high as trade risks cloud outlook",
+            "description": "China's yuan hovers near a 3-1/2-year high against the dollar as fading expectations of a US rate hike support the currency. However, trade tensions, China's widening yield disadvantage and concerns over export demand could limit further gains.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:28:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hovers-near-3-1/2-year-high-as-trade-risks-cloud-outlook/articleshow/134884833.cms",
+            "sentiment_score": -0.2591,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express slapped with record fine for 11-year blind eye to $13B in “suspicious” trade",
+            "description": "American Express fined $350 million by federal regulators for anti-money laundering failures. Company missed approximately $13 billion in suspicious transactions over 11 years. Office of the Comptroller of the Currency and Federal Reserve issued concurrent en…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-12T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-12-american-express-slapped-with-record-fine-suspicious-trade.html",
+            "sentiment_score": -0.3899,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+            "description": "By Ankur Banerjee and Li Gu\nSINGAPORE/SHANGHAI, Oct 12 (Reuters) - The dollar held its ground near the strongest level in a year and a half on Monday as an escalating Middle East conflict kept investors wary ahead of key US inflation data later this week that…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T05:57:19Z",
+            "url": "https://biztoc.com/x/d306d9afd66e08f6",
+            "sentiment_score": -0.1768,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans Robert E. Hall and Michael Woodford win 2026 Nobel prize in economics",
+            "description": "STOCKHOLM (AP) — American economists Robert E. Hall and Michael Woodford won the Nobel Memorial Prize in economics Monday for their work on models that have helped governments and central banks manage economic shocks, such as energy crises and inflation.\n The…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-12T05:40:14Z",
+            "url": "https://www.yahoo.com/news/articles/nobel-memorial-prize-economics-awarded-054014824.html",
+            "sentiment_score": 0.7848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks rise as oil prices tumble after Trump hails ‘energy ceasefire’",
+            "description": "Stock markets rose and oil prices tumbled after Donald Trump announced an ‘energy ceasefire’ between Russia and Ukraine, offsetting Houthi attacks on Saudi\n\nRead More: https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "source": "The Punch",
+            "published_at": "2026-10-12T05:38:34Z",
+            "url": "https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Markets: 5 key triggers to watch out for this week",
+            "description": "The IMF and World Bank annual meetings in Bangkok will put global growth, debt sustainability and geopolitics in focus as high energy costs and rising borrowing costs weigh on markets. The IMF's updated World Economic Outlook on Tuesday will be closely watche…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-12T05:26:05Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-markets-5-key-triggers-to-watch-out-for-this-week/imf-world-bank-meetings-in-focus/slideshow/134883687.cms",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains on weaker oil, dollar; US inflation data in focus",
+            "description": "Gold nudges higher on softer oil and dollar as US inflation data loom, with rate-hike odds at 17% for October.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T05:13:08Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-gains-on-weaker-oil-dollar-us-inflation-data-in-focus/article71573789.ece",
+            "sentiment_score": -0.1575,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty holds flat at open despite Wall Street gains; FII selling streak hits 11 sessions",
+            "description": "Equity benchmarks opened on a cautious note on Monday with the Nifty 50 opening at 22,593.20 against a previous close of 22,520.45, and trading near 22,525.60, up just 5.15 points or 0.02 per cent, at 9.25 am. The Sensex opened at 72,771.32 compared to its pr…",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T04:26:48Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-holds-flat-at-open-despite-wall-street-gains-fii-selling-streak-hits-11-sessions/article71573720.ece",
+            "sentiment_score": 0.2138,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks in focus as bank earnings, inflation data set to test market rally",
+            "description": "US investors will track major bank earnings, September inflation data and Treasury yields this week for clues on corporate profitability and the Federal Reserve’s rate outlook, as persistent price pressures and rising borrowing costs test the stock market ral…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:24:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-in-focus-as-bank-earnings-inflation-data-set-to-test-market-rally/articleshow/134882275.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Echoes of 2017: Why Domestic Flows Alone Won't Rescue Indian Equities",
+            "description": "Strong domestic inflows through SIPs and mutual funds are failing to sustain Indian equity returns amid continuous FII selling and moderating earnings growth. Drawing parallels to the 2017 market cycle, this analysis highlights why structural macroeconomic ch…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/echoes-of-2017-why-domestic-flows-alone-wont-rescue-indian-equities/articleshow/134882171.cms",
+            "sentiment_score": -0.286,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares cautious as earnings loom, oil prices slip on easing fears",
+            "description": "South Korean stocks fell 1.1%, while MSCI's broadest index of Asia-Pacific shares outside Japan was little changed",
+            "source": "Business Standard",
+            "published_at": "2026-10-12T03:01:43Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-cautious-as-earnings-loom-oil-prices-slip-on-easing-fears-126101200044_1.html",
+            "sentiment_score": -0.0696,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar stays near 18-month high as Mideast conflict, inflation data in focus",
+            "description": "The dollar's steadiness reflects a cautious market responding to geopolitical stresses in the Middle East, which have dampened investor confidence. Fluctuations in oil prices continue as conflict in Saudi Arabia disrupts infrastructure, paired with controvers…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus/articleshow/134880836.cms",
+            "sentiment_score": -0.3247,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as markets strap in for inflation data",
+            "description": "Gold prices showed little movement as early Asian trading commenced, with many awaiting US inflation data this week. Spot gold remained steady after reaching a one-week high on Friday, while US gold futures saw a slight increase. Key data to be released inclu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:11:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-as-markets-strap-in-for-inflation-data/articleshow/134880669.cms",
+            "sentiment_score": 0.1268,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Falls 1.5 Percent to 6,528 in Early Trade as Oil and Middle East Tension Hit Tech Shares",
+            "description": "South Korean stocks fell about 1.5% in early trading, extending last week's decline as higher oil prices and renewed Middle East strikes outweighed gains on Wall Street.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-12T01:19:30Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-oil-middle-east-strikes-1876534",
+            "sentiment_score": -0.0258,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Will America open another front in the Middle East? Trump is considering",
+            "description": "Tensions escalate in the Middle East and Ukraine wars.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T01:05:16Z",
+            "url": "https://www.cnbc.com/2026/10/12/tensions-middle-east-and-ukraine-wars-imf-world-bank.html",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why China is importing a record amount of gold — and what it means for prices",
+            "description": "Beijing’s push to diversify away from the dollar and Chinese households’ search for a safe place to put their savings has fueled China’s record gold buying.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T00:51:10Z",
+            "url": "https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares cautious as earnings loom, oil slips",
+            "description": "Trade was thin with Japan markets shut and the US on a partial holiday ahead of the earnings season with major US banks kicking off on Tuesday.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T00:46:40Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-earnings-loom-oil-slips/articleshow/134880101.cms",
+            "sentiment_score": 0.1025,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares cautious in Asia as earnings loom, oil slips",
+            "description": "SYDNEY, Oct 12 : Asian share markets got off to a cautious start on Monday as earnings season loomed as a challenge to sky-high tech valuations, while oil was choppy after strikes on shipping and airports in the Gulf.There was considerable confusion about Pre…",
+            "source": "CNA",
+            "published_at": "2026-10-12T00:42:35Z",
+            "url": "https://www.channelnewsasia.com/business/shares-cautious-in-asia-earnings-loom-oil-slips-6451656",
+            "sentiment_score": -0.2015,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "20% of Americans Behind on Loans, Fed Data Shows",
+            "description": "New Federal Reserve data shows wealth gains cooling among American families amid a spike in loan delinquencies. Released Friday (Oct, 9) the Fed’s latest Survey of Consumer Finances (SCF) covers the years 2022 to 2025, a period in which the gross domestic pro…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T00:41:22Z",
+            "url": "https://biztoc.com/x/1d7e63484d8896cd",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall Wins Nobel in Economic Sciences",
@@ -559,170 +839,10 @@
             "url": "https://fortune.com/2026/10/11/diesel-prices-10-year-bond-yields-crude-oil-inflation-trump-fuel-deal-putin-midterms/",
             "sentiment_score": -0.2878,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: OpenClear – Self-hosted check and ACH fraud screening for small banks",
-            "description": "Article URL: https://github.com/chaffed/OpenClear\nComments URL: https://news.ycombinator.com/item?id=50044824\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-11T16:14:21Z",
-            "url": "https://github.com/chaffed/OpenClear",
-            "sentiment_score": -0.4101,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
-            "description": "Gold rate prediction: Gold tends to lose its appeal compared to yield-bearing assets in a high interest-rate environment.",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T16:13:06Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-for-monday-october-12-check-latest-gold-rate-predictions/articleshow/134873337.cms",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices next week: What investors should watch amid global uncertainty",
-            "description": "Gold and silver prices are anticipated to remain range-bound with modest support from rupee fluctuations. Investors will focus on upcoming inflation data from India, China, and the US. Additionally, trade data from China and Federal Reserve officials' speeche…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T15:50:03Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-next-week-what-investors-should-watch-amid-global-uncertainty/articleshow/134872993.cms",
-            "sentiment_score": -0.1174,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World Bank chief warns diesel, fertilizer and El Niño pressures are building at once",
-            "description": "By Andrea Shalal BANGKOK, Oct 11 (Reuters) - Finance officials from around the world will gather in Bangkok this week under the shadow of a widening war in the Middle East, the biggest-ever energy supply shock and rising interest rates that together pose daun…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-11T15:24:27Z",
-            "url": "https://ca.news.yahoo.com/middle-east-war-high-debt-040251376.html",
-            "sentiment_score": -0.3833,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller pivots on interest-rate bet as worried consumers sound inflation alarms",
-            "description": "Federal Reserve Governor Christopher J. Waller says persistent price pressures and shifting economic risks forced his pivot toward monetary policy. The surprising transition was underscored by fresh Fed data showing consumer confidence slipping and household …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T14:24:11Z",
-            "url": "https://biztoc.com/x/453a04e179256a74",
-            "sentiment_score": -0.3343,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The hawk Fed Chair who broke the bond market?",
-            "description": "Kevin Warsh may be the most hawkish Federal Reserve chair since Paul Volcker. That’s a compliment in some circles. It’s also a warning. Volcker beat inflation, but he broke things on the way, and the bond market is now finding out what Warsh might break.\nThir…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T12:38:27Z",
-            "url": "https://biztoc.com/x/a1f4937438678c71",
-            "sentiment_score": -0.4507,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The invisible hand needs a conscience",
-            "description": "Capitalism’s invisible hand can create wealth. It cannot decide what we owe one another.",
-            "source": "Fortune",
-            "published_at": "2026-10-11T10:30:00Z",
-            "url": "https://fortune.com/2026/10/11/capitalism-conscience-wealth-philanthropy/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 11, 2026: Earn up to 4.50% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T10:23:58Z",
-            "url": "https://biztoc.com/x/eae4f45ac5ed7d2f",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "“Repeated And Persistent Supply-Side Shocks” Are Here To Stay",
-            "description": "A Fed president just admitted the crises aren’t going away. Look at what the last “temporary” emergency took from you, and never gave back, before you believe anything they tell you about this one. On August 19, in Your Dollar Is About to Lose Half Its Buying…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-11T10:00:00Z",
-            "url": "https://activistpost.com/repeated-and-persistent-supply-side-shocks-are-here-to-stay/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
-            "description": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a…",
-            "source": "Business Standard",
-            "published_at": "2026-10-11T09:48:39Z",
-            "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
-            "description": "The WSJ quarterly survey reveals that forecasters think inflation, Federal Reserve rate increases and debt will keep borrowing costs higher for longer.",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T09:38:02Z",
-            "url": "https://biztoc.com/x/679c55900ad80bcc",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices to guide stock markets this week: Analysts",
-            "description": "Analysts say Q2 earnings, inflation, oil prices, and global data will steer Indian stock markets this week, shaping sector moves and sentiment.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-11T09:22:11Z",
-            "url": "https://www.thehindubusinessline.com/markets/q2-earnings-inflation-data-oil-prices-to-guide-stock-markets-this-week-analysts/article71571049.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "While still in the NBA, Junior Bridgeman invested $150,000 in a small Milwaukee cable company; about five years later, its sale returned roughly $700,000",
-            "description": "After his NBA tenure, Ulysses 'Junior' Bridgeman transitioned into business with an initial investment in a local cable company. Despite facing challenges, he ultimately found success by opening several Wendy's franchises. This journey highlighted the importa…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T07:40:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/while-still-in-the-nba-junior-bridgeman-invested-150000-in-a-small-milwaukee-cable-company-about-five-years-later-its-sale-returned-roughly-700000/articleshow/134854903.cms",
-            "sentiment_score": 0.1617,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water",
-            "description": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water Is Israel an unusual democracy? In one important respect, no. Its evolution over the past few years follows a path “pioneered” by several others. In a word (actually two)…",
-            "source": "Israelseen.com",
-            "published_at": "2026-10-11T03:30:35Z",
-            "url": "https://israelseen.com/prof-sam-lehman-wilzig-israels-populism-and-economic-health-more-like-oil-and-water/",
-            "sentiment_score": 0.5322,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield",
-            "description": "The post Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield appeared first on 24/7 Wall St..\nWith interest rates on the rise again, Treasury bill ETFs are looking more attractive. The Federal Reserve recently raised its target …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T02:21:42Z",
-            "url": "https://biztoc.com/x/b7c1067ea2bb5698",
-            "sentiment_score": -0.0157,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "mrm-ai-detector added to PyPI",
-            "description": "Detect AI-generated content in model risk management documentation (validation reports, model documentation, MRM policies).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-11T02:11:46Z",
-            "url": "https://pypi.org/project/mrm-ai-detector/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1515,
+      "net_score": 0.1853,
       "bias": "เอียงบวกต่อ GBP (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -732,28 +852,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.32085,
+      "price_now": 1.32377,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 36.9,
-      "rsi_signal": "โซนกลาง (RSI=36.9)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00078,
-      "suggested_sl_distance": 0.00117,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "rsi_value": 61.2,
+      "rsi_signal": "โซนกลาง (RSI=61.2)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00086,
+      "suggested_sl_distance": 0.0013,
+      "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
+      "technical_vote": -1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=36.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-13T00:30:14.257990+00:00"
+    "generated_at": "2026-10-13T07:35:47.603490+00:00"
   },
   {
     "pair": "USDJPY",
@@ -762,10 +882,210 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.042,
+        "average_score": 0.0082,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 26,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold prices fall Rs 1,450/10g; silver down Rs 1,400/kg despite a soft dollar ahead of US economic data. Time to sell?",
+            "description": "Gold and silver prices opened lower on MCX despite a weaker US dollar and falling oil prices, as investors awaited US inflation data for clues on the Federal Reserve’s next policy move. Analysts recommend buying on dips while monitoring key support levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:48:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1450/10g-silver-down-rs-1400/kg-despite-a-soft-dollar-ahead-of-us-economic-data-time-to-sell/articleshow/134885210.cms",
+            "sentiment_score": 0.1718,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China's Yuan hovers near 3-1/2-year high as trade risks cloud outlook",
+            "description": "China's yuan hovers near a 3-1/2-year high against the dollar as fading expectations of a US rate hike support the currency. However, trade tensions, China's widening yield disadvantage and concerns over export demand could limit further gains.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:28:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hovers-near-3-1/2-year-high-as-trade-risks-cloud-outlook/articleshow/134884833.cms",
+            "sentiment_score": -0.2591,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express slapped with record fine for 11-year blind eye to $13B in “suspicious” trade",
+            "description": "American Express fined $350 million by federal regulators for anti-money laundering failures. Company missed approximately $13 billion in suspicious transactions over 11 years. Office of the Comptroller of the Currency and Federal Reserve issued concurrent en…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-12T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-12-american-express-slapped-with-record-fine-suspicious-trade.html",
+            "sentiment_score": -0.3899,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+            "description": "By Ankur Banerjee and Li Gu\nSINGAPORE/SHANGHAI, Oct 12 (Reuters) - The dollar held its ground near the strongest level in a year and a half on Monday as an escalating Middle East conflict kept investors wary ahead of key US inflation data later this week that…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T05:57:19Z",
+            "url": "https://biztoc.com/x/d306d9afd66e08f6",
+            "sentiment_score": -0.1768,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans Robert E. Hall and Michael Woodford win 2026 Nobel prize in economics",
+            "description": "STOCKHOLM (AP) — American economists Robert E. Hall and Michael Woodford won the Nobel Memorial Prize in economics Monday for their work on models that have helped governments and central banks manage economic shocks, such as energy crises and inflation.\n The…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-12T05:40:14Z",
+            "url": "https://www.yahoo.com/news/articles/nobel-memorial-prize-economics-awarded-054014824.html",
+            "sentiment_score": 0.7848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks rise as oil prices tumble after Trump hails ‘energy ceasefire’",
+            "description": "Stock markets rose and oil prices tumbled after Donald Trump announced an ‘energy ceasefire’ between Russia and Ukraine, offsetting Houthi attacks on Saudi\n\nRead More: https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "source": "The Punch",
+            "published_at": "2026-10-12T05:38:34Z",
+            "url": "https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Markets: 5 key triggers to watch out for this week",
+            "description": "The IMF and World Bank annual meetings in Bangkok will put global growth, debt sustainability and geopolitics in focus as high energy costs and rising borrowing costs weigh on markets. The IMF's updated World Economic Outlook on Tuesday will be closely watche…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-12T05:26:05Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-markets-5-key-triggers-to-watch-out-for-this-week/imf-world-bank-meetings-in-focus/slideshow/134883687.cms",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains on weaker oil, dollar; US inflation data in focus",
+            "description": "Gold nudges higher on softer oil and dollar as US inflation data loom, with rate-hike odds at 17% for October.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T05:13:08Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-gains-on-weaker-oil-dollar-us-inflation-data-in-focus/article71573789.ece",
+            "sentiment_score": -0.1575,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty holds flat at open despite Wall Street gains; FII selling streak hits 11 sessions",
+            "description": "Equity benchmarks opened on a cautious note on Monday with the Nifty 50 opening at 22,593.20 against a previous close of 22,520.45, and trading near 22,525.60, up just 5.15 points or 0.02 per cent, at 9.25 am. The Sensex opened at 72,771.32 compared to its pr…",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T04:26:48Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-holds-flat-at-open-despite-wall-street-gains-fii-selling-streak-hits-11-sessions/article71573720.ece",
+            "sentiment_score": 0.2138,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks in focus as bank earnings, inflation data set to test market rally",
+            "description": "US investors will track major bank earnings, September inflation data and Treasury yields this week for clues on corporate profitability and the Federal Reserve’s rate outlook, as persistent price pressures and rising borrowing costs test the stock market ral…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:24:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-in-focus-as-bank-earnings-inflation-data-set-to-test-market-rally/articleshow/134882275.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Echoes of 2017: Why Domestic Flows Alone Won't Rescue Indian Equities",
+            "description": "Strong domestic inflows through SIPs and mutual funds are failing to sustain Indian equity returns amid continuous FII selling and moderating earnings growth. Drawing parallels to the 2017 market cycle, this analysis highlights why structural macroeconomic ch…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/echoes-of-2017-why-domestic-flows-alone-wont-rescue-indian-equities/articleshow/134882171.cms",
+            "sentiment_score": -0.286,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares cautious as earnings loom, oil prices slip on easing fears",
+            "description": "South Korean stocks fell 1.1%, while MSCI's broadest index of Asia-Pacific shares outside Japan was little changed",
+            "source": "Business Standard",
+            "published_at": "2026-10-12T03:01:43Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-cautious-as-earnings-loom-oil-prices-slip-on-easing-fears-126101200044_1.html",
+            "sentiment_score": -0.0696,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar stays near 18-month high as Mideast conflict, inflation data in focus",
+            "description": "The dollar's steadiness reflects a cautious market responding to geopolitical stresses in the Middle East, which have dampened investor confidence. Fluctuations in oil prices continue as conflict in Saudi Arabia disrupts infrastructure, paired with controvers…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus/articleshow/134880836.cms",
+            "sentiment_score": -0.3247,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as markets strap in for inflation data",
+            "description": "Gold prices showed little movement as early Asian trading commenced, with many awaiting US inflation data this week. Spot gold remained steady after reaching a one-week high on Friday, while US gold futures saw a slight increase. Key data to be released inclu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:11:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-as-markets-strap-in-for-inflation-data/articleshow/134880669.cms",
+            "sentiment_score": 0.1268,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Falls 1.5 Percent to 6,528 in Early Trade as Oil and Middle East Tension Hit Tech Shares",
+            "description": "South Korean stocks fell about 1.5% in early trading, extending last week's decline as higher oil prices and renewed Middle East strikes outweighed gains on Wall Street.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-12T01:19:30Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-oil-middle-east-strikes-1876534",
+            "sentiment_score": -0.0258,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Will America open another front in the Middle East? Trump is considering",
+            "description": "Tensions escalate in the Middle East and Ukraine wars.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T01:05:16Z",
+            "url": "https://www.cnbc.com/2026/10/12/tensions-middle-east-and-ukraine-wars-imf-world-bank.html",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why China is importing a record amount of gold — and what it means for prices",
+            "description": "Beijing’s push to diversify away from the dollar and Chinese households’ search for a safe place to put their savings has fueled China’s record gold buying.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T00:51:10Z",
+            "url": "https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares cautious as earnings loom, oil slips",
+            "description": "Trade was thin with Japan markets shut and the US on a partial holiday ahead of the earnings season with major US banks kicking off on Tuesday.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T00:46:40Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-earnings-loom-oil-slips/articleshow/134880101.cms",
+            "sentiment_score": 0.1025,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares cautious in Asia as earnings loom, oil slips",
+            "description": "SYDNEY, Oct 12 : Asian share markets got off to a cautious start on Monday as earnings season loomed as a challenge to sky-high tech valuations, while oil was choppy after strikes on shipping and airports in the Gulf.There was considerable confusion about Pre…",
+            "source": "CNA",
+            "published_at": "2026-10-12T00:42:35Z",
+            "url": "https://www.channelnewsasia.com/business/shares-cautious-in-asia-earnings-loom-oil-slips-6451656",
+            "sentiment_score": -0.2015,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "20% of Americans Behind on Loans, Fed Data Shows",
+            "description": "New Federal Reserve data shows wealth gains cooling among American families amid a spike in loan delinquencies. Released Friday (Oct, 9) the Fed’s latest Survey of Consumer Finances (SCF) covers the years 2022 to 2025, a period in which the gross domestic pro…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T00:41:22Z",
+            "url": "https://biztoc.com/x/1d7e63484d8896cd",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall Wins Nobel in Economic Sciences",
@@ -865,166 +1185,6 @@
             "url": "https://fortune.com/2026/10/11/diesel-prices-10-year-bond-yields-crude-oil-inflation-trump-fuel-deal-putin-midterms/",
             "sentiment_score": -0.2878,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: OpenClear – Self-hosted check and ACH fraud screening for small banks",
-            "description": "Article URL: https://github.com/chaffed/OpenClear\nComments URL: https://news.ycombinator.com/item?id=50044824\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-11T16:14:21Z",
-            "url": "https://github.com/chaffed/OpenClear",
-            "sentiment_score": -0.4101,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
-            "description": "Gold rate prediction: Gold tends to lose its appeal compared to yield-bearing assets in a high interest-rate environment.",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T16:13:06Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-for-monday-october-12-check-latest-gold-rate-predictions/articleshow/134873337.cms",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices next week: What investors should watch amid global uncertainty",
-            "description": "Gold and silver prices are anticipated to remain range-bound with modest support from rupee fluctuations. Investors will focus on upcoming inflation data from India, China, and the US. Additionally, trade data from China and Federal Reserve officials' speeche…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T15:50:03Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-next-week-what-investors-should-watch-amid-global-uncertainty/articleshow/134872993.cms",
-            "sentiment_score": -0.1174,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World Bank chief warns diesel, fertilizer and El Niño pressures are building at once",
-            "description": "By Andrea Shalal BANGKOK, Oct 11 (Reuters) - Finance officials from around the world will gather in Bangkok this week under the shadow of a widening war in the Middle East, the biggest-ever energy supply shock and rising interest rates that together pose daun…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-11T15:24:27Z",
-            "url": "https://ca.news.yahoo.com/middle-east-war-high-debt-040251376.html",
-            "sentiment_score": -0.3833,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller pivots on interest-rate bet as worried consumers sound inflation alarms",
-            "description": "Federal Reserve Governor Christopher J. Waller says persistent price pressures and shifting economic risks forced his pivot toward monetary policy. The surprising transition was underscored by fresh Fed data showing consumer confidence slipping and household …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T14:24:11Z",
-            "url": "https://biztoc.com/x/453a04e179256a74",
-            "sentiment_score": -0.3343,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The hawk Fed Chair who broke the bond market?",
-            "description": "Kevin Warsh may be the most hawkish Federal Reserve chair since Paul Volcker. That’s a compliment in some circles. It’s also a warning. Volcker beat inflation, but he broke things on the way, and the bond market is now finding out what Warsh might break.\nThir…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T12:38:27Z",
-            "url": "https://biztoc.com/x/a1f4937438678c71",
-            "sentiment_score": -0.4507,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The invisible hand needs a conscience",
-            "description": "Capitalism’s invisible hand can create wealth. It cannot decide what we owe one another.",
-            "source": "Fortune",
-            "published_at": "2026-10-11T10:30:00Z",
-            "url": "https://fortune.com/2026/10/11/capitalism-conscience-wealth-philanthropy/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 11, 2026: Earn up to 4.50% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T10:23:58Z",
-            "url": "https://biztoc.com/x/eae4f45ac5ed7d2f",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "“Repeated And Persistent Supply-Side Shocks” Are Here To Stay",
-            "description": "A Fed president just admitted the crises aren’t going away. Look at what the last “temporary” emergency took from you, and never gave back, before you believe anything they tell you about this one. On August 19, in Your Dollar Is About to Lose Half Its Buying…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-11T10:00:00Z",
-            "url": "https://activistpost.com/repeated-and-persistent-supply-side-shocks-are-here-to-stay/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
-            "description": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a…",
-            "source": "Business Standard",
-            "published_at": "2026-10-11T09:48:39Z",
-            "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
-            "description": "The WSJ quarterly survey reveals that forecasters think inflation, Federal Reserve rate increases and debt will keep borrowing costs higher for longer.",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T09:38:02Z",
-            "url": "https://biztoc.com/x/679c55900ad80bcc",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices to guide stock markets this week: Analysts",
-            "description": "Analysts say Q2 earnings, inflation, oil prices, and global data will steer Indian stock markets this week, shaping sector moves and sentiment.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-11T09:22:11Z",
-            "url": "https://www.thehindubusinessline.com/markets/q2-earnings-inflation-data-oil-prices-to-guide-stock-markets-this-week-analysts/article71571049.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "While still in the NBA, Junior Bridgeman invested $150,000 in a small Milwaukee cable company; about five years later, its sale returned roughly $700,000",
-            "description": "After his NBA tenure, Ulysses 'Junior' Bridgeman transitioned into business with an initial investment in a local cable company. Despite facing challenges, he ultimately found success by opening several Wendy's franchises. This journey highlighted the importa…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T07:40:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/while-still-in-the-nba-junior-bridgeman-invested-150000-in-a-small-milwaukee-cable-company-about-five-years-later-its-sale-returned-roughly-700000/articleshow/134854903.cms",
-            "sentiment_score": 0.1617,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water",
-            "description": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water Is Israel an unusual democracy? In one important respect, no. Its evolution over the past few years follows a path “pioneered” by several others. In a word (actually two)…",
-            "source": "Israelseen.com",
-            "published_at": "2026-10-11T03:30:35Z",
-            "url": "https://israelseen.com/prof-sam-lehman-wilzig-israels-populism-and-economic-health-more-like-oil-and-water/",
-            "sentiment_score": 0.5322,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield",
-            "description": "The post Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield appeared first on 24/7 Wall St..\nWith interest rates on the rise again, Treasury bill ETFs are looking more attractive. The Federal Reserve recently raised its target …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T02:21:42Z",
-            "url": "https://biztoc.com/x/b7c1067ea2bb5698",
-            "sentiment_score": -0.0157,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "mrm-ai-detector added to PyPI",
-            "description": "Detect AI-generated content in model risk management documentation (validation reports, model documentation, MRM policies).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-11T02:11:46Z",
-            "url": "https://pypi.org/project/mrm-ai-detector/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
@@ -1045,7 +1205,7 @@
           }
         ]
       },
-      "net_score": 0.2343,
+      "net_score": 0.2005,
       "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1055,14 +1215,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.44501,
+      "price_now": 158.159,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 46.9,
-      "rsi_signal": "โซนกลาง (RSI=46.9)",
+      "rsi_value": 33.0,
+      "rsi_signal": "โซนกลาง (RSI=33.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.10219,
-      "suggested_sl_distance": 0.15329,
+      "atr_value": 0.12759,
+      "suggested_sl_distance": 0.19138,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1076,7 +1236,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-13T00:30:14.257990+00:00"
+    "generated_at": "2026-10-13T07:35:47.603490+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1085,16 +1245,227 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0,
-        "label": "ไม่มีข่าว",
-        "article_count": 0,
-        "scored_articles": []
+        "average_score": 0.1627,
+        "label": "บวกเล็กน้อย",
+        "article_count": 1,
+        "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "ASX 200 Climbs 0.7% at Midday as BHP and Copper Miners Lead Broad Rally to Start the Trading Week in Sydney",
+            "description": "The ASX 200 climbed 0.70% by midday as mining stocks rebounded on stronger global commodity prices, while investors weighed interest rates, bond yields and inflation risks.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-12T01:02:11Z",
+            "url": "https://www.ibtimes.com.au/asx-200-rises-mining-stocks-rebound-commodity-prices-1876533",
+            "sentiment_score": 0.1627,
+            "sentiment_label": "บวกเล็กน้อย"
+          }
+        ]
       },
       "quote_sentiment": {
-        "average_score": 0.042,
+        "average_score": 0.0082,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 26,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold prices fall Rs 1,450/10g; silver down Rs 1,400/kg despite a soft dollar ahead of US economic data. Time to sell?",
+            "description": "Gold and silver prices opened lower on MCX despite a weaker US dollar and falling oil prices, as investors awaited US inflation data for clues on the Federal Reserve’s next policy move. Analysts recommend buying on dips while monitoring key support levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:48:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1450/10g-silver-down-rs-1400/kg-despite-a-soft-dollar-ahead-of-us-economic-data-time-to-sell/articleshow/134885210.cms",
+            "sentiment_score": 0.1718,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China's Yuan hovers near 3-1/2-year high as trade risks cloud outlook",
+            "description": "China's yuan hovers near a 3-1/2-year high against the dollar as fading expectations of a US rate hike support the currency. However, trade tensions, China's widening yield disadvantage and concerns over export demand could limit further gains.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:28:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hovers-near-3-1/2-year-high-as-trade-risks-cloud-outlook/articleshow/134884833.cms",
+            "sentiment_score": -0.2591,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express slapped with record fine for 11-year blind eye to $13B in “suspicious” trade",
+            "description": "American Express fined $350 million by federal regulators for anti-money laundering failures. Company missed approximately $13 billion in suspicious transactions over 11 years. Office of the Comptroller of the Currency and Federal Reserve issued concurrent en…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-12T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-12-american-express-slapped-with-record-fine-suspicious-trade.html",
+            "sentiment_score": -0.3899,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+            "description": "By Ankur Banerjee and Li Gu\nSINGAPORE/SHANGHAI, Oct 12 (Reuters) - The dollar held its ground near the strongest level in a year and a half on Monday as an escalating Middle East conflict kept investors wary ahead of key US inflation data later this week that…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T05:57:19Z",
+            "url": "https://biztoc.com/x/d306d9afd66e08f6",
+            "sentiment_score": -0.1768,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans Robert E. Hall and Michael Woodford win 2026 Nobel prize in economics",
+            "description": "STOCKHOLM (AP) — American economists Robert E. Hall and Michael Woodford won the Nobel Memorial Prize in economics Monday for their work on models that have helped governments and central banks manage economic shocks, such as energy crises and inflation.\n The…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-12T05:40:14Z",
+            "url": "https://www.yahoo.com/news/articles/nobel-memorial-prize-economics-awarded-054014824.html",
+            "sentiment_score": 0.7848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks rise as oil prices tumble after Trump hails ‘energy ceasefire’",
+            "description": "Stock markets rose and oil prices tumbled after Donald Trump announced an ‘energy ceasefire’ between Russia and Ukraine, offsetting Houthi attacks on Saudi\n\nRead More: https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "source": "The Punch",
+            "published_at": "2026-10-12T05:38:34Z",
+            "url": "https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Markets: 5 key triggers to watch out for this week",
+            "description": "The IMF and World Bank annual meetings in Bangkok will put global growth, debt sustainability and geopolitics in focus as high energy costs and rising borrowing costs weigh on markets. The IMF's updated World Economic Outlook on Tuesday will be closely watche…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-12T05:26:05Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-markets-5-key-triggers-to-watch-out-for-this-week/imf-world-bank-meetings-in-focus/slideshow/134883687.cms",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains on weaker oil, dollar; US inflation data in focus",
+            "description": "Gold nudges higher on softer oil and dollar as US inflation data loom, with rate-hike odds at 17% for October.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T05:13:08Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-gains-on-weaker-oil-dollar-us-inflation-data-in-focus/article71573789.ece",
+            "sentiment_score": -0.1575,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty holds flat at open despite Wall Street gains; FII selling streak hits 11 sessions",
+            "description": "Equity benchmarks opened on a cautious note on Monday with the Nifty 50 opening at 22,593.20 against a previous close of 22,520.45, and trading near 22,525.60, up just 5.15 points or 0.02 per cent, at 9.25 am. The Sensex opened at 72,771.32 compared to its pr…",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T04:26:48Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-holds-flat-at-open-despite-wall-street-gains-fii-selling-streak-hits-11-sessions/article71573720.ece",
+            "sentiment_score": 0.2138,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks in focus as bank earnings, inflation data set to test market rally",
+            "description": "US investors will track major bank earnings, September inflation data and Treasury yields this week for clues on corporate profitability and the Federal Reserve’s rate outlook, as persistent price pressures and rising borrowing costs test the stock market ral…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:24:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-in-focus-as-bank-earnings-inflation-data-set-to-test-market-rally/articleshow/134882275.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Echoes of 2017: Why Domestic Flows Alone Won't Rescue Indian Equities",
+            "description": "Strong domestic inflows through SIPs and mutual funds are failing to sustain Indian equity returns amid continuous FII selling and moderating earnings growth. Drawing parallels to the 2017 market cycle, this analysis highlights why structural macroeconomic ch…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/echoes-of-2017-why-domestic-flows-alone-wont-rescue-indian-equities/articleshow/134882171.cms",
+            "sentiment_score": -0.286,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares cautious as earnings loom, oil prices slip on easing fears",
+            "description": "South Korean stocks fell 1.1%, while MSCI's broadest index of Asia-Pacific shares outside Japan was little changed",
+            "source": "Business Standard",
+            "published_at": "2026-10-12T03:01:43Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-cautious-as-earnings-loom-oil-prices-slip-on-easing-fears-126101200044_1.html",
+            "sentiment_score": -0.0696,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar stays near 18-month high as Mideast conflict, inflation data in focus",
+            "description": "The dollar's steadiness reflects a cautious market responding to geopolitical stresses in the Middle East, which have dampened investor confidence. Fluctuations in oil prices continue as conflict in Saudi Arabia disrupts infrastructure, paired with controvers…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus/articleshow/134880836.cms",
+            "sentiment_score": -0.3247,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as markets strap in for inflation data",
+            "description": "Gold prices showed little movement as early Asian trading commenced, with many awaiting US inflation data this week. Spot gold remained steady after reaching a one-week high on Friday, while US gold futures saw a slight increase. Key data to be released inclu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:11:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-as-markets-strap-in-for-inflation-data/articleshow/134880669.cms",
+            "sentiment_score": 0.1268,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Falls 1.5 Percent to 6,528 in Early Trade as Oil and Middle East Tension Hit Tech Shares",
+            "description": "South Korean stocks fell about 1.5% in early trading, extending last week's decline as higher oil prices and renewed Middle East strikes outweighed gains on Wall Street.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-12T01:19:30Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-oil-middle-east-strikes-1876534",
+            "sentiment_score": -0.0258,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Will America open another front in the Middle East? Trump is considering",
+            "description": "Tensions escalate in the Middle East and Ukraine wars.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T01:05:16Z",
+            "url": "https://www.cnbc.com/2026/10/12/tensions-middle-east-and-ukraine-wars-imf-world-bank.html",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why China is importing a record amount of gold — and what it means for prices",
+            "description": "Beijing’s push to diversify away from the dollar and Chinese households’ search for a safe place to put their savings has fueled China’s record gold buying.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T00:51:10Z",
+            "url": "https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares cautious as earnings loom, oil slips",
+            "description": "Trade was thin with Japan markets shut and the US on a partial holiday ahead of the earnings season with major US banks kicking off on Tuesday.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T00:46:40Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-earnings-loom-oil-slips/articleshow/134880101.cms",
+            "sentiment_score": 0.1025,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares cautious in Asia as earnings loom, oil slips",
+            "description": "SYDNEY, Oct 12 : Asian share markets got off to a cautious start on Monday as earnings season loomed as a challenge to sky-high tech valuations, while oil was choppy after strikes on shipping and airports in the Gulf.There was considerable confusion about Pre…",
+            "source": "CNA",
+            "published_at": "2026-10-12T00:42:35Z",
+            "url": "https://www.channelnewsasia.com/business/shares-cautious-in-asia-earnings-loom-oil-slips-6451656",
+            "sentiment_score": -0.2015,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "20% of Americans Behind on Loans, Fed Data Shows",
+            "description": "New Federal Reserve data shows wealth gains cooling among American families amid a spike in loan delinquencies. Released Friday (Oct, 9) the Fed’s latest Survey of Consumer Finances (SCF) covers the years 2022 to 2025, a period in which the gross domestic pro…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T00:41:22Z",
+            "url": "https://biztoc.com/x/1d7e63484d8896cd",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall Wins Nobel in Economic Sciences",
@@ -1194,201 +1565,41 @@
             "url": "https://fortune.com/2026/10/11/diesel-prices-10-year-bond-yields-crude-oil-inflation-trump-fuel-deal-putin-midterms/",
             "sentiment_score": -0.2878,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: OpenClear – Self-hosted check and ACH fraud screening for small banks",
-            "description": "Article URL: https://github.com/chaffed/OpenClear\nComments URL: https://news.ycombinator.com/item?id=50044824\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-11T16:14:21Z",
-            "url": "https://github.com/chaffed/OpenClear",
-            "sentiment_score": -0.4101,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
-            "description": "Gold rate prediction: Gold tends to lose its appeal compared to yield-bearing assets in a high interest-rate environment.",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T16:13:06Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-for-monday-october-12-check-latest-gold-rate-predictions/articleshow/134873337.cms",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices next week: What investors should watch amid global uncertainty",
-            "description": "Gold and silver prices are anticipated to remain range-bound with modest support from rupee fluctuations. Investors will focus on upcoming inflation data from India, China, and the US. Additionally, trade data from China and Federal Reserve officials' speeche…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T15:50:03Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-next-week-what-investors-should-watch-amid-global-uncertainty/articleshow/134872993.cms",
-            "sentiment_score": -0.1174,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World Bank chief warns diesel, fertilizer and El Niño pressures are building at once",
-            "description": "By Andrea Shalal BANGKOK, Oct 11 (Reuters) - Finance officials from around the world will gather in Bangkok this week under the shadow of a widening war in the Middle East, the biggest-ever energy supply shock and rising interest rates that together pose daun…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-11T15:24:27Z",
-            "url": "https://ca.news.yahoo.com/middle-east-war-high-debt-040251376.html",
-            "sentiment_score": -0.3833,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller pivots on interest-rate bet as worried consumers sound inflation alarms",
-            "description": "Federal Reserve Governor Christopher J. Waller says persistent price pressures and shifting economic risks forced his pivot toward monetary policy. The surprising transition was underscored by fresh Fed data showing consumer confidence slipping and household …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T14:24:11Z",
-            "url": "https://biztoc.com/x/453a04e179256a74",
-            "sentiment_score": -0.3343,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The hawk Fed Chair who broke the bond market?",
-            "description": "Kevin Warsh may be the most hawkish Federal Reserve chair since Paul Volcker. That’s a compliment in some circles. It’s also a warning. Volcker beat inflation, but he broke things on the way, and the bond market is now finding out what Warsh might break.\nThir…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T12:38:27Z",
-            "url": "https://biztoc.com/x/a1f4937438678c71",
-            "sentiment_score": -0.4507,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The invisible hand needs a conscience",
-            "description": "Capitalism’s invisible hand can create wealth. It cannot decide what we owe one another.",
-            "source": "Fortune",
-            "published_at": "2026-10-11T10:30:00Z",
-            "url": "https://fortune.com/2026/10/11/capitalism-conscience-wealth-philanthropy/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 11, 2026: Earn up to 4.50% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T10:23:58Z",
-            "url": "https://biztoc.com/x/eae4f45ac5ed7d2f",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "“Repeated And Persistent Supply-Side Shocks” Are Here To Stay",
-            "description": "A Fed president just admitted the crises aren’t going away. Look at what the last “temporary” emergency took from you, and never gave back, before you believe anything they tell you about this one. On August 19, in Your Dollar Is About to Lose Half Its Buying…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-11T10:00:00Z",
-            "url": "https://activistpost.com/repeated-and-persistent-supply-side-shocks-are-here-to-stay/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
-            "description": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a…",
-            "source": "Business Standard",
-            "published_at": "2026-10-11T09:48:39Z",
-            "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
-            "description": "The WSJ quarterly survey reveals that forecasters think inflation, Federal Reserve rate increases and debt will keep borrowing costs higher for longer.",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T09:38:02Z",
-            "url": "https://biztoc.com/x/679c55900ad80bcc",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices to guide stock markets this week: Analysts",
-            "description": "Analysts say Q2 earnings, inflation, oil prices, and global data will steer Indian stock markets this week, shaping sector moves and sentiment.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-11T09:22:11Z",
-            "url": "https://www.thehindubusinessline.com/markets/q2-earnings-inflation-data-oil-prices-to-guide-stock-markets-this-week-analysts/article71571049.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "While still in the NBA, Junior Bridgeman invested $150,000 in a small Milwaukee cable company; about five years later, its sale returned roughly $700,000",
-            "description": "After his NBA tenure, Ulysses 'Junior' Bridgeman transitioned into business with an initial investment in a local cable company. Despite facing challenges, he ultimately found success by opening several Wendy's franchises. This journey highlighted the importa…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T07:40:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/while-still-in-the-nba-junior-bridgeman-invested-150000-in-a-small-milwaukee-cable-company-about-five-years-later-its-sale-returned-roughly-700000/articleshow/134854903.cms",
-            "sentiment_score": 0.1617,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water",
-            "description": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water Is Israel an unusual democracy? In one important respect, no. Its evolution over the past few years follows a path “pioneered” by several others. In a word (actually two)…",
-            "source": "Israelseen.com",
-            "published_at": "2026-10-11T03:30:35Z",
-            "url": "https://israelseen.com/prof-sam-lehman-wilzig-israels-populism-and-economic-health-more-like-oil-and-water/",
-            "sentiment_score": 0.5322,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield",
-            "description": "The post Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield appeared first on 24/7 Wall St..\nWith interest rates on the rise again, Treasury bill ETFs are looking more attractive. The Federal Reserve recently raised its target …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T02:21:42Z",
-            "url": "https://biztoc.com/x/b7c1067ea2bb5698",
-            "sentiment_score": -0.0157,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "mrm-ai-detector added to PyPI",
-            "description": "Detect AI-generated content in model risk management documentation (validation reports, model documentation, MRM policies).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-11T02:11:46Z",
-            "url": "https://pypi.org/project/mrm-ai-detector/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.042,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.1545,
+      "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69541,
+      "price_now": 0.69706,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 29.1,
-      "rsi_signal": "ขายมากเกิน (RSI=29.1) ราคาอาจเด้ง",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00046,
-      "suggested_sl_distance": 0.00069,
+      "rsi_value": 56.1,
+      "rsi_signal": "โซนกลาง (RSI=56.1)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00048,
+      "suggested_sl_distance": 0.00072,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -1,
+      "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=29.1) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-13T00:30:14.257990+00:00"
+    "generated_at": "2026-10-13T07:35:47.603490+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1397,10 +1608,50 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1203,
+        "average_score": 0.1788,
         "label": "บวกเล็กน้อย",
-        "article_count": 2,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Selling old gold jewellery? 7 factors that determine its resale value",
+            "description": "Selling old gold jewellery? Check how gold purity, net weight, buying rates, making charges, testing deductions, BIS hallmark verification and jeweller buyback policies affect your resale value. Find out how to calculate your gold’s worth and compare offers b…",
+            "source": "Livemint",
+            "published_at": "2026-10-12T07:00:12Z",
+            "url": "https://www.livemint.com/money/personal-finance/selling-old-gold-jewellery-7-factors-that-determine-its-resale-value-11791786602702.html",
+            "sentiment_score": 0.3268,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold prices fall Rs 1,450/10g; silver down Rs 1,400/kg despite a soft dollar ahead of US economic data. Time to sell?",
+            "description": "Gold and silver prices opened lower on MCX despite a weaker US dollar and falling oil prices, as investors awaited US inflation data for clues on the Federal Reserve’s next policy move. Analysts recommend buying on dips while monitoring key support levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:48:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1450/10g-silver-down-rs-1400/kg-despite-a-soft-dollar-ahead-of-us-economic-data-time-to-sell/articleshow/134885210.cms",
+            "sentiment_score": 0.1718,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold rate today (October 12, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities",
+            "description": "Gold rate today: On October 12, 2026, Joyalukkas, Malabar Gold & Diamonds, and Kalyan Jewellers reported a marginal rise in gold prices, reflecting evolving market dynamics. Conversely, Tanishq saw a modest drop in their gold pricing in various locales. These…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:39:18Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-silver-rate-today-october-12-2026-18k-20k-24k-chennai-delhi-hyderabad-bengaluru-citywise-ibja-gold-price-malabar-gold-kalyan-jewelers-joyalukkas/articleshow/134884876.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction today: What levels will yellow metal see? Check outlook for October 12, 2026 week",
+            "description": "Gold enters the week Rs 150,750 after recovering from the recent decline towards Rs 146,000–147,000, although prices remain well below the September peak near Rs 163,000–165,000. The daily structure has improved modestly, with gold moving back above the 20-da…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:15:28Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-12-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/134884555.cms",
+            "sentiment_score": 0.1911,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
@@ -1424,10 +1675,210 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.042,
+        "average_score": 0.0082,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 26,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold prices fall Rs 1,450/10g; silver down Rs 1,400/kg despite a soft dollar ahead of US economic data. Time to sell?",
+            "description": "Gold and silver prices opened lower on MCX despite a weaker US dollar and falling oil prices, as investors awaited US inflation data for clues on the Federal Reserve’s next policy move. Analysts recommend buying on dips while monitoring key support levels.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:48:15Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1450/10g-silver-down-rs-1400/kg-despite-a-soft-dollar-ahead-of-us-economic-data-time-to-sell/articleshow/134885210.cms",
+            "sentiment_score": 0.1718,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China's Yuan hovers near 3-1/2-year high as trade risks cloud outlook",
+            "description": "China's yuan hovers near a 3-1/2-year high against the dollar as fading expectations of a US rate hike support the currency. However, trade tensions, China's widening yield disadvantage and concerns over export demand could limit further gains.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T06:28:12Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hovers-near-3-1/2-year-high-as-trade-risks-cloud-outlook/articleshow/134884833.cms",
+            "sentiment_score": -0.2591,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "American Express slapped with record fine for 11-year blind eye to $13B in “suspicious” trade",
+            "description": "American Express fined $350 million by federal regulators for anti-money laundering failures. Company missed approximately $13 billion in suspicious transactions over 11 years. Office of the Comptroller of the Currency and Federal Reserve issued concurrent en…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-12T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-12-american-express-slapped-with-record-fine-suspicious-trade.html",
+            "sentiment_score": -0.3899,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar steady near 18-month high as Mideast conflict, US inflation in focus",
+            "description": "By Ankur Banerjee and Li Gu\nSINGAPORE/SHANGHAI, Oct 12 (Reuters) - The dollar held its ground near the strongest level in a year and a half on Monday as an escalating Middle East conflict kept investors wary ahead of key US inflation data later this week that…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T05:57:19Z",
+            "url": "https://biztoc.com/x/d306d9afd66e08f6",
+            "sentiment_score": -0.1768,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Americans Robert E. Hall and Michael Woodford win 2026 Nobel prize in economics",
+            "description": "STOCKHOLM (AP) — American economists Robert E. Hall and Michael Woodford won the Nobel Memorial Prize in economics Monday for their work on models that have helped governments and central banks manage economic shocks, such as energy crises and inflation.\n The…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-12T05:40:14Z",
+            "url": "https://www.yahoo.com/news/articles/nobel-memorial-prize-economics-awarded-054014824.html",
+            "sentiment_score": 0.7848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks rise as oil prices tumble after Trump hails ‘energy ceasefire’",
+            "description": "Stock markets rose and oil prices tumbled after Donald Trump announced an ‘energy ceasefire’ between Russia and Ukraine, offsetting Houthi attacks on Saudi\n\nRead More: https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "source": "The Punch",
+            "published_at": "2026-10-12T05:38:34Z",
+            "url": "https://punchng.com/stocks-rise-as-oil-prices-tumble-after-trump-hails-energy-ceasefire/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Markets: 5 key triggers to watch out for this week",
+            "description": "The IMF and World Bank annual meetings in Bangkok will put global growth, debt sustainability and geopolitics in focus as high energy costs and rising borrowing costs weigh on markets. The IMF's updated World Economic Outlook on Tuesday will be closely watche…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-12T05:26:05Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-markets-5-key-triggers-to-watch-out-for-this-week/imf-world-bank-meetings-in-focus/slideshow/134883687.cms",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold gains on weaker oil, dollar; US inflation data in focus",
+            "description": "Gold nudges higher on softer oil and dollar as US inflation data loom, with rate-hike odds at 17% for October.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T05:13:08Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-gains-on-weaker-oil-dollar-us-inflation-data-in-focus/article71573789.ece",
+            "sentiment_score": -0.1575,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty holds flat at open despite Wall Street gains; FII selling streak hits 11 sessions",
+            "description": "Equity benchmarks opened on a cautious note on Monday with the Nifty 50 opening at 22,593.20 against a previous close of 22,520.45, and trading near 22,525.60, up just 5.15 points or 0.02 per cent, at 9.25 am. The Sensex opened at 72,771.32 compared to its pr…",
+            "source": "BusinessLine",
+            "published_at": "2026-10-12T04:26:48Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-holds-flat-at-open-despite-wall-street-gains-fii-selling-streak-hits-11-sessions/article71573720.ece",
+            "sentiment_score": 0.2138,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US stocks in focus as bank earnings, inflation data set to test market rally",
+            "description": "US investors will track major bank earnings, September inflation data and Treasury yields this week for clues on corporate profitability and the Federal Reserve’s rate outlook, as persistent price pressures and rising borrowing costs test the stock market ral…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:24:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-in-focus-as-bank-earnings-inflation-data-set-to-test-market-rally/articleshow/134882275.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Echoes of 2017: Why Domestic Flows Alone Won't Rescue Indian Equities",
+            "description": "Strong domestic inflows through SIPs and mutual funds are failing to sustain Indian equity returns amid continuous FII selling and moderating earnings growth. Drawing parallels to the 2017 market cycle, this analysis highlights why structural macroeconomic ch…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T04:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/echoes-of-2017-why-domestic-flows-alone-wont-rescue-indian-equities/articleshow/134882171.cms",
+            "sentiment_score": -0.286,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares cautious as earnings loom, oil prices slip on easing fears",
+            "description": "South Korean stocks fell 1.1%, while MSCI's broadest index of Asia-Pacific shares outside Japan was little changed",
+            "source": "Business Standard",
+            "published_at": "2026-10-12T03:01:43Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-cautious-as-earnings-loom-oil-prices-slip-on-easing-fears-126101200044_1.html",
+            "sentiment_score": -0.0696,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar stays near 18-month high as Mideast conflict, inflation data in focus",
+            "description": "The dollar's steadiness reflects a cautious market responding to geopolitical stresses in the Middle East, which have dampened investor confidence. Fluctuations in oil prices continue as conflict in Saudi Arabia disrupts infrastructure, paired with controvers…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:20:43Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-stays-near-18-month-high-as-mideast-conflict-inflation-data-in-focus/articleshow/134880836.cms",
+            "sentiment_score": -0.3247,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold steady as markets strap in for inflation data",
+            "description": "Gold prices showed little movement as early Asian trading commenced, with many awaiting US inflation data this week. Spot gold remained steady after reaching a one-week high on Friday, while US gold futures saw a slight increase. Key data to be released inclu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T02:11:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-as-markets-strap-in-for-inflation-data/articleshow/134880669.cms",
+            "sentiment_score": 0.1268,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Falls 1.5 Percent to 6,528 in Early Trade as Oil and Middle East Tension Hit Tech Shares",
+            "description": "South Korean stocks fell about 1.5% in early trading, extending last week's decline as higher oil prices and renewed Middle East strikes outweighed gains on Wall Street.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-12T01:19:30Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-oil-middle-east-strikes-1876534",
+            "sentiment_score": -0.0258,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Will America open another front in the Middle East? Trump is considering",
+            "description": "Tensions escalate in the Middle East and Ukraine wars.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T01:05:16Z",
+            "url": "https://www.cnbc.com/2026/10/12/tensions-middle-east-and-ukraine-wars-imf-world-bank.html",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Why China is importing a record amount of gold — and what it means for prices",
+            "description": "Beijing’s push to diversify away from the dollar and Chinese households’ search for a safe place to put their savings has fueled China’s record gold buying.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T00:51:10Z",
+            "url": "https://www.cnbc.com/2026/10/12/china-gold-buying-interest-rate-.html",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares cautious as earnings loom, oil slips",
+            "description": "Trade was thin with Japan markets shut and the US on a partial holiday ahead of the earnings season with major US banks kicking off on Tuesday.",
+            "source": "The Times of India",
+            "published_at": "2026-10-12T00:46:40Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-cautious-as-earnings-loom-oil-slips/articleshow/134880101.cms",
+            "sentiment_score": 0.1025,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares cautious in Asia as earnings loom, oil slips",
+            "description": "SYDNEY, Oct 12 : Asian share markets got off to a cautious start on Monday as earnings season loomed as a challenge to sky-high tech valuations, while oil was choppy after strikes on shipping and airports in the Gulf.There was considerable confusion about Pre…",
+            "source": "CNA",
+            "published_at": "2026-10-12T00:42:35Z",
+            "url": "https://www.channelnewsasia.com/business/shares-cautious-in-asia-earnings-loom-oil-slips-6451656",
+            "sentiment_score": -0.2015,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "20% of Americans Behind on Loans, Fed Data Shows",
+            "description": "New Federal Reserve data shows wealth gains cooling among American families amid a spike in loan delinquencies. Released Friday (Oct, 9) the Fed’s latest Survey of Consumer Finances (SCF) covers the years 2022 to 2025, a period in which the gross domestic pro…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-12T00:41:22Z",
+            "url": "https://biztoc.com/x/1d7e63484d8896cd",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Stanford Economist and Hoover Institution Senior Fellow Robert E. Hall Wins Nobel in Economic Sciences",
@@ -1527,200 +1978,40 @@
             "url": "https://fortune.com/2026/10/11/diesel-prices-10-year-bond-yields-crude-oil-inflation-trump-fuel-deal-putin-midterms/",
             "sentiment_score": -0.2878,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Show HN: OpenClear – Self-hosted check and ACH fraud screening for small banks",
-            "description": "Article URL: https://github.com/chaffed/OpenClear\nComments URL: https://news.ycombinator.com/item?id=50044824\nPoints: 1\n# Comments: 0",
-            "source": "Github.com",
-            "published_at": "2026-10-11T16:14:21Z",
-            "url": "https://github.com/chaffed/OpenClear",
-            "sentiment_score": -0.4101,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
-            "description": "Gold rate prediction: Gold tends to lose its appeal compared to yield-bearing assets in a high interest-rate environment.",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T16:13:06Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-for-monday-october-12-check-latest-gold-rate-predictions/articleshow/134873337.cms",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices next week: What investors should watch amid global uncertainty",
-            "description": "Gold and silver prices are anticipated to remain range-bound with modest support from rupee fluctuations. Investors will focus on upcoming inflation data from India, China, and the US. Additionally, trade data from China and Federal Reserve officials' speeche…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T15:50:03Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-silver-prices-next-week-what-investors-should-watch-amid-global-uncertainty/articleshow/134872993.cms",
-            "sentiment_score": -0.1174,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "World Bank chief warns diesel, fertilizer and El Niño pressures are building at once",
-            "description": "By Andrea Shalal BANGKOK, Oct 11 (Reuters) - Finance officials from around the world will gather in Bangkok this week under the shadow of a widening war in the Middle East, the biggest-ever energy supply shock and rising interest rates that together pose daun…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-11T15:24:27Z",
-            "url": "https://ca.news.yahoo.com/middle-east-war-high-debt-040251376.html",
-            "sentiment_score": -0.3833,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller pivots on interest-rate bet as worried consumers sound inflation alarms",
-            "description": "Federal Reserve Governor Christopher J. Waller says persistent price pressures and shifting economic risks forced his pivot toward monetary policy. The surprising transition was underscored by fresh Fed data showing consumer confidence slipping and household …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T14:24:11Z",
-            "url": "https://biztoc.com/x/453a04e179256a74",
-            "sentiment_score": -0.3343,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The hawk Fed Chair who broke the bond market?",
-            "description": "Kevin Warsh may be the most hawkish Federal Reserve chair since Paul Volcker. That’s a compliment in some circles. It’s also a warning. Volcker beat inflation, but he broke things on the way, and the bond market is now finding out what Warsh might break.\nThir…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T12:38:27Z",
-            "url": "https://biztoc.com/x/a1f4937438678c71",
-            "sentiment_score": -0.4507,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The invisible hand needs a conscience",
-            "description": "Capitalism’s invisible hand can create wealth. It cannot decide what we owe one another.",
-            "source": "Fortune",
-            "published_at": "2026-10-11T10:30:00Z",
-            "url": "https://fortune.com/2026/10/11/capitalism-conscience-wealth-philanthropy/",
-            "sentiment_score": 0.591,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 11, 2026: Earn up to 4.50% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T10:23:58Z",
-            "url": "https://biztoc.com/x/eae4f45ac5ed7d2f",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "“Repeated And Persistent Supply-Side Shocks” Are Here To Stay",
-            "description": "A Fed president just admitted the crises aren’t going away. Look at what the last “temporary” emergency took from you, and never gave back, before you believe anything they tell you about this one. On August 19, in Your Dollar Is About to Lose Half Its Buying…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-11T10:00:00Z",
-            "url": "https://activistpost.com/repeated-and-persistent-supply-side-shocks-are-here-to-stay/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
-            "description": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a…",
-            "source": "Business Standard",
-            "published_at": "2026-10-11T09:48:39Z",
-            "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why Economists Think Higher Bond Yields Are Here to Stay",
-            "description": "The WSJ quarterly survey reveals that forecasters think inflation, Federal Reserve rate increases and debt will keep borrowing costs higher for longer.",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T09:38:02Z",
-            "url": "https://biztoc.com/x/679c55900ad80bcc",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Q2 earnings, inflation data, oil prices to guide stock markets this week: Analysts",
-            "description": "Analysts say Q2 earnings, inflation, oil prices, and global data will steer Indian stock markets this week, shaping sector moves and sentiment.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-11T09:22:11Z",
-            "url": "https://www.thehindubusinessline.com/markets/q2-earnings-inflation-data-oil-prices-to-guide-stock-markets-this-week-analysts/article71571049.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "While still in the NBA, Junior Bridgeman invested $150,000 in a small Milwaukee cable company; about five years later, its sale returned roughly $700,000",
-            "description": "After his NBA tenure, Ulysses 'Junior' Bridgeman transitioned into business with an initial investment in a local cable company. Despite facing challenges, he ultimately found success by opening several Wendy's franchises. This journey highlighted the importa…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T07:40:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/while-still-in-the-nba-junior-bridgeman-invested-150000-in-a-small-milwaukee-cable-company-about-five-years-later-its-sale-returned-roughly-700000/articleshow/134854903.cms",
-            "sentiment_score": 0.1617,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water",
-            "description": "Prof. Sam Lehman-Wilzig – Israel’s Populism and Economic Health? More Like Oil and Water Is Israel an unusual democracy? In one important respect, no. Its evolution over the past few years follows a path “pioneered” by several others. In a word (actually two)…",
-            "source": "Israelseen.com",
-            "published_at": "2026-10-11T03:30:35Z",
-            "url": "https://israelseen.com/prof-sam-lehman-wilzig-israels-populism-and-economic-health-more-like-oil-and-water/",
-            "sentiment_score": 0.5322,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield",
-            "description": "The post Forget T-Bills. These Box Spread ETFs Pay the Same Rate With Minimal Taxable Yield appeared first on 24/7 Wall St..\nWith interest rates on the rise again, Treasury bill ETFs are looking more attractive. The Federal Reserve recently raised its target …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T02:21:42Z",
-            "url": "https://biztoc.com/x/b7c1067ea2bb5698",
-            "sentiment_score": -0.0157,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "mrm-ai-detector added to PyPI",
-            "description": "Detect AI-generated content in model risk management documentation (validation reports, model documentation, MRM policies).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-11T02:11:46Z",
-            "url": "https://pypi.org/project/mrm-ai-detector/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0783,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.1706,
+      "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4189.3999,
+      "price_now": 4215.5,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 42.1,
-      "rsi_signal": "โซนกลาง (RSI=42.1)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 10.32446,
-      "suggested_sl_distance": 15.48668,
+      "rsi_value": 59.4,
+      "rsi_signal": "โซนกลาง (RSI=59.4)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 11.31457,
+      "suggested_sl_distance": 16.97185,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=42.1) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-13T00:30:14.257990+00:00"
+    "generated_at": "2026-10-13T07:35:47.603490+00:00"
   }
 ]
