@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0872,
+        "average_score": 0.073,
         "label": "บวกเล็กน้อย",
-        "article_count": 10,
+        "article_count": 9,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Why Europe Is Burning",
+            "description": "[Subscription Required] Young Europeans are taking to the streets in Paris, Madrid, and Brussels. They say they want more investment in schools and housing. They should be protesting a system rigged for their grandparents.",
+            "source": "Thefp.com",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.thefp.com/p/niall-ferguson-why-europe-burning-government-protest",
+            "sentiment_score": -0.1837,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+            "description": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than y...",
+            "source": "Github.com",
+            "published_at": "2026-10-12T22:05:43Z",
+            "url": "https://github.com/prabanta-dev/janas",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "EUR",
             "title": "Economics Nobel: how this year’s winners helped to smooth the cycle of economic peaks and troughs",
@@ -79,44 +99,124 @@
             "url": "https://finance.yahoo.com/markets/currencies/articles/french-bond-contagion-fears-rattling-170627786.html",
             "sentiment_score": -0.6636,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Trump sticks with tariffs even as US voters turn against them before the midterms",
-            "description": "President Donald Trump shows no signs of budging from a trade policy that many Americans don't like as the midterm elections loom",
-            "source": "Abcnews.com",
-            "published_at": "2026-10-11T13:10:18Z",
-            "url": "https://abcnews.com/Business/wireStory/trump-sticks-tariffs-us-voters-turn-midterms-137171759",
-            "sentiment_score": -0.1914,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Trump sticks with tariffs even as US voters turn against them before the midterms",
-            "description": "US President Donald Trump's tariff policies are facing growing economic and political challenges ahead of the November 3 midterm elections, with a majority of Americans reportedly opposing his latest import duties. While the White House argues that tariffs wi…",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T12:09:36Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/trump-sticks-with-tariffs-even-as-us-voters-turn-against-them-before-the-midterms/articleshow/134870305.cms",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "What driving across Europe costs in tolls, vignettes, bridges and fuel",
-            "description": "Europe's motorway tolls, vignettes, bridges, tunnels and fuel compared from the published tariffs: a map of what 100 km costs, the crossings that outweigh whole countries, and the fuel spread.",
-            "source": "Copilot.travel",
-            "published_at": "2026-10-11T11:39:10Z",
-            "url": "https://copilot.travel/tolls/europe-2026",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.011,
+        "average_score": 0.0428,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slide as chip stocks tumble; investors eye US earnings, CPI",
+            "description": "The MSCI Asia Pacific Index declined 0.3% with equities in South Korea slipping over 3%. That came after a US gauge of chipmakers fell 2.7% Monday, while the Nasdaq 100 Index lost 0.7%.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:42:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms",
+            "sentiment_score": 0.1117,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Reasons behind S&P 500, Nasdaq fall in Wall Street, top, worst performing sectors, stocks",
+            "description": "US Stock Market update: Micron Technology fell 3.9 per cent, Advanced Micro Devices dropped 2.3 per cent, Broadcom slid 1.9 per cent and Nvidia gave up 1.3 per cent.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:01:02Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-reasons-behind-sp-500-nasdaq-fall-in-wall-street-top-worst-performing-sectors-stocks/articleshow/134905137.cms",
+            "sentiment_score": -0.2824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed’s New Communications Regime",
+            "description": "Steven Davis asks San Francisco Fed President Mary Daly how the Fed’s communications regime has changed under the chairmanship of Kevin Warsh, and how she thinks about the implications of AI for monetary policy.",
+            "source": "Hoover.org",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.hoover.org/plus/research/feds-new-communications-regime",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Affordability Trilogy, Part 2",
+            "description": "Affordability? It does seem a bit petulant. American’s standard of living is greater than any large country, and better than ever in the past. We earn on average 40% more than Europeans, British, Japanese, and Canadians. Poverty just hit an all time low. Heal…",
+            "source": "Grumpy-economist.com",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.grumpy-economist.com/p/affordability-trilogy-part-2",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize",
+            "description": "From Hoover's post today (and see also our colleague John Cochrane's post about Hall's work): Robert E. Hall, the Robert…\nThe post Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize appeared first on Reason Magazine.",
+            "source": "Reason",
+            "published_at": "2026-10-12T23:42:30Z",
+            "url": "https://reason.com/volokh/2026/10/12/congratulations-to-the-hoover-institutions-robert-e-hall-on-his-economics-nobel-prize/",
+            "sentiment_score": 0.802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "fredq 0.6.0",
+            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
+            "source": "Pypi.org",
+            "published_at": "2026-10-12T23:10:38Z",
+            "url": "https://pypi.org/project/fredq/0.6.0/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bearish options made up 53.5% of Bitcoin’s options volume this week",
+            "description": "Increased bearish options activity suggests heightened caution among traders, potentially impacting Bitcoin's short-term market dynamics.\nThe post Bearish options made up 53.5% of Bitcoin’s options volume this week appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-12T22:21:10Z",
+            "url": "https://cryptobriefing.com/bearish-options-bitcoin-volume-this-week/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
+            "description": "CNBC’s Jim Cramer said the market’s incredible four-year run shows why investors should stay invested rather than trying to time the market.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T22:16:12Z",
+            "url": "https://www.cnbc.com/2026/10/12/cramer-sp-500-bull-market-stay-invested.html",
+            "sentiment_score": 0.3902,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Commentary: Every investment portfolio looks like the same trade - AI",
+            "description": "Investor portfolios have become alarmingly reliant on the fortunes of just one bet on the build-out of an uncertain technology, says Katie Martin for the Financial Times.",
+            "source": "CNA",
+            "published_at": "2026-10-12T21:58:00Z",
+            "url": "https://www.channelnewsasia.com/commentary/ai-stock-market-investment-portfolio-risks-6452486",
+            "sentiment_score": 0.0583,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Young NYers with college degrees face higher unemployment rate than those without for ‘first time in decades’",
+            "description": "Big Apple college-educated residents have a higher unemployment rate than their less-educated peers for the first time in more than a decade, according to labor statistics highlighted by the city comptroller — who suggested AI might be to blame. New Yorkers a…",
+            "source": "New York Post",
+            "published_at": "2026-10-12T21:27:41Z",
+            "url": "https://nypost.com/2026/10/12/us-news/unemployment-rate-higher-among-young-nyers-with-college-degrees-than-those-without/",
+            "sentiment_score": -0.5029,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: Oil prices on the rise as energy supply concerns continue",
+            "description": "Brent crude approached $US107 overnight, while the local share market has a mixed lead from Wall Street. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-12T21:20:02Z",
+            "url": "https://www.abc.net.au/news/2026-10-13/asx-markets-business-live-news/107258880",
+            "sentiment_score": 0.0829,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Iran War Has Reportedly Cost Each American Household $2,000",
@@ -306,120 +406,10 @@
             "url": "https://biztoc.com/x/ae1ecbcf4c556a5d",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Spooked? Crypto Fear and Greed Index Drops to Pre-Rally August Lows",
-            "description": "The Crypto Fear and Greed Index has dropped to 56 from an August peak of 82, as oil, bond yields, and ETF outflows hit Bitcoin in October.",
-            "source": "Decrypt",
-            "published_at": "2026-10-12T16:41:34Z",
-            "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
-            "sentiment_score": -0.7531,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ilhan Omar: US immigration authorities raid Democratic congresswoman’s home",
-            "description": "Somali-born Omar is an outspoken critic of ‌US president Donald Trump",
-            "source": "The Irish Times",
-            "published_at": "2026-10-12T16:30:54Z",
-            "url": "https://www.irishtimes.com/world/us/2026/10/12/ilhan-omar-us-immigration-authorities-raid-democratic-congresswomans-home/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-            "description": "Bitcoin abandons its latest low-time frame rebound at $84,250 amid market nerves over rising oil prices, with options traders “defensively” positioned.",
-            "source": "Cointelegraph",
-            "published_at": "2026-10-12T16:30:21Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
-            "sentiment_score": -0.3734,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes in the Money Supply Affected the Great Depression",
-            "description": "In his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to prevent the collapse of the money supply and the ec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T16:17:57Z",
-            "url": "https://biztoc.com/x/e7dce0b6873802de",
-            "sentiment_score": -0.2894,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates for 30 years rise 3 year high due to long-term US Treasury yields. How does it impact homeowners' monthly principal, interest payments and what to expect in near future?",
-            "description": "US Bonds Market: The rise in yields has pushed 30-year mortgage rates to a nearly three-year high of 7.4 per cent, keeping many homeowners locked into existing loans rather than refinancing as they often do when rates decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T15:39:34Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/mortgage-rates-for-30-years-rise-3-year-high-due-to-long-term-us-treasury-yields-how-does-it-impact-homeowners-monthly-principal-interest-payments-and-what-to-expect-near-future/articleshow/134896904.cms",
-            "sentiment_score": 0.4101,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Citi Readies Audit to Seek End of Federal Oversight and Speed Growth",
-            "description": "Citi aims to submit an internal audit to banking regulators by the first quarter of 2027, if not earlier, in hopes that the regulators will lift the consent orders the bank has been operating under since 2020, Reuters reported Monday (Oct. 12), citing unnamed…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-12T15:08:56Z",
-            "url": "https://www.pymnts.com/news/banking/2026/citi-readies-audit-to-seek-end-of-federal-oversight-and-speed-growth/",
-            "sentiment_score": 0.234,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Walmart Recession Signal is hinting that a Fed rate cut is near",
-            "description": "The Walmart Recession Signal, a measure of Walmart's stock versus a basket of luxury names, suggests the Fed could soon cut rates to prop up the economy.",
-            "source": "Business Insider",
-            "published_at": "2026-10-12T14:57:46Z",
-            "url": "https://www.businessinsider.com/walmart-recession-signal-fed-rate-cut-economy-jim-paulsen-wmt-2026-10#article",
-            "sentiment_score": -0.5994,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The economics Nobel went to the scholar whose work shaped Fed ‘forward guidance,’ a practice Kevin Warsh says has gone too far",
-            "description": "Stanford’s Robert Hall and Columbia’s Michael Woodford reshaped how central banks respond to crises by studying consumer and business decisions.",
-            "source": "Fortune",
-            "published_at": "2026-10-12T14:37:47Z",
-            "url": "https://fortune.com/2026/10/12/nobel-economics-2026-robert-hall-michael-woodford/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "fredq 0.5.1",
-            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-12T14:29:11Z",
-            "url": "https://pypi.org/project/fredq/0.5.1/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Battle for the Centre, the Rhetoric About the Right’s ‘Soul’, Tsipras vs Androulakis, a Lord to Rescue the Kypseli Metro Project and Indian Interest in Greek Ports",
-            "description": "From the battle for centrist voters and fresh government plans to ease energy costs to the stalled Athens Metro project, Greece faces mounting political and economic challenges. Meanwhile, Indian interest in Greek ports, banking deals and major developments i…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-12T14:10:47Z",
-            "url": "https://en.protothema.gr/2026/10/12/the-battle-for-the-centre-the-rhetoric-about-the-rights-soul-tsipras-vs-androulakis-a-lord-to-rescue-the-kypseli-metro-project-and-indian-interest-in-greek-ports/",
-            "sentiment_score": 0.6104,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tariffs pushed up consumer goods prices by 2.9 percentage points: NY Fed",
-            "description": "Consumer expectations for inflation rose for the second straight month to the highest level since May, the University of Michigan said Friday, citing an October survey.",
-            "source": "CFO Dive",
-            "published_at": "2026-10-12T14:01:00Z",
-            "url": "https://www.cfodive.com/news/tariffs-pushed-up-consumer-goods-prices-ny-fed-inflation-elections-tax-taxes/832657/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0982,
+      "net_score": 0.0302,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -429,14 +419,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12032,
+      "price_now": 1.1207,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 61.3,
-      "rsi_signal": "โซนกลาง (RSI=61.3)",
+      "rsi_value": 63.7,
+      "rsi_signal": "โซนกลาง (RSI=63.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.0008,
-      "suggested_sl_distance": 0.0012,
+      "atr_value": 0.00071,
+      "suggested_sl_distance": 0.00106,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -448,9 +438,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=61.3) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=63.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-13T21:08:20.285529+00:00"
+    "generated_at": "2026-10-14T01:03:47.067592+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -459,10 +449,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1652,
+        "average_score": 0.1141,
         "label": "บวกเล็กน้อย",
-        "article_count": 13,
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
+            "description": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than y...",
+            "source": "Github.com",
+            "published_at": "2026-10-12T22:05:43Z",
+            "url": "https://github.com/prabanta-dev/janas",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "10 Monday AM Reads",
@@ -502,104 +502,124 @@
             "url": "https://biztoc.com/x/383bc104a24ec260",
             "sentiment_score": -0.3347,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Debt advice that may leave you owing even more money",
-            "description": "Published\nAn increasing number of people are missing credit card repayments as finances are stretched by rising bills.\nLenders have told the Bank of England they expect the number of unpaid credit card debts to keep going up this autumn.\nThis could lead to mo…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-11T23:26:01Z",
-            "url": "https://biztoc.com/x/325943e9f2dd9df1",
-            "sentiment_score": -0.1141,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "33 Stunning Photos Of Old Penn Station, Once An Architectural Marvel Before It Was Demolished",
-            "description": "Its labyrinth design and overcrowded tunnels make it difficult to imagine but the old Penn Station was America's most treasured train station. Now, New York wants to bring it back.\nThe post 33 Stunning Photos Of Old Penn Station, Once An Architectural Marvel …",
-            "source": "Allthatsinteresting.com",
-            "published_at": "2026-10-11T20:00:00Z",
-            "url": "https://allthatsinteresting.com/old-penn-station",
-            "sentiment_score": 0.7358,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England says it will be ‘the banker to the stablecoin’",
-            "description": "The Bank of England's support for stablecoins could enhance financial stability and innovation, influencing global regulatory approaches.\nThe post Bank of England says it will be ‘the banker to the stablecoin’ appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-11T12:34:31Z",
-            "url": "https://cryptobriefing.com/bank-of-england-banker-to-stablecoin/",
-            "sentiment_score": 0.1946,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "It's beginning to look like an expensive Christmas: Families face £400 rise in festive bill this year as cost of living bites",
-            "description": "Families in the UK face a £1,500 Christmas bill this year amid rising costs, with a third of Britons saying they are prepared to take on debt to cover the festive splurge.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-11T11:47:44Z",
-            "url": "https://www.dailymail.com/news/article-16200159/christmas-costs-debt-uk-families-budget-spending.html",
-            "sentiment_score": 0.5713,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "“Repeated And Persistent Supply-Side Shocks” Are Here To Stay",
-            "description": "A Fed president just admitted the crises aren’t going away. Look at what the last “temporary” emergency took from you, and never gave back, before you believe anything they tell you about this one. On August 19, in Your Dollar Is About to Lose Half Its Buying…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-11T10:00:00Z",
-            "url": "https://activistpost.com/repeated-and-persistent-supply-side-shocks-are-here-to-stay/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Q2 earnings, inflation data, oil prices may drive stock markets this week",
-            "description": "Major quarterly earnings from companies like Wipro and HCL Tech, along with inflation figures, global trends, and crude oil price movements, will drive stock market movement this week, analysts said.\nMarket investors will also watch foreign investor trading a…",
-            "source": "Business Standard",
-            "published_at": "2026-10-11T09:48:39Z",
-            "url": "https://www.business-standard.com/markets/news/q2-earnings-inflation-data-oil-prices-may-drive-stock-markets-this-week-126101100299_1.html",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Q2 earnings, inflation data, oil prices to guide stock markets this week: Analysts",
-            "description": "Analysts say Q2 earnings, inflation, oil prices, and global data will steer Indian stock markets this week, shaping sector moves and sentiment.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-11T09:22:11Z",
-            "url": "https://www.thehindubusinessline.com/markets/q2-earnings-inflation-data-oil-prices-to-guide-stock-markets-this-week-analysts/article71571049.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "New investment account: greater returns or greater risks?",
-            "description": "The new State-backed investment account has been hailed as the first serious attempt to make investment more appealing to the Irish public. But it carries risks and a steep learning curve.",
-            "source": "RTE",
-            "published_at": "2026-10-11T05:59:27Z",
-            "url": "https://www.rte.ie/news/business/2026/1011/1594708-investment-account-explainer/",
-            "sentiment_score": 0.2096,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "AI may change the price of your Big Mac and groceries — what this means for shoppers",
-            "description": "As retailers turn to AI tools to streamline operations, experts warn that collecting more detailed consumer data increases the risk of personalized pricing.",
-            "source": "CNBC",
-            "published_at": "2026-10-11T05:00:01Z",
-            "url": "https://www.cnbc.com/2026/10/11/ai-dynamic-pricing-shoppers-groceries.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.011,
+        "average_score": 0.0428,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slide as chip stocks tumble; investors eye US earnings, CPI",
+            "description": "The MSCI Asia Pacific Index declined 0.3% with equities in South Korea slipping over 3%. That came after a US gauge of chipmakers fell 2.7% Monday, while the Nasdaq 100 Index lost 0.7%.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:42:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms",
+            "sentiment_score": 0.1117,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Reasons behind S&P 500, Nasdaq fall in Wall Street, top, worst performing sectors, stocks",
+            "description": "US Stock Market update: Micron Technology fell 3.9 per cent, Advanced Micro Devices dropped 2.3 per cent, Broadcom slid 1.9 per cent and Nvidia gave up 1.3 per cent.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:01:02Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-reasons-behind-sp-500-nasdaq-fall-in-wall-street-top-worst-performing-sectors-stocks/articleshow/134905137.cms",
+            "sentiment_score": -0.2824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed’s New Communications Regime",
+            "description": "Steven Davis asks San Francisco Fed President Mary Daly how the Fed’s communications regime has changed under the chairmanship of Kevin Warsh, and how she thinks about the implications of AI for monetary policy.",
+            "source": "Hoover.org",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.hoover.org/plus/research/feds-new-communications-regime",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Affordability Trilogy, Part 2",
+            "description": "Affordability? It does seem a bit petulant. American’s standard of living is greater than any large country, and better than ever in the past. We earn on average 40% more than Europeans, British, Japanese, and Canadians. Poverty just hit an all time low. Heal…",
+            "source": "Grumpy-economist.com",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.grumpy-economist.com/p/affordability-trilogy-part-2",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize",
+            "description": "From Hoover's post today (and see also our colleague John Cochrane's post about Hall's work): Robert E. Hall, the Robert…\nThe post Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize appeared first on Reason Magazine.",
+            "source": "Reason",
+            "published_at": "2026-10-12T23:42:30Z",
+            "url": "https://reason.com/volokh/2026/10/12/congratulations-to-the-hoover-institutions-robert-e-hall-on-his-economics-nobel-prize/",
+            "sentiment_score": 0.802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "fredq 0.6.0",
+            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
+            "source": "Pypi.org",
+            "published_at": "2026-10-12T23:10:38Z",
+            "url": "https://pypi.org/project/fredq/0.6.0/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bearish options made up 53.5% of Bitcoin’s options volume this week",
+            "description": "Increased bearish options activity suggests heightened caution among traders, potentially impacting Bitcoin's short-term market dynamics.\nThe post Bearish options made up 53.5% of Bitcoin’s options volume this week appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-12T22:21:10Z",
+            "url": "https://cryptobriefing.com/bearish-options-bitcoin-volume-this-week/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
+            "description": "CNBC’s Jim Cramer said the market’s incredible four-year run shows why investors should stay invested rather than trying to time the market.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T22:16:12Z",
+            "url": "https://www.cnbc.com/2026/10/12/cramer-sp-500-bull-market-stay-invested.html",
+            "sentiment_score": 0.3902,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Commentary: Every investment portfolio looks like the same trade - AI",
+            "description": "Investor portfolios have become alarmingly reliant on the fortunes of just one bet on the build-out of an uncertain technology, says Katie Martin for the Financial Times.",
+            "source": "CNA",
+            "published_at": "2026-10-12T21:58:00Z",
+            "url": "https://www.channelnewsasia.com/commentary/ai-stock-market-investment-portfolio-risks-6452486",
+            "sentiment_score": 0.0583,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Young NYers with college degrees face higher unemployment rate than those without for ‘first time in decades’",
+            "description": "Big Apple college-educated residents have a higher unemployment rate than their less-educated peers for the first time in more than a decade, according to labor statistics highlighted by the city comptroller — who suggested AI might be to blame. New Yorkers a…",
+            "source": "New York Post",
+            "published_at": "2026-10-12T21:27:41Z",
+            "url": "https://nypost.com/2026/10/12/us-news/unemployment-rate-higher-among-young-nyers-with-college-degrees-than-those-without/",
+            "sentiment_score": -0.5029,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: Oil prices on the rise as energy supply concerns continue",
+            "description": "Brent crude approached $US107 overnight, while the local share market has a mixed lead from Wall Street. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-12T21:20:02Z",
+            "url": "https://www.abc.net.au/news/2026-10-13/asx-markets-business-live-news/107258880",
+            "sentiment_score": 0.0829,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Iran War Has Reportedly Cost Each American Household $2,000",
@@ -789,137 +809,27 @@
             "url": "https://biztoc.com/x/ae1ecbcf4c556a5d",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Spooked? Crypto Fear and Greed Index Drops to Pre-Rally August Lows",
-            "description": "The Crypto Fear and Greed Index has dropped to 56 from an August peak of 82, as oil, bond yields, and ETF outflows hit Bitcoin in October.",
-            "source": "Decrypt",
-            "published_at": "2026-10-12T16:41:34Z",
-            "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
-            "sentiment_score": -0.7531,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ilhan Omar: US immigration authorities raid Democratic congresswoman’s home",
-            "description": "Somali-born Omar is an outspoken critic of ‌US president Donald Trump",
-            "source": "The Irish Times",
-            "published_at": "2026-10-12T16:30:54Z",
-            "url": "https://www.irishtimes.com/world/us/2026/10/12/ilhan-omar-us-immigration-authorities-raid-democratic-congresswomans-home/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-            "description": "Bitcoin abandons its latest low-time frame rebound at $84,250 amid market nerves over rising oil prices, with options traders “defensively” positioned.",
-            "source": "Cointelegraph",
-            "published_at": "2026-10-12T16:30:21Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
-            "sentiment_score": -0.3734,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes in the Money Supply Affected the Great Depression",
-            "description": "In his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to prevent the collapse of the money supply and the ec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T16:17:57Z",
-            "url": "https://biztoc.com/x/e7dce0b6873802de",
-            "sentiment_score": -0.2894,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates for 30 years rise 3 year high due to long-term US Treasury yields. How does it impact homeowners' monthly principal, interest payments and what to expect in near future?",
-            "description": "US Bonds Market: The rise in yields has pushed 30-year mortgage rates to a nearly three-year high of 7.4 per cent, keeping many homeowners locked into existing loans rather than refinancing as they often do when rates decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T15:39:34Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/mortgage-rates-for-30-years-rise-3-year-high-due-to-long-term-us-treasury-yields-how-does-it-impact-homeowners-monthly-principal-interest-payments-and-what-to-expect-near-future/articleshow/134896904.cms",
-            "sentiment_score": 0.4101,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Citi Readies Audit to Seek End of Federal Oversight and Speed Growth",
-            "description": "Citi aims to submit an internal audit to banking regulators by the first quarter of 2027, if not earlier, in hopes that the regulators will lift the consent orders the bank has been operating under since 2020, Reuters reported Monday (Oct. 12), citing unnamed…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-12T15:08:56Z",
-            "url": "https://www.pymnts.com/news/banking/2026/citi-readies-audit-to-seek-end-of-federal-oversight-and-speed-growth/",
-            "sentiment_score": 0.234,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Walmart Recession Signal is hinting that a Fed rate cut is near",
-            "description": "The Walmart Recession Signal, a measure of Walmart's stock versus a basket of luxury names, suggests the Fed could soon cut rates to prop up the economy.",
-            "source": "Business Insider",
-            "published_at": "2026-10-12T14:57:46Z",
-            "url": "https://www.businessinsider.com/walmart-recession-signal-fed-rate-cut-economy-jim-paulsen-wmt-2026-10#article",
-            "sentiment_score": -0.5994,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The economics Nobel went to the scholar whose work shaped Fed ‘forward guidance,’ a practice Kevin Warsh says has gone too far",
-            "description": "Stanford’s Robert Hall and Columbia’s Michael Woodford reshaped how central banks respond to crises by studying consumer and business decisions.",
-            "source": "Fortune",
-            "published_at": "2026-10-12T14:37:47Z",
-            "url": "https://fortune.com/2026/10/12/nobel-economics-2026-robert-hall-michael-woodford/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "fredq 0.5.1",
-            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-12T14:29:11Z",
-            "url": "https://pypi.org/project/fredq/0.5.1/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Battle for the Centre, the Rhetoric About the Right’s ‘Soul’, Tsipras vs Androulakis, a Lord to Rescue the Kypseli Metro Project and Indian Interest in Greek Ports",
-            "description": "From the battle for centrist voters and fresh government plans to ease energy costs to the stalled Athens Metro project, Greece faces mounting political and economic challenges. Meanwhile, Indian interest in Greek ports, banking deals and major developments i…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-12T14:10:47Z",
-            "url": "https://en.protothema.gr/2026/10/12/the-battle-for-the-centre-the-rhetoric-about-the-rights-soul-tsipras-vs-androulakis-a-lord-to-rescue-the-kypseli-metro-project-and-indian-interest-in-greek-ports/",
-            "sentiment_score": 0.6104,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tariffs pushed up consumer goods prices by 2.9 percentage points: NY Fed",
-            "description": "Consumer expectations for inflation rose for the second straight month to the highest level since May, the University of Michigan said Friday, citing an October survey.",
-            "source": "CFO Dive",
-            "published_at": "2026-10-12T14:01:00Z",
-            "url": "https://www.cfodive.com/news/tariffs-pushed-up-consumer-goods-prices-ny-fed-inflation-elections-tax-taxes/832657/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1762,
-      "bias": "เอียงบวกต่อ GBP (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.0713,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.32545,
+      "price_now": 1.32619,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 62.9,
-      "rsi_signal": "โซนกลาง (RSI=62.9)",
+      "rsi_value": 67.8,
+      "rsi_signal": "โซนกลาง (RSI=67.8)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00079,
-      "suggested_sl_distance": 0.00118,
+      "atr_value": 0.00074,
+      "suggested_sl_distance": 0.00111,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -931,9 +841,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=62.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=67.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-13T21:08:20.285529+00:00"
+    "generated_at": "2026-10-14T01:03:47.067592+00:00"
   },
   {
     "pair": "USDJPY",
@@ -942,10 +852,120 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.011,
+        "average_score": 0.0428,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slide as chip stocks tumble; investors eye US earnings, CPI",
+            "description": "The MSCI Asia Pacific Index declined 0.3% with equities in South Korea slipping over 3%. That came after a US gauge of chipmakers fell 2.7% Monday, while the Nasdaq 100 Index lost 0.7%.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:42:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms",
+            "sentiment_score": 0.1117,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Reasons behind S&P 500, Nasdaq fall in Wall Street, top, worst performing sectors, stocks",
+            "description": "US Stock Market update: Micron Technology fell 3.9 per cent, Advanced Micro Devices dropped 2.3 per cent, Broadcom slid 1.9 per cent and Nvidia gave up 1.3 per cent.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:01:02Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-reasons-behind-sp-500-nasdaq-fall-in-wall-street-top-worst-performing-sectors-stocks/articleshow/134905137.cms",
+            "sentiment_score": -0.2824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed’s New Communications Regime",
+            "description": "Steven Davis asks San Francisco Fed President Mary Daly how the Fed’s communications regime has changed under the chairmanship of Kevin Warsh, and how she thinks about the implications of AI for monetary policy.",
+            "source": "Hoover.org",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.hoover.org/plus/research/feds-new-communications-regime",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Affordability Trilogy, Part 2",
+            "description": "Affordability? It does seem a bit petulant. American’s standard of living is greater than any large country, and better than ever in the past. We earn on average 40% more than Europeans, British, Japanese, and Canadians. Poverty just hit an all time low. Heal…",
+            "source": "Grumpy-economist.com",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.grumpy-economist.com/p/affordability-trilogy-part-2",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize",
+            "description": "From Hoover's post today (and see also our colleague John Cochrane's post about Hall's work): Robert E. Hall, the Robert…\nThe post Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize appeared first on Reason Magazine.",
+            "source": "Reason",
+            "published_at": "2026-10-12T23:42:30Z",
+            "url": "https://reason.com/volokh/2026/10/12/congratulations-to-the-hoover-institutions-robert-e-hall-on-his-economics-nobel-prize/",
+            "sentiment_score": 0.802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "fredq 0.6.0",
+            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
+            "source": "Pypi.org",
+            "published_at": "2026-10-12T23:10:38Z",
+            "url": "https://pypi.org/project/fredq/0.6.0/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bearish options made up 53.5% of Bitcoin’s options volume this week",
+            "description": "Increased bearish options activity suggests heightened caution among traders, potentially impacting Bitcoin's short-term market dynamics.\nThe post Bearish options made up 53.5% of Bitcoin’s options volume this week appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-12T22:21:10Z",
+            "url": "https://cryptobriefing.com/bearish-options-bitcoin-volume-this-week/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
+            "description": "CNBC’s Jim Cramer said the market’s incredible four-year run shows why investors should stay invested rather than trying to time the market.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T22:16:12Z",
+            "url": "https://www.cnbc.com/2026/10/12/cramer-sp-500-bull-market-stay-invested.html",
+            "sentiment_score": 0.3902,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Commentary: Every investment portfolio looks like the same trade - AI",
+            "description": "Investor portfolios have become alarmingly reliant on the fortunes of just one bet on the build-out of an uncertain technology, says Katie Martin for the Financial Times.",
+            "source": "CNA",
+            "published_at": "2026-10-12T21:58:00Z",
+            "url": "https://www.channelnewsasia.com/commentary/ai-stock-market-investment-portfolio-risks-6452486",
+            "sentiment_score": 0.0583,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Young NYers with college degrees face higher unemployment rate than those without for ‘first time in decades’",
+            "description": "Big Apple college-educated residents have a higher unemployment rate than their less-educated peers for the first time in more than a decade, according to labor statistics highlighted by the city comptroller — who suggested AI might be to blame. New Yorkers a…",
+            "source": "New York Post",
+            "published_at": "2026-10-12T21:27:41Z",
+            "url": "https://nypost.com/2026/10/12/us-news/unemployment-rate-higher-among-young-nyers-with-college-degrees-than-those-without/",
+            "sentiment_score": -0.5029,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: Oil prices on the rise as energy supply concerns continue",
+            "description": "Brent crude approached $US107 overnight, while the local share market has a mixed lead from Wall Street. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-12T21:20:02Z",
+            "url": "https://www.abc.net.au/news/2026-10-13/asx-markets-business-live-news/107258880",
+            "sentiment_score": 0.0829,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Iran War Has Reportedly Cost Each American Household $2,000",
@@ -1135,124 +1155,44 @@
             "url": "https://biztoc.com/x/ae1ecbcf4c556a5d",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Spooked? Crypto Fear and Greed Index Drops to Pre-Rally August Lows",
-            "description": "The Crypto Fear and Greed Index has dropped to 56 from an August peak of 82, as oil, bond yields, and ETF outflows hit Bitcoin in October.",
-            "source": "Decrypt",
-            "published_at": "2026-10-12T16:41:34Z",
-            "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
-            "sentiment_score": -0.7531,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ilhan Omar: US immigration authorities raid Democratic congresswoman’s home",
-            "description": "Somali-born Omar is an outspoken critic of ‌US president Donald Trump",
-            "source": "The Irish Times",
-            "published_at": "2026-10-12T16:30:54Z",
-            "url": "https://www.irishtimes.com/world/us/2026/10/12/ilhan-omar-us-immigration-authorities-raid-democratic-congresswomans-home/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-            "description": "Bitcoin abandons its latest low-time frame rebound at $84,250 amid market nerves over rising oil prices, with options traders “defensively” positioned.",
-            "source": "Cointelegraph",
-            "published_at": "2026-10-12T16:30:21Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
-            "sentiment_score": -0.3734,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes in the Money Supply Affected the Great Depression",
-            "description": "In his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to prevent the collapse of the money supply and the ec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T16:17:57Z",
-            "url": "https://biztoc.com/x/e7dce0b6873802de",
-            "sentiment_score": -0.2894,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates for 30 years rise 3 year high due to long-term US Treasury yields. How does it impact homeowners' monthly principal, interest payments and what to expect in near future?",
-            "description": "US Bonds Market: The rise in yields has pushed 30-year mortgage rates to a nearly three-year high of 7.4 per cent, keeping many homeowners locked into existing loans rather than refinancing as they often do when rates decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T15:39:34Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/mortgage-rates-for-30-years-rise-3-year-high-due-to-long-term-us-treasury-yields-how-does-it-impact-homeowners-monthly-principal-interest-payments-and-what-to-expect-near-future/articleshow/134896904.cms",
-            "sentiment_score": 0.4101,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Citi Readies Audit to Seek End of Federal Oversight and Speed Growth",
-            "description": "Citi aims to submit an internal audit to banking regulators by the first quarter of 2027, if not earlier, in hopes that the regulators will lift the consent orders the bank has been operating under since 2020, Reuters reported Monday (Oct. 12), citing unnamed…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-12T15:08:56Z",
-            "url": "https://www.pymnts.com/news/banking/2026/citi-readies-audit-to-seek-end-of-federal-oversight-and-speed-growth/",
-            "sentiment_score": 0.234,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Walmart Recession Signal is hinting that a Fed rate cut is near",
-            "description": "The Walmart Recession Signal, a measure of Walmart's stock versus a basket of luxury names, suggests the Fed could soon cut rates to prop up the economy.",
-            "source": "Business Insider",
-            "published_at": "2026-10-12T14:57:46Z",
-            "url": "https://www.businessinsider.com/walmart-recession-signal-fed-rate-cut-economy-jim-paulsen-wmt-2026-10#article",
-            "sentiment_score": -0.5994,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The economics Nobel went to the scholar whose work shaped Fed ‘forward guidance,’ a practice Kevin Warsh says has gone too far",
-            "description": "Stanford’s Robert Hall and Columbia’s Michael Woodford reshaped how central banks respond to crises by studying consumer and business decisions.",
-            "source": "Fortune",
-            "published_at": "2026-10-12T14:37:47Z",
-            "url": "https://fortune.com/2026/10/12/nobel-economics-2026-robert-hall-michael-woodford/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "fredq 0.5.1",
-            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-12T14:29:11Z",
-            "url": "https://pypi.org/project/fredq/0.5.1/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Battle for the Centre, the Rhetoric About the Right’s ‘Soul’, Tsipras vs Androulakis, a Lord to Rescue the Kypseli Metro Project and Indian Interest in Greek Ports",
-            "description": "From the battle for centrist voters and fresh government plans to ease energy costs to the stalled Athens Metro project, Greece faces mounting political and economic challenges. Meanwhile, Indian interest in Greek ports, banking deals and major developments i…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-12T14:10:47Z",
-            "url": "https://en.protothema.gr/2026/10/12/the-battle-for-the-centre-the-rhetoric-about-the-rights-soul-tsipras-vs-androulakis-a-lord-to-rescue-the-kypseli-metro-project-and-indian-interest-in-greek-ports/",
-            "sentiment_score": 0.6104,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tariffs pushed up consumer goods prices by 2.9 percentage points: NY Fed",
-            "description": "Consumer expectations for inflation rose for the second straight month to the highest level since May, the University of Michigan said Friday, citing an October survey.",
-            "source": "CFO Dive",
-            "published_at": "2026-10-12T14:01:00Z",
-            "url": "https://www.cfodive.com/news/tariffs-pushed-up-consumer-goods-prices-ny-fed-inflation-elections-tax-taxes/832657/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1923,
-        "label": "ลบเล็กน้อย",
-        "article_count": 1,
+        "average_score": 0.1001,
+        "label": "บวกเล็กน้อย",
+        "article_count": 4,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan's producer prices drop 0.3% in September",
+            "description": "Japan's producer price index (PPI) went down by 0.3% in September from the previous month, the Bank of Japan (BoJ) said on Tuesday.On a yearly basis, the PPI advanced 6.8% compared to the previous mon...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-13T00:06:32Z",
+            "url": "https://biztoc.com/x/b418acef02e431f3",
+            "sentiment_score": -0.1162,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's wholesale inflation remains elevated, keeps alive BOJ rate-hike view",
+            "description": "TOKYO, Oct 13 : Japan's wholesale prices rose 6.8 per cent in the year to September as companies passed on fuel and chemical costs, according to data released on Tuesday, highlighting mounting inflationary pressure that keeps alive market expectations of a ne…",
+            "source": "CNA",
+            "published_at": "2026-10-12T23:59:24Z",
+            "url": "https://www.channelnewsasia.com/business/japans-wholesale-inflation-remains-elevated-keeps-alive-boj-rate-hike-view-6454501",
+            "sentiment_score": 0.2981,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Rising Interest Rates Hit Japan's Students and Homebuyers",
+            "description": "Japan's transition away from decades of ultra-low interest rates is placing increasing financial pressure on students, homeowners and property investors, with some university graduates facing more than 1 million yen in additional student loan repayments while…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-10-12T21:23:56Z",
+            "url": "https://newsonjapan.com/article/151030.php",
+            "sentiment_score": 0.3818,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "JPY",
             "title": "Food-Tax Funding Fight Puts Spending Review At Center Of Diet Debate",
@@ -1265,24 +1205,24 @@
           }
         ]
       },
-      "net_score": 0.1813,
-      "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": -0.0573,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.30701,
+      "price_now": 158.493,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 49.1,
-      "rsi_signal": "โซนกลาง (RSI=49.1)",
+      "rsi_value": 58.8,
+      "rsi_signal": "โซนกลาง (RSI=58.8)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.13119,
-      "suggested_sl_distance": 0.19678,
+      "atr_value": 0.12918,
+      "suggested_sl_distance": 0.19377,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1296,7 +1236,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-13T21:08:20.285529+00:00"
+    "generated_at": "2026-10-14T01:03:47.067592+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1305,10 +1245,30 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.3241,
-        "label": "ลบชัดเจน (Bearish)",
-        "article_count": 2,
+        "average_score": 0.0399,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 4,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Australia's central bank signals further rate hikes possible",
+            "description": "The Reserve Bank of Australia (RBA) warned that the risk of persistently elevated inflation had increased, according to minutes of its September monetary policy meeting released on Tuesday.The minutes...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-13T00:51:21Z",
+            "url": "https://biztoc.com/x/dc529bdfc945807d",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Should smart investors be buying NAB shares?",
+            "description": "I dig deep to see whether the recent pullback has made this major bank worth buying.\nThe post Should smart investors be buying NAB shares? appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-10-13T00:17:16Z",
+            "url": "https://www.fool.com.au/2026/10/13/should-smart-investors-be-buying-nab-shares/",
+            "sentiment_score": 0.5666,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "AUD",
             "title": "Is the Firmus fiasco a crack in the AI boom?",
@@ -1332,10 +1292,120 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.011,
+        "average_score": 0.0428,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slide as chip stocks tumble; investors eye US earnings, CPI",
+            "description": "The MSCI Asia Pacific Index declined 0.3% with equities in South Korea slipping over 3%. That came after a US gauge of chipmakers fell 2.7% Monday, while the Nasdaq 100 Index lost 0.7%.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:42:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms",
+            "sentiment_score": 0.1117,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Reasons behind S&P 500, Nasdaq fall in Wall Street, top, worst performing sectors, stocks",
+            "description": "US Stock Market update: Micron Technology fell 3.9 per cent, Advanced Micro Devices dropped 2.3 per cent, Broadcom slid 1.9 per cent and Nvidia gave up 1.3 per cent.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:01:02Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-reasons-behind-sp-500-nasdaq-fall-in-wall-street-top-worst-performing-sectors-stocks/articleshow/134905137.cms",
+            "sentiment_score": -0.2824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed’s New Communications Regime",
+            "description": "Steven Davis asks San Francisco Fed President Mary Daly how the Fed’s communications regime has changed under the chairmanship of Kevin Warsh, and how she thinks about the implications of AI for monetary policy.",
+            "source": "Hoover.org",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.hoover.org/plus/research/feds-new-communications-regime",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Affordability Trilogy, Part 2",
+            "description": "Affordability? It does seem a bit petulant. American’s standard of living is greater than any large country, and better than ever in the past. We earn on average 40% more than Europeans, British, Japanese, and Canadians. Poverty just hit an all time low. Heal…",
+            "source": "Grumpy-economist.com",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.grumpy-economist.com/p/affordability-trilogy-part-2",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize",
+            "description": "From Hoover's post today (and see also our colleague John Cochrane's post about Hall's work): Robert E. Hall, the Robert…\nThe post Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize appeared first on Reason Magazine.",
+            "source": "Reason",
+            "published_at": "2026-10-12T23:42:30Z",
+            "url": "https://reason.com/volokh/2026/10/12/congratulations-to-the-hoover-institutions-robert-e-hall-on-his-economics-nobel-prize/",
+            "sentiment_score": 0.802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "fredq 0.6.0",
+            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
+            "source": "Pypi.org",
+            "published_at": "2026-10-12T23:10:38Z",
+            "url": "https://pypi.org/project/fredq/0.6.0/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bearish options made up 53.5% of Bitcoin’s options volume this week",
+            "description": "Increased bearish options activity suggests heightened caution among traders, potentially impacting Bitcoin's short-term market dynamics.\nThe post Bearish options made up 53.5% of Bitcoin’s options volume this week appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-12T22:21:10Z",
+            "url": "https://cryptobriefing.com/bearish-options-bitcoin-volume-this-week/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
+            "description": "CNBC’s Jim Cramer said the market’s incredible four-year run shows why investors should stay invested rather than trying to time the market.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T22:16:12Z",
+            "url": "https://www.cnbc.com/2026/10/12/cramer-sp-500-bull-market-stay-invested.html",
+            "sentiment_score": 0.3902,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Commentary: Every investment portfolio looks like the same trade - AI",
+            "description": "Investor portfolios have become alarmingly reliant on the fortunes of just one bet on the build-out of an uncertain technology, says Katie Martin for the Financial Times.",
+            "source": "CNA",
+            "published_at": "2026-10-12T21:58:00Z",
+            "url": "https://www.channelnewsasia.com/commentary/ai-stock-market-investment-portfolio-risks-6452486",
+            "sentiment_score": 0.0583,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Young NYers with college degrees face higher unemployment rate than those without for ‘first time in decades’",
+            "description": "Big Apple college-educated residents have a higher unemployment rate than their less-educated peers for the first time in more than a decade, according to labor statistics highlighted by the city comptroller — who suggested AI might be to blame. New Yorkers a…",
+            "source": "New York Post",
+            "published_at": "2026-10-12T21:27:41Z",
+            "url": "https://nypost.com/2026/10/12/us-news/unemployment-rate-higher-among-young-nyers-with-college-degrees-than-those-without/",
+            "sentiment_score": -0.5029,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: Oil prices on the rise as energy supply concerns continue",
+            "description": "Brent crude approached $US107 overnight, while the local share market has a mixed lead from Wall Street. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-12T21:20:02Z",
+            "url": "https://www.abc.net.au/news/2026-10-13/asx-markets-business-live-news/107258880",
+            "sentiment_score": 0.0829,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Iran War Has Reportedly Cost Each American Household $2,000",
@@ -1525,140 +1595,30 @@
             "url": "https://biztoc.com/x/ae1ecbcf4c556a5d",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Spooked? Crypto Fear and Greed Index Drops to Pre-Rally August Lows",
-            "description": "The Crypto Fear and Greed Index has dropped to 56 from an August peak of 82, as oil, bond yields, and ETF outflows hit Bitcoin in October.",
-            "source": "Decrypt",
-            "published_at": "2026-10-12T16:41:34Z",
-            "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
-            "sentiment_score": -0.7531,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ilhan Omar: US immigration authorities raid Democratic congresswoman’s home",
-            "description": "Somali-born Omar is an outspoken critic of ‌US president Donald Trump",
-            "source": "The Irish Times",
-            "published_at": "2026-10-12T16:30:54Z",
-            "url": "https://www.irishtimes.com/world/us/2026/10/12/ilhan-omar-us-immigration-authorities-raid-democratic-congresswomans-home/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-            "description": "Bitcoin abandons its latest low-time frame rebound at $84,250 amid market nerves over rising oil prices, with options traders “defensively” positioned.",
-            "source": "Cointelegraph",
-            "published_at": "2026-10-12T16:30:21Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
-            "sentiment_score": -0.3734,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes in the Money Supply Affected the Great Depression",
-            "description": "In his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to prevent the collapse of the money supply and the ec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T16:17:57Z",
-            "url": "https://biztoc.com/x/e7dce0b6873802de",
-            "sentiment_score": -0.2894,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates for 30 years rise 3 year high due to long-term US Treasury yields. How does it impact homeowners' monthly principal, interest payments and what to expect in near future?",
-            "description": "US Bonds Market: The rise in yields has pushed 30-year mortgage rates to a nearly three-year high of 7.4 per cent, keeping many homeowners locked into existing loans rather than refinancing as they often do when rates decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T15:39:34Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/mortgage-rates-for-30-years-rise-3-year-high-due-to-long-term-us-treasury-yields-how-does-it-impact-homeowners-monthly-principal-interest-payments-and-what-to-expect-near-future/articleshow/134896904.cms",
-            "sentiment_score": 0.4101,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Citi Readies Audit to Seek End of Federal Oversight and Speed Growth",
-            "description": "Citi aims to submit an internal audit to banking regulators by the first quarter of 2027, if not earlier, in hopes that the regulators will lift the consent orders the bank has been operating under since 2020, Reuters reported Monday (Oct. 12), citing unnamed…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-12T15:08:56Z",
-            "url": "https://www.pymnts.com/news/banking/2026/citi-readies-audit-to-seek-end-of-federal-oversight-and-speed-growth/",
-            "sentiment_score": 0.234,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Walmart Recession Signal is hinting that a Fed rate cut is near",
-            "description": "The Walmart Recession Signal, a measure of Walmart's stock versus a basket of luxury names, suggests the Fed could soon cut rates to prop up the economy.",
-            "source": "Business Insider",
-            "published_at": "2026-10-12T14:57:46Z",
-            "url": "https://www.businessinsider.com/walmart-recession-signal-fed-rate-cut-economy-jim-paulsen-wmt-2026-10#article",
-            "sentiment_score": -0.5994,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The economics Nobel went to the scholar whose work shaped Fed ‘forward guidance,’ a practice Kevin Warsh says has gone too far",
-            "description": "Stanford’s Robert Hall and Columbia’s Michael Woodford reshaped how central banks respond to crises by studying consumer and business decisions.",
-            "source": "Fortune",
-            "published_at": "2026-10-12T14:37:47Z",
-            "url": "https://fortune.com/2026/10/12/nobel-economics-2026-robert-hall-michael-woodford/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "fredq 0.5.1",
-            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-12T14:29:11Z",
-            "url": "https://pypi.org/project/fredq/0.5.1/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Battle for the Centre, the Rhetoric About the Right’s ‘Soul’, Tsipras vs Androulakis, a Lord to Rescue the Kypseli Metro Project and Indian Interest in Greek Ports",
-            "description": "From the battle for centrist voters and fresh government plans to ease energy costs to the stalled Athens Metro project, Greece faces mounting political and economic challenges. Meanwhile, Indian interest in Greek ports, banking deals and major developments i…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-12T14:10:47Z",
-            "url": "https://en.protothema.gr/2026/10/12/the-battle-for-the-centre-the-rhetoric-about-the-rights-soul-tsipras-vs-androulakis-a-lord-to-rescue-the-kypseli-metro-project-and-indian-interest-in-greek-ports/",
-            "sentiment_score": 0.6104,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tariffs pushed up consumer goods prices by 2.9 percentage points: NY Fed",
-            "description": "Consumer expectations for inflation rose for the second straight month to the highest level since May, the University of Michigan said Friday, citing an October survey.",
-            "source": "CFO Dive",
-            "published_at": "2026-10-12T14:01:00Z",
-            "url": "https://www.cfodive.com/news/tariffs-pushed-up-consumer-goods-prices-ny-fed-inflation-elections-tax-taxes/832657/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.3131,
-      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.0029,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69842,
+      "price_now": 0.6993,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 61.4,
-      "rsi_signal": "โซนกลาง (RSI=61.4)",
+      "rsi_value": 70.9,
+      "rsi_signal": "ซื้อมากเกิน (RSI=70.9) ระวังราคาย่อ",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00045,
-      "suggested_sl_distance": 0.00067,
+      "atr_value": 0.00043,
+      "suggested_sl_distance": 0.00064,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "technical_vote": 1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "up",
       "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1667,9 +1627,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=61.4) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=70.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-13T21:08:20.285529+00:00"
+    "generated_at": "2026-10-14T01:03:47.067592+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1678,10 +1638,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.2374,
+        "average_score": 0.1993,
         "label": "บวกเล็กน้อย",
-        "article_count": 8,
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Affordability Trilogy, Part 2",
+            "description": "Affordability? It does seem a bit petulant. American’s standard of living is greater than any large country, and better than ever in the past. We earn on average 40% more than Europeans, British, Japanese, and Canadians. Poverty just hit an all time low. Heal…",
+            "source": "Grumpy-economist.com",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.grumpy-economist.com/p/affordability-trilogy-part-2",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "XAU",
             "title": "Gold price surge boosts diamond jewellery sales 15-20%",
@@ -1741,34 +1711,124 @@
             "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-12-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/134884555.cms",
             "sentiment_score": 0.1911,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction for Monday, October 12: Check latest gold rate predictions",
-            "description": "Gold rate prediction: Gold tends to lose its appeal compared to yield-bearing assets in a high interest-rate environment.",
-            "source": "The Times of India",
-            "published_at": "2026-10-11T16:13:06Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-for-monday-october-12-check-latest-gold-rate-predictions/articleshow/134873337.cms",
-            "sentiment_score": -0.075,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold jewellers brace for Q3 after growth cools in Q2",
-            "description": "Jewellers are counting on an extended festive and wedding season in the December quarter, while a favourable product mix could help support margins.",
-            "source": "Livemint",
-            "published_at": "2026-10-11T01:30:16Z",
-            "url": "https://www.livemint.com/industry/gold-jewellers-brace-for-q3-after-growth-cools-in-q2-11791528424476.html",
-            "sentiment_score": 0.511,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.011,
+        "average_score": 0.0428,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slide as chip stocks tumble; investors eye US earnings, CPI",
+            "description": "The MSCI Asia Pacific Index declined 0.3% with equities in South Korea slipping over 3%. That came after a US gauge of chipmakers fell 2.7% Monday, while the Nasdaq 100 Index lost 0.7%.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:42:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-markets-slide-as-chip-stocks-tumble-investors-eye-us-earnings-cpi/articleshow/134905429.cms",
+            "sentiment_score": 0.1117,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Reasons behind S&P 500, Nasdaq fall in Wall Street, top, worst performing sectors, stocks",
+            "description": "US Stock Market update: Micron Technology fell 3.9 per cent, Advanced Micro Devices dropped 2.3 per cent, Broadcom slid 1.9 per cent and Nvidia gave up 1.3 per cent.",
+            "source": "The Times of India",
+            "published_at": "2026-10-13T00:01:02Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-reasons-behind-sp-500-nasdaq-fall-in-wall-street-top-worst-performing-sectors-stocks/articleshow/134905137.cms",
+            "sentiment_score": -0.2824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Fed’s New Communications Regime",
+            "description": "Steven Davis asks San Francisco Fed President Mary Daly how the Fed’s communications regime has changed under the chairmanship of Kevin Warsh, and how she thinks about the implications of AI for monetary policy.",
+            "source": "Hoover.org",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.hoover.org/plus/research/feds-new-communications-regime",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Affordability Trilogy, Part 2",
+            "description": "Affordability? It does seem a bit petulant. American’s standard of living is greater than any large country, and better than ever in the past. We earn on average 40% more than Europeans, British, Japanese, and Canadians. Poverty just hit an all time low. Heal…",
+            "source": "Grumpy-economist.com",
+            "published_at": "2026-10-13T00:00:00Z",
+            "url": "https://www.grumpy-economist.com/p/affordability-trilogy-part-2",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize",
+            "description": "From Hoover's post today (and see also our colleague John Cochrane's post about Hall's work): Robert E. Hall, the Robert…\nThe post Congratulations to the Hoover Institution's Robert E. Hall, on His Economics Nobel Prize appeared first on Reason Magazine.",
+            "source": "Reason",
+            "published_at": "2026-10-12T23:42:30Z",
+            "url": "https://reason.com/volokh/2026/10/12/congratulations-to-the-hoover-institutions-robert-e-hall-on-his-economics-nobel-prize/",
+            "sentiment_score": 0.802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "fredq 0.6.0",
+            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
+            "source": "Pypi.org",
+            "published_at": "2026-10-12T23:10:38Z",
+            "url": "https://pypi.org/project/fredq/0.6.0/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bearish options made up 53.5% of Bitcoin’s options volume this week",
+            "description": "Increased bearish options activity suggests heightened caution among traders, potentially impacting Bitcoin's short-term market dynamics.\nThe post Bearish options made up 53.5% of Bitcoin’s options volume this week appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-12T22:21:10Z",
+            "url": "https://cryptobriefing.com/bearish-options-bitcoin-volume-this-week/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jim Cramer says the bull market's remarkable 4-year run offers a crucial lesson for investors",
+            "description": "CNBC’s Jim Cramer said the market’s incredible four-year run shows why investors should stay invested rather than trying to time the market.",
+            "source": "CNBC",
+            "published_at": "2026-10-12T22:16:12Z",
+            "url": "https://www.cnbc.com/2026/10/12/cramer-sp-500-bull-market-stay-invested.html",
+            "sentiment_score": 0.3902,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Commentary: Every investment portfolio looks like the same trade - AI",
+            "description": "Investor portfolios have become alarmingly reliant on the fortunes of just one bet on the build-out of an uncertain technology, says Katie Martin for the Financial Times.",
+            "source": "CNA",
+            "published_at": "2026-10-12T21:58:00Z",
+            "url": "https://www.channelnewsasia.com/commentary/ai-stock-market-investment-portfolio-risks-6452486",
+            "sentiment_score": 0.0583,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Young NYers with college degrees face higher unemployment rate than those without for ‘first time in decades’",
+            "description": "Big Apple college-educated residents have a higher unemployment rate than their less-educated peers for the first time in more than a decade, according to labor statistics highlighted by the city comptroller — who suggested AI might be to blame. New Yorkers a…",
+            "source": "New York Post",
+            "published_at": "2026-10-12T21:27:41Z",
+            "url": "https://nypost.com/2026/10/12/us-news/unemployment-rate-higher-among-young-nyers-with-college-degrees-than-those-without/",
+            "sentiment_score": -0.5029,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Live: Oil prices on the rise as energy supply concerns continue",
+            "description": "Brent crude approached $US107 overnight, while the local share market has a mixed lead from Wall Street. Follow the day's events and insights from our business reporters on the ABC News live markets blog.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-12T21:20:02Z",
+            "url": "https://www.abc.net.au/news/2026-10-13/asx-markets-business-live-news/107258880",
+            "sentiment_score": 0.0829,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Iran War Has Reportedly Cost Each American Household $2,000",
@@ -1958,120 +2018,10 @@
             "url": "https://biztoc.com/x/ae1ecbcf4c556a5d",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Spooked? Crypto Fear and Greed Index Drops to Pre-Rally August Lows",
-            "description": "The Crypto Fear and Greed Index has dropped to 56 from an August peak of 82, as oil, bond yields, and ETF outflows hit Bitcoin in October.",
-            "source": "Decrypt",
-            "published_at": "2026-10-12T16:41:34Z",
-            "url": "https://decrypt.co/380708/bitcoin-spooked-crypto-fear-greed-drops",
-            "sentiment_score": -0.7531,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Ilhan Omar: US immigration authorities raid Democratic congresswoman’s home",
-            "description": "Somali-born Omar is an outspoken critic of ‌US president Donald Trump",
-            "source": "The Irish Times",
-            "published_at": "2026-10-12T16:30:54Z",
-            "url": "https://www.irishtimes.com/world/us/2026/10/12/ilhan-omar-us-immigration-authorities-raid-democratic-congresswomans-home/",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin drops 2.2% as Ukraine, Iran strikes send oil toward one-month high",
-            "description": "Bitcoin abandons its latest low-time frame rebound at $84,250 amid market nerves over rising oil prices, with options traders “defensively” positioned.",
-            "source": "Cointelegraph",
-            "published_at": "2026-10-12T16:30:21Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-drops-22-as-ukraine-iran-strikes-send-oil-toward-one-month-high",
-            "sentiment_score": -0.3734,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes in the Money Supply Affected the Great Depression",
-            "description": "In his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to prevent the collapse of the money supply and the ec…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T16:17:57Z",
-            "url": "https://biztoc.com/x/e7dce0b6873802de",
-            "sentiment_score": -0.2894,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage rates for 30 years rise 3 year high due to long-term US Treasury yields. How does it impact homeowners' monthly principal, interest payments and what to expect in near future?",
-            "description": "US Bonds Market: The rise in yields has pushed 30-year mortgage rates to a nearly three-year high of 7.4 per cent, keeping many homeowners locked into existing loans rather than refinancing as they often do when rates decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T15:39:34Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/mortgage-rates-for-30-years-rise-3-year-high-due-to-long-term-us-treasury-yields-how-does-it-impact-homeowners-monthly-principal-interest-payments-and-what-to-expect-near-future/articleshow/134896904.cms",
-            "sentiment_score": 0.4101,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Citi Readies Audit to Seek End of Federal Oversight and Speed Growth",
-            "description": "Citi aims to submit an internal audit to banking regulators by the first quarter of 2027, if not earlier, in hopes that the regulators will lift the consent orders the bank has been operating under since 2020, Reuters reported Monday (Oct. 12), citing unnamed…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-12T15:08:56Z",
-            "url": "https://www.pymnts.com/news/banking/2026/citi-readies-audit-to-seek-end-of-federal-oversight-and-speed-growth/",
-            "sentiment_score": 0.234,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Walmart Recession Signal is hinting that a Fed rate cut is near",
-            "description": "The Walmart Recession Signal, a measure of Walmart's stock versus a basket of luxury names, suggests the Fed could soon cut rates to prop up the economy.",
-            "source": "Business Insider",
-            "published_at": "2026-10-12T14:57:46Z",
-            "url": "https://www.businessinsider.com/walmart-recession-signal-fed-rate-cut-economy-jim-paulsen-wmt-2026-10#article",
-            "sentiment_score": -0.5994,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The economics Nobel went to the scholar whose work shaped Fed ‘forward guidance,’ a practice Kevin Warsh says has gone too far",
-            "description": "Stanford’s Robert Hall and Columbia’s Michael Woodford reshaped how central banks respond to crises by studying consumer and business decisions.",
-            "source": "Fortune",
-            "published_at": "2026-10-12T14:37:47Z",
-            "url": "https://fortune.com/2026/10/12/nobel-economics-2026-robert-hall-michael-woodford/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "fredq 0.5.1",
-            "description": "Typed Python library and LLM-friendly CLI for FRED (Federal Reserve Economic Data).",
-            "source": "Pypi.org",
-            "published_at": "2026-10-12T14:29:11Z",
-            "url": "https://pypi.org/project/fredq/0.5.1/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Battle for the Centre, the Rhetoric About the Right’s ‘Soul’, Tsipras vs Androulakis, a Lord to Rescue the Kypseli Metro Project and Indian Interest in Greek Ports",
-            "description": "From the battle for centrist voters and fresh government plans to ease energy costs to the stalled Athens Metro project, Greece faces mounting political and economic challenges. Meanwhile, Indian interest in Greek ports, banking deals and major developments i…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-12T14:10:47Z",
-            "url": "https://en.protothema.gr/2026/10/12/the-battle-for-the-centre-the-rhetoric-about-the-rights-soul-tsipras-vs-androulakis-a-lord-to-rescue-the-kypseli-metro-project-and-indian-interest-in-greek-ports/",
-            "sentiment_score": 0.6104,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tariffs pushed up consumer goods prices by 2.9 percentage points: NY Fed",
-            "description": "Consumer expectations for inflation rose for the second straight month to the highest level since May, the University of Michigan said Friday, citing an October survey.",
-            "source": "CFO Dive",
-            "published_at": "2026-10-12T14:01:00Z",
-            "url": "https://www.cfodive.com/news/tariffs-pushed-up-consumer-goods-prices-ny-fed-inflation-elections-tax-taxes/832657/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.2484,
+      "net_score": 0.1565,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -2081,14 +2031,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4183.7002,
+      "price_now": 4179.1001,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 41.8,
-      "rsi_signal": "โซนกลาง (RSI=41.8)",
+      "rsi_value": 39.4,
+      "rsi_signal": "โซนกลาง (RSI=39.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 11.10827,
-      "suggested_sl_distance": 16.66241,
+      "atr_value": 9.68439,
+      "suggested_sl_distance": 14.52658,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -2100,8 +2050,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=41.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=39.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-13T21:08:20.285529+00:00"
+    "generated_at": "2026-10-14T01:03:47.067592+00:00"
   }
 ]
