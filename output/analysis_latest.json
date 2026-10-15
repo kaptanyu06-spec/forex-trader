@@ -6,10 +6,40 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0763,
-        "label": "ลบเล็กน้อย",
-        "article_count": 21,
+        "average_score": -0.0388,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 16,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "The dollar declined as traders awaited new information on the timing for interest rate increases. Investors reevaluated the recent rally fueled by artificial intelligence developments and easing oil prices. Meanwhile, the euro gained slightly amid regional bu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:57:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms",
+            "sentiment_score": 0.2587,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "TOKYO, Oct 14 : The dollar languished on Wednesday as traders awaited fresh signals on the timing for interest rate hikes to contend with persistent inflation.The greenback weakened from an 18-month high in the previous session as oil prices eased and investo…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:17:58Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-languishes-focus-turns-cpi-fed-speakers-6457446",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
+            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+            "source": "Europa.eu",
+            "published_at": "2026-10-14T00:00:00Z",
+            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
@@ -139,94 +169,184 @@
             "url": "https://www.thefp.com/p/niall-ferguson-why-europe-burning-government-protest",
             "sentiment_score": -0.1837,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-            "description": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than y...",
-            "source": "Github.com",
-            "published_at": "2026-10-12T22:05:43Z",
-            "url": "https://github.com/prabanta-dev/janas",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Economics Nobel: how this year’s winners helped to smooth the cycle of economic peaks and troughs",
-            "description": "Robert E. Hall and Michael Woodford were announced as this year’s winners.",
-            "source": "The Conversation Africa",
-            "published_at": "2026-10-12T18:50:04Z",
-            "url": "https://theconversation.com/economics-nobel-how-this-years-winners-helped-to-smooth-the-cycle-of-economic-peaks-and-troughs-294217",
-            "sentiment_score": 0.4767,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Announcing 20260090 (MRO,liquidity providing), for 7 days deadline 09:30",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-12T13:52:22Z",
-            "url": "https://www.ecb.europa.eu/mopo/implement/omo/html/20260090.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Bond Market Today: Treasury yields witness volatile Monday, check latest data",
-            "description": "Global bond yields show mixed trading on Monday. US Treasury yields flipped up and down in the bond market following their own sharp moves earlier last week.",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T10:59:50Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/bond-market-today-treasury-yields-witness-volatile-monday-check-latest-data/articleshow/134890737.cms",
-            "sentiment_score": 0.2023,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: Eurozone bond yields ease as Russia-Ukraine energy truce lifts sentiment",
-            "description": "Eurozone government bond yields eased as lower energy prices and a Russia-Ukraine energy ceasefire announcement improved investor sentiment. German yields declined, while French and Italian bond spreads narrowed. However, markets continued pricing in higher E…",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T07:38:41Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-eurozone-bond-yields-ease-as-russia-ukraine-energy-truce-lifts-sentiment/articleshow/134886214.cms",
-            "sentiment_score": 0.6131,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global watchdog flags stablecoin risks, AI threats ahead of G20",
-            "description": "The Financial Stability Board flagged cross-border stablecoin risks and AI-related cybersecurity threats while urging G20 policymakers to support stronger safeguards.",
-            "source": "Cointelegraph",
-            "published_at": "2026-10-12T06:30:21Z",
-            "url": "https://cointelegraph.com/news/fsb-stablecoin-ai-risks-g20-finance-meeting",
-            "sentiment_score": -0.2931,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Frantic behind-the-scenes talks delivers deal on EU capital markets reform",
-            "description": "Political agreement had long proved elusive when it came to reforms of the EU’s capital markets",
-            "source": "The Irish Times",
-            "published_at": "2026-10-12T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/2026/10/12/frantic-behind-the-scenes-talks-delivers-deal-on-eu-capital-markets-reform/",
-            "sentiment_score": -0.1601,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Bond Turmoil Raises the Specter of Contagion in Europe...",
-            "description": "Bond Turmoil Raises the Specter of Contagion in Europe...\r\n\n \n \n \n (Third column, 7th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:France flirting dangerously with end of capitalism...\r\n\n \r\n\n \n \n Drudge Report Feed needs your support!   Become a Patron",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-12T00:28:36Z",
-            "url": "https://finance.yahoo.com/markets/currencies/articles/french-bond-contagion-fears-rattling-170627786.html",
-            "sentiment_score": -0.6636,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0128,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0603,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Slides as Bank Stocks Fall After Wall Street Sell-Off; Glencore Makes Debut on Australian Market",
+            "description": "Australian shares fell on Wednesday, led by the major banks after losses among US lenders. Glencore made its ASX debut, while energy and property stocks gained.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-14T04:16:46Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-fall-banks-glencore-asx-debut-1876661",
+            "sentiment_score": 0.1342,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Japan's Nikkei rebounds as chip stocks rise, Topix slips on bank losses",
+            "description": "Japan’s Nikkei rebounded 0.61% on Wednesday as chip-related stocks advanced, recovering from the previous session’s decline. Advantest, Tokyo Electron and SoftBank gained, while Taiyo Yuden surged. However, banking stocks weakened the broader Topix index, wit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:12:19Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rebounds-as-chip-stocks-rise-topix-slips-on-bank-losses/articleshow/134931841.cms",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: South Korean shares rebound as chipmakers recover after five-day losing streak",
+            "description": "South Korea’s KOSPI rebounded 0.74% on Wednesday as investors bought semiconductor stocks after five consecutive sessions of losses. Samsung Electronics and SK Hynix advanced, supported by a recovery in US AI chipmakers. Despite positive market breadth, forei…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:08:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rebound-as-chipmakers-recover-after-five-day-losing-streak/articleshow/134931255.cms",
+            "sentiment_score": -0.1689,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tariffs Are a Band-Aid, Not a Cure",
+            "description": "In Wednesday’s episode of the Peter Schiff Show, Peter traces a common thread connecting America’s trade deficits, runaway government spending, and the sovereign debt troubles now creeping across the Atlantic. He also takes a detour into history, arguing that…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-10-14T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/10/no_author/tariffs-are-a-band-aid-not-a-cure/",
+            "sentiment_score": -0.2453,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks rise as chipmakers rebound ahead of US inflation data",
+            "description": "Among ​firms in the AI supply chain, chipmakers Samsung Electronics and SK Hynix rose more than 2% in ‌South Korea while Kioxia was steady in Japan",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T03:46:56Z",
+            "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-as-chipmakers-rebound-ahead-of-us-inflation-data-126101400115_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "By Jiaxing Li\nHONG KONG, Oct 14 (Reuters) - Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-14T02:30:33Z",
+            "url": "https://biztoc.com/x/16b881d5661795b2",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals negative open as Brent crude extends gains; Asia markets rise",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a negative open for the Nifty50. Asian markets rebounded in early deals",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T02:22:43Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html",
+            "sentiment_score": 0.2638,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan posts rare profit miss amid uncertain outlook",
+            "description": "NEW YORK: JPMorgan Chase fell short of quarterly profit estimates for the first time in nearly three years as market volatility and an uncertain economic outloo...",
+            "source": "Kuwaittimes.com",
+            "published_at": "2026-10-14T02:15:47Z",
+            "url": "https://kuwaittimes.com/article/51528/business/jpmorgan-posts-rare-profit-miss-amid-uncertain-outlook/",
+            "sentiment_score": 0.0714,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices flat as markets await US CPI data",
+            "description": "In early Asian trading, gold prices held steady as investors awaited crucial US consumer price data, which could affect future Federal Reserve decisions. New York Fed President John Williams spoke about the need for potential interest rate increases to combat…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T02:00:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-as-markets-await-us-cpi-data/articleshow/134929941.cms",
+            "sentiment_score": 0.204,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "The dollar declined as traders awaited new information on the timing for interest rate increases. Investors reevaluated the recent rally fueled by artificial intelligence developments and easing oil prices. Meanwhile, the euro gained slightly amid regional bu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:57:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms",
+            "sentiment_score": 0.2587,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "HONG KONG, Oct 14 : Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in the global day. Among f…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:52:55Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-edge-up-chip-selloff-eases-us-cpi-awaited-6457516",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants",
+            "description": "A Durham, North Carolina, firefighter lost his life last week in a building fire filled with illegal apartments rented to migrants.\nThe post Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-10-14T01:41:44Z",
+            "url": "https://www.breitbart.com/immigration/2026/10/13/firefighter-dies-collapse-building-illegal-apartments-migrants/",
+            "sentiment_score": -0.8249,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "TOKYO, Oct 14 : The dollar languished on Wednesday as traders awaited fresh signals on the timing for interest rate hikes to contend with persistent inflation.The greenback weakened from an 18-month high in the previous session as oil prices eased and investo…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:17:58Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-languishes-focus-turns-cpi-fed-speakers-6457446",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+            "description": "The diesel deal between the U.S. and Russia is unlikely to substantially reduce energy prices for U.S. truckers and farmers.",
+            "source": "CNBC",
+            "published_at": "2026-10-14T01:09:16Z",
+            "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+            "sentiment_score": 0.2918,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Why are S&P 500, Dow Jones, Nasdaq, Russell 2000 down? Latest updates on Wall Street stocks, US Bonds, treasury yields",
+            "description": "Wall Street indexes S&P 500, Dow Jones, Nasdaq, Russell 2000 had rough trading day as several stocks fell, weighing on key sectors.",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:07:29Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-why-are-sp-500-dow-jones-nasdaq-russell-2000-down-latest-updates-on-wall-street-stocks-us-bonds-treasury-yields/articleshow/134929581.cms",
+            "sentiment_score": 0.1416,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks rise on Fed rate signal, oil gains",
+            "description": "MSCI Inc.’s Asia Pacific equities index advanced 0.2%. A selloff in semiconductor stocks sent the gauge to its weakest close since August on Tuesday. Earlier, the S&P 500 pared earlier losses to close little changed after New York Fed President John Williams …",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:01:18Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-on-fed-rate-signal-oil-gains/articleshow/134929560.cms",
+            "sentiment_score": 0.0543,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+            "description": "The U.S. Consumer Price Index (CPI) report is due to be released on Wednesday, with economists predicting that key inflation metrics continued to moderate in September despite elevated oil prices, giving the Fed room to slow down on interest rate hikes. For S…",
+            "source": "OilPrice.com",
+            "published_at": "2026-10-14T00:00:00Z",
+            "url": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+            "sentiment_score": 0.3729,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
@@ -346,180 +466,10 @@
             "url": "https://biztoc.com/x/30a3db4fff2beb36",
             "sentiment_score": 0.017,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes In The Money Supply Affected The Great Depression",
-            "description": "By Frank Shostak, Mises Wire | October 12, 2026\nIn his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to pre…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:58:18Z",
-            "url": "https://biztoc.com/x/b17efccc520353fc",
-            "sentiment_score": -0.2516,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s fueling inflation? Fuel.",
-            "description": "Inflation in America is being powered by diesel.",
-            "source": "NBC News",
-            "published_at": "2026-10-13T20:57:55Z",
-            "url": "https://www.nbcnews.com/business/economy/s-fueling-inflation-fuel-rcna603184",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banks Widen Credit Access to Low-Score Borrowers",
-            "description": "Large banks are putting more credit cards into the hands of consumers with low credit scores, but they are not pairing that expansion with large amounts of new borrowing capacity. The combination indicates how card issuers are pursuing growth after several ye…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T20:42:02Z",
-            "url": "https://www.pymnts.com/credit-cards/2026/banks-widen-credit-access-low-score-borrowers/",
-            "sentiment_score": 0.4714,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Collins: Appropriate to raise rates further",
-            "description": "Federal Reserve Bank of Boston President Susan Collins stated on Tuesday, while delivering remarks at the 25th Annual Regional and Community Bankers Conference, that she believes further monetary poli...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:28:26Z",
-            "url": "https://biztoc.com/x/b179e6c25b3e701c",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Conservative super-lawyer squares up for his latest Supreme Court argument",
-            "description": "Paul Clement, a Republican, has racked up dozens of wins at the Supreme Court since his days as George W. Bush's solicitor general. Recently, he's been challenging some Trump administration policies.",
-            "source": "NPR",
-            "published_at": "2026-10-13T20:03:34Z",
-            "url": "https://www.npr.org/2026/10/13/nx-s1-5976753/supreme-court-prolific-advocate-paul-clement",
-            "sentiment_score": 0.442,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone",
-            "description": "The Royal Swedish Academy of Sciences has honored the godfather of forward guidance just as central bankers are putting his most famous policy prescription into retirement.\nThe post Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone a…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-13T20:00:27Z",
-            "url": "https://www.breitbart.com/politics/2026/10/13/breitbart-business-digest-a-nobel-for-an-idea-whose-time-has-come-and-gone/",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams currently sees no need for rate hike in 2027, Bloomberg News reports",
-            "description": "By Michael S. Derby\nOct 13 (Reuters) - New York Federal Reserve President John Williams has reaffirmed his view that the US central bank may need to raise interest rates once more this year in its bid to lower inflation.\n\"I haven't changed my view that it may…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:00:01Z",
-            "url": "https://biztoc.com/x/815e5229e1e1d172",
-            "sentiment_score": -0.1465,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:58:09Z",
-            "url": "https://biztoc.com/x/fba3b29d1a4e53f9",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Federal Reserve President John Williams said Tuesday that he doesn't see additional rate hikes in 2027 after one more increase this year.\n\"I haven't changed my view that it may be appropriate to have one more rate hike,\" Williams said in an interview…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:57:45Z",
-            "url": "https://biztoc.com/x/352afbd532651b1b",
-            "sentiment_score": 0.1141,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Fed President John Williams sees one more rate hike in 2026 but no additional increase in 2027 as inflation pressures ease.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T19:46:12Z",
-            "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-            "sentiment_score": -0.1815,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T19:45:46Z",
-            "url": "https://www.pymnts.com/loans/2026/billing-friction-puts-12-billion-dollars-auto-loan-payments-risk/",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin defies $800 million crypto wipeout as South Korea’s AI stock market crashes",
-            "description": "Bitcoin rebounded above $83,000 on Tuesday despite a sharp Asian stock selloff, as cryptocurrency liquidations exceeded $800 million. BTC recovered after briefly slipping below $81,000, while semiconductor shares continued a deepening rout that sent South Kor…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-13T19:30:31Z",
-            "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams Says One More Rate Hike This Year Is Appropriate",
-            "description": "Federal Reserve Bank of New York President John Williams says one more interest-rate hike is appropriate this year, but he ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:21:41Z",
-            "url": "https://biztoc.com/x/4db11d452db1f129",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "It pays to switch jobs again, but not everyone has that luxury",
-            "description": "Wage growth is looking better for job switchers than job stayers, but quits rates indicate confidence to make a move is low.",
-            "source": "Business Insider",
-            "published_at": "2026-10-13T19:18:05Z",
-            "url": "https://www.businessinsider.com/job-switch-wage-growth-versus-job-stayers-2026-10#article",
-            "sentiment_score": 0.2027,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "NY Fed President Williams sees no need for a rate hike in 2027",
-            "description": "At a recent conference, John Williams from the Federal Reserve Bank of New York expressed optimism about a potential interest-rate increase this year, suggesting inflation could hit the 2% goal by next year. He cited the role of artificial intelligence in aff…",
-            "source": "The Times of India",
-            "published_at": "2026-10-13T18:58:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/ny-fed-president-williams-sees-no-need-for-a-rate-hike-in-2027/articleshow/134925718.cms",
-            "sentiment_score": 0.0436,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banking regulators sound alarm over cyberattacks",
-            "description": "<p>The adoption of AI is often outpacing the ability to put the controls in place.</p>",
-            "source": "Nation.africa",
-            "published_at": "2026-10-13T18:37:49Z",
-            "url": "https://nation.africa/kenya/news/world/banking-regulators-sound-alarm-over-cyberattacks--5629890",
-            "sentiment_score": -0.1425,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The latest inflation data is expected to show price increases are accelerating",
-            "description": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T18:05:57Z",
-            "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0635,
+      "net_score": -0.0991,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -529,30 +479,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.11982,
+      "price_now": 1.12221,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 58.6,
-      "rsi_signal": "โซนกลาง (RSI=58.6)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "rsi_value": 63.3,
+      "rsi_signal": "โซนกลาง (RSI=63.3)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
       "atr_value": 0.00151,
       "suggested_sl_distance": 0.00226,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
-      "entry_signal": -1
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
-      "action": "SELL",
-      "confidence": "ปานกลาง",
-      "reason": "เทคนิคให้จังหวะ (ขาลง (MA และ MACD เห็นตรงกัน), RSI=58.6) แต่ข่าวเป็นกลาง — ความเชื่อมั่นแค่ปานกลาง",
-      "suggested_sl_pips": 22.6,
-      "price_now": 1.11982
+      "action": "WAIT",
+      "confidence": "-",
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-14T23:49:42.089069+00:00"
+    "generated_at": "2026-10-15T04:19:08.345268+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -561,10 +509,30 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0656,
-        "label": "ลบเล็กน้อย",
-        "article_count": 23,
+        "average_score": -0.0343,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 20,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+            "description": "The diesel deal between the U.S. and Russia is unlikely to substantially reduce energy prices for U.S. truckers and farmers.",
+            "source": "CNBC",
+            "published_at": "2026-10-14T01:09:16Z",
+            "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+            "sentiment_score": 0.2918,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
+            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+            "source": "Europa.eu",
+            "published_at": "2026-10-14T00:00:00Z",
+            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261014~e4ca33588e.en.html",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
@@ -744,64 +712,184 @@
             "url": "https://biztoc.com/x/221f80334eace0d6",
             "sentiment_score": -0.2594,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Janas: Run LLMs larger than RAM by streaming experts from SSD",
-            "description": "37 tok/s from Qwen3-Next-80B (48 GB) on a 32 GB laptop, 24 without drafts vs 2.8 for llama.cpp; reading 62 vs 16 tok/s. Faster than llama.cpp on all 13 models compared in Q4_K_M. LLMs bigger than y...",
-            "source": "Github.com",
-            "published_at": "2026-10-12T22:05:43Z",
-            "url": "https://github.com/prabanta-dev/janas",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "10 Monday AM Reads",
-            "description": "My Columbus Day morning reads:\n​• The Time Scott Bessent Tried to Outsmart the Bond Market: Matt Egan: Bessent arrived at Treasury with market credibility, Wall Street’s respect and the swagger that helped Soros break the Bank of England in 1992. The bond mar…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T11:14:33Z",
-            "url": "https://biztoc.com/x/833056c81c68cacc",
-            "sentiment_score": 0.1798,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Weekly Climate and Energy News Roundup #710",
-            "description": "“[W]e compare the result of [a theory’s] computation to nature, … compare it directly with observations, to see if it works. If it disagrees with experiment, it is wrong. In that simple statement is the key to science.”— Richard Feynman, The Character of Phys…",
-            "source": "Wattsupwiththat.com",
-            "published_at": "2026-10-12T09:00:00Z",
-            "url": "https://wattsupwiththat.com/2026/10/12/weekly-climate-and-energy-news-roundup-710/",
-            "sentiment_score": -0.0067,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK inflation pressures hits three-year high; Nobel prize for economics awarded today – business live",
-            "description": "Rolling coverage of the latest economic and financial news\nThe biggest prize in economics, the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel, will be awarded today.\nKnown as the Nobel Prize in Economics (although it’s not one of the o…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T06:57:32Z",
-            "url": "https://biztoc.com/x/41cf7363cc75d279",
-            "sentiment_score": 0.6739,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Debt advice that may leave you owing even more money",
-            "description": "Debt advice that may leave you owing even more money\nAn increasing number of people are missing credit card repayments as finances are stretched by rising bills, according to the Bank of England.\nLenders also told the Bank they expected the number of unpaid c…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-12T06:57:17Z",
-            "url": "https://biztoc.com/x/383bc104a24ec260",
-            "sentiment_score": -0.3347,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0128,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0603,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Slides as Bank Stocks Fall After Wall Street Sell-Off; Glencore Makes Debut on Australian Market",
+            "description": "Australian shares fell on Wednesday, led by the major banks after losses among US lenders. Glencore made its ASX debut, while energy and property stocks gained.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-14T04:16:46Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-fall-banks-glencore-asx-debut-1876661",
+            "sentiment_score": 0.1342,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Japan's Nikkei rebounds as chip stocks rise, Topix slips on bank losses",
+            "description": "Japan’s Nikkei rebounded 0.61% on Wednesday as chip-related stocks advanced, recovering from the previous session’s decline. Advantest, Tokyo Electron and SoftBank gained, while Taiyo Yuden surged. However, banking stocks weakened the broader Topix index, wit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:12:19Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rebounds-as-chip-stocks-rise-topix-slips-on-bank-losses/articleshow/134931841.cms",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: South Korean shares rebound as chipmakers recover after five-day losing streak",
+            "description": "South Korea’s KOSPI rebounded 0.74% on Wednesday as investors bought semiconductor stocks after five consecutive sessions of losses. Samsung Electronics and SK Hynix advanced, supported by a recovery in US AI chipmakers. Despite positive market breadth, forei…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:08:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rebound-as-chipmakers-recover-after-five-day-losing-streak/articleshow/134931255.cms",
+            "sentiment_score": -0.1689,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tariffs Are a Band-Aid, Not a Cure",
+            "description": "In Wednesday’s episode of the Peter Schiff Show, Peter traces a common thread connecting America’s trade deficits, runaway government spending, and the sovereign debt troubles now creeping across the Atlantic. He also takes a detour into history, arguing that…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-10-14T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/10/no_author/tariffs-are-a-band-aid-not-a-cure/",
+            "sentiment_score": -0.2453,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks rise as chipmakers rebound ahead of US inflation data",
+            "description": "Among ​firms in the AI supply chain, chipmakers Samsung Electronics and SK Hynix rose more than 2% in ‌South Korea while Kioxia was steady in Japan",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T03:46:56Z",
+            "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-as-chipmakers-rebound-ahead-of-us-inflation-data-126101400115_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "By Jiaxing Li\nHONG KONG, Oct 14 (Reuters) - Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-14T02:30:33Z",
+            "url": "https://biztoc.com/x/16b881d5661795b2",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals negative open as Brent crude extends gains; Asia markets rise",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a negative open for the Nifty50. Asian markets rebounded in early deals",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T02:22:43Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html",
+            "sentiment_score": 0.2638,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan posts rare profit miss amid uncertain outlook",
+            "description": "NEW YORK: JPMorgan Chase fell short of quarterly profit estimates for the first time in nearly three years as market volatility and an uncertain economic outloo...",
+            "source": "Kuwaittimes.com",
+            "published_at": "2026-10-14T02:15:47Z",
+            "url": "https://kuwaittimes.com/article/51528/business/jpmorgan-posts-rare-profit-miss-amid-uncertain-outlook/",
+            "sentiment_score": 0.0714,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices flat as markets await US CPI data",
+            "description": "In early Asian trading, gold prices held steady as investors awaited crucial US consumer price data, which could affect future Federal Reserve decisions. New York Fed President John Williams spoke about the need for potential interest rate increases to combat…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T02:00:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-as-markets-await-us-cpi-data/articleshow/134929941.cms",
+            "sentiment_score": 0.204,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "The dollar declined as traders awaited new information on the timing for interest rate increases. Investors reevaluated the recent rally fueled by artificial intelligence developments and easing oil prices. Meanwhile, the euro gained slightly amid regional bu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:57:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms",
+            "sentiment_score": 0.2587,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "HONG KONG, Oct 14 : Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in the global day. Among f…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:52:55Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-edge-up-chip-selloff-eases-us-cpi-awaited-6457516",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants",
+            "description": "A Durham, North Carolina, firefighter lost his life last week in a building fire filled with illegal apartments rented to migrants.\nThe post Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-10-14T01:41:44Z",
+            "url": "https://www.breitbart.com/immigration/2026/10/13/firefighter-dies-collapse-building-illegal-apartments-migrants/",
+            "sentiment_score": -0.8249,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "TOKYO, Oct 14 : The dollar languished on Wednesday as traders awaited fresh signals on the timing for interest rate hikes to contend with persistent inflation.The greenback weakened from an 18-month high in the previous session as oil prices eased and investo…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:17:58Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-languishes-focus-turns-cpi-fed-speakers-6457446",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+            "description": "The diesel deal between the U.S. and Russia is unlikely to substantially reduce energy prices for U.S. truckers and farmers.",
+            "source": "CNBC",
+            "published_at": "2026-10-14T01:09:16Z",
+            "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+            "sentiment_score": 0.2918,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Why are S&P 500, Dow Jones, Nasdaq, Russell 2000 down? Latest updates on Wall Street stocks, US Bonds, treasury yields",
+            "description": "Wall Street indexes S&P 500, Dow Jones, Nasdaq, Russell 2000 had rough trading day as several stocks fell, weighing on key sectors.",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:07:29Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-why-are-sp-500-dow-jones-nasdaq-russell-2000-down-latest-updates-on-wall-street-stocks-us-bonds-treasury-yields/articleshow/134929581.cms",
+            "sentiment_score": 0.1416,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks rise on Fed rate signal, oil gains",
+            "description": "MSCI Inc.’s Asia Pacific equities index advanced 0.2%. A selloff in semiconductor stocks sent the gauge to its weakest close since August on Tuesday. Earlier, the S&P 500 pared earlier losses to close little changed after New York Fed President John Williams …",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:01:18Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-on-fed-rate-signal-oil-gains/articleshow/134929560.cms",
+            "sentiment_score": 0.0543,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+            "description": "The U.S. Consumer Price Index (CPI) report is due to be released on Wednesday, with economists predicting that key inflation metrics continued to moderate in September despite elevated oil prices, giving the Fed room to slow down on interest rate hikes. For S…",
+            "source": "OilPrice.com",
+            "published_at": "2026-10-14T00:00:00Z",
+            "url": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+            "sentiment_score": 0.3729,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
@@ -921,180 +1009,10 @@
             "url": "https://biztoc.com/x/30a3db4fff2beb36",
             "sentiment_score": 0.017,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes In The Money Supply Affected The Great Depression",
-            "description": "By Frank Shostak, Mises Wire | October 12, 2026\nIn his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to pre…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:58:18Z",
-            "url": "https://biztoc.com/x/b17efccc520353fc",
-            "sentiment_score": -0.2516,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s fueling inflation? Fuel.",
-            "description": "Inflation in America is being powered by diesel.",
-            "source": "NBC News",
-            "published_at": "2026-10-13T20:57:55Z",
-            "url": "https://www.nbcnews.com/business/economy/s-fueling-inflation-fuel-rcna603184",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banks Widen Credit Access to Low-Score Borrowers",
-            "description": "Large banks are putting more credit cards into the hands of consumers with low credit scores, but they are not pairing that expansion with large amounts of new borrowing capacity. The combination indicates how card issuers are pursuing growth after several ye…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T20:42:02Z",
-            "url": "https://www.pymnts.com/credit-cards/2026/banks-widen-credit-access-low-score-borrowers/",
-            "sentiment_score": 0.4714,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Collins: Appropriate to raise rates further",
-            "description": "Federal Reserve Bank of Boston President Susan Collins stated on Tuesday, while delivering remarks at the 25th Annual Regional and Community Bankers Conference, that she believes further monetary poli...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:28:26Z",
-            "url": "https://biztoc.com/x/b179e6c25b3e701c",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Conservative super-lawyer squares up for his latest Supreme Court argument",
-            "description": "Paul Clement, a Republican, has racked up dozens of wins at the Supreme Court since his days as George W. Bush's solicitor general. Recently, he's been challenging some Trump administration policies.",
-            "source": "NPR",
-            "published_at": "2026-10-13T20:03:34Z",
-            "url": "https://www.npr.org/2026/10/13/nx-s1-5976753/supreme-court-prolific-advocate-paul-clement",
-            "sentiment_score": 0.442,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone",
-            "description": "The Royal Swedish Academy of Sciences has honored the godfather of forward guidance just as central bankers are putting his most famous policy prescription into retirement.\nThe post Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone a…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-13T20:00:27Z",
-            "url": "https://www.breitbart.com/politics/2026/10/13/breitbart-business-digest-a-nobel-for-an-idea-whose-time-has-come-and-gone/",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams currently sees no need for rate hike in 2027, Bloomberg News reports",
-            "description": "By Michael S. Derby\nOct 13 (Reuters) - New York Federal Reserve President John Williams has reaffirmed his view that the US central bank may need to raise interest rates once more this year in its bid to lower inflation.\n\"I haven't changed my view that it may…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:00:01Z",
-            "url": "https://biztoc.com/x/815e5229e1e1d172",
-            "sentiment_score": -0.1465,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:58:09Z",
-            "url": "https://biztoc.com/x/fba3b29d1a4e53f9",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Federal Reserve President John Williams said Tuesday that he doesn't see additional rate hikes in 2027 after one more increase this year.\n\"I haven't changed my view that it may be appropriate to have one more rate hike,\" Williams said in an interview…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:57:45Z",
-            "url": "https://biztoc.com/x/352afbd532651b1b",
-            "sentiment_score": 0.1141,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Fed President John Williams sees one more rate hike in 2026 but no additional increase in 2027 as inflation pressures ease.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T19:46:12Z",
-            "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-            "sentiment_score": -0.1815,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T19:45:46Z",
-            "url": "https://www.pymnts.com/loans/2026/billing-friction-puts-12-billion-dollars-auto-loan-payments-risk/",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin defies $800 million crypto wipeout as South Korea’s AI stock market crashes",
-            "description": "Bitcoin rebounded above $83,000 on Tuesday despite a sharp Asian stock selloff, as cryptocurrency liquidations exceeded $800 million. BTC recovered after briefly slipping below $81,000, while semiconductor shares continued a deepening rout that sent South Kor…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-13T19:30:31Z",
-            "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams Says One More Rate Hike This Year Is Appropriate",
-            "description": "Federal Reserve Bank of New York President John Williams says one more interest-rate hike is appropriate this year, but he ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:21:41Z",
-            "url": "https://biztoc.com/x/4db11d452db1f129",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "It pays to switch jobs again, but not everyone has that luxury",
-            "description": "Wage growth is looking better for job switchers than job stayers, but quits rates indicate confidence to make a move is low.",
-            "source": "Business Insider",
-            "published_at": "2026-10-13T19:18:05Z",
-            "url": "https://www.businessinsider.com/job-switch-wage-growth-versus-job-stayers-2026-10#article",
-            "sentiment_score": 0.2027,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "NY Fed President Williams sees no need for a rate hike in 2027",
-            "description": "At a recent conference, John Williams from the Federal Reserve Bank of New York expressed optimism about a potential interest-rate increase this year, suggesting inflation could hit the 2% goal by next year. He cited the role of artificial intelligence in aff…",
-            "source": "The Times of India",
-            "published_at": "2026-10-13T18:58:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/ny-fed-president-williams-sees-no-need-for-a-rate-hike-in-2027/articleshow/134925718.cms",
-            "sentiment_score": 0.0436,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banking regulators sound alarm over cyberattacks",
-            "description": "<p>The adoption of AI is often outpacing the ability to put the controls in place.</p>",
-            "source": "Nation.africa",
-            "published_at": "2026-10-13T18:37:49Z",
-            "url": "https://nation.africa/kenya/news/world/banking-regulators-sound-alarm-over-cyberattacks--5629890",
-            "sentiment_score": -0.1425,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The latest inflation data is expected to show price increases are accelerating",
-            "description": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T18:05:57Z",
-            "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0528,
+      "net_score": -0.0946,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1104,30 +1022,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.323,
+      "price_now": 1.32454,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
-      "ma_crossed_this_bar": true,
-      "rsi_value": 52.4,
-      "rsi_signal": "โซนกลาง (RSI=52.4)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00173,
-      "suggested_sl_distance": 0.0026,
+      "ma_crossed_this_bar": false,
+      "rsi_value": 58.0,
+      "rsi_signal": "โซนกลาง (RSI=58.0)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00152,
+      "suggested_sl_distance": 0.00228,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
-      "entry_signal": -1
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
-      "action": "SELL",
-      "confidence": "ปานกลาง",
-      "reason": "เทคนิคให้จังหวะ (ขาลง (MA และ MACD เห็นตรงกัน), RSI=52.4) แต่ข่าวเป็นกลาง — ความเชื่อมั่นแค่ปานกลาง",
-      "suggested_sl_pips": 26.0,
-      "price_now": 1.323
+      "action": "WAIT",
+      "confidence": "-",
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-14T23:49:42.089069+00:00"
+    "generated_at": "2026-10-15T04:19:08.345268+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1136,10 +1052,180 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0128,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0603,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Slides as Bank Stocks Fall After Wall Street Sell-Off; Glencore Makes Debut on Australian Market",
+            "description": "Australian shares fell on Wednesday, led by the major banks after losses among US lenders. Glencore made its ASX debut, while energy and property stocks gained.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-14T04:16:46Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-fall-banks-glencore-asx-debut-1876661",
+            "sentiment_score": 0.1342,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Japan's Nikkei rebounds as chip stocks rise, Topix slips on bank losses",
+            "description": "Japan’s Nikkei rebounded 0.61% on Wednesday as chip-related stocks advanced, recovering from the previous session’s decline. Advantest, Tokyo Electron and SoftBank gained, while Taiyo Yuden surged. However, banking stocks weakened the broader Topix index, wit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:12:19Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rebounds-as-chip-stocks-rise-topix-slips-on-bank-losses/articleshow/134931841.cms",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: South Korean shares rebound as chipmakers recover after five-day losing streak",
+            "description": "South Korea’s KOSPI rebounded 0.74% on Wednesday as investors bought semiconductor stocks after five consecutive sessions of losses. Samsung Electronics and SK Hynix advanced, supported by a recovery in US AI chipmakers. Despite positive market breadth, forei…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:08:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rebound-as-chipmakers-recover-after-five-day-losing-streak/articleshow/134931255.cms",
+            "sentiment_score": -0.1689,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tariffs Are a Band-Aid, Not a Cure",
+            "description": "In Wednesday’s episode of the Peter Schiff Show, Peter traces a common thread connecting America’s trade deficits, runaway government spending, and the sovereign debt troubles now creeping across the Atlantic. He also takes a detour into history, arguing that…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-10-14T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/10/no_author/tariffs-are-a-band-aid-not-a-cure/",
+            "sentiment_score": -0.2453,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks rise as chipmakers rebound ahead of US inflation data",
+            "description": "Among ​firms in the AI supply chain, chipmakers Samsung Electronics and SK Hynix rose more than 2% in ‌South Korea while Kioxia was steady in Japan",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T03:46:56Z",
+            "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-as-chipmakers-rebound-ahead-of-us-inflation-data-126101400115_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "By Jiaxing Li\nHONG KONG, Oct 14 (Reuters) - Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-14T02:30:33Z",
+            "url": "https://biztoc.com/x/16b881d5661795b2",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals negative open as Brent crude extends gains; Asia markets rise",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a negative open for the Nifty50. Asian markets rebounded in early deals",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T02:22:43Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html",
+            "sentiment_score": 0.2638,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan posts rare profit miss amid uncertain outlook",
+            "description": "NEW YORK: JPMorgan Chase fell short of quarterly profit estimates for the first time in nearly three years as market volatility and an uncertain economic outloo...",
+            "source": "Kuwaittimes.com",
+            "published_at": "2026-10-14T02:15:47Z",
+            "url": "https://kuwaittimes.com/article/51528/business/jpmorgan-posts-rare-profit-miss-amid-uncertain-outlook/",
+            "sentiment_score": 0.0714,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices flat as markets await US CPI data",
+            "description": "In early Asian trading, gold prices held steady as investors awaited crucial US consumer price data, which could affect future Federal Reserve decisions. New York Fed President John Williams spoke about the need for potential interest rate increases to combat…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T02:00:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-as-markets-await-us-cpi-data/articleshow/134929941.cms",
+            "sentiment_score": 0.204,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "The dollar declined as traders awaited new information on the timing for interest rate increases. Investors reevaluated the recent rally fueled by artificial intelligence developments and easing oil prices. Meanwhile, the euro gained slightly amid regional bu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:57:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms",
+            "sentiment_score": 0.2587,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "HONG KONG, Oct 14 : Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in the global day. Among f…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:52:55Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-edge-up-chip-selloff-eases-us-cpi-awaited-6457516",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants",
+            "description": "A Durham, North Carolina, firefighter lost his life last week in a building fire filled with illegal apartments rented to migrants.\nThe post Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-10-14T01:41:44Z",
+            "url": "https://www.breitbart.com/immigration/2026/10/13/firefighter-dies-collapse-building-illegal-apartments-migrants/",
+            "sentiment_score": -0.8249,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "TOKYO, Oct 14 : The dollar languished on Wednesday as traders awaited fresh signals on the timing for interest rate hikes to contend with persistent inflation.The greenback weakened from an 18-month high in the previous session as oil prices eased and investo…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:17:58Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-languishes-focus-turns-cpi-fed-speakers-6457446",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+            "description": "The diesel deal between the U.S. and Russia is unlikely to substantially reduce energy prices for U.S. truckers and farmers.",
+            "source": "CNBC",
+            "published_at": "2026-10-14T01:09:16Z",
+            "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+            "sentiment_score": 0.2918,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Why are S&P 500, Dow Jones, Nasdaq, Russell 2000 down? Latest updates on Wall Street stocks, US Bonds, treasury yields",
+            "description": "Wall Street indexes S&P 500, Dow Jones, Nasdaq, Russell 2000 had rough trading day as several stocks fell, weighing on key sectors.",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:07:29Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-why-are-sp-500-dow-jones-nasdaq-russell-2000-down-latest-updates-on-wall-street-stocks-us-bonds-treasury-yields/articleshow/134929581.cms",
+            "sentiment_score": 0.1416,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks rise on Fed rate signal, oil gains",
+            "description": "MSCI Inc.’s Asia Pacific equities index advanced 0.2%. A selloff in semiconductor stocks sent the gauge to its weakest close since August on Tuesday. Earlier, the S&P 500 pared earlier losses to close little changed after New York Fed President John Williams …",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:01:18Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-on-fed-rate-signal-oil-gains/articleshow/134929560.cms",
+            "sentiment_score": 0.0543,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+            "description": "The U.S. Consumer Price Index (CPI) report is due to be released on Wednesday, with economists predicting that key inflation metrics continued to moderate in September despite elevated oil prices, giving the Fed room to slow down on interest rate hikes. For S…",
+            "source": "OilPrice.com",
+            "published_at": "2026-10-14T00:00:00Z",
+            "url": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+            "sentiment_score": 0.3729,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
@@ -1259,184 +1345,34 @@
             "url": "https://biztoc.com/x/30a3db4fff2beb36",
             "sentiment_score": 0.017,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes In The Money Supply Affected The Great Depression",
-            "description": "By Frank Shostak, Mises Wire | October 12, 2026\nIn his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to pre…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:58:18Z",
-            "url": "https://biztoc.com/x/b17efccc520353fc",
-            "sentiment_score": -0.2516,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s fueling inflation? Fuel.",
-            "description": "Inflation in America is being powered by diesel.",
-            "source": "NBC News",
-            "published_at": "2026-10-13T20:57:55Z",
-            "url": "https://www.nbcnews.com/business/economy/s-fueling-inflation-fuel-rcna603184",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banks Widen Credit Access to Low-Score Borrowers",
-            "description": "Large banks are putting more credit cards into the hands of consumers with low credit scores, but they are not pairing that expansion with large amounts of new borrowing capacity. The combination indicates how card issuers are pursuing growth after several ye…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T20:42:02Z",
-            "url": "https://www.pymnts.com/credit-cards/2026/banks-widen-credit-access-low-score-borrowers/",
-            "sentiment_score": 0.4714,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Collins: Appropriate to raise rates further",
-            "description": "Federal Reserve Bank of Boston President Susan Collins stated on Tuesday, while delivering remarks at the 25th Annual Regional and Community Bankers Conference, that she believes further monetary poli...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:28:26Z",
-            "url": "https://biztoc.com/x/b179e6c25b3e701c",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Conservative super-lawyer squares up for his latest Supreme Court argument",
-            "description": "Paul Clement, a Republican, has racked up dozens of wins at the Supreme Court since his days as George W. Bush's solicitor general. Recently, he's been challenging some Trump administration policies.",
-            "source": "NPR",
-            "published_at": "2026-10-13T20:03:34Z",
-            "url": "https://www.npr.org/2026/10/13/nx-s1-5976753/supreme-court-prolific-advocate-paul-clement",
-            "sentiment_score": 0.442,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone",
-            "description": "The Royal Swedish Academy of Sciences has honored the godfather of forward guidance just as central bankers are putting his most famous policy prescription into retirement.\nThe post Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone a…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-13T20:00:27Z",
-            "url": "https://www.breitbart.com/politics/2026/10/13/breitbart-business-digest-a-nobel-for-an-idea-whose-time-has-come-and-gone/",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams currently sees no need for rate hike in 2027, Bloomberg News reports",
-            "description": "By Michael S. Derby\nOct 13 (Reuters) - New York Federal Reserve President John Williams has reaffirmed his view that the US central bank may need to raise interest rates once more this year in its bid to lower inflation.\n\"I haven't changed my view that it may…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:00:01Z",
-            "url": "https://biztoc.com/x/815e5229e1e1d172",
-            "sentiment_score": -0.1465,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:58:09Z",
-            "url": "https://biztoc.com/x/fba3b29d1a4e53f9",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Federal Reserve President John Williams said Tuesday that he doesn't see additional rate hikes in 2027 after one more increase this year.\n\"I haven't changed my view that it may be appropriate to have one more rate hike,\" Williams said in an interview…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:57:45Z",
-            "url": "https://biztoc.com/x/352afbd532651b1b",
-            "sentiment_score": 0.1141,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Fed President John Williams sees one more rate hike in 2026 but no additional increase in 2027 as inflation pressures ease.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T19:46:12Z",
-            "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-            "sentiment_score": -0.1815,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T19:45:46Z",
-            "url": "https://www.pymnts.com/loans/2026/billing-friction-puts-12-billion-dollars-auto-loan-payments-risk/",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin defies $800 million crypto wipeout as South Korea’s AI stock market crashes",
-            "description": "Bitcoin rebounded above $83,000 on Tuesday despite a sharp Asian stock selloff, as cryptocurrency liquidations exceeded $800 million. BTC recovered after briefly slipping below $81,000, while semiconductor shares continued a deepening rout that sent South Kor…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-13T19:30:31Z",
-            "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams Says One More Rate Hike This Year Is Appropriate",
-            "description": "Federal Reserve Bank of New York President John Williams says one more interest-rate hike is appropriate this year, but he ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:21:41Z",
-            "url": "https://biztoc.com/x/4db11d452db1f129",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "It pays to switch jobs again, but not everyone has that luxury",
-            "description": "Wage growth is looking better for job switchers than job stayers, but quits rates indicate confidence to make a move is low.",
-            "source": "Business Insider",
-            "published_at": "2026-10-13T19:18:05Z",
-            "url": "https://www.businessinsider.com/job-switch-wage-growth-versus-job-stayers-2026-10#article",
-            "sentiment_score": 0.2027,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "NY Fed President Williams sees no need for a rate hike in 2027",
-            "description": "At a recent conference, John Williams from the Federal Reserve Bank of New York expressed optimism about a potential interest-rate increase this year, suggesting inflation could hit the 2% goal by next year. He cited the role of artificial intelligence in aff…",
-            "source": "The Times of India",
-            "published_at": "2026-10-13T18:58:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/ny-fed-president-williams-sees-no-need-for-a-rate-hike-in-2027/articleshow/134925718.cms",
-            "sentiment_score": 0.0436,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banking regulators sound alarm over cyberattacks",
-            "description": "<p>The adoption of AI is often outpacing the ability to put the controls in place.</p>",
-            "source": "Nation.africa",
-            "published_at": "2026-10-13T18:37:49Z",
-            "url": "https://nation.africa/kenya/news/world/banking-regulators-sound-alarm-over-cyberattacks--5629890",
-            "sentiment_score": -0.1425,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The latest inflation data is expected to show price increases are accelerating",
-            "description": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T18:05:57Z",
-            "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.086,
+        "average_score": 0.0924,
         "label": "บวกเล็กน้อย",
-        "article_count": 14,
+        "article_count": 13,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Nifty, Sensex open flat after Tuesday’s IT-led surge; crude, FII selling cap gains",
+            "description": "Nifty 50 opened at 22,715.75 and was at 22,698.25, down 23.70, at 9:26 am. Sensex opened at 73,049.76 and fell to 73,020.19, down 13.59",
+            "source": "BusinessLine",
+            "published_at": "2026-10-14T04:14:42Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-sensex-open-flat-after-tuesdays-it-led-surge-crude-fii-selling-cap-gains/article71582232.ece",
+            "sentiment_score": 0.1925,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Global Market Today: Asian stocks rise on Fed rate signal, oil gains",
+            "description": "MSCI Inc.’s Asia Pacific equities index advanced 0.2%. A selloff in semiconductor stocks sent the gauge to its weakest close since August on Tuesday. Earlier, the S&P 500 pared earlier losses to close little changed after New York Fed President John Williams …",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:01:18Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-on-fed-rate-signal-oil-gains/articleshow/134929560.cms",
+            "sentiment_score": 0.0543,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Japan's Corporate Goods Prices Rise 6.8% in September",
@@ -1546,40 +1482,10 @@
             "url": "https://biztoc.com/x/b418acef02e431f3",
             "sentiment_score": -0.1162,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's wholesale inflation remains elevated, keeps alive BOJ rate-hike view",
-            "description": "TOKYO, Oct 13 : Japan's wholesale prices rose 6.8 per cent in the year to September as companies passed on fuel and chemical costs, according to data released on Tuesday, highlighting mounting inflationary pressure that keeps alive market expectations of a ne…",
-            "source": "CNA",
-            "published_at": "2026-10-12T23:59:24Z",
-            "url": "https://www.channelnewsasia.com/business/japans-wholesale-inflation-remains-elevated-keeps-alive-boj-rate-hike-view-6454501",
-            "sentiment_score": 0.2981,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Rising Interest Rates Hit Japan's Students and Homebuyers",
-            "description": "Japan's transition away from decades of ultra-low interest rates is placing increasing financial pressure on students, homeowners and property investors, with some university graduates facing more than 1 million yen in additional student loan repayments while…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-10-12T21:23:56Z",
-            "url": "https://newsonjapan.com/article/151030.php",
-            "sentiment_score": 0.3818,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Food-Tax Funding Fight Puts Spending Review At Center Of Diet Debate",
-            "description": "The government’s plan to cut the consumption tax on food is turning into a broader fight over public spending, ministerial accountability and whether Prime Minister Sanae Takaichi can keep her autumn Diet agenda focused on household relief rather than politic…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-10-12T00:06:20Z",
-            "url": "https://newsonjapan.com/article/151018.php",
-            "sentiment_score": -0.1923,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0988,
+      "net_score": -0.0321,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1589,14 +1495,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 157.99001,
+      "price_now": 157.84801,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 35.7,
-      "rsi_signal": "โซนกลาง (RSI=35.7)",
+      "rsi_value": 37.8,
+      "rsi_signal": "โซนกลาง (RSI=37.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.19598,
-      "suggested_sl_distance": 0.29397,
+      "atr_value": 0.20871,
+      "suggested_sl_distance": 0.31306,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1610,7 +1516,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-14T23:49:42.089069+00:00"
+    "generated_at": "2026-10-15T04:19:08.345268+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1619,10 +1525,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0132,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 5,
+        "average_score": 0.0554,
+        "label": "บวกเล็กน้อย",
+        "article_count": 4,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Anthony Albanese offers a huge nine per cent pay rise to public servants - but they want 15 per cent",
+            "description": "The government on Tuesday proposed a nine per cent pay rise for federal public servants over three years.",
+            "source": "Dailymail.com",
+            "published_at": "2026-10-14T02:03:49Z",
+            "url": "https://www.dailymail.com/news/article-16206985/public-servants-pay-rise-union-reject-albanese-government.html",
+            "sentiment_score": 0.1276,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "AUD",
             "title": "Who’s paying whom? The circular money machine behind the AI boom (or bubble)",
@@ -1652,34 +1568,184 @@
             "url": "https://www.fool.com.au/2026/10/13/should-smart-investors-be-buying-nab-shares/",
             "sentiment_score": 0.5666,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Is the Firmus fiasco a crack in the AI boom?",
-            "description": "Amidst the wreckage of last week's failed mega capital-raising by data centre provider Firmus Technologies was a creeping sense that, once again, Australia had somehow fallen short.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-10-12T18:00:00Z",
-            "url": "https://www.abc.net.au/news/2026-10-13/australia-ai-hopes-hit-as-firmus-data-centre-float-tanks/107256400",
-            "sentiment_score": -0.5675,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "ASX 200 Climbs 0.7% at Midday as BHP and Copper Miners Lead Broad Rally to Start the Trading Week in Sydney",
-            "description": "The ASX 200 climbed 0.70% by midday as mining stocks rebounded on stronger global commodity prices, while investors weighed interest rates, bond yields and inflation risks.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-12T01:02:11Z",
-            "url": "https://www.ibtimes.com.au/asx-200-rises-mining-stocks-rebound-commodity-prices-1876533",
-            "sentiment_score": 0.1627,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0128,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0603,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Slides as Bank Stocks Fall After Wall Street Sell-Off; Glencore Makes Debut on Australian Market",
+            "description": "Australian shares fell on Wednesday, led by the major banks after losses among US lenders. Glencore made its ASX debut, while energy and property stocks gained.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-14T04:16:46Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-fall-banks-glencore-asx-debut-1876661",
+            "sentiment_score": 0.1342,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Japan's Nikkei rebounds as chip stocks rise, Topix slips on bank losses",
+            "description": "Japan’s Nikkei rebounded 0.61% on Wednesday as chip-related stocks advanced, recovering from the previous session’s decline. Advantest, Tokyo Electron and SoftBank gained, while Taiyo Yuden surged. However, banking stocks weakened the broader Topix index, wit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:12:19Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rebounds-as-chip-stocks-rise-topix-slips-on-bank-losses/articleshow/134931841.cms",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: South Korean shares rebound as chipmakers recover after five-day losing streak",
+            "description": "South Korea’s KOSPI rebounded 0.74% on Wednesday as investors bought semiconductor stocks after five consecutive sessions of losses. Samsung Electronics and SK Hynix advanced, supported by a recovery in US AI chipmakers. Despite positive market breadth, forei…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:08:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rebound-as-chipmakers-recover-after-five-day-losing-streak/articleshow/134931255.cms",
+            "sentiment_score": -0.1689,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tariffs Are a Band-Aid, Not a Cure",
+            "description": "In Wednesday’s episode of the Peter Schiff Show, Peter traces a common thread connecting America’s trade deficits, runaway government spending, and the sovereign debt troubles now creeping across the Atlantic. He also takes a detour into history, arguing that…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-10-14T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/10/no_author/tariffs-are-a-band-aid-not-a-cure/",
+            "sentiment_score": -0.2453,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks rise as chipmakers rebound ahead of US inflation data",
+            "description": "Among ​firms in the AI supply chain, chipmakers Samsung Electronics and SK Hynix rose more than 2% in ‌South Korea while Kioxia was steady in Japan",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T03:46:56Z",
+            "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-as-chipmakers-rebound-ahead-of-us-inflation-data-126101400115_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "By Jiaxing Li\nHONG KONG, Oct 14 (Reuters) - Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-14T02:30:33Z",
+            "url": "https://biztoc.com/x/16b881d5661795b2",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals negative open as Brent crude extends gains; Asia markets rise",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a negative open for the Nifty50. Asian markets rebounded in early deals",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T02:22:43Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html",
+            "sentiment_score": 0.2638,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan posts rare profit miss amid uncertain outlook",
+            "description": "NEW YORK: JPMorgan Chase fell short of quarterly profit estimates for the first time in nearly three years as market volatility and an uncertain economic outloo...",
+            "source": "Kuwaittimes.com",
+            "published_at": "2026-10-14T02:15:47Z",
+            "url": "https://kuwaittimes.com/article/51528/business/jpmorgan-posts-rare-profit-miss-amid-uncertain-outlook/",
+            "sentiment_score": 0.0714,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices flat as markets await US CPI data",
+            "description": "In early Asian trading, gold prices held steady as investors awaited crucial US consumer price data, which could affect future Federal Reserve decisions. New York Fed President John Williams spoke about the need for potential interest rate increases to combat…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T02:00:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-as-markets-await-us-cpi-data/articleshow/134929941.cms",
+            "sentiment_score": 0.204,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "The dollar declined as traders awaited new information on the timing for interest rate increases. Investors reevaluated the recent rally fueled by artificial intelligence developments and easing oil prices. Meanwhile, the euro gained slightly amid regional bu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:57:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms",
+            "sentiment_score": 0.2587,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "HONG KONG, Oct 14 : Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in the global day. Among f…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:52:55Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-edge-up-chip-selloff-eases-us-cpi-awaited-6457516",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants",
+            "description": "A Durham, North Carolina, firefighter lost his life last week in a building fire filled with illegal apartments rented to migrants.\nThe post Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-10-14T01:41:44Z",
+            "url": "https://www.breitbart.com/immigration/2026/10/13/firefighter-dies-collapse-building-illegal-apartments-migrants/",
+            "sentiment_score": -0.8249,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "TOKYO, Oct 14 : The dollar languished on Wednesday as traders awaited fresh signals on the timing for interest rate hikes to contend with persistent inflation.The greenback weakened from an 18-month high in the previous session as oil prices eased and investo…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:17:58Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-languishes-focus-turns-cpi-fed-speakers-6457446",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+            "description": "The diesel deal between the U.S. and Russia is unlikely to substantially reduce energy prices for U.S. truckers and farmers.",
+            "source": "CNBC",
+            "published_at": "2026-10-14T01:09:16Z",
+            "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+            "sentiment_score": 0.2918,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Why are S&P 500, Dow Jones, Nasdaq, Russell 2000 down? Latest updates on Wall Street stocks, US Bonds, treasury yields",
+            "description": "Wall Street indexes S&P 500, Dow Jones, Nasdaq, Russell 2000 had rough trading day as several stocks fell, weighing on key sectors.",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:07:29Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-why-are-sp-500-dow-jones-nasdaq-russell-2000-down-latest-updates-on-wall-street-stocks-us-bonds-treasury-yields/articleshow/134929581.cms",
+            "sentiment_score": 0.1416,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks rise on Fed rate signal, oil gains",
+            "description": "MSCI Inc.’s Asia Pacific equities index advanced 0.2%. A selloff in semiconductor stocks sent the gauge to its weakest close since August on Tuesday. Earlier, the S&P 500 pared earlier losses to close little changed after New York Fed President John Williams …",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:01:18Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-on-fed-rate-signal-oil-gains/articleshow/134929560.cms",
+            "sentiment_score": 0.0543,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+            "description": "The U.S. Consumer Price Index (CPI) report is due to be released on Wednesday, with economists predicting that key inflation metrics continued to moderate in September despite elevated oil prices, giving the Fed room to slow down on interest rate hikes. For S…",
+            "source": "OilPrice.com",
+            "published_at": "2026-10-14T00:00:00Z",
+            "url": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+            "sentiment_score": 0.3729,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
@@ -1799,180 +1865,10 @@
             "url": "https://biztoc.com/x/30a3db4fff2beb36",
             "sentiment_score": 0.017,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes In The Money Supply Affected The Great Depression",
-            "description": "By Frank Shostak, Mises Wire | October 12, 2026\nIn his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to pre…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:58:18Z",
-            "url": "https://biztoc.com/x/b17efccc520353fc",
-            "sentiment_score": -0.2516,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s fueling inflation? Fuel.",
-            "description": "Inflation in America is being powered by diesel.",
-            "source": "NBC News",
-            "published_at": "2026-10-13T20:57:55Z",
-            "url": "https://www.nbcnews.com/business/economy/s-fueling-inflation-fuel-rcna603184",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banks Widen Credit Access to Low-Score Borrowers",
-            "description": "Large banks are putting more credit cards into the hands of consumers with low credit scores, but they are not pairing that expansion with large amounts of new borrowing capacity. The combination indicates how card issuers are pursuing growth after several ye…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T20:42:02Z",
-            "url": "https://www.pymnts.com/credit-cards/2026/banks-widen-credit-access-low-score-borrowers/",
-            "sentiment_score": 0.4714,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Collins: Appropriate to raise rates further",
-            "description": "Federal Reserve Bank of Boston President Susan Collins stated on Tuesday, while delivering remarks at the 25th Annual Regional and Community Bankers Conference, that she believes further monetary poli...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:28:26Z",
-            "url": "https://biztoc.com/x/b179e6c25b3e701c",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Conservative super-lawyer squares up for his latest Supreme Court argument",
-            "description": "Paul Clement, a Republican, has racked up dozens of wins at the Supreme Court since his days as George W. Bush's solicitor general. Recently, he's been challenging some Trump administration policies.",
-            "source": "NPR",
-            "published_at": "2026-10-13T20:03:34Z",
-            "url": "https://www.npr.org/2026/10/13/nx-s1-5976753/supreme-court-prolific-advocate-paul-clement",
-            "sentiment_score": 0.442,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone",
-            "description": "The Royal Swedish Academy of Sciences has honored the godfather of forward guidance just as central bankers are putting his most famous policy prescription into retirement.\nThe post Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone a…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-13T20:00:27Z",
-            "url": "https://www.breitbart.com/politics/2026/10/13/breitbart-business-digest-a-nobel-for-an-idea-whose-time-has-come-and-gone/",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams currently sees no need for rate hike in 2027, Bloomberg News reports",
-            "description": "By Michael S. Derby\nOct 13 (Reuters) - New York Federal Reserve President John Williams has reaffirmed his view that the US central bank may need to raise interest rates once more this year in its bid to lower inflation.\n\"I haven't changed my view that it may…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:00:01Z",
-            "url": "https://biztoc.com/x/815e5229e1e1d172",
-            "sentiment_score": -0.1465,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:58:09Z",
-            "url": "https://biztoc.com/x/fba3b29d1a4e53f9",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Federal Reserve President John Williams said Tuesday that he doesn't see additional rate hikes in 2027 after one more increase this year.\n\"I haven't changed my view that it may be appropriate to have one more rate hike,\" Williams said in an interview…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:57:45Z",
-            "url": "https://biztoc.com/x/352afbd532651b1b",
-            "sentiment_score": 0.1141,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Fed President John Williams sees one more rate hike in 2026 but no additional increase in 2027 as inflation pressures ease.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T19:46:12Z",
-            "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-            "sentiment_score": -0.1815,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T19:45:46Z",
-            "url": "https://www.pymnts.com/loans/2026/billing-friction-puts-12-billion-dollars-auto-loan-payments-risk/",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin defies $800 million crypto wipeout as South Korea’s AI stock market crashes",
-            "description": "Bitcoin rebounded above $83,000 on Tuesday despite a sharp Asian stock selloff, as cryptocurrency liquidations exceeded $800 million. BTC recovered after briefly slipping below $81,000, while semiconductor shares continued a deepening rout that sent South Kor…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-13T19:30:31Z",
-            "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams Says One More Rate Hike This Year Is Appropriate",
-            "description": "Federal Reserve Bank of New York President John Williams says one more interest-rate hike is appropriate this year, but he ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:21:41Z",
-            "url": "https://biztoc.com/x/4db11d452db1f129",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "It pays to switch jobs again, but not everyone has that luxury",
-            "description": "Wage growth is looking better for job switchers than job stayers, but quits rates indicate confidence to make a move is low.",
-            "source": "Business Insider",
-            "published_at": "2026-10-13T19:18:05Z",
-            "url": "https://www.businessinsider.com/job-switch-wage-growth-versus-job-stayers-2026-10#article",
-            "sentiment_score": 0.2027,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "NY Fed President Williams sees no need for a rate hike in 2027",
-            "description": "At a recent conference, John Williams from the Federal Reserve Bank of New York expressed optimism about a potential interest-rate increase this year, suggesting inflation could hit the 2% goal by next year. He cited the role of artificial intelligence in aff…",
-            "source": "The Times of India",
-            "published_at": "2026-10-13T18:58:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/ny-fed-president-williams-sees-no-need-for-a-rate-hike-in-2027/articleshow/134925718.cms",
-            "sentiment_score": 0.0436,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banking regulators sound alarm over cyberattacks",
-            "description": "<p>The adoption of AI is often outpacing the ability to put the controls in place.</p>",
-            "source": "Nation.africa",
-            "published_at": "2026-10-13T18:37:49Z",
-            "url": "https://nation.africa/kenya/news/world/banking-regulators-sound-alarm-over-cyberattacks--5629890",
-            "sentiment_score": -0.1425,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The latest inflation data is expected to show price increases are accelerating",
-            "description": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T18:05:57Z",
-            "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0004,
+      "net_score": -0.0049,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1982,28 +1878,28 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69808,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 0.69541,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 49.2,
-      "rsi_signal": "โซนกลาง (RSI=49.2)",
+      "rsi_value": 37.6,
+      "rsi_signal": "โซนกลาง (RSI=37.6)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00088,
-      "suggested_sl_distance": 0.00132,
+      "atr_value": 0.00085,
+      "suggested_sl_distance": 0.00127,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-14T23:49:42.089069+00:00"
+    "generated_at": "2026-10-15T04:19:08.345268+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2012,9 +1908,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1222,
+        "average_score": 0.0783,
         "label": "บวกเล็กน้อย",
-        "article_count": 13,
+        "article_count": 7,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -2085,74 +1981,184 @@
             "url": "https://www.grumpy-economist.com/p/affordability-trilogy-part-2",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price surge boosts diamond jewellery sales 15-20%",
-            "description": "With gold jewellery turning increasingly pricier, consumers are looking at diamond-studded pieces in the Rs 10,000-Rs 1 lakh price bracket. Jewellers are using 18-carat, 14-carat and 9-carat gold to make diamond jewellery more accessible, allowing shoppers to…",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T19:16:55Z",
-            "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/gold-price-surge-boosts-diamond-jewellery-sales-15-20/articleshow/134901732.cms",
-            "sentiment_score": 0.5023,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold ETF inflows jump 71% to ₹4,451 crore in September despite falling gold prices. What drove the surge?",
-            "description": "Gold ETFs attracted  ₹4,451 crore in Sept, the highest monthly inflow of FY27 so far, with net investments rising 71% from August, according to AMFI data. Experts attribute the surge to geopolitical uncertainty, inflation concerns, gold’s safe-haven appeal an…",
-            "source": "Livemint",
-            "published_at": "2026-10-12T10:51:47Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-etf-inflows-jump-71-to-4-451-crore-in-september-despite-falling-gold-prices-what-drove-the-surge-11791801182397.html",
-            "sentiment_score": 0.1105,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Selling old gold jewellery? 7 factors that determine its resale value",
-            "description": "Selling old gold jewellery? Check how gold purity, net weight, buying rates, making charges, testing deductions, BIS hallmark verification and jeweller buyback policies affect your resale value. Find out how to calculate your gold’s worth and compare offers b…",
-            "source": "Livemint",
-            "published_at": "2026-10-12T07:00:12Z",
-            "url": "https://www.livemint.com/money/personal-finance/selling-old-gold-jewellery-7-factors-that-determine-its-resale-value-11791786602702.html",
-            "sentiment_score": 0.3268,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold prices fall Rs 1,450/10g; silver down Rs 1,400/kg despite a soft dollar ahead of US economic data. Time to sell?",
-            "description": "Gold and silver prices opened lower on MCX despite a weaker US dollar and falling oil prices, as investors awaited US inflation data for clues on the Federal Reserve’s next policy move. Analysts recommend buying on dips while monitoring key support levels.",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T06:48:15Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-fall-rs-1450/10g-silver-down-rs-1400/kg-despite-a-soft-dollar-ahead-of-us-economic-data-time-to-sell/articleshow/134885210.cms",
-            "sentiment_score": 0.1718,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate today (October 12, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities",
-            "description": "Gold rate today: On October 12, 2026, Joyalukkas, Malabar Gold & Diamonds, and Kalyan Jewellers reported a marginal rise in gold prices, reflecting evolving market dynamics. Conversely, Tanishq saw a modest drop in their gold pricing in various locales. These…",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T06:39:18Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-silver-rate-today-october-12-2026-18k-20k-24k-chennai-delhi-hyderabad-bengaluru-citywise-ibja-gold-price-malabar-gold-kalyan-jewelers-joyalukkas/articleshow/134884876.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction today: What levels will yellow metal see? Check outlook for October 12, 2026 week",
-            "description": "Gold enters the week Rs 150,750 after recovering from the recent decline towards Rs 146,000–147,000, although prices remain well below the September peak near Rs 163,000–165,000. The daily structure has improved modestly, with gold moving back above the 20-da…",
-            "source": "The Times of India",
-            "published_at": "2026-10-12T06:15:28Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-12-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/134884555.cms",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0128,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0603,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "ASX 200 Slides as Bank Stocks Fall After Wall Street Sell-Off; Glencore Makes Debut on Australian Market",
+            "description": "Australian shares fell on Wednesday, led by the major banks after losses among US lenders. Glencore made its ASX debut, while energy and property stocks gained.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-14T04:16:46Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-fall-banks-glencore-asx-debut-1876661",
+            "sentiment_score": 0.1342,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Japan's Nikkei rebounds as chip stocks rise, Topix slips on bank losses",
+            "description": "Japan’s Nikkei rebounded 0.61% on Wednesday as chip-related stocks advanced, recovering from the previous session’s decline. Advantest, Tokyo Electron and SoftBank gained, while Taiyo Yuden surged. However, banking stocks weakened the broader Topix index, wit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:12:19Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-rebounds-as-chip-stocks-rise-topix-slips-on-bank-losses/articleshow/134931841.cms",
+            "sentiment_score": -0.1859,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: South Korean shares rebound as chipmakers recover after five-day losing streak",
+            "description": "South Korea’s KOSPI rebounded 0.74% on Wednesday as investors bought semiconductor stocks after five consecutive sessions of losses. Samsung Electronics and SK Hynix advanced, supported by a recovery in US AI chipmakers. Despite positive market breadth, forei…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T04:08:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-rebound-as-chipmakers-recover-after-five-day-losing-streak/articleshow/134931255.cms",
+            "sentiment_score": -0.1689,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tariffs Are a Band-Aid, Not a Cure",
+            "description": "In Wednesday’s episode of the Peter Schiff Show, Peter traces a common thread connecting America’s trade deficits, runaway government spending, and the sovereign debt troubles now creeping across the Atlantic. He also takes a detour into history, arguing that…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-10-14T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/10/no_author/tariffs-are-a-band-aid-not-a-cure/",
+            "sentiment_score": -0.2453,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian stocks rise as chipmakers rebound ahead of US inflation data",
+            "description": "Among ​firms in the AI supply chain, chipmakers Samsung Electronics and SK Hynix rose more than 2% in ‌South Korea while Kioxia was steady in Japan",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T03:46:56Z",
+            "url": "https://www.business-standard.com/markets/news/asian-stocks-rise-as-chipmakers-rebound-ahead-of-us-inflation-data-126101400115_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "By Jiaxing Li\nHONG KONG, Oct 14 (Reuters) - Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-14T02:30:33Z",
+            "url": "https://biztoc.com/x/16b881d5661795b2",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals negative open as Brent crude extends gains; Asia markets rise",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a negative open for the Nifty50. Asian markets rebounded in early deals",
+            "source": "Business Standard",
+            "published_at": "2026-10-14T02:22:43Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-october-14-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-ipo-today-126101400113_1.html",
+            "sentiment_score": 0.2638,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "JPMorgan posts rare profit miss amid uncertain outlook",
+            "description": "NEW YORK: JPMorgan Chase fell short of quarterly profit estimates for the first time in nearly three years as market volatility and an uncertain economic outloo...",
+            "source": "Kuwaittimes.com",
+            "published_at": "2026-10-14T02:15:47Z",
+            "url": "https://kuwaittimes.com/article/51528/business/jpmorgan-posts-rare-profit-miss-amid-uncertain-outlook/",
+            "sentiment_score": 0.0714,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold prices flat as markets await US CPI data",
+            "description": "In early Asian trading, gold prices held steady as investors awaited crucial US consumer price data, which could affect future Federal Reserve decisions. New York Fed President John Williams spoke about the need for potential interest rate increases to combat…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T02:00:13Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-flat-as-markets-await-us-cpi-data/articleshow/134929941.cms",
+            "sentiment_score": 0.204,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "The dollar declined as traders awaited new information on the timing for interest rate increases. Investors reevaluated the recent rally fueled by artificial intelligence developments and easing oil prices. Meanwhile, the euro gained slightly amid regional bu…",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:57:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-languishes-as-focus-turns-to-cpi-fed-speakers/articleshow/134929930.cms",
+            "sentiment_score": 0.2587,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares edge up as chip selloff eases; US CPI awaited",
+            "description": "HONG KONG, Oct 14 : Asian shares inched higher on Wednesday as those related to artificial intelligence found respite after a selloff, while any gain was tempered by elevated oil prices and caution ahead of U.S. inflation data later in the global day. Among f…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:52:55Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-edge-up-chip-selloff-eases-us-cpi-awaited-6457516",
+            "sentiment_score": 0.6168,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants",
+            "description": "A Durham, North Carolina, firefighter lost his life last week in a building fire filled with illegal apartments rented to migrants.\nThe post Firefighter Dies in Collapse of Building with Illegal Apartments for Migrants appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-10-14T01:41:44Z",
+            "url": "https://www.breitbart.com/immigration/2026/10/13/firefighter-dies-collapse-building-illegal-apartments-migrants/",
+            "sentiment_score": -0.8249,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar languishes as focus turns to CPI, Fed speakers",
+            "description": "TOKYO, Oct 14 : The dollar languished on Wednesday as traders awaited fresh signals on the timing for interest rate hikes to contend with persistent inflation.The greenback weakened from an 18-month high in the previous session as oil prices eased and investo…",
+            "source": "CNA",
+            "published_at": "2026-10-14T01:17:58Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-languishes-focus-turns-cpi-fed-speakers-6457446",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CNBC Daily Open: Diesel deal may not be enough to curb high energy prices",
+            "description": "The diesel deal between the U.S. and Russia is unlikely to substantially reduce energy prices for U.S. truckers and farmers.",
+            "source": "CNBC",
+            "published_at": "2026-10-14T01:09:16Z",
+            "url": "https://www.cnbc.com/2026/10/14/cnbc-daily-open-diesel-energy-apple-anthropic-imf.html",
+            "sentiment_score": 0.2918,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market today: Why are S&P 500, Dow Jones, Nasdaq, Russell 2000 down? Latest updates on Wall Street stocks, US Bonds, treasury yields",
+            "description": "Wall Street indexes S&P 500, Dow Jones, Nasdaq, Russell 2000 had rough trading day as several stocks fell, weighing on key sectors.",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:07:29Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-today-why-are-sp-500-dow-jones-nasdaq-russell-2000-down-latest-updates-on-wall-street-stocks-us-bonds-treasury-yields/articleshow/134929581.cms",
+            "sentiment_score": 0.1416,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks rise on Fed rate signal, oil gains",
+            "description": "MSCI Inc.’s Asia Pacific equities index advanced 0.2%. A selloff in semiconductor stocks sent the gauge to its weakest close since August on Tuesday. Earlier, the S&P 500 pared earlier losses to close little changed after New York Fed President John Williams …",
+            "source": "The Times of India",
+            "published_at": "2026-10-14T01:01:18Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-on-fed-rate-signal-oil-gains/articleshow/134929560.cms",
+            "sentiment_score": 0.0543,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Sees Inflation Easing Even With Oil Above $90",
+            "description": "The U.S. Consumer Price Index (CPI) report is due to be released on Wednesday, with economists predicting that key inflation metrics continued to moderate in September despite elevated oil prices, giving the Fed room to slow down on interest rate hikes. For S…",
+            "source": "OilPrice.com",
+            "published_at": "2026-10-14T00:00:00Z",
+            "url": "https://oilprice.com/Energy/Energy-General/Wall-Street-Sees-Inflation-Easing-Even-With-Oil-Above-90.html",
+            "sentiment_score": 0.3729,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Shifting AI Doomsday Predictions Reportedly Worry Banking Regulators",
@@ -2272,180 +2278,10 @@
             "url": "https://biztoc.com/x/30a3db4fff2beb36",
             "sentiment_score": 0.017,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "How Changes In The Money Supply Affected The Great Depression",
-            "description": "By Frank Shostak, Mises Wire | October 12, 2026\nIn his writings, Milton Friedman blamed the Federal Reserve for causing the Great Depression of the 1930s. Friedman believed that the US central bank failed to inflate enough money into the banking system to pre…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:58:18Z",
-            "url": "https://biztoc.com/x/b17efccc520353fc",
-            "sentiment_score": -0.2516,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What’s fueling inflation? Fuel.",
-            "description": "Inflation in America is being powered by diesel.",
-            "source": "NBC News",
-            "published_at": "2026-10-13T20:57:55Z",
-            "url": "https://www.nbcnews.com/business/economy/s-fueling-inflation-fuel-rcna603184",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banks Widen Credit Access to Low-Score Borrowers",
-            "description": "Large banks are putting more credit cards into the hands of consumers with low credit scores, but they are not pairing that expansion with large amounts of new borrowing capacity. The combination indicates how card issuers are pursuing growth after several ye…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T20:42:02Z",
-            "url": "https://www.pymnts.com/credit-cards/2026/banks-widen-credit-access-low-score-borrowers/",
-            "sentiment_score": 0.4714,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Collins: Appropriate to raise rates further",
-            "description": "Federal Reserve Bank of Boston President Susan Collins stated on Tuesday, while delivering remarks at the 25th Annual Regional and Community Bankers Conference, that she believes further monetary poli...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:28:26Z",
-            "url": "https://biztoc.com/x/b179e6c25b3e701c",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Conservative super-lawyer squares up for his latest Supreme Court argument",
-            "description": "Paul Clement, a Republican, has racked up dozens of wins at the Supreme Court since his days as George W. Bush's solicitor general. Recently, he's been challenging some Trump administration policies.",
-            "source": "NPR",
-            "published_at": "2026-10-13T20:03:34Z",
-            "url": "https://www.npr.org/2026/10/13/nx-s1-5976753/supreme-court-prolific-advocate-paul-clement",
-            "sentiment_score": 0.442,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone",
-            "description": "The Royal Swedish Academy of Sciences has honored the godfather of forward guidance just as central bankers are putting his most famous policy prescription into retirement.\nThe post Breitbart Business Digest: A Nobel for an Idea Whose Time Has Come and Gone a…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-13T20:00:27Z",
-            "url": "https://www.breitbart.com/politics/2026/10/13/breitbart-business-digest-a-nobel-for-an-idea-whose-time-has-come-and-gone/",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams currently sees no need for rate hike in 2027, Bloomberg News reports",
-            "description": "By Michael S. Derby\nOct 13 (Reuters) - New York Federal Reserve President John Williams has reaffirmed his view that the US central bank may need to raise interest rates once more this year in its bid to lower inflation.\n\"I haven't changed my view that it may…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T20:00:01Z",
-            "url": "https://biztoc.com/x/815e5229e1e1d172",
-            "sentiment_score": -0.1465,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:58:09Z",
-            "url": "https://biztoc.com/x/fba3b29d1a4e53f9",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Federal Reserve President John Williams said Tuesday that he doesn't see additional rate hikes in 2027 after one more increase this year.\n\"I haven't changed my view that it may be appropriate to have one more rate hike,\" Williams said in an interview…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:57:45Z",
-            "url": "https://biztoc.com/x/352afbd532651b1b",
-            "sentiment_score": 0.1141,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Williams says Fed may not have to hike rates in 2027, at odds with traders",
-            "description": "New York Fed President John Williams sees one more rate hike in 2026 but no additional increase in 2027 as inflation pressures ease.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T19:46:12Z",
-            "url": "https://www.cnbc.com/2026/10/13/john-williams-fed-rate-hikes-2027.html",
-            "sentiment_score": -0.1815,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billing Friction Puts $12.3 Billion in Auto Loan Payments at Risk",
-            "description": "Auto lenders are entering a period in which collections performance will depend on more than identifying borrowers who are falling behind. They also must account for what happens between the monthly statement and the receipt of payment. The Federal Reserve Ba…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-13T19:45:46Z",
-            "url": "https://www.pymnts.com/loans/2026/billing-friction-puts-12-billion-dollars-auto-loan-payments-risk/",
-            "sentiment_score": -0.2372,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin defies $800 million crypto wipeout as South Korea’s AI stock market crashes",
-            "description": "Bitcoin rebounded above $83,000 on Tuesday despite a sharp Asian stock selloff, as cryptocurrency liquidations exceeded $800 million. BTC recovered after briefly slipping below $81,000, while semiconductor shares continued a deepening rout that sent South Kor…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-13T19:30:31Z",
-            "url": "https://cryptoslate.com/bitcoin-defies-800-million-crypto-wipeout-as-south-koreas-ai-stock-market-crashes/",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Williams Says One More Rate Hike This Year Is Appropriate",
-            "description": "Federal Reserve Bank of New York President John Williams says one more interest-rate hike is appropriate this year, but he ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-13T19:21:41Z",
-            "url": "https://biztoc.com/x/4db11d452db1f129",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "It pays to switch jobs again, but not everyone has that luxury",
-            "description": "Wage growth is looking better for job switchers than job stayers, but quits rates indicate confidence to make a move is low.",
-            "source": "Business Insider",
-            "published_at": "2026-10-13T19:18:05Z",
-            "url": "https://www.businessinsider.com/job-switch-wage-growth-versus-job-stayers-2026-10#article",
-            "sentiment_score": 0.2027,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "NY Fed President Williams sees no need for a rate hike in 2027",
-            "description": "At a recent conference, John Williams from the Federal Reserve Bank of New York expressed optimism about a potential interest-rate increase this year, suggesting inflation could hit the 2% goal by next year. He cited the role of artificial intelligence in aff…",
-            "source": "The Times of India",
-            "published_at": "2026-10-13T18:58:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/ny-fed-president-williams-sees-no-need-for-a-rate-hike-in-2027/articleshow/134925718.cms",
-            "sentiment_score": 0.0436,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Banking regulators sound alarm over cyberattacks",
-            "description": "<p>The adoption of AI is often outpacing the ability to put the controls in place.</p>",
-            "source": "Nation.africa",
-            "published_at": "2026-10-13T18:37:49Z",
-            "url": "https://nation.africa/kenya/news/world/banking-regulators-sound-alarm-over-cyberattacks--5629890",
-            "sentiment_score": -0.1425,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The latest inflation data is expected to show price increases are accelerating",
-            "description": "Economists expect the consumer price index for September to rise 0.6% on the month and 3.6% year over year.",
-            "source": "CNBC",
-            "published_at": "2026-10-13T18:05:57Z",
-            "url": "https://www.cnbc.com/2026/10/13/september-consumer-price-index-inflation.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.135,
+      "net_score": 0.018,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2455,14 +2291,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4122.7998,
+      "price_now": 4164.3999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 36.2,
-      "rsi_signal": "โซนกลาง (RSI=36.2)",
+      "rsi_value": 57.9,
+      "rsi_signal": "โซนกลาง (RSI=57.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 14.53682,
-      "suggested_sl_distance": 21.80523,
+      "atr_value": 15.138,
+      "suggested_sl_distance": 22.70701,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2476,6 +2312,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-14T23:49:42.089069+00:00"
+    "generated_at": "2026-10-15T04:19:08.345268+00:00"
   }
 ]
