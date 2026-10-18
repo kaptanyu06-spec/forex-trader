@@ -1,15 +1,45 @@
 {
-  "fetched_at": "2026-10-18T04:12:26.796665+00:00",
+  "fetched_at": "2026-10-18T09:26:04.858268+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0425,
+        "average_score": 0.0365,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 12,
+        "article_count": 15,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Lagarde says euro-area economy is resilient, digital euro imminent",
+            "description": "“The digital euro will further stimulate innovation and competition in retail payments,” according to the ECB president.",
+            "source": "Cointelegraph",
+            "published_at": "2026-10-17T08:32:11Z",
+            "url": "https://cointelegraph.com/news/lagarde-says-euro-area-economy-is-resilient-digital-euro-imminent",
+            "sentiment_score": 0.1627,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Harbor Insurance: $10M Seed to Insure the Risks AI Agents Create",
+            "description": "Agents are taking over tasks traditionally done by humans, making payments, signing contracts, and handling sensitive customer data. But who pays if the agent makes a mistake? The rapid expansion of agentic commerce has outpaced the legal and financial framew…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-17T07:45:28Z",
+            "url": "https://forkast.news/harbor-insurance-10m-seed-to-insure-the-risks-ai-agents-create/",
+            "sentiment_score": -0.0987,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Christine Lagarde: IMFC Statement",
+            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+            "source": "Europa.eu",
+            "published_at": "2026-10-17T05:00:00Z",
+            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261017~7015ea3099.en.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "EUR",
             "title": "How the Iran Conflict Opened a New Threat to the Global Monetary System",
@@ -133,10 +163,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.2056,
+        "average_score": -0.2064,
         "label": "ลบเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s inflation hedge has a hidden cost, and leverage makes it worse",
+            "description": "Borrowing costs, missed interest income, and futures fees can all eat into returns even when Bitcoin holds its value. That's a big problem, and it gets even worse when inflation stays high. September's US inflation report showed consumer prices up 3.7% year o…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-17T07:00:46Z",
+            "url": "https://cryptoslate.com/bitcoins-inflation-hedge-has-a-hidden-cost-and-leverage-makes-it-worse/",
+            "sentiment_score": -0.4482,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Broad tech sector sell-off weighs down US markets",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street on Friday, capping off the market's worst week since late June.",
+            "source": "Arkansas Online",
+            "published_at": "2026-10-17T06:51:08Z",
+            "url": "https://www.arkansasonline.com/news/2026/oct/17/broad-tech-sector-sell-off-weighs-down-us-markets/",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US markets are weighed down by an extended sell-off in the tech sector",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street Friday, capping off the market’s worst week since late June.",
+            "source": "The Manila Times",
+            "published_at": "2026-10-17T05:09:40Z",
+            "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
+            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
+            "source": "Theepochtimes.com",
+            "published_at": "2026-10-17T04:37:15Z",
+            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
@@ -386,50 +456,10 @@
             "url": "https://www.breitbart.com/politics/2026/10/16/wsj-wages-rise-as-ice-deports-migrants/",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial Production Up, Retail Sales Flattish",
-            "description": "and Monthly GDP for August, manufacturing production. First, NBER BCDC indicators: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transf…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-16T18:26:06Z",
-            "url": "https://econbrowser.com/archives/2026/10/business-cycle-indicators-industrial-production-retail-sales-2",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
-            "description": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-16T18:21:43Z",
-            "url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections",
-            "sentiment_score": -0.4196,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Government Bonds’ Safe-Haven Property and Inflationary Pressures",
-            "description": "Canlin Li and Emre YoldasEarlier this year, escalation of the conflict in the Middle East resulted in sharp declines in major stock indexes as energy prices rose and the global economic outlook deteriorated, but prices of long-term government bonds in major a…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-10-16T18:15:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
-            "sentiment_score": -0.2305,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Debt is eating up a bigger chunk of your raise, research shows",
-            "description": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
-            "source": "CNBC",
-            "published_at": "2026-10-16T18:08:00Z",
-            "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
-            "sentiment_score": -0.2606,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.2481,
+      "net_score": 0.2429,
       "bias": "เอียงบวกต่อ EUR (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -442,10 +472,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1608,
+        "average_score": -0.1199,
         "label": "ลบเล็กน้อย",
-        "article_count": 16,
+        "article_count": 17,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Bailey: AI, robotics could reshape monetary policy",
+            "description": "Bank of England Governor Andrew Bailey said artificial intelligence and robotics could become the next major technological shift affecting economic growth and monetary policy, speaking at G30 talks in...",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-17T08:36:43Z",
+            "url": "https://biztoc.com/x/85b68b5f6d43bca8",
+            "sentiment_score": 0.2072,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "FEDS Note: Government Bonds’ Safe-Haven Property and Inflationary Pressures",
@@ -609,10 +649,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.2056,
+        "average_score": -0.2064,
         "label": "ลบเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s inflation hedge has a hidden cost, and leverage makes it worse",
+            "description": "Borrowing costs, missed interest income, and futures fees can all eat into returns even when Bitcoin holds its value. That's a big problem, and it gets even worse when inflation stays high. September's US inflation report showed consumer prices up 3.7% year o…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-17T07:00:46Z",
+            "url": "https://cryptoslate.com/bitcoins-inflation-hedge-has-a-hidden-cost-and-leverage-makes-it-worse/",
+            "sentiment_score": -0.4482,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Broad tech sector sell-off weighs down US markets",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street on Friday, capping off the market's worst week since late June.",
+            "source": "Arkansas Online",
+            "published_at": "2026-10-17T06:51:08Z",
+            "url": "https://www.arkansasonline.com/news/2026/oct/17/broad-tech-sector-sell-off-weighs-down-us-markets/",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US markets are weighed down by an extended sell-off in the tech sector",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street Friday, capping off the market’s worst week since late June.",
+            "source": "The Manila Times",
+            "published_at": "2026-10-17T05:09:40Z",
+            "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
+            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
+            "source": "Theepochtimes.com",
+            "published_at": "2026-10-17T04:37:15Z",
+            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
@@ -862,50 +942,10 @@
             "url": "https://www.breitbart.com/politics/2026/10/16/wsj-wages-rise-as-ice-deports-migrants/",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial Production Up, Retail Sales Flattish",
-            "description": "and Monthly GDP for August, manufacturing production. First, NBER BCDC indicators: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transf…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-16T18:26:06Z",
-            "url": "https://econbrowser.com/archives/2026/10/business-cycle-indicators-industrial-production-retail-sales-2",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
-            "description": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-16T18:21:43Z",
-            "url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections",
-            "sentiment_score": -0.4196,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Government Bonds’ Safe-Haven Property and Inflationary Pressures",
-            "description": "Canlin Li and Emre YoldasEarlier this year, escalation of the conflict in the Middle East resulted in sharp declines in major stock indexes as energy prices rose and the global economic outlook deteriorated, but prices of long-term government bonds in major a…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-10-16T18:15:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
-            "sentiment_score": -0.2305,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Debt is eating up a bigger chunk of your raise, research shows",
-            "description": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
-            "source": "CNBC",
-            "published_at": "2026-10-16T18:08:00Z",
-            "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
-            "sentiment_score": -0.2606,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0448,
+      "net_score": 0.0865,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -918,10 +958,50 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.2056,
+        "average_score": -0.2064,
         "label": "ลบเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s inflation hedge has a hidden cost, and leverage makes it worse",
+            "description": "Borrowing costs, missed interest income, and futures fees can all eat into returns even when Bitcoin holds its value. That's a big problem, and it gets even worse when inflation stays high. September's US inflation report showed consumer prices up 3.7% year o…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-17T07:00:46Z",
+            "url": "https://cryptoslate.com/bitcoins-inflation-hedge-has-a-hidden-cost-and-leverage-makes-it-worse/",
+            "sentiment_score": -0.4482,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Broad tech sector sell-off weighs down US markets",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street on Friday, capping off the market's worst week since late June.",
+            "source": "Arkansas Online",
+            "published_at": "2026-10-17T06:51:08Z",
+            "url": "https://www.arkansasonline.com/news/2026/oct/17/broad-tech-sector-sell-off-weighs-down-us-markets/",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US markets are weighed down by an extended sell-off in the tech sector",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street Friday, capping off the market’s worst week since late June.",
+            "source": "The Manila Times",
+            "published_at": "2026-10-17T05:09:40Z",
+            "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
+            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
+            "source": "Theepochtimes.com",
+            "published_at": "2026-10-17T04:37:15Z",
+            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
@@ -1171,46 +1251,6 @@
             "url": "https://www.breitbart.com/politics/2026/10/16/wsj-wages-rise-as-ice-deports-migrants/",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial Production Up, Retail Sales Flattish",
-            "description": "and Monthly GDP for August, manufacturing production. First, NBER BCDC indicators: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transf…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-16T18:26:06Z",
-            "url": "https://econbrowser.com/archives/2026/10/business-cycle-indicators-industrial-production-retail-sales-2",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
-            "description": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-16T18:21:43Z",
-            "url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections",
-            "sentiment_score": -0.4196,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Government Bonds’ Safe-Haven Property and Inflationary Pressures",
-            "description": "Canlin Li and Emre YoldasEarlier this year, escalation of the conflict in the Middle East resulted in sharp declines in major stock indexes as energy prices rose and the global economic outlook deteriorated, but prices of long-term government bonds in major a…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-10-16T18:15:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
-            "sentiment_score": -0.2305,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Debt is eating up a bigger chunk of your raise, research shows",
-            "description": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
-            "source": "CNBC",
-            "published_at": "2026-10-16T18:08:00Z",
-            "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
-            "sentiment_score": -0.2606,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
@@ -1271,7 +1311,7 @@
           }
         ]
       },
-      "net_score": -0.4152,
+      "net_score": -0.416,
       "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
@@ -1311,10 +1351,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.2056,
+        "average_score": -0.2064,
         "label": "ลบเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s inflation hedge has a hidden cost, and leverage makes it worse",
+            "description": "Borrowing costs, missed interest income, and futures fees can all eat into returns even when Bitcoin holds its value. That's a big problem, and it gets even worse when inflation stays high. September's US inflation report showed consumer prices up 3.7% year o…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-17T07:00:46Z",
+            "url": "https://cryptoslate.com/bitcoins-inflation-hedge-has-a-hidden-cost-and-leverage-makes-it-worse/",
+            "sentiment_score": -0.4482,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Broad tech sector sell-off weighs down US markets",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street on Friday, capping off the market's worst week since late June.",
+            "source": "Arkansas Online",
+            "published_at": "2026-10-17T06:51:08Z",
+            "url": "https://www.arkansasonline.com/news/2026/oct/17/broad-tech-sector-sell-off-weighs-down-us-markets/",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US markets are weighed down by an extended sell-off in the tech sector",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street Friday, capping off the market’s worst week since late June.",
+            "source": "The Manila Times",
+            "published_at": "2026-10-17T05:09:40Z",
+            "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
+            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
+            "source": "Theepochtimes.com",
+            "published_at": "2026-10-17T04:37:15Z",
+            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
@@ -1564,50 +1644,10 @@
             "url": "https://www.breitbart.com/politics/2026/10/16/wsj-wages-rise-as-ice-deports-migrants/",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial Production Up, Retail Sales Flattish",
-            "description": "and Monthly GDP for August, manufacturing production. First, NBER BCDC indicators: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transf…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-16T18:26:06Z",
-            "url": "https://econbrowser.com/archives/2026/10/business-cycle-indicators-industrial-production-retail-sales-2",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
-            "description": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-16T18:21:43Z",
-            "url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections",
-            "sentiment_score": -0.4196,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Government Bonds’ Safe-Haven Property and Inflationary Pressures",
-            "description": "Canlin Li and Emre YoldasEarlier this year, escalation of the conflict in the Middle East resulted in sharp declines in major stock indexes as energy prices rose and the global economic outlook deteriorated, but prices of long-term government bonds in major a…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-10-16T18:15:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
-            "sentiment_score": -0.2305,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Debt is eating up a bigger chunk of your raise, research shows",
-            "description": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
-            "source": "CNBC",
-            "published_at": "2026-10-16T18:08:00Z",
-            "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
-            "sentiment_score": -0.2606,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.2116,
+      "net_score": 0.2124,
       "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1620,10 +1660,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0564,
-        "label": "บวกเล็กน้อย",
-        "article_count": 10,
+        "average_score": 0.0484,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Today’s Gold Rate: Latest gold prices in Coimbatore, Nagpur, Jaipur & other cities",
+            "description": "Gold Price Today, August 26, 2026: Check 22K and 24K gold rates in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur, Lucknow and Chandigarh.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-17T08:14:06Z",
+            "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-october-17-2026/article71595809.ece",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold rate today (October 17, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and Tanishq",
+            "description": "Gold rate today: On October 17, 2026, a rise in gold prices marked a significant shift for leading jewellery retailers, including Tanishq and Malabar Gold.",
+            "source": "The Times of India",
+            "published_at": "2026-10-17T06:15:37Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rate-today-october-17-2026-check-18k-20k-24k-ibja-gold-price-malabar-gold-kalyan-jewelers-joyalukkas-delhi-hyderabad-bengaluru/articleshow/135008631.cms",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Gold price, silver rate suffer weekly losses. Check latest gold rate predictions",
@@ -1727,10 +1787,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.2056,
+        "average_score": -0.2064,
         "label": "ลบเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s inflation hedge has a hidden cost, and leverage makes it worse",
+            "description": "Borrowing costs, missed interest income, and futures fees can all eat into returns even when Bitcoin holds its value. That's a big problem, and it gets even worse when inflation stays high. September's US inflation report showed consumer prices up 3.7% year o…",
+            "source": "CryptoSlate",
+            "published_at": "2026-10-17T07:00:46Z",
+            "url": "https://cryptoslate.com/bitcoins-inflation-hedge-has-a-hidden-cost-and-leverage-makes-it-worse/",
+            "sentiment_score": -0.4482,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Broad tech sector sell-off weighs down US markets",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street on Friday, capping off the market's worst week since late June.",
+            "source": "Arkansas Online",
+            "published_at": "2026-10-17T06:51:08Z",
+            "url": "https://www.arkansasonline.com/news/2026/oct/17/broad-tech-sector-sell-off-weighs-down-us-markets/",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US markets are weighed down by an extended sell-off in the tech sector",
+            "description": "A broad sell-off in technology companies pulled stocks lower on Wall Street Friday, capping off the market’s worst week since late June.",
+            "source": "The Manila Times",
+            "published_at": "2026-10-17T05:09:40Z",
+            "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
+            "sentiment_score": -0.2229,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
+            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
+            "source": "Theepochtimes.com",
+            "published_at": "2026-10-17T04:37:15Z",
+            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
@@ -1980,50 +2080,10 @@
             "url": "https://www.breitbart.com/politics/2026/10/16/wsj-wages-rise-as-ice-deports-migrants/",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Business Cycle Indicators: Industrial Production Up, Retail Sales Flattish",
-            "description": "and Monthly GDP for August, manufacturing production. First, NBER BCDC indicators: Figure 1: NFP employment (bold blue), civilian employment with smoothed population controls (bold orange), industrial production (red), personal income excluding current transf…",
-            "source": "Econbrowser.com",
-            "published_at": "2026-10-16T18:26:06Z",
-            "url": "https://econbrowser.com/archives/2026/10/business-cycle-indicators-industrial-production-retail-sales-2",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How Iran messaging highlights cost of war ahead of US midterm elections",
-            "description": "Through statements in English, Iranian officials are emphasising gas prices and issues with the US economy.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-16T18:21:43Z",
-            "url": "https://www.aljazeera.com/news/2026/10/16/how-iran-messaging-highlights-cost-of-war-ahead-of-us-midterm-elections",
-            "sentiment_score": -0.4196,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Government Bonds’ Safe-Haven Property and Inflationary Pressures",
-            "description": "Canlin Li and Emre YoldasEarlier this year, escalation of the conflict in the Middle East resulted in sharp declines in major stock indexes as energy prices rose and the global economic outlook deteriorated, but prices of long-term government bonds in major a…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-10-16T18:15:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/government-bonds-safe-haven-property-and-inflationary-pressures-20261016.html",
-            "sentiment_score": -0.2305,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Debt is eating up a bigger chunk of your raise, research shows",
-            "description": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
-            "source": "CNBC",
-            "published_at": "2026-10-16T18:08:00Z",
-            "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
-            "sentiment_score": -0.2606,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.262,
+      "net_score": 0.2548,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
