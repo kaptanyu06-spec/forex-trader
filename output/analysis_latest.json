@@ -73,10 +73,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.039,
+        "average_score": 0.0132,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Top Australian Penny Stocks For October 2026",
+            "description": "Accelerating US inflation and concern about volatility in tech shares have pushed many investors toward smaller pockets of the market that already priced in a lot of fear. That creates an opening in Australian low priced shares with stronger balance sheets, w…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T22:04:30Z",
+            "url": "https://biztoc.com/x/c8fc90f634001d32",
+            "sentiment_score": 0.2681,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama Defends Ilhan Omar After Federal Raid on Her Home",
+            "description": "Former President Barack Obama defended Rep. Ilhan Omar (D-MN) after agents with the Department of Homeland Security conducted a raid on her home as part of an immigration fraud investigation.\nThe post Obama Defends Ilhan Omar After Federal Raid on Her Home ap…",
+            "source": "Breitbart News",
+            "published_at": "2026-10-18T20:52:35Z",
+            "url": "https://www.breitbart.com/politics/2026/10/18/obama-defends-ilhan-omar-after-federal-raid-on-her-home/",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Canadian Growth Stocks With At Least 43% Earnings Growth",
+            "description": "Accelerating US inflation, driven by sharp moves in energy prices, keeps pressure on interest rates and has made dependable earnings growth harder to find. That is where a group of financially solid Canadian growth stocks becomes interesting. According to ana…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T20:04:54Z",
+            "url": "https://biztoc.com/x/0514a0438e9c1b95",
+            "sentiment_score": 0.7116,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Your Payments Got Faster. So Why Didn’t Your Finance Team?",
@@ -346,57 +376,27 @@
             "url": "https://biztoc.com/x/79e9f56eddd46963",
             "sentiment_score": -0.3747,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Australian Undervalued Stocks Trading At Least 26% Below Fair Value",
-            "description": "Higher borrowing costs are back in focus after fresh U.S. inflation data increased the odds of another Federal Reserve rate hike this year. When interest rates stay elevated, Australian investors often pay closer attention to companies that generate solid cas…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T01:12:17Z",
-            "url": "https://biztoc.com/x/a342b4a9fba2353f",
-            "sentiment_score": 0.6298,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Leaders weigh ‘huge benefit’, risks of AI for global economy",
-            "description": "Federal Reserve Chair Kevin Warsh called AI the \"most consequential change\" to the global economy in his lifetime, and said it had \"a huge benefit\". Still, he warned the road ahead would be \"bumpy.\"\nThe post Leaders weigh ‘huge benefit’, risks of AI for globa…",
-            "source": "Digital Journal",
-            "published_at": "2026-10-17T20:03:12Z",
-            "url": "https://www.digitaljournal.com/article/leaders-weigh-huge-benefit-risks-of-ai-for-global-economy/",
-            "sentiment_score": -0.1093,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘How many canaries have we killed in the coal mine?’ — Wall Street debates if the latest AI bubble warnings are another head fake or the real thing",
-            "description": "\"I don't know whether this is the breaking point or another 25 or 50 basis points higher is the breaking point.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-17T19:43:24Z",
-            "url": "https://fortune.com/2026/10/17/ai-boom-vs-bust-bubble-warning-hyperscaler-spending-debt-coreweave-nvidia/",
-            "sentiment_score": -0.6082,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.3154,
+      "net_score": -0.3676,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12145,
+      "price_now": 1.12158,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 45.1,
-      "rsi_signal": "โซนกลาง (RSI=45.1)",
+      "rsi_value": 45.7,
+      "rsi_signal": "โซนกลาง (RSI=45.7)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.0012,
-      "suggested_sl_distance": 0.0018,
+      "atr_value": 0.00118,
+      "suggested_sl_distance": 0.00177,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -408,9 +408,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=45.1) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=45.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-19T19:12:33.444134+00:00"
+    "generated_at": "2026-10-19T23:31:05.785659+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -419,10 +419,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0939,
+        "average_score": 0.081,
         "label": "บวกเล็กน้อย",
-        "article_count": 9,
+        "article_count": 10,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "House prices on the rise - how does your area compare?",
+            "description": "Affordability continues to be a \"real challenge\" for buyers, as prices rise by an average of 4%.",
+            "source": "BBC News",
+            "published_at": "2026-10-18T20:56:53Z",
+            "url": "https://www.bbc.co.uk/news/articles/c6kg57p7935jo",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "The American Establishment and The Deep State",
@@ -516,10 +526,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.039,
+        "average_score": 0.0132,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Top Australian Penny Stocks For October 2026",
+            "description": "Accelerating US inflation and concern about volatility in tech shares have pushed many investors toward smaller pockets of the market that already priced in a lot of fear. That creates an opening in Australian low priced shares with stronger balance sheets, w…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T22:04:30Z",
+            "url": "https://biztoc.com/x/c8fc90f634001d32",
+            "sentiment_score": 0.2681,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama Defends Ilhan Omar After Federal Raid on Her Home",
+            "description": "Former President Barack Obama defended Rep. Ilhan Omar (D-MN) after agents with the Department of Homeland Security conducted a raid on her home as part of an immigration fraud investigation.\nThe post Obama Defends Ilhan Omar After Federal Raid on Her Home ap…",
+            "source": "Breitbart News",
+            "published_at": "2026-10-18T20:52:35Z",
+            "url": "https://www.breitbart.com/politics/2026/10/18/obama-defends-ilhan-omar-after-federal-raid-on-her-home/",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Canadian Growth Stocks With At Least 43% Earnings Growth",
+            "description": "Accelerating US inflation, driven by sharp moves in energy prices, keeps pressure on interest rates and has made dependable earnings growth harder to find. That is where a group of financially solid Canadian growth stocks becomes interesting. According to ana…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T20:04:54Z",
+            "url": "https://biztoc.com/x/0514a0438e9c1b95",
+            "sentiment_score": 0.7116,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Your Payments Got Faster. So Why Didn’t Your Finance Team?",
@@ -789,40 +829,10 @@
             "url": "https://biztoc.com/x/79e9f56eddd46963",
             "sentiment_score": -0.3747,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Australian Undervalued Stocks Trading At Least 26% Below Fair Value",
-            "description": "Higher borrowing costs are back in focus after fresh U.S. inflation data increased the odds of another Federal Reserve rate hike this year. When interest rates stay elevated, Australian investors often pay closer attention to companies that generate solid cas…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T01:12:17Z",
-            "url": "https://biztoc.com/x/a342b4a9fba2353f",
-            "sentiment_score": 0.6298,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Leaders weigh ‘huge benefit’, risks of AI for global economy",
-            "description": "Federal Reserve Chair Kevin Warsh called AI the \"most consequential change\" to the global economy in his lifetime, and said it had \"a huge benefit\". Still, he warned the road ahead would be \"bumpy.\"\nThe post Leaders weigh ‘huge benefit’, risks of AI for globa…",
-            "source": "Digital Journal",
-            "published_at": "2026-10-17T20:03:12Z",
-            "url": "https://www.digitaljournal.com/article/leaders-weigh-huge-benefit-risks-of-ai-for-global-economy/",
-            "sentiment_score": -0.1093,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘How many canaries have we killed in the coal mine?’ — Wall Street debates if the latest AI bubble warnings are another head fake or the real thing",
-            "description": "\"I don't know whether this is the breaking point or another 25 or 50 basis points higher is the breaking point.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-17T19:43:24Z",
-            "url": "https://fortune.com/2026/10/17/ai-boom-vs-bust-bubble-warning-hyperscaler-spending-debt-coreweave-nvidia/",
-            "sentiment_score": -0.6082,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.1329,
+      "net_score": 0.0678,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -832,14 +842,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.33037,
+      "price_now": 1.33074,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 42.0,
-      "rsi_signal": "โซนกลาง (RSI=42.0)",
+      "rsi_value": 44.0,
+      "rsi_signal": "โซนกลาง (RSI=44.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00118,
-      "suggested_sl_distance": 0.00177,
+      "atr_value": 0.00117,
+      "suggested_sl_distance": 0.00175,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -853,7 +863,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-19T19:12:33.444134+00:00"
+    "generated_at": "2026-10-19T23:31:05.785659+00:00"
   },
   {
     "pair": "USDJPY",
@@ -862,10 +872,40 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.039,
+        "average_score": 0.0132,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Top Australian Penny Stocks For October 2026",
+            "description": "Accelerating US inflation and concern about volatility in tech shares have pushed many investors toward smaller pockets of the market that already priced in a lot of fear. That creates an opening in Australian low priced shares with stronger balance sheets, w…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T22:04:30Z",
+            "url": "https://biztoc.com/x/c8fc90f634001d32",
+            "sentiment_score": 0.2681,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama Defends Ilhan Omar After Federal Raid on Her Home",
+            "description": "Former President Barack Obama defended Rep. Ilhan Omar (D-MN) after agents with the Department of Homeland Security conducted a raid on her home as part of an immigration fraud investigation.\nThe post Obama Defends Ilhan Omar After Federal Raid on Her Home ap…",
+            "source": "Breitbart News",
+            "published_at": "2026-10-18T20:52:35Z",
+            "url": "https://www.breitbart.com/politics/2026/10/18/obama-defends-ilhan-omar-after-federal-raid-on-her-home/",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Canadian Growth Stocks With At Least 43% Earnings Growth",
+            "description": "Accelerating US inflation, driven by sharp moves in energy prices, keeps pressure on interest rates and has made dependable earnings growth harder to find. That is where a group of financially solid Canadian growth stocks becomes interesting. According to ana…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T20:04:54Z",
+            "url": "https://biztoc.com/x/0514a0438e9c1b95",
+            "sentiment_score": 0.7116,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Your Payments Got Faster. So Why Didn’t Your Finance Team?",
@@ -1135,36 +1175,6 @@
             "url": "https://biztoc.com/x/79e9f56eddd46963",
             "sentiment_score": -0.3747,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Australian Undervalued Stocks Trading At Least 26% Below Fair Value",
-            "description": "Higher borrowing costs are back in focus after fresh U.S. inflation data increased the odds of another Federal Reserve rate hike this year. When interest rates stay elevated, Australian investors often pay closer attention to companies that generate solid cas…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T01:12:17Z",
-            "url": "https://biztoc.com/x/a342b4a9fba2353f",
-            "sentiment_score": 0.6298,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Leaders weigh ‘huge benefit’, risks of AI for global economy",
-            "description": "Federal Reserve Chair Kevin Warsh called AI the \"most consequential change\" to the global economy in his lifetime, and said it had \"a huge benefit\". Still, he warned the road ahead would be \"bumpy.\"\nThe post Leaders weigh ‘huge benefit’, risks of AI for globa…",
-            "source": "Digital Journal",
-            "published_at": "2026-10-17T20:03:12Z",
-            "url": "https://www.digitaljournal.com/article/leaders-weigh-huge-benefit-risks-of-ai-for-global-economy/",
-            "sentiment_score": -0.1093,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘How many canaries have we killed in the coal mine?’ — Wall Street debates if the latest AI bubble warnings are another head fake or the real thing",
-            "description": "\"I don't know whether this is the breaking point or another 25 or 50 basis points higher is the breaking point.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-17T19:43:24Z",
-            "url": "https://fortune.com/2026/10/17/ai-boom-vs-bust-bubble-warning-hyperscaler-spending-debt-coreweave-nvidia/",
-            "sentiment_score": -0.6082,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
@@ -1174,7 +1184,7 @@
         "article_count": 0,
         "scored_articles": []
       },
-      "net_score": -0.039,
+      "net_score": 0.0132,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1184,14 +1194,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.52699,
+      "price_now": 158.58299,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 66.8,
-      "rsi_signal": "โซนกลาง (RSI=66.8)",
+      "rsi_value": 68.7,
+      "rsi_signal": "โซนกลาง (RSI=68.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.13754,
-      "suggested_sl_distance": 0.20631,
+      "atr_value": 0.14232,
+      "suggested_sl_distance": 0.21348,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1203,9 +1213,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=66.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=68.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-19T19:12:33.444134+00:00"
+    "generated_at": "2026-10-19T23:31:05.785659+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1214,10 +1224,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1417,
-        "label": "ลบเล็กน้อย",
-        "article_count": 2,
+        "average_score": -0.2925,
+        "label": "ลบชัดเจน (Bearish)",
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "High oil prices fuel renewed inflation fears",
+            "description": "The economic bad news just keeps on coming for the Albanese government with warnings over inflation, interest rates and consumer confidence. Meanwhile, Ukraine has ignored Donald Trump and resumed strikes on Russian oil facilities.\nThe post High oil prices fu…",
+            "source": "Crikey",
+            "published_at": "2026-10-18T20:10:58Z",
+            "url": "http://www.crikey.com.au/2026/10/19/economy-oil-prices-inflation-rba-interest-rates-trump-ukraine-zelenskyy/",
+            "sentiment_score": -0.4432,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "AUD",
             "title": "Labor admits it knew ATO was considering controversial credit card ban months before Aussies were told",
@@ -1241,10 +1261,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.039,
+        "average_score": 0.0132,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Top Australian Penny Stocks For October 2026",
+            "description": "Accelerating US inflation and concern about volatility in tech shares have pushed many investors toward smaller pockets of the market that already priced in a lot of fear. That creates an opening in Australian low priced shares with stronger balance sheets, w…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T22:04:30Z",
+            "url": "https://biztoc.com/x/c8fc90f634001d32",
+            "sentiment_score": 0.2681,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama Defends Ilhan Omar After Federal Raid on Her Home",
+            "description": "Former President Barack Obama defended Rep. Ilhan Omar (D-MN) after agents with the Department of Homeland Security conducted a raid on her home as part of an immigration fraud investigation.\nThe post Obama Defends Ilhan Omar After Federal Raid on Her Home ap…",
+            "source": "Breitbart News",
+            "published_at": "2026-10-18T20:52:35Z",
+            "url": "https://www.breitbart.com/politics/2026/10/18/obama-defends-ilhan-omar-after-federal-raid-on-her-home/",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Canadian Growth Stocks With At Least 43% Earnings Growth",
+            "description": "Accelerating US inflation, driven by sharp moves in energy prices, keeps pressure on interest rates and has made dependable earnings growth harder to find. That is where a group of financially solid Canadian growth stocks becomes interesting. According to ana…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T20:04:54Z",
+            "url": "https://biztoc.com/x/0514a0438e9c1b95",
+            "sentiment_score": 0.7116,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Your Payments Got Faster. So Why Didn’t Your Finance Team?",
@@ -1514,57 +1564,27 @@
             "url": "https://biztoc.com/x/79e9f56eddd46963",
             "sentiment_score": -0.3747,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Australian Undervalued Stocks Trading At Least 26% Below Fair Value",
-            "description": "Higher borrowing costs are back in focus after fresh U.S. inflation data increased the odds of another Federal Reserve rate hike this year. When interest rates stay elevated, Australian investors often pay closer attention to companies that generate solid cas…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T01:12:17Z",
-            "url": "https://biztoc.com/x/a342b4a9fba2353f",
-            "sentiment_score": 0.6298,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Leaders weigh ‘huge benefit’, risks of AI for global economy",
-            "description": "Federal Reserve Chair Kevin Warsh called AI the \"most consequential change\" to the global economy in his lifetime, and said it had \"a huge benefit\". Still, he warned the road ahead would be \"bumpy.\"\nThe post Leaders weigh ‘huge benefit’, risks of AI for globa…",
-            "source": "Digital Journal",
-            "published_at": "2026-10-17T20:03:12Z",
-            "url": "https://www.digitaljournal.com/article/leaders-weigh-huge-benefit-risks-of-ai-for-global-economy/",
-            "sentiment_score": -0.1093,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘How many canaries have we killed in the coal mine?’ — Wall Street debates if the latest AI bubble warnings are another head fake or the real thing",
-            "description": "\"I don't know whether this is the breaking point or another 25 or 50 basis points higher is the breaking point.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-17T19:43:24Z",
-            "url": "https://fortune.com/2026/10/17/ai-boom-vs-bust-bubble-warning-hyperscaler-spending-debt-coreweave-nvidia/",
-            "sentiment_score": -0.6082,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.1027,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.3057,
+      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69818,
+      "price_now": 0.69832,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 56.3,
-      "rsi_signal": "โซนกลาง (RSI=56.3)",
+      "rsi_value": 57.5,
+      "rsi_signal": "โซนกลาง (RSI=57.5)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
       "atr_value": 0.00066,
-      "suggested_sl_distance": 0.00099,
+      "suggested_sl_distance": 0.001,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1578,7 +1598,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-19T19:12:33.444134+00:00"
+    "generated_at": "2026-10-19T23:31:05.785659+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1587,10 +1607,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0102,
+        "average_score": -0.0372,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 4,
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "5 things to watch on the ASX 200 on Monday",
+            "description": "Here's what to expect on the local market today.\nThe post 5 things to watch on the ASX 200 on Monday appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-10-18T20:37:19Z",
+            "url": "https://www.fool.com.au/2026/10/19/5-things-to-watch-on-the-asx-200-on-monday-19-october-2026/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "tickfeed added to PyPI",
@@ -1634,10 +1664,40 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.039,
+        "average_score": 0.0132,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Top Australian Penny Stocks For October 2026",
+            "description": "Accelerating US inflation and concern about volatility in tech shares have pushed many investors toward smaller pockets of the market that already priced in a lot of fear. That creates an opening in Australian low priced shares with stronger balance sheets, w…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T22:04:30Z",
+            "url": "https://biztoc.com/x/c8fc90f634001d32",
+            "sentiment_score": 0.2681,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama Defends Ilhan Omar After Federal Raid on Her Home",
+            "description": "Former President Barack Obama defended Rep. Ilhan Omar (D-MN) after agents with the Department of Homeland Security conducted a raid on her home as part of an immigration fraud investigation.\nThe post Obama Defends Ilhan Omar After Federal Raid on Her Home ap…",
+            "source": "Breitbart News",
+            "published_at": "2026-10-18T20:52:35Z",
+            "url": "https://www.breitbart.com/politics/2026/10/18/obama-defends-ilhan-omar-after-federal-raid-on-her-home/",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Canadian Growth Stocks With At Least 43% Earnings Growth",
+            "description": "Accelerating US inflation, driven by sharp moves in energy prices, keeps pressure on interest rates and has made dependable earnings growth harder to find. That is where a group of financially solid Canadian growth stocks becomes interesting. According to ana…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T20:04:54Z",
+            "url": "https://biztoc.com/x/0514a0438e9c1b95",
+            "sentiment_score": 0.7116,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Your Payments Got Faster. So Why Didn’t Your Finance Team?",
@@ -1907,40 +1967,10 @@
             "url": "https://biztoc.com/x/79e9f56eddd46963",
             "sentiment_score": -0.3747,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Australian Undervalued Stocks Trading At Least 26% Below Fair Value",
-            "description": "Higher borrowing costs are back in focus after fresh U.S. inflation data increased the odds of another Federal Reserve rate hike this year. When interest rates stay elevated, Australian investors often pay closer attention to companies that generate solid cas…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T01:12:17Z",
-            "url": "https://biztoc.com/x/a342b4a9fba2353f",
-            "sentiment_score": 0.6298,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Leaders weigh ‘huge benefit’, risks of AI for global economy",
-            "description": "Federal Reserve Chair Kevin Warsh called AI the \"most consequential change\" to the global economy in his lifetime, and said it had \"a huge benefit\". Still, he warned the road ahead would be \"bumpy.\"\nThe post Leaders weigh ‘huge benefit’, risks of AI for globa…",
-            "source": "Digital Journal",
-            "published_at": "2026-10-17T20:03:12Z",
-            "url": "https://www.digitaljournal.com/article/leaders-weigh-huge-benefit-risks-of-ai-for-global-economy/",
-            "sentiment_score": -0.1093,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘How many canaries have we killed in the coal mine?’ — Wall Street debates if the latest AI bubble warnings are another head fake or the real thing",
-            "description": "\"I don't know whether this is the breaking point or another 25 or 50 basis points higher is the breaking point.\"",
-            "source": "Fortune",
-            "published_at": "2026-10-17T19:43:24Z",
-            "url": "https://fortune.com/2026/10/17/ai-boom-vs-bust-bubble-warning-hyperscaler-spending-debt-coreweave-nvidia/",
-            "sentiment_score": -0.6082,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0492,
+      "net_score": -0.0504,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1950,17 +1980,17 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4164.7998,
+      "price_now": 4153.0,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 36.6,
-      "rsi_signal": "โซนกลาง (RSI=36.6)",
+      "rsi_value": 29.5,
+      "rsi_signal": "ขายมากเกิน (RSI=29.5) ราคาอาจเด้ง",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 12.15856,
-      "suggested_sl_distance": 18.23784,
+      "atr_value": 11.02721,
+      "suggested_sl_distance": 16.54081,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "technical_vote": -1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1969,8 +1999,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=36.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=29.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-19T19:12:33.444134+00:00"
+    "generated_at": "2026-10-19T23:31:05.785659+00:00"
   }
 ]
