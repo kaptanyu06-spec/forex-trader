@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.2818,
+        "average_score": -0.3544,
         "label": "ลบชัดเจน (Bearish)",
-        "article_count": 5,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
+            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:00:14Z",
+            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
+            "sentiment_score": -0.5361,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "‘France, truly, is on the brink’ and just days away from a make-or-break moment in its debt crisis, analyst warns, as protests turn into riots",
@@ -63,10 +73,100 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0562,
+        "average_score": 0.0795,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
+            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T12:31:18Z",
+            "url": "https://biztoc.com/x/c065b2f5f232d221",
+            "sentiment_score": -0.0641,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
+            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-18T11:09:31Z",
+            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
+            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:30:54Z",
+            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
+            "sentiment_score": -0.064,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T10:15:05Z",
+            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
+            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:00:14Z",
+            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
+            "sentiment_score": -0.5361,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
+            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T08:11:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
+            "sentiment_score": 0.2658,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+            "description": "Foreign portfolio investors have withdrawn Rs 52,100 crore from Indian equities as of October this year. This follows a net withdrawal of Rs 35,861 crore in September, indicating ongoing financial retreat. Elevated crude oil prices, higher US bond yields, and…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T06:33:22Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Faces Second Inflation Report as Midterms Approach",
+            "description": "President Donald Trump faced a second inflation setback in as many days on Thursday, Oct. 15, after the Producer Price Index (PPI) for final demand rose 1.3% in September, the largest monthly increase in more than four years, according to the Bureau of Labor …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-trump-faces-second-inflation-report-midterms-approach.html",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
+            "description": "A continued selloff in shares tied to artificial intelligence (AI) accelerated Thursday, Oct. 15 – pushing investors toward U.S. government bonds and defensive stock sectors, according to market data and analyst notes. MarketWatch reported that a continued se…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-ai-stock-selloff-accelerates-investors-treasuries-defensive.html",
+            "sentiment_score": 0.3563,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FPIs pull out ₹52,100 crore from equities in Oct so far amid global headwinds",
@@ -276,121 +376,41 @@
             "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
             "sentiment_score": -0.2229,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
-            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
-            "source": "Theepochtimes.com",
-            "published_at": "2026-10-17T04:37:15Z",
-            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
-            "description": "This week, the dollar faced a notable drop due to decreased expectations for interest rate increases from the Federal Reserve. Federal officials' remarks have led to steadying Treasury yields, which in turn weakened the dollar's position. Concurrently, the eu…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:08:05Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-heads-for-weekly-loss-as-fed-hike-bets-fade-ai-jitters-linger/articleshow/135007121.cms",
-            "sentiment_score": -0.1919,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold set for a weekly drop as traders assess Fed signals",
-            "description": "Gold prices have held steady this week, though they are set to close lower overall as market participants assess the potential for a Federal Reserve rate hike. Spot gold recorded a modest drop of 0.1%, while futures displayed slight gains amid market hesitanc…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:06:22Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms",
-            "sentiment_score": -0.2796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: As AI rally wobbles, stock market's spotlight turns to earnings",
-            "description": "Investor confidence in the market is wavering due to recent declines in AI-linked stocks and semiconductor firms. Upcoming quarterly results from major players, including Meta Platforms, are being closely monitored by investors. Analysts are watching whether …",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T03:59:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings/articleshow/135007046.cms",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-            "description": "The S&amp;P 500 was down 1.22% at 7,649.71 points. The Nasdaq ​declined 2.19% to 26,128.13 points, while the Dow Jones Industrial Average was down 0.55% at 51,891.77 points.",
-            "source": "Moneycontrol",
-            "published_at": "2026-10-17T02:30:58Z",
-            "url": "https://www.moneycontrol.com/news/business/markets/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh-14054246.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How the Iran Conflict Opened a New Threat to the Global Monetary System",
-            "description": "Midnight fell differently on February 28, 2026. Across trading floors from Singapore to Chicago, monitors flickered with data streams that would soon curdle into panic. At 0400 hours Tehran time, American B-2 Spirit bombers and Israeli F-35I Adir fighters cro…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-17T01:29:00Z",
-            "url": "https://activistpost.com/how-the-iran-conflict-opened-a-new-threat-to-the-global-monetary-system/",
-            "sentiment_score": -0.61,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Fed Finds Surging Costs Turn Executive Outlook Negative",
-            "description": "Service sector firms in New York State and nearby areas became pessimistic about the business outlook in early October, for the first time since December 2025, the Federal Reserve Bank of New York said in its October “Business Leaders Survey.” The survey’s in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-17T00:49:04Z",
-            "url": "https://biztoc.com/x/2389c09da6eff5d3",
-            "sentiment_score": -0.5087,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: Inflation Takes Flight, and AI Debt Hits Turbulence",
-            "description": "The Weekly Wrap: Wall Street’s Adventures in Wishful Listening Welcome back to Friday! This is another edition of the Breitbart Business Digest weekly wrap. It was inflation week in America. The consumer price index jumped 0.6 percent because greedy drivers\nT…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-17T00:28:13Z",
-            "url": "https://www.breitbart.com/economy/2026/10/16/breitbart-business-digest-inflation-takes-flight-and-ai-debt-hits-turbulence/",
-            "sentiment_score": -0.0952,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.338,
+      "net_score": -0.4339,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12296,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 1.12259,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 47.6,
-      "rsi_signal": "โซนกลาง (RSI=47.6)",
+      "rsi_value": 49.3,
+      "rsi_signal": "โซนกลาง (RSI=49.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00111,
-      "suggested_sl_distance": 0.00166,
+      "atr_value": 0.0014,
+      "suggested_sl_distance": 0.0021,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=49.3) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-19T05:57:42.443978+00:00"
+    "generated_at": "2026-10-19T12:51:48.662927+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -399,10 +419,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1398,
-        "label": "ลบเล็กน้อย",
-        "article_count": 5,
+        "average_score": 0.0986,
+        "label": "บวกเล็กน้อย",
+        "article_count": 8,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "FO Exclusive: Canada Breaks up With the US and Flirts With the EU",
+            "description": "Editor-in-Chief Atul Singh and FOI Senior Partner Glenn Carle, a retired CIA officer who now advises companies, governments and organizations on geopolitical risk, discuss the growing breach between Canada and the United States. US President Donald Trump’s pr…",
+            "source": "Fair Observer",
+            "published_at": "2026-10-18T12:39:32Z",
+            "url": "https://www.fairobserver.com/world-news/us-news/fo-exclusive-canada-breaks-up-with-the-us-and-flirts-with-the-eu/",
+            "sentiment_score": 0.3092,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Top 3 British Growth Stocks To Watch In October 2026",
+            "description": "Soaring energy prices have pushed UK inflation to 3.7% in September, which keeps pressure on interest rates and squeezes household budgets. Fast growing British businesses where insiders own meaningful stakes can look attractive in this kind of climate, becau…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T11:29:40Z",
+            "url": "https://biztoc.com/x/0e3f3f954506ad02",
+            "sentiment_score": 0.6182,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Why hedge funds could be making a bond market shock more likely",
+            "description": "Hedge funds' increased presence in global bond markets makes the likelihood of a broader market shock \"greater than what it was,\" Bank of England deputy governor Sarah Breeden told CNBC Thursday.\nBreeden — the central bank's deputy governor for financial stab…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T06:27:34Z",
+            "url": "https://biztoc.com/x/3551adffd4f3998d",
+            "sentiment_score": -0.1923,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Why hedge funds could be making a bond market shock more likely",
@@ -456,10 +506,100 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0562,
+        "average_score": 0.0795,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
+            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T12:31:18Z",
+            "url": "https://biztoc.com/x/c065b2f5f232d221",
+            "sentiment_score": -0.0641,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
+            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-18T11:09:31Z",
+            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
+            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:30:54Z",
+            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
+            "sentiment_score": -0.064,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T10:15:05Z",
+            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
+            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:00:14Z",
+            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
+            "sentiment_score": -0.5361,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
+            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T08:11:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
+            "sentiment_score": 0.2658,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+            "description": "Foreign portfolio investors have withdrawn Rs 52,100 crore from Indian equities as of October this year. This follows a net withdrawal of Rs 35,861 crore in September, indicating ongoing financial retreat. Elevated crude oil prices, higher US bond yields, and…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T06:33:22Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Faces Second Inflation Report as Midterms Approach",
+            "description": "President Donald Trump faced a second inflation setback in as many days on Thursday, Oct. 15, after the Producer Price Index (PPI) for final demand rose 1.3% in September, the largest monthly increase in more than four years, according to the Bureau of Labor …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-trump-faces-second-inflation-report-midterms-approach.html",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
+            "description": "A continued selloff in shares tied to artificial intelligence (AI) accelerated Thursday, Oct. 15 – pushing investors toward U.S. government bonds and defensive stock sectors, according to market data and analyst notes. MarketWatch reported that a continued se…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-ai-stock-selloff-accelerates-investors-treasuries-defensive.html",
+            "sentiment_score": 0.3563,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FPIs pull out ₹52,100 crore from equities in Oct so far amid global headwinds",
@@ -669,107 +809,27 @@
             "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
             "sentiment_score": -0.2229,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
-            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
-            "source": "Theepochtimes.com",
-            "published_at": "2026-10-17T04:37:15Z",
-            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
-            "description": "This week, the dollar faced a notable drop due to decreased expectations for interest rate increases from the Federal Reserve. Federal officials' remarks have led to steadying Treasury yields, which in turn weakened the dollar's position. Concurrently, the eu…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:08:05Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-heads-for-weekly-loss-as-fed-hike-bets-fade-ai-jitters-linger/articleshow/135007121.cms",
-            "sentiment_score": -0.1919,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold set for a weekly drop as traders assess Fed signals",
-            "description": "Gold prices have held steady this week, though they are set to close lower overall as market participants assess the potential for a Federal Reserve rate hike. Spot gold recorded a modest drop of 0.1%, while futures displayed slight gains amid market hesitanc…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:06:22Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms",
-            "sentiment_score": -0.2796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: As AI rally wobbles, stock market's spotlight turns to earnings",
-            "description": "Investor confidence in the market is wavering due to recent declines in AI-linked stocks and semiconductor firms. Upcoming quarterly results from major players, including Meta Platforms, are being closely monitored by investors. Analysts are watching whether …",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T03:59:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings/articleshow/135007046.cms",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-            "description": "The S&amp;P 500 was down 1.22% at 7,649.71 points. The Nasdaq ​declined 2.19% to 26,128.13 points, while the Dow Jones Industrial Average was down 0.55% at 51,891.77 points.",
-            "source": "Moneycontrol",
-            "published_at": "2026-10-17T02:30:58Z",
-            "url": "https://www.moneycontrol.com/news/business/markets/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh-14054246.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How the Iran Conflict Opened a New Threat to the Global Monetary System",
-            "description": "Midnight fell differently on February 28, 2026. Across trading floors from Singapore to Chicago, monitors flickered with data streams that would soon curdle into panic. At 0400 hours Tehran time, American B-2 Spirit bombers and Israeli F-35I Adir fighters cro…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-17T01:29:00Z",
-            "url": "https://activistpost.com/how-the-iran-conflict-opened-a-new-threat-to-the-global-monetary-system/",
-            "sentiment_score": -0.61,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Fed Finds Surging Costs Turn Executive Outlook Negative",
-            "description": "Service sector firms in New York State and nearby areas became pessimistic about the business outlook in early October, for the first time since December 2025, the Federal Reserve Bank of New York said in its October “Business Leaders Survey.” The survey’s in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-17T00:49:04Z",
-            "url": "https://biztoc.com/x/2389c09da6eff5d3",
-            "sentiment_score": -0.5087,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: Inflation Takes Flight, and AI Debt Hits Turbulence",
-            "description": "The Weekly Wrap: Wall Street’s Adventures in Wishful Listening Welcome back to Friday! This is another edition of the Breitbart Business Digest weekly wrap. It was inflation week in America. The consumer price index jumped 0.6 percent because greedy drivers\nT…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-17T00:28:13Z",
-            "url": "https://www.breitbart.com/economy/2026/10/16/breitbart-business-digest-inflation-takes-flight-and-ai-debt-hits-turbulence/",
-            "sentiment_score": -0.0952,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.196,
-      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
+      "net_score": 0.0191,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3331,
+      "price_now": 1.33241,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 58.5,
-      "rsi_signal": "โซนกลาง (RSI=58.5)",
+      "rsi_value": 50.9,
+      "rsi_signal": "โซนกลาง (RSI=50.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00107,
-      "suggested_sl_distance": 0.0016,
+      "atr_value": 0.0013,
+      "suggested_sl_distance": 0.00196,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -783,7 +843,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-19T05:57:42.443978+00:00"
+    "generated_at": "2026-10-19T12:51:48.662927+00:00"
   },
   {
     "pair": "USDJPY",
@@ -792,10 +852,100 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0562,
+        "average_score": 0.0795,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
+            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T12:31:18Z",
+            "url": "https://biztoc.com/x/c065b2f5f232d221",
+            "sentiment_score": -0.0641,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
+            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-18T11:09:31Z",
+            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
+            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:30:54Z",
+            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
+            "sentiment_score": -0.064,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T10:15:05Z",
+            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
+            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:00:14Z",
+            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
+            "sentiment_score": -0.5361,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
+            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T08:11:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
+            "sentiment_score": 0.2658,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+            "description": "Foreign portfolio investors have withdrawn Rs 52,100 crore from Indian equities as of October this year. This follows a net withdrawal of Rs 35,861 crore in September, indicating ongoing financial retreat. Elevated crude oil prices, higher US bond yields, and…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T06:33:22Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Faces Second Inflation Report as Midterms Approach",
+            "description": "President Donald Trump faced a second inflation setback in as many days on Thursday, Oct. 15, after the Producer Price Index (PPI) for final demand rose 1.3% in September, the largest monthly increase in more than four years, according to the Bureau of Labor …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-trump-faces-second-inflation-report-midterms-approach.html",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
+            "description": "A continued selloff in shares tied to artificial intelligence (AI) accelerated Thursday, Oct. 15 – pushing investors toward U.S. government bonds and defensive stock sectors, according to market data and analyst notes. MarketWatch reported that a continued se…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-ai-stock-selloff-accelerates-investors-treasuries-defensive.html",
+            "sentiment_score": 0.3563,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FPIs pull out ₹52,100 crore from equities in Oct so far amid global headwinds",
@@ -1005,86 +1155,6 @@
             "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
             "sentiment_score": -0.2229,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
-            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
-            "source": "Theepochtimes.com",
-            "published_at": "2026-10-17T04:37:15Z",
-            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
-            "description": "This week, the dollar faced a notable drop due to decreased expectations for interest rate increases from the Federal Reserve. Federal officials' remarks have led to steadying Treasury yields, which in turn weakened the dollar's position. Concurrently, the eu…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:08:05Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-heads-for-weekly-loss-as-fed-hike-bets-fade-ai-jitters-linger/articleshow/135007121.cms",
-            "sentiment_score": -0.1919,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold set for a weekly drop as traders assess Fed signals",
-            "description": "Gold prices have held steady this week, though they are set to close lower overall as market participants assess the potential for a Federal Reserve rate hike. Spot gold recorded a modest drop of 0.1%, while futures displayed slight gains amid market hesitanc…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:06:22Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms",
-            "sentiment_score": -0.2796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: As AI rally wobbles, stock market's spotlight turns to earnings",
-            "description": "Investor confidence in the market is wavering due to recent declines in AI-linked stocks and semiconductor firms. Upcoming quarterly results from major players, including Meta Platforms, are being closely monitored by investors. Analysts are watching whether …",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T03:59:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings/articleshow/135007046.cms",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-            "description": "The S&amp;P 500 was down 1.22% at 7,649.71 points. The Nasdaq ​declined 2.19% to 26,128.13 points, while the Dow Jones Industrial Average was down 0.55% at 51,891.77 points.",
-            "source": "Moneycontrol",
-            "published_at": "2026-10-17T02:30:58Z",
-            "url": "https://www.moneycontrol.com/news/business/markets/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh-14054246.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How the Iran Conflict Opened a New Threat to the Global Monetary System",
-            "description": "Midnight fell differently on February 28, 2026. Across trading floors from Singapore to Chicago, monitors flickered with data streams that would soon curdle into panic. At 0400 hours Tehran time, American B-2 Spirit bombers and Israeli F-35I Adir fighters cro…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-17T01:29:00Z",
-            "url": "https://activistpost.com/how-the-iran-conflict-opened-a-new-threat-to-the-global-monetary-system/",
-            "sentiment_score": -0.61,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Fed Finds Surging Costs Turn Executive Outlook Negative",
-            "description": "Service sector firms in New York State and nearby areas became pessimistic about the business outlook in early October, for the first time since December 2025, the Federal Reserve Bank of New York said in its October “Business Leaders Survey.” The survey’s in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-17T00:49:04Z",
-            "url": "https://biztoc.com/x/2389c09da6eff5d3",
-            "sentiment_score": -0.5087,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: Inflation Takes Flight, and AI Debt Hits Turbulence",
-            "description": "The Weekly Wrap: Wall Street’s Adventures in Wishful Listening Welcome back to Friday! This is another edition of the Breitbart Business Digest weekly wrap. It was inflation week in America. The consumer price index jumped 0.6 percent because greedy drivers\nT…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-17T00:28:13Z",
-            "url": "https://www.breitbart.com/economy/2026/10/16/breitbart-business-digest-inflation-takes-flight-and-ai-debt-hits-turbulence/",
-            "sentiment_score": -0.0952,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
@@ -1094,7 +1164,7 @@
         "article_count": 0,
         "scored_articles": []
       },
-      "net_score": 0.0562,
+      "net_score": 0.0795,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1104,17 +1174,17 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.092,
+      "price_now": 158.356,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.9,
-      "rsi_signal": "โซนกลาง (RSI=53.9)",
+      "rsi_value": 62.6,
+      "rsi_signal": "โซนกลาง (RSI=62.6)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.17467,
-      "suggested_sl_distance": 0.262,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "atr_value": 0.16842,
+      "suggested_sl_distance": 0.25263,
+      "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
+      "technical_vote": 1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "up",
       "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1123,9 +1193,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=53.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=62.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-19T05:57:42.443978+00:00"
+    "generated_at": "2026-10-19T12:51:48.662927+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1161,10 +1231,100 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0562,
+        "average_score": 0.0795,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
+            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T12:31:18Z",
+            "url": "https://biztoc.com/x/c065b2f5f232d221",
+            "sentiment_score": -0.0641,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
+            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-18T11:09:31Z",
+            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
+            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:30:54Z",
+            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
+            "sentiment_score": -0.064,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T10:15:05Z",
+            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
+            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:00:14Z",
+            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
+            "sentiment_score": -0.5361,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
+            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T08:11:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
+            "sentiment_score": 0.2658,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+            "description": "Foreign portfolio investors have withdrawn Rs 52,100 crore from Indian equities as of October this year. This follows a net withdrawal of Rs 35,861 crore in September, indicating ongoing financial retreat. Elevated crude oil prices, higher US bond yields, and…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T06:33:22Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Faces Second Inflation Report as Midterms Approach",
+            "description": "President Donald Trump faced a second inflation setback in as many days on Thursday, Oct. 15, after the Producer Price Index (PPI) for final demand rose 1.3% in September, the largest monthly increase in more than four years, according to the Bureau of Labor …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-trump-faces-second-inflation-report-midterms-approach.html",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
+            "description": "A continued selloff in shares tied to artificial intelligence (AI) accelerated Thursday, Oct. 15 – pushing investors toward U.S. government bonds and defensive stock sectors, according to market data and analyst notes. MarketWatch reported that a continued se…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-ai-stock-selloff-accelerates-investors-treasuries-defensive.html",
+            "sentiment_score": 0.3563,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FPIs pull out ₹52,100 crore from equities in Oct so far amid global headwinds",
@@ -1374,90 +1534,10 @@
             "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
             "sentiment_score": -0.2229,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
-            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
-            "source": "Theepochtimes.com",
-            "published_at": "2026-10-17T04:37:15Z",
-            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
-            "description": "This week, the dollar faced a notable drop due to decreased expectations for interest rate increases from the Federal Reserve. Federal officials' remarks have led to steadying Treasury yields, which in turn weakened the dollar's position. Concurrently, the eu…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:08:05Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-heads-for-weekly-loss-as-fed-hike-bets-fade-ai-jitters-linger/articleshow/135007121.cms",
-            "sentiment_score": -0.1919,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold set for a weekly drop as traders assess Fed signals",
-            "description": "Gold prices have held steady this week, though they are set to close lower overall as market participants assess the potential for a Federal Reserve rate hike. Spot gold recorded a modest drop of 0.1%, while futures displayed slight gains amid market hesitanc…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:06:22Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms",
-            "sentiment_score": -0.2796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: As AI rally wobbles, stock market's spotlight turns to earnings",
-            "description": "Investor confidence in the market is wavering due to recent declines in AI-linked stocks and semiconductor firms. Upcoming quarterly results from major players, including Meta Platforms, are being closely monitored by investors. Analysts are watching whether …",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T03:59:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings/articleshow/135007046.cms",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-            "description": "The S&amp;P 500 was down 1.22% at 7,649.71 points. The Nasdaq ​declined 2.19% to 26,128.13 points, while the Dow Jones Industrial Average was down 0.55% at 51,891.77 points.",
-            "source": "Moneycontrol",
-            "published_at": "2026-10-17T02:30:58Z",
-            "url": "https://www.moneycontrol.com/news/business/markets/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh-14054246.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How the Iran Conflict Opened a New Threat to the Global Monetary System",
-            "description": "Midnight fell differently on February 28, 2026. Across trading floors from Singapore to Chicago, monitors flickered with data streams that would soon curdle into panic. At 0400 hours Tehran time, American B-2 Spirit bombers and Israeli F-35I Adir fighters cro…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-17T01:29:00Z",
-            "url": "https://activistpost.com/how-the-iran-conflict-opened-a-new-threat-to-the-global-monetary-system/",
-            "sentiment_score": -0.61,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Fed Finds Surging Costs Turn Executive Outlook Negative",
-            "description": "Service sector firms in New York State and nearby areas became pessimistic about the business outlook in early October, for the first time since December 2025, the Federal Reserve Bank of New York said in its October “Business Leaders Survey.” The survey’s in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-17T00:49:04Z",
-            "url": "https://biztoc.com/x/2389c09da6eff5d3",
-            "sentiment_score": -0.5087,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: Inflation Takes Flight, and AI Debt Hits Turbulence",
-            "description": "The Weekly Wrap: Wall Street’s Adventures in Wishful Listening Welcome back to Friday! This is another edition of the Breitbart Business Digest weekly wrap. It was inflation week in America. The consumer price index jumped 0.6 percent because greedy drivers\nT…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-17T00:28:13Z",
-            "url": "https://www.breitbart.com/economy/2026/10/16/breitbart-business-digest-inflation-takes-flight-and-ai-debt-hits-turbulence/",
-            "sentiment_score": -0.0952,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.1979,
+      "net_score": -0.2212,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1467,14 +1547,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69769,
+      "price_now": 0.69857,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 63.2,
-      "rsi_signal": "โซนกลาง (RSI=63.2)",
+      "rsi_value": 62.3,
+      "rsi_signal": "โซนกลาง (RSI=62.3)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00075,
-      "suggested_sl_distance": 0.00113,
+      "atr_value": 0.00078,
+      "suggested_sl_distance": 0.00117,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1486,9 +1566,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=63.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=62.3) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-19T05:57:42.443978+00:00"
+    "generated_at": "2026-10-19T12:51:48.662927+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1534,10 +1614,100 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0562,
+        "average_score": 0.0795,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
+            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T12:31:18Z",
+            "url": "https://biztoc.com/x/c065b2f5f232d221",
+            "sentiment_score": -0.0641,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
+            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-18T11:09:31Z",
+            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
+            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:30:54Z",
+            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
+            "sentiment_score": -0.064,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
+            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-18T10:15:05Z",
+            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
+            "sentiment_score": 0.6213,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
+            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
+            "source": "Livemint",
+            "published_at": "2026-10-18T10:00:14Z",
+            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
+            "sentiment_score": -0.5361,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
+            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T08:11:02Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
+            "sentiment_score": 0.2658,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "FPIs pull out Rs 52,100 cr from equities in Oct so far amid global headwinds",
+            "description": "Foreign portfolio investors have withdrawn Rs 52,100 crore from Indian equities as of October this year. This follows a net withdrawal of Rs 35,861 crore in September, indicating ongoing financial retreat. Elevated crude oil prices, higher US bond yields, and…",
+            "source": "The Times of India",
+            "published_at": "2026-10-18T06:33:22Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-pull-out-rs-52100-cr-from-equities-in-oct-so-far-amid-global-headwinds/articleshow/135024995.cms",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump Faces Second Inflation Report as Midterms Approach",
+            "description": "President Donald Trump faced a second inflation setback in as many days on Thursday, Oct. 15, after the Producer Price Index (PPI) for final demand rose 1.3% in September, the largest monthly increase in more than four years, according to the Bureau of Labor …",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-trump-faces-second-inflation-report-midterms-approach.html",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Stock Selloff Accelerates as Investors Rotate to Treasury Bonds, Defensive Sectors",
+            "description": "A continued selloff in shares tied to artificial intelligence (AI) accelerated Thursday, Oct. 15 – pushing investors toward U.S. government bonds and defensive stock sectors, according to market data and analyst notes. MarketWatch reported that a continued se…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-18T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-18-ai-stock-selloff-accelerates-investors-treasuries-defensive.html",
+            "sentiment_score": 0.3563,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "FPIs pull out ₹52,100 crore from equities in Oct so far amid global headwinds",
@@ -1747,90 +1917,10 @@
             "url": "https://beta.manilatimes.net/2026/10/17/business/foreign-business/us-markets-are-weighed-down-by-an-extended-sell-off-in-the-tech-sector/2447853",
             "sentiment_score": -0.2229,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "From AI to Oil: US Import, Export Prices Rise Sharply in September",
-            "description": "In the 12 months ending in September, export prices advanced to almost 12 percent, the highest in more than four years.",
-            "source": "Theepochtimes.com",
-            "published_at": "2026-10-17T04:37:15Z",
-            "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar heads for weekly loss as Fed hike bets fade, AI jitters linger",
-            "description": "This week, the dollar faced a notable drop due to decreased expectations for interest rate increases from the Federal Reserve. Federal officials' remarks have led to steadying Treasury yields, which in turn weakened the dollar's position. Concurrently, the eu…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:08:05Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-heads-for-weekly-loss-as-fed-hike-bets-fade-ai-jitters-linger/articleshow/135007121.cms",
-            "sentiment_score": -0.1919,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold set for a weekly drop as traders assess Fed signals",
-            "description": "Gold prices have held steady this week, though they are set to close lower overall as market participants assess the potential for a Federal Reserve rate hike. Spot gold recorded a modest drop of 0.1%, while futures displayed slight gains amid market hesitanc…",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T04:06:22Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-a-weekly-drop-as-traders-assess-fed-signals/articleshow/135007093.cms",
-            "sentiment_score": -0.2796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: As AI rally wobbles, stock market's spotlight turns to earnings",
-            "description": "Investor confidence in the market is wavering due to recent declines in AI-linked stocks and semiconductor firms. Upcoming quarterly results from major players, including Meta Platforms, are being closely monitored by investors. Analysts are watching whether …",
-            "source": "The Times of India",
-            "published_at": "2026-10-17T03:59:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-as-ai-rally-wobbles-stock-markets-spotlight-turns-to-earnings/articleshow/135007046.cms",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-            "description": "The S&amp;P 500 was down 1.22% at 7,649.71 points. The Nasdaq ​declined 2.19% to 26,128.13 points, while the Dow Jones Industrial Average was down 0.55% at 51,891.77 points.",
-            "source": "Moneycontrol",
-            "published_at": "2026-10-17T02:30:58Z",
-            "url": "https://www.moneycontrol.com/news/business/markets/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh-14054246.html",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How the Iran Conflict Opened a New Threat to the Global Monetary System",
-            "description": "Midnight fell differently on February 28, 2026. Across trading floors from Singapore to Chicago, monitors flickered with data streams that would soon curdle into panic. At 0400 hours Tehran time, American B-2 Spirit bombers and Israeli F-35I Adir fighters cro…",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-17T01:29:00Z",
-            "url": "https://activistpost.com/how-the-iran-conflict-opened-a-new-threat-to-the-global-monetary-system/",
-            "sentiment_score": -0.61,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Fed Finds Surging Costs Turn Executive Outlook Negative",
-            "description": "Service sector firms in New York State and nearby areas became pessimistic about the business outlook in early October, for the first time since December 2025, the Federal Reserve Bank of New York said in its October “Business Leaders Survey.” The survey’s in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-17T00:49:04Z",
-            "url": "https://biztoc.com/x/2389c09da6eff5d3",
-            "sentiment_score": -0.5087,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Breitbart Business Digest: Inflation Takes Flight, and AI Debt Hits Turbulence",
-            "description": "The Weekly Wrap: Wall Street’s Adventures in Wishful Listening Welcome back to Friday! This is another edition of the Breitbart Business Digest weekly wrap. It was inflation week in America. The consumer price index jumped 0.6 percent because greedy drivers\nT…",
-            "source": "Breitbart News",
-            "published_at": "2026-10-17T00:28:13Z",
-            "url": "https://www.breitbart.com/economy/2026/10/16/breitbart-business-digest-inflation-takes-flight-and-ai-debt-hits-turbulence/",
-            "sentiment_score": -0.0952,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0392,
+      "net_score": -0.0625,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1840,27 +1930,27 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4205.6001,
+      "price_now": 4182.1001,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 58.1,
-      "rsi_signal": "โซนกลาง (RSI=58.1)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 14.71089,
-      "suggested_sl_distance": 22.06634,
+      "rsi_value": 42.9,
+      "rsi_signal": "โซนกลาง (RSI=42.9)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 13.77817,
+      "suggested_sl_distance": 20.66725,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=58.1) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-19T05:57:42.443978+00:00"
+    "generated_at": "2026-10-19T12:51:48.662927+00:00"
   }
 ]
