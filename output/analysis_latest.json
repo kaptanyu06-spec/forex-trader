@@ -6,10 +6,60 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1571,
+        "average_score": -0.1767,
         "label": "ลบเล็กน้อย",
-        "article_count": 5,
+        "article_count": 10,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
+            "description": "\"It looks like either the bond markets riot, or the people riot, or both,\" one analyst told CNBC.",
+            "source": "CNBC",
+            "published_at": "2026-10-19T09:07:09Z",
+            "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
+            "sentiment_score": -0.8061,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Global Market: Euro falls as French political unrest, high energy prices weigh on sentiment",
+            "description": "The euro weakened amid elevated energy prices and renewed French political uncertainty, while investors reassessed the outlook for US growth, interest rates and the dollar. The yen, yuan and Indonesian rupiah also moved as markets weighed central bank signals…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T08:51:17Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms",
+            "sentiment_score": 0.3289,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Global Market: Eurozone bond selloff to weigh on growth, curb inflation, Lagarde says",
+            "description": "ECB President Christine Lagarde warned that a global bond selloff is tightening euro zone financial conditions, raising borrowing costs and weighing on growth. Policymakers face a challenge balancing persistent energy-driven inflation risks against slowing ec…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T07:41:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-eurozone-bond-selloff-to-weigh-on-growth-curb-inflation-lagarde-says/articleshow/135043065.cms",
+            "sentiment_score": 0.2441,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "France's riots highlight a growing risk for its battered bond market",
+            "description": "Mass protests over living costs and school conditions swept across France over the weekend, with violence and looting breaking out in several cities.",
+            "source": "Business Insider",
+            "published_at": "2026-10-19T06:40:02Z",
+            "url": "https://www.businessinsider.com/france-protests-riots-paris-bond-market-debt-oats-yields-selloff-2026-10#article",
+            "sentiment_score": -0.4383,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
+            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
+            "source": "Europa.eu",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
+            "sentiment_score": -0.1912,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Gold edges higher on softer oil; Fed rate outlook in focus",
@@ -63,10 +113,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0023,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0934,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Which Trumpies’ Heads Will Roll Next?",
+            "description": "Trump will blame everyone else for midterm defeats, but only some of his people—most likely, women—will be tossed aside.\nThe post Which Trumpies’ Heads Will Roll Next? appeared first on The American Prospect.",
+            "source": "The American Prospect",
+            "published_at": "2026-10-19T09:30:00Z",
+            "url": "https://prospect.org/2026/10/19/which-trumpies-heads-will-roll-next-kimberly-guilfoyle-katie-zacharia/",
+            "sentiment_score": 0.0346,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury NPRM Comment Period Closes TODAY: What the Industry Filed Before the GENIUS Act Deadline",
+            "description": "The October 19, 2026, closure of the comment period for the GENIUS Act NPRM (TREAS-DO-2026-0496) signals the end of the primary public feedback phase for the administration’s stablecoin framework. Published as 91 FR 53368, the proposal drew significant indust…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-19T09:26:58Z",
+            "url": "https://forkast.news/treasury-nprm-comment-period-closes-today-what-the-industry-filed-before-the-genius-act-deadline/",
+            "sentiment_score": 0.2023,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Capex And Earnings: What Happens When Growth Slows",
+            "description": "AI capex and earnings are now so tightly tied that spending doesn't have to fall to hurt profits. It only has to stop accelerating.\r\n\n\r\n\n\n\n\n\n\nAlmost half of the S&P 500's earnings growth this year traces back to one activity: companies buying chips, servers, …",
+            "source": "Realinvestmentadvice.com",
+            "published_at": "2026-10-19T09:08:00Z",
+            "url": "https://realinvestmentadvice.com/resources/blog/ai-capex-and-earnings-what-happens-when-growth-slows/",
+            "sentiment_score": 0.2595,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Euro falls as French political unrest, high energy prices weigh on sentiment",
+            "description": "The euro weakened amid elevated energy prices and renewed French political uncertainty, while investors reassessed the outlook for US growth, interest rates and the dollar. The yen, yuan and Indonesian rupiah also moved as markets weighed central bank signals…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T08:51:17Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms",
+            "sentiment_score": 0.3289,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury yields move lower as investors assess U.S. inflation backdrop",
+            "description": "Treasury yields fell as investors weigh the domestic inflation and interest rate backdrop against broader geopolitical developments.",
+            "source": "CNBC",
+            "published_at": "2026-10-19T08:45:49Z",
+            "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+            "sentiment_score": 0.1039,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Rangarajan & Bhanumurthy: Can price levels rise without growth in money supply?",
+            "description": "The impact of changes in the broad availability of money on an economy’s general price level—or inflation—is clearer than the role of interest rate shifts. Here's what an analysis of academic theory as well as India’s empirical record shows—and what monetary …",
+            "source": "Livemint",
+            "published_at": "2026-10-19T08:31:02Z",
+            "url": "https://www.livemint.com/opinion/online-views/rangarajan-bhanumurthy-inflation-can-price-levels-rise-without-growth-in-money-supply-11792335610860.html",
+            "sentiment_score": -0.0172,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown",
+            "description": "The post The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown appeared first on 24/7 Wall St..\nLeave out rent or a mortgage, and the average American family spent $48,700 over the year before Federal Reserve interview…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T08:21:33Z",
+            "url": "https://biztoc.com/x/63cd3e0d049adabd",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
+            "description": "Janus Henderson macro chief Richard Bernstein says the AI stock sell-off could lower borrowing costs for small caps. The Federal Reserve is tightening, he argues, and speculative stocks are taking the first hit.\nA major chip ETF closed last Thursday nearly 14…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T07:06:19Z",
+            "url": "https://biztoc.com/x/00f94489892e8a7a",
+            "sentiment_score": 0.1233,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama accuses Trump of targeting Omar over political views",
+            "description": "Former US President Barack Obama has accused the Trump administration of targeting Congresswoman Ilhan Omar for deportation due to her political criticisms\n\nRead More: https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "source": "The Punch",
+            "published_at": "2026-10-19T06:50:08Z",
+            "url": "https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. Import Prices Rise 0.5% in September on Energy Costs, BLS Says",
+            "description": "U.S. import prices increased 0.5% in September, boosted by higher costs for energy products, the Bureau of Labor Statistics reported Friday in Washington. Energy prices climbed 3.2% during the month, while non-energy import prices were unchanged, according to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-us-import-rise-in-september-on-energy.html",
+            "sentiment_score": 0.4247,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "GENIUS Act Stirs Controversy as Former White House Insider Profited from Stablecoin Legislation",
+            "description": "In 2025, President Donald Trump approved the GENIUS Act, which aims to establish the U.S. as a global leader in digital assets through stablecoin regulation. Reports reveal that Bo Hines, who served as a Trump crypto adviser and later joined Tether, personall…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-former-white-house-insider-profited-stablecoin-legislation.html",
+            "sentiment_score": 0.3854,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices rise as traders pare bets on October Fed rate hike",
+            "description": "In the global market, gold futures on Comex were trading near $4,200 per ounce, while silver was trading near $57.60 per ounce",
+            "source": "Business Standard",
+            "published_at": "2026-10-19T05:46:29Z",
+            "url": "https://www.business-standard.com/markets/commodities/gold-silver-prices-rise-as-traders-pare-bets-on-october-fed-rate-hike-126101900270_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Congress Fixed Social Security During Its Last Crisis",
+            "description": "In 1983, the realization the program could implode propelled last-ditch compromises.",
+            "source": "Foreign Policy",
+            "published_at": "2026-10-19T05:32:24Z",
+            "url": "http://foreignpolicy.com/2026/10/19/congress-fixed-social-security/",
+            "sentiment_score": -0.2813,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China’s yuan hits four-year high as strong GDP data ease stimulus concerns",
+            "description": "China’s yuan strengthened to a four-year high against the US dollar following stronger-than-expected third-quarter economic growth and improving retail sales. A weaker dollar and increased corporate currency conversions also supported gains. Investors now awa…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T05:06:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-as-strong-gdp-data-ease-stimulus-concerns/articleshow/135040279.cms",
+            "sentiment_score": 0.7536,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "US Market: Wall Street’s AI rally faces test as Meta earnings loom",
@@ -226,150 +416,10 @@
             "url": "https://www.thegatewaypundit.com/2026/10/barack-obama-gets-nailed-devastating-reminder-after-he/",
             "sentiment_score": -0.6978,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DHS Secretary Mullin reveals Ilhan Omar investigation goes far deeper with 'multiple warrants' served... as Obama lashes out against Trump",
-            "description": "Mullin, 49, could reveal limited information regarding the investigation into the Democratic representative from Minnesota as he appeared on the Charlie Kirk Show.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-18T16:07:18Z",
-            "url": "https://www.dailymail.com/news/article-16218575/ilhan-omar-investigation-warrants-obama-trump.html",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "LA super-commuter Angelique Khieu catches a flight to work across California",
-            "description": "A super commuter working in tech sales regularly travels by plane from Los Angeles to San Francisco just to get ready for work by 8:30 a.m.",
-            "source": "New York Post",
-            "published_at": "2026-10-18T15:38:43Z",
-            "url": "https://nypost.com/2026/10/18/lifestyle/la-super-commuter-angelique-khieu-catches-a-flight-to-work-across-california/",
-            "sentiment_score": 0.2252,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-            "description": "Bitcoin ETFs lost a net $228.6 million this week, following a $681.1 million drain the week before and pushing October deep into the red.",
-            "source": "Decrypt",
-            "published_at": "2026-10-18T15:01:04Z",
-            "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global sharemarket outlook: Strong earnings face risk from higher interest rates",
-            "description": "OPINION: Global shares have outperformed, led by Japan and emerging markets.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-10-18T15:00:00Z",
-            "url": "https://www.nzherald.co.nz/rotorua-daily-post/business/global-sharemarket-outlook-strong-earnings-face-risk-from-higher-interest-rates/premium/MRNFM2WAJJGI5MS6AVREPUILVA/",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
-            "description": "Barack Obama accused the Trump administration of politically targeting Rep. Ilhan Omar, alleging efforts to strip her citizenship and deport her.",
-            "source": "Fox News",
-            "published_at": "2026-10-18T14:38:26Z",
-            "url": "https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement",
-            "sentiment_score": -0.5262,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The American Establishment and The Deep State",
-            "description": "The American Establishment The concept of the Establishment was first used in England referring to the established (or official) state church, the Anglican Church or Church of England, created by the usurper and schismatic Henry Tudor during the Protestant Re…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-18T14:29:41Z",
-            "url": "https://www.lewrockwell.com/lrc-blog/the-american-establishment-and-the-deep-state/",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and silver head for volatile week amid crude oil spike, West Asia worries",
-            "description": "Investors to track Chinese economic data, US housing data, consumer sentiment, inflation expectations and PMI readings from major economies",
-            "source": "BusinessLine",
-            "published_at": "2026-10-18T13:13:00Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-and-silver-head-for-volatile-week-amid-crude-oil-spike-west-asia-worries/article71599950.ece",
-            "sentiment_score": -0.5305,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump waives new Russia tariffs as October 18 oil deadline arrives",
-            "description": "The waiver has no fixed expiry, and any Bitcoin benefit depends on how it affects inflation and financing conditions.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-18T13:00:30Z",
-            "url": "https://cryptoslate.com/trump-waives-new-russia-tariffs-as-october-18-oil-deadline-arrives/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
-            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T12:31:18Z",
-            "url": "https://biztoc.com/x/c065b2f5f232d221",
-            "sentiment_score": -0.0641,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
-            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
-            "source": "Forkast.news",
-            "published_at": "2026-10-18T11:09:31Z",
-            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
-            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:30:54Z",
-            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
-            "sentiment_score": -0.064,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T10:15:05Z",
-            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
-            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:00:14Z",
-            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
-            "sentiment_score": -0.5361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
-            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
-            "source": "The Times of India",
-            "published_at": "2026-10-18T08:11:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
-            "sentiment_score": 0.2658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.1548,
+      "net_score": -0.2701,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -379,14 +429,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12347,
+      "price_now": 1.12183,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 58.5,
-      "rsi_signal": "โซนกลาง (RSI=58.5)",
+      "rsi_value": 44.7,
+      "rsi_signal": "โซนกลาง (RSI=44.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00085,
-      "suggested_sl_distance": 0.00128,
+      "atr_value": 0.00092,
+      "suggested_sl_distance": 0.00139,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -400,7 +450,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-20T04:32:06.151998+00:00"
+    "generated_at": "2026-10-20T09:55:43.872638+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -409,10 +459,50 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1175,
+        "average_score": 0.0649,
         "label": "บวกเล็กน้อย",
-        "article_count": 7,
+        "article_count": 11,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "What are the new faces coming to UK bank notes?",
+            "description": "Banknotes are getting a nature-themed makeover – and the Bank of England has revealed the four creatures that will feature on our money.",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T09:51:49Z",
+            "url": "https://biztoc.com/x/1519416276d704ec",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "What are the new faces coming to UK bank notes?",
+            "description": "Banknotes are getting a nature-themed makeover – and the Bank of England has revealed the four creatures that will feature on our money.",
+            "source": "BBC News",
+            "published_at": "2026-10-19T09:48:35Z",
+            "url": "https://www.bbc.co.uk/news/videos/c9zrd6d12ll8o",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "UK gilts rally as investors bet on Chancellor Healey’s fiscal discipline",
+            "description": "Investor confidence in fiscal discipline may stabilize UK economic expectations, influencing monetary policy and reducing inflation concerns.\nThe post UK gilts rally as investors bet on Chancellor Healey’s fiscal discipline appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-19T06:47:09Z",
+            "url": "https://cryptobriefing.com/uk-gilts-rally-as-investors-bet-on-chancellor-healeys-fiscal-discipline/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "G7 to Simulate AI-Powered Cyberattacks on Banks as Global Financial Risks Mount",
+            "description": "Finance leaders of the Group of Seven (G7) advanced economies agreed Thursday to hold tabletop exercises simulating AI-powered cyberattacks on banks, Japanese Finance Minister Satsuki Katayama said, as policymakers seek to coordinate responses to what officia…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-g7-to-simulate-ai-powered-cyberattacks-on-banks.html",
+            "sentiment_score": -0.0482,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "House prices on the rise - how does your area compare?",
@@ -486,10 +576,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0023,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0934,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Which Trumpies’ Heads Will Roll Next?",
+            "description": "Trump will blame everyone else for midterm defeats, but only some of his people—most likely, women—will be tossed aside.\nThe post Which Trumpies’ Heads Will Roll Next? appeared first on The American Prospect.",
+            "source": "The American Prospect",
+            "published_at": "2026-10-19T09:30:00Z",
+            "url": "https://prospect.org/2026/10/19/which-trumpies-heads-will-roll-next-kimberly-guilfoyle-katie-zacharia/",
+            "sentiment_score": 0.0346,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury NPRM Comment Period Closes TODAY: What the Industry Filed Before the GENIUS Act Deadline",
+            "description": "The October 19, 2026, closure of the comment period for the GENIUS Act NPRM (TREAS-DO-2026-0496) signals the end of the primary public feedback phase for the administration’s stablecoin framework. Published as 91 FR 53368, the proposal drew significant indust…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-19T09:26:58Z",
+            "url": "https://forkast.news/treasury-nprm-comment-period-closes-today-what-the-industry-filed-before-the-genius-act-deadline/",
+            "sentiment_score": 0.2023,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Capex And Earnings: What Happens When Growth Slows",
+            "description": "AI capex and earnings are now so tightly tied that spending doesn't have to fall to hurt profits. It only has to stop accelerating.\r\n\n\r\n\n\n\n\n\n\nAlmost half of the S&P 500's earnings growth this year traces back to one activity: companies buying chips, servers, …",
+            "source": "Realinvestmentadvice.com",
+            "published_at": "2026-10-19T09:08:00Z",
+            "url": "https://realinvestmentadvice.com/resources/blog/ai-capex-and-earnings-what-happens-when-growth-slows/",
+            "sentiment_score": 0.2595,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Euro falls as French political unrest, high energy prices weigh on sentiment",
+            "description": "The euro weakened amid elevated energy prices and renewed French political uncertainty, while investors reassessed the outlook for US growth, interest rates and the dollar. The yen, yuan and Indonesian rupiah also moved as markets weighed central bank signals…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T08:51:17Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms",
+            "sentiment_score": 0.3289,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury yields move lower as investors assess U.S. inflation backdrop",
+            "description": "Treasury yields fell as investors weigh the domestic inflation and interest rate backdrop against broader geopolitical developments.",
+            "source": "CNBC",
+            "published_at": "2026-10-19T08:45:49Z",
+            "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+            "sentiment_score": 0.1039,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Rangarajan & Bhanumurthy: Can price levels rise without growth in money supply?",
+            "description": "The impact of changes in the broad availability of money on an economy’s general price level—or inflation—is clearer than the role of interest rate shifts. Here's what an analysis of academic theory as well as India’s empirical record shows—and what monetary …",
+            "source": "Livemint",
+            "published_at": "2026-10-19T08:31:02Z",
+            "url": "https://www.livemint.com/opinion/online-views/rangarajan-bhanumurthy-inflation-can-price-levels-rise-without-growth-in-money-supply-11792335610860.html",
+            "sentiment_score": -0.0172,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown",
+            "description": "The post The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown appeared first on 24/7 Wall St..\nLeave out rent or a mortgage, and the average American family spent $48,700 over the year before Federal Reserve interview…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T08:21:33Z",
+            "url": "https://biztoc.com/x/63cd3e0d049adabd",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
+            "description": "Janus Henderson macro chief Richard Bernstein says the AI stock sell-off could lower borrowing costs for small caps. The Federal Reserve is tightening, he argues, and speculative stocks are taking the first hit.\nA major chip ETF closed last Thursday nearly 14…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T07:06:19Z",
+            "url": "https://biztoc.com/x/00f94489892e8a7a",
+            "sentiment_score": 0.1233,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama accuses Trump of targeting Omar over political views",
+            "description": "Former US President Barack Obama has accused the Trump administration of targeting Congresswoman Ilhan Omar for deportation due to her political criticisms\n\nRead More: https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "source": "The Punch",
+            "published_at": "2026-10-19T06:50:08Z",
+            "url": "https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. Import Prices Rise 0.5% in September on Energy Costs, BLS Says",
+            "description": "U.S. import prices increased 0.5% in September, boosted by higher costs for energy products, the Bureau of Labor Statistics reported Friday in Washington. Energy prices climbed 3.2% during the month, while non-energy import prices were unchanged, according to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-us-import-rise-in-september-on-energy.html",
+            "sentiment_score": 0.4247,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "GENIUS Act Stirs Controversy as Former White House Insider Profited from Stablecoin Legislation",
+            "description": "In 2025, President Donald Trump approved the GENIUS Act, which aims to establish the U.S. as a global leader in digital assets through stablecoin regulation. Reports reveal that Bo Hines, who served as a Trump crypto adviser and later joined Tether, personall…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-former-white-house-insider-profited-stablecoin-legislation.html",
+            "sentiment_score": 0.3854,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices rise as traders pare bets on October Fed rate hike",
+            "description": "In the global market, gold futures on Comex were trading near $4,200 per ounce, while silver was trading near $57.60 per ounce",
+            "source": "Business Standard",
+            "published_at": "2026-10-19T05:46:29Z",
+            "url": "https://www.business-standard.com/markets/commodities/gold-silver-prices-rise-as-traders-pare-bets-on-october-fed-rate-hike-126101900270_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Congress Fixed Social Security During Its Last Crisis",
+            "description": "In 1983, the realization the program could implode propelled last-ditch compromises.",
+            "source": "Foreign Policy",
+            "published_at": "2026-10-19T05:32:24Z",
+            "url": "http://foreignpolicy.com/2026/10/19/congress-fixed-social-security/",
+            "sentiment_score": -0.2813,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China’s yuan hits four-year high as strong GDP data ease stimulus concerns",
+            "description": "China’s yuan strengthened to a four-year high against the US dollar following stronger-than-expected third-quarter economic growth and improving retail sales. A weaker dollar and increased corporate currency conversions also supported gains. Investors now awa…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T05:06:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-as-strong-gdp-data-ease-stimulus-concerns/articleshow/135040279.cms",
+            "sentiment_score": 0.7536,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "US Market: Wall Street’s AI rally faces test as Meta earnings loom",
@@ -649,150 +879,10 @@
             "url": "https://www.thegatewaypundit.com/2026/10/barack-obama-gets-nailed-devastating-reminder-after-he/",
             "sentiment_score": -0.6978,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DHS Secretary Mullin reveals Ilhan Omar investigation goes far deeper with 'multiple warrants' served... as Obama lashes out against Trump",
-            "description": "Mullin, 49, could reveal limited information regarding the investigation into the Democratic representative from Minnesota as he appeared on the Charlie Kirk Show.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-18T16:07:18Z",
-            "url": "https://www.dailymail.com/news/article-16218575/ilhan-omar-investigation-warrants-obama-trump.html",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "LA super-commuter Angelique Khieu catches a flight to work across California",
-            "description": "A super commuter working in tech sales regularly travels by plane from Los Angeles to San Francisco just to get ready for work by 8:30 a.m.",
-            "source": "New York Post",
-            "published_at": "2026-10-18T15:38:43Z",
-            "url": "https://nypost.com/2026/10/18/lifestyle/la-super-commuter-angelique-khieu-catches-a-flight-to-work-across-california/",
-            "sentiment_score": 0.2252,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-            "description": "Bitcoin ETFs lost a net $228.6 million this week, following a $681.1 million drain the week before and pushing October deep into the red.",
-            "source": "Decrypt",
-            "published_at": "2026-10-18T15:01:04Z",
-            "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global sharemarket outlook: Strong earnings face risk from higher interest rates",
-            "description": "OPINION: Global shares have outperformed, led by Japan and emerging markets.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-10-18T15:00:00Z",
-            "url": "https://www.nzherald.co.nz/rotorua-daily-post/business/global-sharemarket-outlook-strong-earnings-face-risk-from-higher-interest-rates/premium/MRNFM2WAJJGI5MS6AVREPUILVA/",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
-            "description": "Barack Obama accused the Trump administration of politically targeting Rep. Ilhan Omar, alleging efforts to strip her citizenship and deport her.",
-            "source": "Fox News",
-            "published_at": "2026-10-18T14:38:26Z",
-            "url": "https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement",
-            "sentiment_score": -0.5262,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The American Establishment and The Deep State",
-            "description": "The American Establishment The concept of the Establishment was first used in England referring to the established (or official) state church, the Anglican Church or Church of England, created by the usurper and schismatic Henry Tudor during the Protestant Re…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-18T14:29:41Z",
-            "url": "https://www.lewrockwell.com/lrc-blog/the-american-establishment-and-the-deep-state/",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and silver head for volatile week amid crude oil spike, West Asia worries",
-            "description": "Investors to track Chinese economic data, US housing data, consumer sentiment, inflation expectations and PMI readings from major economies",
-            "source": "BusinessLine",
-            "published_at": "2026-10-18T13:13:00Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-and-silver-head-for-volatile-week-amid-crude-oil-spike-west-asia-worries/article71599950.ece",
-            "sentiment_score": -0.5305,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump waives new Russia tariffs as October 18 oil deadline arrives",
-            "description": "The waiver has no fixed expiry, and any Bitcoin benefit depends on how it affects inflation and financing conditions.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-18T13:00:30Z",
-            "url": "https://cryptoslate.com/trump-waives-new-russia-tariffs-as-october-18-oil-deadline-arrives/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
-            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T12:31:18Z",
-            "url": "https://biztoc.com/x/c065b2f5f232d221",
-            "sentiment_score": -0.0641,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
-            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
-            "source": "Forkast.news",
-            "published_at": "2026-10-18T11:09:31Z",
-            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
-            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:30:54Z",
-            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
-            "sentiment_score": -0.064,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T10:15:05Z",
-            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
-            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:00:14Z",
-            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
-            "sentiment_score": -0.5361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
-            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
-            "source": "The Times of India",
-            "published_at": "2026-10-18T08:11:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
-            "sentiment_score": 0.2658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.1198,
+      "net_score": -0.0285,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -802,14 +892,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3333,
+      "price_now": 1.33502,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 61.2,
-      "rsi_signal": "โซนกลาง (RSI=61.2)",
+      "rsi_value": 67.2,
+      "rsi_signal": "โซนกลาง (RSI=67.2)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00092,
-      "suggested_sl_distance": 0.00138,
+      "atr_value": 0.00105,
+      "suggested_sl_distance": 0.00157,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -823,7 +913,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-20T04:32:06.151998+00:00"
+    "generated_at": "2026-10-20T09:55:43.872638+00:00"
   },
   {
     "pair": "USDJPY",
@@ -832,10 +922,150 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0023,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0934,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Which Trumpies’ Heads Will Roll Next?",
+            "description": "Trump will blame everyone else for midterm defeats, but only some of his people—most likely, women—will be tossed aside.\nThe post Which Trumpies’ Heads Will Roll Next? appeared first on The American Prospect.",
+            "source": "The American Prospect",
+            "published_at": "2026-10-19T09:30:00Z",
+            "url": "https://prospect.org/2026/10/19/which-trumpies-heads-will-roll-next-kimberly-guilfoyle-katie-zacharia/",
+            "sentiment_score": 0.0346,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury NPRM Comment Period Closes TODAY: What the Industry Filed Before the GENIUS Act Deadline",
+            "description": "The October 19, 2026, closure of the comment period for the GENIUS Act NPRM (TREAS-DO-2026-0496) signals the end of the primary public feedback phase for the administration’s stablecoin framework. Published as 91 FR 53368, the proposal drew significant indust…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-19T09:26:58Z",
+            "url": "https://forkast.news/treasury-nprm-comment-period-closes-today-what-the-industry-filed-before-the-genius-act-deadline/",
+            "sentiment_score": 0.2023,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Capex And Earnings: What Happens When Growth Slows",
+            "description": "AI capex and earnings are now so tightly tied that spending doesn't have to fall to hurt profits. It only has to stop accelerating.\r\n\n\r\n\n\n\n\n\n\nAlmost half of the S&P 500's earnings growth this year traces back to one activity: companies buying chips, servers, …",
+            "source": "Realinvestmentadvice.com",
+            "published_at": "2026-10-19T09:08:00Z",
+            "url": "https://realinvestmentadvice.com/resources/blog/ai-capex-and-earnings-what-happens-when-growth-slows/",
+            "sentiment_score": 0.2595,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Euro falls as French political unrest, high energy prices weigh on sentiment",
+            "description": "The euro weakened amid elevated energy prices and renewed French political uncertainty, while investors reassessed the outlook for US growth, interest rates and the dollar. The yen, yuan and Indonesian rupiah also moved as markets weighed central bank signals…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T08:51:17Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms",
+            "sentiment_score": 0.3289,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury yields move lower as investors assess U.S. inflation backdrop",
+            "description": "Treasury yields fell as investors weigh the domestic inflation and interest rate backdrop against broader geopolitical developments.",
+            "source": "CNBC",
+            "published_at": "2026-10-19T08:45:49Z",
+            "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+            "sentiment_score": 0.1039,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Rangarajan & Bhanumurthy: Can price levels rise without growth in money supply?",
+            "description": "The impact of changes in the broad availability of money on an economy’s general price level—or inflation—is clearer than the role of interest rate shifts. Here's what an analysis of academic theory as well as India’s empirical record shows—and what monetary …",
+            "source": "Livemint",
+            "published_at": "2026-10-19T08:31:02Z",
+            "url": "https://www.livemint.com/opinion/online-views/rangarajan-bhanumurthy-inflation-can-price-levels-rise-without-growth-in-money-supply-11792335610860.html",
+            "sentiment_score": -0.0172,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown",
+            "description": "The post The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown appeared first on 24/7 Wall St..\nLeave out rent or a mortgage, and the average American family spent $48,700 over the year before Federal Reserve interview…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T08:21:33Z",
+            "url": "https://biztoc.com/x/63cd3e0d049adabd",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
+            "description": "Janus Henderson macro chief Richard Bernstein says the AI stock sell-off could lower borrowing costs for small caps. The Federal Reserve is tightening, he argues, and speculative stocks are taking the first hit.\nA major chip ETF closed last Thursday nearly 14…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T07:06:19Z",
+            "url": "https://biztoc.com/x/00f94489892e8a7a",
+            "sentiment_score": 0.1233,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama accuses Trump of targeting Omar over political views",
+            "description": "Former US President Barack Obama has accused the Trump administration of targeting Congresswoman Ilhan Omar for deportation due to her political criticisms\n\nRead More: https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "source": "The Punch",
+            "published_at": "2026-10-19T06:50:08Z",
+            "url": "https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. Import Prices Rise 0.5% in September on Energy Costs, BLS Says",
+            "description": "U.S. import prices increased 0.5% in September, boosted by higher costs for energy products, the Bureau of Labor Statistics reported Friday in Washington. Energy prices climbed 3.2% during the month, while non-energy import prices were unchanged, according to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-us-import-rise-in-september-on-energy.html",
+            "sentiment_score": 0.4247,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "GENIUS Act Stirs Controversy as Former White House Insider Profited from Stablecoin Legislation",
+            "description": "In 2025, President Donald Trump approved the GENIUS Act, which aims to establish the U.S. as a global leader in digital assets through stablecoin regulation. Reports reveal that Bo Hines, who served as a Trump crypto adviser and later joined Tether, personall…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-former-white-house-insider-profited-stablecoin-legislation.html",
+            "sentiment_score": 0.3854,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices rise as traders pare bets on October Fed rate hike",
+            "description": "In the global market, gold futures on Comex were trading near $4,200 per ounce, while silver was trading near $57.60 per ounce",
+            "source": "Business Standard",
+            "published_at": "2026-10-19T05:46:29Z",
+            "url": "https://www.business-standard.com/markets/commodities/gold-silver-prices-rise-as-traders-pare-bets-on-october-fed-rate-hike-126101900270_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Congress Fixed Social Security During Its Last Crisis",
+            "description": "In 1983, the realization the program could implode propelled last-ditch compromises.",
+            "source": "Foreign Policy",
+            "published_at": "2026-10-19T05:32:24Z",
+            "url": "http://foreignpolicy.com/2026/10/19/congress-fixed-social-security/",
+            "sentiment_score": -0.2813,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China’s yuan hits four-year high as strong GDP data ease stimulus concerns",
+            "description": "China’s yuan strengthened to a four-year high against the US dollar following stronger-than-expected third-quarter economic growth and improving retail sales. A weaker dollar and increased corporate currency conversions also supported gains. Investors now awa…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T05:06:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-as-strong-gdp-data-ease-stimulus-concerns/articleshow/135040279.cms",
+            "sentiment_score": 0.7536,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "US Market: Wall Street’s AI rally faces test as Meta earnings loom",
@@ -995,154 +1225,34 @@
             "url": "https://www.thegatewaypundit.com/2026/10/barack-obama-gets-nailed-devastating-reminder-after-he/",
             "sentiment_score": -0.6978,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DHS Secretary Mullin reveals Ilhan Omar investigation goes far deeper with 'multiple warrants' served... as Obama lashes out against Trump",
-            "description": "Mullin, 49, could reveal limited information regarding the investigation into the Democratic representative from Minnesota as he appeared on the Charlie Kirk Show.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-18T16:07:18Z",
-            "url": "https://www.dailymail.com/news/article-16218575/ilhan-omar-investigation-warrants-obama-trump.html",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "LA super-commuter Angelique Khieu catches a flight to work across California",
-            "description": "A super commuter working in tech sales regularly travels by plane from Los Angeles to San Francisco just to get ready for work by 8:30 a.m.",
-            "source": "New York Post",
-            "published_at": "2026-10-18T15:38:43Z",
-            "url": "https://nypost.com/2026/10/18/lifestyle/la-super-commuter-angelique-khieu-catches-a-flight-to-work-across-california/",
-            "sentiment_score": 0.2252,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-            "description": "Bitcoin ETFs lost a net $228.6 million this week, following a $681.1 million drain the week before and pushing October deep into the red.",
-            "source": "Decrypt",
-            "published_at": "2026-10-18T15:01:04Z",
-            "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global sharemarket outlook: Strong earnings face risk from higher interest rates",
-            "description": "OPINION: Global shares have outperformed, led by Japan and emerging markets.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-10-18T15:00:00Z",
-            "url": "https://www.nzherald.co.nz/rotorua-daily-post/business/global-sharemarket-outlook-strong-earnings-face-risk-from-higher-interest-rates/premium/MRNFM2WAJJGI5MS6AVREPUILVA/",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
-            "description": "Barack Obama accused the Trump administration of politically targeting Rep. Ilhan Omar, alleging efforts to strip her citizenship and deport her.",
-            "source": "Fox News",
-            "published_at": "2026-10-18T14:38:26Z",
-            "url": "https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement",
-            "sentiment_score": -0.5262,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The American Establishment and The Deep State",
-            "description": "The American Establishment The concept of the Establishment was first used in England referring to the established (or official) state church, the Anglican Church or Church of England, created by the usurper and schismatic Henry Tudor during the Protestant Re…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-18T14:29:41Z",
-            "url": "https://www.lewrockwell.com/lrc-blog/the-american-establishment-and-the-deep-state/",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and silver head for volatile week amid crude oil spike, West Asia worries",
-            "description": "Investors to track Chinese economic data, US housing data, consumer sentiment, inflation expectations and PMI readings from major economies",
-            "source": "BusinessLine",
-            "published_at": "2026-10-18T13:13:00Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-and-silver-head-for-volatile-week-amid-crude-oil-spike-west-asia-worries/article71599950.ece",
-            "sentiment_score": -0.5305,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump waives new Russia tariffs as October 18 oil deadline arrives",
-            "description": "The waiver has no fixed expiry, and any Bitcoin benefit depends on how it affects inflation and financing conditions.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-18T13:00:30Z",
-            "url": "https://cryptoslate.com/trump-waives-new-russia-tariffs-as-october-18-oil-deadline-arrives/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
-            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T12:31:18Z",
-            "url": "https://biztoc.com/x/c065b2f5f232d221",
-            "sentiment_score": -0.0641,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
-            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
-            "source": "Forkast.news",
-            "published_at": "2026-10-18T11:09:31Z",
-            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
-            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:30:54Z",
-            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
-            "sentiment_score": -0.064,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T10:15:05Z",
-            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
-            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:00:14Z",
-            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
-            "sentiment_score": -0.5361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
-            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
-            "source": "The Times of India",
-            "published_at": "2026-10-18T08:11:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
-            "sentiment_score": 0.2658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1553,
+        "average_score": -0.0735,
         "label": "ลบเล็กน้อย",
-        "article_count": 3,
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Global Market: Japan’s Nikkei falls 2% as tech selloff, rising oil prices fuel inflation fears",
+            "description": "Japan’s Nikkei 225 fell as US technology stock losses and rising oil prices heightened inflation and interest rate concerns. Semiconductor stocks led declines, while defensive and value shares offered potential support. Bank of Japan Governor Kazuo Ueda highl…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T05:00:36Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-falls-2-as-tech-selloff-rising-oil-prices-fuel-inflation-fears/articleshow/135040186.cms",
+            "sentiment_score": -0.0635,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Global Market: Japan bond yields fall as US tech selloff fuels safe-haven demand",
+            "description": "Japanese government bond yields fell as a selloff in US technology stocks triggered demand for safer assets. Prime Minister Sanae Takaichi’s pledge to control debt issuance also supported sentiment, while Bank of Japan rate expectations remained in focus.",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T04:49:26Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-fall-as-us-tech-selloff-fuels-safe-haven-demand/articleshow/135039965.cms",
+            "sentiment_score": 0.0368,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "3 British Dividend Stocks To Own In October 2026",
@@ -1175,7 +1285,7 @@
           }
         ]
       },
-      "net_score": 0.153,
+      "net_score": 0.1669,
       "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1185,14 +1295,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.186,
+      "price_now": 158.088,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 42.1,
-      "rsi_signal": "โซนกลาง (RSI=42.1)",
+      "rsi_value": 39.3,
+      "rsi_signal": "โซนกลาง (RSI=39.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.13399,
-      "suggested_sl_distance": 0.20099,
+      "atr_value": 0.14058,
+      "suggested_sl_distance": 0.21088,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1206,7 +1316,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-20T04:32:06.151998+00:00"
+    "generated_at": "2026-10-20T09:55:43.872638+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1215,10 +1325,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.3752,
-        "label": "ลบชัดเจน (Bearish)",
-        "article_count": 2,
+        "average_score": -0.175,
+        "label": "ลบเล็กน้อย",
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "ASX 200 Rises 0.4% to 8,843 as Banks and Defensive Stocks Lift Market While Challenger Jumps on Takeover Bid",
+            "description": "The ASX 200 rose 0.42% as banks, utilities and other defensive stocks outweighed technology losses, while Challenger rallied on Dai-ichi Life's takeover proposal.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-19T05:12:12Z",
+            "url": "https://www.ibtimes.com.au/asx-200-rises-banks-defensive-stocks-tech-selloff-1876971",
+            "sentiment_score": 0.0252,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "AUD",
             "title": "High oil prices fuel renewed inflation fears",
@@ -1242,10 +1362,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0023,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0934,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Which Trumpies’ Heads Will Roll Next?",
+            "description": "Trump will blame everyone else for midterm defeats, but only some of his people—most likely, women—will be tossed aside.\nThe post Which Trumpies’ Heads Will Roll Next? appeared first on The American Prospect.",
+            "source": "The American Prospect",
+            "published_at": "2026-10-19T09:30:00Z",
+            "url": "https://prospect.org/2026/10/19/which-trumpies-heads-will-roll-next-kimberly-guilfoyle-katie-zacharia/",
+            "sentiment_score": 0.0346,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury NPRM Comment Period Closes TODAY: What the Industry Filed Before the GENIUS Act Deadline",
+            "description": "The October 19, 2026, closure of the comment period for the GENIUS Act NPRM (TREAS-DO-2026-0496) signals the end of the primary public feedback phase for the administration’s stablecoin framework. Published as 91 FR 53368, the proposal drew significant indust…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-19T09:26:58Z",
+            "url": "https://forkast.news/treasury-nprm-comment-period-closes-today-what-the-industry-filed-before-the-genius-act-deadline/",
+            "sentiment_score": 0.2023,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Capex And Earnings: What Happens When Growth Slows",
+            "description": "AI capex and earnings are now so tightly tied that spending doesn't have to fall to hurt profits. It only has to stop accelerating.\r\n\n\r\n\n\n\n\n\n\nAlmost half of the S&P 500's earnings growth this year traces back to one activity: companies buying chips, servers, …",
+            "source": "Realinvestmentadvice.com",
+            "published_at": "2026-10-19T09:08:00Z",
+            "url": "https://realinvestmentadvice.com/resources/blog/ai-capex-and-earnings-what-happens-when-growth-slows/",
+            "sentiment_score": 0.2595,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Euro falls as French political unrest, high energy prices weigh on sentiment",
+            "description": "The euro weakened amid elevated energy prices and renewed French political uncertainty, while investors reassessed the outlook for US growth, interest rates and the dollar. The yen, yuan and Indonesian rupiah also moved as markets weighed central bank signals…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T08:51:17Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms",
+            "sentiment_score": 0.3289,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury yields move lower as investors assess U.S. inflation backdrop",
+            "description": "Treasury yields fell as investors weigh the domestic inflation and interest rate backdrop against broader geopolitical developments.",
+            "source": "CNBC",
+            "published_at": "2026-10-19T08:45:49Z",
+            "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+            "sentiment_score": 0.1039,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Rangarajan & Bhanumurthy: Can price levels rise without growth in money supply?",
+            "description": "The impact of changes in the broad availability of money on an economy’s general price level—or inflation—is clearer than the role of interest rate shifts. Here's what an analysis of academic theory as well as India’s empirical record shows—and what monetary …",
+            "source": "Livemint",
+            "published_at": "2026-10-19T08:31:02Z",
+            "url": "https://www.livemint.com/opinion/online-views/rangarajan-bhanumurthy-inflation-can-price-levels-rise-without-growth-in-money-supply-11792335610860.html",
+            "sentiment_score": -0.0172,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown",
+            "description": "The post The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown appeared first on 24/7 Wall St..\nLeave out rent or a mortgage, and the average American family spent $48,700 over the year before Federal Reserve interview…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T08:21:33Z",
+            "url": "https://biztoc.com/x/63cd3e0d049adabd",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
+            "description": "Janus Henderson macro chief Richard Bernstein says the AI stock sell-off could lower borrowing costs for small caps. The Federal Reserve is tightening, he argues, and speculative stocks are taking the first hit.\nA major chip ETF closed last Thursday nearly 14…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T07:06:19Z",
+            "url": "https://biztoc.com/x/00f94489892e8a7a",
+            "sentiment_score": 0.1233,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama accuses Trump of targeting Omar over political views",
+            "description": "Former US President Barack Obama has accused the Trump administration of targeting Congresswoman Ilhan Omar for deportation due to her political criticisms\n\nRead More: https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "source": "The Punch",
+            "published_at": "2026-10-19T06:50:08Z",
+            "url": "https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. Import Prices Rise 0.5% in September on Energy Costs, BLS Says",
+            "description": "U.S. import prices increased 0.5% in September, boosted by higher costs for energy products, the Bureau of Labor Statistics reported Friday in Washington. Energy prices climbed 3.2% during the month, while non-energy import prices were unchanged, according to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-us-import-rise-in-september-on-energy.html",
+            "sentiment_score": 0.4247,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "GENIUS Act Stirs Controversy as Former White House Insider Profited from Stablecoin Legislation",
+            "description": "In 2025, President Donald Trump approved the GENIUS Act, which aims to establish the U.S. as a global leader in digital assets through stablecoin regulation. Reports reveal that Bo Hines, who served as a Trump crypto adviser and later joined Tether, personall…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-former-white-house-insider-profited-stablecoin-legislation.html",
+            "sentiment_score": 0.3854,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices rise as traders pare bets on October Fed rate hike",
+            "description": "In the global market, gold futures on Comex were trading near $4,200 per ounce, while silver was trading near $57.60 per ounce",
+            "source": "Business Standard",
+            "published_at": "2026-10-19T05:46:29Z",
+            "url": "https://www.business-standard.com/markets/commodities/gold-silver-prices-rise-as-traders-pare-bets-on-october-fed-rate-hike-126101900270_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Congress Fixed Social Security During Its Last Crisis",
+            "description": "In 1983, the realization the program could implode propelled last-ditch compromises.",
+            "source": "Foreign Policy",
+            "published_at": "2026-10-19T05:32:24Z",
+            "url": "http://foreignpolicy.com/2026/10/19/congress-fixed-social-security/",
+            "sentiment_score": -0.2813,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China’s yuan hits four-year high as strong GDP data ease stimulus concerns",
+            "description": "China’s yuan strengthened to a four-year high against the US dollar following stronger-than-expected third-quarter economic growth and improving retail sales. A weaker dollar and increased corporate currency conversions also supported gains. Investors now awa…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T05:06:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-as-strong-gdp-data-ease-stimulus-concerns/articleshow/135040279.cms",
+            "sentiment_score": 0.7536,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "US Market: Wall Street’s AI rally faces test as Meta earnings loom",
@@ -1405,181 +1665,41 @@
             "url": "https://www.thegatewaypundit.com/2026/10/barack-obama-gets-nailed-devastating-reminder-after-he/",
             "sentiment_score": -0.6978,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DHS Secretary Mullin reveals Ilhan Omar investigation goes far deeper with 'multiple warrants' served... as Obama lashes out against Trump",
-            "description": "Mullin, 49, could reveal limited information regarding the investigation into the Democratic representative from Minnesota as he appeared on the Charlie Kirk Show.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-18T16:07:18Z",
-            "url": "https://www.dailymail.com/news/article-16218575/ilhan-omar-investigation-warrants-obama-trump.html",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "LA super-commuter Angelique Khieu catches a flight to work across California",
-            "description": "A super commuter working in tech sales regularly travels by plane from Los Angeles to San Francisco just to get ready for work by 8:30 a.m.",
-            "source": "New York Post",
-            "published_at": "2026-10-18T15:38:43Z",
-            "url": "https://nypost.com/2026/10/18/lifestyle/la-super-commuter-angelique-khieu-catches-a-flight-to-work-across-california/",
-            "sentiment_score": 0.2252,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-            "description": "Bitcoin ETFs lost a net $228.6 million this week, following a $681.1 million drain the week before and pushing October deep into the red.",
-            "source": "Decrypt",
-            "published_at": "2026-10-18T15:01:04Z",
-            "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global sharemarket outlook: Strong earnings face risk from higher interest rates",
-            "description": "OPINION: Global shares have outperformed, led by Japan and emerging markets.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-10-18T15:00:00Z",
-            "url": "https://www.nzherald.co.nz/rotorua-daily-post/business/global-sharemarket-outlook-strong-earnings-face-risk-from-higher-interest-rates/premium/MRNFM2WAJJGI5MS6AVREPUILVA/",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
-            "description": "Barack Obama accused the Trump administration of politically targeting Rep. Ilhan Omar, alleging efforts to strip her citizenship and deport her.",
-            "source": "Fox News",
-            "published_at": "2026-10-18T14:38:26Z",
-            "url": "https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement",
-            "sentiment_score": -0.5262,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The American Establishment and The Deep State",
-            "description": "The American Establishment The concept of the Establishment was first used in England referring to the established (or official) state church, the Anglican Church or Church of England, created by the usurper and schismatic Henry Tudor during the Protestant Re…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-18T14:29:41Z",
-            "url": "https://www.lewrockwell.com/lrc-blog/the-american-establishment-and-the-deep-state/",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and silver head for volatile week amid crude oil spike, West Asia worries",
-            "description": "Investors to track Chinese economic data, US housing data, consumer sentiment, inflation expectations and PMI readings from major economies",
-            "source": "BusinessLine",
-            "published_at": "2026-10-18T13:13:00Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-and-silver-head-for-volatile-week-amid-crude-oil-spike-west-asia-worries/article71599950.ece",
-            "sentiment_score": -0.5305,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump waives new Russia tariffs as October 18 oil deadline arrives",
-            "description": "The waiver has no fixed expiry, and any Bitcoin benefit depends on how it affects inflation and financing conditions.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-18T13:00:30Z",
-            "url": "https://cryptoslate.com/trump-waives-new-russia-tariffs-as-october-18-oil-deadline-arrives/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
-            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T12:31:18Z",
-            "url": "https://biztoc.com/x/c065b2f5f232d221",
-            "sentiment_score": -0.0641,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
-            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
-            "source": "Forkast.news",
-            "published_at": "2026-10-18T11:09:31Z",
-            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
-            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:30:54Z",
-            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
-            "sentiment_score": -0.064,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T10:15:05Z",
-            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
-            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:00:14Z",
-            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
-            "sentiment_score": -0.5361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
-            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
-            "source": "The Times of India",
-            "published_at": "2026-10-18T08:11:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
-            "sentiment_score": 0.2658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.3729,
+      "net_score": -0.2684,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69847,
+      "price_now": 0.69925,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 55.8,
-      "rsi_signal": "โซนกลาง (RSI=55.8)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00059,
-      "suggested_sl_distance": 0.00088,
+      "rsi_value": 58.6,
+      "rsi_signal": "โซนกลาง (RSI=58.6)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00063,
+      "suggested_sl_distance": 0.00095,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=58.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-20T04:32:06.151998+00:00"
+    "generated_at": "2026-10-20T09:55:43.872638+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1588,10 +1708,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0881,
-        "label": "ลบเล็กน้อย",
-        "article_count": 2,
+        "average_score": 0.0155,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 4,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction today: Will gold prices be range-bound? Check outlook for October 19, 2026 week",
+            "description": "Gold enters the week near Rs 148,000 after a sharp correction from the September high around Rs 163,000–165,000, with prices now consolidating after briefly falling towards the Rs 145,500–146,000 region.",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T07:28:52Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-19-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/135042911.cms",
+            "sentiment_score": -0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold rate silver rate today (October 19, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities",
+            "description": "Gold rate today: With gold and silver prices constantly fluctuating, it’s important for jewellery buyers and precious metal investors to stay informed. On October 19, major jewellery brands adjusted their pricing, showing notable increases.",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T06:28:18Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-silver-rate-today-october-19-2026-18k-20k-24k-delhi-hyderabad-bengaluru-citywise-ibja-gold-price-malabar-gold-kalyan-jewelers-joyalukkas/articleshow/135041704.cms",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "5 things to watch on the ASX 200 on Monday",
@@ -1615,10 +1755,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0023,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0934,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Which Trumpies’ Heads Will Roll Next?",
+            "description": "Trump will blame everyone else for midterm defeats, but only some of his people—most likely, women—will be tossed aside.\nThe post Which Trumpies’ Heads Will Roll Next? appeared first on The American Prospect.",
+            "source": "The American Prospect",
+            "published_at": "2026-10-19T09:30:00Z",
+            "url": "https://prospect.org/2026/10/19/which-trumpies-heads-will-roll-next-kimberly-guilfoyle-katie-zacharia/",
+            "sentiment_score": 0.0346,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury NPRM Comment Period Closes TODAY: What the Industry Filed Before the GENIUS Act Deadline",
+            "description": "The October 19, 2026, closure of the comment period for the GENIUS Act NPRM (TREAS-DO-2026-0496) signals the end of the primary public feedback phase for the administration’s stablecoin framework. Published as 91 FR 53368, the proposal drew significant indust…",
+            "source": "Forkast.news",
+            "published_at": "2026-10-19T09:26:58Z",
+            "url": "https://forkast.news/treasury-nprm-comment-period-closes-today-what-the-industry-filed-before-the-genius-act-deadline/",
+            "sentiment_score": 0.2023,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Capex And Earnings: What Happens When Growth Slows",
+            "description": "AI capex and earnings are now so tightly tied that spending doesn't have to fall to hurt profits. It only has to stop accelerating.\r\n\n\r\n\n\n\n\n\n\nAlmost half of the S&P 500's earnings growth this year traces back to one activity: companies buying chips, servers, …",
+            "source": "Realinvestmentadvice.com",
+            "published_at": "2026-10-19T09:08:00Z",
+            "url": "https://realinvestmentadvice.com/resources/blog/ai-capex-and-earnings-what-happens-when-growth-slows/",
+            "sentiment_score": 0.2595,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: Euro falls as French political unrest, high energy prices weigh on sentiment",
+            "description": "The euro weakened amid elevated energy prices and renewed French political uncertainty, while investors reassessed the outlook for US growth, interest rates and the dollar. The yen, yuan and Indonesian rupiah also moved as markets weighed central bank signals…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T08:51:17Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms",
+            "sentiment_score": 0.3289,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury yields move lower as investors assess U.S. inflation backdrop",
+            "description": "Treasury yields fell as investors weigh the domestic inflation and interest rate backdrop against broader geopolitical developments.",
+            "source": "CNBC",
+            "published_at": "2026-10-19T08:45:49Z",
+            "url": "https://www.cnbc.com/2026/10/19/bonds-treasurys-us-yields.html",
+            "sentiment_score": 0.1039,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Rangarajan & Bhanumurthy: Can price levels rise without growth in money supply?",
+            "description": "The impact of changes in the broad availability of money on an economy’s general price level—or inflation—is clearer than the role of interest rate shifts. Here's what an analysis of academic theory as well as India’s empirical record shows—and what monetary …",
+            "source": "Livemint",
+            "published_at": "2026-10-19T08:31:02Z",
+            "url": "https://www.livemint.com/opinion/online-views/rangarajan-bhanumurthy-inflation-can-price-levels-rise-without-growth-in-money-supply-11792335610860.html",
+            "sentiment_score": -0.0172,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown",
+            "description": "The post The Average American Family Spends $48,700 a Year (Not Counting Housing). Here’s the Breakdown appeared first on 24/7 Wall St..\nLeave out rent or a mortgage, and the average American family spent $48,700 over the year before Federal Reserve interview…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T08:21:33Z",
+            "url": "https://biztoc.com/x/63cd3e0d049adabd",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Bernstein Thinks the AI Stock Sell-Off Could Help Small Caps",
+            "description": "Janus Henderson macro chief Richard Bernstein says the AI stock sell-off could lower borrowing costs for small caps. The Federal Reserve is tightening, he argues, and speculative stocks are taking the first hit.\nA major chip ETF closed last Thursday nearly 14…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T07:06:19Z",
+            "url": "https://biztoc.com/x/00f94489892e8a7a",
+            "sentiment_score": 0.1233,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Obama accuses Trump of targeting Omar over political views",
+            "description": "Former US President Barack Obama has accused the Trump administration of targeting Congresswoman Ilhan Omar for deportation due to her political criticisms\n\nRead More: https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "source": "The Punch",
+            "published_at": "2026-10-19T06:50:08Z",
+            "url": "https://punchng.com/obama-accuses-trump-of-targeting-omar-over-political-views/",
+            "sentiment_score": -0.381,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. Import Prices Rise 0.5% in September on Energy Costs, BLS Says",
+            "description": "U.S. import prices increased 0.5% in September, boosted by higher costs for energy products, the Bureau of Labor Statistics reported Friday in Washington. Energy prices climbed 3.2% during the month, while non-energy import prices were unchanged, according to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-us-import-rise-in-september-on-energy.html",
+            "sentiment_score": 0.4247,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "GENIUS Act Stirs Controversy as Former White House Insider Profited from Stablecoin Legislation",
+            "description": "In 2025, President Donald Trump approved the GENIUS Act, which aims to establish the U.S. as a global leader in digital assets through stablecoin regulation. Reports reveal that Bo Hines, who served as a Trump crypto adviser and later joined Tether, personall…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-10-19T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-10-19-former-white-house-insider-profited-stablecoin-legislation.html",
+            "sentiment_score": 0.3854,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices rise as traders pare bets on October Fed rate hike",
+            "description": "In the global market, gold futures on Comex were trading near $4,200 per ounce, while silver was trading near $57.60 per ounce",
+            "source": "Business Standard",
+            "published_at": "2026-10-19T05:46:29Z",
+            "url": "https://www.business-standard.com/markets/commodities/gold-silver-prices-rise-as-traders-pare-bets-on-october-fed-rate-hike-126101900270_1.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "How Congress Fixed Social Security During Its Last Crisis",
+            "description": "In 1983, the realization the program could implode propelled last-ditch compromises.",
+            "source": "Foreign Policy",
+            "published_at": "2026-10-19T05:32:24Z",
+            "url": "http://foreignpolicy.com/2026/10/19/congress-fixed-social-security/",
+            "sentiment_score": -0.2813,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market: China’s yuan hits four-year high as strong GDP data ease stimulus concerns",
+            "description": "China’s yuan strengthened to a four-year high against the US dollar following stronger-than-expected third-quarter economic growth and improving retail sales. A weaker dollar and increased corporate currency conversions also supported gains. Investors now awa…",
+            "source": "The Times of India",
+            "published_at": "2026-10-19T05:06:21Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-chinas-yuan-hits-four-year-high-as-strong-gdp-data-ease-stimulus-concerns/articleshow/135040279.cms",
+            "sentiment_score": 0.7536,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "US Market: Wall Street’s AI rally faces test as Meta earnings loom",
@@ -1778,150 +2058,10 @@
             "url": "https://www.thegatewaypundit.com/2026/10/barack-obama-gets-nailed-devastating-reminder-after-he/",
             "sentiment_score": -0.6978,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "DHS Secretary Mullin reveals Ilhan Omar investigation goes far deeper with 'multiple warrants' served... as Obama lashes out against Trump",
-            "description": "Mullin, 49, could reveal limited information regarding the investigation into the Democratic representative from Minnesota as he appeared on the Charlie Kirk Show.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-18T16:07:18Z",
-            "url": "https://www.dailymail.com/news/article-16218575/ilhan-omar-investigation-warrants-obama-trump.html",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "LA super-commuter Angelique Khieu catches a flight to work across California",
-            "description": "A super commuter working in tech sales regularly travels by plane from Los Angeles to San Francisco just to get ready for work by 8:30 a.m.",
-            "source": "New York Post",
-            "published_at": "2026-10-18T15:38:43Z",
-            "url": "https://nypost.com/2026/10/18/lifestyle/la-super-commuter-angelique-khieu-catches-a-flight-to-work-across-california/",
-            "sentiment_score": 0.2252,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-            "description": "Bitcoin ETFs lost a net $228.6 million this week, following a $681.1 million drain the week before and pushing October deep into the red.",
-            "source": "Decrypt",
-            "published_at": "2026-10-18T15:01:04Z",
-            "url": "https://decrypt.co/381246/bitcoin-etfs-shed-nearly-1-billion-two-weeks-uptober-red",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global sharemarket outlook: Strong earnings face risk from higher interest rates",
-            "description": "OPINION: Global shares have outperformed, led by Japan and emerging markets.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-10-18T15:00:00Z",
-            "url": "https://www.nzherald.co.nz/rotorua-daily-post/business/global-sharemarket-outlook-strong-earnings-face-risk-from-higher-interest-rates/premium/MRNFM2WAJJGI5MS6AVREPUILVA/",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Obama backs Ilhan Omar amid probe, accuses Trump admin of 'appalling' targeting in lengthy statement",
-            "description": "Barack Obama accused the Trump administration of politically targeting Rep. Ilhan Omar, alleging efforts to strip her citizenship and deport her.",
-            "source": "Fox News",
-            "published_at": "2026-10-18T14:38:26Z",
-            "url": "https://www.foxnews.com/politics/obama-backs-ilhan-omar-amid-probe-accuses-trump-admin-appalling-targeting-lengthy-statement",
-            "sentiment_score": -0.5262,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The American Establishment and The Deep State",
-            "description": "The American Establishment The concept of the Establishment was first used in England referring to the established (or official) state church, the Anglican Church or Church of England, created by the usurper and schismatic Henry Tudor during the Protestant Re…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-18T14:29:41Z",
-            "url": "https://www.lewrockwell.com/lrc-blog/the-american-establishment-and-the-deep-state/",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold and silver head for volatile week amid crude oil spike, West Asia worries",
-            "description": "Investors to track Chinese economic data, US housing data, consumer sentiment, inflation expectations and PMI readings from major economies",
-            "source": "BusinessLine",
-            "published_at": "2026-10-18T13:13:00Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-and-silver-head-for-volatile-week-amid-crude-oil-spike-west-asia-worries/article71599950.ece",
-            "sentiment_score": -0.5305,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump waives new Russia tariffs as October 18 oil deadline arrives",
-            "description": "The waiver has no fixed expiry, and any Bitcoin benefit depends on how it affects inflation and financing conditions.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-18T13:00:30Z",
-            "url": "https://cryptoslate.com/trump-waives-new-russia-tariffs-as-october-18-oil-deadline-arrives/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’",
-            "description": "El-Erian Warns Markets Are Pricing In Too Many Fed Rate Hikes — ‘I Don’t Think We’re Going To Get Three’\n- El-Erian argued that the market may be underestimating the economic consequences of higher interest rates, particularly in areas that are more sensitive…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T12:31:18Z",
-            "url": "https://biztoc.com/x/c065b2f5f232d221",
-            "sentiment_score": -0.0641,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Tuesday’s SEC Comment Deadline Closes the Last Public Window Before the GENIUS Act Compliance Stack Locks In",
-            "description": "The SEC Comment Deadline The comment period for the Securities and Exchange Commission (SEC) proposal, Regulation Crypto Assets (File No. S7-2026-27), concludes on Tuesday, October 20, 2026. This closes the last formal window for public input before the GENIU…",
-            "source": "Forkast.news",
-            "published_at": "2026-10-18T11:09:31Z",
-            "url": "https://forkast.news/tuesdays-sec-comment-deadline-closes-the-last-public-window-before-the-genius-act-compliance-stack-locks-in/",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Indian economy has displayed growth resilience—but fault lines have grown too that can’t be papered over",
-            "description": "A storm may be brewing on account of structural weaknesses that mustn’t catch policymakers off-guard. Among our worries should be growing household stashes of gold, the fallout of El Niño, generalized inflation, rising interest rates and a potential AI bubble…",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:30:54Z",
-            "url": "https://www.livemint.com/opinion/online-views/rajrishi-singhal-why-india-s-growing-economy-requires-financial-stabilizers-11792056253559.html",
-            "sentiment_score": -0.064,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Sunday, October 18, 2026: Earn up to 4.40% APY",
-            "description": "Find out how much you could earn by locking in a high CD rate today. The Federal Reserve raised the federal funds rate for the first time in more than three years, which means there's even more opportunity to lock in a competitive CD rate.\nThe following is a …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T10:15:05Z",
-            "url": "https://biztoc.com/x/34a9d6447cb6aedf",
-            "sentiment_score": 0.6213,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
-            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:00:14Z",
-            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
-            "sentiment_score": -0.5361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPI selling crosses Rs 52,000 crore in October as Nifty defies foreign exodus",
-            "description": "Foreign portfolio investors pulled out over Rs 52,000 crore from Indian equities in October, surpassing September outflows. Despite persistent FPI selling driven by rising US Treasury yields and elevated crude oil prices, benchmark indices Nifty and Sensex re…",
-            "source": "The Times of India",
-            "published_at": "2026-10-18T08:11:02Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpi-selling-crosses-rs-52000-crore-in-october-as-nifty-defies-foreign-exodus/articleshow/135025955.cms",
-            "sentiment_score": 0.2658,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.0858,
+      "net_score": -0.0779,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1931,27 +2071,27 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4165.0,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 4138.0,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 39.7,
-      "rsi_signal": "โซนกลาง (RSI=39.7)",
+      "rsi_value": 35.0,
+      "rsi_signal": "โซนกลาง (RSI=35.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 17.13889,
-      "suggested_sl_distance": 25.70834,
-      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
-      "technical_vote": 1,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "atr_value": 12.74245,
+      "suggested_sl_distance": 19.11368,
+      "bb_signal": "ราคาอยู่ในกรอบปกติ",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=35.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-20T04:32:06.151998+00:00"
+    "generated_at": "2026-10-20T09:55:43.872638+00:00"
   }
 ]
