@@ -6,9 +6,9 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1374,
+        "average_score": -0.1345,
         "label": "ลบเล็กน้อย",
-        "article_count": 17,
+        "article_count": 16,
         "scored_articles": [
           {
             "currency": "EUR",
@@ -169,24 +169,44 @@
             "url": "https://www.ecb.europa.eu/press/blog/date/2026/html/ecb.blog20261019~b833d15fce.en.html",
             "sentiment_score": 0.472,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "IMF outlook: The global economy may not be doing as badly as feared but it’s laden with major risks",
-            "description": "Rarely has a fairly positive forecast from the International Monetary Fund (IMF) had so many qualifiers. The predictions aren’t so much cause for celebration as a recognition that the worst hasn’t come to pass. But what can we expect from here on?",
-            "source": "Livemint",
-            "published_at": "2026-10-18T10:00:14Z",
-            "url": "https://www.livemint.com/opinion/online-views/imf-outlook-global-economy-has-held-up-but-various-risks-still-loom-11792056285506.html",
-            "sentiment_score": -0.5361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1265,
+        "average_score": 0.1198,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Blockchain Association backs Treasury stablecoin rule but wants tighter definitions",
+            "description": "The Blockchain Association's feedback on Treasury's stablecoin rule highlights the need for precise definitions to prevent regulatory overreach, impacting global crypto operations.\nThe post Blockchain Association backs Treasury stablecoin rule but wants tight…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-20T01:25:01Z",
+            "url": "https://cryptobriefing.com/blockchain-association-treasury-stablecoin-rule/",
+            "sentiment_score": 0.081,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Three big takeaways from the IMF-World Bank meetings",
+            "description": "Debt, AI and Ukraine dominated the conversation at the IMF-World Bank meetings in Bangkok, while China, the focus in 2018, slipped into the background.",
+            "source": "CNBC",
+            "published_at": "2026-10-20T00:33:34Z",
+            "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "UBS explains how looming Fed rate hike could impact your investments",
+            "description": "As retail investors, we’re all feeling a tad overwhelmed by the recent headlines here at TheStreet about shifting Federal Reserve interest rates, surging Treasury yields, and persistent sticky inflation.\nRecently, strong economic data and higher energy costs …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T22:45:07Z",
+            "url": "https://biztoc.com/x/a741c742219bf3ee",
+            "sentiment_score": 0.172,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Kansas City Fed Flags Funding Challenges From Tokenized Deposits",
@@ -456,40 +476,10 @@
             "url": "https://www.hurriyetdailynews.com/earnings-in-focus-as-ai-fed-keep-investors-on-edge-228337",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why B2B Checks Still Move $15 Trillion a Year",
-            "description": "The check was supposed to be dead by now. Instead, it has become a $15 trillion reminder that moving money and settling a business obligation are not always the same thing. According to research briefs from the Federal Reserve Bank of Cleveland published in S…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-19T13:00:33Z",
-            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-b2b-checks-still-move-15-trillion-a-year/",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI stocks bounce back after bruising selloff; CoreWeave jumps on Goldman upgrade",
-            "description": "Oct 19 : AI-linked stocks bounced back on Monday after a bruising selloff last week, as lower Treasury yields and easing crude oil prices offered some relief, while neocloud firm CoreWeave surged following a rating upgrade.CoreWeave jumped 3.4 per cent after …",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/ai-stocks-bounce-back-after-bruising-selloff-coreweave-jumps-goldman-upgrade-6472076",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US chip stocks rise after steepest weekly selloff in months",
-            "description": "Oct 19 : US chip stocks recovered some ground on Monday, bouncing after a bruising selloff last week as lower Treasury yields and easing crude oil prices offered some support to the recently battered AI trade. The iShares Semiconductor ETF, which is the large…",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/us-chip-stocks-rise-after-steepest-weekly-selloff-in-months-6472076",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.2639,
+      "net_score": -0.2543,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -499,28 +489,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12334,
+      "price_now": 1.12309,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.0,
-      "rsi_signal": "โซนกลาง (RSI=52.0)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00099,
-      "suggested_sl_distance": 0.00149,
+      "rsi_value": 50.1,
+      "rsi_signal": "โซนกลาง (RSI=50.1)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00087,
+      "suggested_sl_distance": 0.00131,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=52.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-20T22:14:51.120258+00:00"
+    "generated_at": "2026-10-21T01:26:37.085514+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -529,10 +519,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0477,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 18,
+        "average_score": -0.0694,
+        "label": "ลบเล็กน้อย",
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "This Budget could be even worse than the two bloodbaths delivered by Reeves, Kemi Badenoch warns",
+            "description": "The Tory leader will raise the prospect the Chancellor will cause more damage to the economy than his predecessor, despite Labour already hiking the tax burden to a post-war high.",
+            "source": "Dailymail.com",
+            "published_at": "2026-10-19T23:00:57Z",
+            "url": "https://www.dailymail.com/news/article-16222009/Budget-bloodbaths-Reeves-Kemi-Badenoch-warns.html",
+            "sentiment_score": -0.5704,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "Health unions put NHS on notice for more damaging strikes as ministers recommend a below-inflation pay rise",
@@ -642,84 +642,44 @@
             "url": "https://www.naturalnews.com/2026-10-19-g7-to-simulate-ai-powered-cyberattacks-on-banks.html",
             "sentiment_score": -0.0482,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "House prices on the rise - how does your area compare?",
-            "description": "Affordability continues to be a \"real challenge\" for buyers, as prices rise by an average of 4%.",
-            "source": "BBC News",
-            "published_at": "2026-10-18T20:56:53Z",
-            "url": "https://www.bbc.co.uk/news/articles/c6kg57p7935jo",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "The American Establishment and The Deep State",
-            "description": "The American Establishment The concept of the Establishment was first used in England referring to the established (or official) state church, the Anglican Church or Church of England, created by the usurper and schismatic Henry Tudor during the Protestant Re…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-18T14:29:41Z",
-            "url": "https://www.lewrockwell.com/lrc-blog/the-american-establishment-and-the-deep-state/",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "FO Exclusive: Canada Breaks up With the US and Flirts With the EU",
-            "description": "Editor-in-Chief Atul Singh and FOI Senior Partner Glenn Carle, a retired CIA officer who now advises companies, governments and organizations on geopolitical risk, discuss the growing breach between Canada and the United States. US President Donald Trump’s pr…",
-            "source": "Fair Observer",
-            "published_at": "2026-10-18T12:39:32Z",
-            "url": "https://www.fairobserver.com/world-news/us-news/fo-exclusive-canada-breaks-up-with-the-us-and-flirts-with-the-eu/",
-            "sentiment_score": 0.3092,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Top 3 British Growth Stocks To Watch In October 2026",
-            "description": "Soaring energy prices have pushed UK inflation to 3.7% in September, which keeps pressure on interest rates and squeezes household budgets. Fast growing British businesses where insiders own meaningful stakes can look attractive in this kind of climate, becau…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T11:29:40Z",
-            "url": "https://biztoc.com/x/0e3f3f954506ad02",
-            "sentiment_score": 0.6182,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Why hedge funds could be making a bond market shock more likely",
-            "description": "Hedge funds' increased presence in global bond markets makes the likelihood of a broader market shock \"greater than what it was,\" Bank of England deputy governor Sarah Breeden told CNBC Thursday.\nBreeden — the central bank's deputy governor for financial stab…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-18T06:27:34Z",
-            "url": "https://biztoc.com/x/3551adffd4f3998d",
-            "sentiment_score": -0.1923,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Why hedge funds could be making a bond market shock more likely",
-            "description": "The Bank of England's deputy governor has warned that hedge funds' activities could raise the risk of a global bond market shock.",
-            "source": "CNBC",
-            "published_at": "2026-10-18T05:00:01Z",
-            "url": "https://www.cnbc.com/2026/10/18/hedge-funds-bond-market-turmoil.html",
-            "sentiment_score": -0.4773,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "OTD (18/10/1980): Election Time For Fred The Red (And White)",
-            "description": "Money matters bring us onto the life of a popular Sunderland fan and director…",
-            "source": "SB Nation",
-            "published_at": "2026-10-18T05:00:00Z",
-            "url": "https://rokerreport.sbnation.com/features/156608/otd-18-10-1980-election-time-for-fred-the-red-and-white",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1265,
+        "average_score": 0.1198,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Blockchain Association backs Treasury stablecoin rule but wants tighter definitions",
+            "description": "The Blockchain Association's feedback on Treasury's stablecoin rule highlights the need for precise definitions to prevent regulatory overreach, impacting global crypto operations.\nThe post Blockchain Association backs Treasury stablecoin rule but wants tight…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-20T01:25:01Z",
+            "url": "https://cryptobriefing.com/blockchain-association-treasury-stablecoin-rule/",
+            "sentiment_score": 0.081,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Three big takeaways from the IMF-World Bank meetings",
+            "description": "Debt, AI and Ukraine dominated the conversation at the IMF-World Bank meetings in Bangkok, while China, the focus in 2018, slipped into the background.",
+            "source": "CNBC",
+            "published_at": "2026-10-20T00:33:34Z",
+            "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "UBS explains how looming Fed rate hike could impact your investments",
+            "description": "As retail investors, we’re all feeling a tad overwhelmed by the recent headlines here at TheStreet about shifting Federal Reserve interest rates, surging Treasury yields, and persistent sticky inflation.\nRecently, strong economic data and higher energy costs …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T22:45:07Z",
+            "url": "https://biztoc.com/x/a741c742219bf3ee",
+            "sentiment_score": 0.172,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Kansas City Fed Flags Funding Challenges From Tokenized Deposits",
@@ -989,71 +949,41 @@
             "url": "https://www.hurriyetdailynews.com/earnings-in-focus-as-ai-fed-keep-investors-on-edge-228337",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why B2B Checks Still Move $15 Trillion a Year",
-            "description": "The check was supposed to be dead by now. Instead, it has become a $15 trillion reminder that moving money and settling a business obligation are not always the same thing. According to research briefs from the Federal Reserve Bank of Cleveland published in S…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-19T13:00:33Z",
-            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-b2b-checks-still-move-15-trillion-a-year/",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI stocks bounce back after bruising selloff; CoreWeave jumps on Goldman upgrade",
-            "description": "Oct 19 : AI-linked stocks bounced back on Monday after a bruising selloff last week, as lower Treasury yields and easing crude oil prices offered some relief, while neocloud firm CoreWeave surged following a rating upgrade.CoreWeave jumped 3.4 per cent after …",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/ai-stocks-bounce-back-after-bruising-selloff-coreweave-jumps-goldman-upgrade-6472076",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US chip stocks rise after steepest weekly selloff in months",
-            "description": "Oct 19 : US chip stocks recovered some ground on Monday, bouncing after a bruising selloff last week as lower Treasury yields and easing crude oil prices offered some support to the recently battered AI trade. The iShares Semiconductor ETF, which is the large…",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/us-chip-stocks-rise-after-steepest-weekly-selloff-in-months-6472076",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0788,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1892,
+      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.33763,
+      "price_now": 1.33736,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 62.2,
-      "rsi_signal": "โซนกลาง (RSI=62.2)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00118,
-      "suggested_sl_distance": 0.00177,
+      "rsi_value": 59.7,
+      "rsi_signal": "โซนกลาง (RSI=59.7)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00105,
+      "suggested_sl_distance": 0.00157,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=62.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-20T22:14:51.120258+00:00"
+    "generated_at": "2026-10-21T01:26:37.085514+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1062,10 +992,40 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.1265,
+        "average_score": 0.1198,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Blockchain Association backs Treasury stablecoin rule but wants tighter definitions",
+            "description": "The Blockchain Association's feedback on Treasury's stablecoin rule highlights the need for precise definitions to prevent regulatory overreach, impacting global crypto operations.\nThe post Blockchain Association backs Treasury stablecoin rule but wants tight…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-20T01:25:01Z",
+            "url": "https://cryptobriefing.com/blockchain-association-treasury-stablecoin-rule/",
+            "sentiment_score": 0.081,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Three big takeaways from the IMF-World Bank meetings",
+            "description": "Debt, AI and Ukraine dominated the conversation at the IMF-World Bank meetings in Bangkok, while China, the focus in 2018, slipped into the background.",
+            "source": "CNBC",
+            "published_at": "2026-10-20T00:33:34Z",
+            "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "UBS explains how looming Fed rate hike could impact your investments",
+            "description": "As retail investors, we’re all feeling a tad overwhelmed by the recent headlines here at TheStreet about shifting Federal Reserve interest rates, surging Treasury yields, and persistent sticky inflation.\nRecently, strong economic data and higher energy costs …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T22:45:07Z",
+            "url": "https://biztoc.com/x/a741c742219bf3ee",
+            "sentiment_score": 0.172,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Kansas City Fed Flags Funding Challenges From Tokenized Deposits",
@@ -1334,36 +1294,6 @@
             "published_at": "2026-10-19T13:53:32Z",
             "url": "https://www.hurriyetdailynews.com/earnings-in-focus-as-ai-fed-keep-investors-on-edge-228337",
             "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why B2B Checks Still Move $15 Trillion a Year",
-            "description": "The check was supposed to be dead by now. Instead, it has become a $15 trillion reminder that moving money and settling a business obligation are not always the same thing. According to research briefs from the Federal Reserve Bank of Cleveland published in S…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-19T13:00:33Z",
-            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-b2b-checks-still-move-15-trillion-a-year/",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI stocks bounce back after bruising selloff; CoreWeave jumps on Goldman upgrade",
-            "description": "Oct 19 : AI-linked stocks bounced back on Monday after a bruising selloff last week, as lower Treasury yields and easing crude oil prices offered some relief, while neocloud firm CoreWeave surged following a rating upgrade.CoreWeave jumped 3.4 per cent after …",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/ai-stocks-bounce-back-after-bruising-selloff-coreweave-jumps-goldman-upgrade-6472076",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US chip stocks rise after steepest weekly selloff in months",
-            "description": "Oct 19 : US chip stocks recovered some ground on Monday, bouncing after a bruising selloff last week as lower Treasury yields and easing crude oil prices offered some support to the recently battered AI trade. The iShares Semiconductor ETF, which is the large…",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/us-chip-stocks-rise-after-steepest-weekly-selloff-in-months-6472076",
-            "sentiment_score": -0.0308,
             "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
@@ -1455,7 +1385,7 @@
           }
         ]
       },
-      "net_score": 0.2224,
+      "net_score": 0.2157,
       "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1465,14 +1395,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.28799,
+      "price_now": 158.343,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 54.9,
-      "rsi_signal": "โซนกลาง (RSI=54.9)",
+      "rsi_value": 57.5,
+      "rsi_signal": "โซนกลาง (RSI=57.5)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.14546,
-      "suggested_sl_distance": 0.2182,
+      "atr_value": 0.13871,
+      "suggested_sl_distance": 0.20807,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1486,7 +1416,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-20T22:14:51.120258+00:00"
+    "generated_at": "2026-10-21T01:26:37.085514+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1495,10 +1425,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1451,
+        "average_score": -0.088,
         "label": "ลบเล็กน้อย",
-        "article_count": 7,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Politics with Michelle Grattan: Ed Husic urges brakes on data centres ‘swamping’ Australia",
+            "description": "The former industry minister said Australia is ‘going too fast’ and ‘been swamped by US tech’ building data centres here to dodge growing US community opposition.",
+            "source": "The Conversation Africa",
+            "published_at": "2026-10-20T01:02:23Z",
+            "url": "https://theconversation.com/politics-with-michelle-grattan-ed-husic-urges-brakes-on-data-centres-swamping-australia-294687",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "AUD",
             "title": "Could the ban on card surcharges lead to a rise in tax evasion?",
@@ -1548,34 +1488,44 @@
             "url": "https://www.ibtimes.com.au/asx-200-rises-banks-defensive-stocks-tech-selloff-1876971",
             "sentiment_score": 0.0252,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "AUD",
-            "title": "High oil prices fuel renewed inflation fears",
-            "description": "The economic bad news just keeps on coming for the Albanese government with warnings over inflation, interest rates and consumer confidence. Meanwhile, Ukraine has ignored Donald Trump and resumed strikes on Russian oil facilities.\nThe post High oil prices fu…",
-            "source": "Crikey",
-            "published_at": "2026-10-18T20:10:58Z",
-            "url": "http://www.crikey.com.au/2026/10/19/economy-oil-prices-inflation-rba-interest-rates-trump-ukraine-zelenskyy/",
-            "sentiment_score": -0.4432,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Labor admits it knew ATO was considering controversial credit card ban months before Aussies were told",
-            "description": "A senior Labor figure has revealed the Albanese government was aware of the risks of their controversial changes to card surcharges as early as July.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-18T03:19:11Z",
-            "url": "https://www.dailymail.com/news/article-16217851/daniel-mulino-government-knew-ato-credit-card-ban.html",
-            "sentiment_score": -0.2393,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1265,
+        "average_score": 0.1198,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Blockchain Association backs Treasury stablecoin rule but wants tighter definitions",
+            "description": "The Blockchain Association's feedback on Treasury's stablecoin rule highlights the need for precise definitions to prevent regulatory overreach, impacting global crypto operations.\nThe post Blockchain Association backs Treasury stablecoin rule but wants tight…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-20T01:25:01Z",
+            "url": "https://cryptobriefing.com/blockchain-association-treasury-stablecoin-rule/",
+            "sentiment_score": 0.081,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Three big takeaways from the IMF-World Bank meetings",
+            "description": "Debt, AI and Ukraine dominated the conversation at the IMF-World Bank meetings in Bangkok, while China, the focus in 2018, slipped into the background.",
+            "source": "CNBC",
+            "published_at": "2026-10-20T00:33:34Z",
+            "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "UBS explains how looming Fed rate hike could impact your investments",
+            "description": "As retail investors, we’re all feeling a tad overwhelmed by the recent headlines here at TheStreet about shifting Federal Reserve interest rates, surging Treasury yields, and persistent sticky inflation.\nRecently, strong economic data and higher energy costs …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T22:45:07Z",
+            "url": "https://biztoc.com/x/a741c742219bf3ee",
+            "sentiment_score": 0.172,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Kansas City Fed Flags Funding Challenges From Tokenized Deposits",
@@ -1845,40 +1795,10 @@
             "url": "https://www.hurriyetdailynews.com/earnings-in-focus-as-ai-fed-keep-investors-on-edge-228337",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why B2B Checks Still Move $15 Trillion a Year",
-            "description": "The check was supposed to be dead by now. Instead, it has become a $15 trillion reminder that moving money and settling a business obligation are not always the same thing. According to research briefs from the Federal Reserve Bank of Cleveland published in S…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-19T13:00:33Z",
-            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-b2b-checks-still-move-15-trillion-a-year/",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI stocks bounce back after bruising selloff; CoreWeave jumps on Goldman upgrade",
-            "description": "Oct 19 : AI-linked stocks bounced back on Monday after a bruising selloff last week, as lower Treasury yields and easing crude oil prices offered some relief, while neocloud firm CoreWeave surged following a rating upgrade.CoreWeave jumped 3.4 per cent after …",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/ai-stocks-bounce-back-after-bruising-selloff-coreweave-jumps-goldman-upgrade-6472076",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US chip stocks rise after steepest weekly selloff in months",
-            "description": "Oct 19 : US chip stocks recovered some ground on Monday, bouncing after a bruising selloff last week as lower Treasury yields and easing crude oil prices offered some support to the recently battered AI trade. The iShares Semiconductor ETF, which is the large…",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/us-chip-stocks-rise-after-steepest-weekly-selloff-in-months-6472076",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.2716,
+      "net_score": -0.2078,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1888,14 +1808,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70111,
+      "price_now": 0.70185,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 64.5,
-      "rsi_signal": "โซนกลาง (RSI=64.5)",
+      "rsi_value": 66.4,
+      "rsi_signal": "โซนกลาง (RSI=66.4)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00069,
-      "suggested_sl_distance": 0.00104,
+      "atr_value": 0.0007,
+      "suggested_sl_distance": 0.00105,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1907,9 +1827,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=64.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=66.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-20T22:14:51.120258+00:00"
+    "generated_at": "2026-10-21T01:26:37.085514+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1918,9 +1838,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.2218,
-        "label": "ลบเล็กน้อย",
-        "article_count": 6,
+        "average_score": -0.2842,
+        "label": "ลบชัดเจน (Bearish)",
+        "article_count": 4,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -1961,34 +1881,44 @@
             "url": "https://economictimes.indiatimes.com/wealth/invest/gold-silver-rate-today-october-19-2026-18k-20k-24k-delhi-hyderabad-bengaluru-citywise-ibja-gold-price-malabar-gold-kalyan-jewelers-joyalukkas/articleshow/135041704.cms",
             "sentiment_score": 0.2011,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "5 things to watch on the ASX 200 on Monday",
-            "description": "Here's what to expect on the local market today.\nThe post 5 things to watch on the ASX 200 on Monday appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-10-18T20:37:19Z",
-            "url": "https://www.fool.com.au/2026/10/19/5-things-to-watch-on-the-asx-200-on-monday-19-october-2026/",
-            "sentiment_score": -0.1321,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "tickfeed added to PyPI",
-            "description": "Official Python client for the TickFeed market data API: live bid/ask and OHLC candles for 60 forex pairs and 11 metals.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-18T14:02:01Z",
-            "url": "https://pypi.org/project/tickfeed/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1265,
+        "average_score": 0.1198,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Blockchain Association backs Treasury stablecoin rule but wants tighter definitions",
+            "description": "The Blockchain Association's feedback on Treasury's stablecoin rule highlights the need for precise definitions to prevent regulatory overreach, impacting global crypto operations.\nThe post Blockchain Association backs Treasury stablecoin rule but wants tight…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-20T01:25:01Z",
+            "url": "https://cryptobriefing.com/blockchain-association-treasury-stablecoin-rule/",
+            "sentiment_score": 0.081,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Three big takeaways from the IMF-World Bank meetings",
+            "description": "Debt, AI and Ukraine dominated the conversation at the IMF-World Bank meetings in Bangkok, while China, the focus in 2018, slipped into the background.",
+            "source": "CNBC",
+            "published_at": "2026-10-20T00:33:34Z",
+            "url": "https://www.cnbc.com/2026/10/20/imf-debt-yields-russia-china-takeaway-.html",
+            "sentiment_score": -0.1084,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "UBS explains how looming Fed rate hike could impact your investments",
+            "description": "As retail investors, we’re all feeling a tad overwhelmed by the recent headlines here at TheStreet about shifting Federal Reserve interest rates, surging Treasury yields, and persistent sticky inflation.\nRecently, strong economic data and higher energy costs …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-19T22:45:07Z",
+            "url": "https://biztoc.com/x/a741c742219bf3ee",
+            "sentiment_score": 0.172,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Kansas City Fed Flags Funding Challenges From Tokenized Deposits",
@@ -2258,70 +2188,40 @@
             "url": "https://www.hurriyetdailynews.com/earnings-in-focus-as-ai-fed-keep-investors-on-edge-228337",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Why B2B Checks Still Move $15 Trillion a Year",
-            "description": "The check was supposed to be dead by now. Instead, it has become a $15 trillion reminder that moving money and settling a business obligation are not always the same thing. According to research briefs from the Federal Reserve Bank of Cleveland published in S…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-19T13:00:33Z",
-            "url": "https://www.pymnts.com/news/b2b-payments/2026/why-b2b-checks-still-move-15-trillion-a-year/",
-            "sentiment_score": -0.1946,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "AI stocks bounce back after bruising selloff; CoreWeave jumps on Goldman upgrade",
-            "description": "Oct 19 : AI-linked stocks bounced back on Monday after a bruising selloff last week, as lower Treasury yields and easing crude oil prices offered some relief, while neocloud firm CoreWeave surged following a rating upgrade.CoreWeave jumped 3.4 per cent after …",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/ai-stocks-bounce-back-after-bruising-selloff-coreweave-jumps-goldman-upgrade-6472076",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US chip stocks rise after steepest weekly selloff in months",
-            "description": "Oct 19 : US chip stocks recovered some ground on Monday, bouncing after a bruising selloff last week as lower Treasury yields and easing crude oil prices offered some support to the recently battered AI trade. The iShares Semiconductor ETF, which is the large…",
-            "source": "CNA",
-            "published_at": "2026-10-19T12:41:02Z",
-            "url": "https://www.channelnewsasia.com/business/us-chip-stocks-rise-after-steepest-weekly-selloff-in-months-6472076",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.3483,
+      "net_score": -0.404,
       "bias": "เอียงลบต่อ XAU (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4145.5,
+      "price_now": 4127.2998,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 46.6,
-      "rsi_signal": "โซนกลาง (RSI=46.6)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 12.02343,
-      "suggested_sl_distance": 18.03514,
+      "rsi_value": 37.9,
+      "rsi_signal": "โซนกลาง (RSI=37.9)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 12.07296,
+      "suggested_sl_distance": 18.10944,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-20T22:14:51.120258+00:00"
+    "generated_at": "2026-10-21T01:26:37.085514+00:00"
   }
 ]
