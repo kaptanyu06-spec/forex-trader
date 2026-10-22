@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0571,
-        "label": "ลบเล็กน้อย",
-        "article_count": 29,
+        "average_score": -0.0395,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 18,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Unlocking Macroeconomics: Why Robert E. Hall And Michael Woodford Won The 2026 Nobel Prize In Economics",
+            "description": "Hoover Institution fellow Robert E. Hall fundamentally reshaped our understanding of consumer behavior. In landmark studies starting in the late 1970s, Hall introduced the Random Walk Hypothesis of Consumption.",
+            "source": "Newstalkflorida.com",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
+            "sentiment_score": 0.5766,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "France’s crisis sounds familiar. Is America next?",
+            "description": "France is on fire, and it faces a political and an economic reckoning that feels dangerously familiar to Americans.",
+            "source": "WPSD Local 6",
+            "published_at": "2026-10-20T22:22:51Z",
+            "url": "https://www.wpsdlocal6.com/news/france-s-crisis-sounds-familiar-is-america-next/article_1556c4f4-1aad-41bb-a101-05e3f0c03a06.html",
+            "sentiment_score": -0.6353,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
@@ -169,144 +189,54 @@
             "url": "https://www.channelnewsasia.com/business/asian-shares-tumble-oil-rises-markets-await-ai-sector-results-6474216",
             "sentiment_score": 0.0762,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Nvidia CEO urges German manufacturers to adopt AI",
-            "description": "Nvidia CEO Jensen Huang urged Germany’s makers of cars and industrial machines to quickly adopt artificial intelligence to “re-engineer” the country’s economy",
-            "source": "BNNBloomberg.ca",
-            "published_at": "2026-10-19T21:35:47Z",
-            "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/19/nvidia-ceo-urges-german-manufacturers-to-adopt-ai-saying-digital-tech-wont-replace-heavy-industry/",
-            "sentiment_score": 0.3003,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Nvidia CEO urges German manufacturers to adopt AI, saying digital tech won't replace heavy industry",
-            "description": "Nvidia's Jensen Huang is urging German manufacturing companies to combine their expertise in physical machines with artificial intelligence to, as he put it, “re-engineer” the economy",
-            "source": "Abcnews.com",
-            "published_at": "2026-10-19T19:49:56Z",
-            "url": "https://abcnews.com/Business/wireStory/nvidia-ceo-urges-german-manufacturers-adopt-ai-digital-137390930",
-            "sentiment_score": 0.2675,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "France is on fire but something more dangerous burns below the unrest",
-            "description": "France is engulfed in protests as the public expresses growing dissatisfaction with soaring expenses and diminishing educational quality. Citizens are voicing their demands for improved services, yet the government grapples with managing an overwhelming publi…",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T16:13:31Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/france-is-on-fire-but-something-more-dangerous-burns-below-the-unrest/articleshow/135051898.cms",
-            "sentiment_score": -0.5427,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Why France Is Burning",
-            "description": "Jean-Luc Mélenchon and the left see an opening to take the presidency next year. The riots in France turned even uglier on the weekend, spreading across the country and including brazen acts of violence. We’ve explained the underlying fiscal and political woe…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-10-19T15:08:05Z",
-            "url": "https://freerepublic.com/focus/f-news/4399746/posts",
-            "sentiment_score": -0.2673,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Wall Street Journal: Why the eurozone is better equipped to withstand a debt crisis than in 2010",
-            "description": "The Greek debt crisis and key differences with France today explain why a repeat of the turmoil that shook Europe 15 years ago is considered unlikely for now\nThe post Wall Street Journal: Why the eurozone is better equipped to withstand a debt crisis than in …",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-19T15:04:51Z",
-            "url": "https://en.protothema.gr/2026/10/19/wall-street-journal-why-the-eurozone-is-better-equipped-to-withstand-a-debt-crisis-than-in-2010/",
-            "sentiment_score": -0.6768,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Announcing 20260092 (MRO,liquidity providing), for 7 days deadline 09:30",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-19T13:52:55Z",
-            "url": "https://www.ecb.europa.eu/mopo/implement/omo/html/20260092.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ecb-exchange-rate 1.0.2",
-            "description": "Official European Central Bank exchange rates - ~41 currencies vs EUR, history since 1999. Keyless, zero-dependency Python client.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-19T11:45:33Z",
-            "url": "https://pypi.org/project/ecb-exchange-rate/1.0.2/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "French unrest compounds debt crisis fears. Paris-listed stocks, bonds and the euro fall",
-            "description": "\"It looks like either the bond markets riot, or the people riot, or both,\" one analyst told CNBC.",
-            "source": "CNBC",
-            "published_at": "2026-10-19T09:07:09Z",
-            "url": "https://www.cnbc.com/2026/10/19/france-protests-bond-yields-markets.html",
-            "sentiment_score": -0.8061,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: Euro falls as French political unrest, high energy prices weigh on sentiment",
-            "description": "The euro weakened amid elevated energy prices and renewed French political uncertainty, while investors reassessed the outlook for US growth, interest rates and the dollar. The yen, yuan and Indonesian rupiah also moved as markets weighed central bank signals…",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T08:51:17Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-euro-falls-as-french-political-unrest-high-energy-prices-weigh-on-sentiment/articleshow/135044480.cms",
-            "sentiment_score": 0.3289,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: Eurozone bond selloff to weigh on growth, curb inflation, Lagarde says",
-            "description": "ECB President Christine Lagarde warned that a global bond selloff is tightening euro zone financial conditions, raising borrowing costs and weighing on growth. Policymakers face a challenge balancing persistent energy-driven inflation risks against slowing ec…",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T07:41:07Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-eurozone-bond-selloff-to-weigh-on-growth-curb-inflation-lagarde-says/articleshow/135043065.cms",
-            "sentiment_score": 0.2441,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "France's riots highlight a growing risk for its battered bond market",
-            "description": "Mass protests over living costs and school conditions swept across France over the weekend, with violence and looting breaking out in several cities.",
-            "source": "Business Insider",
-            "published_at": "2026-10-19T06:40:02Z",
-            "url": "https://www.businessinsider.com/france-protests-riots-paris-bond-market-debt-oats-yields-selloff-2026-10#article",
-            "sentiment_score": -0.4383,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-19T06:00:00Z",
-            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261019~f0a3e053de.en.html",
-            "sentiment_score": -0.1912,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Gold edges higher on softer oil; Fed rate outlook in focus",
-            "description": "Gold edges higher as oil softens and Fed rate-hike odds loom; investors weigh inflation, PCE data, and central bank signals.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-19T03:36:01Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-edges-higher-on-softer-oil-fed-rate-outlook-in-focus/article71602024.ece",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0678,
+        "average_score": 0.1258,
         "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "1.5 Million Latinos Have Lost Food Aid Since Trump Passed Tax Giveaway for the Rich",
+            "description": "An analysis published Tuesday estimates that 1.5 million US Latinos have lost access to federal food assistance since the passage of President Donald Trump’s so-called One Big Beautiful Bill Act, the latest of numerous indicators of how the law's evisceration…",
+            "source": "Common Dreams",
+            "published_at": "2026-10-21T00:40:41Z",
+            "url": "https://www.commondreams.org/news/latinos-lose-food-aid",
+            "sentiment_score": 0.3373,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Rising yields: Is it time to look at gilt funds?",
+            "description": "As bond yields rise, gilt funds, which invest in government securities, are drawing significant attention from investors seeking low credit-risk options. While these investments benefit from government backing, they still carry inherent risks. The performance…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-21T00:10:54Z",
+            "url": "https://m.economictimes.com/mf/analysis/rising-yields-is-it-time-to-look-at-gilt-funds/articleshow/135078426.cms",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "After The Blue Wave",
+            "description": "Why we still need democratic reform.",
+            "source": "Persuasion.community",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.persuasion.community/p/after-the-blue-wave",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unlocking Macroeconomics: Why Robert E. Hall And Michael Woodford Won The 2026 Nobel Prize In Economics",
+            "description": "Hoover Institution fellow Robert E. Hall fundamentally reshaped our understanding of consumer behavior. In landmark studies starting in the late 1970s, Hall introduced the Random Walk Hypothesis of Consumption.",
+            "source": "Newstalkflorida.com",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
+            "sentiment_score": 0.5766,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
@@ -556,54 +486,14 @@
             "url": "https://biztoc.com/x/6974b6adb7d9a59c",
             "sentiment_score": -0.0486,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump gouges MAGA fans with 'tone-deaf' merchandise price increases: report",
-            "description": "Donald Trump’s merchandise store is jacking up prices in a last-gasp attempt to gouge his MAGA fans as the clock ticks down on his political career.According to a report from the Washington Sun, the inflation that has run rampant during the president’s second…",
-            "source": "Raw Story",
-            "published_at": "2026-10-20T13:29:54Z",
-            "url": "https://www.rawstory.com/trump-maga-merchandise-prices/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It",
-            "description": "The post BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It appeared first on 24/7 Wall St..\nIn a note on Monday, Bank of America (NYSE:BAC) said it still expects the Federal Reserve to raise rates at its October meeting. The decision i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-20T13:15:05Z",
-            "url": "https://biztoc.com/x/dd7023b473c34e45",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest",
-            "description": "\"Even if primary deficits remain largely unchanged, the growing interest burden materially increases the government's financing needs,\" the analysts wrote.",
-            "source": "Fortune",
-            "published_at": "2026-10-20T13:04:48Z",
-            "url": "https://fortune.com/2026/10/20/white-house-warsh-national-debt-fed-interest-rate-cost/",
-            "sentiment_score": -0.1143,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
-            "description": "The key level traders are watching on the S&P 500 that could mean an even bigger decline is ahead.",
-            "source": "CNBC",
-            "published_at": "2026-10-20T12:52:29Z",
-            "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.1249,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1653,
+      "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -612,11 +502,11 @@
       "price_now": 1.12347,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.3,
-      "rsi_signal": "โซนกลาง (RSI=52.3)",
+      "rsi_value": 51.9,
+      "rsi_signal": "โซนกลาง (RSI=51.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00093,
-      "suggested_sl_distance": 0.0014,
+      "atr_value": 0.00086,
+      "suggested_sl_distance": 0.00129,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -628,9 +518,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=52.3) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=51.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-21T22:13:57.987635+00:00"
+    "generated_at": "2026-10-22T01:24:49.062591+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -639,10 +529,30 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0094,
+        "average_score": 0.0422,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 24,
+        "article_count": 18,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Unlocking Macroeconomics: Why Robert E. Hall And Michael Woodford Won The 2026 Nobel Prize In Economics",
+            "description": "Hoover Institution fellow Robert E. Hall fundamentally reshaped our understanding of consumer behavior. In landmark studies starting in the late 1970s, Hall introduced the Random Walk Hypothesis of Consumption.",
+            "source": "Newstalkflorida.com",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
+            "sentiment_score": 0.5766,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Expect a Budget for backbenchers, not business or bond markets, Burnham's old aide warns",
+            "description": "John Healey's Budget will aim to please Labour backbenchers rather than businesses or the bond markets, Andy Haldane, an ex-adviser to the Prime Minister has said.",
+            "source": "Dailymail.com",
+            "published_at": "2026-10-20T23:00:49Z",
+            "url": "https://www.dailymail.com/news/article-16225069/Expect-Budget-backbenchers-business-bond-markets-Burnham-aide.html",
+            "sentiment_score": 0.0236,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "European stocks extend slide as French unrest rattles investors",
@@ -802,94 +712,54 @@
             "url": "https://cryptobriefing.com/pound-strengthens-as-fed-and-bank-of-england-policy-paths-diverge/",
             "sentiment_score": 0.4588,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "This Budget could be even worse than the two bloodbaths delivered by Reeves, Kemi Badenoch warns",
-            "description": "The Tory leader will raise the prospect the Chancellor will cause more damage to the economy than his predecessor, despite Labour already hiking the tax burden to a post-war high.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-19T23:00:57Z",
-            "url": "https://www.dailymail.com/news/article-16222009/Budget-bloodbaths-Reeves-Kemi-Badenoch-warns.html",
-            "sentiment_score": -0.5704,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Health unions put NHS on notice for more damaging strikes as ministers recommend a below-inflation pay rise",
-            "description": "Doctors, nurses and other healthcare workers reacted with fury to the government's proposal for a 2.4 per cent rise for the 2027/28 financial year.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-19T17:30:39Z",
-            "url": "https://www.dailymail.com/news/article-16221477/Unions-notice-strikes-ministers-pay.html",
-            "sentiment_score": -0.6233,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "European shares dip despite tech rebound",
-            "description": "Irish market begins week in the red",
-            "source": "The Irish Times",
-            "published_at": "2026-10-19T17:25:20Z",
-            "url": "https://www.irishtimes.com/business/2026/10/19/european-shares-dip-despite-tech-rebound/",
-            "sentiment_score": 0.2072,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Hackers Use AI Agents to Do Hacking for Them",
-            "description": "New research shows the growing use of AI-powered hacking systems in cybercrime operations. The trend was uncovered in an investigation by cybersecurity firm NorForge, findings from which were published Monday (Oct. 19). The company’s investigation into public…",
-            "source": "pymnts.com",
-            "published_at": "2026-10-19T14:35:10Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/hackers-use-ai-agents-to-do-hacking-for-them/",
-            "sentiment_score": 0.0534,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Somehow the English media is playing down ManC’s situation. But in Europe….",
-            "description": "Some clubs just threaten others; Arsenal find new brilliance within A move toward a new style of club financing and a fair approach to football By Tony Attwood In England there tends to be a view that suggests that football happens in England, and we sort out…",
-            "source": "Untold-arsenal.com",
-            "published_at": "2026-10-19T12:48:04Z",
-            "url": "https://untold-arsenal.com/archives/123702",
-            "sentiment_score": 0.2391,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England said to be reviewing Barclays’ handling of private credit loans",
-            "description": "Concerns financial contracts known as derivatives were incorrectly logged, potentially boosting Barclays’ profits\nThe Bank of England is reportedly looking into Barclays’ handling of loans linked to the embattled private credit sector.\nThe Bank’s regulatory a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-19T12:23:20Z",
-            "url": "https://biztoc.com/x/f3b86bf779be099f",
-            "sentiment_score": 0.5026,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Sterling hits 17-month high against euro",
-            "description": "Sterling hit a fresh 17-month high against the euro on Monday as street riots in France and elevated energy prices weighed on the single currency while recent",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T12:01:04Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/sterling-hits-17-month-high-against-euro/articleshow/135048275.cms",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "boe-exchange-rate 1.0.2",
-            "description": "Official Bank of England exchange rates - ~23 currencies vs GBP, history since 2016. Keyless, zero-dependency Python client.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-19T11:45:35Z",
-            "url": "https://pypi.org/project/boe-exchange-rate/1.0.2/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0678,
+        "average_score": 0.1258,
         "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "1.5 Million Latinos Have Lost Food Aid Since Trump Passed Tax Giveaway for the Rich",
+            "description": "An analysis published Tuesday estimates that 1.5 million US Latinos have lost access to federal food assistance since the passage of President Donald Trump’s so-called One Big Beautiful Bill Act, the latest of numerous indicators of how the law's evisceration…",
+            "source": "Common Dreams",
+            "published_at": "2026-10-21T00:40:41Z",
+            "url": "https://www.commondreams.org/news/latinos-lose-food-aid",
+            "sentiment_score": 0.3373,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Rising yields: Is it time to look at gilt funds?",
+            "description": "As bond yields rise, gilt funds, which invest in government securities, are drawing significant attention from investors seeking low credit-risk options. While these investments benefit from government backing, they still carry inherent risks. The performance…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-21T00:10:54Z",
+            "url": "https://m.economictimes.com/mf/analysis/rising-yields-is-it-time-to-look-at-gilt-funds/articleshow/135078426.cms",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "After The Blue Wave",
+            "description": "Why we still need democratic reform.",
+            "source": "Persuasion.community",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.persuasion.community/p/after-the-blue-wave",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unlocking Macroeconomics: Why Robert E. Hall And Michael Woodford Won The 2026 Nobel Prize In Economics",
+            "description": "Hoover Institution fellow Robert E. Hall fundamentally reshaped our understanding of consumer behavior. In landmark studies starting in the late 1970s, Hall introduced the Random Walk Hypothesis of Consumption.",
+            "source": "Newstalkflorida.com",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
+            "sentiment_score": 0.5766,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
@@ -1139,50 +1009,10 @@
             "url": "https://biztoc.com/x/6974b6adb7d9a59c",
             "sentiment_score": -0.0486,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump gouges MAGA fans with 'tone-deaf' merchandise price increases: report",
-            "description": "Donald Trump’s merchandise store is jacking up prices in a last-gasp attempt to gouge his MAGA fans as the clock ticks down on his political career.According to a report from the Washington Sun, the inflation that has run rampant during the president’s second…",
-            "source": "Raw Story",
-            "published_at": "2026-10-20T13:29:54Z",
-            "url": "https://www.rawstory.com/trump-maga-merchandise-prices/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It",
-            "description": "The post BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It appeared first on 24/7 Wall St..\nIn a note on Monday, Bank of America (NYSE:BAC) said it still expects the Federal Reserve to raise rates at its October meeting. The decision i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-20T13:15:05Z",
-            "url": "https://biztoc.com/x/dd7023b473c34e45",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest",
-            "description": "\"Even if primary deficits remain largely unchanged, the growing interest burden materially increases the government's financing needs,\" the analysts wrote.",
-            "source": "Fortune",
-            "published_at": "2026-10-20T13:04:48Z",
-            "url": "https://fortune.com/2026/10/20/white-house-warsh-national-debt-fed-interest-rate-cost/",
-            "sentiment_score": -0.1143,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
-            "description": "The key level traders are watching on the S&P 500 that could mean an even bigger decline is ahead.",
-            "source": "CNBC",
-            "published_at": "2026-10-20T12:52:29Z",
-            "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0772,
+      "net_score": -0.0836,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1192,14 +1022,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.33933,
+      "price_now": 1.33912,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 56.8,
-      "rsi_signal": "โซนกลาง (RSI=56.8)",
+      "rsi_value": 54.4,
+      "rsi_signal": "โซนกลาง (RSI=54.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00106,
-      "suggested_sl_distance": 0.00158,
+      "atr_value": 0.00099,
+      "suggested_sl_distance": 0.00148,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1213,7 +1043,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-21T22:13:57.987635+00:00"
+    "generated_at": "2026-10-22T01:24:49.062591+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1222,10 +1052,50 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0678,
+        "average_score": 0.1258,
         "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "1.5 Million Latinos Have Lost Food Aid Since Trump Passed Tax Giveaway for the Rich",
+            "description": "An analysis published Tuesday estimates that 1.5 million US Latinos have lost access to federal food assistance since the passage of President Donald Trump’s so-called One Big Beautiful Bill Act, the latest of numerous indicators of how the law's evisceration…",
+            "source": "Common Dreams",
+            "published_at": "2026-10-21T00:40:41Z",
+            "url": "https://www.commondreams.org/news/latinos-lose-food-aid",
+            "sentiment_score": 0.3373,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Rising yields: Is it time to look at gilt funds?",
+            "description": "As bond yields rise, gilt funds, which invest in government securities, are drawing significant attention from investors seeking low credit-risk options. While these investments benefit from government backing, they still carry inherent risks. The performance…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-21T00:10:54Z",
+            "url": "https://m.economictimes.com/mf/analysis/rising-yields-is-it-time-to-look-at-gilt-funds/articleshow/135078426.cms",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "After The Blue Wave",
+            "description": "Why we still need democratic reform.",
+            "source": "Persuasion.community",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.persuasion.community/p/after-the-blue-wave",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unlocking Macroeconomics: Why Robert E. Hall And Michael Woodford Won The 2026 Nobel Prize In Economics",
+            "description": "Hoover Institution fellow Robert E. Hall fundamentally reshaped our understanding of consumer behavior. In landmark studies starting in the late 1970s, Hall introduced the Random Walk Hypothesis of Consumption.",
+            "source": "Newstalkflorida.com",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
+            "sentiment_score": 0.5766,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
@@ -1475,54 +1345,34 @@
             "url": "https://biztoc.com/x/6974b6adb7d9a59c",
             "sentiment_score": -0.0486,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump gouges MAGA fans with 'tone-deaf' merchandise price increases: report",
-            "description": "Donald Trump’s merchandise store is jacking up prices in a last-gasp attempt to gouge his MAGA fans as the clock ticks down on his political career.According to a report from the Washington Sun, the inflation that has run rampant during the president’s second…",
-            "source": "Raw Story",
-            "published_at": "2026-10-20T13:29:54Z",
-            "url": "https://www.rawstory.com/trump-maga-merchandise-prices/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It",
-            "description": "The post BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It appeared first on 24/7 Wall St..\nIn a note on Monday, Bank of America (NYSE:BAC) said it still expects the Federal Reserve to raise rates at its October meeting. The decision i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-20T13:15:05Z",
-            "url": "https://biztoc.com/x/dd7023b473c34e45",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest",
-            "description": "\"Even if primary deficits remain largely unchanged, the growing interest burden materially increases the government's financing needs,\" the analysts wrote.",
-            "source": "Fortune",
-            "published_at": "2026-10-20T13:04:48Z",
-            "url": "https://fortune.com/2026/10/20/white-house-warsh-national-debt-fed-interest-rate-cost/",
-            "sentiment_score": -0.1143,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
-            "description": "The key level traders are watching on the S&P 500 that could mean an even bigger decline is ahead.",
-            "source": "CNBC",
-            "published_at": "2026-10-20T12:52:29Z",
-            "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0056,
+        "average_score": 0.0324,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 12,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan shifting to wage-driven inflation phase, finance minister says",
+            "description": "TOKYO, Oct 21 : Japan's economy is seeing price rises driven by higher import costs and on the cusp of shifting to a period of sustained inflation driven by rising wages, Finance Minister Satsuki Katayama said on Wednesday.The government's scheduled consumpti…",
+            "source": "CNA",
+            "published_at": "2026-10-21T00:54:28Z",
+            "url": "https://www.channelnewsasia.com/business/japan-shifting-wage-driven-inflation-phase-finance-minister-says-6477281",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan shifting to wage-driven inflation phase, finance minister says",
+            "description": "Japan's economy is seeing price rises driven by higher import costs and on the cusp of shifting to a period of sustained inflation driven by rising wages, Finance Minister Satsuki Katayama said.",
+            "source": "CNA",
+            "published_at": "2026-10-21T00:54:00Z",
+            "url": "https://www.channelnewsasia.com/business/japan-wage-driven-inflation-phase-6477281",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
@@ -1562,90 +1412,10 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-slips-as-investors-weigh-fed-rate-outlook/articleshow/135059635.cms",
             "sentiment_score": 0.1321,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "boj-exchange-rate 1.0.2",
-            "description": "Official Bank of Japan exchange rates - 1 (USD/JPY spot + central) currencies vs JPY, history since 1998. Keyless, zero-dependency Python client.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-19T13:50:23Z",
-            "url": "https://pypi.org/project/boj-exchange-rate/1.0.2/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "boj-exchange-rate added to PyPI",
-            "description": "Official Bank of Japan exchange rates - 1 (USD/JPY spot + central) currencies vs JPY, history since 1998. Keyless, zero-dependency Python client.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-19T13:50:23Z",
-            "url": "https://pypi.org/project/boj-exchange-rate/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's Government Under Scrutiny Over Tax Cuts and Ministerial Scandal",
-            "description": "Prime Minister Sanae Takaichi faced renewed political pressure on October 19 as fresh opinion polls showed declining public support following a ministerial resignation, while her government signaled it could issue additional bonds to finance a planned two-yea…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-10-19T10:40:56Z",
-            "url": "https://newsonjapan.com/article/151091.php",
-            "sentiment_score": -0.3915,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global Market: Japan’s Nikkei falls 2% as tech selloff, rising oil prices fuel inflation fears",
-            "description": "Japan’s Nikkei 225 fell as US technology stock losses and rising oil prices heightened inflation and interest rate concerns. Semiconductor stocks led declines, while defensive and value shares offered potential support. Bank of Japan Governor Kazuo Ueda highl…",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T05:00:36Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japans-nikkei-falls-2-as-tech-selloff-rising-oil-prices-fuel-inflation-fears/articleshow/135040186.cms",
-            "sentiment_score": -0.0635,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Global Market: Japan bond yields fall as US tech selloff fuels safe-haven demand",
-            "description": "Japanese government bond yields fell as a selloff in US technology stocks triggered demand for safer assets. Prime Minister Sanae Takaichi’s pledge to control debt issuance also supported sentiment, while Bank of Japan rate expectations remained in focus.",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T04:49:26Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-fall-as-us-tech-selloff-fuels-safe-haven-demand/articleshow/135039965.cms",
-            "sentiment_score": 0.0368,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "3 British Dividend Stocks To Own In October 2026",
-            "description": "With the Bank of Japan talking about inflation edging close to its 2% goal and keeping the door open to higher interest rates, income from cash and bonds looks less predictable for yield hunters. Reliable United Kingdom dividend payers suddenly matter more. W…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-19T03:35:51Z",
-            "url": "https://biztoc.com/x/d12f307ff296608f",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Dollar firmer, euro weakens as French protests turn violent",
-            "description": "In Asia, the dollar saw a minor uptick as unrest in France put pressure on the euro, causing a small decline. Emerging market currencies, notably the Indonesian rupiah, are struggling with the looming threat of a stock market downgrade. Oil prices dipped foll…",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T02:05:41Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-firmer-euro-weakens-as-french-protests-turn-violent/articleshow/135037823.cms",
-            "sentiment_score": -0.8083,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ chief says underlying inflation 'quite close' to price goal",
-            "description": "By Leika Kihara\nTOKYO, Oct 19 (Reuters) - Bank of Japan Governor Kazuo Ueda said on Monday underlying inflation is \"quite close\" to the central bank's 2% target with strong global AI demand adding to inflationary pressure from a tight job market.\nThe remarks …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-19T01:34:34Z",
-            "url": "https://biztoc.com/x/3c83b05185ecc57e",
-            "sentiment_score": 0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0734,
+      "net_score": 0.0934,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1655,14 +1425,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.10001,
+      "price_now": 158.142,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 48.3,
-      "rsi_signal": "โซนกลาง (RSI=48.3)",
+      "rsi_value": 50.2,
+      "rsi_signal": "โซนกลาง (RSI=50.2)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.13267,
-      "suggested_sl_distance": 0.199,
+      "atr_value": 0.12892,
+      "suggested_sl_distance": 0.19338,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1676,7 +1446,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-21T22:13:57.987635+00:00"
+    "generated_at": "2026-10-22T01:24:49.062591+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1685,9 +1455,9 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.066,
-        "label": "ลบเล็กน้อย",
-        "article_count": 7,
+        "average_score": 0.0178,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 2,
         "scored_articles": [
           {
             "currency": "AUD",
@@ -1708,64 +1478,54 @@
             "url": "https://theconversation.com/politics-with-michelle-grattan-ed-husic-urges-brakes-on-data-centres-swamping-australia-294687",
             "sentiment_score": 0.0534,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Could the ban on card surcharges lead to a rise in tax evasion?",
-            "description": "The new ban on card surcharges could have unintended consequences.",
-            "source": "The Conversation Africa",
-            "published_at": "2026-10-19T19:15:08Z",
-            "url": "https://theconversation.com/could-the-ban-on-card-surcharges-lead-to-a-rise-in-tax-evasion-294139",
-            "sentiment_score": -0.5574,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "The dark forces driving discontent across the developed world",
-            "description": "The unwritten agreement between workers and the democratic state is fraying, and the costs of inequality are becoming increasingly apparent.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-10-19T18:00:00Z",
-            "url": "https://www.abc.net.au/news/2026-10-20/rising-political-cost-of-growing-inequality/107284494",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "rba-exchange-rate 1.0.2",
-            "description": "Official Reserve Bank of Australia exchange rates - ~22 currencies vs AUD, history since 2023. Keyless, zero-dependency Python client.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-19T13:50:45Z",
-            "url": "https://pypi.org/project/rba-exchange-rate/1.0.2/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "AUD",
-            "title": "rba-exchange-rate added to PyPI",
-            "description": "Official Reserve Bank of Australia exchange rates - ~22 currencies vs AUD, history since 2023. Keyless, zero-dependency Python client.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-19T13:50:45Z",
-            "url": "https://pypi.org/project/rba-exchange-rate/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "AUD",
-            "title": "ASX 200 Rises 0.4% to 8,843 as Banks and Defensive Stocks Lift Market While Challenger Jumps on Takeover Bid",
-            "description": "The ASX 200 rose 0.42% as banks, utilities and other defensive stocks outweighed technology losses, while Challenger rallied on Dai-ichi Life's takeover proposal.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-19T05:12:12Z",
-            "url": "https://www.ibtimes.com.au/asx-200-rises-banks-defensive-stocks-tech-selloff-1876971",
-            "sentiment_score": 0.0252,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0678,
+        "average_score": 0.1258,
         "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "1.5 Million Latinos Have Lost Food Aid Since Trump Passed Tax Giveaway for the Rich",
+            "description": "An analysis published Tuesday estimates that 1.5 million US Latinos have lost access to federal food assistance since the passage of President Donald Trump’s so-called One Big Beautiful Bill Act, the latest of numerous indicators of how the law's evisceration…",
+            "source": "Common Dreams",
+            "published_at": "2026-10-21T00:40:41Z",
+            "url": "https://www.commondreams.org/news/latinos-lose-food-aid",
+            "sentiment_score": 0.3373,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Rising yields: Is it time to look at gilt funds?",
+            "description": "As bond yields rise, gilt funds, which invest in government securities, are drawing significant attention from investors seeking low credit-risk options. While these investments benefit from government backing, they still carry inherent risks. The performance…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-21T00:10:54Z",
+            "url": "https://m.economictimes.com/mf/analysis/rising-yields-is-it-time-to-look-at-gilt-funds/articleshow/135078426.cms",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "After The Blue Wave",
+            "description": "Why we still need democratic reform.",
+            "source": "Persuasion.community",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.persuasion.community/p/after-the-blue-wave",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unlocking Macroeconomics: Why Robert E. Hall And Michael Woodford Won The 2026 Nobel Prize In Economics",
+            "description": "Hoover Institution fellow Robert E. Hall fundamentally reshaped our understanding of consumer behavior. In landmark studies starting in the late 1970s, Hall introduced the Random Walk Hypothesis of Consumption.",
+            "source": "Newstalkflorida.com",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
+            "sentiment_score": 0.5766,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
@@ -2015,50 +1775,10 @@
             "url": "https://biztoc.com/x/6974b6adb7d9a59c",
             "sentiment_score": -0.0486,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump gouges MAGA fans with 'tone-deaf' merchandise price increases: report",
-            "description": "Donald Trump’s merchandise store is jacking up prices in a last-gasp attempt to gouge his MAGA fans as the clock ticks down on his political career.According to a report from the Washington Sun, the inflation that has run rampant during the president’s second…",
-            "source": "Raw Story",
-            "published_at": "2026-10-20T13:29:54Z",
-            "url": "https://www.rawstory.com/trump-maga-merchandise-prices/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It",
-            "description": "The post BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It appeared first on 24/7 Wall St..\nIn a note on Monday, Bank of America (NYSE:BAC) said it still expects the Federal Reserve to raise rates at its October meeting. The decision i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-20T13:15:05Z",
-            "url": "https://biztoc.com/x/dd7023b473c34e45",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest",
-            "description": "\"Even if primary deficits remain largely unchanged, the growing interest burden materially increases the government's financing needs,\" the analysts wrote.",
-            "source": "Fortune",
-            "published_at": "2026-10-20T13:04:48Z",
-            "url": "https://fortune.com/2026/10/20/white-house-warsh-national-debt-fed-interest-rate-cost/",
-            "sentiment_score": -0.1143,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
-            "description": "The key level traders are watching on the S&P 500 that could mean an even bigger decline is ahead.",
-            "source": "CNBC",
-            "published_at": "2026-10-20T12:52:29Z",
-            "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.1338,
+      "net_score": -0.108,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2068,14 +1788,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70274,
+      "price_now": 0.70289,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.3,
-      "rsi_signal": "โซนกลาง (RSI=53.3)",
+      "rsi_value": 53.9,
+      "rsi_signal": "โซนกลาง (RSI=53.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00076,
-      "suggested_sl_distance": 0.00113,
+      "atr_value": 0.00074,
+      "suggested_sl_distance": 0.00111,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2089,7 +1809,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-21T22:13:57.987635+00:00"
+    "generated_at": "2026-10-22T01:24:49.062591+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2098,10 +1818,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.031,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 10,
+        "average_score": -0.1349,
+        "label": "ลบเล็กน้อย",
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "France’s crisis sounds familiar. Is America next?",
+            "description": "France is on fire, and it faces a political and an economic reckoning that feels dangerously familiar to Americans.",
+            "source": "WPSD Local 6",
+            "published_at": "2026-10-20T22:22:51Z",
+            "url": "https://www.wpsdlocal6.com/news/france-s-crisis-sounds-familiar-is-america-next/article_1556c4f4-1aad-41bb-a101-05e3f0c03a06.html",
+            "sentiment_score": -0.6353,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "XAU",
             "title": "apiverve-goldprice 1.2.2",
@@ -2161,54 +1891,54 @@
             "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-where-are-gold-rates-headed-on-october-20-2026-and-in-the-near-term-mcx-gold-silver-prices/articleshow/135060390.cms",
             "sentiment_score": -0.2042,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "5 things to watch on the ASX 200 on Tuesday",
-            "description": "It looks set to be a tough session for Aussie investors.\nThe post 5 things to watch on the ASX 200 on Tuesday appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-10-19T20:26:10Z",
-            "url": "https://www.fool.com.au/2026/10/20/5-things-to-watch-on-the-asx-200-on-tuesday-20-october-2026/",
-            "sentiment_score": -0.158,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Ahmedabad jewellers fear dullest Diwali since Covid as orders shrink",
-            "description": "Ahmedabad jewellers fear weakest Diwali since Covid as retail demand stays weak; many cut exhibition orders, defer deliveries amid gold price volatility.",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T18:59:10Z",
-            "url": "https://timesofindia.indiatimes.com/city/ahmedabad/ahmedabad-jewellers-fear-dullest-diwali-since-covid-as-orders-shrink/articleshow/135055535.cms",
-            "sentiment_score": -0.7732,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction today: Will gold prices be range-bound? Check outlook for October 19, 2026 week",
-            "description": "Gold enters the week near Rs 148,000 after a sharp correction from the September high around Rs 163,000–165,000, with prices now consolidating after briefly falling towards the Rs 145,500–146,000 region.",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T07:28:52Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-october-19-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/135042911.cms",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate silver rate today (October 19, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities",
-            "description": "Gold rate today: With gold and silver prices constantly fluctuating, it’s important for jewellery buyers and precious metal investors to stay informed. On October 19, major jewellery brands adjusted their pricing, showing notable increases.",
-            "source": "The Times of India",
-            "published_at": "2026-10-19T06:28:18Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-silver-rate-today-october-19-2026-18k-20k-24k-delhi-hyderabad-bengaluru-citywise-ibja-gold-price-malabar-gold-kalyan-jewelers-joyalukkas/articleshow/135041704.cms",
-            "sentiment_score": 0.2011,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0678,
+        "average_score": 0.1258,
         "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "1.5 Million Latinos Have Lost Food Aid Since Trump Passed Tax Giveaway for the Rich",
+            "description": "An analysis published Tuesday estimates that 1.5 million US Latinos have lost access to federal food assistance since the passage of President Donald Trump’s so-called One Big Beautiful Bill Act, the latest of numerous indicators of how the law's evisceration…",
+            "source": "Common Dreams",
+            "published_at": "2026-10-21T00:40:41Z",
+            "url": "https://www.commondreams.org/news/latinos-lose-food-aid",
+            "sentiment_score": 0.3373,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Rising yields: Is it time to look at gilt funds?",
+            "description": "As bond yields rise, gilt funds, which invest in government securities, are drawing significant attention from investors seeking low credit-risk options. While these investments benefit from government backing, they still carry inherent risks. The performance…",
+            "source": "Economictimes.com",
+            "published_at": "2026-10-21T00:10:54Z",
+            "url": "https://m.economictimes.com/mf/analysis/rising-yields-is-it-time-to-look-at-gilt-funds/articleshow/135078426.cms",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "After The Blue Wave",
+            "description": "Why we still need democratic reform.",
+            "source": "Persuasion.community",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.persuasion.community/p/after-the-blue-wave",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unlocking Macroeconomics: Why Robert E. Hall And Michael Woodford Won The 2026 Nobel Prize In Economics",
+            "description": "Hoover Institution fellow Robert E. Hall fundamentally reshaped our understanding of consumer behavior. In landmark studies starting in the late 1970s, Hall introduced the Random Walk Hypothesis of Consumption.",
+            "source": "Newstalkflorida.com",
+            "published_at": "2026-10-21T00:00:00Z",
+            "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
+            "sentiment_score": 0.5766,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "BOJ to raise rates to 1.50% in December, sticking to quarterly pace: Reuters poll",
@@ -2458,80 +2188,40 @@
             "url": "https://biztoc.com/x/6974b6adb7d9a59c",
             "sentiment_score": -0.0486,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump gouges MAGA fans with 'tone-deaf' merchandise price increases: report",
-            "description": "Donald Trump’s merchandise store is jacking up prices in a last-gasp attempt to gouge his MAGA fans as the clock ticks down on his political career.According to a report from the Washington Sun, the inflation that has run rampant during the president’s second…",
-            "source": "Raw Story",
-            "published_at": "2026-10-20T13:29:54Z",
-            "url": "https://www.rawstory.com/trump-maga-merchandise-prices/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It",
-            "description": "The post BofA Is Sticking With an October Rate Hike Even as Markets Bet Against It appeared first on 24/7 Wall St..\nIn a note on Monday, Bank of America (NYSE:BAC) said it still expects the Federal Reserve to raise rates at its October meeting. The decision i…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-20T13:15:05Z",
-            "url": "https://biztoc.com/x/dd7023b473c34e45",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "No wonder the White House wants Warsh to cut: A 1% Fed rate hike costs the Treasury an extra $95 billion a year in national debt interest",
-            "description": "\"Even if primary deficits remain largely unchanged, the growing interest burden materially increases the government's financing needs,\" the analysts wrote.",
-            "source": "Fortune",
-            "published_at": "2026-10-20T13:04:48Z",
-            "url": "https://fortune.com/2026/10/20/white-house-warsh-national-debt-fed-interest-rate-cost/",
-            "sentiment_score": -0.1143,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Investors look to earnings to reset the bull market. The key level to watch on the S&P 500",
-            "description": "The key level traders are watching on the S&P 500 that could mean an even bigger decline is ahead.",
-            "source": "CNBC",
-            "published_at": "2026-10-20T12:52:29Z",
-            "url": "https://www.cnbc.com/2026/10/20/santoli-key-sp-500-level-to-watch.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0988,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.2607,
+      "bias": "เอียงลบต่อ XAU (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4156.3999,
+      "price_now": 4131.7998,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 55.0,
-      "rsi_signal": "โซนกลาง (RSI=55.0)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 14.32283,
-      "suggested_sl_distance": 21.48425,
+      "rsi_value": 43.5,
+      "rsi_signal": "โซนกลาง (RSI=43.5)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 14.00696,
+      "suggested_sl_distance": 21.01045,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=43.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-21T22:13:57.987635+00:00"
+    "generated_at": "2026-10-22T01:24:49.062591+00:00"
   }
 ]
