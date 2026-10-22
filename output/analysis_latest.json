@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0548,
+        "average_score": -0.0505,
         "label": "ลบเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Germany news: AfD's Weidel calls for major EU reforms",
+            "description": "Far-right Alternative for Germany co-leader Alice Weidel reveals the party's plan to reform the EU. Meanwhile, Nvidia CEO Jensen Huang was in Berlin to talk to developers and investors. DW has more.",
+            "source": "DW (English)",
+            "published_at": "2026-10-21T19:44:00Z",
+            "url": "https://www.dw.com/en/germany-news-afds-weidel-calls-for-major-eu-reforms/live-79719483",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "EUR",
             "title": "America's $1 trillion annual interest bill is growing as national debt surges, so why isn't the US facing a debt crisis like France?",
@@ -279,24 +289,114 @@
             "url": "https://everything-everywhere.com/the-history-of-the-euro/",
             "sentiment_score": -0.0607,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Bond market turmoil complicates ECB rate decision",
-            "description": "Frankfurt expected to increase rates again in December",
-            "source": "The Irish Times",
-            "published_at": "2026-10-20T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/2026/10/20/bond-market-turmoil-complicates-ecb-rate-decision/",
-            "sentiment_score": -0.1574,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.2641,
-        "label": "บวกชัดเจน (Bullish)",
+        "average_score": 0.1724,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
+            "description": "Two organizations weighed in on the OCC’s recently finalized GENIUS Act rules, arguing against the removal of provisions on stablecoin yield based on arrangements with third parties.",
+            "source": "Cointelegraph",
+            "published_at": "2026-10-21T21:53:48Z",
+            "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Islamophobia is getting louder. Why isn’t the response?",
+            "description": "Welcome to The Midterms, Actually. Every week I’ll be writing about two things: one big idea or trend I see forming across the 2026 primaries, and one thing I’m hearing from a voice on the ground. Let’s get into it. One thing I’m thinking about: Electability …",
+            "source": "Vox",
+            "published_at": "2026-10-21T21:26:53Z",
+            "url": "https://www.vox.com/politics/507163/midterms-actually-islamophobia-omar-elsayed",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mapped: Where homeowners pay the lowest property tax bills under 0.5%",
+            "description": "Hawaii, Alabama, Arizona, Utah, and South Carolina have property tax rates under 0.5%. Explore how low tax rates impact home values in 2024.",
+            "source": "New York Post",
+            "published_at": "2026-10-21T21:09:13Z",
+            "url": "https://nypost.com/2026/10/21/real-estate/mapped-where-homeowners-pay-the-lowest-property-tax-bills-under-0-5/",
+            "sentiment_score": -0.2752,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Billionaires fleeing California could turn a $30 billion tax windfall into a $39 billion loss, Stanford economists warn",
+            "description": "Departures have already erased nearly 30% of Prop 40’s tax base, a new NBER paper estimates. The tax’s architects say the math assumes losses that won’t last.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T20:42:26Z",
+            "url": "https://fortune.com/2026/10/21/california-billionaire-tax-prop-40-stanford-study-39-billion-loss/",
+            "sentiment_score": -0.4019,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fulton Financial Corporation Announces Third Quarter 2026 Results",
+            "description": "LANCASTER, Pa., Oct. 21, 2026 /PRNewswire/ -- Fulton Financial Corporation (NASDAQ: FULT) (\"Fulton\" or the \"Corporation\") reported net income available to common shareholders of $114.1 million, or $0.59 per diluted share, for the third quarter of 2026, an inc…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:30:00Z",
+            "url": "https://www.prnewswire.com/news-releases/fulton-financial-corporation-announces-third-quarter-2026-results-302915906.html",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Third Coast Bancshares, Inc. Reports 2026 Third Quarter Financial Results",
+            "description": "Solid 2026 Third Quarter Results While Advancing Long-Term Growth Strategy HOUSTON, Oct. 21, 2026 /PRNewswire/ -- Third Coast Bancshares, Inc. (NYSE and NYSE Texas: TCBX) (the \"Company,\" \"Third Coast,\" \"we,\" \"us,\" or \"our\"), the bank holding company for Third…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/third-coast-bancshares-inc-reports-2026-third-quarter-financial-results-302915952.html",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "WesBanco Announces Third Quarter 2026 Financial Results",
+            "description": "Marked by strong annualized loan growth, solid efficiency ratio, and accelerating growth in targeted expansion markets WHEELING, W.Va., Oct. 21, 2026 /PRNewswire/ -- WesBanco, Inc. (\"WesBanco\" or \"Company\") (Nasdaq: WSBC), a diversified, multi-state bank hold…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/wesbanco-announces-third-quarter-2026-financial-results-302915564.html",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "First Bancorp Reports Third Quarter Results",
+            "description": "Third Quarter 2026 Financial Data (Dollars in 000s, except per share data) Q3-2026 Q2-2026 Q3-2025 Summary Income Statement Total interest income $ 153,979 $ 148,315 $ 144,233 Total interest expense 39,182 37,049 41,711 Net interest income 114,797 111,266 102…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/first-bancorp-reports-third-quarter-results-302914618.html",
+            "sentiment_score": 0.2686,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "description": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
+            "source": "CNBC",
+            "published_at": "2026-10-21T19:32:55Z",
+            "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+            "sentiment_score": 0.5285,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise",
+            "description": "Why is bitcoin going up? BTC nears $85K as US stocks gain after SpaceX earnings, while over $549 million in ETF inflows adds support for buyers.\nThe post Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T19:10:28Z",
+            "url": "https://bitcoinfoundation.org/news/bitcoin/why-is-bitcoin-going-up-btc-nears-85k-as-us-stocks-rise/",
+            "sentiment_score": 0.2265,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
@@ -496,110 +596,10 @@
             "url": "https://cryptobriefing.com/bitcoin-volatility-nears-2026-lows-fed/",
             "sentiment_score": -0.1253,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US finalizes stablecoin regulations under GENIUS Act",
-            "description": "The GENIUS Act's stablecoin regulations may boost investor confidence, potentially stabilizing and positively influencing broader crypto markets.\nThe post US finalizes stablecoin regulations under GENIUS Act appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-21T11:46:16Z",
-            "url": "https://cryptobriefing.com/us-finalizes-stablecoin-regulations-under-genius-act/",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "When it comes to Trump's economy, these are the numbers that matter before mid-term elections",
-            "description": "United States President Donald Trump attempted to convince voters before the upcoming mid-term elections that the American economy is growing. However, voters have maintained the negative effects of inflation caused by the Iran war. The economy is seeing slow…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:45:37Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/when-it-comes-to-trumps-economy-these-are-the-numbers-that-matter-before-mid-term-elections/articleshow/135091065.cms",
-            "sentiment_score": -0.125,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
-            "description": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:39:14Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
-            "sentiment_score": 0.3323,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin is back near $83,000. Here’s how to assess its support",
-            "description": "Glassnode’s proximity framework sets out how nearby inventory and actual buying could confirm support before the Oct. 27–28 Fed meeting.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in yo…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-21T11:20:29Z",
-            "url": "https://cryptoslate.com/bitcoin-is-back-near-83000-heres-how-to-assess-its-support/",
-            "sentiment_score": 0.4078,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Yields Flat As Fed Rate Decision Approaches",
-            "description": "US Treasury yields remained largely unchanged Wednesday as investors awaited mortgage rate figures and unemployment data ahead of the Federal Reserve’s October 28 policy meeting.\nThe 10-year Treasury yield held at 5.1211%, while the two-year yield stayed near…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T11:03:07Z",
-            "url": "https://biztoc.com/x/6d3ff6d6ccc75727",
-            "sentiment_score": 0.1108,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US green card via EB-5? Investment limit may rise to $1.25 million in 2027",
-            "description": "Minimum investment for qualifying projects could rise from $800,000 to $937,500 from January 1, 2027, under a US inflation-linked revision",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T10:52:19Z",
-            "url": "https://www.business-standard.com/immigration/us-green-card-via-eb-5-investment-limit-may-rise-to-1-25-million-in-2027-126102100829_1.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Wednesday, October 21, 2026: Earn up to 4.40% APY with multiple offers",
-            "description": "CD rates have been trending upward thanks to a recent rate hike by the Federal Reserve. So, if you're looking for a way to lock in a competitive return on your savings — while protecting your money from market risk — a certificate of deposit (CD) could be a g…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:34:29Z",
-            "url": "https://biztoc.com/x/44f1b873e75fedf8",
-            "sentiment_score": 0.5542,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hong Kong’s SHKP sells 128 Sierra Sea flats ahead of possible US rate increase",
-            "description": "Sun Hung Kai Properties (SHKP), one of Hong Kong’s largest developers, has sold out the latest batch of flats at its Sierra Sea project in the New Territories, where units were offered at discounted prices ahead of a possible US Federal Reserve interest-rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:02:42Z",
-            "url": "https://biztoc.com/x/e7a4c72decaf0500",
-            "sentiment_score": 0.2382,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal.",
-            "description": "Beyond targeting Rep. Ilhan Omar, the Trump administration has killed, arrested, deported, and demonized Somalis at home and abroad.\nThe post Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal. appeared first on The Intercept.",
-            "source": "The Intercept",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://theintercept.com/2026/10/21/trump-ilhan-omar-somalia-war/",
-            "sentiment_score": -0.8052,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jeff Bezos’s Washington Post Is Obsessed With Union-Bashing",
-            "description": "Public approval for organized labor stands at a remarkable 71 percent, according to Gallup—its highest level since 1957. Even a 52 percent majority of Republicans approve of labor unions. This November 3, Vermont will likely pass a ballot initiative enshrinin…",
-            "source": "The New Republic",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
-            "sentiment_score": 0.107,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.3189,
+      "net_score": -0.2229,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -609,14 +609,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12259,
+      "price_now": 1.12221,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.0,
-      "rsi_signal": "โซนกลาง (RSI=50.0)",
+      "rsi_value": 48.3,
+      "rsi_signal": "โซนกลาง (RSI=48.3)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00112,
-      "suggested_sl_distance": 0.00168,
+      "atr_value": 0.00101,
+      "suggested_sl_distance": 0.00151,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -630,7 +630,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-22T18:27:09.813661+00:00"
+    "generated_at": "2026-10-22T22:14:25.561047+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -639,10 +639,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.038,
+        "average_score": -0.0347,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Europe's financial regulators query Google over cloud outage that hit banks",
+            "description": "The European Banking Authority said that it has been in contact with Google Cloud to obtain further information on the incident, understand its implications and assess its potential impact on financial entities in the EU, a spokesperson for the watchdog told …",
+            "source": "The Times of India",
+            "published_at": "2026-10-21T19:02:06Z",
+            "url": "https://economictimes.indiatimes.com/tech/technology/europes-financial-regulators-query-google-over-cloud-outage-that-hit-banks/articleshow/135099647.cms",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "Europe's financial regulators query GOOGLE over outage that hit banks...",
@@ -912,24 +922,114 @@
             "url": "https://www.newstalkflorida.com/featured/noble-peace-prize-winners-and-why-they-won/",
             "sentiment_score": 0.5766,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Expect a Budget for backbenchers, not business or bond markets, Burnham's old aide warns",
-            "description": "John Healey's Budget will aim to please Labour backbenchers rather than businesses or the bond markets, Andy Haldane, an ex-adviser to the Prime Minister has said.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-20T23:00:49Z",
-            "url": "https://www.dailymail.com/news/article-16225069/Expect-Budget-backbenchers-business-bond-markets-Burnham-aide.html",
-            "sentiment_score": 0.0236,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.2641,
-        "label": "บวกชัดเจน (Bullish)",
+        "average_score": 0.1724,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
+            "description": "Two organizations weighed in on the OCC’s recently finalized GENIUS Act rules, arguing against the removal of provisions on stablecoin yield based on arrangements with third parties.",
+            "source": "Cointelegraph",
+            "published_at": "2026-10-21T21:53:48Z",
+            "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Islamophobia is getting louder. Why isn’t the response?",
+            "description": "Welcome to The Midterms, Actually. Every week I’ll be writing about two things: one big idea or trend I see forming across the 2026 primaries, and one thing I’m hearing from a voice on the ground. Let’s get into it. One thing I’m thinking about: Electability …",
+            "source": "Vox",
+            "published_at": "2026-10-21T21:26:53Z",
+            "url": "https://www.vox.com/politics/507163/midterms-actually-islamophobia-omar-elsayed",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mapped: Where homeowners pay the lowest property tax bills under 0.5%",
+            "description": "Hawaii, Alabama, Arizona, Utah, and South Carolina have property tax rates under 0.5%. Explore how low tax rates impact home values in 2024.",
+            "source": "New York Post",
+            "published_at": "2026-10-21T21:09:13Z",
+            "url": "https://nypost.com/2026/10/21/real-estate/mapped-where-homeowners-pay-the-lowest-property-tax-bills-under-0-5/",
+            "sentiment_score": -0.2752,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Billionaires fleeing California could turn a $30 billion tax windfall into a $39 billion loss, Stanford economists warn",
+            "description": "Departures have already erased nearly 30% of Prop 40’s tax base, a new NBER paper estimates. The tax’s architects say the math assumes losses that won’t last.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T20:42:26Z",
+            "url": "https://fortune.com/2026/10/21/california-billionaire-tax-prop-40-stanford-study-39-billion-loss/",
+            "sentiment_score": -0.4019,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fulton Financial Corporation Announces Third Quarter 2026 Results",
+            "description": "LANCASTER, Pa., Oct. 21, 2026 /PRNewswire/ -- Fulton Financial Corporation (NASDAQ: FULT) (\"Fulton\" or the \"Corporation\") reported net income available to common shareholders of $114.1 million, or $0.59 per diluted share, for the third quarter of 2026, an inc…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:30:00Z",
+            "url": "https://www.prnewswire.com/news-releases/fulton-financial-corporation-announces-third-quarter-2026-results-302915906.html",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Third Coast Bancshares, Inc. Reports 2026 Third Quarter Financial Results",
+            "description": "Solid 2026 Third Quarter Results While Advancing Long-Term Growth Strategy HOUSTON, Oct. 21, 2026 /PRNewswire/ -- Third Coast Bancshares, Inc. (NYSE and NYSE Texas: TCBX) (the \"Company,\" \"Third Coast,\" \"we,\" \"us,\" or \"our\"), the bank holding company for Third…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/third-coast-bancshares-inc-reports-2026-third-quarter-financial-results-302915952.html",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "WesBanco Announces Third Quarter 2026 Financial Results",
+            "description": "Marked by strong annualized loan growth, solid efficiency ratio, and accelerating growth in targeted expansion markets WHEELING, W.Va., Oct. 21, 2026 /PRNewswire/ -- WesBanco, Inc. (\"WesBanco\" or \"Company\") (Nasdaq: WSBC), a diversified, multi-state bank hold…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/wesbanco-announces-third-quarter-2026-financial-results-302915564.html",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "First Bancorp Reports Third Quarter Results",
+            "description": "Third Quarter 2026 Financial Data (Dollars in 000s, except per share data) Q3-2026 Q2-2026 Q3-2025 Summary Income Statement Total interest income $ 153,979 $ 148,315 $ 144,233 Total interest expense 39,182 37,049 41,711 Net interest income 114,797 111,266 102…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/first-bancorp-reports-third-quarter-results-302914618.html",
+            "sentiment_score": 0.2686,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "description": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
+            "source": "CNBC",
+            "published_at": "2026-10-21T19:32:55Z",
+            "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+            "sentiment_score": 0.5285,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise",
+            "description": "Why is bitcoin going up? BTC nears $85K as US stocks gain after SpaceX earnings, while over $549 million in ETF inflows adds support for buyers.\nThe post Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T19:10:28Z",
+            "url": "https://bitcoinfoundation.org/news/bitcoin/why-is-bitcoin-going-up-btc-nears-85k-as-us-stocks-rise/",
+            "sentiment_score": 0.2265,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
@@ -1129,110 +1229,10 @@
             "url": "https://cryptobriefing.com/bitcoin-volatility-nears-2026-lows-fed/",
             "sentiment_score": -0.1253,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US finalizes stablecoin regulations under GENIUS Act",
-            "description": "The GENIUS Act's stablecoin regulations may boost investor confidence, potentially stabilizing and positively influencing broader crypto markets.\nThe post US finalizes stablecoin regulations under GENIUS Act appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-21T11:46:16Z",
-            "url": "https://cryptobriefing.com/us-finalizes-stablecoin-regulations-under-genius-act/",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "When it comes to Trump's economy, these are the numbers that matter before mid-term elections",
-            "description": "United States President Donald Trump attempted to convince voters before the upcoming mid-term elections that the American economy is growing. However, voters have maintained the negative effects of inflation caused by the Iran war. The economy is seeing slow…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:45:37Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/when-it-comes-to-trumps-economy-these-are-the-numbers-that-matter-before-mid-term-elections/articleshow/135091065.cms",
-            "sentiment_score": -0.125,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
-            "description": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:39:14Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
-            "sentiment_score": 0.3323,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin is back near $83,000. Here’s how to assess its support",
-            "description": "Glassnode’s proximity framework sets out how nearby inventory and actual buying could confirm support before the Oct. 27–28 Fed meeting.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in yo…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-21T11:20:29Z",
-            "url": "https://cryptoslate.com/bitcoin-is-back-near-83000-heres-how-to-assess-its-support/",
-            "sentiment_score": 0.4078,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Yields Flat As Fed Rate Decision Approaches",
-            "description": "US Treasury yields remained largely unchanged Wednesday as investors awaited mortgage rate figures and unemployment data ahead of the Federal Reserve’s October 28 policy meeting.\nThe 10-year Treasury yield held at 5.1211%, while the two-year yield stayed near…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T11:03:07Z",
-            "url": "https://biztoc.com/x/6d3ff6d6ccc75727",
-            "sentiment_score": 0.1108,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US green card via EB-5? Investment limit may rise to $1.25 million in 2027",
-            "description": "Minimum investment for qualifying projects could rise from $800,000 to $937,500 from January 1, 2027, under a US inflation-linked revision",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T10:52:19Z",
-            "url": "https://www.business-standard.com/immigration/us-green-card-via-eb-5-investment-limit-may-rise-to-1-25-million-in-2027-126102100829_1.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Wednesday, October 21, 2026: Earn up to 4.40% APY with multiple offers",
-            "description": "CD rates have been trending upward thanks to a recent rate hike by the Federal Reserve. So, if you're looking for a way to lock in a competitive return on your savings — while protecting your money from market risk — a certificate of deposit (CD) could be a g…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:34:29Z",
-            "url": "https://biztoc.com/x/44f1b873e75fedf8",
-            "sentiment_score": 0.5542,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hong Kong’s SHKP sells 128 Sierra Sea flats ahead of possible US rate increase",
-            "description": "Sun Hung Kai Properties (SHKP), one of Hong Kong’s largest developers, has sold out the latest batch of flats at its Sierra Sea project in the New Territories, where units were offered at discounted prices ahead of a possible US Federal Reserve interest-rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:02:42Z",
-            "url": "https://biztoc.com/x/e7a4c72decaf0500",
-            "sentiment_score": 0.2382,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal.",
-            "description": "Beyond targeting Rep. Ilhan Omar, the Trump administration has killed, arrested, deported, and demonized Somalis at home and abroad.\nThe post Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal. appeared first on The Intercept.",
-            "source": "The Intercept",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://theintercept.com/2026/10/21/trump-ilhan-omar-somalia-war/",
-            "sentiment_score": -0.8052,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jeff Bezos’s Washington Post Is Obsessed With Union-Bashing",
-            "description": "Public approval for organized labor stands at a remarkable 71 percent, according to Gallup—its highest level since 1957. Even a 52 percent majority of Republicans approve of labor unions. This November 3, Vermont will likely pass a ballot initiative enshrinin…",
-            "source": "The New Republic",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
-            "sentiment_score": 0.107,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.3021,
+      "net_score": -0.2071,
       "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1242,14 +1242,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3403,
+      "price_now": 1.34012,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 57.6,
-      "rsi_signal": "โซนกลาง (RSI=57.6)",
+      "rsi_value": 55.9,
+      "rsi_signal": "โซนกลาง (RSI=55.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00122,
-      "suggested_sl_distance": 0.00183,
+      "atr_value": 0.00111,
+      "suggested_sl_distance": 0.00167,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1261,9 +1261,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=57.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=55.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-22T18:27:09.813661+00:00"
+    "generated_at": "2026-10-22T22:14:25.561047+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1272,10 +1272,110 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.2641,
-        "label": "บวกชัดเจน (Bullish)",
+        "average_score": 0.1724,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
+            "description": "Two organizations weighed in on the OCC’s recently finalized GENIUS Act rules, arguing against the removal of provisions on stablecoin yield based on arrangements with third parties.",
+            "source": "Cointelegraph",
+            "published_at": "2026-10-21T21:53:48Z",
+            "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Islamophobia is getting louder. Why isn’t the response?",
+            "description": "Welcome to The Midterms, Actually. Every week I’ll be writing about two things: one big idea or trend I see forming across the 2026 primaries, and one thing I’m hearing from a voice on the ground. Let’s get into it. One thing I’m thinking about: Electability …",
+            "source": "Vox",
+            "published_at": "2026-10-21T21:26:53Z",
+            "url": "https://www.vox.com/politics/507163/midterms-actually-islamophobia-omar-elsayed",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mapped: Where homeowners pay the lowest property tax bills under 0.5%",
+            "description": "Hawaii, Alabama, Arizona, Utah, and South Carolina have property tax rates under 0.5%. Explore how low tax rates impact home values in 2024.",
+            "source": "New York Post",
+            "published_at": "2026-10-21T21:09:13Z",
+            "url": "https://nypost.com/2026/10/21/real-estate/mapped-where-homeowners-pay-the-lowest-property-tax-bills-under-0-5/",
+            "sentiment_score": -0.2752,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Billionaires fleeing California could turn a $30 billion tax windfall into a $39 billion loss, Stanford economists warn",
+            "description": "Departures have already erased nearly 30% of Prop 40’s tax base, a new NBER paper estimates. The tax’s architects say the math assumes losses that won’t last.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T20:42:26Z",
+            "url": "https://fortune.com/2026/10/21/california-billionaire-tax-prop-40-stanford-study-39-billion-loss/",
+            "sentiment_score": -0.4019,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fulton Financial Corporation Announces Third Quarter 2026 Results",
+            "description": "LANCASTER, Pa., Oct. 21, 2026 /PRNewswire/ -- Fulton Financial Corporation (NASDAQ: FULT) (\"Fulton\" or the \"Corporation\") reported net income available to common shareholders of $114.1 million, or $0.59 per diluted share, for the third quarter of 2026, an inc…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:30:00Z",
+            "url": "https://www.prnewswire.com/news-releases/fulton-financial-corporation-announces-third-quarter-2026-results-302915906.html",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Third Coast Bancshares, Inc. Reports 2026 Third Quarter Financial Results",
+            "description": "Solid 2026 Third Quarter Results While Advancing Long-Term Growth Strategy HOUSTON, Oct. 21, 2026 /PRNewswire/ -- Third Coast Bancshares, Inc. (NYSE and NYSE Texas: TCBX) (the \"Company,\" \"Third Coast,\" \"we,\" \"us,\" or \"our\"), the bank holding company for Third…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/third-coast-bancshares-inc-reports-2026-third-quarter-financial-results-302915952.html",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "WesBanco Announces Third Quarter 2026 Financial Results",
+            "description": "Marked by strong annualized loan growth, solid efficiency ratio, and accelerating growth in targeted expansion markets WHEELING, W.Va., Oct. 21, 2026 /PRNewswire/ -- WesBanco, Inc. (\"WesBanco\" or \"Company\") (Nasdaq: WSBC), a diversified, multi-state bank hold…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/wesbanco-announces-third-quarter-2026-financial-results-302915564.html",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "First Bancorp Reports Third Quarter Results",
+            "description": "Third Quarter 2026 Financial Data (Dollars in 000s, except per share data) Q3-2026 Q2-2026 Q3-2025 Summary Income Statement Total interest income $ 153,979 $ 148,315 $ 144,233 Total interest expense 39,182 37,049 41,711 Net interest income 114,797 111,266 102…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/first-bancorp-reports-third-quarter-results-302914618.html",
+            "sentiment_score": 0.2686,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "description": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
+            "source": "CNBC",
+            "published_at": "2026-10-21T19:32:55Z",
+            "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+            "sentiment_score": 0.5285,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise",
+            "description": "Why is bitcoin going up? BTC nears $85K as US stocks gain after SpaceX earnings, while over $549 million in ETF inflows adds support for buyers.\nThe post Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T19:10:28Z",
+            "url": "https://bitcoinfoundation.org/news/bitcoin/why-is-bitcoin-going-up-btc-nears-85k-as-us-stocks-rise/",
+            "sentiment_score": 0.2265,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
@@ -1475,111 +1575,11 @@
             "url": "https://cryptobriefing.com/bitcoin-volatility-nears-2026-lows-fed/",
             "sentiment_score": -0.1253,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US finalizes stablecoin regulations under GENIUS Act",
-            "description": "The GENIUS Act's stablecoin regulations may boost investor confidence, potentially stabilizing and positively influencing broader crypto markets.\nThe post US finalizes stablecoin regulations under GENIUS Act appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-21T11:46:16Z",
-            "url": "https://cryptobriefing.com/us-finalizes-stablecoin-regulations-under-genius-act/",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "When it comes to Trump's economy, these are the numbers that matter before mid-term elections",
-            "description": "United States President Donald Trump attempted to convince voters before the upcoming mid-term elections that the American economy is growing. However, voters have maintained the negative effects of inflation caused by the Iran war. The economy is seeing slow…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:45:37Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/when-it-comes-to-trumps-economy-these-are-the-numbers-that-matter-before-mid-term-elections/articleshow/135091065.cms",
-            "sentiment_score": -0.125,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
-            "description": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:39:14Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
-            "sentiment_score": 0.3323,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin is back near $83,000. Here’s how to assess its support",
-            "description": "Glassnode’s proximity framework sets out how nearby inventory and actual buying could confirm support before the Oct. 27–28 Fed meeting.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in yo…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-21T11:20:29Z",
-            "url": "https://cryptoslate.com/bitcoin-is-back-near-83000-heres-how-to-assess-its-support/",
-            "sentiment_score": 0.4078,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Yields Flat As Fed Rate Decision Approaches",
-            "description": "US Treasury yields remained largely unchanged Wednesday as investors awaited mortgage rate figures and unemployment data ahead of the Federal Reserve’s October 28 policy meeting.\nThe 10-year Treasury yield held at 5.1211%, while the two-year yield stayed near…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T11:03:07Z",
-            "url": "https://biztoc.com/x/6d3ff6d6ccc75727",
-            "sentiment_score": 0.1108,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US green card via EB-5? Investment limit may rise to $1.25 million in 2027",
-            "description": "Minimum investment for qualifying projects could rise from $800,000 to $937,500 from January 1, 2027, under a US inflation-linked revision",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T10:52:19Z",
-            "url": "https://www.business-standard.com/immigration/us-green-card-via-eb-5-investment-limit-may-rise-to-1-25-million-in-2027-126102100829_1.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Wednesday, October 21, 2026: Earn up to 4.40% APY with multiple offers",
-            "description": "CD rates have been trending upward thanks to a recent rate hike by the Federal Reserve. So, if you're looking for a way to lock in a competitive return on your savings — while protecting your money from market risk — a certificate of deposit (CD) could be a g…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:34:29Z",
-            "url": "https://biztoc.com/x/44f1b873e75fedf8",
-            "sentiment_score": 0.5542,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hong Kong’s SHKP sells 128 Sierra Sea flats ahead of possible US rate increase",
-            "description": "Sun Hung Kai Properties (SHKP), one of Hong Kong’s largest developers, has sold out the latest batch of flats at its Sierra Sea project in the New Territories, where units were offered at discounted prices ahead of a possible US Federal Reserve interest-rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:02:42Z",
-            "url": "https://biztoc.com/x/e7a4c72decaf0500",
-            "sentiment_score": 0.2382,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal.",
-            "description": "Beyond targeting Rep. Ilhan Omar, the Trump administration has killed, arrested, deported, and demonized Somalis at home and abroad.\nThe post Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal. appeared first on The Intercept.",
-            "source": "The Intercept",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://theintercept.com/2026/10/21/trump-ilhan-omar-somalia-war/",
-            "sentiment_score": -0.8052,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jeff Bezos’s Washington Post Is Obsessed With Union-Bashing",
-            "description": "Public approval for organized labor stands at a remarkable 71 percent, according to Gallup—its highest level since 1957. Even a 52 percent majority of Republicans approve of labor unions. This November 3, Vermont will likely pass a ballot initiative enshrinin…",
-            "source": "The New Republic",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
-            "sentiment_score": 0.107,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0229,
+        "average_score": 0.0245,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 20,
         "scored_articles": [
@@ -1705,22 +1705,22 @@
           },
           {
             "currency": "JPY",
-            "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
-            "description": "TOKYO, Oct 21 : The US dollar remained under pressure on Wednesday after slipping to a three-week low in the previous session, as a dip in Treasury yields and crude oil prices reduced the currency's appeal.The Australian dollar hovered close to a three-week h…",
-            "source": "CNA",
-            "published_at": "2026-10-21T01:36:05Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-back-foot-us-yields-crude-prices-dip-aussie-buoyed-hawkish-rba-6477406",
-            "sentiment_score": -0.6209,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
             "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
             "description": "TOKYO, Oct 21 : The US dollar hovered near a three-week low on Wednesday as traders assessed developments in the Middle East after the conflict burnished the currency's appeal as a safe haven amid oil-driven inflation worries.The Australian dollar reached a t…",
             "source": "CNA",
             "published_at": "2026-10-21T01:36:05Z",
             "url": "https://www.channelnewsasia.com/business/dollar-treads-water-middle-east-tensions-simmer-aussie-buoyed-hawkish-rba-6477406",
             "sentiment_score": -0.2891,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
+            "description": "TOKYO, Oct 21 : The US dollar remained under pressure on Wednesday after slipping to a three-week low in the previous session, as a dip in Treasury yields and crude oil prices reduced the currency's appeal.The Australian dollar hovered close to a three-week h…",
+            "source": "CNA",
+            "published_at": "2026-10-21T01:36:05Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-back-foot-us-yields-crude-prices-dip-aussie-buoyed-hawkish-rba-6477406",
+            "sentiment_score": -0.6209,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -1785,24 +1785,24 @@
           }
         ]
       },
-      "net_score": 0.2412,
-      "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.1479,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 156.918,
+      "price_now": 156.739,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 33.9,
-      "rsi_signal": "โซนกลาง (RSI=33.9)",
+      "rsi_value": 31.0,
+      "rsi_signal": "โซนกลาง (RSI=31.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.2478,
-      "suggested_sl_distance": 0.37171,
+      "atr_value": 0.21404,
+      "suggested_sl_distance": 0.32105,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -1814,9 +1814,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=33.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=31.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-22T18:27:09.813661+00:00"
+    "generated_at": "2026-10-22T22:14:25.561047+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1825,10 +1825,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1949,
+        "average_score": -0.1244,
         "label": "ลบเล็กน้อย",
-        "article_count": 8,
+        "article_count": 9,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Stocks rise on AI-led earnings, France's 10-year bond yield hits 5%",
+            "description": "NEW YORK/LONDON, Oct 21 : Major stock indexes climbed on Wednesday, lifted by more strong results from AI-focused companies, while France's 10-year bond yield hit 5 per cent for the first time since 2002 due to growing concern about the country's economic out…",
+            "source": "CNA",
+            "published_at": "2026-10-21T22:02:26Z",
+            "url": "https://www.channelnewsasia.com/business/stocks-rise-ai-led-earnings-frances-10-year-bond-yield-hits-5-6477551",
+            "sentiment_score": 0.1943,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "AUD",
             "title": "Aussie mortgage holders brace for possible Melbourne Cup Day rate hike after fresh RBA warning",
@@ -1871,22 +1881,22 @@
           },
           {
             "currency": "AUD",
-            "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
-            "description": "TOKYO, Oct 21 : The US dollar hovered near a three-week low on Wednesday as traders assessed developments in the Middle East after the conflict burnished the currency's appeal as a safe haven amid oil-driven inflation worries.The Australian dollar reached a t…",
-            "source": "CNA",
-            "published_at": "2026-10-21T01:36:05Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-treads-water-middle-east-tensions-simmer-aussie-buoyed-hawkish-rba-6477406",
-            "sentiment_score": -0.2891,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
             "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
             "description": "TOKYO, Oct 21 : The US dollar remained under pressure on Wednesday after slipping to a three-week low in the previous session, as a dip in Treasury yields and crude oil prices reduced the currency's appeal.The Australian dollar hovered close to a three-week h…",
             "source": "CNA",
             "published_at": "2026-10-21T01:36:05Z",
             "url": "https://www.channelnewsasia.com/business/dollar-back-foot-us-yields-crude-prices-dip-aussie-buoyed-hawkish-rba-6477406",
             "sentiment_score": -0.6209,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
+            "description": "TOKYO, Oct 21 : The US dollar hovered near a three-week low on Wednesday as traders assessed developments in the Middle East after the conflict burnished the currency's appeal as a safe haven amid oil-driven inflation worries.The Australian dollar reached a t…",
+            "source": "CNA",
+            "published_at": "2026-10-21T01:36:05Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-treads-water-middle-east-tensions-simmer-aussie-buoyed-hawkish-rba-6477406",
+            "sentiment_score": -0.2891,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -1912,10 +1922,110 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.2641,
-        "label": "บวกชัดเจน (Bullish)",
+        "average_score": 0.1724,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
+            "description": "Two organizations weighed in on the OCC’s recently finalized GENIUS Act rules, arguing against the removal of provisions on stablecoin yield based on arrangements with third parties.",
+            "source": "Cointelegraph",
+            "published_at": "2026-10-21T21:53:48Z",
+            "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Islamophobia is getting louder. Why isn’t the response?",
+            "description": "Welcome to The Midterms, Actually. Every week I’ll be writing about two things: one big idea or trend I see forming across the 2026 primaries, and one thing I’m hearing from a voice on the ground. Let’s get into it. One thing I’m thinking about: Electability …",
+            "source": "Vox",
+            "published_at": "2026-10-21T21:26:53Z",
+            "url": "https://www.vox.com/politics/507163/midterms-actually-islamophobia-omar-elsayed",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mapped: Where homeowners pay the lowest property tax bills under 0.5%",
+            "description": "Hawaii, Alabama, Arizona, Utah, and South Carolina have property tax rates under 0.5%. Explore how low tax rates impact home values in 2024.",
+            "source": "New York Post",
+            "published_at": "2026-10-21T21:09:13Z",
+            "url": "https://nypost.com/2026/10/21/real-estate/mapped-where-homeowners-pay-the-lowest-property-tax-bills-under-0-5/",
+            "sentiment_score": -0.2752,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Billionaires fleeing California could turn a $30 billion tax windfall into a $39 billion loss, Stanford economists warn",
+            "description": "Departures have already erased nearly 30% of Prop 40’s tax base, a new NBER paper estimates. The tax’s architects say the math assumes losses that won’t last.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T20:42:26Z",
+            "url": "https://fortune.com/2026/10/21/california-billionaire-tax-prop-40-stanford-study-39-billion-loss/",
+            "sentiment_score": -0.4019,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fulton Financial Corporation Announces Third Quarter 2026 Results",
+            "description": "LANCASTER, Pa., Oct. 21, 2026 /PRNewswire/ -- Fulton Financial Corporation (NASDAQ: FULT) (\"Fulton\" or the \"Corporation\") reported net income available to common shareholders of $114.1 million, or $0.59 per diluted share, for the third quarter of 2026, an inc…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:30:00Z",
+            "url": "https://www.prnewswire.com/news-releases/fulton-financial-corporation-announces-third-quarter-2026-results-302915906.html",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Third Coast Bancshares, Inc. Reports 2026 Third Quarter Financial Results",
+            "description": "Solid 2026 Third Quarter Results While Advancing Long-Term Growth Strategy HOUSTON, Oct. 21, 2026 /PRNewswire/ -- Third Coast Bancshares, Inc. (NYSE and NYSE Texas: TCBX) (the \"Company,\" \"Third Coast,\" \"we,\" \"us,\" or \"our\"), the bank holding company for Third…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/third-coast-bancshares-inc-reports-2026-third-quarter-financial-results-302915952.html",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "WesBanco Announces Third Quarter 2026 Financial Results",
+            "description": "Marked by strong annualized loan growth, solid efficiency ratio, and accelerating growth in targeted expansion markets WHEELING, W.Va., Oct. 21, 2026 /PRNewswire/ -- WesBanco, Inc. (\"WesBanco\" or \"Company\") (Nasdaq: WSBC), a diversified, multi-state bank hold…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/wesbanco-announces-third-quarter-2026-financial-results-302915564.html",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "First Bancorp Reports Third Quarter Results",
+            "description": "Third Quarter 2026 Financial Data (Dollars in 000s, except per share data) Q3-2026 Q2-2026 Q3-2025 Summary Income Statement Total interest income $ 153,979 $ 148,315 $ 144,233 Total interest expense 39,182 37,049 41,711 Net interest income 114,797 111,266 102…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/first-bancorp-reports-third-quarter-results-302914618.html",
+            "sentiment_score": 0.2686,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "description": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
+            "source": "CNBC",
+            "published_at": "2026-10-21T19:32:55Z",
+            "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+            "sentiment_score": 0.5285,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise",
+            "description": "Why is bitcoin going up? BTC nears $85K as US stocks gain after SpaceX earnings, while over $549 million in ETF inflows adds support for buyers.\nThe post Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T19:10:28Z",
+            "url": "https://bitcoinfoundation.org/news/bitcoin/why-is-bitcoin-going-up-btc-nears-85k-as-us-stocks-rise/",
+            "sentiment_score": 0.2265,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
@@ -2115,127 +2225,27 @@
             "url": "https://cryptobriefing.com/bitcoin-volatility-nears-2026-lows-fed/",
             "sentiment_score": -0.1253,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US finalizes stablecoin regulations under GENIUS Act",
-            "description": "The GENIUS Act's stablecoin regulations may boost investor confidence, potentially stabilizing and positively influencing broader crypto markets.\nThe post US finalizes stablecoin regulations under GENIUS Act appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-21T11:46:16Z",
-            "url": "https://cryptobriefing.com/us-finalizes-stablecoin-regulations-under-genius-act/",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "When it comes to Trump's economy, these are the numbers that matter before mid-term elections",
-            "description": "United States President Donald Trump attempted to convince voters before the upcoming mid-term elections that the American economy is growing. However, voters have maintained the negative effects of inflation caused by the Iran war. The economy is seeing slow…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:45:37Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/when-it-comes-to-trumps-economy-these-are-the-numbers-that-matter-before-mid-term-elections/articleshow/135091065.cms",
-            "sentiment_score": -0.125,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
-            "description": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:39:14Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
-            "sentiment_score": 0.3323,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin is back near $83,000. Here’s how to assess its support",
-            "description": "Glassnode’s proximity framework sets out how nearby inventory and actual buying could confirm support before the Oct. 27–28 Fed meeting.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in yo…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-21T11:20:29Z",
-            "url": "https://cryptoslate.com/bitcoin-is-back-near-83000-heres-how-to-assess-its-support/",
-            "sentiment_score": 0.4078,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Yields Flat As Fed Rate Decision Approaches",
-            "description": "US Treasury yields remained largely unchanged Wednesday as investors awaited mortgage rate figures and unemployment data ahead of the Federal Reserve’s October 28 policy meeting.\nThe 10-year Treasury yield held at 5.1211%, while the two-year yield stayed near…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T11:03:07Z",
-            "url": "https://biztoc.com/x/6d3ff6d6ccc75727",
-            "sentiment_score": 0.1108,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US green card via EB-5? Investment limit may rise to $1.25 million in 2027",
-            "description": "Minimum investment for qualifying projects could rise from $800,000 to $937,500 from January 1, 2027, under a US inflation-linked revision",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T10:52:19Z",
-            "url": "https://www.business-standard.com/immigration/us-green-card-via-eb-5-investment-limit-may-rise-to-1-25-million-in-2027-126102100829_1.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Wednesday, October 21, 2026: Earn up to 4.40% APY with multiple offers",
-            "description": "CD rates have been trending upward thanks to a recent rate hike by the Federal Reserve. So, if you're looking for a way to lock in a competitive return on your savings — while protecting your money from market risk — a certificate of deposit (CD) could be a g…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:34:29Z",
-            "url": "https://biztoc.com/x/44f1b873e75fedf8",
-            "sentiment_score": 0.5542,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hong Kong’s SHKP sells 128 Sierra Sea flats ahead of possible US rate increase",
-            "description": "Sun Hung Kai Properties (SHKP), one of Hong Kong’s largest developers, has sold out the latest batch of flats at its Sierra Sea project in the New Territories, where units were offered at discounted prices ahead of a possible US Federal Reserve interest-rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:02:42Z",
-            "url": "https://biztoc.com/x/e7a4c72decaf0500",
-            "sentiment_score": 0.2382,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal.",
-            "description": "Beyond targeting Rep. Ilhan Omar, the Trump administration has killed, arrested, deported, and demonized Somalis at home and abroad.\nThe post Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal. appeared first on The Intercept.",
-            "source": "The Intercept",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://theintercept.com/2026/10/21/trump-ilhan-omar-somalia-war/",
-            "sentiment_score": -0.8052,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jeff Bezos’s Washington Post Is Obsessed With Union-Bashing",
-            "description": "Public approval for organized labor stands at a remarkable 71 percent, according to Gallup—its highest level since 1957. Even a 52 percent majority of Republicans approve of labor unions. This November 3, Vermont will likely pass a ballot initiative enshrinin…",
-            "source": "The New Republic",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
-            "sentiment_score": 0.107,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.459,
+      "net_score": -0.2968,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.7023,
+      "price_now": 0.7021,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.7,
-      "rsi_signal": "โซนกลาง (RSI=52.7)",
+      "rsi_value": 51.0,
+      "rsi_signal": "โซนกลาง (RSI=51.0)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.0008,
-      "suggested_sl_distance": 0.0012,
+      "atr_value": 0.00073,
+      "suggested_sl_distance": 0.00109,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2249,7 +2259,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-22T18:27:09.813661+00:00"
+    "generated_at": "2026-10-22T22:14:25.561047+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2258,10 +2268,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0359,
+        "average_score": 0.0143,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 15,
+        "article_count": 17,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Aris Mining Announces Q3 2026 Earnings Release Date",
+            "description": "VANCOUVER, British Columbia — Aris Mining Corporation (Aris Mining or the Company) (TSX: ARIS; NYSE: ARIS) will publish its third quarter 2026 financial results after market close on Wednesday, November 4, 2026 and host a conference call on the same day at 3:…",
+            "source": "Financial Post",
+            "published_at": "2026-10-21T21:07:37Z",
+            "url": "https://financialpost.com/pmn/business-wire-news-releases-pmn/aris-mining-announces-q3-2026-earnings-release-date",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "5 things to watch on the ASX 200 on Thursday",
+            "description": "Here's what to expect on the local market today.\nThe post 5 things to watch on the ASX 200 on Thursday appeared first on The Motley Fool Australia.",
+            "source": "Motley Fool Australia",
+            "published_at": "2026-10-21T20:49:50Z",
+            "url": "https://www.fool.com.au/2026/10/22/5-things-to-watch-on-the-asx-200-on-thursday-22-october-2026/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Xali Gold Completes FTA Application for Drilling and Outlines Development Team for Pico Machay",
@@ -2415,10 +2445,110 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.2641,
-        "label": "บวกชัดเจน (Bullish)",
+        "average_score": 0.1724,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "American Bankers Association: OCC’s GENIUS rules ‘undermine’ US Congress",
+            "description": "Two organizations weighed in on the OCC’s recently finalized GENIUS Act rules, arguing against the removal of provisions on stablecoin yield based on arrangements with third parties.",
+            "source": "Cointelegraph",
+            "published_at": "2026-10-21T21:53:48Z",
+            "url": "https://cointelegraph.com/news/american-bankers-association-occ-genius-rules-stablecoins",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Islamophobia is getting louder. Why isn’t the response?",
+            "description": "Welcome to The Midterms, Actually. Every week I’ll be writing about two things: one big idea or trend I see forming across the 2026 primaries, and one thing I’m hearing from a voice on the ground. Let’s get into it. One thing I’m thinking about: Electability …",
+            "source": "Vox",
+            "published_at": "2026-10-21T21:26:53Z",
+            "url": "https://www.vox.com/politics/507163/midterms-actually-islamophobia-omar-elsayed",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Mapped: Where homeowners pay the lowest property tax bills under 0.5%",
+            "description": "Hawaii, Alabama, Arizona, Utah, and South Carolina have property tax rates under 0.5%. Explore how low tax rates impact home values in 2024.",
+            "source": "New York Post",
+            "published_at": "2026-10-21T21:09:13Z",
+            "url": "https://nypost.com/2026/10/21/real-estate/mapped-where-homeowners-pay-the-lowest-property-tax-bills-under-0-5/",
+            "sentiment_score": -0.2752,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Billionaires fleeing California could turn a $30 billion tax windfall into a $39 billion loss, Stanford economists warn",
+            "description": "Departures have already erased nearly 30% of Prop 40’s tax base, a new NBER paper estimates. The tax’s architects say the math assumes losses that won’t last.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T20:42:26Z",
+            "url": "https://fortune.com/2026/10/21/california-billionaire-tax-prop-40-stanford-study-39-billion-loss/",
+            "sentiment_score": -0.4019,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fulton Financial Corporation Announces Third Quarter 2026 Results",
+            "description": "LANCASTER, Pa., Oct. 21, 2026 /PRNewswire/ -- Fulton Financial Corporation (NASDAQ: FULT) (\"Fulton\" or the \"Corporation\") reported net income available to common shareholders of $114.1 million, or $0.59 per diluted share, for the third quarter of 2026, an inc…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:30:00Z",
+            "url": "https://www.prnewswire.com/news-releases/fulton-financial-corporation-announces-third-quarter-2026-results-302915906.html",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Third Coast Bancshares, Inc. Reports 2026 Third Quarter Financial Results",
+            "description": "Solid 2026 Third Quarter Results While Advancing Long-Term Growth Strategy HOUSTON, Oct. 21, 2026 /PRNewswire/ -- Third Coast Bancshares, Inc. (NYSE and NYSE Texas: TCBX) (the \"Company,\" \"Third Coast,\" \"we,\" \"us,\" or \"our\"), the bank holding company for Third…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/third-coast-bancshares-inc-reports-2026-third-quarter-financial-results-302915952.html",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "WesBanco Announces Third Quarter 2026 Financial Results",
+            "description": "Marked by strong annualized loan growth, solid efficiency ratio, and accelerating growth in targeted expansion markets WHEELING, W.Va., Oct. 21, 2026 /PRNewswire/ -- WesBanco, Inc. (\"WesBanco\" or \"Company\") (Nasdaq: WSBC), a diversified, multi-state bank hold…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:15:00Z",
+            "url": "https://www.prnewswire.com/news-releases/wesbanco-announces-third-quarter-2026-financial-results-302915564.html",
+            "sentiment_score": 0.2673,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "First Bancorp Reports Third Quarter Results",
+            "description": "Third Quarter 2026 Financial Data (Dollars in 000s, except per share data) Q3-2026 Q2-2026 Q3-2025 Summary Income Statement Total interest income $ 153,979 $ 148,315 $ 144,233 Total interest expense 39,182 37,049 41,711 Net interest income 114,797 111,266 102…",
+            "source": "PRNewswire",
+            "published_at": "2026-10-21T20:05:00Z",
+            "url": "https://www.prnewswire.com/news-releases/first-bancorp-reports-third-quarter-results-302914618.html",
+            "sentiment_score": 0.2686,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "BlackRock's Rick Rieder sees 'historic' opportunity in high-quality bonds",
+            "description": "Rick Rieder, BlackRock's CIO of global fixed income, lays out his expectations for the fourth quarter and where he sees the best opportunities.",
+            "source": "CNBC",
+            "published_at": "2026-10-21T19:32:55Z",
+            "url": "https://www.cnbc.com/2026/10/21/rick-rieder-investment-grade-bonds.html",
+            "sentiment_score": 0.5285,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise",
+            "description": "Why is bitcoin going up? BTC nears $85K as US stocks gain after SpaceX earnings, while over $549 million in ETF inflows adds support for buyers.\nThe post Why Is Bitcoin Going Up? BTC Nears $85K as US Stocks Rise appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T19:10:28Z",
+            "url": "https://bitcoinfoundation.org/news/bitcoin/why-is-bitcoin-going-up-btc-nears-85k-as-us-stocks-rise/",
+            "sentiment_score": 0.2265,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
@@ -2618,110 +2748,10 @@
             "url": "https://cryptobriefing.com/bitcoin-volatility-nears-2026-lows-fed/",
             "sentiment_score": -0.1253,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US finalizes stablecoin regulations under GENIUS Act",
-            "description": "The GENIUS Act's stablecoin regulations may boost investor confidence, potentially stabilizing and positively influencing broader crypto markets.\nThe post US finalizes stablecoin regulations under GENIUS Act appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-21T11:46:16Z",
-            "url": "https://cryptobriefing.com/us-finalizes-stablecoin-regulations-under-genius-act/",
-            "sentiment_score": 0.2566,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "When it comes to Trump's economy, these are the numbers that matter before mid-term elections",
-            "description": "United States President Donald Trump attempted to convince voters before the upcoming mid-term elections that the American economy is growing. However, voters have maintained the negative effects of inflation caused by the Iran war. The economy is seeing slow…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:45:37Z",
-            "url": "https://economictimes.indiatimes.com/news/international/world-news/when-it-comes-to-trumps-economy-these-are-the-numbers-that-matter-before-mid-term-elections/articleshow/135091065.cms",
-            "sentiment_score": -0.125,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin rebounds above $83,000 as strong US earnings and falling oil prices lift risk appetite",
-            "description": "Bitcoin rebounded 2.1% to $83,529 as stronger US equities, easing oil prices and $526.6 million in spot ETF inflows boosted sentiment. Analysts identified $86,000 as key resistance and $80,000 as crucial support amid continued uncertainty.",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T11:39:14Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/crypto-news/bitcoin-rebounds-above-83000-as-strong-us-earnings-and-falling-oil-prices-lift-risk-appetite/articleshow/135091348.cms",
-            "sentiment_score": 0.3323,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin is back near $83,000. Here’s how to assess its support",
-            "description": "Glassnode’s proximity framework sets out how nearby inventory and actual buying could confirm support before the Oct. 27–28 Fed meeting.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in yo…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-21T11:20:29Z",
-            "url": "https://cryptoslate.com/bitcoin-is-back-near-83000-heres-how-to-assess-its-support/",
-            "sentiment_score": 0.4078,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury Yields Flat As Fed Rate Decision Approaches",
-            "description": "US Treasury yields remained largely unchanged Wednesday as investors awaited mortgage rate figures and unemployment data ahead of the Federal Reserve’s October 28 policy meeting.\nThe 10-year Treasury yield held at 5.1211%, while the two-year yield stayed near…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T11:03:07Z",
-            "url": "https://biztoc.com/x/6d3ff6d6ccc75727",
-            "sentiment_score": 0.1108,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US green card via EB-5? Investment limit may rise to $1.25 million in 2027",
-            "description": "Minimum investment for qualifying projects could rise from $800,000 to $937,500 from January 1, 2027, under a US inflation-linked revision",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T10:52:19Z",
-            "url": "https://www.business-standard.com/immigration/us-green-card-via-eb-5-investment-limit-may-rise-to-1-25-million-in-2027-126102100829_1.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Best CD rates today, Wednesday, October 21, 2026: Earn up to 4.40% APY with multiple offers",
-            "description": "CD rates have been trending upward thanks to a recent rate hike by the Federal Reserve. So, if you're looking for a way to lock in a competitive return on your savings — while protecting your money from market risk — a certificate of deposit (CD) could be a g…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:34:29Z",
-            "url": "https://biztoc.com/x/44f1b873e75fedf8",
-            "sentiment_score": 0.5542,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Hong Kong’s SHKP sells 128 Sierra Sea flats ahead of possible US rate increase",
-            "description": "Sun Hung Kai Properties (SHKP), one of Hong Kong’s largest developers, has sold out the latest batch of flats at its Sierra Sea project in the New Territories, where units were offered at discounted prices ahead of a possible US Federal Reserve interest-rate …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T10:02:42Z",
-            "url": "https://biztoc.com/x/e7a4c72decaf0500",
-            "sentiment_score": 0.2382,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal.",
-            "description": "Beyond targeting Rep. Ilhan Omar, the Trump administration has killed, arrested, deported, and demonized Somalis at home and abroad.\nThe post Trump’s Obsession With Somalia Isn’t Just Racist. It’s Been Lethal. appeared first on The Intercept.",
-            "source": "The Intercept",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://theintercept.com/2026/10/21/trump-ilhan-omar-somalia-war/",
-            "sentiment_score": -0.8052,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Jeff Bezos’s Washington Post Is Obsessed With Union-Bashing",
-            "description": "Public approval for organized labor stands at a remarkable 71 percent, according to Gallup—its highest level since 1957. Even a 52 percent majority of Republicans approve of labor unions. This November 3, Vermont will likely pass a ballot initiative enshrinin…",
-            "source": "The New Republic",
-            "published_at": "2026-10-21T10:00:00Z",
-            "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
-            "sentiment_score": 0.107,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.2282,
+      "net_score": -0.1581,
       "bias": "เอียงลบต่อ XAU (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -2731,17 +2761,17 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4053.80005,
+      "price_now": 4041.1001,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 32.3,
-      "rsi_signal": "โซนกลาง (RSI=32.3)",
+      "rsi_value": 30.0,
+      "rsi_signal": "ขายมากเกิน (RSI=30.0) ราคาอาจเด้ง",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 17.38765,
-      "suggested_sl_distance": 26.08147,
+      "atr_value": 15.74714,
+      "suggested_sl_distance": 23.62071,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "technical_vote": -1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -2750,8 +2780,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=32.3) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=30.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-22T18:27:09.813661+00:00"
+    "generated_at": "2026-10-22T22:14:25.561047+00:00"
   }
 ]
