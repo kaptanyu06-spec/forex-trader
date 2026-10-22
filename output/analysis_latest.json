@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0288,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0548,
+        "label": "ลบเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "America's $1 trillion annual interest bill is growing as national debt surges, so why isn't the US facing a debt crisis like France?",
+            "description": "The United States continues to finance its national debt more effectively compared to France. While both countries face rising borrowing costs, the US dollar's global status provides crucial advantages. Increased federal interest costs are currently impacting…",
+            "source": "The Times of India",
+            "published_at": "2026-10-21T14:39:57Z",
+            "url": "https://economictimes.indiatimes.com/news/international/world-news/americas-1-trillion-annual-interest-bill-is-growing-as-national-debt-surges-so-why-isnt-the-us-facing-a-debt-crisis-like-france/articleshow/135093657.cms",
+            "sentiment_score": -0.045,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "France’s Economic Strain: Public Debt, Monetary Constraints, and Political Deadlock",
+            "description": "Introduction \nFrance occupies a distinctive position in the European economy. It is one of the Eurozone’s largest economies, a central political actor in the European Union, and a state whose public sector, welfare system, and pension arrangements remain unus…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-10-21T14:26:49Z",
+            "url": "https://www.globalresearch.ca/france-economic-strain-public-debt-monetary-constraints-political-deadlock/5944167",
+            "sentiment_score": -0.4374,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "UK Treasury chief vows to give families ‘some breathing space’ as inflation runs hot, highest in a year",
@@ -92,22 +112,22 @@
           },
           {
             "currency": "EUR",
-            "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
-            "description": "TOKYO, Oct 21 : The US dollar remained under pressure on Wednesday after slipping to a three-week low in the previous session, as a dip in Treasury yields and crude oil prices reduced the currency's appeal.The Australian dollar hovered close to a three-week h…",
-            "source": "CNA",
-            "published_at": "2026-10-21T01:36:05Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-back-foot-us-yields-crude-prices-dip-aussie-buoyed-hawkish-rba-6477406",
-            "sentiment_score": -0.6209,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
             "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
             "description": "TOKYO, Oct 21 : The US dollar hovered near a three-week low on Wednesday as traders assessed developments in the Middle East after the conflict burnished the currency's appeal as a safe haven amid oil-driven inflation worries.The Australian dollar reached a t…",
             "source": "CNA",
             "published_at": "2026-10-21T01:36:05Z",
             "url": "https://www.channelnewsasia.com/business/dollar-treads-water-middle-east-tensions-simmer-aussie-buoyed-hawkish-rba-6477406",
             "sentiment_score": -0.2891,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
+            "description": "TOKYO, Oct 21 : The US dollar remained under pressure on Wednesday after slipping to a three-week low in the previous session, as a dip in Treasury yields and crude oil prices reduced the currency's appeal.The Australian dollar hovered close to a three-week h…",
+            "source": "CNA",
+            "published_at": "2026-10-21T01:36:05Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-back-foot-us-yields-crude-prices-dip-aussie-buoyed-hawkish-rba-6477406",
+            "sentiment_score": -0.6209,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -269,34 +289,144 @@
             "url": "https://www.irishtimes.com/business/2026/10/20/bond-market-turmoil-complicates-ecb-rate-decision/",
             "sentiment_score": -0.1574,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Shares stumble, oil rises as investors await AI sector earnings",
-            "description": "TOKYO, Oct 20 : Asian stocks retreated broadly on Tuesday while oil prices rose as geopolitical risks rattled sentiment ahead of key results from AI bellwether companies. The euro recouped some losses from the previous session that were spurred by escalating …",
-            "source": "CNA",
-            "published_at": "2026-10-20T02:12:19Z",
-            "url": "https://www.channelnewsasia.com/business/shares-stumble-oil-rises-investors-await-ai-sector-earnings-6474216",
-            "sentiment_score": 0.0915,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Asian shares tumble, oil rises as markets await AI sector results",
-            "description": "TOKYO, Oct 20 : Asian stocks retreated broadly on Tuesday while oil rose as geopolitical risks rattled sentiment ahead of key results from AI bellwether companies. The dollar held firm against the euro as riots in France fuelled demand for safe-haven assets. …",
-            "source": "CNA",
-            "published_at": "2026-10-20T02:12:19Z",
-            "url": "https://www.channelnewsasia.com/business/asian-shares-tumble-oil-rises-markets-await-ai-sector-results-6474216",
-            "sentiment_score": 0.0762,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1742,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.2641,
+        "label": "บวกชัดเจน (Bullish)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
+            "description": "US Treasury yields slipped as investors weighed the impact of higher borrowing costs on AI stocks, with the 10 year yield heading for a second straight daily decline. The move came ahead of a $13 billion 20 year Treasury auction, while markets continued to pr…",
+            "source": "The Times of India",
+            "published_at": "2026-10-21T17:49:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-slip-as-ai-concern-boost-safe-haven-demand-ahead-of-20-year-auction/articleshow/135097932.cms",
+            "sentiment_score": 0.6594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds former Harvard science dean to oversight body",
+            "description": "Oct 21 : Anthropic said on Wednesday that Christopher Stubbs, former dean of science at Harvard University, had joined its oversight body, which holds the power to appoint a majority of the AI startup's board.Here are some details:• The oversight group, known…",
+            "source": "CNA",
+            "published_at": "2026-10-21T17:49:12Z",
+            "url": "https://www.channelnewsasia.com/business/anthropic-adds-former-harvard-science-dean-oversight-body-6479826",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds Harvard astrophysicist to the trust that controls its board",
+            "description": "Harvard physicist Chris Stubbs joins the trust. Anthropic's planned IPO will place increasing pressure on its unusual corporate governance structure.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T16:30:00Z",
+            "url": "https://fortune.com/2026/10/21/anthropic-adds-harvard-astrophysicist-to-the-trust-that-controls-its-board/",
+            "sentiment_score": 0.4394,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks?",
+            "description": "The post Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks? appeared first on 24/7 Wall St..\nThe Federal Reserve raised the upper bound of its target range from 3.75% to 4.00% on September 17, 2026, and short-term Treasury yields moved in t…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-21T16:22:34Z",
+            "url": "https://biztoc.com/x/6a8e1f5c690f69d2",
+            "sentiment_score": 0.2561,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says",
+            "description": "Bitcoin's future may face pressure from rising oil prices and potential Fed rate hikes, impacting risk appetite and liquidity.\nThe post Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-21T15:52:09Z",
+            "url": "https://cryptobriefing.com/fed-rate-hike-impact-bitcoin/",
+            "sentiment_score": 0.3182,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Are Prediction Markets Just Gambling? Kalshi CEO Responds",
+            "description": "Kalshi CEO Tarek Mansour discusses the fight to regulate prediction markets, why ordinary people can outperform Wall Street, and the future of American capitalism.",
+            "source": "Reason",
+            "published_at": "2026-10-21T15:00:40Z",
+            "url": "https://reason.com/podcast/2026/10/21/are-prediction-markets-just-gambling-kalshi-ceo-responds/",
+            "sentiment_score": -0.1145,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Monetary Reform for the 2028 Election: Monetary Wars Begin in the US: 1795-1832. Part 1.4",
+            "description": "Read the previous parts of this series:\n \n.\n \n.\n \n\nCan We Finally Face Up to America’s Bankruptcy? Monetary Reform for the 2028 Election. Part I\nBy Richard C. Cook, October 08, 2026\n.\n\nThe Historical Theft …\nThe post Monetary Reform for the 2028 Election: Mon…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-10-21T14:47:55Z",
+            "url": "https://www.globalresearch.ca/monetary-reform-2028-election-monetary-wars-begin-us-1795-1832-part-1-4/5944123",
+            "sentiment_score": -0.3902,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Indonesia's forex hedging incentives draw $9.9 bln in foreign capital",
+            "description": "Bank Indonesia (BI) said that its foreign exchange hedging incentive scheme has attracted US$9.9 billion in foreign capital inflows between its launch in June ...",
+            "source": "Antaranews.com",
+            "published_at": "2026-10-21T14:47:09Z",
+            "url": "https://en.antaranews.com/news/437125/indonesias-forex-hedging-incentives-draw-99-bln-in-foreign-capital",
+            "sentiment_score": 0.4173,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump’s Numbers, October 2026 Update",
+            "description": "Our latest quarterly report on various statistical indicators of how the country is faring as the midterms loom.\nThe post Trump’s Numbers, October 2026 Update appeared first on FactCheck.org.",
+            "source": "FactCheck.org",
+            "published_at": "2026-10-21T14:36:44Z",
+            "url": "https://www.factcheck.org/2026/10/trumps-numbers-october-2026-update/",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 Edges Higher as SpaceX and Super Micro Spark AI Rebound, Wall Street Braces for Tesla and Meta Results",
+            "description": "US stocks rose modestly as strong SpaceX and Super Micro results revived interest in AI shares, while investors awaited Tesla and Meta earnings amid persistent inflation and interest-rate risks.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:23:07Z",
+            "url": "https://www.ibtimes.com.au/us-stocks-rise-spacex-super-micro-ai-shares-1877132",
+            "sentiment_score": 0.7544,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq Climbs 0.6% as AI Stocks Roar Back After Last Week's Rout, Led by SpaceX Surge and Super Micro Rally",
+            "description": "The Nasdaq rose as strong SpaceX and Super Micro results boosted AI stocks, though elevated interest rates, inflation concerns and upcoming earnings continued to weigh on investors.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:17:18Z",
+            "url": "https://www.ibtimes.com.au/nasdaq-rebounds-spacex-super-micro-ai-stocks-1877130",
+            "sentiment_score": 0.6937,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Russell 2000 Posts Best Day Since August as Small Caps Jump 1.65% on Falling Yields and Broad Market Rotation",
+            "description": "US small-cap stocks recorded their strongest session in more than two months on Tuesday, helped by falling Treasury yields, lower oil prices and a broad shift away from large technology companies.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:16:12Z",
+            "url": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128",
+            "sentiment_score": 0.4581,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110",
+            "description": "Bitcoin recovered from below $80,000 to $82,500 and is nearing $84,000 resistance, while ETF outflows and oil above $110 keep inflation risks in focus.\nThe post Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110 appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T14:03:20Z",
+            "url": "https://bitcoinfoundation.org/news/analysis/bitcoin-rebounds-from-below-80k-to-82-5k-as-oil-tops-110/",
+            "sentiment_score": 0.4462,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Dow Jones Industrial Average Trades Near 52,500 After 1% Gain on Earnings as Futures Signal Further Strength",
@@ -466,140 +596,10 @@
             "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
             "sentiment_score": 0.107,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Holds Near $83,315 as ETF Inflows and Liquidations Shape Volatile Trading",
-            "description": "Bitcoin rose about 0.45% to near US$83,315 after recovering from recent lows, while ETF flows, leveraged liquidations and expectations for further Federal Reserve rate rises influenced sentiment.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-21T09:54:42Z",
-            "url": "https://www.ibtimes.com.au/bitcoin-price-etf-flows-fed-rate-outlook-1877104",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market: ECB sees Euro liquidity support boosting global currency role",
-            "description": "European Central Bank Chief Economist Philip Lane stated that stronger euro liquidity facilities can enhance the currency's global role. More than 30 central banks have expressed interest in the ECB’s expanded euro liquidity initiatives. These arrangements ma…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:39:58Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-sees-euro-liquidity-support-boosting-global-currency-role/articleshow/135088196.cms",
-            "sentiment_score": 0.6417,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wedding Season 2026: Gold prices crashed over 5% in a month — Should you buy jewellery now or wait? Experts suggest",
-            "description": "Gold prices in India have fallen nearly 5% in a month, offering potential relief to wedding shoppers. Should you buy jewellery now or wait for further price cuts? Experts explain the key factors to watch, buying strategies, and the outlook for gold prices bef…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T09:31:15Z",
-            "url": "https://www.livemint.com/money/personal-finance/wedding-season-2026-gold-prices-crashed-over-5-in-a-month-should-you-buy-jewellery-now-or-wait-experts-suggest-11792571511976.html",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BI warns of global risks as Indonesia targets up to 5.7 pct growth",
-            "description": "Bank Indonesia (BI) projects Indonesia&rsquo;s economic growth for 2026 to remain robust within the range of 4.9 to 5.7 percent, backed by steady domestic ...",
-            "source": "Antaranews.com",
-            "published_at": "2026-10-21T09:30:22Z",
-            "url": "https://en.antaranews.com/news/437005/bi-warns-of-global-risks-as-indonesia-targets-up-to-57-pct-growth",
-            "sentiment_score": 0.2055,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "In 1865, a silver discovery helped turn Belmont, Nevada, into a boomtown; by 1900, only about 20 people remained after most mines closed, despite more than $6 million in ore",
-            "description": "Belmont, Nevada, once a bustling mining hub during the silver rush era, experienced a dramatic decline in its population as resources dwindled and competition grew fierce. By the turn of the century, just 20 individuals remained in the town following the mine…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:30:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/in-1865-a-silver-discovery-helped-turn-belmont-nevada-into-a-boomtown-by-1900-only-about-20-people-remained-after-most-mines-closed-despite-more-than-6-million-in-ore/articleshow/134983194.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied early on Wednesday as investors awaited fresh data for insights into the U.S. economic picture ahead of next week's Federal Reserve interest rate decision.\nYields on 10-year U.S. Treasurys — the main benchmark for mortgages, auto loan…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T09:01:41Z",
-            "url": "https://biztoc.com/x/ad6bcab485497505",
-            "sentiment_score": 0.4227,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied as investors await more data for insights into the U.S. economic picture.",
-            "source": "CNBC",
-            "published_at": "2026-10-21T08:57:33Z",
-            "url": "https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold may test 4,000-mark if oil extends rally; US Fed moves eyed: Kotak Neo",
-            "description": "Gold price outlook: If Brent extends rally and feeds into hotter inflation data and firmer Fed hike bets, lifting yields and the dollar, Gold could test $4,000-mark, says Kaynat Chainwala, Kotak Neo.",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T08:32:06Z",
-            "url": "https://www.business-standard.com/markets/news/gold-may-test-4-000-mark-if-oil-extends-rally-us-fed-moves-eyed-kotak-neo-126102100567_1.html",
-            "sentiment_score": 0.128,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gap-up gone: Nifty reverses early gains, 322 stocks hit 52-week lows",
-            "description": "The Nifty Midcap 100 declined 1.7% and Nifty Smallcap 100 fell 2.4%, indicating that the selling was broader and deeper than headline index moves suggested",
-            "source": "BusinessLine",
-            "published_at": "2026-10-21T07:57:34Z",
-            "url": "https://www.thehindubusinessline.com/markets/gap-up-gone-nifty-reverses-early-gains-322-stocks-hit-52-week-lows/article71606718.ece",
-            "sentiment_score": 0.5553,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil rebounds as Middle East supply fears persist",
-            "description": "Oil prices rebounded on Oct. 21 as threats to Saudi energy facilities and shipping in the Gulf sustained concerns over supply, while gold edged lower ahead of next week’s U.S. Federal Reserve meeting.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-21T06:26:36Z",
-            "url": "https://www.hurriyetdailynews.com/oil-rebounds-as-middle-east-supply-fears-persist-228407",
-            "sentiment_score": -0.4272,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold prices near Rs 1.47 lakh/10 grams, silver falls by Rs 1,144/kg as traders await Fed rate signals. What lies ahead?",
-            "description": "Gold prices edged lower while silver fell on MCX as investors awaited the US Federal Reserve’s upcoming policy decision for clues on interest rates. Traders expect rates to remain unchanged in October, with a possible hike in December. Analysts say dollar str…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T06:10:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-near-rs-1-47-lakh/10-grams-silver-falls-by-rs-1144/kg-as-traders-await-fed-rate-signals-what-lies-ahead/articleshow/135083841.cms",
-            "sentiment_score": -0.1846,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market | Safe-haven assets under pressure: Dollar, Swiss franc, German bonds and gold in focus",
-            "description": "Safe-haven demand is shifting amid AI-driven market volatility, geopolitical tensions, rising energy prices and mounting government debt. The US dollar, Swiss franc, German Bunds, short-term government bonds and gold offer potential protection, but differing …",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T05:10:06Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-safe-haven-assets-under-pressure-dollar-swiss-franc-german-bonds-and-gold-in-focus/articleshow/135082673.cms",
-            "sentiment_score": -0.1851,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 21 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 21 October: Check the latest 24K and 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities. Also, track MCX gold and silver futures, key market movements, and factors influencing preciou…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T04:26:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-21-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792555396066.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.203,
+      "net_score": -0.3189,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -609,28 +609,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12032,
+      "price_now": 1.12259,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
-      "ma_crossed_this_bar": true,
-      "rsi_value": 34.5,
-      "rsi_signal": "โซนกลาง (RSI=34.5)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "ma_crossed_this_bar": false,
+      "rsi_value": 50.0,
+      "rsi_signal": "โซนกลาง (RSI=50.0)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
       "atr_value": 0.00112,
-      "suggested_sl_distance": 0.00169,
+      "suggested_sl_distance": 0.00168,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=34.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-22T13:41:36.414506+00:00"
+    "generated_at": "2026-10-22T18:27:09.813661+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -639,10 +639,80 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0848,
-        "label": "ลบเล็กน้อย",
-        "article_count": 26,
+        "average_score": -0.038,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Europe's financial regulators query GOOGLE over outage that hit banks...",
+            "description": "By Phoebe Seers and Elizabeth Howcroft LONDON/PARIS, Oct 21 (Reuters) - Financial regulators in Europe are questioning Google after a cloud computing outage...",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-21T17:00:16Z",
+            "url": "https://finance.yahoo.com/technology/articles/europes-financial-regulators-query-google-154104572.html",
+            "sentiment_score": -0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "European shares rise on solid earnings but Carrefour slumps on French unrest",
+            "description": "Iseq All-Share index rises 0.9% to 14,292.67",
+            "source": "The Irish Times",
+            "published_at": "2026-10-21T17:00:05Z",
+            "url": "https://www.irishtimes.com/business/2026/10/21/european-shares-rise-on-solid-earnings-but-carrefour-slumps-on-french-unrest/",
+            "sentiment_score": 0.1584,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Europe's financial regulators query Google over cloud outage that hit banks",
+            "description": "LONDON/PARIS, Oct 21 : Financial regulators in Europe are questioning Google after a cloud computing outage on Tuesday left millions of bank customers without access to key financial services for hours.The European Banking Authority said that it has been in c…",
+            "source": "CNA",
+            "published_at": "2026-10-21T15:43:20Z",
+            "url": "https://www.channelnewsasia.com/business/europes-financial-regulators-query-google-over-cloud-outage-hit-banks-6479606",
+            "sentiment_score": -0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "World-first taskforce to protect communities from climate change",
+            "description": "Communities across the UK will be better protected against the growing threats of climate change and nature loss.",
+            "source": "Www.gov.uk",
+            "published_at": "2026-10-21T15:26:50Z",
+            "url": "https://www.gov.uk/government/news/world-first-taskforce-to-protect-communities-from-climate-change",
+            "sentiment_score": 0.3693,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Water sector to wait until 2027 for full details of Burnham’s overhaul",
+            "description": "Prime Minister Andy Burnham has promised greater ‘public control’ of the water industry — but officials are still figuring out how it will work.",
+            "source": "POLITICO.eu",
+            "published_at": "2026-10-21T15:14:30Z",
+            "url": "https://www.politico.eu/article/water-sector-wait-2027-full-details-burnham-overhaul-uk/",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Monetary Reform for the 2028 Election: Monetary Wars Begin in the US: 1795-1832. Part 1.4",
+            "description": "Read the previous parts of this series:\n \n.\n \n.\n \n\nCan We Finally Face Up to America’s Bankruptcy? Monetary Reform for the 2028 Election. Part I\nBy Richard C. Cook, October 08, 2026\n.\n\nThe Historical Theft …\nThe post Monetary Reform for the 2028 Election: Mon…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-10-21T14:47:55Z",
+            "url": "https://www.globalresearch.ca/monetary-reform-2028-election-monetary-wars-begin-us-1795-1832-part-1-4/5944123",
+            "sentiment_score": -0.3902,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "UK Treasury chief vows to give families ‘some breathing space’ as inflation runs hot, highest in a year",
+            "description": "Inflation in the U.K. rose to its highest rate in almost a year as the Iran war continues to ratchet up fuel prices, official figures showed Wednesday, cementing market expectations that the Bank of England will raise interest rates next month.\nThe Office for…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-21T13:49:41Z",
+            "url": "https://biztoc.com/x/bfaa2e8d317e010a",
+            "sentiment_score": 0.0737,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "UK Treasury chief vows to give families ‘some breathing space’ as inflation runs hot, highest in a year",
@@ -852,64 +922,144 @@
             "url": "https://www.dailymail.com/news/article-16225069/Expect-Budget-backbenchers-business-bond-markets-Burnham-aide.html",
             "sentiment_score": 0.0236,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "European stocks extend slide as French unrest rattles investors",
-            "description": "Iseq edges up as Ryanair gains 2.6%",
-            "source": "The Irish Times",
-            "published_at": "2026-10-20T17:37:52Z",
-            "url": "https://www.irishtimes.com/business/2026/10/20/european-stocks-extend-slide-as-french-unrest-rattles-investors/",
-            "sentiment_score": 0.2265,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England Considers Stress Testing AI’s Effect on the Financial Sector",
-            "description": "While the Bank of England is busy stress testing the UK’s private markets, another threat is looming in the minds of regulators. Turmoil caused by artificial intelligence is among the options being discussed for the BOE’s next system-wide exploratory scenario…",
-            "source": "Insurance Journal",
-            "published_at": "2026-10-20T13:24:21Z",
-            "url": "https://www.insurancejournal.com/news/international/2026/10/20/889641.htm",
-            "sentiment_score": -0.5131,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Don’t be Liz Truss, Badenoch tells Burnham",
-            "description": "The Tory leader said the ex-British PM needs to take responsibility for her disastrous 2022 budget as she prepares to publish a new book.",
-            "source": "POLITICO.eu",
-            "published_at": "2026-10-20T12:41:55Z",
-            "url": "https://www.politico.eu/article/liz-truss-kemi-badenoch-tell-andy-burnham-budget/",
-            "sentiment_score": -0.1798,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Dollar dips on AI worries, euro edges up despite French unrest",
-            "description": "NEW YORK, Oct 20 : The US dollar slipped on Tuesday as doubts over the AI trade resurfaced, while the euro edged up despite traders' lingering worries about unrest in France.Shares in South Korean AI services firm Elice Group plunged 32 per cent in their Seou…",
-            "source": "CNA",
-            "published_at": "2026-10-20T11:47:36Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-dips-ai-worries-euro-edges-up-despite-french-unrest-6474031",
-            "sentiment_score": -0.2848,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Euro steadies as French protests ease; pound and yen firm",
-            "description": "LONDON, Oct 20 : The euro steadied on Tuesday as unrest in France eased overnight, though higher bond yields capped gains, and the pound rose after British jobs data showed signs of a recovery in the labour market.The yen also jumped, snapping a two-day decli…",
-            "source": "CNA",
-            "published_at": "2026-10-20T11:47:36Z",
-            "url": "https://www.channelnewsasia.com/business/euro-steadies-french-protests-ease-pound-and-yen-firm-6474031",
-            "sentiment_score": 0.2744,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1742,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.2641,
+        "label": "บวกชัดเจน (Bullish)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
+            "description": "US Treasury yields slipped as investors weighed the impact of higher borrowing costs on AI stocks, with the 10 year yield heading for a second straight daily decline. The move came ahead of a $13 billion 20 year Treasury auction, while markets continued to pr…",
+            "source": "The Times of India",
+            "published_at": "2026-10-21T17:49:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-slip-as-ai-concern-boost-safe-haven-demand-ahead-of-20-year-auction/articleshow/135097932.cms",
+            "sentiment_score": 0.6594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds former Harvard science dean to oversight body",
+            "description": "Oct 21 : Anthropic said on Wednesday that Christopher Stubbs, former dean of science at Harvard University, had joined its oversight body, which holds the power to appoint a majority of the AI startup's board.Here are some details:• The oversight group, known…",
+            "source": "CNA",
+            "published_at": "2026-10-21T17:49:12Z",
+            "url": "https://www.channelnewsasia.com/business/anthropic-adds-former-harvard-science-dean-oversight-body-6479826",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds Harvard astrophysicist to the trust that controls its board",
+            "description": "Harvard physicist Chris Stubbs joins the trust. Anthropic's planned IPO will place increasing pressure on its unusual corporate governance structure.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T16:30:00Z",
+            "url": "https://fortune.com/2026/10/21/anthropic-adds-harvard-astrophysicist-to-the-trust-that-controls-its-board/",
+            "sentiment_score": 0.4394,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks?",
+            "description": "The post Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks? appeared first on 24/7 Wall St..\nThe Federal Reserve raised the upper bound of its target range from 3.75% to 4.00% on September 17, 2026, and short-term Treasury yields moved in t…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-21T16:22:34Z",
+            "url": "https://biztoc.com/x/6a8e1f5c690f69d2",
+            "sentiment_score": 0.2561,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says",
+            "description": "Bitcoin's future may face pressure from rising oil prices and potential Fed rate hikes, impacting risk appetite and liquidity.\nThe post Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-21T15:52:09Z",
+            "url": "https://cryptobriefing.com/fed-rate-hike-impact-bitcoin/",
+            "sentiment_score": 0.3182,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Are Prediction Markets Just Gambling? Kalshi CEO Responds",
+            "description": "Kalshi CEO Tarek Mansour discusses the fight to regulate prediction markets, why ordinary people can outperform Wall Street, and the future of American capitalism.",
+            "source": "Reason",
+            "published_at": "2026-10-21T15:00:40Z",
+            "url": "https://reason.com/podcast/2026/10/21/are-prediction-markets-just-gambling-kalshi-ceo-responds/",
+            "sentiment_score": -0.1145,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Monetary Reform for the 2028 Election: Monetary Wars Begin in the US: 1795-1832. Part 1.4",
+            "description": "Read the previous parts of this series:\n \n.\n \n.\n \n\nCan We Finally Face Up to America’s Bankruptcy? Monetary Reform for the 2028 Election. Part I\nBy Richard C. Cook, October 08, 2026\n.\n\nThe Historical Theft …\nThe post Monetary Reform for the 2028 Election: Mon…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-10-21T14:47:55Z",
+            "url": "https://www.globalresearch.ca/monetary-reform-2028-election-monetary-wars-begin-us-1795-1832-part-1-4/5944123",
+            "sentiment_score": -0.3902,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Indonesia's forex hedging incentives draw $9.9 bln in foreign capital",
+            "description": "Bank Indonesia (BI) said that its foreign exchange hedging incentive scheme has attracted US$9.9 billion in foreign capital inflows between its launch in June ...",
+            "source": "Antaranews.com",
+            "published_at": "2026-10-21T14:47:09Z",
+            "url": "https://en.antaranews.com/news/437125/indonesias-forex-hedging-incentives-draw-99-bln-in-foreign-capital",
+            "sentiment_score": 0.4173,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump’s Numbers, October 2026 Update",
+            "description": "Our latest quarterly report on various statistical indicators of how the country is faring as the midterms loom.\nThe post Trump’s Numbers, October 2026 Update appeared first on FactCheck.org.",
+            "source": "FactCheck.org",
+            "published_at": "2026-10-21T14:36:44Z",
+            "url": "https://www.factcheck.org/2026/10/trumps-numbers-october-2026-update/",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 Edges Higher as SpaceX and Super Micro Spark AI Rebound, Wall Street Braces for Tesla and Meta Results",
+            "description": "US stocks rose modestly as strong SpaceX and Super Micro results revived interest in AI shares, while investors awaited Tesla and Meta earnings amid persistent inflation and interest-rate risks.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:23:07Z",
+            "url": "https://www.ibtimes.com.au/us-stocks-rise-spacex-super-micro-ai-shares-1877132",
+            "sentiment_score": 0.7544,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq Climbs 0.6% as AI Stocks Roar Back After Last Week's Rout, Led by SpaceX Surge and Super Micro Rally",
+            "description": "The Nasdaq rose as strong SpaceX and Super Micro results boosted AI stocks, though elevated interest rates, inflation concerns and upcoming earnings continued to weigh on investors.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:17:18Z",
+            "url": "https://www.ibtimes.com.au/nasdaq-rebounds-spacex-super-micro-ai-stocks-1877130",
+            "sentiment_score": 0.6937,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Russell 2000 Posts Best Day Since August as Small Caps Jump 1.65% on Falling Yields and Broad Market Rotation",
+            "description": "US small-cap stocks recorded their strongest session in more than two months on Tuesday, helped by falling Treasury yields, lower oil prices and a broad shift away from large technology companies.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:16:12Z",
+            "url": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128",
+            "sentiment_score": 0.4581,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110",
+            "description": "Bitcoin recovered from below $80,000 to $82,500 and is nearing $84,000 resistance, while ETF outflows and oil above $110 keep inflation risks in focus.\nThe post Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110 appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T14:03:20Z",
+            "url": "https://bitcoinfoundation.org/news/analysis/bitcoin-rebounds-from-below-80k-to-82-5k-as-oil-tops-110/",
+            "sentiment_score": 0.4462,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Dow Jones Industrial Average Trades Near 52,500 After 1% Gain on Earnings as Futures Signal Further Strength",
@@ -1079,140 +1229,10 @@
             "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
             "sentiment_score": 0.107,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Holds Near $83,315 as ETF Inflows and Liquidations Shape Volatile Trading",
-            "description": "Bitcoin rose about 0.45% to near US$83,315 after recovering from recent lows, while ETF flows, leveraged liquidations and expectations for further Federal Reserve rate rises influenced sentiment.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-21T09:54:42Z",
-            "url": "https://www.ibtimes.com.au/bitcoin-price-etf-flows-fed-rate-outlook-1877104",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market: ECB sees Euro liquidity support boosting global currency role",
-            "description": "European Central Bank Chief Economist Philip Lane stated that stronger euro liquidity facilities can enhance the currency's global role. More than 30 central banks have expressed interest in the ECB’s expanded euro liquidity initiatives. These arrangements ma…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:39:58Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-sees-euro-liquidity-support-boosting-global-currency-role/articleshow/135088196.cms",
-            "sentiment_score": 0.6417,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wedding Season 2026: Gold prices crashed over 5% in a month — Should you buy jewellery now or wait? Experts suggest",
-            "description": "Gold prices in India have fallen nearly 5% in a month, offering potential relief to wedding shoppers. Should you buy jewellery now or wait for further price cuts? Experts explain the key factors to watch, buying strategies, and the outlook for gold prices bef…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T09:31:15Z",
-            "url": "https://www.livemint.com/money/personal-finance/wedding-season-2026-gold-prices-crashed-over-5-in-a-month-should-you-buy-jewellery-now-or-wait-experts-suggest-11792571511976.html",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BI warns of global risks as Indonesia targets up to 5.7 pct growth",
-            "description": "Bank Indonesia (BI) projects Indonesia&rsquo;s economic growth for 2026 to remain robust within the range of 4.9 to 5.7 percent, backed by steady domestic ...",
-            "source": "Antaranews.com",
-            "published_at": "2026-10-21T09:30:22Z",
-            "url": "https://en.antaranews.com/news/437005/bi-warns-of-global-risks-as-indonesia-targets-up-to-57-pct-growth",
-            "sentiment_score": 0.2055,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "In 1865, a silver discovery helped turn Belmont, Nevada, into a boomtown; by 1900, only about 20 people remained after most mines closed, despite more than $6 million in ore",
-            "description": "Belmont, Nevada, once a bustling mining hub during the silver rush era, experienced a dramatic decline in its population as resources dwindled and competition grew fierce. By the turn of the century, just 20 individuals remained in the town following the mine…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:30:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/in-1865-a-silver-discovery-helped-turn-belmont-nevada-into-a-boomtown-by-1900-only-about-20-people-remained-after-most-mines-closed-despite-more-than-6-million-in-ore/articleshow/134983194.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied early on Wednesday as investors awaited fresh data for insights into the U.S. economic picture ahead of next week's Federal Reserve interest rate decision.\nYields on 10-year U.S. Treasurys — the main benchmark for mortgages, auto loan…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T09:01:41Z",
-            "url": "https://biztoc.com/x/ad6bcab485497505",
-            "sentiment_score": 0.4227,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied as investors await more data for insights into the U.S. economic picture.",
-            "source": "CNBC",
-            "published_at": "2026-10-21T08:57:33Z",
-            "url": "https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold may test 4,000-mark if oil extends rally; US Fed moves eyed: Kotak Neo",
-            "description": "Gold price outlook: If Brent extends rally and feeds into hotter inflation data and firmer Fed hike bets, lifting yields and the dollar, Gold could test $4,000-mark, says Kaynat Chainwala, Kotak Neo.",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T08:32:06Z",
-            "url": "https://www.business-standard.com/markets/news/gold-may-test-4-000-mark-if-oil-extends-rally-us-fed-moves-eyed-kotak-neo-126102100567_1.html",
-            "sentiment_score": 0.128,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gap-up gone: Nifty reverses early gains, 322 stocks hit 52-week lows",
-            "description": "The Nifty Midcap 100 declined 1.7% and Nifty Smallcap 100 fell 2.4%, indicating that the selling was broader and deeper than headline index moves suggested",
-            "source": "BusinessLine",
-            "published_at": "2026-10-21T07:57:34Z",
-            "url": "https://www.thehindubusinessline.com/markets/gap-up-gone-nifty-reverses-early-gains-322-stocks-hit-52-week-lows/article71606718.ece",
-            "sentiment_score": 0.5553,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil rebounds as Middle East supply fears persist",
-            "description": "Oil prices rebounded on Oct. 21 as threats to Saudi energy facilities and shipping in the Gulf sustained concerns over supply, while gold edged lower ahead of next week’s U.S. Federal Reserve meeting.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-21T06:26:36Z",
-            "url": "https://www.hurriyetdailynews.com/oil-rebounds-as-middle-east-supply-fears-persist-228407",
-            "sentiment_score": -0.4272,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold prices near Rs 1.47 lakh/10 grams, silver falls by Rs 1,144/kg as traders await Fed rate signals. What lies ahead?",
-            "description": "Gold prices edged lower while silver fell on MCX as investors awaited the US Federal Reserve’s upcoming policy decision for clues on interest rates. Traders expect rates to remain unchanged in October, with a possible hike in December. Analysts say dollar str…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T06:10:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-near-rs-1-47-lakh/10-grams-silver-falls-by-rs-1144/kg-as-traders-await-fed-rate-signals-what-lies-ahead/articleshow/135083841.cms",
-            "sentiment_score": -0.1846,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market | Safe-haven assets under pressure: Dollar, Swiss franc, German bonds and gold in focus",
-            "description": "Safe-haven demand is shifting amid AI-driven market volatility, geopolitical tensions, rising energy prices and mounting government debt. The US dollar, Swiss franc, German Bunds, short-term government bonds and gold offer potential protection, but differing …",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T05:10:06Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-safe-haven-assets-under-pressure-dollar-swiss-franc-german-bonds-and-gold-in-focus/articleshow/135082673.cms",
-            "sentiment_score": -0.1851,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 21 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 21 October: Check the latest 24K and 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities. Also, track MCX gold and silver futures, key market movements, and factors influencing preciou…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T04:26:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-21-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792555396066.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.259,
+      "net_score": -0.3021,
       "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1222,28 +1242,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.33733,
+      "price_now": 1.3403,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 38.6,
-      "rsi_signal": "โซนกลาง (RSI=38.6)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00116,
-      "suggested_sl_distance": 0.00173,
+      "rsi_value": 57.6,
+      "rsi_signal": "โซนกลาง (RSI=57.6)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00122,
+      "suggested_sl_distance": 0.00183,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=57.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-22T13:41:36.414506+00:00"
+    "generated_at": "2026-10-22T18:27:09.813661+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1252,10 +1272,140 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.1742,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.2641,
+        "label": "บวกชัดเจน (Bullish)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
+            "description": "US Treasury yields slipped as investors weighed the impact of higher borrowing costs on AI stocks, with the 10 year yield heading for a second straight daily decline. The move came ahead of a $13 billion 20 year Treasury auction, while markets continued to pr…",
+            "source": "The Times of India",
+            "published_at": "2026-10-21T17:49:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-slip-as-ai-concern-boost-safe-haven-demand-ahead-of-20-year-auction/articleshow/135097932.cms",
+            "sentiment_score": 0.6594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds former Harvard science dean to oversight body",
+            "description": "Oct 21 : Anthropic said on Wednesday that Christopher Stubbs, former dean of science at Harvard University, had joined its oversight body, which holds the power to appoint a majority of the AI startup's board.Here are some details:• The oversight group, known…",
+            "source": "CNA",
+            "published_at": "2026-10-21T17:49:12Z",
+            "url": "https://www.channelnewsasia.com/business/anthropic-adds-former-harvard-science-dean-oversight-body-6479826",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds Harvard astrophysicist to the trust that controls its board",
+            "description": "Harvard physicist Chris Stubbs joins the trust. Anthropic's planned IPO will place increasing pressure on its unusual corporate governance structure.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T16:30:00Z",
+            "url": "https://fortune.com/2026/10/21/anthropic-adds-harvard-astrophysicist-to-the-trust-that-controls-its-board/",
+            "sentiment_score": 0.4394,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks?",
+            "description": "The post Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks? appeared first on 24/7 Wall St..\nThe Federal Reserve raised the upper bound of its target range from 3.75% to 4.00% on September 17, 2026, and short-term Treasury yields moved in t…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-21T16:22:34Z",
+            "url": "https://biztoc.com/x/6a8e1f5c690f69d2",
+            "sentiment_score": 0.2561,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says",
+            "description": "Bitcoin's future may face pressure from rising oil prices and potential Fed rate hikes, impacting risk appetite and liquidity.\nThe post Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-21T15:52:09Z",
+            "url": "https://cryptobriefing.com/fed-rate-hike-impact-bitcoin/",
+            "sentiment_score": 0.3182,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Are Prediction Markets Just Gambling? Kalshi CEO Responds",
+            "description": "Kalshi CEO Tarek Mansour discusses the fight to regulate prediction markets, why ordinary people can outperform Wall Street, and the future of American capitalism.",
+            "source": "Reason",
+            "published_at": "2026-10-21T15:00:40Z",
+            "url": "https://reason.com/podcast/2026/10/21/are-prediction-markets-just-gambling-kalshi-ceo-responds/",
+            "sentiment_score": -0.1145,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Monetary Reform for the 2028 Election: Monetary Wars Begin in the US: 1795-1832. Part 1.4",
+            "description": "Read the previous parts of this series:\n \n.\n \n.\n \n\nCan We Finally Face Up to America’s Bankruptcy? Monetary Reform for the 2028 Election. Part I\nBy Richard C. Cook, October 08, 2026\n.\n\nThe Historical Theft …\nThe post Monetary Reform for the 2028 Election: Mon…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-10-21T14:47:55Z",
+            "url": "https://www.globalresearch.ca/monetary-reform-2028-election-monetary-wars-begin-us-1795-1832-part-1-4/5944123",
+            "sentiment_score": -0.3902,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Indonesia's forex hedging incentives draw $9.9 bln in foreign capital",
+            "description": "Bank Indonesia (BI) said that its foreign exchange hedging incentive scheme has attracted US$9.9 billion in foreign capital inflows between its launch in June ...",
+            "source": "Antaranews.com",
+            "published_at": "2026-10-21T14:47:09Z",
+            "url": "https://en.antaranews.com/news/437125/indonesias-forex-hedging-incentives-draw-99-bln-in-foreign-capital",
+            "sentiment_score": 0.4173,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump’s Numbers, October 2026 Update",
+            "description": "Our latest quarterly report on various statistical indicators of how the country is faring as the midterms loom.\nThe post Trump’s Numbers, October 2026 Update appeared first on FactCheck.org.",
+            "source": "FactCheck.org",
+            "published_at": "2026-10-21T14:36:44Z",
+            "url": "https://www.factcheck.org/2026/10/trumps-numbers-october-2026-update/",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 Edges Higher as SpaceX and Super Micro Spark AI Rebound, Wall Street Braces for Tesla and Meta Results",
+            "description": "US stocks rose modestly as strong SpaceX and Super Micro results revived interest in AI shares, while investors awaited Tesla and Meta earnings amid persistent inflation and interest-rate risks.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:23:07Z",
+            "url": "https://www.ibtimes.com.au/us-stocks-rise-spacex-super-micro-ai-shares-1877132",
+            "sentiment_score": 0.7544,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq Climbs 0.6% as AI Stocks Roar Back After Last Week's Rout, Led by SpaceX Surge and Super Micro Rally",
+            "description": "The Nasdaq rose as strong SpaceX and Super Micro results boosted AI stocks, though elevated interest rates, inflation concerns and upcoming earnings continued to weigh on investors.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:17:18Z",
+            "url": "https://www.ibtimes.com.au/nasdaq-rebounds-spacex-super-micro-ai-stocks-1877130",
+            "sentiment_score": 0.6937,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Russell 2000 Posts Best Day Since August as Small Caps Jump 1.65% on Falling Yields and Broad Market Rotation",
+            "description": "US small-cap stocks recorded their strongest session in more than two months on Tuesday, helped by falling Treasury yields, lower oil prices and a broad shift away from large technology companies.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:16:12Z",
+            "url": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128",
+            "sentiment_score": 0.4581,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110",
+            "description": "Bitcoin recovered from below $80,000 to $82,500 and is nearing $84,000 resistance, while ETF outflows and oil above $110 keep inflation risks in focus.\nThe post Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110 appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T14:03:20Z",
+            "url": "https://bitcoinfoundation.org/news/analysis/bitcoin-rebounds-from-below-80k-to-82-5k-as-oil-tops-110/",
+            "sentiment_score": 0.4462,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Dow Jones Industrial Average Trades Near 52,500 After 1% Gain on Earnings as Futures Signal Further Strength",
@@ -1425,141 +1575,11 @@
             "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
             "sentiment_score": 0.107,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Holds Near $83,315 as ETF Inflows and Liquidations Shape Volatile Trading",
-            "description": "Bitcoin rose about 0.45% to near US$83,315 after recovering from recent lows, while ETF flows, leveraged liquidations and expectations for further Federal Reserve rate rises influenced sentiment.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-21T09:54:42Z",
-            "url": "https://www.ibtimes.com.au/bitcoin-price-etf-flows-fed-rate-outlook-1877104",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market: ECB sees Euro liquidity support boosting global currency role",
-            "description": "European Central Bank Chief Economist Philip Lane stated that stronger euro liquidity facilities can enhance the currency's global role. More than 30 central banks have expressed interest in the ECB’s expanded euro liquidity initiatives. These arrangements ma…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:39:58Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-sees-euro-liquidity-support-boosting-global-currency-role/articleshow/135088196.cms",
-            "sentiment_score": 0.6417,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wedding Season 2026: Gold prices crashed over 5% in a month — Should you buy jewellery now or wait? Experts suggest",
-            "description": "Gold prices in India have fallen nearly 5% in a month, offering potential relief to wedding shoppers. Should you buy jewellery now or wait for further price cuts? Experts explain the key factors to watch, buying strategies, and the outlook for gold prices bef…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T09:31:15Z",
-            "url": "https://www.livemint.com/money/personal-finance/wedding-season-2026-gold-prices-crashed-over-5-in-a-month-should-you-buy-jewellery-now-or-wait-experts-suggest-11792571511976.html",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BI warns of global risks as Indonesia targets up to 5.7 pct growth",
-            "description": "Bank Indonesia (BI) projects Indonesia&rsquo;s economic growth for 2026 to remain robust within the range of 4.9 to 5.7 percent, backed by steady domestic ...",
-            "source": "Antaranews.com",
-            "published_at": "2026-10-21T09:30:22Z",
-            "url": "https://en.antaranews.com/news/437005/bi-warns-of-global-risks-as-indonesia-targets-up-to-57-pct-growth",
-            "sentiment_score": 0.2055,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "In 1865, a silver discovery helped turn Belmont, Nevada, into a boomtown; by 1900, only about 20 people remained after most mines closed, despite more than $6 million in ore",
-            "description": "Belmont, Nevada, once a bustling mining hub during the silver rush era, experienced a dramatic decline in its population as resources dwindled and competition grew fierce. By the turn of the century, just 20 individuals remained in the town following the mine…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:30:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/in-1865-a-silver-discovery-helped-turn-belmont-nevada-into-a-boomtown-by-1900-only-about-20-people-remained-after-most-mines-closed-despite-more-than-6-million-in-ore/articleshow/134983194.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied early on Wednesday as investors awaited fresh data for insights into the U.S. economic picture ahead of next week's Federal Reserve interest rate decision.\nYields on 10-year U.S. Treasurys — the main benchmark for mortgages, auto loan…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T09:01:41Z",
-            "url": "https://biztoc.com/x/ad6bcab485497505",
-            "sentiment_score": 0.4227,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied as investors await more data for insights into the U.S. economic picture.",
-            "source": "CNBC",
-            "published_at": "2026-10-21T08:57:33Z",
-            "url": "https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold may test 4,000-mark if oil extends rally; US Fed moves eyed: Kotak Neo",
-            "description": "Gold price outlook: If Brent extends rally and feeds into hotter inflation data and firmer Fed hike bets, lifting yields and the dollar, Gold could test $4,000-mark, says Kaynat Chainwala, Kotak Neo.",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T08:32:06Z",
-            "url": "https://www.business-standard.com/markets/news/gold-may-test-4-000-mark-if-oil-extends-rally-us-fed-moves-eyed-kotak-neo-126102100567_1.html",
-            "sentiment_score": 0.128,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gap-up gone: Nifty reverses early gains, 322 stocks hit 52-week lows",
-            "description": "The Nifty Midcap 100 declined 1.7% and Nifty Smallcap 100 fell 2.4%, indicating that the selling was broader and deeper than headline index moves suggested",
-            "source": "BusinessLine",
-            "published_at": "2026-10-21T07:57:34Z",
-            "url": "https://www.thehindubusinessline.com/markets/gap-up-gone-nifty-reverses-early-gains-322-stocks-hit-52-week-lows/article71606718.ece",
-            "sentiment_score": 0.5553,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil rebounds as Middle East supply fears persist",
-            "description": "Oil prices rebounded on Oct. 21 as threats to Saudi energy facilities and shipping in the Gulf sustained concerns over supply, while gold edged lower ahead of next week’s U.S. Federal Reserve meeting.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-21T06:26:36Z",
-            "url": "https://www.hurriyetdailynews.com/oil-rebounds-as-middle-east-supply-fears-persist-228407",
-            "sentiment_score": -0.4272,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold prices near Rs 1.47 lakh/10 grams, silver falls by Rs 1,144/kg as traders await Fed rate signals. What lies ahead?",
-            "description": "Gold prices edged lower while silver fell on MCX as investors awaited the US Federal Reserve’s upcoming policy decision for clues on interest rates. Traders expect rates to remain unchanged in October, with a possible hike in December. Analysts say dollar str…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T06:10:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-near-rs-1-47-lakh/10-grams-silver-falls-by-rs-1144/kg-as-traders-await-fed-rate-signals-what-lies-ahead/articleshow/135083841.cms",
-            "sentiment_score": -0.1846,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market | Safe-haven assets under pressure: Dollar, Swiss franc, German bonds and gold in focus",
-            "description": "Safe-haven demand is shifting amid AI-driven market volatility, geopolitical tensions, rising energy prices and mounting government debt. The US dollar, Swiss franc, German Bunds, short-term government bonds and gold offer potential protection, but differing …",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T05:10:06Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-safe-haven-assets-under-pressure-dollar-swiss-franc-german-bonds-and-gold-in-focus/articleshow/135082673.cms",
-            "sentiment_score": -0.1851,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 21 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 21 October: Check the latest 24K and 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities. Also, track MCX gold and silver futures, key market movements, and factors influencing preciou…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T04:26:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-21-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792555396066.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0245,
+        "average_score": 0.0229,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 20,
         "scored_articles": [
@@ -1685,22 +1705,22 @@
           },
           {
             "currency": "JPY",
-            "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
-            "description": "TOKYO, Oct 21 : The US dollar hovered near a three-week low on Wednesday as traders assessed developments in the Middle East after the conflict burnished the currency's appeal as a safe haven amid oil-driven inflation worries.The Australian dollar reached a t…",
-            "source": "CNA",
-            "published_at": "2026-10-21T01:36:05Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-treads-water-middle-east-tensions-simmer-aussie-buoyed-hawkish-rba-6477406",
-            "sentiment_score": -0.2891,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
             "title": "Dollar on back foot as US yields, crude prices dip; Aussie buoyed by hawkish RBA",
             "description": "TOKYO, Oct 21 : The US dollar remained under pressure on Wednesday after slipping to a three-week low in the previous session, as a dip in Treasury yields and crude oil prices reduced the currency's appeal.The Australian dollar hovered close to a three-week h…",
             "source": "CNA",
             "published_at": "2026-10-21T01:36:05Z",
             "url": "https://www.channelnewsasia.com/business/dollar-back-foot-us-yields-crude-prices-dip-aussie-buoyed-hawkish-rba-6477406",
             "sentiment_score": -0.6209,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Dollar treads water as Middle East tensions simmer; Aussie buoyed by hawkish RBA",
+            "description": "TOKYO, Oct 21 : The US dollar hovered near a three-week low on Wednesday as traders assessed developments in the Middle East after the conflict burnished the currency's appeal as a safe haven amid oil-driven inflation worries.The Australian dollar reached a t…",
+            "source": "CNA",
+            "published_at": "2026-10-21T01:36:05Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-treads-water-middle-east-tensions-simmer-aussie-buoyed-hawkish-rba-6477406",
+            "sentiment_score": -0.2891,
             "sentiment_label": "ลบชัดเจน (Bearish)"
           },
           {
@@ -1765,24 +1785,24 @@
           }
         ]
       },
-      "net_score": 0.1497,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.2412,
+      "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 157.26401,
+      "price_now": 156.918,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 40.5,
-      "rsi_signal": "โซนกลาง (RSI=40.5)",
+      "rsi_value": 33.9,
+      "rsi_signal": "โซนกลาง (RSI=33.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.25088,
-      "suggested_sl_distance": 0.37632,
+      "atr_value": 0.2478,
+      "suggested_sl_distance": 0.37171,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -1794,9 +1814,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=40.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=33.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-22T13:41:36.414506+00:00"
+    "generated_at": "2026-10-22T18:27:09.813661+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1892,10 +1912,140 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1742,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.2641,
+        "label": "บวกชัดเจน (Bullish)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
+            "description": "US Treasury yields slipped as investors weighed the impact of higher borrowing costs on AI stocks, with the 10 year yield heading for a second straight daily decline. The move came ahead of a $13 billion 20 year Treasury auction, while markets continued to pr…",
+            "source": "The Times of India",
+            "published_at": "2026-10-21T17:49:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-slip-as-ai-concern-boost-safe-haven-demand-ahead-of-20-year-auction/articleshow/135097932.cms",
+            "sentiment_score": 0.6594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds former Harvard science dean to oversight body",
+            "description": "Oct 21 : Anthropic said on Wednesday that Christopher Stubbs, former dean of science at Harvard University, had joined its oversight body, which holds the power to appoint a majority of the AI startup's board.Here are some details:• The oversight group, known…",
+            "source": "CNA",
+            "published_at": "2026-10-21T17:49:12Z",
+            "url": "https://www.channelnewsasia.com/business/anthropic-adds-former-harvard-science-dean-oversight-body-6479826",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds Harvard astrophysicist to the trust that controls its board",
+            "description": "Harvard physicist Chris Stubbs joins the trust. Anthropic's planned IPO will place increasing pressure on its unusual corporate governance structure.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T16:30:00Z",
+            "url": "https://fortune.com/2026/10/21/anthropic-adds-harvard-astrophysicist-to-the-trust-that-controls-its-board/",
+            "sentiment_score": 0.4394,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks?",
+            "description": "The post Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks? appeared first on 24/7 Wall St..\nThe Federal Reserve raised the upper bound of its target range from 3.75% to 4.00% on September 17, 2026, and short-term Treasury yields moved in t…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-21T16:22:34Z",
+            "url": "https://biztoc.com/x/6a8e1f5c690f69d2",
+            "sentiment_score": 0.2561,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says",
+            "description": "Bitcoin's future may face pressure from rising oil prices and potential Fed rate hikes, impacting risk appetite and liquidity.\nThe post Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-21T15:52:09Z",
+            "url": "https://cryptobriefing.com/fed-rate-hike-impact-bitcoin/",
+            "sentiment_score": 0.3182,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Are Prediction Markets Just Gambling? Kalshi CEO Responds",
+            "description": "Kalshi CEO Tarek Mansour discusses the fight to regulate prediction markets, why ordinary people can outperform Wall Street, and the future of American capitalism.",
+            "source": "Reason",
+            "published_at": "2026-10-21T15:00:40Z",
+            "url": "https://reason.com/podcast/2026/10/21/are-prediction-markets-just-gambling-kalshi-ceo-responds/",
+            "sentiment_score": -0.1145,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Monetary Reform for the 2028 Election: Monetary Wars Begin in the US: 1795-1832. Part 1.4",
+            "description": "Read the previous parts of this series:\n \n.\n \n.\n \n\nCan We Finally Face Up to America’s Bankruptcy? Monetary Reform for the 2028 Election. Part I\nBy Richard C. Cook, October 08, 2026\n.\n\nThe Historical Theft …\nThe post Monetary Reform for the 2028 Election: Mon…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-10-21T14:47:55Z",
+            "url": "https://www.globalresearch.ca/monetary-reform-2028-election-monetary-wars-begin-us-1795-1832-part-1-4/5944123",
+            "sentiment_score": -0.3902,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Indonesia's forex hedging incentives draw $9.9 bln in foreign capital",
+            "description": "Bank Indonesia (BI) said that its foreign exchange hedging incentive scheme has attracted US$9.9 billion in foreign capital inflows between its launch in June ...",
+            "source": "Antaranews.com",
+            "published_at": "2026-10-21T14:47:09Z",
+            "url": "https://en.antaranews.com/news/437125/indonesias-forex-hedging-incentives-draw-99-bln-in-foreign-capital",
+            "sentiment_score": 0.4173,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump’s Numbers, October 2026 Update",
+            "description": "Our latest quarterly report on various statistical indicators of how the country is faring as the midterms loom.\nThe post Trump’s Numbers, October 2026 Update appeared first on FactCheck.org.",
+            "source": "FactCheck.org",
+            "published_at": "2026-10-21T14:36:44Z",
+            "url": "https://www.factcheck.org/2026/10/trumps-numbers-october-2026-update/",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 Edges Higher as SpaceX and Super Micro Spark AI Rebound, Wall Street Braces for Tesla and Meta Results",
+            "description": "US stocks rose modestly as strong SpaceX and Super Micro results revived interest in AI shares, while investors awaited Tesla and Meta earnings amid persistent inflation and interest-rate risks.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:23:07Z",
+            "url": "https://www.ibtimes.com.au/us-stocks-rise-spacex-super-micro-ai-shares-1877132",
+            "sentiment_score": 0.7544,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq Climbs 0.6% as AI Stocks Roar Back After Last Week's Rout, Led by SpaceX Surge and Super Micro Rally",
+            "description": "The Nasdaq rose as strong SpaceX and Super Micro results boosted AI stocks, though elevated interest rates, inflation concerns and upcoming earnings continued to weigh on investors.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:17:18Z",
+            "url": "https://www.ibtimes.com.au/nasdaq-rebounds-spacex-super-micro-ai-stocks-1877130",
+            "sentiment_score": 0.6937,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Russell 2000 Posts Best Day Since August as Small Caps Jump 1.65% on Falling Yields and Broad Market Rotation",
+            "description": "US small-cap stocks recorded their strongest session in more than two months on Tuesday, helped by falling Treasury yields, lower oil prices and a broad shift away from large technology companies.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:16:12Z",
+            "url": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128",
+            "sentiment_score": 0.4581,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110",
+            "description": "Bitcoin recovered from below $80,000 to $82,500 and is nearing $84,000 resistance, while ETF outflows and oil above $110 keep inflation risks in focus.\nThe post Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110 appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T14:03:20Z",
+            "url": "https://bitcoinfoundation.org/news/analysis/bitcoin-rebounds-from-below-80k-to-82-5k-as-oil-tops-110/",
+            "sentiment_score": 0.4462,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Dow Jones Industrial Average Trades Near 52,500 After 1% Gain on Earnings as Futures Signal Further Strength",
@@ -2065,140 +2215,10 @@
             "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
             "sentiment_score": 0.107,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Holds Near $83,315 as ETF Inflows and Liquidations Shape Volatile Trading",
-            "description": "Bitcoin rose about 0.45% to near US$83,315 after recovering from recent lows, while ETF flows, leveraged liquidations and expectations for further Federal Reserve rate rises influenced sentiment.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-21T09:54:42Z",
-            "url": "https://www.ibtimes.com.au/bitcoin-price-etf-flows-fed-rate-outlook-1877104",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market: ECB sees Euro liquidity support boosting global currency role",
-            "description": "European Central Bank Chief Economist Philip Lane stated that stronger euro liquidity facilities can enhance the currency's global role. More than 30 central banks have expressed interest in the ECB’s expanded euro liquidity initiatives. These arrangements ma…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:39:58Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-sees-euro-liquidity-support-boosting-global-currency-role/articleshow/135088196.cms",
-            "sentiment_score": 0.6417,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wedding Season 2026: Gold prices crashed over 5% in a month — Should you buy jewellery now or wait? Experts suggest",
-            "description": "Gold prices in India have fallen nearly 5% in a month, offering potential relief to wedding shoppers. Should you buy jewellery now or wait for further price cuts? Experts explain the key factors to watch, buying strategies, and the outlook for gold prices bef…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T09:31:15Z",
-            "url": "https://www.livemint.com/money/personal-finance/wedding-season-2026-gold-prices-crashed-over-5-in-a-month-should-you-buy-jewellery-now-or-wait-experts-suggest-11792571511976.html",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BI warns of global risks as Indonesia targets up to 5.7 pct growth",
-            "description": "Bank Indonesia (BI) projects Indonesia&rsquo;s economic growth for 2026 to remain robust within the range of 4.9 to 5.7 percent, backed by steady domestic ...",
-            "source": "Antaranews.com",
-            "published_at": "2026-10-21T09:30:22Z",
-            "url": "https://en.antaranews.com/news/437005/bi-warns-of-global-risks-as-indonesia-targets-up-to-57-pct-growth",
-            "sentiment_score": 0.2055,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "In 1865, a silver discovery helped turn Belmont, Nevada, into a boomtown; by 1900, only about 20 people remained after most mines closed, despite more than $6 million in ore",
-            "description": "Belmont, Nevada, once a bustling mining hub during the silver rush era, experienced a dramatic decline in its population as resources dwindled and competition grew fierce. By the turn of the century, just 20 individuals remained in the town following the mine…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:30:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/in-1865-a-silver-discovery-helped-turn-belmont-nevada-into-a-boomtown-by-1900-only-about-20-people-remained-after-most-mines-closed-despite-more-than-6-million-in-ore/articleshow/134983194.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied early on Wednesday as investors awaited fresh data for insights into the U.S. economic picture ahead of next week's Federal Reserve interest rate decision.\nYields on 10-year U.S. Treasurys — the main benchmark for mortgages, auto loan…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T09:01:41Z",
-            "url": "https://biztoc.com/x/ad6bcab485497505",
-            "sentiment_score": 0.4227,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied as investors await more data for insights into the U.S. economic picture.",
-            "source": "CNBC",
-            "published_at": "2026-10-21T08:57:33Z",
-            "url": "https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold may test 4,000-mark if oil extends rally; US Fed moves eyed: Kotak Neo",
-            "description": "Gold price outlook: If Brent extends rally and feeds into hotter inflation data and firmer Fed hike bets, lifting yields and the dollar, Gold could test $4,000-mark, says Kaynat Chainwala, Kotak Neo.",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T08:32:06Z",
-            "url": "https://www.business-standard.com/markets/news/gold-may-test-4-000-mark-if-oil-extends-rally-us-fed-moves-eyed-kotak-neo-126102100567_1.html",
-            "sentiment_score": 0.128,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gap-up gone: Nifty reverses early gains, 322 stocks hit 52-week lows",
-            "description": "The Nifty Midcap 100 declined 1.7% and Nifty Smallcap 100 fell 2.4%, indicating that the selling was broader and deeper than headline index moves suggested",
-            "source": "BusinessLine",
-            "published_at": "2026-10-21T07:57:34Z",
-            "url": "https://www.thehindubusinessline.com/markets/gap-up-gone-nifty-reverses-early-gains-322-stocks-hit-52-week-lows/article71606718.ece",
-            "sentiment_score": 0.5553,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil rebounds as Middle East supply fears persist",
-            "description": "Oil prices rebounded on Oct. 21 as threats to Saudi energy facilities and shipping in the Gulf sustained concerns over supply, while gold edged lower ahead of next week’s U.S. Federal Reserve meeting.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-21T06:26:36Z",
-            "url": "https://www.hurriyetdailynews.com/oil-rebounds-as-middle-east-supply-fears-persist-228407",
-            "sentiment_score": -0.4272,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold prices near Rs 1.47 lakh/10 grams, silver falls by Rs 1,144/kg as traders await Fed rate signals. What lies ahead?",
-            "description": "Gold prices edged lower while silver fell on MCX as investors awaited the US Federal Reserve’s upcoming policy decision for clues on interest rates. Traders expect rates to remain unchanged in October, with a possible hike in December. Analysts say dollar str…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T06:10:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-near-rs-1-47-lakh/10-grams-silver-falls-by-rs-1144/kg-as-traders-await-fed-rate-signals-what-lies-ahead/articleshow/135083841.cms",
-            "sentiment_score": -0.1846,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market | Safe-haven assets under pressure: Dollar, Swiss franc, German bonds and gold in focus",
-            "description": "Safe-haven demand is shifting amid AI-driven market volatility, geopolitical tensions, rising energy prices and mounting government debt. The US dollar, Swiss franc, German Bunds, short-term government bonds and gold offer potential protection, but differing …",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T05:10:06Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-safe-haven-assets-under-pressure-dollar-swiss-franc-german-bonds-and-gold-in-focus/articleshow/135082673.cms",
-            "sentiment_score": -0.1851,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 21 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 21 October: Check the latest 24K and 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities. Also, track MCX gold and silver futures, key market movements, and factors influencing preciou…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T04:26:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-21-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792555396066.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.3691,
+      "net_score": -0.459,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
@@ -2208,14 +2228,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70126,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 0.7023,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 44.5,
-      "rsi_signal": "โซนกลาง (RSI=44.5)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00082,
-      "suggested_sl_distance": 0.00123,
+      "rsi_value": 52.7,
+      "rsi_signal": "โซนกลาง (RSI=52.7)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.0008,
+      "suggested_sl_distance": 0.0012,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2229,7 +2249,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-22T13:41:36.414506+00:00"
+    "generated_at": "2026-10-22T18:27:09.813661+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2395,10 +2415,140 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1742,
-        "label": "บวกเล็กน้อย",
+        "average_score": 0.2641,
+        "label": "บวกชัดเจน (Bullish)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Treasury yields slip as AI concerns boost safe haven demand ahead of 20 year auction",
+            "description": "US Treasury yields slipped as investors weighed the impact of higher borrowing costs on AI stocks, with the 10 year yield heading for a second straight daily decline. The move came ahead of a $13 billion 20 year Treasury auction, while markets continued to pr…",
+            "source": "The Times of India",
+            "published_at": "2026-10-21T17:49:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-treasury-yields-slip-as-ai-concern-boost-safe-haven-demand-ahead-of-20-year-auction/articleshow/135097932.cms",
+            "sentiment_score": 0.6594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds former Harvard science dean to oversight body",
+            "description": "Oct 21 : Anthropic said on Wednesday that Christopher Stubbs, former dean of science at Harvard University, had joined its oversight body, which holds the power to appoint a majority of the AI startup's board.Here are some details:• The oversight group, known…",
+            "source": "CNA",
+            "published_at": "2026-10-21T17:49:12Z",
+            "url": "https://www.channelnewsasia.com/business/anthropic-adds-former-harvard-science-dean-oversight-body-6479826",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Anthropic adds Harvard astrophysicist to the trust that controls its board",
+            "description": "Harvard physicist Chris Stubbs joins the trust. Anthropic's planned IPO will place increasing pressure on its unusual corporate governance structure.",
+            "source": "Fortune",
+            "published_at": "2026-10-21T16:30:00Z",
+            "url": "https://fortune.com/2026/10/21/anthropic-adds-harvard-astrophysicist-to-the-trust-that-controls-its-board/",
+            "sentiment_score": 0.4394,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks?",
+            "description": "The post Treasury Yields Are Near 5%. Should Retirees Rethink Dividend Stocks? appeared first on 24/7 Wall St..\nThe Federal Reserve raised the upper bound of its target range from 3.75% to 4.00% on September 17, 2026, and short-term Treasury yields moved in t…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-21T16:22:34Z",
+            "url": "https://biztoc.com/x/6a8e1f5c690f69d2",
+            "sentiment_score": 0.2561,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says",
+            "description": "Bitcoin's future may face pressure from rising oil prices and potential Fed rate hikes, impacting risk appetite and liquidity.\nThe post Bitcoin’s Fed relief may not last as economists see December hike, Bitunix says appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-21T15:52:09Z",
+            "url": "https://cryptobriefing.com/fed-rate-hike-impact-bitcoin/",
+            "sentiment_score": 0.3182,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Are Prediction Markets Just Gambling? Kalshi CEO Responds",
+            "description": "Kalshi CEO Tarek Mansour discusses the fight to regulate prediction markets, why ordinary people can outperform Wall Street, and the future of American capitalism.",
+            "source": "Reason",
+            "published_at": "2026-10-21T15:00:40Z",
+            "url": "https://reason.com/podcast/2026/10/21/are-prediction-markets-just-gambling-kalshi-ceo-responds/",
+            "sentiment_score": -0.1145,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Monetary Reform for the 2028 Election: Monetary Wars Begin in the US: 1795-1832. Part 1.4",
+            "description": "Read the previous parts of this series:\n \n.\n \n.\n \n\nCan We Finally Face Up to America’s Bankruptcy? Monetary Reform for the 2028 Election. Part I\nBy Richard C. Cook, October 08, 2026\n.\n\nThe Historical Theft …\nThe post Monetary Reform for the 2028 Election: Mon…",
+            "source": "Globalresearch.ca",
+            "published_at": "2026-10-21T14:47:55Z",
+            "url": "https://www.globalresearch.ca/monetary-reform-2028-election-monetary-wars-begin-us-1795-1832-part-1-4/5944123",
+            "sentiment_score": -0.3902,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Indonesia's forex hedging incentives draw $9.9 bln in foreign capital",
+            "description": "Bank Indonesia (BI) said that its foreign exchange hedging incentive scheme has attracted US$9.9 billion in foreign capital inflows between its launch in June ...",
+            "source": "Antaranews.com",
+            "published_at": "2026-10-21T14:47:09Z",
+            "url": "https://en.antaranews.com/news/437125/indonesias-forex-hedging-incentives-draw-99-bln-in-foreign-capital",
+            "sentiment_score": 0.4173,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump’s Numbers, October 2026 Update",
+            "description": "Our latest quarterly report on various statistical indicators of how the country is faring as the midterms loom.\nThe post Trump’s Numbers, October 2026 Update appeared first on FactCheck.org.",
+            "source": "FactCheck.org",
+            "published_at": "2026-10-21T14:36:44Z",
+            "url": "https://www.factcheck.org/2026/10/trumps-numbers-october-2026-update/",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "S&P 500 Edges Higher as SpaceX and Super Micro Spark AI Rebound, Wall Street Braces for Tesla and Meta Results",
+            "description": "US stocks rose modestly as strong SpaceX and Super Micro results revived interest in AI shares, while investors awaited Tesla and Meta earnings amid persistent inflation and interest-rate risks.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:23:07Z",
+            "url": "https://www.ibtimes.com.au/us-stocks-rise-spacex-super-micro-ai-shares-1877132",
+            "sentiment_score": 0.7544,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq Climbs 0.6% as AI Stocks Roar Back After Last Week's Rout, Led by SpaceX Surge and Super Micro Rally",
+            "description": "The Nasdaq rose as strong SpaceX and Super Micro results boosted AI stocks, though elevated interest rates, inflation concerns and upcoming earnings continued to weigh on investors.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:17:18Z",
+            "url": "https://www.ibtimes.com.au/nasdaq-rebounds-spacex-super-micro-ai-stocks-1877130",
+            "sentiment_score": 0.6937,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Russell 2000 Posts Best Day Since August as Small Caps Jump 1.65% on Falling Yields and Broad Market Rotation",
+            "description": "US small-cap stocks recorded their strongest session in more than two months on Tuesday, helped by falling Treasury yields, lower oil prices and a broad shift away from large technology companies.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-21T14:16:12Z",
+            "url": "https://www.ibtimes.com.au/small-cap-stocks-rally-treasury-yields-fall-1877128",
+            "sentiment_score": 0.4581,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110",
+            "description": "Bitcoin recovered from below $80,000 to $82,500 and is nearing $84,000 resistance, while ETF outflows and oil above $110 keep inflation risks in focus.\nThe post Bitcoin Rebounds From Below $80K to $82.5K as Oil Tops $110 appeared first on Bitcoin Foundation.",
+            "source": "Bitcoinfoundation.org",
+            "published_at": "2026-10-21T14:03:20Z",
+            "url": "https://bitcoinfoundation.org/news/analysis/bitcoin-rebounds-from-below-80k-to-82-5k-as-oil-tops-110/",
+            "sentiment_score": 0.4462,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Dow Jones Industrial Average Trades Near 52,500 After 1% Gain on Earnings as Futures Signal Further Strength",
@@ -2568,157 +2718,27 @@
             "url": "https://newrepublic.com/article/216876/bezos-washington-post-union-bashing",
             "sentiment_score": 0.107,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Holds Near $83,315 as ETF Inflows and Liquidations Shape Volatile Trading",
-            "description": "Bitcoin rose about 0.45% to near US$83,315 after recovering from recent lows, while ETF flows, leveraged liquidations and expectations for further Federal Reserve rate rises influenced sentiment.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-21T09:54:42Z",
-            "url": "https://www.ibtimes.com.au/bitcoin-price-etf-flows-fed-rate-outlook-1877104",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market: ECB sees Euro liquidity support boosting global currency role",
-            "description": "European Central Bank Chief Economist Philip Lane stated that stronger euro liquidity facilities can enhance the currency's global role. More than 30 central banks have expressed interest in the ECB’s expanded euro liquidity initiatives. These arrangements ma…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:39:58Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-sees-euro-liquidity-support-boosting-global-currency-role/articleshow/135088196.cms",
-            "sentiment_score": 0.6417,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wedding Season 2026: Gold prices crashed over 5% in a month — Should you buy jewellery now or wait? Experts suggest",
-            "description": "Gold prices in India have fallen nearly 5% in a month, offering potential relief to wedding shoppers. Should you buy jewellery now or wait for further price cuts? Experts explain the key factors to watch, buying strategies, and the outlook for gold prices bef…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T09:31:15Z",
-            "url": "https://www.livemint.com/money/personal-finance/wedding-season-2026-gold-prices-crashed-over-5-in-a-month-should-you-buy-jewellery-now-or-wait-experts-suggest-11792571511976.html",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "BI warns of global risks as Indonesia targets up to 5.7 pct growth",
-            "description": "Bank Indonesia (BI) projects Indonesia&rsquo;s economic growth for 2026 to remain robust within the range of 4.9 to 5.7 percent, backed by steady domestic ...",
-            "source": "Antaranews.com",
-            "published_at": "2026-10-21T09:30:22Z",
-            "url": "https://en.antaranews.com/news/437005/bi-warns-of-global-risks-as-indonesia-targets-up-to-57-pct-growth",
-            "sentiment_score": 0.2055,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "In 1865, a silver discovery helped turn Belmont, Nevada, into a boomtown; by 1900, only about 20 people remained after most mines closed, despite more than $6 million in ore",
-            "description": "Belmont, Nevada, once a bustling mining hub during the silver rush era, experienced a dramatic decline in its population as resources dwindled and competition grew fierce. By the turn of the century, just 20 individuals remained in the town following the mine…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T09:30:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/in-1865-a-silver-discovery-helped-turn-belmont-nevada-into-a-boomtown-by-1900-only-about-20-people-remained-after-most-mines-closed-despite-more-than-6-million-in-ore/articleshow/134983194.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied early on Wednesday as investors awaited fresh data for insights into the U.S. economic picture ahead of next week's Federal Reserve interest rate decision.\nYields on 10-year U.S. Treasurys — the main benchmark for mortgages, auto loan…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-21T09:01:41Z",
-            "url": "https://biztoc.com/x/ad6bcab485497505",
-            "sentiment_score": 0.4227,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury yields steady as investors await jobless claims, mortgage data",
-            "description": "Treasury yields steadied as investors await more data for insights into the U.S. economic picture.",
-            "source": "CNBC",
-            "published_at": "2026-10-21T08:57:33Z",
-            "url": "https://www.cnbc.com/2026/10/21/bonds-us-treasurys-yields.html",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold may test 4,000-mark if oil extends rally; US Fed moves eyed: Kotak Neo",
-            "description": "Gold price outlook: If Brent extends rally and feeds into hotter inflation data and firmer Fed hike bets, lifting yields and the dollar, Gold could test $4,000-mark, says Kaynat Chainwala, Kotak Neo.",
-            "source": "Business Standard",
-            "published_at": "2026-10-21T08:32:06Z",
-            "url": "https://www.business-standard.com/markets/news/gold-may-test-4-000-mark-if-oil-extends-rally-us-fed-moves-eyed-kotak-neo-126102100567_1.html",
-            "sentiment_score": 0.128,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gap-up gone: Nifty reverses early gains, 322 stocks hit 52-week lows",
-            "description": "The Nifty Midcap 100 declined 1.7% and Nifty Smallcap 100 fell 2.4%, indicating that the selling was broader and deeper than headline index moves suggested",
-            "source": "BusinessLine",
-            "published_at": "2026-10-21T07:57:34Z",
-            "url": "https://www.thehindubusinessline.com/markets/gap-up-gone-nifty-reverses-early-gains-322-stocks-hit-52-week-lows/article71606718.ece",
-            "sentiment_score": 0.5553,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Oil rebounds as Middle East supply fears persist",
-            "description": "Oil prices rebounded on Oct. 21 as threats to Saudi energy facilities and shipping in the Gulf sustained concerns over supply, while gold edged lower ahead of next week’s U.S. Federal Reserve meeting.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-21T06:26:36Z",
-            "url": "https://www.hurriyetdailynews.com/oil-rebounds-as-middle-east-supply-fears-persist-228407",
-            "sentiment_score": -0.4272,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold prices near Rs 1.47 lakh/10 grams, silver falls by Rs 1,144/kg as traders await Fed rate signals. What lies ahead?",
-            "description": "Gold prices edged lower while silver fell on MCX as investors awaited the US Federal Reserve’s upcoming policy decision for clues on interest rates. Traders expect rates to remain unchanged in October, with a possible hike in December. Analysts say dollar str…",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T06:10:30Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-near-rs-1-47-lakh/10-grams-silver-falls-by-rs-1144/kg-as-traders-await-fed-rate-signals-what-lies-ahead/articleshow/135083841.cms",
-            "sentiment_score": -0.1846,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Global Market | Safe-haven assets under pressure: Dollar, Swiss franc, German bonds and gold in focus",
-            "description": "Safe-haven demand is shifting amid AI-driven market volatility, geopolitical tensions, rising energy prices and mounting government debt. The US dollar, Swiss franc, German Bunds, short-term government bonds and gold offer potential protection, but differing …",
-            "source": "The Times of India",
-            "published_at": "2026-10-21T05:10:06Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-safe-haven-assets-under-pressure-dollar-swiss-franc-german-bonds-and-gold-in-focus/articleshow/135082673.cms",
-            "sentiment_score": -0.1851,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 21 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 21 October: Check the latest 24K and 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities. Also, track MCX gold and silver futures, key market movements, and factors influencing preciou…",
-            "source": "Livemint",
-            "published_at": "2026-10-21T04:26:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-21-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792555396066.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.1383,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.2282,
+      "bias": "เอียงลบต่อ XAU (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4090.1001,
+      "price_now": 4053.80005,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 38.6,
-      "rsi_signal": "โซนกลาง (RSI=38.6)",
+      "rsi_value": 32.3,
+      "rsi_signal": "โซนกลาง (RSI=32.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 16.71128,
-      "suggested_sl_distance": 25.06692,
+      "atr_value": 17.38765,
+      "suggested_sl_distance": 26.08147,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -2730,8 +2750,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=38.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=32.3) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-22T13:41:36.414506+00:00"
+    "generated_at": "2026-10-22T18:27:09.813661+00:00"
   }
 ]
