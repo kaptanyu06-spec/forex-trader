@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0055,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 23,
+        "average_score": -0.0553,
+        "label": "ลบเล็กน้อย",
+        "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 2025. Check what to expect in November, December",
+            "description": "Gold rate today: China's gold jewellery demand has remained under pressure so far in 2026, recording its weakest first-half demand in tonnage terms since 2006, according to a recent World Gold Council report.",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T12:47:04Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-suffers-biggest-weekly-loss-since-june-silver-price-lowest-since-november-2025-check-what-to-expect-in-november-december/articleshow/135146284.cms",
+            "sentiment_score": -0.7808,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Euro zone growth slows to four-month low amid rising costs and French strife",
+            "description": "EUROZONE-ECONOMY/PMI (UPDATE 1, PIX):UPDATE 1-Euro zone growth slows to 4-month low amid rising costs and French strife, survey shows",
+            "source": "The Irish Times",
+            "published_at": "2026-10-23T11:34:43Z",
+            "url": "https://www.irishtimes.com/business/economy/2026/10/23/euro-zone-growth-slows-to-four-month-low-amid-rising-costs-and-french-strife/",
+            "sentiment_score": 0.128,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "AI is everywhere except in the GDP numbers — here is what triggers the break",
@@ -243,10 +263,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0722,
-        "label": "บวกเล็กน้อย",
+        "average_score": -0.076,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Govt bonds log worst losing streak in 30 years as crude, US yields rise",
+            "description": "Indian government bond yields rose for a tenth straight week as elevated crude prices and US yields weighed on sentiment, while forex reserves fell $65 billion over six weeks",
+            "source": "Business Standard",
+            "published_at": "2026-10-23T14:15:27Z",
+            "url": "https://www.business-standard.com/economy/news/govt-bonds-log-worst-losing-streak-in-30-years-as-crude-us-yields-rise-126102301399_1.html",
+            "sentiment_score": -0.7466,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity cools in October; strong demand fueling price pressures",
+            "description": "US business activity experienced a slight slowdown in October, though strong demand allowed price increases. The S&P Global Composite PMI Output Index indicated sustained economic expansion, even amid challenges. New orders received by businesses rose slightl…",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:58:46Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-business-activity-cools-in-october-strong-demand-fueling-price-pressures/articleshow/135148021.cms",
+            "sentiment_score": 0.2326,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity expands, prices surge most since 2022",
+            "description": "Rising prices and business activity may prompt the Fed to reconsider interest rates, impacting economic outlook and asset valuations.\nThe post US business activity expands, prices surge most since 2022 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:53:00Z",
+            "url": "https://cryptobriefing.com/us-business-activity-expands-prices-surge-most-since-2022/",
+            "sentiment_score": 0.2848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why US stocks are falling: Dow Jones crashes over 700 points as AI selloff, SpaceX fears hit markets",
+            "description": "US stocks experienced a decline as AI related shares continued to selloff significantly over the week. The Dow Jones Industrial Average fell markedly, affecting overall investor sentiment in the market. Concerns regarding competition from SpaceX led to drops …",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:38:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-us-stocks-are-falling-dow-jones-crashes-over-700-points-as-ai-selloff-spacex-fears-hit-markets/articleshow/135147604.cms",
+            "sentiment_score": -0.2799,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Needs Higher Interest Rates",
+            "description": "Japanese exporters enjoy high demand and strong profit margins, but importers are under severe pressure. The weak yen also hurts Japanese consumers.",
+            "source": "The Diplomat",
+            "published_at": "2026-10-23T13:28:00Z",
+            "url": "https://thediplomat.com/2026/10/japan-needs-higher-interest-rates/",
+            "sentiment_score": 0.0566,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K",
+            "description": "The shift towards Bitcoin amidst precious metals' decline highlights changing investor strategies in response to inflation and interest rate fears.\nThe post Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:11:57Z",
+            "url": "https://cryptobriefing.com/gold-silver-lose-13t-in-4-days-bitcoin-holds-above-80k/",
+            "sentiment_score": -0.1925,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi",
+            "description": "\"So the question is, you know, who is Ilhan Omar, and has she followed all of the laws as it relates to naturalization and immigration?\"\nThe post Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi first appeared on Le·gal In·sur·rec·tion.",
+            "source": "Legalinsurrection.com",
+            "published_at": "2026-10-23T13:00:23Z",
+            "url": "https://legalinsurrection.com/2026/10/jeanine-pirro-ilhan-omars-real-name-is-ilhan-nur-said-elmi/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 2025. Check what to expect in November, December",
+            "description": "Gold rate today: China's gold jewellery demand has remained under pressure so far in 2026, recording its weakest first-half demand in tonnage terms since 2006, according to a recent World Gold Council report.",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T12:47:04Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-suffers-biggest-weekly-loss-since-june-silver-price-lowest-since-november-2025-check-what-to-expect-in-november-december/articleshow/135146284.cms",
+            "sentiment_score": -0.7808,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "If this happens, we can reach the 'vicinity' of the Fed's 2% inflation target",
+            "description": "Interactive Brokers senior economist, José Torres, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to discuss what the oil (CL=F, BZ=F) price trajectory says about where US inflation is headed.\n00:00 Speaker A\nWe are less than a week away from tha…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-23T12:40:55Z",
+            "url": "https://biztoc.com/x/8337f6e603217cf7",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump aide with 'weirdest ideas' is key target for Dems — and GOP won't save him: NBC",
+            "description": "One of Donald Trump’s most ubiquitous aides could be left to fend for himself if Democrats win Congress next month, according to a new report.Bill Pulte, the 38-year-old director of the Federal Housing Finance Agency, has become “a constant presence” at Trump…",
+            "source": "Raw Story",
+            "published_at": "2026-10-23T12:13:06Z",
+            "url": "https://www.rawstory.com/trump-bill-pulte-new-report/",
+            "sentiment_score": -0.2068,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+            "description": "U.S. Treasury yields edged higher on Friday following a sharp reversal on Thursday.",
+            "source": "CNBC",
+            "published_at": "2026-10-23T12:12:18Z",
+            "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+            "sentiment_score": -0.1143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here's what's behind the vibe shift that's rattling the AI trade",
+            "description": "A perfect storm of headwinds has gathered around the AI trade in the last week, hammering shares of neoclouds, chips, and big capex spenders like Meta.",
+            "source": "Business Insider",
+            "published_at": "2026-10-23T12:06:39Z",
+            "url": "https://www.businessinsider.com/ai-stocks-down-coreweave-nvidia-meta-capex-spending-jensen-huang-2026-10#article",
+            "sentiment_score": 0.2438,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Authentication does not equal authorization: Are we asking passkeys to prove too much?",
+            "description": "Securing the login is only half the battle. Where passkeys end and real trust begins.",
+            "source": "TechRadar",
+            "published_at": "2026-10-23T11:10:01Z",
+            "url": "https://www.techradar.com/pro/authentication-does-not-equal-authorization-are-we-asking-passkeys-to-prove-too-much",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sensex today | Stock Market Highlights: Sensex, Nifty extend losses as crude surges to $114, all sectors close in red",
+            "description": "Sensex, Nifty, Share Prices Highlights: The domestic stock market continued its downward trend on Friday, with benchmark indices Sensex and Nifty 50 closing in the red amid selling pressure across sectors, rising crude oil prices and weak global cues.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-23T10:52:42Z",
+            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-october-2026/article71611889.ece",
+            "sentiment_score": -0.41,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "First Citizens BancShares Reports Third Quarter 2026 Earnings, Announces Additional Share Repurchase Plan",
@@ -406,150 +566,10 @@
             "url": "https://economictimes.indiatimes.com/markets/stocks/news/nippon-silver-etf-other-silver-etfs-slide-up-to-4-as-silver-prices-tumble-heres-why/articleshow/135137769.cms",
             "sentiment_score": 0.1264,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years",
-            "description": "Investor shift towards safety amid AI spending concerns highlights a preference for stability over growth, impacting global market dynamics.\nThe post Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T06:14:16Z",
-            "url": "https://cryptobriefing.com/asian-shares-tech-rout-treasuries-rally/",
-            "sentiment_score": 0.438,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Had Better Work Out",
-            "description": "If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links: $70 a year, $18 a quarter, or $7 a month.\n\nIn return, you get a weekly premium newsletter that dives deep into the finances of the AI bubble.…",
-            "source": "Wheresyoured.at",
-            "published_at": "2026-10-23T05:47:01Z",
-            "url": "https://www.wheresyoured.at/ai-had-better-work-out/",
-            "sentiment_score": 0.4347,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price falls Rs 1,500/10g; silver plunges Rs 7,000/kg as soaring oil fuels rate hike bets. Time to sell?",
-            "description": "Gold and silver prices fall on the MCX as rising oil prices fuel inflation concerns and expectations of higher interest rates for longer. Investors track the US Federal Reserve meeting, dollar movements and geopolitical tensions for cues on precious metals.",
-            "source": "The Times of India",
-            "published_at": "2026-10-23T05:39:32Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-falls-rs-1500/10g-silver-plunges-rs-7000/kg-as-soaring-oil-fuels-rate-hike-bets-time-to-sell/articleshow/135135987.cms",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump is about to discover the political cost of inflation",
-            "description": "US president’s approval rating has crashed in tandem with the squeeze on households",
-            "source": "The Irish Times",
-            "published_at": "2026-10-23T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/economy/2026/10/23/trump-is-about-to-discover-the-political-cost-of-inflation/",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Alkane Resources Shares Slide Nearly 10% Despite Steady Gold Output as Bullion Slump Hits ASX Gold Miners",
-            "description": "Alkane Resources shares fell nearly 10% as weaker gold prices outweighed steady September-quarter production, lower costs, strong cash generation and reaffirmed fiscal 2027 guidance.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:43:03Z",
-            "url": "https://www.ibtimes.com.au/alkane-resources-shares-fall-gold-prices-1877242",
-            "sentiment_score": 0.238,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Corruption: A glass half-empty or half-full, the Milos hotel findings and a promotion, Telis and the US investigators, Skyline property sales surge",
-            "description": "Fresh corruption scandals raise questions about accountability in Greece, while a report identifies planning irregularities at a luxury hotel on Milos. US authorities investigate possible Iran-related links involving Aegean Baltic Bank, the Skyline property p…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-23T04:42:45Z",
-            "url": "https://en.protothema.gr/2026/10/23/corruption-a-glass-half-empty-or-half-full-the-milos-hotel-findings-and-a-promotion-telis-and-the-us-investigators-skyline-property-sales-surge/",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ora Banda Mining Shares Tumble 15% as Gold Hits Two-Month Low and Sell-Off Sweeps Australian Gold Producers",
-            "description": "Ora Banda Mining shares fell 14.7% after gold prices dropped to a two-month low, weighing on Australian gold miners and raising concerns about interest rates and margins.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:41:25Z",
-            "url": "https://www.ibtimes.com.au/ora-banda-shares-fall-gold-prices-two-month-low-1877244",
-            "sentiment_score": 0.1611,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern Cross Gold Shares Drop 9% as Falling Gold Price Weighs on Victorian Explorer Despite High-Grade Hits",
-            "description": "Southern Cross Gold shares dropped 9.07% as gold fell to a two-month low, weighing on Australian mining stocks despite continued high-grade drilling results at Sunday Creek.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:38:03Z",
-            "url": "https://www.ibtimes.com.au/southern-cross-gold-shares-fall-gold-price-1877240",
-            "sentiment_score": -0.0819,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns",
-            "description": "Spot gold eased 0.2% ‌to $4,016.27 per ounce by 0351 GMT, paring losses slightly after touching its lowest level since July 20 earlier ‌in the session",
-            "source": "BusinessLine",
-            "published_at": "2026-10-23T04:27:07Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns/article71614534.ece",
-            "sentiment_score": -0.3657,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 23 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 23 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
-            "source": "Livemint",
-            "published_at": "2026-10-23T04:12:45Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-23-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792724167958.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Abolition Manifesto’s Dedication and Preface",
-            "description": "Dedication To the memory of my parents and the millions who suffered under the tyranny of totalitarian governments, and to all Americans who deserve to live in a country where individual liberty, personal responsibility, sound money, peace, voluntary cooperat…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-23T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/10/no_author/the-abolition-manifestos-dedication-and-preface/",
-            "sentiment_score": 0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s tariffs and the American economy",
-            "description": "By Tom WaltonTariffs are neither the great destroyers the Democrats claim nor the great builders that Trump claims.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-10-23T04:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/10/trump-s-tariffs-and-the-american-economy/",
-            "sentiment_score": -0.1792,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Apple’s foldable iPhone Duo launches in China, delivery into 2027",
-            "description": "Apple's foldable iPhone Duo launch in China may boost market sentiment but faces challenges from supply chain issues and economic conditions.\nThe post Apple’s foldable iPhone Duo launches in China, delivery into 2027 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T03:03:51Z",
-            "url": "https://cryptobriefing.com/apples-foldable-iphone-duo-launches-in-china-delivery-into-2027/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares slip as tech rout boosts bonds, dents rate hike bets",
-            "description": "MSCI's broadest index of Asia-Pacific shares excluding Japan fell 0.3% on Friday, bringing its weekly loss to 2.7% and marking a fourth straight week in the red",
-            "source": "Business Standard",
-            "published_at": "2026-10-23T02:30:52Z",
-            "url": "https://www.business-standard.com/markets/news/asian-shares-slip-as-tech-rout-boosts-bonds-dents-rate-hike-bets-126102300074_1.html",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.0777,
+      "net_score": 0.0207,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -580,7 +600,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-24T10:44:38.619936+00:00"
+    "generated_at": "2026-10-24T14:24:41.374311+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -589,10 +609,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0747,
+        "average_score": 0.0716,
         "label": "บวกเล็กน้อย",
-        "article_count": 7,
+        "article_count": 8,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "How El Niño could push up your mortgage and grocery bills",
+            "description": "A Pacific climate event has far reaching effects.",
+            "source": "The Conversation Africa",
+            "published_at": "2026-10-23T13:54:10Z",
+            "url": "https://theconversation.com/how-el-nino-could-push-up-your-mortgage-and-grocery-bills-294378",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "US hails progress in Venezuela transition talks",
@@ -666,10 +696,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0722,
-        "label": "บวกเล็กน้อย",
+        "average_score": -0.076,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Govt bonds log worst losing streak in 30 years as crude, US yields rise",
+            "description": "Indian government bond yields rose for a tenth straight week as elevated crude prices and US yields weighed on sentiment, while forex reserves fell $65 billion over six weeks",
+            "source": "Business Standard",
+            "published_at": "2026-10-23T14:15:27Z",
+            "url": "https://www.business-standard.com/economy/news/govt-bonds-log-worst-losing-streak-in-30-years-as-crude-us-yields-rise-126102301399_1.html",
+            "sentiment_score": -0.7466,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity cools in October; strong demand fueling price pressures",
+            "description": "US business activity experienced a slight slowdown in October, though strong demand allowed price increases. The S&P Global Composite PMI Output Index indicated sustained economic expansion, even amid challenges. New orders received by businesses rose slightl…",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:58:46Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-business-activity-cools-in-october-strong-demand-fueling-price-pressures/articleshow/135148021.cms",
+            "sentiment_score": 0.2326,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity expands, prices surge most since 2022",
+            "description": "Rising prices and business activity may prompt the Fed to reconsider interest rates, impacting economic outlook and asset valuations.\nThe post US business activity expands, prices surge most since 2022 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:53:00Z",
+            "url": "https://cryptobriefing.com/us-business-activity-expands-prices-surge-most-since-2022/",
+            "sentiment_score": 0.2848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why US stocks are falling: Dow Jones crashes over 700 points as AI selloff, SpaceX fears hit markets",
+            "description": "US stocks experienced a decline as AI related shares continued to selloff significantly over the week. The Dow Jones Industrial Average fell markedly, affecting overall investor sentiment in the market. Concerns regarding competition from SpaceX led to drops …",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:38:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-us-stocks-are-falling-dow-jones-crashes-over-700-points-as-ai-selloff-spacex-fears-hit-markets/articleshow/135147604.cms",
+            "sentiment_score": -0.2799,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Needs Higher Interest Rates",
+            "description": "Japanese exporters enjoy high demand and strong profit margins, but importers are under severe pressure. The weak yen also hurts Japanese consumers.",
+            "source": "The Diplomat",
+            "published_at": "2026-10-23T13:28:00Z",
+            "url": "https://thediplomat.com/2026/10/japan-needs-higher-interest-rates/",
+            "sentiment_score": 0.0566,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K",
+            "description": "The shift towards Bitcoin amidst precious metals' decline highlights changing investor strategies in response to inflation and interest rate fears.\nThe post Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:11:57Z",
+            "url": "https://cryptobriefing.com/gold-silver-lose-13t-in-4-days-bitcoin-holds-above-80k/",
+            "sentiment_score": -0.1925,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi",
+            "description": "\"So the question is, you know, who is Ilhan Omar, and has she followed all of the laws as it relates to naturalization and immigration?\"\nThe post Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi first appeared on Le·gal In·sur·rec·tion.",
+            "source": "Legalinsurrection.com",
+            "published_at": "2026-10-23T13:00:23Z",
+            "url": "https://legalinsurrection.com/2026/10/jeanine-pirro-ilhan-omars-real-name-is-ilhan-nur-said-elmi/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 2025. Check what to expect in November, December",
+            "description": "Gold rate today: China's gold jewellery demand has remained under pressure so far in 2026, recording its weakest first-half demand in tonnage terms since 2006, according to a recent World Gold Council report.",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T12:47:04Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-suffers-biggest-weekly-loss-since-june-silver-price-lowest-since-november-2025-check-what-to-expect-in-november-december/articleshow/135146284.cms",
+            "sentiment_score": -0.7808,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "If this happens, we can reach the 'vicinity' of the Fed's 2% inflation target",
+            "description": "Interactive Brokers senior economist, José Torres, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to discuss what the oil (CL=F, BZ=F) price trajectory says about where US inflation is headed.\n00:00 Speaker A\nWe are less than a week away from tha…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-23T12:40:55Z",
+            "url": "https://biztoc.com/x/8337f6e603217cf7",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump aide with 'weirdest ideas' is key target for Dems — and GOP won't save him: NBC",
+            "description": "One of Donald Trump’s most ubiquitous aides could be left to fend for himself if Democrats win Congress next month, according to a new report.Bill Pulte, the 38-year-old director of the Federal Housing Finance Agency, has become “a constant presence” at Trump…",
+            "source": "Raw Story",
+            "published_at": "2026-10-23T12:13:06Z",
+            "url": "https://www.rawstory.com/trump-bill-pulte-new-report/",
+            "sentiment_score": -0.2068,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+            "description": "U.S. Treasury yields edged higher on Friday following a sharp reversal on Thursday.",
+            "source": "CNBC",
+            "published_at": "2026-10-23T12:12:18Z",
+            "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+            "sentiment_score": -0.1143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here's what's behind the vibe shift that's rattling the AI trade",
+            "description": "A perfect storm of headwinds has gathered around the AI trade in the last week, hammering shares of neoclouds, chips, and big capex spenders like Meta.",
+            "source": "Business Insider",
+            "published_at": "2026-10-23T12:06:39Z",
+            "url": "https://www.businessinsider.com/ai-stocks-down-coreweave-nvidia-meta-capex-spending-jensen-huang-2026-10#article",
+            "sentiment_score": 0.2438,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Authentication does not equal authorization: Are we asking passkeys to prove too much?",
+            "description": "Securing the login is only half the battle. Where passkeys end and real trust begins.",
+            "source": "TechRadar",
+            "published_at": "2026-10-23T11:10:01Z",
+            "url": "https://www.techradar.com/pro/authentication-does-not-equal-authorization-are-we-asking-passkeys-to-prove-too-much",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sensex today | Stock Market Highlights: Sensex, Nifty extend losses as crude surges to $114, all sectors close in red",
+            "description": "Sensex, Nifty, Share Prices Highlights: The domestic stock market continued its downward trend on Friday, with benchmark indices Sensex and Nifty 50 closing in the red amid selling pressure across sectors, rising crude oil prices and weak global cues.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-23T10:52:42Z",
+            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-october-2026/article71611889.ece",
+            "sentiment_score": -0.41,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "First Citizens BancShares Reports Third Quarter 2026 Earnings, Announces Additional Share Repurchase Plan",
@@ -829,150 +999,10 @@
             "url": "https://economictimes.indiatimes.com/markets/stocks/news/nippon-silver-etf-other-silver-etfs-slide-up-to-4-as-silver-prices-tumble-heres-why/articleshow/135137769.cms",
             "sentiment_score": 0.1264,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years",
-            "description": "Investor shift towards safety amid AI spending concerns highlights a preference for stability over growth, impacting global market dynamics.\nThe post Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T06:14:16Z",
-            "url": "https://cryptobriefing.com/asian-shares-tech-rout-treasuries-rally/",
-            "sentiment_score": 0.438,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Had Better Work Out",
-            "description": "If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links: $70 a year, $18 a quarter, or $7 a month.\n\nIn return, you get a weekly premium newsletter that dives deep into the finances of the AI bubble.…",
-            "source": "Wheresyoured.at",
-            "published_at": "2026-10-23T05:47:01Z",
-            "url": "https://www.wheresyoured.at/ai-had-better-work-out/",
-            "sentiment_score": 0.4347,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price falls Rs 1,500/10g; silver plunges Rs 7,000/kg as soaring oil fuels rate hike bets. Time to sell?",
-            "description": "Gold and silver prices fall on the MCX as rising oil prices fuel inflation concerns and expectations of higher interest rates for longer. Investors track the US Federal Reserve meeting, dollar movements and geopolitical tensions for cues on precious metals.",
-            "source": "The Times of India",
-            "published_at": "2026-10-23T05:39:32Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-falls-rs-1500/10g-silver-plunges-rs-7000/kg-as-soaring-oil-fuels-rate-hike-bets-time-to-sell/articleshow/135135987.cms",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump is about to discover the political cost of inflation",
-            "description": "US president’s approval rating has crashed in tandem with the squeeze on households",
-            "source": "The Irish Times",
-            "published_at": "2026-10-23T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/economy/2026/10/23/trump-is-about-to-discover-the-political-cost-of-inflation/",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Alkane Resources Shares Slide Nearly 10% Despite Steady Gold Output as Bullion Slump Hits ASX Gold Miners",
-            "description": "Alkane Resources shares fell nearly 10% as weaker gold prices outweighed steady September-quarter production, lower costs, strong cash generation and reaffirmed fiscal 2027 guidance.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:43:03Z",
-            "url": "https://www.ibtimes.com.au/alkane-resources-shares-fall-gold-prices-1877242",
-            "sentiment_score": 0.238,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Corruption: A glass half-empty or half-full, the Milos hotel findings and a promotion, Telis and the US investigators, Skyline property sales surge",
-            "description": "Fresh corruption scandals raise questions about accountability in Greece, while a report identifies planning irregularities at a luxury hotel on Milos. US authorities investigate possible Iran-related links involving Aegean Baltic Bank, the Skyline property p…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-23T04:42:45Z",
-            "url": "https://en.protothema.gr/2026/10/23/corruption-a-glass-half-empty-or-half-full-the-milos-hotel-findings-and-a-promotion-telis-and-the-us-investigators-skyline-property-sales-surge/",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ora Banda Mining Shares Tumble 15% as Gold Hits Two-Month Low and Sell-Off Sweeps Australian Gold Producers",
-            "description": "Ora Banda Mining shares fell 14.7% after gold prices dropped to a two-month low, weighing on Australian gold miners and raising concerns about interest rates and margins.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:41:25Z",
-            "url": "https://www.ibtimes.com.au/ora-banda-shares-fall-gold-prices-two-month-low-1877244",
-            "sentiment_score": 0.1611,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern Cross Gold Shares Drop 9% as Falling Gold Price Weighs on Victorian Explorer Despite High-Grade Hits",
-            "description": "Southern Cross Gold shares dropped 9.07% as gold fell to a two-month low, weighing on Australian mining stocks despite continued high-grade drilling results at Sunday Creek.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:38:03Z",
-            "url": "https://www.ibtimes.com.au/southern-cross-gold-shares-fall-gold-price-1877240",
-            "sentiment_score": -0.0819,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns",
-            "description": "Spot gold eased 0.2% ‌to $4,016.27 per ounce by 0351 GMT, paring losses slightly after touching its lowest level since July 20 earlier ‌in the session",
-            "source": "BusinessLine",
-            "published_at": "2026-10-23T04:27:07Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns/article71614534.ece",
-            "sentiment_score": -0.3657,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 23 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 23 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
-            "source": "Livemint",
-            "published_at": "2026-10-23T04:12:45Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-23-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792724167958.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Abolition Manifesto’s Dedication and Preface",
-            "description": "Dedication To the memory of my parents and the millions who suffered under the tyranny of totalitarian governments, and to all Americans who deserve to live in a country where individual liberty, personal responsibility, sound money, peace, voluntary cooperat…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-23T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/10/no_author/the-abolition-manifestos-dedication-and-preface/",
-            "sentiment_score": 0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s tariffs and the American economy",
-            "description": "By Tom WaltonTariffs are neither the great destroyers the Democrats claim nor the great builders that Trump claims.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-10-23T04:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/10/trump-s-tariffs-and-the-american-economy/",
-            "sentiment_score": -0.1792,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Apple’s foldable iPhone Duo launches in China, delivery into 2027",
-            "description": "Apple's foldable iPhone Duo launch in China may boost market sentiment but faces challenges from supply chain issues and economic conditions.\nThe post Apple’s foldable iPhone Duo launches in China, delivery into 2027 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T03:03:51Z",
-            "url": "https://cryptobriefing.com/apples-foldable-iphone-duo-launches-in-china-delivery-into-2027/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares slip as tech rout boosts bonds, dents rate hike bets",
-            "description": "MSCI's broadest index of Asia-Pacific shares excluding Japan fell 0.3% on Friday, bringing its weekly loss to 2.7% and marking a fourth straight week in the red",
-            "source": "Business Standard",
-            "published_at": "2026-10-23T02:30:52Z",
-            "url": "https://www.business-standard.com/markets/news/asian-shares-slip-as-tech-rout-boosts-bonds-dents-rate-hike-bets-126102300074_1.html",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.0025,
+      "net_score": 0.1476,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1003,7 +1033,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=45.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-24T10:44:38.619936+00:00"
+    "generated_at": "2026-10-24T14:24:41.374311+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1012,10 +1042,150 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0722,
-        "label": "บวกเล็กน้อย",
+        "average_score": -0.076,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Govt bonds log worst losing streak in 30 years as crude, US yields rise",
+            "description": "Indian government bond yields rose for a tenth straight week as elevated crude prices and US yields weighed on sentiment, while forex reserves fell $65 billion over six weeks",
+            "source": "Business Standard",
+            "published_at": "2026-10-23T14:15:27Z",
+            "url": "https://www.business-standard.com/economy/news/govt-bonds-log-worst-losing-streak-in-30-years-as-crude-us-yields-rise-126102301399_1.html",
+            "sentiment_score": -0.7466,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity cools in October; strong demand fueling price pressures",
+            "description": "US business activity experienced a slight slowdown in October, though strong demand allowed price increases. The S&P Global Composite PMI Output Index indicated sustained economic expansion, even amid challenges. New orders received by businesses rose slightl…",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:58:46Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-business-activity-cools-in-october-strong-demand-fueling-price-pressures/articleshow/135148021.cms",
+            "sentiment_score": 0.2326,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity expands, prices surge most since 2022",
+            "description": "Rising prices and business activity may prompt the Fed to reconsider interest rates, impacting economic outlook and asset valuations.\nThe post US business activity expands, prices surge most since 2022 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:53:00Z",
+            "url": "https://cryptobriefing.com/us-business-activity-expands-prices-surge-most-since-2022/",
+            "sentiment_score": 0.2848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why US stocks are falling: Dow Jones crashes over 700 points as AI selloff, SpaceX fears hit markets",
+            "description": "US stocks experienced a decline as AI related shares continued to selloff significantly over the week. The Dow Jones Industrial Average fell markedly, affecting overall investor sentiment in the market. Concerns regarding competition from SpaceX led to drops …",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:38:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-us-stocks-are-falling-dow-jones-crashes-over-700-points-as-ai-selloff-spacex-fears-hit-markets/articleshow/135147604.cms",
+            "sentiment_score": -0.2799,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Needs Higher Interest Rates",
+            "description": "Japanese exporters enjoy high demand and strong profit margins, but importers are under severe pressure. The weak yen also hurts Japanese consumers.",
+            "source": "The Diplomat",
+            "published_at": "2026-10-23T13:28:00Z",
+            "url": "https://thediplomat.com/2026/10/japan-needs-higher-interest-rates/",
+            "sentiment_score": 0.0566,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K",
+            "description": "The shift towards Bitcoin amidst precious metals' decline highlights changing investor strategies in response to inflation and interest rate fears.\nThe post Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:11:57Z",
+            "url": "https://cryptobriefing.com/gold-silver-lose-13t-in-4-days-bitcoin-holds-above-80k/",
+            "sentiment_score": -0.1925,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi",
+            "description": "\"So the question is, you know, who is Ilhan Omar, and has she followed all of the laws as it relates to naturalization and immigration?\"\nThe post Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi first appeared on Le·gal In·sur·rec·tion.",
+            "source": "Legalinsurrection.com",
+            "published_at": "2026-10-23T13:00:23Z",
+            "url": "https://legalinsurrection.com/2026/10/jeanine-pirro-ilhan-omars-real-name-is-ilhan-nur-said-elmi/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 2025. Check what to expect in November, December",
+            "description": "Gold rate today: China's gold jewellery demand has remained under pressure so far in 2026, recording its weakest first-half demand in tonnage terms since 2006, according to a recent World Gold Council report.",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T12:47:04Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-suffers-biggest-weekly-loss-since-june-silver-price-lowest-since-november-2025-check-what-to-expect-in-november-december/articleshow/135146284.cms",
+            "sentiment_score": -0.7808,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "If this happens, we can reach the 'vicinity' of the Fed's 2% inflation target",
+            "description": "Interactive Brokers senior economist, José Torres, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to discuss what the oil (CL=F, BZ=F) price trajectory says about where US inflation is headed.\n00:00 Speaker A\nWe are less than a week away from tha…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-23T12:40:55Z",
+            "url": "https://biztoc.com/x/8337f6e603217cf7",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump aide with 'weirdest ideas' is key target for Dems — and GOP won't save him: NBC",
+            "description": "One of Donald Trump’s most ubiquitous aides could be left to fend for himself if Democrats win Congress next month, according to a new report.Bill Pulte, the 38-year-old director of the Federal Housing Finance Agency, has become “a constant presence” at Trump…",
+            "source": "Raw Story",
+            "published_at": "2026-10-23T12:13:06Z",
+            "url": "https://www.rawstory.com/trump-bill-pulte-new-report/",
+            "sentiment_score": -0.2068,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+            "description": "U.S. Treasury yields edged higher on Friday following a sharp reversal on Thursday.",
+            "source": "CNBC",
+            "published_at": "2026-10-23T12:12:18Z",
+            "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+            "sentiment_score": -0.1143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here's what's behind the vibe shift that's rattling the AI trade",
+            "description": "A perfect storm of headwinds has gathered around the AI trade in the last week, hammering shares of neoclouds, chips, and big capex spenders like Meta.",
+            "source": "Business Insider",
+            "published_at": "2026-10-23T12:06:39Z",
+            "url": "https://www.businessinsider.com/ai-stocks-down-coreweave-nvidia-meta-capex-spending-jensen-huang-2026-10#article",
+            "sentiment_score": 0.2438,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Authentication does not equal authorization: Are we asking passkeys to prove too much?",
+            "description": "Securing the login is only half the battle. Where passkeys end and real trust begins.",
+            "source": "TechRadar",
+            "published_at": "2026-10-23T11:10:01Z",
+            "url": "https://www.techradar.com/pro/authentication-does-not-equal-authorization-are-we-asking-passkeys-to-prove-too-much",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sensex today | Stock Market Highlights: Sensex, Nifty extend losses as crude surges to $114, all sectors close in red",
+            "description": "Sensex, Nifty, Share Prices Highlights: The domestic stock market continued its downward trend on Friday, with benchmark indices Sensex and Nifty 50 closing in the red amid selling pressure across sectors, rising crude oil prices and weak global cues.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-23T10:52:42Z",
+            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-october-2026/article71611889.ece",
+            "sentiment_score": -0.41,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "First Citizens BancShares Reports Third Quarter 2026 Earnings, Announces Additional Share Repurchase Plan",
@@ -1175,154 +1345,34 @@
             "url": "https://economictimes.indiatimes.com/markets/stocks/news/nippon-silver-etf-other-silver-etfs-slide-up-to-4-as-silver-prices-tumble-heres-why/articleshow/135137769.cms",
             "sentiment_score": 0.1264,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years",
-            "description": "Investor shift towards safety amid AI spending concerns highlights a preference for stability over growth, impacting global market dynamics.\nThe post Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T06:14:16Z",
-            "url": "https://cryptobriefing.com/asian-shares-tech-rout-treasuries-rally/",
-            "sentiment_score": 0.438,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Had Better Work Out",
-            "description": "If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links: $70 a year, $18 a quarter, or $7 a month.\n\nIn return, you get a weekly premium newsletter that dives deep into the finances of the AI bubble.…",
-            "source": "Wheresyoured.at",
-            "published_at": "2026-10-23T05:47:01Z",
-            "url": "https://www.wheresyoured.at/ai-had-better-work-out/",
-            "sentiment_score": 0.4347,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price falls Rs 1,500/10g; silver plunges Rs 7,000/kg as soaring oil fuels rate hike bets. Time to sell?",
-            "description": "Gold and silver prices fall on the MCX as rising oil prices fuel inflation concerns and expectations of higher interest rates for longer. Investors track the US Federal Reserve meeting, dollar movements and geopolitical tensions for cues on precious metals.",
-            "source": "The Times of India",
-            "published_at": "2026-10-23T05:39:32Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-falls-rs-1500/10g-silver-plunges-rs-7000/kg-as-soaring-oil-fuels-rate-hike-bets-time-to-sell/articleshow/135135987.cms",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump is about to discover the political cost of inflation",
-            "description": "US president’s approval rating has crashed in tandem with the squeeze on households",
-            "source": "The Irish Times",
-            "published_at": "2026-10-23T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/economy/2026/10/23/trump-is-about-to-discover-the-political-cost-of-inflation/",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Alkane Resources Shares Slide Nearly 10% Despite Steady Gold Output as Bullion Slump Hits ASX Gold Miners",
-            "description": "Alkane Resources shares fell nearly 10% as weaker gold prices outweighed steady September-quarter production, lower costs, strong cash generation and reaffirmed fiscal 2027 guidance.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:43:03Z",
-            "url": "https://www.ibtimes.com.au/alkane-resources-shares-fall-gold-prices-1877242",
-            "sentiment_score": 0.238,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Corruption: A glass half-empty or half-full, the Milos hotel findings and a promotion, Telis and the US investigators, Skyline property sales surge",
-            "description": "Fresh corruption scandals raise questions about accountability in Greece, while a report identifies planning irregularities at a luxury hotel on Milos. US authorities investigate possible Iran-related links involving Aegean Baltic Bank, the Skyline property p…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-23T04:42:45Z",
-            "url": "https://en.protothema.gr/2026/10/23/corruption-a-glass-half-empty-or-half-full-the-milos-hotel-findings-and-a-promotion-telis-and-the-us-investigators-skyline-property-sales-surge/",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ora Banda Mining Shares Tumble 15% as Gold Hits Two-Month Low and Sell-Off Sweeps Australian Gold Producers",
-            "description": "Ora Banda Mining shares fell 14.7% after gold prices dropped to a two-month low, weighing on Australian gold miners and raising concerns about interest rates and margins.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:41:25Z",
-            "url": "https://www.ibtimes.com.au/ora-banda-shares-fall-gold-prices-two-month-low-1877244",
-            "sentiment_score": 0.1611,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern Cross Gold Shares Drop 9% as Falling Gold Price Weighs on Victorian Explorer Despite High-Grade Hits",
-            "description": "Southern Cross Gold shares dropped 9.07% as gold fell to a two-month low, weighing on Australian mining stocks despite continued high-grade drilling results at Sunday Creek.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:38:03Z",
-            "url": "https://www.ibtimes.com.au/southern-cross-gold-shares-fall-gold-price-1877240",
-            "sentiment_score": -0.0819,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns",
-            "description": "Spot gold eased 0.2% ‌to $4,016.27 per ounce by 0351 GMT, paring losses slightly after touching its lowest level since July 20 earlier ‌in the session",
-            "source": "BusinessLine",
-            "published_at": "2026-10-23T04:27:07Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns/article71614534.ece",
-            "sentiment_score": -0.3657,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 23 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 23 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
-            "source": "Livemint",
-            "published_at": "2026-10-23T04:12:45Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-23-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792724167958.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Abolition Manifesto’s Dedication and Preface",
-            "description": "Dedication To the memory of my parents and the millions who suffered under the tyranny of totalitarian governments, and to all Americans who deserve to live in a country where individual liberty, personal responsibility, sound money, peace, voluntary cooperat…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-23T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/10/no_author/the-abolition-manifestos-dedication-and-preface/",
-            "sentiment_score": 0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s tariffs and the American economy",
-            "description": "By Tom WaltonTariffs are neither the great destroyers the Democrats claim nor the great builders that Trump claims.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-10-23T04:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/10/trump-s-tariffs-and-the-american-economy/",
-            "sentiment_score": -0.1792,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Apple’s foldable iPhone Duo launches in China, delivery into 2027",
-            "description": "Apple's foldable iPhone Duo launch in China may boost market sentiment but faces challenges from supply chain issues and economic conditions.\nThe post Apple’s foldable iPhone Duo launches in China, delivery into 2027 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T03:03:51Z",
-            "url": "https://cryptobriefing.com/apples-foldable-iphone-duo-launches-in-china-delivery-into-2027/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares slip as tech rout boosts bonds, dents rate hike bets",
-            "description": "MSCI's broadest index of Asia-Pacific shares excluding Japan fell 0.3% on Friday, bringing its weekly loss to 2.7% and marking a fourth straight week in the red",
-            "source": "Business Standard",
-            "published_at": "2026-10-23T02:30:52Z",
-            "url": "https://www.business-standard.com/markets/news/asian-shares-slip-as-tech-rout-boosts-bonds-dents-rate-hike-bets-126102300074_1.html",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0626,
-        "label": "ลบเล็กน้อย",
-        "article_count": 20,
+        "average_score": -0.0214,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 22,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan Needs Higher Interest Rates",
+            "description": "Japanese exporters enjoy high demand and strong profit margins, but importers are under severe pressure. The weak yen also hurts Japanese consumers.",
+            "source": "The Diplomat",
+            "published_at": "2026-10-23T13:28:00Z",
+            "url": "https://thediplomat.com/2026/10/japan-needs-higher-interest-rates/",
+            "sentiment_score": 0.0566,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Safe haven search is on Friday as investors keep rotating",
+            "description": "Here are the key things investors need to know to start the trading day.",
+            "source": "CNBC",
+            "published_at": "2026-10-23T11:05:13Z",
+            "url": "https://www.cnbc.com/2026/10/23/safe-haven-search-is-on-friday-as-investors-keep-rotating.html",
+            "sentiment_score": 0.3083,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "JPY",
             "title": "CNBC Daily Open: Tech falls to earth, Musk's fortunes diverge",
@@ -1525,7 +1575,7 @@
           }
         ]
       },
-      "net_score": 0.1348,
+      "net_score": -0.0546,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1556,7 +1606,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-24T10:44:38.619936+00:00"
+    "generated_at": "2026-10-24T14:24:41.374311+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1622,10 +1672,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0722,
-        "label": "บวกเล็กน้อย",
+        "average_score": -0.076,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Govt bonds log worst losing streak in 30 years as crude, US yields rise",
+            "description": "Indian government bond yields rose for a tenth straight week as elevated crude prices and US yields weighed on sentiment, while forex reserves fell $65 billion over six weeks",
+            "source": "Business Standard",
+            "published_at": "2026-10-23T14:15:27Z",
+            "url": "https://www.business-standard.com/economy/news/govt-bonds-log-worst-losing-streak-in-30-years-as-crude-us-yields-rise-126102301399_1.html",
+            "sentiment_score": -0.7466,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity cools in October; strong demand fueling price pressures",
+            "description": "US business activity experienced a slight slowdown in October, though strong demand allowed price increases. The S&P Global Composite PMI Output Index indicated sustained economic expansion, even amid challenges. New orders received by businesses rose slightl…",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:58:46Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-business-activity-cools-in-october-strong-demand-fueling-price-pressures/articleshow/135148021.cms",
+            "sentiment_score": 0.2326,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity expands, prices surge most since 2022",
+            "description": "Rising prices and business activity may prompt the Fed to reconsider interest rates, impacting economic outlook and asset valuations.\nThe post US business activity expands, prices surge most since 2022 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:53:00Z",
+            "url": "https://cryptobriefing.com/us-business-activity-expands-prices-surge-most-since-2022/",
+            "sentiment_score": 0.2848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why US stocks are falling: Dow Jones crashes over 700 points as AI selloff, SpaceX fears hit markets",
+            "description": "US stocks experienced a decline as AI related shares continued to selloff significantly over the week. The Dow Jones Industrial Average fell markedly, affecting overall investor sentiment in the market. Concerns regarding competition from SpaceX led to drops …",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:38:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-us-stocks-are-falling-dow-jones-crashes-over-700-points-as-ai-selloff-spacex-fears-hit-markets/articleshow/135147604.cms",
+            "sentiment_score": -0.2799,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Needs Higher Interest Rates",
+            "description": "Japanese exporters enjoy high demand and strong profit margins, but importers are under severe pressure. The weak yen also hurts Japanese consumers.",
+            "source": "The Diplomat",
+            "published_at": "2026-10-23T13:28:00Z",
+            "url": "https://thediplomat.com/2026/10/japan-needs-higher-interest-rates/",
+            "sentiment_score": 0.0566,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K",
+            "description": "The shift towards Bitcoin amidst precious metals' decline highlights changing investor strategies in response to inflation and interest rate fears.\nThe post Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:11:57Z",
+            "url": "https://cryptobriefing.com/gold-silver-lose-13t-in-4-days-bitcoin-holds-above-80k/",
+            "sentiment_score": -0.1925,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi",
+            "description": "\"So the question is, you know, who is Ilhan Omar, and has she followed all of the laws as it relates to naturalization and immigration?\"\nThe post Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi first appeared on Le·gal In·sur·rec·tion.",
+            "source": "Legalinsurrection.com",
+            "published_at": "2026-10-23T13:00:23Z",
+            "url": "https://legalinsurrection.com/2026/10/jeanine-pirro-ilhan-omars-real-name-is-ilhan-nur-said-elmi/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 2025. Check what to expect in November, December",
+            "description": "Gold rate today: China's gold jewellery demand has remained under pressure so far in 2026, recording its weakest first-half demand in tonnage terms since 2006, according to a recent World Gold Council report.",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T12:47:04Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-suffers-biggest-weekly-loss-since-june-silver-price-lowest-since-november-2025-check-what-to-expect-in-november-december/articleshow/135146284.cms",
+            "sentiment_score": -0.7808,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "If this happens, we can reach the 'vicinity' of the Fed's 2% inflation target",
+            "description": "Interactive Brokers senior economist, José Torres, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to discuss what the oil (CL=F, BZ=F) price trajectory says about where US inflation is headed.\n00:00 Speaker A\nWe are less than a week away from tha…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-23T12:40:55Z",
+            "url": "https://biztoc.com/x/8337f6e603217cf7",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump aide with 'weirdest ideas' is key target for Dems — and GOP won't save him: NBC",
+            "description": "One of Donald Trump’s most ubiquitous aides could be left to fend for himself if Democrats win Congress next month, according to a new report.Bill Pulte, the 38-year-old director of the Federal Housing Finance Agency, has become “a constant presence” at Trump…",
+            "source": "Raw Story",
+            "published_at": "2026-10-23T12:13:06Z",
+            "url": "https://www.rawstory.com/trump-bill-pulte-new-report/",
+            "sentiment_score": -0.2068,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+            "description": "U.S. Treasury yields edged higher on Friday following a sharp reversal on Thursday.",
+            "source": "CNBC",
+            "published_at": "2026-10-23T12:12:18Z",
+            "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+            "sentiment_score": -0.1143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here's what's behind the vibe shift that's rattling the AI trade",
+            "description": "A perfect storm of headwinds has gathered around the AI trade in the last week, hammering shares of neoclouds, chips, and big capex spenders like Meta.",
+            "source": "Business Insider",
+            "published_at": "2026-10-23T12:06:39Z",
+            "url": "https://www.businessinsider.com/ai-stocks-down-coreweave-nvidia-meta-capex-spending-jensen-huang-2026-10#article",
+            "sentiment_score": 0.2438,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Authentication does not equal authorization: Are we asking passkeys to prove too much?",
+            "description": "Securing the login is only half the battle. Where passkeys end and real trust begins.",
+            "source": "TechRadar",
+            "published_at": "2026-10-23T11:10:01Z",
+            "url": "https://www.techradar.com/pro/authentication-does-not-equal-authorization-are-we-asking-passkeys-to-prove-too-much",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sensex today | Stock Market Highlights: Sensex, Nifty extend losses as crude surges to $114, all sectors close in red",
+            "description": "Sensex, Nifty, Share Prices Highlights: The domestic stock market continued its downward trend on Friday, with benchmark indices Sensex and Nifty 50 closing in the red amid selling pressure across sectors, rising crude oil prices and weak global cues.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-23T10:52:42Z",
+            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-october-2026/article71611889.ece",
+            "sentiment_score": -0.41,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "First Citizens BancShares Reports Third Quarter 2026 Earnings, Announces Additional Share Repurchase Plan",
@@ -1785,154 +1975,14 @@
             "url": "https://economictimes.indiatimes.com/markets/stocks/news/nippon-silver-etf-other-silver-etfs-slide-up-to-4-as-silver-prices-tumble-heres-why/articleshow/135137769.cms",
             "sentiment_score": 0.1264,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years",
-            "description": "Investor shift towards safety amid AI spending concerns highlights a preference for stability over growth, impacting global market dynamics.\nThe post Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T06:14:16Z",
-            "url": "https://cryptobriefing.com/asian-shares-tech-rout-treasuries-rally/",
-            "sentiment_score": 0.438,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Had Better Work Out",
-            "description": "If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links: $70 a year, $18 a quarter, or $7 a month.\n\nIn return, you get a weekly premium newsletter that dives deep into the finances of the AI bubble.…",
-            "source": "Wheresyoured.at",
-            "published_at": "2026-10-23T05:47:01Z",
-            "url": "https://www.wheresyoured.at/ai-had-better-work-out/",
-            "sentiment_score": 0.4347,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price falls Rs 1,500/10g; silver plunges Rs 7,000/kg as soaring oil fuels rate hike bets. Time to sell?",
-            "description": "Gold and silver prices fall on the MCX as rising oil prices fuel inflation concerns and expectations of higher interest rates for longer. Investors track the US Federal Reserve meeting, dollar movements and geopolitical tensions for cues on precious metals.",
-            "source": "The Times of India",
-            "published_at": "2026-10-23T05:39:32Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-falls-rs-1500/10g-silver-plunges-rs-7000/kg-as-soaring-oil-fuels-rate-hike-bets-time-to-sell/articleshow/135135987.cms",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump is about to discover the political cost of inflation",
-            "description": "US president’s approval rating has crashed in tandem with the squeeze on households",
-            "source": "The Irish Times",
-            "published_at": "2026-10-23T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/economy/2026/10/23/trump-is-about-to-discover-the-political-cost-of-inflation/",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Alkane Resources Shares Slide Nearly 10% Despite Steady Gold Output as Bullion Slump Hits ASX Gold Miners",
-            "description": "Alkane Resources shares fell nearly 10% as weaker gold prices outweighed steady September-quarter production, lower costs, strong cash generation and reaffirmed fiscal 2027 guidance.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:43:03Z",
-            "url": "https://www.ibtimes.com.au/alkane-resources-shares-fall-gold-prices-1877242",
-            "sentiment_score": 0.238,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Corruption: A glass half-empty or half-full, the Milos hotel findings and a promotion, Telis and the US investigators, Skyline property sales surge",
-            "description": "Fresh corruption scandals raise questions about accountability in Greece, while a report identifies planning irregularities at a luxury hotel on Milos. US authorities investigate possible Iran-related links involving Aegean Baltic Bank, the Skyline property p…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-23T04:42:45Z",
-            "url": "https://en.protothema.gr/2026/10/23/corruption-a-glass-half-empty-or-half-full-the-milos-hotel-findings-and-a-promotion-telis-and-the-us-investigators-skyline-property-sales-surge/",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ora Banda Mining Shares Tumble 15% as Gold Hits Two-Month Low and Sell-Off Sweeps Australian Gold Producers",
-            "description": "Ora Banda Mining shares fell 14.7% after gold prices dropped to a two-month low, weighing on Australian gold miners and raising concerns about interest rates and margins.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:41:25Z",
-            "url": "https://www.ibtimes.com.au/ora-banda-shares-fall-gold-prices-two-month-low-1877244",
-            "sentiment_score": 0.1611,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern Cross Gold Shares Drop 9% as Falling Gold Price Weighs on Victorian Explorer Despite High-Grade Hits",
-            "description": "Southern Cross Gold shares dropped 9.07% as gold fell to a two-month low, weighing on Australian mining stocks despite continued high-grade drilling results at Sunday Creek.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:38:03Z",
-            "url": "https://www.ibtimes.com.au/southern-cross-gold-shares-fall-gold-price-1877240",
-            "sentiment_score": -0.0819,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns",
-            "description": "Spot gold eased 0.2% ‌to $4,016.27 per ounce by 0351 GMT, paring losses slightly after touching its lowest level since July 20 earlier ‌in the session",
-            "source": "BusinessLine",
-            "published_at": "2026-10-23T04:27:07Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns/article71614534.ece",
-            "sentiment_score": -0.3657,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 23 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 23 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
-            "source": "Livemint",
-            "published_at": "2026-10-23T04:12:45Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-23-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792724167958.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Abolition Manifesto’s Dedication and Preface",
-            "description": "Dedication To the memory of my parents and the millions who suffered under the tyranny of totalitarian governments, and to all Americans who deserve to live in a country where individual liberty, personal responsibility, sound money, peace, voluntary cooperat…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-23T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/10/no_author/the-abolition-manifestos-dedication-and-preface/",
-            "sentiment_score": 0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s tariffs and the American economy",
-            "description": "By Tom WaltonTariffs are neither the great destroyers the Democrats claim nor the great builders that Trump claims.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-10-23T04:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/10/trump-s-tariffs-and-the-american-economy/",
-            "sentiment_score": -0.1792,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Apple’s foldable iPhone Duo launches in China, delivery into 2027",
-            "description": "Apple's foldable iPhone Duo launch in China may boost market sentiment but faces challenges from supply chain issues and economic conditions.\nThe post Apple’s foldable iPhone Duo launches in China, delivery into 2027 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T03:03:51Z",
-            "url": "https://cryptobriefing.com/apples-foldable-iphone-duo-launches-in-china-delivery-into-2027/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares slip as tech rout boosts bonds, dents rate hike bets",
-            "description": "MSCI's broadest index of Asia-Pacific shares excluding Japan fell 0.3% on Friday, bringing its weekly loss to 2.7% and marking a fourth straight week in the red",
-            "source": "Business Standard",
-            "published_at": "2026-10-23T02:30:52Z",
-            "url": "https://www.business-standard.com/markets/news/asian-shares-slip-as-tech-rout-boosts-bonds-dents-rate-hike-bets-126102300074_1.html",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.27,
+      "net_score": 0.4182,
       "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1959,7 +2009,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=61.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-24T10:44:38.619936+00:00"
+    "generated_at": "2026-10-24T14:24:41.374311+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1968,10 +2018,60 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0176,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 20,
+        "average_score": -0.0963,
+        "label": "ลบเล็กน้อย",
+        "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 2025. Check what to expect in November, December",
+            "description": "Gold rate today: China's gold jewellery demand has remained under pressure so far in 2026, recording its weakest first-half demand in tonnage terms since 2006, according to a recent World Gold Council report.",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T12:47:04Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-suffers-biggest-weekly-loss-since-june-silver-price-lowest-since-november-2025-check-what-to-expect-in-november-december/articleshow/135146284.cms",
+            "sentiment_score": -0.7808,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price today, Friday, October 23, 2026: Gold opens at 3-month lows as oil prices keep rising",
+            "description": "Gold (GC=F) December futures opened at $4,042.20 per troy ounce on Friday, October 23, 2026, down 0.4% from Thursday's closing price. Gold is down a bit more this morning in early trading to $4,039.50 per troy ounce as of 7:12 a.m. ET.\nGold prices opened at t…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-23T11:55:11Z",
+            "url": "https://biztoc.com/x/2815ccbea6502a05",
+            "sentiment_score": -0.1416,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "BlueStone tweaks product mix, store model as gold prices reshape demand",
+            "description": "Rising gold prices push the omnichannel jewellery retailer to rethink entry-level offerings and test new retail formats, as 44% top-line growth is offset by margin pressure and a lower average basket size.",
+            "source": "Livemint",
+            "published_at": "2026-10-23T11:27:18Z",
+            "url": "https://www.livemint.com/companies/news/bluestone-tweaks-product-mix-store-model-as-gold-prices-reshape-demand-11792744585039.html",
+            "sentiment_score": -0.1503,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "milligold-mcp 0.1.2",
+            "description": "Unofficial read-only MCP server for Milli.gold (milli.gold): live 18k gold price, price history, platform stats.",
+            "source": "Pypi.org",
+            "published_at": "2026-10-23T11:08:33Z",
+            "url": "https://pypi.org/project/milligold-mcp/0.1.2/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Sensex today | Stock Market Highlights: Sensex, Nifty extend losses as crude surges to $114, all sectors close in red",
+            "description": "Sensex, Nifty, Share Prices Highlights: The domestic stock market continued its downward trend on Friday, with benchmark indices Sensex and Nifty 50 closing in the red amid selling pressure across sectors, rising crude oil prices and weak global cues.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-23T10:52:42Z",
+            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-october-2026/article71611889.ece",
+            "sentiment_score": -0.41,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "XAU",
             "title": "Gold Slips Toward $4,000 as Oil-Fueled Inflation Fears Lift Fed Hike Bets and Traders Sell to Cover Losses",
@@ -2175,10 +2275,150 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0722,
-        "label": "บวกเล็กน้อย",
+        "average_score": -0.076,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Govt bonds log worst losing streak in 30 years as crude, US yields rise",
+            "description": "Indian government bond yields rose for a tenth straight week as elevated crude prices and US yields weighed on sentiment, while forex reserves fell $65 billion over six weeks",
+            "source": "Business Standard",
+            "published_at": "2026-10-23T14:15:27Z",
+            "url": "https://www.business-standard.com/economy/news/govt-bonds-log-worst-losing-streak-in-30-years-as-crude-us-yields-rise-126102301399_1.html",
+            "sentiment_score": -0.7466,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity cools in October; strong demand fueling price pressures",
+            "description": "US business activity experienced a slight slowdown in October, though strong demand allowed price increases. The S&P Global Composite PMI Output Index indicated sustained economic expansion, even amid challenges. New orders received by businesses rose slightl…",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:58:46Z",
+            "url": "https://economictimes.indiatimes.com/news/international/business/us-business-activity-cools-in-october-strong-demand-fueling-price-pressures/articleshow/135148021.cms",
+            "sentiment_score": 0.2326,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US business activity expands, prices surge most since 2022",
+            "description": "Rising prices and business activity may prompt the Fed to reconsider interest rates, impacting economic outlook and asset valuations.\nThe post US business activity expands, prices surge most since 2022 appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:53:00Z",
+            "url": "https://cryptobriefing.com/us-business-activity-expands-prices-surge-most-since-2022/",
+            "sentiment_score": 0.2848,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why US stocks are falling: Dow Jones crashes over 700 points as AI selloff, SpaceX fears hit markets",
+            "description": "US stocks experienced a decline as AI related shares continued to selloff significantly over the week. The Dow Jones Industrial Average fell markedly, affecting overall investor sentiment in the market. Concerns regarding competition from SpaceX led to drops …",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T13:38:31Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/why-us-stocks-are-falling-dow-jones-crashes-over-700-points-as-ai-selloff-spacex-fears-hit-markets/articleshow/135147604.cms",
+            "sentiment_score": -0.2799,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Needs Higher Interest Rates",
+            "description": "Japanese exporters enjoy high demand and strong profit margins, but importers are under severe pressure. The weak yen also hurts Japanese consumers.",
+            "source": "The Diplomat",
+            "published_at": "2026-10-23T13:28:00Z",
+            "url": "https://thediplomat.com/2026/10/japan-needs-higher-interest-rates/",
+            "sentiment_score": 0.0566,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K",
+            "description": "The shift towards Bitcoin amidst precious metals' decline highlights changing investor strategies in response to inflation and interest rate fears.\nThe post Gold, silver lose $1.3T in 4 days; Bitcoin holds above $80K appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-23T13:11:57Z",
+            "url": "https://cryptobriefing.com/gold-silver-lose-13t-in-4-days-bitcoin-holds-above-80k/",
+            "sentiment_score": -0.1925,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi",
+            "description": "\"So the question is, you know, who is Ilhan Omar, and has she followed all of the laws as it relates to naturalization and immigration?\"\nThe post Jeanine Pirro: Ilhan Omar’s Real Name is Ilhan Nur Said Elmi first appeared on Le·gal In·sur·rec·tion.",
+            "source": "Legalinsurrection.com",
+            "published_at": "2026-10-23T13:00:23Z",
+            "url": "https://legalinsurrection.com/2026/10/jeanine-pirro-ilhan-omars-real-name-is-ilhan-nur-said-elmi/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price today: Gold rate suffers biggest weekly loss since June, Silver price lowest since November 2025. Check what to expect in November, December",
+            "description": "Gold rate today: China's gold jewellery demand has remained under pressure so far in 2026, recording its weakest first-half demand in tonnage terms since 2006, according to a recent World Gold Council report.",
+            "source": "The Times of India",
+            "published_at": "2026-10-23T12:47:04Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-suffers-biggest-weekly-loss-since-june-silver-price-lowest-since-november-2025-check-what-to-expect-in-november-december/articleshow/135146284.cms",
+            "sentiment_score": -0.7808,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "If this happens, we can reach the 'vicinity' of the Fed's 2% inflation target",
+            "description": "Interactive Brokers senior economist, José Torres, sits down with Yahoo Finance Senior Reporter Brooke DiPalma to discuss what the oil (CL=F, BZ=F) price trajectory says about where US inflation is headed.\n00:00 Speaker A\nWe are less than a week away from tha…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-23T12:40:55Z",
+            "url": "https://biztoc.com/x/8337f6e603217cf7",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump aide with 'weirdest ideas' is key target for Dems — and GOP won't save him: NBC",
+            "description": "One of Donald Trump’s most ubiquitous aides could be left to fend for himself if Democrats win Congress next month, according to a new report.Bill Pulte, the 38-year-old director of the Federal Housing Finance Agency, has become “a constant presence” at Trump…",
+            "source": "Raw Story",
+            "published_at": "2026-10-23T12:13:06Z",
+            "url": "https://www.rawstory.com/trump-bill-pulte-new-report/",
+            "sentiment_score": -0.2068,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "10-year Treasury yield drops back to 5% this week as investors seek cover from AI worries",
+            "description": "U.S. Treasury yields edged higher on Friday following a sharp reversal on Thursday.",
+            "source": "CNBC",
+            "published_at": "2026-10-23T12:12:18Z",
+            "url": "https://www.cnbc.com/2026/10/23/bonds-yields-us-treasurys.html",
+            "sentiment_score": -0.1143,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Here's what's behind the vibe shift that's rattling the AI trade",
+            "description": "A perfect storm of headwinds has gathered around the AI trade in the last week, hammering shares of neoclouds, chips, and big capex spenders like Meta.",
+            "source": "Business Insider",
+            "published_at": "2026-10-23T12:06:39Z",
+            "url": "https://www.businessinsider.com/ai-stocks-down-coreweave-nvidia-meta-capex-spending-jensen-huang-2026-10#article",
+            "sentiment_score": 0.2438,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Authentication does not equal authorization: Are we asking passkeys to prove too much?",
+            "description": "Securing the login is only half the battle. Where passkeys end and real trust begins.",
+            "source": "TechRadar",
+            "published_at": "2026-10-23T11:10:01Z",
+            "url": "https://www.techradar.com/pro/authentication-does-not-equal-authorization-are-we-asking-passkeys-to-prove-too-much",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sensex today | Stock Market Highlights: Sensex, Nifty extend losses as crude surges to $114, all sectors close in red",
+            "description": "Sensex, Nifty, Share Prices Highlights: The domestic stock market continued its downward trend on Friday, with benchmark indices Sensex and Nifty 50 closing in the red amid selling pressure across sectors, rising crude oil prices and weak global cues.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-23T10:52:42Z",
+            "url": "https://www.thehindubusinessline.com/markets/sensex-nifty50-today-stock-market-highlights-23rd-october-2026/article71611889.ece",
+            "sentiment_score": -0.41,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "First Citizens BancShares Reports Third Quarter 2026 Earnings, Announces Additional Share Repurchase Plan",
@@ -2338,150 +2578,10 @@
             "url": "https://economictimes.indiatimes.com/markets/stocks/news/nippon-silver-etf-other-silver-etfs-slide-up-to-4-as-silver-prices-tumble-heres-why/articleshow/135137769.cms",
             "sentiment_score": 0.1264,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years",
-            "description": "Investor shift towards safety amid AI spending concerns highlights a preference for stability over growth, impacting global market dynamics.\nThe post Asian shares wobble as AI spending fears spark biggest Treasury rally in over three years appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T06:14:16Z",
-            "url": "https://cryptobriefing.com/asian-shares-tech-rout-treasuries-rally/",
-            "sentiment_score": 0.438,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "AI Had Better Work Out",
-            "description": "If you liked this piece, you should subscribe to my premium newsletter, and you can subscribe on the following links: $70 a year, $18 a quarter, or $7 a month.\n\nIn return, you get a weekly premium newsletter that dives deep into the finances of the AI bubble.…",
-            "source": "Wheresyoured.at",
-            "published_at": "2026-10-23T05:47:01Z",
-            "url": "https://www.wheresyoured.at/ai-had-better-work-out/",
-            "sentiment_score": 0.4347,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold price falls Rs 1,500/10g; silver plunges Rs 7,000/kg as soaring oil fuels rate hike bets. Time to sell?",
-            "description": "Gold and silver prices fall on the MCX as rising oil prices fuel inflation concerns and expectations of higher interest rates for longer. Investors track the US Federal Reserve meeting, dollar movements and geopolitical tensions for cues on precious metals.",
-            "source": "The Times of India",
-            "published_at": "2026-10-23T05:39:32Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-falls-rs-1500/10g-silver-plunges-rs-7000/kg-as-soaring-oil-fuels-rate-hike-bets-time-to-sell/articleshow/135135987.cms",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump is about to discover the political cost of inflation",
-            "description": "US president’s approval rating has crashed in tandem with the squeeze on households",
-            "source": "The Irish Times",
-            "published_at": "2026-10-23T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/economy/2026/10/23/trump-is-about-to-discover-the-political-cost-of-inflation/",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Alkane Resources Shares Slide Nearly 10% Despite Steady Gold Output as Bullion Slump Hits ASX Gold Miners",
-            "description": "Alkane Resources shares fell nearly 10% as weaker gold prices outweighed steady September-quarter production, lower costs, strong cash generation and reaffirmed fiscal 2027 guidance.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:43:03Z",
-            "url": "https://www.ibtimes.com.au/alkane-resources-shares-fall-gold-prices-1877242",
-            "sentiment_score": 0.238,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Corruption: A glass half-empty or half-full, the Milos hotel findings and a promotion, Telis and the US investigators, Skyline property sales surge",
-            "description": "Fresh corruption scandals raise questions about accountability in Greece, while a report identifies planning irregularities at a luxury hotel on Milos. US authorities investigate possible Iran-related links involving Aegean Baltic Bank, the Skyline property p…",
-            "source": "Protothema.gr",
-            "published_at": "2026-10-23T04:42:45Z",
-            "url": "https://en.protothema.gr/2026/10/23/corruption-a-glass-half-empty-or-half-full-the-milos-hotel-findings-and-a-promotion-telis-and-the-us-investigators-skyline-property-sales-surge/",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Ora Banda Mining Shares Tumble 15% as Gold Hits Two-Month Low and Sell-Off Sweeps Australian Gold Producers",
-            "description": "Ora Banda Mining shares fell 14.7% after gold prices dropped to a two-month low, weighing on Australian gold miners and raising concerns about interest rates and margins.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:41:25Z",
-            "url": "https://www.ibtimes.com.au/ora-banda-shares-fall-gold-prices-two-month-low-1877244",
-            "sentiment_score": 0.1611,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern Cross Gold Shares Drop 9% as Falling Gold Price Weighs on Victorian Explorer Despite High-Grade Hits",
-            "description": "Southern Cross Gold shares dropped 9.07% as gold fell to a two-month low, weighing on Australian mining stocks despite continued high-grade drilling results at Sunday Creek.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-23T04:38:03Z",
-            "url": "https://www.ibtimes.com.au/southern-cross-gold-shares-fall-gold-price-1877240",
-            "sentiment_score": -0.0819,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold heads for steep weekly loss as oil prices fuel Fed rate concerns",
-            "description": "Spot gold eased 0.2% ‌to $4,016.27 per ounce by 0351 GMT, paring losses slightly after touching its lowest level since July 20 earlier ‌in the session",
-            "source": "BusinessLine",
-            "published_at": "2026-10-23T04:27:07Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-heads-for-steep-weekly-loss-as-oil-prices-fuel-fed-rate-concerns/article71614534.ece",
-            "sentiment_score": -0.3657,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 23 October: Check retail rates of 24K, 22K gold, 999 silver in Delhi, Mumbai and Kolkata",
-            "description": "Gold and silver prices today, 23 October: Check the latest 24K, 22K gold and 999 silver retail rates across Delhi, Mumbai, Kolkata and other major Indian cities, along with MCX market updates.",
-            "source": "Livemint",
-            "published_at": "2026-10-23T04:12:45Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-23-october-check-retail-rates-of-24k-22k-gold-999-silver-in-delhi-mumbai-and-kolkata-11792724167958.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Abolition Manifesto’s Dedication and Preface",
-            "description": "Dedication To the memory of my parents and the millions who suffered under the tyranny of totalitarian governments, and to all Americans who deserve to live in a country where individual liberty, personal responsibility, sound money, peace, voluntary cooperat…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-10-23T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/10/no_author/the-abolition-manifestos-dedication-and-preface/",
-            "sentiment_score": 0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump’s tariffs and the American economy",
-            "description": "By Tom WaltonTariffs are neither the great destroyers the Democrats claim nor the great builders that Trump claims.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-10-23T04:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/10/trump-s-tariffs-and-the-american-economy/",
-            "sentiment_score": -0.1792,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Apple’s foldable iPhone Duo launches in China, delivery into 2027",
-            "description": "Apple's foldable iPhone Duo launch in China may boost market sentiment but faces challenges from supply chain issues and economic conditions.\nThe post Apple’s foldable iPhone Duo launches in China, delivery into 2027 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-23T03:03:51Z",
-            "url": "https://cryptobriefing.com/apples-foldable-iphone-duo-launches-in-china-delivery-into-2027/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Asian shares slip as tech rout boosts bonds, dents rate hike bets",
-            "description": "MSCI's broadest index of Asia-Pacific shares excluding Japan fell 0.3% on Friday, bringing its weekly loss to 2.7% and marking a fourth straight week in the red",
-            "source": "Business Standard",
-            "published_at": "2026-10-23T02:30:52Z",
-            "url": "https://www.business-standard.com/markets/news/asian-shares-slip-as-tech-rout-boosts-bonds-dents-rate-hike-bets-126102300074_1.html",
-            "sentiment_score": 0.4403,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": -0.0546,
+      "net_score": -0.0203,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2512,6 +2612,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-24T10:44:38.619936+00:00"
+    "generated_at": "2026-10-24T14:24:41.374311+00:00"
   }
 ]
