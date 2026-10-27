@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0911,
+        "average_score": 0.2111,
         "label": "บวกเล็กน้อย",
-        "article_count": 9,
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "RBI rate hikes: How short-duration funds and high-quality corporate bonds can protect your debt portfolio",
+            "description": "Investors must position fixed income portfolio for further rate hikes. But this cycle may look different.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/rbi-rate-hikes-how-short-duration-funds-and-high-quality-corporate-bonds-can-protect-your-debt-portfolio/articleshow/135161665.cms",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Asian shares make cautious start, Brent eases from six-month high",
+            "description": "SYDNEY, Oct 26 : Share markets got off to a cautious start on Monday as oil eased from six-month highs ahead of a week packed with central bank meetings and company earnings that will further test investor confidence in the AI boom.Brent oil slipped 1.0 per c…",
+            "source": "CNA",
+            "published_at": "2026-10-26T00:46:33Z",
+            "url": "https://www.channelnewsasia.com/business/asian-shares-make-cautious-start-brent-eases-six-month-high-6491806",
+            "sentiment_score": 0.5566,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "EUR",
             "title": "Fed, ECB Expected To Hold Rates Next Week, But December Hikes Still In Play Fed, ECB Expected To Hold Rates…",
@@ -59,54 +79,114 @@
             "url": "https://www.americanthinker.com/articles/2026/10/france-in-a-chokehold-now-even-a-gasoline-shortage-looms/",
             "sentiment_score": -0.2595,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Piero Cipollone: Interview with Milano Finanza",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-24T06:00:00Z",
-            "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261024~ee2ba73cf3.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "As Donald Trump weighs up options, could inflation be about to get worse?",
-            "description": "Reports of US escalation plan in Iran send oil prices up again",
-            "source": "The Irish Times",
-            "published_at": "2026-10-24T05:00:01Z",
-            "url": "https://www.irishtimes.com/business/2026/10/24/as-donald-trump-weighs-up-options-could-inflation-be-about-to-get-worse/",
-            "sentiment_score": -0.3337,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "David McWilliams: France is likely heading towards ECB support and a Marine Le Pen presidency",
-            "description": "The country is being pushed closer to the once-unthinkable possibility of bankruptcy",
-            "source": "The Irish Times",
-            "published_at": "2026-10-24T05:00:00Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/24/france-is-likely-heading-towards-ecb-support-and-a-marine-le-pen-presidency/",
-            "sentiment_score": 0.2813,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "5 world market themes for the week ahead",
-            "description": "An important week is upcoming with central banks like the Federal Reserve and European Central Bank making policy decisions. Major companies, including Alphabet, Amazon, and Microsoft, are set to report their earnings. Political events are also significant, w…",
-            "source": "The Times of India",
-            "published_at": "2026-10-24T03:42:42Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/5-world-market-themes-for-the-week-ahead/articleshow/135161184.cms",
-            "sentiment_score": 0.2101,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0085,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.054,
+        "label": "บวกเล็กน้อย",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold lingers near three-month low ahead of Fed policy meeting",
+            "description": "Gold prices dipped close to a three-month low, reflecting worries from investors as the Federal Reserve meeting approaches. While an interest rate hike appears more likely for December, this week’s chances remain low. In the oil market, prices fell back after…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:54:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-lingers-near-three-month-low-ahead-of-fed-policy-meeting/articleshow/135200563.cms",
+            "sentiment_score": -0.28,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed expected to pause rate hikes ahead of US midterms",
+            "description": "The US Federal Reserve's upcoming meeting is expected to result in steady interest rates. High inflation continues to challenge economic policies, with rates anticipated to rise later this year. The Federal Open Market Committee will analyze data amidst polit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:44:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-expected-to-pause-rate-hikes-ahead-of-us-midterms/articleshow/135200484.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Crude prices fall from six-month highs; WTI stands at $101 per barrel, Brent costs $115",
+            "description": "Oil prices experienced a decline of over 1% after hitting six-month peaks, primarily due to geopolitical unrest in Saudi Arabia. Currently, Brent crude fluctuates around $115 per barrel, and WTI at $101.5 per barrel. The threat to energy exports and infrastru…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:43:49Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-fall-from-six-month-highs-wti-stands-at-101-per-barrel-brent-costs-115/articleshow/135200402.cms",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Growth Stocks With Up To 66% Earnings Growth",
+            "description": "Energy costs are back in focus as the Federal Reserve weighs interest rates with inflation still above target and oil prices influenced by geopolitical risks. Higher input costs can squeeze weaker firms. Stronger businesses with healthy balance sheets and sol…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-26T01:10:54Z",
+            "url": "https://biztoc.com/x/1b5f8c242ce9ceb3",
+            "sentiment_score": 0.6437,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes: How short-duration funds and high-quality corporate bonds can protect your debt portfolio",
+            "description": "Investors must position fixed income portfolio for further rate hikes. But this cycle may look different.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/rbi-rate-hikes-how-short-duration-funds-and-high-quality-corporate-bonds-can-protect-your-debt-portfolio/articleshow/135161665.cms",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares make cautious start, Brent eases from six-month high",
+            "description": "SYDNEY, Oct 26 : Share markets got off to a cautious start on Monday as oil eased from six-month highs ahead of a week packed with central bank meetings and company earnings that will further test investor confidence in the AI boom.Brent oil slipped 1.0 per c…",
+            "source": "CNA",
+            "published_at": "2026-10-26T00:46:33Z",
+            "url": "https://www.channelnewsasia.com/business/asian-shares-make-cautious-start-brent-eases-six-month-high-6491806",
+            "sentiment_score": 0.5566,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slip as AI jitters deepen ahead of big tech earnings",
+            "description": "MSCI Inc.’s Asia Pacific equities gauge fell 0.2% ahead of this season’s busiest earnings week in Asia. US equity-index futures erased earlier gains and traded little changed.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:44:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-slip-as-ai-jitters-deepen-ahead-of-big-tech-earnings/articleshow/135200167.cms",
+            "sentiment_score": 0.3092,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Benchmark indices experienced a decline on Friday due to high Brent crude oil prices and global market weakness. Nifty was noted to face immediate resistance at 22,850 levels, with previous week's high acting as a hurdle. The rupee fell against the dollar for…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/135199481.cms",
+            "sentiment_score": -0.1758,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Air Force One passengers reveal Trump’s inner circle and who is ‘whispering in his ear and talking softly in private quarters’",
+            "description": "Along for the ride: an entourage ranging from aging boxing champions to Cabinet members to relatively unknown aides who help craft Trump's words and ideas.",
+            "source": "Fortune",
+            "published_at": "2026-10-25T23:26:51Z",
+            "url": "https://fortune.com/2026/10/25/air-force-one-passengers-trump-inner-circle-susie-wiles-miller-lutnick-bessent-pulte-natalie-harp/",
+            "sentiment_score": 0.2181,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market prediction: S&P 500, Nasdaq, Dow Jones look to rebound as Wall Street investors set to be driven by a few factors, top stocks to follow",
+            "description": "US Stock Market today: Investors also have their focus trained on the US midterm elections on November 3, with growing bets that the Democrats will wrest control of the US Congress away from President Donald Trump's Republican party.",
+            "source": "The Times of India",
+            "published_at": "2026-10-25T23:16:08Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-prediction-sp-500-nasdaq-dow-jones-look-to-rebound-as-wall-street-investors-set-to-be-driven-by-a-few-factors-top-stocks-to-follow/articleshow/135199387.cms",
+            "sentiment_score": 0.2996,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed expected to hold rates steady this week despite hot inflation — but signal they're not done hiking",
@@ -306,117 +386,27 @@
             "url": "https://www.salon.com/2026/10/25/us-inequality-is-getting-worse-in-ways-you-might-not-expect-partner/",
             "sentiment_score": -0.3337,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 US Defensive Dividend Stocks To Steady A Rate Sensitive Portfolio",
-            "description": "Rate headlines keep whipsawing between sticky inflation, shaky consumer confidence and a Federal Reserve that is still weighing another hike, and that mix has many investors rethinking how much risk they really want to carry. Defensive dividend payers suddenl…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:19Z",
-            "url": "https://biztoc.com/x/cd8935f974c01f44",
-            "sentiment_score": 0.0926,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "3 High Quality Stocks With ROE Over 30%",
-            "description": "Higher interest rates are pressuring weaker balance sheets, while the Federal Reserve is signalling a pause as it weighs any potential December hike. That breathing space shifts attention to companies that already earn high returns on shareholder capital and …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:02Z",
-            "url": "https://biztoc.com/x/7e6b4c047ae2422d",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
-            "description": "As Dalal Street braces for a pivotal week, key earnings reports and the impending US Federal Reserve interest rate decision are grabbing attention. Investors are eagerly anticipating the September industrial production and manufacturing figures, set to be rel…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T07:25:56Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-meeting-crude-more-top-cues-guiding-dalal-street-this-week/articleshow/135185867.cms",
-            "sentiment_score": -0.0661,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations",
-            "description": "Michigan's final October survey shows rising inflation expectations ahead of the Fed's next meeting, adding a complication for Bitcoin's macro outlook.",
-            "source": "newsBTC",
-            "published_at": "2026-10-25T07:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-fed-week-us-inflation-expectations-october-2026/",
-            "sentiment_score": 0.2227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw Rs 48,056 cr from equities in Oct so far amid elevated crude oil prices",
-            "description": "Foreign investors withdrew significant funds from Indian equities in October amid concerns over inflation and crude oil prices. Despite this, there were signs of moderation in selling with two days of net buying. The overall FPI outflows from equities in 2026…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T06:33:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-48056-cr-from-equities-in-oct-so-far-amid-elevated-crude-oil-prices/articleshow/135185267.cms",
-            "sentiment_score": -0.5324,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
-            "description": "However, Foreign Portfolio Investors (FPIs) significantly moderated their selling last week and turned net buyers on two trading days, signalling some easing in selling pressure",
-            "source": "Business Standard",
-            "published_at": "2026-10-25T06:25:47Z",
-            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-48-056-crore-from-equities-in-oct-amid-elevated-oil-prices-126102500122_1.html",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed expected to hold rates steady days ahead of US midterms",
-            "description": "The U.S. Federal Reserve appears set to hold interest rates steady at its meeting next week, analysts say, despite stubbornly high inflation and with markets pricing in at least one rate hike before year-end.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-25T06:23:00Z",
-            "url": "https://www.hurriyetdailynews.com/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms-228553",
-            "sentiment_score": 0.1851,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How central bankers spend their time",
-            "description": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, conta…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T05:46:01Z",
-            "url": "https://biztoc.com/x/ead51bd7ff024bff",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 25 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
-            "description": "Gold, silver prices today, 25 October: Check the retail price of 18K, 22K and 24K gold and 999 Fine silver in Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, and Mumbai today.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-25T05:06:58Z",
-            "url": "https://www.livemint.com/money/gold-silver-prices-today-25-october-retail-rates-24k-22k-18k-999-silver-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-11792901342696.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0996,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.1571,
+      "bias": "เอียงบวกต่อ EUR (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.11769,
+      "price_now": 1.11719,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 37.0,
-      "rsi_signal": "โซนกลาง (RSI=37.0)",
+      "rsi_value": 34.6,
+      "rsi_signal": "โซนกลาง (RSI=34.6)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00083,
-      "suggested_sl_distance": 0.00125,
+      "atr_value": 0.00085,
+      "suggested_sl_distance": 0.00128,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -428,9 +418,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=34.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-26T22:33:45.081246+00:00"
+    "generated_at": "2026-10-27T01:57:35.184009+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -439,9 +429,9 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0999,
-        "label": "บวกเล็กน้อย",
-        "article_count": 5,
+        "average_score": 0.3337,
+        "label": "บวกชัดเจน (Bullish)",
+        "article_count": 1,
         "scored_articles": [
           {
             "currency": "GBP",
@@ -452,54 +442,114 @@
             "url": "https://biztoc.com/x/252de9dfd0ca9c10",
             "sentiment_score": 0.3337,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "MAIL ON SUNDAY COMMENT: A victory for common sense in the battle with eco-zealots",
-            "description": "It is very welcome news that - as we report today - Premier Andy Burnham and Chancellor John Healey have decided to give the go-ahead to the Rosebank oil and gas field in the North Sea.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-24T23:34:12Z",
-            "url": "https://www.dailymail.com/debate/article-16236203/MAIL-SUNDAY-COMMENT-victory-common-sense-battle-eco-zealots.html",
-            "sentiment_score": -0.1144,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Liz Truss insists her radical mini-Budget measures WOULD have worked",
-            "description": "Liz Truss uses a new book to claim the radical measures she tried to introduce in her 2022 mini-Budget would have left the public finances in a better state than they are now under Mr Burnham.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-24T21:22:02Z",
-            "url": "https://www.dailymail.com/news/article-16236239/Liz-Truss-radical-mini-Budget-measures-worked.html",
-            "sentiment_score": 0.1321,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Flashback: The Birth of CBDCs",
-            "description": "A man from Virginia, who facilitated millions of drug transactions worth roughly $430 million, agreed to give up $100 million worth of BTC. His partner forfeited nearly 1,600 BTC. A co-creator of dark web drug enterprise Empire Market agreed to forfeit 1,230 …",
-            "source": "Activistpost.com",
-            "published_at": "2026-10-24T16:05:00Z",
-            "url": "https://activistpost.com/flashback-the-birth-of-cbdcs/",
-            "sentiment_score": 0.2155,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Burnham's ex-adviser says he risks Truss-style crisis if public spending is not slashed - and calls Budget plans for a £2bn tax raid on banks 'delusional'",
-            "description": "Andy Haldane cautioned the PM his Government risked delivering a 'manana' Autumn Budget which does not 'speak to the urgency of now' and delays decisions on public spending.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-24T00:02:05Z",
-            "url": "https://www.dailymail.com/news/article-16234699/Burnhams-adviser-risks-Truss-style-crisis-public-spending-slashed-Budget-2bn-tax-raid-delusional.html",
-            "sentiment_score": -0.5397,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0085,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.054,
+        "label": "บวกเล็กน้อย",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold lingers near three-month low ahead of Fed policy meeting",
+            "description": "Gold prices dipped close to a three-month low, reflecting worries from investors as the Federal Reserve meeting approaches. While an interest rate hike appears more likely for December, this week’s chances remain low. In the oil market, prices fell back after…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:54:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-lingers-near-three-month-low-ahead-of-fed-policy-meeting/articleshow/135200563.cms",
+            "sentiment_score": -0.28,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed expected to pause rate hikes ahead of US midterms",
+            "description": "The US Federal Reserve's upcoming meeting is expected to result in steady interest rates. High inflation continues to challenge economic policies, with rates anticipated to rise later this year. The Federal Open Market Committee will analyze data amidst polit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:44:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-expected-to-pause-rate-hikes-ahead-of-us-midterms/articleshow/135200484.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Crude prices fall from six-month highs; WTI stands at $101 per barrel, Brent costs $115",
+            "description": "Oil prices experienced a decline of over 1% after hitting six-month peaks, primarily due to geopolitical unrest in Saudi Arabia. Currently, Brent crude fluctuates around $115 per barrel, and WTI at $101.5 per barrel. The threat to energy exports and infrastru…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:43:49Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-fall-from-six-month-highs-wti-stands-at-101-per-barrel-brent-costs-115/articleshow/135200402.cms",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Growth Stocks With Up To 66% Earnings Growth",
+            "description": "Energy costs are back in focus as the Federal Reserve weighs interest rates with inflation still above target and oil prices influenced by geopolitical risks. Higher input costs can squeeze weaker firms. Stronger businesses with healthy balance sheets and sol…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-26T01:10:54Z",
+            "url": "https://biztoc.com/x/1b5f8c242ce9ceb3",
+            "sentiment_score": 0.6437,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes: How short-duration funds and high-quality corporate bonds can protect your debt portfolio",
+            "description": "Investors must position fixed income portfolio for further rate hikes. But this cycle may look different.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/rbi-rate-hikes-how-short-duration-funds-and-high-quality-corporate-bonds-can-protect-your-debt-portfolio/articleshow/135161665.cms",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares make cautious start, Brent eases from six-month high",
+            "description": "SYDNEY, Oct 26 : Share markets got off to a cautious start on Monday as oil eased from six-month highs ahead of a week packed with central bank meetings and company earnings that will further test investor confidence in the AI boom.Brent oil slipped 1.0 per c…",
+            "source": "CNA",
+            "published_at": "2026-10-26T00:46:33Z",
+            "url": "https://www.channelnewsasia.com/business/asian-shares-make-cautious-start-brent-eases-six-month-high-6491806",
+            "sentiment_score": 0.5566,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slip as AI jitters deepen ahead of big tech earnings",
+            "description": "MSCI Inc.’s Asia Pacific equities gauge fell 0.2% ahead of this season’s busiest earnings week in Asia. US equity-index futures erased earlier gains and traded little changed.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:44:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-slip-as-ai-jitters-deepen-ahead-of-big-tech-earnings/articleshow/135200167.cms",
+            "sentiment_score": 0.3092,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Benchmark indices experienced a decline on Friday due to high Brent crude oil prices and global market weakness. Nifty was noted to face immediate resistance at 22,850 levels, with previous week's high acting as a hurdle. The rupee fell against the dollar for…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/135199481.cms",
+            "sentiment_score": -0.1758,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Air Force One passengers reveal Trump’s inner circle and who is ‘whispering in his ear and talking softly in private quarters’",
+            "description": "Along for the ride: an entourage ranging from aging boxing champions to Cabinet members to relatively unknown aides who help craft Trump's words and ideas.",
+            "source": "Fortune",
+            "published_at": "2026-10-25T23:26:51Z",
+            "url": "https://fortune.com/2026/10/25/air-force-one-passengers-trump-inner-circle-susie-wiles-miller-lutnick-bessent-pulte-natalie-harp/",
+            "sentiment_score": 0.2181,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market prediction: S&P 500, Nasdaq, Dow Jones look to rebound as Wall Street investors set to be driven by a few factors, top stocks to follow",
+            "description": "US Stock Market today: Investors also have their focus trained on the US midterm elections on November 3, with growing bets that the Democrats will wrest control of the US Congress away from President Donald Trump's Republican party.",
+            "source": "The Times of India",
+            "published_at": "2026-10-25T23:16:08Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-prediction-sp-500-nasdaq-dow-jones-look-to-rebound-as-wall-street-investors-set-to-be-driven-by-a-few-factors-top-stocks-to-follow/articleshow/135199387.cms",
+            "sentiment_score": 0.2996,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed expected to hold rates steady this week despite hot inflation — but signal they're not done hiking",
@@ -699,117 +749,27 @@
             "url": "https://www.salon.com/2026/10/25/us-inequality-is-getting-worse-in-ways-you-might-not-expect-partner/",
             "sentiment_score": -0.3337,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 US Defensive Dividend Stocks To Steady A Rate Sensitive Portfolio",
-            "description": "Rate headlines keep whipsawing between sticky inflation, shaky consumer confidence and a Federal Reserve that is still weighing another hike, and that mix has many investors rethinking how much risk they really want to carry. Defensive dividend payers suddenl…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:19Z",
-            "url": "https://biztoc.com/x/cd8935f974c01f44",
-            "sentiment_score": 0.0926,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "3 High Quality Stocks With ROE Over 30%",
-            "description": "Higher interest rates are pressuring weaker balance sheets, while the Federal Reserve is signalling a pause as it weighs any potential December hike. That breathing space shifts attention to companies that already earn high returns on shareholder capital and …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:02Z",
-            "url": "https://biztoc.com/x/7e6b4c047ae2422d",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
-            "description": "As Dalal Street braces for a pivotal week, key earnings reports and the impending US Federal Reserve interest rate decision are grabbing attention. Investors are eagerly anticipating the September industrial production and manufacturing figures, set to be rel…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T07:25:56Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-meeting-crude-more-top-cues-guiding-dalal-street-this-week/articleshow/135185867.cms",
-            "sentiment_score": -0.0661,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations",
-            "description": "Michigan's final October survey shows rising inflation expectations ahead of the Fed's next meeting, adding a complication for Bitcoin's macro outlook.",
-            "source": "newsBTC",
-            "published_at": "2026-10-25T07:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-fed-week-us-inflation-expectations-october-2026/",
-            "sentiment_score": 0.2227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw Rs 48,056 cr from equities in Oct so far amid elevated crude oil prices",
-            "description": "Foreign investors withdrew significant funds from Indian equities in October amid concerns over inflation and crude oil prices. Despite this, there were signs of moderation in selling with two days of net buying. The overall FPI outflows from equities in 2026…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T06:33:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-48056-cr-from-equities-in-oct-so-far-amid-elevated-crude-oil-prices/articleshow/135185267.cms",
-            "sentiment_score": -0.5324,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
-            "description": "However, Foreign Portfolio Investors (FPIs) significantly moderated their selling last week and turned net buyers on two trading days, signalling some easing in selling pressure",
-            "source": "Business Standard",
-            "published_at": "2026-10-25T06:25:47Z",
-            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-48-056-crore-from-equities-in-oct-amid-elevated-oil-prices-126102500122_1.html",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed expected to hold rates steady days ahead of US midterms",
-            "description": "The U.S. Federal Reserve appears set to hold interest rates steady at its meeting next week, analysts say, despite stubbornly high inflation and with markets pricing in at least one rate hike before year-end.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-25T06:23:00Z",
-            "url": "https://www.hurriyetdailynews.com/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms-228553",
-            "sentiment_score": 0.1851,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How central bankers spend their time",
-            "description": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, conta…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T05:46:01Z",
-            "url": "https://biztoc.com/x/ead51bd7ff024bff",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 25 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
-            "description": "Gold, silver prices today, 25 October: Check the retail price of 18K, 22K and 24K gold and 999 Fine silver in Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, and Mumbai today.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-25T05:06:58Z",
-            "url": "https://www.livemint.com/money/gold-silver-prices-today-25-october-retail-rates-24k-22k-18k-999-silver-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-11792901342696.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1084,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": 0.2797,
+      "bias": "เอียงบวกต่อ GBP (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.33417,
+      "price_now": 1.33396,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 39.5,
-      "rsi_signal": "โซนกลาง (RSI=39.5)",
+      "rsi_value": 38.8,
+      "rsi_signal": "โซนกลาง (RSI=38.8)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00094,
-      "suggested_sl_distance": 0.0014,
+      "atr_value": 0.00097,
+      "suggested_sl_distance": 0.00145,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -823,7 +783,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-10-26T22:33:45.081246+00:00"
+    "generated_at": "2026-10-27T01:57:35.184009+00:00"
   },
   {
     "pair": "USDJPY",
@@ -832,10 +792,110 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0085,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.054,
+        "label": "บวกเล็กน้อย",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold lingers near three-month low ahead of Fed policy meeting",
+            "description": "Gold prices dipped close to a three-month low, reflecting worries from investors as the Federal Reserve meeting approaches. While an interest rate hike appears more likely for December, this week’s chances remain low. In the oil market, prices fell back after…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:54:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-lingers-near-three-month-low-ahead-of-fed-policy-meeting/articleshow/135200563.cms",
+            "sentiment_score": -0.28,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed expected to pause rate hikes ahead of US midterms",
+            "description": "The US Federal Reserve's upcoming meeting is expected to result in steady interest rates. High inflation continues to challenge economic policies, with rates anticipated to rise later this year. The Federal Open Market Committee will analyze data amidst polit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:44:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-expected-to-pause-rate-hikes-ahead-of-us-midterms/articleshow/135200484.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Crude prices fall from six-month highs; WTI stands at $101 per barrel, Brent costs $115",
+            "description": "Oil prices experienced a decline of over 1% after hitting six-month peaks, primarily due to geopolitical unrest in Saudi Arabia. Currently, Brent crude fluctuates around $115 per barrel, and WTI at $101.5 per barrel. The threat to energy exports and infrastru…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:43:49Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-fall-from-six-month-highs-wti-stands-at-101-per-barrel-brent-costs-115/articleshow/135200402.cms",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Growth Stocks With Up To 66% Earnings Growth",
+            "description": "Energy costs are back in focus as the Federal Reserve weighs interest rates with inflation still above target and oil prices influenced by geopolitical risks. Higher input costs can squeeze weaker firms. Stronger businesses with healthy balance sheets and sol…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-26T01:10:54Z",
+            "url": "https://biztoc.com/x/1b5f8c242ce9ceb3",
+            "sentiment_score": 0.6437,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes: How short-duration funds and high-quality corporate bonds can protect your debt portfolio",
+            "description": "Investors must position fixed income portfolio for further rate hikes. But this cycle may look different.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/rbi-rate-hikes-how-short-duration-funds-and-high-quality-corporate-bonds-can-protect-your-debt-portfolio/articleshow/135161665.cms",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares make cautious start, Brent eases from six-month high",
+            "description": "SYDNEY, Oct 26 : Share markets got off to a cautious start on Monday as oil eased from six-month highs ahead of a week packed with central bank meetings and company earnings that will further test investor confidence in the AI boom.Brent oil slipped 1.0 per c…",
+            "source": "CNA",
+            "published_at": "2026-10-26T00:46:33Z",
+            "url": "https://www.channelnewsasia.com/business/asian-shares-make-cautious-start-brent-eases-six-month-high-6491806",
+            "sentiment_score": 0.5566,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slip as AI jitters deepen ahead of big tech earnings",
+            "description": "MSCI Inc.’s Asia Pacific equities gauge fell 0.2% ahead of this season’s busiest earnings week in Asia. US equity-index futures erased earlier gains and traded little changed.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:44:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-slip-as-ai-jitters-deepen-ahead-of-big-tech-earnings/articleshow/135200167.cms",
+            "sentiment_score": 0.3092,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Benchmark indices experienced a decline on Friday due to high Brent crude oil prices and global market weakness. Nifty was noted to face immediate resistance at 22,850 levels, with previous week's high acting as a hurdle. The rupee fell against the dollar for…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/135199481.cms",
+            "sentiment_score": -0.1758,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Air Force One passengers reveal Trump’s inner circle and who is ‘whispering in his ear and talking softly in private quarters’",
+            "description": "Along for the ride: an entourage ranging from aging boxing champions to Cabinet members to relatively unknown aides who help craft Trump's words and ideas.",
+            "source": "Fortune",
+            "published_at": "2026-10-25T23:26:51Z",
+            "url": "https://fortune.com/2026/10/25/air-force-one-passengers-trump-inner-circle-susie-wiles-miller-lutnick-bessent-pulte-natalie-harp/",
+            "sentiment_score": 0.2181,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market prediction: S&P 500, Nasdaq, Dow Jones look to rebound as Wall Street investors set to be driven by a few factors, top stocks to follow",
+            "description": "US Stock Market today: Investors also have their focus trained on the US midterm elections on November 3, with growing bets that the Democrats will wrest control of the US Congress away from President Donald Trump's Republican party.",
+            "source": "The Times of India",
+            "published_at": "2026-10-25T23:16:08Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-prediction-sp-500-nasdaq-dow-jones-look-to-rebound-as-wall-street-investors-set-to-be-driven-by-a-few-factors-top-stocks-to-follow/articleshow/135199387.cms",
+            "sentiment_score": 0.2996,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed expected to hold rates steady this week despite hot inflation — but signal they're not done hiking",
@@ -1035,104 +1095,34 @@
             "url": "https://www.salon.com/2026/10/25/us-inequality-is-getting-worse-in-ways-you-might-not-expect-partner/",
             "sentiment_score": -0.3337,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 US Defensive Dividend Stocks To Steady A Rate Sensitive Portfolio",
-            "description": "Rate headlines keep whipsawing between sticky inflation, shaky consumer confidence and a Federal Reserve that is still weighing another hike, and that mix has many investors rethinking how much risk they really want to carry. Defensive dividend payers suddenl…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:19Z",
-            "url": "https://biztoc.com/x/cd8935f974c01f44",
-            "sentiment_score": 0.0926,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "3 High Quality Stocks With ROE Over 30%",
-            "description": "Higher interest rates are pressuring weaker balance sheets, while the Federal Reserve is signalling a pause as it weighs any potential December hike. That breathing space shifts attention to companies that already earn high returns on shareholder capital and …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:02Z",
-            "url": "https://biztoc.com/x/7e6b4c047ae2422d",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
-            "description": "As Dalal Street braces for a pivotal week, key earnings reports and the impending US Federal Reserve interest rate decision are grabbing attention. Investors are eagerly anticipating the September industrial production and manufacturing figures, set to be rel…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T07:25:56Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-meeting-crude-more-top-cues-guiding-dalal-street-this-week/articleshow/135185867.cms",
-            "sentiment_score": -0.0661,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations",
-            "description": "Michigan's final October survey shows rising inflation expectations ahead of the Fed's next meeting, adding a complication for Bitcoin's macro outlook.",
-            "source": "newsBTC",
-            "published_at": "2026-10-25T07:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-fed-week-us-inflation-expectations-october-2026/",
-            "sentiment_score": 0.2227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw Rs 48,056 cr from equities in Oct so far amid elevated crude oil prices",
-            "description": "Foreign investors withdrew significant funds from Indian equities in October amid concerns over inflation and crude oil prices. Despite this, there were signs of moderation in selling with two days of net buying. The overall FPI outflows from equities in 2026…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T06:33:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-48056-cr-from-equities-in-oct-so-far-amid-elevated-crude-oil-prices/articleshow/135185267.cms",
-            "sentiment_score": -0.5324,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
-            "description": "However, Foreign Portfolio Investors (FPIs) significantly moderated their selling last week and turned net buyers on two trading days, signalling some easing in selling pressure",
-            "source": "Business Standard",
-            "published_at": "2026-10-25T06:25:47Z",
-            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-48-056-crore-from-equities-in-oct-amid-elevated-oil-prices-126102500122_1.html",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed expected to hold rates steady days ahead of US midterms",
-            "description": "The U.S. Federal Reserve appears set to hold interest rates steady at its meeting next week, analysts say, despite stubbornly high inflation and with markets pricing in at least one rate hike before year-end.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-25T06:23:00Z",
-            "url": "https://www.hurriyetdailynews.com/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms-228553",
-            "sentiment_score": 0.1851,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How central bankers spend their time",
-            "description": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, conta…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T05:46:01Z",
-            "url": "https://biztoc.com/x/ead51bd7ff024bff",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 25 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
-            "description": "Gold, silver prices today, 25 October: Check the retail price of 18K, 22K and 24K gold and 999 Fine silver in Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, and Mumbai today.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-25T05:06:58Z",
-            "url": "https://www.livemint.com/money/gold-silver-prices-today-25-october-retail-rates-24k-22k-18k-999-silver-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-11792901342696.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1814,
-        "label": "บวกเล็กน้อย",
-        "article_count": 4,
+        "average_score": 0.3307,
+        "label": "บวกชัดเจน (Bullish)",
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Asian shares make cautious start, Brent eases from six-month high",
+            "description": "SYDNEY, Oct 26 : Share markets got off to a cautious start on Monday as oil eased from six-month highs ahead of a week packed with central bank meetings and company earnings that will further test investor confidence in the AI boom.Brent oil slipped 1.0 per c…",
+            "source": "CNA",
+            "published_at": "2026-10-26T00:46:33Z",
+            "url": "https://www.channelnewsasia.com/business/asian-shares-make-cautious-start-brent-eases-six-month-high-6491806",
+            "sentiment_score": 0.5566,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Global Market Today: Asian shares slip as AI jitters deepen ahead of big tech earnings",
+            "description": "MSCI Inc.’s Asia Pacific equities gauge fell 0.2% ahead of this season’s busiest earnings week in Asia. US equity-index futures erased earlier gains and traded little changed.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:44:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-slip-as-ai-jitters-deepen-ahead-of-big-tech-earnings/articleshow/135200167.cms",
+            "sentiment_score": 0.3092,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "JPY",
             "title": "Gold price today: Gold rate, silver price predictions by experts are out. Check here",
@@ -1162,20 +1152,10 @@
             "url": "https://biztoc.com/x/37cfb6a950ec3cb9",
             "sentiment_score": 0.3878,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "5 world market themes for the week ahead",
-            "description": "An important week is upcoming with central banks like the Federal Reserve and European Central Bank making policy decisions. Major companies, including Alphabet, Amazon, and Microsoft, are set to report their earnings. Political events are also significant, w…",
-            "source": "The Times of India",
-            "published_at": "2026-10-24T03:42:42Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/5-world-market-themes-for-the-week-ahead/articleshow/135161184.cms",
-            "sentiment_score": 0.2101,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.1899,
+      "net_score": -0.2767,
       "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1185,14 +1165,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 157.534,
+      "price_now": 157.67599,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 60.1,
-      "rsi_signal": "โซนกลาง (RSI=60.1)",
+      "rsi_value": 64.9,
+      "rsi_signal": "โซนกลาง (RSI=64.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.17871,
-      "suggested_sl_distance": 0.26807,
+      "atr_value": 0.18327,
+      "suggested_sl_distance": 0.2749,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1204,9 +1184,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=60.1) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=64.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-26T22:33:45.081246+00:00"
+    "generated_at": "2026-10-27T01:57:35.184009+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1215,10 +1195,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.3249,
+        "average_score": -0.4557,
         "label": "ลบชัดเจน (Bearish)",
         "article_count": 2,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Government Red Tape or Big Business Inaction: What the Data Reveals About Australia's Productivity Crisis",
+            "description": "RBA Deputy Governor Andrew Hauser says Australia's prolonged productivity weakness reflects both regulatory burdens and insufficient business investment in technology, capital and innovation.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-10-26T01:13:12Z",
+            "url": "https://www.ibtimes.com.au/rba-hauser-australia-productivity-crisis-red-tape-investment-1877369",
+            "sentiment_score": -0.6294,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "AUD",
             "title": "The economic outlook for 2027 is stark. Ordinary workers will wear the costs",
@@ -1228,24 +1218,114 @@
             "url": "https://www.abc.net.au/news/2026-10-26/economic-outlook-for-2027-feels-shaky/107299778",
             "sentiment_score": -0.1084,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Australia Petrol Prices Today: Oil Surges Past US$116 as Hormuz Attacks Threaten Fresh Pain at the Bowser",
-            "description": "Global oil prices have surged after increased attacks on shipping in the Strait of Hormuz, threatening to reverse recent petrol-price declines and intensify Australia's inflation pressures.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-10-24T06:25:36Z",
-            "url": "https://www.ibtimes.com.au/oil-surge-threatens-australian-petrol-prices-1877332",
-            "sentiment_score": -0.7579,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0085,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.054,
+        "label": "บวกเล็กน้อย",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold lingers near three-month low ahead of Fed policy meeting",
+            "description": "Gold prices dipped close to a three-month low, reflecting worries from investors as the Federal Reserve meeting approaches. While an interest rate hike appears more likely for December, this week’s chances remain low. In the oil market, prices fell back after…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:54:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-lingers-near-three-month-low-ahead-of-fed-policy-meeting/articleshow/135200563.cms",
+            "sentiment_score": -0.28,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed expected to pause rate hikes ahead of US midterms",
+            "description": "The US Federal Reserve's upcoming meeting is expected to result in steady interest rates. High inflation continues to challenge economic policies, with rates anticipated to rise later this year. The Federal Open Market Committee will analyze data amidst polit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:44:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-expected-to-pause-rate-hikes-ahead-of-us-midterms/articleshow/135200484.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Crude prices fall from six-month highs; WTI stands at $101 per barrel, Brent costs $115",
+            "description": "Oil prices experienced a decline of over 1% after hitting six-month peaks, primarily due to geopolitical unrest in Saudi Arabia. Currently, Brent crude fluctuates around $115 per barrel, and WTI at $101.5 per barrel. The threat to energy exports and infrastru…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:43:49Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-fall-from-six-month-highs-wti-stands-at-101-per-barrel-brent-costs-115/articleshow/135200402.cms",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Growth Stocks With Up To 66% Earnings Growth",
+            "description": "Energy costs are back in focus as the Federal Reserve weighs interest rates with inflation still above target and oil prices influenced by geopolitical risks. Higher input costs can squeeze weaker firms. Stronger businesses with healthy balance sheets and sol…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-26T01:10:54Z",
+            "url": "https://biztoc.com/x/1b5f8c242ce9ceb3",
+            "sentiment_score": 0.6437,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes: How short-duration funds and high-quality corporate bonds can protect your debt portfolio",
+            "description": "Investors must position fixed income portfolio for further rate hikes. But this cycle may look different.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/rbi-rate-hikes-how-short-duration-funds-and-high-quality-corporate-bonds-can-protect-your-debt-portfolio/articleshow/135161665.cms",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares make cautious start, Brent eases from six-month high",
+            "description": "SYDNEY, Oct 26 : Share markets got off to a cautious start on Monday as oil eased from six-month highs ahead of a week packed with central bank meetings and company earnings that will further test investor confidence in the AI boom.Brent oil slipped 1.0 per c…",
+            "source": "CNA",
+            "published_at": "2026-10-26T00:46:33Z",
+            "url": "https://www.channelnewsasia.com/business/asian-shares-make-cautious-start-brent-eases-six-month-high-6491806",
+            "sentiment_score": 0.5566,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slip as AI jitters deepen ahead of big tech earnings",
+            "description": "MSCI Inc.’s Asia Pacific equities gauge fell 0.2% ahead of this season’s busiest earnings week in Asia. US equity-index futures erased earlier gains and traded little changed.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:44:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-slip-as-ai-jitters-deepen-ahead-of-big-tech-earnings/articleshow/135200167.cms",
+            "sentiment_score": 0.3092,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Benchmark indices experienced a decline on Friday due to high Brent crude oil prices and global market weakness. Nifty was noted to face immediate resistance at 22,850 levels, with previous week's high acting as a hurdle. The rupee fell against the dollar for…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/135199481.cms",
+            "sentiment_score": -0.1758,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Air Force One passengers reveal Trump’s inner circle and who is ‘whispering in his ear and talking softly in private quarters’",
+            "description": "Along for the ride: an entourage ranging from aging boxing champions to Cabinet members to relatively unknown aides who help craft Trump's words and ideas.",
+            "source": "Fortune",
+            "published_at": "2026-10-25T23:26:51Z",
+            "url": "https://fortune.com/2026/10/25/air-force-one-passengers-trump-inner-circle-susie-wiles-miller-lutnick-bessent-pulte-natalie-harp/",
+            "sentiment_score": 0.2181,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market prediction: S&P 500, Nasdaq, Dow Jones look to rebound as Wall Street investors set to be driven by a few factors, top stocks to follow",
+            "description": "US Stock Market today: Investors also have their focus trained on the US midterm elections on November 3, with growing bets that the Democrats will wrest control of the US Congress away from President Donald Trump's Republican party.",
+            "source": "The Times of India",
+            "published_at": "2026-10-25T23:16:08Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-prediction-sp-500-nasdaq-dow-jones-look-to-rebound-as-wall-street-investors-set-to-be-driven-by-a-few-factors-top-stocks-to-follow/articleshow/135199387.cms",
+            "sentiment_score": 0.2996,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed expected to hold rates steady this week despite hot inflation — but signal they're not done hiking",
@@ -1445,131 +1525,43 @@
             "url": "https://www.salon.com/2026/10/25/us-inequality-is-getting-worse-in-ways-you-might-not-expect-partner/",
             "sentiment_score": -0.3337,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 US Defensive Dividend Stocks To Steady A Rate Sensitive Portfolio",
-            "description": "Rate headlines keep whipsawing between sticky inflation, shaky consumer confidence and a Federal Reserve that is still weighing another hike, and that mix has many investors rethinking how much risk they really want to carry. Defensive dividend payers suddenl…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:19Z",
-            "url": "https://biztoc.com/x/cd8935f974c01f44",
-            "sentiment_score": 0.0926,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "3 High Quality Stocks With ROE Over 30%",
-            "description": "Higher interest rates are pressuring weaker balance sheets, while the Federal Reserve is signalling a pause as it weighs any potential December hike. That breathing space shifts attention to companies that already earn high returns on shareholder capital and …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:02Z",
-            "url": "https://biztoc.com/x/7e6b4c047ae2422d",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
-            "description": "As Dalal Street braces for a pivotal week, key earnings reports and the impending US Federal Reserve interest rate decision are grabbing attention. Investors are eagerly anticipating the September industrial production and manufacturing figures, set to be rel…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T07:25:56Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-meeting-crude-more-top-cues-guiding-dalal-street-this-week/articleshow/135185867.cms",
-            "sentiment_score": -0.0661,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations",
-            "description": "Michigan's final October survey shows rising inflation expectations ahead of the Fed's next meeting, adding a complication for Bitcoin's macro outlook.",
-            "source": "newsBTC",
-            "published_at": "2026-10-25T07:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-fed-week-us-inflation-expectations-october-2026/",
-            "sentiment_score": 0.2227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw Rs 48,056 cr from equities in Oct so far amid elevated crude oil prices",
-            "description": "Foreign investors withdrew significant funds from Indian equities in October amid concerns over inflation and crude oil prices. Despite this, there were signs of moderation in selling with two days of net buying. The overall FPI outflows from equities in 2026…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T06:33:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-48056-cr-from-equities-in-oct-so-far-amid-elevated-crude-oil-prices/articleshow/135185267.cms",
-            "sentiment_score": -0.5324,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
-            "description": "However, Foreign Portfolio Investors (FPIs) significantly moderated their selling last week and turned net buyers on two trading days, signalling some easing in selling pressure",
-            "source": "Business Standard",
-            "published_at": "2026-10-25T06:25:47Z",
-            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-48-056-crore-from-equities-in-oct-amid-elevated-oil-prices-126102500122_1.html",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed expected to hold rates steady days ahead of US midterms",
-            "description": "The U.S. Federal Reserve appears set to hold interest rates steady at its meeting next week, analysts say, despite stubbornly high inflation and with markets pricing in at least one rate hike before year-end.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-25T06:23:00Z",
-            "url": "https://www.hurriyetdailynews.com/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms-228553",
-            "sentiment_score": 0.1851,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How central bankers spend their time",
-            "description": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, conta…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T05:46:01Z",
-            "url": "https://biztoc.com/x/ead51bd7ff024bff",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 25 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
-            "description": "Gold, silver prices today, 25 October: Check the retail price of 18K, 22K and 24K gold and 999 Fine silver in Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, and Mumbai today.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-25T05:06:58Z",
-            "url": "https://www.livemint.com/money/gold-silver-prices-today-25-october-retail-rates-24k-22k-18k-999-silver-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-11792901342696.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.3164,
+      "net_score": -0.5097,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.7018,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
-      "ma_crossed_this_bar": false,
-      "rsi_value": 41.5,
-      "rsi_signal": "โซนกลาง (RSI=41.5)",
+      "price_now": 0.70274,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
+      "ma_crossed_this_bar": true,
+      "rsi_value": 52.2,
+      "rsi_signal": "โซนกลาง (RSI=52.2)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00054,
-      "suggested_sl_distance": 0.00081,
+      "atr_value": 0.00059,
+      "suggested_sl_distance": 0.00089,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
-      "entry_signal": 0
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "entry_signal": -1
     },
     "combined_signal": {
       "pair": "AUDUSD",
-      "action": "WAIT",
-      "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "action": "SELL",
+      "confidence": "สูง",
+      "reason": "เทคนิคให้จังหวะ (ขาลง (MA และ MACD เห็นตรงกัน), RSI=52.2) และข่าวชี้ทางเดียวกัน (net score -0.5097)",
+      "suggested_sl_pips": 8.9,
+      "price_now": 0.70274
     },
-    "generated_at": "2026-10-26T22:33:45.081246+00:00"
+    "generated_at": "2026-10-27T01:57:35.184009+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1578,9 +1570,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0604,
-        "label": "บวกเล็กน้อย",
-        "article_count": 9,
+        "average_score": 0.0276,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 6,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -1641,44 +1633,114 @@
             "url": "https://www.livemint.com/money/gold-silver-prices-today-25-october-retail-rates-24k-22k-18k-999-silver-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-11792901342696.html",
             "sentiment_score": 0.0607,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold investing is getting more complicated",
-            "description": "Navigate evolving gold investments in India: ETFs vs FoFs, regulatory shifts, and tips to optimize gold exposure.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-24T15:43:29Z",
-            "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/gold-investing-is-getting-more-complicated/article71616530.ece",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold and silver rate today (October 24, 2026): Check 24k, 22k, 20k and 18k gold jewellery prices from IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and Tanishq",
-            "description": "Gold- Silver rate today (October 24, 2026): Gold prices saw a decline on October 24, 2026, providing a welcome opportunity for jewelry shoppers. Major jewelers like Tanishq and Malabar Gold & Diamonds have released their prices across different cities.",
-            "source": "The Times of India",
-            "published_at": "2026-10-24T07:36:10Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-silver-rate-today-october-24-2026-check-24k-22k-20k-and-18k-gold-jewellery-prices-from-ibja-malabar-gold-diamonds-joyalukkas-kalyan-jewellers-and-tanishq/articleshow/135164785.cms",
-            "sentiment_score": 0.2464,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver prices today, 24 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
-            "description": "Gold, silver prices today, 24 October: Check the price of 18K, 22K and 24K gold and 999 Fine silver in Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, and Mumbai today.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-24T07:31:11Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-24-october-2026-retail-rates-24k-22k-18k-gold-999-silver-delhi-mumbai-kolkata-bengaluru-chennai-11792823368174.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0085,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "average_score": 0.054,
+        "label": "บวกเล็กน้อย",
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold lingers near three-month low ahead of Fed policy meeting",
+            "description": "Gold prices dipped close to a three-month low, reflecting worries from investors as the Federal Reserve meeting approaches. While an interest rate hike appears more likely for December, this week’s chances remain low. In the oil market, prices fell back after…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:54:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-lingers-near-three-month-low-ahead-of-fed-policy-meeting/articleshow/135200563.cms",
+            "sentiment_score": -0.28,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed expected to pause rate hikes ahead of US midterms",
+            "description": "The US Federal Reserve's upcoming meeting is expected to result in steady interest rates. High inflation continues to challenge economic policies, with rates anticipated to rise later this year. The Federal Open Market Committee will analyze data amidst polit…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:44:05Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/fed-expected-to-pause-rate-hikes-ahead-of-us-midterms/articleshow/135200484.cms",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Crude prices fall from six-month highs; WTI stands at $101 per barrel, Brent costs $115",
+            "description": "Oil prices experienced a decline of over 1% after hitting six-month peaks, primarily due to geopolitical unrest in Saudi Arabia. Currently, Brent crude fluctuates around $115 per barrel, and WTI at $101.5 per barrel. The threat to energy exports and infrastru…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:43:49Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/crude-prices-fall-from-six-month-highs-wti-stands-at-101-per-barrel-brent-costs-115/articleshow/135200402.cms",
+            "sentiment_score": -0.6159,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Growth Stocks With Up To 66% Earnings Growth",
+            "description": "Energy costs are back in focus as the Federal Reserve weighs interest rates with inflation still above target and oil prices influenced by geopolitical risks. Higher input costs can squeeze weaker firms. Stronger businesses with healthy balance sheets and sol…",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-26T01:10:54Z",
+            "url": "https://biztoc.com/x/1b5f8c242ce9ceb3",
+            "sentiment_score": 0.6437,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes: How short-duration funds and high-quality corporate bonds can protect your debt portfolio",
+            "description": "Investors must position fixed income portfolio for further rate hikes. But this cycle may look different.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/rbi-rate-hikes-how-short-duration-funds-and-high-quality-corporate-bonds-can-protect-your-debt-portfolio/articleshow/135161665.cms",
+            "sentiment_score": 0.0181,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares make cautious start, Brent eases from six-month high",
+            "description": "SYDNEY, Oct 26 : Share markets got off to a cautious start on Monday as oil eased from six-month highs ahead of a week packed with central bank meetings and company earnings that will further test investor confidence in the AI boom.Brent oil slipped 1.0 per c…",
+            "source": "CNA",
+            "published_at": "2026-10-26T00:46:33Z",
+            "url": "https://www.channelnewsasia.com/business/asian-shares-make-cautious-start-brent-eases-six-month-high-6491806",
+            "sentiment_score": 0.5566,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares slip as AI jitters deepen ahead of big tech earnings",
+            "description": "MSCI Inc.’s Asia Pacific equities gauge fell 0.2% ahead of this season’s busiest earnings week in Asia. US equity-index futures erased earlier gains and traded little changed.",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:44:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-shares-slip-as-ai-jitters-deepen-ahead-of-big-tech-earnings/articleshow/135200167.cms",
+            "sentiment_score": 0.3092,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Pre-market action: Here's the trade setup for today's session",
+            "description": "Benchmark indices experienced a decline on Friday due to high Brent crude oil prices and global market weakness. Nifty was noted to face immediate resistance at 22,850 levels, with previous week's high acting as a hurdle. The rupee fell against the dollar for…",
+            "source": "The Times of India",
+            "published_at": "2026-10-26T00:30:00Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/pre-market-action-heres-the-trade-setup-for-todays-session/articleshow/135199481.cms",
+            "sentiment_score": -0.1758,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Air Force One passengers reveal Trump’s inner circle and who is ‘whispering in his ear and talking softly in private quarters’",
+            "description": "Along for the ride: an entourage ranging from aging boxing champions to Cabinet members to relatively unknown aides who help craft Trump's words and ideas.",
+            "source": "Fortune",
+            "published_at": "2026-10-25T23:26:51Z",
+            "url": "https://fortune.com/2026/10/25/air-force-one-passengers-trump-inner-circle-susie-wiles-miller-lutnick-bessent-pulte-natalie-harp/",
+            "sentiment_score": 0.2181,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Stock Market prediction: S&P 500, Nasdaq, Dow Jones look to rebound as Wall Street investors set to be driven by a few factors, top stocks to follow",
+            "description": "US Stock Market today: Investors also have their focus trained on the US midterm elections on November 3, with growing bets that the Democrats will wrest control of the US Congress away from President Donald Trump's Republican party.",
+            "source": "The Times of India",
+            "published_at": "2026-10-25T23:16:08Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-prediction-sp-500-nasdaq-dow-jones-look-to-rebound-as-wall-street-investors-set-to-be-driven-by-a-few-factors-top-stocks-to-follow/articleshow/135199387.cms",
+            "sentiment_score": 0.2996,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed expected to hold rates steady this week despite hot inflation — but signal they're not done hiking",
@@ -1878,100 +1940,10 @@
             "url": "https://www.salon.com/2026/10/25/us-inequality-is-getting-worse-in-ways-you-might-not-expect-partner/",
             "sentiment_score": -0.3337,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 US Defensive Dividend Stocks To Steady A Rate Sensitive Portfolio",
-            "description": "Rate headlines keep whipsawing between sticky inflation, shaky consumer confidence and a Federal Reserve that is still weighing another hike, and that mix has many investors rethinking how much risk they really want to carry. Defensive dividend payers suddenl…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:19Z",
-            "url": "https://biztoc.com/x/cd8935f974c01f44",
-            "sentiment_score": 0.0926,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "3 High Quality Stocks With ROE Over 30%",
-            "description": "Higher interest rates are pressuring weaker balance sheets, while the Federal Reserve is signalling a pause as it weighs any potential December hike. That breathing space shifts attention to companies that already earn high returns on shareholder capital and …",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T08:20:02Z",
-            "url": "https://biztoc.com/x/7e6b4c047ae2422d",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock market outlook: Fed meeting, crude & more - top cues guiding Dalal Street this week",
-            "description": "As Dalal Street braces for a pivotal week, key earnings reports and the impending US Federal Reserve interest rate decision are grabbing attention. Investors are eagerly anticipating the September industrial production and manufacturing figures, set to be rel…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T07:25:56Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/stock-market-outlook-fed-meeting-crude-more-top-cues-guiding-dalal-street-this-week/articleshow/135185867.cms",
-            "sentiment_score": -0.0661,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin’s Fed Week Starts With A Fresh Rise In US Inflation Expectations",
-            "description": "Michigan's final October survey shows rising inflation expectations ahead of the Fed's next meeting, adding a complication for Bitcoin's macro outlook.",
-            "source": "newsBTC",
-            "published_at": "2026-10-25T07:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-fed-week-us-inflation-expectations-october-2026/",
-            "sentiment_score": 0.2227,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw Rs 48,056 cr from equities in Oct so far amid elevated crude oil prices",
-            "description": "Foreign investors withdrew significant funds from Indian equities in October amid concerns over inflation and crude oil prices. Despite this, there were signs of moderation in selling with two days of net buying. The overall FPI outflows from equities in 2026…",
-            "source": "The Times of India",
-            "published_at": "2026-10-25T06:33:10Z",
-            "url": "https://economictimes.indiatimes.com/markets/stocks/news/fpis-withdraw-rs-48056-cr-from-equities-in-oct-so-far-amid-elevated-crude-oil-prices/articleshow/135185267.cms",
-            "sentiment_score": -0.5324,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs withdraw ₹48,056 crore from equities in Oct amid elevated oil prices",
-            "description": "However, Foreign Portfolio Investors (FPIs) significantly moderated their selling last week and turned net buyers on two trading days, signalling some easing in selling pressure",
-            "source": "Business Standard",
-            "published_at": "2026-10-25T06:25:47Z",
-            "url": "https://www.business-standard.com/markets/news/fpis-withdraw-48-056-crore-from-equities-in-oct-amid-elevated-oil-prices-126102500122_1.html",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed expected to hold rates steady days ahead of US midterms",
-            "description": "The U.S. Federal Reserve appears set to hold interest rates steady at its meeting next week, analysts say, despite stubbornly high inflation and with markets pricing in at least one rate hike before year-end.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-25T06:23:00Z",
-            "url": "https://www.hurriyetdailynews.com/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms-228553",
-            "sentiment_score": 0.1851,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How central bankers spend their time",
-            "description": "How leaders allocate their limited time and attention is an important question in economics. This paper constructs and analyzes a novel data set covering the daily calendars of three Federal Reserve Chairs, Ben Bernanke, Janet Yellen, and Jerome Powell, conta…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-25T05:46:01Z",
-            "url": "https://biztoc.com/x/ead51bd7ff024bff",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver prices today, 25 October: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
-            "description": "Gold, silver prices today, 25 October: Check the retail price of 18K, 22K and 24K gold and 999 Fine silver in Ahmedabad, Bengaluru, Chennai, Delhi, Hyderabad, Kolkata, and Mumbai today.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-25T05:06:58Z",
-            "url": "https://www.livemint.com/money/gold-silver-prices-today-25-october-retail-rates-24k-22k-18k-999-silver-delhi-mumbai-kolkata-chennai-bengaluru-hyderabad-11792901342696.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0689,
+      "net_score": -0.0264,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1981,14 +1953,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4029.3999,
+      "price_now": 4028.6001,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
-      "ma_crossed_this_bar": true,
-      "rsi_value": 50.8,
-      "rsi_signal": "โซนกลาง (RSI=50.8)",
+      "ma_crossed_this_bar": false,
+      "rsi_value": 50.9,
+      "rsi_signal": "โซนกลาง (RSI=50.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 12.35856,
-      "suggested_sl_distance": 18.53784,
+      "atr_value": 12.89596,
+      "suggested_sl_distance": 19.34394,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -2000,8 +1972,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=50.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=50.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-10-26T22:33:45.081246+00:00"
+    "generated_at": "2026-10-27T01:57:35.184009+00:00"
   }
 ]
