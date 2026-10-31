@@ -1,15 +1,65 @@
 {
-  "fetched_at": "2026-10-31T18:24:49.993191+00:00",
+  "fetched_at": "2026-10-31T22:23:57.691458+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0243,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.1031,
+        "label": "ลบเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Gasoline Up 34% and Heating Oil Up 74% as Voters Head to the Midterms",
+            "description": "The results of the upcoming midterm elections will reveal just how much power global energy markets have over state-level politics – and how much changing political regimes can cost the global energy sector in return. As voters head to the polls, energy price…",
+            "source": "OilPrice.com",
+            "published_at": "2026-10-30T22:00:00Z",
+            "url": "https://oilprice.com/Energy/Gas-Prices/Gasoline-Up-34-and-Heating-Oil-Up-74-as-Voters-Head-to-the-Midterms.html",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": " Design-led 4-star 25hours Hotel in Frankfurt from just €66/double (including Xmas)",
+            "description": "If you prefer hotels with personality over generic business-chain interiors, 25hours Hotel Frankfurt The Goldman is a very different kind of Frankfurt stay. Set in the creative Ostend district, close to the European Central Bank and the Main river, the hotel …",
+            "source": "Fly4free.com",
+            "published_at": "2026-10-30T21:00:17Z",
+            "url": "https://www.fly4free.com/flight-deals/europe/25hotels-frankfurt-4-star-hotel/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Wall Street drops to worst day since June after tech stocks sell-off deepens",
+            "description": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-30T20:55:27Z",
+            "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+            "sentiment_score": -0.7172,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Intel plunged 28.6% for its worst drop since 1974 — and the AI sell-off gave the S&P 500 its worst day since June",
+            "description": "A drop of 4.2% for Nvidia, the chip company that became the poster child of the AI frenzy, was the heaviest force pulling the S&P 500 downward.",
+            "source": "Fortune",
+            "published_at": "2026-10-30T20:27:35Z",
+            "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/",
+            "sentiment_score": -0.7764,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Wall Street Drops To Its Worst Day Since June After The Sell-Off For Tech Stocks Deepens",
+            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
+            "source": "HuffPost",
+            "published_at": "2026-10-30T20:26:19Z",
+            "url": "https://www.huffpost.com/entry/financial-markets_n_6ae4fcbde4b038f4fbe05663",
+            "sentiment_score": -0.678,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "Lagarde to leave ECB with Europe’s tokenized-finance blueprint still undecided",
@@ -249,64 +299,164 @@
             "url": "https://www.thehindubusinessline.com/markets/markets-open-flat-amid-tech-sell-off-crude-surge-trent-leads-nifty-gainers/article71643564.ece",
             "sentiment_score": -0.0544,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Yen steady before BOJ, AI jitters drive Treasury rally, weigh on dollar",
-            "description": "The yen remains steady as the Bank of Japan gears up for its expected interest rate policy decision. The dollar has slipped lower, responding to falling Treasury yields against a backdrop of diminished AI stocks. Despite high energy prices, other central bank…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T02:01:19Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/yen-steady-before-boj-ai-jitters-drive-treasury-rally-weigh-on-dollar/articleshow/135338954.cms",
-            "sentiment_score": 0.156,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Gold prices edge lower as US inflation data reinforces Fed outlook",
-            "description": "Gold prices fell in early Asian trading, reflecting a decline of over 1% from the previous session. Spot gold is currently valued at $4,006.06 per ounce, while US gold futures have dipped to $4,018.50. Heightened inflation worries have raised fears of a poten…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T01:52:43Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-prices-edge-lower-as-us-inflation-data-reinforces-fed-outlook/articleshow/135338698.cms",
-            "sentiment_score": -0.3278,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Yen gains after BOJ, AI jitters drive Treasury rally, weigh on dollar",
-            "description": "HONG KONG, Oct 30 : The yen inched higher on Friday after the Bank of Japan held rates steady as expected, while the dollar tracked Treasury yields lower as a fresh wave of selling in AI shares triggered a flight to safety.The BOJ left interest rates on hold …",
-            "source": "CNA",
-            "published_at": "2026-10-30T01:52:22Z",
-            "url": "https://www.channelnewsasia.com/business/yen-gains-after-boj-ai-jitters-drive-treasury-rally-weigh-dollar-6505611",
-            "sentiment_score": 0.5638,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Yen steady before BOJ, AI jitters drive Treasury rally, weigh on dollar",
-            "description": "HONG KONG, Oct 30 : The yen was steady on Friday ahead of the Bank of Japan's policy decision, while the dollar tracked Treasury yields lower as a fresh wave of selling in AI shares triggered a flight to safety.The BOJ is set to keep interest rates on hold at…",
-            "source": "CNA",
-            "published_at": "2026-10-30T01:52:22Z",
-            "url": "https://www.channelnewsasia.com/business/yen-steady-boj-ai-jitters-drive-treasury-rally-weigh-dollar-6505611",
-            "sentiment_score": 0.3597,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "‘I cannot remain neutral’: Lagarde explains her early ECB exit",
-            "description": "Lagarde says she is leaving the ECB early because she can no longer stay neutral. She also revealed the ECB debated a hike and hinted at a December move.\nChristine Lagarde is leaving the European Central Bank (ECB) early because she no longer wants to stay si…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T00:11:47Z",
-            "url": "https://biztoc.com/x/1eab9f04fa75475e",
-            "sentiment_score": -0.158,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0448,
+        "average_score": -0.0347,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-30T21:46:06Z",
+            "url": "https://news.yale.edu/2026/10/30/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Soaring cost of Halloween treats spooks shoppers",
+            "description": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs.",
+            "source": "BBC News",
+            "published_at": "2026-10-30T21:34:32Z",
+            "url": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street drops to worst day since June after tech stocks sell-off deepens",
+            "description": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-30T20:55:27Z",
+            "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+            "sentiment_score": -0.7172,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes",
+            "description": "(Reuters) — Nasdaq futures ​tumbled more than 2% on Friday as Amazon signaled its AI spending boom is far from over and Intel warned ‌it would burn cash this year,",
+            "source": "Marianas Variety",
+            "published_at": "2026-10-30T20:50:10Z",
+            "url": "https://www.mvariety.com/business/business_news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/article_e870b945-f7b6-4e30-acc5-a2094be80eb2.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Scotiabank Wins Fed Approval to Buy Oklahoma-Based MapleMark Bank",
+            "description": "The Federal Reserve Board approved the application by the Bank of Nova Scotia to become a bank holding company by acquiring Dallas, Texas-based Maple Financial Holdings and thereby indirectly acquiring Tulsa, Oklahoma-based MapleMark Bank, the Fed said in a T…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-30T20:41:51Z",
+            "url": "https://www.pymnts.com/news/banking/2026/scotiabank-wins-fed-approval-to-buy-oklahoma-based-maplemark-bank/",
+            "sentiment_score": 0.6713,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "CFTC proposes federal registration option for leveraged crypto exchanges",
+            "description": "The CFTC's proposal could pave the way for enhanced regulatory oversight, potentially boosting crypto market legitimacy and stability.\nThe post CFTC proposes federal registration option for leveraged crypto exchanges appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T20:36:54Z",
+            "url": "https://cryptobriefing.com/cftc-proposes-federal-registration-option-for-leveraged-crypto-exchanges/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Intel plunged 28.6% for its worst drop since 1974 — and the AI sell-off gave the S&P 500 its worst day since June",
+            "description": "A drop of 4.2% for Nvidia, the chip company that became the poster child of the AI frenzy, was the heaviest force pulling the S&P 500 downward.",
+            "source": "Fortune",
+            "published_at": "2026-10-30T20:27:35Z",
+            "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/",
+            "sentiment_score": -0.7764,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Drops To Its Worst Day Since June After The Sell-Off For Tech Stocks Deepens",
+            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
+            "source": "HuffPost",
+            "published_at": "2026-10-30T20:26:19Z",
+            "url": "https://www.huffpost.com/entry/financial-markets_n_6ae4fcbde4b038f4fbe05663",
+            "sentiment_score": -0.678,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Short Circuit: An inexhaustive weekly compendium of rulings from the federal courts of appeal",
+            "description": "Flying saucers, voodoo dolls, and ancient plagues.",
+            "source": "Reason",
+            "published_at": "2026-10-30T19:30:45Z",
+            "url": "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "naga-runtime added to PyPI",
+            "description": "Run trained NAGA trading models (.safetensors) live from MetaTrader 5, from Python, or over a secure JSON HTTP API with a built-in dashboard.",
+            "source": "Pypi.org",
+            "published_at": "2026-10-30T19:25:56Z",
+            "url": "https://pypi.org/project/naga-runtime/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
+            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-30T19:14:29Z",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+            "sentiment_score": 0.1779,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed needs at least two more rate hikes, Logan says",
+            "description": "By Ann Saphir\nOct 30 (Reuters) - The Federal Reserve needs to raise rates at least two more times to get inflation under control, Dallas Fed President Lorie Logan said on Friday, in some of the most explicit rate guidance offered by a US central banker since …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-30T19:08:28Z",
+            "url": "https://biztoc.com/x/e3f4cd2983caf241",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unvetted foreign workers at AI firms raise national security alarms, advocates warn",
+            "description": "Tech advocacy groups warn that foreign nationals at AI companies like OpenAI and Google pose a national security threat amid a lack of federal oversight.",
+            "source": "Fox News",
+            "published_at": "2026-10-30T19:04:49Z",
+            "url": "https://www.foxnews.com/tech/unvetted-foreign-workers-ai-firms-raise-national-security-alarms-advocates-warn",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 enters correction, falls 10% from October high",
+            "description": "The Nasdaq 100's correction signals potential shifts in market sentiment, impacting tech stocks and influencing expectations in related markets.\nThe post NASDAQ 100 enters correction, falls 10% from October high appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T18:56:21Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-enters-correction-falls-10-from-october-high/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+            "description": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked.",
+            "source": "Decrypt",
+            "published_at": "2026-10-30T18:45:03Z",
+            "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+            "sentiment_score": -0.1678,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed's Logan sees two more 25-basis-point rate hikes",
@@ -456,160 +606,10 @@
             "url": "https://cryptobriefing.com/fed-daly-ai-monetary-policy-thinking/",
             "sentiment_score": 0.1145,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Philip R. Lane: AI adoption in Europe",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-30T16:10:00Z",
-            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Stock Market is feeling AI investments pressure but check list of stocks that are jumping amidst Artificial Intelligence spending fears",
-            "description": "US Stock Market today: As the world's biggest technology companies race to expand computing capacity, demand for such facilities has surged, creating what industry executives have described as a generational opportunity for alternative asset managers.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:07:14Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-is-feeling-ai-investments-pressure-but-check-list-of-stocks-that-are-jumping-amidst-artificial-intelligence-spending-fears/articleshow/135369044.cms",
-            "sentiment_score": 0.2603,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Niti Aayog's Lahiri flags growth risks in case of further monetary policy tightening",
-            "description": "In India, it's essential for policymakers to harmonize growth output with inflation expectations. Niti Aayog’s Ashok Lahiri pointed out the importance of addressing inflation alongside job creation. He urged banks to play a pivotal role in linking enterprises…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:05:30Z",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/niti-aayogs-lahiri-flags-growth-risks-in-case-of-further-monetary-policy-tightening/articleshow/135369106.cms",
-            "sentiment_score": 0.3546,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand",
-            "description": "Bitcoin's decline highlights its vulnerability to macroeconomic shifts, with rising rates and liquidity issues impacting broader market sentiment.\nThe post Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T16:02:09Z",
-            "url": "https://cryptobriefing.com/bitcoin-dips-below-80000-rising-rates-stablecoins/",
-            "sentiment_score": -0.1916,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barkin: Fed's path 'straightforward,' pace is question",
-            "description": "United States Federal Reserve Bank of Richmond President Tom Barkin spoke at SiriusXM's Business Briefing on Friday, explaining that with high inflation, unemployment \"relatively low,\" and demand \"sol...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:32:02Z",
-            "url": "https://biztoc.com/x/5f4441144e0242e9",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports",
-            "description": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports\nBy Howard Schneider\nWASHINGTON, Oct 30 (Reuters) - Richmond Federal Reserve President Tom Barkin said on Friday that with high inflation and the economy so…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:18:14Z",
-            "url": "https://biztoc.com/x/c67d661ea8a31afc",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold hits one-year low, silver slips below $50 as inflation fears bite",
-            "description": "Gold and silver prices have plummeted to their lowest in a year as energy costs surge and inflation remains a pressing concern. The decline in precious metals mirrors waning investor confidence, driven by fears over persistently high interest rates set by the…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T15:01:31Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-hits-one-year-low-silver-slips-below-50-as-inflation-fears-bite/articleshow/135367179.cms",
-            "sentiment_score": -0.1881,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Big Mac is now Little Mac:’ American tourist infuriated by McDonald’s paltry portion sizes in France",
-            "description": "An American tourist sparked online debate after claiming a €6.40 Big Mac in France was smaller than a McChicken, fueling shrinkflation complaints.",
-            "source": "New York Post",
-            "published_at": "2026-10-30T14:41:11Z",
-            "url": "https://nypost.com/2026/10/30/lifestyle/american-tourist-infuriated-by-mcdonalds-portion-sizes-in-france/",
-            "sentiment_score": -0.5493,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin fell after the Fed’s pause, but blaming interest rates misses the Binance shock",
-            "description": "The Federal Reserve asked for more information before changing interest rates. Eighteen and a half hours later, the economy supplied it: growth was strong, inflation remained elevated, and households were spending more without buying much more. But before inv…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-30T14:00:23Z",
-            "url": "https://cryptoslate.com/bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock/",
-            "sentiment_score": -0.3241,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
-            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
-            "source": "KPRC Click2Houston",
-            "published_at": "2026-10-30T13:38:31Z",
-            "url": "https://www.click2houston.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/",
-            "sentiment_score": -0.5743,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says",
-            "description": "The Binance hack's limited market impact highlights improved crisis management and resilience in the crypto sector compared to past events.\nThe post Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says appeared first on Crypto Briefi…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T13:36:17Z",
-            "url": "https://cryptobriefing.com/binance-hack-impact-stable-response/",
-            "sentiment_score": 0.5,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "By 1909, copper had helped Swansea, Arizona, grow to about 500 people; financial trouble followed in 1911, and the last mine closed in 1937",
-            "description": "Swansea, Arizona, once thrived as a mining community but became a ghost town after its abandonment in 1937. It flourished in the early 1900s due to copper discoveries, only to suffer economic decline later. Research highlights that boom-dependent communities …",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/by-1909-copper-had-built-swansea-arizona-into-a-town-of-500-financial-trouble-hit-by-1911-and-after-the-mines-finally-closed-in-1937-only-ruins-remained/articleshow/135314376.cms",
-            "sentiment_score": -0.5583,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "100 Unhinged Things Trump Did That You May Have Forgotten",
-            "description": "Donald Trump's second term has been flooded with abhorrent actions, but it's important not to be memory-holed ahead of the midterm elections.",
-            "source": "Rolling Stone",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "http://www.rollingstone.com/politics/political-commentary/trump-second-term-100-actions-forgotten-1235650305/",
-            "sentiment_score": -0.1854,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver fall as strong U.S. GDP, inflation support Fed tightening bets - Kitco PM Report",
-            "description": "Spot gold and silver prices were sharply lower in late U.S. trading Thursday, as stronger-than-expected economic growth and persistent inflation reinforced expectations for additional Federal Reserve tightening before year-end. Declining crude oil prices prov…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T12:58:12Z",
-            "url": "https://biztoc.com/x/33066fa27ef795ca",
-            "sentiment_score": 0.3497,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading day since mid-July?",
-            "description": "Gold prices fell to their lowest since mid-July on Friday. Gold rates were going down for a second straight monthly decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T12:32:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-rate-silver-price-today-why-is-gold-price-down-today-when-will-gold-recover-from-its-worst-trading-day-since-mid-july/articleshow/135361683.cms",
-            "sentiment_score": -0.5197,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0205,
+      "net_score": -0.0684,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -789,10 +789,160 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0448,
+        "average_score": -0.0347,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-30T21:46:06Z",
+            "url": "https://news.yale.edu/2026/10/30/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Soaring cost of Halloween treats spooks shoppers",
+            "description": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs.",
+            "source": "BBC News",
+            "published_at": "2026-10-30T21:34:32Z",
+            "url": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street drops to worst day since June after tech stocks sell-off deepens",
+            "description": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-30T20:55:27Z",
+            "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+            "sentiment_score": -0.7172,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes",
+            "description": "(Reuters) — Nasdaq futures ​tumbled more than 2% on Friday as Amazon signaled its AI spending boom is far from over and Intel warned ‌it would burn cash this year,",
+            "source": "Marianas Variety",
+            "published_at": "2026-10-30T20:50:10Z",
+            "url": "https://www.mvariety.com/business/business_news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/article_e870b945-f7b6-4e30-acc5-a2094be80eb2.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Scotiabank Wins Fed Approval to Buy Oklahoma-Based MapleMark Bank",
+            "description": "The Federal Reserve Board approved the application by the Bank of Nova Scotia to become a bank holding company by acquiring Dallas, Texas-based Maple Financial Holdings and thereby indirectly acquiring Tulsa, Oklahoma-based MapleMark Bank, the Fed said in a T…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-30T20:41:51Z",
+            "url": "https://www.pymnts.com/news/banking/2026/scotiabank-wins-fed-approval-to-buy-oklahoma-based-maplemark-bank/",
+            "sentiment_score": 0.6713,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "CFTC proposes federal registration option for leveraged crypto exchanges",
+            "description": "The CFTC's proposal could pave the way for enhanced regulatory oversight, potentially boosting crypto market legitimacy and stability.\nThe post CFTC proposes federal registration option for leveraged crypto exchanges appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T20:36:54Z",
+            "url": "https://cryptobriefing.com/cftc-proposes-federal-registration-option-for-leveraged-crypto-exchanges/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Intel plunged 28.6% for its worst drop since 1974 — and the AI sell-off gave the S&P 500 its worst day since June",
+            "description": "A drop of 4.2% for Nvidia, the chip company that became the poster child of the AI frenzy, was the heaviest force pulling the S&P 500 downward.",
+            "source": "Fortune",
+            "published_at": "2026-10-30T20:27:35Z",
+            "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/",
+            "sentiment_score": -0.7764,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Drops To Its Worst Day Since June After The Sell-Off For Tech Stocks Deepens",
+            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
+            "source": "HuffPost",
+            "published_at": "2026-10-30T20:26:19Z",
+            "url": "https://www.huffpost.com/entry/financial-markets_n_6ae4fcbde4b038f4fbe05663",
+            "sentiment_score": -0.678,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Short Circuit: An inexhaustive weekly compendium of rulings from the federal courts of appeal",
+            "description": "Flying saucers, voodoo dolls, and ancient plagues.",
+            "source": "Reason",
+            "published_at": "2026-10-30T19:30:45Z",
+            "url": "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "naga-runtime added to PyPI",
+            "description": "Run trained NAGA trading models (.safetensors) live from MetaTrader 5, from Python, or over a secure JSON HTTP API with a built-in dashboard.",
+            "source": "Pypi.org",
+            "published_at": "2026-10-30T19:25:56Z",
+            "url": "https://pypi.org/project/naga-runtime/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
+            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-30T19:14:29Z",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+            "sentiment_score": 0.1779,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed needs at least two more rate hikes, Logan says",
+            "description": "By Ann Saphir\nOct 30 (Reuters) - The Federal Reserve needs to raise rates at least two more times to get inflation under control, Dallas Fed President Lorie Logan said on Friday, in some of the most explicit rate guidance offered by a US central banker since …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-30T19:08:28Z",
+            "url": "https://biztoc.com/x/e3f4cd2983caf241",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unvetted foreign workers at AI firms raise national security alarms, advocates warn",
+            "description": "Tech advocacy groups warn that foreign nationals at AI companies like OpenAI and Google pose a national security threat amid a lack of federal oversight.",
+            "source": "Fox News",
+            "published_at": "2026-10-30T19:04:49Z",
+            "url": "https://www.foxnews.com/tech/unvetted-foreign-workers-ai-firms-raise-national-security-alarms-advocates-warn",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 enters correction, falls 10% from October high",
+            "description": "The Nasdaq 100's correction signals potential shifts in market sentiment, impacting tech stocks and influencing expectations in related markets.\nThe post NASDAQ 100 enters correction, falls 10% from October high appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T18:56:21Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-enters-correction-falls-10-from-october-high/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+            "description": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked.",
+            "source": "Decrypt",
+            "published_at": "2026-10-30T18:45:03Z",
+            "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+            "sentiment_score": -0.1678,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed's Logan sees two more 25-basis-point rate hikes",
@@ -942,160 +1092,10 @@
             "url": "https://cryptobriefing.com/fed-daly-ai-monetary-policy-thinking/",
             "sentiment_score": 0.1145,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Philip R. Lane: AI adoption in Europe",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-30T16:10:00Z",
-            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Stock Market is feeling AI investments pressure but check list of stocks that are jumping amidst Artificial Intelligence spending fears",
-            "description": "US Stock Market today: As the world's biggest technology companies race to expand computing capacity, demand for such facilities has surged, creating what industry executives have described as a generational opportunity for alternative asset managers.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:07:14Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-is-feeling-ai-investments-pressure-but-check-list-of-stocks-that-are-jumping-amidst-artificial-intelligence-spending-fears/articleshow/135369044.cms",
-            "sentiment_score": 0.2603,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Niti Aayog's Lahiri flags growth risks in case of further monetary policy tightening",
-            "description": "In India, it's essential for policymakers to harmonize growth output with inflation expectations. Niti Aayog’s Ashok Lahiri pointed out the importance of addressing inflation alongside job creation. He urged banks to play a pivotal role in linking enterprises…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:05:30Z",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/niti-aayogs-lahiri-flags-growth-risks-in-case-of-further-monetary-policy-tightening/articleshow/135369106.cms",
-            "sentiment_score": 0.3546,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand",
-            "description": "Bitcoin's decline highlights its vulnerability to macroeconomic shifts, with rising rates and liquidity issues impacting broader market sentiment.\nThe post Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T16:02:09Z",
-            "url": "https://cryptobriefing.com/bitcoin-dips-below-80000-rising-rates-stablecoins/",
-            "sentiment_score": -0.1916,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barkin: Fed's path 'straightforward,' pace is question",
-            "description": "United States Federal Reserve Bank of Richmond President Tom Barkin spoke at SiriusXM's Business Briefing on Friday, explaining that with high inflation, unemployment \"relatively low,\" and demand \"sol...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:32:02Z",
-            "url": "https://biztoc.com/x/5f4441144e0242e9",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports",
-            "description": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports\nBy Howard Schneider\nWASHINGTON, Oct 30 (Reuters) - Richmond Federal Reserve President Tom Barkin said on Friday that with high inflation and the economy so…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:18:14Z",
-            "url": "https://biztoc.com/x/c67d661ea8a31afc",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold hits one-year low, silver slips below $50 as inflation fears bite",
-            "description": "Gold and silver prices have plummeted to their lowest in a year as energy costs surge and inflation remains a pressing concern. The decline in precious metals mirrors waning investor confidence, driven by fears over persistently high interest rates set by the…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T15:01:31Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-hits-one-year-low-silver-slips-below-50-as-inflation-fears-bite/articleshow/135367179.cms",
-            "sentiment_score": -0.1881,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Big Mac is now Little Mac:’ American tourist infuriated by McDonald’s paltry portion sizes in France",
-            "description": "An American tourist sparked online debate after claiming a €6.40 Big Mac in France was smaller than a McChicken, fueling shrinkflation complaints.",
-            "source": "New York Post",
-            "published_at": "2026-10-30T14:41:11Z",
-            "url": "https://nypost.com/2026/10/30/lifestyle/american-tourist-infuriated-by-mcdonalds-portion-sizes-in-france/",
-            "sentiment_score": -0.5493,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin fell after the Fed’s pause, but blaming interest rates misses the Binance shock",
-            "description": "The Federal Reserve asked for more information before changing interest rates. Eighteen and a half hours later, the economy supplied it: growth was strong, inflation remained elevated, and households were spending more without buying much more. But before inv…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-30T14:00:23Z",
-            "url": "https://cryptoslate.com/bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock/",
-            "sentiment_score": -0.3241,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
-            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
-            "source": "KPRC Click2Houston",
-            "published_at": "2026-10-30T13:38:31Z",
-            "url": "https://www.click2houston.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/",
-            "sentiment_score": -0.5743,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says",
-            "description": "The Binance hack's limited market impact highlights improved crisis management and resilience in the crypto sector compared to past events.\nThe post Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says appeared first on Crypto Briefi…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T13:36:17Z",
-            "url": "https://cryptobriefing.com/binance-hack-impact-stable-response/",
-            "sentiment_score": 0.5,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "By 1909, copper had helped Swansea, Arizona, grow to about 500 people; financial trouble followed in 1911, and the last mine closed in 1937",
-            "description": "Swansea, Arizona, once thrived as a mining community but became a ghost town after its abandonment in 1937. It flourished in the early 1900s due to copper discoveries, only to suffer economic decline later. Research highlights that boom-dependent communities …",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/by-1909-copper-had-built-swansea-arizona-into-a-town-of-500-financial-trouble-hit-by-1911-and-after-the-mines-finally-closed-in-1937-only-ruins-remained/articleshow/135314376.cms",
-            "sentiment_score": -0.5583,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "100 Unhinged Things Trump Did That You May Have Forgotten",
-            "description": "Donald Trump's second term has been flooded with abhorrent actions, but it's important not to be memory-holed ahead of the midterm elections.",
-            "source": "Rolling Stone",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "http://www.rollingstone.com/politics/political-commentary/trump-second-term-100-actions-forgotten-1235650305/",
-            "sentiment_score": -0.1854,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver fall as strong U.S. GDP, inflation support Fed tightening bets - Kitco PM Report",
-            "description": "Spot gold and silver prices were sharply lower in late U.S. trading Thursday, as stronger-than-expected economic growth and persistent inflation reinforced expectations for additional Federal Reserve tightening before year-end. Declining crude oil prices prov…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T12:58:12Z",
-            "url": "https://biztoc.com/x/33066fa27ef795ca",
-            "sentiment_score": 0.3497,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading day since mid-July?",
-            "description": "Gold prices fell to their lowest since mid-July on Friday. Gold rates were going down for a second straight monthly decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T12:32:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-rate-silver-price-today-why-is-gold-price-down-today-when-will-gold-recover-from-its-worst-trading-day-since-mid-july/articleshow/135361683.cms",
-            "sentiment_score": -0.5197,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0673,
+      "net_score": 0.1468,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1108,10 +1108,160 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0448,
+        "average_score": -0.0347,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-30T21:46:06Z",
+            "url": "https://news.yale.edu/2026/10/30/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Soaring cost of Halloween treats spooks shoppers",
+            "description": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs.",
+            "source": "BBC News",
+            "published_at": "2026-10-30T21:34:32Z",
+            "url": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street drops to worst day since June after tech stocks sell-off deepens",
+            "description": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-30T20:55:27Z",
+            "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+            "sentiment_score": -0.7172,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes",
+            "description": "(Reuters) — Nasdaq futures ​tumbled more than 2% on Friday as Amazon signaled its AI spending boom is far from over and Intel warned ‌it would burn cash this year,",
+            "source": "Marianas Variety",
+            "published_at": "2026-10-30T20:50:10Z",
+            "url": "https://www.mvariety.com/business/business_news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/article_e870b945-f7b6-4e30-acc5-a2094be80eb2.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Scotiabank Wins Fed Approval to Buy Oklahoma-Based MapleMark Bank",
+            "description": "The Federal Reserve Board approved the application by the Bank of Nova Scotia to become a bank holding company by acquiring Dallas, Texas-based Maple Financial Holdings and thereby indirectly acquiring Tulsa, Oklahoma-based MapleMark Bank, the Fed said in a T…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-30T20:41:51Z",
+            "url": "https://www.pymnts.com/news/banking/2026/scotiabank-wins-fed-approval-to-buy-oklahoma-based-maplemark-bank/",
+            "sentiment_score": 0.6713,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "CFTC proposes federal registration option for leveraged crypto exchanges",
+            "description": "The CFTC's proposal could pave the way for enhanced regulatory oversight, potentially boosting crypto market legitimacy and stability.\nThe post CFTC proposes federal registration option for leveraged crypto exchanges appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T20:36:54Z",
+            "url": "https://cryptobriefing.com/cftc-proposes-federal-registration-option-for-leveraged-crypto-exchanges/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Intel plunged 28.6% for its worst drop since 1974 — and the AI sell-off gave the S&P 500 its worst day since June",
+            "description": "A drop of 4.2% for Nvidia, the chip company that became the poster child of the AI frenzy, was the heaviest force pulling the S&P 500 downward.",
+            "source": "Fortune",
+            "published_at": "2026-10-30T20:27:35Z",
+            "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/",
+            "sentiment_score": -0.7764,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Drops To Its Worst Day Since June After The Sell-Off For Tech Stocks Deepens",
+            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
+            "source": "HuffPost",
+            "published_at": "2026-10-30T20:26:19Z",
+            "url": "https://www.huffpost.com/entry/financial-markets_n_6ae4fcbde4b038f4fbe05663",
+            "sentiment_score": -0.678,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Short Circuit: An inexhaustive weekly compendium of rulings from the federal courts of appeal",
+            "description": "Flying saucers, voodoo dolls, and ancient plagues.",
+            "source": "Reason",
+            "published_at": "2026-10-30T19:30:45Z",
+            "url": "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "naga-runtime added to PyPI",
+            "description": "Run trained NAGA trading models (.safetensors) live from MetaTrader 5, from Python, or over a secure JSON HTTP API with a built-in dashboard.",
+            "source": "Pypi.org",
+            "published_at": "2026-10-30T19:25:56Z",
+            "url": "https://pypi.org/project/naga-runtime/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
+            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-30T19:14:29Z",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+            "sentiment_score": 0.1779,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed needs at least two more rate hikes, Logan says",
+            "description": "By Ann Saphir\nOct 30 (Reuters) - The Federal Reserve needs to raise rates at least two more times to get inflation under control, Dallas Fed President Lorie Logan said on Friday, in some of the most explicit rate guidance offered by a US central banker since …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-30T19:08:28Z",
+            "url": "https://biztoc.com/x/e3f4cd2983caf241",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unvetted foreign workers at AI firms raise national security alarms, advocates warn",
+            "description": "Tech advocacy groups warn that foreign nationals at AI companies like OpenAI and Google pose a national security threat amid a lack of federal oversight.",
+            "source": "Fox News",
+            "published_at": "2026-10-30T19:04:49Z",
+            "url": "https://www.foxnews.com/tech/unvetted-foreign-workers-ai-firms-raise-national-security-alarms-advocates-warn",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 enters correction, falls 10% from October high",
+            "description": "The Nasdaq 100's correction signals potential shifts in market sentiment, impacting tech stocks and influencing expectations in related markets.\nThe post NASDAQ 100 enters correction, falls 10% from October high appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T18:56:21Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-enters-correction-falls-10-from-october-high/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+            "description": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked.",
+            "source": "Decrypt",
+            "published_at": "2026-10-30T18:45:03Z",
+            "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+            "sentiment_score": -0.1678,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed's Logan sees two more 25-basis-point rate hikes",
@@ -1261,164 +1411,54 @@
             "url": "https://cryptobriefing.com/fed-daly-ai-monetary-policy-thinking/",
             "sentiment_score": 0.1145,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Philip R. Lane: AI adoption in Europe",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-30T16:10:00Z",
-            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Stock Market is feeling AI investments pressure but check list of stocks that are jumping amidst Artificial Intelligence spending fears",
-            "description": "US Stock Market today: As the world's biggest technology companies race to expand computing capacity, demand for such facilities has surged, creating what industry executives have described as a generational opportunity for alternative asset managers.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:07:14Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-is-feeling-ai-investments-pressure-but-check-list-of-stocks-that-are-jumping-amidst-artificial-intelligence-spending-fears/articleshow/135369044.cms",
-            "sentiment_score": 0.2603,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Niti Aayog's Lahiri flags growth risks in case of further monetary policy tightening",
-            "description": "In India, it's essential for policymakers to harmonize growth output with inflation expectations. Niti Aayog’s Ashok Lahiri pointed out the importance of addressing inflation alongside job creation. He urged banks to play a pivotal role in linking enterprises…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:05:30Z",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/niti-aayogs-lahiri-flags-growth-risks-in-case-of-further-monetary-policy-tightening/articleshow/135369106.cms",
-            "sentiment_score": 0.3546,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand",
-            "description": "Bitcoin's decline highlights its vulnerability to macroeconomic shifts, with rising rates and liquidity issues impacting broader market sentiment.\nThe post Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T16:02:09Z",
-            "url": "https://cryptobriefing.com/bitcoin-dips-below-80000-rising-rates-stablecoins/",
-            "sentiment_score": -0.1916,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barkin: Fed's path 'straightforward,' pace is question",
-            "description": "United States Federal Reserve Bank of Richmond President Tom Barkin spoke at SiriusXM's Business Briefing on Friday, explaining that with high inflation, unemployment \"relatively low,\" and demand \"sol...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:32:02Z",
-            "url": "https://biztoc.com/x/5f4441144e0242e9",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports",
-            "description": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports\nBy Howard Schneider\nWASHINGTON, Oct 30 (Reuters) - Richmond Federal Reserve President Tom Barkin said on Friday that with high inflation and the economy so…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:18:14Z",
-            "url": "https://biztoc.com/x/c67d661ea8a31afc",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold hits one-year low, silver slips below $50 as inflation fears bite",
-            "description": "Gold and silver prices have plummeted to their lowest in a year as energy costs surge and inflation remains a pressing concern. The decline in precious metals mirrors waning investor confidence, driven by fears over persistently high interest rates set by the…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T15:01:31Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-hits-one-year-low-silver-slips-below-50-as-inflation-fears-bite/articleshow/135367179.cms",
-            "sentiment_score": -0.1881,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Big Mac is now Little Mac:’ American tourist infuriated by McDonald’s paltry portion sizes in France",
-            "description": "An American tourist sparked online debate after claiming a €6.40 Big Mac in France was smaller than a McChicken, fueling shrinkflation complaints.",
-            "source": "New York Post",
-            "published_at": "2026-10-30T14:41:11Z",
-            "url": "https://nypost.com/2026/10/30/lifestyle/american-tourist-infuriated-by-mcdonalds-portion-sizes-in-france/",
-            "sentiment_score": -0.5493,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin fell after the Fed’s pause, but blaming interest rates misses the Binance shock",
-            "description": "The Federal Reserve asked for more information before changing interest rates. Eighteen and a half hours later, the economy supplied it: growth was strong, inflation remained elevated, and households were spending more without buying much more. But before inv…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-30T14:00:23Z",
-            "url": "https://cryptoslate.com/bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock/",
-            "sentiment_score": -0.3241,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
-            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
-            "source": "KPRC Click2Houston",
-            "published_at": "2026-10-30T13:38:31Z",
-            "url": "https://www.click2houston.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/",
-            "sentiment_score": -0.5743,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says",
-            "description": "The Binance hack's limited market impact highlights improved crisis management and resilience in the crypto sector compared to past events.\nThe post Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says appeared first on Crypto Briefi…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T13:36:17Z",
-            "url": "https://cryptobriefing.com/binance-hack-impact-stable-response/",
-            "sentiment_score": 0.5,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "By 1909, copper had helped Swansea, Arizona, grow to about 500 people; financial trouble followed in 1911, and the last mine closed in 1937",
-            "description": "Swansea, Arizona, once thrived as a mining community but became a ghost town after its abandonment in 1937. It flourished in the early 1900s due to copper discoveries, only to suffer economic decline later. Research highlights that boom-dependent communities …",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/by-1909-copper-had-built-swansea-arizona-into-a-town-of-500-financial-trouble-hit-by-1911-and-after-the-mines-finally-closed-in-1937-only-ruins-remained/articleshow/135314376.cms",
-            "sentiment_score": -0.5583,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "100 Unhinged Things Trump Did That You May Have Forgotten",
-            "description": "Donald Trump's second term has been flooded with abhorrent actions, but it's important not to be memory-holed ahead of the midterm elections.",
-            "source": "Rolling Stone",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "http://www.rollingstone.com/politics/political-commentary/trump-second-term-100-actions-forgotten-1235650305/",
-            "sentiment_score": -0.1854,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver fall as strong U.S. GDP, inflation support Fed tightening bets - Kitco PM Report",
-            "description": "Spot gold and silver prices were sharply lower in late U.S. trading Thursday, as stronger-than-expected economic growth and persistent inflation reinforced expectations for additional Federal Reserve tightening before year-end. Declining crude oil prices prov…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T12:58:12Z",
-            "url": "https://biztoc.com/x/33066fa27ef795ca",
-            "sentiment_score": 0.3497,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading day since mid-July?",
-            "description": "Gold prices fell to their lowest since mid-July on Friday. Gold rates were going down for a second straight monthly decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T12:32:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-rate-silver-price-today-why-is-gold-price-down-today-when-will-gold-recover-from-its-worst-trading-day-since-mid-july/articleshow/135361683.cms",
-            "sentiment_score": -0.5197,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0386,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0998,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Wall Street drops to worst day since June after tech stocks sell-off deepens",
+            "description": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-30T20:55:27Z",
+            "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+            "sentiment_score": -0.7172,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Intel plunged 28.6% for its worst drop since 1974 — and the AI sell-off gave the S&P 500 its worst day since June",
+            "description": "A drop of 4.2% for Nvidia, the chip company that became the poster child of the AI frenzy, was the heaviest force pulling the S&P 500 downward.",
+            "source": "Fortune",
+            "published_at": "2026-10-30T20:27:35Z",
+            "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/",
+            "sentiment_score": -0.7764,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Wall Street Drops To Its Worst Day Since June After The Sell-Off For Tech Stocks Deepens",
+            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
+            "source": "HuffPost",
+            "published_at": "2026-10-30T20:26:19Z",
+            "url": "https://www.huffpost.com/entry/financial-markets_n_6ae4fcbde4b038f4fbe05663",
+            "sentiment_score": -0.678,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
+            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-30T19:14:29Z",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+            "sentiment_score": 0.1779,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
@@ -1678,50 +1718,10 @@
             "url": "https://biztoc.com/x/052ae2984356cb6d",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ holds rates as inflation aligns with 2% target for first time since 2013",
-            "description": "The Bank of Japan declared that inflation in the country was \"generally consistent\" with its target of 2%, the first time it has made that assessment since adopting the target in 2013.\nThis comes as the central bank expectedly held rates at 1.25%, still at it…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T03:29:55Z",
-            "url": "https://biztoc.com/x/e27629370b6d9f39",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Instant View: Analysts react to BOJ decision to keep rates steady",
-            "description": "Oct 30 : The Bank of Japan kept interest rates steady on Friday, but revised up its inflation forecast and stressed anew its readiness to continue pushing up borrowing costs to forestall mounting inflation risks.The central bank decided to maintain its short-…",
-            "source": "CNA",
-            "published_at": "2026-10-30T03:21:24Z",
-            "url": "https://www.channelnewsasia.com/business/instant-view-analysts-react-boj-decision-keep-rates-steady-6505841",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Analysts react to BOJ decision to keep rates steady",
-            "description": "The Bank of Japan kept interest rates steady on Friday, but revised up its inflation forecast and stressed anew its readiness to continue pushing up borrowing costs to forestall mounting inflation risks.The central bank decided to maintain its short-term poli…",
-            "source": "CNA",
-            "published_at": "2026-10-30T03:21:24Z",
-            "url": "https://www.channelnewsasia.com/business/analysts-react-boj-decision-keep-rates-steady-6505841",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ keeps rates steady, declares victory in hitting price target",
-            "description": "TOKYO: The Bank of Japan kept interest rates steady on Friday (Oct 30), but declared victory in a nearly 14-year battle to hit its price target and signalled vigilance against inflationary risks, suggesting scope to hike borrowing costs as soon as December.Wi…",
-            "source": "CNA",
-            "published_at": "2026-10-30T03:17:00Z",
-            "url": "https://www.channelnewsasia.com/business/bank-japan-keep-rates-steady-hits-price-target-6505836",
-            "sentiment_score": -0.1856,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0062,
+      "net_score": 0.0651,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1831,10 +1831,160 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0448,
+        "average_score": -0.0347,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-30T21:46:06Z",
+            "url": "https://news.yale.edu/2026/10/30/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Soaring cost of Halloween treats spooks shoppers",
+            "description": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs.",
+            "source": "BBC News",
+            "published_at": "2026-10-30T21:34:32Z",
+            "url": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street drops to worst day since June after tech stocks sell-off deepens",
+            "description": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-30T20:55:27Z",
+            "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+            "sentiment_score": -0.7172,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes",
+            "description": "(Reuters) — Nasdaq futures ​tumbled more than 2% on Friday as Amazon signaled its AI spending boom is far from over and Intel warned ‌it would burn cash this year,",
+            "source": "Marianas Variety",
+            "published_at": "2026-10-30T20:50:10Z",
+            "url": "https://www.mvariety.com/business/business_news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/article_e870b945-f7b6-4e30-acc5-a2094be80eb2.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Scotiabank Wins Fed Approval to Buy Oklahoma-Based MapleMark Bank",
+            "description": "The Federal Reserve Board approved the application by the Bank of Nova Scotia to become a bank holding company by acquiring Dallas, Texas-based Maple Financial Holdings and thereby indirectly acquiring Tulsa, Oklahoma-based MapleMark Bank, the Fed said in a T…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-30T20:41:51Z",
+            "url": "https://www.pymnts.com/news/banking/2026/scotiabank-wins-fed-approval-to-buy-oklahoma-based-maplemark-bank/",
+            "sentiment_score": 0.6713,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "CFTC proposes federal registration option for leveraged crypto exchanges",
+            "description": "The CFTC's proposal could pave the way for enhanced regulatory oversight, potentially boosting crypto market legitimacy and stability.\nThe post CFTC proposes federal registration option for leveraged crypto exchanges appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T20:36:54Z",
+            "url": "https://cryptobriefing.com/cftc-proposes-federal-registration-option-for-leveraged-crypto-exchanges/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Intel plunged 28.6% for its worst drop since 1974 — and the AI sell-off gave the S&P 500 its worst day since June",
+            "description": "A drop of 4.2% for Nvidia, the chip company that became the poster child of the AI frenzy, was the heaviest force pulling the S&P 500 downward.",
+            "source": "Fortune",
+            "published_at": "2026-10-30T20:27:35Z",
+            "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/",
+            "sentiment_score": -0.7764,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Drops To Its Worst Day Since June After The Sell-Off For Tech Stocks Deepens",
+            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
+            "source": "HuffPost",
+            "published_at": "2026-10-30T20:26:19Z",
+            "url": "https://www.huffpost.com/entry/financial-markets_n_6ae4fcbde4b038f4fbe05663",
+            "sentiment_score": -0.678,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Short Circuit: An inexhaustive weekly compendium of rulings from the federal courts of appeal",
+            "description": "Flying saucers, voodoo dolls, and ancient plagues.",
+            "source": "Reason",
+            "published_at": "2026-10-30T19:30:45Z",
+            "url": "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "naga-runtime added to PyPI",
+            "description": "Run trained NAGA trading models (.safetensors) live from MetaTrader 5, from Python, or over a secure JSON HTTP API with a built-in dashboard.",
+            "source": "Pypi.org",
+            "published_at": "2026-10-30T19:25:56Z",
+            "url": "https://pypi.org/project/naga-runtime/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
+            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-30T19:14:29Z",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+            "sentiment_score": 0.1779,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed needs at least two more rate hikes, Logan says",
+            "description": "By Ann Saphir\nOct 30 (Reuters) - The Federal Reserve needs to raise rates at least two more times to get inflation under control, Dallas Fed President Lorie Logan said on Friday, in some of the most explicit rate guidance offered by a US central banker since …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-30T19:08:28Z",
+            "url": "https://biztoc.com/x/e3f4cd2983caf241",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unvetted foreign workers at AI firms raise national security alarms, advocates warn",
+            "description": "Tech advocacy groups warn that foreign nationals at AI companies like OpenAI and Google pose a national security threat amid a lack of federal oversight.",
+            "source": "Fox News",
+            "published_at": "2026-10-30T19:04:49Z",
+            "url": "https://www.foxnews.com/tech/unvetted-foreign-workers-ai-firms-raise-national-security-alarms-advocates-warn",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 enters correction, falls 10% from October high",
+            "description": "The Nasdaq 100's correction signals potential shifts in market sentiment, impacting tech stocks and influencing expectations in related markets.\nThe post NASDAQ 100 enters correction, falls 10% from October high appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T18:56:21Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-enters-correction-falls-10-from-october-high/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+            "description": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked.",
+            "source": "Decrypt",
+            "published_at": "2026-10-30T18:45:03Z",
+            "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+            "sentiment_score": -0.1678,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed's Logan sees two more 25-basis-point rate hikes",
@@ -1984,160 +2134,10 @@
             "url": "https://cryptobriefing.com/fed-daly-ai-monetary-policy-thinking/",
             "sentiment_score": 0.1145,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Philip R. Lane: AI adoption in Europe",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-30T16:10:00Z",
-            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Stock Market is feeling AI investments pressure but check list of stocks that are jumping amidst Artificial Intelligence spending fears",
-            "description": "US Stock Market today: As the world's biggest technology companies race to expand computing capacity, demand for such facilities has surged, creating what industry executives have described as a generational opportunity for alternative asset managers.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:07:14Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-is-feeling-ai-investments-pressure-but-check-list-of-stocks-that-are-jumping-amidst-artificial-intelligence-spending-fears/articleshow/135369044.cms",
-            "sentiment_score": 0.2603,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Niti Aayog's Lahiri flags growth risks in case of further monetary policy tightening",
-            "description": "In India, it's essential for policymakers to harmonize growth output with inflation expectations. Niti Aayog’s Ashok Lahiri pointed out the importance of addressing inflation alongside job creation. He urged banks to play a pivotal role in linking enterprises…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:05:30Z",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/niti-aayogs-lahiri-flags-growth-risks-in-case-of-further-monetary-policy-tightening/articleshow/135369106.cms",
-            "sentiment_score": 0.3546,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand",
-            "description": "Bitcoin's decline highlights its vulnerability to macroeconomic shifts, with rising rates and liquidity issues impacting broader market sentiment.\nThe post Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T16:02:09Z",
-            "url": "https://cryptobriefing.com/bitcoin-dips-below-80000-rising-rates-stablecoins/",
-            "sentiment_score": -0.1916,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barkin: Fed's path 'straightforward,' pace is question",
-            "description": "United States Federal Reserve Bank of Richmond President Tom Barkin spoke at SiriusXM's Business Briefing on Friday, explaining that with high inflation, unemployment \"relatively low,\" and demand \"sol...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:32:02Z",
-            "url": "https://biztoc.com/x/5f4441144e0242e9",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports",
-            "description": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports\nBy Howard Schneider\nWASHINGTON, Oct 30 (Reuters) - Richmond Federal Reserve President Tom Barkin said on Friday that with high inflation and the economy so…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:18:14Z",
-            "url": "https://biztoc.com/x/c67d661ea8a31afc",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold hits one-year low, silver slips below $50 as inflation fears bite",
-            "description": "Gold and silver prices have plummeted to their lowest in a year as energy costs surge and inflation remains a pressing concern. The decline in precious metals mirrors waning investor confidence, driven by fears over persistently high interest rates set by the…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T15:01:31Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-hits-one-year-low-silver-slips-below-50-as-inflation-fears-bite/articleshow/135367179.cms",
-            "sentiment_score": -0.1881,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Big Mac is now Little Mac:’ American tourist infuriated by McDonald’s paltry portion sizes in France",
-            "description": "An American tourist sparked online debate after claiming a €6.40 Big Mac in France was smaller than a McChicken, fueling shrinkflation complaints.",
-            "source": "New York Post",
-            "published_at": "2026-10-30T14:41:11Z",
-            "url": "https://nypost.com/2026/10/30/lifestyle/american-tourist-infuriated-by-mcdonalds-portion-sizes-in-france/",
-            "sentiment_score": -0.5493,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin fell after the Fed’s pause, but blaming interest rates misses the Binance shock",
-            "description": "The Federal Reserve asked for more information before changing interest rates. Eighteen and a half hours later, the economy supplied it: growth was strong, inflation remained elevated, and households were spending more without buying much more. But before inv…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-30T14:00:23Z",
-            "url": "https://cryptoslate.com/bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock/",
-            "sentiment_score": -0.3241,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
-            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
-            "source": "KPRC Click2Houston",
-            "published_at": "2026-10-30T13:38:31Z",
-            "url": "https://www.click2houston.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/",
-            "sentiment_score": -0.5743,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says",
-            "description": "The Binance hack's limited market impact highlights improved crisis management and resilience in the crypto sector compared to past events.\nThe post Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says appeared first on Crypto Briefi…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T13:36:17Z",
-            "url": "https://cryptobriefing.com/binance-hack-impact-stable-response/",
-            "sentiment_score": 0.5,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "By 1909, copper had helped Swansea, Arizona, grow to about 500 people; financial trouble followed in 1911, and the last mine closed in 1937",
-            "description": "Swansea, Arizona, once thrived as a mining community but became a ghost town after its abandonment in 1937. It flourished in the early 1900s due to copper discoveries, only to suffer economic decline later. Research highlights that boom-dependent communities …",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/by-1909-copper-had-built-swansea-arizona-into-a-town-of-500-financial-trouble-hit-by-1911-and-after-the-mines-finally-closed-in-1937-only-ruins-remained/articleshow/135314376.cms",
-            "sentiment_score": -0.5583,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "100 Unhinged Things Trump Did That You May Have Forgotten",
-            "description": "Donald Trump's second term has been flooded with abhorrent actions, but it's important not to be memory-holed ahead of the midterm elections.",
-            "source": "Rolling Stone",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "http://www.rollingstone.com/politics/political-commentary/trump-second-term-100-actions-forgotten-1235650305/",
-            "sentiment_score": -0.1854,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver fall as strong U.S. GDP, inflation support Fed tightening bets - Kitco PM Report",
-            "description": "Spot gold and silver prices were sharply lower in late U.S. trading Thursday, as stronger-than-expected economic growth and persistent inflation reinforced expectations for additional Federal Reserve tightening before year-end. Declining crude oil prices prov…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T12:58:12Z",
-            "url": "https://biztoc.com/x/33066fa27ef795ca",
-            "sentiment_score": 0.3497,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading day since mid-July?",
-            "description": "Gold prices fell to their lowest since mid-July on Friday. Gold rates were going down for a second straight monthly decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T12:32:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-rate-silver-price-today-why-is-gold-price-down-today-when-will-gold-recover-from-its-worst-trading-day-since-mid-july/articleshow/135361683.cms",
-            "sentiment_score": -0.5197,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.1757,
+      "net_score": 0.2552,
       "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -2150,10 +2150,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.028,
+        "average_score": 0.0379,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 13,
+        "article_count": 14,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Cartier Files on SEDAR+ the NI 43-101 Technical Report of the updated Preliminary Economic Assessment for the Cadillac Project: After-tax NPV5% of C$1.0 billion and after-tax IRR of 26.6% at US$3,600/oz gold price",
+            "description": "Average annual production of 100 koz of gold over a 16.2-year mine life – After-tax NPV5% of C$1,565 M and after-tax IRR of 37.3% at spot gold of US$4,300/oz – NPV5% to initial capital ratio of 3.6x. Highlights Robust Economics After-tax NPV5% of C$1,001 M an…",
+            "source": "Financial Post",
+            "published_at": "2026-10-30T19:19:47Z",
+            "url": "https://financialpost.com/globe-newswire/cartier-files-on-sedar-the-ni-43-101-technical-report-of-the-updated-preliminary-economic-assessment-for-the-cadillac-project-after-tax-npv5-of-c1-0-billion-and-after-tax-irr-of-26-6-at-us3600-oz",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Today’s News in a Nutshell",
@@ -2287,10 +2297,160 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0448,
+        "average_score": -0.0347,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-30T21:46:06Z",
+            "url": "https://news.yale.edu/2026/10/30/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Soaring cost of Halloween treats spooks shoppers",
+            "description": "The price of candy, especially chocolate, has soared, and Halloween bargain hunters are searching for deals and ways to cut costs.",
+            "source": "BBC News",
+            "published_at": "2026-10-30T21:34:32Z",
+            "url": "https://www.bbc.co.uk/news/articles/cr0qk25p1yeno",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street drops to worst day since June after tech stocks sell-off deepens",
+            "description": "All three major US stock indexes slumped, with the tech-heavy Nasdaq suffering the steepest loss. Intel suffered its worst loss in 50 years.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-10-30T20:55:27Z",
+            "url": "https://www.abc.net.au/news/2026-10-31/wall-street-drops-to-its-worst-day-since-june/107331332",
+            "sentiment_score": -0.7172,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nasdaq futures tumble as Amazon, Intel results deepen AI spending woes",
+            "description": "(Reuters) — Nasdaq futures ​tumbled more than 2% on Friday as Amazon signaled its AI spending boom is far from over and Intel warned ‌it would burn cash this year,",
+            "source": "Marianas Variety",
+            "published_at": "2026-10-30T20:50:10Z",
+            "url": "https://www.mvariety.com/business/business_news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes/article_e870b945-f7b6-4e30-acc5-a2094be80eb2.html",
+            "sentiment_score": -0.238,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Scotiabank Wins Fed Approval to Buy Oklahoma-Based MapleMark Bank",
+            "description": "The Federal Reserve Board approved the application by the Bank of Nova Scotia to become a bank holding company by acquiring Dallas, Texas-based Maple Financial Holdings and thereby indirectly acquiring Tulsa, Oklahoma-based MapleMark Bank, the Fed said in a T…",
+            "source": "pymnts.com",
+            "published_at": "2026-10-30T20:41:51Z",
+            "url": "https://www.pymnts.com/news/banking/2026/scotiabank-wins-fed-approval-to-buy-oklahoma-based-maplemark-bank/",
+            "sentiment_score": 0.6713,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "CFTC proposes federal registration option for leveraged crypto exchanges",
+            "description": "The CFTC's proposal could pave the way for enhanced regulatory oversight, potentially boosting crypto market legitimacy and stability.\nThe post CFTC proposes federal registration option for leveraged crypto exchanges appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T20:36:54Z",
+            "url": "https://cryptobriefing.com/cftc-proposes-federal-registration-option-for-leveraged-crypto-exchanges/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Intel plunged 28.6% for its worst drop since 1974 — and the AI sell-off gave the S&P 500 its worst day since June",
+            "description": "A drop of 4.2% for Nvidia, the chip company that became the poster child of the AI frenzy, was the heaviest force pulling the S&P 500 downward.",
+            "source": "Fortune",
+            "published_at": "2026-10-30T20:27:35Z",
+            "url": "https://fortune.com/2026/10/30/intel-worst-drop-since-1974-sp-500-worst-day-since-june-ai-selloff/",
+            "sentiment_score": -0.7764,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Drops To Its Worst Day Since June After The Sell-Off For Tech Stocks Deepens",
+            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
+            "source": "HuffPost",
+            "published_at": "2026-10-30T20:26:19Z",
+            "url": "https://www.huffpost.com/entry/financial-markets_n_6ae4fcbde4b038f4fbe05663",
+            "sentiment_score": -0.678,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Short Circuit: An inexhaustive weekly compendium of rulings from the federal courts of appeal",
+            "description": "Flying saucers, voodoo dolls, and ancient plagues.",
+            "source": "Reason",
+            "published_at": "2026-10-30T19:30:45Z",
+            "url": "https://reason.com/volokh/2026/10/30/short-circuit-an-inexhaustive-weekly-compendium-of-rulings-from-the-federal-courts-of-appeal-83/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "naga-runtime added to PyPI",
+            "description": "Run trained NAGA trading models (.safetensors) live from MetaTrader 5, from Python, or over a secure JSON HTTP API with a built-in dashboard.",
+            "source": "Pypi.org",
+            "published_at": "2026-10-30T19:25:56Z",
+            "url": "https://pypi.org/project/naga-runtime/",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
+            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
+            "source": "Yahoo Entertainment",
+            "published_at": "2026-10-30T19:14:29Z",
+            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-ai-sell-off-191429143.html",
+            "sentiment_score": 0.1779,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed needs at least two more rate hikes, Logan says",
+            "description": "By Ann Saphir\nOct 30 (Reuters) - The Federal Reserve needs to raise rates at least two more times to get inflation under control, Dallas Fed President Lorie Logan said on Friday, in some of the most explicit rate guidance offered by a US central banker since …",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-30T19:08:28Z",
+            "url": "https://biztoc.com/x/e3f4cd2983caf241",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Unvetted foreign workers at AI firms raise national security alarms, advocates warn",
+            "description": "Tech advocacy groups warn that foreign nationals at AI companies like OpenAI and Google pose a national security threat amid a lack of federal oversight.",
+            "source": "Fox News",
+            "published_at": "2026-10-30T19:04:49Z",
+            "url": "https://www.foxnews.com/tech/unvetted-foreign-workers-ai-firms-raise-national-security-alarms-advocates-warn",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 enters correction, falls 10% from October high",
+            "description": "The Nasdaq 100's correction signals potential shifts in market sentiment, impacting tech stocks and influencing expectations in related markets.\nThe post NASDAQ 100 enters correction, falls 10% from October high appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-10-30T18:56:21Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-enters-correction-falls-10-from-october-high/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Binance Hack: Why Bitcoin Didn't Crash Like It Did in 2018",
+            "description": "Binance lost about $6.4 billion, the largest crypto hack on record, yet Bitcoin fell about 3%, against nearly 11% in 2018 when the exchange was last attacked.",
+            "source": "Decrypt",
+            "published_at": "2026-10-30T18:45:03Z",
+            "url": "https://decrypt.co/382257/binance-hack-why-bitcoin-didnt-crash",
+            "sentiment_score": -0.1678,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed's Logan sees two more 25-basis-point rate hikes",
@@ -2440,160 +2600,10 @@
             "url": "https://cryptobriefing.com/fed-daly-ai-monetary-policy-thinking/",
             "sentiment_score": 0.1145,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Philip R. Lane: AI adoption in Europe",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-10-30T16:10:00Z",
-            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261030~08d9d540f0.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US Stock Market is feeling AI investments pressure but check list of stocks that are jumping amidst Artificial Intelligence spending fears",
-            "description": "US Stock Market today: As the world's biggest technology companies race to expand computing capacity, demand for such facilities has surged, creating what industry executives have described as a generational opportunity for alternative asset managers.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:07:14Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/us-stock-market-is-feeling-ai-investments-pressure-but-check-list-of-stocks-that-are-jumping-amidst-artificial-intelligence-spending-fears/articleshow/135369044.cms",
-            "sentiment_score": 0.2603,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Niti Aayog's Lahiri flags growth risks in case of further monetary policy tightening",
-            "description": "In India, it's essential for policymakers to harmonize growth output with inflation expectations. Niti Aayog’s Ashok Lahiri pointed out the importance of addressing inflation alongside job creation. He urged banks to play a pivotal role in linking enterprises…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T16:05:30Z",
-            "url": "https://economictimes.indiatimes.com/news/economy/policy/niti-aayogs-lahiri-flags-growth-risks-in-case-of-further-monetary-policy-tightening/articleshow/135369106.cms",
-            "sentiment_score": 0.3546,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand",
-            "description": "Bitcoin's decline highlights its vulnerability to macroeconomic shifts, with rising rates and liquidity issues impacting broader market sentiment.\nThe post Bitcoin dips below $80,000 as rising rates and stablecoin caution weigh on demand appeared first on Cry…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T16:02:09Z",
-            "url": "https://cryptobriefing.com/bitcoin-dips-below-80000-rising-rates-stablecoins/",
-            "sentiment_score": -0.1916,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Barkin: Fed's path 'straightforward,' pace is question",
-            "description": "United States Federal Reserve Bank of Richmond President Tom Barkin spoke at SiriusXM's Business Briefing on Friday, explaining that with high inflation, unemployment \"relatively low,\" and demand \"sol...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:32:02Z",
-            "url": "https://biztoc.com/x/5f4441144e0242e9",
-            "sentiment_score": -0.1206,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports",
-            "description": "Fed's Barkin says US central bank's direction 'straightforward,' the question is pace, SiriusXM reports\nBy Howard Schneider\nWASHINGTON, Oct 30 (Reuters) - Richmond Federal Reserve President Tom Barkin said on Friday that with high inflation and the economy so…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T15:18:14Z",
-            "url": "https://biztoc.com/x/c67d661ea8a31afc",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold hits one-year low, silver slips below $50 as inflation fears bite",
-            "description": "Gold and silver prices have plummeted to their lowest in a year as energy costs surge and inflation remains a pressing concern. The decline in precious metals mirrors waning investor confidence, driven by fears over persistently high interest rates set by the…",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T15:01:31Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-hits-one-year-low-silver-slips-below-50-as-inflation-fears-bite/articleshow/135367179.cms",
-            "sentiment_score": -0.1881,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Big Mac is now Little Mac:’ American tourist infuriated by McDonald’s paltry portion sizes in France",
-            "description": "An American tourist sparked online debate after claiming a €6.40 Big Mac in France was smaller than a McChicken, fueling shrinkflation complaints.",
-            "source": "New York Post",
-            "published_at": "2026-10-30T14:41:11Z",
-            "url": "https://nypost.com/2026/10/30/lifestyle/american-tourist-infuriated-by-mcdonalds-portion-sizes-in-france/",
-            "sentiment_score": -0.5493,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin fell after the Fed’s pause, but blaming interest rates misses the Binance shock",
-            "description": "The Federal Reserve asked for more information before changing interest rates. Eighteen and a half hours later, the economy supplied it: growth was strong, inflation remained elevated, and households were spending more without buying much more. But before inv…",
-            "source": "CryptoSlate",
-            "published_at": "2026-10-30T14:00:23Z",
-            "url": "https://cryptoslate.com/bitcoin-fell-after-the-feds-pause-but-blaming-interest-rates-misses-the-binance-shock/",
-            "sentiment_score": -0.3241,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The sell-off for tech stocks worsens and drowns out strength elsewhere on Wall Street",
-            "description": "The sell-off for tech stocks on Wall Street got even worse on worries that the frenzy around AI sent prices too high.",
-            "source": "KPRC Click2Houston",
-            "published_at": "2026-10-30T13:38:31Z",
-            "url": "https://www.click2houston.com/business/2026/10/30/asian-trading-is-mixed-as-worries-about-ai-related-issues-grow/",
-            "sentiment_score": -0.5743,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says",
-            "description": "The Binance hack's limited market impact highlights improved crisis management and resilience in the crypto sector compared to past events.\nThe post Binance hack nears FTX hole in size but not in panic, Dragonfly’s Qureshi says appeared first on Crypto Briefi…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-10-30T13:36:17Z",
-            "url": "https://cryptobriefing.com/binance-hack-impact-stable-response/",
-            "sentiment_score": 0.5,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "By 1909, copper had helped Swansea, Arizona, grow to about 500 people; financial trouble followed in 1911, and the last mine closed in 1937",
-            "description": "Swansea, Arizona, once thrived as a mining community but became a ghost town after its abandonment in 1937. It flourished in the early 1900s due to copper discoveries, only to suffer economic decline later. Research highlights that boom-dependent communities …",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/by-1909-copper-had-built-swansea-arizona-into-a-town-of-500-financial-trouble-hit-by-1911-and-after-the-mines-finally-closed-in-1937-only-ruins-remained/articleshow/135314376.cms",
-            "sentiment_score": -0.5583,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "100 Unhinged Things Trump Did That You May Have Forgotten",
-            "description": "Donald Trump's second term has been flooded with abhorrent actions, but it's important not to be memory-holed ahead of the midterm elections.",
-            "source": "Rolling Stone",
-            "published_at": "2026-10-30T13:00:00Z",
-            "url": "http://www.rollingstone.com/politics/political-commentary/trump-second-term-100-actions-forgotten-1235650305/",
-            "sentiment_score": -0.1854,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver fall as strong U.S. GDP, inflation support Fed tightening bets - Kitco PM Report",
-            "description": "Spot gold and silver prices were sharply lower in late U.S. trading Thursday, as stronger-than-expected economic growth and persistent inflation reinforced expectations for additional Federal Reserve tightening before year-end. Declining crude oil prices prov…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T12:58:12Z",
-            "url": "https://biztoc.com/x/33066fa27ef795ca",
-            "sentiment_score": 0.3497,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rate, silver price today: Why is gold price down today? When will gold recover from its worst trading day since mid-July?",
-            "description": "Gold prices fell to their lowest since mid-July on Friday. Gold rates were going down for a second straight monthly decline.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T12:32:05Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-rate-silver-price-today-why-is-gold-price-down-today-when-will-gold-recover-from-its-worst-trading-day-since-mid-july/articleshow/135361683.cms",
-            "sentiment_score": -0.5197,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.0168,
+      "net_score": 0.0726,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
