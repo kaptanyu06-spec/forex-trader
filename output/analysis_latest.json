@@ -6,10 +6,60 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1665,
+        "average_score": -0.1485,
         "label": "ลบเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "CurrencyConverter 0.18.23",
+            "description": "A currency converter using the European Central Bank data.",
+            "source": "Pypi.org",
+            "published_at": "2026-10-31T08:48:18Z",
+            "url": "https://pypi.org/project/currencyconverter/0.18.23/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "5 reasons the housing crisis may be turning a corner",
+            "description": "Over the past few months there have been positive noises about the housing market. There is a shift under way, but it is a number of relatively small moves in the right direction, writes David Murphy",
+            "source": "RTE",
+            "published_at": "2026-10-31T07:00:00Z",
+            "url": "https://www.rte.ie/news/analysis-and-comment/2026/1031/1597411-housing-crisis-progress/",
+            "sentiment_score": -0.3139,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Christine Lagarde’s Lonely Next Act: Defender of a Fading Globalist Order",
+            "description": "The departing leader of the European Central Bank wagers that her brand of politics still has a place in a world increasingly driven by polarization.",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-31T06:50:37Z",
+            "url": "https://biztoc.com/x/e0492aa6f28f2466",
+            "sentiment_score": -0.1912,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
+            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:01Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
+            "sentiment_score": 0.0786,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Ireland driving euro zone growth but ‘care must be taken’ with data",
+            "description": "Euro area a surprising outperformer in face of soaring energy prices",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T05:55:00Z",
+            "url": "https://www.irishtimes.com/business/2026/10/31/ireland-driving-euro-zone-growth-but-care-must-be-taken-with-data/",
+            "sentiment_score": 0.2898,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "EUR",
             "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
@@ -249,64 +299,84 @@
             "url": "https://www.rte.ie/news/business/2026/1030/1597313-no-rate-change-from-bank-of-japan/",
             "sentiment_score": 0.1837,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: Bank of Japan achieves 2% inflation target after 13 years",
-            "description": "The Bank of Japan declared its long-standing 2% inflation target achieved after more than 13 years, but kept its benchmark interest rate unchanged at 1.25%. Persistent inflation, rising oil and semiconductor prices, and yen weakness have fuelled expectations …",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T06:36:06Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-bank-of-japan-achieves-2-inflation-target-after-13-years/articleshow/135347955.cms",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "All change at ECB except the rates",
-            "description": "Business Digest: The best news, analysis and comment from The Irish Times business desk",
-            "source": "The Irish Times",
-            "published_at": "2026-10-30T06:29:37Z",
-            "url": "https://www.irishtimes.com/business/2026/10/30/all-change-at-ecb-except-the-rates-and-breaking-down-your-power-bill/",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Bank of Japan says inflation hit 2 percent target after 13 years",
-            "description": "The Bank of Japan said on Oct. 30 inflation had hit its 2 percent target, more than 13 years after it adopted the goal in a bid to pull the economy out of deflation.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-10-30T06:21:21Z",
-            "url": "https://www.hurriyetdailynews.com/bank-of-japan-says-inflation-hit-2-percent-target-after-13-years-228790",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Global Market: ECB may pause rate hikes after December amid growth risks",
-            "description": "European Central Bank policymakers expect to raise interest rates by 25 basis points in December to counter energy-led inflation, before pausing further monetary tightening as rising bond yields are expected to weigh on economic growth and price pressures.",
-            "source": "The Times of India",
-            "published_at": "2026-10-30T05:53:18Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-ecb-may-pause-rate-hikes-after-december-amid-growth-risks/articleshow/135346378.cms",
-            "sentiment_score": 0.2428,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Gold faces further losses as $3,930 support in focus: Mirae Asset Sharekhan",
-            "description": "Momentum selling and uncertainty ahead of the US midterm elections are outweighing the supporting factors like sharp decline in US yields in last two weeks and shaky AI sector.",
-            "source": "Business Standard",
-            "published_at": "2026-10-30T05:44:33Z",
-            "url": "https://www.business-standard.com/markets/news/gold-faces-further-losses-as-3-930-support-in-focus-mirae-asset-sharekhan-126103000480_1.html",
-            "sentiment_score": 0.3348,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1672,
+        "average_score": -0.146,
         "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-31T09:00:06Z",
+            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "bellwether-mcp 1.3.8",
+            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
+            "source": "Pypi.org",
+            "published_at": "2026-10-31T06:12:17Z",
+            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
+            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:01Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
+            "sentiment_score": 0.0786,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
+            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:00Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
+            "sentiment_score": -0.3687,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
+            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-31T05:31:44Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
+            "sentiment_score": -0.375,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
+            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
+            "source": "The Times of India",
+            "published_at": "2026-10-31T03:47:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
+            "sentiment_score": -0.3066,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
+            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-10-31T03:45:34Z",
+            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
@@ -536,80 +606,10 @@
             "url": "https://biztoc.com/x/61c028678eead616",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner likely to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:19:54Z",
-            "url": "https://biztoc.com/x/8779314e5d6a1f82",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 3 Fed members say. The question is how much",
-            "description": "Three members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:08:20Z",
-            "url": "https://biztoc.com/x/ab19d32f47ba7350",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
-            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-30T18:01:04Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 2 Fed members say. The question is how much",
-            "description": "Two members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise h…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:37:50Z",
-            "url": "https://biztoc.com/x/09d9879b522f29b0",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:35:20Z",
-            "url": "https://biztoc.com/x/c96ca2a130535285",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "This Holiday Season, Aspirational Shoppers Are Redefining Value",
-            "description": "Middle-income consumers are rewriting the rules of high-end retail through resale, experiential perks and selective indulgence.",
-            "source": "WWD",
-            "published_at": "2026-10-30T17:25:21Z",
-            "url": "http://wwd.com/sourcing-journal/industry-news/this-holiday-aspirational-shoppers-are-redefining-value-1239393698/",
-            "sentiment_score": 0.4374,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "An AI slowdown that takes some air out of the exuberance could actually extend the boom, Wall Street veteran says",
-            "description": "\"However, we view these constraints as healthy for the durability of the AI boom!\"",
-            "source": "Fortune",
-            "published_at": "2026-10-30T17:20:41Z",
-            "url": "https://fortune.com/2026/10/30/ai-boom-bust-tech-stock-selloff-hyperscalers-spending-capex/",
-            "sentiment_score": 0.2617,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.0007,
+      "net_score": -0.0025,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -640,7 +640,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-01T02:03:25.511688+00:00"
+    "generated_at": "2026-11-01T09:03:33.678155+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -649,10 +649,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1788,
+        "average_score": 0.1416,
         "label": "บวกเล็กน้อย",
-        "article_count": 5,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Bank of England explores easing key limit on riskier mortgage lending",
+            "description": "Central bank considers lifting threshold on higher-risk mortgages in response to calls from government and industry to boost home-ownership",
+            "source": "Biztoc.com",
+            "published_at": "2026-10-31T05:18:52Z",
+            "url": "https://biztoc.com/x/6126ecabddfbc6e6",
+            "sentiment_score": 0.0487,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "Who was behind the largest crypto heist in history?",
@@ -706,10 +716,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1672,
+        "average_score": -0.146,
         "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-31T09:00:06Z",
+            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "bellwether-mcp 1.3.8",
+            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
+            "source": "Pypi.org",
+            "published_at": "2026-10-31T06:12:17Z",
+            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
+            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:01Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
+            "sentiment_score": 0.0786,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
+            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:00Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
+            "sentiment_score": -0.3687,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
+            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-31T05:31:44Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
+            "sentiment_score": -0.375,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
+            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
+            "source": "The Times of India",
+            "published_at": "2026-10-31T03:47:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
+            "sentiment_score": -0.3066,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
+            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-10-31T03:45:34Z",
+            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
@@ -939,80 +1019,10 @@
             "url": "https://biztoc.com/x/61c028678eead616",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner likely to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:19:54Z",
-            "url": "https://biztoc.com/x/8779314e5d6a1f82",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 3 Fed members say. The question is how much",
-            "description": "Three members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:08:20Z",
-            "url": "https://biztoc.com/x/ab19d32f47ba7350",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
-            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-30T18:01:04Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 2 Fed members say. The question is how much",
-            "description": "Two members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise h…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:37:50Z",
-            "url": "https://biztoc.com/x/09d9879b522f29b0",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:35:20Z",
-            "url": "https://biztoc.com/x/c96ca2a130535285",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "This Holiday Season, Aspirational Shoppers Are Redefining Value",
-            "description": "Middle-income consumers are rewriting the rules of high-end retail through resale, experiential perks and selective indulgence.",
-            "source": "WWD",
-            "published_at": "2026-10-30T17:25:21Z",
-            "url": "http://wwd.com/sourcing-journal/industry-news/this-holiday-aspirational-shoppers-are-redefining-value-1239393698/",
-            "sentiment_score": 0.4374,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "An AI slowdown that takes some air out of the exuberance could actually extend the boom, Wall Street veteran says",
-            "description": "\"However, we view these constraints as healthy for the durability of the AI boom!\"",
-            "source": "Fortune",
-            "published_at": "2026-10-30T17:20:41Z",
-            "url": "https://fortune.com/2026/10/30/ai-boom-bust-tech-stock-selloff-hyperscalers-spending-capex/",
-            "sentiment_score": 0.2617,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.346,
+      "net_score": 0.2876,
       "bias": "เอียงบวกต่อ GBP (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1043,7 +1053,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-01T02:03:25.511688+00:00"
+    "generated_at": "2026-11-01T09:03:33.678155+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1052,10 +1062,80 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.1672,
+        "average_score": -0.146,
         "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-31T09:00:06Z",
+            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "bellwether-mcp 1.3.8",
+            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
+            "source": "Pypi.org",
+            "published_at": "2026-10-31T06:12:17Z",
+            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
+            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:01Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
+            "sentiment_score": 0.0786,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
+            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:00Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
+            "sentiment_score": -0.3687,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
+            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-31T05:31:44Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
+            "sentiment_score": -0.375,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
+            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
+            "source": "The Times of India",
+            "published_at": "2026-10-31T03:47:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
+            "sentiment_score": -0.3066,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
+            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-10-31T03:45:34Z",
+            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
@@ -1285,84 +1365,24 @@
             "url": "https://biztoc.com/x/61c028678eead616",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner likely to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:19:54Z",
-            "url": "https://biztoc.com/x/8779314e5d6a1f82",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 3 Fed members say. The question is how much",
-            "description": "Three members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:08:20Z",
-            "url": "https://biztoc.com/x/ab19d32f47ba7350",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
-            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-30T18:01:04Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 2 Fed members say. The question is how much",
-            "description": "Two members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise h…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:37:50Z",
-            "url": "https://biztoc.com/x/09d9879b522f29b0",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:35:20Z",
-            "url": "https://biztoc.com/x/c96ca2a130535285",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "This Holiday Season, Aspirational Shoppers Are Redefining Value",
-            "description": "Middle-income consumers are rewriting the rules of high-end retail through resale, experiential perks and selective indulgence.",
-            "source": "WWD",
-            "published_at": "2026-10-30T17:25:21Z",
-            "url": "http://wwd.com/sourcing-journal/industry-news/this-holiday-aspirational-shoppers-are-redefining-value-1239393698/",
-            "sentiment_score": 0.4374,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "An AI slowdown that takes some air out of the exuberance could actually extend the boom, Wall Street veteran says",
-            "description": "\"However, we view these constraints as healthy for the durability of the AI boom!\"",
-            "source": "Fortune",
-            "published_at": "2026-10-30T17:20:41Z",
-            "url": "https://fortune.com/2026/10/30/ai-boom-bust-tech-stock-selloff-hyperscalers-spending-capex/",
-            "sentiment_score": 0.2617,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1609,
+        "average_score": -0.1568,
         "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan’s Film Funds Look Beyond Production Committees to Build New Financing Models",
+            "description": "Japan’s production committee system, in which a group of companies jointly finance a film and share its rights, has helped spread risk across the industry. But it can also cap budgets at what the industry itself can raise, make it harder for overseas investor…",
+            "source": "Variety",
+            "published_at": "2026-10-31T08:15:56Z",
+            "url": "https://variety.com/2026/film/markets-festivals/japans-film-funds-beyond-production-committees-new-financing-models-1236935964/",
+            "sentiment_score": 0.0039,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
@@ -1652,20 +1672,10 @@
             "url": "https://www.thehindubusinessline.com/markets/markets-open-flat-amid-tech-sell-off-crude-surge-trent-leads-nifty-gainers/article71643564.ece",
             "sentiment_score": -0.0544,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ sets ETF sale pace at 860 billion yen a year",
-            "description": "TOKYO, Oct 30 : The Bank of Japan said on Friday it would sell about 860 billion yen ($5.45 billion) in exchange-traded funds (ETFs) per year on a book value basis, accelerating the pace of sale.The central bank decided to sell its ETF holdings at a scale of …",
-            "source": "CNA",
-            "published_at": "2026-10-30T03:34:01Z",
-            "url": "https://www.channelnewsasia.com/business/boj-sets-etf-sale-pace-860-billion-yen-year-6505871",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0063,
+      "net_score": 0.0108,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1696,7 +1706,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-01T02:03:25.511688+00:00"
+    "generated_at": "2026-11-01T09:03:33.678155+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1752,10 +1762,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1672,
+        "average_score": -0.146,
         "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-31T09:00:06Z",
+            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "bellwether-mcp 1.3.8",
+            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
+            "source": "Pypi.org",
+            "published_at": "2026-10-31T06:12:17Z",
+            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
+            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:01Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
+            "sentiment_score": 0.0786,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
+            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:00Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
+            "sentiment_score": -0.3687,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
+            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-31T05:31:44Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
+            "sentiment_score": -0.375,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
+            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
+            "source": "The Times of India",
+            "published_at": "2026-10-31T03:47:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
+            "sentiment_score": -0.3066,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
+            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-10-31T03:45:34Z",
+            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
@@ -1985,80 +2065,10 @@
             "url": "https://biztoc.com/x/61c028678eead616",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner likely to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:19:54Z",
-            "url": "https://biztoc.com/x/8779314e5d6a1f82",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 3 Fed members say. The question is how much",
-            "description": "Three members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:08:20Z",
-            "url": "https://biztoc.com/x/ab19d32f47ba7350",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
-            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-30T18:01:04Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 2 Fed members say. The question is how much",
-            "description": "Two members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise h…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:37:50Z",
-            "url": "https://biztoc.com/x/09d9879b522f29b0",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:35:20Z",
-            "url": "https://biztoc.com/x/c96ca2a130535285",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "This Holiday Season, Aspirational Shoppers Are Redefining Value",
-            "description": "Middle-income consumers are rewriting the rules of high-end retail through resale, experiential perks and selective indulgence.",
-            "source": "WWD",
-            "published_at": "2026-10-30T17:25:21Z",
-            "url": "http://wwd.com/sourcing-journal/industry-news/this-holiday-aspirational-shoppers-are-redefining-value-1239393698/",
-            "sentiment_score": 0.4374,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "An AI slowdown that takes some air out of the exuberance could actually extend the boom, Wall Street veteran says",
-            "description": "\"However, we view these constraints as healthy for the durability of the AI boom!\"",
-            "source": "Fortune",
-            "published_at": "2026-10-30T17:20:41Z",
-            "url": "https://fortune.com/2026/10/30/ai-boom-bust-tech-stock-selloff-hyperscalers-spending-capex/",
-            "sentiment_score": 0.2617,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.6603,
+      "net_score": 0.6391,
       "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
@@ -2089,7 +2099,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-01T02:03:25.511688+00:00"
+    "generated_at": "2026-11-01T09:03:33.678155+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2098,10 +2108,90 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1034,
+        "average_score": -0.0784,
         "label": "ลบเล็กน้อย",
-        "article_count": 8,
+        "article_count": 16,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold, silver rates today Hyderabad 31 Oct for investors: What are latest prices per kg and per 10 gms in Charminar City?",
+            "description": "Gold, silver prices today in Hyderabad, 31 October for investors: What are latest prices per kg and per 10 gms in Charminar City? We also bring retail prices of 18K, 22K and 24K gold and 999 Fine silver across cities — Chennai, Delhi, Hyderabad, Kolkata, and …",
+            "source": "Livemint",
+            "published_at": "2026-10-31T06:49:10Z",
+            "url": "https://www.livemint.com/money/gold-silver-rates-today-hyderabad-31-oct-for-investors-what-are-latest-prices-per-kg-and-per-10-gms-in-charminar-city-11793424196392.html",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold rates dropped silver rate today (October 31, 2026): Check 24k, 22k, 20k 18k jewellery prices from IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and Tanishq",
+            "description": "Gold rates today: Gold jewellery prices fell below Rs 13,000 per gram at several prominent jewellery brands on October 31, 2026.  As buyers prepare for Dhanteras and Diwali, many are comparing current gold rates.",
+            "source": "The Times of India",
+            "published_at": "2026-10-31T05:24:48Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rates-dropped-silver-rate-today-october-31-2026-check-24k-22k-20k-18k-jewellery-prices-from-ibja-malabar-gold-diamonds-joyalukkas-kalyan-jewellers-and-tanishq/articleshow/135389433.cms",
+            "sentiment_score": 0.0955,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold, silver rates today Bangalore 31 Oct: Latest prices, up-down movement for precious metal investors in Garden City",
+            "description": "Gold, silver prices today, 31 October: Check the latest prices and up-down movement for precious metal investors in Garden City. We also bring retail prices of 18K, 22K and 24K gold and 999 Fine silver across cities — Chennai, Delhi, Hyderabad, Kolkata, and M…",
+            "source": "Livemint",
+            "published_at": "2026-10-31T05:20:42Z",
+            "url": "https://www.livemint.com/money/gold-silver-rates-today-bangalore-31-oct-latest-prices-up-down-movement-precious-metal-investor-garden-city-mumbai-delhi-11793383978849.html",
+            "sentiment_score": 0.6015,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff - Seeking Alpha",
+            "description": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloffSeeking Alpha Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 30, 2026: Gold slips below $4,000 as …",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-31T04:54:51Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186522716",
+            "sentiment_score": -0.3394,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation - Kitco PM Report - Kitco",
+            "description": "Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation - Kitco PM ReportKitco Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 30, 2026: Gold slips below $4,…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-31T03:12:17Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186521634",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom - Kitco",
+            "description": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loomKitco Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 3…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-31T02:52:36Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186521414",
+            "sentiment_score": -0.5659,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead - Kitco",
+            "description": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain aheadKitco Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 30, 2026: Gold slips below $4,000…",
+            "source": "Slashdot.org",
+            "published_at": "2026-10-31T02:32:19Z",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186521186",
+            "sentiment_score": -0.8308,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. The developments reflect Nepal’s ongoing efforts to strengthen economic governance, expand investment o…",
+            "source": "Khabarhub.com",
+            "published_at": "2026-10-31T02:15:40Z",
+            "url": "https://english.khabarhub.com/2026/31/573783/",
+            "sentiment_score": 0.2406,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Gold price prediction: Gold rate closes October on 1-year low, what to expect in November, December?",
@@ -2185,10 +2275,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.1672,
+        "average_score": -0.146,
         "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
+            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
+            "source": "Yale.edu",
+            "published_at": "2026-10-31T09:00:06Z",
+            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
+            "sentiment_score": 0.4393,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "bellwether-mcp 1.3.8",
+            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
+            "source": "Pypi.org",
+            "published_at": "2026-10-31T06:12:17Z",
+            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
+            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:01Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
+            "sentiment_score": 0.0786,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
+            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
+            "source": "The Irish Times",
+            "published_at": "2026-10-31T06:00:00Z",
+            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
+            "sentiment_score": -0.3687,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
+            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
+            "source": "BusinessLine",
+            "published_at": "2026-10-31T05:31:44Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
+            "sentiment_score": -0.375,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
+            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
+            "source": "The Times of India",
+            "published_at": "2026-10-31T03:47:08Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
+            "sentiment_score": -0.3066,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
+            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-10-31T03:45:34Z",
+            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
@@ -2418,80 +2578,10 @@
             "url": "https://biztoc.com/x/61c028678eead616",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner likely to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:19:54Z",
-            "url": "https://biztoc.com/x/8779314e5d6a1f82",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 3 Fed members say. The question is how much",
-            "description": "Three members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T18:08:20Z",
-            "url": "https://biztoc.com/x/ab19d32f47ba7350",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stocks plunge as Amazon, Intel and Alphabet fuel a broad tech sell-off",
-            "description": "US stocks plunged in the final trading day of the month as earnings from Amazon (AMZN) and Alphabet (GOOG, GOOGL) this week rekindled concerns about the amount of money Big Tech is spending on its AI ambitions.The Nasdaq Composite (^IXIC) tumbled 3.3% as a te…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-10-30T18:01:04Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-friday-october-30-dow-sp-500-nasdaq-amazon-intel-131609630.html",
-            "sentiment_score": 0.1779,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Rates need to be higher, 2 Fed members say. The question is how much",
-            "description": "Two members of the Federal Reserve suggested Friday that interest rates need to move higher to push down inflation.\nSt. Louis Fed president Alberto Musalem said he thinks inflation is too high and broad-based, and that the Fed needs to act \"soon,\" otherwise h…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:37:50Z",
-            "url": "https://biztoc.com/x/09d9879b522f29b0",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Musalem: Acting sooner to be less costly",
-            "description": "Federal Reserve Bank of St. Louis President Alberto Musalem explained in a speech on Friday that the short-run economic costs of reducing inflation are lower when a central bank \"acts before inflation...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-30T17:35:20Z",
-            "url": "https://biztoc.com/x/c96ca2a130535285",
-            "sentiment_score": -0.1081,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "This Holiday Season, Aspirational Shoppers Are Redefining Value",
-            "description": "Middle-income consumers are rewriting the rules of high-end retail through resale, experiential perks and selective indulgence.",
-            "source": "WWD",
-            "published_at": "2026-10-30T17:25:21Z",
-            "url": "http://wwd.com/sourcing-journal/industry-news/this-holiday-aspirational-shoppers-are-redefining-value-1239393698/",
-            "sentiment_score": 0.4374,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "An AI slowdown that takes some air out of the exuberance could actually extend the boom, Wall Street veteran says",
-            "description": "\"However, we view these constraints as healthy for the durability of the AI boom!\"",
-            "source": "Fortune",
-            "published_at": "2026-10-30T17:20:41Z",
-            "url": "https://fortune.com/2026/10/30/ai-boom-bust-tech-stock-selloff-hyperscalers-spending-capex/",
-            "sentiment_score": 0.2617,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
-      "net_score": 0.0638,
+      "net_score": 0.0676,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2504,11 +2594,11 @@
       "price_now": 3898.8999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 22.4,
-      "rsi_signal": "ขายมากเกิน (RSI=22.4) ราคาอาจเด้ง",
+      "rsi_value": 22.2,
+      "rsi_signal": "ขายมากเกิน (RSI=22.2) ราคาอาจเด้ง",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 18.08953,
-      "suggested_sl_distance": 27.1343,
+      "atr_value": 17.99934,
+      "suggested_sl_distance": 26.99901,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2520,8 +2610,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=22.4) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=22.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-01T02:03:25.511688+00:00"
+    "generated_at": "2026-11-01T09:03:33.678155+00:00"
   }
 ]
