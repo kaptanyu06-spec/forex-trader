@@ -6,10 +6,40 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0222,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 8,
+        "average_score": -0.07,
+        "label": "ลบเล็กน้อย",
+        "article_count": 11,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
+            "description": "",
+            "source": "Vercel.app",
+            "published_at": "2026-11-01T05:47:01Z",
+            "url": "https://saez-zucman-audit-replication.vercel.app/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Unrest in Germany due to GenZ protests",
+            "description": "Stating that their future is becoming bleak in the face of rising cost of living, housing crisis, and education cuts, young people in Germany staged massive protests in over thirty cities across the country on October 31, Halloween. This action was led by a n…",
+            "source": "Gossiplankanews.com",
+            "published_at": "2026-11-01T02:30:18Z",
+            "url": "https://english.gossiplankanews.com/2026/11/unrest-in-germany-due-to-genz-protests.html",
+            "sentiment_score": -0.399,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "Poland Erupts as Tusk Government Moves to Take Over Constitutional Tribunal",
@@ -93,10 +123,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0091,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 17,
+        "average_score": 0.0597,
+        "label": "บวกเล็กน้อย",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What would a December rate rise mean for Hong Kong family offices’ property portfolios?",
+            "description": "An expected 0.25 percentage point rate increase by the US Federal Reserve in December is unlikely to dampen Hong Kong family offices’ interest in European, US and Japanese property investments, according to industry insiders.\nKen Peng, chief investment office…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T07:03:06Z",
+            "url": "https://biztoc.com/x/83e0e2b5c52cbe1c",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
+            "description": "",
+            "source": "Vercel.app",
+            "published_at": "2026-11-01T05:47:01Z",
+            "url": "https://saez-zucman-audit-replication.vercel.app/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Carlyle Group, KKR get ready to snatch up bargain leveraged loans",
+            "description": "Money managers are looking to capitalise on a selloff in the $1.5 trillion US leveraged-loan market, with more than 85% of loans trading below face value",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:50Z",
+            "url": "https://www.business-standard.com/world-news/carlyle-group-kkr-get-ready-to-snatch-up-bargain-leveraged-loans-126110100066_1.html",
+            "sentiment_score": 0.4594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
@@ -269,7 +339,7 @@
           }
         ]
       },
-      "net_score": -0.0313,
+      "net_score": -0.1297,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -279,28 +349,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.11657,
+      "price_now": 1.11957,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 46.5,
-      "rsi_signal": "โซนกลาง (RSI=46.5)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.0013,
-      "suggested_sl_distance": 0.00196,
+      "rsi_value": 61.9,
+      "rsi_signal": "โซนกลาง (RSI=61.9)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00108,
+      "suggested_sl_distance": 0.00163,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=61.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-02T00:30:24.918510+00:00"
+    "generated_at": "2026-11-02T07:32:42.791630+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -309,10 +379,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.5478,
+        "average_score": -0.2855,
         "label": "ลบชัดเจน (Bearish)",
-        "article_count": 2,
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "Russia is developing doomsday space nuke capable of destroying thousands of satellites at once, with devastating global effect",
@@ -336,10 +416,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0091,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 17,
+        "average_score": 0.0597,
+        "label": "บวกเล็กน้อย",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What would a December rate rise mean for Hong Kong family offices’ property portfolios?",
+            "description": "An expected 0.25 percentage point rate increase by the US Federal Reserve in December is unlikely to dampen Hong Kong family offices’ interest in European, US and Japanese property investments, according to industry insiders.\nKen Peng, chief investment office…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T07:03:06Z",
+            "url": "https://biztoc.com/x/83e0e2b5c52cbe1c",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
+            "description": "",
+            "source": "Vercel.app",
+            "published_at": "2026-11-01T05:47:01Z",
+            "url": "https://saez-zucman-audit-replication.vercel.app/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Carlyle Group, KKR get ready to snatch up bargain leveraged loans",
+            "description": "Money managers are looking to capitalise on a selloff in the $1.5 trillion US leveraged-loan market, with more than 85% of loans trading below face value",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:50Z",
+            "url": "https://www.business-standard.com/world-news/carlyle-group-kkr-get-ready-to-snatch-up-bargain-leveraged-loans-126110100066_1.html",
+            "sentiment_score": 0.4594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
@@ -512,24 +632,24 @@
           }
         ]
       },
-      "net_score": -0.5569,
+      "net_score": -0.3452,
       "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3391,
+      "price_now": 1.34129,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 51.3,
-      "rsi_signal": "โซนกลาง (RSI=51.3)",
+      "rsi_value": 62.7,
+      "rsi_signal": "โซนกลาง (RSI=62.7)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00126,
-      "suggested_sl_distance": 0.00189,
+      "atr_value": 0.0011,
+      "suggested_sl_distance": 0.00165,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -543,7 +663,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-02T00:30:24.918510+00:00"
+    "generated_at": "2026-11-02T07:32:42.791630+00:00"
   },
   {
     "pair": "USDJPY",
@@ -552,10 +672,50 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0091,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 17,
+        "average_score": 0.0597,
+        "label": "บวกเล็กน้อย",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What would a December rate rise mean for Hong Kong family offices’ property portfolios?",
+            "description": "An expected 0.25 percentage point rate increase by the US Federal Reserve in December is unlikely to dampen Hong Kong family offices’ interest in European, US and Japanese property investments, according to industry insiders.\nKen Peng, chief investment office…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T07:03:06Z",
+            "url": "https://biztoc.com/x/83e0e2b5c52cbe1c",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
+            "description": "",
+            "source": "Vercel.app",
+            "published_at": "2026-11-01T05:47:01Z",
+            "url": "https://saez-zucman-audit-replication.vercel.app/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Carlyle Group, KKR get ready to snatch up bargain leveraged loans",
+            "description": "Money managers are looking to capitalise on a selloff in the $1.5 trillion US leveraged-loan market, with more than 85% of loans trading below face value",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:50Z",
+            "url": "https://www.business-standard.com/world-news/carlyle-group-kkr-get-ready-to-snatch-up-bargain-leveraged-loans-126110100066_1.html",
+            "sentiment_score": 0.4594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
@@ -729,10 +889,20 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.103,
+        "average_score": -0.0631,
         "label": "ลบเล็กน้อย",
-        "article_count": 2,
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "Japan’s Film Funds Look Beyond Production Committees to Build New Financing Models",
@@ -755,7 +925,7 @@
           }
         ]
       },
-      "net_score": 0.1121,
+      "net_score": 0.1228,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -765,14 +935,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 157.765,
+      "price_now": 157.78999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 59.0,
-      "rsi_signal": "โซนกลาง (RSI=59.0)",
+      "rsi_value": 56.5,
+      "rsi_signal": "โซนกลาง (RSI=56.5)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.24781,
-      "suggested_sl_distance": 0.37171,
+      "atr_value": 0.21117,
+      "suggested_sl_distance": 0.31676,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -786,7 +956,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-02T00:30:24.918510+00:00"
+    "generated_at": "2026-11-02T07:32:42.791630+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -795,10 +965,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.7438,
-        "label": "บวกชัดเจน (Bullish)",
-        "article_count": 1,
+        "average_score": 0.2325,
+        "label": "บวกเล็กน้อย",
+        "article_count": 2,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "AUD",
             "title": "A rare buying opportunity in 1 of Australia's top shares?",
@@ -812,10 +992,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0091,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 17,
+        "average_score": 0.0597,
+        "label": "บวกเล็กน้อย",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What would a December rate rise mean for Hong Kong family offices’ property portfolios?",
+            "description": "An expected 0.25 percentage point rate increase by the US Federal Reserve in December is unlikely to dampen Hong Kong family offices’ interest in European, US and Japanese property investments, according to industry insiders.\nKen Peng, chief investment office…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T07:03:06Z",
+            "url": "https://biztoc.com/x/83e0e2b5c52cbe1c",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
+            "description": "",
+            "source": "Vercel.app",
+            "published_at": "2026-11-01T05:47:01Z",
+            "url": "https://saez-zucman-audit-replication.vercel.app/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Carlyle Group, KKR get ready to snatch up bargain leveraged loans",
+            "description": "Money managers are looking to capitalise on a selloff in the $1.5 trillion US leveraged-loan market, with more than 85% of loans trading below face value",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:50Z",
+            "url": "https://www.business-standard.com/world-news/carlyle-group-kkr-get-ready-to-snatch-up-bargain-leveraged-loans-126110100066_1.html",
+            "sentiment_score": 0.4594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
@@ -988,38 +1208,38 @@
           }
         ]
       },
-      "net_score": 0.7347,
+      "net_score": 0.1728,
       "bias": "เอียงบวกต่อ AUD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70348,
+      "price_now": 0.70235,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.0,
-      "rsi_signal": "โซนกลาง (RSI=50.0)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00067,
-      "suggested_sl_distance": 0.001,
+      "rsi_value": 41.3,
+      "rsi_signal": "โซนกลาง (RSI=41.3)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00064,
+      "suggested_sl_distance": 0.00096,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=41.3) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-02T00:30:24.918510+00:00"
+    "generated_at": "2026-11-02T07:32:42.791630+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1028,10 +1248,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0249,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 9,
+        "average_score": -0.0901,
+        "label": "ลบเล็กน้อย",
+        "article_count": 11,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold, silver lose sheen",
+            "description": "Gold and silver have clocked negative returns. Even the outlook for both gold and silver have turned negative. Precious metal prices are likely to drift lower until resistance level is breached.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-01T05:18:38Z",
+            "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/gold-silver-lose-sheen/article71652176.ece",
+            "sentiment_score": -0.4942,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold, silver prices today, 1 November: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
+            "description": "Gold, silver prices today, 1 November: Check retail price of 18K, 22K and 24K gold and 999 Fine silver on Sunday in your cities — Delhi, Ahmedabad, Bengaluru, Chennai, Hyderabad, Kolkata, and Mumbai.&nbsp;",
+            "source": "Livemint",
+            "published_at": "2026-11-01T03:06:47Z",
+            "url": "https://www.livemint.com/money/gold-24k-22k-18k-silver-999-prices-today-1-november-retail-rates-bangalore-hyderabad-delhi-mumbai-kolkata-chennai-cities-11793469769074.html",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Gold (XAUUSD), Silver, Platinum Forecasts – Gold Dives 3.5% As Traders Focus On Tech Sell-Off - FXEmpire",
@@ -1125,10 +1365,50 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0091,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 17,
+        "average_score": 0.0597,
+        "label": "บวกเล็กน้อย",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "What would a December rate rise mean for Hong Kong family offices’ property portfolios?",
+            "description": "An expected 0.25 percentage point rate increase by the US Federal Reserve in December is unlikely to dampen Hong Kong family offices’ interest in European, US and Japanese property investments, according to industry insiders.\nKen Peng, chief investment office…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T07:03:06Z",
+            "url": "https://biztoc.com/x/83e0e2b5c52cbe1c",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
+            "description": "",
+            "source": "Vercel.app",
+            "published_at": "2026-11-01T05:47:01Z",
+            "url": "https://saez-zucman-audit-replication.vercel.app/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Carlyle Group, KKR get ready to snatch up bargain leveraged loans",
+            "description": "Money managers are looking to capitalise on a selloff in the $1.5 trillion US leveraged-loan market, with more than 85% of loans trading below face value",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:50Z",
+            "url": "https://www.business-standard.com/world-news/carlyle-group-kkr-get-ready-to-snatch-up-bargain-leveraged-loans-126110100066_1.html",
+            "sentiment_score": 0.4594,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
+            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
+            "source": "Business Standard",
+            "published_at": "2026-11-01T03:15:23Z",
+            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
+            "sentiment_score": -0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
@@ -1301,7 +1581,7 @@
           }
         ]
       },
-      "net_score": -0.034,
+      "net_score": -0.1498,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1311,27 +1591,27 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 3906.5,
+      "price_now": 3915.80005,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 27.0,
-      "rsi_signal": "ขายมากเกิน (RSI=27.0) ราคาอาจเด้ง",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 16.81475,
-      "suggested_sl_distance": 25.22213,
+      "rsi_value": 38.5,
+      "rsi_signal": "โซนกลาง (RSI=38.5)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 15.94845,
+      "suggested_sl_distance": 23.92268,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -1,
+      "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=27.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-02T00:30:24.918510+00:00"
+    "generated_at": "2026-11-02T07:32:42.791630+00:00"
   }
 ]
