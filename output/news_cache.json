@@ -1,15 +1,25 @@
 {
-  "fetched_at": "2026-11-03T17:40:49.019663+00:00",
+  "fetched_at": "2026-11-03T23:10:00.803172+00:00",
   "data": {
     "EURUSD": {
       "pair": "EURUSD",
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0038,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 19,
+        "average_score": -0.062,
+        "label": "ลบเล็กน้อย",
+        "article_count": 20,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Owner of private Serbian bank detained and accused of siphoning money",
+            "description": "Serbian authorities have detained the owner of a private bank on suspicion he was siphoning money from the lender",
+            "source": "Abcnews.com",
+            "published_at": "2026-11-02T18:25:16Z",
+            "url": "https://abcnews.com/Business/wireStory/owner-private-serbian-bank-detained-accused-siphoning-money-137777044",
+            "sentiment_score": -0.6142,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "EUR",
             "title": "Arrests, Resignations, Repainting: Here's What's Happening In Postelection Serbia",
@@ -203,10 +213,90 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0056,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.06,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
+            "description": "Full Interview: Full Transcript: Guy Benson: Joining us now is the Treasury Secretary under the Trump administration, Scott Bessent. Mr. Secretary, welcome to the show. Sec. Scott Bessent: Good to be with you, Guy. Guy Benson: I want to start with just a big …",
+            "source": "Fox News",
+            "published_at": "2026-11-02T23:00:10Z",
+            "url": "https://radio.foxnews.com/2026/11/02/sec-scott-bessent-on-iran-weve-started-the-greatest-economic-isolation-of-any-nation-in-history/",
+            "sentiment_score": 0.49,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. tariffs cost families more than the price tags show",
+            "description": "Tariffs are raising the cost of everyday goods, from clothing to toys, but their impact on household finances may extend beyond higher checkout prices. \nA Federal Reserve Finance and Economics Discussion Series paper, revised in August 2026, suggests that con…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-02T22:25:10Z",
+            "url": "https://biztoc.com/x/f5320bd70403b496",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
+            "description": "The Bank of Japan has declared that Japan's underlying inflation rate has reached its long-standing 2% target, marking a milestone in its effort to overcome decades of deflation, even as consumers continue to struggle with food prices rising far faster than t…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-02T20:50:57Z",
+            "url": "https://newsonjapan.com/article/151221.php",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
+            "description": "A San Francisco Fed study warns the current strong El Niño could drive US inflation up by 1 percentage point in 2027, despite temporarily boosting jobs. With inflation already above the 2% target, the climate shock adds further pressure on the Fed to raise in…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T20:01:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/el-nino-could-add-to-us-inflation-pressures-in-2027-san-francisco-fed-paper-warns/articleshow/135473482.cms",
+            "sentiment_score": -0.4155,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week",
+            "description": "Treasury’s November financing decisions will test whether a possible cash drawdown can ease funding conditions while debt issuance competes for cash.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-02T19:40:49Z",
+            "url": "https://cryptoslate.com/treasury-holds-1-trillion-as-bitcoin-faces-a-key-liquidity-test-this-week/",
+            "sentiment_score": 0.1493,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US manufacturing strengthens in October, input prices stay high",
+            "description": "US manufacturing activity accelerated in October, with the ISM manufacturing PMI rising to 55.5 from 54.5 in September, beating Reuters-polled economists' expectations. Strong consumer and AI-related business spending supported growth, but factory input price…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T19:17:36Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-manufacturing-strengthens-in-october-input-prices-stay-high/articleshow/135472594.cms",
+            "sentiment_score": 0.4357,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns",
+            "description": "Hilbert Group's Russell Thompson sees election risks as Bitcoin tests $77,000 support following the Binance hack.\nThe post Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-02T18:02:16Z",
+            "url": "https://cryptobriefing.com/bitcoin-has-not-priced-in-potential-democratic-midterm-victory-hilbert-cio-warns/",
+            "sentiment_score": -0.0564,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US voters in a sour economic mood heading into midterm elections",
+            "description": "Despite low unemployment and solid GDP growth, Americans remain concerned about rising prices, slowing wages and housing costs as they prepare to vote in the midterm elections",
+            "source": "Business Standard",
+            "published_at": "2026-11-02T17:50:40Z",
+            "url": "https://www.business-standard.com/world-news/us-voters-in-a-sour-economic-mood-heading-into-midterm-elections-126110201688_1.html",
+            "sentiment_score": 0.2256,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed will vote on rates less often. What that could mean for borrowers",
@@ -416,90 +506,10 @@
             "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
             "sentiment_score": -0.082,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Explained: Why gold investors should tone down expectations as yellow metal plunges to a 1-year low",
-            "description": "Gold has fallen more than 30% from its January record high, with rising oil prices, inflation concerns and expectations of further Fed rate hikes adding to pressure. Analysts remain cautious about a near-term recovery, even as major banks retain bullish forec…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T07:31:09Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms",
-            "sentiment_score": -0.3787,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury dealers’ financing burden can outlast their bond holdings, Fed study finds",
-            "description": "Customer financing persisted beyond inventory effects in historical data, leaving Bitcoin spillover dependent on evidence from crypto credit markets.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-02T07:00:53Z",
-            "url": "https://cryptoslate.com/treasury-dealers-financing-burden-can-outlast-their-bond-holdings-fed-study-finds/",
-            "sentiment_score": -0.0707,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rebounds from one-year low as oil prices ease",
-            "description": "Gold rebounded from a one-year low on Nov. 2 as lower oil prices eased inflation concerns and buyers returned after three consecutive weeks of losses.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-11-02T06:26:15Z",
-            "url": "https://www.hurriyetdailynews.com/gold-rebounds-from-one-year-low-as-oil-prices-ease-228899",
-            "sentiment_score": -0.1039,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis Finds American Workers’ Standard of Living Declined Over 55 Years",
-            "description": "An analysis published by ZeroHedge states that the standard of living for American workers has fallen significantly over the past 55 years. According to the analysis, the decline is larger than most people realize, based on comparisons of wages, productivity,…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-american-workers-standard-living-declined-over-55-years.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Falls to One-Year Low; Silver Tops $50 as Mining Shares Decline",
-            "description": "Gold fell to its lowest level in a year on Oct. 30, and silver dropped below $50 an ounce for the first time in 11 months, according to market data, as rising oil prices hardened expectations for another Federal Reserve rate hike and a deepening selloff in te…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-gold-falls-one-year-low-silver-tops.html",
-            "sentiment_score": 0.2541,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury Projects Higher Borrowing Needs Over Next Decade",
-            "description": "The U.S. Treasury is projecting that federal borrowing needs will rise over the next decade, according to a fiscal outlook that places the trajectory of federal debt issuance and fiscal policy at the center of Washington’s agenda. Officials said the projectio…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-treasury-projects-higher-borrowing-over-next-decade.html",
-            "sentiment_score": 0.0882,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver rebound after sharp losses as crude oil prices soften",
-            "description": "In the global market, gold futures on Comex were trading near $4,000 per ounce, while silver was trading near $50 per ounce",
-            "source": "Business Standard",
-            "published_at": "2026-11-02T05:18:29Z",
-            "url": "https://www.business-standard.com/markets/news/gold-silver-rebound-after-sharp-losses-as-crude-oil-prices-soften-126110200293_1.html",
-            "sentiment_score": -0.5254,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "MCX gold prices rise Rs 600/10 grams; silver jumps Rs 3,000/kg ahead of Diwali, but rate hike bets linger. What should you do?",
-            "description": "Gold and silver futures opened higher on the MCX ahead of Diwali. December silver futures rose Rs 2,800 to Rs 1,81,925 per kg, while gold futures gained Rs 613 to Rs 1,39,098 per 10 grams. However, persistent inflation concerns and calls by three US Federal R…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T05:10:43Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-600/10-grams-silver-jumps-rs-3000/kg-ahead-of-diwali-but-rate-hike-bets-linger-what-should-you-do/articleshow/135446161.cms",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0018,
+      "net_score": -0.122,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -669,10 +679,90 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0056,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.06,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
+            "description": "Full Interview: Full Transcript: Guy Benson: Joining us now is the Treasury Secretary under the Trump administration, Scott Bessent. Mr. Secretary, welcome to the show. Sec. Scott Bessent: Good to be with you, Guy. Guy Benson: I want to start with just a big …",
+            "source": "Fox News",
+            "published_at": "2026-11-02T23:00:10Z",
+            "url": "https://radio.foxnews.com/2026/11/02/sec-scott-bessent-on-iran-weve-started-the-greatest-economic-isolation-of-any-nation-in-history/",
+            "sentiment_score": 0.49,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. tariffs cost families more than the price tags show",
+            "description": "Tariffs are raising the cost of everyday goods, from clothing to toys, but their impact on household finances may extend beyond higher checkout prices. \nA Federal Reserve Finance and Economics Discussion Series paper, revised in August 2026, suggests that con…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-02T22:25:10Z",
+            "url": "https://biztoc.com/x/f5320bd70403b496",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
+            "description": "The Bank of Japan has declared that Japan's underlying inflation rate has reached its long-standing 2% target, marking a milestone in its effort to overcome decades of deflation, even as consumers continue to struggle with food prices rising far faster than t…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-02T20:50:57Z",
+            "url": "https://newsonjapan.com/article/151221.php",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
+            "description": "A San Francisco Fed study warns the current strong El Niño could drive US inflation up by 1 percentage point in 2027, despite temporarily boosting jobs. With inflation already above the 2% target, the climate shock adds further pressure on the Fed to raise in…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T20:01:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/el-nino-could-add-to-us-inflation-pressures-in-2027-san-francisco-fed-paper-warns/articleshow/135473482.cms",
+            "sentiment_score": -0.4155,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week",
+            "description": "Treasury’s November financing decisions will test whether a possible cash drawdown can ease funding conditions while debt issuance competes for cash.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-02T19:40:49Z",
+            "url": "https://cryptoslate.com/treasury-holds-1-trillion-as-bitcoin-faces-a-key-liquidity-test-this-week/",
+            "sentiment_score": 0.1493,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US manufacturing strengthens in October, input prices stay high",
+            "description": "US manufacturing activity accelerated in October, with the ISM manufacturing PMI rising to 55.5 from 54.5 in September, beating Reuters-polled economists' expectations. Strong consumer and AI-related business spending supported growth, but factory input price…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T19:17:36Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-manufacturing-strengthens-in-october-input-prices-stay-high/articleshow/135472594.cms",
+            "sentiment_score": 0.4357,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns",
+            "description": "Hilbert Group's Russell Thompson sees election risks as Bitcoin tests $77,000 support following the Binance hack.\nThe post Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-02T18:02:16Z",
+            "url": "https://cryptobriefing.com/bitcoin-has-not-priced-in-potential-democratic-midterm-victory-hilbert-cio-warns/",
+            "sentiment_score": -0.0564,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US voters in a sour economic mood heading into midterm elections",
+            "description": "Despite low unemployment and solid GDP growth, Americans remain concerned about rising prices, slowing wages and housing costs as they prepare to vote in the midterm elections",
+            "source": "Business Standard",
+            "published_at": "2026-11-02T17:50:40Z",
+            "url": "https://www.business-standard.com/world-news/us-voters-in-a-sour-economic-mood-heading-into-midterm-elections-126110201688_1.html",
+            "sentiment_score": 0.2256,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed will vote on rates less often. What that could mean for borrowers",
@@ -882,90 +972,10 @@
             "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
             "sentiment_score": -0.082,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Explained: Why gold investors should tone down expectations as yellow metal plunges to a 1-year low",
-            "description": "Gold has fallen more than 30% from its January record high, with rising oil prices, inflation concerns and expectations of further Fed rate hikes adding to pressure. Analysts remain cautious about a near-term recovery, even as major banks retain bullish forec…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T07:31:09Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms",
-            "sentiment_score": -0.3787,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury dealers’ financing burden can outlast their bond holdings, Fed study finds",
-            "description": "Customer financing persisted beyond inventory effects in historical data, leaving Bitcoin spillover dependent on evidence from crypto credit markets.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-02T07:00:53Z",
-            "url": "https://cryptoslate.com/treasury-dealers-financing-burden-can-outlast-their-bond-holdings-fed-study-finds/",
-            "sentiment_score": -0.0707,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rebounds from one-year low as oil prices ease",
-            "description": "Gold rebounded from a one-year low on Nov. 2 as lower oil prices eased inflation concerns and buyers returned after three consecutive weeks of losses.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-11-02T06:26:15Z",
-            "url": "https://www.hurriyetdailynews.com/gold-rebounds-from-one-year-low-as-oil-prices-ease-228899",
-            "sentiment_score": -0.1039,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis Finds American Workers’ Standard of Living Declined Over 55 Years",
-            "description": "An analysis published by ZeroHedge states that the standard of living for American workers has fallen significantly over the past 55 years. According to the analysis, the decline is larger than most people realize, based on comparisons of wages, productivity,…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-american-workers-standard-living-declined-over-55-years.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Falls to One-Year Low; Silver Tops $50 as Mining Shares Decline",
-            "description": "Gold fell to its lowest level in a year on Oct. 30, and silver dropped below $50 an ounce for the first time in 11 months, according to market data, as rising oil prices hardened expectations for another Federal Reserve rate hike and a deepening selloff in te…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-gold-falls-one-year-low-silver-tops.html",
-            "sentiment_score": 0.2541,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury Projects Higher Borrowing Needs Over Next Decade",
-            "description": "The U.S. Treasury is projecting that federal borrowing needs will rise over the next decade, according to a fiscal outlook that places the trajectory of federal debt issuance and fiscal policy at the center of Washington’s agenda. Officials said the projectio…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-treasury-projects-higher-borrowing-over-next-decade.html",
-            "sentiment_score": 0.0882,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver rebound after sharp losses as crude oil prices soften",
-            "description": "In the global market, gold futures on Comex were trading near $4,000 per ounce, while silver was trading near $50 per ounce",
-            "source": "Business Standard",
-            "published_at": "2026-11-02T05:18:29Z",
-            "url": "https://www.business-standard.com/markets/news/gold-silver-rebound-after-sharp-losses-as-crude-oil-prices-soften-126110200293_1.html",
-            "sentiment_score": -0.5254,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "MCX gold prices rise Rs 600/10 grams; silver jumps Rs 3,000/kg ahead of Diwali, but rate hike bets linger. What should you do?",
-            "description": "Gold and silver futures opened higher on the MCX ahead of Diwali. December silver futures rose Rs 2,800 to Rs 1,81,925 per kg, while gold futures gained Rs 613 to Rs 1,39,098 per 10 grams. However, persistent inflation concerns and calls by three US Federal R…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T05:10:43Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-600/10-grams-silver-jumps-rs-3000/kg-ahead-of-diwali-but-rate-hike-bets-linger-what-should-you-do/articleshow/135446161.cms",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0414,
+      "net_score": -0.107,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -978,10 +988,90 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0056,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.06,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
+            "description": "Full Interview: Full Transcript: Guy Benson: Joining us now is the Treasury Secretary under the Trump administration, Scott Bessent. Mr. Secretary, welcome to the show. Sec. Scott Bessent: Good to be with you, Guy. Guy Benson: I want to start with just a big …",
+            "source": "Fox News",
+            "published_at": "2026-11-02T23:00:10Z",
+            "url": "https://radio.foxnews.com/2026/11/02/sec-scott-bessent-on-iran-weve-started-the-greatest-economic-isolation-of-any-nation-in-history/",
+            "sentiment_score": 0.49,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. tariffs cost families more than the price tags show",
+            "description": "Tariffs are raising the cost of everyday goods, from clothing to toys, but their impact on household finances may extend beyond higher checkout prices. \nA Federal Reserve Finance and Economics Discussion Series paper, revised in August 2026, suggests that con…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-02T22:25:10Z",
+            "url": "https://biztoc.com/x/f5320bd70403b496",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
+            "description": "The Bank of Japan has declared that Japan's underlying inflation rate has reached its long-standing 2% target, marking a milestone in its effort to overcome decades of deflation, even as consumers continue to struggle with food prices rising far faster than t…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-02T20:50:57Z",
+            "url": "https://newsonjapan.com/article/151221.php",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
+            "description": "A San Francisco Fed study warns the current strong El Niño could drive US inflation up by 1 percentage point in 2027, despite temporarily boosting jobs. With inflation already above the 2% target, the climate shock adds further pressure on the Fed to raise in…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T20:01:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/el-nino-could-add-to-us-inflation-pressures-in-2027-san-francisco-fed-paper-warns/articleshow/135473482.cms",
+            "sentiment_score": -0.4155,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week",
+            "description": "Treasury’s November financing decisions will test whether a possible cash drawdown can ease funding conditions while debt issuance competes for cash.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-02T19:40:49Z",
+            "url": "https://cryptoslate.com/treasury-holds-1-trillion-as-bitcoin-faces-a-key-liquidity-test-this-week/",
+            "sentiment_score": 0.1493,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US manufacturing strengthens in October, input prices stay high",
+            "description": "US manufacturing activity accelerated in October, with the ISM manufacturing PMI rising to 55.5 from 54.5 in September, beating Reuters-polled economists' expectations. Strong consumer and AI-related business spending supported growth, but factory input price…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T19:17:36Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-manufacturing-strengthens-in-october-input-prices-stay-high/articleshow/135472594.cms",
+            "sentiment_score": 0.4357,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns",
+            "description": "Hilbert Group's Russell Thompson sees election risks as Bitcoin tests $77,000 support following the Binance hack.\nThe post Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-02T18:02:16Z",
+            "url": "https://cryptobriefing.com/bitcoin-has-not-priced-in-potential-democratic-midterm-victory-hilbert-cio-warns/",
+            "sentiment_score": -0.0564,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US voters in a sour economic mood heading into midterm elections",
+            "description": "Despite low unemployment and solid GDP growth, Americans remain concerned about rising prices, slowing wages and housing costs as they prepare to vote in the midterm elections",
+            "source": "Business Standard",
+            "published_at": "2026-11-02T17:50:40Z",
+            "url": "https://www.business-standard.com/world-news/us-voters-in-a-sour-economic-mood-heading-into-midterm-elections-126110201688_1.html",
+            "sentiment_score": 0.2256,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed will vote on rates less often. What that could mean for borrowers",
@@ -1191,94 +1281,24 @@
             "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
             "sentiment_score": -0.082,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Explained: Why gold investors should tone down expectations as yellow metal plunges to a 1-year low",
-            "description": "Gold has fallen more than 30% from its January record high, with rising oil prices, inflation concerns and expectations of further Fed rate hikes adding to pressure. Analysts remain cautious about a near-term recovery, even as major banks retain bullish forec…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T07:31:09Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms",
-            "sentiment_score": -0.3787,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury dealers’ financing burden can outlast their bond holdings, Fed study finds",
-            "description": "Customer financing persisted beyond inventory effects in historical data, leaving Bitcoin spillover dependent on evidence from crypto credit markets.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-02T07:00:53Z",
-            "url": "https://cryptoslate.com/treasury-dealers-financing-burden-can-outlast-their-bond-holdings-fed-study-finds/",
-            "sentiment_score": -0.0707,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rebounds from one-year low as oil prices ease",
-            "description": "Gold rebounded from a one-year low on Nov. 2 as lower oil prices eased inflation concerns and buyers returned after three consecutive weeks of losses.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-11-02T06:26:15Z",
-            "url": "https://www.hurriyetdailynews.com/gold-rebounds-from-one-year-low-as-oil-prices-ease-228899",
-            "sentiment_score": -0.1039,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis Finds American Workers’ Standard of Living Declined Over 55 Years",
-            "description": "An analysis published by ZeroHedge states that the standard of living for American workers has fallen significantly over the past 55 years. According to the analysis, the decline is larger than most people realize, based on comparisons of wages, productivity,…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-american-workers-standard-living-declined-over-55-years.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Falls to One-Year Low; Silver Tops $50 as Mining Shares Decline",
-            "description": "Gold fell to its lowest level in a year on Oct. 30, and silver dropped below $50 an ounce for the first time in 11 months, according to market data, as rising oil prices hardened expectations for another Federal Reserve rate hike and a deepening selloff in te…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-gold-falls-one-year-low-silver-tops.html",
-            "sentiment_score": 0.2541,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury Projects Higher Borrowing Needs Over Next Decade",
-            "description": "The U.S. Treasury is projecting that federal borrowing needs will rise over the next decade, according to a fiscal outlook that places the trajectory of federal debt issuance and fiscal policy at the center of Washington’s agenda. Officials said the projectio…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-treasury-projects-higher-borrowing-over-next-decade.html",
-            "sentiment_score": 0.0882,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver rebound after sharp losses as crude oil prices soften",
-            "description": "In the global market, gold futures on Comex were trading near $4,000 per ounce, while silver was trading near $50 per ounce",
-            "source": "Business Standard",
-            "published_at": "2026-11-02T05:18:29Z",
-            "url": "https://www.business-standard.com/markets/news/gold-silver-rebound-after-sharp-losses-as-crude-oil-prices-soften-126110200293_1.html",
-            "sentiment_score": -0.5254,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "MCX gold prices rise Rs 600/10 grams; silver jumps Rs 3,000/kg ahead of Diwali, but rate hike bets linger. What should you do?",
-            "description": "Gold and silver futures opened higher on the MCX ahead of Diwali. December silver futures rose Rs 2,800 to Rs 1,81,925 per kg, while gold futures gained Rs 613 to Rs 1,39,098 per 10 grams. However, persistent inflation concerns and calls by three US Federal R…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T05:10:43Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-600/10-grams-silver-jumps-rs-3000/kg-ahead-of-diwali-but-rate-hike-bets-linger-what-should-you-do/articleshow/135446161.cms",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1771,
+        "average_score": 0.1281,
         "label": "บวกเล็กน้อย",
-        "article_count": 8,
+        "article_count": 9,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
+            "description": "The Bank of Japan has declared that Japan's underlying inflation rate has reached its long-standing 2% target, marking a milestone in its effort to overcome decades of deflation, even as consumers continue to struggle with food prices rising far faster than t…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-02T20:50:57Z",
+            "url": "https://newsonjapan.com/article/151221.php",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "3 Japanese Defensive Stocks With ROE Over 20%",
@@ -1361,11 +1381,11 @@
           }
         ]
       },
-      "net_score": -0.1827,
-      "bias": "เอียงลบต่อ USD (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.0681,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -1374,10 +1394,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1205,
+        "average_score": 0.094,
         "label": "บวกเล็กน้อย",
-        "article_count": 21,
+        "article_count": 22,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Albanese, as Aussies brace for another rate rise while you're overseas, stop leaving Chalmers to carry the can: PETER VAN ONSELEN",
+            "description": "The Treasurer has made his fair share of mistakes. Allowing the absent PM to escape responsibility for the economic woes upon us would be another one.",
+            "source": "Dailymail.com",
+            "published_at": "2026-11-02T20:47:42Z",
+            "url": "https://www.dailymail.com/news/article-16259939/anthony-albanese-overseas-jim-chalmers-rba-rate-rise.html",
+            "sentiment_score": -0.184,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "AUD",
             "title": "Should we expect even more interest rate rises next year?",
@@ -1591,10 +1621,90 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0056,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.06,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
+            "description": "Full Interview: Full Transcript: Guy Benson: Joining us now is the Treasury Secretary under the Trump administration, Scott Bessent. Mr. Secretary, welcome to the show. Sec. Scott Bessent: Good to be with you, Guy. Guy Benson: I want to start with just a big …",
+            "source": "Fox News",
+            "published_at": "2026-11-02T23:00:10Z",
+            "url": "https://radio.foxnews.com/2026/11/02/sec-scott-bessent-on-iran-weve-started-the-greatest-economic-isolation-of-any-nation-in-history/",
+            "sentiment_score": 0.49,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. tariffs cost families more than the price tags show",
+            "description": "Tariffs are raising the cost of everyday goods, from clothing to toys, but their impact on household finances may extend beyond higher checkout prices. \nA Federal Reserve Finance and Economics Discussion Series paper, revised in August 2026, suggests that con…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-02T22:25:10Z",
+            "url": "https://biztoc.com/x/f5320bd70403b496",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
+            "description": "The Bank of Japan has declared that Japan's underlying inflation rate has reached its long-standing 2% target, marking a milestone in its effort to overcome decades of deflation, even as consumers continue to struggle with food prices rising far faster than t…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-02T20:50:57Z",
+            "url": "https://newsonjapan.com/article/151221.php",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
+            "description": "A San Francisco Fed study warns the current strong El Niño could drive US inflation up by 1 percentage point in 2027, despite temporarily boosting jobs. With inflation already above the 2% target, the climate shock adds further pressure on the Fed to raise in…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T20:01:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/el-nino-could-add-to-us-inflation-pressures-in-2027-san-francisco-fed-paper-warns/articleshow/135473482.cms",
+            "sentiment_score": -0.4155,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week",
+            "description": "Treasury’s November financing decisions will test whether a possible cash drawdown can ease funding conditions while debt issuance competes for cash.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-02T19:40:49Z",
+            "url": "https://cryptoslate.com/treasury-holds-1-trillion-as-bitcoin-faces-a-key-liquidity-test-this-week/",
+            "sentiment_score": 0.1493,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US manufacturing strengthens in October, input prices stay high",
+            "description": "US manufacturing activity accelerated in October, with the ISM manufacturing PMI rising to 55.5 from 54.5 in September, beating Reuters-polled economists' expectations. Strong consumer and AI-related business spending supported growth, but factory input price…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T19:17:36Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-manufacturing-strengthens-in-october-input-prices-stay-high/articleshow/135472594.cms",
+            "sentiment_score": 0.4357,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns",
+            "description": "Hilbert Group's Russell Thompson sees election risks as Bitcoin tests $77,000 support following the Binance hack.\nThe post Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-02T18:02:16Z",
+            "url": "https://cryptobriefing.com/bitcoin-has-not-priced-in-potential-democratic-midterm-victory-hilbert-cio-warns/",
+            "sentiment_score": -0.0564,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US voters in a sour economic mood heading into midterm elections",
+            "description": "Despite low unemployment and solid GDP growth, Americans remain concerned about rising prices, slowing wages and housing costs as they prepare to vote in the midterm elections",
+            "source": "Business Standard",
+            "published_at": "2026-11-02T17:50:40Z",
+            "url": "https://www.business-standard.com/world-news/us-voters-in-a-sour-economic-mood-heading-into-midterm-elections-126110201688_1.html",
+            "sentiment_score": 0.2256,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed will vote on rates less often. What that could mean for borrowers",
@@ -1804,90 +1914,10 @@
             "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
             "sentiment_score": -0.082,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Explained: Why gold investors should tone down expectations as yellow metal plunges to a 1-year low",
-            "description": "Gold has fallen more than 30% from its January record high, with rising oil prices, inflation concerns and expectations of further Fed rate hikes adding to pressure. Analysts remain cautious about a near-term recovery, even as major banks retain bullish forec…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T07:31:09Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms",
-            "sentiment_score": -0.3787,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury dealers’ financing burden can outlast their bond holdings, Fed study finds",
-            "description": "Customer financing persisted beyond inventory effects in historical data, leaving Bitcoin spillover dependent on evidence from crypto credit markets.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-02T07:00:53Z",
-            "url": "https://cryptoslate.com/treasury-dealers-financing-burden-can-outlast-their-bond-holdings-fed-study-finds/",
-            "sentiment_score": -0.0707,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rebounds from one-year low as oil prices ease",
-            "description": "Gold rebounded from a one-year low on Nov. 2 as lower oil prices eased inflation concerns and buyers returned after three consecutive weeks of losses.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-11-02T06:26:15Z",
-            "url": "https://www.hurriyetdailynews.com/gold-rebounds-from-one-year-low-as-oil-prices-ease-228899",
-            "sentiment_score": -0.1039,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis Finds American Workers’ Standard of Living Declined Over 55 Years",
-            "description": "An analysis published by ZeroHedge states that the standard of living for American workers has fallen significantly over the past 55 years. According to the analysis, the decline is larger than most people realize, based on comparisons of wages, productivity,…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-american-workers-standard-living-declined-over-55-years.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Falls to One-Year Low; Silver Tops $50 as Mining Shares Decline",
-            "description": "Gold fell to its lowest level in a year on Oct. 30, and silver dropped below $50 an ounce for the first time in 11 months, according to market data, as rising oil prices hardened expectations for another Federal Reserve rate hike and a deepening selloff in te…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-gold-falls-one-year-low-silver-tops.html",
-            "sentiment_score": 0.2541,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury Projects Higher Borrowing Needs Over Next Decade",
-            "description": "The U.S. Treasury is projecting that federal borrowing needs will rise over the next decade, according to a fiscal outlook that places the trajectory of federal debt issuance and fiscal policy at the center of Washington’s agenda. Officials said the projectio…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-treasury-projects-higher-borrowing-over-next-decade.html",
-            "sentiment_score": 0.0882,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver rebound after sharp losses as crude oil prices soften",
-            "description": "In the global market, gold futures on Comex were trading near $4,000 per ounce, while silver was trading near $50 per ounce",
-            "source": "Business Standard",
-            "published_at": "2026-11-02T05:18:29Z",
-            "url": "https://www.business-standard.com/markets/news/gold-silver-rebound-after-sharp-losses-as-crude-oil-prices-soften-126110200293_1.html",
-            "sentiment_score": -0.5254,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "MCX gold prices rise Rs 600/10 grams; silver jumps Rs 3,000/kg ahead of Diwali, but rate hike bets linger. What should you do?",
-            "description": "Gold and silver futures opened higher on the MCX ahead of Diwali. December silver futures rose Rs 2,800 to Rs 1,81,925 per kg, while gold futures gained Rs 613 to Rs 1,39,098 per 10 grams. However, persistent inflation concerns and calls by three US Federal R…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T05:10:43Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-600/10-grams-silver-jumps-rs-3000/kg-ahead-of-diwali-but-rate-hike-bets-linger-what-should-you-do/articleshow/135446161.cms",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1261,
+      "net_score": 0.034,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2067,10 +2097,90 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0056,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.06,
+        "label": "บวกเล็กน้อย",
         "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
+            "description": "Full Interview: Full Transcript: Guy Benson: Joining us now is the Treasury Secretary under the Trump administration, Scott Bessent. Mr. Secretary, welcome to the show. Sec. Scott Bessent: Good to be with you, Guy. Guy Benson: I want to start with just a big …",
+            "source": "Fox News",
+            "published_at": "2026-11-02T23:00:10Z",
+            "url": "https://radio.foxnews.com/2026/11/02/sec-scott-bessent-on-iran-weve-started-the-greatest-economic-isolation-of-any-nation-in-history/",
+            "sentiment_score": 0.49,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "U.S. tariffs cost families more than the price tags show",
+            "description": "Tariffs are raising the cost of everyday goods, from clothing to toys, but their impact on household finances may extend beyond higher checkout prices. \nA Federal Reserve Finance and Economics Discussion Series paper, revised in August 2026, suggests that con…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-02T22:25:10Z",
+            "url": "https://biztoc.com/x/f5320bd70403b496",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
+            "description": "The Bank of Japan has declared that Japan's underlying inflation rate has reached its long-standing 2% target, marking a milestone in its effort to overcome decades of deflation, even as consumers continue to struggle with food prices rising far faster than t…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-02T20:50:57Z",
+            "url": "https://newsonjapan.com/article/151221.php",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "El Nino could add to US inflation pressures in 2027, San Francisco Fed paper warns",
+            "description": "A San Francisco Fed study warns the current strong El Niño could drive US inflation up by 1 percentage point in 2027, despite temporarily boosting jobs. With inflation already above the 2% target, the climate shock adds further pressure on the Fed to raise in…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T20:01:04Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/el-nino-could-add-to-us-inflation-pressures-in-2027-san-francisco-fed-paper-warns/articleshow/135473482.cms",
+            "sentiment_score": -0.4155,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury holds $1 trillion as Bitcoin faces a key liquidity test this week",
+            "description": "Treasury’s November financing decisions will test whether a possible cash drawdown can ease funding conditions while debt issuance competes for cash.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-02T19:40:49Z",
+            "url": "https://cryptoslate.com/treasury-holds-1-trillion-as-bitcoin-faces-a-key-liquidity-test-this-week/",
+            "sentiment_score": 0.1493,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US manufacturing strengthens in October, input prices stay high",
+            "description": "US manufacturing activity accelerated in October, with the ISM manufacturing PMI rising to 55.5 from 54.5 in September, beating Reuters-polled economists' expectations. Strong consumer and AI-related business spending supported growth, but factory input price…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T19:17:36Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-manufacturing-strengthens-in-october-input-prices-stay-high/articleshow/135472594.cms",
+            "sentiment_score": 0.4357,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns",
+            "description": "Hilbert Group's Russell Thompson sees election risks as Bitcoin tests $77,000 support following the Binance hack.\nThe post Bitcoin has not priced in potential Democratic midterm victory, Hilbert CIO warns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-02T18:02:16Z",
+            "url": "https://cryptobriefing.com/bitcoin-has-not-priced-in-potential-democratic-midterm-victory-hilbert-cio-warns/",
+            "sentiment_score": -0.0564,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US voters in a sour economic mood heading into midterm elections",
+            "description": "Despite low unemployment and solid GDP growth, Americans remain concerned about rising prices, slowing wages and housing costs as they prepare to vote in the midterm elections",
+            "source": "Business Standard",
+            "published_at": "2026-11-02T17:50:40Z",
+            "url": "https://www.business-standard.com/world-news/us-voters-in-a-sour-economic-mood-heading-into-midterm-elections-126110201688_1.html",
+            "sentiment_score": 0.2256,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed will vote on rates less often. What that could mean for borrowers",
@@ -2280,90 +2390,10 @@
             "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
             "sentiment_score": -0.082,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Explained: Why gold investors should tone down expectations as yellow metal plunges to a 1-year low",
-            "description": "Gold has fallen more than 30% from its January record high, with rising oil prices, inflation concerns and expectations of further Fed rate hikes adding to pressure. Analysts remain cautious about a near-term recovery, even as major banks retain bullish forec…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T07:31:09Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/explained-why-gold-investors-should-tone-down-expectations-as-yellow-metal-plunges-to-a-1-year-low/articleshow/135449976.cms",
-            "sentiment_score": -0.3787,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury dealers’ financing burden can outlast their bond holdings, Fed study finds",
-            "description": "Customer financing persisted beyond inventory effects in historical data, leaving Bitcoin spillover dependent on evidence from crypto credit markets.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The C…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-02T07:00:53Z",
-            "url": "https://cryptoslate.com/treasury-dealers-financing-burden-can-outlast-their-bond-holdings-fed-study-finds/",
-            "sentiment_score": -0.0707,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rebounds from one-year low as oil prices ease",
-            "description": "Gold rebounded from a one-year low on Nov. 2 as lower oil prices eased inflation concerns and buyers returned after three consecutive weeks of losses.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-11-02T06:26:15Z",
-            "url": "https://www.hurriyetdailynews.com/gold-rebounds-from-one-year-low-as-oil-prices-ease-228899",
-            "sentiment_score": -0.1039,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Analysis Finds American Workers’ Standard of Living Declined Over 55 Years",
-            "description": "An analysis published by ZeroHedge states that the standard of living for American workers has fallen significantly over the past 55 years. According to the analysis, the decline is larger than most people realize, based on comparisons of wages, productivity,…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-american-workers-standard-living-declined-over-55-years.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold Falls to One-Year Low; Silver Tops $50 as Mining Shares Decline",
-            "description": "Gold fell to its lowest level in a year on Oct. 30, and silver dropped below $50 an ounce for the first time in 11 months, according to market data, as rising oil prices hardened expectations for another Federal Reserve rate hike and a deepening selloff in te…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-gold-falls-one-year-low-silver-tops.html",
-            "sentiment_score": 0.2541,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "U.S. Treasury Projects Higher Borrowing Needs Over Next Decade",
-            "description": "The U.S. Treasury is projecting that federal borrowing needs will rise over the next decade, according to a fiscal outlook that places the trajectory of federal debt issuance and fiscal policy at the center of Washington’s agenda. Officials said the projectio…",
-            "source": "Naturalnews.com",
-            "published_at": "2026-11-02T06:00:00Z",
-            "url": "https://www.naturalnews.com/2026-11-02-treasury-projects-higher-borrowing-over-next-decade.html",
-            "sentiment_score": 0.0882,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, silver rebound after sharp losses as crude oil prices soften",
-            "description": "In the global market, gold futures on Comex were trading near $4,000 per ounce, while silver was trading near $50 per ounce",
-            "source": "Business Standard",
-            "published_at": "2026-11-02T05:18:29Z",
-            "url": "https://www.business-standard.com/markets/news/gold-silver-rebound-after-sharp-losses-as-crude-oil-prices-soften-126110200293_1.html",
-            "sentiment_score": -0.5254,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "MCX gold prices rise Rs 600/10 grams; silver jumps Rs 3,000/kg ahead of Diwali, but rate hike bets linger. What should you do?",
-            "description": "Gold and silver futures opened higher on the MCX ahead of Diwali. December silver futures rose Rs 2,800 to Rs 1,81,925 per kg, while gold futures gained Rs 613 to Rs 1,39,098 per 10 grams. However, persistent inflation concerns and calls by three US Federal R…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T05:10:43Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-600/10-grams-silver-jumps-rs-3000/kg-ahead-of-diwali-but-rate-hike-bets-linger-what-should-you-do/articleshow/135446161.cms",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1052,
+      "net_score": 0.0396,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
