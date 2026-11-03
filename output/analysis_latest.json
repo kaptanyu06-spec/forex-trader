@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.169,
+        "average_score": -0.1859,
         "label": "ลบเล็กน้อย",
-        "article_count": 12,
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Gold price prediction: Gold rate continues to fall or will bear movement end after US midterm elections results? Experts make forecast",
+            "description": "Gold rate forecast: US midterm elections 2026 and any escalation involving the US, Israel and Iran could play pivotal role in dictating the Gold price movement this year.",
+            "source": "The Times of India",
+            "published_at": "2026-11-01T22:39:57Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-gold-rate-continues-to-fall-or-will-bear-movement-end-after-us-midterm-elections-results-experts-make-forecast/articleshow/135440148.cms",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Germany protests: Shops looted in Frankfurt as Gen Z rallies turn violent",
@@ -49,94 +59,114 @@
             "url": "https://english.gossiplankanews.com/2026/11/unrest-in-germany-due-to-genz-protests.html",
             "sentiment_score": -0.399,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Poland Erupts as Tusk Government Moves to Take Over Constitutional Tribunal",
-            "description": "Poles took to the streets as Tusk's government moved against a court that has repeatedly upheld Polish law over EU directives.\nThe post Poland Erupts as Tusk Government Moves to Take Over Constitutional Tribunal first appeared on Le·gal In·sur·rec·tion.",
-            "source": "Legalinsurrection.com",
-            "published_at": "2026-10-31T21:00:07Z",
-            "url": "https://legalinsurrection.com/2026/10/poland-erupts-as-tusk-government-moves-to-take-over-constitutional-tribunal/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Who Could Replace Christine Lagarde as ECB President?",
-            "description": "The race to lead the European Central Bank is entering its decisive phase after President Christine Lagarde said she’d depart early. #europe #news #politics \nThe Netherlands and Spain are heading a field of candidates that could yet expand, with former Spanis…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T20:20:43Z",
-            "url": "https://biztoc.com/x/095072d4a71d46d2",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "CurrencyConverter 0.18.23",
-            "description": "A currency converter using the European Central Bank data.",
-            "source": "Pypi.org",
-            "published_at": "2026-10-31T08:48:18Z",
-            "url": "https://pypi.org/project/currencyconverter/0.18.23/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "5 reasons the housing crisis may be turning a corner",
-            "description": "Over the past few months there have been positive noises about the housing market. There is a shift under way, but it is a number of relatively small moves in the right direction, writes David Murphy",
-            "source": "RTE",
-            "published_at": "2026-10-31T07:00:00Z",
-            "url": "https://www.rte.ie/news/analysis-and-comment/2026/1031/1597411-housing-crisis-progress/",
-            "sentiment_score": -0.3139,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Christine Lagarde’s Lonely Next Act: Defender of a Fading Globalist Order",
-            "description": "The departing leader of the European Central Bank wagers that her brand of politics still has a place in a world increasingly driven by polarization.",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T06:50:37Z",
-            "url": "https://biztoc.com/x/e0492aa6f28f2466",
-            "sentiment_score": -0.1912,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
-            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:01Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
-            "sentiment_score": 0.0786,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Ireland driving euro zone growth but ‘care must be taken’ with data",
-            "description": "Euro area a surprising outperformer in face of soaring energy prices",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T05:55:00Z",
-            "url": "https://www.irishtimes.com/business/2026/10/31/ireland-driving-euro-zone-growth-but-care-must-be-taken-with-data/",
-            "sentiment_score": 0.2898,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "description": "Wall Street’s tech sell-off deepened on Friday as investors questioned whether massive spending on artificial intelligence will deliver enough returns to justify lofty valuations. The S&P 500 fell 1.8% and the Nasdaq 2.9%, with Intel plunging nearly 29% and N…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T00:50:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-            "sentiment_score": -0.3169,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0574,
-        "label": "บวกเล็กน้อย",
-        "article_count": 28,
+        "average_score": -0.0287,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Should you buy gold now? Experts see prices rising, but watch these risks",
+            "description": "Gold prices have experienced a notable drop, creating favorable opportunities for those looking to buy during the festive and wedding seasons. Experts suggest that gold demand may rise in the near future. Nevertheless, market volatility driven by US Federal R…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/should-you-buy-gold-now-experts-see-prices-rising-but-watch-these-risks/articleshow/135384283.cms",
+            "sentiment_score": -0.0321,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asia shares bend under AI stress; Apple earnings loom",
+            "description": "Concerns about negative cash flow and the sheer scale of AI capex saw the cost of insuring against corporate defaults blow out last week, while gold hit a one-year low amid talk stressed investors were selling to raise money for margin calls.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T00:48:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+            "sentiment_score": -0.4934,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares steady as Apple earnings near, oil eases",
+            "description": "SYDNEY, Nov 2 : Share markets steadied in Asia on Monday as investors hoped for Apple earnings later in the day to provide some relief from AI cash-burn worries, while oil prices eased after talks continued between Iranian and Qatari mediators.Apple has been …",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/shares-steady-apple-earnings-near-oil-eases-6511816",
+            "sentiment_score": 0.6025,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares bend under AI stress; Apple earnings loom",
+            "description": "SYDNEY, Nov 2 : Asian share markets slipped on Monday as worries about the sustainability of the AI investment boom loomed over the tech sector, while the high price of oil limited the safe-haven appeal of sovereign bonds.Concerns about negative cash flow and…",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
+            "sentiment_score": -0.4951,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "Trying to pin down Kevin Warsh as a hawk or a dove has been tricky with his statements and actions puzzling Wall Street. \nAs President Donald Trump’s hand-picked Federal Reserve chairman, Warsh was expected to lean toward looser monetary policy. Then he decla…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T23:51:24Z",
+            "url": "https://biztoc.com/x/30c8014f3338a2f8",
+            "sentiment_score": 0.1768,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "\"We’re not in hawkish or dovish land. What’s happening is yield curve management, which itself is a function of how precarious the U.S. debt picture is.\"",
+            "source": "Fortune",
+            "published_at": "2026-11-01T23:07:18Z",
+            "url": "https://fortune.com/2026/11/01/fed-chair-kevin-warsh-treasury-bond-yield-curve-control-debt-costs-inflation-interest-rates-gdp-growth/",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Stocks Face Volatile Start to November",
+            "description": "Japan's benchmark Nikkei 225 index enters trading on November 2 after closing at 63,290.11 on October 30, down 1,369.36 points, or 2.12%, in its final session of October, as selling in artificial intelligence and semiconductor-related stocks raised concerns a…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-01T22:40:02Z",
+            "url": "https://newsonjapan.com/article/151211.php",
+            "sentiment_score": 0.143,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Election Night playbook has already been written",
+            "description": "An entirely unscientific look at things that are guaranteed to happen on Election Night, if recent history is an accurate indicator:<ul><li>Donald Trump will accuse the media of deliberately failing to report something it has been reporting nonstop for nine c…",
+            "source": "Raw Story",
+            "published_at": "2026-11-01T21:00:01Z",
+            "url": "https://www.rawstory.com/raw-investigates/midterm-trump-plan/",
+            "sentiment_score": -0.1875,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ignore AI and ask for that pay rise",
+            "description": "Fear of a technological revolution may be suppressing wages.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-11-01T21:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/11/01/ignore-ai-and-ask-for-that-pay-rise-a4940147",
+            "sentiment_score": -0.4565,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "EVERYTHING IS GETTING SMASHED. ALL AT ONCE!",
+            "description": "America faces a significant test as Wall Street experiences a massive liquidation across asset classes. Over 60% of S&P 500 components have fallen by at least 20%, raising concerns about the future of American economic leadership amid geopolitical tensions, p…",
+            "source": "Shtfplan.com",
+            "published_at": "2026-11-01T18:00:00Z",
+            "url": "https://www.shtfplan.com/headline-news/everything-is-getting-smashed-all-at-once",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
@@ -246,180 +276,10 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
-            "description": "The past week was marked by monetary policy decisions by major central banks. The United States Federal Reserve left interest rates unchanged, with Chair Kevin Warsh announcing that the Fed will reduc...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T22:08:05Z",
-            "url": "https://biztoc.com/x/e24a0add6a1b5e39",
-            "sentiment_score": 0.5312,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How vulnerable are cryptocurrency platforms?",
-            "description": "Hackers have targeted Binance, the world’s largest exchange.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-31T19:19:29Z",
-            "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms",
-            "sentiment_score": -0.1584,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, Silver rates crash: What happened with precious metal rates? What didn't go in favour and brought them down?",
-            "description": "Gold and silver prices plunged on Friday, with MCX gold falling ₹4,347 per 10 grams and silver dropping ₹10,577 per kg. Here are the factors responsible for this deep plunge.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-31T17:37:08Z",
-            "url": "https://www.livemint.com/money/gold-silver-rates-crash-what-happened-with-precious-metal-rates-what-didnt-go-in-favour-and-brought-them-down-11793465441981.html",
-            "sentiment_score": -0.0824,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Two Fed Officials Just Called for More Rate Hikes, Starting Soon",
-            "description": "The post Two Fed Officials Just Called for More Rate Hikes, Starting Soon appeared first on 24/7 Wall St..\nTwo days after the Federal Reserve held rates, Dallas Fed President Lorie Logan and St. Louis Fed President Alberto Musalem said the hiking cycle is not…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T14:42:23Z",
-            "url": "https://biztoc.com/x/d9b1b4d5f8c2b470",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold plunges ₹3,200 to 10-month low of ₹1.42 lakh; silver slides ₹4,200",
-            "description": "Gold prices fell to a 10-month low in Delhi, while silver dropped ₹4,200 per kg as global selling, rising oil prices and US Fed rate concerns weighed on bullion.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T14:01:17Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-plunges-3200-to-10-month-low-of-142-lakh-silver-slides-4200/article71649831.ece",
-            "sentiment_score": -0.2732,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Warsh's latest press conference leaves Wall Street guessing",
-            "description": "Federal Reserve Chairman Kevin Warsh held his fourth press conference this week, and when it came to defining the economy, inflation, and the path for rate hikes, he once again left Wall Street scrambling to guess his next move.\nMichael Feroli, chief US econo…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T12:42:21Z",
-            "url": "https://biztoc.com/x/8d0717395c36bacd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US bonds rally, sending yields to biggest monthly decline since 2023",
-            "description": "US Treasuries experienced a notable rise as technology stock selloffs caused a shift towards safer investments. The yield on the benchmark 10-year note had its largest monthly drop in nearly three years. Earnings reports from Amazon and Intel negatively impac…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T11:53:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/us-bonds-rally-sending-yields-to-biggest-monthly-decline-since-2023/articleshow/135400137.cms",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Vontobel: Insights from Co-CEO Christel Rendu",
-            "description": "In an interview with Swissinfo, Christel Rendu de Lint, co-CEO of Vontobel says human judgment, and oversight will remain essential in the AI era.",
-            "source": "swissinfo.ch",
-            "published_at": "2026-10-31T09:12:35Z",
-            "url": "https://www.swissinfo.ch/eng/finance-banking/regulation-must-be-proportionate-predictable-stable-and-pragmatic/92261260",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
-            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
-            "source": "Yale.edu",
-            "published_at": "2026-10-31T09:00:06Z",
-            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
-            "sentiment_score": 0.4393,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "bellwether-mcp 1.3.8",
-            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
-            "source": "Pypi.org",
-            "published_at": "2026-10-31T06:12:17Z",
-            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
-            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:01Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
-            "sentiment_score": 0.0786,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
-            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:00Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
-            "sentiment_score": -0.3687,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
-            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T05:31:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
-            "sentiment_score": -0.375,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
-            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T03:47:08Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
-            "sentiment_score": -0.3066,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
-            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-10-31T03:45:34Z",
-            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
-            "description": "– Gold prices suffered another sharp weekly decline, as an early recovery gave way to heavy selling after the Federal Reserve maintained its hawkish stance, stronger U.S. economic data reinforced expectations for further tightening, and Friday's technology-le…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T00:59:19Z",
-            "url": "https://biztoc.com/x/a3d1d3f997afcc1b",
-            "sentiment_score": -0.4361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "description": "Wall Street’s tech sell-off deepened on Friday as investors questioned whether massive spending on artificial intelligence will deliver enough returns to justify lofty valuations. The S&P 500 fell 1.8% and the Nasdaq 2.9%, with Intel plunging nearly 29% and N…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T00:50:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-            "sentiment_score": -0.3169,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.2264,
+      "net_score": -0.1572,
       "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -429,14 +289,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.12082,
+      "price_now": 1.11919,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 57.2,
-      "rsi_signal": "โซนกลาง (RSI=57.2)",
+      "rsi_value": 48.0,
+      "rsi_signal": "โซนกลาง (RSI=48.0)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00121,
-      "suggested_sl_distance": 0.00182,
+      "atr_value": 0.00114,
+      "suggested_sl_distance": 0.00171,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -450,7 +310,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-02T18:08:44.808861+00:00"
+    "generated_at": "2026-11-03T01:29:56.606645+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -459,10 +319,50 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.2584,
-        "label": "ลบชัดเจน (Bearish)",
-        "article_count": 4,
+        "average_score": -0.0508,
+        "label": "ลบเล็กน้อย",
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Global Market Today: Asia shares bend under AI stress; Apple earnings loom",
+            "description": "Concerns about negative cash flow and the sheer scale of AI capex saw the cost of insuring against corporate defaults blow out last week, while gold hit a one-year low amid talk stressed investors were selling to raise money for margin calls.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T00:48:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+            "sentiment_score": -0.4934,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Shares steady as Apple earnings near, oil eases",
+            "description": "SYDNEY, Nov 2 : Share markets steadied in Asia on Monday as investors hoped for Apple earnings later in the day to provide some relief from AI cash-burn worries, while oil prices eased after talks continued between Iranian and Qatari mediators.Apple has been …",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/shares-steady-apple-earnings-near-oil-eases-6511816",
+            "sentiment_score": 0.6025,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Asia shares bend under AI stress; Apple earnings loom",
+            "description": "SYDNEY, Nov 2 : Asian share markets slipped on Monday as worries about the sustainability of the AI investment boom loomed over the tech sector, while the high price of oil limited the safe-haven appeal of sovereign bonds.Concerns about negative cash flow and…",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
+            "sentiment_score": -0.4951,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Incredible Real-Life Tales: Stories That Leave You Fascinated (43 PICS)",
+            "description": "Incredible Real-Life Tales: Stories That Leave You Fascinated  (43 PICS)",
+            "source": "Izismile.com",
+            "published_at": "2026-11-01T23:00:16Z",
+            "url": "https://izismile.com/2026/11/02/incredible_reallife_tales_stories_that_leave_you_fascinated_43_pics.html",
+            "sentiment_score": 0.4404,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "GBP",
             "title": "Chancellor is STILL floundering on when Labour will cut benefits spending - as Burnham's ex-adviser warns Budget did nothing to reassure markets that books will be balanced",
@@ -482,34 +382,114 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Russia is developing doomsday space nuke capable of destroying thousands of satellites at once, with devastating global effect",
-            "description": "The chilling new development comes as Russian tyrant Vladimir Putin issued one of his starkest threats to the West, this week warning he was 'ready' to go to war with Europe.",
-            "source": "Dailymail.com",
-            "published_at": "2026-10-31T10:07:35Z",
-            "url": "https://www.dailymail.com/news/article-16251669/russia-nuclear-weapons-space-putin-pentagon-report.html",
-            "sentiment_score": -0.846,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England explores easing key limit on riskier mortgage lending",
-            "description": "Central bank considers lifting threshold on higher-risk mortgages in response to calls from government and industry to boost home-ownership",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T05:18:52Z",
-            "url": "https://biztoc.com/x/6126ecabddfbc6e6",
-            "sentiment_score": 0.0487,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0574,
-        "label": "บวกเล็กน้อย",
-        "article_count": 28,
+        "average_score": -0.0287,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Should you buy gold now? Experts see prices rising, but watch these risks",
+            "description": "Gold prices have experienced a notable drop, creating favorable opportunities for those looking to buy during the festive and wedding seasons. Experts suggest that gold demand may rise in the near future. Nevertheless, market volatility driven by US Federal R…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/should-you-buy-gold-now-experts-see-prices-rising-but-watch-these-risks/articleshow/135384283.cms",
+            "sentiment_score": -0.0321,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asia shares bend under AI stress; Apple earnings loom",
+            "description": "Concerns about negative cash flow and the sheer scale of AI capex saw the cost of insuring against corporate defaults blow out last week, while gold hit a one-year low amid talk stressed investors were selling to raise money for margin calls.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T00:48:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+            "sentiment_score": -0.4934,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares steady as Apple earnings near, oil eases",
+            "description": "SYDNEY, Nov 2 : Share markets steadied in Asia on Monday as investors hoped for Apple earnings later in the day to provide some relief from AI cash-burn worries, while oil prices eased after talks continued between Iranian and Qatari mediators.Apple has been …",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/shares-steady-apple-earnings-near-oil-eases-6511816",
+            "sentiment_score": 0.6025,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares bend under AI stress; Apple earnings loom",
+            "description": "SYDNEY, Nov 2 : Asian share markets slipped on Monday as worries about the sustainability of the AI investment boom loomed over the tech sector, while the high price of oil limited the safe-haven appeal of sovereign bonds.Concerns about negative cash flow and…",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
+            "sentiment_score": -0.4951,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "Trying to pin down Kevin Warsh as a hawk or a dove has been tricky with his statements and actions puzzling Wall Street. \nAs President Donald Trump’s hand-picked Federal Reserve chairman, Warsh was expected to lean toward looser monetary policy. Then he decla…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T23:51:24Z",
+            "url": "https://biztoc.com/x/30c8014f3338a2f8",
+            "sentiment_score": 0.1768,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "\"We’re not in hawkish or dovish land. What’s happening is yield curve management, which itself is a function of how precarious the U.S. debt picture is.\"",
+            "source": "Fortune",
+            "published_at": "2026-11-01T23:07:18Z",
+            "url": "https://fortune.com/2026/11/01/fed-chair-kevin-warsh-treasury-bond-yield-curve-control-debt-costs-inflation-interest-rates-gdp-growth/",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Stocks Face Volatile Start to November",
+            "description": "Japan's benchmark Nikkei 225 index enters trading on November 2 after closing at 63,290.11 on October 30, down 1,369.36 points, or 2.12%, in its final session of October, as selling in artificial intelligence and semiconductor-related stocks raised concerns a…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-01T22:40:02Z",
+            "url": "https://newsonjapan.com/article/151211.php",
+            "sentiment_score": 0.143,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Election Night playbook has already been written",
+            "description": "An entirely unscientific look at things that are guaranteed to happen on Election Night, if recent history is an accurate indicator:<ul><li>Donald Trump will accuse the media of deliberately failing to report something it has been reporting nonstop for nine c…",
+            "source": "Raw Story",
+            "published_at": "2026-11-01T21:00:01Z",
+            "url": "https://www.rawstory.com/raw-investigates/midterm-trump-plan/",
+            "sentiment_score": -0.1875,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ignore AI and ask for that pay rise",
+            "description": "Fear of a technological revolution may be suppressing wages.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-11-01T21:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/11/01/ignore-ai-and-ask-for-that-pay-rise-a4940147",
+            "sentiment_score": -0.4565,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "EVERYTHING IS GETTING SMASHED. ALL AT ONCE!",
+            "description": "America faces a significant test as Wall Street experiences a massive liquidation across asset classes. Over 60% of S&P 500 components have fallen by at least 20%, raising concerns about the future of American economic leadership amid geopolitical tensions, p…",
+            "source": "Shtfplan.com",
+            "published_at": "2026-11-01T18:00:00Z",
+            "url": "https://www.shtfplan.com/headline-news/everything-is-getting-smashed-all-at-once",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
@@ -619,197 +599,27 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
-            "description": "The past week was marked by monetary policy decisions by major central banks. The United States Federal Reserve left interest rates unchanged, with Chair Kevin Warsh announcing that the Fed will reduc...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T22:08:05Z",
-            "url": "https://biztoc.com/x/e24a0add6a1b5e39",
-            "sentiment_score": 0.5312,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How vulnerable are cryptocurrency platforms?",
-            "description": "Hackers have targeted Binance, the world’s largest exchange.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-31T19:19:29Z",
-            "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms",
-            "sentiment_score": -0.1584,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, Silver rates crash: What happened with precious metal rates? What didn't go in favour and brought them down?",
-            "description": "Gold and silver prices plunged on Friday, with MCX gold falling ₹4,347 per 10 grams and silver dropping ₹10,577 per kg. Here are the factors responsible for this deep plunge.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-31T17:37:08Z",
-            "url": "https://www.livemint.com/money/gold-silver-rates-crash-what-happened-with-precious-metal-rates-what-didnt-go-in-favour-and-brought-them-down-11793465441981.html",
-            "sentiment_score": -0.0824,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Two Fed Officials Just Called for More Rate Hikes, Starting Soon",
-            "description": "The post Two Fed Officials Just Called for More Rate Hikes, Starting Soon appeared first on 24/7 Wall St..\nTwo days after the Federal Reserve held rates, Dallas Fed President Lorie Logan and St. Louis Fed President Alberto Musalem said the hiking cycle is not…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T14:42:23Z",
-            "url": "https://biztoc.com/x/d9b1b4d5f8c2b470",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold plunges ₹3,200 to 10-month low of ₹1.42 lakh; silver slides ₹4,200",
-            "description": "Gold prices fell to a 10-month low in Delhi, while silver dropped ₹4,200 per kg as global selling, rising oil prices and US Fed rate concerns weighed on bullion.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T14:01:17Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-plunges-3200-to-10-month-low-of-142-lakh-silver-slides-4200/article71649831.ece",
-            "sentiment_score": -0.2732,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Warsh's latest press conference leaves Wall Street guessing",
-            "description": "Federal Reserve Chairman Kevin Warsh held his fourth press conference this week, and when it came to defining the economy, inflation, and the path for rate hikes, he once again left Wall Street scrambling to guess his next move.\nMichael Feroli, chief US econo…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T12:42:21Z",
-            "url": "https://biztoc.com/x/8d0717395c36bacd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US bonds rally, sending yields to biggest monthly decline since 2023",
-            "description": "US Treasuries experienced a notable rise as technology stock selloffs caused a shift towards safer investments. The yield on the benchmark 10-year note had its largest monthly drop in nearly three years. Earnings reports from Amazon and Intel negatively impac…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T11:53:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/us-bonds-rally-sending-yields-to-biggest-monthly-decline-since-2023/articleshow/135400137.cms",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Vontobel: Insights from Co-CEO Christel Rendu",
-            "description": "In an interview with Swissinfo, Christel Rendu de Lint, co-CEO of Vontobel says human judgment, and oversight will remain essential in the AI era.",
-            "source": "swissinfo.ch",
-            "published_at": "2026-10-31T09:12:35Z",
-            "url": "https://www.swissinfo.ch/eng/finance-banking/regulation-must-be-proportionate-predictable-stable-and-pragmatic/92261260",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
-            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
-            "source": "Yale.edu",
-            "published_at": "2026-10-31T09:00:06Z",
-            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
-            "sentiment_score": 0.4393,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "bellwether-mcp 1.3.8",
-            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
-            "source": "Pypi.org",
-            "published_at": "2026-10-31T06:12:17Z",
-            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
-            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:01Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
-            "sentiment_score": 0.0786,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
-            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:00Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
-            "sentiment_score": -0.3687,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
-            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T05:31:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
-            "sentiment_score": -0.375,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
-            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T03:47:08Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
-            "sentiment_score": -0.3066,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
-            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-10-31T03:45:34Z",
-            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
-            "description": "– Gold prices suffered another sharp weekly decline, as an early recovery gave way to heavy selling after the Federal Reserve maintained its hawkish stance, stronger U.S. economic data reinforced expectations for further tightening, and Friday's technology-le…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T00:59:19Z",
-            "url": "https://biztoc.com/x/a3d1d3f997afcc1b",
-            "sentiment_score": -0.4361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "description": "Wall Street’s tech sell-off deepened on Friday as investors questioned whether massive spending on artificial intelligence will deliver enough returns to justify lofty valuations. The S&P 500 fell 1.8% and the Nasdaq 2.9%, with Intel plunging nearly 29% and N…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T00:50:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-            "sentiment_score": -0.3169,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.3158,
-      "bias": "เอียงลบต่อ GBP (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.0221,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.34154,
+      "price_now": 1.34057,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 54.7,
-      "rsi_signal": "โซนกลาง (RSI=54.7)",
+      "rsi_value": 49.3,
+      "rsi_signal": "โซนกลาง (RSI=49.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00129,
-      "suggested_sl_distance": 0.00193,
+      "atr_value": 0.00119,
+      "suggested_sl_distance": 0.00179,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -823,7 +633,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-02T18:08:44.808861+00:00"
+    "generated_at": "2026-11-03T01:29:56.606645+00:00"
   },
   {
     "pair": "USDJPY",
@@ -832,10 +642,110 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0574,
-        "label": "บวกเล็กน้อย",
-        "article_count": 28,
+        "average_score": -0.0287,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Should you buy gold now? Experts see prices rising, but watch these risks",
+            "description": "Gold prices have experienced a notable drop, creating favorable opportunities for those looking to buy during the festive and wedding seasons. Experts suggest that gold demand may rise in the near future. Nevertheless, market volatility driven by US Federal R…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/should-you-buy-gold-now-experts-see-prices-rising-but-watch-these-risks/articleshow/135384283.cms",
+            "sentiment_score": -0.0321,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asia shares bend under AI stress; Apple earnings loom",
+            "description": "Concerns about negative cash flow and the sheer scale of AI capex saw the cost of insuring against corporate defaults blow out last week, while gold hit a one-year low amid talk stressed investors were selling to raise money for margin calls.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T00:48:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+            "sentiment_score": -0.4934,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares steady as Apple earnings near, oil eases",
+            "description": "SYDNEY, Nov 2 : Share markets steadied in Asia on Monday as investors hoped for Apple earnings later in the day to provide some relief from AI cash-burn worries, while oil prices eased after talks continued between Iranian and Qatari mediators.Apple has been …",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/shares-steady-apple-earnings-near-oil-eases-6511816",
+            "sentiment_score": 0.6025,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares bend under AI stress; Apple earnings loom",
+            "description": "SYDNEY, Nov 2 : Asian share markets slipped on Monday as worries about the sustainability of the AI investment boom loomed over the tech sector, while the high price of oil limited the safe-haven appeal of sovereign bonds.Concerns about negative cash flow and…",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
+            "sentiment_score": -0.4951,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "Trying to pin down Kevin Warsh as a hawk or a dove has been tricky with his statements and actions puzzling Wall Street. \nAs President Donald Trump’s hand-picked Federal Reserve chairman, Warsh was expected to lean toward looser monetary policy. Then he decla…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T23:51:24Z",
+            "url": "https://biztoc.com/x/30c8014f3338a2f8",
+            "sentiment_score": 0.1768,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "\"We’re not in hawkish or dovish land. What’s happening is yield curve management, which itself is a function of how precarious the U.S. debt picture is.\"",
+            "source": "Fortune",
+            "published_at": "2026-11-01T23:07:18Z",
+            "url": "https://fortune.com/2026/11/01/fed-chair-kevin-warsh-treasury-bond-yield-curve-control-debt-costs-inflation-interest-rates-gdp-growth/",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Stocks Face Volatile Start to November",
+            "description": "Japan's benchmark Nikkei 225 index enters trading on November 2 after closing at 63,290.11 on October 30, down 1,369.36 points, or 2.12%, in its final session of October, as selling in artificial intelligence and semiconductor-related stocks raised concerns a…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-01T22:40:02Z",
+            "url": "https://newsonjapan.com/article/151211.php",
+            "sentiment_score": 0.143,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Election Night playbook has already been written",
+            "description": "An entirely unscientific look at things that are guaranteed to happen on Election Night, if recent history is an accurate indicator:<ul><li>Donald Trump will accuse the media of deliberately failing to report something it has been reporting nonstop for nine c…",
+            "source": "Raw Story",
+            "published_at": "2026-11-01T21:00:01Z",
+            "url": "https://www.rawstory.com/raw-investigates/midterm-trump-plan/",
+            "sentiment_score": -0.1875,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ignore AI and ask for that pay rise",
+            "description": "Fear of a technological revolution may be suppressing wages.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-11-01T21:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/11/01/ignore-ai-and-ask-for-that-pay-rise-a4940147",
+            "sentiment_score": -0.4565,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "EVERYTHING IS GETTING SMASHED. ALL AT ONCE!",
+            "description": "America faces a significant test as Wall Street experiences a massive liquidation across asset classes. Over 60% of S&P 500 components have fallen by at least 20%, raising concerns about the future of American economic leadership amid geopolitical tensions, p…",
+            "source": "Shtfplan.com",
+            "published_at": "2026-11-01T18:00:00Z",
+            "url": "https://www.shtfplan.com/headline-news/everything-is-getting-smashed-all-at-once",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
@@ -945,184 +855,24 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
-            "description": "The past week was marked by monetary policy decisions by major central banks. The United States Federal Reserve left interest rates unchanged, with Chair Kevin Warsh announcing that the Fed will reduc...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T22:08:05Z",
-            "url": "https://biztoc.com/x/e24a0add6a1b5e39",
-            "sentiment_score": 0.5312,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How vulnerable are cryptocurrency platforms?",
-            "description": "Hackers have targeted Binance, the world’s largest exchange.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-31T19:19:29Z",
-            "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms",
-            "sentiment_score": -0.1584,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, Silver rates crash: What happened with precious metal rates? What didn't go in favour and brought them down?",
-            "description": "Gold and silver prices plunged on Friday, with MCX gold falling ₹4,347 per 10 grams and silver dropping ₹10,577 per kg. Here are the factors responsible for this deep plunge.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-31T17:37:08Z",
-            "url": "https://www.livemint.com/money/gold-silver-rates-crash-what-happened-with-precious-metal-rates-what-didnt-go-in-favour-and-brought-them-down-11793465441981.html",
-            "sentiment_score": -0.0824,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Two Fed Officials Just Called for More Rate Hikes, Starting Soon",
-            "description": "The post Two Fed Officials Just Called for More Rate Hikes, Starting Soon appeared first on 24/7 Wall St..\nTwo days after the Federal Reserve held rates, Dallas Fed President Lorie Logan and St. Louis Fed President Alberto Musalem said the hiking cycle is not…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T14:42:23Z",
-            "url": "https://biztoc.com/x/d9b1b4d5f8c2b470",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold plunges ₹3,200 to 10-month low of ₹1.42 lakh; silver slides ₹4,200",
-            "description": "Gold prices fell to a 10-month low in Delhi, while silver dropped ₹4,200 per kg as global selling, rising oil prices and US Fed rate concerns weighed on bullion.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T14:01:17Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-plunges-3200-to-10-month-low-of-142-lakh-silver-slides-4200/article71649831.ece",
-            "sentiment_score": -0.2732,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Warsh's latest press conference leaves Wall Street guessing",
-            "description": "Federal Reserve Chairman Kevin Warsh held his fourth press conference this week, and when it came to defining the economy, inflation, and the path for rate hikes, he once again left Wall Street scrambling to guess his next move.\nMichael Feroli, chief US econo…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T12:42:21Z",
-            "url": "https://biztoc.com/x/8d0717395c36bacd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US bonds rally, sending yields to biggest monthly decline since 2023",
-            "description": "US Treasuries experienced a notable rise as technology stock selloffs caused a shift towards safer investments. The yield on the benchmark 10-year note had its largest monthly drop in nearly three years. Earnings reports from Amazon and Intel negatively impac…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T11:53:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/us-bonds-rally-sending-yields-to-biggest-monthly-decline-since-2023/articleshow/135400137.cms",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Vontobel: Insights from Co-CEO Christel Rendu",
-            "description": "In an interview with Swissinfo, Christel Rendu de Lint, co-CEO of Vontobel says human judgment, and oversight will remain essential in the AI era.",
-            "source": "swissinfo.ch",
-            "published_at": "2026-10-31T09:12:35Z",
-            "url": "https://www.swissinfo.ch/eng/finance-banking/regulation-must-be-proportionate-predictable-stable-and-pragmatic/92261260",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
-            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
-            "source": "Yale.edu",
-            "published_at": "2026-10-31T09:00:06Z",
-            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
-            "sentiment_score": 0.4393,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "bellwether-mcp 1.3.8",
-            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
-            "source": "Pypi.org",
-            "published_at": "2026-10-31T06:12:17Z",
-            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
-            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:01Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
-            "sentiment_score": 0.0786,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
-            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:00Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
-            "sentiment_score": -0.3687,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
-            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T05:31:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
-            "sentiment_score": -0.375,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
-            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T03:47:08Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
-            "sentiment_score": -0.3066,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
-            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-10-31T03:45:34Z",
-            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
-            "description": "– Gold prices suffered another sharp weekly decline, as an early recovery gave way to heavy selling after the Federal Reserve maintained its hawkish stance, stronger U.S. economic data reinforced expectations for further tightening, and Friday's technology-le…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T00:59:19Z",
-            "url": "https://biztoc.com/x/a3d1d3f997afcc1b",
-            "sentiment_score": -0.4361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "description": "Wall Street’s tech sell-off deepened on Friday as investors questioned whether massive spending on artificial intelligence will deliver enough returns to justify lofty valuations. The S&P 500 fell 1.8% and the Nasdaq 2.9%, with Intel plunging nearly 29% and N…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T00:50:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-            "sentiment_score": -0.3169,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0379,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 4,
+        "average_score": 0.0676,
+        "label": "บวกเล็กน้อย",
+        "article_count": 3,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan Stocks Face Volatile Start to November",
+            "description": "Japan's benchmark Nikkei 225 index enters trading on November 2 after closing at 63,290.11 on October 30, down 1,369.36 points, or 2.12%, in its final session of October, as selling in artificial intelligence and semiconductor-related stocks raised concerns a…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-01T22:40:02Z",
+            "url": "https://newsonjapan.com/article/151211.php",
+            "sentiment_score": 0.143,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Japan’s central bank will sell ETFs 2.6 times faster and could still take 43 years to exit",
@@ -1142,30 +892,10 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s Film Funds Look Beyond Production Committees to Build New Financing Models",
-            "description": "Japan’s production committee system, in which a group of companies jointly finance a film and share its rights, has helped spread risk across the industry. But it can also cap budgets at what the industry itself can raise, make it harder for overseas investor…",
-            "source": "Variety",
-            "published_at": "2026-10-31T08:15:56Z",
-            "url": "https://variety.com/2026/film/markets-festivals/japans-film-funds-beyond-production-committees-new-financing-models-1236935964/",
-            "sentiment_score": 0.0039,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "description": "Wall Street’s tech sell-off deepened on Friday as investors questioned whether massive spending on artificial intelligence will deliver enough returns to justify lofty valuations. The S&P 500 fell 1.8% and the Nasdaq 2.9%, with Intel plunging nearly 29% and N…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T00:50:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-            "sentiment_score": -0.3169,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0953,
+      "net_score": -0.0963,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1175,28 +905,28 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 157.80499,
+      "price_now": 157.952,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 52.6,
-      "rsi_signal": "โซนกลาง (RSI=52.6)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.18541,
-      "suggested_sl_distance": 0.27811,
+      "rsi_value": 57.7,
+      "rsi_signal": "โซนกลาง (RSI=57.7)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.16889,
+      "suggested_sl_distance": 0.25334,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=57.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-02T18:08:44.808861+00:00"
+    "generated_at": "2026-11-03T01:29:56.606645+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1205,10 +935,50 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.062,
-        "label": "บวกเล็กน้อย",
-        "article_count": 3,
+        "average_score": -0.0858,
+        "label": "ลบเล็กน้อย",
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Global Market Today: Asia shares bend under AI stress; Apple earnings loom",
+            "description": "Concerns about negative cash flow and the sheer scale of AI capex saw the cost of insuring against corporate defaults blow out last week, while gold hit a one-year low amid talk stressed investors were selling to raise money for margin calls.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T00:48:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+            "sentiment_score": -0.4934,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Shares steady as Apple earnings near, oil eases",
+            "description": "SYDNEY, Nov 2 : Share markets steadied in Asia on Monday as investors hoped for Apple earnings later in the day to provide some relief from AI cash-burn worries, while oil prices eased after talks continued between Iranian and Qatari mediators.Apple has been …",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/shares-steady-apple-earnings-near-oil-eases-6511816",
+            "sentiment_score": 0.6025,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Asia shares bend under AI stress; Apple earnings loom",
+            "description": "SYDNEY, Nov 2 : Asian share markets slipped on Monday as worries about the sustainability of the AI investment boom loomed over the tech sector, while the high price of oil limited the safe-haven appeal of sovereign bonds.Concerns about negative cash flow and…",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
+            "sentiment_score": -0.4951,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Australian property prices plunging at fastest rate in 40 years after seven straight months of falls as rate decision looms",
+            "description": "Property prices have plummeted for a seventh straight month, with the decline tracking faster than any previous downturn over the past four decades.",
+            "source": "Dailymail.com",
+            "published_at": "2026-11-01T23:43:29Z",
+            "url": "https://www.dailymail.com/news/article-16257109/australian-property-prices-fastest-fall-40-years-seventh-straight-month-decline.html",
+            "sentiment_score": 0.1219,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "AUD",
             "title": "Australia nears 'largest property downturn in 40 years' as prices plunge",
@@ -1228,24 +998,114 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "AUD",
-            "title": "A rare buying opportunity in 1 of Australia's top shares?",
-            "description": "This is a great time to invest in this compelling business, in my view. \nThe post A rare buying opportunity in 1 of Australia's top shares? appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-10-31T00:30:00Z",
-            "url": "https://www.fool.com.au/2026/10/31/a-rare-buying-opportunity-in-1-of-australias-top-shares-28/",
-            "sentiment_score": 0.7438,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0574,
-        "label": "บวกเล็กน้อย",
-        "article_count": 28,
+        "average_score": -0.0287,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Should you buy gold now? Experts see prices rising, but watch these risks",
+            "description": "Gold prices have experienced a notable drop, creating favorable opportunities for those looking to buy during the festive and wedding seasons. Experts suggest that gold demand may rise in the near future. Nevertheless, market volatility driven by US Federal R…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/should-you-buy-gold-now-experts-see-prices-rising-but-watch-these-risks/articleshow/135384283.cms",
+            "sentiment_score": -0.0321,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asia shares bend under AI stress; Apple earnings loom",
+            "description": "Concerns about negative cash flow and the sheer scale of AI capex saw the cost of insuring against corporate defaults blow out last week, while gold hit a one-year low amid talk stressed investors were selling to raise money for margin calls.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T00:48:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+            "sentiment_score": -0.4934,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares steady as Apple earnings near, oil eases",
+            "description": "SYDNEY, Nov 2 : Share markets steadied in Asia on Monday as investors hoped for Apple earnings later in the day to provide some relief from AI cash-burn worries, while oil prices eased after talks continued between Iranian and Qatari mediators.Apple has been …",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/shares-steady-apple-earnings-near-oil-eases-6511816",
+            "sentiment_score": 0.6025,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares bend under AI stress; Apple earnings loom",
+            "description": "SYDNEY, Nov 2 : Asian share markets slipped on Monday as worries about the sustainability of the AI investment boom loomed over the tech sector, while the high price of oil limited the safe-haven appeal of sovereign bonds.Concerns about negative cash flow and…",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
+            "sentiment_score": -0.4951,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "Trying to pin down Kevin Warsh as a hawk or a dove has been tricky with his statements and actions puzzling Wall Street. \nAs President Donald Trump’s hand-picked Federal Reserve chairman, Warsh was expected to lean toward looser monetary policy. Then he decla…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T23:51:24Z",
+            "url": "https://biztoc.com/x/30c8014f3338a2f8",
+            "sentiment_score": 0.1768,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "\"We’re not in hawkish or dovish land. What’s happening is yield curve management, which itself is a function of how precarious the U.S. debt picture is.\"",
+            "source": "Fortune",
+            "published_at": "2026-11-01T23:07:18Z",
+            "url": "https://fortune.com/2026/11/01/fed-chair-kevin-warsh-treasury-bond-yield-curve-control-debt-costs-inflation-interest-rates-gdp-growth/",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Stocks Face Volatile Start to November",
+            "description": "Japan's benchmark Nikkei 225 index enters trading on November 2 after closing at 63,290.11 on October 30, down 1,369.36 points, or 2.12%, in its final session of October, as selling in artificial intelligence and semiconductor-related stocks raised concerns a…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-01T22:40:02Z",
+            "url": "https://newsonjapan.com/article/151211.php",
+            "sentiment_score": 0.143,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Election Night playbook has already been written",
+            "description": "An entirely unscientific look at things that are guaranteed to happen on Election Night, if recent history is an accurate indicator:<ul><li>Donald Trump will accuse the media of deliberately failing to report something it has been reporting nonstop for nine c…",
+            "source": "Raw Story",
+            "published_at": "2026-11-01T21:00:01Z",
+            "url": "https://www.rawstory.com/raw-investigates/midterm-trump-plan/",
+            "sentiment_score": -0.1875,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ignore AI and ask for that pay rise",
+            "description": "Fear of a technological revolution may be suppressing wages.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-11-01T21:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/11/01/ignore-ai-and-ask-for-that-pay-rise-a4940147",
+            "sentiment_score": -0.4565,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "EVERYTHING IS GETTING SMASHED. ALL AT ONCE!",
+            "description": "America faces a significant test as Wall Street experiences a massive liquidation across asset classes. Over 60% of S&P 500 components have fallen by at least 20%, raising concerns about the future of American economic leadership amid geopolitical tensions, p…",
+            "source": "Shtfplan.com",
+            "published_at": "2026-11-01T18:00:00Z",
+            "url": "https://www.shtfplan.com/headline-news/everything-is-getting-smashed-all-at-once",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
@@ -1355,180 +1215,10 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
-            "description": "The past week was marked by monetary policy decisions by major central banks. The United States Federal Reserve left interest rates unchanged, with Chair Kevin Warsh announcing that the Fed will reduc...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T22:08:05Z",
-            "url": "https://biztoc.com/x/e24a0add6a1b5e39",
-            "sentiment_score": 0.5312,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How vulnerable are cryptocurrency platforms?",
-            "description": "Hackers have targeted Binance, the world’s largest exchange.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-31T19:19:29Z",
-            "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms",
-            "sentiment_score": -0.1584,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, Silver rates crash: What happened with precious metal rates? What didn't go in favour and brought them down?",
-            "description": "Gold and silver prices plunged on Friday, with MCX gold falling ₹4,347 per 10 grams and silver dropping ₹10,577 per kg. Here are the factors responsible for this deep plunge.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-31T17:37:08Z",
-            "url": "https://www.livemint.com/money/gold-silver-rates-crash-what-happened-with-precious-metal-rates-what-didnt-go-in-favour-and-brought-them-down-11793465441981.html",
-            "sentiment_score": -0.0824,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Two Fed Officials Just Called for More Rate Hikes, Starting Soon",
-            "description": "The post Two Fed Officials Just Called for More Rate Hikes, Starting Soon appeared first on 24/7 Wall St..\nTwo days after the Federal Reserve held rates, Dallas Fed President Lorie Logan and St. Louis Fed President Alberto Musalem said the hiking cycle is not…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T14:42:23Z",
-            "url": "https://biztoc.com/x/d9b1b4d5f8c2b470",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold plunges ₹3,200 to 10-month low of ₹1.42 lakh; silver slides ₹4,200",
-            "description": "Gold prices fell to a 10-month low in Delhi, while silver dropped ₹4,200 per kg as global selling, rising oil prices and US Fed rate concerns weighed on bullion.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T14:01:17Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-plunges-3200-to-10-month-low-of-142-lakh-silver-slides-4200/article71649831.ece",
-            "sentiment_score": -0.2732,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Warsh's latest press conference leaves Wall Street guessing",
-            "description": "Federal Reserve Chairman Kevin Warsh held his fourth press conference this week, and when it came to defining the economy, inflation, and the path for rate hikes, he once again left Wall Street scrambling to guess his next move.\nMichael Feroli, chief US econo…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T12:42:21Z",
-            "url": "https://biztoc.com/x/8d0717395c36bacd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US bonds rally, sending yields to biggest monthly decline since 2023",
-            "description": "US Treasuries experienced a notable rise as technology stock selloffs caused a shift towards safer investments. The yield on the benchmark 10-year note had its largest monthly drop in nearly three years. Earnings reports from Amazon and Intel negatively impac…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T11:53:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/us-bonds-rally-sending-yields-to-biggest-monthly-decline-since-2023/articleshow/135400137.cms",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Vontobel: Insights from Co-CEO Christel Rendu",
-            "description": "In an interview with Swissinfo, Christel Rendu de Lint, co-CEO of Vontobel says human judgment, and oversight will remain essential in the AI era.",
-            "source": "swissinfo.ch",
-            "published_at": "2026-10-31T09:12:35Z",
-            "url": "https://www.swissinfo.ch/eng/finance-banking/regulation-must-be-proportionate-predictable-stable-and-pragmatic/92261260",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
-            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
-            "source": "Yale.edu",
-            "published_at": "2026-10-31T09:00:06Z",
-            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
-            "sentiment_score": 0.4393,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "bellwether-mcp 1.3.8",
-            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
-            "source": "Pypi.org",
-            "published_at": "2026-10-31T06:12:17Z",
-            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
-            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:01Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
-            "sentiment_score": 0.0786,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
-            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:00Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
-            "sentiment_score": -0.3687,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
-            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T05:31:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
-            "sentiment_score": -0.375,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
-            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T03:47:08Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
-            "sentiment_score": -0.3066,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
-            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-10-31T03:45:34Z",
-            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
-            "description": "– Gold prices suffered another sharp weekly decline, as an early recovery gave way to heavy selling after the Federal Reserve maintained its hawkish stance, stronger U.S. economic data reinforced expectations for further tightening, and Friday's technology-le…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T00:59:19Z",
-            "url": "https://biztoc.com/x/a3d1d3f997afcc1b",
-            "sentiment_score": -0.4361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "description": "Wall Street’s tech sell-off deepened on Friday as investors questioned whether massive spending on artificial intelligence will deliver enough returns to justify lofty valuations. The S&P 500 fell 1.8% and the Nasdaq 2.9%, with Intel plunging nearly 29% and N…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T00:50:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-            "sentiment_score": -0.3169,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0046,
+      "net_score": -0.0571,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1538,14 +1228,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.70146,
+      "price_now": 0.69999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 43.2,
-      "rsi_signal": "โซนกลาง (RSI=43.2)",
+      "rsi_value": 36.3,
+      "rsi_signal": "โซนกลาง (RSI=36.3)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00074,
-      "suggested_sl_distance": 0.0011,
+      "atr_value": 0.00076,
+      "suggested_sl_distance": 0.00114,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -1557,9 +1247,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=43.2) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=36.3) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-02T18:08:44.808861+00:00"
+    "generated_at": "2026-11-03T01:29:56.606645+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1568,10 +1258,40 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0901,
-        "label": "ลบเล็กน้อย",
-        "article_count": 11,
+        "average_score": -0.0453,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Should you buy gold now? Experts see prices rising, but watch these risks",
+            "description": "Gold prices have experienced a notable drop, creating favorable opportunities for those looking to buy during the festive and wedding seasons. Experts suggest that gold demand may rise in the near future. Nevertheless, market volatility driven by US Federal R…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/should-you-buy-gold-now-experts-see-prices-rising-but-watch-these-risks/articleshow/135384283.cms",
+            "sentiment_score": -0.0321,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction: Gold rate continues to fall or will bear movement end after US midterm elections results? Experts make forecast",
+            "description": "Gold rate forecast: US midterm elections 2026 and any escalation involving the US, Israel and Iran could play pivotal role in dictating the Gold price movement this year.",
+            "source": "The Times of India",
+            "published_at": "2026-11-01T22:39:57Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-gold-rate-continues-to-fall-or-will-bear-movement-end-after-us-midterm-elections-results-experts-make-forecast/articleshow/135440148.cms",
+            "sentiment_score": 0.102,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "BRICS Nations Hold 17.4% of Global Gold Reserves as UBS Targets $5,200",
+            "description": "BRICS gold reserves have gone up to more than 6,000 tonnes right now, which comes out to about 17.4% of total global gold reserves held by central banks, up from 11.2% back in 2019, according to EBC Financial Group BRICS gold reserves have gone up to more tha…",
+            "source": "Activistpost.com",
+            "published_at": "2026-11-01T20:06:00Z",
+            "url": "https://activistpost.com/brics-nations-hold-17-4-of-global-gold-reserves-as-ubs-targets-5200/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "XAU",
             "title": "Gold, silver lose sheen",
@@ -1591,104 +1311,114 @@
             "url": "https://www.livemint.com/money/gold-24k-22k-18k-silver-999-prices-today-1-november-retail-rates-bangalore-hyderabad-delhi-mumbai-kolkata-chennai-cities-11793469769074.html",
             "sentiment_score": 0.0607,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold (XAUUSD), Silver, Platinum Forecasts – Gold Dives 3.5% As Traders Focus On Tech Sell-Off - FXEmpire",
-            "description": "Gold (XAUUSD), Silver, Platinum Forecasts – Gold Dives 3.5% As Traders Focus On Tech Sell-OffFXEmpire Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 30, 2026: Gold slips below $4,000 a…",
-            "source": "Slashdot.org",
-            "published_at": "2026-10-31T09:32:58Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186525754",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver rates today Hyderabad 31 Oct for investors: What are latest prices per kg and per 10 gms in Charminar City?",
-            "description": "Gold, silver prices today in Hyderabad, 31 October for investors: What are latest prices per kg and per 10 gms in Charminar City? We also bring retail prices of 18K, 22K and 24K gold and 999 Fine silver across cities — Chennai, Delhi, Hyderabad, Kolkata, and …",
-            "source": "Livemint",
-            "published_at": "2026-10-31T06:49:10Z",
-            "url": "https://www.livemint.com/money/gold-silver-rates-today-hyderabad-31-oct-for-investors-what-are-latest-prices-per-kg-and-per-10-gms-in-charminar-city-11793424196392.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rates dropped silver rate today (October 31, 2026): Check 24k, 22k, 20k 18k jewellery prices from IBJA, Malabar Gold & Diamonds, Joyalukkas, Kalyan Jewellers and Tanishq",
-            "description": "Gold rates today: Gold jewellery prices fell below Rs 13,000 per gram at several prominent jewellery brands on October 31, 2026.  As buyers prepare for Dhanteras and Diwali, many are comparing current gold rates.",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T05:24:48Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-rates-dropped-silver-rate-today-october-31-2026-check-24k-22k-20k-18k-jewellery-prices-from-ibja-malabar-gold-diamonds-joyalukkas-kalyan-jewellers-and-tanishq/articleshow/135389433.cms",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver rates today Bangalore 31 Oct: Latest prices, up-down movement for precious metal investors in Garden City",
-            "description": "Gold, silver prices today, 31 October: Check the latest prices and up-down movement for precious metal investors in Garden City. We also bring retail prices of 18K, 22K and 24K gold and 999 Fine silver across cities — Chennai, Delhi, Hyderabad, Kolkata, and M…",
-            "source": "Livemint",
-            "published_at": "2026-10-31T05:20:42Z",
-            "url": "https://www.livemint.com/money/gold-silver-rates-today-bangalore-31-oct-latest-prices-up-down-movement-precious-metal-investor-garden-city-mumbai-delhi-11793383978849.html",
-            "sentiment_score": 0.6015,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloff - Seeking Alpha",
-            "description": "Gold sinks to one-year low, silver slips below $50 on inflation concerns, tech selloffSeeking Alpha Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 30, 2026: Gold slips below $4,000 as …",
-            "source": "Slashdot.org",
-            "published_at": "2026-10-31T04:54:51Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186522716",
-            "sentiment_score": -0.3394,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation - Kitco PM Report - Kitco",
-            "description": "Gold falls below $3,900, silver tumbles as Wall Street selloff triggers liquidation - Kitco PM ReportKitco Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 30, 2026: Gold slips below $4,…",
-            "source": "Slashdot.org",
-            "published_at": "2026-10-31T03:12:17Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186521634",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom - Kitco",
-            "description": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loomKitco Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 3…",
-            "source": "Slashdot.org",
-            "published_at": "2026-10-31T02:52:36Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186521414",
-            "sentiment_score": -0.5659,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain ahead - Kitco",
-            "description": "Gold prices plunge to one-year low below $3,900 as higher oil prices fuel fears of more pain aheadKitco Tech rout drives gold to one-year low, white metals sink deep into oversold zoneReuters Gold price today, Friday, October 30, 2026: Gold slips below $4,000…",
-            "source": "Slashdot.org",
-            "published_at": "2026-10-31T02:32:19Z",
-            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=186521186",
-            "sentiment_score": -0.8308,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
-            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. The developments reflect Nepal’s ongoing efforts to strengthen economic governance, expand investment o…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-10-31T02:15:40Z",
-            "url": "https://english.khabarhub.com/2026/31/573783/",
-            "sentiment_score": 0.2406,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0574,
-        "label": "บวกเล็กน้อย",
-        "article_count": 28,
+        "average_score": -0.0287,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 21,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Should you buy gold now? Experts see prices rising, but watch these risks",
+            "description": "Gold prices have experienced a notable drop, creating favorable opportunities for those looking to buy during the festive and wedding seasons. Experts suggest that gold demand may rise in the near future. Nevertheless, market volatility driven by US Federal R…",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T01:00:00Z",
+            "url": "https://economictimes.indiatimes.com/wealth/invest/should-you-buy-gold-now-experts-see-prices-rising-but-watch-these-risks/articleshow/135384283.cms",
+            "sentiment_score": -0.0321,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asia shares bend under AI stress; Apple earnings loom",
+            "description": "Concerns about negative cash flow and the sheer scale of AI capex saw the cost of insuring against corporate defaults blow out last week, while gold hit a one-year low amid talk stressed investors were selling to raise money for margin calls.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T00:48:51Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asia-shares-bend-under-ai-stress-apple-earnings-loom/articleshow/135441259.cms",
+            "sentiment_score": -0.4934,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Shares steady as Apple earnings near, oil eases",
+            "description": "SYDNEY, Nov 2 : Share markets steadied in Asia on Monday as investors hoped for Apple earnings later in the day to provide some relief from AI cash-burn worries, while oil prices eased after talks continued between Iranian and Qatari mediators.Apple has been …",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/shares-steady-apple-earnings-near-oil-eases-6511816",
+            "sentiment_score": 0.6025,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Asia shares bend under AI stress; Apple earnings loom",
+            "description": "SYDNEY, Nov 2 : Asian share markets slipped on Monday as worries about the sustainability of the AI investment boom loomed over the tech sector, while the high price of oil limited the safe-haven appeal of sovereign bonds.Concerns about negative cash flow and…",
+            "source": "CNA",
+            "published_at": "2026-11-02T00:40:46Z",
+            "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
+            "sentiment_score": -0.4951,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "Trying to pin down Kevin Warsh as a hawk or a dove has been tricky with his statements and actions puzzling Wall Street. \nAs President Donald Trump’s hand-picked Federal Reserve chairman, Warsh was expected to lean toward looser monetary policy. Then he decla…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-01T23:51:24Z",
+            "url": "https://biztoc.com/x/30c8014f3338a2f8",
+            "sentiment_score": 0.1768,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Chair Kevin Warsh is actually managing U.S. debt costs not inflation, economist says, as interest rates threaten to top GDP growth soon",
+            "description": "\"We’re not in hawkish or dovish land. What’s happening is yield curve management, which itself is a function of how precarious the U.S. debt picture is.\"",
+            "source": "Fortune",
+            "published_at": "2026-11-01T23:07:18Z",
+            "url": "https://fortune.com/2026/11/01/fed-chair-kevin-warsh-treasury-bond-yield-curve-control-debt-costs-inflation-interest-rates-gdp-growth/",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Japan Stocks Face Volatile Start to November",
+            "description": "Japan's benchmark Nikkei 225 index enters trading on November 2 after closing at 63,290.11 on October 30, down 1,369.36 points, or 2.12%, in its final session of October, as selling in artificial intelligence and semiconductor-related stocks raised concerns a…",
+            "source": "Newsonjapan.com",
+            "published_at": "2026-11-01T22:40:02Z",
+            "url": "https://newsonjapan.com/article/151211.php",
+            "sentiment_score": 0.143,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The Election Night playbook has already been written",
+            "description": "An entirely unscientific look at things that are guaranteed to happen on Election Night, if recent history is an accurate indicator:<ul><li>Donald Trump will accuse the media of deliberately failing to report something it has been reporting nonstop for nine c…",
+            "source": "Raw Story",
+            "published_at": "2026-11-01T21:00:01Z",
+            "url": "https://www.rawstory.com/raw-investigates/midterm-trump-plan/",
+            "sentiment_score": -0.1875,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Ignore AI and ask for that pay rise",
+            "description": "Fear of a technological revolution may be suppressing wages.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-11-01T21:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/11/01/ignore-ai-and-ask-for-that-pay-rise-a4940147",
+            "sentiment_score": -0.4565,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "EVERYTHING IS GETTING SMASHED. ALL AT ONCE!",
+            "description": "America faces a significant test as Wall Street experiences a massive liquidation across asset classes. Over 60% of S&P 500 components have fallen by at least 20%, raising concerns about the future of American economic leadership amid geopolitical tensions, p…",
+            "source": "Shtfplan.com",
+            "published_at": "2026-11-01T18:00:00Z",
+            "url": "https://www.shtfplan.com/headline-news/everything-is-getting-smashed-all-at-once",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin ETF Investors Head for the Exits After Record Binance Hack",
@@ -1798,180 +1528,10 @@
             "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
             "sentiment_score": -0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "WEEKLY RECAP: Interest rate calls, tech earnings in focus",
-            "description": "The past week was marked by monetary policy decisions by major central banks. The United States Federal Reserve left interest rates unchanged, with Chair Kevin Warsh announcing that the Fed will reduc...",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T22:08:05Z",
-            "url": "https://biztoc.com/x/e24a0add6a1b5e39",
-            "sentiment_score": 0.5312,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How vulnerable are cryptocurrency platforms?",
-            "description": "Hackers have targeted Binance, the world’s largest exchange.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-10-31T19:19:29Z",
-            "url": "https://www.aljazeera.com/video/inside-story/2026/10/31/how-vulnerable-are-cryptocurrency-platforms",
-            "sentiment_score": -0.1584,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold, Silver rates crash: What happened with precious metal rates? What didn't go in favour and brought them down?",
-            "description": "Gold and silver prices plunged on Friday, with MCX gold falling ₹4,347 per 10 grams and silver dropping ₹10,577 per kg. Here are the factors responsible for this deep plunge.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-10-31T17:37:08Z",
-            "url": "https://www.livemint.com/money/gold-silver-rates-crash-what-happened-with-precious-metal-rates-what-didnt-go-in-favour-and-brought-them-down-11793465441981.html",
-            "sentiment_score": -0.0824,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Two Fed Officials Just Called for More Rate Hikes, Starting Soon",
-            "description": "The post Two Fed Officials Just Called for More Rate Hikes, Starting Soon appeared first on 24/7 Wall St..\nTwo days after the Federal Reserve held rates, Dallas Fed President Lorie Logan and St. Louis Fed President Alberto Musalem said the hiking cycle is not…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T14:42:23Z",
-            "url": "https://biztoc.com/x/d9b1b4d5f8c2b470",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold plunges ₹3,200 to 10-month low of ₹1.42 lakh; silver slides ₹4,200",
-            "description": "Gold prices fell to a 10-month low in Delhi, while silver dropped ₹4,200 per kg as global selling, rising oil prices and US Fed rate concerns weighed on bullion.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T14:01:17Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-plunges-3200-to-10-month-low-of-142-lakh-silver-slides-4200/article71649831.ece",
-            "sentiment_score": -0.2732,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Warsh's latest press conference leaves Wall Street guessing",
-            "description": "Federal Reserve Chairman Kevin Warsh held his fourth press conference this week, and when it came to defining the economy, inflation, and the path for rate hikes, he once again left Wall Street scrambling to guess his next move.\nMichael Feroli, chief US econo…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T12:42:21Z",
-            "url": "https://biztoc.com/x/8d0717395c36bacd",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "US bonds rally, sending yields to biggest monthly decline since 2023",
-            "description": "US Treasuries experienced a notable rise as technology stock selloffs caused a shift towards safer investments. The yield on the benchmark 10-year note had its largest monthly drop in nearly three years. Earnings reports from Amazon and Intel negatively impac…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T11:53:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/bonds/us-bonds-rally-sending-yields-to-biggest-monthly-decline-since-2023/articleshow/135400137.cms",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Vontobel: Insights from Co-CEO Christel Rendu",
-            "description": "In an interview with Swissinfo, Christel Rendu de Lint, co-CEO of Vontobel says human judgment, and oversight will remain essential in the AI era.",
-            "source": "swissinfo.ch",
-            "published_at": "2026-10-31T09:12:35Z",
-            "url": "https://www.swissinfo.ch/eng/finance-banking/regulation-must-be-proportionate-predictable-stable-and-pragmatic/92261260",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "William Nordhaus, Nobel laureate who integrated economics and climate change, devoted Yale citizen",
-            "description": "William Nordhaus ‘63, Sterling Professor of Economics who won a Nobel Prize in 2018 for integrating climate change into long-run macroeconomic analysis, died Oct. 30 at age&nbsp;85.&nbsp;",
-            "source": "Yale.edu",
-            "published_at": "2026-10-31T09:00:06Z",
-            "url": "https://news.yale.edu/2026/10/31/william-nordhaus-nobel-laureate-who-integrated-economics-and-climate-change-devoted-yale",
-            "sentiment_score": 0.4393,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "bellwether-mcp 1.3.8",
-            "description": "Crypto discovery/caps (CoinMarketCap), Fed macro series with point-in-time vintages (FRED/ALFRED), and the FOMC decision calendar as an MCP server and scion-sdk source adapters",
-            "source": "Pypi.org",
-            "published_at": "2026-10-31T06:12:17Z",
-            "url": "https://pypi.org/project/bellwether-mcp/1.3.8/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Patrick Honohan: Why are interest rates so high – and how exposed is Ireland?",
-            "description": "The State’s relatively low debt has insulated it so far. But political turmoil abroad and a speculative AI boom could still hit the economy hard",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:01Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/why-are-interest-rates-so-high-and-how-exposed-is-ireland/",
-            "sentiment_score": 0.0786,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "It’s inflation, stupid: Trump faces the wrath of US voters",
-            "description": "Midterm elections next week are a referendum on the unpopular US president. They could herald the end of ‘The Donald’ era",
-            "source": "The Irish Times",
-            "published_at": "2026-10-31T06:00:00Z",
-            "url": "https://www.irishtimes.com/opinion/2026/10/31/its-inflation-stupid-trump-faces-the-wrath-of-us-voters/",
-            "sentiment_score": -0.3687,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Silver hits 11-month low at ₹1.9 lakh per kg in Delhi; crashes to $49/ounce globally",
-            "description": "Silver sinks to 11-month low around ₹1.90 lakh/kg as global prices tumble, gold dips, and sentiment dampens by weaker markets and rate-hike expectations.",
-            "source": "BusinessLine",
-            "published_at": "2026-10-31T05:31:44Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/silver-hits-11-month-low-at-19-lakh-per-kg-in-delhi-crashes-to-49ounce-globally/article71648219.ece",
-            "sentiment_score": -0.375,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Week Ahead: Midterm US elections, earnings, jobs data loom for AI-wary stock market",
-            "description": "As we approach the US midterm elections next week, stock investors are bracing for the impact of significant corporate earnings reports. The market is already under pressure due to unsatisfactory AI earnings from leading firms, sparking worries about regulato…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T03:47:08Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-street-week-ahead-midterm-us-elections-earnings-jobs-data-loom-for-ai-wary-stock-market/articleshow/135386687.cms",
-            "sentiment_score": -0.3066,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democrats Could Take Congress Tuesday. Here’s What It Could Mean for Your Investments",
-            "description": "President Donald Trump could soon face a dramatically different Congress, and investors are already evaluating what that might mean for the stock and bond markets. With Democrats seeking control of the House and Senate in Tuesday’s midterm elections, the poss…",
-            "source": "Freerepublic.com",
-            "published_at": "2026-10-31T03:45:34Z",
-            "url": "https://freerepublic.com/focus/f-chat/4401213/posts",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street abandons ship after gold sinks below $3,900/oz, Main Street maintains bullish majority bias as midterms, payrolls loom",
-            "description": "– Gold prices suffered another sharp weekly decline, as an early recovery gave way to heavy selling after the Federal Reserve maintained its hawkish stance, stronger U.S. economic data reinforced expectations for further tightening, and Friday's technology-le…",
-            "source": "Biztoc.com",
-            "published_at": "2026-10-31T00:59:19Z",
-            "url": "https://biztoc.com/x/a3d1d3f997afcc1b",
-            "sentiment_score": -0.4361,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street drops to its worst day since June after the sell-off for tech stocks deepens",
-            "description": "Wall Street’s tech sell-off deepened on Friday as investors questioned whether massive spending on artificial intelligence will deliver enough returns to justify lofty valuations. The S&P 500 fell 1.8% and the Nasdaq 2.9%, with Intel plunging nearly 29% and N…",
-            "source": "The Times of India",
-            "published_at": "2026-10-31T00:50:12Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/articleshow/135382776.cms",
-            "sentiment_score": -0.3169,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": -0.1475,
+      "net_score": -0.0166,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1981,14 +1541,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 3967.3999,
+      "price_now": 3963.6001,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 60.7,
-      "rsi_signal": "โซนกลาง (RSI=60.7)",
+      "rsi_value": 57.7,
+      "rsi_signal": "โซนกลาง (RSI=57.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 17.77916,
-      "suggested_sl_distance": 26.66874,
+      "atr_value": 15.67416,
+      "suggested_sl_distance": 23.51124,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2002,6 +1562,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-02T18:08:44.808861+00:00"
+    "generated_at": "2026-11-03T01:29:56.606645+00:00"
   }
 ]
