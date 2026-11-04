@@ -6,10 +6,40 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.062,
+        "average_score": -0.0629,
         "label": "ลบเล็กน้อย",
-        "article_count": 20,
+        "article_count": 18,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Could Ireland’s Philip Lane be in the running for top ECB post?",
+            "description": "Christine Lagarde’s decision to step down as bank president opens way for finance-chief hopefuls to step forward",
+            "source": "The Irish Times",
+            "published_at": "2026-11-03T05:05:00Z",
+            "url": "https://www.irishtimes.com/business/2026/11/03/could-irelands-philip-lane-be-in-the-running-for-top-ecb-post/",
+            "sentiment_score": 0.1416,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "AI-related debt binge may pressure European bond markets",
+            "description": "Nov 3 : Europe's bond markets face a fresh headwind as US technology companies increasingly tap European investors to finance AI spending, boosting corporate debt supply and potentially lifting borrowing costs for other firms and governments.While tech-relate…",
+            "source": "CNA",
+            "published_at": "2026-11-03T05:03:07Z",
+            "url": "https://www.channelnewsasia.com/business/ai-related-debt-binge-may-pressure-european-bond-markets-6515556",
+            "sentiment_score": -0.3115,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "EUR",
             "title": "Owner of private Serbian bank detained and accused of siphoning money",
@@ -159,64 +189,64 @@
             "url": "https://www.ibtimes.com.au/asx-200-rba-rate-hike-investors-cautious-1877688",
             "sentiment_score": 0.0459,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Gold price prediction: Gold rate continues to fall or will bear movement end after US midterm elections results? Experts make forecast",
-            "description": "Gold rate forecast: US midterm elections 2026 and any escalation involving the US, Israel and Iran could play pivotal role in dictating the Gold price movement this year.",
-            "source": "The Times of India",
-            "published_at": "2026-11-01T22:39:57Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-gold-rate-continues-to-fall-or-will-bear-movement-end-after-us-midterm-elections-results-experts-make-forecast/articleshow/135440148.cms",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Germany protests: Shops looted in Frankfurt as Gen Z rallies turn violent",
-            "description": "Thousands demonstrated across Germany against rising living costs, cuts to public services and military service, before violence erupted in Frankfurt, Berlin, Cologne and Hamburg",
-            "source": "Business Standard",
-            "published_at": "2026-11-01T08:12:40Z",
-            "url": "https://www.business-standard.com/world-news/germany-gen-z-protests-frankfurt-shops-looted-berlin-hamburg-cost-of-living-violence-126110100315_1.html",
-            "sentiment_score": -0.7131,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "A review of the inequality research of Emmanuel Saez and Gabriel Zucman",
-            "description": "",
-            "source": "Vercel.app",
-            "published_at": "2026-11-01T05:47:01Z",
-            "url": "https://saez-zucman-audit-replication.vercel.app/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
-            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
-            "source": "Business Standard",
-            "published_at": "2026-11-01T03:15:23Z",
-            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Unrest in Germany due to GenZ protests",
-            "description": "Stating that their future is becoming bleak in the face of rising cost of living, housing crisis, and education cuts, young people in Germany staged massive protests in over thirty cities across the country on October 31, Halloween. This action was led by a n…",
-            "source": "Gossiplankanews.com",
-            "published_at": "2026-11-01T02:30:18Z",
-            "url": "https://english.gossiplankanews.com/2026/11/unrest-in-germany-due-to-genz-protests.html",
-            "sentiment_score": -0.399,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.06,
+        "average_score": 0.0759,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linger. What should you do?",
+            "description": "Gold and silver prices declined on MCX as rising oil prices and renewed inflation concerns weighed on bullion sentiment. Investors tracked US midterm elections and Fed rate expectations, while experts flagged key trading levels amid continued volatility in pr…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T05:47:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-fall-rs-1400/10-gram-silver-tanks-rs-4300/kg-ahead-of-diwali-while-rate-hike-bets-linger-what-should-you-do/articleshow/135484139.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver crashes below $60 from $122 and enters oversold zone. What should you do?",
+            "description": "Silver’s sharp rally has reversed amid expectations of higher US interest rates, rising bond yields and a stronger dollar. HSBC expects limited upside as weaker demand, increasing supply and a narrowing market deficit reduce the chances of the metal returning…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T03:53:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-crashes-below-60-from-122-and-enters-oversold-zone-what-should-you-do/articleshow/135481085.cms",
+            "sentiment_score": -0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold extend gains on Tuesday? Check outlook for November 3",
+            "description": "Investors are now looking to the US midterm elections for indications of the country's fiscal policy direction and their potential impact on broader market sentiment.",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:27:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-extend-gains-on-tuesday-check-outlook-for-november-3/articleshow/135479165.cms",
+            "sentiment_score": 0.3337,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why RH Stock Jumped 20% in October",
+            "description": "Shares of RH (NYSE:RH), the high-end home-furnishing company formerly known as Restoration Hardware, were moving higher last month on a broad upswing in housing stocks.\nInterest rates started to edge lower. The Federal Reserve declined to raise the benchmark …",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-03T01:31:28Z",
+            "url": "https://biztoc.com/x/4f4ce5ae121b215a",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
@@ -466,50 +496,10 @@
             "url": "https://en.protothema.gr/2026/11/02/us-midterms-loom-tsipras-abandons-tea-and-sympathy-anti-establishment-politics-sells-and-the-suitors-for-eydap/",
             "sentiment_score": -0.4939,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-            "description": "Bitcoin price action held its 100-day moving average into the monthly close as crypto markets braced for US midterm election and tech earnings volatility.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-02T09:41:36Z",
-            "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Economic frustration set to boil over in midterm elections",
-            "description": "The U.S. economy is booming. But American consumers have never been more pessimistic. Economists blame tariffs and the war with Iran.",
-            "source": "CBC News",
-            "published_at": "2026-11-02T09:00:00Z",
-            "url": "https://www.cbc.ca/news/business/midterm-trump-tariffs-9.7403268",
-            "sentiment_score": -0.5682,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs expects Bank of England to raise rates again in February",
-            "description": "Goldman Sachs has revised its outlook on the Bank of England's interest rates, now predicting a possible quarter-point rise in November's monetary policy meeting. This would be the first increase since 2023, influenced by climbing energy costs and robust econ…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T08:38:00Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-expects-bank-of-england-to-raise-rates-again-in-february/articleshow/135451968.cms",
-            "sentiment_score": 0.2495,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rises on softer oil; markets parse Fed signals",
-            "description": "Spot gold rose 0.9% to $3,907.94 per ounce ‌by 0633 GMT, after hitting a one-year low in the previous session",
-            "source": "BusinessLine",
-            "published_at": "2026-11-02T07:34:54Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.122,
+      "net_score": -0.1388,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -519,28 +509,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.11919,
-      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
-      "ma_crossed_this_bar": true,
-      "rsi_value": 47.9,
-      "rsi_signal": "โซนกลาง (RSI=47.9)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00093,
-      "suggested_sl_distance": 0.00139,
+      "price_now": 1.1241,
+      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "ma_crossed_this_bar": false,
+      "rsi_value": 66.0,
+      "rsi_signal": "โซนกลาง (RSI=66.0)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00158,
+      "suggested_sl_distance": 0.00237,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=47.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=66.0) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-03T23:10:01.806600+00:00"
+    "generated_at": "2026-11-04T05:56:41.480928+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -549,10 +539,50 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.047,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 15,
+        "average_score": -0.0655,
+        "label": "ลบเล็กน้อย",
+        "article_count": 16,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Global markets were already fragile. Big AI bets could break them",
+            "description": "Investors flocked to bonds. Yields, which move inversely to price, fell from multidecade highs, with the benchmark 10-year Treasury, which guides borrowing costs globally, falling almost 20 basis points on October 22, its biggest daily fall since early 2023.",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T05:26:28Z",
+            "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/global-markets-were-already-fragile-big-ai-bets-could-break-them/articleshow/135483686.cms",
+            "sentiment_score": 0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+            "description": "The dollar experienced fluctuations as oil prices dropped amid potential US-Iran diplomatic developments. Meanwhile, the Reserve Bank of Australia is expected to announce an interest rate hike this week. Central banks in Britain, Norway, and Sweden are also s…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:12:44Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited/articleshow/135478890.cms",
+            "sentiment_score": -0.0851,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+            "description": "HONG KONG, Nov 3 : The dollar wavered alongside oil prices on Tuesday on hopes for a diplomatic breakthrough between the US and Iran, while the Aussie was steady ahead of the Reserve Bank of Australia's rate decision. Brent crude futures plunged more than 7 p…",
+            "source": "CNA",
+            "published_at": "2026-11-03T01:11:05Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-under-pressure-oil-prices-slump-australia-rate-decision-awaited-6514856",
+            "sentiment_score": -0.2906,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "Gold Rebounds Nearly 2% Toward $3,960 After Brutal Friday Slide to One-Year Low as Fed Rate-Hike Fears Linger",
@@ -672,44 +702,64 @@
             "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
             "sentiment_score": -0.4951,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Incredible Real-Life Tales: Stories That Leave You Fascinated (43 PICS)",
-            "description": "Incredible Real-Life Tales: Stories That Leave You Fascinated  (43 PICS)",
-            "source": "Izismile.com",
-            "published_at": "2026-11-01T23:00:16Z",
-            "url": "https://izismile.com/2026/11/02/incredible_reallife_tales_stories_that_leave_you_fascinated_43_pics.html",
-            "sentiment_score": 0.4404,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Chancellor is STILL floundering on when Labour will cut benefits spending - as Burnham's ex-adviser warns Budget did nothing to reassure markets that books will be balanced",
-            "description": "John Healey failed to give any timetable for bringing down benefits spending as he had yet another go at clarifying his intentions.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-01T13:19:27Z",
-            "url": "https://www.dailymail.com/news/article-16256577/Chancellor-Labour-cut-benefits-spending-Burnham-Budget.html",
-            "sentiment_score": -0.2178,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
-            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
-            "source": "Business Standard",
-            "published_at": "2026-11-01T03:15:23Z",
-            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.06,
+        "average_score": 0.0759,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linger. What should you do?",
+            "description": "Gold and silver prices declined on MCX as rising oil prices and renewed inflation concerns weighed on bullion sentiment. Investors tracked US midterm elections and Fed rate expectations, while experts flagged key trading levels amid continued volatility in pr…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T05:47:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-fall-rs-1400/10-gram-silver-tanks-rs-4300/kg-ahead-of-diwali-while-rate-hike-bets-linger-what-should-you-do/articleshow/135484139.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver crashes below $60 from $122 and enters oversold zone. What should you do?",
+            "description": "Silver’s sharp rally has reversed amid expectations of higher US interest rates, rising bond yields and a stronger dollar. HSBC expects limited upside as weaker demand, increasing supply and a narrowing market deficit reduce the chances of the metal returning…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T03:53:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-crashes-below-60-from-122-and-enters-oversold-zone-what-should-you-do/articleshow/135481085.cms",
+            "sentiment_score": -0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold extend gains on Tuesday? Check outlook for November 3",
+            "description": "Investors are now looking to the US midterm elections for indications of the country's fiscal policy direction and their potential impact on broader market sentiment.",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:27:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-extend-gains-on-tuesday-check-outlook-for-november-3/articleshow/135479165.cms",
+            "sentiment_score": 0.3337,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why RH Stock Jumped 20% in October",
+            "description": "Shares of RH (NYSE:RH), the high-end home-furnishing company formerly known as Restoration Hardware, were moving higher last month on a broad upswing in housing stocks.\nInterest rates started to edge lower. The Federal Reserve declined to raise the benchmark …",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-03T01:31:28Z",
+            "url": "https://biztoc.com/x/4f4ce5ae121b215a",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
@@ -959,50 +1009,10 @@
             "url": "https://en.protothema.gr/2026/11/02/us-midterms-loom-tsipras-abandons-tea-and-sympathy-anti-establishment-politics-sells-and-the-suitors-for-eydap/",
             "sentiment_score": -0.4939,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-            "description": "Bitcoin price action held its 100-day moving average into the monthly close as crypto markets braced for US midterm election and tech earnings volatility.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-02T09:41:36Z",
-            "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Economic frustration set to boil over in midterm elections",
-            "description": "The U.S. economy is booming. But American consumers have never been more pessimistic. Economists blame tariffs and the war with Iran.",
-            "source": "CBC News",
-            "published_at": "2026-11-02T09:00:00Z",
-            "url": "https://www.cbc.ca/news/business/midterm-trump-tariffs-9.7403268",
-            "sentiment_score": -0.5682,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs expects Bank of England to raise rates again in February",
-            "description": "Goldman Sachs has revised its outlook on the Bank of England's interest rates, now predicting a possible quarter-point rise in November's monetary policy meeting. This would be the first increase since 2023, influenced by climbing energy costs and robust econ…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T08:38:00Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-expects-bank-of-england-to-raise-rates-again-in-february/articleshow/135451968.cms",
-            "sentiment_score": 0.2495,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rises on softer oil; markets parse Fed signals",
-            "description": "Spot gold rose 0.9% to $3,907.94 per ounce ‌by 0633 GMT, after hitting a one-year low in the previous session",
-            "source": "BusinessLine",
-            "published_at": "2026-11-02T07:34:54Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.107,
+      "net_score": -0.1414,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1012,28 +1022,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.34106,
+      "price_now": 1.34631,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 47.1,
-      "rsi_signal": "โซนกลาง (RSI=47.1)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00106,
-      "suggested_sl_distance": 0.00159,
+      "rsi_value": 68.7,
+      "rsi_signal": "โซนกลาง (RSI=68.7)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00151,
+      "suggested_sl_distance": 0.00226,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=68.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-03T23:10:01.806600+00:00"
+    "generated_at": "2026-11-04T05:56:41.480928+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1042,10 +1052,60 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.06,
+        "average_score": 0.0759,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linger. What should you do?",
+            "description": "Gold and silver prices declined on MCX as rising oil prices and renewed inflation concerns weighed on bullion sentiment. Investors tracked US midterm elections and Fed rate expectations, while experts flagged key trading levels amid continued volatility in pr…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T05:47:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-fall-rs-1400/10-gram-silver-tanks-rs-4300/kg-ahead-of-diwali-while-rate-hike-bets-linger-what-should-you-do/articleshow/135484139.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver crashes below $60 from $122 and enters oversold zone. What should you do?",
+            "description": "Silver’s sharp rally has reversed amid expectations of higher US interest rates, rising bond yields and a stronger dollar. HSBC expects limited upside as weaker demand, increasing supply and a narrowing market deficit reduce the chances of the metal returning…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T03:53:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-crashes-below-60-from-122-and-enters-oversold-zone-what-should-you-do/articleshow/135481085.cms",
+            "sentiment_score": -0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold extend gains on Tuesday? Check outlook for November 3",
+            "description": "Investors are now looking to the US midterm elections for indications of the country's fiscal policy direction and their potential impact on broader market sentiment.",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:27:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-extend-gains-on-tuesday-check-outlook-for-november-3/articleshow/135479165.cms",
+            "sentiment_score": 0.3337,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why RH Stock Jumped 20% in October",
+            "description": "Shares of RH (NYSE:RH), the high-end home-furnishing company formerly known as Restoration Hardware, were moving higher last month on a broad upswing in housing stocks.\nInterest rates started to edge lower. The Federal Reserve declined to raise the benchmark …",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-03T01:31:28Z",
+            "url": "https://biztoc.com/x/4f4ce5ae121b215a",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
@@ -1295,54 +1355,24 @@
             "url": "https://en.protothema.gr/2026/11/02/us-midterms-loom-tsipras-abandons-tea-and-sympathy-anti-establishment-politics-sells-and-the-suitors-for-eydap/",
             "sentiment_score": -0.4939,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-            "description": "Bitcoin price action held its 100-day moving average into the monthly close as crypto markets braced for US midterm election and tech earnings volatility.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-02T09:41:36Z",
-            "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Economic frustration set to boil over in midterm elections",
-            "description": "The U.S. economy is booming. But American consumers have never been more pessimistic. Economists blame tariffs and the war with Iran.",
-            "source": "CBC News",
-            "published_at": "2026-11-02T09:00:00Z",
-            "url": "https://www.cbc.ca/news/business/midterm-trump-tariffs-9.7403268",
-            "sentiment_score": -0.5682,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs expects Bank of England to raise rates again in February",
-            "description": "Goldman Sachs has revised its outlook on the Bank of England's interest rates, now predicting a possible quarter-point rise in November's monetary policy meeting. This would be the first increase since 2023, influenced by climbing energy costs and robust econ…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T08:38:00Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-expects-bank-of-england-to-raise-rates-again-in-february/articleshow/135451968.cms",
-            "sentiment_score": 0.2495,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rises on softer oil; markets parse Fed signals",
-            "description": "Spot gold rose 0.9% to $3,907.94 per ounce ‌by 0633 GMT, after hitting a one-year low in the previous session",
-            "source": "BusinessLine",
-            "published_at": "2026-11-02T07:34:54Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1281,
+        "average_score": 0.1043,
         "label": "บวกเล็กน้อย",
-        "article_count": 9,
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "Japan Hits 2% Inflation Goal As Prices Keep Rising",
@@ -1402,40 +1432,10 @@
             "url": "https://www.ibtimes.com.au/asx-200-rba-rate-hike-investors-cautious-1877688",
             "sentiment_score": 0.0459,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan Stocks Face Volatile Start to November",
-            "description": "Japan's benchmark Nikkei 225 index enters trading on November 2 after closing at 63,290.11 on October 30, down 1,369.36 points, or 2.12%, in its final session of October, as selling in artificial intelligence and semiconductor-related stocks raised concerns a…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-11-01T22:40:02Z",
-            "url": "https://newsonjapan.com/article/151211.php",
-            "sentiment_score": 0.143,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s central bank will sell ETFs 2.6 times faster and could still take 43 years to exit",
-            "description": "Japan's central bank has decided to sell its stock funds about 2.6 times faster than usual, reducing the estimated time needed to dispose of them from 112 years to 43. If you're wondering why such a supercharged exit still stretches across more than four deca…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-01T15:30:12Z",
-            "url": "https://cryptoslate.com/japans-central-bank-will-sell-etfs-2-6-times-faster-and-could-still-take-43-years-to-exit/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
-            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
-            "source": "Business Standard",
-            "published_at": "2026-11-01T03:15:23Z",
-            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0681,
+      "net_score": -0.0284,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1445,28 +1445,28 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.67,
+      "price_now": 158.00999,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 71.9,
-      "rsi_signal": "ซื้อมากเกิน (RSI=71.9) ระวังราคาย่อ",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.13868,
-      "suggested_sl_distance": 0.20802,
+      "rsi_value": 46.2,
+      "rsi_signal": "โซนกลาง (RSI=46.2)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.24569,
+      "suggested_sl_distance": 0.36853,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 1,
+      "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=71.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-03T23:10:01.806600+00:00"
+    "generated_at": "2026-11-04T05:56:41.480928+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1475,10 +1475,100 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.094,
+        "average_score": 0.0605,
         "label": "บวกเล็กน้อย",
-        "article_count": 22,
+        "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "Aussie share market ends higher after RBA rate hike",
+            "description": "The Australian share market has ended stronger, but little changed from earlier in the day, after the central bank raised interest rates again as expected.",
+            "source": "PerthNow",
+            "published_at": "2026-11-03T05:32:34Z",
+            "url": "https://www.perthnow.com.au/news/business/aussie-share-market-ends-higher-after-rba-rate-hike-c-23109796",
+            "sentiment_score": 0.4324,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "RBA hikes interest rates to an 18-year high, warning inflation will hurt for another year",
+            "description": "The RBA governor said the bank was trying to balance curbing inflation with not tipping the country into a recession – “if we can avoid it”.",
+            "source": "The Conversation Africa",
+            "published_at": "2026-11-03T05:27:48Z",
+            "url": "https://theconversation.com/rba-hikes-interest-rates-to-an-18-year-high-warning-inflation-will-hurt-for-another-year-294682",
+            "sentiment_score": -0.4788,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Asia trades mixed ahead of US midterms, RBA rate call",
+            "description": "Major stock markets in the Asia-Pacific region traded mixed as investors assessed losses in US technology shares and awaited the outcome of the United States midterm elections. Market participants als...",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-03T05:20:41Z",
+            "url": "https://biztoc.com/x/f857fbe28e77dc6c",
+            "sentiment_score": 0.0888,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Reserve Bank of Australia raises cash rate to 4.85% as inflation stays high",
+            "description": "AI-related investment is driving rapid growth in technology goods prices.",
+            "source": "New Zealand Herald",
+            "published_at": "2026-11-03T04:16:59Z",
+            "url": "https://www.nzherald.co.nz/business/markets/reserve-bank-of-australia-raises-cash-rate-to-485-as-inflation-stays-high/F32BWGZNHBCYJKH5XP2V6AQBRE/",
+            "sentiment_score": 0.1145,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation",
+            "description": "The Reserve Bank of Australia raised its benchmark rate to 4.85% on rising technology costs from AI investment and higher energy prices.",
+            "source": "Cointelegraph",
+            "published_at": "2026-11-03T04:14:32Z",
+            "url": "https://cointelegraph.com/markets/australia-lifts-rates-as-ai-boom-energy-costs-fuel-inflation",
+            "sentiment_score": 0.2732,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "AUD",
+            "title": "How today's RBA rate hike affects your hip pocket",
+            "description": "Mortgage borrowers are likely to feel the sting of the RBA's latest cash rate rise, but savers and overseas travellers will also see the effects.",
+            "source": "ABC News (AU)",
+            "published_at": "2026-11-03T03:52:26Z",
+            "url": "https://www.abc.net.au/news/2026-11-03/what-november-cash-rate-hike-means-for-australians-money/107324538",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "AUD",
+            "title": "Australia's central bank hikes key rate by 25 bps to 4.85%",
+            "description": "Australia's central bank, the Reserve Bank of Australia (RBA), announced that it raised its benchmark interest rate by 25 basis points to 4.85%, up from 4.60%, marking its fifth rate hike this year.Th...",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-03T03:48:34Z",
+            "url": "https://biztoc.com/x/6d453cee51f36754",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+            "description": "The dollar experienced fluctuations as oil prices dropped amid potential US-Iran diplomatic developments. Meanwhile, the Reserve Bank of Australia is expected to announce an interest rate hike this week. Central banks in Britain, Norway, and Sweden are also s…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:12:44Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-under-pressure-as-oil-prices-slump-australia-rate-decision-awaited/articleshow/135478890.cms",
+            "sentiment_score": -0.0851,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Dollar under pressure as oil prices slump, Australia rate decision awaited",
+            "description": "HONG KONG, Nov 3 : The dollar wavered alongside oil prices on Tuesday on hopes for a diplomatic breakthrough between the US and Iran, while the Aussie was steady ahead of the Reserve Bank of Australia's rate decision. Brent crude futures plunged more than 7 p…",
+            "source": "CNA",
+            "published_at": "2026-11-03T01:11:05Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-under-pressure-oil-prices-slump-australia-rate-decision-awaited-6514856",
+            "sentiment_score": -0.2906,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "AUD",
             "title": "Albanese, as Aussies brace for another rate rise while you're overseas, stop leaving Chalmers to carry the can: PETER VAN ONSELEN",
@@ -1668,44 +1758,64 @@
             "url": "https://www.channelnewsasia.com/business/asia-shares-bend-under-ai-stress-apple-earnings-loom-6511816",
             "sentiment_score": -0.4951,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Australian property prices plunging at fastest rate in 40 years after seven straight months of falls as rate decision looms",
-            "description": "Property prices have plummeted for a seventh straight month, with the decline tracking faster than any previous downturn over the past four decades.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-01T23:43:29Z",
-            "url": "https://www.dailymail.com/news/article-16257109/australian-property-prices-fastest-fall-40-years-seventh-straight-month-decline.html",
-            "sentiment_score": 0.1219,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Australia nears 'largest property downturn in 40 years' as prices plunge",
-            "description": "House prices have fallen for a seventh consecutive month, with the speed of the decline tracking at the fastest pace in 40 years, according to a property research group.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-11-01T13:01:00Z",
-            "url": "https://www.abc.net.au/news/2026-11-02/house-prices-fall-in-october-biggest-downturn-40-years-cotality/107325214",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "US jobs pickup may keep Federal Reserve on track to hike rates again",
-            "description": "Forecasters expect the report to show monthly job growth more than doubled in October, to 65,000, while the unemployment rate remained steady at 4.2%",
-            "source": "Business Standard",
-            "published_at": "2026-11-01T03:15:23Z",
-            "url": "https://www.business-standard.com/world-news/us-jobs-pickup-may-keep-federal-reserve-on-track-to-hike-rates-again-126110100063_1.html",
-            "sentiment_score": -0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.06,
+        "average_score": 0.0759,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linger. What should you do?",
+            "description": "Gold and silver prices declined on MCX as rising oil prices and renewed inflation concerns weighed on bullion sentiment. Investors tracked US midterm elections and Fed rate expectations, while experts flagged key trading levels amid continued volatility in pr…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T05:47:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-fall-rs-1400/10-gram-silver-tanks-rs-4300/kg-ahead-of-diwali-while-rate-hike-bets-linger-what-should-you-do/articleshow/135484139.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver crashes below $60 from $122 and enters oversold zone. What should you do?",
+            "description": "Silver’s sharp rally has reversed amid expectations of higher US interest rates, rising bond yields and a stronger dollar. HSBC expects limited upside as weaker demand, increasing supply and a narrowing market deficit reduce the chances of the metal returning…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T03:53:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-crashes-below-60-from-122-and-enters-oversold-zone-what-should-you-do/articleshow/135481085.cms",
+            "sentiment_score": -0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold extend gains on Tuesday? Check outlook for November 3",
+            "description": "Investors are now looking to the US midterm elections for indications of the country's fiscal policy direction and their potential impact on broader market sentiment.",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:27:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-extend-gains-on-tuesday-check-outlook-for-november-3/articleshow/135479165.cms",
+            "sentiment_score": 0.3337,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why RH Stock Jumped 20% in October",
+            "description": "Shares of RH (NYSE:RH), the high-end home-furnishing company formerly known as Restoration Hardware, were moving higher last month on a broad upswing in housing stocks.\nInterest rates started to edge lower. The Federal Reserve declined to raise the benchmark …",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-03T01:31:28Z",
+            "url": "https://biztoc.com/x/4f4ce5ae121b215a",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
@@ -1955,50 +2065,10 @@
             "url": "https://en.protothema.gr/2026/11/02/us-midterms-loom-tsipras-abandons-tea-and-sympathy-anti-establishment-politics-sells-and-the-suitors-for-eydap/",
             "sentiment_score": -0.4939,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-            "description": "Bitcoin price action held its 100-day moving average into the monthly close as crypto markets braced for US midterm election and tech earnings volatility.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-02T09:41:36Z",
-            "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Economic frustration set to boil over in midterm elections",
-            "description": "The U.S. economy is booming. But American consumers have never been more pessimistic. Economists blame tariffs and the war with Iran.",
-            "source": "CBC News",
-            "published_at": "2026-11-02T09:00:00Z",
-            "url": "https://www.cbc.ca/news/business/midterm-trump-tariffs-9.7403268",
-            "sentiment_score": -0.5682,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs expects Bank of England to raise rates again in February",
-            "description": "Goldman Sachs has revised its outlook on the Bank of England's interest rates, now predicting a possible quarter-point rise in November's monetary policy meeting. This would be the first increase since 2023, influenced by climbing energy costs and robust econ…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T08:38:00Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-expects-bank-of-england-to-raise-rates-again-in-february/articleshow/135451968.cms",
-            "sentiment_score": 0.2495,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rises on softer oil; markets parse Fed signals",
-            "description": "Spot gold rose 0.9% to $3,907.94 per ounce ‌by 0633 GMT, after hitting a one-year low in the previous session",
-            "source": "BusinessLine",
-            "published_at": "2026-11-02T07:34:54Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.034,
+      "net_score": -0.0154,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2008,28 +2078,28 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.69672,
+      "price_now": 0.69857,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 37.4,
-      "rsi_signal": "โซนกลาง (RSI=37.4)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.0008,
-      "suggested_sl_distance": 0.00121,
+      "rsi_value": 53.9,
+      "rsi_signal": "โซนกลาง (RSI=53.9)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.00097,
+      "suggested_sl_distance": 0.00145,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.4) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-03T23:10:01.806600+00:00"
+    "generated_at": "2026-11-04T05:56:41.480928+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2038,10 +2108,80 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0996,
+        "average_score": 0.2006,
         "label": "บวกเล็กน้อย",
-        "article_count": 16,
+        "article_count": 19,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linger. What should you do?",
+            "description": "Gold and silver prices declined on MCX as rising oil prices and renewed inflation concerns weighed on bullion sentiment. Investors tracked US midterm elections and Fed rate expectations, while experts flagged key trading levels amid continued volatility in pr…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T05:47:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-fall-rs-1400/10-gram-silver-tanks-rs-4300/kg-ahead-of-diwali-while-rate-hike-bets-linger-what-should-you-do/articleshow/135484139.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price rises by Rs 700 per tola in domestic market",
+            "description": "KATHMANDU: The price of gold in the local market increased by Rs 700 per tola today, while the price of silver declined by Rs 45 per tola. According to the Federation of Nepal Gold and Silver Dealers’ Association, the price of fine gold has been fixed at Rs 2…",
+            "source": "Khabarhub.com",
+            "published_at": "2026-11-03T05:35:35Z",
+            "url": "https://english.khabarhub.com/2026/03/574232/",
+            "sentiment_score": 0.1321,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction: Will gold extend gains on Tuesday? Check outlook for November 3",
+            "description": "Investors are now looking to the US midterm elections for indications of the country's fiscal policy direction and their potential impact on broader market sentiment.",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:27:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-extend-gains-on-tuesday-check-outlook-for-november-3/articleshow/135479165.cms",
+            "sentiment_score": 0.3337,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. The reports present a mixed picture of Nepal’s economic and development landscape, highlighting contras…",
+            "source": "Khabarhub.com",
+            "published_at": "2026-11-03T02:15:38Z",
+            "url": "https://english.khabarhub.com/2026/03/574133/",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Dip in gold price puts the sparkle back into festive and wedding buying, jewellers see 10-12% rise in Dhanteras sales",
+            "description": "Gold prices have dropped significantly, encouraging consumers to return to jewellery stores for upcoming purchases. The correction in gold prices has led to increased footfalls and advance bookings for weddings. Jewellers expect a rise in sales volume on Dhan…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T00:00:00Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/dip-in-gold-price-puts-the-sparkle-back-into-festive-and-wedding-buying-jewellers-see-10-12-rise-in-dhanteras-sales/articleshow/135472556.cms",
+            "sentiment_score": 0.6914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Dip in gold price puts the sparkle back into festive and wedding buying, jewellers see 10-12% rise in Dhanteras sales",
+            "description": "Gold prices have dropped significantly, encouraging consumers to return to jewellery stores for upcoming purchases. The correction in gold prices has led to increased footfalls and advance bookings for weddings. Jewellers expect a rise in sales volume on Dhan…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T00:00:00Z",
+            "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/dip-in-gold-price-puts-the-sparkle-back-into-festive-and-wedding-buying-jewellers-see-10-12-rise-in-dhanteras-sales/articleshow/135478606.cms",
+            "sentiment_score": 0.6914,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold rate prediction: Will gold price jump after US Midterm elections results? Check critical factors",
+            "description": "Gold price saw an uptick ahead of US midterm election day on November 3. Bullion investors are tracking several factors which may drive the gold rate.",
+            "source": "The Times of India",
+            "published_at": "2026-11-02T23:17:18Z",
+            "url": "https://economictimes.indiatimes.com/news/international/us/gold-rate-prediction-will-gold-price-jump-after-us-midterm-elections-results-check-critical-factors/articleshow/135477166.cms",
+            "sentiment_score": -0.2227,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "Today’s News in a Nutshell",
@@ -2161,54 +2301,64 @@
             "url": "https://economictimes.indiatimes.com/wealth/invest/should-you-buy-gold-now-experts-see-prices-rising-but-watch-these-risks/articleshow/135384283.cms",
             "sentiment_score": -0.0321,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction: Gold rate continues to fall or will bear movement end after US midterm elections results? Experts make forecast",
-            "description": "Gold rate forecast: US midterm elections 2026 and any escalation involving the US, Israel and Iran could play pivotal role in dictating the Gold price movement this year.",
-            "source": "The Times of India",
-            "published_at": "2026-11-01T22:39:57Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-gold-rate-continues-to-fall-or-will-bear-movement-end-after-us-midterm-elections-results-experts-make-forecast/articleshow/135440148.cms",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "BRICS Nations Hold 17.4% of Global Gold Reserves as UBS Targets $5,200",
-            "description": "BRICS gold reserves have gone up to more than 6,000 tonnes right now, which comes out to about 17.4% of total global gold reserves held by central banks, up from 11.2% back in 2019, according to EBC Financial Group BRICS gold reserves have gone up to more tha…",
-            "source": "Activistpost.com",
-            "published_at": "2026-11-01T20:06:00Z",
-            "url": "https://activistpost.com/brics-nations-hold-17-4-of-global-gold-reserves-as-ubs-targets-5200/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver lose sheen",
-            "description": "Gold and silver have clocked negative returns. Even the outlook for both gold and silver have turned negative. Precious metal prices are likely to drift lower until resistance level is breached.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-01T05:18:38Z",
-            "url": "https://www.thehindubusinessline.com/portfolio/personal-finance/gold-silver-lose-sheen/article71652176.ece",
-            "sentiment_score": -0.4942,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver prices today, 1 November: Check retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Kolkata, Chennai",
-            "description": "Gold, silver prices today, 1 November: Check retail price of 18K, 22K and 24K gold and 999 Fine silver on Sunday in your cities — Delhi, Ahmedabad, Bengaluru, Chennai, Hyderabad, Kolkata, and Mumbai.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-11-01T03:06:47Z",
-            "url": "https://www.livemint.com/money/gold-24k-22k-18k-silver-999-prices-today-1-november-retail-rates-bangalore-hyderabad-delhi-mumbai-kolkata-chennai-cities-11793469769074.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.06,
+        "average_score": 0.0759,
         "label": "บวกเล็กน้อย",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "MCX gold prices fall Rs 1,400/10 gram, silver tanks Rs 4,300/kg ahead of Diwali while rate hike bets linger. What should you do?",
+            "description": "Gold and silver prices declined on MCX as rising oil prices and renewed inflation concerns weighed on bullion sentiment. Investors tracked US midterm elections and Fed rate expectations, while experts flagged key trading levels amid continued volatility in pr…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T05:47:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-fall-rs-1400/10-gram-silver-tanks-rs-4300/kg-ahead-of-diwali-while-rate-hike-bets-linger-what-should-you-do/articleshow/135484139.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Silver crashes below $60 from $122 and enters oversold zone. What should you do?",
+            "description": "Silver’s sharp rally has reversed amid expectations of higher US interest rates, rising bond yields and a stronger dollar. HSBC expects limited upside as weaker demand, increasing supply and a narrowing market deficit reduce the chances of the metal returning…",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T03:53:07Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/silver-crashes-below-60-from-122-and-enters-oversold-zone-what-should-you-do/articleshow/135481085.cms",
+            "sentiment_score": -0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold extend gains on Tuesday? Check outlook for November 3",
+            "description": "Investors are now looking to the US midterm elections for indications of the country's fiscal policy direction and their potential impact on broader market sentiment.",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:27:39Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-extend-gains-on-tuesday-check-outlook-for-november-3/articleshow/135479165.cms",
+            "sentiment_score": 0.3337,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold edges higher on softer oil; US midterm elections in focus",
+            "description": "Following a previous surge, gold prices experienced a minor uptick, influenced by declining oil rates and ongoing inflation concerns. Investors are honing in on the forthcoming US midterm elections for cues on economic direction. Financial analysts speculate …",
+            "source": "The Times of India",
+            "published_at": "2026-11-03T02:11:14Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-higher-on-softer-oil-us-midterm-elections-in-focus/articleshow/135478813.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why RH Stock Jumped 20% in October",
+            "description": "Shares of RH (NYSE:RH), the high-end home-furnishing company formerly known as Restoration Hardware, were moving higher last month on a broad upswing in housing stocks.\nInterest rates started to edge lower. The Federal Reserve declined to raise the benchmark …",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-03T01:31:28Z",
+            "url": "https://biztoc.com/x/4f4ce5ae121b215a",
+            "sentiment_score": 0.1376,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Sec. Scott Bessent On Iran: “We’ve Started The Greatest Economic Isolation Of Any Nation In History.”",
@@ -2458,50 +2608,10 @@
             "url": "https://en.protothema.gr/2026/11/02/us-midterms-loom-tsipras-abandons-tea-and-sympathy-anti-establishment-politics-sells-and-the-suitors-for-eydap/",
             "sentiment_score": -0.4939,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "BTC heads into US midterm showdown: Three things to know in Bitcoin this week",
-            "description": "Bitcoin price action held its 100-day moving average into the monthly close as crypto markets braced for US midterm election and tech earnings volatility.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-02T09:41:36Z",
-            "url": "https://cointelegraph.com/markets/btc-price-script-midterms-three-things-bitcoin-week",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Economic frustration set to boil over in midterm elections",
-            "description": "The U.S. economy is booming. But American consumers have never been more pessimistic. Economists blame tariffs and the war with Iran.",
-            "source": "CBC News",
-            "published_at": "2026-11-02T09:00:00Z",
-            "url": "https://www.cbc.ca/news/business/midterm-trump-tariffs-9.7403268",
-            "sentiment_score": -0.5682,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs expects Bank of England to raise rates again in February",
-            "description": "Goldman Sachs has revised its outlook on the Bank of England's interest rates, now predicting a possible quarter-point rise in November's monetary policy meeting. This would be the first increase since 2023, influenced by climbing energy costs and robust econ…",
-            "source": "The Times of India",
-            "published_at": "2026-11-02T08:38:00Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/goldman-sachs-expects-bank-of-england-to-raise-rates-again-in-february/articleshow/135451968.cms",
-            "sentiment_score": 0.2495,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold rises on softer oil; markets parse Fed signals",
-            "description": "Spot gold rose 0.9% to $3,907.94 per ounce ‌by 0633 GMT, after hitting a one-year low in the previous session",
-            "source": "BusinessLine",
-            "published_at": "2026-11-02T07:34:54Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-on-softer-oil-markets-parse-fed-signals/article71655715.ece",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0396,
+      "net_score": 0.1247,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2511,17 +2621,17 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 3940.19995,
+      "price_now": 3999.0,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 50.7,
-      "rsi_signal": "โซนกลาง (RSI=50.7)",
+      "rsi_value": 67.9,
+      "rsi_signal": "โซนกลาง (RSI=67.9)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 14.87854,
-      "suggested_sl_distance": 22.31781,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "atr_value": 19.48574,
+      "suggested_sl_distance": 29.22861,
+      "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
+      "technical_vote": 1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "up",
       "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -2530,8 +2640,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=50.7) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=67.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-03T23:10:01.806600+00:00"
+    "generated_at": "2026-11-04T05:56:41.480928+00:00"
   }
 ]
