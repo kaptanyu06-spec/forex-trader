@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0649,
+        "average_score": -0.0971,
         "label": "ลบเล็กน้อย",
-        "article_count": 27,
+        "article_count": 18,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "France's Debt Crisis Could Trigger a Much Bigger European Meltdown",
@@ -179,114 +189,104 @@
             "url": "https://biztoc.com/x/15e348ecc0a5f813",
             "sentiment_score": 0.6812,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Stocks surge after Trump’s election rout",
-            "description": "Democrats won control of both houses, gaining power to block legislation.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-11-04T17:15:13Z",
-            "url": "https://www.nzherald.co.nz/world/stocks-surge-after-trumps-election-rout/XR3F27OXO5C73BIFWVFNZSXPFU/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Stocks surge after Trump's election rout",
-            "description": "LONDON: Share prices surged on Wednesday (Nov 4) as traders digested US President Donald Trump's heavy defeat in US midterm elections, which saw his Republican party lose control of Congress.",
-            "source": "CNA",
-            "published_at": "2026-11-04T16:22:12Z",
-            "url": "https://www.channelnewsasia.com/world/stocks-surge-after-trumps-election-rout-6524931",
-            "sentiment_score": -0.0607,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Stock markets roar and Dow rallies staggering 1,100 points after resounding Democratic midterms win",
-            "description": "Democrats seized control of both houses in a victory that gives them the power to block legislation, open investigations into Trump's administration and thwart his judicial and senior government appointments.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-04T15:45:43Z",
-            "url": "https://www.dailymail.com/yourmoney/article-16265475/Stock-markets-roar-dow-Democratic-midterms-win.html",
-            "sentiment_score": 0.278,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB’s Lagarde Urges Europe to Boost Climate-Related Insurance, Resilience",
-            "description": "European Central Bank President Christine Lagarde urged Europe on Wednesday to boost climate-related insurance, invest more in power infrastructure and help companies generate their own electricity, saying last summer’s extreme heat should serve as a warning.…",
-            "source": "Insurance Journal",
-            "published_at": "2026-11-04T14:10:43Z",
-            "url": "https://www.insurancejournal.com/news/international/2026/11/04/891452.htm",
-            "sentiment_score": 0.4792,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "The ECB Must Bail Out France",
-            "description": "If France is to avoid default, the European Central Bank will need to buy large amounts of its government’s bonds through the Transmission Protection Instrument. But meeting this need—and preventing a potentially disastrous eurozone sovereign-debt-crisis—will…",
-            "source": "Project Syndicate",
-            "published_at": "2026-11-04T13:02:36Z",
-            "url": "https://www.project-syndicate.org/commentary/ecb-should-waive-its-rules-to-bail-france-out-and-protect-the-euro-by-desmond-lachman-2026-11",
-            "sentiment_score": -0.2389,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Democratic sweep adds new twist to markets' Iran, AI, and debt worries",
-            "description": "Investors are watching the implications of the recent Democratic win in the US midterm elections. Geopolitical tensions, particularly the Iran war, continue to elevate oil prices and market risks. Regulatory scrutiny on the rapidly growing AI sector is expect…",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T12:29:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/democratic-sweep-adds-new-twist-to-markets-iran-ai-and-debt-worries/articleshow/135539439.cms",
-            "sentiment_score": -0.615,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Eurozone inflation hits three-year high at 4 pct in October",
-            "description": "Eurozone inflation climbed to a three-year high of 4.0 percent in October as the Middle East war fuelled a surge in energy costs, official data showed on Nov.4.",
-            "source": "Hurriyet Daily News",
-            "published_at": "2026-11-04T12:02:12Z",
-            "url": "https://www.hurriyetdailynews.com/eurozone-inflation-hits-three-year-high-at-4-pct-in-october-229020",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Netherlands nominates Knot for ECB presidency job",
-            "description": "The Dutch ⁠government said today it had put forward former central bank chief Klaas Knot ‌as ⁠a candidate to succeed Christine Lagrade as president of the European Central Bank.",
-            "source": "RTE",
-            "published_at": "2026-11-04T11:29:39Z",
-            "url": "https://www.rte.ie/news/business/2026/1104/1597949-knot-nominated-for-ecb-presidency-job/",
-            "sentiment_score": 0.1482,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Stock markets celebrate a ‘stunning rebuke’: Trump says he will accept midterm losses—but don’t expect defeat to change him",
-            "description": "Everything you need to know before you reach the office this morning.",
-            "source": "Fortune",
-            "published_at": "2026-11-04T11:09:47Z",
-            "url": "https://fortune.com/2026/11/04/midterms-elections-stock-markets-stunning-rebuke-trump-accept-loss-vote/",
-            "sentiment_score": 0.3652,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Markets brace for aggressive Sweden rate hikes as Riksbank plays catch-up",
-            "description": "The financial markets are banking on the Riksbank raising Sweden's key interest rate at least four times – possibly even five – within the space of a single year.",
-            "source": "The Local Sweden",
-            "published_at": "2026-11-04T10:49:56Z",
-            "url": "https://www.thelocal.se/20261104/markets-brace-for-aggressive-sweden-rate-hikes-as-riksbank-plays-catch-up",
-            "sentiment_score": 0.2095,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0452,
+        "average_score": 0.0443,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
+            "description": "Bitcoin slipped under $80,000 toward the mid-$76,000s after jobless claims hit a 57-year low and spot ETFs flipped +$74.6M. We frame it as a reset inside a bitcoin recovery.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-06T00:30:39Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-recovery-after-80k-slip-is-buying-reset/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
+            "description": "Tech stocks plummeted amid fears inbound Democrats will end Donald Trump's era of laissez-faire regulation and backdoor deals.",
+            "source": "Gizmodo.com",
+            "published_at": "2026-11-05T23:44:09Z",
+            "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury bought back $6B in bonds, but dealers say bigger isn’t enough",
+            "description": "The US Treasury bought back $6 billion of older government bonds on Nov. 4, hitting the full limit of its latest operation. On paper, that looks like a success for a program designed to make the Treasury market easier to trade. But there's a catch. One bond a…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-05T23:20:13Z",
+            "url": "https://cryptoslate.com/treasury-bought-back-6b-in-bonds-but-dealers-say-bigger-isnt-enough/",
+            "sentiment_score": 0.282,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI on FIRE",
+            "description": "If robots are coming for your job then should you get out before the shooting starts?\nThe post AI on FIRE appeared first on Monevator.",
+            "source": "Monevator.com",
+            "published_at": "2026-11-05T23:14:16Z",
+            "url": "https://monevator.com/ai-on-fire/",
+            "sentiment_score": -0.4824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The key to understanding the post-election market gyrations is White Castle",
+            "description": "The carnage might not end anytime soon. \"We're setting up for a market bottom,\" one CEO told On The Money.",
+            "source": "New York Post",
+            "published_at": "2026-11-05T23:08:59Z",
+            "url": "https://nypost.com/2026/11/05/business/the-key-to-understanding-the-post-election-market-gyrations-is-white-castle/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The October jobs report is out Friday. Here's everything to expect",
+            "description": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+            "source": "CNBC",
+            "published_at": "2026-11-05T21:32:52Z",
+            "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 plunges 6%, erasing $2.3T in market value",
+            "description": "The Nasdaq 100's plunge signals a broader tech market downturn, impacting cryptocurrencies and reducing confidence in Bitcoin's near-term growth.\nThe post NASDAQ 100 plunges 6%, erasing $2.3T in market value appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T21:15:32Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-plunges-6-erasing-23t-in-market-value/",
+            "sentiment_score": 0.4802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns",
+            "description": "Hammack's stance on restrictive rates highlights the Fed's focus on inflation control, potentially impacting economic growth and market stability.\nThe post Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns appeared first on Crypto Briefi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T20:52:48Z",
+            "url": "https://cryptobriefing.com/cleveland-feds-hammack-backs-restrictive-rates-amid-inflation-concerns/",
+            "sentiment_score": 0.0659,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed: Banks Tightened Lending Standards for Small Businesses and Subprime Consumers",
@@ -496,100 +496,10 @@
             "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
             "sentiment_score": 0.1376,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Steep losses in Tesla, Space X, data centre operators",
-            "description": "US stocks dropped sharply today, with the Nasdaq poised to confirm correction territory as steep losses in chip and data center-related stocks weighed a day after the Democrats' sweeping midterm election victory powered a broad-based rally.",
-            "source": "RTE",
-            "published_at": "2026-11-05T16:24:42Z",
-            "url": "https://www.rte.ie/news/business/2026/1105/1598171-us-stocks-down/",
-            "sentiment_score": -0.3347,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day since 1896",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday’s post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 2.2%, or over 1,200 points. The S&P 500 (^GSPC\r\n) fell 3.3%, and the tech-heavy Nasdaq…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T16:17:42Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined",
-            "description": "The rapid growth in Stacks bonds highlights increasing institutional interest and could significantly impact Bitcoin's staking ecosystem.\nThe post Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T16:05:21Z",
-            "url": "https://cryptobriefing.com/stacks-bond-3-1005-btc-bitcoin-staking/",
-            "sentiment_score": 0.2042,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-            "description": "The Federal Reserve Board on Thursday announced the termination of the enforcement action listed below:  Allegiant United Holdings, LLC, Irvine California, Nan",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-05T16:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-            "sentiment_score": 0.4215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Heist Triggers Alarm Among Banking Regulators",
-            "description": "Last week’s record hack of cryptocurrency exchange Binance prompted regulators in the United States to check in with the country’s banks, Reuters reported Thursday (Nov. 5), citing unnamed sources. Supervisors at the Federal Reserve and the Office of the Comp…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-05T15:33:04Z",
-            "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/",
-            "sentiment_score": -0.1116,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000",
-            "description": "The post Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000 appeared first on 24/7 Wall St..\nTwo numbers in the latest Survey of Consumer Finances from the Federal Reserve are moving in opposite directions. Fewe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T15:20:35Z",
-            "url": "https://biztoc.com/x/f1414340018a9d69",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Failure of Both the Republicans and Democrats to Create Credit for Reindustrialization?",
-            "description": "Until the structural incentives that favor financial returns over productive investment are confronted directly, US economic policy will continue to find it easier to inflate existing assets…\n***\nThe failure of both Republican and Democratic administrations t…",
-            "source": "Globalresearch.ca",
-            "published_at": "2026-11-05T15:19:49Z",
-            "url": "https://www.globalresearch.ca/why-couldnt-trump-nor-democrats-create-credit-reindustrialization-rather-than-qe/5945226",
-            "sentiment_score": 0.1925,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour",
-            "description": "The liquidation highlights crypto market volatility, emphasizing the risks of high leverage and potential for rapid price fluctuations.\nThe post Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T15:12:55Z",
-            "url": "https://cryptobriefing.com/bitcoin-ether-drop-as-370m-in-leveraged-positions-liquidated-in-an-hour/",
-            "sentiment_score": -0.3394,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury’s cash plan points to a possible December liquidity window for Bitcoin",
-            "description": "Treasury’s November 4 plan frames a possible December respite, while tax receipts and a projected January cash peak complicate the reserve case.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Cataly…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-05T15:10:14Z",
-            "url": "https://cryptoslate.com/bitcoins-liquidity-hopes-sit-between-two-projected-treasury-cash-peaks/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.1101,
+      "net_score": -0.1414,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -599,14 +509,14 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.11408,
+      "price_now": 1.11433,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 24.9,
-      "rsi_signal": "ขายมากเกิน (RSI=24.9) ราคาอาจเด้ง",
+      "rsi_value": 28.4,
+      "rsi_signal": "ขายมากเกิน (RSI=28.4) ราคาอาจเด้ง",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00112,
-      "suggested_sl_distance": 0.00168,
+      "atr_value": 0.00102,
+      "suggested_sl_distance": 0.00154,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -1,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -618,9 +528,9 @@
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=24.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=28.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-06T20:47:48.525360+00:00"
+    "generated_at": "2026-11-07T00:49:00.955651+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -629,10 +539,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0083,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 28,
+        "average_score": -0.0739,
+        "label": "ลบเล็กน้อย",
+        "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Carney unveils budget to strengthen Canada's economy as Trump's trade war continues",
+            "description": "Canadian Prime Minister Mark Carney’s government unveiled a sweeping budget Thursday aimed at making Canada less dependent on the United States as President Donald Trump’s trade war reshapes the longtime allies’ economic relationship",
+            "source": "Abcnews.com",
+            "published_at": "2026-11-05T23:04:49Z",
+            "url": "https://abcnews.com/International/wireStory/carney-unveils-budget-strengthen-canadas-economy-trumps-trade-137894318",
+            "sentiment_score": -0.3492,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Oil Rebounds After Sharp Iran War Selloff",
+            "description": "Crude recovered as hopes for easing Iran tensions competed with persistent geopolitical risks.",
+            "source": "Rigzone",
+            "published_at": "2026-11-05T21:08:28Z",
+            "url": "https://www.rigzone.com/news/wire/oil_rebounds_after_sharp_iran_war_selloff-05-nov-2026-185023-article/",
+            "sentiment_score": -0.5911,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "Markets plunge as Wall Street heads for its worst post-midterm day ever",
@@ -852,74 +792,104 @@
             "url": "https://biztoc.com/x/1f3dc710a26a70e6",
             "sentiment_score": 0.389,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England Raises Rates for First Time in Three Years",
-            "description": "The central bank said that inflation would climb to about 5 percent next year, far above its target, because of higher energy prices driven by the war in Iran.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T12:30:20Z",
-            "url": "https://biztoc.com/x/08ac0468bd7a00c4",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England raises rates for first time since 2023, says more may come",
-            "description": "British inflation is likely to reach around 5% in the middle of next year, the BoE said, more than double the central bank's target and a blow for new Prime Minister Andy Burnham who has sought to ease of cost of living pressures.",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T12:18:26Z",
-            "url": "https://economictimes.indiatimes.com/news/international/business/bank-of-england-raises-rates-for-first-time-since-2023-says-more-may-come/articleshow/135573276.cms",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Our Pick Of The Best British Undervalued Stocks In November 2026",
-            "description": "The Bank of England is poised to lift interest rates for the first time in three years, which puts fresh pressure on expensive, highly indebted businesses and rewards those with strong balance sheets and healthy cash generation. That shift creates a rare wind…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T12:17:49Z",
-            "url": "https://biztoc.com/x/567be5ee64da9de7",
-            "sentiment_score": 0.7266,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Three ways the interest rate rise could affect you",
-            "description": "Job, loans and savings are all affected by the rise in interest rates announced by the Bank of England.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T12:15:05Z",
-            "url": "https://biztoc.com/x/6a8aec44815faf35",
-            "sentiment_score": 0.4232,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England hikes interest rate for the first time since Iran war, warns inflation will near 5%",
-            "description": "The Bank of England announced its first interest rate hike in over three years on Thursday, as it raised its key rate by 25 basis points to 4%.\nThe widely anticipated move marked the bank's first hike since Aug. 2023, and made it the last major central bank t…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T12:14:50Z",
-            "url": "https://biztoc.com/x/d1d53d7bee064a23",
-            "sentiment_score": -0.0851,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "BOE’s Bailey: UK market curve rise due to risk premia, not rate hike expectations",
-            "description": "The focus on risk premia over rate hikes suggests a stable policy approach, impacting long-term yield expectations and market strategies.\nThe post BOE’s Bailey: UK market curve rise due to risk premia, not rate hike expectations appeared first on Crypto Brief…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T12:05:56Z",
-            "url": "https://cryptobriefing.com/boes-bailey-uk-market-curve-rise-due-to-risk-premia-not-rate-hike-expectations/",
-            "sentiment_score": -0.2662,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0452,
+        "average_score": 0.0443,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
+            "description": "Bitcoin slipped under $80,000 toward the mid-$76,000s after jobless claims hit a 57-year low and spot ETFs flipped +$74.6M. We frame it as a reset inside a bitcoin recovery.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-06T00:30:39Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-recovery-after-80k-slip-is-buying-reset/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
+            "description": "Tech stocks plummeted amid fears inbound Democrats will end Donald Trump's era of laissez-faire regulation and backdoor deals.",
+            "source": "Gizmodo.com",
+            "published_at": "2026-11-05T23:44:09Z",
+            "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury bought back $6B in bonds, but dealers say bigger isn’t enough",
+            "description": "The US Treasury bought back $6 billion of older government bonds on Nov. 4, hitting the full limit of its latest operation. On paper, that looks like a success for a program designed to make the Treasury market easier to trade. But there's a catch. One bond a…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-05T23:20:13Z",
+            "url": "https://cryptoslate.com/treasury-bought-back-6b-in-bonds-but-dealers-say-bigger-isnt-enough/",
+            "sentiment_score": 0.282,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI on FIRE",
+            "description": "If robots are coming for your job then should you get out before the shooting starts?\nThe post AI on FIRE appeared first on Monevator.",
+            "source": "Monevator.com",
+            "published_at": "2026-11-05T23:14:16Z",
+            "url": "https://monevator.com/ai-on-fire/",
+            "sentiment_score": -0.4824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The key to understanding the post-election market gyrations is White Castle",
+            "description": "The carnage might not end anytime soon. \"We're setting up for a market bottom,\" one CEO told On The Money.",
+            "source": "New York Post",
+            "published_at": "2026-11-05T23:08:59Z",
+            "url": "https://nypost.com/2026/11/05/business/the-key-to-understanding-the-post-election-market-gyrations-is-white-castle/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The October jobs report is out Friday. Here's everything to expect",
+            "description": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+            "source": "CNBC",
+            "published_at": "2026-11-05T21:32:52Z",
+            "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 plunges 6%, erasing $2.3T in market value",
+            "description": "The Nasdaq 100's plunge signals a broader tech market downturn, impacting cryptocurrencies and reducing confidence in Bitcoin's near-term growth.\nThe post NASDAQ 100 plunges 6%, erasing $2.3T in market value appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T21:15:32Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-plunges-6-erasing-23t-in-market-value/",
+            "sentiment_score": 0.4802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns",
+            "description": "Hammack's stance on restrictive rates highlights the Fed's focus on inflation control, potentially impacting economic growth and market stability.\nThe post Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns appeared first on Crypto Briefi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T20:52:48Z",
+            "url": "https://cryptobriefing.com/cleveland-feds-hammack-backs-restrictive-rates-amid-inflation-concerns/",
+            "sentiment_score": 0.0659,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed: Banks Tightened Lending Standards for Small Businesses and Subprime Consumers",
@@ -1129,100 +1099,10 @@
             "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
             "sentiment_score": 0.1376,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Steep losses in Tesla, Space X, data centre operators",
-            "description": "US stocks dropped sharply today, with the Nasdaq poised to confirm correction territory as steep losses in chip and data center-related stocks weighed a day after the Democrats' sweeping midterm election victory powered a broad-based rally.",
-            "source": "RTE",
-            "published_at": "2026-11-05T16:24:42Z",
-            "url": "https://www.rte.ie/news/business/2026/1105/1598171-us-stocks-down/",
-            "sentiment_score": -0.3347,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day since 1896",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday’s post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 2.2%, or over 1,200 points. The S&P 500 (^GSPC\r\n) fell 3.3%, and the tech-heavy Nasdaq…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T16:17:42Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined",
-            "description": "The rapid growth in Stacks bonds highlights increasing institutional interest and could significantly impact Bitcoin's staking ecosystem.\nThe post Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T16:05:21Z",
-            "url": "https://cryptobriefing.com/stacks-bond-3-1005-btc-bitcoin-staking/",
-            "sentiment_score": 0.2042,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-            "description": "The Federal Reserve Board on Thursday announced the termination of the enforcement action listed below:  Allegiant United Holdings, LLC, Irvine California, Nan",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-05T16:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-            "sentiment_score": 0.4215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Heist Triggers Alarm Among Banking Regulators",
-            "description": "Last week’s record hack of cryptocurrency exchange Binance prompted regulators in the United States to check in with the country’s banks, Reuters reported Thursday (Nov. 5), citing unnamed sources. Supervisors at the Federal Reserve and the Office of the Comp…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-05T15:33:04Z",
-            "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/",
-            "sentiment_score": -0.1116,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000",
-            "description": "The post Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000 appeared first on 24/7 Wall St..\nTwo numbers in the latest Survey of Consumer Finances from the Federal Reserve are moving in opposite directions. Fewe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T15:20:35Z",
-            "url": "https://biztoc.com/x/f1414340018a9d69",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Failure of Both the Republicans and Democrats to Create Credit for Reindustrialization?",
-            "description": "Until the structural incentives that favor financial returns over productive investment are confronted directly, US economic policy will continue to find it easier to inflate existing assets…\n***\nThe failure of both Republican and Democratic administrations t…",
-            "source": "Globalresearch.ca",
-            "published_at": "2026-11-05T15:19:49Z",
-            "url": "https://www.globalresearch.ca/why-couldnt-trump-nor-democrats-create-credit-reindustrialization-rather-than-qe/5945226",
-            "sentiment_score": 0.1925,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour",
-            "description": "The liquidation highlights crypto market volatility, emphasizing the risks of high leverage and potential for rapid price fluctuations.\nThe post Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T15:12:55Z",
-            "url": "https://cryptobriefing.com/bitcoin-ether-drop-as-370m-in-leveraged-positions-liquidated-in-an-hour/",
-            "sentiment_score": -0.3394,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury’s cash plan points to a possible December liquidity window for Bitcoin",
-            "description": "Treasury’s November 4 plan frames a possible December respite, while tax receipts and a projected January cash peak complicate the reserve case.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Cataly…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-05T15:10:14Z",
-            "url": "https://cryptoslate.com/bitcoins-liquidity-hopes-sit-between-two-projected-treasury-cash-peaks/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0369,
+      "net_score": -0.1182,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1232,17 +1112,17 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.3349,
+      "price_now": 1.33558,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 26.1,
-      "rsi_signal": "ขายมากเกิน (RSI=26.1) ราคาอาจเด้ง",
+      "rsi_value": 30.4,
+      "rsi_signal": "โซนกลาง (RSI=30.4)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00142,
-      "suggested_sl_distance": 0.00212,
+      "atr_value": 0.00129,
+      "suggested_sl_distance": 0.00193,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -1,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1251,9 +1131,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=26.1) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=30.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-06T20:47:48.525360+00:00"
+    "generated_at": "2026-11-07T00:49:00.955651+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1262,10 +1142,100 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0452,
+        "average_score": 0.0443,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
+            "description": "Bitcoin slipped under $80,000 toward the mid-$76,000s after jobless claims hit a 57-year low and spot ETFs flipped +$74.6M. We frame it as a reset inside a bitcoin recovery.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-06T00:30:39Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-recovery-after-80k-slip-is-buying-reset/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
+            "description": "Tech stocks plummeted amid fears inbound Democrats will end Donald Trump's era of laissez-faire regulation and backdoor deals.",
+            "source": "Gizmodo.com",
+            "published_at": "2026-11-05T23:44:09Z",
+            "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury bought back $6B in bonds, but dealers say bigger isn’t enough",
+            "description": "The US Treasury bought back $6 billion of older government bonds on Nov. 4, hitting the full limit of its latest operation. On paper, that looks like a success for a program designed to make the Treasury market easier to trade. But there's a catch. One bond a…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-05T23:20:13Z",
+            "url": "https://cryptoslate.com/treasury-bought-back-6b-in-bonds-but-dealers-say-bigger-isnt-enough/",
+            "sentiment_score": 0.282,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI on FIRE",
+            "description": "If robots are coming for your job then should you get out before the shooting starts?\nThe post AI on FIRE appeared first on Monevator.",
+            "source": "Monevator.com",
+            "published_at": "2026-11-05T23:14:16Z",
+            "url": "https://monevator.com/ai-on-fire/",
+            "sentiment_score": -0.4824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The key to understanding the post-election market gyrations is White Castle",
+            "description": "The carnage might not end anytime soon. \"We're setting up for a market bottom,\" one CEO told On The Money.",
+            "source": "New York Post",
+            "published_at": "2026-11-05T23:08:59Z",
+            "url": "https://nypost.com/2026/11/05/business/the-key-to-understanding-the-post-election-market-gyrations-is-white-castle/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The October jobs report is out Friday. Here's everything to expect",
+            "description": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+            "source": "CNBC",
+            "published_at": "2026-11-05T21:32:52Z",
+            "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 plunges 6%, erasing $2.3T in market value",
+            "description": "The Nasdaq 100's plunge signals a broader tech market downturn, impacting cryptocurrencies and reducing confidence in Bitcoin's near-term growth.\nThe post NASDAQ 100 plunges 6%, erasing $2.3T in market value appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T21:15:32Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-plunges-6-erasing-23t-in-market-value/",
+            "sentiment_score": 0.4802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns",
+            "description": "Hammack's stance on restrictive rates highlights the Fed's focus on inflation control, potentially impacting economic growth and market stability.\nThe post Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns appeared first on Crypto Briefi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T20:52:48Z",
+            "url": "https://cryptobriefing.com/cleveland-feds-hammack-backs-restrictive-rates-amid-inflation-concerns/",
+            "sentiment_score": 0.0659,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed: Banks Tightened Lending Standards for Small Businesses and Subprime Consumers",
@@ -1475,104 +1445,34 @@
             "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
             "sentiment_score": 0.1376,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Steep losses in Tesla, Space X, data centre operators",
-            "description": "US stocks dropped sharply today, with the Nasdaq poised to confirm correction territory as steep losses in chip and data center-related stocks weighed a day after the Democrats' sweeping midterm election victory powered a broad-based rally.",
-            "source": "RTE",
-            "published_at": "2026-11-05T16:24:42Z",
-            "url": "https://www.rte.ie/news/business/2026/1105/1598171-us-stocks-down/",
-            "sentiment_score": -0.3347,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day since 1896",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday’s post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 2.2%, or over 1,200 points. The S&P 500 (^GSPC\r\n) fell 3.3%, and the tech-heavy Nasdaq…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T16:17:42Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined",
-            "description": "The rapid growth in Stacks bonds highlights increasing institutional interest and could significantly impact Bitcoin's staking ecosystem.\nThe post Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T16:05:21Z",
-            "url": "https://cryptobriefing.com/stacks-bond-3-1005-btc-bitcoin-staking/",
-            "sentiment_score": 0.2042,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-            "description": "The Federal Reserve Board on Thursday announced the termination of the enforcement action listed below:  Allegiant United Holdings, LLC, Irvine California, Nan",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-05T16:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-            "sentiment_score": 0.4215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Heist Triggers Alarm Among Banking Regulators",
-            "description": "Last week’s record hack of cryptocurrency exchange Binance prompted regulators in the United States to check in with the country’s banks, Reuters reported Thursday (Nov. 5), citing unnamed sources. Supervisors at the Federal Reserve and the Office of the Comp…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-05T15:33:04Z",
-            "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/",
-            "sentiment_score": -0.1116,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000",
-            "description": "The post Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000 appeared first on 24/7 Wall St..\nTwo numbers in the latest Survey of Consumer Finances from the Federal Reserve are moving in opposite directions. Fewe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T15:20:35Z",
-            "url": "https://biztoc.com/x/f1414340018a9d69",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Failure of Both the Republicans and Democrats to Create Credit for Reindustrialization?",
-            "description": "Until the structural incentives that favor financial returns over productive investment are confronted directly, US economic policy will continue to find it easier to inflate existing assets…\n***\nThe failure of both Republican and Democratic administrations t…",
-            "source": "Globalresearch.ca",
-            "published_at": "2026-11-05T15:19:49Z",
-            "url": "https://www.globalresearch.ca/why-couldnt-trump-nor-democrats-create-credit-reindustrialization-rather-than-qe/5945226",
-            "sentiment_score": 0.1925,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour",
-            "description": "The liquidation highlights crypto market volatility, emphasizing the risks of high leverage and potential for rapid price fluctuations.\nThe post Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T15:12:55Z",
-            "url": "https://cryptobriefing.com/bitcoin-ether-drop-as-370m-in-leveraged-positions-liquidated-in-an-hour/",
-            "sentiment_score": -0.3394,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury’s cash plan points to a possible December liquidity window for Bitcoin",
-            "description": "Treasury’s November 4 plan frames a possible December respite, while tax receipts and a projected January cash peak complicate the reserve case.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Cataly…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-05T15:10:14Z",
-            "url": "https://cryptoslate.com/bitcoins-liquidity-hopes-sit-between-two-projected-treasury-cash-peaks/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0258,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 4,
+        "average_score": 0.1287,
+        "label": "บวกเล็กน้อย",
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan's real wages rise for ninth month in September, backing BOJ rate hike",
+            "description": "TOKYO, Nov 6 : Japan's real wages rose 2.2 per cent in September from a year earlier, marking the ninth consecutive month of gains, government data showed on Friday, supporting the case for the Bank of Japan to keep raising interest rates.• Growth in real, or…",
+            "source": "CNA",
+            "published_at": "2026-11-05T23:32:29Z",
+            "url": "https://www.channelnewsasia.com/business/japans-real-wages-rise-ninth-month-in-september-backing-boj-rate-hike-6529306",
+            "sentiment_score": 0.2797,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Dollar edges lower as US election outcome cheers global markets",
@@ -1615,7 +1515,7 @@
           }
         ]
       },
-      "net_score": 0.0194,
+      "net_score": -0.0844,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1625,14 +1525,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.45799,
+      "price_now": 158.425,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 61.0,
-      "rsi_signal": "โซนกลาง (RSI=61.0)",
+      "rsi_value": 59.2,
+      "rsi_signal": "โซนกลาง (RSI=59.2)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.23399,
-      "suggested_sl_distance": 0.35099,
+      "atr_value": 0.21197,
+      "suggested_sl_distance": 0.31795,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 2,
       "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
@@ -1644,9 +1544,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=61.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=59.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-06T20:47:48.525360+00:00"
+    "generated_at": "2026-11-07T00:49:00.955651+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1655,9 +1555,9 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1892,
+        "average_score": 0.1135,
         "label": "บวกเล็กน้อย",
-        "article_count": 7,
+        "article_count": 3,
         "scored_articles": [
           {
             "currency": "AUD",
@@ -1688,54 +1588,104 @@
             "url": "https://www.fool.com.au/2026/11/05/with-interest-rates-at-18-year-highs-this-asx-income-stock-is-a-no-brainer/",
             "sentiment_score": 0.4642,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Westpac Life Savings Account up to 6.20% p.a. Interest on Balance up to $150,000",
-            "description": "Westpac Life Savings Rate Increasing to 6.20% p.a. from 13 November 2026 (Ages 18–40) Following yesterday's RBA rate rise of 0.25% to 4.85%, Westpac has announced increases to its Westpac …",
-            "source": "Ozbargain.com.au",
-            "published_at": "2026-11-04T05:12:29Z",
-            "url": "https://www.ozbargain.com.au/node/981601",
-            "sentiment_score": 0.3212,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "Endeavour Group Shares Climb as Dan Murphy's Owner Extends Recovery Despite Cost-of-Living Squeeze on Pubs",
-            "description": "Endeavour Group shares rose 3.5% after first-quarter sales increased 2.8%, extending a rebound despite weaker pub performance, margin pressure and mixed analyst recommendations.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-04T03:38:15Z",
-            "url": "https://www.ibtimes.com.au/endeavour-group-shares-rise-first-quarter-sales-1877890",
-            "sentiment_score": 0.4443,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "ASX 200 Slides Below 8,830 as US Midterm Jitters and RBA's Fifth Rate Hike Weigh on Australian Shares",
-            "description": "The ASX 200 fell 0.72% as investors assessed US midterm election results and the RBA's latest rate rise, with financial and healthcare stocks leading losses.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-04T03:31:52Z",
-            "url": "https://www.ibtimes.com.au/australian-shares-fall-us-midterm-elections-rba-rate-rise-1877885",
-            "sentiment_score": 0.0866,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "The media’s favourite blame game: who caused the RBA rate rise?",
-            "description": "A narrative has taken hold that Labor is to blame for heightened inflation, while insiders seek to ensure Jim Chalmers wears the pain. It’s a self-fulfilling prophecy.\nThe post The media’s favourite blame game: who caused the RBA rate rise? appeared first on …",
-            "source": "Crikey",
-            "published_at": "2026-11-04T01:30:37Z",
-            "url": "http://www.crikey.com.au/2026/11/04/rba-interest-rate-rise-inflation-media-blame-labor-jim-chalmers/",
-            "sentiment_score": -0.4391,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0452,
+        "average_score": 0.0443,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
+            "description": "Bitcoin slipped under $80,000 toward the mid-$76,000s after jobless claims hit a 57-year low and spot ETFs flipped +$74.6M. We frame it as a reset inside a bitcoin recovery.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-06T00:30:39Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-recovery-after-80k-slip-is-buying-reset/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
+            "description": "Tech stocks plummeted amid fears inbound Democrats will end Donald Trump's era of laissez-faire regulation and backdoor deals.",
+            "source": "Gizmodo.com",
+            "published_at": "2026-11-05T23:44:09Z",
+            "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury bought back $6B in bonds, but dealers say bigger isn’t enough",
+            "description": "The US Treasury bought back $6 billion of older government bonds on Nov. 4, hitting the full limit of its latest operation. On paper, that looks like a success for a program designed to make the Treasury market easier to trade. But there's a catch. One bond a…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-05T23:20:13Z",
+            "url": "https://cryptoslate.com/treasury-bought-back-6b-in-bonds-but-dealers-say-bigger-isnt-enough/",
+            "sentiment_score": 0.282,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI on FIRE",
+            "description": "If robots are coming for your job then should you get out before the shooting starts?\nThe post AI on FIRE appeared first on Monevator.",
+            "source": "Monevator.com",
+            "published_at": "2026-11-05T23:14:16Z",
+            "url": "https://monevator.com/ai-on-fire/",
+            "sentiment_score": -0.4824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The key to understanding the post-election market gyrations is White Castle",
+            "description": "The carnage might not end anytime soon. \"We're setting up for a market bottom,\" one CEO told On The Money.",
+            "source": "New York Post",
+            "published_at": "2026-11-05T23:08:59Z",
+            "url": "https://nypost.com/2026/11/05/business/the-key-to-understanding-the-post-election-market-gyrations-is-white-castle/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The October jobs report is out Friday. Here's everything to expect",
+            "description": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+            "source": "CNBC",
+            "published_at": "2026-11-05T21:32:52Z",
+            "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 plunges 6%, erasing $2.3T in market value",
+            "description": "The Nasdaq 100's plunge signals a broader tech market downturn, impacting cryptocurrencies and reducing confidence in Bitcoin's near-term growth.\nThe post NASDAQ 100 plunges 6%, erasing $2.3T in market value appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T21:15:32Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-plunges-6-erasing-23t-in-market-value/",
+            "sentiment_score": 0.4802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns",
+            "description": "Hammack's stance on restrictive rates highlights the Fed's focus on inflation control, potentially impacting economic growth and market stability.\nThe post Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns appeared first on Crypto Briefi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T20:52:48Z",
+            "url": "https://cryptobriefing.com/cleveland-feds-hammack-backs-restrictive-rates-amid-inflation-concerns/",
+            "sentiment_score": 0.0659,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed: Banks Tightened Lending Standards for Small Businesses and Subprime Consumers",
@@ -1945,100 +1895,10 @@
             "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
             "sentiment_score": 0.1376,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Steep losses in Tesla, Space X, data centre operators",
-            "description": "US stocks dropped sharply today, with the Nasdaq poised to confirm correction territory as steep losses in chip and data center-related stocks weighed a day after the Democrats' sweeping midterm election victory powered a broad-based rally.",
-            "source": "RTE",
-            "published_at": "2026-11-05T16:24:42Z",
-            "url": "https://www.rte.ie/news/business/2026/1105/1598171-us-stocks-down/",
-            "sentiment_score": -0.3347,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day since 1896",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday’s post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 2.2%, or over 1,200 points. The S&P 500 (^GSPC\r\n) fell 3.3%, and the tech-heavy Nasdaq…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T16:17:42Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined",
-            "description": "The rapid growth in Stacks bonds highlights increasing institutional interest and could significantly impact Bitcoin's staking ecosystem.\nThe post Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T16:05:21Z",
-            "url": "https://cryptobriefing.com/stacks-bond-3-1005-btc-bitcoin-staking/",
-            "sentiment_score": 0.2042,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-            "description": "The Federal Reserve Board on Thursday announced the termination of the enforcement action listed below:  Allegiant United Holdings, LLC, Irvine California, Nan",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-05T16:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-            "sentiment_score": 0.4215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Heist Triggers Alarm Among Banking Regulators",
-            "description": "Last week’s record hack of cryptocurrency exchange Binance prompted regulators in the United States to check in with the country’s banks, Reuters reported Thursday (Nov. 5), citing unnamed sources. Supervisors at the Federal Reserve and the Office of the Comp…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-05T15:33:04Z",
-            "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/",
-            "sentiment_score": -0.1116,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000",
-            "description": "The post Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000 appeared first on 24/7 Wall St..\nTwo numbers in the latest Survey of Consumer Finances from the Federal Reserve are moving in opposite directions. Fewe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T15:20:35Z",
-            "url": "https://biztoc.com/x/f1414340018a9d69",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Failure of Both the Republicans and Democrats to Create Credit for Reindustrialization?",
-            "description": "Until the structural incentives that favor financial returns over productive investment are confronted directly, US economic policy will continue to find it easier to inflate existing assets…\n***\nThe failure of both Republican and Democratic administrations t…",
-            "source": "Globalresearch.ca",
-            "published_at": "2026-11-05T15:19:49Z",
-            "url": "https://www.globalresearch.ca/why-couldnt-trump-nor-democrats-create-credit-reindustrialization-rather-than-qe/5945226",
-            "sentiment_score": 0.1925,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour",
-            "description": "The liquidation highlights crypto market volatility, emphasizing the risks of high leverage and potential for rapid price fluctuations.\nThe post Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T15:12:55Z",
-            "url": "https://cryptobriefing.com/bitcoin-ether-drop-as-370m-in-leveraged-positions-liquidated-in-an-hour/",
-            "sentiment_score": -0.3394,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury’s cash plan points to a possible December liquidity window for Bitcoin",
-            "description": "Treasury’s November 4 plan frames a possible December respite, while tax receipts and a projected January cash peak complicate the reserve case.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Cataly…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-05T15:10:14Z",
-            "url": "https://cryptoslate.com/bitcoins-liquidity-hopes-sit-between-two-projected-treasury-cash-peaks/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.144,
+      "net_score": 0.0692,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2048,14 +1908,14 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.68662,
+      "price_now": 0.68681,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 31.5,
-      "rsi_signal": "โซนกลาง (RSI=31.5)",
+      "rsi_value": 33.0,
+      "rsi_signal": "โซนกลาง (RSI=33.0)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00116,
-      "suggested_sl_distance": 0.00174,
+      "atr_value": 0.00104,
+      "suggested_sl_distance": 0.00157,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2069,7 +1929,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-06T20:47:48.525360+00:00"
+    "generated_at": "2026-11-07T00:49:00.955651+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2078,9 +1938,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.3088,
+        "average_score": 0.4155,
         "label": "บวกชัดเจน (Bullish)",
-        "article_count": 29,
+        "article_count": 9,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -2171,214 +2031,104 @@
             "url": "https://m.economictimes.com/markets/stocks/live-blog/gold-price-today-live-updates-22k-24k-18k-gold-rate-mcx-gold-silver-rate-city-wise-date-latest-gold-news/liveblog/135558270.cms",
             "sentiment_score": 0.2607,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Today’s News in a Nutshell",
-            "description": "KATHMANDU: Khabarhub brings you a glimpse of major developments of the day in Nepal, including politics, business/economy, sports, entertainment, and more. Manoj KC appointed Inspector General of Nepal Police The government has appointed Additional Inspector …",
-            "source": "Khabarhub.com",
-            "published_at": "2026-11-04T15:50:29Z",
-            "url": "https://english.khabarhub.com/2026/04/574387/",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold ETFs attract ₹3,300 crore in Oct as investors go on a buying spree ahead of Diwali",
-            "description": "Assets under management of gold ETFs increased steadily from ₹1.58 lakh crore in April to around ₹1.91 lakh crore in October, reflecting growing investor interest in the category",
-            "source": "BusinessLine",
-            "published_at": "2026-11-04T14:50:04Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold-etfs-attract-3300-crore-in-oct-as-investors-go-on-a-buying-spree-ahead-of-diwali/article71665451.ece",
-            "sentiment_score": 0.4802,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Higher energy, gold exports offset US tariff impact on Canada",
-            "description": "Canada's trade surplus growth, driven by energy and gold exports, suggests resilience against tariffs and potential economic strengthening.\nThe post Higher energy, gold exports offset US tariff impact on Canada appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-04T13:41:50Z",
-            "url": "https://cryptobriefing.com/higher-energy-gold-exports-offset-us-tariff-impact-on-canada/",
-            "sentiment_score": 0.4433,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price correction to lift Dhanteras sentiment, but sales volumes likely to remain flat: Jewellers",
-            "description": "The decline in gold prices is expected to boost demand this Dhanteras, All India Gem and Jewellery Domestic Council (GJC) Chairman Rajesh Rokde told.",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T13:17:25Z",
-            "url": "https://economictimes.indiatimes.com/industry/cons-products/fashion-/-cosmetics-/-jewellery/gold-price-correction-to-lift-dhanteras-sentiment-but-sales-volumes-likely-to-remain-flat-jewellers/articleshow/135540492.cms",
-            "sentiment_score": 0.0888,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price today, Wednesday, November 4, 2026: Gold prices rise in early trading, but limited gains expected",
-            "description": "Gold price today, Wednesday, November 4, 2026: Gold prices rise in early trading, but limited gains expected\nGold (GC=F) December futures opened at $3,940.80 per troy ounce on Wednesday, November 4, 2026, flat from Tuesday's open. Gold prices are gaining some…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-04T12:42:42Z",
-            "url": "https://biztoc.com/x/1e7ec83bfd63b357",
-            "sentiment_score": 0.3326,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold and silver prices today: Bought on Dhanteras 2025? Check what your ₹1 lakh investment is worth now",
-            "description": "Gold and silver prices have risen since Dhanteras 2025, with silver marginally outperforming gold. Find out what  ₹1 lakh invested in either metal last year would be worth on 4 November 2026, using the latest IBJA rates, and calculate your investment gains.",
-            "source": "Livemint",
-            "published_at": "2026-11-04T12:32:52Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-and-silver-prices-today-bought-on-dhanteras-2025-check-what-your-1-lakh-investment-is-worth-now-11793795164740.html",
-            "sentiment_score": 0.3116,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold vs silver investment return: Know value of Rs 5 lakh investment in 1, 3 and 5 years",
-            "description": "Investing in gold and silver has shown different returns over various periods. Gold delivered approximately 190% returns over five years, while silver reached 178%. Silver has outperformed gold in the last three years, showing faster price increases.",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T12:26:36Z",
-            "url": "https://economictimes.indiatimes.com/wealth/invest/gold-vs-silver-investment-return-calculator-on-dhanteras-diwali-which-precious-metal-gave-higher-returns-in-1-3-and-5-years/articleshow/135539142.cms",
-            "sentiment_score": 0.2688,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Tanishq bets on late festive pickup, wedding demand to drive growth",
-            "description": "Analysts, meanwhile, expect like-for-like (LFL) growth in gold jewellery to moderate to 22% from 33% in the previous quarter, as gold price inflation eases to 45% from 55%",
-            "source": "BusinessLine",
-            "published_at": "2026-11-04T09:43:11Z",
-            "url": "https://www.thehindubusinessline.com/companies/tanishq-bets-on-late-festive-pickup-wedding-demand-to-drive-growth/article71664850.ece",
-            "sentiment_score": 0.6172,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Glittering Prospects: Why Gold is the ultimate sweet spot this Dhanteras",
-            "description": "Gold is trading over 20% below its peak ahead of Dhanteras, offering long-term investors a potential staggered buying opportunity. Central-bank demand, ETF inflows and rupee weakness could support prices, with analysts projecting returns of 15–20% by next Dha…",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T07:46:55Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/glittering-prospects-why-gold-is-the-ultimate-sweet-spot-this-dhanteras/articleshow/135530054.cms",
-            "sentiment_score": 0.5346,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold dips 25% from January 2026 peak: Is it time to buy ahead of Dhanteras?",
-            "description": "Gold is likely to remain volatile, with $4,000 per ounce an important psychological level to watch",
-            "source": "Business Standard",
-            "published_at": "2026-11-04T07:43:24Z",
-            "url": "https://www.business-standard.com/finance/personal-finance/gold-dips-25-from-january-2026-peak-is-it-time-to-buy-ahead-of-dhanteras-126110400776_1.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction today: Where are gold prices headed in Dhanteras week? Check November 4, 2026 outlook",
-            "description": "Gold price prediction today: The midterm results have changed the mood this week. Democrats are projected to win both the House and the Senate, which markets read as lowering the odds of a deficit-expanding agenda. The 10-year Treasury yield fell six basis po…",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T06:58:17Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-india-diwali-dhanteras-where-is-gold-silver-rate-headed-on-november-04-2026-mcx-gold-futures-outlook-us-iran-war-middle-east-tensions-federal-reserve/articleshow/135528498.cms",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate today Coimbatore Nov 4 Wednesday: Up or down? Latest price for investors ahead of Dhanteras, Diwali 2026",
-            "description": "Gold rate today Coimbatore Nov 4 Wednesday: Up or down? Latest price for investors ahead of Dhanteras, Diwali 2026. We also bring retail prices of 18K, 22K and 24K gold and 999 Fine silver across cities — Ahmedabad, Bangalore, Chennai, Delhi, Hyderabad, Kolka…",
-            "source": "Livemint",
-            "published_at": "2026-11-04T06:39:06Z",
-            "url": "https://www.livemint.com/money/gold-rate-today-coimbatore-nov-4-wednesday-up-down-latest-price-investors-dhanteras-diwali-2026-isha-city-silver-prices-11793771174098.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate today (November 4, 2026): Check 24k, 22k, 20k, 18k gold jewellery prices from Malabar Gold & Diamonds, Kalyan Jewellers, Tanishq & IBJA in Delhi, Mumbai, Hyderabad & more cities",
-            "description": "As of November 4, 2026, Tanishq's price of 22k gold jewellery is Rs ₹ 12,875 per gram across Delhi showrooms. On November 3, 2026, the 22k gold price at Tanishq in Delhi was Rs ₹ 12,850 per gram.The current price of 22k gold jewellery at Malabar Gold & Diamon…",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-04T06:33:07Z",
-            "url": "https://m.economictimes.com/wealth/invest/gold-rate-today-november-4-2026-check-24k-22k-20k-18k-gold-jewellery-prices-from-malabar-gold-diamonds-kalyan-jewellers-tanishq-ibja-in-delhi-mumbai-hyderabad-more-cities/gold-rate-in-delhi-today/slideshow/135537610.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price in Pakistan Rs 20,000 cheaper than India! Check 24K and 22K rate comparison",
-            "description": "Gold prices in Pakistan are considerably cheaper than in India, even after converting Pakistani rupees into Indian currency. On November 4, 2026, 24-carat gold in Pakistan was priced at approximately PKR 3,54,559 per 10 grams, translating to around Rs 1,21,65…",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T06:23:30Z",
-            "url": "https://economictimes.indiatimes.com/news/new-updates/gold-price-in-pakistan-rs-20000-cheaper-than-india-check-24k-and-22k-rate-comparison/articleshow/135521181.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price rises by Rs 600 per tola in Nepali market today",
-            "description": "KATHMANDU: The price of gold has continued to rise in the domestic market, increasing by Rs 600 per tola on Wednesday, while the price of silver has declined. According to the Federation of Nepal Gold and Silver Dealers’ Associations, the price of gold has be…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-11-04T05:21:58Z",
-            "url": "https://english.khabarhub.com/2026/04/574424/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rises as dollar weakens ahead of US midterm election results",
-            "description": "Spot gold was up 0.1% to $3,931.24 per ounce by 0306 GMT, ‌while US gold futures for December delivery steadied at $3,941.40",
-            "source": "BusinessLine",
-            "published_at": "2026-11-04T04:28:09Z",
-            "url": "https://www.thehindubusinessline.com/markets/gold/gold-rises-as-dollar-weakens-ahead-of-us-midterm-election-results/article71663950.ece",
-            "sentiment_score": -0.2227,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "MCX gold prices at Rs 1.39 lakh/10 gram; silver tanks Rs 2,000/kg as US jobs data fuels rate hike bets. Key levels to track ahead of Dhanteras",
-            "description": "In the domestic market, MCX silver futures for December 2026 delivery were down by Rs 2,000 to Rs 1,77,784 per kg. Gold futures for December 2026 delivery fell marginally to Rs 1,30,300 per 10 grams.",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T04:12:08Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/mcx-gold-prices-at-rs-1-39-lakh/10-gram-silver-tanks-rs-2000/kg-as-us-jobs-data-fuels-rate-hike-bets-key-levels-to-track-ahead-of-dhanteras/articleshow/135522437.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "ASX 200 Slides Below 8,830 as US Midterm Jitters and RBA's Fifth Rate Hike Weigh on Australian Shares",
-            "description": "The ASX 200 fell 0.72% as investors assessed US midterm election results and the RBA's latest rate rise, with financial and healthcare stocks leading losses.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-04T03:31:52Z",
-            "url": "https://www.ibtimes.com.au/australian-shares-fall-us-midterm-elections-rba-rate-rise-1877885",
-            "sentiment_score": 0.0866,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction: Will gold bounce back on Wednesday? Check outlook for November 4",
-            "description": "On the MCX, gold prices ended flat, while silver gained momentum to close higher. As for international prices, spot gold dipped 0.3% to $3,948.75 per ounce, while US gold futures for December delivery gained 0.1% to $3,943.20. Spot silver fell 0.2% to $49.67 …",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T02:27:00Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-bounce-back-on-wednesday-check-outlook-for-november-4/articleshow/135518967.cms",
-            "sentiment_score": 0.1911,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold firms on softer oil prices, US midterm results awaited",
-            "description": "Gold prices experienced a modest uptick in early Asian markets, spurred by a decline in oil prices that has helped ease inflationary concerns. This shift is shaping investor expectations around potential actions from the Federal Reserve. Attention is also foc…",
-            "source": "The Times of India",
-            "published_at": "2026-11-04T02:00:54Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-firms-on-softer-oil-prices-us-midterm-results-awaited/articleshow/135518255.cms",
-            "sentiment_score": 0.0903,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0452,
+        "average_score": 0.0443,
         "label": "เป็นกลาง (Neutral)",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
+            "description": "Bitcoin slipped under $80,000 toward the mid-$76,000s after jobless claims hit a 57-year low and spot ETFs flipped +$74.6M. We frame it as a reset inside a bitcoin recovery.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-06T00:30:39Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-recovery-after-80k-slip-is-buying-reset/",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Tech Rout Wipes Out $2.5 Trillion, With AI Investors Anticipating Heavier Scrutiny From Dems",
+            "description": "Tech stocks plummeted amid fears inbound Democrats will end Donald Trump's era of laissez-faire regulation and backdoor deals.",
+            "source": "Gizmodo.com",
+            "published_at": "2026-11-05T23:44:09Z",
+            "url": "https://gizmodo.com/tech-rout-wipes-out-2-5-trillion-with-ai-investors-anticipating-heavier-scrutiny-2000835986",
+            "sentiment_score": -0.1264,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Treasury bought back $6B in bonds, but dealers say bigger isn’t enough",
+            "description": "The US Treasury bought back $6 billion of older government bonds on Nov. 4, hitting the full limit of its latest operation. On paper, that looks like a success for a program designed to make the Treasury market easier to trade. But there's a catch. One bond a…",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-05T23:20:13Z",
+            "url": "https://cryptoslate.com/treasury-bought-back-6b-in-bonds-but-dealers-say-bigger-isnt-enough/",
+            "sentiment_score": 0.282,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI on FIRE",
+            "description": "If robots are coming for your job then should you get out before the shooting starts?\nThe post AI on FIRE appeared first on Monevator.",
+            "source": "Monevator.com",
+            "published_at": "2026-11-05T23:14:16Z",
+            "url": "https://monevator.com/ai-on-fire/",
+            "sentiment_score": -0.4824,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "The key to understanding the post-election market gyrations is White Castle",
+            "description": "The carnage might not end anytime soon. \"We're setting up for a market bottom,\" one CEO told On The Money.",
+            "source": "New York Post",
+            "published_at": "2026-11-05T23:08:59Z",
+            "url": "https://nypost.com/2026/11/05/business/the-key-to-understanding-the-post-election-market-gyrations-is-white-castle/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Trading Day: A November 5 market bonfire",
+            "description": "ORLANDO, Florida, Nov 5 : US stocks plunged on Thursday, led by a ferocious selloff in tech and AI-related stocks as investors reassessed implications for the AI data center buildout from the Democrats' sweeping wins in this week's midterm elections. Chip sto…",
+            "source": "CNA",
+            "published_at": "2026-11-05T22:09:50Z",
+            "url": "https://www.channelnewsasia.com/business/trading-day-november-5-market-bonfire-6529156",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "The October jobs report is out Friday. Here's everything to expect",
+            "description": "The Bureau of Labor Statistics releases the October nonfarm payrolls report Friday at 8:30 a.m. ET.",
+            "source": "CNBC",
+            "published_at": "2026-11-05T21:32:52Z",
+            "url": "https://www.cnbc.com/2026/11/05/october-jobs-report-preview.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "NASDAQ 100 plunges 6%, erasing $2.3T in market value",
+            "description": "The Nasdaq 100's plunge signals a broader tech market downturn, impacting cryptocurrencies and reducing confidence in Bitcoin's near-term growth.\nThe post NASDAQ 100 plunges 6%, erasing $2.3T in market value appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T21:15:32Z",
+            "url": "https://cryptobriefing.com/nasdaq-100-plunges-6-erasing-23t-in-market-value/",
+            "sentiment_score": 0.4802,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns",
+            "description": "Hammack's stance on restrictive rates highlights the Fed's focus on inflation control, potentially impacting economic growth and market stability.\nThe post Cleveland Fed’s Hammack backs restrictive rates amid inflation concerns appeared first on Crypto Briefi…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-05T20:52:48Z",
+            "url": "https://cryptobriefing.com/cleveland-feds-hammack-backs-restrictive-rates-amid-inflation-concerns/",
+            "sentiment_score": 0.0659,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Fed: Banks Tightened Lending Standards for Small Businesses and Subprime Consumers",
@@ -2588,117 +2338,27 @@
             "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
             "sentiment_score": 0.1376,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Steep losses in Tesla, Space X, data centre operators",
-            "description": "US stocks dropped sharply today, with the Nasdaq poised to confirm correction territory as steep losses in chip and data center-related stocks weighed a day after the Democrats' sweeping midterm election victory powered a broad-based rally.",
-            "source": "RTE",
-            "published_at": "2026-11-05T16:24:42Z",
-            "url": "https://www.rte.ie/news/business/2026/1105/1598171-us-stocks-down/",
-            "sentiment_score": -0.3347,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day since 1896",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday’s post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 2.2%, or over 1,200 points. The S&P 500 (^GSPC\r\n) fell 3.3%, and the tech-heavy Nasdaq…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T16:17:42Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined",
-            "description": "The rapid growth in Stacks bonds highlights increasing institutional interest and could significantly impact Bitcoin's staking ecosystem.\nThe post Stacks Bond 3 hits 1,005 BTC, topping the first two bonds combined appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T16:05:21Z",
-            "url": "https://cryptobriefing.com/stacks-bond-3-1005-btc-bitcoin-staking/",
-            "sentiment_score": 0.2042,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-            "description": "The Federal Reserve Board on Thursday announced the termination of the enforcement action listed below:  Allegiant United Holdings, LLC, Irvine California, Nan",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-05T16:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-            "sentiment_score": 0.4215,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Heist Triggers Alarm Among Banking Regulators",
-            "description": "Last week’s record hack of cryptocurrency exchange Binance prompted regulators in the United States to check in with the country’s banks, Reuters reported Thursday (Nov. 5), citing unnamed sources. Supervisors at the Federal Reserve and the Office of the Comp…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-05T15:33:04Z",
-            "url": "https://www.pymnts.com/legal/bank-regulation/2026/binance-heist-triggers-alarm-among-banking-regulators/",
-            "sentiment_score": -0.1116,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000",
-            "description": "The post Fewer Families Own Stocks Directly, 19.0% in 2025, but Their Typical Holding Jumped 83% to $30,000 appeared first on 24/7 Wall St..\nTwo numbers in the latest Survey of Consumer Finances from the Federal Reserve are moving in opposite directions. Fewe…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T15:20:35Z",
-            "url": "https://biztoc.com/x/f1414340018a9d69",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Failure of Both the Republicans and Democrats to Create Credit for Reindustrialization?",
-            "description": "Until the structural incentives that favor financial returns over productive investment are confronted directly, US economic policy will continue to find it easier to inflate existing assets…\n***\nThe failure of both Republican and Democratic administrations t…",
-            "source": "Globalresearch.ca",
-            "published_at": "2026-11-05T15:19:49Z",
-            "url": "https://www.globalresearch.ca/why-couldnt-trump-nor-democrats-create-credit-reindustrialization-rather-than-qe/5945226",
-            "sentiment_score": 0.1925,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour",
-            "description": "The liquidation highlights crypto market volatility, emphasizing the risks of high leverage and potential for rapid price fluctuations.\nThe post Bitcoin, Ether drop as $370M in leveraged positions liquidated in an hour appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T15:12:55Z",
-            "url": "https://cryptobriefing.com/bitcoin-ether-drop-as-370m-in-leveraged-positions-liquidated-in-an-hour/",
-            "sentiment_score": -0.3394,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Treasury’s cash plan points to a possible December liquidity window for Bitcoin",
-            "description": "Treasury’s November 4 plan frames a possible December respite, while tax receipts and a projected January cash peak complicate the reserve case.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Cataly…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-05T15:10:14Z",
-            "url": "https://cryptoslate.com/bitcoins-liquidity-hopes-sit-between-two-projected-treasury-cash-peaks/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.2636,
+      "net_score": 0.3712,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
+        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4074.30005,
+      "price_now": 4079.5,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 48.7,
-      "rsi_signal": "โซนกลาง (RSI=48.7)",
+      "rsi_value": 50.7,
+      "rsi_signal": "โซนกลาง (RSI=50.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 18.41417,
-      "suggested_sl_distance": 27.62125,
+      "atr_value": 17.77029,
+      "suggested_sl_distance": 26.65544,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2712,6 +2372,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-06T20:47:48.525360+00:00"
+    "generated_at": "2026-11-07T00:49:00.955651+00:00"
   }
 ]
