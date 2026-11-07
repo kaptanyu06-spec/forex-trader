@@ -6,10 +6,50 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0971,
-        "label": "ลบเล็กน้อย",
-        "article_count": 18,
+        "average_score": 0.0413,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 22,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Ireland’s economic leprechaun is running amok in Europe",
+            "description": "State’s wonky growth metrics now determine whether Europe is growing or stagnating",
+            "source": "The Irish Times",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.irishtimes.com/business/economy/2026/11/06/irelands-economic-leprechaun-is-running-amok-in-europe/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Markets fret over growth and inflation despite easing oil prices",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-despite-easing-oil-prices-6530261",
+            "sentiment_score": 0.1749,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-just-tech-rout-gains-speed-6530261",
+            "sentiment_score": 0.4518,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "EUR",
             "title": "Trading Day: A November 5 market bonfire",
@@ -193,10 +233,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0443,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0752,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Inflation, rate-hike woes to limit gains in silver, may retest $48: Analyst",
+            "description": "Silver Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that Silver remains under significant pressure after breaking below support of $54.50. A sustained recovery above $55 is needed to ease the current selling",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:40:41Z",
+            "url": "https://www.business-standard.com/markets/news/inflation-rate-hike-woes-to-limit-gains-in-silver-may-retest-48-analyst-126110600692_1.html",
+            "sentiment_score": 0.1333,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s rate cut relief stalls as service inflation flares",
+            "description": "October’s services prices index eased to 73, but its 12-month average reached 69.2, the highest since April 2023.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-06T06:40:14Z",
+            "url": "https://cryptoslate.com/bitcoins-rate-cut-relief-stalls-as-service-inflation-flares/",
+            "sentiment_score": 0.2737,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US midterm outcome mildly positive for gold, but Fed risks persist: Analyst",
+            "description": "Gold Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that gold's upside could remain constrained by expectations of further Fed tightening, particularly if US economic data remain firm or oil prices rebound.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:19:43Z",
+            "url": "https://www.business-standard.com/markets/news/us-midterm-outcome-mildly-positive-for-gold-but-fed-risks-persist-analyst-126110600639_1.html",
+            "sentiment_score": 0.019,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Black Thursday on Wall Street: $2.5 trillion wiped off Nasdaq as index plunges 5.5%, Dow Jones sheds 1,800 points",
+            "description": "Worst trading session since the Trump tariff crisis of April 2025, as semiconductor stocks collapse, mass sell-offs sweep across sectors and the VIX fear gauge surges – Democrats’ victory turns the AI narrative on its head\nThe post Black Thursday on Wall Stre…",
+            "source": "Protothema.gr",
+            "published_at": "2026-11-06T06:03:00Z",
+            "url": "https://en.protothema.gr/2026/11/06/black-thursday-on-wall-street-2-5-trillion-wiped-off-nasdaq-as-index-plunges-5-5-dow-jones-sheds-1800-points/",
+            "sentiment_score": -0.2818,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why I’m Choosing Exit and Build Over Politics (A Conversation with John Bush)",
+            "description": "No Savior Is Coming to Save You I have been saying this for years, and I will say it again with even greater conviction after my latest conversation with John Bush: no politician is coming to save you. Not Trump, not anyone else. The savior complex that grips…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-why-im-choosing-exit-and-build-over-politics.html",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Half of Americans surveyed are skipping meals as grocery bills climb",
+            "description": "Food service workers face hunger amid rising costs and stagnant wages. Household food insecurity has more than doubled since June 2020. Food banks report rising demand as SNAP benefits are frozen. Half of respondents in one recent survey now skip meals due to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-half-of-americans-surveyed-are-skipping-meals-as-grocery-bills-climb.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation despite easing oil prices",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-despite-easing-oil-prices-6530261",
+            "sentiment_score": 0.1749,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-just-tech-rout-gains-speed-6530261",
+            "sentiment_score": 0.4518,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+            "description": "Nov 6 : Japanese investors bought foreign long-term bonds for the first time in seven weeks in the week ended October 31, opting for safety amid a selloff in technology stocks and after the Federal Reserve held interest rates steady.These investors shrugged o…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:06:44Z",
+            "url": "https://www.channelnewsasia.com/business/japanese-investors-snap-up-foreign-long-term-bonds-tech-stocks-slide-6530196",
+            "sentiment_score": 0.2101,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold vs silver this Dhanteras: How much should you hold in your portfolio?",
+            "description": "Gold continues to maintain its appeal as a relatively defensive asset, while silver offers greater upside potential but carries a higher degree of volatility",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T04:48:10Z",
+            "url": "https://www.business-standard.com/finance/personal-finance/gold-vs-silver-this-dhanteras-how-much-should-you-hold-in-your-portfolio-126110600507_1.html",
+            "sentiment_score": 0.1115,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold eases on inflation worries from higher oil; US payrolls data in focus",
+            "description": "Spot gold fell 0.6% to $4,063.39 per ounce by ‌0248 GMT, but was up 4% so far this ‌week; ⁠US gold futures for December delivery dropped 1% to $4,072.90",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T04:19:07Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus/article71672800.ece",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold continue its surge on Dhanteras? Check outlook for November 6",
+            "description": "In today’s session, Spot gold rose 0.4% to $4,103.55 per ounce, taking its weekly gains to 5.9%. US gold futures for December delivery were little changed at $4,112.80 per ounce, while spot silver gained 0.5% to $52.01 per ounce.",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:34:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-continue-its-surge-on-dhanteras-check-outlook-for-november-6/articleshow/135590837.cms",
+            "sentiment_score": 0.1837,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Darwall",
+            "description": "“Adopting the goal of Net Zero would be the self-inflicted price the West paid for obtaining a climate agreement at Paris,” Darwall writes.\nThe post Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Da…",
+            "source": "Wattsupwiththat.com",
+            "published_at": "2026-11-06T02:14:00Z",
+            "url": "https://wattsupwiththat.com/2026/11/05/sceptic-on-climate-conventional-on-russia-a-review-of-the-age-of-error-and-the-wests-undoing-by-rupert-darwall/",
+            "sentiment_score": -0.4387,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+            "description": "The dollar maintained its ground against key currencies as traders flocked to safe havens following a volatile market downturn. Concerns mounted over a potential Democratic majority in Congress, raising alarms about stricter regulations on the artificial inte…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms",
+            "sentiment_score": 0.1147,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China’s 10-year treasury futures hit record high amid yield drop",
+            "description": "China's bond demand surge may alter global risk perceptions and yield expectations, potentially impacting U.S. Treasury market dynamics.\nThe post China’s 10-year treasury futures hit record high amid yield drop appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-06T01:42:44Z",
+            "url": "https://cryptobriefing.com/chinas-10-year-treasury-futures-hit-record-high-amid-yield-drop/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
@@ -336,170 +536,10 @@
             "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:09:02Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:06:22Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Beth Hammack and Thomas Barkin favour gradual rate hikes as inflation stays high",
-            "description": "Two officials from the Federal Reserve have supported modest and steady interest rate increases to combat high inflation. They believe these adjustments should minimize disruptions for households, businesses, and financial markets. The Fed has left interest r…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:42:40Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-hammack-and-barkin-favour-gradual-rate-hikes-as-inflation-stays-high/articleshow/135585595.cms",
-            "sentiment_score": 0.471,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day ever",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday's post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 3%, or over 1,600 points. The S&P 500 (^GSPC\r\n) fell 4%, and the tech-heavy Nasdaq Com…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T19:38:49Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US yields fall in choppy session as oil rises and equities sink",
-            "description": "As geopolitical tensions change the landscape, US Treasuries are witnessing a spike in demand while equity markets take a hit and oil prices show volatility. Investors are reassessing their outlook on the US-Iran relations following new election results. The …",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:19:17Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-fall-in-choppy-session-as-oil-rises-and-equities-sink/articleshow/135585328.cms",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock Takes: New Zealand election takes back seat as US midterms lift sharemarkets",
-            "description": "The local market has been focused more on oil prices than domestic politics.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-11-05T19:00:00Z",
-            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-new-zealand-election-takes-back-seat-as-us-midterms-lift-sharemarkets/premium/N7SK6ROYW5EIJMO2DWDL4ZLAHY/",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading",
-            "description": "Looks like Hollywood is going to do something about insider trading before the U.S. Congress does something about its own insider trading.\nThe post Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading appeared firs…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-05T18:50:31Z",
-            "url": "https://www.breitbart.com/entertainment/2026/11/05/nolte-next-james-bond-hollywood-studios-warn-staffers-against-prediction-market-insider-trading/",
-            "sentiment_score": 0.0101,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline",
-            "description": "The average long-term U.S. mortgage rate fell for the third straight week, offering some relief to prospective homebuyers facing higher home prices",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-05T18:35:00Z",
-            "url": "https://abcnews.com/Business/wireStory/average-us-30-year-mortgage-rate-falls-718-137883201",
-            "sentiment_score": 0.3421,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-            "description": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-05T18:32:45Z",
-            "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks",
-            "sentiment_score": 0.1746,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges",
-            "description": "The report highlights Bitcoin's market volatility impact on corporate profits, influencing future market sentiment and investment strategies.\nThe post American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T18:29:38Z",
-            "url": "https://cryptobriefing.com/american-bitcoin-corp-reports-126m-q3-profit-as-bitcoin-value-surges/",
-            "sentiment_score": 0.6946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern California homeowners sitting on $1.6 trillion in tappable equity",
-            "description": "Southern California homeowners sitting on $1.6 trillion in tappable equityocregister.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-11-05T17:47:14Z",
-            "url": "https://wpdash.medianewsgroup.com/2026/11/05/southern-california-homeowners-sitting-on-1-6-trillion-in-tappable-equity/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says",
-            "description": "Democratic control may limit Trump's Fed influence, but resilient employment data could delay rate cuts, impacting economic strategies.\nThe post Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T17:37:28Z",
-            "url": "https://cryptobriefing.com/federal-reserve-constraints-and-job-data/",
-            "sentiment_score": -0.6341,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Does a ‘Blue Wave’ Mean for Mortgage Rates?",
-            "description": "Democrats won big in the midterms, but mortgage rates have bigger forces to reckon with.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-05T17:09:33Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-11-5-26",
-            "sentiment_score": 0.0987,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High",
-            "description": "The post The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High appeared first on 24/7 Wall St..\nHouseholds Are Reaching for Plastic Instead of Car Keys\nThis week, the Federal Reserve released its October survey of bank loan officers. In the ho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T17:08:07Z",
-            "url": "https://biztoc.com/x/0754cf63dd7baf88",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is Bitcoin price crashing today? BTC USD falls toward $76,000 amid stock market sell-off and $370 million in crypto liquidations",
-            "description": "Bitcoin (BTC USD) price crash today: Bitcoin has fallen back toward $76,000 after failing to hold its recovery above $80,000. A sell-off in technology stocks added to the pressure, while nearly $370 million in leveraged crypto positions were liquidated in abo…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T16:45:08Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-is-bitcoin-price-crashing-today-btc-usd-falls-toward-76000-amid-stock-market-sell-off-and-370-million-in-crypto-liquidations/articleshow/135579593.cms",
-            "sentiment_score": -0.2597,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
-            "description": "Bitcoin plunged nearly 5% as AI stocks sank, Democratic midterm wins raised fresh policy questions, and forced liquidations erased a Wednesday rally that had been fueled partly by short covering.",
-            "source": "Decrypt",
-            "published_at": "2026-11-05T16:29:11Z",
-            "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.1414,
+      "net_score": -0.0339,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -530,7 +570,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=28.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-07T00:49:00.955651+00:00"
+    "generated_at": "2026-11-07T06:59:10.937354+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -539,10 +579,90 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0739,
-        "label": "ลบเล็กน้อย",
+        "average_score": -0.0287,
+        "label": "เป็นกลาง (Neutral)",
         "article_count": 25,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Inflation, rate-hike woes to limit gains in silver, may retest $48: Analyst",
+            "description": "Silver Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that Silver remains under significant pressure after breaking below support of $54.50. A sustained recovery above $55 is needed to ease the current selling",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:40:41Z",
+            "url": "https://www.business-standard.com/markets/news/inflation-rate-hike-woes-to-limit-gains-in-silver-may-retest-48-analyst-126110600692_1.html",
+            "sentiment_score": 0.1333,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "US midterm outcome mildly positive for gold, but Fed risks persist: Analyst",
+            "description": "Gold Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that gold's upside could remain constrained by expectations of further Fed tightening, particularly if US economic data remain firm or oil prices rebound.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:19:43Z",
+            "url": "https://www.business-standard.com/markets/news/us-midterm-outcome-mildly-positive-for-gold-but-fed-risks-persist-analyst-126110600639_1.html",
+            "sentiment_score": 0.019,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Rupee falls 9 paise to 94.50 against US dollar during early trade",
+            "description": "The rupee depreciated 9 paise to 94.50 against the US dollar in early trade on Friday as the broad strength of the American currency in the overseas market dented investor sentiment.\nForex traders said overnight gains in crude oil prices and a recovery in the…",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T05:02:19Z",
+            "url": "https://www.business-standard.com/finance/news/rupee-falls-9-paise-to-94-50-against-us-dollar-during-early-trade-126110600478_1.html",
+            "sentiment_score": 0.0679,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Rupee falls 9 paise to 94.50 against US dollar in early trade",
+            "description": "Rupee slips to 94.50 per dollar in early trade as a stronger US dollar and oil prices weigh on sentiment.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T04:36:55Z",
+            "url": "https://www.thehindubusinessline.com/markets/forex/rupee-falls-9-paise-to-9450-against-us-dollar-in-early-trade/article71672838.ece",
+            "sentiment_score": 0.1145,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Bank of England raises rates for first time since 2023 and warns more likely",
+            "description": "Policymakers said the amount of inflation pressure coming down the road after months of high energy prices required a rate rise now.",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-06T04:24:40Z",
+            "url": "https://biztoc.com/x/39a5b89f30257a7b",
+            "sentiment_score": -0.0796,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Darwall",
+            "description": "“Adopting the goal of Net Zero would be the self-inflicted price the West paid for obtaining a climate agreement at Paris,” Darwall writes.\nThe post Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Da…",
+            "source": "Wattsupwiththat.com",
+            "published_at": "2026-11-06T02:14:00Z",
+            "url": "https://wattsupwiththat.com/2026/11/05/sceptic-on-climate-conventional-on-russia-a-review-of-the-age-of-error-and-the-wests-undoing-by-rupert-darwall/",
+            "sentiment_score": -0.4387,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+            "description": "The dollar maintained its ground against key currencies as traders flocked to safe havens following a volatile market downturn. Concerns mounted over a potential Democratic majority in Congress, raising alarms about stricter regulations on the artificial inte…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms",
+            "sentiment_score": 0.1147,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Carney unveils budget to strengthen Canada's economy as Trump's trade war continues",
@@ -712,94 +832,174 @@
             "url": "https://biztoc.com/x/ecce5da8bffc1895",
             "sentiment_score": 0.5367,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "\"Neither Does It Seem To Be The Last\": Bank Of England Hikes For First Time Since 2023, Sees Inflation Near 5%",
-            "description": "\"Neither Does It Seem To Be The Last\": Bank Of England Hikes For First Time Since 2023, Sees Inflation Near 5%\n \nFor the first time in 1,190 days, the Bank of England has raised interest rates.\nOn Thursday the BoE's Monetary Policy Committee voted 8-1 to lift…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T14:02:59Z",
-            "url": "https://biztoc.com/x/07d4c985ca917d49",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Interest rate rise in midst of cost of living crisis will leave many incredulous",
-            "description": "Bank’s decision goes contrary to analysis from Office for Budget Responsibility that predicts lower inflation and little impetus for wage growth\nBank of England raises interest rates to 4%\nBusiness live – latest updates\nAn interest rate rise by the Bank of En…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T13:32:01Z",
-            "url": "https://biztoc.com/x/b07c111577c1b65a",
-            "sentiment_score": 0.0024,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England hikes rates to 4%, first raise since 2023, says more may come amid high UK inflation",
-            "description": "In a decisive move, the Bank of England has escalated interest rates to 4% amidst spiraling inflation, projected to hit 4.8% in Q2 next year. Governor Andrew Bailey cautioned that further hikes may be necessary, especially with ongoing global conflicts. Marke…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T13:06:47Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/bank-of-england-hikes-rates-to-4-first-raise-since-2023-says-more-may-come-amid-high-uk-inflation/articleshow/135574865.cms",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Faisal Islam: How high will interest rates go?",
-            "description": "The BBC's economics editor views one more interest rate as likely, but thinks that will be all.",
-            "source": "BBC News",
-            "published_at": "2026-11-05T12:53:57Z",
-            "url": "https://www.bbc.co.uk/news/articles/ckr5y0y37gv3o",
-            "sentiment_score": 0.4063,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England raises main interest rate a quarter point to 4% as Iran war stokes inflation",
-            "description": "Bank of England raises main interest rate a quarter point to 4% as Iran war stokes inflation",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-05T12:49:19Z",
-            "url": "https://abcnews.com/US/wireStory/bank-england-raises-main-interest-rate-quarter-point-137871888",
-            "sentiment_score": -0.2263,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England raises interest rates to 4%, the first increase in more than three years",
-            "description": "Jack Fenwick\nPolitical correspondent\nWhile this is a decision clearly driven by international events, it’s still not easy for the government.\nInterest rates are an issue that Labour ministers repeatedly turn to whenever they’re asked tough questions about the…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T12:45:29Z",
-            "url": "https://biztoc.com/x/6b242bda83964c90",
-            "sentiment_score": 0.5801,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Bank of England raises rates for first time since 2023, says more may come",
-            "description": "The BoE raised its key rate to 4% from 3.75%, warning that further hikes may be needed if the US-Iran conflict keeps energy prices elevated.",
-            "source": "Business Standard",
-            "published_at": "2026-11-05T12:37:59Z",
-            "url": "https://www.business-standard.com/world-news/bank-of-england-raises-rates-for-first-time-since-2023-says-more-may-come-126110501662_1.html",
-            "sentiment_score": -0.1145,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Live: Bank of England to announce latest interest rate decision",
-            "description": "Interest rates are expected to rise for the first time in three years despite the US midterm elections triggering a drop in oil prices.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T12:37:46Z",
-            "url": "https://biztoc.com/x/1f3dc710a26a70e6",
-            "sentiment_score": 0.389,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0443,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0752,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Inflation, rate-hike woes to limit gains in silver, may retest $48: Analyst",
+            "description": "Silver Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that Silver remains under significant pressure after breaking below support of $54.50. A sustained recovery above $55 is needed to ease the current selling",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:40:41Z",
+            "url": "https://www.business-standard.com/markets/news/inflation-rate-hike-woes-to-limit-gains-in-silver-may-retest-48-analyst-126110600692_1.html",
+            "sentiment_score": 0.1333,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s rate cut relief stalls as service inflation flares",
+            "description": "October’s services prices index eased to 73, but its 12-month average reached 69.2, the highest since April 2023.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-06T06:40:14Z",
+            "url": "https://cryptoslate.com/bitcoins-rate-cut-relief-stalls-as-service-inflation-flares/",
+            "sentiment_score": 0.2737,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US midterm outcome mildly positive for gold, but Fed risks persist: Analyst",
+            "description": "Gold Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that gold's upside could remain constrained by expectations of further Fed tightening, particularly if US economic data remain firm or oil prices rebound.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:19:43Z",
+            "url": "https://www.business-standard.com/markets/news/us-midterm-outcome-mildly-positive-for-gold-but-fed-risks-persist-analyst-126110600639_1.html",
+            "sentiment_score": 0.019,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Black Thursday on Wall Street: $2.5 trillion wiped off Nasdaq as index plunges 5.5%, Dow Jones sheds 1,800 points",
+            "description": "Worst trading session since the Trump tariff crisis of April 2025, as semiconductor stocks collapse, mass sell-offs sweep across sectors and the VIX fear gauge surges – Democrats’ victory turns the AI narrative on its head\nThe post Black Thursday on Wall Stre…",
+            "source": "Protothema.gr",
+            "published_at": "2026-11-06T06:03:00Z",
+            "url": "https://en.protothema.gr/2026/11/06/black-thursday-on-wall-street-2-5-trillion-wiped-off-nasdaq-as-index-plunges-5-5-dow-jones-sheds-1800-points/",
+            "sentiment_score": -0.2818,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why I’m Choosing Exit and Build Over Politics (A Conversation with John Bush)",
+            "description": "No Savior Is Coming to Save You I have been saying this for years, and I will say it again with even greater conviction after my latest conversation with John Bush: no politician is coming to save you. Not Trump, not anyone else. The savior complex that grips…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-why-im-choosing-exit-and-build-over-politics.html",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Half of Americans surveyed are skipping meals as grocery bills climb",
+            "description": "Food service workers face hunger amid rising costs and stagnant wages. Household food insecurity has more than doubled since June 2020. Food banks report rising demand as SNAP benefits are frozen. Half of respondents in one recent survey now skip meals due to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-half-of-americans-surveyed-are-skipping-meals-as-grocery-bills-climb.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation despite easing oil prices",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-despite-easing-oil-prices-6530261",
+            "sentiment_score": 0.1749,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-just-tech-rout-gains-speed-6530261",
+            "sentiment_score": 0.4518,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+            "description": "Nov 6 : Japanese investors bought foreign long-term bonds for the first time in seven weeks in the week ended October 31, opting for safety amid a selloff in technology stocks and after the Federal Reserve held interest rates steady.These investors shrugged o…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:06:44Z",
+            "url": "https://www.channelnewsasia.com/business/japanese-investors-snap-up-foreign-long-term-bonds-tech-stocks-slide-6530196",
+            "sentiment_score": 0.2101,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold vs silver this Dhanteras: How much should you hold in your portfolio?",
+            "description": "Gold continues to maintain its appeal as a relatively defensive asset, while silver offers greater upside potential but carries a higher degree of volatility",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T04:48:10Z",
+            "url": "https://www.business-standard.com/finance/personal-finance/gold-vs-silver-this-dhanteras-how-much-should-you-hold-in-your-portfolio-126110600507_1.html",
+            "sentiment_score": 0.1115,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold eases on inflation worries from higher oil; US payrolls data in focus",
+            "description": "Spot gold fell 0.6% to $4,063.39 per ounce by ‌0248 GMT, but was up 4% so far this ‌week; ⁠US gold futures for December delivery dropped 1% to $4,072.90",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T04:19:07Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus/article71672800.ece",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold continue its surge on Dhanteras? Check outlook for November 6",
+            "description": "In today’s session, Spot gold rose 0.4% to $4,103.55 per ounce, taking its weekly gains to 5.9%. US gold futures for December delivery were little changed at $4,112.80 per ounce, while spot silver gained 0.5% to $52.01 per ounce.",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:34:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-continue-its-surge-on-dhanteras-check-outlook-for-november-6/articleshow/135590837.cms",
+            "sentiment_score": 0.1837,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Darwall",
+            "description": "“Adopting the goal of Net Zero would be the self-inflicted price the West paid for obtaining a climate agreement at Paris,” Darwall writes.\nThe post Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Da…",
+            "source": "Wattsupwiththat.com",
+            "published_at": "2026-11-06T02:14:00Z",
+            "url": "https://wattsupwiththat.com/2026/11/05/sceptic-on-climate-conventional-on-russia-a-review-of-the-age-of-error-and-the-wests-undoing-by-rupert-darwall/",
+            "sentiment_score": -0.4387,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+            "description": "The dollar maintained its ground against key currencies as traders flocked to safe havens following a volatile market downturn. Concerns mounted over a potential Democratic majority in Congress, raising alarms about stricter regulations on the artificial inte…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms",
+            "sentiment_score": 0.1147,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China’s 10-year treasury futures hit record high amid yield drop",
+            "description": "China's bond demand surge may alter global risk perceptions and yield expectations, potentially impacting U.S. Treasury market dynamics.\nThe post China’s 10-year treasury futures hit record high amid yield drop appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-06T01:42:44Z",
+            "url": "https://cryptobriefing.com/chinas-10-year-treasury-futures-hit-record-high-amid-yield-drop/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
@@ -939,170 +1139,10 @@
             "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:09:02Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:06:22Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Beth Hammack and Thomas Barkin favour gradual rate hikes as inflation stays high",
-            "description": "Two officials from the Federal Reserve have supported modest and steady interest rate increases to combat high inflation. They believe these adjustments should minimize disruptions for households, businesses, and financial markets. The Fed has left interest r…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:42:40Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-hammack-and-barkin-favour-gradual-rate-hikes-as-inflation-stays-high/articleshow/135585595.cms",
-            "sentiment_score": 0.471,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day ever",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday's post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 3%, or over 1,600 points. The S&P 500 (^GSPC\r\n) fell 4%, and the tech-heavy Nasdaq Com…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T19:38:49Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US yields fall in choppy session as oil rises and equities sink",
-            "description": "As geopolitical tensions change the landscape, US Treasuries are witnessing a spike in demand while equity markets take a hit and oil prices show volatility. Investors are reassessing their outlook on the US-Iran relations following new election results. The …",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:19:17Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-fall-in-choppy-session-as-oil-rises-and-equities-sink/articleshow/135585328.cms",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock Takes: New Zealand election takes back seat as US midterms lift sharemarkets",
-            "description": "The local market has been focused more on oil prices than domestic politics.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-11-05T19:00:00Z",
-            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-new-zealand-election-takes-back-seat-as-us-midterms-lift-sharemarkets/premium/N7SK6ROYW5EIJMO2DWDL4ZLAHY/",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading",
-            "description": "Looks like Hollywood is going to do something about insider trading before the U.S. Congress does something about its own insider trading.\nThe post Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading appeared firs…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-05T18:50:31Z",
-            "url": "https://www.breitbart.com/entertainment/2026/11/05/nolte-next-james-bond-hollywood-studios-warn-staffers-against-prediction-market-insider-trading/",
-            "sentiment_score": 0.0101,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline",
-            "description": "The average long-term U.S. mortgage rate fell for the third straight week, offering some relief to prospective homebuyers facing higher home prices",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-05T18:35:00Z",
-            "url": "https://abcnews.com/Business/wireStory/average-us-30-year-mortgage-rate-falls-718-137883201",
-            "sentiment_score": 0.3421,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-            "description": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-05T18:32:45Z",
-            "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks",
-            "sentiment_score": 0.1746,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges",
-            "description": "The report highlights Bitcoin's market volatility impact on corporate profits, influencing future market sentiment and investment strategies.\nThe post American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T18:29:38Z",
-            "url": "https://cryptobriefing.com/american-bitcoin-corp-reports-126m-q3-profit-as-bitcoin-value-surges/",
-            "sentiment_score": 0.6946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern California homeowners sitting on $1.6 trillion in tappable equity",
-            "description": "Southern California homeowners sitting on $1.6 trillion in tappable equityocregister.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-11-05T17:47:14Z",
-            "url": "https://wpdash.medianewsgroup.com/2026/11/05/southern-california-homeowners-sitting-on-1-6-trillion-in-tappable-equity/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says",
-            "description": "Democratic control may limit Trump's Fed influence, but resilient employment data could delay rate cuts, impacting economic strategies.\nThe post Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T17:37:28Z",
-            "url": "https://cryptobriefing.com/federal-reserve-constraints-and-job-data/",
-            "sentiment_score": -0.6341,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Does a ‘Blue Wave’ Mean for Mortgage Rates?",
-            "description": "Democrats won big in the midterms, but mortgage rates have bigger forces to reckon with.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-05T17:09:33Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-11-5-26",
-            "sentiment_score": 0.0987,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High",
-            "description": "The post The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High appeared first on 24/7 Wall St..\nHouseholds Are Reaching for Plastic Instead of Car Keys\nThis week, the Federal Reserve released its October survey of bank loan officers. In the ho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T17:08:07Z",
-            "url": "https://biztoc.com/x/0754cf63dd7baf88",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is Bitcoin price crashing today? BTC USD falls toward $76,000 amid stock market sell-off and $370 million in crypto liquidations",
-            "description": "Bitcoin (BTC USD) price crash today: Bitcoin has fallen back toward $76,000 after failing to hold its recovery above $80,000. A sell-off in technology stocks added to the pressure, while nearly $370 million in leveraged crypto positions were liquidated in abo…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T16:45:08Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-is-bitcoin-price-crashing-today-btc-usd-falls-toward-76000-amid-stock-market-sell-off-and-370-million-in-crypto-liquidations/articleshow/135579593.cms",
-            "sentiment_score": -0.2597,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
-            "description": "Bitcoin plunged nearly 5% as AI stocks sank, Democratic midterm wins raised fresh policy questions, and forced liquidations erased a Wednesday rally that had been fueled partly by short covering.",
-            "source": "Decrypt",
-            "published_at": "2026-11-05T16:29:11Z",
-            "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.1182,
+      "net_score": -0.1039,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1133,7 +1173,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=30.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-07T00:49:00.955651+00:00"
+    "generated_at": "2026-11-07T06:59:10.937354+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1142,10 +1182,170 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0443,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0752,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Inflation, rate-hike woes to limit gains in silver, may retest $48: Analyst",
+            "description": "Silver Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that Silver remains under significant pressure after breaking below support of $54.50. A sustained recovery above $55 is needed to ease the current selling",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:40:41Z",
+            "url": "https://www.business-standard.com/markets/news/inflation-rate-hike-woes-to-limit-gains-in-silver-may-retest-48-analyst-126110600692_1.html",
+            "sentiment_score": 0.1333,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s rate cut relief stalls as service inflation flares",
+            "description": "October’s services prices index eased to 73, but its 12-month average reached 69.2, the highest since April 2023.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-06T06:40:14Z",
+            "url": "https://cryptoslate.com/bitcoins-rate-cut-relief-stalls-as-service-inflation-flares/",
+            "sentiment_score": 0.2737,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US midterm outcome mildly positive for gold, but Fed risks persist: Analyst",
+            "description": "Gold Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that gold's upside could remain constrained by expectations of further Fed tightening, particularly if US economic data remain firm or oil prices rebound.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:19:43Z",
+            "url": "https://www.business-standard.com/markets/news/us-midterm-outcome-mildly-positive-for-gold-but-fed-risks-persist-analyst-126110600639_1.html",
+            "sentiment_score": 0.019,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Black Thursday on Wall Street: $2.5 trillion wiped off Nasdaq as index plunges 5.5%, Dow Jones sheds 1,800 points",
+            "description": "Worst trading session since the Trump tariff crisis of April 2025, as semiconductor stocks collapse, mass sell-offs sweep across sectors and the VIX fear gauge surges – Democrats’ victory turns the AI narrative on its head\nThe post Black Thursday on Wall Stre…",
+            "source": "Protothema.gr",
+            "published_at": "2026-11-06T06:03:00Z",
+            "url": "https://en.protothema.gr/2026/11/06/black-thursday-on-wall-street-2-5-trillion-wiped-off-nasdaq-as-index-plunges-5-5-dow-jones-sheds-1800-points/",
+            "sentiment_score": -0.2818,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why I’m Choosing Exit and Build Over Politics (A Conversation with John Bush)",
+            "description": "No Savior Is Coming to Save You I have been saying this for years, and I will say it again with even greater conviction after my latest conversation with John Bush: no politician is coming to save you. Not Trump, not anyone else. The savior complex that grips…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-why-im-choosing-exit-and-build-over-politics.html",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Half of Americans surveyed are skipping meals as grocery bills climb",
+            "description": "Food service workers face hunger amid rising costs and stagnant wages. Household food insecurity has more than doubled since June 2020. Food banks report rising demand as SNAP benefits are frozen. Half of respondents in one recent survey now skip meals due to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-half-of-americans-surveyed-are-skipping-meals-as-grocery-bills-climb.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation despite easing oil prices",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-despite-easing-oil-prices-6530261",
+            "sentiment_score": 0.1749,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-just-tech-rout-gains-speed-6530261",
+            "sentiment_score": 0.4518,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+            "description": "Nov 6 : Japanese investors bought foreign long-term bonds for the first time in seven weeks in the week ended October 31, opting for safety amid a selloff in technology stocks and after the Federal Reserve held interest rates steady.These investors shrugged o…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:06:44Z",
+            "url": "https://www.channelnewsasia.com/business/japanese-investors-snap-up-foreign-long-term-bonds-tech-stocks-slide-6530196",
+            "sentiment_score": 0.2101,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold vs silver this Dhanteras: How much should you hold in your portfolio?",
+            "description": "Gold continues to maintain its appeal as a relatively defensive asset, while silver offers greater upside potential but carries a higher degree of volatility",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T04:48:10Z",
+            "url": "https://www.business-standard.com/finance/personal-finance/gold-vs-silver-this-dhanteras-how-much-should-you-hold-in-your-portfolio-126110600507_1.html",
+            "sentiment_score": 0.1115,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold eases on inflation worries from higher oil; US payrolls data in focus",
+            "description": "Spot gold fell 0.6% to $4,063.39 per ounce by ‌0248 GMT, but was up 4% so far this ‌week; ⁠US gold futures for December delivery dropped 1% to $4,072.90",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T04:19:07Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus/article71672800.ece",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold continue its surge on Dhanteras? Check outlook for November 6",
+            "description": "In today’s session, Spot gold rose 0.4% to $4,103.55 per ounce, taking its weekly gains to 5.9%. US gold futures for December delivery were little changed at $4,112.80 per ounce, while spot silver gained 0.5% to $52.01 per ounce.",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:34:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-continue-its-surge-on-dhanteras-check-outlook-for-november-6/articleshow/135590837.cms",
+            "sentiment_score": 0.1837,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Darwall",
+            "description": "“Adopting the goal of Net Zero would be the self-inflicted price the West paid for obtaining a climate agreement at Paris,” Darwall writes.\nThe post Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Da…",
+            "source": "Wattsupwiththat.com",
+            "published_at": "2026-11-06T02:14:00Z",
+            "url": "https://wattsupwiththat.com/2026/11/05/sceptic-on-climate-conventional-on-russia-a-review-of-the-age-of-error-and-the-wests-undoing-by-rupert-darwall/",
+            "sentiment_score": -0.4387,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+            "description": "The dollar maintained its ground against key currencies as traders flocked to safe havens following a volatile market downturn. Concerns mounted over a potential Democratic majority in Congress, raising alarms about stricter regulations on the artificial inte…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms",
+            "sentiment_score": 0.1147,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China’s 10-year treasury futures hit record high amid yield drop",
+            "description": "China's bond demand surge may alter global risk perceptions and yield expectations, potentially impacting U.S. Treasury market dynamics.\nThe post China’s 10-year treasury futures hit record high amid yield drop appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-06T01:42:44Z",
+            "url": "https://cryptobriefing.com/chinas-10-year-treasury-futures-hit-record-high-amid-yield-drop/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
@@ -1285,166 +1485,6 @@
             "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:09:02Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:06:22Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Beth Hammack and Thomas Barkin favour gradual rate hikes as inflation stays high",
-            "description": "Two officials from the Federal Reserve have supported modest and steady interest rate increases to combat high inflation. They believe these adjustments should minimize disruptions for households, businesses, and financial markets. The Fed has left interest r…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:42:40Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-hammack-and-barkin-favour-gradual-rate-hikes-as-inflation-stays-high/articleshow/135585595.cms",
-            "sentiment_score": 0.471,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day ever",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday's post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 3%, or over 1,600 points. The S&P 500 (^GSPC\r\n) fell 4%, and the tech-heavy Nasdaq Com…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T19:38:49Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US yields fall in choppy session as oil rises and equities sink",
-            "description": "As geopolitical tensions change the landscape, US Treasuries are witnessing a spike in demand while equity markets take a hit and oil prices show volatility. Investors are reassessing their outlook on the US-Iran relations following new election results. The …",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:19:17Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-fall-in-choppy-session-as-oil-rises-and-equities-sink/articleshow/135585328.cms",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock Takes: New Zealand election takes back seat as US midterms lift sharemarkets",
-            "description": "The local market has been focused more on oil prices than domestic politics.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-11-05T19:00:00Z",
-            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-new-zealand-election-takes-back-seat-as-us-midterms-lift-sharemarkets/premium/N7SK6ROYW5EIJMO2DWDL4ZLAHY/",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading",
-            "description": "Looks like Hollywood is going to do something about insider trading before the U.S. Congress does something about its own insider trading.\nThe post Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading appeared firs…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-05T18:50:31Z",
-            "url": "https://www.breitbart.com/entertainment/2026/11/05/nolte-next-james-bond-hollywood-studios-warn-staffers-against-prediction-market-insider-trading/",
-            "sentiment_score": 0.0101,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline",
-            "description": "The average long-term U.S. mortgage rate fell for the third straight week, offering some relief to prospective homebuyers facing higher home prices",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-05T18:35:00Z",
-            "url": "https://abcnews.com/Business/wireStory/average-us-30-year-mortgage-rate-falls-718-137883201",
-            "sentiment_score": 0.3421,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-            "description": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-05T18:32:45Z",
-            "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks",
-            "sentiment_score": 0.1746,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges",
-            "description": "The report highlights Bitcoin's market volatility impact on corporate profits, influencing future market sentiment and investment strategies.\nThe post American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T18:29:38Z",
-            "url": "https://cryptobriefing.com/american-bitcoin-corp-reports-126m-q3-profit-as-bitcoin-value-surges/",
-            "sentiment_score": 0.6946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern California homeowners sitting on $1.6 trillion in tappable equity",
-            "description": "Southern California homeowners sitting on $1.6 trillion in tappable equityocregister.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-11-05T17:47:14Z",
-            "url": "https://wpdash.medianewsgroup.com/2026/11/05/southern-california-homeowners-sitting-on-1-6-trillion-in-tappable-equity/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says",
-            "description": "Democratic control may limit Trump's Fed influence, but resilient employment data could delay rate cuts, impacting economic strategies.\nThe post Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T17:37:28Z",
-            "url": "https://cryptobriefing.com/federal-reserve-constraints-and-job-data/",
-            "sentiment_score": -0.6341,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Does a ‘Blue Wave’ Mean for Mortgage Rates?",
-            "description": "Democrats won big in the midterms, but mortgage rates have bigger forces to reckon with.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-05T17:09:33Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-11-5-26",
-            "sentiment_score": 0.0987,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High",
-            "description": "The post The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High appeared first on 24/7 Wall St..\nHouseholds Are Reaching for Plastic Instead of Car Keys\nThis week, the Federal Reserve released its October survey of bank loan officers. In the ho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T17:08:07Z",
-            "url": "https://biztoc.com/x/0754cf63dd7baf88",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is Bitcoin price crashing today? BTC USD falls toward $76,000 amid stock market sell-off and $370 million in crypto liquidations",
-            "description": "Bitcoin (BTC USD) price crash today: Bitcoin has fallen back toward $76,000 after failing to hold its recovery above $80,000. A sell-off in technology stocks added to the pressure, while nearly $370 million in leveraged crypto positions were liquidated in abo…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T16:45:08Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-is-bitcoin-price-crashing-today-btc-usd-falls-toward-76000-amid-stock-market-sell-off-and-370-million-in-crypto-liquidations/articleshow/135579593.cms",
-            "sentiment_score": -0.2597,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
-            "description": "Bitcoin plunged nearly 5% as AI stocks sank, Democratic midterm wins raised fresh policy questions, and forced liquidations erased a Wednesday rally that had been fueled partly by short covering.",
-            "source": "Decrypt",
-            "published_at": "2026-11-05T16:29:11Z",
-            "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
@@ -1515,7 +1555,7 @@
           }
         ]
       },
-      "net_score": -0.0844,
+      "net_score": -0.0535,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1546,7 +1586,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=59.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-07T00:49:00.955651+00:00"
+    "generated_at": "2026-11-07T06:59:10.937354+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1592,10 +1632,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0443,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0752,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Inflation, rate-hike woes to limit gains in silver, may retest $48: Analyst",
+            "description": "Silver Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that Silver remains under significant pressure after breaking below support of $54.50. A sustained recovery above $55 is needed to ease the current selling",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:40:41Z",
+            "url": "https://www.business-standard.com/markets/news/inflation-rate-hike-woes-to-limit-gains-in-silver-may-retest-48-analyst-126110600692_1.html",
+            "sentiment_score": 0.1333,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s rate cut relief stalls as service inflation flares",
+            "description": "October’s services prices index eased to 73, but its 12-month average reached 69.2, the highest since April 2023.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-06T06:40:14Z",
+            "url": "https://cryptoslate.com/bitcoins-rate-cut-relief-stalls-as-service-inflation-flares/",
+            "sentiment_score": 0.2737,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US midterm outcome mildly positive for gold, but Fed risks persist: Analyst",
+            "description": "Gold Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that gold's upside could remain constrained by expectations of further Fed tightening, particularly if US economic data remain firm or oil prices rebound.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:19:43Z",
+            "url": "https://www.business-standard.com/markets/news/us-midterm-outcome-mildly-positive-for-gold-but-fed-risks-persist-analyst-126110600639_1.html",
+            "sentiment_score": 0.019,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Black Thursday on Wall Street: $2.5 trillion wiped off Nasdaq as index plunges 5.5%, Dow Jones sheds 1,800 points",
+            "description": "Worst trading session since the Trump tariff crisis of April 2025, as semiconductor stocks collapse, mass sell-offs sweep across sectors and the VIX fear gauge surges – Democrats’ victory turns the AI narrative on its head\nThe post Black Thursday on Wall Stre…",
+            "source": "Protothema.gr",
+            "published_at": "2026-11-06T06:03:00Z",
+            "url": "https://en.protothema.gr/2026/11/06/black-thursday-on-wall-street-2-5-trillion-wiped-off-nasdaq-as-index-plunges-5-5-dow-jones-sheds-1800-points/",
+            "sentiment_score": -0.2818,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why I’m Choosing Exit and Build Over Politics (A Conversation with John Bush)",
+            "description": "No Savior Is Coming to Save You I have been saying this for years, and I will say it again with even greater conviction after my latest conversation with John Bush: no politician is coming to save you. Not Trump, not anyone else. The savior complex that grips…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-why-im-choosing-exit-and-build-over-politics.html",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Half of Americans surveyed are skipping meals as grocery bills climb",
+            "description": "Food service workers face hunger amid rising costs and stagnant wages. Household food insecurity has more than doubled since June 2020. Food banks report rising demand as SNAP benefits are frozen. Half of respondents in one recent survey now skip meals due to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-half-of-americans-surveyed-are-skipping-meals-as-grocery-bills-climb.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation despite easing oil prices",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-despite-easing-oil-prices-6530261",
+            "sentiment_score": 0.1749,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-just-tech-rout-gains-speed-6530261",
+            "sentiment_score": 0.4518,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+            "description": "Nov 6 : Japanese investors bought foreign long-term bonds for the first time in seven weeks in the week ended October 31, opting for safety amid a selloff in technology stocks and after the Federal Reserve held interest rates steady.These investors shrugged o…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:06:44Z",
+            "url": "https://www.channelnewsasia.com/business/japanese-investors-snap-up-foreign-long-term-bonds-tech-stocks-slide-6530196",
+            "sentiment_score": 0.2101,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold vs silver this Dhanteras: How much should you hold in your portfolio?",
+            "description": "Gold continues to maintain its appeal as a relatively defensive asset, while silver offers greater upside potential but carries a higher degree of volatility",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T04:48:10Z",
+            "url": "https://www.business-standard.com/finance/personal-finance/gold-vs-silver-this-dhanteras-how-much-should-you-hold-in-your-portfolio-126110600507_1.html",
+            "sentiment_score": 0.1115,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold eases on inflation worries from higher oil; US payrolls data in focus",
+            "description": "Spot gold fell 0.6% to $4,063.39 per ounce by ‌0248 GMT, but was up 4% so far this ‌week; ⁠US gold futures for December delivery dropped 1% to $4,072.90",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T04:19:07Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus/article71672800.ece",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold continue its surge on Dhanteras? Check outlook for November 6",
+            "description": "In today’s session, Spot gold rose 0.4% to $4,103.55 per ounce, taking its weekly gains to 5.9%. US gold futures for December delivery were little changed at $4,112.80 per ounce, while spot silver gained 0.5% to $52.01 per ounce.",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:34:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-continue-its-surge-on-dhanteras-check-outlook-for-november-6/articleshow/135590837.cms",
+            "sentiment_score": 0.1837,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Darwall",
+            "description": "“Adopting the goal of Net Zero would be the self-inflicted price the West paid for obtaining a climate agreement at Paris,” Darwall writes.\nThe post Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Da…",
+            "source": "Wattsupwiththat.com",
+            "published_at": "2026-11-06T02:14:00Z",
+            "url": "https://wattsupwiththat.com/2026/11/05/sceptic-on-climate-conventional-on-russia-a-review-of-the-age-of-error-and-the-wests-undoing-by-rupert-darwall/",
+            "sentiment_score": -0.4387,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+            "description": "The dollar maintained its ground against key currencies as traders flocked to safe havens following a volatile market downturn. Concerns mounted over a potential Democratic majority in Congress, raising alarms about stricter regulations on the artificial inte…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms",
+            "sentiment_score": 0.1147,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China’s 10-year treasury futures hit record high amid yield drop",
+            "description": "China's bond demand surge may alter global risk perceptions and yield expectations, potentially impacting U.S. Treasury market dynamics.\nThe post China’s 10-year treasury futures hit record high amid yield drop appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-06T01:42:44Z",
+            "url": "https://cryptobriefing.com/chinas-10-year-treasury-futures-hit-record-high-amid-yield-drop/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
@@ -1735,170 +1935,10 @@
             "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:09:02Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:06:22Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Beth Hammack and Thomas Barkin favour gradual rate hikes as inflation stays high",
-            "description": "Two officials from the Federal Reserve have supported modest and steady interest rate increases to combat high inflation. They believe these adjustments should minimize disruptions for households, businesses, and financial markets. The Fed has left interest r…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:42:40Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-hammack-and-barkin-favour-gradual-rate-hikes-as-inflation-stays-high/articleshow/135585595.cms",
-            "sentiment_score": 0.471,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day ever",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday's post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 3%, or over 1,600 points. The S&P 500 (^GSPC\r\n) fell 4%, and the tech-heavy Nasdaq Com…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T19:38:49Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US yields fall in choppy session as oil rises and equities sink",
-            "description": "As geopolitical tensions change the landscape, US Treasuries are witnessing a spike in demand while equity markets take a hit and oil prices show volatility. Investors are reassessing their outlook on the US-Iran relations following new election results. The …",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:19:17Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-fall-in-choppy-session-as-oil-rises-and-equities-sink/articleshow/135585328.cms",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock Takes: New Zealand election takes back seat as US midterms lift sharemarkets",
-            "description": "The local market has been focused more on oil prices than domestic politics.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-11-05T19:00:00Z",
-            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-new-zealand-election-takes-back-seat-as-us-midterms-lift-sharemarkets/premium/N7SK6ROYW5EIJMO2DWDL4ZLAHY/",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading",
-            "description": "Looks like Hollywood is going to do something about insider trading before the U.S. Congress does something about its own insider trading.\nThe post Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading appeared firs…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-05T18:50:31Z",
-            "url": "https://www.breitbart.com/entertainment/2026/11/05/nolte-next-james-bond-hollywood-studios-warn-staffers-against-prediction-market-insider-trading/",
-            "sentiment_score": 0.0101,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline",
-            "description": "The average long-term U.S. mortgage rate fell for the third straight week, offering some relief to prospective homebuyers facing higher home prices",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-05T18:35:00Z",
-            "url": "https://abcnews.com/Business/wireStory/average-us-30-year-mortgage-rate-falls-718-137883201",
-            "sentiment_score": 0.3421,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-            "description": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-05T18:32:45Z",
-            "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks",
-            "sentiment_score": 0.1746,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges",
-            "description": "The report highlights Bitcoin's market volatility impact on corporate profits, influencing future market sentiment and investment strategies.\nThe post American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T18:29:38Z",
-            "url": "https://cryptobriefing.com/american-bitcoin-corp-reports-126m-q3-profit-as-bitcoin-value-surges/",
-            "sentiment_score": 0.6946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern California homeowners sitting on $1.6 trillion in tappable equity",
-            "description": "Southern California homeowners sitting on $1.6 trillion in tappable equityocregister.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-11-05T17:47:14Z",
-            "url": "https://wpdash.medianewsgroup.com/2026/11/05/southern-california-homeowners-sitting-on-1-6-trillion-in-tappable-equity/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says",
-            "description": "Democratic control may limit Trump's Fed influence, but resilient employment data could delay rate cuts, impacting economic strategies.\nThe post Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T17:37:28Z",
-            "url": "https://cryptobriefing.com/federal-reserve-constraints-and-job-data/",
-            "sentiment_score": -0.6341,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Does a ‘Blue Wave’ Mean for Mortgage Rates?",
-            "description": "Democrats won big in the midterms, but mortgage rates have bigger forces to reckon with.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-05T17:09:33Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-11-5-26",
-            "sentiment_score": 0.0987,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High",
-            "description": "The post The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High appeared first on 24/7 Wall St..\nHouseholds Are Reaching for Plastic Instead of Car Keys\nThis week, the Federal Reserve released its October survey of bank loan officers. In the ho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T17:08:07Z",
-            "url": "https://biztoc.com/x/0754cf63dd7baf88",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is Bitcoin price crashing today? BTC USD falls toward $76,000 amid stock market sell-off and $370 million in crypto liquidations",
-            "description": "Bitcoin (BTC USD) price crash today: Bitcoin has fallen back toward $76,000 after failing to hold its recovery above $80,000. A sell-off in technology stocks added to the pressure, while nearly $370 million in leveraged crypto positions were liquidated in abo…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T16:45:08Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-is-bitcoin-price-crashing-today-btc-usd-falls-toward-76000-amid-stock-market-sell-off-and-370-million-in-crypto-liquidations/articleshow/135579593.cms",
-            "sentiment_score": -0.2597,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
-            "description": "Bitcoin plunged nearly 5% as AI stocks sank, Democratic midterm wins raised fresh policy questions, and forced liquidations erased a Wednesday rally that had been fueled partly by short covering.",
-            "source": "Decrypt",
-            "published_at": "2026-11-05T16:29:11Z",
-            "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0692,
+      "net_score": 0.0383,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1929,7 +1969,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-07T00:49:00.955651+00:00"
+    "generated_at": "2026-11-07T06:59:10.937354+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1938,10 +1978,120 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.4155,
-        "label": "บวกชัดเจน (Bullish)",
-        "article_count": 9,
+        "average_score": 0.2293,
+        "label": "บวกเล็กน้อย",
+        "article_count": 20,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction on Dhanteras: Should you buy on dips? Check November 6, 2026 outlook",
+            "description": "Gold price prediction today: Gold is witnessing profit booking after its recent rally. Sustaining above Rs 1,41,300 could help stabilise prices, while a break below this level may extend the correction towards Rs 1,40,337 and Rs 1,39,378. On the upside, Rs 1,…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T06:49:45Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-on-dhanteras-what-is-the-gold-rate-outlook-for-november-06-2026-should-you-buy-or-sell-mcx-gold/articleshow/135597238.cms",
+            "sentiment_score": 0.2229,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "US midterm outcome mildly positive for gold, but Fed risks persist: Analyst",
+            "description": "Gold Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that gold's upside could remain constrained by expectations of further Fed tightening, particularly if US economic data remain firm or oil prices rebound.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:19:43Z",
+            "url": "https://www.business-standard.com/markets/news/us-midterm-outcome-mildly-positive-for-gold-but-fed-risks-persist-analyst-126110600639_1.html",
+            "sentiment_score": 0.019,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Beyond gold: What $340 billion in crypto flows says about India's investment preferences this Dhanteras",
+            "description": "Gold remains central to Indian household savings, but high prices are pushing investors toward ETFs and digital gold instead of physical holdings. Crypto is emerging as a separate portfolio option rather than replacing gold, reflecting a broader shift toward …",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T06:07:20Z",
+            "url": "https://economictimes.indiatimes.com/markets/stocks/news/beyond-gold-what-340-billion-in-crypto-flows-says-about-indias-investment-preferences-this-dhanteras/articleshow/135596165.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold prices may be nearing bottom as World Gold Council sees recovery signals",
+            "description": "Gold may be nearing an interim bottom, with two recovery conditions in place, says the World Gold Council, though speculative positioning remains elevated.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T05:49:10Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-prices-may-be-nearing-bottom-as-world-gold-council-sees-recovery-signals/article71673011.ece",
+            "sentiment_score": 0.0308,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold coin vs gold bar vs gold ETF vs gold mutual fund: What to buy this Dhanteras? Key features and tax rules compared",
+            "description": "Gold coins, bars, ETFs and mutual funds offer different ways to invest in the yellow metal this Dhanteras. Here are their key features, purity levels, costs, liquidity, and tax implications to help you understand which option best suits your purchase or inves…",
+            "source": "Livemint",
+            "published_at": "2026-11-06T04:59:50Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-coin-vs-gold-bar-vs-gold-etf-vs-gold-mutual-fund-what-to-buy-this-dhanteras-key-features-and-tax-rules-compared-11793936298032.html",
+            "sentiment_score": 0.2353,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold eases on inflation worries from higher oil; US payrolls data in focus",
+            "description": "Spot gold fell 0.6% to $4,063.39 per ounce by ‌0248 GMT, but was up 4% so far this ‌week; ⁠US gold futures for December delivery dropped 1% to $4,072.90",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T04:19:07Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus/article71672800.ece",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Titan shares gain 2% after Q2 results; brokerages remain largely bullish",
+            "description": "Titan Company's consolidated net profit in the second quarter of the ongoing financial year (Q2FY27) was up 113.7 per cent at ₹2,393 crore.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T04:13:28Z",
+            "url": "https://www.business-standard.com/markets/news/titan-shares-gain-2-after-q2-results-brokerages-remain-largely-bullish-126110600443_1.html",
+            "sentiment_score": 0.6087,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price, silver rise up to 0.5% today. Check 22K, 24K physical gold rates today (November 6) Live Updates",
+            "description": "Gold and Silver Price Today Live: Bullion markets are witnessing a strong upswing, with gold poised for its best weekly performance in months. Traders will closely monitor US employment data for signals on the Fed's future rate decisions, while movements in c…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-06T03:05:52Z",
+            "url": "https://m.economictimes.com/markets/stocks/live-blog/gold-silver-rates-live-updates-22k-24k-18k-mcx-gold-silver-price-on-dhanteras-6th-november-city-wise-latest-gold-news/liveblog/135591659.cms",
+            "sentiment_score": 0.2577,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold price prediction: Will gold continue its surge on Dhanteras? Check outlook for November 6",
+            "description": "In today’s session, Spot gold rose 0.4% to $4,103.55 per ounce, taking its weekly gains to 5.9%. US gold futures for December delivery were little changed at $4,112.80 per ounce, while spot silver gained 0.5% to $52.01 per ounce.",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:34:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-continue-its-surge-on-dhanteras-check-outlook-for-november-6/articleshow/135590837.cms",
+            "sentiment_score": 0.1837,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s economic landscape presents a mixed picture, with declining stock market activity contrasting w…",
+            "source": "Khabarhub.com",
+            "published_at": "2026-11-06T02:15:34Z",
+            "url": "https://english.khabarhub.com/2026/06/574629/",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "XAU",
             "title": "Titan misses Q2 revenue estimates but beats profit view as jewellery demand holds up",
@@ -2035,10 +2185,170 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0443,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0752,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Inflation, rate-hike woes to limit gains in silver, may retest $48: Analyst",
+            "description": "Silver Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that Silver remains under significant pressure after breaking below support of $54.50. A sustained recovery above $55 is needed to ease the current selling",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:40:41Z",
+            "url": "https://www.business-standard.com/markets/news/inflation-rate-hike-woes-to-limit-gains-in-silver-may-retest-48-analyst-126110600692_1.html",
+            "sentiment_score": 0.1333,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin’s rate cut relief stalls as service inflation flares",
+            "description": "October’s services prices index eased to 73, but its 12-month average reached 69.2, the highest since April 2023.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-06T06:40:14Z",
+            "url": "https://cryptoslate.com/bitcoins-rate-cut-relief-stalls-as-service-inflation-flares/",
+            "sentiment_score": 0.2737,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US midterm outcome mildly positive for gold, but Fed risks persist: Analyst",
+            "description": "Gold Price Outlook: Praveen Singh of Mirae Asset Sharekhan said that gold's upside could remain constrained by expectations of further Fed tightening, particularly if US economic data remain firm or oil prices rebound.",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T06:19:43Z",
+            "url": "https://www.business-standard.com/markets/news/us-midterm-outcome-mildly-positive-for-gold-but-fed-risks-persist-analyst-126110600639_1.html",
+            "sentiment_score": 0.019,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Black Thursday on Wall Street: $2.5 trillion wiped off Nasdaq as index plunges 5.5%, Dow Jones sheds 1,800 points",
+            "description": "Worst trading session since the Trump tariff crisis of April 2025, as semiconductor stocks collapse, mass sell-offs sweep across sectors and the VIX fear gauge surges – Democrats’ victory turns the AI narrative on its head\nThe post Black Thursday on Wall Stre…",
+            "source": "Protothema.gr",
+            "published_at": "2026-11-06T06:03:00Z",
+            "url": "https://en.protothema.gr/2026/11/06/black-thursday-on-wall-street-2-5-trillion-wiped-off-nasdaq-as-index-plunges-5-5-dow-jones-sheds-1800-points/",
+            "sentiment_score": -0.2818,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why I’m Choosing Exit and Build Over Politics (A Conversation with John Bush)",
+            "description": "No Savior Is Coming to Save You I have been saying this for years, and I will say it again with even greater conviction after my latest conversation with John Bush: no politician is coming to save you. Not Trump, not anyone else. The savior complex that grips…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-why-im-choosing-exit-and-build-over-politics.html",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Half of Americans surveyed are skipping meals as grocery bills climb",
+            "description": "Food service workers face hunger amid rising costs and stagnant wages. Household food insecurity has more than doubled since June 2020. Food banks report rising demand as SNAP benefits are frozen. Half of respondents in one recent survey now skip meals due to…",
+            "source": "Naturalnews.com",
+            "published_at": "2026-11-06T06:00:00Z",
+            "url": "https://www.naturalnews.com/2026-11-06-half-of-americans-surveyed-are-skipping-meals-as-grocery-bills-climb.html",
+            "sentiment_score": -0.1206,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation despite easing oil prices",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-despite-easing-oil-prices-6530261",
+            "sentiment_score": 0.1749,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Markets fret over growth and inflation, just as tech rout gains speed",
+            "description": "LONDON, Nov 6 : Uncertainty over the growth outlook and expectations that inflation will remain elevated next year are weighing on global markets, even as hopes of a de-escalation in the Iran war have eased oil prices.Government borrowing costs have risen sha…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:23:43Z",
+            "url": "https://www.channelnewsasia.com/business/markets-fret-over-growth-and-inflation-just-tech-rout-gains-speed-6530261",
+            "sentiment_score": 0.4518,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Japanese investors snap up foreign long-term bonds as tech stocks slide",
+            "description": "Nov 6 : Japanese investors bought foreign long-term bonds for the first time in seven weeks in the week ended October 31, opting for safety amid a selloff in technology stocks and after the Federal Reserve held interest rates steady.These investors shrugged o…",
+            "source": "CNA",
+            "published_at": "2026-11-06T05:06:44Z",
+            "url": "https://www.channelnewsasia.com/business/japanese-investors-snap-up-foreign-long-term-bonds-tech-stocks-slide-6530196",
+            "sentiment_score": 0.2101,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold vs silver this Dhanteras: How much should you hold in your portfolio?",
+            "description": "Gold continues to maintain its appeal as a relatively defensive asset, while silver offers greater upside potential but carries a higher degree of volatility",
+            "source": "Business Standard",
+            "published_at": "2026-11-06T04:48:10Z",
+            "url": "https://www.business-standard.com/finance/personal-finance/gold-vs-silver-this-dhanteras-how-much-should-you-hold-in-your-portfolio-126110600507_1.html",
+            "sentiment_score": 0.1115,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold eases on inflation worries from higher oil; US payrolls data in focus",
+            "description": "Spot gold fell 0.6% to $4,063.39 per ounce by ‌0248 GMT, but was up 4% so far this ‌week; ⁠US gold futures for December delivery dropped 1% to $4,072.90",
+            "source": "BusinessLine",
+            "published_at": "2026-11-06T04:19:07Z",
+            "url": "https://www.thehindubusinessline.com/markets/gold/gold-eases-on-inflation-worries-from-higher-oil-us-payrolls-data-in-focus/article71672800.ece",
+            "sentiment_score": -0.0896,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold price prediction: Will gold continue its surge on Dhanteras? Check outlook for November 6",
+            "description": "In today’s session, Spot gold rose 0.4% to $4,103.55 per ounce, taking its weekly gains to 5.9%. US gold futures for December delivery were little changed at $4,112.80 per ounce, while spot silver gained 0.5% to $52.01 per ounce.",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:34:54Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-price-prediction-will-gold-continue-its-surge-on-dhanteras-check-outlook-for-november-6/articleshow/135590837.cms",
+            "sentiment_score": 0.1837,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Darwall",
+            "description": "“Adopting the goal of Net Zero would be the self-inflicted price the West paid for obtaining a climate agreement at Paris,” Darwall writes.\nThe post Sceptic on Climate, Conventional on Russia: A Review of ‘The Age of Error and the West’s Undoing’ by Rupert Da…",
+            "source": "Wattsupwiththat.com",
+            "published_at": "2026-11-06T02:14:00Z",
+            "url": "https://wattsupwiththat.com/2026/11/05/sceptic-on-climate-conventional-on-russia-a-review-of-the-age-of-error-and-the-wests-undoing-by-rupert-darwall/",
+            "sentiment_score": -0.4387,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold set for weekly gain as markets await US payrolls data",
+            "description": "Gold prices have seen a surge in early Asian markets, climbing by 0.4% as investors brace for the crucial US non-farm payrolls report. With a projected weekly increase of 5.9%, market sentiment remains optimistic. Two Federal Reserve officials have floated th…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:06:01Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
+            "sentiment_score": 0.5773,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
+            "description": "The dollar maintained its ground against key currencies as traders flocked to safe havens following a volatile market downturn. Concerns mounted over a potential Democratic majority in Congress, raising alarms about stricter regulations on the artificial inte…",
+            "source": "The Times of India",
+            "published_at": "2026-11-06T02:00:52Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms",
+            "sentiment_score": 0.1147,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "China’s 10-year treasury futures hit record high amid yield drop",
+            "description": "China's bond demand surge may alter global risk perceptions and yield expectations, potentially impacting U.S. Treasury market dynamics.\nThe post China’s 10-year treasury futures hit record high amid yield drop appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-06T01:42:44Z",
+            "url": "https://cryptobriefing.com/chinas-10-year-treasury-futures-hit-record-high-amid-yield-drop/",
+            "sentiment_score": -0.054,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Bitcoin Recovery After the $80K Slip: Is This a Buying Reset?",
@@ -2178,174 +2488,14 @@
             "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+News+feed",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:09:02Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+Security+feed",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance hack prompted US regulators to check in on bank systems",
-            "description": "For anomalous behavioural detections.",
-            "source": "iTnews",
-            "published_at": "2026-11-05T20:06:22Z",
-            "url": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Beth Hammack and Thomas Barkin favour gradual rate hikes as inflation stays high",
-            "description": "Two officials from the Federal Reserve have supported modest and steady interest rate increases to combat high inflation. They believe these adjustments should minimize disruptions for households, businesses, and financial markets. The Fed has left interest r…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:42:40Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/feds-hammack-and-barkin-favour-gradual-rate-hikes-as-inflation-stays-high/articleshow/135585595.cms",
-            "sentiment_score": 0.471,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Markets plunge as Wall Street heads for its worst post-midterm day ever",
-            "description": "US stocks fell suddenly on Thursday as AI and chip stocks sold off, erasing the gains from Wednesday's post-election rally.The Dow Jones Industrial Average (^DJI\r\n) tumbled 3%, or over 1,600 points. The S&P 500 (^GSPC\r\n) fell 4%, and the tech-heavy Nasdaq Com…",
-            "source": "Yahoo Entertainment",
-            "published_at": "2026-11-05T19:38:49Z",
-            "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
-            "sentiment_score": -0.3354,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US yields fall in choppy session as oil rises and equities sink",
-            "description": "As geopolitical tensions change the landscape, US Treasuries are witnessing a spike in demand while equity markets take a hit and oil prices show volatility. Investors are reassessing their outlook on the US-Iran relations following new election results. The …",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T19:19:17Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-yields-fall-in-choppy-session-as-oil-rises-and-equities-sink/articleshow/135585328.cms",
-            "sentiment_score": -0.0955,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Stock Takes: New Zealand election takes back seat as US midterms lift sharemarkets",
-            "description": "The local market has been focused more on oil prices than domestic politics.",
-            "source": "New Zealand Herald",
-            "published_at": "2026-11-05T19:00:00Z",
-            "url": "https://www.nzherald.co.nz/business/markets/stock-takes/stock-takes-new-zealand-election-takes-back-seat-as-us-midterms-lift-sharemarkets/premium/N7SK6ROYW5EIJMO2DWDL4ZLAHY/",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading",
-            "description": "Looks like Hollywood is going to do something about insider trading before the U.S. Congress does something about its own insider trading.\nThe post Nolte: Next James Bond? Hollywood Studios Warn Staffers Against Prediction Market Insider Trading appeared firs…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-05T18:50:31Z",
-            "url": "https://www.breitbart.com/entertainment/2026/11/05/nolte-next-james-bond-hollywood-studios-warn-staffers-against-prediction-market-insider-trading/",
-            "sentiment_score": 0.0101,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "The average US 30-year mortgage rate falls to 7.18% this week, its third straight decline",
-            "description": "The average long-term U.S. mortgage rate fell for the third straight week, offering some relief to prospective homebuyers facing higher home prices",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-05T18:35:00Z",
-            "url": "https://abcnews.com/Business/wireStory/average-us-30-year-mortgage-rate-falls-718-137883201",
-            "sentiment_score": 0.3421,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed, OCC check US banks after Binance hack as experts flag security risks",
-            "description": "US regulators reportedly contacted banks following last week’s $6.3 billion Binance security hack, while experts raised concerns about transaction security and crypto risks.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-05T18:32:45Z",
-            "url": "https://cointelegraph.com/news/fed-occ-check-us-banks-binance-hack-security-risks",
-            "sentiment_score": 0.1746,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges",
-            "description": "The report highlights Bitcoin's market volatility impact on corporate profits, influencing future market sentiment and investment strategies.\nThe post American Bitcoin Corp. reports $126M Q3 profit as Bitcoin value surges appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T18:29:38Z",
-            "url": "https://cryptobriefing.com/american-bitcoin-corp-reports-126m-q3-profit-as-bitcoin-value-surges/",
-            "sentiment_score": 0.6946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Southern California homeowners sitting on $1.6 trillion in tappable equity",
-            "description": "Southern California homeowners sitting on $1.6 trillion in tappable equityocregister.com",
-            "source": "Medianewsgroup.com",
-            "published_at": "2026-11-05T17:47:14Z",
-            "url": "https://wpdash.medianewsgroup.com/2026/11/05/southern-california-homeowners-sitting-on-1-6-trillion-in-tappable-equity/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says",
-            "description": "Democratic control may limit Trump's Fed influence, but resilient employment data could delay rate cuts, impacting economic strategies.\nThe post Democratic sweep could constrain Trump’s Fed plans as rate cuts remain uncertain, Bitunix says appeared first on C…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-05T17:37:28Z",
-            "url": "https://cryptobriefing.com/federal-reserve-constraints-and-job-data/",
-            "sentiment_score": -0.6341,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "What Does a ‘Blue Wave’ Mean for Mortgage Rates?",
-            "description": "Democrats won big in the midterms, but mortgage rates have bigger forces to reckon with.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-05T17:09:33Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/weekly-mortgage-rates-11-5-26",
-            "sentiment_score": 0.0987,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High",
-            "description": "The post The Fed Finds Disturbing Trend as Credit Card Demand Hits 4-Year High appeared first on 24/7 Wall St..\nHouseholds Are Reaching for Plastic Instead of Car Keys\nThis week, the Federal Reserve released its October survey of bank loan officers. In the ho…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-05T17:08:07Z",
-            "url": "https://biztoc.com/x/0754cf63dd7baf88",
-            "sentiment_score": -0.238,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Why is Bitcoin price crashing today? BTC USD falls toward $76,000 amid stock market sell-off and $370 million in crypto liquidations",
-            "description": "Bitcoin (BTC USD) price crash today: Bitcoin has fallen back toward $76,000 after failing to hold its recovery above $80,000. A sell-off in technology stocks added to the pressure, while nearly $370 million in leveraged crypto positions were liquidated in abo…",
-            "source": "The Times of India",
-            "published_at": "2026-11-05T16:45:08Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/why-is-bitcoin-price-crashing-today-btc-usd-falls-toward-76000-amid-stock-market-sell-off-and-370-million-in-crypto-liquidations/articleshow/135579593.cms",
-            "sentiment_score": -0.2597,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Erases Election Rally as AI Stocks Plunge, $428 Million in Crypto Longs Get Wiped Out",
-            "description": "Bitcoin plunged nearly 5% as AI stocks sank, Democratic midterm wins raised fresh policy questions, and forced liquidations erased a Wednesday rally that had been fueled partly by short covering.",
-            "source": "Decrypt",
-            "published_at": "2026-11-05T16:29:11Z",
-            "url": "https://decrypt.co/382612/bitcoin-erases-election-rally-ai-stocks-plunge-428-million-crypto-longs",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.3712,
+      "net_score": 0.1541,
       "bias": "เอียงบวกต่อ XAU (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
-        "confidence_level": "สูง (เทียบกับสัญญาณข่าวอย่างเดียว)",
-        "reason": "คะแนน sentiment ชัดเจนและมีจำนวนข่าวสนับสนุนเพียงพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
@@ -2357,8 +2507,8 @@
       "rsi_value": 50.7,
       "rsi_signal": "โซนกลาง (RSI=50.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 17.77029,
-      "suggested_sl_distance": 26.65544,
+      "atr_value": 17.76928,
+      "suggested_sl_distance": 26.65391,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -2372,6 +2522,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-07T00:49:00.955651+00:00"
+    "generated_at": "2026-11-07T06:59:10.937354+00:00"
   }
 ]
