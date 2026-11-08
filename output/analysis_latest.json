@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0541,
+        "average_score": 0.0506,
         "label": "บวกเล็กน้อย",
-        "article_count": 22,
+        "article_count": 24,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "ECB’s Lagarde says inflation to stay high, sees little reason to alter rate course",
+            "description": "Investing.com - Euro zone inflation will remain elevated over the coming quarters, European Central Bank President Christine Lagarde said, signaling that it would take \"significant changes\" to deter policymakers from raising interest rates again in December.\n…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T17:15:07Z",
+            "url": "https://biztoc.com/x/546a94d40125f8d3",
+            "sentiment_score": 0.1758,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Spain and the Netherlands battle over ECB presidency",
+            "description": "BRUSSELS — The Netherlands and Spain on Friday submitted candidates to succeed Christine Lagarde, who steps down as president of the European Central Bank on Feb. 7.\nPablo Hernández de Cos, a former governor of Spain's central bank, and the Netherlands' Klaas…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T16:45:26Z",
+            "url": "https://biztoc.com/x/225d2cac0d445087",
+            "sentiment_score": -0.1191,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Lagarde can't guarantee December policy move",
@@ -233,10 +253,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0227,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0563,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+            "description": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+            "source": "newsBTC",
+            "published_at": "2026-11-07T21:00:00Z",
+            "url": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia stock nears six-month low amid valuation concerns",
+            "description": "Investor skepticism about NVIDIA's valuation amid market shifts could impact its growth narrative and influence broader semiconductor trends.\nThe post Nvidia stock nears six-month low amid valuation concerns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-07T20:34:25Z",
+            "url": "https://cryptobriefing.com/nvidia-stock-nears-six-month-low-amid-valuation-concerns/",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Value Dividend Stocks To Watch As Rate Cut Hopes Fade",
+            "description": "The Federal Reserve has a tougher call coming as a hot jobs market, sticky 3.7% inflation and a key CPI report on 10 November all pull rate expectations higher, and that tension is where opportunity often hides. While growth stocks can feel the heat when yiel…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T20:04:52Z",
+            "url": "https://biztoc.com/x/10e1ff71c19b01fd",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report",
+            "description": "The post Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report appeared first on 24/7 Wall St..\nTraders now treat a December Fed rate hike as the likely outcome. On Friday, November 6, CME FedWatch put the probability of a quarter-point (25-bas…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T17:45:23Z",
+            "url": "https://biztoc.com/x/e8289746c98fc7b8",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin traders could mistake this Binance data change for a rush to sell",
+            "description": "Coin Metrics’ November 4 notice complicates Binance balance signals as traders look for evidence of demand before CPI.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-07T17:10:30Z",
+            "url": "https://cryptoslate.com/bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell/",
+            "sentiment_score": -0.2688,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway stock is a haven again as investors flee AI bloodbath while its own portfolio takes a hit amid reshuffling",
+            "description": "Berkshire bought $2.4 billion of stocks during the third quarter and sold some $2.8 billion.",
+            "source": "Fortune",
+            "published_at": "2026-11-07T17:09:20Z",
+            "url": "https://fortune.com/2026/11/07/berkshire-hathaway-stock-brk-q3-earnings-investment-portfolio-buybacks/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction",
+            "description": "AI stocks crash signals a distinct, risk-laden correction driven by regulatory fears, capital costs, and questionable profitability.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-07T17:06:39Z",
+            "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+            "sentiment_score": -0.4856,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Last week’s AI stocks crash is not your garden variety correction",
@@ -466,80 +556,10 @@
             "url": "https://www.irishtimes.com/business/economy/2026/11/07/are-we-ready-for-the-ai-bubble-bursting/",
             "sentiment_score": 0.0813,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What do we mean by ‘fundamental human rights’?",
-            "description": "By John NicholsLife, liberty, property...and one more.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-11-07T05:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/11/what-do-we-mean-by-fundamental-human-rights/",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar jumps after strong US payrolls report",
-            "description": "The US dollar index jumped significantly following the Labor Department's report indicating an increase of 165,000 jobs last month, which far exceeded economists' forecasts. As a result, the probability of a rate hike from the Federal Reserve climbed to nearl…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:11:35Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-jumps-after-strong-us-payrolls-report/articleshow/135626197.cms",
-            "sentiment_score": 0.4529,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold drops as strong US payrolls boost dollar, yields",
-            "description": "In light of stronger-than-anticipated US payroll figures, gold prices dipped significantly as the data suggested a robust labor market. This development heightened expectations for sustained high-interest rates from the Federal Reserve, bolstering the dollar'…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:10:07Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms",
-            "sentiment_score": 0.6049,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq rebounds but posts fourth straight weekly decline",
-            "description": "On Friday, technology stocks saw a significant rebound, boosting investor optimism about growth in artificial intelligence amidst recent market fluctuations. The semiconductor sector soared, primarily driven by impressive gains from Nvidia and Advanced Micro …",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:02:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-rebounds-but-posts-fourth-straight-weekly-decline/articleshow/135626093.cms",
-            "sentiment_score": 0.5181,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Midterm Election Aftermath: Is a Market Meltdown Ahead?",
-            "description": "International Man: The midterm elections are now behind us. What impact do you expect the results to have on financial markets? Doug Casey: It’s unfortunate, but political outcomes now dominate financial and economic outcomes. Politics have always been import…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-11-07T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/11/doug-casey/midterm-election-aftermath-is-a-market-meltdown-ahead/",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin steadies after record hack fallout, US midterms turbulence",
-            "description": "Bitcoin settled near recent lows after a bruising selloff on Nov 5 swept through risky assets.  Read more at straitstimes.com.",
-            "source": "The Straits Times",
-            "published_at": "2026-11-07T03:47:30Z",
-            "url": "https://www.straitstimes.com/business/companies-markets/bitcoin-steadies-after-record-hack-fallout-us-midterms-turbulence",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How the US midterm elections reflected resistance to data centres",
-            "description": "Voters rejected data centre development in all but one of the 41 measures addressing the issue in Tuesday's midterms.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-11-07T03:22:41Z",
-            "url": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres",
-            "sentiment_score": -0.0854,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0768,
+      "net_score": 0.1069,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -570,7 +590,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=28.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-08T16:38:04.479505+00:00"
+    "generated_at": "2026-11-08T21:01:41.436112+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -579,9 +599,9 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0634,
+        "average_score": 0.0628,
         "label": "บวกเล็กน้อย",
-        "article_count": 26,
+        "article_count": 25,
         "scored_articles": [
           {
             "currency": "GBP",
@@ -832,24 +852,84 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-set-for-weekly-gain-as-markets-await-us-payrolls-data/articleshow/135590413.cms",
             "sentiment_score": 0.5773,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Dollar holds, yen gains as equity rout saps risk appetite ahead of payrolls",
-            "description": "The dollar maintained its ground against key currencies as traders flocked to safe havens following a volatile market downturn. Concerns mounted over a potential Democratic majority in Congress, raising alarms about stricter regulations on the artificial inte…",
-            "source": "The Times of India",
-            "published_at": "2026-11-06T02:00:52Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls/articleshow/135590399.cms",
-            "sentiment_score": 0.1147,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0227,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0563,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+            "description": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+            "source": "newsBTC",
+            "published_at": "2026-11-07T21:00:00Z",
+            "url": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia stock nears six-month low amid valuation concerns",
+            "description": "Investor skepticism about NVIDIA's valuation amid market shifts could impact its growth narrative and influence broader semiconductor trends.\nThe post Nvidia stock nears six-month low amid valuation concerns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-07T20:34:25Z",
+            "url": "https://cryptobriefing.com/nvidia-stock-nears-six-month-low-amid-valuation-concerns/",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Value Dividend Stocks To Watch As Rate Cut Hopes Fade",
+            "description": "The Federal Reserve has a tougher call coming as a hot jobs market, sticky 3.7% inflation and a key CPI report on 10 November all pull rate expectations higher, and that tension is where opportunity often hides. While growth stocks can feel the heat when yiel…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T20:04:52Z",
+            "url": "https://biztoc.com/x/10e1ff71c19b01fd",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report",
+            "description": "The post Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report appeared first on 24/7 Wall St..\nTraders now treat a December Fed rate hike as the likely outcome. On Friday, November 6, CME FedWatch put the probability of a quarter-point (25-bas…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T17:45:23Z",
+            "url": "https://biztoc.com/x/e8289746c98fc7b8",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin traders could mistake this Binance data change for a rush to sell",
+            "description": "Coin Metrics’ November 4 notice complicates Binance balance signals as traders look for evidence of demand before CPI.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-07T17:10:30Z",
+            "url": "https://cryptoslate.com/bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell/",
+            "sentiment_score": -0.2688,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway stock is a haven again as investors flee AI bloodbath while its own portfolio takes a hit amid reshuffling",
+            "description": "Berkshire bought $2.4 billion of stocks during the third quarter and sold some $2.8 billion.",
+            "source": "Fortune",
+            "published_at": "2026-11-07T17:09:20Z",
+            "url": "https://fortune.com/2026/11/07/berkshire-hathaway-stock-brk-q3-earnings-investment-portfolio-buybacks/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction",
+            "description": "AI stocks crash signals a distinct, risk-laden correction driven by regulatory fears, capital costs, and questionable profitability.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-07T17:06:39Z",
+            "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+            "sentiment_score": -0.4856,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Last week’s AI stocks crash is not your garden variety correction",
@@ -1079,80 +1159,10 @@
             "url": "https://www.irishtimes.com/business/economy/2026/11/07/are-we-ready-for-the-ai-bubble-bursting/",
             "sentiment_score": 0.0813,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What do we mean by ‘fundamental human rights’?",
-            "description": "By John NicholsLife, liberty, property...and one more.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-11-07T05:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/11/what-do-we-mean-by-fundamental-human-rights/",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar jumps after strong US payrolls report",
-            "description": "The US dollar index jumped significantly following the Labor Department's report indicating an increase of 165,000 jobs last month, which far exceeded economists' forecasts. As a result, the probability of a rate hike from the Federal Reserve climbed to nearl…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:11:35Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-jumps-after-strong-us-payrolls-report/articleshow/135626197.cms",
-            "sentiment_score": 0.4529,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold drops as strong US payrolls boost dollar, yields",
-            "description": "In light of stronger-than-anticipated US payroll figures, gold prices dipped significantly as the data suggested a robust labor market. This development heightened expectations for sustained high-interest rates from the Federal Reserve, bolstering the dollar'…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:10:07Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms",
-            "sentiment_score": 0.6049,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq rebounds but posts fourth straight weekly decline",
-            "description": "On Friday, technology stocks saw a significant rebound, boosting investor optimism about growth in artificial intelligence amidst recent market fluctuations. The semiconductor sector soared, primarily driven by impressive gains from Nvidia and Advanced Micro …",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:02:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-rebounds-but-posts-fourth-straight-weekly-decline/articleshow/135626093.cms",
-            "sentiment_score": 0.5181,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Midterm Election Aftermath: Is a Market Meltdown Ahead?",
-            "description": "International Man: The midterm elections are now behind us. What impact do you expect the results to have on financial markets? Doug Casey: It’s unfortunate, but political outcomes now dominate financial and economic outcomes. Politics have always been import…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-11-07T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/11/doug-casey/midterm-election-aftermath-is-a-market-meltdown-ahead/",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin steadies after record hack fallout, US midterms turbulence",
-            "description": "Bitcoin settled near recent lows after a bruising selloff on Nov 5 swept through risky assets.  Read more at straitstimes.com.",
-            "source": "The Straits Times",
-            "published_at": "2026-11-07T03:47:30Z",
-            "url": "https://www.straitstimes.com/business/companies-markets/bitcoin-steadies-after-record-hack-fallout-us-midterms-turbulence",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How the US midterm elections reflected resistance to data centres",
-            "description": "Voters rejected data centre development in all but one of the 41 measures addressing the issue in Tuesday's midterms.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-11-07T03:22:41Z",
-            "url": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres",
-            "sentiment_score": -0.0854,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0861,
+      "net_score": 0.1191,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1183,7 +1193,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=30.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-08T16:38:04.479505+00:00"
+    "generated_at": "2026-11-08T21:01:41.436112+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1192,10 +1202,80 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0227,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0563,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+            "description": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+            "source": "newsBTC",
+            "published_at": "2026-11-07T21:00:00Z",
+            "url": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia stock nears six-month low amid valuation concerns",
+            "description": "Investor skepticism about NVIDIA's valuation amid market shifts could impact its growth narrative and influence broader semiconductor trends.\nThe post Nvidia stock nears six-month low amid valuation concerns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-07T20:34:25Z",
+            "url": "https://cryptobriefing.com/nvidia-stock-nears-six-month-low-amid-valuation-concerns/",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Value Dividend Stocks To Watch As Rate Cut Hopes Fade",
+            "description": "The Federal Reserve has a tougher call coming as a hot jobs market, sticky 3.7% inflation and a key CPI report on 10 November all pull rate expectations higher, and that tension is where opportunity often hides. While growth stocks can feel the heat when yiel…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T20:04:52Z",
+            "url": "https://biztoc.com/x/10e1ff71c19b01fd",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report",
+            "description": "The post Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report appeared first on 24/7 Wall St..\nTraders now treat a December Fed rate hike as the likely outcome. On Friday, November 6, CME FedWatch put the probability of a quarter-point (25-bas…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T17:45:23Z",
+            "url": "https://biztoc.com/x/e8289746c98fc7b8",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin traders could mistake this Binance data change for a rush to sell",
+            "description": "Coin Metrics’ November 4 notice complicates Binance balance signals as traders look for evidence of demand before CPI.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-07T17:10:30Z",
+            "url": "https://cryptoslate.com/bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell/",
+            "sentiment_score": -0.2688,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway stock is a haven again as investors flee AI bloodbath while its own portfolio takes a hit amid reshuffling",
+            "description": "Berkshire bought $2.4 billion of stocks during the third quarter and sold some $2.8 billion.",
+            "source": "Fortune",
+            "published_at": "2026-11-07T17:09:20Z",
+            "url": "https://fortune.com/2026/11/07/berkshire-hathaway-stock-brk-q3-earnings-investment-portfolio-buybacks/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction",
+            "description": "AI stocks crash signals a distinct, risk-laden correction driven by regulatory fears, capital costs, and questionable profitability.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-07T17:06:39Z",
+            "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+            "sentiment_score": -0.4856,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Last week’s AI stocks crash is not your garden variety correction",
@@ -1425,76 +1505,6 @@
             "url": "https://www.irishtimes.com/business/economy/2026/11/07/are-we-ready-for-the-ai-bubble-bursting/",
             "sentiment_score": 0.0813,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What do we mean by ‘fundamental human rights’?",
-            "description": "By John NicholsLife, liberty, property...and one more.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-11-07T05:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/11/what-do-we-mean-by-fundamental-human-rights/",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar jumps after strong US payrolls report",
-            "description": "The US dollar index jumped significantly following the Labor Department's report indicating an increase of 165,000 jobs last month, which far exceeded economists' forecasts. As a result, the probability of a rate hike from the Federal Reserve climbed to nearl…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:11:35Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-jumps-after-strong-us-payrolls-report/articleshow/135626197.cms",
-            "sentiment_score": 0.4529,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold drops as strong US payrolls boost dollar, yields",
-            "description": "In light of stronger-than-anticipated US payroll figures, gold prices dipped significantly as the data suggested a robust labor market. This development heightened expectations for sustained high-interest rates from the Federal Reserve, bolstering the dollar'…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:10:07Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms",
-            "sentiment_score": 0.6049,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq rebounds but posts fourth straight weekly decline",
-            "description": "On Friday, technology stocks saw a significant rebound, boosting investor optimism about growth in artificial intelligence amidst recent market fluctuations. The semiconductor sector soared, primarily driven by impressive gains from Nvidia and Advanced Micro …",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:02:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-rebounds-but-posts-fourth-straight-weekly-decline/articleshow/135626093.cms",
-            "sentiment_score": 0.5181,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Midterm Election Aftermath: Is a Market Meltdown Ahead?",
-            "description": "International Man: The midterm elections are now behind us. What impact do you expect the results to have on financial markets? Doug Casey: It’s unfortunate, but political outcomes now dominate financial and economic outcomes. Politics have always been import…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-11-07T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/11/doug-casey/midterm-election-aftermath-is-a-market-meltdown-ahead/",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin steadies after record hack fallout, US midterms turbulence",
-            "description": "Bitcoin settled near recent lows after a bruising selloff on Nov 5 swept through risky assets.  Read more at straitstimes.com.",
-            "source": "The Straits Times",
-            "published_at": "2026-11-07T03:47:30Z",
-            "url": "https://www.straitstimes.com/business/companies-markets/bitcoin-steadies-after-record-hack-fallout-us-midterms-turbulence",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How the US midterm elections reflected resistance to data centres",
-            "description": "Voters rejected data centre development in all but one of the 41 measures addressing the issue in Tuesday's midterms.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-11-07T03:22:41Z",
-            "url": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres",
-            "sentiment_score": -0.0854,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
@@ -1555,7 +1565,7 @@
           }
         ]
       },
-      "net_score": -0.0551,
+      "net_score": -0.0887,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1586,7 +1596,7 @@
       "confidence": "-",
       "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=59.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-08T16:38:04.479505+00:00"
+    "generated_at": "2026-11-08T21:01:41.436112+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1612,10 +1622,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0227,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0563,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+            "description": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+            "source": "newsBTC",
+            "published_at": "2026-11-07T21:00:00Z",
+            "url": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia stock nears six-month low amid valuation concerns",
+            "description": "Investor skepticism about NVIDIA's valuation amid market shifts could impact its growth narrative and influence broader semiconductor trends.\nThe post Nvidia stock nears six-month low amid valuation concerns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-07T20:34:25Z",
+            "url": "https://cryptobriefing.com/nvidia-stock-nears-six-month-low-amid-valuation-concerns/",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Value Dividend Stocks To Watch As Rate Cut Hopes Fade",
+            "description": "The Federal Reserve has a tougher call coming as a hot jobs market, sticky 3.7% inflation and a key CPI report on 10 November all pull rate expectations higher, and that tension is where opportunity often hides. While growth stocks can feel the heat when yiel…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T20:04:52Z",
+            "url": "https://biztoc.com/x/10e1ff71c19b01fd",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report",
+            "description": "The post Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report appeared first on 24/7 Wall St..\nTraders now treat a December Fed rate hike as the likely outcome. On Friday, November 6, CME FedWatch put the probability of a quarter-point (25-bas…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T17:45:23Z",
+            "url": "https://biztoc.com/x/e8289746c98fc7b8",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin traders could mistake this Binance data change for a rush to sell",
+            "description": "Coin Metrics’ November 4 notice complicates Binance balance signals as traders look for evidence of demand before CPI.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-07T17:10:30Z",
+            "url": "https://cryptoslate.com/bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell/",
+            "sentiment_score": -0.2688,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway stock is a haven again as investors flee AI bloodbath while its own portfolio takes a hit amid reshuffling",
+            "description": "Berkshire bought $2.4 billion of stocks during the third quarter and sold some $2.8 billion.",
+            "source": "Fortune",
+            "published_at": "2026-11-07T17:09:20Z",
+            "url": "https://fortune.com/2026/11/07/berkshire-hathaway-stock-brk-q3-earnings-investment-portfolio-buybacks/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction",
+            "description": "AI stocks crash signals a distinct, risk-laden correction driven by regulatory fears, capital costs, and questionable profitability.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-07T17:06:39Z",
+            "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+            "sentiment_score": -0.4856,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Last week’s AI stocks crash is not your garden variety correction",
@@ -1845,80 +1925,10 @@
             "url": "https://www.irishtimes.com/business/economy/2026/11/07/are-we-ready-for-the-ai-bubble-bursting/",
             "sentiment_score": 0.0813,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What do we mean by ‘fundamental human rights’?",
-            "description": "By John NicholsLife, liberty, property...and one more.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-11-07T05:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/11/what-do-we-mean-by-fundamental-human-rights/",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar jumps after strong US payrolls report",
-            "description": "The US dollar index jumped significantly following the Labor Department's report indicating an increase of 165,000 jobs last month, which far exceeded economists' forecasts. As a result, the probability of a rate hike from the Federal Reserve climbed to nearl…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:11:35Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-jumps-after-strong-us-payrolls-report/articleshow/135626197.cms",
-            "sentiment_score": 0.4529,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold drops as strong US payrolls boost dollar, yields",
-            "description": "In light of stronger-than-anticipated US payroll figures, gold prices dipped significantly as the data suggested a robust labor market. This development heightened expectations for sustained high-interest rates from the Federal Reserve, bolstering the dollar'…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:10:07Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms",
-            "sentiment_score": 0.6049,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq rebounds but posts fourth straight weekly decline",
-            "description": "On Friday, technology stocks saw a significant rebound, boosting investor optimism about growth in artificial intelligence amidst recent market fluctuations. The semiconductor sector soared, primarily driven by impressive gains from Nvidia and Advanced Micro …",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:02:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-rebounds-but-posts-fourth-straight-weekly-decline/articleshow/135626093.cms",
-            "sentiment_score": 0.5181,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Midterm Election Aftermath: Is a Market Meltdown Ahead?",
-            "description": "International Man: The midterm elections are now behind us. What impact do you expect the results to have on financial markets? Doug Casey: It’s unfortunate, but political outcomes now dominate financial and economic outcomes. Politics have always been import…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-11-07T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/11/doug-casey/midterm-election-aftermath-is-a-market-meltdown-ahead/",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin steadies after record hack fallout, US midterms turbulence",
-            "description": "Bitcoin settled near recent lows after a bruising selloff on Nov 5 swept through risky assets.  Read more at straitstimes.com.",
-            "source": "The Straits Times",
-            "published_at": "2026-11-07T03:47:30Z",
-            "url": "https://www.straitstimes.com/business/companies-markets/bitcoin-steadies-after-record-hack-fallout-us-midterms-turbulence",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How the US midterm elections reflected resistance to data centres",
-            "description": "Voters rejected data centre development in all but one of the 41 measures addressing the issue in Tuesday's midterms.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-11-07T03:22:41Z",
-            "url": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres",
-            "sentiment_score": -0.0854,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.2179,
+      "net_score": -0.1843,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1949,7 +1959,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-08T16:38:04.479505+00:00"
+    "generated_at": "2026-11-08T21:01:41.436112+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2265,10 +2275,80 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0227,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": -0.0563,
+        "label": "ลบเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "US Adds 165,000 Jobs in October: Why Bitcoin Traders Are Watching the Fed",
+            "description": "The US economy added 165,000 payroll jobs in October while unemployment stood at 4.1%, according to the Bureau of Labor Statistics' November 6 release. The…",
+            "source": "newsBTC",
+            "published_at": "2026-11-07T21:00:00Z",
+            "url": "https://www.newsbtc.com/news/bitcoin/us-adds-165-000-jobs-in-october-why-bitcoin-traders-are-watching-the-fed/",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia stock nears six-month low amid valuation concerns",
+            "description": "Investor skepticism about NVIDIA's valuation amid market shifts could impact its growth narrative and influence broader semiconductor trends.\nThe post Nvidia stock nears six-month low amid valuation concerns appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-07T20:34:25Z",
+            "url": "https://cryptobriefing.com/nvidia-stock-nears-six-month-low-amid-valuation-concerns/",
+            "sentiment_score": -0.2296,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Value Dividend Stocks To Watch As Rate Cut Hopes Fade",
+            "description": "The Federal Reserve has a tougher call coming as a hot jobs market, sticky 3.7% inflation and a key CPI report on 10 November all pull rate expectations higher, and that tension is where opportunity often hides. While growth stocks can feel the heat when yiel…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T20:04:52Z",
+            "url": "https://biztoc.com/x/10e1ff71c19b01fd",
+            "sentiment_score": 0.4767,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report",
+            "description": "The post Odds of a December Rate Hike Jump to 77% After a Blowout Jobs Report appeared first on 24/7 Wall St..\nTraders now treat a December Fed rate hike as the likely outcome. On Friday, November 6, CME FedWatch put the probability of a quarter-point (25-bas…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-07T17:45:23Z",
+            "url": "https://biztoc.com/x/e8289746c98fc7b8",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin traders could mistake this Binance data change for a rush to sell",
+            "description": "Coin Metrics’ November 4 notice complicates Binance balance signals as traders look for evidence of demand before CPI.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-07T17:10:30Z",
+            "url": "https://cryptoslate.com/bitcoin-traders-could-mistake-this-binance-data-change-for-a-rush-to-sell/",
+            "sentiment_score": -0.2688,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway stock is a haven again as investors flee AI bloodbath while its own portfolio takes a hit amid reshuffling",
+            "description": "Berkshire bought $2.4 billion of stocks during the third quarter and sold some $2.8 billion.",
+            "source": "Fortune",
+            "published_at": "2026-11-07T17:09:20Z",
+            "url": "https://fortune.com/2026/11/07/berkshire-hathaway-stock-brk-q3-earnings-investment-portfolio-buybacks/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dow Jones, S&P 500, Nasdaq: Last week’s AI stocks crash is not your garden variety correction",
+            "description": "AI stocks crash signals a distinct, risk-laden correction driven by regulatory fears, capital costs, and questionable profitability.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-07T17:06:39Z",
+            "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+            "sentiment_score": -0.4856,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Last week’s AI stocks crash is not your garden variety correction",
@@ -2498,80 +2578,10 @@
             "url": "https://www.irishtimes.com/business/economy/2026/11/07/are-we-ready-for-the-ai-bubble-bursting/",
             "sentiment_score": 0.0813,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "What do we mean by ‘fundamental human rights’?",
-            "description": "By John NicholsLife, liberty, property...and one more.",
-            "source": "Americanthinker.com",
-            "published_at": "2026-11-07T05:00:00Z",
-            "url": "https://www.americanthinker.com/blog/2026/11/what-do-we-mean-by-fundamental-human-rights/",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Dollar jumps after strong US payrolls report",
-            "description": "The US dollar index jumped significantly following the Labor Department's report indicating an increase of 165,000 jobs last month, which far exceeded economists' forecasts. As a result, the probability of a rate hike from the Federal Reserve climbed to nearl…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:11:35Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-jumps-after-strong-us-payrolls-report/articleshow/135626197.cms",
-            "sentiment_score": 0.4529,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold drops as strong US payrolls boost dollar, yields",
-            "description": "In light of stronger-than-anticipated US payroll figures, gold prices dipped significantly as the data suggested a robust labor market. This development heightened expectations for sustained high-interest rates from the Federal Reserve, bolstering the dollar'…",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:10:07Z",
-            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-drops-as-strong-us-payrolls-boost-dollar-yields/articleshow/135626183.cms",
-            "sentiment_score": 0.6049,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Nasdaq rebounds but posts fourth straight weekly decline",
-            "description": "On Friday, technology stocks saw a significant rebound, boosting investor optimism about growth in artificial intelligence amidst recent market fluctuations. The semiconductor sector soared, primarily driven by impressive gains from Nvidia and Advanced Micro …",
-            "source": "The Times of India",
-            "published_at": "2026-11-07T04:02:31Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/nasdaq-rebounds-but-posts-fourth-straight-weekly-decline/articleshow/135626093.cms",
-            "sentiment_score": 0.5181,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Midterm Election Aftermath: Is a Market Meltdown Ahead?",
-            "description": "International Man: The midterm elections are now behind us. What impact do you expect the results to have on financial markets? Doug Casey: It’s unfortunate, but political outcomes now dominate financial and economic outcomes. Politics have always been import…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-11-07T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/11/doug-casey/midterm-election-aftermath-is-a-market-meltdown-ahead/",
-            "sentiment_score": -0.1235,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin steadies after record hack fallout, US midterms turbulence",
-            "description": "Bitcoin settled near recent lows after a bruising selloff on Nov 5 swept through risky assets.  Read more at straitstimes.com.",
-            "source": "The Straits Times",
-            "published_at": "2026-11-07T03:47:30Z",
-            "url": "https://www.straitstimes.com/business/companies-markets/bitcoin-steadies-after-record-hack-fallout-us-midterms-turbulence",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "How the US midterm elections reflected resistance to data centres",
-            "description": "Voters rejected data centre development in all but one of the 41 measures addressing the issue in Tuesday's midterms.",
-            "source": "Al Jazeera English",
-            "published_at": "2026-11-07T03:22:41Z",
-            "url": "https://www.aljazeera.com/economy/2026/11/7/how-the-us-midterm-elections-reflected-resistance-to-data-centres",
-            "sentiment_score": -0.0854,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0283,
+      "net_score": 0.0619,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2602,6 +2612,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-08T16:38:04.479505+00:00"
+    "generated_at": "2026-11-08T21:01:41.436112+00:00"
   }
 ]
