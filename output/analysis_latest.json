@@ -6,9 +6,9 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0288,
+        "average_score": 0.0181,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 16,
+        "article_count": 13,
         "scored_articles": [
           {
             "currency": "EUR",
@@ -139,44 +139,114 @@
             "url": "https://m.economictimes.com/markets/us-stocks/news/global-markets-5-key-themes-to-watch-this-week/global-markets-brace-for-another-turbulent-week/slideshow/135673587.cms",
             "sentiment_score": -0.082,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "The ‘what the hell effect’ could be sabotaging your fitness goals",
-            "description": "Embracing a “fitness mindset” can make a huge difference when it comes to living a healthier life.",
-            "source": "The Sydney Morning Herald",
-            "published_at": "2026-11-08T19:03:26Z",
-            "url": "https://www.smh.com.au/lifestyle/health-and-wellness/the-what-the-hell-effect-could-be-sabotaging-your-fitness-goals-20261109-p61avf.html",
-            "sentiment_score": -0.2842,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "US inflation set to cool in October after two months of sharp increases",
-            "description": "The consumer price index is seen rising 0.3% after a 0.6% increase that was the largest since April, based on the median projection in a Bloomberg survey of economists ahead of Tuesday's release",
-            "source": "Business Standard",
-            "published_at": "2026-11-08T07:33:27Z",
-            "url": "https://www.business-standard.com/world-news/us-inflation-set-to-cool-in-october-after-two-months-of-sharp-increases-126110800246_1.html",
-            "sentiment_score": 0.3182,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Altcoins shed about $200 billion as 70% slip below 200-day moving average",
-            "description": "The altcoin market's sharp decline highlights the volatility and susceptibility of speculative assets to macroeconomic pressures and investor sentiment shifts.\nThe post Altcoins shed about $200 billion as 70% slip below 200-day moving average appeared first o…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-08T05:05:37Z",
-            "url": "https://cryptobriefing.com/altcoins-lose-200-billion-moving-average/",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0542,
+        "average_score": 0.1545,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold dips ahead of US inflation data",
+            "description": "Gold prices edged lower in early Asian trade on Tuesday as investors awaited US inflation data later in the day for clues on the Federal Reserve's next policy move.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:56:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-dips-ahead-of-us-inflation-data/articleshow/135696094.cms",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "The trade and sentiment-sensitive Australian dollar rose by nearly 1% through Monday to sit at $0.6921 early on Tuesday and the New Zealand dollar rose even further to trade at $0.5624, with both steady in morning Asia trade.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:51:32Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-sellers-hit-pause-for-us-inflation-data/articleshow/135696077.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hike may not be ‘one and done’ if AI boom fuels inflation",
+            "description": "Six months into Federal Reserve Chairman Kevin Warsh’s promised “regime change” at the U.S. central bank, his policymaking colleagues find themselves navigating an unexpected post-midterm crossroads of affordability, artificial intelligence-driven economic sh…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:48:09Z",
+            "url": "https://biztoc.com/x/aefe146972a369e0",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stablecoins Now Equal 19.5% of Bitcoin’s Market Value, Up From 14% a Year Ago",
+            "description": "Dollar stablecoins now equal 19.5% of Bitcoin’s market value, up from 14.3% a year ago. Most of the rise came from BTC’s price, and supply has cooled since May.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-10T00:41:26Z",
+            "url": "https://www.dcforecasts.com/analysis/bitcoin-liquidity-stablecoin-supply-ratio/",
+            "sentiment_score": 0.34,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Vindication of the Bidenflation Thesis",
+            "description": "The mystery of Bidenflation has been solved. And the culprit was Biden's excessive deficits and the Fed's excessively loose monetary policy.\nThe post Breitbart Business Digest: The Vindication of the Bidenflation Thesis appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-11-10T00:40:10Z",
+            "url": "https://www.breitbart.com/economy/2026/11/09/breitbart-business-digest-the-vindication-of-the-bidenflation-thesis/",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "SYDNEY, Nov 10 : The dollar found support following a bumpy few days and held firm in Tuesday's Asia session while traders waited for US inflation data, which could push it higher if it bolsters rate hike bets.A tumble in oil prices and gains overnight for st…",
+            "source": "CNA",
+            "published_at": "2026-11-10T00:38:40Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-sellers-hit-pause-us-inflation-data-6537586",
+            "sentiment_score": 0.1875,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:33:10Z",
+            "url": "https://biztoc.com/x/87422dae85fddd14",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Banks Draw Lines Around Customers’ AI Agents",
+            "description": "Banks are beginning to consider how much access artificial intelligence (AI) agents should have to customers’ online banking accounts, as financial institutions weigh the potential of agentic AI against security and account-access concerns. In a recently rele…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:44:07Z",
+            "url": "https://www.pymnts.com/news/banking/2026/banks-draw-lines-around-customers-ai-agents/",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:28:16Z",
+            "url": "https://www.pymnts.com/consumer-insights/2026/consumers-see-a-brighter-economy-but-less-room-in-the-holiday-budget/",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Bubble Tracker",
+            "description": "79 live signals on the AI economy: spending, supply, usage, adoption, prices, markets and attention.",
+            "source": "Endtime-instruments.org",
+            "published_at": "2026-11-09T23:09:15Z",
+            "url": "https://endtime-instruments.org/ai-bubble-tracker/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Inflation likely took a breather last month as fuel prices fell",
@@ -376,110 +446,10 @@
             "url": "https://fortune.com/2026/11/09/bitcoin-75000-tech-stock-rout-altcoins-steeper-losses/",
             "sentiment_score": -0.6229,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
-            "description": "Chris Avalos, Musa Orak, and Avani PradhanThe 2025 U.S. tariff increases were followed by sharply different export outcomes in Canada and Mexico. Comparing the 12 months ending in April 2026 with calendar year 2024, Canadian goods exports to the United States…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/a-common-pattern-behind-diverging-fortunes-u-s-tariffs-and-exports-from-canada-and-mexico-20261109.html",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: U.S. Private Credit Vehicles: Institutional Structure and Aggregate Balance Sheets",
-            "description": "Katie Brinkman, Christine Dobridge, Tim Dore, Simon Glossner, Elizabeth Holmquist, Nam Nguyen, Maria Perozek, and Irina StefanescuThe expansion of private credit has become one of the most significant developments in financial markets over the past decade. Ye…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/u-s-private-credit-vehicles-institutional-structure-and-aggregate-balance-sheets-20261109.html",
-            "sentiment_score": 0.4385,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
-            "description": "Colin WeissThis note reviews several publicized gold reserve relocations by central banks in the Netherlands, France, and Germany since 2013 and any concurrent changes in their U.S. dollar reserve allocations. Generally, the choice of where to custody gold re…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
-            "sentiment_score": -0.3796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Novelist reveals breathtakingly cruel way top economist lover told her that she wasn't beautiful enough to be his girlfriend after sex that hurt her back",
-            "description": "Merritt Tierce, a Los Angeles-based writer, revealed in her new book that her 'older' European lover treated her callously during their brief fling.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-09T17:28:00Z",
-            "url": "https://www.dailymail.com/news/article-16278477/merritt-tierce-boyfriend-beautiful-girlfriend.html",
-            "sentiment_score": -0.3109,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Market Outlook: Can Wall Street Help BTC Recover?",
-            "description": "Bitcoin is facing another important test as institutional investors reassess their exposure to cryptocurrencies. After a difficult first week of November, the latest Bitcoin market outlook suggests that Wall Street’s appetite for risk could play a major role …",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-09T17:14:51Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-market-outlook-can-wall-street-help-btc-recover/",
-            "sentiment_score": 0.2505,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Notes From the Blue Star State",
-            "description": "James K. Galbraith\n\n\n\nTexas is predominantly and pragmatically populist. If the national Democratic Party wishes to conquer the Electoral College for a generation, it will follow the lead of the voters.\r\n\n\r\n\n\nThe post Notes From the Blue Star State appeared f…",
-            "source": "Thenation.com",
-            "published_at": "2026-11-09T16:44:04Z",
-            "url": "https://www.thenation.com/article/politics/texas-democrats-talarico-hinojosa-populism/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
-            "description": "After a six-month high, the US dollar is now on a downward trend, largely spurred by impressive job growth figures. Investors are eagerly awaiting the upcoming consumer price index data, a key factor for Federal Reserve rate considerations. Meanwhile, the eur…",
-            "source": "The Times of India",
-            "published_at": "2026-11-09T16:16:36Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
-            "sentiment_score": 0.1037,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: We have to accept inflation failure",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee commented on Monday that \"we have to come to terms with this cost side and inflation side failure in the mandate.\"Appearing at a moderated Q&a...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:52:46Z",
-            "url": "https://biztoc.com/x/1c63f668607f1935",
-            "sentiment_score": -0.2777,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US drops a proposed crypto rule. Europe can still hold up your $500 transfer",
-            "description": "The proposed U.S. threshold never took effect, while a $500 customer transfer can still require information before an EU exchange releases it.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-09T15:45:43Z",
-            "url": "https://cryptoslate.com/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Futures Rise as Oil Prices Fall Ahead of US Inflation Data: Dow Jones, S&P, Nasdaq",
-            "description": "US stock futures pointed to a higher opening on Monday as a decline in crude oil prices supported market sentiment following Friday's recovery from a technology-led sell-off.\nUS crude oil futures fell more than 4% after President Donald Trump indicated that f…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:40:56Z",
-            "url": "https://biztoc.com/x/88701a2d739504cd",
-            "sentiment_score": -0.2181,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0254,
+      "net_score": -0.1364,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -489,28 +459,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.11707,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 1.11669,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 38.0,
-      "rsi_signal": "โซนกลาง (RSI=38.0)",
+      "rsi_value": 37.6,
+      "rsi_signal": "โซนกลาง (RSI=37.6)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00103,
-      "suggested_sl_distance": 0.00154,
+      "atr_value": 0.00097,
+      "suggested_sl_distance": 0.00146,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.6) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-10T23:06:51.234557+00:00"
+    "generated_at": "2026-11-11T02:43:50.993771+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -519,10 +489,40 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0493,
+        "average_score": 0.0417,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 12,
+        "article_count": 11,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "The trade and sentiment-sensitive Australian dollar rose by nearly 1% through Monday to sit at $0.6921 early on Tuesday and the New Zealand dollar rose even further to trade at $0.5624, with both steady in morning Asia trade.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:51:32Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-sellers-hit-pause-for-us-inflation-data/articleshow/135696077.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "SYDNEY, Nov 10 : The dollar found support following a bumpy few days and held firm in Tuesday's Asia session while traders waited for US inflation data, which could push it higher if it bolsters rate hike bets.A tumble in oil prices and gains overnight for st…",
+            "source": "CNA",
+            "published_at": "2026-11-10T00:38:40Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-sellers-hit-pause-us-inflation-data-6537586",
+            "sentiment_score": 0.1875,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "GBP",
+            "title": "AI Bubble Tracker",
+            "description": "79 live signals on the AI economy: spending, supply, usage, adoption, prices, markets and attention.",
+            "source": "Endtime-instruments.org",
+            "published_at": "2026-11-09T23:09:15Z",
+            "url": "https://endtime-instruments.org/ai-bubble-tracker/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "GBP",
             "title": "Bank of England’s Bailey sees early signs of an AI-driven positive supply shock",
@@ -602,54 +602,114 @@
             "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/boes-pill-sees-scope-for-interest-rate-cuts-if-uk-growth-stalls/articleshow/135667381.cms",
             "sentiment_score": 0.6154,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "A single AI forecast inflates US power auctions by $5.7B",
-            "description": "Australia's latest inflation figures showed that prices in the category covering audio, visual, and computing equipment rose 6.1% in a single quarter. That's by far the largest increase in the Australian Bureau of Statistics series, which began in 1980. Compu…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-08T15:30:08Z",
-            "url": "https://cryptoslate.com/the-ai-boom-has-a-new-inflation-problem-consumers-are-paying-before-it-pays-off/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Canada PM Mark Carney Supercharges Banks with 2.3 Million More Migrants as Citizen’s Lack Jobs [WATCH]",
-            "description": "Canadian Prime Minister Mark Carney has unveiled a budget plan that would bring 2.3 million additional migrants into Canada over the next three years,",
-            "source": "Lifezette.com",
-            "published_at": "2026-11-08T15:04:53Z",
-            "url": "https://www.lifezette.com/2026/11/canada-pm-mark-carney-supercharges-banks-with-2-3-million-more-migrants-as-citizens-lack-jobs-watch/",
-            "sentiment_score": -0.2227,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "US inflation set to cool in October after two months of sharp increases",
-            "description": "The consumer price index is seen rising 0.3% after a 0.6% increase that was the largest since April, based on the median projection in a Bloomberg survey of economists ahead of Tuesday's release",
-            "source": "Business Standard",
-            "published_at": "2026-11-08T07:33:27Z",
-            "url": "https://www.business-standard.com/world-news/us-inflation-set-to-cool-in-october-after-two-months-of-sharp-increases-126110800246_1.html",
-            "sentiment_score": 0.3182,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Altcoins shed about $200 billion as 70% slip below 200-day moving average",
-            "description": "The altcoin market's sharp decline highlights the volatility and susceptibility of speculative assets to macroeconomic pressures and investor sentiment shifts.\nThe post Altcoins shed about $200 billion as 70% slip below 200-day moving average appeared first o…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-08T05:05:37Z",
-            "url": "https://cryptobriefing.com/altcoins-lose-200-billion-moving-average/",
-            "sentiment_score": -0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0542,
+        "average_score": 0.1545,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold dips ahead of US inflation data",
+            "description": "Gold prices edged lower in early Asian trade on Tuesday as investors awaited US inflation data later in the day for clues on the Federal Reserve's next policy move.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:56:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-dips-ahead-of-us-inflation-data/articleshow/135696094.cms",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "The trade and sentiment-sensitive Australian dollar rose by nearly 1% through Monday to sit at $0.6921 early on Tuesday and the New Zealand dollar rose even further to trade at $0.5624, with both steady in morning Asia trade.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:51:32Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-sellers-hit-pause-for-us-inflation-data/articleshow/135696077.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hike may not be ‘one and done’ if AI boom fuels inflation",
+            "description": "Six months into Federal Reserve Chairman Kevin Warsh’s promised “regime change” at the U.S. central bank, his policymaking colleagues find themselves navigating an unexpected post-midterm crossroads of affordability, artificial intelligence-driven economic sh…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:48:09Z",
+            "url": "https://biztoc.com/x/aefe146972a369e0",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stablecoins Now Equal 19.5% of Bitcoin’s Market Value, Up From 14% a Year Ago",
+            "description": "Dollar stablecoins now equal 19.5% of Bitcoin’s market value, up from 14.3% a year ago. Most of the rise came from BTC’s price, and supply has cooled since May.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-10T00:41:26Z",
+            "url": "https://www.dcforecasts.com/analysis/bitcoin-liquidity-stablecoin-supply-ratio/",
+            "sentiment_score": 0.34,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Vindication of the Bidenflation Thesis",
+            "description": "The mystery of Bidenflation has been solved. And the culprit was Biden's excessive deficits and the Fed's excessively loose monetary policy.\nThe post Breitbart Business Digest: The Vindication of the Bidenflation Thesis appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-11-10T00:40:10Z",
+            "url": "https://www.breitbart.com/economy/2026/11/09/breitbart-business-digest-the-vindication-of-the-bidenflation-thesis/",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "SYDNEY, Nov 10 : The dollar found support following a bumpy few days and held firm in Tuesday's Asia session while traders waited for US inflation data, which could push it higher if it bolsters rate hike bets.A tumble in oil prices and gains overnight for st…",
+            "source": "CNA",
+            "published_at": "2026-11-10T00:38:40Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-sellers-hit-pause-us-inflation-data-6537586",
+            "sentiment_score": 0.1875,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:33:10Z",
+            "url": "https://biztoc.com/x/87422dae85fddd14",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Banks Draw Lines Around Customers’ AI Agents",
+            "description": "Banks are beginning to consider how much access artificial intelligence (AI) agents should have to customers’ online banking accounts, as financial institutions weigh the potential of agentic AI against security and account-access concerns. In a recently rele…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:44:07Z",
+            "url": "https://www.pymnts.com/news/banking/2026/banks-draw-lines-around-customers-ai-agents/",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:28:16Z",
+            "url": "https://www.pymnts.com/consumer-insights/2026/consumers-see-a-brighter-economy-but-less-room-in-the-holiday-budget/",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Bubble Tracker",
+            "description": "79 live signals on the AI economy: spending, supply, usage, adoption, prices, markets and attention.",
+            "source": "Endtime-instruments.org",
+            "published_at": "2026-11-09T23:09:15Z",
+            "url": "https://endtime-instruments.org/ai-bubble-tracker/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Inflation likely took a breather last month as fuel prices fell",
@@ -849,110 +909,10 @@
             "url": "https://fortune.com/2026/11/09/bitcoin-75000-tech-stock-rout-altcoins-steeper-losses/",
             "sentiment_score": -0.6229,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
-            "description": "Chris Avalos, Musa Orak, and Avani PradhanThe 2025 U.S. tariff increases were followed by sharply different export outcomes in Canada and Mexico. Comparing the 12 months ending in April 2026 with calendar year 2024, Canadian goods exports to the United States…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/a-common-pattern-behind-diverging-fortunes-u-s-tariffs-and-exports-from-canada-and-mexico-20261109.html",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: U.S. Private Credit Vehicles: Institutional Structure and Aggregate Balance Sheets",
-            "description": "Katie Brinkman, Christine Dobridge, Tim Dore, Simon Glossner, Elizabeth Holmquist, Nam Nguyen, Maria Perozek, and Irina StefanescuThe expansion of private credit has become one of the most significant developments in financial markets over the past decade. Ye…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/u-s-private-credit-vehicles-institutional-structure-and-aggregate-balance-sheets-20261109.html",
-            "sentiment_score": 0.4385,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
-            "description": "Colin WeissThis note reviews several publicized gold reserve relocations by central banks in the Netherlands, France, and Germany since 2013 and any concurrent changes in their U.S. dollar reserve allocations. Generally, the choice of where to custody gold re…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
-            "sentiment_score": -0.3796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Novelist reveals breathtakingly cruel way top economist lover told her that she wasn't beautiful enough to be his girlfriend after sex that hurt her back",
-            "description": "Merritt Tierce, a Los Angeles-based writer, revealed in her new book that her 'older' European lover treated her callously during their brief fling.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-09T17:28:00Z",
-            "url": "https://www.dailymail.com/news/article-16278477/merritt-tierce-boyfriend-beautiful-girlfriend.html",
-            "sentiment_score": -0.3109,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Market Outlook: Can Wall Street Help BTC Recover?",
-            "description": "Bitcoin is facing another important test as institutional investors reassess their exposure to cryptocurrencies. After a difficult first week of November, the latest Bitcoin market outlook suggests that Wall Street’s appetite for risk could play a major role …",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-09T17:14:51Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-market-outlook-can-wall-street-help-btc-recover/",
-            "sentiment_score": 0.2505,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Notes From the Blue Star State",
-            "description": "James K. Galbraith\n\n\n\nTexas is predominantly and pragmatically populist. If the national Democratic Party wishes to conquer the Electoral College for a generation, it will follow the lead of the voters.\r\n\n\r\n\n\nThe post Notes From the Blue Star State appeared f…",
-            "source": "Thenation.com",
-            "published_at": "2026-11-09T16:44:04Z",
-            "url": "https://www.thenation.com/article/politics/texas-democrats-talarico-hinojosa-populism/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
-            "description": "After a six-month high, the US dollar is now on a downward trend, largely spurred by impressive job growth figures. Investors are eagerly awaiting the upcoming consumer price index data, a key factor for Federal Reserve rate considerations. Meanwhile, the eur…",
-            "source": "The Times of India",
-            "published_at": "2026-11-09T16:16:36Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
-            "sentiment_score": 0.1037,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: We have to accept inflation failure",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee commented on Monday that \"we have to come to terms with this cost side and inflation side failure in the mandate.\"Appearing at a moderated Q&a...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:52:46Z",
-            "url": "https://biztoc.com/x/1c63f668607f1935",
-            "sentiment_score": -0.2777,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US drops a proposed crypto rule. Europe can still hold up your $500 transfer",
-            "description": "The proposed U.S. threshold never took effect, while a $500 customer transfer can still require information before an EU exchange releases it.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-09T15:45:43Z",
-            "url": "https://cryptoslate.com/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Futures Rise as Oil Prices Fall Ahead of US Inflation Data: Dow Jones, S&P, Nasdaq",
-            "description": "US stock futures pointed to a higher opening on Monday as a decline in crude oil prices supported market sentiment following Friday's recovery from a technology-led sell-off.\nUS crude oil futures fell more than 4% after President Donald Trump indicated that f…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:40:56Z",
-            "url": "https://biztoc.com/x/88701a2d739504cd",
-            "sentiment_score": -0.2181,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0049,
+      "net_score": -0.1128,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -962,14 +922,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.33474,
+      "price_now": 1.33476,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 34.1,
-      "rsi_signal": "โซนกลาง (RSI=34.1)",
+      "rsi_value": 35.8,
+      "rsi_signal": "โซนกลาง (RSI=35.8)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00126,
-      "suggested_sl_distance": 0.00188,
+      "atr_value": 0.00116,
+      "suggested_sl_distance": 0.00174,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -981,9 +941,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=34.1) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=35.8) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-10T23:06:51.234557+00:00"
+    "generated_at": "2026-11-11T02:43:50.993771+00:00"
   },
   {
     "pair": "USDJPY",
@@ -992,10 +952,110 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.0542,
+        "average_score": 0.1545,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold dips ahead of US inflation data",
+            "description": "Gold prices edged lower in early Asian trade on Tuesday as investors awaited US inflation data later in the day for clues on the Federal Reserve's next policy move.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:56:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-dips-ahead-of-us-inflation-data/articleshow/135696094.cms",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "The trade and sentiment-sensitive Australian dollar rose by nearly 1% through Monday to sit at $0.6921 early on Tuesday and the New Zealand dollar rose even further to trade at $0.5624, with both steady in morning Asia trade.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:51:32Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-sellers-hit-pause-for-us-inflation-data/articleshow/135696077.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hike may not be ‘one and done’ if AI boom fuels inflation",
+            "description": "Six months into Federal Reserve Chairman Kevin Warsh’s promised “regime change” at the U.S. central bank, his policymaking colleagues find themselves navigating an unexpected post-midterm crossroads of affordability, artificial intelligence-driven economic sh…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:48:09Z",
+            "url": "https://biztoc.com/x/aefe146972a369e0",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stablecoins Now Equal 19.5% of Bitcoin’s Market Value, Up From 14% a Year Ago",
+            "description": "Dollar stablecoins now equal 19.5% of Bitcoin’s market value, up from 14.3% a year ago. Most of the rise came from BTC’s price, and supply has cooled since May.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-10T00:41:26Z",
+            "url": "https://www.dcforecasts.com/analysis/bitcoin-liquidity-stablecoin-supply-ratio/",
+            "sentiment_score": 0.34,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Vindication of the Bidenflation Thesis",
+            "description": "The mystery of Bidenflation has been solved. And the culprit was Biden's excessive deficits and the Fed's excessively loose monetary policy.\nThe post Breitbart Business Digest: The Vindication of the Bidenflation Thesis appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-11-10T00:40:10Z",
+            "url": "https://www.breitbart.com/economy/2026/11/09/breitbart-business-digest-the-vindication-of-the-bidenflation-thesis/",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "SYDNEY, Nov 10 : The dollar found support following a bumpy few days and held firm in Tuesday's Asia session while traders waited for US inflation data, which could push it higher if it bolsters rate hike bets.A tumble in oil prices and gains overnight for st…",
+            "source": "CNA",
+            "published_at": "2026-11-10T00:38:40Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-sellers-hit-pause-us-inflation-data-6537586",
+            "sentiment_score": 0.1875,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:33:10Z",
+            "url": "https://biztoc.com/x/87422dae85fddd14",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Banks Draw Lines Around Customers’ AI Agents",
+            "description": "Banks are beginning to consider how much access artificial intelligence (AI) agents should have to customers’ online banking accounts, as financial institutions weigh the potential of agentic AI against security and account-access concerns. In a recently rele…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:44:07Z",
+            "url": "https://www.pymnts.com/news/banking/2026/banks-draw-lines-around-customers-ai-agents/",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:28:16Z",
+            "url": "https://www.pymnts.com/consumer-insights/2026/consumers-see-a-brighter-economy-but-less-room-in-the-holiday-budget/",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Bubble Tracker",
+            "description": "79 live signals on the AI economy: spending, supply, usage, adoption, prices, markets and attention.",
+            "source": "Endtime-instruments.org",
+            "published_at": "2026-11-09T23:09:15Z",
+            "url": "https://endtime-instruments.org/ai-bubble-tracker/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Inflation likely took a breather last month as fuel prices fell",
@@ -1195,114 +1255,34 @@
             "url": "https://fortune.com/2026/11/09/bitcoin-75000-tech-stock-rout-altcoins-steeper-losses/",
             "sentiment_score": -0.6229,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
-            "description": "Chris Avalos, Musa Orak, and Avani PradhanThe 2025 U.S. tariff increases were followed by sharply different export outcomes in Canada and Mexico. Comparing the 12 months ending in April 2026 with calendar year 2024, Canadian goods exports to the United States…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/a-common-pattern-behind-diverging-fortunes-u-s-tariffs-and-exports-from-canada-and-mexico-20261109.html",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: U.S. Private Credit Vehicles: Institutional Structure and Aggregate Balance Sheets",
-            "description": "Katie Brinkman, Christine Dobridge, Tim Dore, Simon Glossner, Elizabeth Holmquist, Nam Nguyen, Maria Perozek, and Irina StefanescuThe expansion of private credit has become one of the most significant developments in financial markets over the past decade. Ye…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/u-s-private-credit-vehicles-institutional-structure-and-aggregate-balance-sheets-20261109.html",
-            "sentiment_score": 0.4385,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
-            "description": "Colin WeissThis note reviews several publicized gold reserve relocations by central banks in the Netherlands, France, and Germany since 2013 and any concurrent changes in their U.S. dollar reserve allocations. Generally, the choice of where to custody gold re…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
-            "sentiment_score": -0.3796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Novelist reveals breathtakingly cruel way top economist lover told her that she wasn't beautiful enough to be his girlfriend after sex that hurt her back",
-            "description": "Merritt Tierce, a Los Angeles-based writer, revealed in her new book that her 'older' European lover treated her callously during their brief fling.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-09T17:28:00Z",
-            "url": "https://www.dailymail.com/news/article-16278477/merritt-tierce-boyfriend-beautiful-girlfriend.html",
-            "sentiment_score": -0.3109,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Market Outlook: Can Wall Street Help BTC Recover?",
-            "description": "Bitcoin is facing another important test as institutional investors reassess their exposure to cryptocurrencies. After a difficult first week of November, the latest Bitcoin market outlook suggests that Wall Street’s appetite for risk could play a major role …",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-09T17:14:51Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-market-outlook-can-wall-street-help-btc-recover/",
-            "sentiment_score": 0.2505,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Notes From the Blue Star State",
-            "description": "James K. Galbraith\n\n\n\nTexas is predominantly and pragmatically populist. If the national Democratic Party wishes to conquer the Electoral College for a generation, it will follow the lead of the voters.\r\n\n\r\n\n\nThe post Notes From the Blue Star State appeared f…",
-            "source": "Thenation.com",
-            "published_at": "2026-11-09T16:44:04Z",
-            "url": "https://www.thenation.com/article/politics/texas-democrats-talarico-hinojosa-populism/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
-            "description": "After a six-month high, the US dollar is now on a downward trend, largely spurred by impressive job growth figures. Investors are eagerly awaiting the upcoming consumer price index data, a key factor for Federal Reserve rate considerations. Meanwhile, the eur…",
-            "source": "The Times of India",
-            "published_at": "2026-11-09T16:16:36Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
-            "sentiment_score": 0.1037,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: We have to accept inflation failure",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee commented on Monday that \"we have to come to terms with this cost side and inflation side failure in the mandate.\"Appearing at a moderated Q&a...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:52:46Z",
-            "url": "https://biztoc.com/x/1c63f668607f1935",
-            "sentiment_score": -0.2777,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US drops a proposed crypto rule. Europe can still hold up your $500 transfer",
-            "description": "The proposed U.S. threshold never took effect, while a $500 customer transfer can still require information before an EU exchange releases it.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-09T15:45:43Z",
-            "url": "https://cryptoslate.com/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Futures Rise as Oil Prices Fall Ahead of US Inflation Data: Dow Jones, S&P, Nasdaq",
-            "description": "US stock futures pointed to a higher opening on Monday as a decline in crude oil prices supported market sentiment following Friday's recovery from a technology-led sell-off.\nUS crude oil futures fell more than 4% after President Donald Trump indicated that f…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:40:56Z",
-            "url": "https://biztoc.com/x/88701a2d739504cd",
-            "sentiment_score": -0.2181,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0255,
-        "label": "เป็นกลาง (Neutral)",
+        "average_score": 0.0606,
+        "label": "บวกเล็กน้อย",
         "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "BOJ estimates $6 billion annual gain from faster ETF sales, finance minister says",
+            "description": "TOKYO, Nov 10 : The Bank of Japan estimates that its accelerated sales of exchange-traded fund (ETF) holdings will generate about 1 trillion yen ($6.33 billion) in additional annual proceeds, Finance Minister Satsuki Katayama said on Tuesday.Katayama's remark…",
+            "source": "CNA",
+            "published_at": "2026-11-10T02:34:20Z",
+            "url": "https://www.channelnewsasia.com/business/boj-estimates-6-billion-annual-gain-faster-etf-sales-finance-minister-says-6537966",
+            "sentiment_score": 0.3687,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Gold dips ahead of US inflation data",
+            "description": "Gold prices edged lower in early Asian trade on Tuesday as investors awaited US inflation data later in the day for clues on the Federal Reserve's next policy move.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:56:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-dips-ahead-of-us-inflation-data/articleshow/135696094.cms",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "The missing step in the warning that Japan could trigger Bitcoin’s next selloff",
@@ -1402,30 +1382,10 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-up-as-softer-crude-tempers-inflation-concerns/articleshow/135667365.cms",
             "sentiment_score": -0.2734,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan Stocks Face Volatile Week After Historic Selloff",
-            "description": "Japan's stock market is expected to open higher on Monday, November 9, after the Nikkei 225 plunged 9.25% last week to close at 57,434.77 on Friday, November 6, with a rebound in US technology shares and stronger overnight futures pointing to an initial recov…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-11-08T17:46:39Z",
-            "url": "https://newsonjapan.com/article/151291.php",
-            "sentiment_score": 0.1758,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "'Feeling guilty': Price hikes a tough sell in Japan despite inflation",
-            "description": "The angst faced by Uniqlo and Saizeriya when they attempted to raise prices highlights the struggle Japanese firms face as they battle rising costs in a country that has experienced decades of deflation.",
-            "source": "CNA",
-            "published_at": "2026-11-08T03:33:28Z",
-            "url": "https://www.channelnewsasia.com/east-asia/japan-inflation-price-hikes-uniqlo-saizeriya-6533786",
-            "sentiment_score": -0.4749,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
-      "net_score": 0.0287,
+      "net_score": 0.0939,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1435,17 +1395,17 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 158.7,
+      "price_now": 158.85201,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 66.8,
-      "rsi_signal": "โซนกลาง (RSI=66.8)",
+      "rsi_value": 72.5,
+      "rsi_signal": "ซื้อมากเกิน (RSI=72.5) ระวังราคาย่อ",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.13636,
-      "suggested_sl_distance": 0.20455,
+      "atr_value": 0.14288,
+      "suggested_sl_distance": 0.21432,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "technical_vote": 1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "up",
       "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1454,9 +1414,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=66.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=72.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-10T23:06:51.234557+00:00"
+    "generated_at": "2026-11-11T02:43:50.993771+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1465,67 +1425,116 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1412,
-        "label": "ลบเล็กน้อย",
-        "article_count": 5,
-        "scored_articles": [
-          {
-            "currency": "AUD",
-            "title": "Is the Coalition’s inflation claim against Labor fair?",
-            "description": "The Coalition is blaming Labor for inflation worse than the EU, the US and the UK. But comparing apples with apples is an unappealing business when there are political points to be scored.\nThe post Is the Coalition’s inflation claim against Labor fair? appear…",
-            "source": "Crikey",
-            "published_at": "2026-11-08T23:46:59Z",
-            "url": "http://www.crikey.com.au/2026/11/09/labor-inflation-australia-jim-chalmers-kevin-hogan-economy/",
-            "sentiment_score": 0.2073,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "The Coalition blames Labor for inflation worse than the EU, the US and the UK — is that fair?",
-            "description": "Comparing apples with apples is an unappealing business when there are political points to be scored.\nThe post The Coalition blames Labor for inflation worse than the EU, the US and the UK — is that fair? appeared first on Crikey.",
-            "source": "Crikey",
-            "published_at": "2026-11-08T23:46:59Z",
-            "url": "http://www.crikey.com.au/2026/11/09/labor-inflation-jim-chalmers-kevin-hogan-economy/",
-            "sentiment_score": -0.5423,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "RBA's Hunter says AI has yet to deliver productivity boost, trigger job losses",
-            "description": "SYDNEY, Nov 9 : A senior Australian central banker said on Monday there was limited evidence that artificial intelligence had meaningfully lifted productivity and caused widespread job losses, but warned the technology could pose growing risks to financial st…",
-            "source": "CNA",
-            "published_at": "2026-11-08T22:42:58Z",
-            "url": "https://www.channelnewsasia.com/business/rbas-hunter-says-ai-has-yet-deliver-productivity-boost-trigger-job-losses-6534796",
-            "sentiment_score": -0.1627,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "A single AI forecast inflates US power auctions by $5.7B",
-            "description": "Australia's latest inflation figures showed that prices in the category covering audio, visual, and computing equipment rose 6.1% in a single quarter. That's by far the largest increase in the Australian Bureau of Statistics series, which began in 1980. Compu…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-08T15:30:08Z",
-            "url": "https://cryptoslate.com/the-ai-boom-has-a-new-inflation-problem-consumers-are-paying-before-it-pays-off/",
-            "sentiment_score": 0.0955,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Albanese snaps at camera operators after questions about his travel schedule as Aussies are smashed by mortgage pain: 'Stop, guys, stop'",
-            "description": "The tense moment followed questions about whether social engagements during the had distracted Albanese from official business, amid scrutiny of his overseas travel schedule.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-08T02:53:54Z",
-            "url": "https://www.dailymail.com/news/article-16275233/anthony-albanese-overseas-travel-reporters-mortgage-pain.html",
-            "sentiment_score": -0.6884,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          }
-        ]
+        "average_score": 0.0,
+        "label": "ไม่มีข่าว",
+        "article_count": 0,
+        "scored_articles": []
       },
       "quote_sentiment": {
-        "average_score": 0.0542,
+        "average_score": 0.1545,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold dips ahead of US inflation data",
+            "description": "Gold prices edged lower in early Asian trade on Tuesday as investors awaited US inflation data later in the day for clues on the Federal Reserve's next policy move.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:56:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-dips-ahead-of-us-inflation-data/articleshow/135696094.cms",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "The trade and sentiment-sensitive Australian dollar rose by nearly 1% through Monday to sit at $0.6921 early on Tuesday and the New Zealand dollar rose even further to trade at $0.5624, with both steady in morning Asia trade.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:51:32Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-sellers-hit-pause-for-us-inflation-data/articleshow/135696077.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hike may not be ‘one and done’ if AI boom fuels inflation",
+            "description": "Six months into Federal Reserve Chairman Kevin Warsh’s promised “regime change” at the U.S. central bank, his policymaking colleagues find themselves navigating an unexpected post-midterm crossroads of affordability, artificial intelligence-driven economic sh…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:48:09Z",
+            "url": "https://biztoc.com/x/aefe146972a369e0",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stablecoins Now Equal 19.5% of Bitcoin’s Market Value, Up From 14% a Year Ago",
+            "description": "Dollar stablecoins now equal 19.5% of Bitcoin’s market value, up from 14.3% a year ago. Most of the rise came from BTC’s price, and supply has cooled since May.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-10T00:41:26Z",
+            "url": "https://www.dcforecasts.com/analysis/bitcoin-liquidity-stablecoin-supply-ratio/",
+            "sentiment_score": 0.34,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Vindication of the Bidenflation Thesis",
+            "description": "The mystery of Bidenflation has been solved. And the culprit was Biden's excessive deficits and the Fed's excessively loose monetary policy.\nThe post Breitbart Business Digest: The Vindication of the Bidenflation Thesis appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-11-10T00:40:10Z",
+            "url": "https://www.breitbart.com/economy/2026/11/09/breitbart-business-digest-the-vindication-of-the-bidenflation-thesis/",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "SYDNEY, Nov 10 : The dollar found support following a bumpy few days and held firm in Tuesday's Asia session while traders waited for US inflation data, which could push it higher if it bolsters rate hike bets.A tumble in oil prices and gains overnight for st…",
+            "source": "CNA",
+            "published_at": "2026-11-10T00:38:40Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-sellers-hit-pause-us-inflation-data-6537586",
+            "sentiment_score": 0.1875,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:33:10Z",
+            "url": "https://biztoc.com/x/87422dae85fddd14",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Banks Draw Lines Around Customers’ AI Agents",
+            "description": "Banks are beginning to consider how much access artificial intelligence (AI) agents should have to customers’ online banking accounts, as financial institutions weigh the potential of agentic AI against security and account-access concerns. In a recently rele…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:44:07Z",
+            "url": "https://www.pymnts.com/news/banking/2026/banks-draw-lines-around-customers-ai-agents/",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:28:16Z",
+            "url": "https://www.pymnts.com/consumer-insights/2026/consumers-see-a-brighter-economy-but-less-room-in-the-holiday-budget/",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Bubble Tracker",
+            "description": "79 live signals on the AI economy: spending, supply, usage, adoption, prices, markets and attention.",
+            "source": "Endtime-instruments.org",
+            "published_at": "2026-11-09T23:09:15Z",
+            "url": "https://endtime-instruments.org/ai-bubble-tracker/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Inflation likely took a breather last month as fuel prices fell",
@@ -1725,110 +1734,10 @@
             "url": "https://fortune.com/2026/11/09/bitcoin-75000-tech-stock-rout-altcoins-steeper-losses/",
             "sentiment_score": -0.6229,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
-            "description": "Chris Avalos, Musa Orak, and Avani PradhanThe 2025 U.S. tariff increases were followed by sharply different export outcomes in Canada and Mexico. Comparing the 12 months ending in April 2026 with calendar year 2024, Canadian goods exports to the United States…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/a-common-pattern-behind-diverging-fortunes-u-s-tariffs-and-exports-from-canada-and-mexico-20261109.html",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: U.S. Private Credit Vehicles: Institutional Structure and Aggregate Balance Sheets",
-            "description": "Katie Brinkman, Christine Dobridge, Tim Dore, Simon Glossner, Elizabeth Holmquist, Nam Nguyen, Maria Perozek, and Irina StefanescuThe expansion of private credit has become one of the most significant developments in financial markets over the past decade. Ye…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/u-s-private-credit-vehicles-institutional-structure-and-aggregate-balance-sheets-20261109.html",
-            "sentiment_score": 0.4385,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
-            "description": "Colin WeissThis note reviews several publicized gold reserve relocations by central banks in the Netherlands, France, and Germany since 2013 and any concurrent changes in their U.S. dollar reserve allocations. Generally, the choice of where to custody gold re…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
-            "sentiment_score": -0.3796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Novelist reveals breathtakingly cruel way top economist lover told her that she wasn't beautiful enough to be his girlfriend after sex that hurt her back",
-            "description": "Merritt Tierce, a Los Angeles-based writer, revealed in her new book that her 'older' European lover treated her callously during their brief fling.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-09T17:28:00Z",
-            "url": "https://www.dailymail.com/news/article-16278477/merritt-tierce-boyfriend-beautiful-girlfriend.html",
-            "sentiment_score": -0.3109,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Market Outlook: Can Wall Street Help BTC Recover?",
-            "description": "Bitcoin is facing another important test as institutional investors reassess their exposure to cryptocurrencies. After a difficult first week of November, the latest Bitcoin market outlook suggests that Wall Street’s appetite for risk could play a major role …",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-09T17:14:51Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-market-outlook-can-wall-street-help-btc-recover/",
-            "sentiment_score": 0.2505,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Notes From the Blue Star State",
-            "description": "James K. Galbraith\n\n\n\nTexas is predominantly and pragmatically populist. If the national Democratic Party wishes to conquer the Electoral College for a generation, it will follow the lead of the voters.\r\n\n\r\n\n\nThe post Notes From the Blue Star State appeared f…",
-            "source": "Thenation.com",
-            "published_at": "2026-11-09T16:44:04Z",
-            "url": "https://www.thenation.com/article/politics/texas-democrats-talarico-hinojosa-populism/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
-            "description": "After a six-month high, the US dollar is now on a downward trend, largely spurred by impressive job growth figures. Investors are eagerly awaiting the upcoming consumer price index data, a key factor for Federal Reserve rate considerations. Meanwhile, the eur…",
-            "source": "The Times of India",
-            "published_at": "2026-11-09T16:16:36Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
-            "sentiment_score": 0.1037,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: We have to accept inflation failure",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee commented on Monday that \"we have to come to terms with this cost side and inflation side failure in the mandate.\"Appearing at a moderated Q&a...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:52:46Z",
-            "url": "https://biztoc.com/x/1c63f668607f1935",
-            "sentiment_score": -0.2777,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US drops a proposed crypto rule. Europe can still hold up your $500 transfer",
-            "description": "The proposed U.S. threshold never took effect, while a $500 customer transfer can still require information before an EU exchange releases it.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-09T15:45:43Z",
-            "url": "https://cryptoslate.com/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Futures Rise as Oil Prices Fall Ahead of US Inflation Data: Dow Jones, S&P, Nasdaq",
-            "description": "US stock futures pointed to a higher opening on Monday as a decline in crude oil prices supported market sentiment following Friday's recovery from a technology-led sell-off.\nUS crude oil futures fell more than 4% after President Donald Trump indicated that f…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:40:56Z",
-            "url": "https://biztoc.com/x/88701a2d739504cd",
-            "sentiment_score": -0.2181,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.1954,
+      "net_score": -0.1545,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1838,28 +1747,28 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.68691,
+      "price_now": 0.68814,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 37.9,
-      "rsi_signal": "โซนกลาง (RSI=37.9)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00091,
-      "suggested_sl_distance": 0.00136,
+      "rsi_value": 46.6,
+      "rsi_signal": "โซนกลาง (RSI=46.6)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.0009,
+      "suggested_sl_distance": 0.00135,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-10T23:06:51.234557+00:00"
+    "generated_at": "2026-11-11T02:43:50.993771+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1868,10 +1777,20 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.1304,
+        "average_score": 0.1637,
         "label": "บวกเล็กน้อย",
-        "article_count": 24,
+        "article_count": 17,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Financial institutions eye Asian gold hubs like S’pore: DBS survey",
+            "description": "However, implementation might still be a distance away, the survey noted. Read more at straitstimes.com.",
+            "source": "The Straits Times",
+            "published_at": "2026-11-10T02:02:24Z",
+            "url": "https://www.straitstimes.com/business/interest-by-financial-institutions-in-asian-gold-hubs-like-spore-dbs-survey",
+            "sentiment_score": 0.2528,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "XAU",
             "title": "Jewellery stocks outshine Nifty as festive gold demand fuels optimism",
@@ -2031,94 +1950,114 @@
             "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-edges-up-as-softer-crude-tempers-inflation-concerns/articleshow/135667365.cms",
             "sentiment_score": -0.2734,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction: Gold rate to undergo volatile mode, claim experts, cite a few factors that will impact bullion movement",
-            "description": "Gold rate prediction: Geopolitical developments in the Middle East, US-Iran war are expected to remain a major driver of precious metal prices.",
-            "source": "The Times of India",
-            "published_at": "2026-11-08T22:17:22Z",
-            "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-prediction-gold-rate-to-undergo-volatile-mode-claim-experts-cite-a-few-factors-that-will-impact-bullion-movement/articleshow/135665960.cms",
-            "sentiment_score": 0.0049,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "India’s holy city lights up with three million lamps for Diwali (VIDEO)",
-            "description": "The season for Diwali, the Festival of Lights, drives a surge in India’s retail spending and gold demand Read Full Article at RT.com",
-            "source": "Rt-english.com",
-            "published_at": "2026-11-08T18:43:38Z",
-            "url": "https://rt-english.com/india/648578-indias-holy-city-ayodhya-diwali/",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Goldman Sachs revamps 2027 gold price target, but signals rebound",
-            "description": "For anyone who invested in gold to protect their savings, 2026 has felt like an expensive lesson in uncertainty.\nAfter a terrific 2025, bullion felt like a natural refuge when war erupted in Iran, and oil prices surged.\nInstead, gold’s initial safe-haven rall…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-08T13:27:00Z",
-            "url": "https://biztoc.com/x/612f3a90ac4ba060",
-            "sentiment_score": 0.2129,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold is still 25% below its peak even as demand reaches $188B in Q3",
-            "description": "Central banks bought more gold in the third quarter of 2026 than consumers worldwide bought for jewelry. According to the World Gold Council's latest demand report, central banks and other official institutions acquired an estimated net 321 metric tons, while…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-08T11:20:50Z",
-            "url": "https://cryptoslate.com/gold-is-still-25-below-its-peak-while-demand-reaches-188b/",
-            "sentiment_score": -0.0924,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Working Harder Won’t Beat the Money Printer—Here’s What Will",
-            "description": "In 1999, ABC launched Who Wants to Be a Millionaire? with Regis Philbin. The show became a national obsession. Its premise rested on an assumption that needed no explanation: If you won $1 million, you had made it. Later that year, a contestant reached the fi…",
-            "source": "Activistpost.com",
-            "published_at": "2026-11-08T11:03:00Z",
-            "url": "https://activistpost.com/working-harder-wont-beat-the-money-printer-heres-what-will/",
-            "sentiment_score": 0.075,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold prices crash 24% globally but fall only 20% in India: Why domestic buyers aren't seeing the full price correction",
-            "description": "Gold prices have fallen 24% globally from their January peak, but domestic rates are down only 20%. Higher import duty, rupee depreciation and unusually high premiums in January explain why Indian buyers have seen a smaller correction.",
-            "source": "Livemint",
-            "published_at": "2026-11-08T09:44:11Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-prices-crash-24-globally-but-fall-only-20-in-india-why-domestic-buyers-arent-seeing-the-full-price-correction-11794125564701.html",
-            "sentiment_score": -0.2071,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver prices today, 8 Nov: Check Diwali 2026 retail rate of 24K, 22K gold, 999 silver in Delhi, Mumbai, Bangalore",
-            "description": "Gold, silver prices today, 8 November: Check retail price of 18K, 22K and 24K gold and 999 Fine silver on Diwali 2026 in your cities — Ahmedabad, Bengaluru, Chennai, Coimbatore, Delhi, Hyderabad, Kolkata, and Mumbai.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-11-08T05:17:52Z",
-            "url": "https://www.livemint.com/money/gold-24k-22k-18k-rate-999-silver-price-today-8-november-retail-diwali-delhi-mumbai-chennai-bangalore-kolkata-coimbatore-11794112139097.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold near interim bottom, but World Gold Council says three conditions associated with price recovery ‘already in place’",
-            "description": "The World Gold Council believes that while gold may be nearing an interim bottom, with three historical conditions already in place, the broader economic outlook supports a possible price recovery for the precious metal.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-11-08T04:22:31Z",
-            "url": "https://www.livemint.com/money/gold-nears-interim-bottom-world-gold-council-broader-economy-three-historical-conditions-price-recovery-in-place-markets-11794108175909.html",
-            "sentiment_score": 0.2205,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.0542,
+        "average_score": 0.1545,
         "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold dips ahead of US inflation data",
+            "description": "Gold prices edged lower in early Asian trade on Tuesday as investors awaited US inflation data later in the day for clues on the Federal Reserve's next policy move.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:56:50Z",
+            "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-dips-ahead-of-us-inflation-data/articleshow/135696094.cms",
+            "sentiment_score": -0.0955,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "The trade and sentiment-sensitive Australian dollar rose by nearly 1% through Monday to sit at $0.6921 early on Tuesday and the New Zealand dollar rose even further to trade at $0.5624, with both steady in morning Asia trade.",
+            "source": "The Times of India",
+            "published_at": "2026-11-10T00:51:32Z",
+            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-sellers-hit-pause-for-us-inflation-data/articleshow/135696077.cms",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hike may not be ‘one and done’ if AI boom fuels inflation",
+            "description": "Six months into Federal Reserve Chairman Kevin Warsh’s promised “regime change” at the U.S. central bank, his policymaking colleagues find themselves navigating an unexpected post-midterm crossroads of affordability, artificial intelligence-driven economic sh…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:48:09Z",
+            "url": "https://biztoc.com/x/aefe146972a369e0",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stablecoins Now Equal 19.5% of Bitcoin’s Market Value, Up From 14% a Year Ago",
+            "description": "Dollar stablecoins now equal 19.5% of Bitcoin’s market value, up from 14.3% a year ago. Most of the rise came from BTC’s price, and supply has cooled since May.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-10T00:41:26Z",
+            "url": "https://www.dcforecasts.com/analysis/bitcoin-liquidity-stablecoin-supply-ratio/",
+            "sentiment_score": 0.34,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Breitbart Business Digest: The Vindication of the Bidenflation Thesis",
+            "description": "The mystery of Bidenflation has been solved. And the culprit was Biden's excessive deficits and the Fed's excessively loose monetary policy.\nThe post Breitbart Business Digest: The Vindication of the Bidenflation Thesis appeared first on Breitbart.",
+            "source": "Breitbart News",
+            "published_at": "2026-11-10T00:40:10Z",
+            "url": "https://www.breitbart.com/economy/2026/11/09/breitbart-business-digest-the-vindication-of-the-bidenflation-thesis/",
+            "sentiment_score": -0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar sellers hit pause for US inflation data",
+            "description": "SYDNEY, Nov 10 : The dollar found support following a bumpy few days and held firm in Tuesday's Asia session while traders waited for US inflation data, which could push it higher if it bolsters rate hike bets.A tumble in oil prices and gains overnight for st…",
+            "source": "CNA",
+            "published_at": "2026-11-10T00:38:40Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-sellers-hit-pause-us-inflation-data-6537586",
+            "sentiment_score": 0.1875,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-10T00:33:10Z",
+            "url": "https://biztoc.com/x/87422dae85fddd14",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Banks Draw Lines Around Customers’ AI Agents",
+            "description": "Banks are beginning to consider how much access artificial intelligence (AI) agents should have to customers’ online banking accounts, as financial institutions weigh the potential of agentic AI against security and account-access concerns. In a recently rele…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:44:07Z",
+            "url": "https://www.pymnts.com/news/banking/2026/banks-draw-lines-around-customers-ai-agents/",
+            "sentiment_score": 0.2011,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Consumers See a Brighter Economy but Less Room in the Holiday Budget",
+            "description": "Consumers took a slightly brighter view of the economy in October in a PYMNTS Intelligence survey, while New York Fed respondents saw a greater chance of missing a minimum debt payment in the next three months. The Federal Reserve Bank of New York’s October S…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-09T23:28:16Z",
+            "url": "https://www.pymnts.com/consumer-insights/2026/consumers-see-a-brighter-economy-but-less-room-in-the-holiday-budget/",
+            "sentiment_score": 0.6493,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "AI Bubble Tracker",
+            "description": "79 live signals on the AI economy: spending, supply, usage, adoption, prices, markets and attention.",
+            "source": "Endtime-instruments.org",
+            "published_at": "2026-11-09T23:09:15Z",
+            "url": "https://endtime-instruments.org/ai-bubble-tracker/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "USD",
             "title": "Inflation likely took a breather last month as fuel prices fell",
@@ -2318,110 +2257,10 @@
             "url": "https://fortune.com/2026/11/09/bitcoin-75000-tech-stock-rout-altcoins-steeper-losses/",
             "sentiment_score": -0.6229,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: A Common Pattern behind Diverging Fortunes: U.S. Tariffs and Exports from Canada and Mexico",
-            "description": "Chris Avalos, Musa Orak, and Avani PradhanThe 2025 U.S. tariff increases were followed by sharply different export outcomes in Canada and Mexico. Comparing the 12 months ending in April 2026 with calendar year 2024, Canadian goods exports to the United States…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/a-common-pattern-behind-diverging-fortunes-u-s-tariffs-and-exports-from-canada-and-mexico-20261109.html",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: U.S. Private Credit Vehicles: Institutional Structure and Aggregate Balance Sheets",
-            "description": "Katie Brinkman, Christine Dobridge, Tim Dore, Simon Glossner, Elizabeth Holmquist, Nam Nguyen, Maria Perozek, and Irina StefanescuThe expansion of private credit has become one of the most significant developments in financial markets over the past decade. Ye…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/u-s-private-credit-vehicles-institutional-structure-and-aggregate-balance-sheets-20261109.html",
-            "sentiment_score": 0.4385,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "FEDS Note: Gold Reserve Relocations: Are They Always Bad News for U.S. Dollar Reserves?",
-            "description": "Colin WeissThis note reviews several publicized gold reserve relocations by central banks in the Netherlands, France, and Germany since 2013 and any concurrent changes in their U.S. dollar reserve allocations. Generally, the choice of where to custody gold re…",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-09T17:30:00Z",
-            "url": "https://www.federalreserve.gov/econres/notes/feds-notes/gold-reserve-relocations-are-they-always-bad-news-for-u-s-dollar-reserves-20261109.html",
-            "sentiment_score": -0.3796,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Novelist reveals breathtakingly cruel way top economist lover told her that she wasn't beautiful enough to be his girlfriend after sex that hurt her back",
-            "description": "Merritt Tierce, a Los Angeles-based writer, revealed in her new book that her 'older' European lover treated her callously during their brief fling.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-09T17:28:00Z",
-            "url": "https://www.dailymail.com/news/article-16278477/merritt-tierce-boyfriend-beautiful-girlfriend.html",
-            "sentiment_score": -0.3109,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin Market Outlook: Can Wall Street Help BTC Recover?",
-            "description": "Bitcoin is facing another important test as institutional investors reassess their exposure to cryptocurrencies. After a difficult first week of November, the latest Bitcoin market outlook suggests that Wall Street’s appetite for risk could play a major role …",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-09T17:14:51Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/bitcoin-market-outlook-can-wall-street-help-btc-recover/",
-            "sentiment_score": 0.2505,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Notes From the Blue Star State",
-            "description": "James K. Galbraith\n\n\n\nTexas is predominantly and pragmatically populist. If the national Democratic Party wishes to conquer the Electoral College for a generation, it will follow the lead of the voters.\r\n\n\r\n\n\nThe post Notes From the Blue Star State appeared f…",
-            "source": "Thenation.com",
-            "published_at": "2026-11-09T16:44:04Z",
-            "url": "https://www.thenation.com/article/politics/texas-democrats-talarico-hinojosa-populism/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US dollar dips as easing AI and Mideast worries limit its appeal",
-            "description": "After a six-month high, the US dollar is now on a downward trend, largely spurred by impressive job growth figures. Investors are eagerly awaiting the upcoming consumer price index data, a key factor for Federal Reserve rate considerations. Meanwhile, the eur…",
-            "source": "The Times of India",
-            "published_at": "2026-11-09T16:16:36Z",
-            "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/us-dollar-dips-as-easing-ai-and-mideast-worries-limit-its-appeal/articleshow/135687593.cms",
-            "sentiment_score": 0.1037,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Goolsbee: We have to accept inflation failure",
-            "description": "Federal Reserve Bank of Chicago President Austan Goolsbee commented on Monday that \"we have to come to terms with this cost side and inflation side failure in the mandate.\"Appearing at a moderated Q&a...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:52:46Z",
-            "url": "https://biztoc.com/x/1c63f668607f1935",
-            "sentiment_score": -0.2777,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "US drops a proposed crypto rule. Europe can still hold up your $500 transfer",
-            "description": "The proposed U.S. threshold never took effect, while a $500 customer transfer can still require information before an EU exchange releases it.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-09T15:45:43Z",
-            "url": "https://cryptoslate.com/us-drops-a-proposed-crypto-rule-europe-can-still-hold-up-your-500-transfer/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Wall Street Futures Rise as Oil Prices Fall Ahead of US Inflation Data: Dow Jones, S&P, Nasdaq",
-            "description": "US stock futures pointed to a higher opening on Monday as a decline in crude oil prices supported market sentiment following Friday's recovery from a technology-led sell-off.\nUS crude oil futures fell more than 4% after President Donald Trump indicated that f…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-09T15:40:56Z",
-            "url": "https://biztoc.com/x/88701a2d739504cd",
-            "sentiment_score": -0.2181,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0762,
+      "net_score": 0.0092,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2431,27 +2270,27 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 4040.5,
+      "price_now": 4052.30005,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 31.9,
-      "rsi_signal": "โซนกลาง (RSI=31.9)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 16.84743,
-      "suggested_sl_distance": 25.27115,
+      "rsi_value": 40.7,
+      "rsi_signal": "โซนกลาง (RSI=40.7)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 16.04148,
+      "suggested_sl_distance": 24.06222,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=31.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-10T23:06:51.234557+00:00"
+    "generated_at": "2026-11-11T02:43:50.993771+00:00"
   }
 ]
