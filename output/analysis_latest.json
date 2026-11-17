@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0813,
+        "average_score": -0.0648,
         "label": "ลบเล็กน้อย",
-        "article_count": 7,
+        "article_count": 9,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "French presidential election: Meet the contenders you didn’t see coming",
+            "description": "Some prominent figures are trying to stop the race from turning into a showdown between two populists.",
+            "source": "POLITICO.eu",
+            "published_at": "2026-11-16T03:00:00Z",
+            "url": "https://www.politico.eu/article/france-presidential-election-2027-candidates/",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "The return of the snatch-and-grab state",
+            "description": "A new history of confiscation sheds light on modern economic warfare.",
+            "source": "Www.nrc.nl",
+            "published_at": "2026-11-15T21:00:00Z",
+            "url": "https://www.nrc.nl/nieuws/2026/11/15/the-return-of-the-snatch-and-grab-state-a4941327",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "EU mulls tariffs to cut solar imports, spur local industry",
@@ -83,10 +103,110 @@
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1371,
+        "average_score": 0.077,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian shares fall before Nvidia earnings and Anthropic IPO",
+            "description": "Asian shares fall as Nvidia earnings and Anthropic IPO test the AI rally and Fed rate expectations. Read more at straitstimes.com.",
+            "source": "The Straits Times",
+            "published_at": "2026-11-16T03:02:40Z",
+            "url": "https://www.straitstimes.com/business/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India braces for higher interest rates as inflation, oil prices rise",
+            "description": "Economists and financial traders expect the Reserve Bank of India to lift the benchmark rate by another 50 to 75 basis points in coming months, taking it as high as 6.25%, from 5.5% now",
+            "source": "Business Standard",
+            "published_at": "2026-11-16T02:22:28Z",
+            "url": "https://www.business-standard.com/economy/news/india-braces-for-higher-interest-rates-as-inflation-oil-prices-rise-126111600055_1.html",
+            "sentiment_score": 0.3212,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes ahead: Why higher borrowing costs could hurt India",
+            "description": "The prospect of higher borrowing costs comes at a challenging time for India’s economy, with oil prices, food inflation and global financial risks mounting.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T02:10:00Z",
+            "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-rate-hikes-ahead-why-higher-borrowing-costs-could-hurt-india/article71706629.ece",
+            "sentiment_score": -0.3153,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty may open 75 points higher; experts flag consolidation amid global weakness",
+            "description": "Investors will track foreign fund flows, corporate earnings and global economic developments as domestic equities navigate an uncertain international environment",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T01:41:09Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-may-open-75-points-higher-experts-flag-consolidation-amid-global-weakness/article71706610.ece",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin falls below $62,000 for first time since July, then recovers to $65,000",
+            "description": "Bitcoin's volatility highlights ongoing market instability, impacting investor confidence and liquidity, with broader implications for crypto adoption.\nThe post Bitcoin falls below $62,000 for first time since July, then recovers to $65,000 appeared first on …",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-16T01:28:27Z",
+            "url": "https://cryptobriefing.com/bitcoin-price-volatility-below-62000-recovery/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks subdued as US futures gain; Nvidia earnings, Fed minutes in focus",
+            "description": "Contracts for the Nasdaq 100 rose 0.5%, while S&P 500 futures gained 0.2% after both underlying benchmarks capped a second straight day of losses on Friday. MSCI Inc.’s gauge of Asian shares inched lower. Global benchmark Brent crude traded around $95.50 a ba…",
+            "source": "The Times of India",
+            "published_at": "2026-11-16T00:57:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-subdued-as-us-futures-gain-nvidia-earnings-fed-minutes-in-focus/articleshow/135868964.cms",
+            "sentiment_score": 0.2366,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hikes could stretch into 2027 as darker threats loom",
+            "description": "Federal Reserve Bank of Kansas City President Jeff Schmid kicked off a busy week of Fed-speak Nov. 15 by saying that inflation pressures have only grown worse in recent months, leaving monetary policymakers with more work ahead.\n“The Fed’s role is not to affe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T00:24:18Z",
+            "url": "https://biztoc.com/x/79cd8b5506a0d118",
+            "sentiment_score": -0.5982,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Schmid signals potential rate hikes as inflation exceeds target",
+            "description": "Potential rate hikes could strain economic growth, highlighting the Fed's challenge in balancing inflation control with economic stability.\nThe post Fed’s Schmid signals potential rate hikes as inflation exceeds target appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T23:01:52Z",
+            "url": "https://cryptobriefing.com/feds-schmid-signals-potential-rate-hikes-as-inflation-exceeds-target/",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CZ denies Binance sold crypto as Bitcoin rebounds from lows",
+            "description": "Investor caution and regulatory uncertainty may drive volatility in crypto markets, highlighting the need for strategic risk management.\nThe post CZ denies Binance sold crypto as Bitcoin rebounds from lows appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T22:02:07Z",
+            "url": "https://cryptobriefing.com/cz-denies-binance-sold-crypto-bitcoin-rebounds/",
+            "sentiment_score": -0.6291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Retail investors boost Nvidia holdings as hedge funds pull back",
+            "description": "Retail investors' optimism in Nvidia may signal a shift in market sentiment, potentially influencing future investment trends and stock dynamics.\nThe post Retail investors boost Nvidia holdings as hedge funds pull back appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T21:08:26Z",
+            "url": "https://cryptobriefing.com/retail-investors-boost-nvidia-holdings-as-hedge-funds-pull-back/",
+            "sentiment_score": 0.5235,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed 'has some work to do on inflation,' KC Fed chief says",
@@ -266,127 +386,27 @@
             "url": "https://biztoc.com/x/adaca19151cb9164",
             "sentiment_score": 0.2544,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Crypto’s slow-motion selloff leaves traders weary and hopeless",
-            "description": "Bitcoin's prolonged selloff is testing investor confidence as ETF outflows, rising Treasury yields, a stronger dollar and crypto-specific setbacks weigh on demand. Competition from AI investments and Anthropic's upcoming IPO is adding to pressure, leaving the…",
-            "source": "The Times of India",
-            "published_at": "2026-11-15T10:03:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/cryptos-slow-motion-selloff-leaves-traders-weary-and-hopeless/articleshow/135852690.cms",
-            "sentiment_score": -0.2537,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, crude oil prices and FII activity to steer stock markets this week",
-            "description": "Last week, the 30-share BSE Sensex climbed 564.43 points, or 0.69 per cent, and the 50-share NSE Nifty was up 113.95 points or 0.45 per cent.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T09:36:02Z",
-            "url": "https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece",
-            "sentiment_score": -0.2798,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, oil, FII trading activity may guide stock markets this week",
-            "description": "WPI inflation data, foreign investor trading activity, crude oil prices, and developments in West Asia will drive investor sentiment this week, analysts said.\nGlobally, US retail sales, Nvidia's earnings and the FOMC (Federal Open Market Committee) minutes wi…",
-            "source": "Business Standard",
-            "published_at": "2026-11-15T08:52:49Z",
-            "url": "https://www.business-standard.com/markets/news/wpi-inflation-oil-fii-trading-activity-may-guide-stock-markets-this-week-126111500300_1.html",
-            "sentiment_score": -0.1716,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K",
-            "description": "Why is bitcoin dropping? US spot funds shed $1.9B over seven sessions as inflation fears and forced selling push Bitcoin down 5% to below $64K.\nThe post US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K appeared first on Bitcoin Foundation.",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-11-15T08:36:56Z",
-            "url": "https://bitcoinfoundation.org/news/bitcoin/us-bitcoin-funds-shed-1-9b-as-btc-drops-5-below-64k/",
-            "sentiment_score": -0.2101,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Balancing Credit Building with Credit Caution",
-            "description": "Treat Your Credit Like a Campfire, Not a Bonfire Building credit is often framed as...\nThe post Balancing Credit Building with Credit Caution appeared first on Social Media Explorer.",
-            "source": "Socialmediaexplorer.com",
-            "published_at": "2026-11-15T08:22:38Z",
-            "url": "https://socialmediaexplorer.com/business/balancing-credit-building-with-credit-caution/",
-            "sentiment_score": 0.724,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Will Make Only Seven Rate Decisions in 2027 After Reworking Its Calendar",
-            "description": "The Fed's revised 2027 schedule turns the October meeting into a no-decision strategy session and replaces December with Nov. 16-17, leaving seven rate announcements.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T08:05:59Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/fomc-meeting-dates-2027-fed-seven-rate-decisions/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Consumer Staples Stocks Investors Are Watching As Producer Inflation Heats Up",
-            "description": "Producer prices are heating up again, and that raises a blunt question for your portfolio. If costs keep climbing faster than consumer inflation and the Federal Reserve stays tough on policy, some businesses may see their profits squeezed while others hold th…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:53:00Z",
-            "url": "https://biztoc.com/x/ee28c6e498dd1615",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Sansan And 2 Other Japanese Founder Led Stocks To Own",
-            "description": "US inflation remains above target and Federal Reserve officials keep pointing to price pressures as the main guide for future rate moves. That kind of backdrop often rewards investors who back Japanese founders with real skin in the game and clear, long term …",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:52:55Z",
-            "url": "https://biztoc.com/x/d52a9aeb8d1d7f20",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs infuse ₹84,290 cr into equities in first half of November",
-            "description": "Foreign portfolio investors pumped in ₹84,290 crore into Indian equities in early November, reversing prior outflows amid AI sell-offs, falling crude, and attractive large-cap valuations.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T07:12:50Z",
-            "url": "https://www.thehindubusinessline.com/markets/fpis-infuse-84290-cr-into-equities-in-first-half-of-november/article71704298.ece",
-            "sentiment_score": -0.102,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Riskified And 2 More Penny Stocks To Watch",
-            "description": "Inflation worries are back in focus after fresh US data showed wholesale prices rising 6.5% over the past year, keeping pressure on the Federal Reserve to stay tough. In choppy conditions like this, investors often pay closer attention to smaller companies wi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:07:04Z",
-            "url": "https://biztoc.com/x/45f2e4919bdde4a7",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.2184,
-      "bias": "เอียงลบต่อ EUR (มีแนวโน้มกดราคาลง)",
+      "net_score": -0.1418,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.10059,
+      "price_now": 1.10096,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 37.8,
-      "rsi_signal": "โซนกลาง (RSI=37.8)",
+      "rsi_value": 47.5,
+      "rsi_signal": "โซนกลาง (RSI=47.5)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00098,
-      "suggested_sl_distance": 0.00147,
+      "atr_value": 0.00093,
+      "suggested_sl_distance": 0.0014,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -400,7 +420,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-16T20:14:17.657926+00:00"
+    "generated_at": "2026-11-17T03:39:10.365788+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -409,10 +429,50 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0692,
-        "label": "บวกเล็กน้อย",
-        "article_count": 8,
+        "average_score": -0.0201,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Three Central Banks Test a Bridge Between Traditional FX and Tokenized Settlement",
+            "description": "The Bank of England, Monetary Authority of Singapore and Bank of Thailand have completed a cross-border foreign-exchange settlement experiment designed to connect existing payment infrastructure with tokenised systems. The project might sound technical, but i…",
+            "source": "newsBTC",
+            "published_at": "2026-11-16T01:00:00Z",
+            "url": "https://www.newsbtc.com/news/blockchain/central-banks-meridian-fx-apac-tokenized-settlement-test/",
+            "sentiment_score": 0.0116,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "UK Tests Cross-Border Settlement With Singapore and Thailand",
+            "description": "The central banks of England, Singapore and Thailand say they’ve found a new way to streamline foreign exchange (FX) transactions. The Bank of England, Monetary Authority of Singapore and Bank of Thailand published the results of their efforts Friday (Nov. 13…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T00:09:08Z",
+            "url": "https://biztoc.com/x/d3074733a9052180",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "UK Tests Cross-Border Settlement With Singapore and Thailand",
+            "description": "The central banks of England, Singapore and Thailand say they’ve found a new way to streamline foreign exchange (FX) transactions. The Bank of England, Monetary Authority of Singapore and Bank of Thailand published the results of their efforts Friday (Nov. 13…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-15T23:36:45Z",
+            "url": "https://www.pymnts.com/news/cross-border-payments/2026/uk-tests-cross-border-settlement-with-singapore-and-thailand/",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "GBP",
+            "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+            "description": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
+            "source": "BBC News",
+            "published_at": "2026-11-15T22:00:24Z",
+            "url": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo",
+            "sentiment_score": -0.295,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "GBP",
             "title": "Thailand’s Stablecoin Regulation Draft: Your Own Wallets Only, 5 Million Baht a Day",
@@ -422,84 +482,114 @@
             "url": "https://www.dcforecasts.com/regulation/thailand-stablecoin-regulation-5-million-baht-daily-cap/",
             "sentiment_score": 0.0679,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "uk-bank-rate 0.4.3",
-            "description": "The UK Bank Rate from the Bank of England Database, with the MPC schedule and honest handling of the hours after a decision.",
-            "source": "Pypi.org",
-            "published_at": "2026-11-14T19:56:59Z",
-            "url": "https://pypi.org/project/uk-bank-rate/0.4.3/",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "3 UK Contractor Stocks With Government Backing And Pricing Power",
-            "description": "Rising Bank of England rate expectations, stickier inflation forecasts and pressure on heavily indebted sectors have pushed dependable government-linked cash flows into the spotlight. Investors are searching for businesses that can pass on higher costs to pub…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-14T19:24:59Z",
-            "url": "https://biztoc.com/x/a46e7249386146f5",
-            "sentiment_score": -0.0707,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Singapore Makes a $65 Billion Bet on the Future of Gold",
-            "description": "For three years, the gold story was about who was buying. In 2026, it has become a story about where the metal sleeps at night. On Tuesday, the Monetary Authority of Singapore opened its national currency vault, with room for 500 tons of bullion, to foreign c…",
-            "source": "OilPrice.com",
-            "published_at": "2026-11-14T18:00:00Z",
-            "url": "https://oilprice.com/Metals/Gold/Singapore-Makes-a-65-Billion-Bet-on-the-Future-of-Gold.html",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "A rapid interest rate rise seems inevitable – and households are expected to pick up the tab",
-            "description": "Raising borrowing costs too far risks laying waste to whatever growth there is in the economy\nA head of steam is building up behind the Bank of England raising interest rates again. With the latest forecasts by the central bank showing inflation rising to 5% …",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-14T16:21:05Z",
-            "url": "https://biztoc.com/x/5582fb173c5b08d6",
-            "sentiment_score": 0.3745,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "$1.4 Trillion a Day Still Settles With Full FX Risk. Three Central Banks Just Tested a Fix",
-            "description": "Project Meridian FX APAC linked a traditional RTGS, a tokenized system and a wholesale CBDC ledger, as BIS data show $1.4 trillion a day still settles fully exposed.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-14T15:05:05Z",
-            "url": "https://www.dcforecasts.com/blockchain-news/fx-settlement-risk-project-meridian-fx-apac-central-banks/",
-            "sentiment_score": -0.2366,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Interest rate rises likely in coming months, Bank of England’s chief economist says",
-            "description": "‘We have further to go,’ says Huw Pill after increase to 4% last month as Bank seeks to tackle rising inflation\nThe Bank of England will probably need to raise interest rates next month and again in early 2027 to combat rising inflation, its chief economist h…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-14T14:04:06Z",
-            "url": "https://biztoc.com/x/8629e5f8e305009b",
-            "sentiment_score": 0.4533,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "'Police launch investigation' into Walliams and Piddington asylum 'betrayal'",
-            "description": "An investigation into David Walliams over reports of \"alleged serious sexual offences\" leads a number of Saturday's papers.",
-            "source": "BBC News",
-            "published_at": "2026-11-14T00:09:02Z",
-            "url": "https://www.bbc.co.uk/news/articles/cx4gn4y1q906o",
-            "sentiment_score": -0.5121,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1371,
+        "average_score": 0.077,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian shares fall before Nvidia earnings and Anthropic IPO",
+            "description": "Asian shares fall as Nvidia earnings and Anthropic IPO test the AI rally and Fed rate expectations. Read more at straitstimes.com.",
+            "source": "The Straits Times",
+            "published_at": "2026-11-16T03:02:40Z",
+            "url": "https://www.straitstimes.com/business/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India braces for higher interest rates as inflation, oil prices rise",
+            "description": "Economists and financial traders expect the Reserve Bank of India to lift the benchmark rate by another 50 to 75 basis points in coming months, taking it as high as 6.25%, from 5.5% now",
+            "source": "Business Standard",
+            "published_at": "2026-11-16T02:22:28Z",
+            "url": "https://www.business-standard.com/economy/news/india-braces-for-higher-interest-rates-as-inflation-oil-prices-rise-126111600055_1.html",
+            "sentiment_score": 0.3212,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes ahead: Why higher borrowing costs could hurt India",
+            "description": "The prospect of higher borrowing costs comes at a challenging time for India’s economy, with oil prices, food inflation and global financial risks mounting.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T02:10:00Z",
+            "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-rate-hikes-ahead-why-higher-borrowing-costs-could-hurt-india/article71706629.ece",
+            "sentiment_score": -0.3153,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty may open 75 points higher; experts flag consolidation amid global weakness",
+            "description": "Investors will track foreign fund flows, corporate earnings and global economic developments as domestic equities navigate an uncertain international environment",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T01:41:09Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-may-open-75-points-higher-experts-flag-consolidation-amid-global-weakness/article71706610.ece",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin falls below $62,000 for first time since July, then recovers to $65,000",
+            "description": "Bitcoin's volatility highlights ongoing market instability, impacting investor confidence and liquidity, with broader implications for crypto adoption.\nThe post Bitcoin falls below $62,000 for first time since July, then recovers to $65,000 appeared first on …",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-16T01:28:27Z",
+            "url": "https://cryptobriefing.com/bitcoin-price-volatility-below-62000-recovery/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks subdued as US futures gain; Nvidia earnings, Fed minutes in focus",
+            "description": "Contracts for the Nasdaq 100 rose 0.5%, while S&P 500 futures gained 0.2% after both underlying benchmarks capped a second straight day of losses on Friday. MSCI Inc.’s gauge of Asian shares inched lower. Global benchmark Brent crude traded around $95.50 a ba…",
+            "source": "The Times of India",
+            "published_at": "2026-11-16T00:57:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-subdued-as-us-futures-gain-nvidia-earnings-fed-minutes-in-focus/articleshow/135868964.cms",
+            "sentiment_score": 0.2366,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hikes could stretch into 2027 as darker threats loom",
+            "description": "Federal Reserve Bank of Kansas City President Jeff Schmid kicked off a busy week of Fed-speak Nov. 15 by saying that inflation pressures have only grown worse in recent months, leaving monetary policymakers with more work ahead.\n“The Fed’s role is not to affe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T00:24:18Z",
+            "url": "https://biztoc.com/x/79cd8b5506a0d118",
+            "sentiment_score": -0.5982,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Schmid signals potential rate hikes as inflation exceeds target",
+            "description": "Potential rate hikes could strain economic growth, highlighting the Fed's challenge in balancing inflation control with economic stability.\nThe post Fed’s Schmid signals potential rate hikes as inflation exceeds target appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T23:01:52Z",
+            "url": "https://cryptobriefing.com/feds-schmid-signals-potential-rate-hikes-as-inflation-exceeds-target/",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CZ denies Binance sold crypto as Bitcoin rebounds from lows",
+            "description": "Investor caution and regulatory uncertainty may drive volatility in crypto markets, highlighting the need for strategic risk management.\nThe post CZ denies Binance sold crypto as Bitcoin rebounds from lows appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T22:02:07Z",
+            "url": "https://cryptobriefing.com/cz-denies-binance-sold-crypto-bitcoin-rebounds/",
+            "sentiment_score": -0.6291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Retail investors boost Nvidia holdings as hedge funds pull back",
+            "description": "Retail investors' optimism in Nvidia may signal a shift in market sentiment, potentially influencing future investment trends and stock dynamics.\nThe post Retail investors boost Nvidia holdings as hedge funds pull back appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T21:08:26Z",
+            "url": "https://cryptobriefing.com/retail-investors-boost-nvidia-holdings-as-hedge-funds-pull-back/",
+            "sentiment_score": 0.5235,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed 'has some work to do on inflation,' KC Fed chief says",
@@ -679,110 +769,10 @@
             "url": "https://biztoc.com/x/adaca19151cb9164",
             "sentiment_score": 0.2544,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Crypto’s slow-motion selloff leaves traders weary and hopeless",
-            "description": "Bitcoin's prolonged selloff is testing investor confidence as ETF outflows, rising Treasury yields, a stronger dollar and crypto-specific setbacks weigh on demand. Competition from AI investments and Anthropic's upcoming IPO is adding to pressure, leaving the…",
-            "source": "The Times of India",
-            "published_at": "2026-11-15T10:03:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/cryptos-slow-motion-selloff-leaves-traders-weary-and-hopeless/articleshow/135852690.cms",
-            "sentiment_score": -0.2537,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, crude oil prices and FII activity to steer stock markets this week",
-            "description": "Last week, the 30-share BSE Sensex climbed 564.43 points, or 0.69 per cent, and the 50-share NSE Nifty was up 113.95 points or 0.45 per cent.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T09:36:02Z",
-            "url": "https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece",
-            "sentiment_score": -0.2798,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, oil, FII trading activity may guide stock markets this week",
-            "description": "WPI inflation data, foreign investor trading activity, crude oil prices, and developments in West Asia will drive investor sentiment this week, analysts said.\nGlobally, US retail sales, Nvidia's earnings and the FOMC (Federal Open Market Committee) minutes wi…",
-            "source": "Business Standard",
-            "published_at": "2026-11-15T08:52:49Z",
-            "url": "https://www.business-standard.com/markets/news/wpi-inflation-oil-fii-trading-activity-may-guide-stock-markets-this-week-126111500300_1.html",
-            "sentiment_score": -0.1716,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K",
-            "description": "Why is bitcoin dropping? US spot funds shed $1.9B over seven sessions as inflation fears and forced selling push Bitcoin down 5% to below $64K.\nThe post US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K appeared first on Bitcoin Foundation.",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-11-15T08:36:56Z",
-            "url": "https://bitcoinfoundation.org/news/bitcoin/us-bitcoin-funds-shed-1-9b-as-btc-drops-5-below-64k/",
-            "sentiment_score": -0.2101,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Balancing Credit Building with Credit Caution",
-            "description": "Treat Your Credit Like a Campfire, Not a Bonfire Building credit is often framed as...\nThe post Balancing Credit Building with Credit Caution appeared first on Social Media Explorer.",
-            "source": "Socialmediaexplorer.com",
-            "published_at": "2026-11-15T08:22:38Z",
-            "url": "https://socialmediaexplorer.com/business/balancing-credit-building-with-credit-caution/",
-            "sentiment_score": 0.724,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Will Make Only Seven Rate Decisions in 2027 After Reworking Its Calendar",
-            "description": "The Fed's revised 2027 schedule turns the October meeting into a no-decision strategy session and replaces December with Nov. 16-17, leaving seven rate announcements.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T08:05:59Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/fomc-meeting-dates-2027-fed-seven-rate-decisions/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Consumer Staples Stocks Investors Are Watching As Producer Inflation Heats Up",
-            "description": "Producer prices are heating up again, and that raises a blunt question for your portfolio. If costs keep climbing faster than consumer inflation and the Federal Reserve stays tough on policy, some businesses may see their profits squeezed while others hold th…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:53:00Z",
-            "url": "https://biztoc.com/x/ee28c6e498dd1615",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Sansan And 2 Other Japanese Founder Led Stocks To Own",
-            "description": "US inflation remains above target and Federal Reserve officials keep pointing to price pressures as the main guide for future rate moves. That kind of backdrop often rewards investors who back Japanese founders with real skin in the game and clear, long term …",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:52:55Z",
-            "url": "https://biztoc.com/x/d52a9aeb8d1d7f20",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs infuse ₹84,290 cr into equities in first half of November",
-            "description": "Foreign portfolio investors pumped in ₹84,290 crore into Indian equities in early November, reversing prior outflows amid AI sell-offs, falling crude, and attractive large-cap valuations.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T07:12:50Z",
-            "url": "https://www.thehindubusinessline.com/markets/fpis-infuse-84290-cr-into-equities-in-first-half-of-november/article71704298.ece",
-            "sentiment_score": -0.102,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Riskified And 2 More Penny Stocks To Watch",
-            "description": "Inflation worries are back in focus after fresh US data showed wholesale prices rising 6.5% over the past year, keeping pressure on the Federal Reserve to stay tough. In choppy conditions like this, investors often pay closer attention to smaller companies wi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:07:04Z",
-            "url": "https://biztoc.com/x/45f2e4919bdde4a7",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0679,
+      "net_score": -0.0971,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -792,14 +782,14 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.31872,
+      "price_now": 1.31942,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 40.2,
-      "rsi_signal": "โซนกลาง (RSI=40.2)",
+      "rsi_value": 49.1,
+      "rsi_signal": "โซนกลาง (RSI=49.1)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.0012,
-      "suggested_sl_distance": 0.0018,
+      "atr_value": 0.00111,
+      "suggested_sl_distance": 0.00167,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -813,7 +803,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-16T20:14:17.657926+00:00"
+    "generated_at": "2026-11-17T03:39:10.365788+00:00"
   },
   {
     "pair": "USDJPY",
@@ -822,10 +812,110 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": 0.1371,
+        "average_score": 0.077,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian shares fall before Nvidia earnings and Anthropic IPO",
+            "description": "Asian shares fall as Nvidia earnings and Anthropic IPO test the AI rally and Fed rate expectations. Read more at straitstimes.com.",
+            "source": "The Straits Times",
+            "published_at": "2026-11-16T03:02:40Z",
+            "url": "https://www.straitstimes.com/business/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India braces for higher interest rates as inflation, oil prices rise",
+            "description": "Economists and financial traders expect the Reserve Bank of India to lift the benchmark rate by another 50 to 75 basis points in coming months, taking it as high as 6.25%, from 5.5% now",
+            "source": "Business Standard",
+            "published_at": "2026-11-16T02:22:28Z",
+            "url": "https://www.business-standard.com/economy/news/india-braces-for-higher-interest-rates-as-inflation-oil-prices-rise-126111600055_1.html",
+            "sentiment_score": 0.3212,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes ahead: Why higher borrowing costs could hurt India",
+            "description": "The prospect of higher borrowing costs comes at a challenging time for India’s economy, with oil prices, food inflation and global financial risks mounting.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T02:10:00Z",
+            "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-rate-hikes-ahead-why-higher-borrowing-costs-could-hurt-india/article71706629.ece",
+            "sentiment_score": -0.3153,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty may open 75 points higher; experts flag consolidation amid global weakness",
+            "description": "Investors will track foreign fund flows, corporate earnings and global economic developments as domestic equities navigate an uncertain international environment",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T01:41:09Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-may-open-75-points-higher-experts-flag-consolidation-amid-global-weakness/article71706610.ece",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin falls below $62,000 for first time since July, then recovers to $65,000",
+            "description": "Bitcoin's volatility highlights ongoing market instability, impacting investor confidence and liquidity, with broader implications for crypto adoption.\nThe post Bitcoin falls below $62,000 for first time since July, then recovers to $65,000 appeared first on …",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-16T01:28:27Z",
+            "url": "https://cryptobriefing.com/bitcoin-price-volatility-below-62000-recovery/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks subdued as US futures gain; Nvidia earnings, Fed minutes in focus",
+            "description": "Contracts for the Nasdaq 100 rose 0.5%, while S&P 500 futures gained 0.2% after both underlying benchmarks capped a second straight day of losses on Friday. MSCI Inc.’s gauge of Asian shares inched lower. Global benchmark Brent crude traded around $95.50 a ba…",
+            "source": "The Times of India",
+            "published_at": "2026-11-16T00:57:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-subdued-as-us-futures-gain-nvidia-earnings-fed-minutes-in-focus/articleshow/135868964.cms",
+            "sentiment_score": 0.2366,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hikes could stretch into 2027 as darker threats loom",
+            "description": "Federal Reserve Bank of Kansas City President Jeff Schmid kicked off a busy week of Fed-speak Nov. 15 by saying that inflation pressures have only grown worse in recent months, leaving monetary policymakers with more work ahead.\n“The Fed’s role is not to affe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T00:24:18Z",
+            "url": "https://biztoc.com/x/79cd8b5506a0d118",
+            "sentiment_score": -0.5982,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Schmid signals potential rate hikes as inflation exceeds target",
+            "description": "Potential rate hikes could strain economic growth, highlighting the Fed's challenge in balancing inflation control with economic stability.\nThe post Fed’s Schmid signals potential rate hikes as inflation exceeds target appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T23:01:52Z",
+            "url": "https://cryptobriefing.com/feds-schmid-signals-potential-rate-hikes-as-inflation-exceeds-target/",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CZ denies Binance sold crypto as Bitcoin rebounds from lows",
+            "description": "Investor caution and regulatory uncertainty may drive volatility in crypto markets, highlighting the need for strategic risk management.\nThe post CZ denies Binance sold crypto as Bitcoin rebounds from lows appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T22:02:07Z",
+            "url": "https://cryptobriefing.com/cz-denies-binance-sold-crypto-bitcoin-rebounds/",
+            "sentiment_score": -0.6291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Retail investors boost Nvidia holdings as hedge funds pull back",
+            "description": "Retail investors' optimism in Nvidia may signal a shift in market sentiment, potentially influencing future investment trends and stock dynamics.\nThe post Retail investors boost Nvidia holdings as hedge funds pull back appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T21:08:26Z",
+            "url": "https://cryptobriefing.com/retail-investors-boost-nvidia-holdings-as-hedge-funds-pull-back/",
+            "sentiment_score": 0.5235,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed 'has some work to do on inflation,' KC Fed chief says",
@@ -1005,114 +1095,54 @@
             "url": "https://biztoc.com/x/adaca19151cb9164",
             "sentiment_score": 0.2544,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Crypto’s slow-motion selloff leaves traders weary and hopeless",
-            "description": "Bitcoin's prolonged selloff is testing investor confidence as ETF outflows, rising Treasury yields, a stronger dollar and crypto-specific setbacks weigh on demand. Competition from AI investments and Anthropic's upcoming IPO is adding to pressure, leaving the…",
-            "source": "The Times of India",
-            "published_at": "2026-11-15T10:03:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/cryptos-slow-motion-selloff-leaves-traders-weary-and-hopeless/articleshow/135852690.cms",
-            "sentiment_score": -0.2537,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, crude oil prices and FII activity to steer stock markets this week",
-            "description": "Last week, the 30-share BSE Sensex climbed 564.43 points, or 0.69 per cent, and the 50-share NSE Nifty was up 113.95 points or 0.45 per cent.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T09:36:02Z",
-            "url": "https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece",
-            "sentiment_score": -0.2798,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, oil, FII trading activity may guide stock markets this week",
-            "description": "WPI inflation data, foreign investor trading activity, crude oil prices, and developments in West Asia will drive investor sentiment this week, analysts said.\nGlobally, US retail sales, Nvidia's earnings and the FOMC (Federal Open Market Committee) minutes wi…",
-            "source": "Business Standard",
-            "published_at": "2026-11-15T08:52:49Z",
-            "url": "https://www.business-standard.com/markets/news/wpi-inflation-oil-fii-trading-activity-may-guide-stock-markets-this-week-126111500300_1.html",
-            "sentiment_score": -0.1716,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K",
-            "description": "Why is bitcoin dropping? US spot funds shed $1.9B over seven sessions as inflation fears and forced selling push Bitcoin down 5% to below $64K.\nThe post US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K appeared first on Bitcoin Foundation.",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-11-15T08:36:56Z",
-            "url": "https://bitcoinfoundation.org/news/bitcoin/us-bitcoin-funds-shed-1-9b-as-btc-drops-5-below-64k/",
-            "sentiment_score": -0.2101,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Balancing Credit Building with Credit Caution",
-            "description": "Treat Your Credit Like a Campfire, Not a Bonfire Building credit is often framed as...\nThe post Balancing Credit Building with Credit Caution appeared first on Social Media Explorer.",
-            "source": "Socialmediaexplorer.com",
-            "published_at": "2026-11-15T08:22:38Z",
-            "url": "https://socialmediaexplorer.com/business/balancing-credit-building-with-credit-caution/",
-            "sentiment_score": 0.724,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Will Make Only Seven Rate Decisions in 2027 After Reworking Its Calendar",
-            "description": "The Fed's revised 2027 schedule turns the October meeting into a no-decision strategy session and replaces December with Nov. 16-17, leaving seven rate announcements.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T08:05:59Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/fomc-meeting-dates-2027-fed-seven-rate-decisions/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Consumer Staples Stocks Investors Are Watching As Producer Inflation Heats Up",
-            "description": "Producer prices are heating up again, and that raises a blunt question for your portfolio. If costs keep climbing faster than consumer inflation and the Federal Reserve stays tough on policy, some businesses may see their profits squeezed while others hold th…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:53:00Z",
-            "url": "https://biztoc.com/x/ee28c6e498dd1615",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Sansan And 2 Other Japanese Founder Led Stocks To Own",
-            "description": "US inflation remains above target and Federal Reserve officials keep pointing to price pressures as the main guide for future rate moves. That kind of backdrop often rewards investors who back Japanese founders with real skin in the game and clear, long term …",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:52:55Z",
-            "url": "https://biztoc.com/x/d52a9aeb8d1d7f20",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs infuse ₹84,290 cr into equities in first half of November",
-            "description": "Foreign portfolio investors pumped in ₹84,290 crore into Indian equities in early November, reversing prior outflows amid AI sell-offs, falling crude, and attractive large-cap valuations.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T07:12:50Z",
-            "url": "https://www.thehindubusinessline.com/markets/fpis-infuse-84290-cr-into-equities-in-first-half-of-november/article71704298.ece",
-            "sentiment_score": -0.102,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Riskified And 2 More Penny Stocks To Watch",
-            "description": "Inflation worries are back in focus after fresh US data showed wholesale prices rising 6.5% over the past year, keeping pressure on the Federal Reserve to stay tough. In choppy conditions like this, investors often pay closer attention to smaller companies wi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:07:04Z",
-            "url": "https://biztoc.com/x/45f2e4919bdde4a7",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0208,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 1,
+        "average_score": -0.1566,
+        "label": "ลบเล็กน้อย",
+        "article_count": 5,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Japan's economy unexpectedly shrinks in July-September as consumption falters",
+            "description": "TOKYO, Nov 16 : Japan's economy contracted by an annualised 0.1 per cent in the July-September quarter, government data showed on Monday, reflecting weak consumer spending as households grappled with elevated living costs.The first contraction in four quarter…",
+            "source": "CNA",
+            "published_at": "2026-11-16T00:12:53Z",
+            "url": "https://www.channelnewsasia.com/business/japans-economy-unexpectedly-shrinks-in-july-september-consumption-falters-6553696",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's economy unexpectedly shrinks as inflation squeezes households",
+            "description": "TOKYO, Nov 16 : Japan's economy unexpectedly contracted an annualised 0.1 per cent in the July-September quarter, government data showed on Monday, reflecting weak consumer spending as households grappled with higher living costs.The first contraction in four…",
+            "source": "CNA",
+            "published_at": "2026-11-16T00:12:53Z",
+            "url": "https://www.channelnewsasia.com/business/japans-economy-unexpectedly-shrinks-inflation-squeezes-households-6553696",
+            "sentiment_score": -0.1321,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's economy unexpectedly shrinks as inflation squeezes households",
+            "description": "The first contraction in four quarters underscores the uneven nature of Japan's economic recovery, with households remaining vulnerable to persistent inflation despite rising wages.",
+            "source": "CNA",
+            "published_at": "2026-11-16T00:12:00Z",
+            "url": "https://www.channelnewsasia.com/business/japan-economy-shrinks-inflation-households-living-costs-6553696",
+            "sentiment_score": -0.0679,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
+            "description": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
+            "source": "Theregister.com",
+            "published_at": "2026-11-15T23:46:01Z",
+            "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
+            "sentiment_score": -0.4679,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "JPY",
             "title": "Japan's Economy Faces Major Tests as GDP, Trade and Inflation Data Loom",
@@ -1125,7 +1155,7 @@
           }
         ]
       },
-      "net_score": 0.1579,
+      "net_score": 0.2336,
       "bias": "เอียงบวกต่อ USD (มีแนวโน้มหนุนราคาขึ้น)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1135,14 +1165,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 159.452,
+      "price_now": 159.367,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 42.0,
-      "rsi_signal": "โซนกลาง (RSI=42.0)",
+      "rsi_value": 40.1,
+      "rsi_signal": "โซนกลาง (RSI=40.1)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.17193,
-      "suggested_sl_distance": 0.2579,
+      "atr_value": 0.1595,
+      "suggested_sl_distance": 0.23926,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": -2,
       "technical_bias": "แนวโน้มขาลง (BEARISH)",
@@ -1154,9 +1184,9 @@
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=42.0) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=40.1) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-16T20:14:17.657926+00:00"
+    "generated_at": "2026-11-17T03:39:10.365788+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1165,9 +1195,9 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1096,
+        "average_score": -0.1215,
         "label": "ลบเล็กน้อย",
-        "article_count": 3,
+        "article_count": 2,
         "scored_articles": [
           {
             "currency": "AUD",
@@ -1188,24 +1218,114 @@
             "url": "https://theconversation.com/ai-is-set-to-change-the-graduate-job-market-heres-how-unis-can-respond-295450",
             "sentiment_score": 0.2521,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "$1.4 Trillion a Day Still Settles With Full FX Risk. Three Central Banks Just Tested a Fix",
-            "description": "Project Meridian FX APAC linked a traditional RTGS, a tokenized system and a wholesale CBDC ledger, as BIS data show $1.4 trillion a day still settles fully exposed.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-14T15:05:05Z",
-            "url": "https://www.dcforecasts.com/blockchain-news/fx-settlement-risk-project-meridian-fx-apac-central-banks/",
-            "sentiment_score": -0.2366,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1371,
+        "average_score": 0.077,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian shares fall before Nvidia earnings and Anthropic IPO",
+            "description": "Asian shares fall as Nvidia earnings and Anthropic IPO test the AI rally and Fed rate expectations. Read more at straitstimes.com.",
+            "source": "The Straits Times",
+            "published_at": "2026-11-16T03:02:40Z",
+            "url": "https://www.straitstimes.com/business/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India braces for higher interest rates as inflation, oil prices rise",
+            "description": "Economists and financial traders expect the Reserve Bank of India to lift the benchmark rate by another 50 to 75 basis points in coming months, taking it as high as 6.25%, from 5.5% now",
+            "source": "Business Standard",
+            "published_at": "2026-11-16T02:22:28Z",
+            "url": "https://www.business-standard.com/economy/news/india-braces-for-higher-interest-rates-as-inflation-oil-prices-rise-126111600055_1.html",
+            "sentiment_score": 0.3212,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes ahead: Why higher borrowing costs could hurt India",
+            "description": "The prospect of higher borrowing costs comes at a challenging time for India’s economy, with oil prices, food inflation and global financial risks mounting.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T02:10:00Z",
+            "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-rate-hikes-ahead-why-higher-borrowing-costs-could-hurt-india/article71706629.ece",
+            "sentiment_score": -0.3153,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty may open 75 points higher; experts flag consolidation amid global weakness",
+            "description": "Investors will track foreign fund flows, corporate earnings and global economic developments as domestic equities navigate an uncertain international environment",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T01:41:09Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-may-open-75-points-higher-experts-flag-consolidation-amid-global-weakness/article71706610.ece",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin falls below $62,000 for first time since July, then recovers to $65,000",
+            "description": "Bitcoin's volatility highlights ongoing market instability, impacting investor confidence and liquidity, with broader implications for crypto adoption.\nThe post Bitcoin falls below $62,000 for first time since July, then recovers to $65,000 appeared first on …",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-16T01:28:27Z",
+            "url": "https://cryptobriefing.com/bitcoin-price-volatility-below-62000-recovery/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks subdued as US futures gain; Nvidia earnings, Fed minutes in focus",
+            "description": "Contracts for the Nasdaq 100 rose 0.5%, while S&P 500 futures gained 0.2% after both underlying benchmarks capped a second straight day of losses on Friday. MSCI Inc.’s gauge of Asian shares inched lower. Global benchmark Brent crude traded around $95.50 a ba…",
+            "source": "The Times of India",
+            "published_at": "2026-11-16T00:57:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-subdued-as-us-futures-gain-nvidia-earnings-fed-minutes-in-focus/articleshow/135868964.cms",
+            "sentiment_score": 0.2366,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hikes could stretch into 2027 as darker threats loom",
+            "description": "Federal Reserve Bank of Kansas City President Jeff Schmid kicked off a busy week of Fed-speak Nov. 15 by saying that inflation pressures have only grown worse in recent months, leaving monetary policymakers with more work ahead.\n“The Fed’s role is not to affe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T00:24:18Z",
+            "url": "https://biztoc.com/x/79cd8b5506a0d118",
+            "sentiment_score": -0.5982,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Schmid signals potential rate hikes as inflation exceeds target",
+            "description": "Potential rate hikes could strain economic growth, highlighting the Fed's challenge in balancing inflation control with economic stability.\nThe post Fed’s Schmid signals potential rate hikes as inflation exceeds target appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T23:01:52Z",
+            "url": "https://cryptobriefing.com/feds-schmid-signals-potential-rate-hikes-as-inflation-exceeds-target/",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CZ denies Binance sold crypto as Bitcoin rebounds from lows",
+            "description": "Investor caution and regulatory uncertainty may drive volatility in crypto markets, highlighting the need for strategic risk management.\nThe post CZ denies Binance sold crypto as Bitcoin rebounds from lows appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T22:02:07Z",
+            "url": "https://cryptobriefing.com/cz-denies-binance-sold-crypto-bitcoin-rebounds/",
+            "sentiment_score": -0.6291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Retail investors boost Nvidia holdings as hedge funds pull back",
+            "description": "Retail investors' optimism in Nvidia may signal a shift in market sentiment, potentially influencing future investment trends and stock dynamics.\nThe post Retail investors boost Nvidia holdings as hedge funds pull back appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T21:08:26Z",
+            "url": "https://cryptobriefing.com/retail-investors-boost-nvidia-holdings-as-hedge-funds-pull-back/",
+            "sentiment_score": 0.5235,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed 'has some work to do on inflation,' KC Fed chief says",
@@ -1385,110 +1505,10 @@
             "url": "https://biztoc.com/x/adaca19151cb9164",
             "sentiment_score": 0.2544,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Crypto’s slow-motion selloff leaves traders weary and hopeless",
-            "description": "Bitcoin's prolonged selloff is testing investor confidence as ETF outflows, rising Treasury yields, a stronger dollar and crypto-specific setbacks weigh on demand. Competition from AI investments and Anthropic's upcoming IPO is adding to pressure, leaving the…",
-            "source": "The Times of India",
-            "published_at": "2026-11-15T10:03:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/cryptos-slow-motion-selloff-leaves-traders-weary-and-hopeless/articleshow/135852690.cms",
-            "sentiment_score": -0.2537,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, crude oil prices and FII activity to steer stock markets this week",
-            "description": "Last week, the 30-share BSE Sensex climbed 564.43 points, or 0.69 per cent, and the 50-share NSE Nifty was up 113.95 points or 0.45 per cent.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T09:36:02Z",
-            "url": "https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece",
-            "sentiment_score": -0.2798,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, oil, FII trading activity may guide stock markets this week",
-            "description": "WPI inflation data, foreign investor trading activity, crude oil prices, and developments in West Asia will drive investor sentiment this week, analysts said.\nGlobally, US retail sales, Nvidia's earnings and the FOMC (Federal Open Market Committee) minutes wi…",
-            "source": "Business Standard",
-            "published_at": "2026-11-15T08:52:49Z",
-            "url": "https://www.business-standard.com/markets/news/wpi-inflation-oil-fii-trading-activity-may-guide-stock-markets-this-week-126111500300_1.html",
-            "sentiment_score": -0.1716,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K",
-            "description": "Why is bitcoin dropping? US spot funds shed $1.9B over seven sessions as inflation fears and forced selling push Bitcoin down 5% to below $64K.\nThe post US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K appeared first on Bitcoin Foundation.",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-11-15T08:36:56Z",
-            "url": "https://bitcoinfoundation.org/news/bitcoin/us-bitcoin-funds-shed-1-9b-as-btc-drops-5-below-64k/",
-            "sentiment_score": -0.2101,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Balancing Credit Building with Credit Caution",
-            "description": "Treat Your Credit Like a Campfire, Not a Bonfire Building credit is often framed as...\nThe post Balancing Credit Building with Credit Caution appeared first on Social Media Explorer.",
-            "source": "Socialmediaexplorer.com",
-            "published_at": "2026-11-15T08:22:38Z",
-            "url": "https://socialmediaexplorer.com/business/balancing-credit-building-with-credit-caution/",
-            "sentiment_score": 0.724,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Will Make Only Seven Rate Decisions in 2027 After Reworking Its Calendar",
-            "description": "The Fed's revised 2027 schedule turns the October meeting into a no-decision strategy session and replaces December with Nov. 16-17, leaving seven rate announcements.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T08:05:59Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/fomc-meeting-dates-2027-fed-seven-rate-decisions/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Consumer Staples Stocks Investors Are Watching As Producer Inflation Heats Up",
-            "description": "Producer prices are heating up again, and that raises a blunt question for your portfolio. If costs keep climbing faster than consumer inflation and the Federal Reserve stays tough on policy, some businesses may see their profits squeezed while others hold th…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:53:00Z",
-            "url": "https://biztoc.com/x/ee28c6e498dd1615",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Sansan And 2 Other Japanese Founder Led Stocks To Own",
-            "description": "US inflation remains above target and Federal Reserve officials keep pointing to price pressures as the main guide for future rate moves. That kind of backdrop often rewards investors who back Japanese founders with real skin in the game and clear, long term …",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:52:55Z",
-            "url": "https://biztoc.com/x/d52a9aeb8d1d7f20",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs infuse ₹84,290 cr into equities in first half of November",
-            "description": "Foreign portfolio investors pumped in ₹84,290 crore into Indian equities in early November, reversing prior outflows amid AI sell-offs, falling crude, and attractive large-cap valuations.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T07:12:50Z",
-            "url": "https://www.thehindubusinessline.com/markets/fpis-infuse-84290-cr-into-equities-in-first-half-of-november/article71704298.ece",
-            "sentiment_score": -0.102,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Riskified And 2 More Penny Stocks To Watch",
-            "description": "Inflation worries are back in focus after fresh US data showed wholesale prices rising 6.5% over the past year, keeping pressure on the Federal Reserve to stay tough. In choppy conditions like this, investors often pay closer attention to smaller companies wi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:07:04Z",
-            "url": "https://biztoc.com/x/45f2e4919bdde4a7",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.2467,
+      "net_score": -0.1985,
       "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
         "confidence_level": "ปานกลาง",
@@ -1498,16 +1518,16 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.67408,
+      "price_now": 0.67504,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 28.5,
-      "rsi_signal": "ขายมากเกิน (RSI=28.5) ราคาอาจเด้ง",
+      "rsi_value": 47.3,
+      "rsi_signal": "โซนกลาง (RSI=47.3)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00075,
-      "suggested_sl_distance": 0.00112,
+      "atr_value": 0.00073,
+      "suggested_sl_distance": 0.0011,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 1,
+      "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "none",
       "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
@@ -1519,7 +1539,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-16T20:14:17.657926+00:00"
+    "generated_at": "2026-11-17T03:39:10.365788+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1528,10 +1548,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0698,
+        "average_score": 0.205,
         "label": "บวกเล็กน้อย",
-        "article_count": 13,
+        "article_count": 9,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s latest developments reflect a combination of economic adjustments, expanding international enga…",
+            "source": "Khabarhub.com",
+            "published_at": "2026-11-16T02:15:39Z",
+            "url": "https://english.khabarhub.com/2026/16/575760/",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Stock Market Today Live Updates: Sensex jumps over 300 points, Nifty above 25,200; FMCG stocks rally",
+            "description": "Sensex Today | Nifty 50 Live Updates: Indian benchmark indices trade higher on Monday, supported by increased FPI buying and hopes of a decline in oil prices. The gains came after Dalal Street snapped its winning streak on Friday.",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-16T01:53:59Z",
+            "url": "https://m.economictimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-motors-pv-eicher-motors-share-price-16-november-2026/liveblog/135869739.cms",
+            "sentiment_score": 0.5599,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "XAU",
             "title": "Today’s News in a Nutshell",
@@ -1601,74 +1641,114 @@
             "url": "https://www.livemint.com/money/gold-24k-22k-18k-999-fine-silver-prices-today-15-nov-check-retail-rates-cities-delhi-mumbai-coimbatore-chennai-bangalore-11794708823552.html",
             "sentiment_score": 0.0607,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Singapore Makes a $65 Billion Bet on the Future of Gold",
-            "description": "For three years, the gold story was about who was buying. In 2026, it has become a story about where the metal sleeps at night. On Tuesday, the Monetary Authority of Singapore opened its national currency vault, with room for 500 tons of bullion, to foreign c…",
-            "source": "OilPrice.com",
-            "published_at": "2026-11-14T18:00:00Z",
-            "url": "https://oilprice.com/Metals/Gold/Singapore-Makes-a-65-Billion-Bet-on-the-Future-of-Gold.html",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold Price Slips to Key Support as Fed Rate Risks and GLD ETF Outflows Build",
-            "description": "Gold has come under intense pressure this month and is now trading near an important support level, as the risk of Federal Reserve rate hikes and ETF outflows builds.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-14T15:50:53Z",
-            "url": "https://biztoc.com/x/f4d1365d6865f1c2",
-            "sentiment_score": 0.1456,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Today’s Gold Rate: Latest gold prices in Coimbatore, Nagpur, Jaipur & other cities",
-            "description": "Gold Price Today, November 14, 2026: Check 22K and 24K gold rates in Coimbatore, Nagpur, Visakhapatnam, Surat, Jaipur, Lucknow and Chandigarh.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-14T08:45:33Z",
-            "url": "https://www.thehindubusinessline.com/gold-rate-today/gold-price-today-in-coimbatore-nagpur-visakhapatnam-surat-jaipur-lucknow-chandigarh-gold-rates-other-cities-november-14-2026/article71701206.ece",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold’s 27% Slide Is Its Deepest Since 2015. Bitcoin Now Buys 42% More Ounces Than in February",
-            "description": "The gold price drop from January's record has reached 26.9%, the deepest since 2015, while one bitcoin now buys 42% more gold than at its February low.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-14T06:43:06Z",
-            "url": "https://www.dcforecasts.com/analysis/gold-price-drop-deepest-since-2015-bitcoin-gold-ratio/",
-            "sentiment_score": -0.1264,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver prices today, 14 November: Check retail rates of 24K, 22K, 18K gold, 999 silver in Delhi, Mumbai, Bangalore",
-            "description": "Gold, silver prices today, 14 November: Check retail prices of 18K, 22K and 24K gold and 999 Fine silver in your cities — Ahmedabad, Bengaluru, Chennai, Coimbatore, Delhi, Hyderabad, Kolkata, and Mumbai.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-11-14T03:58:08Z",
-            "url": "https://www.livemint.com/money/gold-24k-22k-18k-999-fine-silver-prices-today-14-november-retail-rates-delhi-mumbai-kolkata-bangalore-coimbatore-chennai-11794621846802.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
-            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s economic landscape reflects a mix of market volatility, policy initiatives and persistent struc…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-11-14T02:15:31Z",
-            "url": "https://english.khabarhub.com/2026/14/575504/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": 0.1371,
+        "average_score": 0.077,
         "label": "บวกเล็กน้อย",
         "article_count": 28,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Asian shares fall before Nvidia earnings and Anthropic IPO",
+            "description": "Asian shares fall as Nvidia earnings and Anthropic IPO test the AI rally and Fed rate expectations. Read more at straitstimes.com.",
+            "source": "The Straits Times",
+            "published_at": "2026-11-16T03:02:40Z",
+            "url": "https://www.straitstimes.com/business/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally",
+            "sentiment_score": 0.296,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "India braces for higher interest rates as inflation, oil prices rise",
+            "description": "Economists and financial traders expect the Reserve Bank of India to lift the benchmark rate by another 50 to 75 basis points in coming months, taking it as high as 6.25%, from 5.5% now",
+            "source": "Business Standard",
+            "published_at": "2026-11-16T02:22:28Z",
+            "url": "https://www.business-standard.com/economy/news/india-braces-for-higher-interest-rates-as-inflation-oil-prices-rise-126111600055_1.html",
+            "sentiment_score": 0.3212,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "RBI rate hikes ahead: Why higher borrowing costs could hurt India",
+            "description": "The prospect of higher borrowing costs comes at a challenging time for India’s economy, with oil prices, food inflation and global financial risks mounting.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T02:10:00Z",
+            "url": "https://www.thehindubusinessline.com/money-and-banking/rbi-rate-hikes-ahead-why-higher-borrowing-costs-could-hurt-india/article71706629.ece",
+            "sentiment_score": -0.3153,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nifty may open 75 points higher; experts flag consolidation amid global weakness",
+            "description": "Investors will track foreign fund flows, corporate earnings and global economic developments as domestic equities navigate an uncertain international environment",
+            "source": "BusinessLine",
+            "published_at": "2026-11-16T01:41:09Z",
+            "url": "https://www.thehindubusinessline.com/markets/nifty-may-open-75-points-higher-experts-flag-consolidation-amid-global-weakness/article71706610.ece",
+            "sentiment_score": -0.1069,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin falls below $62,000 for first time since July, then recovers to $65,000",
+            "description": "Bitcoin's volatility highlights ongoing market instability, impacting investor confidence and liquidity, with broader implications for crypto adoption.\nThe post Bitcoin falls below $62,000 for first time since July, then recovers to $65,000 appeared first on …",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-16T01:28:27Z",
+            "url": "https://cryptobriefing.com/bitcoin-price-volatility-below-62000-recovery/",
+            "sentiment_score": 0.1532,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks subdued as US futures gain; Nvidia earnings, Fed minutes in focus",
+            "description": "Contracts for the Nasdaq 100 rose 0.5%, while S&P 500 futures gained 0.2% after both underlying benchmarks capped a second straight day of losses on Friday. MSCI Inc.’s gauge of Asian shares inched lower. Global benchmark Brent crude traded around $95.50 a ba…",
+            "source": "The Times of India",
+            "published_at": "2026-11-16T00:57:35Z",
+            "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-subdued-as-us-futures-gain-nvidia-earnings-fed-minutes-in-focus/articleshow/135868964.cms",
+            "sentiment_score": 0.2366,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed rate hikes could stretch into 2027 as darker threats loom",
+            "description": "Federal Reserve Bank of Kansas City President Jeff Schmid kicked off a busy week of Fed-speak Nov. 15 by saying that inflation pressures have only grown worse in recent months, leaving monetary policymakers with more work ahead.\n“The Fed’s role is not to affe…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T00:24:18Z",
+            "url": "https://biztoc.com/x/79cd8b5506a0d118",
+            "sentiment_score": -0.5982,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Schmid signals potential rate hikes as inflation exceeds target",
+            "description": "Potential rate hikes could strain economic growth, highlighting the Fed's challenge in balancing inflation control with economic stability.\nThe post Fed’s Schmid signals potential rate hikes as inflation exceeds target appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T23:01:52Z",
+            "url": "https://cryptobriefing.com/feds-schmid-signals-potential-rate-hikes-as-inflation-exceeds-target/",
+            "sentiment_score": 0.1206,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "CZ denies Binance sold crypto as Bitcoin rebounds from lows",
+            "description": "Investor caution and regulatory uncertainty may drive volatility in crypto markets, highlighting the need for strategic risk management.\nThe post CZ denies Binance sold crypto as Bitcoin rebounds from lows appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T22:02:07Z",
+            "url": "https://cryptobriefing.com/cz-denies-binance-sold-crypto-bitcoin-rebounds/",
+            "sentiment_score": -0.6291,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Retail investors boost Nvidia holdings as hedge funds pull back",
+            "description": "Retail investors' optimism in Nvidia may signal a shift in market sentiment, potentially influencing future investment trends and stock dynamics.\nThe post Retail investors boost Nvidia holdings as hedge funds pull back appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-15T21:08:26Z",
+            "url": "https://cryptobriefing.com/retail-investors-boost-nvidia-holdings-as-hedge-funds-pull-back/",
+            "sentiment_score": 0.5235,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
           {
             "currency": "USD",
             "title": "Fed 'has some work to do on inflation,' KC Fed chief says",
@@ -1848,110 +1928,10 @@
             "url": "https://biztoc.com/x/adaca19151cb9164",
             "sentiment_score": 0.2544,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Crypto’s slow-motion selloff leaves traders weary and hopeless",
-            "description": "Bitcoin's prolonged selloff is testing investor confidence as ETF outflows, rising Treasury yields, a stronger dollar and crypto-specific setbacks weigh on demand. Competition from AI investments and Anthropic's upcoming IPO is adding to pressure, leaving the…",
-            "source": "The Times of India",
-            "published_at": "2026-11-15T10:03:53Z",
-            "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/cryptos-slow-motion-selloff-leaves-traders-weary-and-hopeless/articleshow/135852690.cms",
-            "sentiment_score": -0.2537,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, crude oil prices and FII activity to steer stock markets this week",
-            "description": "Last week, the 30-share BSE Sensex climbed 564.43 points, or 0.69 per cent, and the 50-share NSE Nifty was up 113.95 points or 0.45 per cent.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T09:36:02Z",
-            "url": "https://www.thehindubusinessline.com/markets/wpi-inflation-crude-oil-prices-and-fii-activity-to-steer-stock-markets-this-week/article71704397.ece",
-            "sentiment_score": -0.2798,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "WPI inflation, oil, FII trading activity may guide stock markets this week",
-            "description": "WPI inflation data, foreign investor trading activity, crude oil prices, and developments in West Asia will drive investor sentiment this week, analysts said.\nGlobally, US retail sales, Nvidia's earnings and the FOMC (Federal Open Market Committee) minutes wi…",
-            "source": "Business Standard",
-            "published_at": "2026-11-15T08:52:49Z",
-            "url": "https://www.business-standard.com/markets/news/wpi-inflation-oil-fii-trading-activity-may-guide-stock-markets-this-week-126111500300_1.html",
-            "sentiment_score": -0.1716,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K",
-            "description": "Why is bitcoin dropping? US spot funds shed $1.9B over seven sessions as inflation fears and forced selling push Bitcoin down 5% to below $64K.\nThe post US Bitcoin Funds Shed $1.9B as BTC Drops 5% Below $64K appeared first on Bitcoin Foundation.",
-            "source": "Bitcoinfoundation.org",
-            "published_at": "2026-11-15T08:36:56Z",
-            "url": "https://bitcoinfoundation.org/news/bitcoin/us-bitcoin-funds-shed-1-9b-as-btc-drops-5-below-64k/",
-            "sentiment_score": -0.2101,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Balancing Credit Building with Credit Caution",
-            "description": "Treat Your Credit Like a Campfire, Not a Bonfire Building credit is often framed as...\nThe post Balancing Credit Building with Credit Caution appeared first on Social Media Explorer.",
-            "source": "Socialmediaexplorer.com",
-            "published_at": "2026-11-15T08:22:38Z",
-            "url": "https://socialmediaexplorer.com/business/balancing-credit-building-with-credit-caution/",
-            "sentiment_score": 0.724,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed Will Make Only Seven Rate Decisions in 2027 After Reworking Its Calendar",
-            "description": "The Fed's revised 2027 schedule turns the October meeting into a no-decision strategy session and replaces December with Nov. 16-17, leaving seven rate announcements.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T08:05:59Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/fomc-meeting-dates-2027-fed-seven-rate-decisions/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "3 Consumer Staples Stocks Investors Are Watching As Producer Inflation Heats Up",
-            "description": "Producer prices are heating up again, and that raises a blunt question for your portfolio. If costs keep climbing faster than consumer inflation and the Federal Reserve stays tough on policy, some businesses may see their profits squeezed while others hold th…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:53:00Z",
-            "url": "https://biztoc.com/x/ee28c6e498dd1615",
-            "sentiment_score": 0.102,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Sansan And 2 Other Japanese Founder Led Stocks To Own",
-            "description": "US inflation remains above target and Federal Reserve officials keep pointing to price pressures as the main guide for future rate moves. That kind of backdrop often rewards investors who back Japanese founders with real skin in the game and clear, long term …",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:52:55Z",
-            "url": "https://biztoc.com/x/d52a9aeb8d1d7f20",
-            "sentiment_score": 0.158,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "FPIs infuse ₹84,290 cr into equities in first half of November",
-            "description": "Foreign portfolio investors pumped in ₹84,290 crore into Indian equities in early November, reversing prior outflows amid AI sell-offs, falling crude, and attractive large-cap valuations.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T07:12:50Z",
-            "url": "https://www.thehindubusinessline.com/markets/fpis-infuse-84290-cr-into-equities-in-first-half-of-november/article71704298.ece",
-            "sentiment_score": -0.102,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Riskified And 2 More Penny Stocks To Watch",
-            "description": "Inflation worries are back in focus after fresh US data showed wholesale prices rising 6.5% over the past year, keeping pressure on the Federal Reserve to stay tough. In choppy conditions like this, investors often pay closer attention to smaller companies wi…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-15T07:07:04Z",
-            "url": "https://biztoc.com/x/45f2e4919bdde4a7",
-            "sentiment_score": -0.082,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0673,
+      "net_score": 0.128,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1961,14 +1941,14 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 3867.0,
+      "price_now": 3878.0,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 46.4,
-      "rsi_signal": "โซนกลาง (RSI=46.4)",
+      "rsi_value": 53.3,
+      "rsi_signal": "โซนกลาง (RSI=53.3)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 16.29637,
-      "suggested_sl_distance": 24.44456,
+      "atr_value": 16.19526,
+      "suggested_sl_distance": 24.29289,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1982,6 +1962,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-16T20:14:17.657926+00:00"
+    "generated_at": "2026-11-17T03:39:10.365788+00:00"
   }
 ]
