@@ -6,10 +6,20 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.032,
+        "average_score": 0.028,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 23,
+        "article_count": 16,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-16T23:48:48Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "3 Eurozone Financial Stocks Riding AI Driven Trading Volatility",
@@ -159,94 +169,254 @@
             "url": "https://www.politico.eu/article/france-presidential-election-2027-candidates/",
             "sentiment_score": 0.0077,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "The return of the snatch-and-grab state",
-            "description": "A new history of confiscation sheds light on modern economic warfare.",
-            "source": "Www.nrc.nl",
-            "published_at": "2026-11-15T21:00:00Z",
-            "url": "https://www.nrc.nl/nieuws/2026/11/15/the-return-of-the-snatch-and-grab-state-a4941327",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "EU mulls tariffs to cut solar imports, spur local industry",
-            "description": "EU mulls tariffs to boost European solar manufacturing as ESMC warns of modest price impact but potential 80,000 jobs and €4B GDP boost.",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T18:07:02Z",
-            "url": "https://www.thehindubusinessline.com/specials/clean-tech/eu-mulls-tariffs-to-cut-solar-imports-spur-local-industry/article71705750.ece",
-            "sentiment_score": -0.0002,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "The Crisis in Poland",
-            "description": "I was First Secretary at the British Embassy in Warsaw 1994-98. While that was a long time ago, I knew personally many of the people at the heart of the current crisis, such as Donald Tusk and Radek Sikorski.…\nThe post The Crisis in Poland appeared first on G…",
-            "source": "Globalresearch.ca",
-            "published_at": "2026-11-15T17:06:50Z",
-            "url": "https://www.globalresearch.ca/crisis-poland/5945872",
-            "sentiment_score": -0.6249,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "How $10,000 in stablecoins would have gained €420 without earning interest",
-            "description": "ECB household evidence and a two-date FX illustration separate dollar-token stability from euro value before costs.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your inbox",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-15T16:30:56Z",
-            "url": "https://cryptoslate.com/how-10000-in-stablecoins-would-have-gained-e420-without-earning-interest/",
-            "sentiment_score": 0.1301,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Show HN: Kasa, simplest budgeting app you can find",
-            "description": "Article URL: https://kasafinance.online/\nComments URL: https://news.ycombinator.com/item?id=50505631\nPoints: 1\n# Comments: 0",
-            "source": "Kasafinance.online",
-            "published_at": "2026-11-15T10:10:18Z",
-            "url": "https://kasafinance.online/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Markets still pricing in two more ECB rate hikes",
-            "description": "Resilient euro zone growth gives bank more leeway on rates",
-            "source": "The Irish Times",
-            "published_at": "2026-11-15T06:00:00Z",
-            "url": "https://www.irishtimes.com/business/2026/11/15/markets-still-pricing-in-two-more-ecb-rate-hikes/",
-            "sentiment_score": 0.1145,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "The Digital Euro Pilot Starts in ECB Canteens in 2027, but It Needs a Law First",
-            "description": "The ECB's digital euro pilot starts in the second half of 2027 with 36 payment firms, but Piero Cipollone told EU lawmakers the legal framework must come first.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T05:48:49Z",
-            "url": "https://www.dcforecasts.com/blockchain-news/digital-euro-pilot-2027-ecb-cipollone-law/",
-            "sentiment_score": 0.057,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "EU Regulators Recruit Industry to Write Asset Tokenization Rules, With a Nov. 27 Deadline",
-            "description": "Asset tokenization in Europe gets an industry standards group backed by the ECB, Commission and ESMA. Nominations close Nov. 27; work starts January 2027.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T04:25:28Z",
-            "url": "https://www.dcforecasts.com/blockchain-news/asset-tokenization-eu-standards-group-etsg-nominations/",
-            "sentiment_score": 0.3674,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0017,
+        "average_score": 0.0439,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Nikkei 225 Sinks Below 59,000 as Japan GDP Contraction, Weak Yen Near 160 and Tech Rout Pile Pressure on Tokyo",
+            "description": "Japanese stocks fell sharply, with the Nikkei 225 dropping below 59,000, as a global technology sell-off, contracting economic growth and yen weakness weighed on investor sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:42Z",
+            "url": "https://www.ibtimes.com.au/nikkei-falls-below-59000-tech-selloff-japan-economy-1878744",
+            "sentiment_score": -0.4529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hang Seng Falls 1.1% Below 23,500 as Hong Kong Tech Stocks Slump on New U.S. Curbs on China's AI Chip Access",
+            "description": "Hong Kong shares declined as new US restrictions on advanced AI chip shipments to overseas data centres raised pressure on Chinese technology companies and broader Asian markets.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:03Z",
+            "url": "https://www.ibtimes.com.au/hong-kong-stocks-fall-us-ai-chip-curbs-1878748",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Slides Toward 5,000 as Chip Selloff Extends Into Second Day Before Nvidia's First Post-Huang Earnings",
+            "description": "South Korea's KOSPI fell 1.22% as investors sold technology shares ahead of Nvidia's results, with AI spending concerns, US chip curbs and rate expectations weighing on sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:19:24Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-ahead-nvidia-earnings-1878750",
+            "sentiment_score": 0.1784,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares fall as US tightens curbs on China's access to AI chips",
+            "description": "South Korea's KOSPI fell 2% and Japan's Nikkei declined 1.3%, as Washington tightened restrictions on advanced chip shipments to data centres in Thailand and Malaysia used by Chinese companies",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T03:13:36Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-fall-as-us-tightens-curbs-on-china-s-access-to-ai-chips-126111700065_1.html",
+            "sentiment_score": 0.2822,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed Chair Warsh's true test begins now",
+            "description": "Federal Reserve Chair Kevin Warsh is navigating significant challenges regarding interest rate policy and inflation control. As inflation remains above target levels, market expectations for aggressive rate hikes are intensifying. The Trump administration has…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T03:10:52Z",
+            "url": "https://m.economictimes.com/news/international/world-news/us-federal-reserve-chair-kevin-warshs-true-test-begins-now/articleshow/135908580.cms",
+            "sentiment_score": 0.4577,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global stocks fall as Nvidia earnings, Anthropic debut put AI rally to test",
+            "description": "Semiconductor shares led losses across major markets, with US chipmakers falling 5.3 per cent and stocks in South Korea and Taiwan declining 3.6 per cent and 6 per cent, respectively",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:27:58Z",
+            "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-nvidia-earnings-anthropic-debut-put-ai-rally-to-test-126111700032_1.html",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals muted open; Asian markets decline on tech selloff",
+            "description": "Sensex Today | Stock Market LIVE Updates Tuesday: The GIFT Nifty indicated a muted open for the Nifty50 index. Asian markets declined",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:25:17Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html",
+            "sentiment_score": 0.7456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia slides 4.1% as US tech stocks plunge; Nasdaq falls 2.5%",
+            "description": "Nvidia fell 4.1% as US tech stocks sold off, pushing the Nasdaq 2.49% lower and more than 10% below its October record closing high.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-17T02:23:36Z",
+            "url": "https://www.thehindubusinessline.com/markets/stock-markets/nvidia-slides-41-as-us-tech-stocks-plunge-nasdaq-falls-25/article71710260.ece",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "The US dollar soared to a 19-month high as traders ramped up expectations for potential Federal Reserve policy tightening. Following robust inflation statistics, the dollar index climbed to 103.66, showcasing noteworthy gains. The market's mood suffered due t…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:52:42Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+            "description": "Gold prices are under pressure, primarily due to a strengthening US dollar and rising expectations for an interest rate hike. Analysts project a notable chance of this occurring in December, influenced by current market data. The dollar's gains have diminishe…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:49:25Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
+            "sentiment_score": 0.0525,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump turned on Susie Wiles after she showed the one thing he sees as 'weakness': Haberman",
+            "description": "President Donald Trump began picking on Susie Wiles after she became sick with cancer and tried to work through treatments, New York Times reporter Maggie Haberman said Monday.“He sees it as weakness,” Haberman said of Trump’s view of illness. “And so, he sta…",
+            "source": "Raw Story",
+            "published_at": "2026-11-17T01:44:40Z",
+            "url": "https://www.rawstory.com/susie-wiles-2678423311/",
+            "sentiment_score": -0.5608,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "TOKYO, Nov 17 : The dollar on Tuesday scaled a fresh 19-month peak against a basket of peers amid bets for more aggressive policy tightening by the US Federal Reserve following hot inflation data and hawkish central bank rhetoric.The US currency extended a 10…",
+            "source": "CNA",
+            "published_at": "2026-11-17T01:41:58Z",
+            "url": "https://www.channelnewsasia.com/business/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-6557406",
+            "sentiment_score": 0.0313,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Shark Tank' Millionaire Proves Beyond Clueless During Economic Debate With Gen Z",
+            "description": "Kevin O’Leary only had vague advice and insults while talking to 20-somethings about making a living in the world today.",
+            "source": "HuffPost",
+            "published_at": "2026-11-17T01:35:39Z",
+            "url": "https://www.huffpost.com/entry/kevin-oleary-debates-gen-z-economy_n_6afb785be4b0b6f4a959f8a4",
+            "sentiment_score": -0.401,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T01:04:01Z",
+            "url": "https://biztoc.com/x/4b56f10bde9b0392",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.\n\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T00:48:26Z",
+            "url": "https://biztoc.com/x/631bc733e1d0f78d",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as Wall Street selloff deepens ahead of Nvidia earnings",
+            "description": "The MSCI Asia Pacific Index dropped 0.7% in early trading and South Korea’s Kospi lost 1.4%. Futures for the S&P 500 and Nasdaq 100 indexes were little changed after the underlying benchmarks slid 1.9% and 2.7%, respectively, on Monday, marking a third straig…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T00:47:32Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-wall-street-selloff-deepens-ahead-of-nvidia-earnings/articleshow/135906533.cms",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T00:42:33Z",
+            "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Were 1950s families achieving a modern lifestyle via type of discount? How many hours needed a person work to purchase essentials compared to today? How many goods and services were provided as forms of welfare in 1960 versus today?",
+            "description": "In the 1950s, American families were not buying today’s standard of living at a discount. They were buying a single-bathroom home under 1,000 square feet that cost just twice their annual salary. When economists and social historians point out that 1950s fami…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-11-17T00:09:55Z",
+            "url": "https://freerepublic.com/focus/f-chat/4403301/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-16T23:48:48Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "California consumer watchdog chief says AI companies that violate state rules will be taken to court",
+            "description": "NEW YORK, Nov 16 : Rohit Chopra, secretary of the California Business and Consumer Services Agency, said greater accountability is needed from technology companies rolling out AI into the broader economy, and that his agency is already eyeing the possibility …",
+            "source": "CNA",
+            "published_at": "2026-11-16T22:57:07Z",
+            "url": "https://www.channelnewsasia.com/business/california-consumer-watchdog-chief-says-ai-companies-violate-state-rules-will-be-taken-court-6556931",
+            "sentiment_score": -0.2374,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+            "description": "The Supreme Court refused to hear Custodia Bank’s appeal, meaning a lower court ruling allowing the Fed to reject account applications will stand.",
+            "source": "Cointelegraph",
+            "published_at": "2026-11-16T22:54:57Z",
+            "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+            "description": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+            "source": "CNBC",
+            "published_at": "2026-11-16T22:22:52Z",
+            "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Marc Andreessen says government regulation will save jobs from AI — at the cost of economic growth",
+            "description": "Venture capitalist Marc Andreessen, co-head of Federal Reserve Chairman Kevin Warsh's task force on jobs and productivity, predicted that artificial intelligence will have a dual effect in the job market: Job losses in government-regulated sectors will be ins…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T22:19:17Z",
+            "url": "https://biztoc.com/x/31e650e345954528",
+            "sentiment_score": 0.521,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+            "description": "NEW YORK: A broad selloff dragged US stocks lower on Monday (Nov 16) as fallout from Jensen Huang's resignation as Nvidia CEO soured enthusiasm for AI stocks",
+            "source": "CNA",
+            "published_at": "2026-11-16T21:49:27Z",
+            "url": "https://www.channelnewsasia.com/world/wall-street-ends-sharply-lower-ai-jitters-ahead-nvidia-results-anthropic-ipo-6556786",
+            "sentiment_score": -0.2606,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Gold price slides to one-year low, heads for worst year since 2015",
@@ -306,240 +476,10 @@
             "url": "https://biztoc.com/x/a37c42242e95e9ea",
             "sentiment_score": -0.2029,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Starling Founder Launches Agentic AI-Focused Bank Lockwood",
-            "description": "The founder of British neobank Starling is reportedly embarking on an artificial intelligence (AI)-focused banking venture. Anne Boden is using some of the proceeds from selling her shares in her former company to help launch her new startup Lockwood, The Tim…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T20:02:41Z",
-            "url": "https://www.pymnts.com/news/banking/2026/starling-founder-launches-agentic-ai-focused-bank-lockwood/",
-            "sentiment_score": 0.2372,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-            "description": "Palantir shares are slipping Monday as Nvidia uncertainty and Fed rate-hike concerns pressure tech stocks ahead of Anthropic's IPO.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:57:54Z",
-            "url": "https://biztoc.com/x/3dd4f9344b80b3f3",
-            "sentiment_score": -0.3548,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
-            "description": "The post Claude AI Predicts What a December Fed Hike Could Do to Bitcoin appeared first on 24/7 Wall St..\nClaude AI projects that Bitcoin (CRYPTO: BTC) could settle at around $56,500 by December 31, 2026, if the Federal Reserve raises interest rates by a quar…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:42:22Z",
-            "url": "https://biztoc.com/x/b1043e29299011da",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack favors gradual rate hikes amid inflation concerns",
-            "description": "Gradual rate hikes may stabilize the economy, but persistent inflation pressures could challenge long-term monetary policy effectiveness.\nThe post Fed’s Hammack favors gradual rate hikes amid inflation concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T19:19:46Z",
-            "url": "https://cryptobriefing.com/feds-hammack-favors-gradual-rate-hikes-amid-inflation-concerns/",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:56:15Z",
-            "url": "https://biztoc.com/x/8d6951cdd3f00350",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out",
-            "description": "The Federal Reserve staff is in the early days of developing various scenarios of how artificial intelligence’s growing role in business and daily life will impact the economy, Fed Chairman Kevin Warsh said Monday.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:03Z",
-            "url": "https://biztoc.com/x/faec1c8ed2facbc5",
-            "sentiment_score": -0.0712,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
-            "description": "Kevin M. Warsh, chairman of the Federal Reserve, has assigned a task force to explore how productivity gains tied to new technologies could impact the labor market.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:00Z",
-            "url": "https://biztoc.com/x/10fc7999ca129509",
-            "sentiment_score": -0.136,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-            "description": "Federal Reserve Chair Kevin Warsh says staff are studying three possible economic futures for AI, ranging from widespread productivity gains to higher unemployment and a painful correction in technology stocks.",
-            "source": "Decrypt",
-            "published_at": "2026-11-16T18:36:44Z",
-            "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Founder Denies Selling as Bitcoin Breaks Below $63K",
-            "description": "Binance founder Changpeng (CZ) Zhao pondered the reasons behind the sharp market decline that pushed Bitcoin's price below $63k.",
-            "source": "ZyCrypto",
-            "published_at": "2026-11-16T18:30:13Z",
-            "url": "https://zycrypto.com/binance-founder-denies-selling-as-bitcoin-breaks-below-63k/",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T18:21:54Z",
-            "url": "https://www.pymnts.com/legal/2026/supreme-court-leaves-custodia-bank-locked-out-of-federal-reserve-payment-system/",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chairman Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:14:03Z",
-            "url": "https://biztoc.com/x/074d5ab05c53656e",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh lays out best-case scenario from AI, while also warning about ‘costly’ risks",
-            "description": "Warsh refers to artificial intelligence as \"super intelligence,\" the language preferred by President Trump.",
-            "source": "New York Post",
-            "published_at": "2026-11-16T18:07:15Z",
-            "url": "https://nypost.com/2026/11/16/business/fed-chair-kevin-warsh-lays-out-best-case-scenario-from-ai-while-also-warning-about-costly-risks/",
-            "sentiment_score": -0.1162,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
-            "description": "US retail sales and Federal Reserve minutes offer Bitcoin traders two dated macro checkpoints as inflation keeps the rate debate active.",
-            "source": "newsBTC",
-            "published_at": "2026-11-16T18:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-week-ahead-retail-sales-fed-minutes-november-2026/",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve considers AI’s impact on economy, potential rate hikes",
-            "description": "AI's economic impact may prompt the Federal Reserve to adjust monetary policy, potentially leading to future interest rate hikes.\nThe post Federal Reserve considers AI’s impact on economy, potential rate hikes appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T17:55:42Z",
-            "url": "https://cryptobriefing.com/federal-reserve-considers-ais-impact-on-economy-potential-rate-hikes/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh: AI could lift growth, disrupt jobs",
-            "description": "Federal Reserve Chair Kevin Warsh said on Monday that advances in artificial intelligence (AI), which he called \"super intelligence (SI)\" in his speech, could lift United States economic growth \"above...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:40:03Z",
-            "url": "https://biztoc.com/x/b6f18f96e1e976b9",
-            "sentiment_score": 0.5487,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court rejects Custodia Bank’s bid for Fed master account",
-            "description": "The Supreme Court has said it would not take up a Custodia Bank's challenge to secure a Federal Reserve master account.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:25:25Z",
-            "url": "https://biztoc.com/x/d4ae76c21c7118b0",
-            "sentiment_score": 0.2948,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chair Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in Sa…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:24:50Z",
-            "url": "https://biztoc.com/x/33c6203367456415",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "",
-            "source": "CNBC",
-            "published_at": "2026-11-16T17:18:53Z",
-            "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-            "sentiment_score": -0.0451,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "OCC Flags Extra Payment Checks as AI Aids Impersonators",
-            "description": "A change in a supplier’s bank account gives the sending bank two things to verify before releasing payment. One is whether the name on the new account matches the intended payee. The other is whether the supplier actually requested the change. The Office of t…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T17:13:24Z",
-            "url": "https://www.pymnts.com/news/banking/2026/occ-flags-extra-payment-checks-as-ai-aids-impersonators/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Factories Step Up Hiring and Investment Plans as Growth Slows",
-            "description": "New York factories increased employment at the fastest pace in more than four years and strengthened investment plans in November even as growth slowed from October’s sizzling pace. The Federal Reserve Bank of New York’s Empire State Manufacturing Survey show…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-16T17:03:04Z",
-            "url": "https://www.breitbart.com/economy/2026/11/16/new-york-factories-step-up-hiring-and-investment-plans-as-growth-slows/",
-            "sentiment_score": 0.4946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-watched-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-have-significant-impact-there-are-risks-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh, Opening Remarks",
-            "description": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-16T17:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0303,
+      "net_score": -0.0159,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -549,28 +489,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.10047,
+      "price_now": 1.09963,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 48.1,
-      "rsi_signal": "โซนกลาง (RSI=48.1)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00102,
-      "suggested_sl_distance": 0.00152,
+      "rsi_value": 45.5,
+      "rsi_signal": "โซนกลาง (RSI=45.5)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00093,
+      "suggested_sl_distance": 0.0014,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=45.5) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-17T21:39:31.821777+00:00"
+    "generated_at": "2026-11-18T03:34:18.169729+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -579,10 +519,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0362,
+        "average_score": -0.0026,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 14,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Atalaya Mining Copper And 2 British Undervalued Stocks To Watch",
+            "description": "Britain's short term borrowing costs recently hit a three year high as markets brace for more interest rate hikes from the Bank of England. Higher rates punish highly leveraged businesses, but they also reward solid cash generators that can keep funding opera…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T02:07:20Z",
+            "url": "https://biztoc.com/x/a3c8dc615386ae11",
+            "sentiment_score": 0.2353,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "Why the wheels are falling off the AI investment boom",
@@ -692,44 +642,254 @@
             "url": "https://biztoc.com/x/d3074733a9052180",
             "sentiment_score": 0.0232,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK Tests Cross-Border Settlement With Singapore and Thailand",
-            "description": "The central banks of England, Singapore and Thailand say they’ve found a new way to streamline foreign exchange (FX) transactions. The Bank of England, Monetary Authority of Singapore and Bank of Thailand published the results of their efforts Friday (Nov. 13…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-15T23:36:45Z",
-            "url": "https://www.pymnts.com/news/cross-border-payments/2026/uk-tests-cross-border-settlement-with-singapore-and-thailand/",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
-            "description": "EU minister Hamish Falconer insists Britain would have some influence on policy as part of a new deal.",
-            "source": "BBC News",
-            "published_at": "2026-11-15T22:00:24Z",
-            "url": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Thailand’s Stablecoin Regulation Draft: Your Own Wallets Only, 5 Million Baht a Day",
-            "description": "A Thai SEC draft would cap stablecoin transfers at 5 million baht per customer per day at each operator and allow them only to and from the customer's own wallets.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T10:50:10Z",
-            "url": "https://www.dcforecasts.com/regulation/thailand-stablecoin-regulation-5-million-baht-daily-cap/",
-            "sentiment_score": 0.0679,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0017,
+        "average_score": 0.0439,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Nikkei 225 Sinks Below 59,000 as Japan GDP Contraction, Weak Yen Near 160 and Tech Rout Pile Pressure on Tokyo",
+            "description": "Japanese stocks fell sharply, with the Nikkei 225 dropping below 59,000, as a global technology sell-off, contracting economic growth and yen weakness weighed on investor sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:42Z",
+            "url": "https://www.ibtimes.com.au/nikkei-falls-below-59000-tech-selloff-japan-economy-1878744",
+            "sentiment_score": -0.4529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hang Seng Falls 1.1% Below 23,500 as Hong Kong Tech Stocks Slump on New U.S. Curbs on China's AI Chip Access",
+            "description": "Hong Kong shares declined as new US restrictions on advanced AI chip shipments to overseas data centres raised pressure on Chinese technology companies and broader Asian markets.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:03Z",
+            "url": "https://www.ibtimes.com.au/hong-kong-stocks-fall-us-ai-chip-curbs-1878748",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Slides Toward 5,000 as Chip Selloff Extends Into Second Day Before Nvidia's First Post-Huang Earnings",
+            "description": "South Korea's KOSPI fell 1.22% as investors sold technology shares ahead of Nvidia's results, with AI spending concerns, US chip curbs and rate expectations weighing on sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:19:24Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-ahead-nvidia-earnings-1878750",
+            "sentiment_score": 0.1784,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares fall as US tightens curbs on China's access to AI chips",
+            "description": "South Korea's KOSPI fell 2% and Japan's Nikkei declined 1.3%, as Washington tightened restrictions on advanced chip shipments to data centres in Thailand and Malaysia used by Chinese companies",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T03:13:36Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-fall-as-us-tightens-curbs-on-china-s-access-to-ai-chips-126111700065_1.html",
+            "sentiment_score": 0.2822,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed Chair Warsh's true test begins now",
+            "description": "Federal Reserve Chair Kevin Warsh is navigating significant challenges regarding interest rate policy and inflation control. As inflation remains above target levels, market expectations for aggressive rate hikes are intensifying. The Trump administration has…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T03:10:52Z",
+            "url": "https://m.economictimes.com/news/international/world-news/us-federal-reserve-chair-kevin-warshs-true-test-begins-now/articleshow/135908580.cms",
+            "sentiment_score": 0.4577,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global stocks fall as Nvidia earnings, Anthropic debut put AI rally to test",
+            "description": "Semiconductor shares led losses across major markets, with US chipmakers falling 5.3 per cent and stocks in South Korea and Taiwan declining 3.6 per cent and 6 per cent, respectively",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:27:58Z",
+            "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-nvidia-earnings-anthropic-debut-put-ai-rally-to-test-126111700032_1.html",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals muted open; Asian markets decline on tech selloff",
+            "description": "Sensex Today | Stock Market LIVE Updates Tuesday: The GIFT Nifty indicated a muted open for the Nifty50 index. Asian markets declined",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:25:17Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html",
+            "sentiment_score": 0.7456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia slides 4.1% as US tech stocks plunge; Nasdaq falls 2.5%",
+            "description": "Nvidia fell 4.1% as US tech stocks sold off, pushing the Nasdaq 2.49% lower and more than 10% below its October record closing high.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-17T02:23:36Z",
+            "url": "https://www.thehindubusinessline.com/markets/stock-markets/nvidia-slides-41-as-us-tech-stocks-plunge-nasdaq-falls-25/article71710260.ece",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "The US dollar soared to a 19-month high as traders ramped up expectations for potential Federal Reserve policy tightening. Following robust inflation statistics, the dollar index climbed to 103.66, showcasing noteworthy gains. The market's mood suffered due t…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:52:42Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+            "description": "Gold prices are under pressure, primarily due to a strengthening US dollar and rising expectations for an interest rate hike. Analysts project a notable chance of this occurring in December, influenced by current market data. The dollar's gains have diminishe…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:49:25Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
+            "sentiment_score": 0.0525,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump turned on Susie Wiles after she showed the one thing he sees as 'weakness': Haberman",
+            "description": "President Donald Trump began picking on Susie Wiles after she became sick with cancer and tried to work through treatments, New York Times reporter Maggie Haberman said Monday.“He sees it as weakness,” Haberman said of Trump’s view of illness. “And so, he sta…",
+            "source": "Raw Story",
+            "published_at": "2026-11-17T01:44:40Z",
+            "url": "https://www.rawstory.com/susie-wiles-2678423311/",
+            "sentiment_score": -0.5608,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "TOKYO, Nov 17 : The dollar on Tuesday scaled a fresh 19-month peak against a basket of peers amid bets for more aggressive policy tightening by the US Federal Reserve following hot inflation data and hawkish central bank rhetoric.The US currency extended a 10…",
+            "source": "CNA",
+            "published_at": "2026-11-17T01:41:58Z",
+            "url": "https://www.channelnewsasia.com/business/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-6557406",
+            "sentiment_score": 0.0313,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Shark Tank' Millionaire Proves Beyond Clueless During Economic Debate With Gen Z",
+            "description": "Kevin O’Leary only had vague advice and insults while talking to 20-somethings about making a living in the world today.",
+            "source": "HuffPost",
+            "published_at": "2026-11-17T01:35:39Z",
+            "url": "https://www.huffpost.com/entry/kevin-oleary-debates-gen-z-economy_n_6afb785be4b0b6f4a959f8a4",
+            "sentiment_score": -0.401,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T01:04:01Z",
+            "url": "https://biztoc.com/x/4b56f10bde9b0392",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.\n\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T00:48:26Z",
+            "url": "https://biztoc.com/x/631bc733e1d0f78d",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as Wall Street selloff deepens ahead of Nvidia earnings",
+            "description": "The MSCI Asia Pacific Index dropped 0.7% in early trading and South Korea’s Kospi lost 1.4%. Futures for the S&P 500 and Nasdaq 100 indexes were little changed after the underlying benchmarks slid 1.9% and 2.7%, respectively, on Monday, marking a third straig…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T00:47:32Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-wall-street-selloff-deepens-ahead-of-nvidia-earnings/articleshow/135906533.cms",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T00:42:33Z",
+            "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Were 1950s families achieving a modern lifestyle via type of discount? How many hours needed a person work to purchase essentials compared to today? How many goods and services were provided as forms of welfare in 1960 versus today?",
+            "description": "In the 1950s, American families were not buying today’s standard of living at a discount. They were buying a single-bathroom home under 1,000 square feet that cost just twice their annual salary. When economists and social historians point out that 1950s fami…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-11-17T00:09:55Z",
+            "url": "https://freerepublic.com/focus/f-chat/4403301/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-16T23:48:48Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "California consumer watchdog chief says AI companies that violate state rules will be taken to court",
+            "description": "NEW YORK, Nov 16 : Rohit Chopra, secretary of the California Business and Consumer Services Agency, said greater accountability is needed from technology companies rolling out AI into the broader economy, and that his agency is already eyeing the possibility …",
+            "source": "CNA",
+            "published_at": "2026-11-16T22:57:07Z",
+            "url": "https://www.channelnewsasia.com/business/california-consumer-watchdog-chief-says-ai-companies-violate-state-rules-will-be-taken-court-6556931",
+            "sentiment_score": -0.2374,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+            "description": "The Supreme Court refused to hear Custodia Bank’s appeal, meaning a lower court ruling allowing the Fed to reject account applications will stand.",
+            "source": "Cointelegraph",
+            "published_at": "2026-11-16T22:54:57Z",
+            "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+            "description": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+            "source": "CNBC",
+            "published_at": "2026-11-16T22:22:52Z",
+            "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Marc Andreessen says government regulation will save jobs from AI — at the cost of economic growth",
+            "description": "Venture capitalist Marc Andreessen, co-head of Federal Reserve Chairman Kevin Warsh's task force on jobs and productivity, predicted that artificial intelligence will have a dual effect in the job market: Job losses in government-regulated sectors will be ins…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T22:19:17Z",
+            "url": "https://biztoc.com/x/31e650e345954528",
+            "sentiment_score": 0.521,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+            "description": "NEW YORK: A broad selloff dragged US stocks lower on Monday (Nov 16) as fallout from Jensen Huang's resignation as Nvidia CEO soured enthusiasm for AI stocks",
+            "source": "CNA",
+            "published_at": "2026-11-16T21:49:27Z",
+            "url": "https://www.channelnewsasia.com/world/wall-street-ends-sharply-lower-ai-jitters-ahead-nvidia-results-anthropic-ipo-6556786",
+            "sentiment_score": -0.2606,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Gold price slides to one-year low, heads for worst year since 2015",
@@ -789,240 +949,10 @@
             "url": "https://biztoc.com/x/a37c42242e95e9ea",
             "sentiment_score": -0.2029,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Starling Founder Launches Agentic AI-Focused Bank Lockwood",
-            "description": "The founder of British neobank Starling is reportedly embarking on an artificial intelligence (AI)-focused banking venture. Anne Boden is using some of the proceeds from selling her shares in her former company to help launch her new startup Lockwood, The Tim…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T20:02:41Z",
-            "url": "https://www.pymnts.com/news/banking/2026/starling-founder-launches-agentic-ai-focused-bank-lockwood/",
-            "sentiment_score": 0.2372,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-            "description": "Palantir shares are slipping Monday as Nvidia uncertainty and Fed rate-hike concerns pressure tech stocks ahead of Anthropic's IPO.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:57:54Z",
-            "url": "https://biztoc.com/x/3dd4f9344b80b3f3",
-            "sentiment_score": -0.3548,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
-            "description": "The post Claude AI Predicts What a December Fed Hike Could Do to Bitcoin appeared first on 24/7 Wall St..\nClaude AI projects that Bitcoin (CRYPTO: BTC) could settle at around $56,500 by December 31, 2026, if the Federal Reserve raises interest rates by a quar…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:42:22Z",
-            "url": "https://biztoc.com/x/b1043e29299011da",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack favors gradual rate hikes amid inflation concerns",
-            "description": "Gradual rate hikes may stabilize the economy, but persistent inflation pressures could challenge long-term monetary policy effectiveness.\nThe post Fed’s Hammack favors gradual rate hikes amid inflation concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T19:19:46Z",
-            "url": "https://cryptobriefing.com/feds-hammack-favors-gradual-rate-hikes-amid-inflation-concerns/",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:56:15Z",
-            "url": "https://biztoc.com/x/8d6951cdd3f00350",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out",
-            "description": "The Federal Reserve staff is in the early days of developing various scenarios of how artificial intelligence’s growing role in business and daily life will impact the economy, Fed Chairman Kevin Warsh said Monday.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:03Z",
-            "url": "https://biztoc.com/x/faec1c8ed2facbc5",
-            "sentiment_score": -0.0712,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
-            "description": "Kevin M. Warsh, chairman of the Federal Reserve, has assigned a task force to explore how productivity gains tied to new technologies could impact the labor market.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:00Z",
-            "url": "https://biztoc.com/x/10fc7999ca129509",
-            "sentiment_score": -0.136,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-            "description": "Federal Reserve Chair Kevin Warsh says staff are studying three possible economic futures for AI, ranging from widespread productivity gains to higher unemployment and a painful correction in technology stocks.",
-            "source": "Decrypt",
-            "published_at": "2026-11-16T18:36:44Z",
-            "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Founder Denies Selling as Bitcoin Breaks Below $63K",
-            "description": "Binance founder Changpeng (CZ) Zhao pondered the reasons behind the sharp market decline that pushed Bitcoin's price below $63k.",
-            "source": "ZyCrypto",
-            "published_at": "2026-11-16T18:30:13Z",
-            "url": "https://zycrypto.com/binance-founder-denies-selling-as-bitcoin-breaks-below-63k/",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T18:21:54Z",
-            "url": "https://www.pymnts.com/legal/2026/supreme-court-leaves-custodia-bank-locked-out-of-federal-reserve-payment-system/",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chairman Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:14:03Z",
-            "url": "https://biztoc.com/x/074d5ab05c53656e",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh lays out best-case scenario from AI, while also warning about ‘costly’ risks",
-            "description": "Warsh refers to artificial intelligence as \"super intelligence,\" the language preferred by President Trump.",
-            "source": "New York Post",
-            "published_at": "2026-11-16T18:07:15Z",
-            "url": "https://nypost.com/2026/11/16/business/fed-chair-kevin-warsh-lays-out-best-case-scenario-from-ai-while-also-warning-about-costly-risks/",
-            "sentiment_score": -0.1162,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
-            "description": "US retail sales and Federal Reserve minutes offer Bitcoin traders two dated macro checkpoints as inflation keeps the rate debate active.",
-            "source": "newsBTC",
-            "published_at": "2026-11-16T18:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-week-ahead-retail-sales-fed-minutes-november-2026/",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve considers AI’s impact on economy, potential rate hikes",
-            "description": "AI's economic impact may prompt the Federal Reserve to adjust monetary policy, potentially leading to future interest rate hikes.\nThe post Federal Reserve considers AI’s impact on economy, potential rate hikes appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T17:55:42Z",
-            "url": "https://cryptobriefing.com/federal-reserve-considers-ais-impact-on-economy-potential-rate-hikes/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh: AI could lift growth, disrupt jobs",
-            "description": "Federal Reserve Chair Kevin Warsh said on Monday that advances in artificial intelligence (AI), which he called \"super intelligence (SI)\" in his speech, could lift United States economic growth \"above...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:40:03Z",
-            "url": "https://biztoc.com/x/b6f18f96e1e976b9",
-            "sentiment_score": 0.5487,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court rejects Custodia Bank’s bid for Fed master account",
-            "description": "The Supreme Court has said it would not take up a Custodia Bank's challenge to secure a Federal Reserve master account.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:25:25Z",
-            "url": "https://biztoc.com/x/d4ae76c21c7118b0",
-            "sentiment_score": 0.2948,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chair Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in Sa…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:24:50Z",
-            "url": "https://biztoc.com/x/33c6203367456415",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "",
-            "source": "CNBC",
-            "published_at": "2026-11-16T17:18:53Z",
-            "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-            "sentiment_score": -0.0451,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "OCC Flags Extra Payment Checks as AI Aids Impersonators",
-            "description": "A change in a supplier’s bank account gives the sending bank two things to verify before releasing payment. One is whether the name on the new account matches the intended payee. The other is whether the supplier actually requested the change. The Office of t…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T17:13:24Z",
-            "url": "https://www.pymnts.com/news/banking/2026/occ-flags-extra-payment-checks-as-ai-aids-impersonators/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Factories Step Up Hiring and Investment Plans as Growth Slows",
-            "description": "New York factories increased employment at the fastest pace in more than four years and strengthened investment plans in November even as growth slowed from October’s sizzling pace. The Federal Reserve Bank of New York’s Empire State Manufacturing Survey show…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-16T17:03:04Z",
-            "url": "https://www.breitbart.com/economy/2026/11/16/new-york-factories-step-up-hiring-and-investment-plans-as-growth-slows/",
-            "sentiment_score": 0.4946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-watched-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-have-significant-impact-there-are-risks-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh, Opening Remarks",
-            "description": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-16T17:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": -0.0345,
+      "net_score": -0.0465,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1032,28 +962,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.32079,
+      "price_now": 1.32017,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 53.6,
-      "rsi_signal": "โซนกลาง (RSI=53.6)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.0011,
-      "suggested_sl_distance": 0.00165,
+      "rsi_value": 49.4,
+      "rsi_signal": "โซนกลาง (RSI=49.4)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00098,
+      "suggested_sl_distance": 0.00147,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=53.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-17T21:39:31.821777+00:00"
+    "generated_at": "2026-11-18T03:34:18.169729+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1062,10 +992,250 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0017,
+        "average_score": 0.0439,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Nikkei 225 Sinks Below 59,000 as Japan GDP Contraction, Weak Yen Near 160 and Tech Rout Pile Pressure on Tokyo",
+            "description": "Japanese stocks fell sharply, with the Nikkei 225 dropping below 59,000, as a global technology sell-off, contracting economic growth and yen weakness weighed on investor sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:42Z",
+            "url": "https://www.ibtimes.com.au/nikkei-falls-below-59000-tech-selloff-japan-economy-1878744",
+            "sentiment_score": -0.4529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hang Seng Falls 1.1% Below 23,500 as Hong Kong Tech Stocks Slump on New U.S. Curbs on China's AI Chip Access",
+            "description": "Hong Kong shares declined as new US restrictions on advanced AI chip shipments to overseas data centres raised pressure on Chinese technology companies and broader Asian markets.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:03Z",
+            "url": "https://www.ibtimes.com.au/hong-kong-stocks-fall-us-ai-chip-curbs-1878748",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Slides Toward 5,000 as Chip Selloff Extends Into Second Day Before Nvidia's First Post-Huang Earnings",
+            "description": "South Korea's KOSPI fell 1.22% as investors sold technology shares ahead of Nvidia's results, with AI spending concerns, US chip curbs and rate expectations weighing on sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:19:24Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-ahead-nvidia-earnings-1878750",
+            "sentiment_score": 0.1784,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares fall as US tightens curbs on China's access to AI chips",
+            "description": "South Korea's KOSPI fell 2% and Japan's Nikkei declined 1.3%, as Washington tightened restrictions on advanced chip shipments to data centres in Thailand and Malaysia used by Chinese companies",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T03:13:36Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-fall-as-us-tightens-curbs-on-china-s-access-to-ai-chips-126111700065_1.html",
+            "sentiment_score": 0.2822,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed Chair Warsh's true test begins now",
+            "description": "Federal Reserve Chair Kevin Warsh is navigating significant challenges regarding interest rate policy and inflation control. As inflation remains above target levels, market expectations for aggressive rate hikes are intensifying. The Trump administration has…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T03:10:52Z",
+            "url": "https://m.economictimes.com/news/international/world-news/us-federal-reserve-chair-kevin-warshs-true-test-begins-now/articleshow/135908580.cms",
+            "sentiment_score": 0.4577,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global stocks fall as Nvidia earnings, Anthropic debut put AI rally to test",
+            "description": "Semiconductor shares led losses across major markets, with US chipmakers falling 5.3 per cent and stocks in South Korea and Taiwan declining 3.6 per cent and 6 per cent, respectively",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:27:58Z",
+            "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-nvidia-earnings-anthropic-debut-put-ai-rally-to-test-126111700032_1.html",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals muted open; Asian markets decline on tech selloff",
+            "description": "Sensex Today | Stock Market LIVE Updates Tuesday: The GIFT Nifty indicated a muted open for the Nifty50 index. Asian markets declined",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:25:17Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html",
+            "sentiment_score": 0.7456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia slides 4.1% as US tech stocks plunge; Nasdaq falls 2.5%",
+            "description": "Nvidia fell 4.1% as US tech stocks sold off, pushing the Nasdaq 2.49% lower and more than 10% below its October record closing high.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-17T02:23:36Z",
+            "url": "https://www.thehindubusinessline.com/markets/stock-markets/nvidia-slides-41-as-us-tech-stocks-plunge-nasdaq-falls-25/article71710260.ece",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "The US dollar soared to a 19-month high as traders ramped up expectations for potential Federal Reserve policy tightening. Following robust inflation statistics, the dollar index climbed to 103.66, showcasing noteworthy gains. The market's mood suffered due t…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:52:42Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+            "description": "Gold prices are under pressure, primarily due to a strengthening US dollar and rising expectations for an interest rate hike. Analysts project a notable chance of this occurring in December, influenced by current market data. The dollar's gains have diminishe…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:49:25Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
+            "sentiment_score": 0.0525,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump turned on Susie Wiles after she showed the one thing he sees as 'weakness': Haberman",
+            "description": "President Donald Trump began picking on Susie Wiles after she became sick with cancer and tried to work through treatments, New York Times reporter Maggie Haberman said Monday.“He sees it as weakness,” Haberman said of Trump’s view of illness. “And so, he sta…",
+            "source": "Raw Story",
+            "published_at": "2026-11-17T01:44:40Z",
+            "url": "https://www.rawstory.com/susie-wiles-2678423311/",
+            "sentiment_score": -0.5608,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "TOKYO, Nov 17 : The dollar on Tuesday scaled a fresh 19-month peak against a basket of peers amid bets for more aggressive policy tightening by the US Federal Reserve following hot inflation data and hawkish central bank rhetoric.The US currency extended a 10…",
+            "source": "CNA",
+            "published_at": "2026-11-17T01:41:58Z",
+            "url": "https://www.channelnewsasia.com/business/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-6557406",
+            "sentiment_score": 0.0313,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Shark Tank' Millionaire Proves Beyond Clueless During Economic Debate With Gen Z",
+            "description": "Kevin O’Leary only had vague advice and insults while talking to 20-somethings about making a living in the world today.",
+            "source": "HuffPost",
+            "published_at": "2026-11-17T01:35:39Z",
+            "url": "https://www.huffpost.com/entry/kevin-oleary-debates-gen-z-economy_n_6afb785be4b0b6f4a959f8a4",
+            "sentiment_score": -0.401,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T01:04:01Z",
+            "url": "https://biztoc.com/x/4b56f10bde9b0392",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.\n\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T00:48:26Z",
+            "url": "https://biztoc.com/x/631bc733e1d0f78d",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as Wall Street selloff deepens ahead of Nvidia earnings",
+            "description": "The MSCI Asia Pacific Index dropped 0.7% in early trading and South Korea’s Kospi lost 1.4%. Futures for the S&P 500 and Nasdaq 100 indexes were little changed after the underlying benchmarks slid 1.9% and 2.7%, respectively, on Monday, marking a third straig…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T00:47:32Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-wall-street-selloff-deepens-ahead-of-nvidia-earnings/articleshow/135906533.cms",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T00:42:33Z",
+            "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Were 1950s families achieving a modern lifestyle via type of discount? How many hours needed a person work to purchase essentials compared to today? How many goods and services were provided as forms of welfare in 1960 versus today?",
+            "description": "In the 1950s, American families were not buying today’s standard of living at a discount. They were buying a single-bathroom home under 1,000 square feet that cost just twice their annual salary. When economists and social historians point out that 1950s fami…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-11-17T00:09:55Z",
+            "url": "https://freerepublic.com/focus/f-chat/4403301/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-16T23:48:48Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "California consumer watchdog chief says AI companies that violate state rules will be taken to court",
+            "description": "NEW YORK, Nov 16 : Rohit Chopra, secretary of the California Business and Consumer Services Agency, said greater accountability is needed from technology companies rolling out AI into the broader economy, and that his agency is already eyeing the possibility …",
+            "source": "CNA",
+            "published_at": "2026-11-16T22:57:07Z",
+            "url": "https://www.channelnewsasia.com/business/california-consumer-watchdog-chief-says-ai-companies-violate-state-rules-will-be-taken-court-6556931",
+            "sentiment_score": -0.2374,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+            "description": "The Supreme Court refused to hear Custodia Bank’s appeal, meaning a lower court ruling allowing the Fed to reject account applications will stand.",
+            "source": "Cointelegraph",
+            "published_at": "2026-11-16T22:54:57Z",
+            "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+            "description": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+            "source": "CNBC",
+            "published_at": "2026-11-16T22:22:52Z",
+            "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Marc Andreessen says government regulation will save jobs from AI — at the cost of economic growth",
+            "description": "Venture capitalist Marc Andreessen, co-head of Federal Reserve Chairman Kevin Warsh's task force on jobs and productivity, predicted that artificial intelligence will have a dual effect in the job market: Job losses in government-regulated sectors will be ins…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T22:19:17Z",
+            "url": "https://biztoc.com/x/31e650e345954528",
+            "sentiment_score": 0.521,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+            "description": "NEW YORK: A broad selloff dragged US stocks lower on Monday (Nov 16) as fallout from Jensen Huang's resignation as Nvidia CEO soured enthusiasm for AI stocks",
+            "source": "CNA",
+            "published_at": "2026-11-16T21:49:27Z",
+            "url": "https://www.channelnewsasia.com/world/wall-street-ends-sharply-lower-ai-jitters-ahead-nvidia-results-anthropic-ipo-6556786",
+            "sentiment_score": -0.2606,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Gold price slides to one-year low, heads for worst year since 2015",
@@ -1125,244 +1295,44 @@
             "url": "https://biztoc.com/x/a37c42242e95e9ea",
             "sentiment_score": -0.2029,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Starling Founder Launches Agentic AI-Focused Bank Lockwood",
-            "description": "The founder of British neobank Starling is reportedly embarking on an artificial intelligence (AI)-focused banking venture. Anne Boden is using some of the proceeds from selling her shares in her former company to help launch her new startup Lockwood, The Tim…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T20:02:41Z",
-            "url": "https://www.pymnts.com/news/banking/2026/starling-founder-launches-agentic-ai-focused-bank-lockwood/",
-            "sentiment_score": 0.2372,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-            "description": "Palantir shares are slipping Monday as Nvidia uncertainty and Fed rate-hike concerns pressure tech stocks ahead of Anthropic's IPO.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:57:54Z",
-            "url": "https://biztoc.com/x/3dd4f9344b80b3f3",
-            "sentiment_score": -0.3548,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
-            "description": "The post Claude AI Predicts What a December Fed Hike Could Do to Bitcoin appeared first on 24/7 Wall St..\nClaude AI projects that Bitcoin (CRYPTO: BTC) could settle at around $56,500 by December 31, 2026, if the Federal Reserve raises interest rates by a quar…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:42:22Z",
-            "url": "https://biztoc.com/x/b1043e29299011da",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack favors gradual rate hikes amid inflation concerns",
-            "description": "Gradual rate hikes may stabilize the economy, but persistent inflation pressures could challenge long-term monetary policy effectiveness.\nThe post Fed’s Hammack favors gradual rate hikes amid inflation concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T19:19:46Z",
-            "url": "https://cryptobriefing.com/feds-hammack-favors-gradual-rate-hikes-amid-inflation-concerns/",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:56:15Z",
-            "url": "https://biztoc.com/x/8d6951cdd3f00350",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out",
-            "description": "The Federal Reserve staff is in the early days of developing various scenarios of how artificial intelligence’s growing role in business and daily life will impact the economy, Fed Chairman Kevin Warsh said Monday.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:03Z",
-            "url": "https://biztoc.com/x/faec1c8ed2facbc5",
-            "sentiment_score": -0.0712,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
-            "description": "Kevin M. Warsh, chairman of the Federal Reserve, has assigned a task force to explore how productivity gains tied to new technologies could impact the labor market.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:00Z",
-            "url": "https://biztoc.com/x/10fc7999ca129509",
-            "sentiment_score": -0.136,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-            "description": "Federal Reserve Chair Kevin Warsh says staff are studying three possible economic futures for AI, ranging from widespread productivity gains to higher unemployment and a painful correction in technology stocks.",
-            "source": "Decrypt",
-            "published_at": "2026-11-16T18:36:44Z",
-            "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Founder Denies Selling as Bitcoin Breaks Below $63K",
-            "description": "Binance founder Changpeng (CZ) Zhao pondered the reasons behind the sharp market decline that pushed Bitcoin's price below $63k.",
-            "source": "ZyCrypto",
-            "published_at": "2026-11-16T18:30:13Z",
-            "url": "https://zycrypto.com/binance-founder-denies-selling-as-bitcoin-breaks-below-63k/",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T18:21:54Z",
-            "url": "https://www.pymnts.com/legal/2026/supreme-court-leaves-custodia-bank-locked-out-of-federal-reserve-payment-system/",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chairman Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:14:03Z",
-            "url": "https://biztoc.com/x/074d5ab05c53656e",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh lays out best-case scenario from AI, while also warning about ‘costly’ risks",
-            "description": "Warsh refers to artificial intelligence as \"super intelligence,\" the language preferred by President Trump.",
-            "source": "New York Post",
-            "published_at": "2026-11-16T18:07:15Z",
-            "url": "https://nypost.com/2026/11/16/business/fed-chair-kevin-warsh-lays-out-best-case-scenario-from-ai-while-also-warning-about-costly-risks/",
-            "sentiment_score": -0.1162,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
-            "description": "US retail sales and Federal Reserve minutes offer Bitcoin traders two dated macro checkpoints as inflation keeps the rate debate active.",
-            "source": "newsBTC",
-            "published_at": "2026-11-16T18:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-week-ahead-retail-sales-fed-minutes-november-2026/",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve considers AI’s impact on economy, potential rate hikes",
-            "description": "AI's economic impact may prompt the Federal Reserve to adjust monetary policy, potentially leading to future interest rate hikes.\nThe post Federal Reserve considers AI’s impact on economy, potential rate hikes appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T17:55:42Z",
-            "url": "https://cryptobriefing.com/federal-reserve-considers-ais-impact-on-economy-potential-rate-hikes/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh: AI could lift growth, disrupt jobs",
-            "description": "Federal Reserve Chair Kevin Warsh said on Monday that advances in artificial intelligence (AI), which he called \"super intelligence (SI)\" in his speech, could lift United States economic growth \"above...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:40:03Z",
-            "url": "https://biztoc.com/x/b6f18f96e1e976b9",
-            "sentiment_score": 0.5487,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court rejects Custodia Bank’s bid for Fed master account",
-            "description": "The Supreme Court has said it would not take up a Custodia Bank's challenge to secure a Federal Reserve master account.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:25:25Z",
-            "url": "https://biztoc.com/x/d4ae76c21c7118b0",
-            "sentiment_score": 0.2948,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chair Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in Sa…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:24:50Z",
-            "url": "https://biztoc.com/x/33c6203367456415",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "",
-            "source": "CNBC",
-            "published_at": "2026-11-16T17:18:53Z",
-            "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-            "sentiment_score": -0.0451,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "OCC Flags Extra Payment Checks as AI Aids Impersonators",
-            "description": "A change in a supplier’s bank account gives the sending bank two things to verify before releasing payment. One is whether the name on the new account matches the intended payee. The other is whether the supplier actually requested the change. The Office of t…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T17:13:24Z",
-            "url": "https://www.pymnts.com/news/banking/2026/occ-flags-extra-payment-checks-as-ai-aids-impersonators/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Factories Step Up Hiring and Investment Plans as Growth Slows",
-            "description": "New York factories increased employment at the fastest pace in more than four years and strengthened investment plans in November even as growth slowed from October’s sizzling pace. The Federal Reserve Bank of New York’s Empire State Manufacturing Survey show…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-16T17:03:04Z",
-            "url": "https://www.breitbart.com/economy/2026/11/16/new-york-factories-step-up-hiring-and-investment-plans-as-growth-slows/",
-            "sentiment_score": 0.4946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-watched-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-have-significant-impact-there-are-risks-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh, Opening Remarks",
-            "description": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-16T17:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0495,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 14,
+        "average_score": -0.1014,
+        "label": "ลบเล็กน้อย",
+        "article_count": 15,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Nikkei 225 Sinks Below 59,000 as Japan GDP Contraction, Weak Yen Near 160 and Tech Rout Pile Pressure on Tokyo",
+            "description": "Japanese stocks fell sharply, with the Nikkei 225 dropping below 59,000, as a global technology sell-off, contracting economic growth and yen weakness weighed on investor sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:42Z",
+            "url": "https://www.ibtimes.com.au/nikkei-falls-below-59000-tech-selloff-japan-economy-1878744",
+            "sentiment_score": -0.4529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+            "description": "Gold prices are under pressure, primarily due to a strengthening US dollar and rising expectations for an interest rate hike. Analysts project a notable chance of this occurring in December, influenced by current market data. The dollar's gains have diminishe…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:49:25Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
+            "sentiment_score": 0.0525,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan to postpone launch of new floating-rate government bonds, sources say",
+            "description": "(Corrects to remove alert from story text)By Takaya YamaguchiTOKYO, Nov 17 : Japan's Ministry of Finance will postpone the launch of a new type of floating-rate government bond as it reassess whether sufficient investor demand exists, two sources familiar wit…",
+            "source": "CNA",
+            "published_at": "2026-11-17T01:33:25Z",
+            "url": "https://www.channelnewsasia.com/business/japan-postpone-launch-new-floating-rate-government-bonds-sources-say-6557391",
+            "sentiment_score": -0.1739,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Japan’s Defense Lessons From Ukraine and the Middle East",
@@ -1482,30 +1452,10 @@
             "url": "https://www.channelnewsasia.com/business/japan-economy-shrinks-inflation-households-living-costs-6553696",
             "sentiment_score": -0.0679,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Microsoft lifts Indian cloud prices by 15 percent, cuts costs in China",
-            "description": "PLUS: SEGA Japan suffers outage and data leak; India bans dead battery exports; Alibaba chip unit to float; and more",
-            "source": "Theregister.com",
-            "published_at": "2026-11-15T23:46:01Z",
-            "url": "https://www.theregister.com/off-prem/2026/11/15/microsoft-lifts-indian-cloud-prices-by-15-percent-cuts-costs-in-china/5309993",
-            "sentiment_score": -0.4679,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's Economy Faces Major Tests as GDP, Trade and Inflation Data Loom",
-            "description": "Japan faces a decisive week for its economic outlook from November 16 to November 20, 2026, with new figures on economic growth, inflation, exports, tourism and business investment expected to reveal whether domestic demand is holding up against rising living…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-11-15T11:56:58Z",
-            "url": "https://newsonjapan.com/article/151378.php",
-            "sentiment_score": -0.0208,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0478,
+      "net_score": 0.1453,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1515,14 +1465,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 159.36099,
+      "price_now": 159.40601,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 51.1,
-      "rsi_signal": "โซนกลาง (RSI=51.1)",
+      "rsi_value": 51.7,
+      "rsi_signal": "โซนกลาง (RSI=51.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.16463,
-      "suggested_sl_distance": 0.24694,
+      "atr_value": 0.16513,
+      "suggested_sl_distance": 0.2477,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1536,7 +1486,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-17T21:39:31.821777+00:00"
+    "generated_at": "2026-11-18T03:34:18.169729+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1545,10 +1495,20 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0746,
-        "label": "บวกเล็กน้อย",
-        "article_count": 5,
+        "average_score": -0.1513,
+        "label": "ลบเล็กน้อย",
+        "article_count": 4,
         "scored_articles": [
+          {
+            "currency": "AUD",
+            "title": "I'm an economist - here's why Australia's interest rate pain could get worse as the RBA faces a 'nightmare' scenario",
+            "description": "The more Australians think we're losing the fight against inflation, the more the RBA may have to consider another rate hike in the months ahead.",
+            "source": "Dailymail.com",
+            "published_at": "2026-11-16T23:46:32Z",
+            "url": "https://www.dailymail.com/news/article-16297897/australia-reserve-bank-rate-rise-mortgage-economy.html",
+            "sentiment_score": -0.5598,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "AUD",
             "title": "If Australians don’t trust the RBA on inflation, the interest rate pain may have to get worse",
@@ -1578,34 +1538,254 @@
             "url": "https://www.ibtimes.com.au/asx-200-falls-mining-stocks-ai-jitters-1878631",
             "sentiment_score": 0.094,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Data centres become dirty word as rollout faces rising opposition",
-            "description": "Data centres have become politically toxic in the US. More Australian neighbourhoods, concerned about amenity, appear to feel the same way.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-11-15T19:50:35Z",
-            "url": "https://www.abc.net.au/news/2026-11-16/when-community-concerns-collide-in-data-centre-fight/107344810",
-            "sentiment_score": -0.3083,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "AI is set to change the graduate job market. Here’s how unis can respond",
-            "description": "Tech companies are pursuing artificial intelligence systems capable of matching or exceeding human performance across a broad range of intellectual tasks.",
-            "source": "The Conversation Africa",
-            "published_at": "2026-11-15T17:25:31Z",
-            "url": "https://theconversation.com/ai-is-set-to-change-the-graduate-job-market-heres-how-unis-can-respond-295450",
-            "sentiment_score": 0.2521,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0017,
+        "average_score": 0.0439,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Nikkei 225 Sinks Below 59,000 as Japan GDP Contraction, Weak Yen Near 160 and Tech Rout Pile Pressure on Tokyo",
+            "description": "Japanese stocks fell sharply, with the Nikkei 225 dropping below 59,000, as a global technology sell-off, contracting economic growth and yen weakness weighed on investor sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:42Z",
+            "url": "https://www.ibtimes.com.au/nikkei-falls-below-59000-tech-selloff-japan-economy-1878744",
+            "sentiment_score": -0.4529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hang Seng Falls 1.1% Below 23,500 as Hong Kong Tech Stocks Slump on New U.S. Curbs on China's AI Chip Access",
+            "description": "Hong Kong shares declined as new US restrictions on advanced AI chip shipments to overseas data centres raised pressure on Chinese technology companies and broader Asian markets.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:03Z",
+            "url": "https://www.ibtimes.com.au/hong-kong-stocks-fall-us-ai-chip-curbs-1878748",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Slides Toward 5,000 as Chip Selloff Extends Into Second Day Before Nvidia's First Post-Huang Earnings",
+            "description": "South Korea's KOSPI fell 1.22% as investors sold technology shares ahead of Nvidia's results, with AI spending concerns, US chip curbs and rate expectations weighing on sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:19:24Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-ahead-nvidia-earnings-1878750",
+            "sentiment_score": 0.1784,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares fall as US tightens curbs on China's access to AI chips",
+            "description": "South Korea's KOSPI fell 2% and Japan's Nikkei declined 1.3%, as Washington tightened restrictions on advanced chip shipments to data centres in Thailand and Malaysia used by Chinese companies",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T03:13:36Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-fall-as-us-tightens-curbs-on-china-s-access-to-ai-chips-126111700065_1.html",
+            "sentiment_score": 0.2822,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed Chair Warsh's true test begins now",
+            "description": "Federal Reserve Chair Kevin Warsh is navigating significant challenges regarding interest rate policy and inflation control. As inflation remains above target levels, market expectations for aggressive rate hikes are intensifying. The Trump administration has…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T03:10:52Z",
+            "url": "https://m.economictimes.com/news/international/world-news/us-federal-reserve-chair-kevin-warshs-true-test-begins-now/articleshow/135908580.cms",
+            "sentiment_score": 0.4577,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global stocks fall as Nvidia earnings, Anthropic debut put AI rally to test",
+            "description": "Semiconductor shares led losses across major markets, with US chipmakers falling 5.3 per cent and stocks in South Korea and Taiwan declining 3.6 per cent and 6 per cent, respectively",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:27:58Z",
+            "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-nvidia-earnings-anthropic-debut-put-ai-rally-to-test-126111700032_1.html",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals muted open; Asian markets decline on tech selloff",
+            "description": "Sensex Today | Stock Market LIVE Updates Tuesday: The GIFT Nifty indicated a muted open for the Nifty50 index. Asian markets declined",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:25:17Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html",
+            "sentiment_score": 0.7456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia slides 4.1% as US tech stocks plunge; Nasdaq falls 2.5%",
+            "description": "Nvidia fell 4.1% as US tech stocks sold off, pushing the Nasdaq 2.49% lower and more than 10% below its October record closing high.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-17T02:23:36Z",
+            "url": "https://www.thehindubusinessline.com/markets/stock-markets/nvidia-slides-41-as-us-tech-stocks-plunge-nasdaq-falls-25/article71710260.ece",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "The US dollar soared to a 19-month high as traders ramped up expectations for potential Federal Reserve policy tightening. Following robust inflation statistics, the dollar index climbed to 103.66, showcasing noteworthy gains. The market's mood suffered due t…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:52:42Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+            "description": "Gold prices are under pressure, primarily due to a strengthening US dollar and rising expectations for an interest rate hike. Analysts project a notable chance of this occurring in December, influenced by current market data. The dollar's gains have diminishe…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:49:25Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
+            "sentiment_score": 0.0525,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump turned on Susie Wiles after she showed the one thing he sees as 'weakness': Haberman",
+            "description": "President Donald Trump began picking on Susie Wiles after she became sick with cancer and tried to work through treatments, New York Times reporter Maggie Haberman said Monday.“He sees it as weakness,” Haberman said of Trump’s view of illness. “And so, he sta…",
+            "source": "Raw Story",
+            "published_at": "2026-11-17T01:44:40Z",
+            "url": "https://www.rawstory.com/susie-wiles-2678423311/",
+            "sentiment_score": -0.5608,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "TOKYO, Nov 17 : The dollar on Tuesday scaled a fresh 19-month peak against a basket of peers amid bets for more aggressive policy tightening by the US Federal Reserve following hot inflation data and hawkish central bank rhetoric.The US currency extended a 10…",
+            "source": "CNA",
+            "published_at": "2026-11-17T01:41:58Z",
+            "url": "https://www.channelnewsasia.com/business/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-6557406",
+            "sentiment_score": 0.0313,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Shark Tank' Millionaire Proves Beyond Clueless During Economic Debate With Gen Z",
+            "description": "Kevin O’Leary only had vague advice and insults while talking to 20-somethings about making a living in the world today.",
+            "source": "HuffPost",
+            "published_at": "2026-11-17T01:35:39Z",
+            "url": "https://www.huffpost.com/entry/kevin-oleary-debates-gen-z-economy_n_6afb785be4b0b6f4a959f8a4",
+            "sentiment_score": -0.401,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T01:04:01Z",
+            "url": "https://biztoc.com/x/4b56f10bde9b0392",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.\n\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T00:48:26Z",
+            "url": "https://biztoc.com/x/631bc733e1d0f78d",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as Wall Street selloff deepens ahead of Nvidia earnings",
+            "description": "The MSCI Asia Pacific Index dropped 0.7% in early trading and South Korea’s Kospi lost 1.4%. Futures for the S&P 500 and Nasdaq 100 indexes were little changed after the underlying benchmarks slid 1.9% and 2.7%, respectively, on Monday, marking a third straig…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T00:47:32Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-wall-street-selloff-deepens-ahead-of-nvidia-earnings/articleshow/135906533.cms",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T00:42:33Z",
+            "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Were 1950s families achieving a modern lifestyle via type of discount? How many hours needed a person work to purchase essentials compared to today? How many goods and services were provided as forms of welfare in 1960 versus today?",
+            "description": "In the 1950s, American families were not buying today’s standard of living at a discount. They were buying a single-bathroom home under 1,000 square feet that cost just twice their annual salary. When economists and social historians point out that 1950s fami…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-11-17T00:09:55Z",
+            "url": "https://freerepublic.com/focus/f-chat/4403301/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-16T23:48:48Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "California consumer watchdog chief says AI companies that violate state rules will be taken to court",
+            "description": "NEW YORK, Nov 16 : Rohit Chopra, secretary of the California Business and Consumer Services Agency, said greater accountability is needed from technology companies rolling out AI into the broader economy, and that his agency is already eyeing the possibility …",
+            "source": "CNA",
+            "published_at": "2026-11-16T22:57:07Z",
+            "url": "https://www.channelnewsasia.com/business/california-consumer-watchdog-chief-says-ai-companies-violate-state-rules-will-be-taken-court-6556931",
+            "sentiment_score": -0.2374,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+            "description": "The Supreme Court refused to hear Custodia Bank’s appeal, meaning a lower court ruling allowing the Fed to reject account applications will stand.",
+            "source": "Cointelegraph",
+            "published_at": "2026-11-16T22:54:57Z",
+            "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+            "description": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+            "source": "CNBC",
+            "published_at": "2026-11-16T22:22:52Z",
+            "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Marc Andreessen says government regulation will save jobs from AI — at the cost of economic growth",
+            "description": "Venture capitalist Marc Andreessen, co-head of Federal Reserve Chairman Kevin Warsh's task force on jobs and productivity, predicted that artificial intelligence will have a dual effect in the job market: Job losses in government-regulated sectors will be ins…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T22:19:17Z",
+            "url": "https://biztoc.com/x/31e650e345954528",
+            "sentiment_score": 0.521,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+            "description": "NEW YORK: A broad selloff dragged US stocks lower on Monday (Nov 16) as fallout from Jensen Huang's resignation as Nvidia CEO soured enthusiasm for AI stocks",
+            "source": "CNA",
+            "published_at": "2026-11-16T21:49:27Z",
+            "url": "https://www.channelnewsasia.com/world/wall-street-ends-sharply-lower-ai-jitters-ahead-nvidia-results-anthropic-ipo-6556786",
+            "sentiment_score": -0.2606,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Gold price slides to one-year low, heads for worst year since 2015",
@@ -1665,271 +1845,41 @@
             "url": "https://biztoc.com/x/a37c42242e95e9ea",
             "sentiment_score": -0.2029,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Starling Founder Launches Agentic AI-Focused Bank Lockwood",
-            "description": "The founder of British neobank Starling is reportedly embarking on an artificial intelligence (AI)-focused banking venture. Anne Boden is using some of the proceeds from selling her shares in her former company to help launch her new startup Lockwood, The Tim…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T20:02:41Z",
-            "url": "https://www.pymnts.com/news/banking/2026/starling-founder-launches-agentic-ai-focused-bank-lockwood/",
-            "sentiment_score": 0.2372,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-            "description": "Palantir shares are slipping Monday as Nvidia uncertainty and Fed rate-hike concerns pressure tech stocks ahead of Anthropic's IPO.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:57:54Z",
-            "url": "https://biztoc.com/x/3dd4f9344b80b3f3",
-            "sentiment_score": -0.3548,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
-            "description": "The post Claude AI Predicts What a December Fed Hike Could Do to Bitcoin appeared first on 24/7 Wall St..\nClaude AI projects that Bitcoin (CRYPTO: BTC) could settle at around $56,500 by December 31, 2026, if the Federal Reserve raises interest rates by a quar…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:42:22Z",
-            "url": "https://biztoc.com/x/b1043e29299011da",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack favors gradual rate hikes amid inflation concerns",
-            "description": "Gradual rate hikes may stabilize the economy, but persistent inflation pressures could challenge long-term monetary policy effectiveness.\nThe post Fed’s Hammack favors gradual rate hikes amid inflation concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T19:19:46Z",
-            "url": "https://cryptobriefing.com/feds-hammack-favors-gradual-rate-hikes-amid-inflation-concerns/",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:56:15Z",
-            "url": "https://biztoc.com/x/8d6951cdd3f00350",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out",
-            "description": "The Federal Reserve staff is in the early days of developing various scenarios of how artificial intelligence’s growing role in business and daily life will impact the economy, Fed Chairman Kevin Warsh said Monday.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:03Z",
-            "url": "https://biztoc.com/x/faec1c8ed2facbc5",
-            "sentiment_score": -0.0712,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
-            "description": "Kevin M. Warsh, chairman of the Federal Reserve, has assigned a task force to explore how productivity gains tied to new technologies could impact the labor market.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:00Z",
-            "url": "https://biztoc.com/x/10fc7999ca129509",
-            "sentiment_score": -0.136,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-            "description": "Federal Reserve Chair Kevin Warsh says staff are studying three possible economic futures for AI, ranging from widespread productivity gains to higher unemployment and a painful correction in technology stocks.",
-            "source": "Decrypt",
-            "published_at": "2026-11-16T18:36:44Z",
-            "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Founder Denies Selling as Bitcoin Breaks Below $63K",
-            "description": "Binance founder Changpeng (CZ) Zhao pondered the reasons behind the sharp market decline that pushed Bitcoin's price below $63k.",
-            "source": "ZyCrypto",
-            "published_at": "2026-11-16T18:30:13Z",
-            "url": "https://zycrypto.com/binance-founder-denies-selling-as-bitcoin-breaks-below-63k/",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T18:21:54Z",
-            "url": "https://www.pymnts.com/legal/2026/supreme-court-leaves-custodia-bank-locked-out-of-federal-reserve-payment-system/",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chairman Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:14:03Z",
-            "url": "https://biztoc.com/x/074d5ab05c53656e",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh lays out best-case scenario from AI, while also warning about ‘costly’ risks",
-            "description": "Warsh refers to artificial intelligence as \"super intelligence,\" the language preferred by President Trump.",
-            "source": "New York Post",
-            "published_at": "2026-11-16T18:07:15Z",
-            "url": "https://nypost.com/2026/11/16/business/fed-chair-kevin-warsh-lays-out-best-case-scenario-from-ai-while-also-warning-about-costly-risks/",
-            "sentiment_score": -0.1162,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
-            "description": "US retail sales and Federal Reserve minutes offer Bitcoin traders two dated macro checkpoints as inflation keeps the rate debate active.",
-            "source": "newsBTC",
-            "published_at": "2026-11-16T18:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-week-ahead-retail-sales-fed-minutes-november-2026/",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve considers AI’s impact on economy, potential rate hikes",
-            "description": "AI's economic impact may prompt the Federal Reserve to adjust monetary policy, potentially leading to future interest rate hikes.\nThe post Federal Reserve considers AI’s impact on economy, potential rate hikes appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T17:55:42Z",
-            "url": "https://cryptobriefing.com/federal-reserve-considers-ais-impact-on-economy-potential-rate-hikes/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh: AI could lift growth, disrupt jobs",
-            "description": "Federal Reserve Chair Kevin Warsh said on Monday that advances in artificial intelligence (AI), which he called \"super intelligence (SI)\" in his speech, could lift United States economic growth \"above...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:40:03Z",
-            "url": "https://biztoc.com/x/b6f18f96e1e976b9",
-            "sentiment_score": 0.5487,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court rejects Custodia Bank’s bid for Fed master account",
-            "description": "The Supreme Court has said it would not take up a Custodia Bank's challenge to secure a Federal Reserve master account.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:25:25Z",
-            "url": "https://biztoc.com/x/d4ae76c21c7118b0",
-            "sentiment_score": 0.2948,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chair Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in Sa…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:24:50Z",
-            "url": "https://biztoc.com/x/33c6203367456415",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "",
-            "source": "CNBC",
-            "published_at": "2026-11-16T17:18:53Z",
-            "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-            "sentiment_score": -0.0451,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "OCC Flags Extra Payment Checks as AI Aids Impersonators",
-            "description": "A change in a supplier’s bank account gives the sending bank two things to verify before releasing payment. One is whether the name on the new account matches the intended payee. The other is whether the supplier actually requested the change. The Office of t…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T17:13:24Z",
-            "url": "https://www.pymnts.com/news/banking/2026/occ-flags-extra-payment-checks-as-ai-aids-impersonators/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Factories Step Up Hiring and Investment Plans as Growth Slows",
-            "description": "New York factories increased employment at the fastest pace in more than four years and strengthened investment plans in November even as growth slowed from October’s sizzling pace. The Federal Reserve Bank of New York’s Empire State Manufacturing Survey show…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-16T17:03:04Z",
-            "url": "https://www.breitbart.com/economy/2026/11/16/new-york-factories-step-up-hiring-and-investment-plans-as-growth-slows/",
-            "sentiment_score": 0.4946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-watched-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-have-significant-impact-there-are-risks-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh, Opening Remarks",
-            "description": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-16T17:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0763,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1952,
+      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.67395,
+      "price_now": 0.67268,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 46.3,
-      "rsi_signal": "โซนกลาง (RSI=46.3)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00075,
-      "suggested_sl_distance": 0.00113,
+      "rsi_value": 36.7,
+      "rsi_signal": "โซนกลาง (RSI=36.7)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00076,
+      "suggested_sl_distance": 0.00114,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": -2,
+      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "trend_direction": "down",
+      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=36.7) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-17T21:39:31.821777+00:00"
+    "generated_at": "2026-11-18T03:34:18.169729+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1938,9 +1888,9 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0188,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 14,
+        "average_score": -0.0866,
+        "label": "ลบเล็กน้อย",
+        "article_count": 7,
         "scored_articles": [
           {
             "currency": "XAU",
@@ -2011,84 +1961,254 @@
             "url": "https://m.economictimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-motors-pv-eicher-motors-share-price-16-november-2026/liveblog/135869739.cms",
             "sentiment_score": 0.5599,
             "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Today’s News in a Nutshell",
-            "description": "KATHMANDU: Khabarhub brings you a glimpse of major developments of the day in Nepal, including politics, business/economy, sports, entertainment, and more. PM Shah reshuffles Secretariat team Prime Minister (PM) Balendra Shah has reshuffled the responsibiliti…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-11-15T16:11:13Z",
-            "url": "https://english.khabarhub.com/2026/15/575640/",
-            "sentiment_score": 0.1264,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Titan shifts focus to buyer growth as gold-price gains become less reliable",
-            "description": "Sub-₹1 lakh products and lighter carat options targeted as Q2 buyer growth flattens; jewellery revenue rises 24% to ₹17,495 crore",
-            "source": "BusinessLine",
-            "published_at": "2026-11-15T13:46:22Z",
-            "url": "https://www.thehindubusinessline.com/companies/titan-shifts-focus-to-buyer-growth-as-gold-price-gains-become-less-reliable/article71705027.ece",
-            "sentiment_score": 0.5432,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold falls to Rs 1.36 lakh, silver down 5% on MCX this week; what’s the outlook?",
-            "description": "Gold price outlook: Market participants will watch inflation data from India, the US, the UK, the Eurozone and Japan. The minutes of the Federal Open Market Committee meeting, remarks by Federal Reserve officials and US employment figures will also be closely…",
-            "source": "The Times of India",
-            "published_at": "2026-11-15T13:34:21Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-prices-drop-4-1-to-rs-1-36-lakh-silver-slides-nearly-5-to-rs-1-76-lakh-on-mcx-inflation-data-fed-signals-and-us-iran-tensions-could-keep-bullion-prices-volatile/articleshow/135857019.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold Is 30% Off Its Peak, Yet Tether Gold’s Supply Is Up 55% in a Year",
-            "description": "Tether Gold's circulating supply grew about 55% in a year while the gold price fell 30% from its January peak, lifting the top 10 gold-backed tokens to about $5.5 billion.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-15T09:24:14Z",
-            "url": "https://www.dcforecasts.com/blockchain-news/tether-gold-xaut-supply-tokenized-gold-market-2026/",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold rate in this UP city sees major crash; price plunges over ₹6,611 in just 3 days, slips below ₹1.36 lakh mark",
-            "description": "Gold price today in Meerut: The yellow metal fell ₹6,611 over three days, as global gold prices recorded their steepest weekly drop since June. On 15 November, gold and silver prices varied slightly across major Indian cities — check here…&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-11-15T07:01:11Z",
-            "url": "https://www.livemint.com/money/gold-rate-up-city-meerut-sees-major-crash-price-plunges-over-rs-6611-in-just-3-days-slips-below-rs-1-36-lakh-mark-silver-11794721026951.html",
-            "sentiment_score": -0.4023,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price drops by Rs 1,500 per tola in domestic market",
-            "description": "KATHMANDU: The price of gold in the domestic market declined by Rs 1,500 per tola on Sunday compared to the previous trading day. According to the Federation of Nepal Gold and Silver Dealers’ Association, the price of gold has been fixed at Rs 270,200 per tol…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-11-15T06:24:34Z",
-            "url": "https://english.khabarhub.com/2026/15/575673/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold, silver prices today, 15 November: Check retail rates of 24K, 22K, 18K gold, 999 silver in Delhi, Mumbai, Bangalore",
-            "description": "Gold, silver prices today, 15 November: Check retail prices of 18K, 22K and 24K gold and 999 Fine silver in your cities — Ahmedabad, Bengaluru, Chennai, Coimbatore, Delhi, Hyderabad, Kolkata, and Mumbai.&nbsp;",
-            "source": "Livemint",
-            "published_at": "2026-11-15T03:34:53Z",
-            "url": "https://www.livemint.com/money/gold-24k-22k-18k-999-fine-silver-prices-today-15-nov-check-retail-rates-cities-delhi-mumbai-coimbatore-chennai-bangalore-11794708823552.html",
-            "sentiment_score": 0.0607,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0017,
+        "average_score": 0.0439,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 29,
+        "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Nikkei 225 Sinks Below 59,000 as Japan GDP Contraction, Weak Yen Near 160 and Tech Rout Pile Pressure on Tokyo",
+            "description": "Japanese stocks fell sharply, with the Nikkei 225 dropping below 59,000, as a global technology sell-off, contracting economic growth and yen weakness weighed on investor sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:42Z",
+            "url": "https://www.ibtimes.com.au/nikkei-falls-below-59000-tech-selloff-japan-economy-1878744",
+            "sentiment_score": -0.4529,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Hang Seng Falls 1.1% Below 23,500 as Hong Kong Tech Stocks Slump on New U.S. Curbs on China's AI Chip Access",
+            "description": "Hong Kong shares declined as new US restrictions on advanced AI chip shipments to overseas data centres raised pressure on Chinese technology companies and broader Asian markets.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:20:03Z",
+            "url": "https://www.ibtimes.com.au/hong-kong-stocks-fall-us-ai-chip-curbs-1878748",
+            "sentiment_score": 0.075,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "KOSPI Slides Toward 5,000 as Chip Selloff Extends Into Second Day Before Nvidia's First Post-Huang Earnings",
+            "description": "South Korea's KOSPI fell 1.22% as investors sold technology shares ahead of Nvidia's results, with AI spending concerns, US chip curbs and rate expectations weighing on sentiment.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-17T03:19:24Z",
+            "url": "https://www.ibtimes.com.au/south-korean-stocks-fall-ahead-nvidia-earnings-1878750",
+            "sentiment_score": 0.1784,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Asian shares fall as US tightens curbs on China's access to AI chips",
+            "description": "South Korea's KOSPI fell 2% and Japan's Nikkei declined 1.3%, as Washington tightened restrictions on advanced chip shipments to data centres in Thailand and Malaysia used by Chinese companies",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T03:13:36Z",
+            "url": "https://www.business-standard.com/markets/news/asian-shares-fall-as-us-tightens-curbs-on-china-s-access-to-ai-chips-126111700065_1.html",
+            "sentiment_score": 0.2822,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed Chair Warsh's true test begins now",
+            "description": "Federal Reserve Chair Kevin Warsh is navigating significant challenges regarding interest rate policy and inflation control. As inflation remains above target levels, market expectations for aggressive rate hikes are intensifying. The Trump administration has…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T03:10:52Z",
+            "url": "https://m.economictimes.com/news/international/world-news/us-federal-reserve-chair-kevin-warshs-true-test-begins-now/articleshow/135908580.cms",
+            "sentiment_score": 0.4577,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global stocks fall as Nvidia earnings, Anthropic debut put AI rally to test",
+            "description": "Semiconductor shares led losses across major markets, with US chipmakers falling 5.3 per cent and stocks in South Korea and Taiwan declining 3.6 per cent and 6 per cent, respectively",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:27:58Z",
+            "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-nvidia-earnings-anthropic-debut-put-ai-rally-to-test-126111700032_1.html",
+            "sentiment_score": 0.0232,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty signals muted open; Asian markets decline on tech selloff",
+            "description": "Sensex Today | Stock Market LIVE Updates Tuesday: The GIFT Nifty indicated a muted open for the Nifty50 index. Asian markets declined",
+            "source": "Business Standard",
+            "published_at": "2026-11-17T02:25:17Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html",
+            "sentiment_score": 0.7456,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia slides 4.1% as US tech stocks plunge; Nasdaq falls 2.5%",
+            "description": "Nvidia fell 4.1% as US tech stocks sold off, pushing the Nasdaq 2.49% lower and more than 10% below its October record closing high.",
+            "source": "BusinessLine",
+            "published_at": "2026-11-17T02:23:36Z",
+            "url": "https://www.thehindubusinessline.com/markets/stock-markets/nvidia-slides-41-as-us-tech-stocks-plunge-nasdaq-falls-25/article71710260.ece",
+            "sentiment_score": -0.0888,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "The US dollar soared to a 19-month high as traders ramped up expectations for potential Federal Reserve policy tightening. Following robust inflation statistics, the dollar index climbed to 103.66, showcasing noteworthy gains. The market's mood suffered due t…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:52:42Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/us-dollar-hits-19-month-peak-on-fed-hike-bets-aussie-dips/articleshow/135907267.cms",
+            "sentiment_score": 0.0459,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hovers near over one-year low as firm dollar, Fed-hike bets weigh",
+            "description": "Gold prices are under pressure, primarily due to a strengthening US dollar and rising expectations for an interest rate hike. Analysts project a notable chance of this occurring in December, influenced by current market data. The dollar's gains have diminishe…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T01:49:25Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hovers-near-over-one-year-low-as-firm-dollar-fed-hike-bets-weigh/articleshow/135907217.cms",
+            "sentiment_score": 0.0525,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Trump turned on Susie Wiles after she showed the one thing he sees as 'weakness': Haberman",
+            "description": "President Donald Trump began picking on Susie Wiles after she became sick with cancer and tried to work through treatments, New York Times reporter Maggie Haberman said Monday.“He sees it as weakness,” Haberman said of Trump’s view of illness. “And so, he sta…",
+            "source": "Raw Story",
+            "published_at": "2026-11-17T01:44:40Z",
+            "url": "https://www.rawstory.com/susie-wiles-2678423311/",
+            "sentiment_score": -0.5608,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "US dollar hits 19-month peak on Fed hike bets; Aussie dips",
+            "description": "TOKYO, Nov 17 : The dollar on Tuesday scaled a fresh 19-month peak against a basket of peers amid bets for more aggressive policy tightening by the US Federal Reserve following hot inflation data and hawkish central bank rhetoric.The US currency extended a 10…",
+            "source": "CNA",
+            "published_at": "2026-11-17T01:41:58Z",
+            "url": "https://www.channelnewsasia.com/business/us-dollar-hits-19-month-peak-fed-hike-bets-aussie-dips-6557406",
+            "sentiment_score": 0.0313,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "'Shark Tank' Millionaire Proves Beyond Clueless During Economic Debate With Gen Z",
+            "description": "Kevin O’Leary only had vague advice and insults while talking to 20-somethings about making a living in the world today.",
+            "source": "HuffPost",
+            "published_at": "2026-11-17T01:35:39Z",
+            "url": "https://www.huffpost.com/entry/kevin-oleary-debates-gen-z-economy_n_6afb785be4b0b6f4a959f8a4",
+            "sentiment_score": -0.401,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T01:04:01Z",
+            "url": "https://biztoc.com/x/4b56f10bde9b0392",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Artificial intelligence is about to sweep through the economy. The Federal Reserve is bracing for impact.\n\"We are at a hinge point in the U.S. economy,\" Fed Chairman Kevin Warsh said at a conference he convened in San Francisco on Monday. But exactly when and…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T00:48:26Z",
+            "url": "https://biztoc.com/x/631bc733e1d0f78d",
+            "sentiment_score": 0.0785,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as Wall Street selloff deepens ahead of Nvidia earnings",
+            "description": "The MSCI Asia Pacific Index dropped 0.7% in early trading and South Korea’s Kospi lost 1.4%. Futures for the S&P 500 and Nasdaq 100 indexes were little changed after the underlying benchmarks slid 1.9% and 2.7%, respectively, on Monday, marking a third straig…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-17T00:47:32Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-wall-street-selloff-deepens-ahead-of-nvidia-earnings/articleshow/135906533.cms",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Analysis: The Fed's chairman sees an AI revolution coming. Now he has to figure out what it means",
+            "description": "Kevin Warsh sees AI at a turning point. He faces tough questions on jobs and interest rates.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T00:42:33Z",
+            "url": "https://www.cnbc.com/2026/11/16/kevin-warsh-fed-ai-jobs-productivity-interest-rateshtml.html",
+            "sentiment_score": 0.1084,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Were 1950s families achieving a modern lifestyle via type of discount? How many hours needed a person work to purchase essentials compared to today? How many goods and services were provided as forms of welfare in 1960 versus today?",
+            "description": "In the 1950s, American families were not buying today’s standard of living at a discount. They were buying a single-bathroom home under 1,000 square feet that cost just twice their annual salary. When economists and social historians point out that 1950s fami…",
+            "source": "Freerepublic.com",
+            "published_at": "2026-11-17T00:09:55Z",
+            "url": "https://freerepublic.com/focus/f-chat/4403301/posts",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
+            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
+            "source": "pymnts.com",
+            "published_at": "2026-11-16T23:48:48Z",
+            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/",
+            "sentiment_score": 0.2309,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "California consumer watchdog chief says AI companies that violate state rules will be taken to court",
+            "description": "NEW YORK, Nov 16 : Rohit Chopra, secretary of the California Business and Consumer Services Agency, said greater accountability is needed from technology companies rolling out AI into the broader economy, and that his agency is already eyeing the possibility …",
+            "source": "CNA",
+            "published_at": "2026-11-16T22:57:07Z",
+            "url": "https://www.channelnewsasia.com/business/california-consumer-watchdog-chief-says-ai-companies-violate-state-rules-will-be-taken-court-6556931",
+            "sentiment_score": -0.2374,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Custodia Bank loses Supreme Court bid for direct Fed payment access",
+            "description": "The Supreme Court refused to hear Custodia Bank’s appeal, meaning a lower court ruling allowing the Fed to reject account applications will stand.",
+            "source": "Cointelegraph",
+            "published_at": "2026-11-16T22:54:57Z",
+            "url": "https://cointelegraph.com/news/custodia-bank-loses-supreme-court-bid-for-direct-fed-payment-access",
+            "sentiment_score": 0.1144,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
+            "description": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America.",
+            "source": "CNBC",
+            "published_at": "2026-11-16T22:22:52Z",
+            "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Marc Andreessen says government regulation will save jobs from AI — at the cost of economic growth",
+            "description": "Venture capitalist Marc Andreessen, co-head of Federal Reserve Chairman Kevin Warsh's task force on jobs and productivity, predicted that artificial intelligence will have a dual effect in the job market: Job losses in government-regulated sectors will be ins…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-16T22:19:17Z",
+            "url": "https://biztoc.com/x/31e650e345954528",
+            "sentiment_score": 0.521,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street ends sharply lower on AI jitters ahead of Nvidia results, Anthropic IPO",
+            "description": "NEW YORK: A broad selloff dragged US stocks lower on Monday (Nov 16) as fallout from Jensen Huang's resignation as Nvidia CEO soured enthusiasm for AI stocks",
+            "source": "CNA",
+            "published_at": "2026-11-16T21:49:27Z",
+            "url": "https://www.channelnewsasia.com/world/wall-street-ends-sharply-lower-ai-jitters-ahead-nvidia-results-anthropic-ipo-6556786",
+            "sentiment_score": -0.2606,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
           {
             "currency": "USD",
             "title": "Gold price slides to one-year low, heads for worst year since 2015",
@@ -2148,240 +2268,10 @@
             "url": "https://biztoc.com/x/a37c42242e95e9ea",
             "sentiment_score": -0.2029,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Starling Founder Launches Agentic AI-Focused Bank Lockwood",
-            "description": "The founder of British neobank Starling is reportedly embarking on an artificial intelligence (AI)-focused banking venture. Anne Boden is using some of the proceeds from selling her shares in her former company to help launch her new startup Lockwood, The Tim…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T20:02:41Z",
-            "url": "https://www.pymnts.com/news/banking/2026/starling-founder-launches-agentic-ai-focused-bank-lockwood/",
-            "sentiment_score": 0.2372,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Palantir Dips as Anthropic IPO, Nvidia Turmoil and Rate Hike Bets Rattle Tech",
-            "description": "Palantir shares are slipping Monday as Nvidia uncertainty and Fed rate-hike concerns pressure tech stocks ahead of Anthropic's IPO.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:57:54Z",
-            "url": "https://biztoc.com/x/3dd4f9344b80b3f3",
-            "sentiment_score": -0.3548,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Claude AI Predicts What a December Fed Hike Could Do to Bitcoin",
-            "description": "The post Claude AI Predicts What a December Fed Hike Could Do to Bitcoin appeared first on 24/7 Wall St..\nClaude AI projects that Bitcoin (CRYPTO: BTC) could settle at around $56,500 by December 31, 2026, if the Federal Reserve raises interest rates by a quar…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T19:42:22Z",
-            "url": "https://biztoc.com/x/b1043e29299011da",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Hammack favors gradual rate hikes amid inflation concerns",
-            "description": "Gradual rate hikes may stabilize the economy, but persistent inflation pressures could challenge long-term monetary policy effectiveness.\nThe post Fed’s Hammack favors gradual rate hikes amid inflation concerns appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T19:19:46Z",
-            "url": "https://cryptobriefing.com/feds-hammack-favors-gradual-rate-hikes-amid-inflation-concerns/",
-            "sentiment_score": 0.175,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:56:15Z",
-            "url": "https://biztoc.com/x/8d6951cdd3f00350",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "How will AI shake up the economy? Warsh says the Fed is starting to figure that out",
-            "description": "The Federal Reserve staff is in the early days of developing various scenarios of how artificial intelligence’s growing role in business and daily life will impact the economy, Fed Chairman Kevin Warsh said Monday.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:03Z",
-            "url": "https://biztoc.com/x/faec1c8ed2facbc5",
-            "sentiment_score": -0.0712,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Highlights Economic Uncertainty of A.I. Boom",
-            "description": "Kevin M. Warsh, chairman of the Federal Reserve, has assigned a task force to explore how productivity gains tied to new technologies could impact the labor market.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:41:00Z",
-            "url": "https://biztoc.com/x/10fc7999ca129509",
-            "sentiment_score": -0.136,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Is Modeling AI 'Super Intelligence' Scenarios, Including Job Losses and a Stock Market Slump",
-            "description": "Federal Reserve Chair Kevin Warsh says staff are studying three possible economic futures for AI, ranging from widespread productivity gains to higher unemployment and a painful correction in technology stocks.",
-            "source": "Decrypt",
-            "published_at": "2026-11-16T18:36:44Z",
-            "url": "https://decrypt.co/383354/fed-modeling-ai-super-intelligence-scenarios-job-losses-stock-market",
-            "sentiment_score": 0.296,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Binance Founder Denies Selling as Bitcoin Breaks Below $63K",
-            "description": "Binance founder Changpeng (CZ) Zhao pondered the reasons behind the sharp market decline that pushed Bitcoin's price below $63k.",
-            "source": "ZyCrypto",
-            "published_at": "2026-11-16T18:30:13Z",
-            "url": "https://zycrypto.com/binance-founder-denies-selling-as-bitcoin-breaks-below-63k/",
-            "sentiment_score": -0.295,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court Leaves Custodia Bank Locked Out of Federal Reserve Payment System",
-            "description": "The U.S. Supreme Court denied Custodia Bank’s request that the court hear the company’s appeal in which it attempted to gain access to the Federal Reserve payment system, Bloomberg reported Monday (Nov. 16). The Supreme Court’s decision left untouched a feder…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T18:21:54Z",
-            "url": "https://www.pymnts.com/legal/2026/supreme-court-leaves-custodia-bank-locked-out-of-federal-reserve-payment-system/",
-            "sentiment_score": 0.6383,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chairman Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:14:03Z",
-            "url": "https://biztoc.com/x/074d5ab05c53656e",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chair Kevin Warsh lays out best-case scenario from AI, while also warning about ‘costly’ risks",
-            "description": "Warsh refers to artificial intelligence as \"super intelligence,\" the language preferred by President Trump.",
-            "source": "New York Post",
-            "published_at": "2026-11-16T18:07:15Z",
-            "url": "https://nypost.com/2026/11/16/business/fed-chair-kevin-warsh-lays-out-best-case-scenario-from-ai-while-also-warning-about-costly-risks/",
-            "sentiment_score": -0.1162,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Retail Sales and Fed Minutes Put Bitcoin’s Rate Outlook Back in Focus",
-            "description": "US retail sales and Federal Reserve minutes offer Bitcoin traders two dated macro checkpoints as inflation keeps the rate debate active.",
-            "source": "newsBTC",
-            "published_at": "2026-11-16T18:00:00Z",
-            "url": "https://www.newsbtc.com/bitcoin-news/bitcoin-week-ahead-retail-sales-fed-minutes-november-2026/",
-            "sentiment_score": 0.1206,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve considers AI’s impact on economy, potential rate hikes",
-            "description": "AI's economic impact may prompt the Federal Reserve to adjust monetary policy, potentially leading to future interest rate hikes.\nThe post Federal Reserve considers AI’s impact on economy, potential rate hikes appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T17:55:42Z",
-            "url": "https://cryptobriefing.com/federal-reserve-considers-ais-impact-on-economy-potential-rate-hikes/",
-            "sentiment_score": 0.1376,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh: AI could lift growth, disrupt jobs",
-            "description": "Federal Reserve Chair Kevin Warsh said on Monday that advances in artificial intelligence (AI), which he called \"super intelligence (SI)\" in his speech, could lift United States economic growth \"above...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:40:03Z",
-            "url": "https://biztoc.com/x/b6f18f96e1e976b9",
-            "sentiment_score": 0.5487,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Supreme Court rejects Custodia Bank’s bid for Fed master account",
-            "description": "The Supreme Court has said it would not take up a Custodia Bank's challenge to secure a Federal Reserve master account.",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:25:25Z",
-            "url": "https://biztoc.com/x/d4ae76c21c7118b0",
-            "sentiment_score": 0.2948,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "Federal Reserve Chair Kevin Warsh on Monday highlighted the potential economic benefits of artificial intelligence while warning that the emerging technology also could lead to widespread job losses or fail to deliver on its lofty expectations.\nSpeaking in Sa…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:24:50Z",
-            "url": "https://biztoc.com/x/33c6203367456415",
-            "sentiment_score": -0.1772,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-            "description": "",
-            "source": "CNBC",
-            "published_at": "2026-11-16T17:18:53Z",
-            "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-            "sentiment_score": -0.0451,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "OCC Flags Extra Payment Checks as AI Aids Impersonators",
-            "description": "A change in a supplier’s bank account gives the sending bank two things to verify before releasing payment. One is whether the name on the new account matches the intended payee. The other is whether the supplier actually requested the change. The Office of t…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T17:13:24Z",
-            "url": "https://www.pymnts.com/news/banking/2026/occ-flags-extra-payment-checks-as-ai-aids-impersonators/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "New York Factories Step Up Hiring and Investment Plans as Growth Slows",
-            "description": "New York factories increased employment at the fastest pace in more than four years and strengthened investment plans in November even as growth slowed from October’s sizzling pace. The Federal Reserve Bank of New York’s Empire State Manufacturing Survey show…",
-            "source": "Breitbart News",
-            "published_at": "2026-11-16T17:03:04Z",
-            "url": "https://www.breitbart.com/economy/2026/11/16/new-york-factories-step-up-hiring-and-investment-plans-as-growth-slows/",
-            "sentiment_score": 0.4946,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies will have 'significant impact,' but risks need to be watched",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-will-have-significant-impact-risks-need-be-watched-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed's Warsh says emerging technologies to have 'significant impact,' but there are risks",
-            "description": "SAN FRANCISCO, Nov 16 : Federal Reserve Chairman Kevin Warsh said on Monday that emerging technologies will have a significant impact on the economy, but the possible scenarios range from rising growth with broadly shared gains to higher unemployment and a po…",
-            "source": "CNA",
-            "published_at": "2026-11-16T17:02:47Z",
-            "url": "https://www.channelnewsasia.com/business/feds-warsh-says-emerging-technologies-have-significant-impact-there-are-risks-6556426",
-            "sentiment_score": 0.0044,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Warsh, Opening Remarks",
-            "description": "Speech At the Productivity and Jobs Task Force Conference, hosted by the Federal Reserve Board and the Federal Reserve Bank of San Francisco, San Francisco, California",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-16T17:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/warsh20261116a.htm",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0205,
+      "net_score": -0.1305,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2391,17 +2281,17 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 3855.3999,
+      "price_now": 3790.0,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 44.9,
-      "rsi_signal": "โซนกลาง (RSI=44.9)",
+      "rsi_value": 24.1,
+      "rsi_signal": "ขายมากเกิน (RSI=24.1) ราคาอาจเด้ง",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 15.54079,
-      "suggested_sl_distance": 23.31118,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "atr_value": 17.77189,
+      "suggested_sl_distance": 26.65784,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -2410,8 +2300,8 @@
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=44.9) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=24.1) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-17T21:39:31.821777+00:00"
+    "generated_at": "2026-11-18T03:34:18.169729+00:00"
   }
 ]
