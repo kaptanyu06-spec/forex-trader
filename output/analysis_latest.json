@@ -6,10 +6,30 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0393,
+        "average_score": 0.0463,
         "label": "เป็นกลาง (Neutral)",
-        "article_count": 26,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Changes in AI sentiment could impact economy, says EY",
+            "description": "The boom in investment in AI has helped to drive Ireland's growth since 2022 but changes in sentiment towards the sector could affect the economy in future, according to an analysis by audit and advisory firm EY.",
+            "source": "RTE",
+            "published_at": "2026-11-18T00:01:29Z",
+            "url": "https://www.rte.ie/news/2026/1118/1599605-ai-boom-growth/",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "EU economy shows resilience, but inflation, risks cloud outlook",
+            "description": "The European Union (EU) economy is expected to maintain steady growth through 2028, but persistent inflation, tighter financing conditions and",
+            "source": "Dailyfinland.fi",
+            "published_at": "2026-11-17T22:52:20Z",
+            "url": "https://www.dailyfinland.fi/business/52328/EU-economy-shows-resilience-but-inflation-risks-cloud-outlook",
+            "sentiment_score": -0.2136,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Qonto Wins European Banking License and Targets Small Business Lending",
@@ -109,174 +129,164 @@
             "url": "https://en.protothema.gr/2026/11/17/k-m-and-the-mayors-who-want-just-a-little-more-building-density-the-governments-clash-with-doukas-over-the-metro-pasoks-unforgettable-figures-the-tur/",
             "sentiment_score": 0.1303,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Fed Builds Plans for Best and Worst AI-Driven Economic Outcomes",
-            "description": "Federal Reserve staff are using model-based frameworks to generate scenarios of outcomes that could result from the progress of artificial intelligence (AI), Federal Reserve Board Chairman Kevin Warsh said Monday (Nov. 16). In opening remarks delivered at the…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T23:48:48Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/fed-builds-plans-for-best-and-worst-ai-driven-economic-outcomes/",
-            "sentiment_score": 0.2309,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "3 Eurozone Financial Stocks Riding AI Driven Trading Volatility",
-            "description": "AI fever is reshaping equity markets in real time, and the European Central Bank now warns that the story could flip fast if optimism cools. That mix of hype and hazard creates a live test for investors who care about how Eurozone investment banks and capital…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T18:29:10Z",
-            "url": "https://biztoc.com/x/405ef1b867322e93",
-            "sentiment_score": 0.2438,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB Warns Rapid AI Expansion Threatens EU Financial Stability",
-            "description": "A European Central Bank official is warning that rapid artificial intelligence (AI) expansion could threaten the region’s financial stability. AI stock market valuations remain stretched and the risk of a repricing has risen, European Central Bank Vice Presid…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-16T17:24:44Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ecb-warns-rapid-ai-expansion-threatens-eu-financial-stability/",
-            "sentiment_score": -0.4588,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "UniCredit wins EU, Fed greenlight for €45B Commerzbank takeover - Türkiye Today",
-            "description": "Fed clears another regulatory hurdle for UniCredit's proposed takeover of Germany's Commerzbank, one of Europe's biggest cross-border banking deals",
-            "source": "Turkiyetoday.com",
-            "published_at": "2026-11-16T16:04:25Z",
-            "url": "https://www.turkiyetoday.com/business/unicredit-wins-fed-greenlight-for-45b-commerzbank-takeover-3232531",
-            "sentiment_score": 0.4235,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Announcing 20260101 (MRO,liquidity providing), for 7 days deadline 09:30",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-11-16T14:40:27Z",
-            "url": "https://www.ecb.europa.eu/mopo/implement/omo/html/20260101.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "EU clears UniCredit takeover of Germany's Commerzbank",
-            "description": "The EU on Monday approved the takeover of Germany's Commerzbank by Italian bank UniCredit's, as Europe seeks to reinforce the bloc's banking sector.",
-            "source": "The Local Germany",
-            "published_at": "2026-11-16T13:45:03Z",
-            "url": "https://www.thelocal.de/20261116/eu-clears-unicredit-takeover-of-germanys-commerzbank",
-            "sentiment_score": 0.1805,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Knot said to withdraw from ECB presidency race",
-            "description": "Former Dutch central bank President Klaas Knot is set to withdraw his bid for the president of the European Central Bank (ECB) this week, Dutch newspaper de Volkskrant reported on Monday.According to ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T13:36:31Z",
-            "url": "https://biztoc.com/x/f092372664683767",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Frank Elderson: Smart supervision for small banks",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-11-16T13:00:00Z",
-            "url": "https://www.ecb.europa.eu//press/inter/date/2026/html/ecb.in261116_1~11dd7f62af.en.html",
-            "sentiment_score": 0.2813,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Barr, Some Potential Financial Stability Implications of Artificial Intelligence",
-            "description": "Thank you for the opportunity to speak to you today.  1     This is the fourth speech I have given in the past year devoted exclusively to artificial intellige",
-            "source": "Federalreserve.gov",
-            "published_at": "2026-11-16T10:00:00Z",
-            "url": "https://www.federalreserve.gov/newsevents/speech/barr20261116a.htm",
-            "sentiment_score": 0.5709,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Outsourcing is a bigger risk than scams for euro zone banks, ECB says",
-            "description": "FRANKFURT, Nov 16 : Failures at external providers have been a bigger source of tech woes for euro zone banks than fraud attempts, the European Central Bank said on Monday.• The ECB said malicious actions accounted for a relatively small share of major cyber …",
-            "source": "CNA",
-            "published_at": "2026-11-16T09:46:56Z",
-            "url": "https://www.channelnewsasia.com/business/outsourcing-bigger-risk-scams-euro-zone-banks-ecb-says-6555131",
-            "sentiment_score": -0.742,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB's Vujcic: Iran war keeps pushing inflation up",
-            "description": "European Central Bank (ECB) Vice President Boris Vujcic said on Monday that the war in Iran and the accompanying energy crisis continue to push euro area inflation higher, while underlying inflation r...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T09:01:44Z",
-            "url": "https://biztoc.com/x/3eb1ff63780f6e6a",
-            "sentiment_score": -0.6549,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB’s Vujčić sets the stage for a sober look at euro area financial risks",
-            "description": "The ECB's focus on financial risks may prompt increased regulatory scrutiny and cautious market behavior, impacting eurozone stability.\nThe post ECB’s Vujčić sets the stage for a sober look at euro area financial risks appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-16T08:33:40Z",
-            "url": "https://cryptobriefing.com/ecb-vujcic-euro-area-financial-risks/",
-            "sentiment_score": -0.2996,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Boris Vujčić: Risks and resilience in the euro area financial system",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-11-16T08:30:00Z",
-            "url": "https://www.ecb.europa.eu//press/key/date/2026/html/ecb.sp261116~db374b56ab.en.html",
-            "sentiment_score": -0.1912,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "K.M.’s summer thoughts on elections, end of building coefficients, SOS for farmers and double payments, Cepal and Intrum talking again, second round for Nova TV, Eurobank acquisition in Bulgaria",
-            "description": "Difficult nights for cryptocurrencies\nThe post K.M.’s summer thoughts on elections, end of building coefficients, SOS for farmers and double payments, Cepal and Intrum talking again, second round for Nova TV, Eurobank acquisition in Bulgaria appeared first on…",
-            "source": "Protothema.gr",
-            "published_at": "2026-11-16T06:44:00Z",
-            "url": "https://en.protothema.gr/2026/11/16/k-m-s-summer-thoughts-on-elections-end-of-building-coefficients-sos-for-farmers-and-double-payments-cepal-and-intrum-talking-again-second-round-for-nova-tv-eurobank-acquisition-in-bulgar/",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Oaktree IPO of company holding more than 950 apartments drifts to first half of 2027",
-            "description": "Apartments built on the former Irish Glass Bottle site are set to anchor the IPO",
-            "source": "The Irish Times",
-            "published_at": "2026-11-16T05:00:00Z",
-            "url": "https://www.irishtimes.com/business/2026/11/16/oaktree-ipo-of-company-holding-more-than-950-apartments-drifts-to-first-half-of-2027/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "French presidential election: Meet the contenders you didn’t see coming",
-            "description": "Some prominent figures are trying to stop the race from turning into a showdown between two populists.",
-            "source": "POLITICO.eu",
-            "published_at": "2026-11-16T03:00:00Z",
-            "url": "https://www.politico.eu/article/france-presidential-election-2027-candidates/",
-            "sentiment_score": 0.0077,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.133,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.1044,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+            "description": "The dollar remains firm near its highest level in 19 months, buoyed by encouraging economic indicators from the US and statements from Federal Reserve officials. Japan's trade data showed record exports in October, fueled by high semiconductor demand, despite…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:10:25Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-holds-near-19-month-high-as-data-supports-case-for-us-rate-hikes/articleshow/135945560.cms",
+            "sentiment_score": 0.385,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hits over one-year low ahead of Fed minutes",
+            "description": "Gold prices have plummeted to their lowest since October 2025, driven by a robust US dollar and rising interest rate expectations. The Federal Reserve's officials emphasized the necessity for additional hikes to tackle inflation effectively. Investors are kee…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:08:58Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hits-over-one-year-low-ahead-of-fed-minutes/articleshow/135945512.cms",
+            "sentiment_score": 0.016,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says",
+            "description": "A potential Fed policy shift due to an AI downturn could create a favorable environment for Bitcoin, highlighting its role as a hedge.\nThe post Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says appeared first…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-18T01:50:02Z",
+            "url": "https://cryptobriefing.com/bitcoin-ai-downturn-fed-policy/",
+            "sentiment_score": 0.5618,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Staff Are Modeling an AI Bubble Burst Among Three Futures as Bitcoin Tracks the Nasdaq",
+            "description": "Kevin Warsh says Fed staff are modeling three AI futures, including an AI bubble burst, as Bitcoin's 30-day correlation with the Nasdaq hits 0.68.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T01:31:03Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/ai-bubble-burst-fed-warsh-scenarios-bitcoin-nasdaq/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
+            "description": "Contracts for the Nasdaq 100 Index jumped 1.3% and those for the S&P 500 Index rose 0.7% following the chipmaker’s results. Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jen…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T01:08:58Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms",
+            "sentiment_score": 0.5554,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Regional Bank Stocks For Higher Rates In The US",
+            "description": "When a Federal Reserve official talks about \"soon\" rate hikes and a higher path for borrowing costs through 2027, the ripple effects can reshape which stocks quietly gain an edge. Rising real yields can reward some balance sheets while putting others under st…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-18T00:59:43Z",
+            "url": "https://biztoc.com/x/3ec8a234487762f7",
+            "sentiment_score": 0.2389,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia Revenue Doubles to $115.8 Billion Under an Interim CEO as Bitcoin Pushes Back Toward $65,000",
+            "description": "Nvidia's first quarter under interim CEO Colette Kress brought $115.8 billion in revenue and a $130 billion outlook, and Bitcoin rose toward $65,000.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T00:45:25Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/nvidia-revenue-q3-fiscal-2027-colette-kress-bitcoin/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A perfect storm is descending on the AI industry",
+            "description": "The stock market is set to christen a new trillion-dollar company on Wednesday, as the AI juggernaut Anthropic goes public. The IPO should have been the crowning triumph of the AI boom — a testament to the technology’s mind-bending commercial value, which ena…",
+            "source": "Vox",
+            "published_at": "2026-11-18T00:07:26Z",
+            "url": "https://www.vox.com/politics/511132/anthropic-ipo-ai-bubble-nvidia",
+            "sentiment_score": 0.6015,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Lisa Cook’s lawyers say she’ll refuse to attend panel considering her dismissal from Federal Reserve",
+            "description": "Charges she committed mortgage fraud playing a role in her qualifications",
+            "source": "Wnd.com",
+            "published_at": "2026-11-17T23:27:18Z",
+            "url": "https://www.wnd.com/2026/11/lisa-cooks-lawyers-say-shell-refuse-attend-panel/",
+            "sentiment_score": -0.3448,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "Nvidia shares rose in extended trading after the company’s first earnings report since co-founder Jensen Huang resigned last week.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T23:10:47Z",
+            "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed’s Lisa Cook refuses to attend White House hearing",
+            "description": "US President Donald Trump has been trying to fire Cook since August 2025.",
+            "source": "Al Jazeera English",
+            "published_at": "2026-11-17T22:01:27Z",
+            "url": "https://www.aljazeera.com/economy/2026/11/17/us-feds-lisa-cook-refuses-to-attend-white-house-hearing",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Williams: AI boom may fuel rate hikes in 2027",
+            "description": "United States Federal Reserve Bank of New York President John Williams said surging investment in artificial intelligence could add to inflationary pressures and prompt the central bank to raise inter...",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:56Z",
+            "url": "https://biztoc.com/x/0b66d90890f39d49",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Lisa Cook to skip dubious hearing with Trump’s ‘committee of inquiry’",
+            "description": "It was 15 months ago when Donald Trump, exercising a power the president didn’t appear to have, said he would fire Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: The president wanted to seize greater control ove…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:45Z",
+            "url": "https://biztoc.com/x/9ab3cb0362560b5e",
+            "sentiment_score": -0.1047,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Business Cycle Indicators: Industrial, Mfg. Production, Retail Sales",
+            "description": "Nominal retail sales upside surprise (+0.2% vs consensus +0.1% m/m), but actual real declines. Manufacturing production +0.3% vs. consensus +0.2% m/m (industrial production down primarily because of utilities). Figure 1: NFP employment (bold blue), civilian e…",
+            "source": "Econbrowser.com",
+            "published_at": "2026-11-17T21:20:51Z",
+            "url": "https://econbrowser.com/archives/2026/11/us-business-cycle-indicators-industrial-mfg-production-retail-sales",
+            "sentiment_score": 0.1818,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Professional misconduct complaints against DOJ officials are rising",
+            "description": "The number of professional misconduct complaints filed against Justice Department officials has increased by more than 50% over a two-year period, according to the department's inspector general.",
+            "source": "CBS News",
+            "published_at": "2026-11-17T21:19:34Z",
+            "url": "https://www.cbsnews.com/news/professional-misconduct-complaints-justice-department-officials/",
+            "sentiment_score": -0.1383,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Cleveland Fed’s Hammack supports gradual rate hikes, warns of larger increases if needed",
@@ -426,177 +436,27 @@
             "url": "https://biztoc.com/x/5ea2d965a609a5a2",
             "sentiment_score": -0.1673,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022",
-            "description": "The crypto market's vulnerability to interest rate shocks highlights the need for robust risk management and diversification strategies.\nThe post Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T18:12:08Z",
-            "url": "https://cryptobriefing.com/crypto-market-rate-shock-impact/",
-            "sentiment_score": -0.3937,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed’s first close look at the AI buildout finds $3 trillion of AI commitments that aren’t on big tech’s balance sheet as debt",
-            "description": "Seven companies’ leases, contracts, and guarantees have grown faster than their debt. Nvidia reports earnings tonight without Jensen Huang.",
-            "source": "Fortune",
-            "published_at": "2026-11-17T18:00:00Z",
-            "url": "https://fortune.com/2026/11/17/fed-financial-stability-report-ai-data-center-3-trillion-off-balance-sheet-nvidia/",
-            "sentiment_score": -0.2834,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Outage math at the airport: When a four-hour Uber beats waiting out a ground stop",
-            "description": "Flight delays are becoming more common, causing financial and emotional stress for travelers",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-17T17:57:57Z",
-            "url": "https://abcnews.com/Business/wireStory/outage-math-airport-hour-uber-beats-waiting-ground-138218486",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tech leaders tell Fed chairman Warsh how AI could transform the economy",
-            "description": "Just maybe, both the extreme techno-optimists and AI doom-and-gloomers are wrong about the economic impact of the technology.\nThat's the argument that venture capitalist Marc Andreessen — who is co-leading a Federal Reserve task force on the topic — made in a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:49:16Z",
-            "url": "https://biztoc.com/x/517d7f5532646542",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump target threatens to blow off 'unfair' White House hearing on her firing",
-            "description": "A lawyer for Federal Reserve Governor Lisa Cook has notified the White House that his client has no intention of showing up for a scheduled hearing.At least not without a plethora of changes, the Wall Street Journal reported.Cook’s attorney, Abbe Lowell, spel…",
-            "source": "Raw Story",
-            "published_at": "2026-11-17T17:39:54Z",
-            "url": "https://www.rawstory.com/lida-cook-fed-trump/",
-            "sentiment_score": -0.6463,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-            "description": "Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-17T17:39:41Z",
-            "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
-            "sentiment_score": -0.4715,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says",
-            "description": "Gold's psychological price drop highlights market sentiment's power, emphasizing the need for strategic diversification amid economic uncertainties.\nThe post Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T17:25:51Z",
-            "url": "https://cryptobriefing.com/golds-drop-below-4000-is-largely-psychological-american-hartford-gold-president-says/",
-            "sentiment_score": -0.3955,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"",
-            "description": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"\n \nFederal Reserve Governor Lisa Cook will not take part in the White House hearing that could end with President Trump firing her unless the administration replaces the panel a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:19:00Z",
-            "url": "https://biztoc.com/x/7a61f5dac298a165",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Christopher Waller Wants Fed Money Beneath Tokenized Markets, Not in Every Trade",
-            "description": "Fed Governor Christopher Waller says tokenized assets will compete on open, always-on blockchains, but central bank money must anchor the system.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-17T17:09:25Z",
-            "url": "https://www.dcforecasts.com/regulation/christopher-waller-tokenized-assets-central-bank-money/",
-            "sentiment_score": 0.027,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed official Lisa Cook refuses to attend White House firing hearing, citing bias",
-            "description": "Federal Reserve governor Lisa Cook won’t take part in a Dec. 14 White House hearing on whether to fire her unless the panel and its rules change, her lawyer said in a letter Monday. Letters exchanged since September show the two sides clashing over dates, doc…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:03:43Z",
-            "url": "https://biztoc.com/x/a476ae5d76edd897",
-            "sentiment_score": -0.3971,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin holds near $64,800 as ETF outflow streak ends",
-            "description": "The end of the ETF outflow streak suggests potential stabilization, but broader market pressures and investor caution could hinder sustained recovery.\nThe post Bitcoin holds near $64,800 as ETF outflow streak ends appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:59:23Z",
-            "url": "https://cryptobriefing.com/bitcoin-etf-outflow-streak-ends-64800/",
-            "sentiment_score": -0.1349,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "If a Stock Market Crash Is Coming, Here’s the Most Important Move Warren Buffett Would Make Right Now",
-            "description": "The broader benchmark S&P 500 (SNPINDEX:^GSPC) is up over 10% this year, but investors are still on edge, as the list of things that could go wrong keeps growing.\nInflation remains stubbornly high, and the Federal Reserve has already raised rates once this ye…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T16:52:13Z",
-            "url": "https://biztoc.com/x/a3d910178f66a63c",
-            "sentiment_score": -0.3289,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Musalem says AI is pulling demand forward, and policy can’t wait",
-            "description": "AI-driven demand pressures may prompt prolonged higher interest rates, impacting borrowing costs and potentially cooling consumer spending.\nThe post Fed’s Musalem says AI is pulling demand forward, and policy can’t wait appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:46:57Z",
-            "url": "https://cryptobriefing.com/fed-musalem-ai-demand-investment-inflation/",
-            "sentiment_score": -0.1128,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Won't Be Appearing at Hearing on Fate of Her Job",
-            "description": "Federal Reserve governor Lisa Cook declined through her lawyers to appear next month before a Trump administration committee that is considering whether she should be fired, calling the process unfair and committed to a predetermined outcome. The refusal exte…",
-            "source": "Newser",
-            "published_at": "2026-11-17T16:44:00Z",
-            "url": "https://www.newser.com/story/400173/lisa-cook-wont-be-appearing-at-hearing-on-fate-of-her-job.html",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
-            "description": "Comments by financial officials on opposite sides of the world Monday (Nov. 16) suggest regulators are converging on the need to address two challenges posed by agentic AI: how to ensure institutions remain accountable for agents they deploy, and how institut…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-17T16:34:20Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/regulators-converge-on-twin-compliance-challenges-from-ai-agents/",
-            "sentiment_score": 0.1862,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.1723,
-      "bias": "เอียงบวกต่อ EUR (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": -0.0581,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.09769,
+      "price_now": 1.09637,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 46.4,
-      "rsi_signal": "โซนกลาง (RSI=46.4)",
+      "rsi_value": 39.7,
+      "rsi_signal": "โซนกลาง (RSI=39.7)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00097,
-      "suggested_sl_distance": 0.00145,
+      "atr_value": 0.00086,
+      "suggested_sl_distance": 0.00129,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -610,7 +470,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-18T21:17:50.326844+00:00"
+    "generated_at": "2026-11-19T03:07:17.028410+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -619,10 +479,20 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.113,
+        "average_score": 0.2437,
         "label": "บวกเล็กน้อย",
-        "article_count": 16,
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "GBP",
+            "title": "Bank of England opens regulated pathway for blockchain clearing houses",
+            "description": "The Bank of England's framework could accelerate blockchain integration in finance, fostering innovation while ensuring regulatory compliance.\nThe post Bank of England opens regulated pathway for blockchain clearing houses appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-17T21:28:14Z",
+            "url": "https://cryptobriefing.com/bank-of-england-blockchain-clearing-houses/",
+            "sentiment_score": 0.1716,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "GBP",
             "title": "European shares fall as investors eye Nvidia results and Jensen Huang’s return hopes",
@@ -672,124 +542,164 @@
             "url": "https://biztoc.com/x/a3c8dc615386ae11",
             "sentiment_score": 0.2353,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Why the wheels are falling off the AI investment boom",
-            "description": "The investment boom behind AI is looking increasingly shaky just as it is about to revolutionise our lives.",
-            "source": "ABC News (AU)",
-            "published_at": "2026-11-16T18:00:00Z",
-            "url": "https://www.abc.net.au/news/2026-11-17/wheels-falling-off-ai-investment-boom-nvidia-anthropic/107392122",
-            "sentiment_score": -0.1751,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK short-term borrowing costs hit three-year high",
-            "description": "Two-year gilt yield breaches 5% on strong economic data and hawkish messaging from Bank of England",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T15:22:57Z",
-            "url": "https://biztoc.com/x/d5c3aaefd4430766",
-            "sentiment_score": 0.1532,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "'Nobody Knows Who's in Charge': Boris Johnson Stands by Bitcoin Skepticism at Breakpoint",
-            "description": "The former UK prime minister told a Solana conference he backs blockchain but still doubts Bitcoin, months after calling it a Ponzi.",
-            "source": "Decrypt",
-            "published_at": "2026-11-16T15:04:56Z",
-            "url": "https://decrypt.co/383307/nobody-knows-whos-in-charge-boris-johnson-stands-by-bitcoin-skepticism-at-breakpoint",
-            "sentiment_score": -0.3071,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Michael Hudson: US Wars on Russia and Iran Are Pushing the World Into a Great Depression",
-            "description": "Michael Hudson discusses how the US tries to remain dominant despite deindustrialisation and how Europe is among its big victims.",
-            "source": "Nakedcapitalism.com",
-            "published_at": "2026-11-16T14:55:35Z",
-            "url": "https://www.nakedcapitalism.com/2026/11/prof-michael-hudson-us-wars-on-russia-and-iran-are-pushing-the-world-into-a-great-depression.html",
-            "sentiment_score": -0.4412,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Hillary Clinton names her preferred ‘leader of the free world’ — and he’s not even American",
-            "description": "The title \"leader of the free world\" has generally been reserved for the American president, but some Americans would apparently prefer to look abroad for leadership.Just as twice-failed presidential candidate Hillary Clinton would not accept President Donald…",
-            "source": "TheBlaze",
-            "published_at": "2026-11-16T14:30:00Z",
-            "url": "https://www.theblaze.com/news/hillary-clinton-names-foreign-globalist-her-preferred-leader-of-the-free-world",
-            "sentiment_score": 0.3095,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Banks are banning AI agents over security... and competition concerns",
-            "description": "Banks are embracing AI while banning external agents from accessing accounts. Security and reliability concerns are real, but AI agents also pose a competitive threat to banks.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-16T13:30:00Z",
-            "url": "https://cointelegraph.com/magazine/banks-are-banning-ai-agents-over-security-and-competition-concerns",
-            "sentiment_score": 0.073,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Private Credit and Stablecoins Pose Risks Beyond Size, BoE Governor Bailey Warns",
-            "description": "Private credit and stablecoins could become systemic risks before they achieve systemic size, Bank of England governor Andrew Bailey warned on Friday, signaling that global policymakers should continue to be vigilant on those corners of global finance. “Some …",
-            "source": "Insurance Journal",
-            "published_at": "2026-11-16T12:38:05Z",
-            "url": "https://www.insurancejournal.com/news/international/2026/11/16/892690.htm",
-            "sentiment_score": 0.0258,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Central Banks Test Synchronized FX Settlements Using Blockchain Tech",
-            "description": "The Bank of England, Monetary Authority of Singapore, and Bank of Thailand released findings from Project Meridian FX APAC showing synchronized settlement works across RTGS and DLT systems for safer, more efficient FX trades.\nThe post Central Banks Test Synch…",
-            "source": "The Daily Hodl",
-            "published_at": "2026-11-16T08:01:51Z",
-            "url": "https://dailyhodl.com/2026/11/16/central-banks-test-synchronized-fx-settlements-using-blockchain-tech/",
-            "sentiment_score": 0.2204,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Oaktree IPO of company holding more than 950 apartments drifts to first half of 2027",
-            "description": "Apartments built on the former Irish Glass Bottle site are set to anchor the IPO",
-            "source": "The Irish Times",
-            "published_at": "2026-11-16T05:00:00Z",
-            "url": "https://www.irishtimes.com/business/2026/11/16/oaktree-ipo-of-company-holding-more-than-950-apartments-drifts-to-first-half-of-2027/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Three Central Banks Test a Bridge Between Traditional FX and Tokenized Settlement",
-            "description": "The Bank of England, Monetary Authority of Singapore and Bank of Thailand have completed a cross-border foreign-exchange settlement experiment designed to connect existing payment infrastructure with tokenised systems. The project might sound technical, but i…",
-            "source": "newsBTC",
-            "published_at": "2026-11-16T01:00:00Z",
-            "url": "https://www.newsbtc.com/news/blockchain/central-banks-meridian-fx-apac-tokenized-settlement-test/",
-            "sentiment_score": 0.0116,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "GBP",
-            "title": "UK Tests Cross-Border Settlement With Singapore and Thailand",
-            "description": "The central banks of England, Singapore and Thailand say they’ve found a new way to streamline foreign exchange (FX) transactions. The Bank of England, Monetary Authority of Singapore and Bank of Thailand published the results of their efforts Friday (Nov. 13…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T00:09:08Z",
-            "url": "https://biztoc.com/x/d3074733a9052180",
-            "sentiment_score": 0.0232,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.133,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.1044,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+            "description": "The dollar remains firm near its highest level in 19 months, buoyed by encouraging economic indicators from the US and statements from Federal Reserve officials. Japan's trade data showed record exports in October, fueled by high semiconductor demand, despite…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:10:25Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-holds-near-19-month-high-as-data-supports-case-for-us-rate-hikes/articleshow/135945560.cms",
+            "sentiment_score": 0.385,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hits over one-year low ahead of Fed minutes",
+            "description": "Gold prices have plummeted to their lowest since October 2025, driven by a robust US dollar and rising interest rate expectations. The Federal Reserve's officials emphasized the necessity for additional hikes to tackle inflation effectively. Investors are kee…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:08:58Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hits-over-one-year-low-ahead-of-fed-minutes/articleshow/135945512.cms",
+            "sentiment_score": 0.016,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says",
+            "description": "A potential Fed policy shift due to an AI downturn could create a favorable environment for Bitcoin, highlighting its role as a hedge.\nThe post Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says appeared first…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-18T01:50:02Z",
+            "url": "https://cryptobriefing.com/bitcoin-ai-downturn-fed-policy/",
+            "sentiment_score": 0.5618,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Staff Are Modeling an AI Bubble Burst Among Three Futures as Bitcoin Tracks the Nasdaq",
+            "description": "Kevin Warsh says Fed staff are modeling three AI futures, including an AI bubble burst, as Bitcoin's 30-day correlation with the Nasdaq hits 0.68.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T01:31:03Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/ai-bubble-burst-fed-warsh-scenarios-bitcoin-nasdaq/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
+            "description": "Contracts for the Nasdaq 100 Index jumped 1.3% and those for the S&P 500 Index rose 0.7% following the chipmaker’s results. Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jen…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T01:08:58Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms",
+            "sentiment_score": 0.5554,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Regional Bank Stocks For Higher Rates In The US",
+            "description": "When a Federal Reserve official talks about \"soon\" rate hikes and a higher path for borrowing costs through 2027, the ripple effects can reshape which stocks quietly gain an edge. Rising real yields can reward some balance sheets while putting others under st…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-18T00:59:43Z",
+            "url": "https://biztoc.com/x/3ec8a234487762f7",
+            "sentiment_score": 0.2389,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia Revenue Doubles to $115.8 Billion Under an Interim CEO as Bitcoin Pushes Back Toward $65,000",
+            "description": "Nvidia's first quarter under interim CEO Colette Kress brought $115.8 billion in revenue and a $130 billion outlook, and Bitcoin rose toward $65,000.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T00:45:25Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/nvidia-revenue-q3-fiscal-2027-colette-kress-bitcoin/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A perfect storm is descending on the AI industry",
+            "description": "The stock market is set to christen a new trillion-dollar company on Wednesday, as the AI juggernaut Anthropic goes public. The IPO should have been the crowning triumph of the AI boom — a testament to the technology’s mind-bending commercial value, which ena…",
+            "source": "Vox",
+            "published_at": "2026-11-18T00:07:26Z",
+            "url": "https://www.vox.com/politics/511132/anthropic-ipo-ai-bubble-nvidia",
+            "sentiment_score": 0.6015,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Lisa Cook’s lawyers say she’ll refuse to attend panel considering her dismissal from Federal Reserve",
+            "description": "Charges she committed mortgage fraud playing a role in her qualifications",
+            "source": "Wnd.com",
+            "published_at": "2026-11-17T23:27:18Z",
+            "url": "https://www.wnd.com/2026/11/lisa-cooks-lawyers-say-shell-refuse-attend-panel/",
+            "sentiment_score": -0.3448,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "Nvidia shares rose in extended trading after the company’s first earnings report since co-founder Jensen Huang resigned last week.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T23:10:47Z",
+            "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed’s Lisa Cook refuses to attend White House hearing",
+            "description": "US President Donald Trump has been trying to fire Cook since August 2025.",
+            "source": "Al Jazeera English",
+            "published_at": "2026-11-17T22:01:27Z",
+            "url": "https://www.aljazeera.com/economy/2026/11/17/us-feds-lisa-cook-refuses-to-attend-white-house-hearing",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Williams: AI boom may fuel rate hikes in 2027",
+            "description": "United States Federal Reserve Bank of New York President John Williams said surging investment in artificial intelligence could add to inflationary pressures and prompt the central bank to raise inter...",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:56Z",
+            "url": "https://biztoc.com/x/0b66d90890f39d49",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Lisa Cook to skip dubious hearing with Trump’s ‘committee of inquiry’",
+            "description": "It was 15 months ago when Donald Trump, exercising a power the president didn’t appear to have, said he would fire Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: The president wanted to seize greater control ove…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:45Z",
+            "url": "https://biztoc.com/x/9ab3cb0362560b5e",
+            "sentiment_score": -0.1047,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Business Cycle Indicators: Industrial, Mfg. Production, Retail Sales",
+            "description": "Nominal retail sales upside surprise (+0.2% vs consensus +0.1% m/m), but actual real declines. Manufacturing production +0.3% vs. consensus +0.2% m/m (industrial production down primarily because of utilities). Figure 1: NFP employment (bold blue), civilian e…",
+            "source": "Econbrowser.com",
+            "published_at": "2026-11-17T21:20:51Z",
+            "url": "https://econbrowser.com/archives/2026/11/us-business-cycle-indicators-industrial-mfg-production-retail-sales",
+            "sentiment_score": 0.1818,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Professional misconduct complaints against DOJ officials are rising",
+            "description": "The number of professional misconduct complaints filed against Justice Department officials has increased by more than 50% over a two-year period, according to the department's inspector general.",
+            "source": "CBS News",
+            "published_at": "2026-11-17T21:19:34Z",
+            "url": "https://www.cbsnews.com/news/professional-misconduct-complaints-justice-department-officials/",
+            "sentiment_score": -0.1383,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Cleveland Fed’s Hammack supports gradual rate hikes, warns of larger increases if needed",
@@ -939,180 +849,30 @@
             "url": "https://biztoc.com/x/5ea2d965a609a5a2",
             "sentiment_score": -0.1673,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022",
-            "description": "The crypto market's vulnerability to interest rate shocks highlights the need for robust risk management and diversification strategies.\nThe post Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T18:12:08Z",
-            "url": "https://cryptobriefing.com/crypto-market-rate-shock-impact/",
-            "sentiment_score": -0.3937,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed’s first close look at the AI buildout finds $3 trillion of AI commitments that aren’t on big tech’s balance sheet as debt",
-            "description": "Seven companies’ leases, contracts, and guarantees have grown faster than their debt. Nvidia reports earnings tonight without Jensen Huang.",
-            "source": "Fortune",
-            "published_at": "2026-11-17T18:00:00Z",
-            "url": "https://fortune.com/2026/11/17/fed-financial-stability-report-ai-data-center-3-trillion-off-balance-sheet-nvidia/",
-            "sentiment_score": -0.2834,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Outage math at the airport: When a four-hour Uber beats waiting out a ground stop",
-            "description": "Flight delays are becoming more common, causing financial and emotional stress for travelers",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-17T17:57:57Z",
-            "url": "https://abcnews.com/Business/wireStory/outage-math-airport-hour-uber-beats-waiting-ground-138218486",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tech leaders tell Fed chairman Warsh how AI could transform the economy",
-            "description": "Just maybe, both the extreme techno-optimists and AI doom-and-gloomers are wrong about the economic impact of the technology.\nThat's the argument that venture capitalist Marc Andreessen — who is co-leading a Federal Reserve task force on the topic — made in a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:49:16Z",
-            "url": "https://biztoc.com/x/517d7f5532646542",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump target threatens to blow off 'unfair' White House hearing on her firing",
-            "description": "A lawyer for Federal Reserve Governor Lisa Cook has notified the White House that his client has no intention of showing up for a scheduled hearing.At least not without a plethora of changes, the Wall Street Journal reported.Cook’s attorney, Abbe Lowell, spel…",
-            "source": "Raw Story",
-            "published_at": "2026-11-17T17:39:54Z",
-            "url": "https://www.rawstory.com/lida-cook-fed-trump/",
-            "sentiment_score": -0.6463,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-            "description": "Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-17T17:39:41Z",
-            "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
-            "sentiment_score": -0.4715,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says",
-            "description": "Gold's psychological price drop highlights market sentiment's power, emphasizing the need for strategic diversification amid economic uncertainties.\nThe post Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T17:25:51Z",
-            "url": "https://cryptobriefing.com/golds-drop-below-4000-is-largely-psychological-american-hartford-gold-president-says/",
-            "sentiment_score": -0.3955,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"",
-            "description": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"\n \nFederal Reserve Governor Lisa Cook will not take part in the White House hearing that could end with President Trump firing her unless the administration replaces the panel a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:19:00Z",
-            "url": "https://biztoc.com/x/7a61f5dac298a165",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Christopher Waller Wants Fed Money Beneath Tokenized Markets, Not in Every Trade",
-            "description": "Fed Governor Christopher Waller says tokenized assets will compete on open, always-on blockchains, but central bank money must anchor the system.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-17T17:09:25Z",
-            "url": "https://www.dcforecasts.com/regulation/christopher-waller-tokenized-assets-central-bank-money/",
-            "sentiment_score": 0.027,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed official Lisa Cook refuses to attend White House firing hearing, citing bias",
-            "description": "Federal Reserve governor Lisa Cook won’t take part in a Dec. 14 White House hearing on whether to fire her unless the panel and its rules change, her lawyer said in a letter Monday. Letters exchanged since September show the two sides clashing over dates, doc…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:03:43Z",
-            "url": "https://biztoc.com/x/a476ae5d76edd897",
-            "sentiment_score": -0.3971,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin holds near $64,800 as ETF outflow streak ends",
-            "description": "The end of the ETF outflow streak suggests potential stabilization, but broader market pressures and investor caution could hinder sustained recovery.\nThe post Bitcoin holds near $64,800 as ETF outflow streak ends appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:59:23Z",
-            "url": "https://cryptobriefing.com/bitcoin-etf-outflow-streak-ends-64800/",
-            "sentiment_score": -0.1349,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "If a Stock Market Crash Is Coming, Here’s the Most Important Move Warren Buffett Would Make Right Now",
-            "description": "The broader benchmark S&P 500 (SNPINDEX:^GSPC) is up over 10% this year, but investors are still on edge, as the list of things that could go wrong keeps growing.\nInflation remains stubbornly high, and the Federal Reserve has already raised rates once this ye…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T16:52:13Z",
-            "url": "https://biztoc.com/x/a3d910178f66a63c",
-            "sentiment_score": -0.3289,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Musalem says AI is pulling demand forward, and policy can’t wait",
-            "description": "AI-driven demand pressures may prompt prolonged higher interest rates, impacting borrowing costs and potentially cooling consumer spending.\nThe post Fed’s Musalem says AI is pulling demand forward, and policy can’t wait appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:46:57Z",
-            "url": "https://cryptobriefing.com/fed-musalem-ai-demand-investment-inflation/",
-            "sentiment_score": -0.1128,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Won't Be Appearing at Hearing on Fate of Her Job",
-            "description": "Federal Reserve governor Lisa Cook declined through her lawyers to appear next month before a Trump administration committee that is considering whether she should be fired, calling the process unfair and committed to a predetermined outcome. The refusal exte…",
-            "source": "Newser",
-            "published_at": "2026-11-17T16:44:00Z",
-            "url": "https://www.newser.com/story/400173/lisa-cook-wont-be-appearing-at-hearing-on-fate-of-her-job.html",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
-            "description": "Comments by financial officials on opposite sides of the world Monday (Nov. 16) suggest regulators are converging on the need to address two challenges posed by agentic AI: how to ensure institutions remain accountable for agents they deploy, and how institut…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-17T16:34:20Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/regulators-converge-on-twin-compliance-challenges-from-ai-agents/",
-            "sentiment_score": 0.1862,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.246,
-      "bias": "เอียงบวกต่อ GBP (มีแนวโน้มหนุนราคาขึ้น)",
+      "net_score": 0.1393,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.31492,
+      "price_now": 1.31289,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 37.7,
-      "rsi_signal": "โซนกลาง (RSI=37.7)",
+      "rsi_value": 31.9,
+      "rsi_signal": "โซนกลาง (RSI=31.9)",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00118,
-      "suggested_sl_distance": 0.00177,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "atr_value": 0.00112,
+      "suggested_sl_distance": 0.00169,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
+      "technical_vote": -1,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -1121,9 +881,9 @@
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=37.7) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=31.9) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-18T21:17:50.326844+00:00"
+    "generated_at": "2026-11-19T03:07:17.028410+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1132,10 +892,160 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.133,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.1044,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+            "description": "The dollar remains firm near its highest level in 19 months, buoyed by encouraging economic indicators from the US and statements from Federal Reserve officials. Japan's trade data showed record exports in October, fueled by high semiconductor demand, despite…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:10:25Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-holds-near-19-month-high-as-data-supports-case-for-us-rate-hikes/articleshow/135945560.cms",
+            "sentiment_score": 0.385,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hits over one-year low ahead of Fed minutes",
+            "description": "Gold prices have plummeted to their lowest since October 2025, driven by a robust US dollar and rising interest rate expectations. The Federal Reserve's officials emphasized the necessity for additional hikes to tackle inflation effectively. Investors are kee…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:08:58Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hits-over-one-year-low-ahead-of-fed-minutes/articleshow/135945512.cms",
+            "sentiment_score": 0.016,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says",
+            "description": "A potential Fed policy shift due to an AI downturn could create a favorable environment for Bitcoin, highlighting its role as a hedge.\nThe post Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says appeared first…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-18T01:50:02Z",
+            "url": "https://cryptobriefing.com/bitcoin-ai-downturn-fed-policy/",
+            "sentiment_score": 0.5618,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Staff Are Modeling an AI Bubble Burst Among Three Futures as Bitcoin Tracks the Nasdaq",
+            "description": "Kevin Warsh says Fed staff are modeling three AI futures, including an AI bubble burst, as Bitcoin's 30-day correlation with the Nasdaq hits 0.68.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T01:31:03Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/ai-bubble-burst-fed-warsh-scenarios-bitcoin-nasdaq/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
+            "description": "Contracts for the Nasdaq 100 Index jumped 1.3% and those for the S&P 500 Index rose 0.7% following the chipmaker’s results. Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jen…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T01:08:58Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms",
+            "sentiment_score": 0.5554,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Regional Bank Stocks For Higher Rates In The US",
+            "description": "When a Federal Reserve official talks about \"soon\" rate hikes and a higher path for borrowing costs through 2027, the ripple effects can reshape which stocks quietly gain an edge. Rising real yields can reward some balance sheets while putting others under st…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-18T00:59:43Z",
+            "url": "https://biztoc.com/x/3ec8a234487762f7",
+            "sentiment_score": 0.2389,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia Revenue Doubles to $115.8 Billion Under an Interim CEO as Bitcoin Pushes Back Toward $65,000",
+            "description": "Nvidia's first quarter under interim CEO Colette Kress brought $115.8 billion in revenue and a $130 billion outlook, and Bitcoin rose toward $65,000.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T00:45:25Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/nvidia-revenue-q3-fiscal-2027-colette-kress-bitcoin/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A perfect storm is descending on the AI industry",
+            "description": "The stock market is set to christen a new trillion-dollar company on Wednesday, as the AI juggernaut Anthropic goes public. The IPO should have been the crowning triumph of the AI boom — a testament to the technology’s mind-bending commercial value, which ena…",
+            "source": "Vox",
+            "published_at": "2026-11-18T00:07:26Z",
+            "url": "https://www.vox.com/politics/511132/anthropic-ipo-ai-bubble-nvidia",
+            "sentiment_score": 0.6015,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Lisa Cook’s lawyers say she’ll refuse to attend panel considering her dismissal from Federal Reserve",
+            "description": "Charges she committed mortgage fraud playing a role in her qualifications",
+            "source": "Wnd.com",
+            "published_at": "2026-11-17T23:27:18Z",
+            "url": "https://www.wnd.com/2026/11/lisa-cooks-lawyers-say-shell-refuse-attend-panel/",
+            "sentiment_score": -0.3448,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "Nvidia shares rose in extended trading after the company’s first earnings report since co-founder Jensen Huang resigned last week.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T23:10:47Z",
+            "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed’s Lisa Cook refuses to attend White House hearing",
+            "description": "US President Donald Trump has been trying to fire Cook since August 2025.",
+            "source": "Al Jazeera English",
+            "published_at": "2026-11-17T22:01:27Z",
+            "url": "https://www.aljazeera.com/economy/2026/11/17/us-feds-lisa-cook-refuses-to-attend-white-house-hearing",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Williams: AI boom may fuel rate hikes in 2027",
+            "description": "United States Federal Reserve Bank of New York President John Williams said surging investment in artificial intelligence could add to inflationary pressures and prompt the central bank to raise inter...",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:56Z",
+            "url": "https://biztoc.com/x/0b66d90890f39d49",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Lisa Cook to skip dubious hearing with Trump’s ‘committee of inquiry’",
+            "description": "It was 15 months ago when Donald Trump, exercising a power the president didn’t appear to have, said he would fire Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: The president wanted to seize greater control ove…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:45Z",
+            "url": "https://biztoc.com/x/9ab3cb0362560b5e",
+            "sentiment_score": -0.1047,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Business Cycle Indicators: Industrial, Mfg. Production, Retail Sales",
+            "description": "Nominal retail sales upside surprise (+0.2% vs consensus +0.1% m/m), but actual real declines. Manufacturing production +0.3% vs. consensus +0.2% m/m (industrial production down primarily because of utilities). Figure 1: NFP employment (bold blue), civilian e…",
+            "source": "Econbrowser.com",
+            "published_at": "2026-11-17T21:20:51Z",
+            "url": "https://econbrowser.com/archives/2026/11/us-business-cycle-indicators-industrial-mfg-production-retail-sales",
+            "sentiment_score": 0.1818,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Professional misconduct complaints against DOJ officials are rising",
+            "description": "The number of professional misconduct complaints filed against Justice Department officials has increased by more than 50% over a two-year period, according to the department's inspector general.",
+            "source": "CBS News",
+            "published_at": "2026-11-17T21:19:34Z",
+            "url": "https://www.cbsnews.com/news/professional-misconduct-complaints-justice-department-officials/",
+            "sentiment_score": -0.1383,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Cleveland Fed’s Hammack supports gradual rate hikes, warns of larger increases if needed",
@@ -1285,164 +1195,24 @@
             "url": "https://biztoc.com/x/5ea2d965a609a5a2",
             "sentiment_score": -0.1673,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022",
-            "description": "The crypto market's vulnerability to interest rate shocks highlights the need for robust risk management and diversification strategies.\nThe post Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T18:12:08Z",
-            "url": "https://cryptobriefing.com/crypto-market-rate-shock-impact/",
-            "sentiment_score": -0.3937,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed’s first close look at the AI buildout finds $3 trillion of AI commitments that aren’t on big tech’s balance sheet as debt",
-            "description": "Seven companies’ leases, contracts, and guarantees have grown faster than their debt. Nvidia reports earnings tonight without Jensen Huang.",
-            "source": "Fortune",
-            "published_at": "2026-11-17T18:00:00Z",
-            "url": "https://fortune.com/2026/11/17/fed-financial-stability-report-ai-data-center-3-trillion-off-balance-sheet-nvidia/",
-            "sentiment_score": -0.2834,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Outage math at the airport: When a four-hour Uber beats waiting out a ground stop",
-            "description": "Flight delays are becoming more common, causing financial and emotional stress for travelers",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-17T17:57:57Z",
-            "url": "https://abcnews.com/Business/wireStory/outage-math-airport-hour-uber-beats-waiting-ground-138218486",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tech leaders tell Fed chairman Warsh how AI could transform the economy",
-            "description": "Just maybe, both the extreme techno-optimists and AI doom-and-gloomers are wrong about the economic impact of the technology.\nThat's the argument that venture capitalist Marc Andreessen — who is co-leading a Federal Reserve task force on the topic — made in a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:49:16Z",
-            "url": "https://biztoc.com/x/517d7f5532646542",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump target threatens to blow off 'unfair' White House hearing on her firing",
-            "description": "A lawyer for Federal Reserve Governor Lisa Cook has notified the White House that his client has no intention of showing up for a scheduled hearing.At least not without a plethora of changes, the Wall Street Journal reported.Cook’s attorney, Abbe Lowell, spel…",
-            "source": "Raw Story",
-            "published_at": "2026-11-17T17:39:54Z",
-            "url": "https://www.rawstory.com/lida-cook-fed-trump/",
-            "sentiment_score": -0.6463,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-            "description": "Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-17T17:39:41Z",
-            "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
-            "sentiment_score": -0.4715,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says",
-            "description": "Gold's psychological price drop highlights market sentiment's power, emphasizing the need for strategic diversification amid economic uncertainties.\nThe post Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T17:25:51Z",
-            "url": "https://cryptobriefing.com/golds-drop-below-4000-is-largely-psychological-american-hartford-gold-president-says/",
-            "sentiment_score": -0.3955,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"",
-            "description": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"\n \nFederal Reserve Governor Lisa Cook will not take part in the White House hearing that could end with President Trump firing her unless the administration replaces the panel a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:19:00Z",
-            "url": "https://biztoc.com/x/7a61f5dac298a165",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Christopher Waller Wants Fed Money Beneath Tokenized Markets, Not in Every Trade",
-            "description": "Fed Governor Christopher Waller says tokenized assets will compete on open, always-on blockchains, but central bank money must anchor the system.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-17T17:09:25Z",
-            "url": "https://www.dcforecasts.com/regulation/christopher-waller-tokenized-assets-central-bank-money/",
-            "sentiment_score": 0.027,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed official Lisa Cook refuses to attend White House firing hearing, citing bias",
-            "description": "Federal Reserve governor Lisa Cook won’t take part in a Dec. 14 White House hearing on whether to fire her unless the panel and its rules change, her lawyer said in a letter Monday. Letters exchanged since September show the two sides clashing over dates, doc…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:03:43Z",
-            "url": "https://biztoc.com/x/a476ae5d76edd897",
-            "sentiment_score": -0.3971,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin holds near $64,800 as ETF outflow streak ends",
-            "description": "The end of the ETF outflow streak suggests potential stabilization, but broader market pressures and investor caution could hinder sustained recovery.\nThe post Bitcoin holds near $64,800 as ETF outflow streak ends appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:59:23Z",
-            "url": "https://cryptobriefing.com/bitcoin-etf-outflow-streak-ends-64800/",
-            "sentiment_score": -0.1349,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "If a Stock Market Crash Is Coming, Here’s the Most Important Move Warren Buffett Would Make Right Now",
-            "description": "The broader benchmark S&P 500 (SNPINDEX:^GSPC) is up over 10% this year, but investors are still on edge, as the list of things that could go wrong keeps growing.\nInflation remains stubbornly high, and the Federal Reserve has already raised rates once this ye…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T16:52:13Z",
-            "url": "https://biztoc.com/x/a3d910178f66a63c",
-            "sentiment_score": -0.3289,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Musalem says AI is pulling demand forward, and policy can’t wait",
-            "description": "AI-driven demand pressures may prompt prolonged higher interest rates, impacting borrowing costs and potentially cooling consumer spending.\nThe post Fed’s Musalem says AI is pulling demand forward, and policy can’t wait appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:46:57Z",
-            "url": "https://cryptobriefing.com/fed-musalem-ai-demand-investment-inflation/",
-            "sentiment_score": -0.1128,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Won't Be Appearing at Hearing on Fate of Her Job",
-            "description": "Federal Reserve governor Lisa Cook declined through her lawyers to appear next month before a Trump administration committee that is considering whether she should be fired, calling the process unfair and committed to a predetermined outcome. The refusal exte…",
-            "source": "Newser",
-            "published_at": "2026-11-17T16:44:00Z",
-            "url": "https://www.newser.com/story/400173/lisa-cook-wont-be-appearing-at-hearing-on-fate-of-her-job.html",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
-            "description": "Comments by financial officials on opposite sides of the world Monday (Nov. 16) suggest regulators are converging on the need to address two challenges posed by agentic AI: how to ensure institutions remain accountable for agents they deploy, and how institut…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-17T16:34:20Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/regulators-converge-on-twin-compliance-challenges-from-ai-agents/",
-            "sentiment_score": 0.1862,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0592,
-        "label": "ลบเล็กน้อย",
-        "article_count": 17,
+        "average_score": -0.0195,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 6,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Bank of Japan governor says central bank should keep raising rates",
+            "description": "",
+            "source": "CNA",
+            "published_at": "2026-11-18T01:34:28Z",
+            "url": "https://www.channelnewsasia.com/business/bank-japan-governor-says-central-bank-should-keep-raising-rates-6560926",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "JPY",
             "title": "Japan Stocks Extend Sharp Selloff as Nikkei Falls Below 59,000",
@@ -1492,130 +1262,10 @@
             "url": "https://www.channelnewsasia.com/business/japan-postpone-launch-new-floating-rate-government-bonds-sources-say-6557391",
             "sentiment_score": -0.1739,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s Defense Lessons From Ukraine and the Middle East",
-            "description": "The ability to surge weapons production in wartime is now a critical pillar of deterrence.",
-            "source": "Foreign Policy",
-            "published_at": "2026-11-16T16:08:29Z",
-            "url": "http://foreignpolicy.com/2026/11/16/japan-defense-industry-military-weapons-strategy-takaichi/",
-            "sentiment_score": -0.0425,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s economy stalls, giving Bitcoin no automatic relief from yen funding costs",
-            "description": "With the BOJ rate at 1.25%, weak consumption strengthens the case for caution while inflation risks keep further tightening in view.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch next. Get The Catalyst in your i…",
-            "source": "CryptoSlate",
-            "published_at": "2026-11-16T13:30:20Z",
-            "url": "https://cryptoslate.com/japans-economy-stalls-giving-bitcoin-no-automatic-relief-from-yen-funding-costs/",
-            "sentiment_score": -0.2989,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week",
-            "description": "Bitcoin traders await Nvidia earnings and Fed commentary after BTC price weakness saw a dip below $62,000 for the first time since July.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-16T10:39:05Z",
-            "url": "https://cointelegraph.com/markets/btc-price-18-week-low-nvidia-three-things-know-bitcoin-this-week",
-            "sentiment_score": -0.2932,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Dollar extends rally, yen looks past soft Japan GDP data",
-            "description": "GDANSK, Nov 16 : The dollar held at April 2025 highs on Monday as markets awaited comments from Federal Reserve Chair Kevin Warsh for clues on the US interest-rate outlook and investors looked through an unexpected third-quarter contraction in the Japanese ec…",
-            "source": "CNA",
-            "published_at": "2026-11-16T10:36:25Z",
-            "url": "https://www.channelnewsasia.com/business/dollar-extends-rally-yen-looks-past-soft-japan-gdp-data-6553776",
-            "sentiment_score": 0.0819,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan Stocks Plunge 1,480 Points as AI Selloff Deepens",
-            "description": "Japan's benchmark Nikkei 225 Stock Average plunged 1,480.33 points, or 2.42%, to close at 59,662.02 on Monday, November 16, 2026, at 3:30 p.m. Tokyo time, falling back below the psychologically important 60,000 level as renewed selling in artificial intellige…",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-11-16T09:24:13Z",
-            "url": "https://newsonjapan.com/article/151397.php",
-            "sentiment_score": 0.0155,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan’s economy stalls as inflation bites",
-            "description": "Japan’s economy recorded zero growth in the third quarter, official data shows, hit by war-fuelled inflation, bad weather, and a recent earthquake.\n\nRead More: https://punchng.com/japans-economy-stalls-as-inflation-bites/",
-            "source": "The Punch",
-            "published_at": "2026-11-16T08:52:31Z",
-            "url": "https://punchng.com/japans-economy-stalls-as-inflation-bites/",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Nikkei 225 Tumbles 2.4% Below 60,000 Mark as Japanese Stocks Lose Nearly 1,500 Points in Sharp Monday Selloff",
-            "description": "Japan's Nikkei 225 fell 2.42% to 59,662.02, breaking below 60,000 as South Korea's KOSPI dropped sharply and investors monitored technology stocks, the yen and interest rates.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-16T07:32:39Z",
-            "url": "https://www.ibtimes.com.au/nikkei-225-falls-below-60000-asian-markets-slide-1878666",
-            "sentiment_score": -0.1437,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ's Takata calls for swift hike in rates to 'good' position",
-            "description": "By Leika Kihara\nTOKYO, Nov 16 (Reuters) - The Bank of Japan must raise its policy rate to a \"good\" position at an early stage and focus on addressing mounting inflation risks, its hawkish board member Hajime Takata said, signalling the chance of a hike as soo…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T06:44:25Z",
-            "url": "https://biztoc.com/x/7c3fefdb6e0fce1e",
-            "sentiment_score": 0.5268,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "BOJ's Takata calls for swift hike in rates to 'good' position",
-            "description": "TOKYO, Nov 16 : The Bank of Japan must raise its policy rate to a \"good\" position at an early stage and focus on forestalling upside price risks including from the Middle East conflict, its board member Hajime Takata said on Monday.\"I believe the bank needs t…",
-            "source": "CNA",
-            "published_at": "2026-11-16T04:29:28Z",
-            "url": "https://www.channelnewsasia.com/business/bojs-takata-calls-swift-hike-in-rates-good-position-6554261",
-            "sentiment_score": 0.3619,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's economy unexpectedly shrinks in July-September as consumption falters",
-            "description": "TOKYO, Nov 16 : Japan's economy contracted by an annualised 0.1 per cent in the July-September quarter, government data showed on Monday, reflecting weak consumer spending as households grappled with elevated living costs.The first contraction in four quarter…",
-            "source": "CNA",
-            "published_at": "2026-11-16T00:12:53Z",
-            "url": "https://www.channelnewsasia.com/business/japans-economy-unexpectedly-shrinks-in-july-september-consumption-falters-6553696",
-            "sentiment_score": -0.1321,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's economy unexpectedly shrinks as inflation squeezes households",
-            "description": "TOKYO, Nov 16 : Japan's economy unexpectedly contracted an annualised 0.1 per cent in the July-September quarter, government data showed on Monday, reflecting weak consumer spending as households grappled with higher living costs.The first contraction in four…",
-            "source": "CNA",
-            "published_at": "2026-11-16T00:12:53Z",
-            "url": "https://www.channelnewsasia.com/business/japans-economy-unexpectedly-shrinks-inflation-squeezes-households-6553696",
-            "sentiment_score": -0.1321,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan's economy unexpectedly shrinks as inflation squeezes households",
-            "description": "The first contraction in four quarters underscores the uneven nature of Japan's economic recovery, with households remaining vulnerable to persistent inflation despite rising wages.",
-            "source": "CNA",
-            "published_at": "2026-11-16T00:12:00Z",
-            "url": "https://www.channelnewsasia.com/business/japan-economy-shrinks-inflation-households-living-costs-6553696",
-            "sentiment_score": -0.0679,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0738,
+      "net_score": 0.1239,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1625,28 +1275,28 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 159.34399,
-      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
+      "price_now": 159.466,
+      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 51.3,
-      "rsi_signal": "โซนกลาง (RSI=51.3)",
+      "rsi_value": 57.2,
+      "rsi_signal": "โซนกลาง (RSI=57.2)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.14752,
-      "suggested_sl_distance": 0.22127,
+      "atr_value": 0.1455,
+      "suggested_sl_distance": 0.21825,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 0,
-      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "none",
-      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
+      "technical_vote": 2,
+      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
+      "trend_direction": "up",
+      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "USDJPY",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
+      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=57.2) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-18T21:17:50.326844+00:00"
+    "generated_at": "2026-11-19T03:07:17.028410+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1655,57 +1305,177 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.1513,
-        "label": "ลบเล็กน้อย",
-        "article_count": 4,
+        "average_score": 0.2252,
+        "label": "บวกเล็กน้อย",
+        "article_count": 1,
         "scored_articles": [
           {
             "currency": "AUD",
-            "title": "I'm an economist - here's why Australia's interest rate pain could get worse as the RBA faces a 'nightmare' scenario",
-            "description": "The more Australians think we're losing the fight against inflation, the more the RBA may have to consider another rate hike in the months ahead.",
-            "source": "Dailymail.com",
-            "published_at": "2026-11-16T23:46:32Z",
-            "url": "https://www.dailymail.com/news/article-16297897/australia-reserve-bank-rate-rise-mortgage-economy.html",
-            "sentiment_score": -0.5598,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "AUD",
-            "title": "If Australians don’t trust the RBA on inflation, the interest rate pain may have to get worse",
-            "description": "The good news? Another rate rise before Christmas looks unlikely. But a behavioural economist explains why public attitudes matter in shaping what happens next.",
-            "source": "The Conversation Africa",
-            "published_at": "2026-11-16T18:23:03Z",
-            "url": "https://theconversation.com/if-australians-dont-trust-the-rba-on-inflation-the-interest-rate-pain-may-have-to-get-worse-296141",
-            "sentiment_score": 0.0639,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "Central Banks Test Synchronized FX Settlements Using Blockchain Tech",
-            "description": "The Bank of England, Monetary Authority of Singapore, and Bank of Thailand released findings from Project Meridian FX APAC showing synchronized settlement works across RTGS and DLT systems for safer, more efficient FX trades.\nThe post Central Banks Test Synch…",
-            "source": "The Daily Hodl",
-            "published_at": "2026-11-16T08:01:51Z",
-            "url": "https://dailyhodl.com/2026/11/16/central-banks-test-synchronized-fx-settlements-using-blockchain-tech/",
-            "sentiment_score": 0.2204,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "AUD",
-            "title": "ASX 200 Slips for Third Straight Session as Miners Sink and Nvidia Turmoil Keeps Australian Investors on Edge",
-            "description": "Australian shares edged lower as mining stocks declined and investor concerns about the artificial intelligence trade outweighed gains in technology and financial stocks.",
+            "title": "ASX 200 Slips to 8,850 as Hot Wage Data and Lendlease Plunge Outweigh Miners' Rebound After Nvidia Beat",
+            "description": "Australian shares declined for a second session as stronger wage growth raised concerns about further RBA rate rises, while Lendlease plunged and mining stocks recovered.",
             "source": "Ibtimes.com.au",
-            "published_at": "2026-11-16T03:44:07Z",
-            "url": "https://www.ibtimes.com.au/asx-200-falls-mining-stocks-ai-jitters-1878631",
-            "sentiment_score": 0.094,
+            "published_at": "2026-11-18T03:03:27Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-fall-wage-growth-lendlease-rba-1878807",
+            "sentiment_score": 0.2252,
             "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.133,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.1044,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+            "description": "The dollar remains firm near its highest level in 19 months, buoyed by encouraging economic indicators from the US and statements from Federal Reserve officials. Japan's trade data showed record exports in October, fueled by high semiconductor demand, despite…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:10:25Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-holds-near-19-month-high-as-data-supports-case-for-us-rate-hikes/articleshow/135945560.cms",
+            "sentiment_score": 0.385,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hits over one-year low ahead of Fed minutes",
+            "description": "Gold prices have plummeted to their lowest since October 2025, driven by a robust US dollar and rising interest rate expectations. The Federal Reserve's officials emphasized the necessity for additional hikes to tackle inflation effectively. Investors are kee…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:08:58Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hits-over-one-year-low-ahead-of-fed-minutes/articleshow/135945512.cms",
+            "sentiment_score": 0.016,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says",
+            "description": "A potential Fed policy shift due to an AI downturn could create a favorable environment for Bitcoin, highlighting its role as a hedge.\nThe post Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says appeared first…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-18T01:50:02Z",
+            "url": "https://cryptobriefing.com/bitcoin-ai-downturn-fed-policy/",
+            "sentiment_score": 0.5618,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Staff Are Modeling an AI Bubble Burst Among Three Futures as Bitcoin Tracks the Nasdaq",
+            "description": "Kevin Warsh says Fed staff are modeling three AI futures, including an AI bubble burst, as Bitcoin's 30-day correlation with the Nasdaq hits 0.68.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T01:31:03Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/ai-bubble-burst-fed-warsh-scenarios-bitcoin-nasdaq/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
+            "description": "Contracts for the Nasdaq 100 Index jumped 1.3% and those for the S&P 500 Index rose 0.7% following the chipmaker’s results. Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jen…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T01:08:58Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms",
+            "sentiment_score": 0.5554,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Regional Bank Stocks For Higher Rates In The US",
+            "description": "When a Federal Reserve official talks about \"soon\" rate hikes and a higher path for borrowing costs through 2027, the ripple effects can reshape which stocks quietly gain an edge. Rising real yields can reward some balance sheets while putting others under st…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-18T00:59:43Z",
+            "url": "https://biztoc.com/x/3ec8a234487762f7",
+            "sentiment_score": 0.2389,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia Revenue Doubles to $115.8 Billion Under an Interim CEO as Bitcoin Pushes Back Toward $65,000",
+            "description": "Nvidia's first quarter under interim CEO Colette Kress brought $115.8 billion in revenue and a $130 billion outlook, and Bitcoin rose toward $65,000.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T00:45:25Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/nvidia-revenue-q3-fiscal-2027-colette-kress-bitcoin/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A perfect storm is descending on the AI industry",
+            "description": "The stock market is set to christen a new trillion-dollar company on Wednesday, as the AI juggernaut Anthropic goes public. The IPO should have been the crowning triumph of the AI boom — a testament to the technology’s mind-bending commercial value, which ena…",
+            "source": "Vox",
+            "published_at": "2026-11-18T00:07:26Z",
+            "url": "https://www.vox.com/politics/511132/anthropic-ipo-ai-bubble-nvidia",
+            "sentiment_score": 0.6015,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Lisa Cook’s lawyers say she’ll refuse to attend panel considering her dismissal from Federal Reserve",
+            "description": "Charges she committed mortgage fraud playing a role in her qualifications",
+            "source": "Wnd.com",
+            "published_at": "2026-11-17T23:27:18Z",
+            "url": "https://www.wnd.com/2026/11/lisa-cooks-lawyers-say-shell-refuse-attend-panel/",
+            "sentiment_score": -0.3448,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "Nvidia shares rose in extended trading after the company’s first earnings report since co-founder Jensen Huang resigned last week.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T23:10:47Z",
+            "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed’s Lisa Cook refuses to attend White House hearing",
+            "description": "US President Donald Trump has been trying to fire Cook since August 2025.",
+            "source": "Al Jazeera English",
+            "published_at": "2026-11-17T22:01:27Z",
+            "url": "https://www.aljazeera.com/economy/2026/11/17/us-feds-lisa-cook-refuses-to-attend-white-house-hearing",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Williams: AI boom may fuel rate hikes in 2027",
+            "description": "United States Federal Reserve Bank of New York President John Williams said surging investment in artificial intelligence could add to inflationary pressures and prompt the central bank to raise inter...",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:56Z",
+            "url": "https://biztoc.com/x/0b66d90890f39d49",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Lisa Cook to skip dubious hearing with Trump’s ‘committee of inquiry’",
+            "description": "It was 15 months ago when Donald Trump, exercising a power the president didn’t appear to have, said he would fire Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: The president wanted to seize greater control ove…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:45Z",
+            "url": "https://biztoc.com/x/9ab3cb0362560b5e",
+            "sentiment_score": -0.1047,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Business Cycle Indicators: Industrial, Mfg. Production, Retail Sales",
+            "description": "Nominal retail sales upside surprise (+0.2% vs consensus +0.1% m/m), but actual real declines. Manufacturing production +0.3% vs. consensus +0.2% m/m (industrial production down primarily because of utilities). Figure 1: NFP employment (bold blue), civilian e…",
+            "source": "Econbrowser.com",
+            "published_at": "2026-11-17T21:20:51Z",
+            "url": "https://econbrowser.com/archives/2026/11/us-business-cycle-indicators-industrial-mfg-production-retail-sales",
+            "sentiment_score": 0.1818,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Professional misconduct complaints against DOJ officials are rising",
+            "description": "The number of professional misconduct complaints filed against Justice Department officials has increased by more than 50% over a two-year period, according to the department's inspector general.",
+            "source": "CBS News",
+            "published_at": "2026-11-17T21:19:34Z",
+            "url": "https://www.cbsnews.com/news/professional-misconduct-complaints-justice-department-officials/",
+            "sentiment_score": -0.1383,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Cleveland Fed’s Hammack supports gradual rate hikes, warns of larger increases if needed",
@@ -1855,160 +1625,10 @@
             "url": "https://biztoc.com/x/5ea2d965a609a5a2",
             "sentiment_score": -0.1673,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022",
-            "description": "The crypto market's vulnerability to interest rate shocks highlights the need for robust risk management and diversification strategies.\nThe post Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T18:12:08Z",
-            "url": "https://cryptobriefing.com/crypto-market-rate-shock-impact/",
-            "sentiment_score": -0.3937,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed’s first close look at the AI buildout finds $3 trillion of AI commitments that aren’t on big tech’s balance sheet as debt",
-            "description": "Seven companies’ leases, contracts, and guarantees have grown faster than their debt. Nvidia reports earnings tonight without Jensen Huang.",
-            "source": "Fortune",
-            "published_at": "2026-11-17T18:00:00Z",
-            "url": "https://fortune.com/2026/11/17/fed-financial-stability-report-ai-data-center-3-trillion-off-balance-sheet-nvidia/",
-            "sentiment_score": -0.2834,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Outage math at the airport: When a four-hour Uber beats waiting out a ground stop",
-            "description": "Flight delays are becoming more common, causing financial and emotional stress for travelers",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-17T17:57:57Z",
-            "url": "https://abcnews.com/Business/wireStory/outage-math-airport-hour-uber-beats-waiting-ground-138218486",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tech leaders tell Fed chairman Warsh how AI could transform the economy",
-            "description": "Just maybe, both the extreme techno-optimists and AI doom-and-gloomers are wrong about the economic impact of the technology.\nThat's the argument that venture capitalist Marc Andreessen — who is co-leading a Federal Reserve task force on the topic — made in a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:49:16Z",
-            "url": "https://biztoc.com/x/517d7f5532646542",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump target threatens to blow off 'unfair' White House hearing on her firing",
-            "description": "A lawyer for Federal Reserve Governor Lisa Cook has notified the White House that his client has no intention of showing up for a scheduled hearing.At least not without a plethora of changes, the Wall Street Journal reported.Cook’s attorney, Abbe Lowell, spel…",
-            "source": "Raw Story",
-            "published_at": "2026-11-17T17:39:54Z",
-            "url": "https://www.rawstory.com/lida-cook-fed-trump/",
-            "sentiment_score": -0.6463,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-            "description": "Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-17T17:39:41Z",
-            "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
-            "sentiment_score": -0.4715,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says",
-            "description": "Gold's psychological price drop highlights market sentiment's power, emphasizing the need for strategic diversification amid economic uncertainties.\nThe post Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T17:25:51Z",
-            "url": "https://cryptobriefing.com/golds-drop-below-4000-is-largely-psychological-american-hartford-gold-president-says/",
-            "sentiment_score": -0.3955,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"",
-            "description": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"\n \nFederal Reserve Governor Lisa Cook will not take part in the White House hearing that could end with President Trump firing her unless the administration replaces the panel a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:19:00Z",
-            "url": "https://biztoc.com/x/7a61f5dac298a165",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Christopher Waller Wants Fed Money Beneath Tokenized Markets, Not in Every Trade",
-            "description": "Fed Governor Christopher Waller says tokenized assets will compete on open, always-on blockchains, but central bank money must anchor the system.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-17T17:09:25Z",
-            "url": "https://www.dcforecasts.com/regulation/christopher-waller-tokenized-assets-central-bank-money/",
-            "sentiment_score": 0.027,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed official Lisa Cook refuses to attend White House firing hearing, citing bias",
-            "description": "Federal Reserve governor Lisa Cook won’t take part in a Dec. 14 White House hearing on whether to fire her unless the panel and its rules change, her lawyer said in a letter Monday. Letters exchanged since September show the two sides clashing over dates, doc…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:03:43Z",
-            "url": "https://biztoc.com/x/a476ae5d76edd897",
-            "sentiment_score": -0.3971,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin holds near $64,800 as ETF outflow streak ends",
-            "description": "The end of the ETF outflow streak suggests potential stabilization, but broader market pressures and investor caution could hinder sustained recovery.\nThe post Bitcoin holds near $64,800 as ETF outflow streak ends appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:59:23Z",
-            "url": "https://cryptobriefing.com/bitcoin-etf-outflow-streak-ends-64800/",
-            "sentiment_score": -0.1349,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "If a Stock Market Crash Is Coming, Here’s the Most Important Move Warren Buffett Would Make Right Now",
-            "description": "The broader benchmark S&P 500 (SNPINDEX:^GSPC) is up over 10% this year, but investors are still on edge, as the list of things that could go wrong keeps growing.\nInflation remains stubbornly high, and the Federal Reserve has already raised rates once this ye…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T16:52:13Z",
-            "url": "https://biztoc.com/x/a3d910178f66a63c",
-            "sentiment_score": -0.3289,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Musalem says AI is pulling demand forward, and policy can’t wait",
-            "description": "AI-driven demand pressures may prompt prolonged higher interest rates, impacting borrowing costs and potentially cooling consumer spending.\nThe post Fed’s Musalem says AI is pulling demand forward, and policy can’t wait appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:46:57Z",
-            "url": "https://cryptobriefing.com/fed-musalem-ai-demand-investment-inflation/",
-            "sentiment_score": -0.1128,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Won't Be Appearing at Hearing on Fate of Her Job",
-            "description": "Federal Reserve governor Lisa Cook declined through her lawyers to appear next month before a Trump administration committee that is considering whether she should be fired, calling the process unfair and committed to a predetermined outcome. The refusal exte…",
-            "source": "Newser",
-            "published_at": "2026-11-17T16:44:00Z",
-            "url": "https://www.newser.com/story/400173/lisa-cook-wont-be-appearing-at-hearing-on-fate-of-her-job.html",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
-            "description": "Comments by financial officials on opposite sides of the world Monday (Nov. 16) suggest regulators are converging on the need to address two challenges posed by agentic AI: how to ensure institutions remain accountable for agents they deploy, and how institut…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-17T16:34:20Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/regulators-converge-on-twin-compliance-challenges-from-ai-agents/",
-            "sentiment_score": 0.1862,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0183,
+      "net_score": 0.1208,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2018,17 +1638,17 @@
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.67164,
+      "price_now": 0.66702,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 39.8,
-      "rsi_signal": "โซนกลาง (RSI=39.8)",
+      "rsi_value": 21.4,
+      "rsi_signal": "ขายมากเกิน (RSI=21.4) ราคาอาจเด้ง",
       "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.00079,
-      "suggested_sl_distance": 0.00118,
-      "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -2,
-      "technical_bias": "แนวโน้มขาลง (BEARISH)",
+      "atr_value": 0.00101,
+      "suggested_sl_distance": 0.00152,
+      "bb_signal": "ราคาหลุดกรอบล่าง (ตึงด้านล่าง อาจเด้ง)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "down",
       "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
       "entry_signal": 0
@@ -2037,9 +1657,9 @@
       "pair": "AUDUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=39.8) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=21.4) — รอจังหวะเข้าที่ดีกว่า"
     },
-    "generated_at": "2026-11-18T21:17:50.326844+00:00"
+    "generated_at": "2026-11-19T03:07:17.028410+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -2048,10 +1668,30 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0772,
-        "label": "ลบเล็กน้อย",
-        "article_count": 25,
+        "average_score": -0.0318,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 20,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "ASX 200 Slips to 8,850 as Hot Wage Data and Lendlease Plunge Outweigh Miners' Rebound After Nvidia Beat",
+            "description": "Australian shares declined for a second session as stronger wage growth raised concerns about further RBA rate rises, while Lendlease plunged and mining stocks recovered.",
+            "source": "Ibtimes.com.au",
+            "published_at": "2026-11-18T03:03:27Z",
+            "url": "https://www.ibtimes.com.au/australian-shares-fall-wage-growth-lendlease-rba-1878807",
+            "sentiment_score": 0.2252,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
+            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s latest economic and policy developments reflect a mixed picture of financial stability, market …",
+            "source": "Khabarhub.com",
+            "published_at": "2026-11-18T02:15:56Z",
+            "url": "https://english.khabarhub.com/2026/18/575952/",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "XAU",
             "title": "5 things to watch on the ASX 200 on Wednesday",
@@ -2231,84 +1871,164 @@
             "url": "https://www.livemint.com/money/personal-finance/gold-price-today-delhi-22-carat-10-gram-in-rupees-check-24k-20k-18k-rates-in-national-capital-on-17-nov-tuesday-11794889807905.html",
             "sentiment_score": 0.2011,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price slides to one-year low, heads for worst year since 2015",
-            "description": "Gold prices have been declining due to increased Treasury yields and a stronger dollar affecting demand. The market anticipates tighter monetary policy, which is influencing gold’s performance negatively. Central banks initially showed strong demand for gold,…",
-            "source": "The Times of India",
-            "published_at": "2026-11-16T21:27:41Z",
-            "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/gold-price-slides-to-one-year-low-heads-for-worst-year-since-2015/articleshow/135902147.cms",
-            "sentiment_score": -0.2811,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price falls to lowest level in a year in key signal over interest rates",
-            "description": "Become an Independent member to bookmark this article\nWant to bookmark your favourite articles and stories to read or reference later? Start your Independent Membership today.\nJoin today\nAlready a member? Log in\nThe price of gold has fallen to its lowest leve…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-16T17:11:22Z",
-            "url": "https://biztoc.com/x/a3696594d0558507",
-            "sentiment_score": -0.0636,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Dr. Gideon Boako writes : The Inheritance Test: What NPP Met, What Ato Forson (NDC) Met, And What Each One Actually Did",
-            "description": "There is an interesting raging discussion ignited perhaps by Lawyer Kofi Bentil. Every finance minister in Ghana claims genius. Only one question matters: _What did you meet?_ On TV3’s Key Points on Saturday, November 14, 2026, Bentil put it this way: There a…",
-            "source": "Thechronicle.com.gh",
-            "published_at": "2026-11-16T10:47:29Z",
-            "url": "https://thechronicle.com.gh/dr-gideon-boako-writes-the-inheritance-test-what-npp-met-what-ato-forson-ndc-met-and-what-each-one-actually-did/",
-            "sentiment_score": -0.0459,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction today: Will gold keep falling? Check outlook for November 16, 2026 week",
-            "description": "Gold price prediction today: The recent consolidation around Rs 136,000-136,500 has failed to generate a meaningful recovery, and the latest move towards the lower Bollinger Band indicates that selling pressure remains dominant. Immediate support is placed ar…",
-            "source": "The Times of India",
-            "published_at": "2026-11-16T06:58:38Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-november-16-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/135874865.cms",
-            "sentiment_score": -0.2277,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "You Can’t Renounce the Dollar",
-            "description": "“You can check out any time you like, but you can never leave.” — Eagles, Hotel California (1976) At the U.S. consulate in London, the wait to renounce American citizenship is now more than fourteen months. About 325,000 Americans live in Britain—more than in…",
-            "source": "Lewrockwell.com",
-            "published_at": "2026-11-16T04:01:00Z",
-            "url": "https://www.lewrockwell.com/2026/11/no_author/you-cant-renounce-the-dollar/",
-            "sentiment_score": 0.057,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Economic Digest: A Snapshot of Nepal’s Business News",
-            "description": "KATHMANDU: Economic Digest presents a brief yet comprehensive roundup of major business developments in Nepal, delivered in clear and accessible summaries. Nepal’s latest developments reflect a combination of economic adjustments, expanding international enga…",
-            "source": "Khabarhub.com",
-            "published_at": "2026-11-16T02:15:39Z",
-            "url": "https://english.khabarhub.com/2026/16/575760/",
-            "sentiment_score": 0.1672,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Stock Market Today Live Updates: Sensex jumps over 300 points, Nifty above 25,200; FMCG stocks rally",
-            "description": "Sensex Today | Nifty 50 Live Updates: Indian benchmark indices trade higher on Monday, supported by increased FPI buying and hopes of a decline in oil prices. The gains came after Dalal Street snapped its winning streak on Friday.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-16T01:53:59Z",
-            "url": "https://m.economictimes.com/markets/stocks/live-blog/bse-sensex-today-nifty50-stock-market-live-updates-gift-nifty-tata-motors-pv-eicher-motors-share-price-16-november-2026/liveblog/135869739.cms",
-            "sentiment_score": 0.5599,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.133,
-        "label": "ลบเล็กน้อย",
+        "average_score": 0.1044,
+        "label": "บวกเล็กน้อย",
         "article_count": 30,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Dollar holds near 19-month high as data supports case for US rate hikes",
+            "description": "The dollar remains firm near its highest level in 19 months, buoyed by encouraging economic indicators from the US and statements from Federal Reserve officials. Japan's trade data showed record exports in October, fueled by high semiconductor demand, despite…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:10:25Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-holds-near-19-month-high-as-data-supports-case-for-us-rate-hikes/articleshow/135945560.cms",
+            "sentiment_score": 0.385,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold hits over one-year low ahead of Fed minutes",
+            "description": "Gold prices have plummeted to their lowest since October 2025, driven by a robust US dollar and rising interest rate expectations. The Federal Reserve's officials emphasized the necessity for additional hikes to tackle inflation effectively. Investors are kee…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T02:08:58Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-hits-over-one-year-low-ahead-of-fed-minutes/articleshow/135945512.cms",
+            "sentiment_score": 0.016,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says",
+            "description": "A potential Fed policy shift due to an AI downturn could create a favorable environment for Bitcoin, highlighting its role as a hedge.\nThe post Bitcoin could benefit if AI downturn prompts Fed policy reversal, CoinShares’ portfolio manager says appeared first…",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-18T01:50:02Z",
+            "url": "https://cryptobriefing.com/bitcoin-ai-downturn-fed-policy/",
+            "sentiment_score": 0.5618,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed Staff Are Modeling an AI Bubble Burst Among Three Futures as Bitcoin Tracks the Nasdaq",
+            "description": "Kevin Warsh says Fed staff are modeling three AI futures, including an AI bubble burst, as Bitcoin's 30-day correlation with the Nasdaq hits 0.68.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T01:31:03Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/ai-bubble-burst-fed-warsh-scenarios-bitcoin-nasdaq/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian shares rebound as Nvidia forecast eases AI trade concerns",
+            "description": "Contracts for the Nasdaq 100 Index jumped 1.3% and those for the S&P 500 Index rose 0.7% following the chipmaker’s results. Nvidia shares gained more than 4% in extended trading after its earnings — the first since the departure of Chief Executive Officer Jen…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-18T01:08:58Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-shares-rebound-as-nvidia-forecast-eases-ai-trade-concerns/articleshow/135944698.cms",
+            "sentiment_score": 0.5554,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "3 Regional Bank Stocks For Higher Rates In The US",
+            "description": "When a Federal Reserve official talks about \"soon\" rate hikes and a higher path for borrowing costs through 2027, the ripple effects can reshape which stocks quietly gain an edge. Rising real yields can reward some balance sheets while putting others under st…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-18T00:59:43Z",
+            "url": "https://biztoc.com/x/3ec8a234487762f7",
+            "sentiment_score": 0.2389,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia Revenue Doubles to $115.8 Billion Under an Interim CEO as Bitcoin Pushes Back Toward $65,000",
+            "description": "Nvidia's first quarter under interim CEO Colette Kress brought $115.8 billion in revenue and a $130 billion outlook, and Bitcoin rose toward $65,000.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-18T00:45:25Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/nvidia-revenue-q3-fiscal-2027-colette-kress-bitcoin/",
+            "sentiment_score": 0.0,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "A perfect storm is descending on the AI industry",
+            "description": "The stock market is set to christen a new trillion-dollar company on Wednesday, as the AI juggernaut Anthropic goes public. The IPO should have been the crowning triumph of the AI boom — a testament to the technology’s mind-bending commercial value, which ena…",
+            "source": "Vox",
+            "published_at": "2026-11-18T00:07:26Z",
+            "url": "https://www.vox.com/politics/511132/anthropic-ipo-ai-bubble-nvidia",
+            "sentiment_score": 0.6015,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Lisa Cook’s lawyers say she’ll refuse to attend panel considering her dismissal from Federal Reserve",
+            "description": "Charges she committed mortgage fraud playing a role in her qualifications",
+            "source": "Wnd.com",
+            "published_at": "2026-11-17T23:27:18Z",
+            "url": "https://www.wnd.com/2026/11/lisa-cooks-lawyers-say-shell-refuse-attend-panel/",
+            "sentiment_score": -0.3448,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock market today: Live updates",
+            "description": "Nvidia shares rose in extended trading after the company’s first earnings report since co-founder Jensen Huang resigned last week.",
+            "source": "CNBC",
+            "published_at": "2026-11-17T23:10:47Z",
+            "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html",
+            "sentiment_score": 0.0155,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "US Fed’s Lisa Cook refuses to attend White House hearing",
+            "description": "US President Donald Trump has been trying to fire Cook since August 2025.",
+            "source": "Al Jazeera English",
+            "published_at": "2026-11-17T22:01:27Z",
+            "url": "https://www.aljazeera.com/economy/2026/11/17/us-feds-lisa-cook-refuses-to-attend-white-house-hearing",
+            "sentiment_score": -0.102,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed's Williams: AI boom may fuel rate hikes in 2027",
+            "description": "United States Federal Reserve Bank of New York President John Williams said surging investment in artificial intelligence could add to inflationary pressures and prompt the central bank to raise inter...",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:56Z",
+            "url": "https://biztoc.com/x/0b66d90890f39d49",
+            "sentiment_score": 0.1672,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Fed’s Lisa Cook to skip dubious hearing with Trump’s ‘committee of inquiry’",
+            "description": "It was 15 months ago when Donald Trump, exercising a power the president didn’t appear to have, said he would fire Federal Reserve governor Lisa Cook, effective immediately. His motivations were hardly subtle: The president wanted to seize greater control ove…",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-17T21:53:45Z",
+            "url": "https://biztoc.com/x/9ab3cb0362560b5e",
+            "sentiment_score": -0.1047,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US Business Cycle Indicators: Industrial, Mfg. Production, Retail Sales",
+            "description": "Nominal retail sales upside surprise (+0.2% vs consensus +0.1% m/m), but actual real declines. Manufacturing production +0.3% vs. consensus +0.2% m/m (industrial production down primarily because of utilities). Figure 1: NFP employment (bold blue), civilian e…",
+            "source": "Econbrowser.com",
+            "published_at": "2026-11-17T21:20:51Z",
+            "url": "https://econbrowser.com/archives/2026/11/us-business-cycle-indicators-industrial-mfg-production-retail-sales",
+            "sentiment_score": 0.1818,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Professional misconduct complaints against DOJ officials are rising",
+            "description": "The number of professional misconduct complaints filed against Justice Department officials has increased by more than 50% over a two-year period, according to the department's inspector general.",
+            "source": "CBS News",
+            "published_at": "2026-11-17T21:19:34Z",
+            "url": "https://www.cbsnews.com/news/professional-misconduct-complaints-justice-department-officials/",
+            "sentiment_score": -0.1383,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "Cleveland Fed’s Hammack supports gradual rate hikes, warns of larger increases if needed",
@@ -2458,160 +2178,10 @@
             "url": "https://biztoc.com/x/5ea2d965a609a5a2",
             "sentiment_score": -0.1673,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022",
-            "description": "The crypto market's vulnerability to interest rate shocks highlights the need for robust risk management and diversification strategies.\nThe post Bitwise CIO says crypto selloff was driven by biggest rate shock since 2022 appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T18:12:08Z",
-            "url": "https://cryptobriefing.com/crypto-market-rate-shock-impact/",
-            "sentiment_score": -0.3937,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "The Fed’s first close look at the AI buildout finds $3 trillion of AI commitments that aren’t on big tech’s balance sheet as debt",
-            "description": "Seven companies’ leases, contracts, and guarantees have grown faster than their debt. Nvidia reports earnings tonight without Jensen Huang.",
-            "source": "Fortune",
-            "published_at": "2026-11-17T18:00:00Z",
-            "url": "https://fortune.com/2026/11/17/fed-financial-stability-report-ai-data-center-3-trillion-off-balance-sheet-nvidia/",
-            "sentiment_score": -0.2834,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Outage math at the airport: When a four-hour Uber beats waiting out a ground stop",
-            "description": "Flight delays are becoming more common, causing financial and emotional stress for travelers",
-            "source": "Abcnews.com",
-            "published_at": "2026-11-17T17:57:57Z",
-            "url": "https://abcnews.com/Business/wireStory/outage-math-airport-hour-uber-beats-waiting-ground-138218486",
-            "sentiment_score": -0.296,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Tech leaders tell Fed chairman Warsh how AI could transform the economy",
-            "description": "Just maybe, both the extreme techno-optimists and AI doom-and-gloomers are wrong about the economic impact of the technology.\nThat's the argument that venture capitalist Marc Andreessen — who is co-leading a Federal Reserve task force on the topic — made in a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:49:16Z",
-            "url": "https://biztoc.com/x/517d7f5532646542",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Trump target threatens to blow off 'unfair' White House hearing on her firing",
-            "description": "A lawyer for Federal Reserve Governor Lisa Cook has notified the White House that his client has no intention of showing up for a scheduled hearing.At least not without a plethora of changes, the Wall Street Journal reported.Cook’s attorney, Abbe Lowell, spel…",
-            "source": "Raw Story",
-            "published_at": "2026-11-17T17:39:54Z",
-            "url": "https://www.rawstory.com/lida-cook-fed-trump/",
-            "sentiment_score": -0.6463,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
-            "description": "Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-17T17:39:41Z",
-            "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
-            "sentiment_score": -0.4715,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says",
-            "description": "Gold's psychological price drop highlights market sentiment's power, emphasizing the need for strategic diversification amid economic uncertainties.\nThe post Gold’s drop below $4,000 is largely psychological, American Hartford Gold president says appeared fir…",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T17:25:51Z",
-            "url": "https://cryptobriefing.com/golds-drop-below-4000-is-largely-psychological-american-hartford-gold-president-says/",
-            "sentiment_score": -0.3955,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"",
-            "description": "Lisa Cook Threatens To Skip Her Own Firing Hearing, Calls Trump's Panel A \"Façade\"\n \nFederal Reserve Governor Lisa Cook will not take part in the White House hearing that could end with President Trump firing her unless the administration replaces the panel a…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:19:00Z",
-            "url": "https://biztoc.com/x/7a61f5dac298a165",
-            "sentiment_score": -0.6539,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Christopher Waller Wants Fed Money Beneath Tokenized Markets, Not in Every Trade",
-            "description": "Fed Governor Christopher Waller says tokenized assets will compete on open, always-on blockchains, but central bank money must anchor the system.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-17T17:09:25Z",
-            "url": "https://www.dcforecasts.com/regulation/christopher-waller-tokenized-assets-central-bank-money/",
-            "sentiment_score": 0.027,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed official Lisa Cook refuses to attend White House firing hearing, citing bias",
-            "description": "Federal Reserve governor Lisa Cook won’t take part in a Dec. 14 White House hearing on whether to fire her unless the panel and its rules change, her lawyer said in a letter Monday. Letters exchanged since September show the two sides clashing over dates, doc…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T17:03:43Z",
-            "url": "https://biztoc.com/x/a476ae5d76edd897",
-            "sentiment_score": -0.3971,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin holds near $64,800 as ETF outflow streak ends",
-            "description": "The end of the ETF outflow streak suggests potential stabilization, but broader market pressures and investor caution could hinder sustained recovery.\nThe post Bitcoin holds near $64,800 as ETF outflow streak ends appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:59:23Z",
-            "url": "https://cryptobriefing.com/bitcoin-etf-outflow-streak-ends-64800/",
-            "sentiment_score": -0.1349,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "If a Stock Market Crash Is Coming, Here’s the Most Important Move Warren Buffett Would Make Right Now",
-            "description": "The broader benchmark S&P 500 (SNPINDEX:^GSPC) is up over 10% this year, but investors are still on edge, as the list of things that could go wrong keeps growing.\nInflation remains stubbornly high, and the Federal Reserve has already raised rates once this ye…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-17T16:52:13Z",
-            "url": "https://biztoc.com/x/a3d910178f66a63c",
-            "sentiment_score": -0.3289,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fed’s Musalem says AI is pulling demand forward, and policy can’t wait",
-            "description": "AI-driven demand pressures may prompt prolonged higher interest rates, impacting borrowing costs and potentially cooling consumer spending.\nThe post Fed’s Musalem says AI is pulling demand forward, and policy can’t wait appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-17T16:46:57Z",
-            "url": "https://cryptobriefing.com/fed-musalem-ai-demand-investment-inflation/",
-            "sentiment_score": -0.1128,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Lisa Cook Won't Be Appearing at Hearing on Fate of Her Job",
-            "description": "Federal Reserve governor Lisa Cook declined through her lawyers to appear next month before a Trump administration committee that is considering whether she should be fired, calling the process unfair and committed to a predetermined outcome. The refusal exte…",
-            "source": "Newser",
-            "published_at": "2026-11-17T16:44:00Z",
-            "url": "https://www.newser.com/story/400173/lisa-cook-wont-be-appearing-at-hearing-on-fate-of-her-job.html",
-            "sentiment_score": -0.2042,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Regulators Converge on Twin Compliance Challenges From AI Agents",
-            "description": "Comments by financial officials on opposite sides of the world Monday (Nov. 16) suggest regulators are converging on the need to address two challenges posed by agentic AI: how to ensure institutions remain accountable for agents they deploy, and how institut…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-17T16:34:20Z",
-            "url": "https://www.pymnts.com/news/artificial-intelligence/2026/regulators-converge-on-twin-compliance-challenges-from-ai-agents/",
-            "sentiment_score": 0.1862,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0558,
+      "net_score": -0.1362,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -2621,27 +2191,27 @@
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 3727.19995,
+      "price_now": 3713.3999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 29.3,
-      "rsi_signal": "ขายมากเกิน (RSI=29.3) ราคาอาจเด้ง",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 17.84343,
-      "suggested_sl_distance": 26.76514,
+      "rsi_value": 31.8,
+      "rsi_signal": "โซนกลาง (RSI=31.8)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 20.52622,
+      "suggested_sl_distance": 30.78933,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": -1,
+      "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
-      "trend_direction": "down",
-      "trend_label": "ขาลง (MA และ MACD เห็นตรงกัน)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "XAUUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาลง (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=29.3) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-18T21:17:50.326844+00:00"
+    "generated_at": "2026-11-19T03:07:17.028410+00:00"
   }
 ]
