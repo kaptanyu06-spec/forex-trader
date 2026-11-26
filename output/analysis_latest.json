@@ -6,10 +6,40 @@
       "base_currency": "EUR",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": 0.0434,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 21,
+        "average_score": 0.0883,
+        "label": "บวกเล็กน้อย",
+        "article_count": 10,
         "scored_articles": [
+          {
+            "currency": "EUR",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "The US dollar remained steady as traders awaited important inflation and growth data prior to December. Economists expect the Federal Reserve to increase interest rates, which is currently predicted at 97%. In Japan, service-sector prices surged to a 36-year …",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:58:10Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+            "sentiment_score": 0.2467,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "EUR",
+            "title": "Gold ticks lower ahead of US inflation data",
+            "description": "Gold prices dipped slightly following a notable drop, primarily influenced by the Federal Reserve's aggressive stance on interest rates. Investors are on high alert as US inflation data is set to be released later today. Meanwhile, consumer confidence has sur…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:56:22Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+            "sentiment_score": 0.0029,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "EUR",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "TOKYO, Nov 25 : The US dollar took a breather on Wednesday ahead of inflation and growth data, the last major readings before a December Federal Reserve policy meeting at which traders see a 97 per cent chance of an interest rate hike.The yen held steady foll…",
+            "source": "CNA",
+            "published_at": "2026-11-25T01:19:16Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-6580096",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "EUR",
             "title": "Show HN: Libre Terminal – Free local financial terminal, no login or API keys",
@@ -79,154 +109,174 @@
             "url": "https://en.protothema.gr/2026/11/24/sofia-has-gone-silent-over-schools-as-parliamentary-questions-rain-down-samaras-velopoulos-and-kasidiaris-an-awkward-trio-the-k-k-goldmine/",
             "sentiment_score": -0.1679,
             "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "The Push for Payment Independence Could Make Global Trade More Expensive",
-            "description": "Governments around the world are coming to view control over their payment systems as a matter of economic security. For companies doing business across borders, that push for independence could come with a price. European Central Bank policymaker Fabio Panet…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-23T22:33:15Z",
-            "url": "https://biztoc.com/x/1bb00b72f85ae543",
-            "sentiment_score": 0.1084,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "The Push for Payment Independence Could Make Global Trade More Expensive",
-            "description": "Governments around the world are coming to view control over their payment systems as a matter of economic security. For companies doing business across borders, that push for independence could come with a price. European Central Bank policymaker Fabio Panet…",
-            "source": "pymnts.com",
-            "published_at": "2026-11-23T21:48:58Z",
-            "url": "https://www.pymnts.com/news/cross-border-payments/2026/the-push-for-payment-independence-could-make-global-trade-more-expensive/",
-            "sentiment_score": 0.1084,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "EUIPO Research Paper Shows EU Trademark Filings Cointegrated with GDP Growth, Recession",
-            "description": "Today, the European Union Intellectual Property Office (EUIPO) published a research paper examining the relationship between trademark application filings and economic growth within the EU, showing that trademark filings provide earlier indication of increase…",
-            "source": "IPWatchdog.com",
-            "published_at": "2026-11-23T21:16:00Z",
-            "url": "https://ipwatchdog.com/2026/11/23/euipo-research-paper-shows-eu-trademark-filings-cointegrated-with-gdp-growth-recession/",
-            "sentiment_score": 0.1768,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Announcing 20260104 (LTRO,liquidity providing), for 91 days deadline 10:00",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-11-23T14:55:23Z",
-            "url": "https://www.ecb.europa.eu/mopo/implement/omo/html/20260104.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Announcing 20260103 (MRO,liquidity providing), for 7 days deadline 09:30",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-11-23T14:40:19Z",
-            "url": "https://www.ecb.europa.eu/mopo/implement/omo/html/20260103.en.html",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "EU officials meet China central bank chief",
-            "description": "People's Bank of China Governor Pan Gongsheng met with European central bank officials in Beijing on Monday.Director-General for Economic and Financial Affairs Maarten Verwey leads the EU delegation, ...",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-23T12:09:39Z",
-            "url": "https://biztoc.com/x/1174e718ff754d51",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB to let banks pledge more tokenized securities as collateral",
-            "description": "The ECB aims to start accepting securities issued on platforms licensed under the EU’s distributed ledger pilot program in June 2027.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-23T11:49:38Z",
-            "url": "https://cointelegraph.com/news/ecb-expands-eurosystem-collateral-tokenized-securities",
-            "sentiment_score": 0.4254,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "European Madness Reaching New Heights",
-            "description": "Provocations intensify as EU warmongers cheer return of Democrats to aid in their own destruction.",
-            "source": "Nakedcapitalism.com",
-            "published_at": "2026-11-23T11:00:48Z",
-            "url": "https://www.nakedcapitalism.com/2026/11/european-madness-reaching-new-heights.html",
-            "sentiment_score": -0.3823,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "Tokenized Assets on EU Pilot Platforms Are Set to Back ECB Loans in 2027",
-            "description": "The ECB approved accepting assets issued on DLT Pilot Regime platforms as collateral, with requirements due in spring 2027 and implementation planned for June 2027.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-23T10:45:06Z",
-            "url": "https://www.dcforecasts.com/blockchain-news/tokenized-assets-ecb-collateral-dlt-pilot-regime/",
-            "sentiment_score": 0.3426,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB expands collateral eligibility to DLT-issued assets",
-            "description": "The ECB's move could accelerate the integration of blockchain in traditional finance, but regulatory and infrastructure challenges remain.\nThe post ECB expands collateral eligibility to DLT-issued assets appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-23T10:11:09Z",
-            "url": "https://cryptobriefing.com/ecb-accepts-dlt-assets-eurosystem-collateral/",
-            "sentiment_score": 0.3342,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
-            "description": "The European Central Bank (ECB) is the central bank of the European Union countries which have adopted the euro. Our main task is to maintain price stability in the euro area and so preserve the purchasing power of the single currency.",
-            "source": "Europa.eu",
-            "published_at": "2026-11-23T10:00:00Z",
-            "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html",
-            "sentiment_score": 0.4374,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "EUR",
-            "title": "France and Germany to take key ECB roles",
-            "description": "France has nominated economist Laurence Boone to the ECB's executive board, as Europe's most powerful financial institution reshuffles three of the most vital roles in quick succession.",
-            "source": "RTE",
-            "published_at": "2026-11-23T07:13:34Z",
-            "url": "https://www.rte.ie/news/business/2026/1123/1600251-france-and-germany-to-take-key-ecb-roles/",
-            "sentiment_score": 0.2249,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "MCX gold prices rise Rs 2,800/10g after 5-day fall, silver jumps Rs 3,600/kg despite increasing rate hike bets. Here’s why",
-            "description": "Gold and silver rebounded on MCX after sharp losses, with oversold conditions supporting prices as investors awaited US PCE inflation data. Fed rate expectations, geopolitical tensions and crude oil volatility remain key drivers, while analysts advise caution.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-23T04:36:20Z",
-            "url": "https://m.economictimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-2800/10g-after-5-day-fall-silver-jumps-rs-3600/kg-despite-increasing-rate-hike-bets-heres-why/articleshow/136089223.cms",
-            "sentiment_score": -0.2229,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "EUR",
-            "title": "Gold recovers from 14-month low; focus turns to US inflation data",
-            "description": "Gold prices experienced an upswing during morning transactions, driven by investor anticipation of a key inflation report. This rise comes after a steep decline that brought gold to a 14-month low just last week. US Federal Reserve representatives continue to…",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-23T01:59:53Z",
-            "url": "https://m.economictimes.com/markets/commodities/news/gold-recovers-from-14-month-low-focus-turns-to-us-inflation-data/articleshow/136086840.cms",
-            "sentiment_score": -0.2446,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0411,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "average_score": 0.0982,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold’s Comeback May Have to Wait",
+            "description": "Gold’s near-term gains were likely to be limited as investors may be reluctant to rebuild bullish bets into the year-end with a December Fed rate increase heavily priced in, OCBC said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-25T04:31:20Z",
+            "url": "https://biztoc.com/x/2bdc0b2d5ad5e5f1",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+            "description": "Thirty-five of 56 domestic banks surveyed valued Sunday and weekday-holiday loan access, while CME’s Thanksgiving schedule shows where Bitcoin futures margin waits.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch …",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-25T04:20:06Z",
+            "url": "https://cryptoslate.com/feds-survey-finds-demand-for-a-holiday-cash-backstop/",
+            "sentiment_score": 0.4459,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Your Thanksgiving Turkey Costs More, Explained by Comrade Mamdani",
+            "description": "New York City’s socialist mayor, Zohran Mamdani, was asked a pretty simple question at a conference a few days ago. The journalist Andrew Ross Sorkin asked Mamdani about his plan to open city-owned grocery stores that sell food at a 30% discount; Sorkin point…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-11-25T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/11/no_author/why-your-thanksgiving-turkey-costs-more-explained-by-comrade-mamdani/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today 25 November, Wed: Latest 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Kolkata and others",
+            "description": "Gold and silver prices remained under pressure on Wednesday, 25 November, amid global market uncertainty. Check the latest 24K, 22K gold and 999 silver rates across major Indian cities, along with key factors influencing precious metal prices.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T03:52:47Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-25-november-wed-latest-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795576136181.html",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Market trades in green: BSE Sensex jumps over 1500 points; Nifty50 tops 25,700",
+            "description": "Asian markets fell sharply on Wednesday as renewed US tariff threats and fading momentum in the AI-led rally weighed on investor sentiment. Chip-heav",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:30:12Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-25-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/136147030.cms",
+            "sentiment_score": 0.231,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street jitters: Nasdaq retreats after Nvidia-fuelled rally; Anthropic slips below IPO price",
+            "description": "Wall Street retreated on Tuesday as technology stocks gave back some of the previous day's sharp gains, with investors booking profits and turning",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:18:02Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-jitters-nasdaq-retreats-after-nvidia-fuelled-rally-anthropic-slips-below-ipo-price/articleshow/136146455.cms",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty jumps 200 pts; Kospi down 5% as AI-trade unwind",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a gap-up open for the Nifty50 index. Asian markets reversed gains amid a sell-off in technology stocks",
+            "source": "Business Standard",
+            "published_at": "2026-11-25T02:17:33Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html",
+            "sentiment_score": 0.7705,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Should RBI let the rupee 'find its own level'?",
+            "description": "There’s a case for emerging markets to intervene so that moves by the US Federal Reserve don’t guide their currency. Institutionalized mechanisms to check their efficacy can help inspire market confidence.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T02:00:31Z",
+            "url": "https://www.livemint.com/opinion/online-views/rbis-currency-interventions-its-time-for-an-assessment-11795529270372.html",
+            "sentiment_score": 0.2597,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "The US dollar remained steady as traders awaited important inflation and growth data prior to December. Economists expect the Federal Reserve to increase interest rates, which is currently predicted at 97%. In Japan, service-sector prices surged to a 36-year …",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:58:10Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+            "sentiment_score": 0.2467,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold ticks lower ahead of US inflation data",
+            "description": "Gold prices dipped slightly following a notable drop, primarily influenced by the Federal Reserve's aggressive stance on interest rates. Investors are on high alert as US inflation data is set to be released later today. Meanwhile, consumer confidence has sur…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:56:22Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+            "sentiment_score": 0.0029,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "TOKYO, Nov 25 : The US dollar took a breather on Wednesday ahead of inflation and growth data, the last major readings before a December Federal Reserve policy meeting at which traders see a 97 per cent chance of an interest rate hike.The yen held steady foll…",
+            "source": "CNA",
+            "published_at": "2026-11-25T01:19:16Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-6580096",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+            "description": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T00:57:44Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+            "sentiment_score": -0.4018,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ringgit opens slightly higher on expectations of longer-term US rate cuts",
+            "description": "The movement reflects market expectations that the US Federal Reserve could eventually lower interest rates in late 2027 or early 2028, says analyst.",
+            "source": "Free Malaysia Today",
+            "published_at": "2026-11-25T00:35:00Z",
+            "url": "https://www.freemalaysiatoday.com/category/business/2026/11/25/ringgit-opens-slightly-higher-on-expectations-of-longer-term-us-rate-cuts",
+            "sentiment_score": -0.1465,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia shares drop 31% from peak, recovery potential eyed",
+            "description": "Nvidia's share decline prompts analysis of recovery potential, highlighting the importance of market sentiment and operational resilience.\nThe post Nvidia shares drop 31% from peak, recovery potential eyed appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-25T00:28:31Z",
+            "url": "https://cryptobriefing.com/nvidia-shares-drop-31-from-peak-recovery-potential-eyed/",
+            "sentiment_score": 0.1938,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Eight Reserve Banks Asked for a Higher Fed Discount Rate. The Board Said No",
+            "description": "Minutes released Nov. 24 show eight of 12 Reserve Banks wanted the primary credit rate raised to 4.25% by Oct. 28, more than asked before September's hike. The Board held at 4%.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-25T00:23:24Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/fed-discount-rate-eight-reserve-banks-asked-for-hike/",
+            "sentiment_score": -0.0927,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Blobtastic",
+            "description": "Puke: Former Federal Reserve Chairman Alan Greenspan died last June 22 at age 100. Next Monday, the Council on Foreign Relations (CFR), of which he was a longtime member, is having a members-only celebration of Greenspan, in which “panelists who worked alongs…",
+            "source": "Lawyersgunsmoneyblog.com",
+            "published_at": "2026-11-25T00:21:52Z",
+            "url": "https://www.lawyersgunsmoneyblog.com/2026/11/blobtastic",
+            "sentiment_score": -0.2372,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "FEDS Paper: Collateral Mobility and the Lender of Last Resort",
@@ -356,180 +406,10 @@
             "url": "https://dailyreckoning.com/post/dow-70-000",
             "sentiment_score": 0.1176,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
-            "description": "Bitcoin gave up gains above $60,000 as tariff concerns weighed on US stocks and Anthropic shares hit new lows below $76.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-24T17:09:11Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price",
-            "sentiment_score": 0.0546,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Too Big to Fail’? Trump’s Jensen Huang Rescue Seen as First Government Bailout of AI Industry",
-            "description": "A familiar phrase is once again bubbling up after President Donald Trump's abrupt intervention to restore CEO Jensen Huang to the helm of Nvidia caused the tech company's market value to rise by nearly a trillion dollars Monday—amounting to more than a third …",
-            "source": "Common Dreams",
-            "published_at": "2026-11-24T16:57:14Z",
-            "url": "https://www.commondreams.org/news/trump-nvidia-jensen-huang-too-big-to-fail",
-            "sentiment_score": 0.4755,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?",
-            "description": "A mysterious literary academy with ties to China has claimed some of the biggest Ivy League and Oxbridge academics as its members. But US intelligence experts tell Vanity Fair they suspect the society is being used for ulterior motives.",
-            "source": "Vanity Fair",
-            "published_at": "2026-11-24T16:41:21Z",
-            "url": "https://www.vanityfair.com/story/worlds-top-literary-scholars-targeted-by-chinese-spy-op",
-            "sentiment_score": 0.2765,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-            "description": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T16:06:07Z",
-            "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
-            "sentiment_score": 0.3125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-            "description": "U.K. digital bank OakNorth has secured a U.S. national bank charter as it seeks to expand amid growing competition from international rivals.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T15:34:10Z",
-            "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
-            "sentiment_score": 0.43,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
-            "description": "The post Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9 appeared first on 24/7 Wall St..\nBill Ackman challenged the Federal Reserve on Sunday, and about 3.8 million people had viewed his post by Monday evening. Writing on X at 5:21 p.m.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:32:35Z",
-            "url": "https://biztoc.com/x/779c45e619785f31",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are Banks Open on Thanksgiving Day 2026? What to Know About Branches, ATMs, Deposits and Black Friday Hours",
-            "description": "US banks will close on Thanksgiving Day, 26 November 2026, but most will reopen on Black Friday. Customers should expect some deposits and transfers to be delayed.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-24T15:20:56Z",
-            "url": "https://www.ibtimes.com.au/are-banks-open-thanksgiving-2026-1879303",
-            "sentiment_score": -0.0987,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs warns the stock rally could be a bull trap as credit lags",
-            "description": "The divergence between stock and credit markets suggests caution, as the rally may lack a solid foundation, impacting investor strategies.\nThe post Goldman Sachs warns the stock rally could be a bull trap as credit lags appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-24T15:07:29Z",
-            "url": "https://cryptobriefing.com/goldman-sachs-bull-trap-credit-warning/",
-            "sentiment_score": -0.3206,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Struggling Californians? Use of credit cards, home equity loans jumps",
-            "description": "Struggling Californians? Use of credit cards, home equity loans jumpsocregister.com",
-            "source": "OCRegister",
-            "published_at": "2026-11-24T15:03:19Z",
-            "url": "https://www.ocregister.com/2026/11/24/struggling-californians-use-of-credit-cards-home-equity-loans-jumps/",
-            "sentiment_score": -0.0516,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
-            "description": "The post Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How appeared first on 24/7 Wall St..\nThe Federal Reserve is fighting an inflation battle that investors thought was largely behind them. After raising interes…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:01:44Z",
-            "url": "https://biztoc.com/x/9d0f29d16b3bb511",
-            "sentiment_score": -0.6716,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed",
-            "description": "Pershing Square CEO Bill Ackman warns if the Federal Reserve, led by Kevin Warsh, raises the base rate then it could push the US economy into a recession.",
-            "source": "Fortune",
-            "published_at": "2026-11-24T14:59:06Z",
-            "url": "https://fortune.com/2026/11/24/bill-ackman-recession-inflation-federal-reserve-target/",
-            "sentiment_score": -0.4939,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks",
-            "description": "The rating agency expects global growth of about 2.5% next year, supported by resilient US consumer spending and a boom in AI spending, while oil prices and inflation should ease as tensions between the United States and Iran dial down.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-24T14:51:30Z",
-            "url": "https://m.economictimes.com/news/international/business/fitch-sets-neutral-global-sovereign-rating-outlook-warns-of-debt-war-and-ai-risks/articleshow/136134422.cms",
-            "sentiment_score": -0.3578,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "fx-spot-dates added to PyPI",
-            "description": "FX settlement holidays and T+2 spot value dates for USD, EUR (TARGET2), GBP, JPY, AUD, NZD. Standard library only.",
-            "source": "Pypi.org",
-            "published_at": "2026-11-24T14:51:06Z",
-            "url": "https://pypi.org/project/fx-spot-dates/",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Official Says More Action Needed To Bring Inflation Down",
-            "description": "New York Federal Reserve President John Williams has signalled that further interest rate increases may be necessary to bring inflation back under control, although he favours a measured approach.\n\nSpeaking at the University of Mount Saint Vincent on Monday…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T14:31:19Z",
-            "url": "https://biztoc.com/x/cd686f8d30f3c3ec",
-            "sentiment_score": 0.2101,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "No Meaningful Distinction Between Public and Private",
-            "description": "It's almost like the Trump administration plays by one set of rules for the people it likes and a totally different set of rules for the people that it doesn't.",
-            "source": "Reason",
-            "published_at": "2026-11-24T14:29:57Z",
-            "url": "https://reason.com/2026/11/24/no-meaningful-distinction-between-public-and-private/",
-            "sentiment_score": 0.0469,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage Rates Today, Tuesday, November 24: Lower, But …",
-            "description": "Mortgage interest rates are down this morning, but could seesaw back up tomorrow.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-24T14:08:29Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-tuesday-november-24-2026",
-            "sentiment_score": -0.0322,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism",
-            "description": "My trip into algorithmic conspiracy hell.\nThe post I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism appeared first on Futurism.",
-            "source": "Futurism",
-            "published_at": "2026-11-24T14:00:00Z",
-            "url": "https://futurism.com/future-society/instagram-judaism-nazism-recommendations",
-            "sentiment_score": 0.1913,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": 0.0845,
+      "net_score": -0.0099,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -539,28 +419,28 @@
     },
     "technical": {
       "pair": "EURUSD",
-      "price_now": 1.09782,
+      "price_now": 1.09649,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 63.5,
-      "rsi_signal": "โซนกลาง (RSI=63.5)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.001,
-      "suggested_sl_distance": 0.0015,
+      "rsi_value": 50.4,
+      "rsi_signal": "โซนกลาง (RSI=50.4)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00089,
+      "suggested_sl_distance": 0.00133,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "EURUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=63.5) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-25T22:20:43.676185+00:00"
+    "generated_at": "2026-11-26T04:52:27.828793+00:00"
   },
   {
     "pair": "GBPUSD",
@@ -569,9 +449,9 @@
       "base_currency": "GBP",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0762,
-        "label": "ลบเล็กน้อย",
-        "article_count": 10,
+        "average_score": 0.0311,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 6,
         "scored_articles": [
           {
             "currency": "GBP",
@@ -632,54 +512,174 @@
             "url": "https://www.business-standard.com/world-news/standard-chartered-probed-investment-banking-chief-after-complaints-126112400183_1.html",
             "sentiment_score": -0.3768,
             "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "America Has Been at War with Russia for More Than 100 Years",
-            "description": "…\nThe post America Has Been at War with Russia for More Than 100 Years appeared first on Global Research.",
-            "source": "Substack.com",
-            "published_at": "2026-11-23T16:59:54Z",
-            "url": "https://michelchossudovsky.substack.com/p/america-war-russia-more-than-100-years",
-            "sentiment_score": -0.5994,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "GBP",
-            "title": "Scott Bessent’s Economic Turnaround",
-            "description": "With the war in Iran ongoing, and the country fearing the possibility of a downturn, Jason Zengerle reports on how the Treasury Secretary is buying the Administration more time.",
-            "source": "The New Yorker",
-            "published_at": "2026-11-23T11:00:00Z",
-            "url": "https://www.newyorker.com/magazine/2026/11/30/scott-bessent-profile",
-            "sentiment_score": -0.2335,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Ghana’s Money Has Always Taken Sides",
-            "description": "Almost every change of power since 1965 has left its mark on Ghana’s banknotes. The fix is a way of choosing faces that no government controls. The word cedi comes from the Akan word for the cowry shell, which was money on this coast long before the British b…",
-            "source": "Thechronicle.com.gh",
-            "published_at": "2026-11-23T06:39:46Z",
-            "url": "https://thechronicle.com.gh/ghanas-money-has-always-taken-sides/",
-            "sentiment_score": -0.0888,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "GBP",
-            "title": "Monetary Reform for the 2028 Election: Van Buren Succeeds Jackson, the Panic of 1837, and the Whig Victory in 1840. Part 1.7",
-            "description": "…\nThe post Monetary Reform for the 2028 Election: Van Buren Succeeds Jackson, the Panic of 1837, and the Whig Victory in 1840. Part 1.7 appeared first on Global Research.",
-            "source": "Substack.com",
-            "published_at": "2026-11-23T03:51:32Z",
-            "url": "https://montanarcc.substack.com/p/17-van-buren-succeeds-jackson-the",
-            "sentiment_score": -0.0258,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0411,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "average_score": 0.0982,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold’s Comeback May Have to Wait",
+            "description": "Gold’s near-term gains were likely to be limited as investors may be reluctant to rebuild bullish bets into the year-end with a December Fed rate increase heavily priced in, OCBC said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-25T04:31:20Z",
+            "url": "https://biztoc.com/x/2bdc0b2d5ad5e5f1",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+            "description": "Thirty-five of 56 domestic banks surveyed valued Sunday and weekday-holiday loan access, while CME’s Thanksgiving schedule shows where Bitcoin futures margin waits.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch …",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-25T04:20:06Z",
+            "url": "https://cryptoslate.com/feds-survey-finds-demand-for-a-holiday-cash-backstop/",
+            "sentiment_score": 0.4459,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Your Thanksgiving Turkey Costs More, Explained by Comrade Mamdani",
+            "description": "New York City’s socialist mayor, Zohran Mamdani, was asked a pretty simple question at a conference a few days ago. The journalist Andrew Ross Sorkin asked Mamdani about his plan to open city-owned grocery stores that sell food at a 30% discount; Sorkin point…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-11-25T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/11/no_author/why-your-thanksgiving-turkey-costs-more-explained-by-comrade-mamdani/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today 25 November, Wed: Latest 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Kolkata and others",
+            "description": "Gold and silver prices remained under pressure on Wednesday, 25 November, amid global market uncertainty. Check the latest 24K, 22K gold and 999 silver rates across major Indian cities, along with key factors influencing precious metal prices.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T03:52:47Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-25-november-wed-latest-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795576136181.html",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Market trades in green: BSE Sensex jumps over 1500 points; Nifty50 tops 25,700",
+            "description": "Asian markets fell sharply on Wednesday as renewed US tariff threats and fading momentum in the AI-led rally weighed on investor sentiment. Chip-heav",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:30:12Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-25-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/136147030.cms",
+            "sentiment_score": 0.231,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street jitters: Nasdaq retreats after Nvidia-fuelled rally; Anthropic slips below IPO price",
+            "description": "Wall Street retreated on Tuesday as technology stocks gave back some of the previous day's sharp gains, with investors booking profits and turning",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:18:02Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-jitters-nasdaq-retreats-after-nvidia-fuelled-rally-anthropic-slips-below-ipo-price/articleshow/136146455.cms",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty jumps 200 pts; Kospi down 5% as AI-trade unwind",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a gap-up open for the Nifty50 index. Asian markets reversed gains amid a sell-off in technology stocks",
+            "source": "Business Standard",
+            "published_at": "2026-11-25T02:17:33Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html",
+            "sentiment_score": 0.7705,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Should RBI let the rupee 'find its own level'?",
+            "description": "There’s a case for emerging markets to intervene so that moves by the US Federal Reserve don’t guide their currency. Institutionalized mechanisms to check their efficacy can help inspire market confidence.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T02:00:31Z",
+            "url": "https://www.livemint.com/opinion/online-views/rbis-currency-interventions-its-time-for-an-assessment-11795529270372.html",
+            "sentiment_score": 0.2597,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "The US dollar remained steady as traders awaited important inflation and growth data prior to December. Economists expect the Federal Reserve to increase interest rates, which is currently predicted at 97%. In Japan, service-sector prices surged to a 36-year …",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:58:10Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+            "sentiment_score": 0.2467,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold ticks lower ahead of US inflation data",
+            "description": "Gold prices dipped slightly following a notable drop, primarily influenced by the Federal Reserve's aggressive stance on interest rates. Investors are on high alert as US inflation data is set to be released later today. Meanwhile, consumer confidence has sur…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:56:22Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+            "sentiment_score": 0.0029,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "TOKYO, Nov 25 : The US dollar took a breather on Wednesday ahead of inflation and growth data, the last major readings before a December Federal Reserve policy meeting at which traders see a 97 per cent chance of an interest rate hike.The yen held steady foll…",
+            "source": "CNA",
+            "published_at": "2026-11-25T01:19:16Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-6580096",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+            "description": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T00:57:44Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+            "sentiment_score": -0.4018,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ringgit opens slightly higher on expectations of longer-term US rate cuts",
+            "description": "The movement reflects market expectations that the US Federal Reserve could eventually lower interest rates in late 2027 or early 2028, says analyst.",
+            "source": "Free Malaysia Today",
+            "published_at": "2026-11-25T00:35:00Z",
+            "url": "https://www.freemalaysiatoday.com/category/business/2026/11/25/ringgit-opens-slightly-higher-on-expectations-of-longer-term-us-rate-cuts",
+            "sentiment_score": -0.1465,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia shares drop 31% from peak, recovery potential eyed",
+            "description": "Nvidia's share decline prompts analysis of recovery potential, highlighting the importance of market sentiment and operational resilience.\nThe post Nvidia shares drop 31% from peak, recovery potential eyed appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-25T00:28:31Z",
+            "url": "https://cryptobriefing.com/nvidia-shares-drop-31-from-peak-recovery-potential-eyed/",
+            "sentiment_score": 0.1938,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Eight Reserve Banks Asked for a Higher Fed Discount Rate. The Board Said No",
+            "description": "Minutes released Nov. 24 show eight of 12 Reserve Banks wanted the primary credit rate raised to 4.25% by Oct. 28, more than asked before September's hike. The Board held at 4%.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-25T00:23:24Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/fed-discount-rate-eight-reserve-banks-asked-for-hike/",
+            "sentiment_score": -0.0927,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Blobtastic",
+            "description": "Puke: Former Federal Reserve Chairman Alan Greenspan died last June 22 at age 100. Next Monday, the Council on Foreign Relations (CFR), of which he was a longtime member, is having a members-only celebration of Greenspan, in which “panelists who worked alongs…",
+            "source": "Lawyersgunsmoneyblog.com",
+            "published_at": "2026-11-25T00:21:52Z",
+            "url": "https://www.lawyersgunsmoneyblog.com/2026/11/blobtastic",
+            "sentiment_score": -0.2372,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "FEDS Paper: Collateral Mobility and the Lender of Last Resort",
@@ -809,180 +809,10 @@
             "url": "https://dailyreckoning.com/post/dow-70-000",
             "sentiment_score": 0.1176,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
-            "description": "Bitcoin gave up gains above $60,000 as tariff concerns weighed on US stocks and Anthropic shares hit new lows below $76.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-24T17:09:11Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price",
-            "sentiment_score": 0.0546,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Too Big to Fail’? Trump’s Jensen Huang Rescue Seen as First Government Bailout of AI Industry",
-            "description": "A familiar phrase is once again bubbling up after President Donald Trump's abrupt intervention to restore CEO Jensen Huang to the helm of Nvidia caused the tech company's market value to rise by nearly a trillion dollars Monday—amounting to more than a third …",
-            "source": "Common Dreams",
-            "published_at": "2026-11-24T16:57:14Z",
-            "url": "https://www.commondreams.org/news/trump-nvidia-jensen-huang-too-big-to-fail",
-            "sentiment_score": 0.4755,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?",
-            "description": "A mysterious literary academy with ties to China has claimed some of the biggest Ivy League and Oxbridge academics as its members. But US intelligence experts tell Vanity Fair they suspect the society is being used for ulterior motives.",
-            "source": "Vanity Fair",
-            "published_at": "2026-11-24T16:41:21Z",
-            "url": "https://www.vanityfair.com/story/worlds-top-literary-scholars-targeted-by-chinese-spy-op",
-            "sentiment_score": 0.2765,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-            "description": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T16:06:07Z",
-            "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
-            "sentiment_score": 0.3125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-            "description": "U.K. digital bank OakNorth has secured a U.S. national bank charter as it seeks to expand amid growing competition from international rivals.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T15:34:10Z",
-            "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
-            "sentiment_score": 0.43,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
-            "description": "The post Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9 appeared first on 24/7 Wall St..\nBill Ackman challenged the Federal Reserve on Sunday, and about 3.8 million people had viewed his post by Monday evening. Writing on X at 5:21 p.m.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:32:35Z",
-            "url": "https://biztoc.com/x/779c45e619785f31",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are Banks Open on Thanksgiving Day 2026? What to Know About Branches, ATMs, Deposits and Black Friday Hours",
-            "description": "US banks will close on Thanksgiving Day, 26 November 2026, but most will reopen on Black Friday. Customers should expect some deposits and transfers to be delayed.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-24T15:20:56Z",
-            "url": "https://www.ibtimes.com.au/are-banks-open-thanksgiving-2026-1879303",
-            "sentiment_score": -0.0987,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs warns the stock rally could be a bull trap as credit lags",
-            "description": "The divergence between stock and credit markets suggests caution, as the rally may lack a solid foundation, impacting investor strategies.\nThe post Goldman Sachs warns the stock rally could be a bull trap as credit lags appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-24T15:07:29Z",
-            "url": "https://cryptobriefing.com/goldman-sachs-bull-trap-credit-warning/",
-            "sentiment_score": -0.3206,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Struggling Californians? Use of credit cards, home equity loans jumps",
-            "description": "Struggling Californians? Use of credit cards, home equity loans jumpsocregister.com",
-            "source": "OCRegister",
-            "published_at": "2026-11-24T15:03:19Z",
-            "url": "https://www.ocregister.com/2026/11/24/struggling-californians-use-of-credit-cards-home-equity-loans-jumps/",
-            "sentiment_score": -0.0516,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
-            "description": "The post Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How appeared first on 24/7 Wall St..\nThe Federal Reserve is fighting an inflation battle that investors thought was largely behind them. After raising interes…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:01:44Z",
-            "url": "https://biztoc.com/x/9d0f29d16b3bb511",
-            "sentiment_score": -0.6716,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed",
-            "description": "Pershing Square CEO Bill Ackman warns if the Federal Reserve, led by Kevin Warsh, raises the base rate then it could push the US economy into a recession.",
-            "source": "Fortune",
-            "published_at": "2026-11-24T14:59:06Z",
-            "url": "https://fortune.com/2026/11/24/bill-ackman-recession-inflation-federal-reserve-target/",
-            "sentiment_score": -0.4939,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks",
-            "description": "The rating agency expects global growth of about 2.5% next year, supported by resilient US consumer spending and a boom in AI spending, while oil prices and inflation should ease as tensions between the United States and Iran dial down.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-24T14:51:30Z",
-            "url": "https://m.economictimes.com/news/international/business/fitch-sets-neutral-global-sovereign-rating-outlook-warns-of-debt-war-and-ai-risks/articleshow/136134422.cms",
-            "sentiment_score": -0.3578,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "fx-spot-dates added to PyPI",
-            "description": "FX settlement holidays and T+2 spot value dates for USD, EUR (TARGET2), GBP, JPY, AUD, NZD. Standard library only.",
-            "source": "Pypi.org",
-            "published_at": "2026-11-24T14:51:06Z",
-            "url": "https://pypi.org/project/fx-spot-dates/",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Official Says More Action Needed To Bring Inflation Down",
-            "description": "New York Federal Reserve President John Williams has signalled that further interest rate increases may be necessary to bring inflation back under control, although he favours a measured approach.\n\nSpeaking at the University of Mount Saint Vincent on Monday…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T14:31:19Z",
-            "url": "https://biztoc.com/x/cd686f8d30f3c3ec",
-            "sentiment_score": 0.2101,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "No Meaningful Distinction Between Public and Private",
-            "description": "It's almost like the Trump administration plays by one set of rules for the people it likes and a totally different set of rules for the people that it doesn't.",
-            "source": "Reason",
-            "published_at": "2026-11-24T14:29:57Z",
-            "url": "https://reason.com/2026/11/24/no-meaningful-distinction-between-public-and-private/",
-            "sentiment_score": 0.0469,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage Rates Today, Tuesday, November 24: Lower, But …",
-            "description": "Mortgage interest rates are down this morning, but could seesaw back up tomorrow.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-24T14:08:29Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-tuesday-november-24-2026",
-            "sentiment_score": -0.0322,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism",
-            "description": "My trip into algorithmic conspiracy hell.\nThe post I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism appeared first on Futurism.",
-            "source": "Futurism",
-            "published_at": "2026-11-24T14:00:00Z",
-            "url": "https://futurism.com/future-society/instagram-judaism-nazism-recommendations",
-            "sentiment_score": 0.1913,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0351,
+      "net_score": -0.0671,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -992,28 +822,28 @@
     },
     "technical": {
       "pair": "GBPUSD",
-      "price_now": 1.31148,
+      "price_now": 1.31034,
       "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 59.6,
-      "rsi_signal": "โซนกลาง (RSI=59.6)",
-      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00136,
-      "suggested_sl_distance": 0.00203,
+      "rsi_value": 52.2,
+      "rsi_signal": "โซนกลาง (RSI=52.2)",
+      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
+      "atr_value": 0.00121,
+      "suggested_sl_distance": 0.00182,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
-      "technical_vote": 2,
-      "technical_bias": "แนวโน้มขาขึ้น (BULLISH)",
-      "trend_direction": "up",
-      "trend_label": "ขาขึ้น (MA และ MACD เห็นตรงกัน)",
+      "technical_vote": 0,
+      "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
+      "trend_direction": "none",
+      "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
       "entry_signal": 0
     },
     "combined_signal": {
       "pair": "GBPUSD",
       "action": "WAIT",
       "confidence": "-",
-      "reason": "เทรนด์ขาขึ้น (MA และ MACD เห็นตรงกัน) แต่ราคายังไม่ย่อ (RSI=59.6) — รอจังหวะเข้าที่ดีกว่า"
+      "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-25T22:20:43.676185+00:00"
+    "generated_at": "2026-11-26T04:52:27.828793+00:00"
   },
   {
     "pair": "USDJPY",
@@ -1022,10 +852,170 @@
       "base_currency": "USD",
       "quote_currency": "JPY",
       "base_sentiment": {
-        "average_score": -0.0411,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "average_score": 0.0982,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold’s Comeback May Have to Wait",
+            "description": "Gold’s near-term gains were likely to be limited as investors may be reluctant to rebuild bullish bets into the year-end with a December Fed rate increase heavily priced in, OCBC said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-25T04:31:20Z",
+            "url": "https://biztoc.com/x/2bdc0b2d5ad5e5f1",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+            "description": "Thirty-five of 56 domestic banks surveyed valued Sunday and weekday-holiday loan access, while CME’s Thanksgiving schedule shows where Bitcoin futures margin waits.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch …",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-25T04:20:06Z",
+            "url": "https://cryptoslate.com/feds-survey-finds-demand-for-a-holiday-cash-backstop/",
+            "sentiment_score": 0.4459,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Your Thanksgiving Turkey Costs More, Explained by Comrade Mamdani",
+            "description": "New York City’s socialist mayor, Zohran Mamdani, was asked a pretty simple question at a conference a few days ago. The journalist Andrew Ross Sorkin asked Mamdani about his plan to open city-owned grocery stores that sell food at a 30% discount; Sorkin point…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-11-25T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/11/no_author/why-your-thanksgiving-turkey-costs-more-explained-by-comrade-mamdani/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today 25 November, Wed: Latest 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Kolkata and others",
+            "description": "Gold and silver prices remained under pressure on Wednesday, 25 November, amid global market uncertainty. Check the latest 24K, 22K gold and 999 silver rates across major Indian cities, along with key factors influencing precious metal prices.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T03:52:47Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-25-november-wed-latest-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795576136181.html",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Market trades in green: BSE Sensex jumps over 1500 points; Nifty50 tops 25,700",
+            "description": "Asian markets fell sharply on Wednesday as renewed US tariff threats and fading momentum in the AI-led rally weighed on investor sentiment. Chip-heav",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:30:12Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-25-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/136147030.cms",
+            "sentiment_score": 0.231,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street jitters: Nasdaq retreats after Nvidia-fuelled rally; Anthropic slips below IPO price",
+            "description": "Wall Street retreated on Tuesday as technology stocks gave back some of the previous day's sharp gains, with investors booking profits and turning",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:18:02Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-jitters-nasdaq-retreats-after-nvidia-fuelled-rally-anthropic-slips-below-ipo-price/articleshow/136146455.cms",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty jumps 200 pts; Kospi down 5% as AI-trade unwind",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a gap-up open for the Nifty50 index. Asian markets reversed gains amid a sell-off in technology stocks",
+            "source": "Business Standard",
+            "published_at": "2026-11-25T02:17:33Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html",
+            "sentiment_score": 0.7705,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Should RBI let the rupee 'find its own level'?",
+            "description": "There’s a case for emerging markets to intervene so that moves by the US Federal Reserve don’t guide their currency. Institutionalized mechanisms to check their efficacy can help inspire market confidence.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T02:00:31Z",
+            "url": "https://www.livemint.com/opinion/online-views/rbis-currency-interventions-its-time-for-an-assessment-11795529270372.html",
+            "sentiment_score": 0.2597,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "The US dollar remained steady as traders awaited important inflation and growth data prior to December. Economists expect the Federal Reserve to increase interest rates, which is currently predicted at 97%. In Japan, service-sector prices surged to a 36-year …",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:58:10Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+            "sentiment_score": 0.2467,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold ticks lower ahead of US inflation data",
+            "description": "Gold prices dipped slightly following a notable drop, primarily influenced by the Federal Reserve's aggressive stance on interest rates. Investors are on high alert as US inflation data is set to be released later today. Meanwhile, consumer confidence has sur…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:56:22Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+            "sentiment_score": 0.0029,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "TOKYO, Nov 25 : The US dollar took a breather on Wednesday ahead of inflation and growth data, the last major readings before a December Federal Reserve policy meeting at which traders see a 97 per cent chance of an interest rate hike.The yen held steady foll…",
+            "source": "CNA",
+            "published_at": "2026-11-25T01:19:16Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-6580096",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+            "description": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T00:57:44Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+            "sentiment_score": -0.4018,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ringgit opens slightly higher on expectations of longer-term US rate cuts",
+            "description": "The movement reflects market expectations that the US Federal Reserve could eventually lower interest rates in late 2027 or early 2028, says analyst.",
+            "source": "Free Malaysia Today",
+            "published_at": "2026-11-25T00:35:00Z",
+            "url": "https://www.freemalaysiatoday.com/category/business/2026/11/25/ringgit-opens-slightly-higher-on-expectations-of-longer-term-us-rate-cuts",
+            "sentiment_score": -0.1465,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia shares drop 31% from peak, recovery potential eyed",
+            "description": "Nvidia's share decline prompts analysis of recovery potential, highlighting the importance of market sentiment and operational resilience.\nThe post Nvidia shares drop 31% from peak, recovery potential eyed appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-25T00:28:31Z",
+            "url": "https://cryptobriefing.com/nvidia-shares-drop-31-from-peak-recovery-potential-eyed/",
+            "sentiment_score": 0.1938,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Eight Reserve Banks Asked for a Higher Fed Discount Rate. The Board Said No",
+            "description": "Minutes released Nov. 24 show eight of 12 Reserve Banks wanted the primary credit rate raised to 4.25% by Oct. 28, more than asked before September's hike. The Board held at 4%.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-25T00:23:24Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/fed-discount-rate-eight-reserve-banks-asked-for-hike/",
+            "sentiment_score": -0.0927,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Blobtastic",
+            "description": "Puke: Former Federal Reserve Chairman Alan Greenspan died last June 22 at age 100. Next Monday, the Council on Foreign Relations (CFR), of which he was a longtime member, is having a members-only celebration of Greenspan, in which “panelists who worked alongs…",
+            "source": "Lawyersgunsmoneyblog.com",
+            "published_at": "2026-11-25T00:21:52Z",
+            "url": "https://www.lawyersgunsmoneyblog.com/2026/11/blobtastic",
+            "sentiment_score": -0.2372,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "FEDS Paper: Collateral Mobility and the Lender of Last Resort",
@@ -1155,184 +1145,44 @@
             "url": "https://dailyreckoning.com/post/dow-70-000",
             "sentiment_score": 0.1176,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
-            "description": "Bitcoin gave up gains above $60,000 as tariff concerns weighed on US stocks and Anthropic shares hit new lows below $76.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-24T17:09:11Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price",
-            "sentiment_score": 0.0546,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Too Big to Fail’? Trump’s Jensen Huang Rescue Seen as First Government Bailout of AI Industry",
-            "description": "A familiar phrase is once again bubbling up after President Donald Trump's abrupt intervention to restore CEO Jensen Huang to the helm of Nvidia caused the tech company's market value to rise by nearly a trillion dollars Monday—amounting to more than a third …",
-            "source": "Common Dreams",
-            "published_at": "2026-11-24T16:57:14Z",
-            "url": "https://www.commondreams.org/news/trump-nvidia-jensen-huang-too-big-to-fail",
-            "sentiment_score": 0.4755,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?",
-            "description": "A mysterious literary academy with ties to China has claimed some of the biggest Ivy League and Oxbridge academics as its members. But US intelligence experts tell Vanity Fair they suspect the society is being used for ulterior motives.",
-            "source": "Vanity Fair",
-            "published_at": "2026-11-24T16:41:21Z",
-            "url": "https://www.vanityfair.com/story/worlds-top-literary-scholars-targeted-by-chinese-spy-op",
-            "sentiment_score": 0.2765,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-            "description": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T16:06:07Z",
-            "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
-            "sentiment_score": 0.3125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-            "description": "U.K. digital bank OakNorth has secured a U.S. national bank charter as it seeks to expand amid growing competition from international rivals.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T15:34:10Z",
-            "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
-            "sentiment_score": 0.43,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
-            "description": "The post Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9 appeared first on 24/7 Wall St..\nBill Ackman challenged the Federal Reserve on Sunday, and about 3.8 million people had viewed his post by Monday evening. Writing on X at 5:21 p.m.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:32:35Z",
-            "url": "https://biztoc.com/x/779c45e619785f31",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are Banks Open on Thanksgiving Day 2026? What to Know About Branches, ATMs, Deposits and Black Friday Hours",
-            "description": "US banks will close on Thanksgiving Day, 26 November 2026, but most will reopen on Black Friday. Customers should expect some deposits and transfers to be delayed.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-24T15:20:56Z",
-            "url": "https://www.ibtimes.com.au/are-banks-open-thanksgiving-2026-1879303",
-            "sentiment_score": -0.0987,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs warns the stock rally could be a bull trap as credit lags",
-            "description": "The divergence between stock and credit markets suggests caution, as the rally may lack a solid foundation, impacting investor strategies.\nThe post Goldman Sachs warns the stock rally could be a bull trap as credit lags appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-24T15:07:29Z",
-            "url": "https://cryptobriefing.com/goldman-sachs-bull-trap-credit-warning/",
-            "sentiment_score": -0.3206,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Struggling Californians? Use of credit cards, home equity loans jumps",
-            "description": "Struggling Californians? Use of credit cards, home equity loans jumpsocregister.com",
-            "source": "OCRegister",
-            "published_at": "2026-11-24T15:03:19Z",
-            "url": "https://www.ocregister.com/2026/11/24/struggling-californians-use-of-credit-cards-home-equity-loans-jumps/",
-            "sentiment_score": -0.0516,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
-            "description": "The post Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How appeared first on 24/7 Wall St..\nThe Federal Reserve is fighting an inflation battle that investors thought was largely behind them. After raising interes…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:01:44Z",
-            "url": "https://biztoc.com/x/9d0f29d16b3bb511",
-            "sentiment_score": -0.6716,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed",
-            "description": "Pershing Square CEO Bill Ackman warns if the Federal Reserve, led by Kevin Warsh, raises the base rate then it could push the US economy into a recession.",
-            "source": "Fortune",
-            "published_at": "2026-11-24T14:59:06Z",
-            "url": "https://fortune.com/2026/11/24/bill-ackman-recession-inflation-federal-reserve-target/",
-            "sentiment_score": -0.4939,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks",
-            "description": "The rating agency expects global growth of about 2.5% next year, supported by resilient US consumer spending and a boom in AI spending, while oil prices and inflation should ease as tensions between the United States and Iran dial down.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-24T14:51:30Z",
-            "url": "https://m.economictimes.com/news/international/business/fitch-sets-neutral-global-sovereign-rating-outlook-warns-of-debt-war-and-ai-risks/articleshow/136134422.cms",
-            "sentiment_score": -0.3578,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "fx-spot-dates added to PyPI",
-            "description": "FX settlement holidays and T+2 spot value dates for USD, EUR (TARGET2), GBP, JPY, AUD, NZD. Standard library only.",
-            "source": "Pypi.org",
-            "published_at": "2026-11-24T14:51:06Z",
-            "url": "https://pypi.org/project/fx-spot-dates/",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Official Says More Action Needed To Bring Inflation Down",
-            "description": "New York Federal Reserve President John Williams has signalled that further interest rate increases may be necessary to bring inflation back under control, although he favours a measured approach.\n\nSpeaking at the University of Mount Saint Vincent on Monday…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T14:31:19Z",
-            "url": "https://biztoc.com/x/cd686f8d30f3c3ec",
-            "sentiment_score": 0.2101,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "No Meaningful Distinction Between Public and Private",
-            "description": "It's almost like the Trump administration plays by one set of rules for the people it likes and a totally different set of rules for the people that it doesn't.",
-            "source": "Reason",
-            "published_at": "2026-11-24T14:29:57Z",
-            "url": "https://reason.com/2026/11/24/no-meaningful-distinction-between-public-and-private/",
-            "sentiment_score": 0.0469,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage Rates Today, Tuesday, November 24: Lower, But …",
-            "description": "Mortgage interest rates are down this morning, but could seesaw back up tomorrow.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-24T14:08:29Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-tuesday-november-24-2026",
-            "sentiment_score": -0.0322,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism",
-            "description": "My trip into algorithmic conspiracy hell.\nThe post I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism appeared first on Futurism.",
-            "source": "Futurism",
-            "published_at": "2026-11-24T14:00:00Z",
-            "url": "https://futurism.com/future-society/instagram-judaism-nazism-recommendations",
-            "sentiment_score": 0.1913,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0964,
-        "label": "ลบเล็กน้อย",
-        "article_count": 5,
+        "average_score": -0.0098,
+        "label": "เป็นกลาง (Neutral)",
+        "article_count": 7,
         "scored_articles": [
+          {
+            "currency": "JPY",
+            "title": "Gold ticks lower ahead of US inflation data",
+            "description": "Gold prices dipped slightly following a notable drop, primarily influenced by the Federal Reserve's aggressive stance on interest rates. Investors are on high alert as US inflation data is set to be released later today. Meanwhile, consumer confidence has sur…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:56:22Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+            "sentiment_score": 0.0029,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's corporate services inflation spikes in October",
+            "description": "TOKYO, Nov 25 : A key gauge of Japan's service-sector inflation jumped 4.2 per cent in October from a year earlier, data showed on Wednesday, a sign of broadening price pressures that bolster the case for a near-term interest rate hike by the central bank.The…",
+            "source": "CNA",
+            "published_at": "2026-11-25T00:05:24Z",
+            "url": "https://www.channelnewsasia.com/business/japans-corporate-services-inflation-spikes-in-october-6579891",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "JPY",
+            "title": "Japan's key services inflation gauge hits 36-year high",
+            "description": "TOKYO, Nov 25 : A key gauge of Japan's service-sector inflation jumped 4.2 per cent in October for the fastest annual pace since 1990, data showed on Wednesday, a sign of broadening price pressures that bolster the case for a near-term interest rate hike by t…",
+            "source": "CNA",
+            "published_at": "2026-11-25T00:05:24Z",
+            "url": "https://www.channelnewsasia.com/business/japans-key-services-inflation-gauge-hits-36-year-high-6579891",
+            "sentiment_score": 0.0534,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
           {
             "currency": "JPY",
             "title": "Nikkei Surges 2,208 Points on Tuesday as AI Stocks Rebound",
@@ -1372,20 +1222,10 @@
             "url": "https://m.economictimes.com/markets/bonds/japanese-bond-yields-fall-as-lower-oil-prices-ease-inflation-concerns/articleshow/136118046.cms",
             "sentiment_score": 0.0463,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "JPY",
-            "title": "Japan Markets Face Crucial Week After Historic Stock Selloff",
-            "description": "Japan's financial markets face a critical week from November 24th to 27th as investors assess the fallout from one of the largest stock market declines in the country's history, with mounting concerns over artificial intelligence valuations, a weakening yen, …",
-            "source": "Newsonjapan.com",
-            "published_at": "2026-11-23T13:22:31Z",
-            "url": "https://newsonjapan.com/article/151493.php",
-            "sentiment_score": -0.0384,
-            "sentiment_label": "เป็นกลาง (Neutral)"
           }
         ]
       },
-      "net_score": 0.0553,
+      "net_score": 0.108,
       "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
         "confidence_level": "ต่ำ",
@@ -1395,14 +1235,14 @@
     },
     "technical": {
       "pair": "USDJPY",
-      "price_now": 159.138,
-      "ma_signal": "ขาขึ้น (เส้นเร็วอยู่เหนือเส้นช้า)",
+      "price_now": 159.142,
+      "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 48.1,
-      "rsi_signal": "โซนกลาง (RSI=48.1)",
-      "macd_signal": "โมเมนตัมขาลง (MACD ใต้ signal)",
-      "atr_value": 0.19029,
-      "suggested_sl_distance": 0.28544,
+      "rsi_value": 49.1,
+      "rsi_signal": "โซนกลาง (RSI=49.1)",
+      "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
+      "atr_value": 0.17896,
+      "suggested_sl_distance": 0.26844,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1416,7 +1256,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-25T22:20:43.676185+00:00"
+    "generated_at": "2026-11-26T04:52:27.828793+00:00"
   },
   {
     "pair": "AUDUSD",
@@ -1425,27 +1265,197 @@
       "base_currency": "AUD",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.3132,
-        "label": "ลบชัดเจน (Bearish)",
-        "article_count": 1,
+        "average_score": 0.1549,
+        "label": "บวกเล็กน้อย",
+        "article_count": 2,
         "scored_articles": [
           {
             "currency": "AUD",
-            "title": "Superannuation funds chalk up a second straight month of losses",
-            "description": "Returns over a longer period tell a rosier story.\nThe post Superannuation funds chalk up a second straight month of losses appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-11-23T22:27:32Z",
-            "url": "https://www.fool.com.au/2026/11/24/superannuation-funds-chalk-up-a-second-straight-month-of-losses/",
-            "sentiment_score": -0.3132,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
+            "title": "Australian inflation heats up, core hits two-year high",
+            "description": "Australian inflation rose to 4.9% in October as core prices hit a two-year high, tempering expectations of an RBA rate cut. Read more at straitstimes.com.",
+            "source": "The Straits Times",
+            "published_at": "2026-11-25T03:20:00Z",
+            "url": "https://www.straitstimes.com/business/australian-inflation-heats-up-in-october-core-hits-two-year-high",
+            "sentiment_score": -0.082,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "AUD",
+            "title": "Finally some good news for Australians with a mortgage? When interest rates are predicted to come down as ANZ bank issue June forecast",
+            "description": "ANZ Bank have delivered some good news to Aussies with a mortgage.",
+            "source": "Dailymail.com",
+            "published_at": "2026-11-24T23:49:21Z",
+            "url": "https://www.dailymail.com/news/article-16319515/anz-bank-rates.html",
+            "sentiment_score": 0.6288,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0411,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "average_score": 0.0982,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold’s Comeback May Have to Wait",
+            "description": "Gold’s near-term gains were likely to be limited as investors may be reluctant to rebuild bullish bets into the year-end with a December Fed rate increase heavily priced in, OCBC said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-25T04:31:20Z",
+            "url": "https://biztoc.com/x/2bdc0b2d5ad5e5f1",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+            "description": "Thirty-five of 56 domestic banks surveyed valued Sunday and weekday-holiday loan access, while CME’s Thanksgiving schedule shows where Bitcoin futures margin waits.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch …",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-25T04:20:06Z",
+            "url": "https://cryptoslate.com/feds-survey-finds-demand-for-a-holiday-cash-backstop/",
+            "sentiment_score": 0.4459,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Your Thanksgiving Turkey Costs More, Explained by Comrade Mamdani",
+            "description": "New York City’s socialist mayor, Zohran Mamdani, was asked a pretty simple question at a conference a few days ago. The journalist Andrew Ross Sorkin asked Mamdani about his plan to open city-owned grocery stores that sell food at a 30% discount; Sorkin point…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-11-25T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/11/no_author/why-your-thanksgiving-turkey-costs-more-explained-by-comrade-mamdani/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today 25 November, Wed: Latest 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Kolkata and others",
+            "description": "Gold and silver prices remained under pressure on Wednesday, 25 November, amid global market uncertainty. Check the latest 24K, 22K gold and 999 silver rates across major Indian cities, along with key factors influencing precious metal prices.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T03:52:47Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-25-november-wed-latest-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795576136181.html",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Market trades in green: BSE Sensex jumps over 1500 points; Nifty50 tops 25,700",
+            "description": "Asian markets fell sharply on Wednesday as renewed US tariff threats and fading momentum in the AI-led rally weighed on investor sentiment. Chip-heav",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:30:12Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-25-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/136147030.cms",
+            "sentiment_score": 0.231,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street jitters: Nasdaq retreats after Nvidia-fuelled rally; Anthropic slips below IPO price",
+            "description": "Wall Street retreated on Tuesday as technology stocks gave back some of the previous day's sharp gains, with investors booking profits and turning",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:18:02Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-jitters-nasdaq-retreats-after-nvidia-fuelled-rally-anthropic-slips-below-ipo-price/articleshow/136146455.cms",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty jumps 200 pts; Kospi down 5% as AI-trade unwind",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a gap-up open for the Nifty50 index. Asian markets reversed gains amid a sell-off in technology stocks",
+            "source": "Business Standard",
+            "published_at": "2026-11-25T02:17:33Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html",
+            "sentiment_score": 0.7705,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Should RBI let the rupee 'find its own level'?",
+            "description": "There’s a case for emerging markets to intervene so that moves by the US Federal Reserve don’t guide their currency. Institutionalized mechanisms to check their efficacy can help inspire market confidence.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T02:00:31Z",
+            "url": "https://www.livemint.com/opinion/online-views/rbis-currency-interventions-its-time-for-an-assessment-11795529270372.html",
+            "sentiment_score": 0.2597,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "The US dollar remained steady as traders awaited important inflation and growth data prior to December. Economists expect the Federal Reserve to increase interest rates, which is currently predicted at 97%. In Japan, service-sector prices surged to a 36-year …",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:58:10Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+            "sentiment_score": 0.2467,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold ticks lower ahead of US inflation data",
+            "description": "Gold prices dipped slightly following a notable drop, primarily influenced by the Federal Reserve's aggressive stance on interest rates. Investors are on high alert as US inflation data is set to be released later today. Meanwhile, consumer confidence has sur…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:56:22Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+            "sentiment_score": 0.0029,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "TOKYO, Nov 25 : The US dollar took a breather on Wednesday ahead of inflation and growth data, the last major readings before a December Federal Reserve policy meeting at which traders see a 97 per cent chance of an interest rate hike.The yen held steady foll…",
+            "source": "CNA",
+            "published_at": "2026-11-25T01:19:16Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-6580096",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+            "description": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T00:57:44Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+            "sentiment_score": -0.4018,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ringgit opens slightly higher on expectations of longer-term US rate cuts",
+            "description": "The movement reflects market expectations that the US Federal Reserve could eventually lower interest rates in late 2027 or early 2028, says analyst.",
+            "source": "Free Malaysia Today",
+            "published_at": "2026-11-25T00:35:00Z",
+            "url": "https://www.freemalaysiatoday.com/category/business/2026/11/25/ringgit-opens-slightly-higher-on-expectations-of-longer-term-us-rate-cuts",
+            "sentiment_score": -0.1465,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia shares drop 31% from peak, recovery potential eyed",
+            "description": "Nvidia's share decline prompts analysis of recovery potential, highlighting the importance of market sentiment and operational resilience.\nThe post Nvidia shares drop 31% from peak, recovery potential eyed appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-25T00:28:31Z",
+            "url": "https://cryptobriefing.com/nvidia-shares-drop-31-from-peak-recovery-potential-eyed/",
+            "sentiment_score": 0.1938,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Eight Reserve Banks Asked for a Higher Fed Discount Rate. The Board Said No",
+            "description": "Minutes released Nov. 24 show eight of 12 Reserve Banks wanted the primary credit rate raised to 4.25% by Oct. 28, more than asked before September's hike. The Board held at 4%.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-25T00:23:24Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/fed-discount-rate-eight-reserve-banks-asked-for-hike/",
+            "sentiment_score": -0.0927,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Blobtastic",
+            "description": "Puke: Former Federal Reserve Chairman Alan Greenspan died last June 22 at age 100. Next Monday, the Council on Foreign Relations (CFR), of which he was a longtime member, is having a members-only celebration of Greenspan, in which “panelists who worked alongs…",
+            "source": "Lawyersgunsmoneyblog.com",
+            "published_at": "2026-11-25T00:21:52Z",
+            "url": "https://www.lawyersgunsmoneyblog.com/2026/11/blobtastic",
+            "sentiment_score": -0.2372,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "FEDS Paper: Collateral Mobility and the Lender of Last Resort",
@@ -1575,197 +1585,27 @@
             "url": "https://dailyreckoning.com/post/dow-70-000",
             "sentiment_score": 0.1176,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
-            "description": "Bitcoin gave up gains above $60,000 as tariff concerns weighed on US stocks and Anthropic shares hit new lows below $76.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-24T17:09:11Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price",
-            "sentiment_score": 0.0546,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Too Big to Fail’? Trump’s Jensen Huang Rescue Seen as First Government Bailout of AI Industry",
-            "description": "A familiar phrase is once again bubbling up after President Donald Trump's abrupt intervention to restore CEO Jensen Huang to the helm of Nvidia caused the tech company's market value to rise by nearly a trillion dollars Monday—amounting to more than a third …",
-            "source": "Common Dreams",
-            "published_at": "2026-11-24T16:57:14Z",
-            "url": "https://www.commondreams.org/news/trump-nvidia-jensen-huang-too-big-to-fail",
-            "sentiment_score": 0.4755,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?",
-            "description": "A mysterious literary academy with ties to China has claimed some of the biggest Ivy League and Oxbridge academics as its members. But US intelligence experts tell Vanity Fair they suspect the society is being used for ulterior motives.",
-            "source": "Vanity Fair",
-            "published_at": "2026-11-24T16:41:21Z",
-            "url": "https://www.vanityfair.com/story/worlds-top-literary-scholars-targeted-by-chinese-spy-op",
-            "sentiment_score": 0.2765,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-            "description": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T16:06:07Z",
-            "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
-            "sentiment_score": 0.3125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-            "description": "U.K. digital bank OakNorth has secured a U.S. national bank charter as it seeks to expand amid growing competition from international rivals.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T15:34:10Z",
-            "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
-            "sentiment_score": 0.43,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
-            "description": "The post Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9 appeared first on 24/7 Wall St..\nBill Ackman challenged the Federal Reserve on Sunday, and about 3.8 million people had viewed his post by Monday evening. Writing on X at 5:21 p.m.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:32:35Z",
-            "url": "https://biztoc.com/x/779c45e619785f31",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are Banks Open on Thanksgiving Day 2026? What to Know About Branches, ATMs, Deposits and Black Friday Hours",
-            "description": "US banks will close on Thanksgiving Day, 26 November 2026, but most will reopen on Black Friday. Customers should expect some deposits and transfers to be delayed.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-24T15:20:56Z",
-            "url": "https://www.ibtimes.com.au/are-banks-open-thanksgiving-2026-1879303",
-            "sentiment_score": -0.0987,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs warns the stock rally could be a bull trap as credit lags",
-            "description": "The divergence between stock and credit markets suggests caution, as the rally may lack a solid foundation, impacting investor strategies.\nThe post Goldman Sachs warns the stock rally could be a bull trap as credit lags appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-24T15:07:29Z",
-            "url": "https://cryptobriefing.com/goldman-sachs-bull-trap-credit-warning/",
-            "sentiment_score": -0.3206,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Struggling Californians? Use of credit cards, home equity loans jumps",
-            "description": "Struggling Californians? Use of credit cards, home equity loans jumpsocregister.com",
-            "source": "OCRegister",
-            "published_at": "2026-11-24T15:03:19Z",
-            "url": "https://www.ocregister.com/2026/11/24/struggling-californians-use-of-credit-cards-home-equity-loans-jumps/",
-            "sentiment_score": -0.0516,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
-            "description": "The post Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How appeared first on 24/7 Wall St..\nThe Federal Reserve is fighting an inflation battle that investors thought was largely behind them. After raising interes…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:01:44Z",
-            "url": "https://biztoc.com/x/9d0f29d16b3bb511",
-            "sentiment_score": -0.6716,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed",
-            "description": "Pershing Square CEO Bill Ackman warns if the Federal Reserve, led by Kevin Warsh, raises the base rate then it could push the US economy into a recession.",
-            "source": "Fortune",
-            "published_at": "2026-11-24T14:59:06Z",
-            "url": "https://fortune.com/2026/11/24/bill-ackman-recession-inflation-federal-reserve-target/",
-            "sentiment_score": -0.4939,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks",
-            "description": "The rating agency expects global growth of about 2.5% next year, supported by resilient US consumer spending and a boom in AI spending, while oil prices and inflation should ease as tensions between the United States and Iran dial down.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-24T14:51:30Z",
-            "url": "https://m.economictimes.com/news/international/business/fitch-sets-neutral-global-sovereign-rating-outlook-warns-of-debt-war-and-ai-risks/articleshow/136134422.cms",
-            "sentiment_score": -0.3578,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "fx-spot-dates added to PyPI",
-            "description": "FX settlement holidays and T+2 spot value dates for USD, EUR (TARGET2), GBP, JPY, AUD, NZD. Standard library only.",
-            "source": "Pypi.org",
-            "published_at": "2026-11-24T14:51:06Z",
-            "url": "https://pypi.org/project/fx-spot-dates/",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Official Says More Action Needed To Bring Inflation Down",
-            "description": "New York Federal Reserve President John Williams has signalled that further interest rate increases may be necessary to bring inflation back under control, although he favours a measured approach.\n\nSpeaking at the University of Mount Saint Vincent on Monday…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T14:31:19Z",
-            "url": "https://biztoc.com/x/cd686f8d30f3c3ec",
-            "sentiment_score": 0.2101,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "No Meaningful Distinction Between Public and Private",
-            "description": "It's almost like the Trump administration plays by one set of rules for the people it likes and a totally different set of rules for the people that it doesn't.",
-            "source": "Reason",
-            "published_at": "2026-11-24T14:29:57Z",
-            "url": "https://reason.com/2026/11/24/no-meaningful-distinction-between-public-and-private/",
-            "sentiment_score": 0.0469,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage Rates Today, Tuesday, November 24: Lower, But …",
-            "description": "Mortgage interest rates are down this morning, but could seesaw back up tomorrow.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-24T14:08:29Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-tuesday-november-24-2026",
-            "sentiment_score": -0.0322,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism",
-            "description": "My trip into algorithmic conspiracy hell.\nThe post I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism appeared first on Futurism.",
-            "source": "Futurism",
-            "published_at": "2026-11-24T14:00:00Z",
-            "url": "https://futurism.com/future-society/instagram-judaism-nazism-recommendations",
-            "sentiment_score": 0.1913,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.2721,
-      "bias": "เอียงลบต่อ AUD (มีแนวโน้มกดราคาลง)",
+      "net_score": 0.0567,
+      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ปานกลาง",
-        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
+        "confidence_level": "ต่ำ",
+        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "AUDUSD",
-      "price_now": 0.66278,
+      "price_now": 0.66503,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 58.7,
-      "rsi_signal": "โซนกลาง (RSI=58.7)",
+      "rsi_value": 65.6,
+      "rsi_signal": "โซนกลาง (RSI=65.6)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 0.00109,
-      "suggested_sl_distance": 0.00163,
+      "atr_value": 0.00105,
+      "suggested_sl_distance": 0.00157,
       "bb_signal": "ราคาอยู่ในกรอบปกติ",
       "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
@@ -1779,7 +1619,7 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-25T22:20:43.676185+00:00"
+    "generated_at": "2026-11-26T04:52:27.828793+00:00"
   },
   {
     "pair": "XAUUSD",
@@ -1788,10 +1628,40 @@
       "base_currency": "XAU",
       "quote_currency": "USD",
       "base_sentiment": {
-        "average_score": -0.0748,
+        "average_score": -0.0607,
         "label": "ลบเล็กน้อย",
-        "article_count": 24,
+        "article_count": 12,
         "scored_articles": [
+          {
+            "currency": "XAU",
+            "title": "Gold price correction draws wedding shoppers back to jewellery stores in peak wedding season",
+            "description": "A sharp fall in gold prices has brought wedding shoppers back to jewellery stores, lifting footfall and sales. Retailers report more fresh purchases and fewer old-gold exchanges as the wedding season begins, though some customers are still waiting for prices …",
+            "source": "Livemint",
+            "published_at": "2026-11-25T04:14:21Z",
+            "url": "https://www.livemint.com/industry/gold-price-correction-wedding-season-jewellery-demand-revival-11795497827839.html",
+            "sentiment_score": 0.1141,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "XAU",
+            "title": "Gold, silver prices today 25 November, Wed: Latest 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Kolkata and others",
+            "description": "Gold and silver prices remained under pressure on Wednesday, 25 November, amid global market uncertainty. Check the latest 24K, 22K gold and 999 silver rates across major Indian cities, along with key factors influencing precious metal prices.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T03:52:47Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-25-november-wed-latest-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795576136181.html",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "XAU",
+            "title": "Pledged gold worth less after gold prices crash 30% from peak, while gold loan NPAs nearly double in six months; RBI cautions gold loan NBFCs over loan-to-value ratios",
+            "description": "India’s gold loan market recorded a doubling of non-performing asset (NPA) ratios in the first half of the fiscal year. Industry leaders have linked the increase to changes in lending regulations, saying borrowers are taking time to adapt to the revised norms…",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T01:06:19Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/pledged-gold-worth-less-after-gold-prices-crash-30-from-peak-while-gold-loan-npas-nearly-double-in-six-months-rbi-cautions-gold-loan-nbfcs-over-loan-to-value-ratios/articleshow/136121998.cms",
+            "sentiment_score": 0.0342,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
           {
             "currency": "XAU",
             "title": "Gold and silver lose over $800 billion in two hours as Bitcoin slides about 50%",
@@ -1881,164 +1751,174 @@
             "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-24-nov-tuesday-check-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795491016117.html",
             "sentiment_score": 0.0,
             "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "More ways for Singapore retail investors to buy gold, but volatility remains a risk",
-            "description": "As banks widen gold access, experts say the metal still carries risks for local investors.",
-            "source": "CNA",
-            "published_at": "2026-11-23T22:00:00Z",
-            "url": "https://www.channelnewsasia.com/singapore/physical-gold-investing-bank-6571501",
-            "sentiment_score": -0.3563,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "5 things to watch on the ASX 200 on Tuesday",
-            "description": "It looks set to be a much better session for Aussie investors today.\nThe post 5 things to watch on the ASX 200 on Tuesday appeared first on The Motley Fool Australia.",
-            "source": "Motley Fool Australia",
-            "published_at": "2026-11-23T20:38:55Z",
-            "url": "https://www.fool.com.au/2026/11/24/5-things-to-watch-on-the-asx-200-on-tuesday-24-november-2026/",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "India's great shaadi circus: The price of happily ever after",
-            "description": "Somewhere in India right now, a groom is being lifted onto a horse that has never met him. Give or take half a second, another one is.",
-            "source": "The Times of India",
-            "published_at": "2026-11-23T17:23:07Z",
-            "url": "https://timesofindia.indiatimes.com/toi-blogs/satire-wit/indias-great-shaadi-circus-the-price-of-happily-ever-after/articleshow/136110342.cms",
-            "sentiment_score": 0.579,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "DSP Mutual Fund set to boost gold and silver exposure: Inside its price-based buying strategy",
-            "description": "Rather than increasing exposure during market rallies, DSP plans to accumulate the metals in phases as international prices decline. The fund house said the pace of purchases could be adjusted depending on market conditions.",
-            "source": "Livemint",
-            "published_at": "2026-11-23T13:21:53Z",
-            "url": "https://www.livemint.com/money/personal-finance/dsp-mutual-fund-set-to-boost-gold-and-silver-exposure-inside-its-price-based-buying-strategy-11795435247003.html",
-            "sentiment_score": 0.2813,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold vs Bitcoin: Bitcoin's chances of beating gold fall from 47% to 19% on Kalshi. What should investors know?",
-            "description": "Kalshi traders now give Bitcoin just a 19% chance of outperforming gold in 2026, down from 47% in September. The shift reflects Bitcoin's weaker relative performance and revives the debate over whether it can truly rival gold as a store of value.",
-            "source": "Livemint",
-            "published_at": "2026-11-23T12:47:03Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-vs-bitcoin-bitcoins-chances-of-beating-gold-fall-from-47-to-19-on-kalshi-what-should-investors-know-11795437774269.html",
-            "sentiment_score": 0.0083,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price forecast: Goldman Sachs sees $4,650 by 2027 despite US rate pressures — what investors should do",
-            "description": "Goldman Sachs expects gold prices to reach $4,650 per ounce by 2027, outperforming silver as central bank purchases remain strong. Here's what its gold price forecast means for investors amid higher US interest rates and changing investment demand.",
-            "source": "Livemint",
-            "published_at": "2026-11-23T09:31:47Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-price-forecast-goldman-sachs-sees-4-650-by-2027-despite-us-rate-pressures-what-investors-should-do-11795423263881.html",
-            "sentiment_score": 0.3816,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold vs Bitcoin: Gold Fell to an August 2025 Low, and One BTC Buys 17 Ounces",
-            "description": "Gold closed at $3,515.40 on Nov. 20, its lowest since August 2025, while one Bitcoin now buys about 17 ounces of gold, up from 12.4 in February.",
-            "source": "Dcforecasts.com",
-            "published_at": "2026-11-23T09:15:58Z",
-            "url": "https://www.dcforecasts.com/bitcoin-news/gold-vs-bitcoin-august-2025-low-btc-17-ounces/",
-            "sentiment_score": -0.3058,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price crash with 31% correction: Why investors should wait for November 25, December 4 and 9 - What’s special?",
-            "description": "Gold has fallen sharply from its January record. Check the 3 US dates, 25 Nov, 4 Dec and 9 Dec, that could decide gold’s next move in India.",
-            "source": "Livemint",
-            "published_at": "2026-11-23T07:30:38Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-price-crash-with-31-correction-why-investors-should-wait-for-november-25-december-4-and-9-what-s-special-11795416367221.html",
-            "sentiment_score": -0.1084,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Greatland Resources Shares Climb Nearly 5% as Gold Miners Bounce Back After Brutal Week for ASX Resources",
-            "description": "Greatland Resources shares rose nearly 5% as Australian mining stocks recovered from a severe sell-off, although the gold and copper producer remains exposed to volatile bullion prices.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-23T06:31:08Z",
-            "url": "https://www.ibtimes.com.au/greatland-resources-shares-rebound-australian-miners-1879187",
-            "sentiment_score": -0.3617,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price prediction today: What's the gold outlook for November 23, 2026 week?",
-            "description": "Gold price prediction today: Gold is showing an initial recovery near Rs 1,24,330 after a sharp and prolonged correction from the February-March highs above Rs 1,60,000. However, the daily chart continues to reflect a distinctly bearish broader structure, wit…",
-            "source": "The Times of India",
-            "published_at": "2026-11-23T06:08:46Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-price-prediction-today-what-is-the-gold-rate-outlook-for-november-23-2026-week-should-you-buy-or-sell-mcx-gold-us-iran-war-middle-east-us-fed-rate-hike/articleshow/136091497.cms",
-            "sentiment_score": 0.0,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold price rebounds after biggest weekly crash in eight months: What triggered the recovery?",
-            "description": "Gold prices rebounded on November 23 after a 9% weekly crash, supported by a technology-stock sell-off, AI spending concerns, falling US Treasury yields and a weaker dollar. Here's what triggered the recovery and whether bullion can sustain its gains.",
-            "source": "Livemint",
-            "published_at": "2026-11-23T05:48:14Z",
-            "url": "https://www.livemint.com/money/personal-finance/gold-price-rebounds-after-biggest-weekly-crash-in-eight-months-what-triggered-the-recovery-11795410813111.html",
-            "sentiment_score": -0.3347,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Shimla jewellers see opportunity during wedding season amid sharp decline in gold, silver prices; check retail rates",
-            "description": "Sharp declines in gold and silver prices have boosted customer interest and jewellery bookings in Shimla during the wedding season. Jewellers say lower prices offer consumers an opportunity, though the steep correction has caused losses for traders and gold l…",
-            "source": "Livemint",
-            "published_at": "2026-11-23T04:47:01Z",
-            "url": "https://www.livemint.com/money/gold-silver-prices-shimla-jewellers-opportunity-wedding-season-sharp-decline-in-check-retail-rates-himachal-city-mumbai-11795400397897.html",
-            "sentiment_score": 0.4531,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "MCX gold prices rise Rs 2,800/10g after 5-day fall, silver jumps Rs 3,600/kg despite increasing rate hike bets. Here’s why",
-            "description": "Gold and silver rebounded on MCX after sharp losses, with oversold conditions supporting prices as investors awaited US PCE inflation data. Fed rate expectations, geopolitical tensions and crude oil volatility remain key drivers, while analysts advise caution.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-23T04:36:20Z",
-            "url": "https://m.economictimes.com/markets/commodities/news/mcx-gold-prices-rise-rs-2800/10g-after-5-day-fall-silver-jumps-rs-3600/kg-despite-increasing-rate-hike-bets-heres-why/articleshow/136089223.cms",
-            "sentiment_score": -0.2229,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold falls to Rs 1.21 lakh, silver plunges 16.2%; analysts warn of further losses",
-            "description": "On the Multi Commodity Exchange (MCX), December gold futures shed Rs 14,927, or 11%, over the past week, settling at Rs 1,21,778 per 10 grams. The contract touched a low not seen in more than a year. Gold was last traded at a comparable level on October 30, 2…",
-            "source": "The Times of India",
-            "published_at": "2026-11-23T02:35:00Z",
-            "url": "https://timesofindia.indiatimes.com/business/india-business/gold-falls-11-to-rs-1-21-lakh-and-silver-plunges-16-2-to-rs-1-47-lakh-in-a-week-to-over-one-year-lows-analysts-warn-prices-may-slide-further-as-us-inflation-data-and-federal-reserve-rate-signals-shape-outlook/articleshow/136078753.cms",
-            "sentiment_score": -0.4156,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "XAU",
-            "title": "Gold recovers from 14-month low; focus turns to US inflation data",
-            "description": "Gold prices experienced an upswing during morning transactions, driven by investor anticipation of a key inflation report. This rise comes after a steep decline that brought gold to a 14-month low just last week. US Federal Reserve representatives continue to…",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-23T01:59:53Z",
-            "url": "https://m.economictimes.com/markets/commodities/news/gold-recovers-from-14-month-low-focus-turns-to-us-inflation-data/articleshow/136086840.cms",
-            "sentiment_score": -0.2446,
-            "sentiment_label": "ลบเล็กน้อย"
           }
         ]
       },
       "quote_sentiment": {
-        "average_score": -0.0411,
-        "label": "เป็นกลาง (Neutral)",
-        "article_count": 30,
+        "average_score": 0.0982,
+        "label": "บวกเล็กน้อย",
+        "article_count": 29,
         "scored_articles": [
+          {
+            "currency": "USD",
+            "title": "Gold’s Comeback May Have to Wait",
+            "description": "Gold’s near-term gains were likely to be limited as investors may be reluctant to rebuild bullish bets into the year-end with a December Fed rate increase heavily priced in, OCBC said.",
+            "source": "Biztoc.com",
+            "published_at": "2026-11-25T04:31:20Z",
+            "url": "https://biztoc.com/x/2bdc0b2d5ad5e5f1",
+            "sentiment_score": 0.0607,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "US banks want access to Fed funding on holidays as Wall Street prepares for longer settlement hours",
+            "description": "Thirty-five of 56 domestic banks surveyed valued Sunday and weekday-holiday loan access, while CME’s Thanksgiving schedule shows where Bitcoin futures margin waits.\nRead the full story on CryptoSlateUnderstand the crypto stories that matter and what to watch …",
+            "source": "CryptoSlate",
+            "published_at": "2026-11-25T04:20:06Z",
+            "url": "https://cryptoslate.com/feds-survey-finds-demand-for-a-holiday-cash-backstop/",
+            "sentiment_score": 0.4459,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Why Your Thanksgiving Turkey Costs More, Explained by Comrade Mamdani",
+            "description": "New York City’s socialist mayor, Zohran Mamdani, was asked a pretty simple question at a conference a few days ago. The journalist Andrew Ross Sorkin asked Mamdani about his plan to open city-owned grocery stores that sell food at a 30% discount; Sorkin point…",
+            "source": "Lewrockwell.com",
+            "published_at": "2026-11-25T04:01:00Z",
+            "url": "https://www.lewrockwell.com/2026/11/no_author/why-your-thanksgiving-turkey-costs-more-explained-by-comrade-mamdani/",
+            "sentiment_score": 0.1482,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold, silver prices today 25 November, Wed: Latest 24K, 22K gold, 999 silver rates in Delhi, Mumbai, Kolkata and others",
+            "description": "Gold and silver prices remained under pressure on Wednesday, 25 November, amid global market uncertainty. Check the latest 24K, 22K gold and 999 silver rates across major Indian cities, along with key factors influencing precious metal prices.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T03:52:47Z",
+            "url": "https://www.livemint.com/money/personal-finance/gold-silver-prices-today-25-november-wed-latest-24k-22k-gold-999-silver-rates-in-delhi-mumbai-kolkata-and-others-11795576136181.html",
+            "sentiment_score": 0.0077,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Market trades in green: BSE Sensex jumps over 1500 points; Nifty50 tops 25,700",
+            "description": "Asian markets fell sharply on Wednesday as renewed US tariff threats and fading momentum in the AI-led rally weighed on investor sentiment. Chip-heav",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:30:12Z",
+            "url": "https://timesofindia.indiatimes.com/business/india-business/sensex-stock-market-today-25-november-2026-live-updates-nse-bse-gift-nifty-50-top-gainers-losers-mcx-stocks-in-focus-market-news/liveblog/136147030.cms",
+            "sentiment_score": 0.231,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Wall Street jitters: Nasdaq retreats after Nvidia-fuelled rally; Anthropic slips below IPO price",
+            "description": "Wall Street retreated on Tuesday as technology stocks gave back some of the previous day's sharp gains, with investors booking profits and turning",
+            "source": "The Times of India",
+            "published_at": "2026-11-25T03:18:02Z",
+            "url": "https://timesofindia.indiatimes.com/business/international-business/wall-street-jitters-nasdaq-retreats-after-nvidia-fuelled-rally-anthropic-slips-below-ipo-price/articleshow/136146455.cms",
+            "sentiment_score": 0.1946,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Stock Market LIVE: GIFT Nifty jumps 200 pts; Kospi down 5% as AI-trade unwind",
+            "description": "Sensex Today | Stock Market LIVE Updates Wednesday: The GIFT Nifty indicated a gap-up open for the Nifty50 index. Asian markets reversed gains amid a sell-off in technology stocks",
+            "source": "Business Standard",
+            "published_at": "2026-11-25T02:17:33Z",
+            "url": "https://www.business-standard.com/markets/news/stock-market-live-november-25-gift-nifty-bse-sensex-today-nifty50-crude-oil-prices-ipo-today-126112500069_1.html",
+            "sentiment_score": 0.7705,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Should RBI let the rupee 'find its own level'?",
+            "description": "There’s a case for emerging markets to intervene so that moves by the US Federal Reserve don’t guide their currency. Institutionalized mechanisms to check their efficacy can help inspire market confidence.",
+            "source": "Livemint",
+            "published_at": "2026-11-25T02:00:31Z",
+            "url": "https://www.livemint.com/opinion/online-views/rbis-currency-interventions-its-time-for-an-assessment-11795529270372.html",
+            "sentiment_score": 0.2597,
+            "sentiment_label": "บวกชัดเจน (Bullish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "The US dollar remained steady as traders awaited important inflation and growth data prior to December. Economists expect the Federal Reserve to increase interest rates, which is currently predicted at 97%. In Japan, service-sector prices surged to a 36-year …",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:58:10Z",
+            "url": "https://m.economictimes.com/markets/forex/forex-news/dollar-takes-breather-ahead-of-us-data-on-fed-path-aussie-jumps-on-cpi/articleshow/136145689.cms",
+            "sentiment_score": 0.2467,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Gold ticks lower ahead of US inflation data",
+            "description": "Gold prices dipped slightly following a notable drop, primarily influenced by the Federal Reserve's aggressive stance on interest rates. Investors are on high alert as US inflation data is set to be released later today. Meanwhile, consumer confidence has sur…",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T01:56:22Z",
+            "url": "https://m.economictimes.com/markets/commodities/news/gold-ticks-lower-ahead-of-us-inflation-data/articleshow/136145643.cms",
+            "sentiment_score": 0.0029,
+            "sentiment_label": "เป็นกลาง (Neutral)"
+          },
+          {
+            "currency": "USD",
+            "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+            "description": "TOKYO, Nov 25 : The US dollar took a breather on Wednesday ahead of inflation and growth data, the last major readings before a December Federal Reserve policy meeting at which traders see a 97 per cent chance of an interest rate hike.The yen held steady foll…",
+            "source": "CNA",
+            "published_at": "2026-11-25T01:19:16Z",
+            "url": "https://www.channelnewsasia.com/business/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-6580096",
+            "sentiment_score": 0.2295,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Global Market Today: Asian stocks fall as AI trade doubts resurface",
+            "description": "The MSCI Asia Pacific Index slipped 0.6%, losing ground after posting its biggest rally since July on Tuesday. The losses were led by South Korea’s Kospi index, which declined 3.7%.",
+            "source": "Economictimes.com",
+            "published_at": "2026-11-25T00:57:44Z",
+            "url": "https://m.economictimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-ai-trade-doubts-resurface/articleshow/136145030.cms",
+            "sentiment_score": -0.4018,
+            "sentiment_label": "ลบชัดเจน (Bearish)"
+          },
+          {
+            "currency": "USD",
+            "title": "Ringgit opens slightly higher on expectations of longer-term US rate cuts",
+            "description": "The movement reflects market expectations that the US Federal Reserve could eventually lower interest rates in late 2027 or early 2028, says analyst.",
+            "source": "Free Malaysia Today",
+            "published_at": "2026-11-25T00:35:00Z",
+            "url": "https://www.freemalaysiatoday.com/category/business/2026/11/25/ringgit-opens-slightly-higher-on-expectations-of-longer-term-us-rate-cuts",
+            "sentiment_score": -0.1465,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Nvidia shares drop 31% from peak, recovery potential eyed",
+            "description": "Nvidia's share decline prompts analysis of recovery potential, highlighting the importance of market sentiment and operational resilience.\nThe post Nvidia shares drop 31% from peak, recovery potential eyed appeared first on Crypto Briefing.",
+            "source": "Crypto Briefing",
+            "published_at": "2026-11-25T00:28:31Z",
+            "url": "https://cryptobriefing.com/nvidia-shares-drop-31-from-peak-recovery-potential-eyed/",
+            "sentiment_score": 0.1938,
+            "sentiment_label": "บวกเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Eight Reserve Banks Asked for a Higher Fed Discount Rate. The Board Said No",
+            "description": "Minutes released Nov. 24 show eight of 12 Reserve Banks wanted the primary credit rate raised to 4.25% by Oct. 28, more than asked before September's hike. The Board held at 4%.",
+            "source": "Dcforecasts.com",
+            "published_at": "2026-11-25T00:23:24Z",
+            "url": "https://www.dcforecasts.com/bitcoin-news/fed-discount-rate-eight-reserve-banks-asked-for-hike/",
+            "sentiment_score": -0.0927,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
+          {
+            "currency": "USD",
+            "title": "Blobtastic",
+            "description": "Puke: Former Federal Reserve Chairman Alan Greenspan died last June 22 at age 100. Next Monday, the Council on Foreign Relations (CFR), of which he was a longtime member, is having a members-only celebration of Greenspan, in which “panelists who worked alongs…",
+            "source": "Lawyersgunsmoneyblog.com",
+            "published_at": "2026-11-25T00:21:52Z",
+            "url": "https://www.lawyersgunsmoneyblog.com/2026/11/blobtastic",
+            "sentiment_score": -0.2372,
+            "sentiment_label": "ลบเล็กน้อย"
+          },
           {
             "currency": "USD",
             "title": "FEDS Paper: Collateral Mobility and the Lender of Last Resort",
@@ -2168,199 +2048,29 @@
             "url": "https://dailyreckoning.com/post/dow-70-000",
             "sentiment_score": 0.1176,
             "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price",
-            "description": "Bitcoin gave up gains above $60,000 as tariff concerns weighed on US stocks and Anthropic shares hit new lows below $76.",
-            "source": "Cointelegraph",
-            "published_at": "2026-11-24T17:09:11Z",
-            "url": "https://cointelegraph.com/markets/bitcoin-slides-us-tariff-nerves-anthropic-falls-ipo-price",
-            "sentiment_score": 0.0546,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "‘Too Big to Fail’? Trump’s Jensen Huang Rescue Seen as First Government Bailout of AI Industry",
-            "description": "A familiar phrase is once again bubbling up after President Donald Trump's abrupt intervention to restore CEO Jensen Huang to the helm of Nvidia caused the tech company's market value to rise by nearly a trillion dollars Monday—amounting to more than a third …",
-            "source": "Common Dreams",
-            "published_at": "2026-11-24T16:57:14Z",
-            "url": "https://www.commondreams.org/news/trump-nvidia-jensen-huang-too-big-to-fail",
-            "sentiment_score": 0.4755,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are the World’s Top Literary Scholars Being Targeted by a Chinese Spy Op?",
-            "description": "A mysterious literary academy with ties to China has claimed some of the biggest Ivy League and Oxbridge academics as its members. But US intelligence experts tell Vanity Fair they suspect the society is being used for ulterior motives.",
-            "source": "Vanity Fair",
-            "published_at": "2026-11-24T16:41:21Z",
-            "url": "https://www.vanityfair.com/story/worlds-top-literary-scholars-targeted-by-chinese-spy-op",
-            "sentiment_score": 0.2765,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Consumer confidence shoots up after Democrats' midterm victories — though inflation worries persist",
-            "description": "The Conference Board survey released Tuesday showed improvement across the board, with the headline confidence index jumping to 103.3.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T16:06:07Z",
-            "url": "https://www.cnbc.com/2026/11/24/consumer-confidence-november-election-midterm.html",
-            "sentiment_score": 0.3125,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Kushner-backed OakNorth secures U.S. bank charter as global digital banks push into America",
-            "description": "U.K. digital bank OakNorth has secured a U.S. national bank charter as it seeks to expand amid growing competition from international rivals.",
-            "source": "CNBC",
-            "published_at": "2026-11-24T15:34:10Z",
-            "url": "https://www.cnbc.com/2026/11/24/oaknorth-us-bank-charter.html",
-            "sentiment_score": 0.43,
-            "sentiment_label": "บวกชัดเจน (Bullish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9",
-            "description": "The post Bill Ackman Says the Fed Is “About to Make Another Mistake” on Dec. 9 appeared first on 24/7 Wall St..\nBill Ackman challenged the Federal Reserve on Sunday, and about 3.8 million people had viewed his post by Monday evening. Writing on X at 5:21 p.m.…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:32:35Z",
-            "url": "https://biztoc.com/x/779c45e619785f31",
-            "sentiment_score": -0.0308,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Are Banks Open on Thanksgiving Day 2026? What to Know About Branches, ATMs, Deposits and Black Friday Hours",
-            "description": "US banks will close on Thanksgiving Day, 26 November 2026, but most will reopen on Black Friday. Customers should expect some deposits and transfers to be delayed.",
-            "source": "Ibtimes.com.au",
-            "published_at": "2026-11-24T15:20:56Z",
-            "url": "https://www.ibtimes.com.au/are-banks-open-thanksgiving-2026-1879303",
-            "sentiment_score": -0.0987,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Goldman Sachs warns the stock rally could be a bull trap as credit lags",
-            "description": "The divergence between stock and credit markets suggests caution, as the rally may lack a solid foundation, impacting investor strategies.\nThe post Goldman Sachs warns the stock rally could be a bull trap as credit lags appeared first on Crypto Briefing.",
-            "source": "Crypto Briefing",
-            "published_at": "2026-11-24T15:07:29Z",
-            "url": "https://cryptobriefing.com/goldman-sachs-bull-trap-credit-warning/",
-            "sentiment_score": -0.3206,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Struggling Californians? Use of credit cards, home equity loans jumps",
-            "description": "Struggling Californians? Use of credit cards, home equity loans jumpsocregister.com",
-            "source": "OCRegister",
-            "published_at": "2026-11-24T15:03:19Z",
-            "url": "https://www.ocregister.com/2026/11/24/struggling-californians-use-of-credit-cards-home-equity-loans-jumps/",
-            "sentiment_score": -0.0516,
-            "sentiment_label": "ลบเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How",
-            "description": "The post Billionaire Bill Ackman Just Warned the Fed Could Trigger a Recession on December 9. Here’s How appeared first on 24/7 Wall St..\nThe Federal Reserve is fighting an inflation battle that investors thought was largely behind them. After raising interes…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T15:01:44Z",
-            "url": "https://biztoc.com/x/9d0f29d16b3bb511",
-            "sentiment_score": -0.6716,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Bill Ackman says the U.S. economy could be headed for another recession—and is blaming Kevin Warsh’s Fed",
-            "description": "Pershing Square CEO Bill Ackman warns if the Federal Reserve, led by Kevin Warsh, raises the base rate then it could push the US economy into a recession.",
-            "source": "Fortune",
-            "published_at": "2026-11-24T14:59:06Z",
-            "url": "https://fortune.com/2026/11/24/bill-ackman-recession-inflation-federal-reserve-target/",
-            "sentiment_score": -0.4939,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "Fitch sets 'neutral' global sovereign rating outlook, warns of debt, war and AI risks",
-            "description": "The rating agency expects global growth of about 2.5% next year, supported by resilient US consumer spending and a boom in AI spending, while oil prices and inflation should ease as tensions between the United States and Iran dial down.",
-            "source": "Economictimes.com",
-            "published_at": "2026-11-24T14:51:30Z",
-            "url": "https://m.economictimes.com/news/international/business/fitch-sets-neutral-global-sovereign-rating-outlook-warns-of-debt-war-and-ai-risks/articleshow/136134422.cms",
-            "sentiment_score": -0.3578,
-            "sentiment_label": "ลบชัดเจน (Bearish)"
-          },
-          {
-            "currency": "USD",
-            "title": "fx-spot-dates added to PyPI",
-            "description": "FX settlement holidays and T+2 spot value dates for USD, EUR (TARGET2), GBP, JPY, AUD, NZD. Standard library only.",
-            "source": "Pypi.org",
-            "published_at": "2026-11-24T14:51:06Z",
-            "url": "https://pypi.org/project/fx-spot-dates/",
-            "sentiment_score": 0.1837,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "Federal Reserve Official Says More Action Needed To Bring Inflation Down",
-            "description": "New York Federal Reserve President John Williams has signalled that further interest rate increases may be necessary to bring inflation back under control, although he favours a measured approach.\n\nSpeaking at the University of Mount Saint Vincent on Monday…",
-            "source": "Biztoc.com",
-            "published_at": "2026-11-24T14:31:19Z",
-            "url": "https://biztoc.com/x/cd686f8d30f3c3ec",
-            "sentiment_score": 0.2101,
-            "sentiment_label": "บวกเล็กน้อย"
-          },
-          {
-            "currency": "USD",
-            "title": "No Meaningful Distinction Between Public and Private",
-            "description": "It's almost like the Trump administration plays by one set of rules for the people it likes and a totally different set of rules for the people that it doesn't.",
-            "source": "Reason",
-            "published_at": "2026-11-24T14:29:57Z",
-            "url": "https://reason.com/2026/11/24/no-meaningful-distinction-between-public-and-private/",
-            "sentiment_score": 0.0469,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "Mortgage Rates Today, Tuesday, November 24: Lower, But …",
-            "description": "Mortgage interest rates are down this morning, but could seesaw back up tomorrow.",
-            "source": "NerdWallet",
-            "published_at": "2026-11-24T14:08:29Z",
-            "url": "https://www.nerdwallet.com/mortgages/news/mortgage-rates-today-tuesday-november-24-2026",
-            "sentiment_score": -0.0322,
-            "sentiment_label": "เป็นกลาง (Neutral)"
-          },
-          {
-            "currency": "USD",
-            "title": "I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism",
-            "description": "My trip into algorithmic conspiracy hell.\nThe post I Created a Completely Fresh Instagram Account, Searched for Some Innocuous Terms Related to Judaism, and My Feed Almost Instantly Became a Cesspool of Overt Nazism appeared first on Futurism.",
-            "source": "Futurism",
-            "published_at": "2026-11-24T14:00:00Z",
-            "url": "https://futurism.com/future-society/instagram-judaism-nazism-recommendations",
-            "sentiment_score": 0.1913,
-            "sentiment_label": "บวกเล็กน้อย"
           }
         ]
       },
-      "net_score": -0.0337,
-      "bias": "ไม่มีความเอียงชัดเจนจากข่าว (สัญญาณอ่อน/เป็นกลาง)",
+      "net_score": -0.1589,
+      "bias": "เอียงลบต่อ XAU (มีแนวโน้มกดราคาลง)",
       "signal_risk_evaluation": {
-        "confidence_level": "ต่ำ",
-        "reason": "คะแนน sentiment อ่อน ไม่ชัดเจนพอ",
+        "confidence_level": "ปานกลาง",
+        "reason": "มีความเอียงพอสมควร แต่ควรยืนยันด้วย technical analysis ร่วมด้วย",
         "warning": "คำเตือน: สัญญาณจากข่าวเพียงอย่างเดียวไม่ควรใช้ตัดสินใจเข้าเทรด ควรใช้ร่วมกับ technical analysis, risk management ที่เข้มงวด และไม่ควรถือเป็นคำแนะนำการลงทุน"
       }
     },
     "technical": {
       "pair": "XAUUSD",
-      "price_now": 3617.80005,
+      "price_now": 3625.8999,
       "ma_signal": "ขาลง (เส้นเร็วอยู่ใต้เส้นช้า)",
       "ma_crossed_this_bar": false,
-      "rsi_value": 62.8,
-      "rsi_signal": "โซนกลาง (RSI=62.8)",
+      "rsi_value": 61.4,
+      "rsi_signal": "โซนกลาง (RSI=61.4)",
       "macd_signal": "โมเมนตัมขาขึ้น (MACD เหนือ signal)",
-      "atr_value": 31.05428,
-      "suggested_sl_distance": 46.58142,
-      "bb_signal": "ราคาทะลุกรอบบน (ตึงด้านบน อาจย่อ)",
-      "technical_vote": -1,
+      "atr_value": 29.55599,
+      "suggested_sl_distance": 44.33399,
+      "bb_signal": "ราคาอยู่ในกรอบปกติ",
+      "technical_vote": 0,
       "technical_bias": "ไม่ชัดเจน (NEUTRAL)",
       "trend_direction": "none",
       "trend_label": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน)",
@@ -2372,6 +2082,6 @@
       "confidence": "-",
       "reason": "ไม่มีเทรนด์ชัด (MA กับ MACD ขัดกัน) — ไม่เทรดตอนไม่มีเทรนด์"
     },
-    "generated_at": "2026-11-25T22:20:43.676185+00:00"
+    "generated_at": "2026-11-26T04:52:27.828793+00:00"
   }
 ]
